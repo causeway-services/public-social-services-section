@@ -1,0 +1,34 @@
+{
+  "name": "@emsenn/newswire-editorial-production",
+  "version": "0.1.0",
+  "type": "module",
+  "description": "Separately hireable prose production that procures bounded inference without taking publication authority.",
+  "bin": {
+    "solicit-service": "./src/contract-prose-contribution.mjs",
+    "invoke-service": "./src/contract-prose-contribution.mjs"
+  },
+  "scripts": {
+    "check": "node --check src/contract-prose-contribution.mjs && node --check test/contract-prose-contribution.test.mjs",
+    "test": "node --test test/contract-prose-contribution.test.mjs",
+    "verify": "npm run check && npm test"
+  },
+  "engines": { "node": ">=18" },
+  "x-agentic-metro-enterprise": {
+    "node-id": "newswire-editorial-production",
+    "membrane": { "law": "lib/", "lasting-instances": "content/", "append-only-instances": "data/" },
+    "operation-catalog": {
+      "solicit-service": {
+        "contract": "newswire-editorial-production/prose-contribution/v1",
+        "accepts": "ActivityStreams Offer<ServiceSolicitation>",
+        "returns": "ActivityStreams Offer<ExecutableServiceOffer>|Reject",
+        "timeoutMs": 30000
+      },
+      "invoke-service": {
+        "contract": "newswire-editorial-production/prose-contribution/v1",
+        "accepts": "ActivityStreams Accept<ServiceContract>",
+        "returns": "ActivityStreams Accept<ProseContributionDelivery>|Reject",
+        "timeoutMs": 1200000
+      }
+    }
+  }
+}

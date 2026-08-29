@@ -1,0 +1,69 @@
+{
+  "subject": "how-s-this-joker-got-my-details-brewdog-founder-faces-complaints-over-emails-to-equity-punks",
+  "claims": [
+    {
+      "id": "title",
+      "proposition": {
+        "predicate": "title",
+        "object": "‘How’s this joker got my details?’: BrewDog founder faces complaints over emails to ‘equity punks’"
+      },
+      "time": {
+        "asserted": "2026-07-18T08:09:57.084Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "economy",
+        "citation": "https://www.theguardian.com/business/2026/jul/17/brewdog-founder-james-watt-faces-data-privacy-complaints-over-emails-to-equity-punks"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "url",
+      "proposition": {
+        "predicate": "url",
+        "object": "https://www.theguardian.com/business/2026/jul/17/brewdog-founder-james-watt-faces-data-privacy-complaints-over-emails-to-equity-punks"
+      },
+      "time": {
+        "asserted": "2026-07-18T08:09:57.084Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "economy",
+        "citation": "https://www.theguardian.com/business/2026/jul/17/brewdog-founder-james-watt-faces-data-privacy-complaints-over-emails-to-equity-punks"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "summary",
+      "proposition": {
+        "predicate": "summary",
+        "object": "<p>Exclusive: Watchdog asked to look into how James Watt got data of ex-crowdfunders he invited to join buy-back bid</p><p>James Watt, the BrewDog founder who <a href=\"https://www.theguardian.com/business/2026/mar/02/brewdog-us-cannabis-drinks-500-jobs\">sold the debt-laden “punk” brewer earlier this year</a>, is the subject of complaints to the UK’s data privacy watchdog linked to his surprise bid to buy the company back, the Guardian has learned.</p><p>BrewDog’s brand, intellectual property, UK breweries and 11 bars were sold to the US cannabis and drinks firm Tilray in March for £33m, in a deal that rendered <a href=\"https://www.theguardian.com/business/2026/feb/16/brewdog-sale-equity-punk-investors-steaming\">the shares of more than 200,000 crowdfunding investors worthless</a>.</p> <a href=\"https://www.theguardian.com/business/2026/jul/17/brewdog-founder-james-watt-faces-data-privacy-complaints-over-emails-to-equity-punks\">Continue reading...</a>"
+      },
+      "time": {
+        "asserted": "2026-07-18T08:09:57.084Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "economy",
+        "citation": "https://www.theguardian.com/business/2026/jul/17/brewdog-founder-james-watt-faces-data-privacy-complaints-over-emails-to-equity-punks"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "published",
+      "proposition": {
+        "predicate": "published",
+        "object": "Fri, 17 Jul 2026 06:00:02 GMT"
+      },
+      "time": {
+        "asserted": "2026-07-18T08:09:57.084Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "economy",
+        "citation": "https://www.theguardian.com/business/2026/jul/17/brewdog-founder-james-watt-faces-data-privacy-complaints-over-emails-to-equity-punks"
+      },
+      "status": "supported"
+    }
+  ]
+}

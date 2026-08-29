@@ -1,0 +1,69 @@
+{
+  "subject": "surviving-extreme-heat-increasingly-boils-down-to-this-access-to-air-conditioning-mark-wolfe",
+  "claims": [
+    {
+      "id": "title",
+      "proposition": {
+        "predicate": "title",
+        "object": "Surviving extreme heat increasingly boils down to this: access to air conditioning | Mark Wolfe"
+      },
+      "time": {
+        "asserted": "2026-07-18T19:52:19.415Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "environment",
+        "citation": "https://www.theguardian.com/commentisfree/2026/jul/15/air-conditioning-access-extreme-heat"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "url",
+      "proposition": {
+        "predicate": "url",
+        "object": "https://www.theguardian.com/commentisfree/2026/jul/15/air-conditioning-access-extreme-heat"
+      },
+      "time": {
+        "asserted": "2026-07-18T19:52:19.415Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "environment",
+        "citation": "https://www.theguardian.com/commentisfree/2026/jul/15/air-conditioning-access-extreme-heat"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "summary",
+      "proposition": {
+        "predicate": "summary",
+        "object": "<p>The next great climate divide will be between countries that have the resources to adapt and those that don’t</p><p>This summer, much of the media’s attention has focused on record temperatures across Europe and the United States. Television coverage has been filled with familiar images: heat maps shaded deep red, schools closing, rail lines slowing, wildfires spreading and emergency rooms treating growing numbers of people with heat-related illnesses.</p><p>Public officials have responded with equally familiar advice: stay indoors, drink plenty of water and, if possible, turn on the air conditioning.</p> <a href=\"https://www.theguardian.com/commentisfree/2026/jul/15/air-conditioning-access-extreme-heat\">Continue reading...</a>"
+      },
+      "time": {
+        "asserted": "2026-07-18T19:52:19.415Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "environment",
+        "citation": "https://www.theguardian.com/commentisfree/2026/jul/15/air-conditioning-access-extreme-heat"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "published",
+      "proposition": {
+        "predicate": "published",
+        "object": "Wed, 15 Jul 2026 12:00:55 GMT"
+      },
+      "time": {
+        "asserted": "2026-07-18T19:52:19.415Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "environment",
+        "citation": "https://www.theguardian.com/commentisfree/2026/jul/15/air-conditioning-access-extreme-heat"
+      },
+      "status": "supported"
+    }
+  ]
+}

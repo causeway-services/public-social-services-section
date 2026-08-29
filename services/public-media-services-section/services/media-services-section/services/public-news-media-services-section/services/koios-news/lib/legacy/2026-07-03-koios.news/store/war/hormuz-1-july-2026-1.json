@@ -1,0 +1,69 @@
+{
+  "subject": "hormuz-1-july-2026-1",
+  "claims": [
+    {
+      "id": "title",
+      "proposition": {
+        "predicate": "title",
+        "object": "Hormuz 1 July 2026 #1"
+      },
+      "time": {
+        "asserted": "2026-07-18T04:08:32.989Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "war",
+        "citation": "https://www.crisisgroup.org/content/hormuz-1-july-2026-1"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "url",
+      "proposition": {
+        "predicate": "url",
+        "object": "https://www.crisisgroup.org/content/hormuz-1-july-2026-1"
+      },
+      "time": {
+        "asserted": "2026-07-18T04:08:32.989Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "war",
+        "citation": "https://www.crisisgroup.org/content/hormuz-1-july-2026-1"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "summary",
+      "proposition": {
+        "predicate": "summary",
+        "object": "<span>Hormuz 1 July 2026 #1</span> <span><span>lalasor</span></span> <span><time datetime=\"2026-07-03T16:41:06+02:00\" title=\"Friday, July 3, 2026 - 16:41\">Fri, 07/03/2026 - 16:41</time> </span> <a href=\"https://www.crisisgroup.org/strait-hormuz\" hreflang=\"en\">Strait of Hormuz</a> <div class=\"paragraph paragraph--type--timeline-date paragraph--view-mode--default\"> <time datetime=\"2026-07-03T12:00:00Z\">Fri, 07/03/2026 - 12:00</time> 1 July 2026 <p><span style=\"background-color:#ffffff;color:#101010;font-family:Arial,sans-serif;font-size:10pt;font-style:normal;font-variant:normal;font-weight:400;text-decoration:none;vertical-align:baseline;white-space:pre-wrap;\">U.S. Central Command&nbsp;</span><a style=\"text-decoration:none;\" href=\"https://x.com/CENTCOM/status/2072350397386113349\" target=\"_blank\"><span style=\"-webkit-text-decoration-skip:none;background-color:#ffffff;color:#1155cc;font-family:Arial,sans-serif;font-size:10pt;font-style:normal;font-variant:normal;font-weight:400;text-decoration-skip-ink:none;text-decoration:underline;vertical-align:baseline;white-space:pre-wrap;\">announced</span></a><span style=\"background-color:#ffffff;color:#101010;font-family:Arial,sans-serif;font-size:10pt;font-style:normal;font-variant:normal;font-weight:400;text-decoration:none;vertical-align:baseline;white-space:pre-wrap;\"> that it had led a security dialogue attended by senior military officials from a dozen regional states who “discussed the current regional security environment and opportunities for enhancing defence collaboration across the region”. It noted that “leaders underscored their shared commitment to the free flow of commerce through the Strait of Hormuz”. Iran’s foreign minister&nbsp;</span><a style=\"text-decoration:none;\" href=\"https://x.com/araghchi/status/2072751070984462423\" target=\"_blank\"><span style=\"-webkit-text-decoration-skip:none;background-color:#ffffff;color:#0563c1;font-family:Arial,sans-serif;font-size:10pt;font-style:normal;font-variant:normal;font-weight:400;text-decoration-skip-ink:none;text-decoration:underline;vertical-align:baseline;white-space:pre-wrap;\">countered</span></a><span style=\"background-color:#ffffff;color:#101010;font-family:Arial,sans-serif;font-size:10pt;font-style:normal;font-variant:normal;font-weight:400;text-decoration:none;vertical-align:baseline;white-space:pre-wrap;\"> that “p</span><span style=\"background-color:#ffffff;color:#0f1419;font-family:Arial,sans-serif;font-size:10pt;font-style:normal;font-variant:normal;font-weight:400;text-decoration:none;vertical-align:baseline;white-space:pre-wrap;\">eace in our region can only be sustained when comprehensive and inclusive, with no outside interference”</span><span style=\"background-color:#ffffff;color:#101010;font-family:Arial,sans-serif;font-size:10pt;font-style:normal;font-variant:normal;font-weight:400;text-decoration:none;vertical-align:baseline;white-space:pre-wrap;\">.&nbsp;</span></p> </div>"
+      },
+      "time": {
+        "asserted": "2026-07-18T04:08:32.989Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "war",
+        "citation": "https://www.crisisgroup.org/content/hormuz-1-july-2026-1"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "published",
+      "proposition": {
+        "predicate": "published",
+        "object": "Fri, 03 Jul 2026 14:41:06 +0000"
+      },
+      "time": {
+        "asserted": "2026-07-18T04:08:32.989Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "war",
+        "citation": "https://www.crisisgroup.org/content/hormuz-1-july-2026-1"
+      },
+      "status": "supported"
+    }
+  ]
+}

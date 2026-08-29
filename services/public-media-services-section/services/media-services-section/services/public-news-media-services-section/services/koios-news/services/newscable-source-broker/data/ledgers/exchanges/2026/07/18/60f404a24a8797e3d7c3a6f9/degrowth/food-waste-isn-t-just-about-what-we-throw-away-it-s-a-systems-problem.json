@@ -1,0 +1,69 @@
+{
+  "subject": "food-waste-isn-t-just-about-what-we-throw-away-it-s-a-systems-problem",
+  "claims": [
+    {
+      "id": "title",
+      "proposition": {
+        "predicate": "title",
+        "object": "Food waste isn’t just about what we throw away, it’s a systems problem"
+      },
+      "time": {
+        "asserted": "2026-07-18T08:15:59.494Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "degrowth",
+        "citation": "https://www.resilience.org/stories/2026-07-10/food-waste-isnt-just-about-what-we-throw-away-its-a-systems-problem/"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "url",
+      "proposition": {
+        "predicate": "url",
+        "object": "https://www.resilience.org/stories/2026-07-10/food-waste-isnt-just-about-what-we-throw-away-its-a-systems-problem/"
+      },
+      "time": {
+        "asserted": "2026-07-18T08:15:59.494Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "degrowth",
+        "citation": "https://www.resilience.org/stories/2026-07-10/food-waste-isnt-just-about-what-we-throw-away-its-a-systems-problem/"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "summary",
+      "proposition": {
+        "predicate": "summary",
+        "object": "Across discussions on policy, technology, supply chains, and community partnerships at a food waste summit earlier this year, a different pattern emerged: food waste rarely appeared as an isolated issue. Instead, it surfaced as a signal of deeper system failures."
+      },
+      "time": {
+        "asserted": "2026-07-18T08:15:59.494Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "degrowth",
+        "citation": "https://www.resilience.org/stories/2026-07-10/food-waste-isnt-just-about-what-we-throw-away-its-a-systems-problem/"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "published",
+      "proposition": {
+        "predicate": "published",
+        "object": "Fri, 10 Jul 2026 08:00:02 +0000"
+      },
+      "time": {
+        "asserted": "2026-07-18T08:15:59.494Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "degrowth",
+        "citation": "https://www.resilience.org/stories/2026-07-10/food-waste-isnt-just-about-what-we-throw-away-its-a-systems-problem/"
+      },
+      "status": "supported"
+    }
+  ]
+}

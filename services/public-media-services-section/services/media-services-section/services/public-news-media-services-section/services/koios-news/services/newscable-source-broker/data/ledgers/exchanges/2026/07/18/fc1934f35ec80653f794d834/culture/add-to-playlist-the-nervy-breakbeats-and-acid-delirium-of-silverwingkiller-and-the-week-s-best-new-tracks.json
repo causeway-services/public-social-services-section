@@ -1,0 +1,69 @@
+{
+  "subject": "add-to-playlist-the-nervy-breakbeats-and-acid-delirium-of-silverwingkiller-and-the-week-s-best-new-tracks",
+  "claims": [
+    {
+      "id": "title",
+      "proposition": {
+        "predicate": "title",
+        "object": "Add to playlist: the nervy breakbeats and acid delirium of Silverwingkiller and the week’s best new tracks"
+      },
+      "time": {
+        "asserted": "2026-07-18T07:55:54.567Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "culture",
+        "citation": "https://www.theguardian.com/music/2026/jul/17/add-to-playlist-silverwingkiller-and-the-weeks-best-new-tracks"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "url",
+      "proposition": {
+        "predicate": "url",
+        "object": "https://www.theguardian.com/music/2026/jul/17/add-to-playlist-silverwingkiller-and-the-weeks-best-new-tracks"
+      },
+      "time": {
+        "asserted": "2026-07-18T07:55:54.567Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "culture",
+        "citation": "https://www.theguardian.com/music/2026/jul/17/add-to-playlist-silverwingkiller-and-the-weeks-best-new-tracks"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "summary",
+      "proposition": {
+        "predicate": "summary",
+        "object": "<p>The industrial dance duo make music for this summer’s heatwave: filled with dread and jangling with pent-up energy</p><p><strong>From</strong> Manchester, via Peterborough and Shanghai<br><strong>Recommended if you like</strong> Crystal Castles, <a href=\"https://www.theguardian.com/music/2026/feb/05/mandy-indiana-urgh-review-grimy-thrashing-purgative-attack-on-injustice-is-the-years-first-great-album\">Mandy, Indiana</a>, acid house<br><strong>Up next</strong> Festival dates including East London Block Party, Brighton Psych Fest and End of the Road</p><p>Salford’s Silverwingkiller sound how this summer’s heatwave feels: delirious, dread-filled and jangling with pent-up energy. Named after the Chinese title for Blade Runner, they build pummelling industrial dance music from nervy breakbeats, the acid sounds of the Roland TB-303 synthesiser and the shared sense of creative freedom that James Baca and Yushang Ni discovered on moving to Greater Manchester, from Peterborough and Shanghai respectively.</p> <a href=\"https://www.theguardian.com/music/2026/jul/17/add-to-playlist-silverwingkiller-and-the-weeks-best-new-tracks\">Continue reading...</a>"
+      },
+      "time": {
+        "asserted": "2026-07-18T07:55:54.567Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "culture",
+        "citation": "https://www.theguardian.com/music/2026/jul/17/add-to-playlist-silverwingkiller-and-the-weeks-best-new-tracks"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "published",
+      "proposition": {
+        "predicate": "published",
+        "object": "Fri, 17 Jul 2026 11:00:06 GMT"
+      },
+      "time": {
+        "asserted": "2026-07-18T07:55:54.567Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "culture",
+        "citation": "https://www.theguardian.com/music/2026/jul/17/add-to-playlist-silverwingkiller-and-the-weeks-best-new-tracks"
+      },
+      "status": "supported"
+    }
+  ]
+}

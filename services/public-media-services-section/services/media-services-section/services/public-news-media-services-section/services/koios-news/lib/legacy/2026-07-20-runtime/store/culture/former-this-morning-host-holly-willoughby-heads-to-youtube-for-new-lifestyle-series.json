@@ -1,0 +1,69 @@
+{
+  "subject": "former-this-morning-host-holly-willoughby-heads-to-youtube-for-new-lifestyle-series",
+  "claims": [
+    {
+      "id": "title",
+      "proposition": {
+        "predicate": "title",
+        "object": "Former ‘This Morning’ Host Holly Willoughby Heads to YouTube for New Lifestyle Series"
+      },
+      "time": {
+        "asserted": "2026-07-20T11:21:26.010Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "culture",
+        "citation": "https://variety.com/2026/tv/global/holly-willoughby-youtube-together-show-1236816406/"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "url",
+      "proposition": {
+        "predicate": "url",
+        "object": "https://variety.com/2026/tv/global/holly-willoughby-youtube-together-show-1236816406/"
+      },
+      "time": {
+        "asserted": "2026-07-20T11:21:26.010Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "culture",
+        "citation": "https://variety.com/2026/tv/global/holly-willoughby-youtube-together-show-1236816406/"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "summary",
+      "proposition": {
+        "predicate": "summary",
+        "object": "Holly Willoughby, best known until recently as the host of ITV’s daytime show “This Morning,” is set to make a comeback. Rather than return to ITV, however, she has opted to launch her new lifestyle series “Holly Willoughby Together” on YouTube. Premiering July 28, the show is described as a “multi-platform lifestyle series built around […]"
+      },
+      "time": {
+        "asserted": "2026-07-20T11:21:26.010Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "culture",
+        "citation": "https://variety.com/2026/tv/global/holly-willoughby-youtube-together-show-1236816406/"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "published",
+      "proposition": {
+        "predicate": "published",
+        "object": "Mon, 20 Jul 2026 11:05:25 +0000"
+      },
+      "time": {
+        "asserted": "2026-07-20T11:21:26.010Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "culture",
+        "citation": "https://variety.com/2026/tv/global/holly-willoughby-youtube-together-show-1236816406/"
+      },
+      "status": "supported"
+    }
+  ]
+}

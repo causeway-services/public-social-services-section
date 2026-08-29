@@ -1,0 +1,69 @@
+{
+  "subject": "will-russia-s-answer-to-the-falcon-9-rocket-ever-take-flight",
+  "claims": [
+    {
+      "id": "title",
+      "proposition": {
+        "predicate": "title",
+        "object": "Will Russia's answer to the Falcon 9 rocket ever take flight?"
+      },
+      "time": {
+        "asserted": "2026-07-19T02:19:57.968Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "technology",
+        "citation": "https://arstechnica.com/space/2026/07/will-russias-answer-to-the-falcon-9-rocket-ever-take-flight/"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "url",
+      "proposition": {
+        "predicate": "url",
+        "object": "https://arstechnica.com/space/2026/07/will-russias-answer-to-the-falcon-9-rocket-ever-take-flight/"
+      },
+      "time": {
+        "asserted": "2026-07-19T02:19:57.968Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "technology",
+        "citation": "https://arstechnica.com/space/2026/07/will-russias-answer-to-the-falcon-9-rocket-ever-take-flight/"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "summary",
+      "proposition": {
+        "predicate": "summary",
+        "object": "Everyone seems to be launching and landing rockets these days. Last week, China joined the club of countries that have launched an orbital mission and brought its booster safely back to Earth, which is just the beginning of public and private ventures in that country aggressively pushing into rocket reuse. Also in Asia, Japan's space agency has been conducting hop tests , and Honda recently performed vertical reuse tests . In the United States, of course, SpaceX launches and lands reusable rockets every few days. Blue Origin, although its New Glenn booster is temporarily grounded, has also demonstrated the ability to both land and re-launch a large orbital booster. Other US companies, including Stoke Space, Rocket Lab, and Relativity Space, are all making credible progress toward partially or fully reusable rockets. Read full article Comments"
+      },
+      "time": {
+        "asserted": "2026-07-19T02:19:57.968Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "technology",
+        "citation": "https://arstechnica.com/space/2026/07/will-russias-answer-to-the-falcon-9-rocket-ever-take-flight/"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "published",
+      "proposition": {
+        "predicate": "published",
+        "object": "Fri, 17 Jul 2026 16:42:19 +0000"
+      },
+      "time": {
+        "asserted": "2026-07-19T02:19:57.968Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "technology",
+        "citation": "https://arstechnica.com/space/2026/07/will-russias-answer-to-the-falcon-9-rocket-ever-take-flight/"
+      },
+      "status": "supported"
+    }
+  ]
+}

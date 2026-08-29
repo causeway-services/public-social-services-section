@@ -1,0 +1,21 @@
+{
+  "name": "@causeway-services/koios-news-editorial-admission-receipt",
+  "version": "0.1.0",
+  "type": "module",
+  "description": "Read-only portable local-custody proof for one exact Koios independent-editorial-assessment acceptance.",
+  "bin": {
+    "koios-news-editorial-admission-receipt": "./src/cli.mjs"
+  },
+  "scripts": {
+    "check": "node --check src/editorial-admission-receipt.mjs && node --check src/cli.mjs && node --check test/editorial-admission-receipt.test.mjs",
+    "test": "node --test test/editorial-admission-receipt.test.mjs",
+    "verify": "npm run check && npm test && npm pack --dry-run"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "@red-cup-engineering/semantic-content-identify-service": "0.2.7"
+  },
+  "files": ["src/", "test/", "README.md", "package.json"]
+}

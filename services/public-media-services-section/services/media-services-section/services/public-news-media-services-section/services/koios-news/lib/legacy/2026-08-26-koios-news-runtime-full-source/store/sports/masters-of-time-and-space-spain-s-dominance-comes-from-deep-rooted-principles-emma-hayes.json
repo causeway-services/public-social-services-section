@@ -1,0 +1,69 @@
+{
+  "subject": "masters-of-time-and-space-spain-s-dominance-comes-from-deep-rooted-principles-emma-hayes",
+  "claims": [
+    {
+      "id": "title",
+      "proposition": {
+        "predicate": "title",
+        "object": "Masters of time and space, Spain’s dominance comes from deep-rooted principles | Emma Hayes"
+      },
+      "time": {
+        "asserted": "2026-07-19T15:58:02.610Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "sports",
+        "citation": "https://www.theguardian.com/football/2026/jul/19/masters-of-time-and-space-spains-dominance-comes-from-deep-rooted-principles"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "url",
+      "proposition": {
+        "predicate": "url",
+        "object": "https://www.theguardian.com/football/2026/jul/19/masters-of-time-and-space-spains-dominance-comes-from-deep-rooted-principles"
+      },
+      "time": {
+        "asserted": "2026-07-19T15:58:02.610Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "sports",
+        "citation": "https://www.theguardian.com/football/2026/jul/19/masters-of-time-and-space-spains-dominance-comes-from-deep-rooted-principles"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "summary",
+      "proposition": {
+        "predicate": "summary",
+        "object": "<p>Spain’s brilliance isn’t just about Rodri or Lamine Yamal – it’s all about the collective culture developed over many years</p><p>We talk about individuals too much in English football. Football is about the collective. Spain’s semi-final dominance over France was not built on individual brilliance but on a shared understanding of space, timing and their core principles. That is why they are the most exceptional team in the world and why I think they will win the World Cup on Sunday.</p><p>It is not about Rodri, Lamine Yamal or Pedri. It’s about the whole midfield, the collective. Spain will find positional and numerical superiority in whichever way they can, because doing so has been deeply ingrained from very early ages and they are the masters of time and space on a football pitch. <a href=\"https://www.theguardian.com/football/2026/jul/14/france-spain-world-cup-semi-final-match-report\">Against France</a> they were rewarded for that culture by generating so many moments of four-versus-two numerical superiority in key spaces.</p> <a href=\"https://www.theguardian.com/football/2026/jul/19/masters-of-time-and-space-spains-dominance-comes-from-deep-rooted-principles\">Continue reading...</a>"
+      },
+      "time": {
+        "asserted": "2026-07-19T15:58:02.610Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "sports",
+        "citation": "https://www.theguardian.com/football/2026/jul/19/masters-of-time-and-space-spains-dominance-comes-from-deep-rooted-principles"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "published",
+      "proposition": {
+        "predicate": "published",
+        "object": "Sun, 19 Jul 2026 07:00:20 GMT"
+      },
+      "time": {
+        "asserted": "2026-07-19T15:58:02.610Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "sports",
+        "citation": "https://www.theguardian.com/football/2026/jul/19/masters-of-time-and-space-spains-dominance-comes-from-deep-rooted-principles"
+      },
+      "status": "supported"
+    }
+  ]
+}

@@ -1,0 +1,69 @@
+{
+  "subject": "justin-bieber-shakira-madonna-bts-deliver-electric-halftime-set-at-world-cup-final",
+  "claims": [
+    {
+      "id": "title",
+      "proposition": {
+        "predicate": "title",
+        "object": "Justin Bieber, Shakira, Madonna, BTS Deliver Electric Halftime Set at World Cup Final"
+      },
+      "time": {
+        "asserted": "2026-07-19T23:18:25.798Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "culture",
+        "citation": "https://www.rollingstone.com/music/music-news/justin-bieber-bts-shakira-madonna-performance-world-cup-1235594935/"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "url",
+      "proposition": {
+        "predicate": "url",
+        "object": "https://www.rollingstone.com/music/music-news/justin-bieber-bts-shakira-madonna-performance-world-cup-1235594935/"
+      },
+      "time": {
+        "asserted": "2026-07-19T23:18:25.798Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "culture",
+        "citation": "https://www.rollingstone.com/music/music-news/justin-bieber-bts-shakira-madonna-performance-world-cup-1235594935/"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "summary",
+      "proposition": {
+        "predicate": "summary",
+        "object": "Final match between Spain and Argentina at New York New Jersey Stadium was preceded by Post Malone performance"
+      },
+      "time": {
+        "asserted": "2026-07-19T23:18:25.798Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "culture",
+        "citation": "https://www.rollingstone.com/music/music-news/justin-bieber-bts-shakira-madonna-performance-world-cup-1235594935/"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "published",
+      "proposition": {
+        "predicate": "published",
+        "object": "Sun, 19 Jul 2026 20:40:42 +0000"
+      },
+      "time": {
+        "asserted": "2026-07-19T23:18:25.798Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "culture",
+        "citation": "https://www.rollingstone.com/music/music-news/justin-bieber-bts-shakira-madonna-performance-world-cup-1235594935/"
+      },
+      "status": "supported"
+    }
+  ]
+}

@@ -1,0 +1,69 @@
+{
+  "subject": "arizona-teen-hailed-for-helping-save-woman-with-dementia-wandering-in-103f-heat",
+  "claims": [
+    {
+      "id": "title",
+      "proposition": {
+        "predicate": "title",
+        "object": "Arizona teen hailed for helping save woman with dementia wandering in 103F heat"
+      },
+      "time": {
+        "asserted": "2026-07-19T14:41:46.239Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "environment",
+        "citation": "https://www.theguardian.com/us-news/2026/jul/18/arizona-teen-rescue-woman-dementia-heatwave"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "url",
+      "proposition": {
+        "predicate": "url",
+        "object": "https://www.theguardian.com/us-news/2026/jul/18/arizona-teen-rescue-woman-dementia-heatwave"
+      },
+      "time": {
+        "asserted": "2026-07-19T14:41:46.239Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "environment",
+        "citation": "https://www.theguardian.com/us-news/2026/jul/18/arizona-teen-rescue-woman-dementia-heatwave"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "summary",
+      "proposition": {
+        "predicate": "summary",
+        "object": "<p>Fire crew in Gilbert to honor Royal Cothrun, 14, for helping elderly woman who became disoriented amid heatwave</p><p>An <a href=\"https://www.theguardian.com/us-news/arizona\">Arizona</a> fire department is formally honoring a 14-year-old boy who recently helped save an elderly woman with dementia after she wandered miles off course amid potentially lethal temperatures, saying the teenager demonstrated “heroism … quick thinking and compassion”.</p><p>Royal Cothrun was riding his bicycle in June in the town of Gilbert when he encountered Theresa Morgan as she struggled to walk through 103F (39.4C) heat with a grocery bag dangling off one arm and a purse on the other, according to authorities as well as reporting by the local news outlet <a href=\"https://www.abc15.com/news/uplifting-arizona/gilbert-teen-honored-for-helping-elderly-woman-with-dementia-in-100-degree-heat\">KNXV</a>.</p> <a href=\"https://www.theguardian.com/us-news/2026/jul/18/arizona-teen-rescue-woman-dementia-heatwave\">Continue reading...</a>"
+      },
+      "time": {
+        "asserted": "2026-07-19T14:41:46.239Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "environment",
+        "citation": "https://www.theguardian.com/us-news/2026/jul/18/arizona-teen-rescue-woman-dementia-heatwave"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "published",
+      "proposition": {
+        "predicate": "published",
+        "object": "Sat, 18 Jul 2026 10:00:01 GMT"
+      },
+      "time": {
+        "asserted": "2026-07-19T14:41:46.239Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "environment",
+        "citation": "https://www.theguardian.com/us-news/2026/jul/18/arizona-teen-rescue-woman-dementia-heatwave"
+      },
+      "status": "supported"
+    }
+  ]
+}

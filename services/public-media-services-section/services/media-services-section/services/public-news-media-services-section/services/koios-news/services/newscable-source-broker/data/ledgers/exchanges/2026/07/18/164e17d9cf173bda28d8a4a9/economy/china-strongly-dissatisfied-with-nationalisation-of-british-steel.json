@@ -1,0 +1,69 @@
+{
+  "subject": "china-strongly-dissatisfied-with-nationalisation-of-british-steel",
+  "claims": [
+    {
+      "id": "title",
+      "proposition": {
+        "predicate": "title",
+        "object": "China ‘strongly dissatisfied’ with nationalisation of British Steel"
+      },
+      "time": {
+        "asserted": "2026-07-18T08:37:37.917Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "economy",
+        "citation": "https://www.theguardian.com/business/2026/jul/17/british-steel-nationalisation-china-strongly-dissatisfied"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "url",
+      "proposition": {
+        "predicate": "url",
+        "object": "https://www.theguardian.com/business/2026/jul/17/british-steel-nationalisation-china-strongly-dissatisfied"
+      },
+      "time": {
+        "asserted": "2026-07-18T08:37:37.917Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "economy",
+        "citation": "https://www.theguardian.com/business/2026/jul/17/british-steel-nationalisation-china-strongly-dissatisfied"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "summary",
+      "proposition": {
+        "predicate": "summary",
+        "object": "<p>Move dealt ‘severe blow to Chinese companies’ confidence in investing in the UK’, says Ministry of Commerce</p><p>China’s government has said it is “strongly dissatisfied” with the decision to nationalise British Steel this week, 15 months after the UK government intervened to prevent the closure of its steelworks in Scunthorpe and the loss of 4,000 jobs.</p><p>On Thursday, British Steel was <a href=\"https://www.theguardian.com/business/2026/jul/16/british-steel-public-ownership-save-uk-supply-scunthorpe\">brought under public ownership</a> to protect “the future of steel production”, the government announced.</p> <a href=\"https://www.theguardian.com/business/2026/jul/17/british-steel-nationalisation-china-strongly-dissatisfied\">Continue reading...</a>"
+      },
+      "time": {
+        "asserted": "2026-07-18T08:37:37.917Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "economy",
+        "citation": "https://www.theguardian.com/business/2026/jul/17/british-steel-nationalisation-china-strongly-dissatisfied"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "published",
+      "proposition": {
+        "predicate": "published",
+        "object": "Fri, 17 Jul 2026 06:57:08 GMT"
+      },
+      "time": {
+        "asserted": "2026-07-18T08:37:37.917Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "economy",
+        "citation": "https://www.theguardian.com/business/2026/jul/17/british-steel-nationalisation-china-strongly-dissatisfied"
+      },
+      "status": "supported"
+    }
+  ]
+}

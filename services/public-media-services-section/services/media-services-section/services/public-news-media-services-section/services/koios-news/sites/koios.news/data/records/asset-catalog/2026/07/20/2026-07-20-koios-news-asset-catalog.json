@@ -1,0 +1,1904 @@
+{
+  "kind": "koios.asset-catalog",
+  "version": 1,
+  "asOf": "2026-07-20T18:40:00Z",
+  "scope": {
+    "settlement": "/home/emsenn/info/lib/emsenn/services/561-group/services/rsc-quiescent/services/koios-news",
+    "physicalSystems": [
+      "Bare Cedar Fog laptop",
+      "Cold Red Gate VPS",
+      "Cloudflare account 337e54ee6dc7d488933f473204a6d89e"
+    ],
+    "limitation": "Cloudflare token can inspect Workers, routes, Pages, KV, and Queues. D1 returned 401 and R2 returned 403, so this catalog does not claim that those two products are absent."
+  },
+  "containment": {
+    "action": "Disabled and stopped Cold Red Gate clockkeeper-run-due.timer during inventory",
+    "reason": "Prevent the potential 15-minute repair and 30-minute issue schedules from consuming more inference while stranded work is reconciled.",
+    "reversible": true,
+    "timerEnabledButInactive": false,
+    "timerUnitFileState": "disabled"
+  },
+  "executiveFinding": "Koios has an asset-conversion and state-continuity failure, not an asset shortage. Rejections create recursive successor assignments and repeat inference instead of preserving stage products and applying bounded repairs. Cloudflare is an inert static carrier; the VPS remains the actual runtime.",
+  "manuscripts": {
+    "coldRedGatePhysicalCopies": 606,
+    "uniqueExactVariants": 233,
+    "filenameIdentities": 96,
+    "duplicateCopiesByExactHash": 373,
+    "identitiesWithMultipleVariants": 66,
+    "runtime": {
+      "files": 86,
+      "words": 76306,
+      "publishedFlagFalse": 20,
+      "draftFlagTrue": 66,
+      "july18Through20Drafts": 24
+    },
+    "localActiveSettlement": {
+      "files": 73,
+      "words": 67114,
+      "publishedFlagFalse": 20,
+      "draftFlagTrue": 53
+    },
+    "remoteOnlyRelativeToLocalActiveSettlement": [
+      "how-i-turned-ai-to-the-dark-side",
+      "how-trump-and-his-administration-have-mired-the-us",
+      "jill-scott-review-joyous-phones-free-show-is-a",
+      "majority-of-us-voters-link-extreme-weather-to-climate",
+      "mozilla-speeds-firefox-release-schedule-to-biweekly",
+      "q-a-europe-s-may-and-june-heatwave-deaths",
+      "reporting-source-1-for-anthropic-hidden-space-claude-puzzles",
+      "reporting-source-1-for-living-memorial-palestinian-activist-alex",
+      "reporting-source-1-for-odyssey-becomes-christopher-nolan-biggest",
+      "reporting-source-1-for-trevor-winkfield-cheerfully-sinister-worlds",
+      "reporting-source-1-for-wildfire-smoke-threatens-cup-final",
+      "reporting-source-2-for-what-we-ve-learned-about",
+      "reporting-source-3-for-odyssey-becomes-christopher-nolan-biggest"
+    ],
+    "holdings": {
+      "runtime": {
+        "path": "/home/emsenn/services/koios-news-runtime",
+        "size": "689M",
+        "files": 41390,
+        "postCopies": 86
+      },
+      "serviceSection": {
+        "path": "/home/emsenn/services/koios-news-service-section",
+        "size": "238M",
+        "files": 13637,
+        "postCopies": 262
+      },
+      "partialRuntime": {
+        "path": "/home/emsenn/services/koios-news-runtime.partial-20260719T0048Z",
+        "size": "45M",
+        "files": 6024,
+        "postCopies": 72
+      },
+      "oldInfoCheckout": {
+        "path": "/home/emsenn/info/sites/koios.news",
+        "size": "42M",
+        "files": 5546,
+        "postCopies": 189,
+        "uniqueManuscripts": 63
+      },
+      "old561Checkout": {
+        "path": "/home/emsenn/561-group/sites/koios.news",
+        "size": "8.1M",
+        "files": 958,
+        "postCopies": 62
+      },
+      "carrierBackups": {
+        "paths": "/home/emsenn/services/.carrier-backups/*/koios-news-runtime",
+        "sizes": [
+          "3.5M",
+          "5.0M",
+          "44M",
+          "44K"
+        ]
+      },
+      "transferArchives": {
+        "paths": [
+          "/home/emsenn/services/.incoming/koios-news-runtime-v2.tgz",
+          "/home/emsenn/services/.incoming/koios-news-runtime-v3.tgz",
+          "/home/emsenn/services/.incoming/koios-news-runtime-v4.tgz",
+          "/home/emsenn/services/koios-persistent-carrier.tar.gz"
+        ],
+        "sizes": [
+          "785K",
+          "786K",
+          "787K",
+          "5.1M"
+        ]
+      }
+    },
+    "identities": [
+      {
+        "slug": "_index",
+        "copies": 1,
+        "variants": 1,
+        "roots": [
+          "nik_archive"
+        ],
+        "runtimeState": null
+      },
+      {
+        "slug": "acurite-delays-app-migration-due-to-user-concerns-over",
+        "copies": 9,
+        "variants": 3,
+        "roots": [
+          "runtime",
+          "old_info",
+          "old_561",
+          "section_site",
+          "experimental",
+          "section_legacy"
+        ],
+        "runtimeState": {
+          "date": "2026-06-11",
+          "draft": "true",
+          "gatesClear": "false"
+        }
+      },
+      {
+        "slug": "acurite-delays-app-transition-amid-concerns-over-data-center",
+        "copies": 9,
+        "variants": 2,
+        "roots": [
+          "runtime",
+          "old_info",
+          "old_561",
+          "section_site",
+          "experimental",
+          "section_legacy"
+        ],
+        "runtimeState": {
+          "date": "2026-06-11",
+          "draft": "true",
+          "gatesClear": "false"
+        }
+      },
+      {
+        "slug": "after-a-civil-rights-complaint-chicago-built-the-nation-s-largest-air-monitoring-network",
+        "copies": 1,
+        "variants": 1,
+        "roots": [
+          "experimental"
+        ],
+        "runtimeState": null
+      },
+      {
+        "slug": "after-a-civil-rights-complaint-chicago-built-the-nations-largest-air-monitoring-network",
+        "copies": 1,
+        "variants": 1,
+        "roots": [
+          "experimental"
+        ],
+        "runtimeState": null
+      },
+      {
+        "slug": "ai-compute-bottleneck-power-problem",
+        "copies": 9,
+        "variants": 3,
+        "roots": [
+          "runtime",
+          "old_info",
+          "old_561",
+          "section_site",
+          "experimental",
+          "section_legacy"
+        ],
+        "runtimeState": {
+          "date": "2026-06-19",
+          "draft": "false",
+          "gatesClear": "true"
+        }
+      },
+      {
+        "slug": "ai-wealth-boom-sends-san-francisco-home-prices-surging",
+        "copies": 9,
+        "variants": 2,
+        "roots": [
+          "runtime",
+          "old_info",
+          "old_561",
+          "section_site",
+          "experimental",
+          "section_legacy"
+        ],
+        "runtimeState": {
+          "date": "2026-06-11",
+          "draft": "true",
+          "gatesClear": "false"
+        }
+      },
+      {
+        "slug": "amazon-s-astro-and-the-energy-cost-of-giving",
+        "copies": 9,
+        "variants": 4,
+        "roots": [
+          "runtime",
+          "old_info",
+          "old_561",
+          "section_site",
+          "experimental",
+          "section_legacy"
+        ],
+        "runtimeState": {
+          "date": "2026-06-19",
+          "draft": "true",
+          "gatesClear": "false"
+        }
+      },
+      {
+        "slug": "April 2025 Tornado Outbreak Shows Changing Climate With Changing Risks",
+        "copies": 1,
+        "variants": 1,
+        "roots": [
+          "nik_archive"
+        ],
+        "runtimeState": null
+      },
+      {
+        "slug": "april-2025-tornado-outbreak",
+        "copies": 9,
+        "variants": 3,
+        "roots": [
+          "runtime",
+          "old_info",
+          "old_561",
+          "section_site",
+          "experimental",
+          "section_legacy"
+        ],
+        "runtimeState": {
+          "date": "2025-04-04",
+          "draft": "true",
+          "gatesClear": null
+        }
+      },
+      {
+        "slug": "assisted-tree-migration-climate-change-solutions",
+        "copies": 9,
+        "variants": 3,
+        "roots": [
+          "runtime",
+          "old_info",
+          "old_561",
+          "section_site",
+          "experimental",
+          "section_legacy"
+        ],
+        "runtimeState": {
+          "date": "2025-02-17",
+          "draft": "false",
+          "gatesClear": null
+        }
+      },
+      {
+        "slug": "bandits-abduct-villagers-in-north-west-nigeria-exposing-state",
+        "copies": 9,
+        "variants": 2,
+        "roots": [
+          "runtime",
+          "old_info",
+          "old_561",
+          "section_site",
+          "experimental",
+          "section_legacy"
+        ],
+        "runtimeState": {
+          "date": "2026-06-11",
+          "draft": "true",
+          "gatesClear": "false"
+        }
+      },
+      {
+        "slug": "berachain-bearish-social-sentiment-souring",
+        "copies": 9,
+        "variants": 3,
+        "roots": [
+          "runtime",
+          "old_info",
+          "old_561",
+          "section_site",
+          "experimental",
+          "section_legacy"
+        ],
+        "runtimeState": {
+          "date": "2025-02-16",
+          "draft": "false",
+          "gatesClear": null
+        }
+      },
+      {
+        "slug": "bitcoin-defi-security-consortium-launch",
+        "copies": 9,
+        "variants": 3,
+        "roots": [
+          "runtime",
+          "old_info",
+          "old_561",
+          "section_site",
+          "experimental",
+          "section_legacy"
+        ],
+        "runtimeState": {
+          "date": "2025-02-18",
+          "draft": "false",
+          "gatesClear": null
+        }
+      },
+      {
+        "slug": "bitcoin-etf-investing-guide",
+        "copies": 9,
+        "variants": 3,
+        "roots": [
+          "runtime",
+          "old_info",
+          "old_561",
+          "section_site",
+          "experimental",
+          "section_legacy"
+        ],
+        "runtimeState": {
+          "date": "2025-02-16",
+          "draft": "false",
+          "gatesClear": null
+        }
+      },
+      {
+        "slug": "bybit-hack-weakens-consumer-sentiment",
+        "copies": 9,
+        "variants": 3,
+        "roots": [
+          "runtime",
+          "old_info",
+          "old_561",
+          "section_site",
+          "experimental",
+          "section_legacy"
+        ],
+        "runtimeState": {
+          "date": "2025-02-22",
+          "draft": "false",
+          "gatesClear": null
+        }
+      },
+      {
+        "slug": "Canada Tar Sands Shutdown Marks Turning Point in Resource Collapse",
+        "copies": 1,
+        "variants": 1,
+        "roots": [
+          "nik_archive"
+        ],
+        "runtimeState": null
+      },
+      {
+        "slug": "canada-tar-sands-shutdown",
+        "copies": 9,
+        "variants": 3,
+        "roots": [
+          "runtime",
+          "old_info",
+          "old_561",
+          "section_site",
+          "experimental",
+          "section_legacy"
+        ],
+        "runtimeState": {
+          "date": "2025-03-31",
+          "draft": "true",
+          "gatesClear": null
+        }
+      },
+      {
+        "slug": "climate-and-conflict-collide-as-indigenous-leaders-press-the",
+        "copies": 2,
+        "variants": 1,
+        "roots": [
+          "runtime",
+          "section_site"
+        ],
+        "runtimeState": {
+          "date": "2026-07-18",
+          "draft": "true",
+          "gatesClear": "false"
+        }
+      },
+      {
+        "slug": "climate-migration-and-border-policy-is-becoming-infrastructure-stress",
+        "copies": 5,
+        "variants": 2,
+        "roots": [
+          "old_info",
+          "experimental"
+        ],
+        "runtimeState": null
+      },
+      {
+        "slug": "crankgpt-makes-the-physical-cost-of-ai-visible",
+        "copies": 9,
+        "variants": 3,
+        "roots": [
+          "runtime",
+          "old_info",
+          "old_561",
+          "section_site",
+          "experimental",
+          "section_legacy"
+        ],
+        "runtimeState": {
+          "date": "2026-06-12",
+          "draft": "true",
+          "gatesClear": "false"
+        }
+      },
+      {
+        "slug": "crypto-news-february-17th-2025",
+        "copies": 9,
+        "variants": 4,
+        "roots": [
+          "runtime",
+          "old_info",
+          "old_561",
+          "section_site",
+          "experimental",
+          "section_legacy"
+        ],
+        "runtimeState": {
+          "date": "2025-02-17",
+          "draft": "true",
+          "gatesClear": null
+        }
+      },
+      {
+        "slug": "cyclone-alfreds-impact-a-reflection-of-global-systemic-vulnerabilities",
+        "copies": 9,
+        "variants": 3,
+        "roots": [
+          "runtime",
+          "old_info",
+          "old_561",
+          "section_site",
+          "experimental",
+          "section_legacy"
+        ],
+        "runtimeState": {
+          "date": "2025-03-07",
+          "draft": "false",
+          "gatesClear": null
+        }
+      },
+      {
+        "slug": "defai-explained-how-ai-is-transforming-decentralized-finance",
+        "copies": 9,
+        "variants": 3,
+        "roots": [
+          "runtime",
+          "old_info",
+          "old_561",
+          "section_site",
+          "experimental",
+          "section_legacy"
+        ],
+        "runtimeState": {
+          "date": "2025-02-20",
+          "draft": "false",
+          "gatesClear": null
+        }
+      },
+      {
+        "slug": "democrats-retreat-on-climate-change-sparks-concern-and-uncertainty",
+        "copies": 9,
+        "variants": 2,
+        "roots": [
+          "runtime",
+          "old_info",
+          "old_561",
+          "section_site",
+          "experimental",
+          "section_legacy"
+        ],
+        "runtimeState": {
+          "date": "2026-06-11",
+          "draft": "true",
+          "gatesClear": "false"
+        }
+      },
+      {
+        "slug": "earn-safe-token-with-beefy",
+        "copies": 9,
+        "variants": 4,
+        "roots": [
+          "runtime",
+          "old_info",
+          "old_561",
+          "section_site",
+          "experimental",
+          "section_legacy"
+        ],
+        "runtimeState": {
+          "date": "2025-02-20",
+          "draft": "true",
+          "gatesClear": null
+        }
+      },
+      {
+        "slug": "ecb-delays-inevitable-slashes-interest-rates-again",
+        "copies": 9,
+        "variants": 3,
+        "roots": [
+          "runtime",
+          "old_info",
+          "old_561",
+          "section_site",
+          "experimental",
+          "section_legacy"
+        ],
+        "runtimeState": {
+          "date": "2025-03-06",
+          "draft": "false",
+          "gatesClear": null
+        }
+      },
+      {
+        "slug": "ecb-raises-interest-rates-amid-sovereign-debt-climate-disasters",
+        "copies": 9,
+        "variants": 3,
+        "roots": [
+          "runtime",
+          "old_info",
+          "old_561",
+          "section_site",
+          "experimental",
+          "section_legacy"
+        ],
+        "runtimeState": {
+          "date": "2026-06-11",
+          "draft": "true",
+          "gatesClear": "false"
+        }
+      },
+      {
+        "slug": "ecb-raises-interest-rates-amidst-war-driven-inflation-impacting",
+        "copies": 9,
+        "variants": 2,
+        "roots": [
+          "runtime",
+          "old_info",
+          "old_561",
+          "section_site",
+          "experimental",
+          "section_legacy"
+        ],
+        "runtimeState": {
+          "date": "2026-06-11",
+          "draft": "true",
+          "gatesClear": "false"
+        }
+      },
+      {
+        "slug": "economics-and-the-biophysical-limits-to-growth-a-new",
+        "copies": 2,
+        "variants": 1,
+        "roots": [
+          "runtime",
+          "section_site"
+        ],
+        "runtimeState": {
+          "date": "2026-07-18",
+          "draft": "true",
+          "gatesClear": "false"
+        }
+      },
+      {
+        "slug": "england-sinking-homes-insurance-climate-risk-withdrawal",
+        "copies": 9,
+        "variants": 3,
+        "roots": [
+          "runtime",
+          "old_info",
+          "old_561",
+          "section_site",
+          "experimental",
+          "section_legacy"
+        ],
+        "runtimeState": {
+          "date": "2026-06-14",
+          "draft": "true",
+          "gatesClear": null
+        }
+      },
+      {
+        "slug": "ethereum-staking-nyse-approval-etf",
+        "copies": 9,
+        "variants": 3,
+        "roots": [
+          "runtime",
+          "old_info",
+          "old_561",
+          "section_site",
+          "experimental",
+          "section_legacy"
+        ],
+        "runtimeState": {
+          "date": "2025-02-16",
+          "draft": "false",
+          "gatesClear": null
+        }
+      },
+      {
+        "slug": "exploring-the-risks-and-rewards-of-defi-leverage",
+        "copies": 9,
+        "variants": 3,
+        "roots": [
+          "runtime",
+          "old_info",
+          "old_561",
+          "section_site",
+          "experimental",
+          "section_legacy"
+        ],
+        "runtimeState": {
+          "date": "2025-02-22",
+          "draft": "false",
+          "gatesClear": null
+        }
+      },
+      {
+        "slug": "farm-usdc-on-base-with-moonwell-beefy-or-extra",
+        "copies": 9,
+        "variants": 3,
+        "roots": [
+          "runtime",
+          "old_info",
+          "old_561",
+          "section_site",
+          "experimental",
+          "section_legacy"
+        ],
+        "runtimeState": {
+          "date": "2025-02-19",
+          "draft": "false",
+          "gatesClear": null
+        }
+      },
+      {
+        "slug": "february-19-2025-daytrading-opportunities-in-leveraged-etfs",
+        "copies": 9,
+        "variants": 3,
+        "roots": [
+          "runtime",
+          "old_info",
+          "old_561",
+          "section_site",
+          "experimental",
+          "section_legacy"
+        ],
+        "runtimeState": {
+          "date": "2025-02-19",
+          "draft": "false",
+          "gatesClear": null
+        }
+      },
+      {
+        "slug": "From Xerox to AI, Disruption & Gatekeeping",
+        "copies": 1,
+        "variants": 1,
+        "roots": [
+          "nik_archive"
+        ],
+        "runtimeState": null
+      },
+      {
+        "slug": "geometry-football-and-the-world-cup-final",
+        "copies": 1,
+        "variants": 1,
+        "roots": [
+          "runtime"
+        ],
+        "runtimeState": {
+          "date": "2026-07-19",
+          "draft": "true",
+          "gatesClear": "false"
+        }
+      },
+      {
+        "slug": "heathrow-s-third-runway-a-62-5bn-miscalculation-in",
+        "copies": 9,
+        "variants": 4,
+        "roots": [
+          "runtime",
+          "old_info",
+          "old_561",
+          "section_site",
+          "experimental",
+          "section_legacy"
+        ],
+        "runtimeState": {
+          "date": "2026-06-20",
+          "draft": "true",
+          "gatesClear": "false"
+        }
+      },
+      {
+        "slug": "hello-world",
+        "copies": 9,
+        "variants": 3,
+        "roots": [
+          "runtime",
+          "old_info",
+          "old_561",
+          "section_site",
+          "experimental",
+          "section_legacy"
+        ],
+        "runtimeState": {
+          "date": "2025-02-15",
+          "draft": "false",
+          "gatesClear": null
+        }
+      },
+      {
+        "slug": "heyanon-revolutionizing-defi-with-ai-technology",
+        "copies": 9,
+        "variants": 4,
+        "roots": [
+          "runtime",
+          "old_info",
+          "old_561",
+          "section_site",
+          "experimental",
+          "section_legacy"
+        ],
+        "runtimeState": {
+          "date": "2025-02-16",
+          "draft": "true",
+          "gatesClear": null
+        }
+      },
+      {
+        "slug": "how-i-turned-ai-to-the-dark-side",
+        "copies": 1,
+        "variants": 1,
+        "roots": [
+          "runtime"
+        ],
+        "runtimeState": {
+          "date": "2026-07-20",
+          "draft": "true",
+          "gatesClear": "false"
+        }
+      },
+      {
+        "slug": "how-trump-and-his-administration-have-mired-the-us",
+        "copies": 1,
+        "variants": 1,
+        "roots": [
+          "runtime"
+        ],
+        "runtimeState": {
+          "date": "2026-07-20",
+          "draft": "true",
+          "gatesClear": "false"
+        }
+      },
+      {
+        "slug": "indigenous-leaders-at-the-un-confront-twenty-years-of",
+        "copies": 2,
+        "variants": 1,
+        "roots": [
+          "runtime",
+          "section_site"
+        ],
+        "runtimeState": {
+          "date": "2026-07-18",
+          "draft": "true",
+          "gatesClear": "false"
+        }
+      },
+      {
+        "slug": "indigenous-leaders-confront-compounding-crises-at-un-rights-forum",
+        "copies": 2,
+        "variants": 1,
+        "roots": [
+          "runtime",
+          "section_site"
+        ],
+        "runtimeState": {
+          "date": "2026-07-18",
+          "draft": "true",
+          "gatesClear": "false"
+        }
+      },
+      {
+        "slug": "indigenous-leaders-confront-the-collision-of-climate-and-conflict",
+        "copies": 2,
+        "variants": 1,
+        "roots": [
+          "runtime",
+          "section_site"
+        ],
+        "runtimeState": {
+          "date": "2026-07-18",
+          "draft": "true",
+          "gatesClear": "false"
+        }
+      },
+      {
+        "slug": "indigenous-leaders-confront-the-collision-of-climate-and-extraction",
+        "copies": 2,
+        "variants": 2,
+        "roots": [
+          "runtime",
+          "section_site"
+        ],
+        "runtimeState": {
+          "date": "2026-07-18",
+          "draft": "true",
+          "gatesClear": "false"
+        }
+      },
+      {
+        "slug": "Indonesia Island Evacuation Marks New Step in Climate Driven Abandonment",
+        "copies": 1,
+        "variants": 1,
+        "roots": [
+          "nik_archive"
+        ],
+        "runtimeState": null
+      },
+      {
+        "slug": "indonesia-island-evacuation",
+        "copies": 9,
+        "variants": 3,
+        "roots": [
+          "runtime",
+          "old_info",
+          "old_561",
+          "section_site",
+          "experimental",
+          "section_legacy"
+        ],
+        "runtimeState": {
+          "date": "2025-03-28",
+          "draft": "true",
+          "gatesClear": null
+        }
+      },
+      {
+        "slug": "java-was-a-three-day-hotfix-away-from-dying",
+        "copies": 2,
+        "variants": 2,
+        "roots": [
+          "runtime",
+          "section_site"
+        ],
+        "runtimeState": {
+          "date": "2026-07-18",
+          "draft": "true",
+          "gatesClear": "false"
+        }
+      },
+      {
+        "slug": "jill-scott-review-joyous-phones-free-show-is-a",
+        "copies": 1,
+        "variants": 1,
+        "roots": [
+          "runtime"
+        ],
+        "runtimeState": {
+          "date": "2026-07-20",
+          "draft": "true",
+          "gatesClear": "false"
+        }
+      },
+      {
+        "slug": "majority-of-us-voters-link-extreme-weather-to-climate",
+        "copies": 1,
+        "variants": 1,
+        "roots": [
+          "runtime"
+        ],
+        "runtimeState": {
+          "date": "2026-07-20",
+          "draft": "true",
+          "gatesClear": "false"
+        }
+      },
+      {
+        "slug": "michigan-program-helps-new-farmers-amidst-rising-crop-failure",
+        "copies": 9,
+        "variants": 3,
+        "roots": [
+          "runtime",
+          "old_info",
+          "old_561",
+          "section_site",
+          "experimental",
+          "section_legacy"
+        ],
+        "runtimeState": {
+          "date": "2026-06-11",
+          "draft": "false",
+          "gatesClear": "true"
+        }
+      },
+      {
+        "slug": "millions-of-homes-in-london-essex-and-kent-at",
+        "copies": 9,
+        "variants": 2,
+        "roots": [
+          "runtime",
+          "old_info",
+          "old_561",
+          "section_site",
+          "experimental",
+          "section_legacy"
+        ],
+        "runtimeState": {
+          "date": "2026-06-11",
+          "draft": "true",
+          "gatesClear": "false"
+        }
+      },
+      {
+        "slug": "mind-ai-token-release-another-step-toward-autonomous-trading",
+        "copies": 9,
+        "variants": 4,
+        "roots": [
+          "runtime",
+          "old_info",
+          "old_561",
+          "section_site",
+          "experimental",
+          "section_legacy"
+        ],
+        "runtimeState": {
+          "date": "2025-02-20",
+          "draft": "true",
+          "gatesClear": null
+        }
+      },
+      {
+        "slug": "mizar-alpha-program-bnb-chain-rewards",
+        "copies": 9,
+        "variants": 4,
+        "roots": [
+          "runtime",
+          "old_info",
+          "old_561",
+          "section_site",
+          "experimental",
+          "section_legacy"
+        ],
+        "runtimeState": {
+          "date": "2025-02-17",
+          "draft": "true",
+          "gatesClear": null
+        }
+      },
+      {
+        "slug": "mozilla-speeds-firefox-release-schedule-to-biweekly",
+        "copies": 1,
+        "variants": 1,
+        "roots": [
+          "runtime"
+        ],
+        "runtimeState": {
+          "date": "2026-07-20",
+          "draft": "true",
+          "gatesClear": "false"
+        }
+      },
+      {
+        "slug": "nextbsd-returns-under-new-leadership-to-resume-porting-apple",
+        "copies": 2,
+        "variants": 1,
+        "roots": [
+          "runtime",
+          "section_site"
+        ],
+        "runtimeState": {
+          "date": "2026-07-18",
+          "draft": "true",
+          "gatesClear": "false"
+        }
+      },
+      {
+        "slug": "peru-water-emergency-2025",
+        "copies": 9,
+        "variants": 3,
+        "roots": [
+          "runtime",
+          "old_info",
+          "old_561",
+          "section_site",
+          "experimental",
+          "section_legacy"
+        ],
+        "runtimeState": {
+          "date": "2025-03-30",
+          "draft": "true",
+          "gatesClear": null
+        }
+      },
+      {
+        "slug": "proof-of-liquidity-in-defi-innovation",
+        "copies": 9,
+        "variants": 4,
+        "roots": [
+          "runtime",
+          "old_info",
+          "old_561",
+          "section_site",
+          "experimental",
+          "section_legacy"
+        ],
+        "runtimeState": {
+          "date": "2025-02-16",
+          "draft": "true",
+          "gatesClear": null
+        }
+      },
+      {
+        "slug": "q-a-europe-s-may-and-june-heatwave-deaths",
+        "copies": 1,
+        "variants": 1,
+        "roots": [
+          "runtime"
+        ],
+        "runtimeState": {
+          "date": "2026-07-20",
+          "draft": "true",
+          "gatesClear": "false"
+        }
+      },
+      {
+        "slug": "reporting-source-1-for-anthropic-hidden-space-claude-puzzles",
+        "copies": 1,
+        "variants": 1,
+        "roots": [
+          "runtime"
+        ],
+        "runtimeState": {
+          "date": "2026-07-20",
+          "draft": "true",
+          "gatesClear": "false"
+        }
+      },
+      {
+        "slug": "reporting-source-1-for-living-memorial-palestinian-activist-alex",
+        "copies": 1,
+        "variants": 1,
+        "roots": [
+          "runtime"
+        ],
+        "runtimeState": {
+          "date": "2026-07-20",
+          "draft": "true",
+          "gatesClear": "false"
+        }
+      },
+      {
+        "slug": "reporting-source-1-for-odyssey-becomes-christopher-nolan-biggest",
+        "copies": 1,
+        "variants": 1,
+        "roots": [
+          "runtime"
+        ],
+        "runtimeState": {
+          "date": "2026-07-20",
+          "draft": "true",
+          "gatesClear": "false"
+        }
+      },
+      {
+        "slug": "reporting-source-1-for-trevor-winkfield-cheerfully-sinister-worlds",
+        "copies": 1,
+        "variants": 1,
+        "roots": [
+          "runtime"
+        ],
+        "runtimeState": {
+          "date": "2026-07-20",
+          "draft": "true",
+          "gatesClear": "false"
+        }
+      },
+      {
+        "slug": "reporting-source-1-for-wildfire-smoke-threatens-cup-final",
+        "copies": 1,
+        "variants": 1,
+        "roots": [
+          "runtime"
+        ],
+        "runtimeState": {
+          "date": "2026-07-20",
+          "draft": "true",
+          "gatesClear": "false"
+        }
+      },
+      {
+        "slug": "reporting-source-2-for-what-we-ve-learned-about",
+        "copies": 1,
+        "variants": 1,
+        "roots": [
+          "runtime"
+        ],
+        "runtimeState": {
+          "date": "2026-07-20",
+          "draft": "true",
+          "gatesClear": "false"
+        }
+      },
+      {
+        "slug": "reporting-source-3-for-odyssey-becomes-christopher-nolan-biggest",
+        "copies": 1,
+        "variants": 1,
+        "roots": [
+          "runtime"
+        ],
+        "runtimeState": {
+          "date": "2026-07-20",
+          "draft": "true",
+          "gatesClear": "false"
+        }
+      },
+      {
+        "slug": "sec-approves-first-yield-bearing-stablecoin-ylds",
+        "copies": 9,
+        "variants": 4,
+        "roots": [
+          "runtime",
+          "old_info",
+          "old_561",
+          "section_site",
+          "experimental",
+          "section_legacy"
+        ],
+        "runtimeState": {
+          "date": "2025-02-21",
+          "draft": "true",
+          "gatesClear": null
+        }
+      },
+      {
+        "slug": "sigma-healthcare-abandons-boots-takeover-as-capital-retreats-from",
+        "copies": 9,
+        "variants": 2,
+        "roots": [
+          "runtime",
+          "old_info",
+          "old_561",
+          "section_site",
+          "experimental",
+          "section_legacy"
+        ],
+        "runtimeState": {
+          "date": "2026-06-16",
+          "draft": "true",
+          "gatesClear": "false"
+        }
+      },
+      {
+        "slug": "solana-price-forecast-short-term-outlook",
+        "copies": 9,
+        "variants": 4,
+        "roots": [
+          "runtime",
+          "old_info",
+          "old_561",
+          "section_site",
+          "experimental",
+          "section_legacy"
+        ],
+        "runtimeState": {
+          "date": "2025-02-17",
+          "draft": "true",
+          "gatesClear": null
+        }
+      },
+      {
+        "slug": "solar-coal-crossover-us-grid",
+        "copies": 9,
+        "variants": 3,
+        "roots": [
+          "runtime",
+          "old_info",
+          "old_561",
+          "section_site",
+          "experimental",
+          "section_legacy"
+        ],
+        "runtimeState": {
+          "date": "2026-06-19",
+          "draft": "true",
+          "gatesClear": null
+        }
+      },
+      {
+        "slug": "South Korea Wildfires 2025, Deadliest in Nation's History",
+        "copies": 1,
+        "variants": 1,
+        "roots": [
+          "nik_archive"
+        ],
+        "runtimeState": null
+      },
+      {
+        "slug": "south-korea-wildfires-2025",
+        "copies": 9,
+        "variants": 3,
+        "roots": [
+          "runtime",
+          "old_info",
+          "old_561",
+          "section_site",
+          "experimental",
+          "section_legacy"
+        ],
+        "runtimeState": {
+          "date": "2025-03-27",
+          "draft": "true",
+          "gatesClear": null
+        }
+      },
+      {
+        "slug": "super-bowl-libra-rugpull-crisis",
+        "copies": 9,
+        "variants": 4,
+        "roots": [
+          "runtime",
+          "old_info",
+          "old_561",
+          "section_site",
+          "experimental",
+          "section_legacy"
+        ],
+        "runtimeState": {
+          "date": "2025-02-17",
+          "draft": "true",
+          "gatesClear": null
+        }
+      },
+      {
+        "slug": "Thailand Rice Export Ban Signals the Fracturing of Global Food Security",
+        "copies": 1,
+        "variants": 1,
+        "roots": [
+          "nik_archive"
+        ],
+        "runtimeState": null
+      },
+      {
+        "slug": "thailand-rice-export-ban",
+        "copies": 9,
+        "variants": 3,
+        "roots": [
+          "runtime",
+          "old_info",
+          "old_561",
+          "section_site",
+          "experimental",
+          "section_legacy"
+        ],
+        "runtimeState": {
+          "date": "2025-03-29",
+          "draft": "true",
+          "gatesClear": null
+        }
+      },
+      {
+        "slug": "the-2025-total-lunar-eclipse-a-blood-moon-illuminates-the-night-sky",
+        "copies": 9,
+        "variants": 4,
+        "roots": [
+          "runtime",
+          "old_info",
+          "old_561",
+          "section_site",
+          "experimental",
+          "section_legacy"
+        ],
+        "runtimeState": {
+          "date": "2025-03-13",
+          "draft": "true",
+          "gatesClear": null
+        }
+      },
+      {
+        "slug": "the-cost-of-certainty-how-robot-guesswork-meets-energy",
+        "copies": 9,
+        "variants": 3,
+        "roots": [
+          "runtime",
+          "old_info",
+          "old_561",
+          "section_site",
+          "experimental",
+          "section_legacy"
+        ],
+        "runtimeState": {
+          "date": "2026-06-19",
+          "draft": "false",
+          "gatesClear": "true"
+        }
+      },
+      {
+        "slug": "the-hidden-climate-tax-on-american-households",
+        "copies": 9,
+        "variants": 2,
+        "roots": [
+          "runtime",
+          "old_info",
+          "old_561",
+          "section_site",
+          "experimental",
+          "section_legacy"
+        ],
+        "runtimeState": {
+          "date": "2026-06-13",
+          "draft": "false",
+          "gatesClear": "false"
+        }
+      },
+      {
+        "slug": "the-mundane-automation-of-collapse-at-sxsw-london",
+        "copies": 9,
+        "variants": 3,
+        "roots": [
+          "runtime",
+          "old_info",
+          "old_561",
+          "section_site",
+          "experimental",
+          "section_legacy"
+        ],
+        "runtimeState": {
+          "date": "2026-06-19",
+          "draft": "false",
+          "gatesClear": "true"
+        }
+      },
+      {
+        "slug": "the-san-diego-mosque-attack-and-the-fracturing-of",
+        "copies": 9,
+        "variants": 4,
+        "roots": [
+          "runtime",
+          "old_info",
+          "old_561",
+          "section_site",
+          "experimental",
+          "section_legacy"
+        ],
+        "runtimeState": {
+          "date": "2026-06-20",
+          "draft": "true",
+          "gatesClear": "false"
+        }
+      },
+      {
+        "slug": "the-sonic-blockchain-ecosystem-speed-and-developer-incentives",
+        "copies": 9,
+        "variants": 3,
+        "roots": [
+          "runtime",
+          "old_info",
+          "old_561",
+          "section_site",
+          "experimental",
+          "section_legacy"
+        ],
+        "runtimeState": {
+          "date": "2025-02-21",
+          "draft": "false",
+          "gatesClear": null
+        }
+      },
+      {
+        "slug": "the-strategic-silence-democrats-mute-climate-as-systems-fracture",
+        "copies": 9,
+        "variants": 3,
+        "roots": [
+          "runtime",
+          "old_info",
+          "old_561",
+          "section_site",
+          "experimental",
+          "section_legacy"
+        ],
+        "runtimeState": {
+          "date": "2026-06-12",
+          "draft": "true",
+          "gatesClear": "false"
+        }
+      },
+      {
+        "slug": "the-succession-ritual-in-iran-and-the-silence-on",
+        "copies": 9,
+        "variants": 2,
+        "roots": [
+          "runtime",
+          "old_info",
+          "old_561",
+          "section_site",
+          "experimental",
+          "section_legacy"
+        ],
+        "runtimeState": {
+          "date": "2026-06-16",
+          "draft": "true",
+          "gatesClear": "false"
+        }
+      },
+      {
+        "slug": "thousands-flee-as-first-nations-bear-the-brunt-of",
+        "copies": 2,
+        "variants": 2,
+        "roots": [
+          "runtime",
+          "section_site"
+        ],
+        "runtimeState": {
+          "date": "2026-07-18",
+          "draft": "true",
+          "gatesClear": "false"
+        }
+      },
+      {
+        "slug": "tornado-outbreak-ravages-southern-u-s",
+        "copies": 9,
+        "variants": 4,
+        "roots": [
+          "runtime",
+          "old_info",
+          "old_561",
+          "section_site",
+          "experimental",
+          "section_legacy"
+        ],
+        "runtimeState": {
+          "date": "2025-03-15",
+          "draft": "true",
+          "gatesClear": null
+        }
+      },
+      {
+        "slug": "tree-migration-climate-change-assistance",
+        "copies": 9,
+        "variants": 4,
+        "roots": [
+          "runtime",
+          "old_info",
+          "old_561",
+          "section_site",
+          "experimental",
+          "section_legacy"
+        ],
+        "runtimeState": {
+          "date": "2025-02-17",
+          "draft": "true",
+          "gatesClear": null
+        }
+      },
+      {
+        "slug": "trump-administration-sanctions-cuba-s-national-oil-company-amid",
+        "copies": 9,
+        "variants": 2,
+        "roots": [
+          "runtime",
+          "old_info",
+          "old_561",
+          "section_site",
+          "experimental",
+          "section_legacy"
+        ],
+        "runtimeState": {
+          "date": "2026-06-12",
+          "draft": "true",
+          "gatesClear": "false"
+        }
+      },
+      {
+        "slug": "uk-bond-yields-rise-as-water-company-shares-fall",
+        "copies": 9,
+        "variants": 3,
+        "roots": [
+          "runtime",
+          "old_info",
+          "old_561",
+          "section_site",
+          "experimental",
+          "section_legacy"
+        ],
+        "runtimeState": {
+          "date": "2026-06-19",
+          "draft": "false",
+          "gatesClear": "true"
+        }
+      },
+      {
+        "slug": "uk-retail-sales-spike-masks-climate-driven-supply-fragility",
+        "copies": 9,
+        "variants": 4,
+        "roots": [
+          "runtime",
+          "old_info",
+          "old_561",
+          "section_site",
+          "experimental",
+          "section_legacy"
+        ],
+        "runtimeState": {
+          "date": "2026-06-19",
+          "draft": "true",
+          "gatesClear": "false"
+        }
+      },
+      {
+        "slug": "ukraines-pursuit-of-ceasefire-amid-global-instabilities",
+        "copies": 9,
+        "variants": 4,
+        "roots": [
+          "runtime",
+          "old_info",
+          "old_561",
+          "section_site",
+          "experimental",
+          "section_legacy"
+        ],
+        "runtimeState": {
+          "date": "2025-03-10",
+          "draft": "true",
+          "gatesClear": null
+        }
+      },
+      {
+        "slug": "us-steel-and-aluminum-tariffs-a-catalyst-for-global-economic-and-geopolitical-shifts",
+        "copies": 9,
+        "variants": 4,
+        "roots": [
+          "runtime",
+          "old_info",
+          "old_561",
+          "section_site",
+          "experimental",
+          "section_legacy"
+        ],
+        "runtimeState": {
+          "date": "2025-03-12",
+          "draft": "true",
+          "gatesClear": null
+        }
+      },
+      {
+        "slug": "whats-a-good-health-factor-in-defi-managing-risk",
+        "copies": 9,
+        "variants": 4,
+        "roots": [
+          "runtime",
+          "old_info",
+          "old_561",
+          "section_site",
+          "experimental",
+          "section_legacy"
+        ],
+        "runtimeState": {
+          "date": "2025-02-19",
+          "draft": "true",
+          "gatesClear": null
+        }
+      },
+      {
+        "slug": "woodside-energy-s-ai-infrastructure-build-shows-what-an",
+        "copies": 2,
+        "variants": 1,
+        "roots": [
+          "runtime",
+          "section_site"
+        ],
+        "runtimeState": {
+          "date": "2026-07-18",
+          "draft": "true",
+          "gatesClear": "false"
+        }
+      },
+      {
+        "slug": "world-cup-faces-air-quality-disaster-as-wildfires-threaten",
+        "copies": 9,
+        "variants": 4,
+        "roots": [
+          "runtime",
+          "old_info",
+          "old_561",
+          "section_site",
+          "experimental",
+          "section_legacy"
+        ],
+        "runtimeState": {
+          "date": "2026-06-11",
+          "draft": "true",
+          "gatesClear": "false"
+        }
+      },
+      {
+        "slug": "world-cup-faces-air-quality-threat-from-wildfires-and",
+        "copies": 9,
+        "variants": 2,
+        "roots": [
+          "runtime",
+          "old_info",
+          "old_561",
+          "section_site",
+          "experimental",
+          "section_legacy"
+        ],
+        "runtimeState": {
+          "date": "2026-06-11",
+          "draft": "true",
+          "gatesClear": "false"
+        }
+      }
+    ]
+  },
+  "sourceCorpus": {
+    "localNewscableBroker": {
+      "exchangeFiles": 1320,
+      "uniqueSubjects": 522,
+      "uniqueUrls": 521,
+      "duplicateUrlCopies": 799,
+      "summaryCharacters": 5936338,
+      "domains": 34,
+      "ledgerCopies": 2365
+    },
+    "coldRedGateStore": {
+      "records": 1561,
+      "bytes": 7334246,
+      "uniqueSubjects": 1510,
+      "uniqueUrls": 1469,
+      "duplicateUrlCopies": 92,
+      "summaryCharacters": 4069496,
+      "domains": 39,
+      "categories": {
+        "collapseClimate": 87,
+        "collapseDecolonization": 65,
+        "collapseDegrowth": 34,
+        "collapseFinance": 119,
+        "collapsePolitics": 141,
+        "collapseTech": 146,
+        "culture": 200,
+        "decolonization": 70,
+        "degrowth": 43,
+        "economy": 138,
+        "environment": 55,
+        "politics": 196,
+        "sports": 110,
+        "technology": 113,
+        "war": 44
+      }
+    }
+  },
+  "inference": {
+    "coldRedGateProviderLedger": {
+      "events": 517,
+      "uniqueExchangeIds": 161,
+      "sonnetLedgerEvents": 164,
+      "sonnetCacheCreationTokens": 4494662,
+      "sonnetCacheReadTokens": 1603866,
+      "sonnetOutputTokens": 1072358,
+      "sonnetWallSeconds": 21022.39
+    },
+    "retainedClaudeReceipts": {
+      "unionKoiosUnique": 195,
+      "sharedBetweenLaptopAndVps": 82,
+      "laptopKoiosUnique": 93,
+      "vpsKoiosUnique": 184,
+      "vpsModels": {
+        "claude-sonnet-4-6": 179,
+        "sonnet": 3,
+        "claude-opus-4-8": 2
+      },
+      "vpsKoiosSonnetWallSeconds": 28637.156,
+      "note": "Receipt count exceeds the Koios provider ledger's unique exchange count; receipts and accounting records are not reconciled."
+    },
+    "otherRetainedVpsExchanges": {
+      "geminiFiles": 614,
+      "groqFiles": 23,
+      "nvidiaFiles": 8,
+      "openrouterFiles": 3
+    },
+    "evidenceShape": "Claude receipts retain the complete prompt packet, source excerpts, office/duty/skill law, manuscript, and completion; they are reusable paid work, not disposable logs."
+  },
+  "editorial": {
+    "judgments": 101,
+    "uniqueSlugsJudged": 16,
+    "publishableTrueJudgments": 21,
+    "latestAcceptedSlugs": [
+      "geometry-football-and-the-world-cup-final",
+      "climate-and-conflict-collide-as-indigenous-leaders-press-the",
+      "economics-and-the-biophysical-limits-to-growth-a-new",
+      "thousands-flee-as-first-nations-bear-the-brunt-of",
+      "indigenous-leaders-confront-the-collision-of-climate-and-extraction",
+      "woodside-energy-s-ai-infrastructure-build-shows-what-an",
+      "java-was-a-three-day-hotfix-away-from-dying"
+    ],
+    "caveat": "Latest editorial acceptance is not equivalent to safe publication. Geometry was later withdrawn for confirmed source overlap, and the current July manuscripts remain draft:true and gates_clear:false.",
+    "assignmentEvents": {
+      "total": 173,
+      "dispositions": 65,
+      "successors": 30,
+      "baseAssignments": 26,
+      "selections": 20,
+      "revalidations": 18,
+      "controls": 14,
+      "maxRepairDepth": 3
+    },
+    "refusalReasons": {
+      "sourceOriginality": 42,
+      "evidenceBudget": 5,
+      "headline": 5,
+      "length": 3,
+      "other": 10
+    }
+  },
+  "livePublication": {
+    "authority": "Cloudflare Worker route koios.news/* -> koios-news-primary",
+    "liveArticleRoutes": 20,
+    "newestArticleDate": "2026-06-19",
+    "feedEntries": 6,
+    "julyArticlesLive": 0,
+    "primaryCandidate": {
+      "files": 407,
+      "size": "8.3M",
+      "homepageBytes": 46420
+    },
+    "shadowSnapshot": {
+      "workerHomepageBytes": 81696,
+      "noindex": true
+    },
+    "conclusion": "The layout and deployment carrier changed, but public editorial inventory did not advance beyond June 19."
+  },
+  "cloudflare": {
+    "workers": {
+      "primary": {
+        "name": "koios-news-primary",
+        "versionNumber": 22,
+        "latestVersion": "16d637b0-f8af-4ec0-a798-c4696927c8a2",
+        "latestDeployedAt": "2026-07-20T03:38:29.721289Z",
+        "staticAssetsOnly": true,
+        "bindings": []
+      },
+      "shadow": {
+        "name": "koios-news-shadow",
+        "versionNumber": 6,
+        "latestVersion": "2391a9ad-6fa4-45bd-bf59-9f1cd21262a6",
+        "latestDeployedAt": "2026-07-18T22:32:26.101029Z",
+        "staticAssetsOnly": true,
+        "bindings": []
+      }
+    },
+    "workerVersions": 28,
+    "pagesProjects": 0,
+    "queues": 0,
+    "workerCustomDomains": 0,
+    "kv": {
+      "namespace": "koios-news-attention",
+      "namespaceId": "48e3d0a57c014b0ebefdfd219fd49648",
+      "keys": 83,
+      "observedLoads": 226,
+      "days": {
+        "2026-07-19": 151,
+        "2026-07-20": 75
+      },
+      "lastObservedAt": "2026-07-20T03:33:30.784Z"
+    },
+    "currentTracking": "inactive: the current primary version is a static-assets-only Worker with no KV binding; attention observations stopped five minutes before that version deployed.",
+    "d1": "unverified-token-returned-401",
+    "r2": "unverified-token-returned-403"
+  },
+  "advertisingAndEconomics": {
+    "aads": {
+      "units": 4,
+      "observedUnitDayRecords": 378,
+      "impressions": 0,
+      "clicks": 0,
+      "revenue": 0
+    },
+    "internalMarket": {
+      "buyerDebits": 56,
+      "sellerCredits": 56,
+      "settledReceipts": 56,
+      "externalRevenueReceipts": 0
+    },
+    "publicationCostRecords": 8,
+    "geometryIncident": {
+      "providerUsageReceipts": 42,
+      "providerEstimatedCostMicros": 6273322,
+      "revenueMicros": 0,
+      "profitStatus": "unproven-no-external-revenue-receipt",
+      "laterWithdrawnForSourceOverlap": true
+    }
+  },
+  "runtimeAndScheduling": {
+    "clockkeeper": {
+      "registrations": 514,
+      "retirements": 508,
+      "activeSchedulesBeforePause": 6,
+      "tickEverySeconds": 300
+    },
+    "schedulesBeforePause": [
+      {
+        "operation": "operate-issue",
+        "intervalSeconds": 1800
+      },
+      {
+        "operation": "operate-repair-pulse",
+        "intervalSeconds": 900
+      },
+      {
+        "operation": "operate-learning-pulse",
+        "intervalSeconds": 21600
+      },
+      {
+        "operation": "operate-attention-import",
+        "intervalSeconds": 21600
+      },
+      {
+        "operation": "operate-aads-performance-import",
+        "intervalSeconds": 21600
+      },
+      {
+        "operation": "operate-search-demand-import",
+        "intervalSeconds": 21600
+      }
+    ],
+    "persistentServices": [
+      "claude-code-inference-a2a",
+      "gemini-inference-a2a",
+      "liss-a2a",
+      "rmn-semantic-conformance",
+      "rwil-rdf-services"
+    ],
+    "koiosSiteServiceActive": false,
+    "staleJournalTailProcessesObserved": 15
+  },
+  "organizationalAssets": {
+    "providerSettlements": [
+      "independent-editorial-assessment",
+      "newscable-source-broker",
+      "newswire-editorial-production",
+      "web-source-acquisition"
+    ],
+    "offices": 4,
+    "duties": 5,
+    "managementContracts": 10,
+    "siteContracts": 9,
+    "operationEntrypoints": 8,
+    "tests": 31,
+    "priorResearchNotes": [
+      "accountable-attention",
+      "agentic-newsroom",
+      "circulation-surface",
+      "claims-to-prose",
+      "clickbait",
+      "editorial-fiber-algebra",
+      "ietf-conformant-clickbait",
+      "journalism",
+      "news-topology",
+      "provenance-warrant",
+      "recommender-game-equilibrium",
+      "why-people-click",
+      "jsnode-as-workspace-topology",
+      "publication-game"
+    ]
+  },
+  "reconciliationPriorities": [
+    "Adopt one authoritative manuscript and stage registry keyed by assignment lineage, manuscript digest, source packet digest, and judgment digest.",
+    "Import every retained receipt and manuscript variant once; never rerun a stage whose exact input digest already has an acceptable product.",
+    "Replace recursive repair assignments with bounded patches against the existing manuscript and preserve prior accepted stage products.",
+    "Run publication and attention state in Cloudflare; reduce Cold Red Gate to a 15-minute authenticated pulse into the Cloudflare control surface.",
+    "Restore live attention measurement before claiming audience learning; current static Worker has no measurement binding.",
+    "Triage the seven latest-accepted manuscripts against later originality/quarantine evidence without purchasing new editorial judgments.",
+    "Separate source-corpus acquisition, commissioning, editorial production, publication, attention, advertising, and revenue as stateful services with resumable products."
+  ]
+}

@@ -1,0 +1,69 @@
+{
+  "subject": "prickly-pears-avocados-and-lemons-how-rainwater-harvesting-is-feeding-mexico-city-s-gardens-and-homes",
+  "claims": [
+    {
+      "id": "title",
+      "proposition": {
+        "predicate": "title",
+        "object": "Prickly pears, avocados and lemons: how rainwater harvesting is feeding Mexico City’s gardens and homes"
+      },
+      "time": {
+        "asserted": "2026-07-20T11:21:18.207Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "environment",
+        "citation": "https://www.theguardian.com/global-development/2026/jul/20/rainwater-harvesting-mexico-city-transforming-lives"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "url",
+      "proposition": {
+        "predicate": "url",
+        "object": "https://www.theguardian.com/global-development/2026/jul/20/rainwater-harvesting-mexico-city-transforming-lives"
+      },
+      "time": {
+        "asserted": "2026-07-20T11:21:18.207Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "environment",
+        "citation": "https://www.theguardian.com/global-development/2026/jul/20/rainwater-harvesting-mexico-city-transforming-lives"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "summary",
+      "proposition": {
+        "predicate": "summary",
+        "object": "<p>Thousands of low-income households are benefiting from a simple system that captures and filters rainfall from the city’s roofs</p><p></p><p>Walking up a steep hill to a small informal settlement of about 45 houses in Cristo Rey, above San Gregorio Atlapulco in Mexico City, Ana Aparicio Bahena arrives at her simple home. As she walks through her lush, verdant garden, she points out plants such as the prickly pear, cactus leaves with tiny, hair-like spines, and picks blackberries hanging from a bush, handing them to her two daughters.</p><p>“I can grow vegetables,” says Aparicio Bahena proudly, holding up a small onion. “I have avocados, lemons, potatoes … I never used to be able to grow my own food. It’s wonderful.”</p> <a href=\"https://www.theguardian.com/global-development/2026/jul/20/rainwater-harvesting-mexico-city-transforming-lives\">Continue reading...</a>"
+      },
+      "time": {
+        "asserted": "2026-07-20T11:21:18.207Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "environment",
+        "citation": "https://www.theguardian.com/global-development/2026/jul/20/rainwater-harvesting-mexico-city-transforming-lives"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "published",
+      "proposition": {
+        "predicate": "published",
+        "object": "Mon, 20 Jul 2026 11:00:00 GMT"
+      },
+      "time": {
+        "asserted": "2026-07-20T11:21:18.207Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "environment",
+        "citation": "https://www.theguardian.com/global-development/2026/jul/20/rainwater-harvesting-mexico-city-transforming-lives"
+      },
+      "status": "supported"
+    }
+  ]
+}

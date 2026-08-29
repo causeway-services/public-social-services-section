@@ -1,0 +1,69 @@
+{
+  "subject": "korea-box-office-na-hong-jin-s-hope-rules-with-66-market-share",
+  "claims": [
+    {
+      "id": "title",
+      "proposition": {
+        "predicate": "title",
+        "object": "Korea Box Office: Na Hong-Jin’s ‘Hope’ Rules With 66% Market Share"
+      },
+      "time": {
+        "asserted": "2026-07-20T09:48:52.265Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "culture",
+        "citation": "https://variety.com/2026/film/box-office/korea-box-office-na-hong-jin-hope-1236816346/"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "url",
+      "proposition": {
+        "predicate": "url",
+        "object": "https://variety.com/2026/film/box-office/korea-box-office-na-hong-jin-hope-1236816346/"
+      },
+      "time": {
+        "asserted": "2026-07-20T09:48:52.265Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "culture",
+        "citation": "https://variety.com/2026/film/box-office/korea-box-office-na-hong-jin-hope-1236816346/"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "summary",
+      "proposition": {
+        "predicate": "summary",
+        "object": "Local science-fiction survival thriller “Hope” stormed the top of the South Korean box office during the weekend of Jul. 17–19. According to data from KOBIS, the tracking service operated by the Korean Film Council, the highly anticipated blockbuster generated $11.3 million from 1,504,019 admissions over the three-day window, capturing a dominant 66.62% share of the […]"
+      },
+      "time": {
+        "asserted": "2026-07-20T09:48:52.265Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "culture",
+        "citation": "https://variety.com/2026/film/box-office/korea-box-office-na-hong-jin-hope-1236816346/"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "published",
+      "proposition": {
+        "predicate": "published",
+        "object": "Mon, 20 Jul 2026 06:50:09 +0000"
+      },
+      "time": {
+        "asserted": "2026-07-20T09:48:52.265Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "culture",
+        "citation": "https://variety.com/2026/film/box-office/korea-box-office-na-hong-jin-hope-1236816346/"
+      },
+      "status": "supported"
+    }
+  ]
+}

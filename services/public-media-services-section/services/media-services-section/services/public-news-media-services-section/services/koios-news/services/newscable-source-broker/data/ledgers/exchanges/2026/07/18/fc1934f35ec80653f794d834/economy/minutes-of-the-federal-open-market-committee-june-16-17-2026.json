@@ -1,0 +1,69 @@
+{
+  "subject": "minutes-of-the-federal-open-market-committee-june-16-17-2026",
+  "claims": [
+    {
+      "id": "title",
+      "proposition": {
+        "predicate": "title",
+        "object": "Minutes of the Federal Open Market Committee, June 16-17, 2026"
+      },
+      "time": {
+        "asserted": "2026-07-18T07:55:41.153Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "economy",
+        "citation": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260708a.htm"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "url",
+      "proposition": {
+        "predicate": "url",
+        "object": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260708a.htm"
+      },
+      "time": {
+        "asserted": "2026-07-18T07:55:41.153Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "economy",
+        "citation": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260708a.htm"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "summary",
+      "proposition": {
+        "predicate": "summary",
+        "object": "Minutes of the Federal Open Market Committee, June 16-17, 2026"
+      },
+      "time": {
+        "asserted": "2026-07-18T07:55:41.153Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "economy",
+        "citation": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260708a.htm"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "published",
+      "proposition": {
+        "predicate": "published",
+        "object": "Wed, 8 Jul 2026 18:00:00 GMT"
+      },
+      "time": {
+        "asserted": "2026-07-18T07:55:41.153Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "economy",
+        "citation": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260708a.htm"
+      },
+      "status": "supported"
+    }
+  ]
+}

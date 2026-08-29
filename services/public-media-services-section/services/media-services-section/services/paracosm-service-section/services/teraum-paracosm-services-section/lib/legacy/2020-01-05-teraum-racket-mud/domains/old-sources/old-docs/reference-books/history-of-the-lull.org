@@ -1,0 +1,16 @@
+#+SETUPFILE: ./setup.inc
+#+TITLE: History of the Lull
+#+EXPORT_FILE_NAME: ../../pub/reference-books/history-of-the-lull
+#+Lull, the!"History of the Lull"
+* Introduction
+{{{document-isdraft}}}
+
+{{{document-hasproject}}}
+* History of the Lull
+** Retirement of Heroes
+- In 22pc, in the town of /Bellybrush/, the /Chandlers Guild/ invents the /wax clock/.
+* Supplements
+** Index
+- Bellybrush ::
+- wax clock ::
+- Chandlers Guild ::

@@ -1,0 +1,69 @@
+{
+  "subject": "where-to-watch-spain-vs-argentina-in-the-2026-world-cup-final-online",
+  "claims": [
+    {
+      "id": "title",
+      "proposition": {
+        "predicate": "title",
+        "object": "Where to Watch Spain vs. Argentina in the 2026 World Cup Final Online"
+      },
+      "time": {
+        "asserted": "2026-07-19T20:06:19.825Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "culture",
+        "citation": "https://www.hollywoodreporter.com/tv/tv-news/watch-spain-argentina-world-cup-2026-final-live-stream-free-1236651673/"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "url",
+      "proposition": {
+        "predicate": "url",
+        "object": "https://www.hollywoodreporter.com/tv/tv-news/watch-spain-argentina-world-cup-2026-final-live-stream-free-1236651673/"
+      },
+      "time": {
+        "asserted": "2026-07-19T20:06:19.825Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "culture",
+        "citation": "https://www.hollywoodreporter.com/tv/tv-news/watch-spain-argentina-world-cup-2026-final-live-stream-free-1236651673/"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "summary",
+      "proposition": {
+        "predicate": "summary",
+        "object": "The July 19 matchup will determine the 2026 FIFA Men's World Cup champion, and includes the first-ever final halftime show featuring Justin Bieber, BTS, Madonna and Shakira, among others."
+      },
+      "time": {
+        "asserted": "2026-07-19T20:06:19.825Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "culture",
+        "citation": "https://www.hollywoodreporter.com/tv/tv-news/watch-spain-argentina-world-cup-2026-final-live-stream-free-1236651673/"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "published",
+      "proposition": {
+        "predicate": "published",
+        "object": "Sun, 19 Jul 2026 17:05:24 +0000"
+      },
+      "time": {
+        "asserted": "2026-07-19T20:06:19.825Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "culture",
+        "citation": "https://www.hollywoodreporter.com/tv/tv-news/watch-spain-argentina-world-cup-2026-final-live-stream-free-1236651673/"
+      },
+      "status": "supported"
+    }
+  ]
+}

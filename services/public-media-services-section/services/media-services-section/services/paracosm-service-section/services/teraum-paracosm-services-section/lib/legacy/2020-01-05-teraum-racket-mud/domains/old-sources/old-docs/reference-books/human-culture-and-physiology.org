@@ -1,0 +1,22 @@
+#+SETUPFILE: ./setup.inc
+#+TITLE: Human Culture and Physiology
+#+EXPORT_FILE_NAME: ../../pub/reference-books/human-culture-and-physiology
+#+INDEX: humans!/Human Culture and Physiology/
+* DRAFT Introduction
+* DRAFT Human Culture and Physiology
+** DRAFT Contemporary Organizations
+*** DRAFT Chandlers Guild
+    :PROPERTIES:
+    :CUSTOM_ID: chandlers-guild
+    :END:
+#+INDEX: Chandlers Guild!"Chandlers Guild" in Human Culture and Physiology
+The */Chandlers Guild/* is a large commercial organization that is
+involved in, among others, the following industries:
+- advertising
+- apiculture
+- bookbinding
+- candlemaking
+* DRAFT Supplements
+** DRAFT Index
+- humans ::
+- Chandlers Guild ::

@@ -1,0 +1,13 @@
+{
+  "name": "@causeway-services/koios-news-routine-publication-current",
+  "version": "0.1.0",
+  "type": "module",
+  "description": "Offline, exact-admission-gated static candidate formation for one Koios draft.",
+  "engines": { "node": ">=22.18" },
+  "bin": { "koios-news-routine-publication": "./bin/koios-news-routine-publication.mjs" },
+  "scripts": {
+    "check": "node --check src/routine-publication.mjs && node --check bin/koios-news-routine-publication.mjs",
+    "test": "node --test test/*.test.mjs",
+    "verify": "npm run check && npm test"
+  }
+}

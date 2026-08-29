@@ -1,0 +1,69 @@
+{
+  "subject": "in-maine-bellows-ends-senate-bid-as-jackson-builds-momentum",
+  "claims": [
+    {
+      "id": "title",
+      "proposition": {
+        "predicate": "title",
+        "object": "In Maine, Bellows Ends Senate Bid as Jackson Builds Momentum"
+      },
+      "time": {
+        "asserted": "2026-07-19T15:45:20.218Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "politics",
+        "citation": "https://www.nytimes.com/2026/07/19/us/politics/maine-senate-bellow-jackson-platner-democrats.html"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "url",
+      "proposition": {
+        "predicate": "url",
+        "object": "https://www.nytimes.com/2026/07/19/us/politics/maine-senate-bellow-jackson-platner-democrats.html"
+      },
+      "time": {
+        "asserted": "2026-07-19T15:45:20.218Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "politics",
+        "citation": "https://www.nytimes.com/2026/07/19/us/politics/maine-senate-bellow-jackson-platner-democrats.html"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "summary",
+      "proposition": {
+        "predicate": "summary",
+        "object": "The Maine secretary of state ended her run in a crowded race to replace Graham Platner as the Democratic Senate nominee."
+      },
+      "time": {
+        "asserted": "2026-07-19T15:45:20.218Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "politics",
+        "citation": "https://www.nytimes.com/2026/07/19/us/politics/maine-senate-bellow-jackson-platner-democrats.html"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "published",
+      "proposition": {
+        "predicate": "published",
+        "object": "Sun, 19 Jul 2026 15:41:10 +0000"
+      },
+      "time": {
+        "asserted": "2026-07-19T15:45:20.218Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "politics",
+        "citation": "https://www.nytimes.com/2026/07/19/us/politics/maine-senate-bellow-jackson-platner-democrats.html"
+      },
+      "status": "supported"
+    }
+  ]
+}

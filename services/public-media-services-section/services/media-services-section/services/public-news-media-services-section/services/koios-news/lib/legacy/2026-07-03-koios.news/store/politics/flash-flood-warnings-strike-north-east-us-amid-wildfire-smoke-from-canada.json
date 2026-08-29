@@ -1,0 +1,69 @@
+{
+  "subject": "flash-flood-warnings-strike-north-east-us-amid-wildfire-smoke-from-canada",
+  "claims": [
+    {
+      "id": "title",
+      "proposition": {
+        "predicate": "title",
+        "object": "Flash flood warnings strike north-east US amid wildfire smoke from Canada"
+      },
+      "time": {
+        "asserted": "2026-07-18T19:52:24.428Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "politics",
+        "citation": "https://www.theguardian.com/us-news/2026/jul/18/flash-flood-weather-north-east-us"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "url",
+      "proposition": {
+        "predicate": "url",
+        "object": "https://www.theguardian.com/us-news/2026/jul/18/flash-flood-weather-north-east-us"
+      },
+      "time": {
+        "asserted": "2026-07-18T19:52:24.428Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "politics",
+        "citation": "https://www.theguardian.com/us-news/2026/jul/18/flash-flood-weather-north-east-us"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "summary",
+      "proposition": {
+        "predicate": "summary",
+        "object": "<p>Poor air quality from wildfires continues to plague New York City as several neighborhoods hit by thunderstorms</p><p>Saturday is delivering a double dose of dangerous weather across the north-eastern US, with smoky skies from Canadian wildfires giving way to severe thunderstorms that have already triggered a flash flood warning as torrential rain pounds parts of the region.</p><p>After a brief break on Friday, smoke from the wildfires moved back into New York City and surrounding communities on Saturday, sending air quality back into <a href=\"https://www.theguardian.com/world/2026/jul/18/air-quality-warnings-canada-wildfires\">unhealthy levels</a>.</p> <a href=\"https://www.theguardian.com/us-news/2026/jul/18/flash-flood-weather-north-east-us\">Continue reading...</a>"
+      },
+      "time": {
+        "asserted": "2026-07-18T19:52:24.428Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "politics",
+        "citation": "https://www.theguardian.com/us-news/2026/jul/18/flash-flood-weather-north-east-us"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "published",
+      "proposition": {
+        "predicate": "published",
+        "object": "Sat, 18 Jul 2026 19:11:13 GMT"
+      },
+      "time": {
+        "asserted": "2026-07-18T19:52:24.428Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "politics",
+        "citation": "https://www.theguardian.com/us-news/2026/jul/18/flash-flood-weather-north-east-us"
+      },
+      "status": "supported"
+    }
+  ]
+}

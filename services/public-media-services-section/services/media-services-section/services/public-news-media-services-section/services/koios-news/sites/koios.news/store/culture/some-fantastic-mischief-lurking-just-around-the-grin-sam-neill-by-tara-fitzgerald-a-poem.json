@@ -1,0 +1,69 @@
+{
+  "subject": "some-fantastic-mischief-lurking-just-around-the-grin-sam-neill-by-tara-fitzgerald-a-poem",
+  "claims": [
+    {
+      "id": "title",
+      "proposition": {
+        "predicate": "title",
+        "object": "‘Some fantastic mischief lurking just around the grin’: Sam Neill by Tara Fitzgerald – a poem"
+      },
+      "time": {
+        "asserted": "2026-07-19T14:42:05.531Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "culture",
+        "citation": "https://www.theguardian.com/film/2026/jul/17/sam-neill-tara-fitzgerald-poem"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "url",
+      "proposition": {
+        "predicate": "url",
+        "object": "https://www.theguardian.com/film/2026/jul/17/sam-neill-tara-fitzgerald-poem"
+      },
+      "time": {
+        "asserted": "2026-07-19T14:42:05.531Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "culture",
+        "citation": "https://www.theguardian.com/film/2026/jul/17/sam-neill-tara-fitzgerald-poem"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "summary",
+      "proposition": {
+        "predicate": "summary",
+        "object": "<p>Neill’s co-star in the 1994 comedy-drama Sirens remembers a man of rare beauty, generosity and delight</p><p></p><p>By the time I met Sam<br> He had already assumed a kind of mythic status in our household,<br> playing Reilly on Ace of Spies.<br> My stepfather was his boss.<br> 11 years on and I get to work with him,<br> Playing Norman Lindsay (wryly).<br><br> He was<br> Electric-minded<br> Some fantastic mischief lurking just around the grin<br> The twinkle of his eye<br> An astronomical scintillation<br> No time for Acting<br> Too busy Being.<br> Present<br> (Before I knew what present even was)<br> There for the other actor<br> Made it seem so simple<br> Really asked the question<br> He could conjure anything<br> Puckish</p><p>So blessed to have had that time<br> The proximity<br> With the hope that something<br> Might rub off<br><br> Yes<br><br> His softly softly take<br><br> The first tasting of<br> Two Paddocks<br> Pinot noir<br> On a gentle evening<br><em>Chez lui</em><br> (Another case of his generosity)<br> The satisfying ritual of the swirling, the sniffing, the sipping,<br> The glass half-full<br> Raised<br> To the life fully lived<br><br> Fine unbuttoning of stories and some<br> Past glories<br> Never boastful<br> Never cruel<br><br> Only<br><br> A delight at the sharing<br> The wit and the wine<br> and the<br> Wrapping us all in his open embrace<br><br> Us, being a shimmer of sirens,<br> A bouquet of sheep shearers<br> And an exaltation of Hugh Grants.<br><br> (To be sure, the badinage that flowed on set was an art form in itself)<br><br> I’m looking at him now<br> Shooting his closeup for a scene in the garden,<br> Where the children<br> Watch a fairy show<br> Staged by the artist’s models.<br> His face flooded<br> With imagination,<br> With his own wonder,<br> His own childlike joy.</p> <a href=\"https://www.theguardian.com/film/2026/jul/17/sam-neill-tara-fitzgerald-poem\">Continue reading...</a>"
+      },
+      "time": {
+        "asserted": "2026-07-19T14:42:05.531Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "culture",
+        "citation": "https://www.theguardian.com/film/2026/jul/17/sam-neill-tara-fitzgerald-poem"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "published",
+      "proposition": {
+        "predicate": "published",
+        "object": "Fri, 17 Jul 2026 09:00:03 GMT"
+      },
+      "time": {
+        "asserted": "2026-07-19T14:42:05.531Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "culture",
+        "citation": "https://www.theguardian.com/film/2026/jul/17/sam-neill-tara-fitzgerald-poem"
+      },
+      "status": "supported"
+    }
+  ]
+}

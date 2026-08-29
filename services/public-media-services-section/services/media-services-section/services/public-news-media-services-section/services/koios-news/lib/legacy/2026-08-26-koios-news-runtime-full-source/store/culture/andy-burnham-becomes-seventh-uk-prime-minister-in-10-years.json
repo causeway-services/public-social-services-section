@@ -1,0 +1,69 @@
+{
+  "subject": "andy-burnham-becomes-seventh-uk-prime-minister-in-10-years",
+  "claims": [
+    {
+      "id": "title",
+      "proposition": {
+        "predicate": "title",
+        "object": "Andy Burnham Becomes Seventh UK Prime Minister In 10 Years"
+      },
+      "time": {
+        "asserted": "2026-07-20T11:21:26.010Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "culture",
+        "citation": "https://deadline.com/2026/07/andy-burnham-becomes-uk-prime-minister-keir-starmer-1236996734/"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "url",
+      "proposition": {
+        "predicate": "url",
+        "object": "https://deadline.com/2026/07/andy-burnham-becomes-uk-prime-minister-keir-starmer-1236996734/"
+      },
+      "time": {
+        "asserted": "2026-07-20T11:21:26.010Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "culture",
+        "citation": "https://deadline.com/2026/07/andy-burnham-becomes-uk-prime-minister-keir-starmer-1236996734/"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "summary",
+      "proposition": {
+        "predicate": "summary",
+        "object": "We’ve been here before. The UK has its seventh Prime Minister in a decade as Andy Burnham arrives at Buckingham Palace to greet King Charles III and be sworn in. The former Greater Manchester Mayor has had an odd coronation, running unopposed to be leader of the Labour Party after his predecessor Keir Starmer stepped […]"
+      },
+      "time": {
+        "asserted": "2026-07-20T11:21:26.010Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "culture",
+        "citation": "https://deadline.com/2026/07/andy-burnham-becomes-uk-prime-minister-keir-starmer-1236996734/"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "published",
+      "proposition": {
+        "predicate": "published",
+        "object": "Mon, 20 Jul 2026 11:08:00 +0000"
+      },
+      "time": {
+        "asserted": "2026-07-20T11:21:26.010Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "culture",
+        "citation": "https://deadline.com/2026/07/andy-burnham-becomes-uk-prime-minister-keir-starmer-1236996734/"
+      },
+      "status": "supported"
+    }
+  ]
+}

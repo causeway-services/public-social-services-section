@@ -1,0 +1,26 @@
+{
+  "type": "ModernBusinessRoutineProductionPlan",
+  "status": "first-video-automatically-uploaded-and-scheduled",
+  "timezone": "America/Chicago",
+  "eligibleWeekdays": ["Tuesday", "Thursday", "Saturday"],
+  "generationTargetOnEligibleDay": 1,
+  "releaseTargetOnEligibleDay": 1,
+  "publishTimeUtc": "15:00",
+  "notebookId": "763fbe07-e786-4e23-9b33-b53f05230573",
+  "firstLesson": "value-proposition-business-model-purpose",
+  "notebookArtifactId": "c065ad06-f523-467f-a725-2fa33f0d1894",
+  "materializedArtifact": "data/videos/value-propositions-business-models-purpose/artifact.json",
+  "metadata": "content/production/value-propositions-business-models-purpose.metadata.json",
+  "intendedReleaseAt": "2026-07-23T15:00:00.000Z",
+  "currentReleaseCarrier": "YouTube Data API unattended scheduled-public bridge; the first live schedule was retained without an audit",
+  "futureReleaseCarrier": "YouTube Data API unattended routine publication",
+  "firstScheduledRelease": {
+    "youtubeVideoId": "fRnoCLDnn2g",
+    "scheduledUploadReceipt": "urn:sha256:c62d00cda72bc003ff1e58ef5626a8432dda18c7d06d41333a7543d80b087875",
+    "scheduleObservation": "urn:sha256:76c7fc27edd291d6f3165ba5cc4b16f48a967ea5e09c771f2aeed49909b99ee6",
+    "observedPublishAt": "2026-07-23T15:00:00.000Z",
+    "disposition": "schedule-retained-and-processing-succeeded",
+    "processingObservedAt": "2026-07-22T04:02:00.000Z"
+  },
+  "authorityWithheld": ["claim-render-complete-before-observation", "claim-uploaded-before-venue-receipt", "claim-scheduled-before-Studio-or-API-receipt", "claim-public-before-observation"]
+}

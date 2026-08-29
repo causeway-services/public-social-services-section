@@ -1,0 +1,23 @@
+{
+  "type": "TTIKnowledgeMarketActivationAdmission",
+  "version": 1,
+  "id": "tti-knowledge-market-activation-not-admitted-2026-01",
+  "status": "not-admitted",
+  "scope": "broker-mention-and-direct-candidate-pilot-no-sale",
+  "termsId": null,
+  "intakeOrigin": null,
+  "issuedAt": null,
+  "expiresAt": null,
+  "checks": [
+    {"id":"qualified-legal-review","status":"missing","evidenceId":null},
+    {"id":"adult-capacity-and-minor-exclusion","status":"partial","evidenceId":"code:knowledge-intake:adult-attestation-only"},
+    {"id":"privacy-and-security-review","status":"partial","evidenceId":"test:knowledge-intake-and-broker:passing-independent-review-market-residue"},
+    {"id":"discord-developer-policy-review","status":"missing","evidenceId":null},
+    {"id":"production-https-and-query-log-suppression","status":"missing","evidenceId":null},
+    {"id":"pilot-stop-and-incident-law","status":"missing","evidenceId":null}
+  ],
+  "effect": "none",
+  "refusal": "The Discord broker, DM links, and direct intake must remain disabled until a new exact admission passes every required check and binds the effective terms and production HTTPS origin.",
+  "saleAuthority": false,
+  "payoutAuthority": false
+}

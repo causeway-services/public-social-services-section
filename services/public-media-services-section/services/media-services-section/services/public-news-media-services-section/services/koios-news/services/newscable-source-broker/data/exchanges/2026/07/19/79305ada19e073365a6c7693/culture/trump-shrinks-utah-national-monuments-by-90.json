@@ -1,0 +1,69 @@
+{
+  "subject": "trump-shrinks-utah-national-monuments-by-90",
+  "claims": [
+    {
+      "id": "title",
+      "proposition": {
+        "predicate": "title",
+        "object": "Trump Shrinks Utah National Monuments by 90%"
+      },
+      "time": {
+        "asserted": "2026-07-19T15:04:21.677Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "culture",
+        "citation": "https://hyperallergic.com/trump-shrinks-utah-national-monuments-by-90/"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "url",
+      "proposition": {
+        "predicate": "url",
+        "object": "https://hyperallergic.com/trump-shrinks-utah-national-monuments-by-90/"
+      },
+      "time": {
+        "asserted": "2026-07-19T15:04:21.677Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "culture",
+        "citation": "https://hyperallergic.com/trump-shrinks-utah-national-monuments-by-90/"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "summary",
+      "proposition": {
+        "predicate": "summary",
+        "object": "The Trump administration has significantly diminished the size of two national monuments in Utah that hold sacred lands and rich archaeological sites. Through a series of executive proclamations issued under the Antiquities Act this week, Trump shrunk the Grand Staircase-Escalante and Bears Ears national monuments by approximately 90% each. The announcement, which comes as the president pushes to expand \" energy development \" on federal lands, prompted outrage from tribal organizations, environmental activists, and cultural preservation groups. As part of the cuts, the president shaved Grand Staircase-Escalante's 1.87 million acres down to a mere 181,500 acres, and similarly cut Bears Ears' 1.36 million acres down to 121,100 acres. The monuments encompass ancestral lands belonging to the Hopi Tribe, Navajo Nation, Ute Mountain Ute Indian Tribe, and several other Native American nations. Bears Ears, according to the Inter-Tribal Coalition that advocates for the protection of the monument's lands, is home to over 100,000 Native American archaeological sites, including intricate petroglyphs and cave drawings. According to the Salt Lake Tribune , the cuts include Grand Staircase-Escalante's namesake rock formation, the \"Grand Staircase,\" and Bears Ears's Valley of the Gods, an area encompassing rock formations sacred to the Navajo Nation. Advocacy groups, including the Grand Staircase-Escalante Inter-Tribal Coalition, denounced the reductions as a threat to tribal sovereignty. Utah Republicans and the president billed the change as a way to better care for \"specific sites rather than millions of surrounding acres.\" In a fact sheet produced by the Trump administration, the areas released are described as lacking \"objects of historic or scientific interest,\" and the reshaping is framed as expanding opportunities for \"resource development.\" Autumn Gillard, Grand Staircase-Escalante Inter-Tribal Coalition coordinator and member of the Southern Paiute, said in a press release that the six tribal nations that comprise the group were not consulted in the administration's decision to reduce the monument. \"[This] action is a direct strike against the federal government's duty to consult with Tribes,\" Gillard said. \"It also profoundly disrespects our intergenerational Traditional Knowledge by destroying a framework for Tribal co-stewardship over our ancestral land in which we invested years of effort.\" New Mexico Senate Democrat Martin Heinrich, whose office has adamantly opposed the Trump administration's ongoing attempts to dismantle protections at Chaco Culture National Historical Park , denounced the president's actions in Utah this week as \"ignoring Tribal voices.\" The environmental advocacy organization Earthjustice has vowed to take legal action against the administration over the cuts, arguing the president illegally revoked the status of millions of acres of protected federal land. The recent cuts are the president's most drastic trimmings to the two Southern Utah parks yet. During his first administration, Trump reduced Bears Ears by 85% and Grand Staircase-Escalante by about half. The monuments momentarily returned to their Obama-era sizes after Biden took office in 2021. Archaeology Southwest, a cultural preservation nonprofit that has often opposed Trump's attacks on the nation's archaeological treasures , denounced the shrinkage of Bears Ears and Grand Staircase-Escalante in a statement this week. “Any changes to the boundaries of these monuments are a direct attack on these sovereign Tribal Nations and their rights to manage their Ancestral homelands in perpetuity, as well as on our collective heritage as Americans,\" Archaeology Southwest president and CEO Steve Nash said. \"Archaeological resources are fragile — and once they are destroyed, their recovery is next to impossible.\""
+      },
+      "time": {
+        "asserted": "2026-07-19T15:04:21.677Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "culture",
+        "citation": "https://hyperallergic.com/trump-shrinks-utah-national-monuments-by-90/"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "published",
+      "proposition": {
+        "predicate": "published",
+        "object": "Thu, 16 Jul 2026 20:03:59 GMT"
+      },
+      "time": {
+        "asserted": "2026-07-19T15:04:21.677Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "culture",
+        "citation": "https://hyperallergic.com/trump-shrinks-utah-national-monuments-by-90/"
+      },
+      "status": "supported"
+    }
+  ]
+}

@@ -1,0 +1,69 @@
+{
+  "subject": "kemi-declares-war-on-net-zero-and-what-remains-of-her-party",
+  "claims": [
+    {
+      "id": "title",
+      "proposition": {
+        "predicate": "title",
+        "object": "Kemi declares war on net zero – and what remains of her party"
+      },
+      "time": {
+        "asserted": "2026-07-18T07:51:37.761Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "environment",
+        "citation": "https://www.theguardian.com/politics/2026/jul/14/kemi-badenoch-zeros-in-on-tory-mps-who-believe-in-climate-crisis-and-those-who-dont"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "url",
+      "proposition": {
+        "predicate": "url",
+        "object": "https://www.theguardian.com/politics/2026/jul/14/kemi-badenoch-zeros-in-on-tory-mps-who-believe-in-climate-crisis-and-those-who-dont"
+      },
+      "time": {
+        "asserted": "2026-07-18T07:51:37.761Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "environment",
+        "citation": "https://www.theguardian.com/politics/2026/jul/14/kemi-badenoch-zeros-in-on-tory-mps-who-believe-in-climate-crisis-and-those-who-dont"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "summary",
+      "proposition": {
+        "predicate": "summary",
+        "object": "<p>Badenoch’s ideological purge gathers pace as moderates are cast out and the Tories edge ever closer to political extinction</p><p>You have to hand it to Kemi Badenoch. She doesn’t take any prisoners. While the rest of us have been trying to survive a heatwave and are wondering if air-con may be needed for future summers, the Tory leader has taken a more hardline approach to climate change. Call it Schrödinger’s climate change. It’s both happening and not happening at the same time.</p><p>Kemi is just about sane enough not to be an out-and-out denier. She leaves that to Reform. Mind you, no one would put it past her to suggest the scientists have got it wrong if the temperature drops for a few days. But her view is that while climate change may be real, there’s no point in trying to do anything about it.</p> <a href=\"https://www.theguardian.com/politics/2026/jul/14/kemi-badenoch-zeros-in-on-tory-mps-who-believe-in-climate-crisis-and-those-who-dont\">Continue reading...</a>"
+      },
+      "time": {
+        "asserted": "2026-07-18T07:51:37.761Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "environment",
+        "citation": "https://www.theguardian.com/politics/2026/jul/14/kemi-badenoch-zeros-in-on-tory-mps-who-believe-in-climate-crisis-and-those-who-dont"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "published",
+      "proposition": {
+        "predicate": "published",
+        "object": "Tue, 14 Jul 2026 16:37:19 GMT"
+      },
+      "time": {
+        "asserted": "2026-07-18T07:51:37.761Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "environment",
+        "citation": "https://www.theguardian.com/politics/2026/jul/14/kemi-badenoch-zeros-in-on-tory-mps-who-believe-in-climate-crisis-and-those-who-dont"
+      },
+      "status": "supported"
+    }
+  ]
+}

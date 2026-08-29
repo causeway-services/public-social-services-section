@@ -1,0 +1,69 @@
+{
+  "subject": "trump-has-normalized-crypto-is-it-the-path-to-the-next-financial-collapse-eduardo-porter",
+  "claims": [
+    {
+      "id": "title",
+      "proposition": {
+        "predicate": "title",
+        "object": "Trump has normalized crypto. Is it the path to the next financial collapse? | Eduardo Porter"
+      },
+      "time": {
+        "asserted": "2026-07-19T02:19:57.230Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "economy",
+        "citation": "https://www.theguardian.com/business/2026/jul/18/trump-crypto-us-economy"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "url",
+      "proposition": {
+        "predicate": "url",
+        "object": "https://www.theguardian.com/business/2026/jul/18/trump-crypto-us-economy"
+      },
+      "time": {
+        "asserted": "2026-07-19T02:19:57.230Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "economy",
+        "citation": "https://www.theguardian.com/business/2026/jul/18/trump-crypto-us-economy"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "summary",
+      "proposition": {
+        "predicate": "summary",
+        "object": "<p>Cheerleading by the president, who made $1.2bn last year off uninsured currency, does not bode well for US economy</p><p>The scale of the graft is decidedly off the charts, but the <a href=\"https://www.theguardian.com/us-news/2026/jun/30/trump-1bn-crypto-businesses-2025\">revelation</a> that Donald Trump raked in a personal fortune of <a href=\"https://www.theguardian.com/us-news/2026/jul/01/trump-earnings-as-president\">$2.2bn</a> during his first year in office should come as no surprise. The president didn’t even try to hide his venality. Not only did he refuse to sell businesses and put assets in a blind trust, as other presidents have done to limit opportunities for self-dealing; the quid pro quos with foreign governments and assorted magnates were exposed for all to see.</p><p>It is troubling that the president of the United States would so nonchalantly deploy his official powers to profit from dealings with <a href=\"https://www.bbc.com/news/articles/cly1qrl9l1qo\">money launderers</a> and <a href=\"https://www.nytimes.com/2026/02/01/us/politics/trump-crypto-uae-world-liberty.html\">Middle Eastern princes</a>. It is perhaps more so that the supposedly robust checks and balances upholding American governance proved powerless to stop him. (Here’s waiting for the supreme court to define Trump’s dealings as “<a href=\"https://www.aclu.org/press-releases/supreme-court-grants-trump-broad-immunity-for-official-acts-placing-presidents-above-the-law\">official acts</a>” in order to exonerate him.)</p> <a href=\"https://www.theguardian.com/business/2026/jul/18/trump-crypto-us-economy\">Continue reading...</a>"
+      },
+      "time": {
+        "asserted": "2026-07-19T02:19:57.230Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "economy",
+        "citation": "https://www.theguardian.com/business/2026/jul/18/trump-crypto-us-economy"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "published",
+      "proposition": {
+        "predicate": "published",
+        "object": "Sat, 18 Jul 2026 10:00:02 GMT"
+      },
+      "time": {
+        "asserted": "2026-07-19T02:19:57.230Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "economy",
+        "citation": "https://www.theguardian.com/business/2026/jul/18/trump-crypto-us-economy"
+      },
+      "status": "supported"
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+#+SETUPFILE: ./setup.inc
+#+TITLE: Teraum
+#+SUBTITLE: A Tragically Funny Fantasy Setting
+#+EXPORT_FILE_NAME: ../pub/index
+#+OPTIONS: html-postamble:nil
+#+MACRO: document-type project index
+#+MACRO: document-logline This {{{document-type}}} is an overview of the project, including a list of related resources and an index.
+#+MACRO: itch-iframe #+HTML: <iframe src="https://itch.io/embed/$1?border_width=5&amp;bg_color=eee&amp;fg_color=431&amp;link_color=542&amp;border_color=431" width="100%" height="175" frameborder="0"></iframe>
+
+
+#+TOC: headlines local 1
+* Introduction
+
+{{{project-brief}}}
+
+* Lists of Resources
+{{{itch-iframe(429254)}}}
+{{{itch-iframe(430182)}}}

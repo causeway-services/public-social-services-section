@@ -1,0 +1,69 @@
+{
+  "subject": "seven-americans-quarantining-at-kenya-ebola-facility-after-us-travel-ban-says-aid-group",
+  "claims": [
+    {
+      "id": "title",
+      "proposition": {
+        "predicate": "title",
+        "object": "Seven Americans quarantining at Kenya Ebola facility after US travel ban, says aid group"
+      },
+      "time": {
+        "asserted": "2026-07-18T08:15:55.287Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "politics",
+        "citation": "https://www.theguardian.com/us-news/2026/jul/17/ebola-us-aid-workers-kenya"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "url",
+      "proposition": {
+        "predicate": "url",
+        "object": "https://www.theguardian.com/us-news/2026/jul/17/ebola-us-aid-workers-kenya"
+      },
+      "time": {
+        "asserted": "2026-07-18T08:15:55.287Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "politics",
+        "citation": "https://www.theguardian.com/us-news/2026/jul/17/ebola-us-aid-workers-kenya"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "summary",
+      "proposition": {
+        "predicate": "summary",
+        "object": "<p>Aid workers are first known people to quarantine at facility, which sparked huge opposition in Kenya </p><p>Seven American aid workers who had been in Congo to fight the Ebola outbreak are quarantining at a new isolation facility in ⁠Kenya after the US government introduced travel ⁠restrictions, the head of a US charity ​employing them told Reuters.</p><p>The aid workers are the first known people to quarantine at the facility, which has sparked huge opposition in Kenya and is at the heart of a legal case in which a court has ordered the work to be ⁠suspended. Construction continued, however, according to US officials and satellite imagery reviewed by Reuters.</p> <a href=\"https://www.theguardian.com/us-news/2026/jul/17/ebola-us-aid-workers-kenya\">Continue reading...</a>"
+      },
+      "time": {
+        "asserted": "2026-07-18T08:15:55.287Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "politics",
+        "citation": "https://www.theguardian.com/us-news/2026/jul/17/ebola-us-aid-workers-kenya"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "published",
+      "proposition": {
+        "predicate": "published",
+        "object": "Fri, 17 Jul 2026 12:17:14 GMT"
+      },
+      "time": {
+        "asserted": "2026-07-18T08:15:55.287Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "politics",
+        "citation": "https://www.theguardian.com/us-news/2026/jul/17/ebola-us-aid-workers-kenya"
+      },
+      "status": "supported"
+    }
+  ]
+}

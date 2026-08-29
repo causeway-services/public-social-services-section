@@ -1,0 +1,28 @@
+#+SETUPFILE: ./setup.inc
+#+TITLE: Geography and Settlements of the Optic Islands
+#+EXPORT_FILE_NAME: ../../pub/geography-and-settlements-of-the-new-world
+#+INDEX: Optic Islands!/Geography and Settlements of the Optic Islands/
+#+TOC: headlines 2
+* Introduction
+{{{document-isdraft}}}
+
+{{{document-hasproject}}}
+* Geography and Settlements of the Optic Islands
+** Areas
+*** Tapir Weir Isles
+    :PROPERTIES:
+    :CUSTOM_ID: tapir-weir-isles
+    :END:
+#+INDEX: Tapir Weir Isles!"Tapir Weir Isles" in /Geography and Settlements of the Optic Islands/
+Grainstones along the beaches, nearly spherical, contain /magic/. The
+largest are painted by folk from another island, to denote who owns them; they're currency.[fn:1]
+** Settlements
+** Landmarks
+** Notable Organizations and People
+* Supplements
+** Index
+- Optic Islands ::
+
+* Footnotes
+
+[fn:1] This is a take on [[wiki:Rai_stones][Rai stones]].

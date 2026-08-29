@@ -1,0 +1,69 @@
+{
+  "subject": "how-revolutions-break-their-believers",
+  "claims": [
+    {
+      "id": "title",
+      "proposition": {
+        "predicate": "title",
+        "object": "How Revolutions Break Their Believers"
+      },
+      "time": {
+        "asserted": "2026-07-18T19:52:38.719Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "war",
+        "citation": "https://warontherocks.com/how-revolutions-break-their-believers/"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "url",
+      "proposition": {
+        "predicate": "url",
+        "object": "https://warontherocks.com/how-revolutions-break-their-believers/"
+      },
+      "time": {
+        "asserted": "2026-07-18T19:52:38.719Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "war",
+        "citation": "https://warontherocks.com/how-revolutions-break-their-believers/"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "summary",
+      "proposition": {
+        "predicate": "summary",
+        "object": "Waguih Ghali, Beer in the Snooker Club (Vintage International, 2014)The noise, the noise, the unrelenting noise of the world: How is any writer with an interest in the long view supposed to escape it, if only for a couple hours to work, let alone maintain their sanity in the remainders of a day? It’s an old dilemma, for certain, but little digital town criers in our pockets bring instant, constant news about slaughter and ruin in Gaza, Ukraine, Sudan, and beyond — grim notices against the background of those chronicling the state of domestic American politics. Perhaps one could forgive The post How Revolutions Break Their Believers appeared first on War on the Rocks ."
+      },
+      "time": {
+        "asserted": "2026-07-18T19:52:38.719Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "war",
+        "citation": "https://warontherocks.com/how-revolutions-break-their-believers/"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "published",
+      "proposition": {
+        "predicate": "published",
+        "object": "Fri, 17 Jul 2026 07:15:47 +0000"
+      },
+      "time": {
+        "asserted": "2026-07-18T19:52:38.719Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "war",
+        "citation": "https://warontherocks.com/how-revolutions-break-their-believers/"
+      },
+      "status": "supported"
+    }
+  ]
+}

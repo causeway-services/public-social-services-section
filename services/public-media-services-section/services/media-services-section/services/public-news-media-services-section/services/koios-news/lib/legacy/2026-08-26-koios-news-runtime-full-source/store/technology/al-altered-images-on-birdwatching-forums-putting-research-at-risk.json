@@ -1,0 +1,69 @@
+{
+  "subject": "al-altered-images-on-birdwatching-forums-putting-research-at-risk",
+  "claims": [
+    {
+      "id": "title",
+      "proposition": {
+        "predicate": "title",
+        "object": "Al-altered images on birdwatching forums putting research at risk"
+      },
+      "time": {
+        "asserted": "2026-07-20T04:22:49.241Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "technology",
+        "citation": "https://www.theguardian.com/environment/2026/jul/20/ai-slop-manipulated-fake-images-birds-citizen-science-aoe"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "url",
+      "proposition": {
+        "predicate": "url",
+        "object": "https://www.theguardian.com/environment/2026/jul/20/ai-slop-manipulated-fake-images-birds-citizen-science-aoe"
+      },
+      "time": {
+        "asserted": "2026-07-20T04:22:49.241Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "technology",
+        "citation": "https://www.theguardian.com/environment/2026/jul/20/ai-slop-manipulated-fake-images-birds-citizen-science-aoe"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "summary",
+      "proposition": {
+        "predicate": "summary",
+        "object": "<p>Experts warn increase in enhanced photos on birding platforms creating fake sightings, threatening credibility of tool used by scientists</p><p>For many birdwatchers, recording a species outside its normal range is the holy grail. In the UK, the discoveries often make national headlinesThe western reef heron, for example, usually found in Africa and southern Europe, <a href=\"https://www.theguardian.com/environment/2026/jun/13/tropical-heron-spotted-first-time-uk-aoe\">spotted in a seaside town in north Wales</a> in June, which was widely celebrated on birding forums.</p><p>But a new scourge is threatening to disrupt the fun: AI slop.</p> <a href=\"https://www.theguardian.com/environment/2026/jul/20/ai-slop-manipulated-fake-images-birds-citizen-science-aoe\">Continue reading...</a>"
+      },
+      "time": {
+        "asserted": "2026-07-20T04:22:49.241Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "technology",
+        "citation": "https://www.theguardian.com/environment/2026/jul/20/ai-slop-manipulated-fake-images-birds-citizen-science-aoe"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "published",
+      "proposition": {
+        "predicate": "published",
+        "object": "Mon, 20 Jul 2026 04:00:45 GMT"
+      },
+      "time": {
+        "asserted": "2026-07-20T04:22:49.241Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "technology",
+        "citation": "https://www.theguardian.com/environment/2026/jul/20/ai-slop-manipulated-fake-images-birds-citizen-science-aoe"
+      },
+      "status": "supported"
+    }
+  ]
+}

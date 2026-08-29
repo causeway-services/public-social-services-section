@@ -1,0 +1,17 @@
+{
+  "type": "ServiceContract",
+  "version": 2,
+  "id": "turntide-islands-rich-union-hourly-news-v2",
+  "customer": "urn:ame:turntide-islands",
+  "provider": "urn:ame:executive-office:union-news-service",
+  "product": "one digest-bound destination-neutral CivicMultimediaNewsCommission per completed hour, carrying the complete Union report, source claims, presentation law, audio prompt, audience, and commercial status",
+  "source": "digest-bound HarmoniousUnionIntervalReport issued by urn:ame:executive-office:union-report-team",
+  "audience": "TTI users admitted as UHC members",
+  "destinationClass": "UHC Embassy/union-news-service",
+  "period": "PT1H",
+  "publicationAuthority": "Turntide Islands local Discord boundary executor only",
+  "providerLaw": "org.emsenn.rich-hourly-union-news.v2",
+  "artifactProviders": ["urn:ame:deterministic-report-graphic-service", "urn:ame:notebooklm-inference-team"],
+  "commercialStatus": "price unpriced; payment absent; profit unproven until external revenue and attributable cost receipts settle",
+  "externalSpendCeiling": 0
+}

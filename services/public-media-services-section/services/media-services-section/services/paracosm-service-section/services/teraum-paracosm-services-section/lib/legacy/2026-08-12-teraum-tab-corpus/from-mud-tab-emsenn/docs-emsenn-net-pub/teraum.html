@@ -1,0 +1,398 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<!-- 2025-10-16 Thu 09:30 -->
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Teraum</title>
+<meta name="generator" content="Org Mode" />
+<style>
+/* [[file:../../emsenn-net.org::emsenn-net-css][emsenn-net-css]] */
+@charset "UTF-8";
+
+:root {
+  --body-font: sans-serif;
+  --header-font: sans-serif;
+  --code-font: monospace;
+  --primary-color: #ffe;
+  --primary-dim-color: #eed;
+  --secondary-color: #312;
+  --secondary-dim-color: #756;
+  --link-color: #880;
+  --link-hover-color: #aa2;
+  --link-visited-color: #934;
+  --link-visited-hover-color: #b56;
+  --external-link-color: #008;
+  --external-link-hover-color: #60b;
+  --external-link-visited-color: #172;
+  --external-link-visited-hover-color: #394;
+}
+@media(prefers-color-scheme:light){
+  :root {
+     --body-font: sans-serif;
+     --header-font: sans-serif;
+     --code-font: monospace;
+     --primary-color: #756;
+     --primary-dim-color: #312;
+     --secondary-color: #eed;
+     --secondary-dim-color: #ffe;
+     --link-color: #880;
+     --link-hover-color: #aa2;
+     --link-visited-color: #934;
+     --link-visited-hover-color: #b56;
+  }}
+body {
+  position: relative;
+  min-height: 100%;
+  background-color: var(--primary-color);
+  color: var(--secondary-color);
+  margin: 0 auto;
+  font-family: sans-serif;
+}
+main, #content {
+  background-color: var(--primary-dim-color);
+  border-left: 1.5em dotted var(--primary-color);
+  padding: 1em;
+}
+header {
+  border-bottom: 0.8em dotted var(--secondary-dim-color);
+}
+h1 { font-size: 2em; margin-bottom: 0; }
+h2 {
+  border-bottom: 0.3em dotted var(--secondary-dim-color);
+}
+h2, h3, h4, h5, h6, p, table, ul, ol, .org-src-container {
+  width: 60%;
+}
+aside {
+  float: right;
+  width: 35%;
+}
+aside p { width: 100%; }
+@media screen and (max-width:760px) {
+  h2, h3, h4, h5, h6, p, table, ul, ol, .org-src-container {
+     width: 90%;
+  }
+  aside {
+     float: inherit;
+     width: 90%;
+     border-top: 0.2em dotted var(--secondary-dim-color);
+     border-bottom: 0.2em dotted VAR(--secondary-dim-color);
+     font-size: 0.8em;
+	 }
+}
+
+footer, #postamble, #preamble {
+  padding: 0.5em;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+  empty-cells: show;
+  border: 0.1em solid #444;
+}
+thead { font-family: sans-serif; }
+th, td {
+  padding: 0 0.3em;
+  border: 0.01em solid #444;
+}
+img {
+  max-width: 80vw;
+  vertical-align: middle;
+}
+pre, .src {
+  padding: 0.5em;
+  border: 0.1em solid #444;
+  white-space: pre-wrap;
+  overflow-x: scroll;
+  text-overflow: clip;
+  scrollbar-width: none;
+}
+pre::-webkit-scrollbar, .src::-webkit-scrollbar {
+  display: none;
+}
+
+
+dt {
+  font-weight: normal;
+  display: inline-block;
+  border-bottom: 0.1rem dotted #444;
+}
+#text-index dt { border-bottom: none; }
+h2, h3, h4, h5, h6, h7, h8, h9, h10 {
+  display: block;
+  font-family: sans-serif;
+  margin: 0.2em auto 0.5em 0;
+}
+a, .link {
+  text-decoration: none;
+  color: #880;
+  display: inline;
+  position: relative;
+  border-bottom: 0.1rem dotted;
+  line-height: 1.2;
+  transition: border 0.3s;
+}
+a:hover {
+  color: #aa2;
+  outline-style: none;
+  border-bottom: 0.1rem solid;
+}
+a:visited, .visited-link { color: #934; }
+a:visited:hover { color: #b56; }
+a:focus {
+  outline-style: none;
+  border-bottom: 0.1rem solid;
+}
+::selection { background-color: #777; color: #eee; }
+a::selection { background-color: #ccc; }
+.org-todo {
+  background-color: #ddd;
+  color: #333;
+  font-size: .8rem;
+  float: right;
+}
+.org-src-container + .example {
+  margin-left: 8em;
+}
+a[href^="https://"]:not([href*="emsenn.net"]):after, a[href^="https://"]:not([href*="emsenn.net"]):visited:after, .external-link:after, .visited-external-link:after {
+  content: "^";
+  font-size: 0.5em;
+  vertical-align: super;
+}
+a[href^="https://"]:not([href*="emsenn.net"]), .external-link {
+  color: var(--external-link-color);
+}
+a[href^="https://"]:not([href*="emsenn.net"]):hover{
+  color: var(--external-link-hover-color);
+}
+a[href^="https://"]:not([href*="emsenn.net"]):visited, .visited-external-link {
+  color: var(--external-link-visited-color);
+}
+a[href^="https://"]:not([href*="emsenn.net"]):visited:hover{
+  color: var(--external-link-visited-hover-color);
+}
+blockquote {
+  border: 0.1em dashed var(--secondary-dim-color);
+  padding-left: 0.2em;
+}
+label.org-src-name {
+  margin: 0 0 0 3em;
+  font-family: sans-serif;
+  font-size: 1rem;
+  line-height: 0;
+}
+.skip-to-content {
+  opacity: 0;
+  position: absolute;
+  left: 0.2em;
+}
+.skip-to-content:focus{
+  opacity: 1;
+  background-color: var(--secondary-dim-color);
+  color: var(--primary-color);
+}
+ul { max-width: 85%; }
+.footpara { display: inline; font-size: 0.8rem; }
+/* emsenn-net-css ends here */
+
+</style>
+</head>
+<body>
+<section id="preamble" class="status">
+<!-- [[file:../../emsenn-net.org::emsenn-net-preamble][emsenn-net-preamble]] -->
+<a href="#content" class="skip-to-content">skip to content</a>
+<section class="nav"><strong>emsenn's digital garden</strong> 
+  <a href="./index.html">
+    Homepage</a> | 
+  <a href="./theindex.html">
+    Index</a>
+  <p>This Website was cultivated as a public asset with <a href="https://ko-fi.com/emsenn">support</a> from people like you. <strong><em>Thank you!</em></strong></p>
+  <details>
+    <summary>Click this sentence for information about my Website.</summary>
+    <p>Click each sentence below for more info:</p>
+    <ul>
+      <li><details>
+  	  <summary>This website was created by Emacs and Org-mode</summary>
+  	  <p>See <a href="https://emsenn.net/gnoponemacs.html">my Emacs configuration</a> to learn how.</p>
+      </details></li>
+      <li><details>
+  	  <summary>Its content was written by hand.</summary>
+  	  <p>This means there might be mistakes! 
+      </details></li>
+      <li><details>
+  	  <summary>It uses style to add information to the pages.</summary>
+  	  <ul>
+  	    <li><details>
+  	   	<summary>Click this sentence to see how links are styled:</summary>
+  	   	<table>
+  	   	  <thead><tr>
+  	   	      <th scope="col">Color</th>
+  	   	      <th scope="col">Link type</th>
+  	   	  </tr></thead>
+  	   	  <tbody>
+  	   	    <tr><td class="link">Sample</td>
+  	   	      <td>Unvisited local resource</td></tr>
+  	   	    <tr><td class="visited-link">Sample</td>
+  	   	      <td>Visited local resource</td></tr>
+  	   	    <tr><td class="external-link">Sample</td>
+  	   	      <td>Unvisited external resource</td></tr>
+  	   	    <tr><td class="visited-external-link">Sample</td>
+  	   	      <td>Visited external resource</td></tr>
+  	   	  </tbody>
+  	   	</table>
+  	    </details></li>
+  	  </ul>
+      </details></li>
+    </ul>
+  </details>
+</section>
+<!-- emsenn-net-preamble ends here -->
+</section>
+<main id="content" class="content">
+<header>
+<h1 class="title">Teraum</h1>
+</header><p>
+Here's some pages to learn about Teraum. Unless otherwise stated, assume information about Teraum is about the world as it was about 80 years after the <a href="teraumian-collapse.html#ID-233e5799-b31a-45b0-9f23-20dbb403f361">Teraumian Collapse</a>, and information is, unless otherwise specified, presented how the <a href="red-union.html#ID-c8095611-55b5-41da-ad69-79f6c89d1b3a">Red Union</a> does (or would) talk about it.
+</p>
+<section id="outline-container-org4f0461b" class="outline-2">
+<h2 id="org4f0461b">Atlas-at-a-Glance</h2>
+<div class="outline-text-2" id="text-org4f0461b">
+<p>
+Two major known <a href="teraumian-continent.html#ID-7af0655d-b196-4388-99d1-0fbefb541464">continents</a>: <a href="eastland.html#ID-ce0071b4-89a6-4e92-87a2-e856efd7f33e">Eastland</a> and <a href="westland.html#ID-8c3f716d-037f-48e8-b633-8b8e360d2439">Westland</a>, separated by the <a href="optic-ocean.html#ID-0bf0043c-e329-4859-88f1-dee7df5ee70b">Optic Ocean</a>
+</p>
+
+<p>
+Eastland has:
+</p>
+
+<ul class="org-ul">
+<li><a href="central-plains.html#ID-7ebae11b-9fe8-420c-9093-6d8f3af87cfe">Central Plains</a>
+<ul class="org-ul">
+<li>Plains, sandhills, etc.</li>
+</ul></li>
+<li><a href="farsteppes.html#ID-b77267eb-3033-448a-87a5-f7726a781fd5">Farsteppes</a>
+<ul class="org-ul">
+<li>Steppes</li>
+<li>Trading town of <a href="helmet-s-dent.html#ID-bc5efd4b-415c-4eaf-aec9-a5db7f22ed73">Helmet's Dent</a></li>
+<li></li>
+</ul></li>
+<li><a href="farfarsteppes.html#ID-38423cc5-25b9-43ea-a484-f0f4764c17f7">Farfarsteppes</a>
+<ul class="org-ul">
+<li>(Usually frozen) steppes</li>
+</ul></li>
+<li><a href="green-delta.html#ID-c1b76d38-d7e8-494f-84d3-9916c04f48c8">Green Delta</a>
+<ul class="org-ul">
+<li>Marshes and farmland</li>
+<li>Big city of <a href="ack.html#ID-5ccc63d5-eab8-48bf-aba4-038a5781a610">Ack</a> and its suburb <a href="bellybrush.html#ID-404a7988-a331-49c3-ab80-1293a04ac9aa">Bellybrush</a></li>
+<li>Four counties: <a href="arathel.html#ID-fed865ef-176b-4519-b4a2-525f93dc73fa">Arathel</a>, <a href="marby.html#ID-0841c521-a9cf-4a4e-95c1-81bccf6b5550">Marby</a>, <a href="pled.html#ID-6b42f688-f242-4fbb-88c4-fecacee9c237">Pled</a>, <a href="sherwyn.html#ID-47c7a182-c964-4070-ac26-6303a51bfc52">Sherwyn</a></li>
+</ul></li>
+<li><a href="unseen-sea.html#ID-988f3465-8a73-4e0b-9531-b04523c585f4">Unseen Sea</a>
+<ul class="org-ul">
+<li>Vast desert</li>
+<li><a href="tayopolis.html#ID-ad7ebe27-cd62-4913-98cd-c8c1d9b4e3a7">Tayopolis</a></li>
+</ul></li>
+<li><a href="widewoods.html#ID-d7d0f106-182e-4356-9e48-6e419e4acfe2">Widewoods</a></li>
+<li><a href="worldkeepers.html#ID-752b7876-6ade-491a-8e15-6bc6b9b0995c">Worldkeepers</a></li>
+</ul>
+
+<p>
+Westland has:
+</p>
+
+<ul class="org-ul">
+<li><a href="elflands.html#ID-0a27bfa8-cd5a-4627-80d3-80f9c9e26205">Elflands</a>
+<ul class="org-ul">
+<li>Dense temperate forests</li>
+</ul></li>
+<li><a href="halfling-country.html#ID-87b60266-0949-4b8d-96f1-5164460d002c">Halfling Country</a>
+<ul class="org-ul">
+<li>Rolling hills and farmland</li>
+<li><a href="gnalens.html#ID-3b03f5f9-697d-44c3-bbda-7dd53776bbeb">Gnalens</a></li>
+<li><a href="westland-coast.html#ID-f2f33fa3-383a-4b1b-a50f-8f662752231a">Westland Coast</a>
+<ul class="org-ul">
+<li><a href="trepi-island.html#ID-97bbc84c-425a-4093-ad0a-3d22c3cf78f3">Trepi Island</a></li>
+</ul></li>
+</ul></li>
+</ul>
+</div>
+</section>
+<section id="outline-container-orgbbdc003" class="outline-2">
+<h2 id="orgbbdc003">Factions</h2>
+<div class="outline-text-2" id="text-orgbbdc003">
+<ul class="org-ul">
+<li><a href="house-oru.html#ID-96a010d2-1e0d-4a63-843e-3f2daa277899">House Oru</a>
+<ul class="org-ul">
+<li>Self-declared sovereignty in the Farsteppes, led by <a href="renkah-oru.html#ID-665f3bf4-5182-4f41-8854-4bd36b67fe32">Renkah Oru</a> and her son <a href="kolpe-oru.html#ID-2517266b-b917-4758-b104-082a8fd3b08e">Kolpe Oru</a> acting as governor.</li>
+<li>The Red Union invoices <a href="house-ellon.html#ID-8bd3fc4e-106f-4355-911f-844a17e062c3">House Ellon</a> for the lands Oru claims, so does not recognize their soveriegnty.</li>
+</ul></li>
+<li><a href="house-ellon.html#ID-8bd3fc4e-106f-4355-911f-844a17e062c3">House Ellon</a>
+<ul class="org-ul">
+<li>Defunct, territory claimed by Oru. Rumored <a href="last-baron-of-house-ellon.html#ID-cb15a143-e15c-4e7a-b142-a0f16090c004">Last Baron of House Ellon</a></li>
+</ul></li>
+<li><a href="blacksmith-s-guild.html#ID-2a85f992-8302-4e75-af43-11151ba2e76a">Blacksmith's Guild</a>
+<ul class="org-ul">
+<li><a href="ackian-guild.html#ID-33009221-adbd-46dd-a0b6-9626b4b1b7b0">Ackian guild</a> and now <a href="red-union-guild.html#ID-a2d1c3a1-2287-49c2-b221-b9bdf81c55df">Red Union guild</a> for <a href="blacksmithing.html#ID-641a3271-77f2-4f77-8f30-78571038f968">blacksmithing</a> and other smithing. Headquartered in the <a href="copper-ward.html#ID-119401a3-51a7-4ea9-b089-89abc5ebafba">Copper Ward</a> of Ack.</li>
+<li><a href="atrix-hucklebee.html#ID-92bfa9c9-3a77-4486-9426-5df10f291f41">Atrix Hucklebee</a> is a member.</li>
+</ul></li>
+<li><a href="chandler-s-guild.html#ID-406c7753-52cf-4964-9155-b691d574b644">Chandler's Guild</a>
+<ul class="org-ul">
+<li><a href="candlemaker.html#ID-92ad15fb-ce6c-4eed-9432-e54125804cbc">candlemakers</a> and <a href="printing-press.html#ID-000fe862-1b86-4d95-a485-70f70601f1b9">printing press</a></li>
+<li>Member of the <a href="red-union.html#ID-c8095611-55b5-41da-ad69-79f6c89d1b3a">Red Union</a></li>
+<li>Headquartered in Ack, with offices in Bellybrush, Marby, and Sherwyn</li>
+<li><a href="wybert.html#ID-32f510be-9239-4be8-b8ac-74ad3be7cedd">Wybert</a> is a member</li>
+<li></li>
+</ul></li>
+<li><a href="cloudbound-trading-company.html#ID-86d59bf7-3205-49ea-9251-44b0b2f1a48a">Cloudbound Trading Company</a>
+<ul class="org-ul">
+<li>Transportation company focused on, but not limited to, airship travel. Headquarted in Ack with offices in Bellybrush, Marby, Sherwyn, Arathel, Pled, Helmet's Dent, Gnalens, and Tayopolis.</li>
+<li>member of the Red Union</li>
+<li><a href="stevie.html#ID-24499195-160a-44c0-b49f-8b27a46f1db4">Stevie</a> was a member, now deceased</li>
+</ul></li>
+<li><a href="gnalens.html#ID-3b03f5f9-697d-44c3-bbda-7dd53776bbeb">Gnalens</a> is a city but also a faction.
+<ul class="org-ul">
+<li><a href="democratic-republic.html#ID-96d1525a-3fe9-45eb-883d-903679a13b75">democratic republic</a> on the coast of Halfling Country</li>
+<li>run by <a href="the-governor-of-gnalens.html#ID-b2265ce6-175b-4f14-9b9d-aef1226882ee">The Governor of Gnalens</a>
+<ul class="org-ul">
+<li>has a <a href="lieutenant-governor-of-gnalens.html#ID-5b9f91a1-d97e-46b1-af4e-e8258573d789">Lieutenant Governor of Gnalens</a>, currently <a href="ander-falone.html#ID-9ef42d92-5ed1-4fc3-9ecb-98a759836adc">Ander Falone</a></li>
+</ul></li>
+</ul></li>
+<li><a href="leatherworkers-guild.html#ID-e9ea0a82-e6f0-408e-9eef-910b82775fe5">Leatherworkers Guild</a>
+<ul class="org-ul">
+<li>Member of the Red Union</li>
+<li>Offices in Ack and Gnalens</li>
+<li><a href="wayne-helder.html#ID-aca5d192-7ead-428d-bd43-fe3bf43c25f7">Wayne Helder</a> is a member</li>
+</ul></li>
+<li><a href="red-union.html#ID-c8095611-55b5-41da-ad69-79f6c89d1b3a">Red Union</a>
+<ul class="org-ul">
+<li>Bureaucrats who control many human systems with debt and credit</li>
+<li>Originated in the <a href="red-ward.html#ID-9ccb6cfe-d0cf-426b-aefe-3268efe4e757">Red Ward</a> of Ack, with offices established in many former temples anyplace humans live.</li>
+</ul></li>
+</ul>
+</div>
+</section>
+<section id="outline-container-orgab0ec90" class="outline-2">
+<h2 id="orgab0ec90">Backlinks</h2>
+<div class="outline-text-2" id="text-orgab0ec90">
+<ul class="org-ul">
+<li><a href="gnalens.html#ID-3b03f5f9-697d-44c3-bbda-7dd53776bbeb">Gnalens</a></li>
+<li><a href="midsummer.html#ID-a13e23bb-8a68-4ed2-91a4-c0fab19ba825">Midsummer</a></li>
+<li><a href="ackian-ward.html#ID-4551889b-ec3f-4f26-a4c4-d6be7ab2fcba">Ackian ward</a></li>
+<li><a href="homo-silvestris-teraumensis.html#ID-a2adcc62-a16d-4323-8069-07207f782c52">Homo silvestris teraumensis</a></li>
+<li><a href="a-series-of-unfortunate-spells.html#ID-37e11c1f-4e27-4872-ac4c-277767f26588">A Series of Unfortunate Spells</a></li>
+<li><a href="halfling-country.html#ID-87b60266-0949-4b8d-96f1-5164460d002c">Halfling Country</a></li>
+<li><a href="teraumian-region.html#ID-3649713d-b482-4a7b-b344-d9d3df42d5e0">Teraumian region</a></li>
+<li><a href="babble-20250720230831-0500.html#ID-44630da5-814e-43e7-b236-31678b3e4b22">On connecting Teraum to the Okagan paracosm</a></li>
+<li><a href="homo-sapiens-teraumensis.html#ID-4020e332-87d9-4347-939e-7b2813ad5641">Homo sapiens teraumensis</a></li>
+<li><a href="homo-sapiens-teraumensis.html#ID-4020e332-87d9-4347-939e-7b2813ad5641">Homo sapiens teraumensis</a></li>
+<li><a href="ander-falone.html#ID-9ef42d92-5ed1-4fc3-9ecb-98a759836adc">Ander Falone</a></li>
+<li><a href="babble-20250901094936-0500.html#ID-cb672b64-f2b1-46c0-96e9-a0c8a4abef6e">Babble, [2025-09-01 Mon 09:49], Idea for Teraumian cats</a></li>
+</ul>
+</div>
+</section>
+</main>
+<section id="postamble" class="status">
+<p class="date">Created: 2025-10-16 Thu 09:30</p>
+</section>
+</body>
+</html>

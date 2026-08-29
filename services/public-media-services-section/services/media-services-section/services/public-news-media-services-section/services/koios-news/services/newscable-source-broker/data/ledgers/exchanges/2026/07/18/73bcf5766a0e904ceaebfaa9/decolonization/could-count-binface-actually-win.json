@@ -1,0 +1,69 @@
+{
+  "subject": "could-count-binface-actually-win",
+  "claims": [
+    {
+      "id": "title",
+      "proposition": {
+        "predicate": "title",
+        "object": "Could Count Binface actually win?"
+      },
+      "time": {
+        "asserted": "2026-07-18T07:51:45.987Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "decolonization",
+        "citation": "https://theconversation.com/could-count-binface-actually-win-287611"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "url",
+      "proposition": {
+        "predicate": "url",
+        "object": "https://theconversation.com/could-count-binface-actually-win-287611"
+      },
+      "time": {
+        "asserted": "2026-07-18T07:51:45.987Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "decolonization",
+        "citation": "https://theconversation.com/could-count-binface-actually-win-287611"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "summary",
+      "proposition": {
+        "predicate": "summary",
+        "object": "<p>Pollsters recently asked a sample of adults in Britain who they would prefer to win the byelection in Clacton. The rather surprising answers showed that 33% favoured “comedy” candidate Count Binface, compared to just 21% who would back Reform UK leader Nigel Farage.</p> <p>The resignation earlier this month of <a href=\"https://theconversation.com/topics/nigel-farage-5524\">Farage</a> as MP for the Essex seat triggered the byelection on August 13. According to <a href=\"https://www.ipsos.com/en-uk/british-public-more-likely-prefer-count-binface-wins-clacton-election-nigel-farage\">the Ipsos poll</a>, Count Binface (writer and comedian Jon Harvey is the man under the bin) has nearly a 60% advantage over Farage. But more to the point, 45% of the respondents either want neither candidate to win or don’t know who they prefer. </p> <p>A <a href=\"https://www.ipsos.com/en-uk/reform-uk-holds-slim-voting-intention-lead-over-labour-andy-burnham-preferred-pm-nigel-farage-and\">separate question</a> asked about satisfaction with the performance of various political leaders. Farage turned out to be rather unpopular. He came second behind Keir Starmer as the most unpopular leader, with 26% of respondents satisfied and 63% dissatisfied with his leadership. </p> <p>In relation to voting intentions, the <a href=\"https://www.ipsos.com/en-uk/reform-uk-holds-slim-voting-intention-lead-over-labour-andy-burnham-preferred-pm-nigel-farage-and\">Ipsos survey</a> shows that Reform is on 26%, two points ahead of Labour on 24% and eight points ahead of the Conservatives on 18%. The survey also asked about Andy Burnham – 30% thought he would make the best prime minister, while 16% thought this about Farage and 13% about the Conservative leader Kemi Badenoch.</p> <p>Comparing these ratings with those from another Ipsos survey conducted in June 2025 shows a dip in support for Reform. At that time, Farage scored 34% satisfied and 49% dissatisfied on the <a href=\"https://www.ipsos.com/en-uk/reforms-ipsos-record-9-point-lead-over-labour-public-satisfaction-government-nears-lowest-point\">leadership question</a>. And the party scored 34% in voting intentions, with Labour on 25% and the Conservatives on 15%. </p> <p>So it looks like Burnham could put Labour in prime position in voting intentions when he enters Downing Street. But what might be responsible for this decline in support for Reform?</p> <h2>Four reasons for the Reform slide</h2> <p>Some key issues stand out when it comes to explaining why Reform and its leader are losing support. First, there is the scandal over the <a href=\"https://www.theguardian.com/politics/2026/jul/09/five-pressing-questions-farage-reform-uk-finances\">party’s finances</a>. The party has received large donations from Bitcoin billionaire Christopher Harborne, who lives in Thailand, including <a href=\"https://www.bbc.co.uk/news/articles/cn5pr0gp3gro\">£5 million given to Farage personally</a>. He failed to report the latter to the parliamentary watchdog when he won the Clacton seat in 2024. Farage has stated that it was <a href=\"https://www.bbc.co.uk/news/articles/c8jv8xl17l8o\">a personal gift</a> and therefore did not need to be declared.</p> <p><a href=\"https://publications.parliament.uk/pa/cm201516/cmcode/1076/107604.htm\">The regulations</a> state that new MPs “must register all their current financial interests, and any registrable benefits (other than earnings) received in the 12 months before their election within one month of their election”. </p> <p>This has undoubtedly damaged the party and its leader. It is a stretch to imagine that working-class voters in the north of England who voted for Reform in the general election will sympathise with a party leader who accepts large sums of money from such sources.</p> <p>A second problem is that Reform’s narrative that it opposes the “crooked” establishment is looking threadbare. According to the Ipsos poll on Clacton, the party is seen by many voters as being part of the establishment rather than an alternative to it. The poll asked: “Do you think the following political parties are more on the side of the people or more on the side of the establishment?” </p> <p>Looking at respondents who thought that parties were on the side of the people, 27% thought this about Labour, 13% about the Conservatives, 33% for the Liberal Democrats, 39% for the Greens and 28% for Reform. In contrast, 36% thought that Reform was on the side of the establishment. The party does better than its main rival, the Conservatives, but it is seen as being similar to Labour and more part of the establishment than either the Liberal Democrats or the Greens.</p> <p>The third reason for Reform’s decline is Farage’s mistake in triggering the byelection in the first place. Voters were asked about this, and altogether 16% thought he was right to resign as an MP and to stand in the contest. But while a further 16% thought he should not have called it, 54% thought he should have resigned and left parliament. </p> <p>Farage has been accused of calling the byelection to halt <a href=\"https://www.theguardian.com/politics/2026/jul/07/nigel-farage-rejects-scrutiny-uk-parliament-people-v-establishment-byelection\">the parliamentary investigation</a> into his undeclared gifts. Farage has said it is because he wants the people of Clacton to judge him. </p> <p>In the survey, respondents were asked if the parliamentary standards committee should investigate whether he broke rules by not declaring the £5 million gift. A total of 74% thought the investigation should continue, with only 14% opposing this. </p> <p>Finally, there is Farage’s miscalculation about what the other mainstream parties would do in the byelection. From his point of view, the best outcome would have been for them to stand and for Reform to defeat them all. This would have allowed him to argue that the “people” support him even if the “establishment” does not. But the fact that the mainstream parties withdrew, leaving Reform up against what the Telegraph newspaper has called <a href=\"https://www.telegraph.co.uk/expat/expatpicturegalleries/9568643/Joke-political-parties-of-the-UK.html\">“joke parties”</a> is embarrassing, particularly if they do well. </p> <p>There is a long history of eccentric candidates standing in byelections as a joke. They differ from small parties and independents by making fun of the whole exercise while seeking publicity. In the 2024 general election Count Binface got <a href=\"https://members.parliament.uk/constituency/4259/election/422\">308 votes</a> in the Richmond and Northallerton constituency when he stood as a candidate. He is likely to do better in Clacton and may even win – although this is a long shot, despite Farage’s woes.</p> <p>The leader of the Official Monster Raving Loony party, Howling Laud Hope, also plans to stand. His party is much older than the Binface party and fielded 22 candidates, winning <a href=\"https://www.bbc.co.uk/news/election/2024/uk/results\">nearly 6,000 votes</a> in the 2024 general election. It will be interesting to see if he wins more votes than Count Binface. </p> <p>Politics is no joke, but the participation of these candidates in elections adds to the gaiety. When Reform – which has its sights set on winning the next general election – loses votes to them it suggests that the party is on the slide.</p><img src=\"https://counter.theconversation.com/content/287611/count.gif\" alt=\"The Conversation\" width=\"1\" height=\"1\" /> <p class=\"fine-print\"><em><span>Paul Whiteley has received funding from the British Academy and the ESRC. </span></em></p>"
+      },
+      "time": {
+        "asserted": "2026-07-18T07:51:45.987Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "decolonization",
+        "citation": "https://theconversation.com/could-count-binface-actually-win-287611"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "published",
+      "proposition": {
+        "predicate": "published",
+        "object": "2026-07-16T15:04:39Z"
+      },
+      "time": {
+        "asserted": "2026-07-18T07:51:45.987Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "decolonization",
+        "citation": "https://theconversation.com/could-count-binface-actually-win-287611"
+      },
+      "status": "supported"
+    }
+  ]
+}

@@ -1,0 +1,69 @@
+{
+  "subject": "stop-press-same-news-no-energy-transition-again",
+  "claims": [
+    {
+      "id": "title",
+      "proposition": {
+        "predicate": "title",
+        "object": "Stop press, same news: No energy transition, again"
+      },
+      "time": {
+        "asserted": "2026-07-19T14:41:55.181Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "degrowth",
+        "citation": "https://www.resilience.org/stories/2026-07-16/stop-press-same-news-no-energy-transition-again/"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "url",
+      "proposition": {
+        "predicate": "url",
+        "object": "https://www.resilience.org/stories/2026-07-16/stop-press-same-news-no-energy-transition-again/"
+      },
+      "time": {
+        "asserted": "2026-07-19T14:41:55.181Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "degrowth",
+        "citation": "https://www.resilience.org/stories/2026-07-16/stop-press-same-news-no-energy-transition-again/"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "summary",
+      "proposition": {
+        "predicate": "summary",
+        "object": "Has the much‑discussed energy transition actually begun? So far, the answer is no. With only brief dips in crisis years, global fossil fuel use has risen every year since 1983. The newly released 2025 data confirm: humanity burned more of every major energy source in 2025 than ever before."
+      },
+      "time": {
+        "asserted": "2026-07-19T14:41:55.181Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "degrowth",
+        "citation": "https://www.resilience.org/stories/2026-07-16/stop-press-same-news-no-energy-transition-again/"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "published",
+      "proposition": {
+        "predicate": "published",
+        "object": "Thu, 16 Jul 2026 08:00:52 +0000"
+      },
+      "time": {
+        "asserted": "2026-07-19T14:41:55.181Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "degrowth",
+        "citation": "https://www.resilience.org/stories/2026-07-16/stop-press-same-news-no-energy-transition-again/"
+      },
+      "status": "supported"
+    }
+  ]
+}

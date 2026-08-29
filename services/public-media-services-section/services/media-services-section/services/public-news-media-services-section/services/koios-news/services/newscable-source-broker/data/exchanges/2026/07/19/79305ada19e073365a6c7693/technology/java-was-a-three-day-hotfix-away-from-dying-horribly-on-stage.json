@@ -1,0 +1,69 @@
+{
+  "subject": "java-was-a-three-day-hotfix-away-from-dying-horribly-on-stage",
+  "claims": [
+    {
+      "id": "title",
+      "proposition": {
+        "predicate": "title",
+        "object": "Java was a three-day hotfix away from dying horribly on stage"
+      },
+      "time": {
+        "asserted": "2026-07-19T15:04:08.909Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "technology",
+        "citation": "https://www.theregister.com/devops/2026/07/18/java-was-a-three-day-hotfix-away-from-dying-horribly-on-stage/5274590"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "url",
+      "proposition": {
+        "predicate": "url",
+        "object": "https://www.theregister.com/devops/2026/07/18/java-was-a-three-day-hotfix-away-from-dying-horribly-on-stage/5274590"
+      },
+      "time": {
+        "asserted": "2026-07-19T15:04:08.909Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "technology",
+        "citation": "https://www.theregister.com/devops/2026/07/18/java-was-a-three-day-hotfix-away-from-dying-horribly-on-stage/5274590"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "summary",
+      "proposition": {
+        "predicate": "summary",
+        "object": "If there is a driving theme to The Java Story documentary, which debuted Friday on YouTube, it would be that even some of the most important and popular technologies come from humble beginnings. In this case, we're talking about a language that started life as a failed attempt at set-top box dominance and required a massive rewrite just days before its big conference debut. Today, Java consistently hovers near the top of the TIOBE programming language popularity index and remains widely used for large enterprise applications. But at one point in 1994, Sun Microsystems was just about to abandon the effort. Tim Lindholm, who was hired to polish up a virtual machine runtime for what would become Java, told The Register, “I was one of the last people hired before the whole thing fell apart.” It wouldn’t be the last time Java outlived its detractors. Java chronicled If the idea of a professionally produced documentary about a programming language sounds familiar, then you’ve probably seen the ones on C++, Python or React. These were the work of tech job site Honeypot.io, which funded the documentaries to build a user base. In 2019, Honeypot was acquired by XING (which rebranded as New Work SE). However, founder Emma Tracey was more interested in the documentary side of things and bought the production shop back from New Work, reuniting the original gang and rebranding their efforts as Cult.Repo (short for Culture Repository). The Java Story is the first product of the newly liberated media company. The documentary features many of Java’s prime movers, including creator James Gosling and senior Oracle Java architects Mark Reinhold and Brian Goetz. While it may have taken a Hollywood-style effort to construct a Hero’s Journey around the plodding progress of Python, Java is a veritable Love Island of dramas, some of which were this documentary captured. The project that almost wasn’t Lindholm strayed into the computing field only as a result of the brutally cold winter of Minnesota, where he was living in a tent. He realized he would need someplace warmer and so scored an internship at Argonne National Laboratory in Illinois. There, he gained early experience with virtual machines thanks to the lab’s use of Prolog. His goal was not to be a programmer, but a mathematician. “Computer science was for people who couldn't be real mathematicians,” he said. But he learned the craft of implementing Prolog. “I learned to write to very high-quality virtual machines with things like garbage collection and embeddability,” he said. The VM experience led him to subsequent jobs at Xerox PARC and eventually Sun. When Lindholm arrived 1994, it was to work for an experimental “spin-in” subsidiary called FirstPerson. At the time, Sun made bank selling high-end workstations to engineers, but it wanted to build software for devices outside the typical workstation and PC market. FirstPerson’s chief concern was a bid from Time Warner to provide the interactive video-on-demand software for television set top boxes. Gosling wrote a language and runtime for the project, called Oak. The contract ultimately went to late bidder Silicon Graphics – a Sun rival commonly known as SGI. In a lesson of not always getting what you want, the Time Warner project struggled for a few years before the plug was pulled in 1997, which didn’t do the already-struggling SGI any financial favors. But at the time, Sun took the defeat hard, laying off most of the FirstPerson staff. Lindholm had been there for only a month and wasn’t overly invested in the set top box. “I'll do whatever comes next,” he recalled. Sun kept only 12 engineers to work on Oak, including Gosling and project manager Kim Polese. But for Lindholm, the future didn’t look promising. “We were like refugees in a bombed-out bunker,” he said. Those who were laid off tossed their office gear out into the hallways. Lindholm felt like “dead meat” at the Sun office, just waiting to get laid off himself. Pivot to the Web It was purely serendipitous that the project moved to the then-nascent web. One of the surviving engineers had been playing with the recently released Mosaic browser and suggested the World Wide Web should be Oak’s next target. This was a year before Windows 95 brought the internet and web browsing to the masses. The team built a Mosaic clone called WebRunner on Oak that would run animations. It would be the precursor to what would become Java applets. After that, events moved quickly, Lindholm recalled. Oak was renamed Java in early 1995, supposedly as a nod to the engineering team’s coffee consumption. “It took off like a friggin’ rocket. It was just crazy. We were all stressed,” he said. An early wave of web developers was rapidly discovering the limits of creating web pages using HTML, which, after all, is a markup language. Lindholm said that his job, alongside , was Gosling and the crew had assembled a rough prototype, but it fell to Lindholm, alongside fellow new hire and Lisp expert Frank Yellin “to make this thing actually work.” The pair were in charge of the commercial grade implementation, ensuring that the advanced concepts Gosling had outlined, such as threading and garbage collection, functioned in the real world. Lindholm and Yellin later co-authored the original JVM specification. Threading at the time was particularly new. There were no libraries they could use to implement the idea, and Lindholm knew relatively little about the concept. The company planned to introduce Java at the 1995 SunWorld convention, the precursor to JavaOne. But the runtime was crashing badly. After much sleuthing, Lindholm figured out Java’s threading model was “fundamentally broken. It was totally screwed up,” he said. The problem was that system interrupts were being issued while the SPARC processor was executing an instruction. This proved disastrous because the system could not recover the state that had been flushed from memory and would therefore “die horribly.” Lindholm realized you could only have the interrupts happen at certain points. So, three days before the conference, he rewrote the entire threads package. At the conference, when then Sun CEO Scott McNealy showed off Java, Lindholm sat in the audience dreading the worst. Thankfully, the rewrite worked. Before open source Lindholm was also in charge of the language’s first attempt at open source, years before Eric Raymond made the term common. The company offered the binary Java runtime as a free download, but the company gave away “the sources,” as Lindholm put it, to anyone who requested it. Thousands did. The documentary retells a story that the Java Internet domain was getting so much traffic – more than Sun.com itself – that the Java team ran a pirate T3 line into the office. Such were the days before the cloud. At the time, Lindholm viewed giving away the source as a good career move. Should he ever get the ax, perhaps some other company would pick up the code and run with it. They also found outsiders could fix bugs and even extend the software to other platforms. The “source” program wasn’t formalized, however. Sun did have Richard Stallman come to talk, but he seemed “too radical” for the Sun execs, Lindholm recalled. Sun would not actually decide to officially release Java as open source for another decade. Ironically enough, Java applets were only modestly adopted for the web, as other technologies such as ColdFusion and Netscape’s JavaScript project ended up doing the heavy lifting for Web programmers. But applets were a gateway to the real action, namely powering the back-end servers. The evil empire Then, Microsoft started paying attention. It saw the runtime as a potential threat to Windows itself, particularly for the fledgling Windows NT, which was starting to make headway into the enterprise. For today’s younger generation of IT pros, it is hard to overstate how aggressive and hyper-competent Microsoft could be at that time. In 1996, the company licensed Java for Windows, but then added some additional APIs and declined to support a few others (Anyone remember Microsoft’s J++?). Sun alleged that Microsoft’s changes were intended to undermine Java’s cross-platform compatibility and steer developers toward Microsoft’s Windows-specific implementation. The years-long court case zapped the development team's energy, diverting resources away from Java. “I spent days in deposition talking about this under oath,” Lindholm recalled. The disputes ended with Microsoft paying Sun nearly $2 billion through a series of settlements. “It was personal for us,” he said. A wild ride The documentary goes on to cover the following decades of the language’s growth through to the present day, including the over-engineered era of J2EE and Java EE 5, the glimmer of hope provided by the Spring framework, Sun’s implosion and subsequent acquisition by Oracle, and the flourishing of JVM languages following the release of OpenJDK. Java continued to be a success for Sun, even as its chief business of selling SPARC-based Internet servers fizzled thanks to the influx of low-cost Linux x86 boxes. Lindholm noted that the Java team grew so large that it took over Sun’s headquarters and eventually had to move into the old Apple headquarters. But Lindholm’s passion for Java evaporated by the early 2000s, swamped by the increasingly corporate environment, and so he left for Google, where he would spend the next 20 years until his retirement earlier this year. Looking back to his early involvement, Lindholm admitted “it was kind of a random thing. You can never tell what parts of your life will end up being really significant for whatever reason.\" Others agreed that Java has been a wild ride. As Java creator James Gosling said in the doc, “What excites me most about the future is the unknown. Lots of things happen, and mostly the interesting ones are the ones you could never predict.\" ®"
+      },
+      "time": {
+        "asserted": "2026-07-19T15:04:08.909Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "technology",
+        "citation": "https://www.theregister.com/devops/2026/07/18/java-was-a-three-day-hotfix-away-from-dying-horribly-on-stage/5274590"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "published",
+      "proposition": {
+        "predicate": "published",
+        "object": "Sat, 18 Jul 2026 15:30:00 +0200"
+      },
+      "time": {
+        "asserted": "2026-07-19T15:04:08.909Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "technology",
+        "citation": "https://www.theregister.com/devops/2026/07/18/java-was-a-three-day-hotfix-away-from-dying-horribly-on-stage/5274590"
+      },
+      "status": "supported"
+    }
+  ]
+}

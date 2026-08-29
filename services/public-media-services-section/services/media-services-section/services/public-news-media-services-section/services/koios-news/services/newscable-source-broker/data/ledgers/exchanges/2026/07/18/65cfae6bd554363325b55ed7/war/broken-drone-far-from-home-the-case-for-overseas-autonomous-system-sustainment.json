@@ -1,0 +1,69 @@
+{
+  "subject": "broken-drone-far-from-home-the-case-for-overseas-autonomous-system-sustainment",
+  "claims": [
+    {
+      "id": "title",
+      "proposition": {
+        "predicate": "title",
+        "object": "Broken Drone, Far from Home: The Case for Overseas Autonomous System Sustainment"
+      },
+      "time": {
+        "asserted": "2026-07-18T07:50:02.954Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "war",
+        "citation": "https://warontherocks.com/broken-drone-far-from-home-the-case-for-overseas-autonomous-system-sustainment/"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "url",
+      "proposition": {
+        "predicate": "url",
+        "object": "https://warontherocks.com/broken-drone-far-from-home-the-case-for-overseas-autonomous-system-sustainment/"
+      },
+      "time": {
+        "asserted": "2026-07-18T07:50:02.954Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "war",
+        "citation": "https://warontherocks.com/broken-drone-far-from-home-the-case-for-overseas-autonomous-system-sustainment/"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "summary",
+      "proposition": {
+        "predicate": "summary",
+        "object": "It’s 2028, and the Fujian carrier strike group has just left Yulin, China, for an unknown destination. The U.S. Navy’s “Hedge Strategy” has let commanders disperse unmanned systems across regional choke points as forward-deployed scouts. But days before contact with Fujian, an unmanned undersea vehicle in the Banda Sea transmits an error code and must head back to Yokosuka for repairs — a 3,000-mile, 15-day trip. A second platform, an unmanned surface vehicle, is overdue for a routine oil filter change in its propulsion system. Planners route it to Singapore, but the specialized technicians need visas to enter the country, The post Broken Drone, Far from Home: The Case for Overseas Autonomous System Sustainment appeared first on War on the Rocks ."
+      },
+      "time": {
+        "asserted": "2026-07-18T07:50:02.954Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "war",
+        "citation": "https://warontherocks.com/broken-drone-far-from-home-the-case-for-overseas-autonomous-system-sustainment/"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "published",
+      "proposition": {
+        "predicate": "published",
+        "object": "Fri, 17 Jul 2026 07:30:31 +0000"
+      },
+      "time": {
+        "asserted": "2026-07-18T07:50:02.954Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "war",
+        "citation": "https://warontherocks.com/broken-drone-far-from-home-the-case-for-overseas-autonomous-system-sustainment/"
+      },
+      "status": "supported"
+    }
+  ]
+}

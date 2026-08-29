@@ -1,0 +1,13 @@
+{
+  "name": "@causeway-services/koios-news-static-delivery-current",
+  "version": "0.1.0",
+  "type": "module",
+  "description": "Independent deterministic static-publication carrier for koios.news.",
+  "engines": { "node": ">=22" },
+  "bin": { "koios-news-static-delivery": "./bin/koios-news-static-delivery.mjs" },
+  "scripts": {
+    "test": "node --test test/*.test.mjs",
+    "check": "node --check bin/koios-news-static-delivery.mjs && node --check src/publication.mjs",
+    "verify": "npm run check && npm test"
+  }
+}

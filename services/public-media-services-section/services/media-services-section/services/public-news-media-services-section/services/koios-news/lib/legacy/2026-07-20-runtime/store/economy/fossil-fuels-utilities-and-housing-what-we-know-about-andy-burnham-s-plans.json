@@ -1,0 +1,69 @@
+{
+  "subject": "fossil-fuels-utilities-and-housing-what-we-know-about-andy-burnham-s-plans",
+  "claims": [
+    {
+      "id": "title",
+      "proposition": {
+        "predicate": "title",
+        "object": "Fossil fuels, utilities and housing: what we know about Andy Burnham’s plans"
+      },
+      "time": {
+        "asserted": "2026-07-19T23:18:18.689Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "economy",
+        "citation": "https://www.theguardian.com/politics/2026/jul/19/no-10-north-utilities-north-sea-drilling-andy-burnham-plans-government"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "url",
+      "proposition": {
+        "predicate": "url",
+        "object": "https://www.theguardian.com/politics/2026/jul/19/no-10-north-utilities-north-sea-drilling-andy-burnham-plans-government"
+      },
+      "time": {
+        "asserted": "2026-07-19T23:18:18.689Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "economy",
+        "citation": "https://www.theguardian.com/politics/2026/jul/19/no-10-north-utilities-north-sea-drilling-andy-burnham-plans-government"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "summary",
+      "proposition": {
+        "predicate": "summary",
+        "object": "<p>Incoming prime minister has set out distinctly leftwing vision while also promising to be pro-business</p><p>As an incoming prime minister promising huge change, one of the strongest criticisms Andy Burnham has faced so far is that he has failed to provide the details of what he plans to do.</p><p>The new Labour leader, who will be made prime minister on Monday, has thus far set out a distinctly leftwing vision, while also pledging to be “pro-business”.</p> <a href=\"https://www.theguardian.com/politics/2026/jul/19/no-10-north-utilities-north-sea-drilling-andy-burnham-plans-government\">Continue reading...</a>"
+      },
+      "time": {
+        "asserted": "2026-07-19T23:18:18.689Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "economy",
+        "citation": "https://www.theguardian.com/politics/2026/jul/19/no-10-north-utilities-north-sea-drilling-andy-burnham-plans-government"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "published",
+      "proposition": {
+        "predicate": "published",
+        "object": "Sun, 19 Jul 2026 17:00:32 GMT"
+      },
+      "time": {
+        "asserted": "2026-07-19T23:18:18.689Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "economy",
+        "citation": "https://www.theguardian.com/politics/2026/jul/19/no-10-north-utilities-north-sea-drilling-andy-burnham-plans-government"
+      },
+      "status": "supported"
+    }
+  ]
+}

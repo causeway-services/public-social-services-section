@@ -1,0 +1,69 @@
+{
+  "subject": "saturday-night-live-will-ferrell-plays-jeffrey-epstein-in-strong-season-finale",
+  "claims": [
+    {
+      "id": "title",
+      "proposition": {
+        "predicate": "title",
+        "object": "Saturday Night Live: Will Ferrell plays Jeffrey Epstein in strong season finale"
+      },
+      "time": {
+        "asserted": "2026-07-19T15:04:21.677Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "culture",
+        "citation": "https://www.theguardian.com/tv-and-radio/2026/may/17/saturday-night-live-will-ferrell-host-finale"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "url",
+      "proposition": {
+        "predicate": "url",
+        "object": "https://www.theguardian.com/tv-and-radio/2026/may/17/saturday-night-live-will-ferrell-host-finale"
+      },
+      "time": {
+        "asserted": "2026-07-19T15:04:21.677Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "culture",
+        "citation": "https://www.theguardian.com/tv-and-radio/2026/may/17/saturday-night-live-will-ferrell-host-finale"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "summary",
+      "proposition": {
+        "predicate": "summary",
+        "object": "<p>The former cast member returns as host for a strong episode to close out what’s become a strong season with new faces coming into their own</p><p>The season finale of Saturday Night Live’s 51st season kicks off in the Oval Office. President Donald Trump (James Austin Johnson), fresh from a three-day diplomatic visit to China, commiserates with his vice-president, JD Vance (Jeremy Culhane). Trump apologizes for not taking Vance along with him to China, explaining that “I didn’t want to.”</p><p>After giving Vance the boot, Trump takes a nap (using a gold bar gifted to him by Sweden as a pillow), during which he’s visited by the ghost of his good friend Jeffrey Epstein (tonight’s host, Will Ferrell). Epstein has been keeping busy in hell playing mahjong with Stalin and John Wayne Gacy, as well as writing for the recent Netflix Roast of Kevin Hart (this dig clearly comes from SNL head writer Michael Che, who took to social media earlier this week to <a href=\"https://www.huffpost.com/entry/michael-che-kevin-hart-roast-comedians_n_6a04c9b9e4b0cdaf88dcd7c7\">criticize</a> the roast for hiring all-white writers and giving hosting duties to Shane Gillis).</p> <a href=\"https://www.theguardian.com/tv-and-radio/2026/may/17/saturday-night-live-will-ferrell-host-finale\">Continue reading...</a>"
+      },
+      "time": {
+        "asserted": "2026-07-19T15:04:21.677Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "culture",
+        "citation": "https://www.theguardian.com/tv-and-radio/2026/may/17/saturday-night-live-will-ferrell-host-finale"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "published",
+      "proposition": {
+        "predicate": "published",
+        "object": "Sun, 17 May 2026 14:59:00 GMT"
+      },
+      "time": {
+        "asserted": "2026-07-19T15:04:21.677Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "culture",
+        "citation": "https://www.theguardian.com/tv-and-radio/2026/may/17/saturday-night-live-will-ferrell-host-finale"
+      },
+      "status": "supported"
+    }
+  ]
+}

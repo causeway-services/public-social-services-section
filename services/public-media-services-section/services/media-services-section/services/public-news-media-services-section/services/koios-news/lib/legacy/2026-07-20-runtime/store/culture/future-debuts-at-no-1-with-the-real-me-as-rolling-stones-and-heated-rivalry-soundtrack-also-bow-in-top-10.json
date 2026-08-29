@@ -1,0 +1,69 @@
+{
+  "subject": "future-debuts-at-no-1-with-the-real-me-as-rolling-stones-and-heated-rivalry-soundtrack-also-bow-in-top-10",
+  "claims": [
+    {
+      "id": "title",
+      "proposition": {
+        "predicate": "title",
+        "object": "Future Debuts at No. 1 With ‘The Real Me,’ as Rolling Stones and ‘Heated Rivalry’ Soundtrack Also Bow in Top 10"
+      },
+      "time": {
+        "asserted": "2026-07-19T23:18:25.798Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "culture",
+        "citation": "https://variety.com/2026/music/news/future-album-billbord-chart-number-one-rolling-stones-1236816201/"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "url",
+      "proposition": {
+        "predicate": "url",
+        "object": "https://variety.com/2026/music/news/future-album-billbord-chart-number-one-rolling-stones-1236816201/"
+      },
+      "time": {
+        "asserted": "2026-07-19T23:18:25.798Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "culture",
+        "citation": "https://variety.com/2026/music/news/future-album-billbord-chart-number-one-rolling-stones-1236816201/"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "summary",
+      "proposition": {
+        "predicate": "summary",
+        "object": "We have seen the future of who’s moving up in the list of artists contending to have the most No. 1 albums ever, and its name is Future. The rapper debuted on top of the Billboard 200 with “The Real Me,” landing his 12th No. 1 on the chart. That means he’s now in fifth […]"
+      },
+      "time": {
+        "asserted": "2026-07-19T23:18:25.798Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "culture",
+        "citation": "https://variety.com/2026/music/news/future-album-billbord-chart-number-one-rolling-stones-1236816201/"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "published",
+      "proposition": {
+        "predicate": "published",
+        "object": "Sun, 19 Jul 2026 22:33:02 +0000"
+      },
+      "time": {
+        "asserted": "2026-07-19T23:18:25.798Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "culture",
+        "citation": "https://variety.com/2026/music/news/future-album-billbord-chart-number-one-rolling-stones-1236816201/"
+      },
+      "status": "supported"
+    }
+  ]
+}

@@ -1,0 +1,69 @@
+{
+  "subject": "toy-story-5-review-pixar-franchise-needs-new-batteries",
+  "claims": [
+    {
+      "id": "title",
+      "proposition": {
+        "predicate": "title",
+        "object": "Toy Story 5 review – Pixar franchise needs new batteries"
+      },
+      "time": {
+        "asserted": "2026-07-19T15:04:21.677Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "culture",
+        "citation": "https://www.theguardian.com/film/2026/jun/16/toy-story-5-review-pixar-franchise-needs-new-batteries"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "url",
+      "proposition": {
+        "predicate": "url",
+        "object": "https://www.theguardian.com/film/2026/jun/16/toy-story-5-review-pixar-franchise-needs-new-batteries"
+      },
+      "time": {
+        "asserted": "2026-07-19T15:04:21.677Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "culture",
+        "citation": "https://www.theguardian.com/film/2026/jun/16/toy-story-5-review-pixar-franchise-needs-new-batteries"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "summary",
+      "proposition": {
+        "predicate": "summary",
+        "object": "<p>A sinister new tablet threatens the honest-to-goodness toys’ existence, but Buzz, Woody and Jessie’s big tech moral battle feels compromised</p><p>The fifth episode of the Toy Story franchise is as slick and smooth as you like, as glitchless as Toy Story 6 or Toy Story 7 might be … or will be. As a piece of family-entertainment content it has the unblemished sheen of a brand new smartphone. But at heart, it has gone dead. For all the intensive, high-energy creative work that has clearly gone into this film’s every frame, the jeopardy, the novelty, the ideas and the passion are lacking; the crucial Toy Story theme of mortality feels underpowered, and the film even calamitously loses its nerve with its own big idea – those squeamish about spoilers had better look away now – the sinister way addictive tech devices are undermining the imaginative play that kids once had with honest-to-goodness toys.</p><p>Here a creepy tablet device called Lilypad (voiced by Greta Lee) enters the children’s world, but ultimately proves to be capable of sentimental self-sacrificial heroism when it comes to their mental health. Really? At least Lots-o’-Huggin’ Bear, the villain from TS3, had the courage of his evil convictions.</p> <a href=\"https://www.theguardian.com/film/2026/jun/16/toy-story-5-review-pixar-franchise-needs-new-batteries\">Continue reading...</a>"
+      },
+      "time": {
+        "asserted": "2026-07-19T15:04:21.677Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "culture",
+        "citation": "https://www.theguardian.com/film/2026/jun/16/toy-story-5-review-pixar-franchise-needs-new-batteries"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "published",
+      "proposition": {
+        "predicate": "published",
+        "object": "Tue, 16 Jun 2026 16:00:06 GMT"
+      },
+      "time": {
+        "asserted": "2026-07-19T15:04:21.677Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "culture",
+        "citation": "https://www.theguardian.com/film/2026/jun/16/toy-story-5-review-pixar-franchise-needs-new-batteries"
+      },
+      "status": "supported"
+    }
+  ]
+}

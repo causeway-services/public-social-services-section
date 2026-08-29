@@ -1,0 +1,69 @@
+{
+  "subject": "the-true-story-behind-the-first-foreign-feature-to-break-out-in-hollywood",
+  "claims": [
+    {
+      "id": "title",
+      "proposition": {
+        "predicate": "title",
+        "object": "The True Story Behind the First Foreign Feature to Break Out In Hollywood"
+      },
+      "time": {
+        "asserted": "2026-07-19T15:04:21.677Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "culture",
+        "citation": "https://www.hollywoodreporter.com/movies/movie-news/la-grande-illusion-jean-renoir-history-making-1236646426/"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "url",
+      "proposition": {
+        "predicate": "url",
+        "object": "https://www.hollywoodreporter.com/movies/movie-news/la-grande-illusion-jean-renoir-history-making-1236646426/"
+      },
+      "time": {
+        "asserted": "2026-07-19T15:04:21.677Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "culture",
+        "citation": "https://www.hollywoodreporter.com/movies/movie-news/la-grande-illusion-jean-renoir-history-making-1236646426/"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "summary",
+      "proposition": {
+        "predicate": "summary",
+        "object": "At a time when subtitled films were a non-factor in the U.S., and with no major studio backing, Jean Renoir’s antiwar classic 'La Grande Illusion' wowed audiences and managed a best picture Oscar nom in 1937."
+      },
+      "time": {
+        "asserted": "2026-07-19T15:04:21.677Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "culture",
+        "citation": "https://www.hollywoodreporter.com/movies/movie-news/la-grande-illusion-jean-renoir-history-making-1236646426/"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "published",
+      "proposition": {
+        "predicate": "published",
+        "object": "Sat, 18 Jul 2026 13:45:00 +0000"
+      },
+      "time": {
+        "asserted": "2026-07-19T15:04:21.677Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "culture",
+        "citation": "https://www.hollywoodreporter.com/movies/movie-news/la-grande-illusion-jean-renoir-history-making-1236646426/"
+      },
+      "status": "supported"
+    }
+  ]
+}

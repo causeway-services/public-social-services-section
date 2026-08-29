@@ -1,0 +1,69 @@
+{
+  "subject": "here-be-dragons-does-moving-power-to-the-north-work",
+  "claims": [
+    {
+      "id": "title",
+      "proposition": {
+        "predicate": "title",
+        "object": "Here be dragons: does moving power to the north work?"
+      },
+      "time": {
+        "asserted": "2026-07-19T14:41:48.886Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "economy",
+        "citation": "https://www.theguardian.com/politics/2026/jul/19/here-be-dragons-does-moving-power-to-the-north-work"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "url",
+      "proposition": {
+        "predicate": "url",
+        "object": "https://www.theguardian.com/politics/2026/jul/19/here-be-dragons-does-moving-power-to-the-north-work"
+      },
+      "time": {
+        "asserted": "2026-07-19T14:41:48.886Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "economy",
+        "citation": "https://www.theguardian.com/politics/2026/jul/19/here-be-dragons-does-moving-power-to-the-north-work"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "summary",
+      "proposition": {
+        "predicate": "summary",
+        "object": "<p>Andy Burnham’s recent promise to create a ‘No 10 North’ echoes BBC’s successful Out of London plan</p><p>When the BBC first announced its <a href=\"https://www.bbc.co.uk/mediacentre/behindtheheadlines/salford\">intention to move</a> a significant chunk of its operation to Salford in Greater Manchester – the “<a href=\"https://www.bbc.co.uk/pressoffice/pressreleases/stories/2004/12_december/07/plans.shtml\">Out of London</a>” plan, as the then director general Mark Thompson called it in 2004, with a faint “here be dragons” whiff – there were plenty in the organisation who were scornful that it could ever work.</p><p>Senior staff would never leave the capital. Star talent wouldn’t dream of travelling. It “didn’t take a brain surgeon”, <a href=\"https://www.huffingtonpost.co.uk/2011/09/27/bbc-breakfast-host-chris-salford_n_982820.html\">said the Breakfast presenter</a> and Strictly Come Dancing winner Chris Hollins, to see that the prime minister would never appear in person.</p> <a href=\"https://www.theguardian.com/politics/2026/jul/19/here-be-dragons-does-moving-power-to-the-north-work\">Continue reading...</a>"
+      },
+      "time": {
+        "asserted": "2026-07-19T14:41:48.886Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "economy",
+        "citation": "https://www.theguardian.com/politics/2026/jul/19/here-be-dragons-does-moving-power-to-the-north-work"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "published",
+      "proposition": {
+        "predicate": "published",
+        "object": "Sun, 19 Jul 2026 07:00:20 GMT"
+      },
+      "time": {
+        "asserted": "2026-07-19T14:41:48.886Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "economy",
+        "citation": "https://www.theguardian.com/politics/2026/jul/19/here-be-dragons-does-moving-power-to-the-north-work"
+      },
+      "status": "supported"
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "name": "@causeway-services/koios-news",
+  "version": "0.0.7",
+  "type": "module",
+  "description": "Koios.News — a general news publication with systems-analysis depth: pages, feeds, sitemaps, NewsArticle JSON-LD, ad slots, and accountable first-party attention over its own corpus.",
+  "bin": {
+    "koios-news-tombstone": "./src/tombstone.mjs"
+  },
+  "scripts": {
+    "check": "node --check src/tombstone.mjs",
+    "test": "node --test test/tombstone.test.mjs",
+    "verify": "npm run check && npm test"
+  },
+  "main": "./src/tombstone.mjs",
+  "files": [
+    "src/tombstone.mjs",
+    "README.md",
+    "package.json"
+  ],
+  "exports": {
+    ".": "./src/tombstone.mjs",
+    "./tombstone": "./src/tombstone.mjs",
+    "./package.json": "./package.json"
+  },
+  "sideEffects": false,
+  "keywords": [
+    "sovereign-state-enterprise"
+  ]
+}

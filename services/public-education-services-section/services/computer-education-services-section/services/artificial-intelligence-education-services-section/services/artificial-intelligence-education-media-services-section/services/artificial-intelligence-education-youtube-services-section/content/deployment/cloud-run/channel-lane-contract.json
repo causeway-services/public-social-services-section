@@ -1,0 +1,11 @@
+{
+  "type": "YouTubeChannelCloudRunLaneContract",
+  "version": 1,
+  "channel": "artificial-intelligence",
+  "packageIdentity": "@emsenn/artificial-intelligence-youtube-channel-enterprise",
+  "serviceMount": "/app/emsweb/services/artificial-intelligence-youtube-channel-enterprise",
+  "statePrefix": "runtime-state/artificial-intelligence/",
+  "cadence": { "schedule": "0 14 * * 1,3,5", "timeZone": "America/Chicago" },
+  "secretEnvironmentNames": ["YOUTUBE_OAUTH_CLIENT_ID", "YOUTUBE_OAUTH_CLIENT_SECRET", "ARTIFICIAL_INTELLIGENCE_YOUTUBE_OAUTH_REFRESH_TOKEN", "NOTEBOOKLM_AUTH_JSON", "API_KEY_GOOGLE_GEMINI"],
+  "controlPlaneOwnership": { "owner": "561 Group", "provider": "Google Cloud Run", "execution": "Cloud Run Job", "scheduler": "Cloud Scheduler" }
+}

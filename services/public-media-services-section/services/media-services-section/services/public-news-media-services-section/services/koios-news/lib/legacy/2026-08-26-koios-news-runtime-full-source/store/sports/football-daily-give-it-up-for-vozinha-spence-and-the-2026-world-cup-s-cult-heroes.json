@@ -1,0 +1,69 @@
+{
+  "subject": "football-daily-give-it-up-for-vozinha-spence-and-the-2026-world-cup-s-cult-heroes",
+  "claims": [
+    {
+      "id": "title",
+      "proposition": {
+        "predicate": "title",
+        "object": "Football Daily | Give it up for Vozinha, Spence and the 2026 World Cup’s cult heroes"
+      },
+      "time": {
+        "asserted": "2026-07-19T15:58:02.610Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "sports",
+        "citation": "https://www.theguardian.com/football/2026/jul/19/football-daily-email-gwc-cult-heroes"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "url",
+      "proposition": {
+        "predicate": "url",
+        "object": "https://www.theguardian.com/football/2026/jul/19/football-daily-email-gwc-cult-heroes"
+      },
+      "time": {
+        "asserted": "2026-07-19T15:58:02.610Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "sports",
+        "citation": "https://www.theguardian.com/football/2026/jul/19/football-daily-email-gwc-cult-heroes"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "summary",
+      "proposition": {
+        "predicate": "summary",
+        "object": "<p><a href=\"https://www.theguardian.com/info/2022/nov/14/football-daily-email-sign-up\"><strong>Sign up now! Sign up now! Sign up now? Sign up now!</strong></a></p><p>Every World Cup produces cult heroes, icons who make it possible for us to sit back and start misty-eyed recollections by saying: “Do you remember Roger Milla/Saeed Al-Owairan/Keisuke Honda/Paul the Octopus?” Well, the Geopolitics World Cup has not let us down! Here are 10 cult heroes who’ve emerged from this tournament.</p> <a href=\"https://www.theguardian.com/football/2026/jul/19/football-daily-email-gwc-cult-heroes\">Continue reading...</a>"
+      },
+      "time": {
+        "asserted": "2026-07-19T15:58:02.610Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "sports",
+        "citation": "https://www.theguardian.com/football/2026/jul/19/football-daily-email-gwc-cult-heroes"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "published",
+      "proposition": {
+        "predicate": "published",
+        "object": "Sun, 19 Jul 2026 13:19:30 GMT"
+      },
+      "time": {
+        "asserted": "2026-07-19T15:58:02.610Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "sports",
+        "citation": "https://www.theguardian.com/football/2026/jul/19/football-daily-email-gwc-cult-heroes"
+      },
+      "status": "supported"
+    }
+  ]
+}

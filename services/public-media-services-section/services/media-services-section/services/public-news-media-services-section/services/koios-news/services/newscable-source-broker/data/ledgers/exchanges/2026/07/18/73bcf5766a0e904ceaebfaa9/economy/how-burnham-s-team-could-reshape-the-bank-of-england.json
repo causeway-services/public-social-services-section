@@ -1,0 +1,69 @@
+{
+  "subject": "how-burnham-s-team-could-reshape-the-bank-of-england",
+  "claims": [
+    {
+      "id": "title",
+      "proposition": {
+        "predicate": "title",
+        "object": "How Burnham’s team could reshape the Bank of England"
+      },
+      "time": {
+        "asserted": "2026-07-18T07:51:39.430Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "economy",
+        "citation": "https://www.theguardian.com/politics/2026/jul/17/andy-burnham-team-reshape-bank-of-england"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "url",
+      "proposition": {
+        "predicate": "url",
+        "object": "https://www.theguardian.com/politics/2026/jul/17/andy-burnham-team-reshape-bank-of-england"
+      },
+      "time": {
+        "asserted": "2026-07-18T07:51:39.430Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "economy",
+        "citation": "https://www.theguardian.com/politics/2026/jul/17/andy-burnham-team-reshape-bank-of-england"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "summary",
+      "proposition": {
+        "predicate": "summary",
+        "object": "<p>Taking a fresh look at the Bank’s role would send a strong signal that a Burnham government is prepared to do things differently</p><p>When Louise Haigh – then a lowly backbencher – wrote a policy prospectus for the leftwing Renewal journal back in May, it contained a little-noticed nugget: a rethink of the Bank of England’s mandate.</p><p>Haigh, who <a href=\"https://www.theguardian.com/politics/2024/nov/29/louise-haigh-resigns-as-transport-secretary\">quit as transport secretary</a> in 2024 after it emerged she had been convicted of fraud over a missing work phone, is back in frontline politics as a linchpin of Andy Burnham’s operation. Economists are now asking whether the Bank, and the mandate it gets from the chancellor to solely target stable prices, will be in the new administration’s sights.</p> <a href=\"https://www.theguardian.com/politics/2026/jul/17/andy-burnham-team-reshape-bank-of-england\">Continue reading...</a>"
+      },
+      "time": {
+        "asserted": "2026-07-18T07:51:39.430Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "economy",
+        "citation": "https://www.theguardian.com/politics/2026/jul/17/andy-burnham-team-reshape-bank-of-england"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "published",
+      "proposition": {
+        "predicate": "published",
+        "object": "Fri, 17 Jul 2026 14:31:52 GMT"
+      },
+      "time": {
+        "asserted": "2026-07-18T07:51:39.430Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "economy",
+        "citation": "https://www.theguardian.com/politics/2026/jul/17/andy-burnham-team-reshape-bank-of-england"
+      },
+      "status": "supported"
+    }
+  ]
+}

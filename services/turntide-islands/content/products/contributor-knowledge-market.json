@@ -1,0 +1,52 @@
+{
+  "type": "TTIContributorKnowledgeMarketProduct",
+  "version": 2,
+  "id": "tti-contributor-knowledge-market-2026-01",
+  "status": "customer-discovery-live-commercial-activation-blocked",
+  "name": "Turntide Contributor Knowledge Market",
+  "promise": "Contributors can deliberately license bounded experiential knowledge to TTI, retain provenance through derived Union products, and receive non-transferable contribution credits when externally settled sales use their admitted contribution.",
+  "platformBoundary": {
+    "discordAllowed": ["product discovery", "identity-link initiation", "one-time contribution-session request", "status and credit notifications"],
+    "discordForbidden": ["commercializing Discord API data", "mining or scraping message content", "treating server participation as a contribution license", "AI training on API message content without Discord express permission"],
+    "contributionOrigin": "tti-direct-intake-v1",
+    "rule": "A contributor must re-state or upload their own knowledge at TTI's direct boundary; a Discord message ID may be a private discovery pointer but its content is never imported as the commercial contribution.",
+    "intakeSecurity": "Offer links are opaque, expire after 30 minutes, are hashed at rest, are not consumed by GET, and may commit one pending-admission candidate. TTI and its HTTPS proxy must suppress query strings from access logs."
+  },
+  "discordIntentTrigger": {
+    "kind": "author-mentions-zelo-and-explicitly-requests-to-sell-or-contribute-knowledge",
+    "botName": "Zelo",
+    "requiresHumanMessageAuthor": true,
+    "effect": "Every human mention enters the private operational roster; only explicit sell/contribute language creates a contribution-offer session and DM one-time direct-TTI-intake link.",
+    "retainedDiscordFields": ["guild ID", "channel ID", "message ID", "author ID", "bot mention", "observed instant"],
+    "discardedDiscordFields": ["message content", "attachments", "embeds", "other mentions"],
+    "notEffect": "A mention alone is not a knowledge-offer request, contribution, license, sale, assignment, payment, or consent to commercialize Discord/API content.",
+    "expiry": "The opaque direct-intake session expires after 30 minutes and may be consumed once. A repeated mention may request a fresh session."
+  },
+  "firstRevenueProduct": {
+    "id": "tti-locality-knowledge-answer-2026-01",
+    "manifest": "content/products/locality-knowledge-answer.json",
+    "contract": "content/contracts/locality-knowledge-answer.rml",
+    "acquisitionFunnel": "free Discord answer interest to persistent Knowledge Vault retention or cost-grounded metered MCP/A2A power-user service",
+    "retiredPriceHypothesis": {"currency":"USD","unitAmountMicros":10000000,"quantity":1,"status":"retired-unrun-after-human-feedback"},
+    "status": "v2-funnel-live-sale-blocked"
+  },
+  "marketCircuit": {"path":"content/circuits/contributor-knowledge-market-circuit.json","latestVerificationReceipt":"ni:///sha-256;Ejjq5426L47dJqJEp62FX3fhjeGM3m1WYGQGHChYW4o","structuralStatus":"passed","revenuePathClosed":false},
+  "licenseScopes": [
+    {"id":"community-memory","resale":false,"allows":["private TTI storage","member retrieval","correction and provenance"],"forbids":["Union resale","public publication","AI training"]},
+    {"id":"union-licensed-pseudonymous","resale":true,"allows":["TTI transformation","Union product licensing","pseudonymous attribution","agent retrieval under the sale license"],"forbids":["public legal-name attribution","open-web publication unless separately selected","general model training"]},
+    {"id":"union-licensed-attributed","resale":true,"allows":["TTI transformation","Union product licensing","chosen public attribution","agent retrieval under the sale license"],"forbids":["general model training","uses outside the contribution's declared subject and contexts"]}
+  ],
+  "allocation": {
+    "status": "candidate-not-effective",
+    "contributorPoolBasisPoints": 5000,
+    "currency": "USD",
+    "unit": "non-transferable-contribution-credit-micros",
+    "formula": "matured pool = floor((settled gross sale receipt - receipted payment processing - receipted direct provider fulfillment cost - matured refunds and chargebacks) * 5000 / 10000); each contribution receives floor(pool * attributionWeightPpm / 1000000)",
+    "weightRule": "Every sale contract freezes normalized contribution attribution weights totaling 1,000,000 ppm before delivery; weights are assigned to epistemic contribution, not message count or claim splitting.",
+    "maturityRule": "Credits post only after the disclosed refund/chargeback window; unpaid, reversed, estimated, or cost-incomplete sales allocate nothing.",
+    "payoutStatus": "blocked pending tax, payment, minimum-threshold, unclaimed-property, and contributor-contract review"
+  },
+  "sensitiveDataRefusals": ["minor contributor without a separate lawful guardian process","protected health or financial data","precise home or vulnerable-person location","third-party personal data without authority","credentials, secrets, or access tokens","content whose contributor cannot grant the selected rights"],
+  "commercial": {"buyerBoundary":"ActivityStreams/x402 Union knowledge-product sale","profitRule":"TTI profit is its retained settled margin after contributor credits and attributable costs","currentRevenue":0,"currentCredits":0},
+  "activationAdmission":{"path":"content/admissions/contributor-knowledge-market-activation.json","currentStatus":"not-admitted","pilotScope":"broker mention and direct pending-candidate intake only; no sale or payout authority","rule":"Runtime activation requires a distinct unexpired admitted record binding every required evidence check, the exact effective terms ID, and the production HTTPS origin."}
+}

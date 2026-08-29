@@ -1,0 +1,69 @@
+{
+  "subject": "washinton-tribes-environmental-groups-sue-over-endangered-species-act-rule-change",
+  "claims": [
+    {
+      "id": "title",
+      "proposition": {
+        "predicate": "title",
+        "object": "Washinton tribes, environmental groups sue over Endangered Species Act rule change"
+      },
+      "time": {
+        "asserted": "2026-07-19T15:04:15.228Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "decolonization",
+        "citation": "https://ictnews.org/news/washinton-tribes-environmental-groups-sue-over-endangered-species-act-rule-change/"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "url",
+      "proposition": {
+        "predicate": "url",
+        "object": "https://ictnews.org/news/washinton-tribes-environmental-groups-sue-over-endangered-species-act-rule-change/"
+      },
+      "time": {
+        "asserted": "2026-07-19T15:04:15.228Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "decolonization",
+        "citation": "https://ictnews.org/news/washinton-tribes-environmental-groups-sue-over-endangered-species-act-rule-change/"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "summary",
+      "proposition": {
+        "predicate": "summary",
+        "object": "This story was originally published by Washington State Standard. Aspen Ford Washington State Standard Washington tribes and environmental organizations sued the federal government Tuesday, July 14, arguing that recent changes to Endangered Species Act rules defy scientific research and pave the way for the destruction of important wildlife habitat. The two separate lawsuits, filed in U.S. District Court for Western Washington, challenge the Trump administration’s decision to rescind the legal definition of the word “harm” as used under the Endangered Species Act.&nbsp; In a July 10&nbsp; announcement , the Department of the Interior said the new rule would reduce permitting requirements and compliance costs for farmers, landowners and energy producers. “For years, federal agencies abused the ESA to obstruct lawful land use and burden American families and businesses,” said Interior Secretary Doug Burgum. “This action restores common sense, respects private property, provides much-needed certainty for landowners and follows the statute Congress actually passed.” But the environmental groups and tribes contend that the change will pose greater risks for species like salmon, steelhead, grizzly bears and northern spotted owls.&nbsp; The rule is underpinned by a 2024 Supreme Court ruling, according to the Department of the Interior announcement. When a species is listed as endangered, federal agencies such as the National Marine Fisheries Service designate certain areas of federal or private land as&nbsp; critical habitat .&nbsp; Before the rule change, developers seeking permits were required to explain how they would limit habitat harm in these areas, but that is no longer the case, said Kristen Boyles, Earthjustice attorney representing the nine environmental groups suing the federal government.&nbsp; “This is a big deal,” Boyles said, noting that she expects other lawsuits to be filed in the near future. She described the rule rewrite as “an assault on all of these resources that should belong to all of us,” which will enrich companies. The conservation groups that sued include the Center for Biological Diversity, Columbia Riverkeeper, Conservation Law Foundation, Conservation Northwest, Friends of the Wild Swan, Oregon Wild, Sierra Club, Swan View Coalition and WildEarth Guardians. Their suit names lead officials at the Interior and Commerce departments as defendants. Swinomish and Squaxin Island Tribes fear the rule will undermine recovery efforts for the federally listed Chinook salmon in the Puget Sound and Skagit River, which are reserved for the tribes to fish in under longstanding treaties with the federal government.&nbsp; “We cannot save the ESA-listed Chinook salmon that are a pillar of our Treaty rights and our cultural lifeways when the habitat they need to spawn, rear and grow is under attack,” Steve Edwards, chairman of the Swinomish Indian Tribal Community, said in a statement. “This new rule is anti-science.” The lawsuit from the tribes also alleges that the U.S. Fish and Wildlife Service and National Marine Fisheries Service violated the law by arbitrarily and capriciously rejecting Swinomish’s consultation request.&nbsp; The post Washinton tribes, environmental groups sue over Endangered Species Act rule change appeared first on ICT ."
+      },
+      "time": {
+        "asserted": "2026-07-19T15:04:15.228Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "decolonization",
+        "citation": "https://ictnews.org/news/washinton-tribes-environmental-groups-sue-over-endangered-species-act-rule-change/"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "published",
+      "proposition": {
+        "predicate": "published",
+        "object": "Sun, 19 Jul 2026 12:00:00 +0000"
+      },
+      "time": {
+        "asserted": "2026-07-19T15:04:15.228Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "decolonization",
+        "citation": "https://ictnews.org/news/washinton-tribes-environmental-groups-sue-over-endangered-species-act-rule-change/"
+      },
+      "status": "supported"
+    }
+  ]
+}

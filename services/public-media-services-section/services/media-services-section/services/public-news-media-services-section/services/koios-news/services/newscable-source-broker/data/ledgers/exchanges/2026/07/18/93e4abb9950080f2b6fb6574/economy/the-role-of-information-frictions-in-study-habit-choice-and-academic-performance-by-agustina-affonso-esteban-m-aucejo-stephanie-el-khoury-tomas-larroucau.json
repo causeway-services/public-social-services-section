@@ -1,0 +1,53 @@
+{
+  "subject": "the-role-of-information-frictions-in-study-habit-choice-and-academic-performance-by-agustina-affonso-esteban-m-aucejo-stephanie-el-khoury-tomas-larroucau",
+  "claims": [
+    {
+      "id": "title",
+      "proposition": {
+        "predicate": "title",
+        "object": "The Role of Information Frictions in Study Habit Choice and Academic Performance -- by Agustina Affonso, Esteban M. Aucejo, Stephanie El Khoury, Tomás Larroucau"
+      },
+      "time": {
+        "asserted": "2026-07-18T08:09:57.084Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "economy",
+        "citation": "https://www.nber.org/papers/w35436#fromrss"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "url",
+      "proposition": {
+        "predicate": "url",
+        "object": "https://www.nber.org/papers/w35436#fromrss"
+      },
+      "time": {
+        "asserted": "2026-07-18T08:09:57.084Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "economy",
+        "citation": "https://www.nber.org/papers/w35436#fromrss"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "summary",
+      "proposition": {
+        "predicate": "summary",
+        "object": "We study whether information frictions about the relative effectiveness of study methods distort students’ effort allocation. Standard models treat effort as a single input whose level, rather than composition, determines outcomes. We instead model effort as an allocation across methods with heterogeneous effectiveness. Combining panel surveys, administrative records, digital activity logs, and a randomized information intervention with over 2,000 undergraduates, we test whether imperfect information leads to effort misallocation and quantify consequences for performance. At baseline, students hold divergent beliefs, and many devote time to passive strategies such as rereading, despite evidence that potential retrieval is more effective; these choices predict lower performance and larger self-assessment errors. We randomize treated students into general-feedback and personalized-feedback arms, benchmarking habits against peers in the latter. General feedback has little effect. Personalized feedback widens the perceived effectiveness gap between active and passive methods by 42 percent, shifts time toward effective practices, and raises exam scores by 0.05–0.08 standard deviations. A dynamic model with learning-by-doing and convex allocation costs shows that, for students with the weakest baseline beliefs, personalized feedback is equivalent to a 16.5 percent reduction in adoption costs. These results identify information frictions about multidimensional effort as a determinant of academic performance."
+      },
+      "time": {
+        "asserted": "2026-07-18T08:09:57.084Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "economy",
+        "citation": "https://www.nber.org/papers/w35436#fromrss"
+      },
+      "status": "supported"
+    }
+  ]
+}

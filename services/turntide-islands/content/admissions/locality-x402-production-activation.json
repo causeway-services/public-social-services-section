@@ -1,0 +1,52 @@
+{
+  "type": "TTILocalityX402ProductionActivationAdmission",
+  "version": 1,
+  "id": "tti-locality-x402-production-activation-2026-01",
+  "status": "not-admitted",
+  "contract": "ni:///sha-256;9gpIJXRaBjriY0HKOUt8cZcfkkQ0CDPqZdAoi17GowA",
+  "provider": "urn:ame:x402-services-section",
+  "providerContract": "ni:///sha-256;UPEWFFhGNc-ShEFpEsU9JjK-6n5CEHEXCyWH_JxFuwE",
+  "network": "eip155:8453",
+  "asset": null,
+  "assetMetadata": {
+    "address": null,
+    "symbol": "USDC",
+    "decimals": 6,
+    "contractEvidenceId": null
+  },
+  "payTo": null,
+  "accountBinding": null,
+  "facilitator": {
+    "actor": null,
+    "contract": null,
+    "url": null,
+    "costQuoteReceipt": null,
+    "capabilityReceipt": null
+  },
+  "publicOrigin": null,
+  "buyerAndMaturityLaw": null,
+  "issuedAt": null,
+  "expiresAt": null,
+  "pilot": {
+    "maximumSettledSales": 1,
+    "maximumGrossRevenueMicros": 10000000,
+    "bulkActivation": false
+  },
+  "checks": [
+    {"id":"base-mainnet-standards-deployment","status":"missing","evidenceId":null},
+    {"id":"tti-base-enterprise-account-binding","status":"missing","evidenceId":null},
+    {"id":"base-mainnet-payment-asset","status":"missing","evidenceId":null},
+    {"id":"production-facilitator-contract-and-cost-quote","status":"missing","evidenceId":null},
+    {"id":"buyer-refund-chargeback-and-maturity-law","status":"missing","evidenceId":null},
+    {"id":"public-https-payment-origin","status":"missing","evidenceId":null},
+    {"id":"qualified-legal-tax-and-security-review","status":"missing","evidenceId":null}
+  ],
+  "effect": "none",
+  "observedFacts": [
+    "The Union tree contains an enterprise-account provisioning provider plus ERC-7677 paymaster and ERC-7769 bundler implementations.",
+    "The Union tree contains no eip155:8453 standards deployment or TTI eip155:8453 account binding.",
+    "The x402 Services Section is proven for the official protocol boundary but no production facilitator offer, cost quote, or capability receipt has been admitted by TTI."
+  ],
+  "refusal": "Live x402 configuration and revenue recognition remain disabled until a new exact admission is witnessed in the TTI settlement store, passes every check, binds the Base account, six-decimal USDC contract evidence, facilitator, cost and capability evidence, buyer/maturity law, and public HTTPS origin, and expires within thirty-one days.",
+  "neverEvidence": "This record, source code, a testnet or development settlement, an address, a facilitator URL, or a provider estimate is not activation, payment, revenue, entitlement, fulfillment, or profit."
+}

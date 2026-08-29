@@ -1,0 +1,69 @@
+{
+  "subject": "the-report-oil-companies-are-worried-about-climate-attribution-science",
+  "claims": [
+    {
+      "id": "title",
+      "proposition": {
+        "predicate": "title",
+        "object": "The report oil companies are worried about: Climate attribution science"
+      },
+      "time": {
+        "asserted": "2026-07-18T08:09:59.493Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "technology",
+        "citation": "https://arstechnica.com/science/2026/07/national-academies-climate-attribution-is-maturing-but-still-has-limits/"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "url",
+      "proposition": {
+        "predicate": "url",
+        "object": "https://arstechnica.com/science/2026/07/national-academies-climate-attribution-is-maturing-but-still-has-limits/"
+      },
+      "time": {
+        "asserted": "2026-07-18T08:09:59.493Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "technology",
+        "citation": "https://arstechnica.com/science/2026/07/national-academies-climate-attribution-is-maturing-but-still-has-limits/"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "summary",
+      "proposition": {
+        "predicate": "summary",
+        "object": "Climate change is being driven largely by the greenhouse gases we've pumped into the atmosphere, which trap more of the Sun's energy there. That added energy increases the odds of extreme events: longer, more intense heat waves and droughts, interspersed with excessive precipitation. But these sorts of events have happened in the past—how can we tell if any given weather disaster has been made more likely by the climate? It's a question with implications for everything from building codes to disaster preparedness. And there's some good news: According to a report released by the US National Academies of Science on Thursday, the field of climate attribution is growing increasingly mature and can answer some questions for us with far greater confidence than it could just a decade ago. The report also notes that there are still important limits and suggests steps to address them. Overall, this makes it clear that climate attribution is normal, mainstream science. And the fossil fuel industry views that as a problem , as it could make it easier to hold companies liable for damages. This has triggered a backlash that has Republicans in Congress and state governments threatening the National Academies' funding . Read full article Comments"
+      },
+      "time": {
+        "asserted": "2026-07-18T08:09:59.493Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "technology",
+        "citation": "https://arstechnica.com/science/2026/07/national-academies-climate-attribution-is-maturing-but-still-has-limits/"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "published",
+      "proposition": {
+        "predicate": "published",
+        "object": "Fri, 17 Jul 2026 11:30:10 +0000"
+      },
+      "time": {
+        "asserted": "2026-07-18T08:09:59.493Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "technology",
+        "citation": "https://arstechnica.com/science/2026/07/national-academies-climate-attribution-is-maturing-but-still-has-limits/"
+      },
+      "status": "supported"
+    }
+  ]
+}

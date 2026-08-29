@@ -1,0 +1,27 @@
+{
+  "name": "@emsenn/artificial-intelligence-curriculum-enterprise",
+  "version": "0.1.6",
+  "type": "module",
+  "exports": {
+    "./curriculum": "./src/curriculum.mjs",
+    "./a2a-delivery-executor": "./src/a2a-delivery-executor.mjs"
+  },
+  "files": [
+    "src/",
+    "content/"
+  ],
+  "scripts": {
+    "check": "node --check src/curriculum.mjs && node --check src/a2a-delivery-executor.mjs && node --check src/local-a2a-membrane.mjs && node --check src/serve-delivery-a2a.mjs && node --check test/curriculum.test.mjs",
+    "test": "node --test test/curriculum.test.mjs",
+    "verify": "npm run check && npm test",
+    "serve-delivery-a2a": "node src/serve-delivery-a2a.mjs"
+  },
+  "dependencies": {
+    "@red-cup-engineering/a2a-contracted-agent-service": "2.1.3",
+    "@red-cup-engineering/a2a-rmn-part-service": "1.0.5",
+    "@red-cup-engineering/semantic-content-identify-service": "0.2.7",
+    "@red-cup-engineering/semantic-record-journal-service": "0.1.8",
+    "@red-cup-engineering/witness-journal-document-service": "1.0.1"
+  },
+  "license": "UNLICENSED"
+}

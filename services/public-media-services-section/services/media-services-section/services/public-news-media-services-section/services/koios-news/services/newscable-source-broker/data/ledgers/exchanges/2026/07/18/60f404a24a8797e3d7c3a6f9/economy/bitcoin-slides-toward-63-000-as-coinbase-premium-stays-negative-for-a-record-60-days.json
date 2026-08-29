@@ -1,0 +1,69 @@
+{
+  "subject": "bitcoin-slides-toward-63-000-as-coinbase-premium-stays-negative-for-a-record-60-days",
+  "claims": [
+    {
+      "id": "title",
+      "proposition": {
+        "predicate": "title",
+        "object": "Bitcoin slides toward $63,000 as Coinbase premium stays negative for a record 60 days"
+      },
+      "time": {
+        "asserted": "2026-07-18T08:15:53.850Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "economy",
+        "citation": "https://www.theblock.co/post/408793/bitcoin-slides-63000-coinbase-premium-stays-negative-record-60-days?utm_source=rss&utm_medium=rss"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "url",
+      "proposition": {
+        "predicate": "url",
+        "object": "https://www.theblock.co/post/408793/bitcoin-slides-63000-coinbase-premium-stays-negative-record-60-days?utm_source=rss&utm_medium=rss"
+      },
+      "time": {
+        "asserted": "2026-07-18T08:15:53.850Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "economy",
+        "citation": "https://www.theblock.co/post/408793/bitcoin-slides-63000-coinbase-premium-stays-negative-record-60-days?utm_source=rss&utm_medium=rss"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "summary",
+      "proposition": {
+        "predicate": "summary",
+        "object": "Bitcoin fell near $63,000 as chip stocks sold off, the Coinbase premium stayed negative a record 60 days, and ETF flows remain thin."
+      },
+      "time": {
+        "asserted": "2026-07-18T08:15:53.850Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "economy",
+        "citation": "https://www.theblock.co/post/408793/bitcoin-slides-63000-coinbase-premium-stays-negative-record-60-days?utm_source=rss&utm_medium=rss"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "published",
+      "proposition": {
+        "predicate": "published",
+        "object": "Fri, 17 Jul 2026 12:38:50 -0400"
+      },
+      "time": {
+        "asserted": "2026-07-18T08:15:53.850Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "economy",
+        "citation": "https://www.theblock.co/post/408793/bitcoin-slides-63000-coinbase-premium-stays-negative-record-60-days?utm_source=rss&utm_medium=rss"
+      },
+      "status": "supported"
+    }
+  ]
+}

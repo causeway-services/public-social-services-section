@@ -1,0 +1,65 @@
+{
+  "name": "@emsenn/koios-news-service-section",
+  "version": "0.0.1",
+  "type": "module",
+  "description": "News-domain settlement services for warrant-preserving publications.",
+  "bin": {
+    "describe-service": "./src/service-section.mjs",
+    "settle-message": "./src/service-section.mjs",
+    "solicit-admissible-research-packet": "./src/contract-admissible-research-packet.mjs",
+    "invoke-admissible-research-packet": "./src/contract-admissible-research-packet.mjs",
+    "solicit-licensed-editorial-state": "./src/contract-licensed-editorial-state.mjs",
+    "invoke-licensed-editorial-state": "./src/contract-licensed-editorial-state.mjs"
+  },
+  "scripts": {
+    "check": "node --check src/law.mjs && node --check src/contract-licensed-editorial-state.mjs && node --check src/contract-admissible-research-packet.mjs && node --check src/service-section.mjs",
+    "describe": "node src/service-section.mjs describe",
+    "settle": "node src/service-section.mjs settle-message",
+    "test": "node --test test/*.test.mjs",
+    "verify": "npm run check && npm test"
+  },
+  "dependencies": {
+    "@emsenn/rmn-semantic-conformance": "file:../../../lenticule-science/services/obsmetrological-services-section/services/rmn-semantic-conformance",
+    "@emsenn/rwil-rdf-services": "file:../../../lenticule-science/services/obsmetrological-services-section/services/rwil-rdf-services"
+  },
+  "x-agentic-metro-enterprise": {
+    "node-id": "koios-news-service-section",
+    "actor": "https://koios-news-service-section.invalid/activitypub/actor",
+    "account": "eip155:31337:0x55397286728b70d86a139fe8263c2d63c5d6770c",
+    "operation-catalog": {
+      "describe-service": {
+        "contract": "koios-news-service-section/description/v1",
+        "accepts": "describe",
+        "returns": "Service"
+      },
+      "settle-message": {
+        "contracts": [
+          "ni:///sha-256;UEbmiI0qGL7BZDmWudlPOHE52M8POyitL1vY2IQi_ho",
+          "ni:///sha-256;JeFirv0GtdnxsMK55Mimwdc1_J2y94vFtSMwnw2sePE"
+        ],
+        "accepts": "ActivityStreams Offer<ServiceSolicitation>|Accept<ServiceContract> on stdin",
+        "returns": "ActivityStreams Offer|Accept|Reject"
+      },
+      "solicit-admissible-research-packet": {
+        "contract": "ni:///sha-256;UEbmiI0qGL7BZDmWudlPOHE52M8POyitL1vY2IQi_ho",
+        "accepts": "ActivityStreams Offer<ServiceSolicitation<AdmissibleResearchPacketDemand>>",
+        "returns": "ActivityStreams Offer<ServiceOffer>|Reject"
+      },
+      "invoke-admissible-research-packet": {
+        "contract": "ni:///sha-256;UEbmiI0qGL7BZDmWudlPOHE52M8POyitL1vY2IQi_ho",
+        "accepts": "ActivityStreams Accept<ServiceContract>",
+        "returns": "ActivityStreams Accept<AdmissibleResearchPacketDelivery>|Reject"
+      },
+      "solicit-licensed-editorial-state": {
+        "contract": "ni:///sha-256;JeFirv0GtdnxsMK55Mimwdc1_J2y94vFtSMwnw2sePE",
+        "accepts": "ActivityStreams Offer<ServiceSolicitation<LicensedEditorialStateDemand>>",
+        "returns": "ActivityStreams Offer<ServiceOffer>|Reject"
+      },
+      "invoke-licensed-editorial-state": {
+        "contract": "ni:///sha-256;JeFirv0GtdnxsMK55Mimwdc1_J2y94vFtSMwnw2sePE",
+        "accepts": "ActivityStreams Accept<ServiceContract>",
+        "returns": "ActivityStreams Accept<LicensedEditorialStateDelivery>|Reject"
+      }
+    }
+  }
+}

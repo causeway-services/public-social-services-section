@@ -1,0 +1,69 @@
+{
+  "subject": "data-centers-are-booming-indigenous-leaders-want-help-protecting-their-lands",
+  "claims": [
+    {
+      "id": "title",
+      "proposition": {
+        "predicate": "title",
+        "object": "Data centers are booming. Indigenous leaders want help protecting their lands."
+      },
+      "time": {
+        "asserted": "2026-07-18T08:15:51.891Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "environment",
+        "citation": "https://grist.org/global-indigenous-affairs-desk/data-centers-are-booming-indigenous-leaders-want-help-protecting-their-lands/"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "url",
+      "proposition": {
+        "predicate": "url",
+        "object": "https://grist.org/global-indigenous-affairs-desk/data-centers-are-booming-indigenous-leaders-want-help-protecting-their-lands/"
+      },
+      "time": {
+        "asserted": "2026-07-18T08:15:51.891Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "environment",
+        "citation": "https://grist.org/global-indigenous-affairs-desk/data-centers-are-booming-indigenous-leaders-want-help-protecting-their-lands/"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "summary",
+      "proposition": {
+        "predicate": "summary",
+        "object": "This story is published through the Indigenous News Alliance. AI is the transformative technology of our time, with the potential to reshape our world on a global scale. And yet, underpinning its potential is the need for so-called hyperscale data centers that require vast amounts of land, energy, and water. As tech companies and governments continue to develop this infrastructure at a huge scale, Indigenous peoples around the world are responding to this threat in different ways. They are raising concerns about mounting pressure on water resources and inadequate consultation, but in some cases embracing projects for their economic benefits.&nbsp; The rapid expansion of this massive digital infrastructure has Indigenous leaders, governments, and experts calling on those developing them to comply with the principle of free, prior, and informed consent while exploring whether this infrastructure can be established in ways that advance Indigenous rights and priorities. During a panel discussion on the second day of the United Nations Expert Mechanism on the Rights of Indigenous Peoples , or EMRIP, Indigenous delegates said that while there must be policies to ensure that AI does not harvest Indigenous knowledge without consent, protections for Indigenous lands and waters are equally important.&nbsp; “AI is resource-intensive and requires vast amounts of energy. In Sápmi, we already see how large data centers put [immense] pressure on our territories,” said Maren Storslett, who is a member of the Sámi Parliament in Norway. “This forces a conversation about priorities and limits and we need to be at the table on these discussions.” According to the International Energy Agency , conventional data centers, which store thousands of computer machines and other equipment to power everyday digital life like cloud storage, may draw around 10 to 25 megawatts of power per year. But a hyperscale, AI-focused data center, of the likes being built by or for transnational companies such as Google and Amazon, can require 100 megawatts or more annually, consuming as much electricity as 100,000 households would use over the same time.&nbsp; All of that energy is needed to power the immense racks of servers that provide the computing power behind things like ChatGPT, Claude, and other platforms. They also require copious amounts of water to keep them cool. This demand for energy and water, driven in part by the increasing rack power density for AI workloads, is a frequent concern raised by sources at the international Indigenous conference. Research by the Lawrence Berkeley National Laboratory estimates that all data centers in the U.S. alone directly consumed approximately 17.4 billion gallons ( 66 billion liters) of water in 2023 . It also estimated that the energy generation consumed 211 billion gallons (800 billion liters) of water.&nbsp; Read Next A solution to data center backlash? Put them in oil fields. Jake Bittle Other research puts it into perspective: By 2030, the energy required for data centers is expected to double to 945 terawatt-hours — enough to meet the needs of all 1.3 billion residents of Sub-Saharan Africa for 5.5 years. Those facilities would also require enough to meet the domestic water needs of all the same people for a year. “These technologies … come with environmental cost,” said Aluki Kotierk, who is Inuk from Canada and current chairperson of the U.N. Permanent Forum on Indigenous Issues. “The data centers that power them consume vast amounts of energy, water, and minerals, resources that are often extracted from or developed on Indigenous peoples lands without their meaningful participation or consent, with potential serious consequences for their rights, livelihoods, and environments.” Extraction for AI data center resources can result in the degradation of sacred sites and threats to fragile ecosystems, according to Camila Vergada, who is a board member of the Forum for Real Economic Emancipation . While there are potential benefits for Indigenous people, the electricity and water needs of hyperscale, AI-focused data centers can be detrimental to Indigenous lands that lack the capacity to meet their resource requirements, according to Matthew Rantanen, who is a Cree descendant and advocate for digital equity in Indian Country. Rantanen, who is a co-chair of two technology-related subcommittees of the National Congress of American Indians, believes an industry shift toward renewable energy and alternative cooling methods is needed to ensure that AI infrastructure aligns with Indigenous priorities and rights.&nbsp; The permitting needed to build these data centers should require in-depth studies of resource availability and the impacts on communities and ecosystems, as well as the involvement of those impacted throughout the lifecycle of a project — a point that was reinforced by participants at the EMRIP. Others, like Rochelle Diver, who is a citizen of the Fond du Lac Band of Lake Superior Ojibwe and the U.N. environmental treaties coordinator for the International Indian Treaty Council, are calling for broader support for Indigenous-led moratoriums on data centers. “We are in an urgent situation regarding the infrastructure being built on a massive scale to power AI technology,” she said.&nbsp; Data centers are often built in water-stressed regions , like Querétaro, Mexico, and Santiago, Chile. In a protest against the construction of a Google facility in Santiago, Indigenous peoples, local communities and workers’ unions rallied around the slogan “ no es sequia, es saqueo ” (“this is not a drought, this is a robbery”). Last year, the Anacé Indigenous people in Brazil filed an official complaint before federal authorities, requesting the cancellation of a $10 billion data center for the popular social media platform TikTok on their land. Leaders said their right to consultation was violated , and their concerns dismissed. Roberto Anacé, leader of the community in Brazil, said in a WhatsApp message that the project “hinders our community, first disrespectfully separating relatives, causing fights, personal interests, bringing out ambition and hatred in human beings, and above all destroying our sacred things: Mother Earth, water, climate, air.” Read Next Data centers are straining the grid. Can they be forced to pay for it? Naveena Sadasivam A recent analysis by the London School of Economics suggests that the next wave of climate litigation may relate to the impacts of large data centers that AI relies on. In 2024, due to the efforts of Chilean protesters in Santiago, an environmental tribunal suspended construction of the Google data center, ruling that the environmental impact had not been properly considered. So far, there has been no progress on the Anacé peoples’ lawsuit against TikTok. In the U.S., a more than $1 billion Meta data center project in Tulsa, Oklahoma, has received mixed responses among Indigenous and non-Indigenous community members. While some support it, others firmly oppose it and have actively campaigned against it. Cheyenna Morgan, who is an enrolled member of the Keetoowah Band of Cherokee Native Americans and the coalition coordinator of Stop Data Colonialism, said in an email that the data center will place a heavy burden on local power and resources. Meta, Google, and TikTok did not reply to requests for comment.&nbsp; Through Stop Data Colonialism, Morgan works to stop the rollout of hyperscale data centers on vulnerable lands, and said her community is already experiencing an increase in electricity bills and is expecting further rate hikes. “These impacts will be felt on regular people who didn’t ask to have these in their neighborhoods,” she said. &nbsp;In March, the city council passed a moratorium to allow more time to assess the project’s impact. Similar moratoriums have been passed by tribes in the U.S., including the Seminole Nation of Oklahoma , the Eastern Band of Cherokee Indians (EBCI) , and the Sault Ste. Marie Tribe of Chippewa Indians .&nbsp;&nbsp; At the U.N., some delegates spoke of direct experience with harmful data centers, while others spoke of the potential risks.&nbsp; Julia Aka Wille, who is Inuk from Greenland and invited by the Inuit Circumpolar Council to speak at EMRIP, said that even though her homeland does not have any data centers yet, the community is still concerned about their impact on the climate. “They still affect us in that way, because they use so much energy and water, and it will contribute to the general climate change,” Aka Wille said. “The Arctic is the region that is most affected by climate change because the ice is melting, and this affects us that we can’t really have the same way of living anymore.”&nbsp; Read Next AI is a double-edged sword for Indigenous land protection, UN experts warn Aimee Gabay Although Aka Wille sees opportunity in AI to help teach and preserve Indigenous languages like hers, she hopes that Indigenous peoples from around the world can work together to ensure AI is used in a responsible way. In Alberta, some Indigenous nations are embracing the data center boom , emerging as key stakeholders and investors. The Woodland Cree First Nation recently announced plans for a 650 megawatt data center that will utilize an idle power plant for energy generation. Woodland Cree has a 51 percent stake in the project. Te Kāhui Raraunga, an Indigenous-led initiative in Aotearoa New Zealand, demonstrates how some tribal nations are considering AI-initiatives that respect Indigenous rights and priorities. The organization, linked to the Data Iwi Leaders Group, has created a Māori Data Governance Model and Māori AI Governance Framework focused on data policy and infrastructure.&nbsp; As part of this initiative, leaders from 85 tribal nations gather each quarter to ensure the communities’ key priorities are upheld.&nbsp; “These hyperscale data centres come with promises of economic development and digital sovereignty; however, the reality can be much different, and it is vital that iwi Māori have the information they need to make informed decisions,” Erena Mikaere, the digital program lead for Te Kāhui Raraunga, said in an email.&nbsp; She added that the organization has developed resources for tribal leaders that highlight the impacts of hyperscale data centers, as well as key considerations before signing any agreement allowing one. At EMRIP, Indigenous delegates stressed the need for meaningful participation throughout the development, implementation, and governance of AI initiatives that affect them. “We must not only ask what AI can do, but what it should do,” said Maren Storslett. “Respect for the rights of Indigenous peoples must apply across the entire life of AI systems.” Grist reporter Joseph Lee contributed reporting to this story. This story was originally published by Grist with the headline Data centers are booming. Indigenous leaders want help protecting their lands. on Jul 16, 2026."
+      },
+      "time": {
+        "asserted": "2026-07-18T08:15:51.891Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "environment",
+        "citation": "https://grist.org/global-indigenous-affairs-desk/data-centers-are-booming-indigenous-leaders-want-help-protecting-their-lands/"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "published",
+      "proposition": {
+        "predicate": "published",
+        "object": "Thu, 16 Jul 2026 11:00:00 +0000"
+      },
+      "time": {
+        "asserted": "2026-07-18T08:15:51.891Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "environment",
+        "citation": "https://grist.org/global-indigenous-affairs-desk/data-centers-are-booming-indigenous-leaders-want-help-protecting-their-lands/"
+      },
+      "status": "supported"
+    }
+  ]
+}

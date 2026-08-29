@@ -1,0 +1,69 @@
+{
+  "subject": "thames-water-creditors-seek-talks-with-burnham-as-nationalisation-looms",
+  "claims": [
+    {
+      "id": "title",
+      "proposition": {
+        "predicate": "title",
+        "object": "Thames Water creditors seek talks with Burnham as nationalisation looms"
+      },
+      "time": {
+        "asserted": "2026-07-19T20:06:11.680Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "economy",
+        "citation": "https://www.theguardian.com/business/2026/jul/19/thames-water-creditors-prepare-legal-fight-nationalisation"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "url",
+      "proposition": {
+        "predicate": "url",
+        "object": "https://www.theguardian.com/business/2026/jul/19/thames-water-creditors-prepare-legal-fight-nationalisation"
+      },
+      "time": {
+        "asserted": "2026-07-19T20:06:11.680Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "economy",
+        "citation": "https://www.theguardian.com/business/2026/jul/19/thames-water-creditors-prepare-legal-fight-nationalisation"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "summary",
+      "proposition": {
+        "predicate": "summary",
+        "object": "<p>Consortium preparing for potential legal battle amid reports new PM could put the company into temporary public ownership</p><p>The group of investors pursuing a rescue bid for Thames Water have said they are willing to discuss greater public control but are also preparing for a potential multi-billion pound legal battle amid reports that Andy Burnham could temporarily nationalise the company.</p><p>London &amp; Valley Water (L&amp;VW), a consortium of 100 institutional investors that hold £17bn of the company’s £21bn debt, has said it is open to government involvement with Thames Water, but indicated that this does not include public ownership in the struggling company.</p> <a href=\"https://www.theguardian.com/business/2026/jul/19/thames-water-creditors-prepare-legal-fight-nationalisation\">Continue reading...</a>"
+      },
+      "time": {
+        "asserted": "2026-07-19T20:06:11.680Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "economy",
+        "citation": "https://www.theguardian.com/business/2026/jul/19/thames-water-creditors-prepare-legal-fight-nationalisation"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "published",
+      "proposition": {
+        "predicate": "published",
+        "object": "Sun, 19 Jul 2026 16:17:11 GMT"
+      },
+      "time": {
+        "asserted": "2026-07-19T20:06:11.680Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "economy",
+        "citation": "https://www.theguardian.com/business/2026/jul/19/thames-water-creditors-prepare-legal-fight-nationalisation"
+      },
+      "status": "supported"
+    }
+  ]
+}

@@ -1,0 +1,69 @@
+{
+  "subject": "box-office-the-odyssey-stuns-with-124-million-opening-weekend-third-biggest-debut-of-the-year",
+  "claims": [
+    {
+      "id": "title",
+      "proposition": {
+        "predicate": "title",
+        "object": "Box Office: ‘The Odyssey’ Stuns With $124 Million Opening Weekend, Third-Biggest Debut of the Year"
+      },
+      "time": {
+        "asserted": "2026-07-19T15:58:01.697Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "culture",
+        "citation": "https://variety.com/2026/film/box-office/the-odyssey-box-office-christopher-nolan-opening-weekend-shatters-expectations-1236815861/"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "url",
+      "proposition": {
+        "predicate": "url",
+        "object": "https://variety.com/2026/film/box-office/the-odyssey-box-office-christopher-nolan-opening-weekend-shatters-expectations-1236815861/"
+      },
+      "time": {
+        "asserted": "2026-07-19T15:58:01.697Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "culture",
+        "citation": "https://variety.com/2026/film/box-office/the-odyssey-box-office-christopher-nolan-opening-weekend-shatters-expectations-1236815861/"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "summary",
+      "proposition": {
+        "predicate": "summary",
+        "object": "It’s a box office debut fit for a king. Christopher Nolan’s action epic “The Odyssey” ignited to $124.5 million from 3,919 domestic theaters over the weekend, defying expectations and setting up the R-rated adventure for a long, long journey in theaters. These ticket sales are notable as Nolan’s biggest debut since 2012’s “The Dark Knight […]"
+      },
+      "time": {
+        "asserted": "2026-07-19T15:58:01.697Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "culture",
+        "citation": "https://variety.com/2026/film/box-office/the-odyssey-box-office-christopher-nolan-opening-weekend-shatters-expectations-1236815861/"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "published",
+      "proposition": {
+        "predicate": "published",
+        "object": "Sun, 19 Jul 2026 15:38:55 +0000"
+      },
+      "time": {
+        "asserted": "2026-07-19T15:58:01.697Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "culture",
+        "citation": "https://variety.com/2026/film/box-office/the-odyssey-box-office-christopher-nolan-opening-weekend-shatters-expectations-1236815861/"
+      },
+      "status": "supported"
+    }
+  ]
+}

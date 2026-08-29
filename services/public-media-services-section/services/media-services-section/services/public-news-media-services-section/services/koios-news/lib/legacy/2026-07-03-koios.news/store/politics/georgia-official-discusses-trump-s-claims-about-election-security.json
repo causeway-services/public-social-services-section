@@ -1,0 +1,69 @@
+{
+  "subject": "georgia-official-discusses-trump-s-claims-about-election-security",
+  "claims": [
+    {
+      "id": "title",
+      "proposition": {
+        "predicate": "title",
+        "object": "Georgia official discusses Trump's claims about election security"
+      },
+      "time": {
+        "asserted": "2026-07-19T14:41:50.560Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "politics",
+        "citation": "https://www.npr.org/2026/07/19/nx-s1-5896326/georgia-official-discusses-trumps-claims-about-election-security"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "url",
+      "proposition": {
+        "predicate": "url",
+        "object": "https://www.npr.org/2026/07/19/nx-s1-5896326/georgia-official-discusses-trumps-claims-about-election-security"
+      },
+      "time": {
+        "asserted": "2026-07-19T14:41:50.560Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "politics",
+        "citation": "https://www.npr.org/2026/07/19/nx-s1-5896326/georgia-official-discusses-trumps-claims-about-election-security"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "summary",
+      "proposition": {
+        "predicate": "summary",
+        "object": "NPR's Ayesha Rascoe talks with Gabriel Sterling, of the Georgia Secretary of State's Office, about President Trump's claims about election security."
+      },
+      "time": {
+        "asserted": "2026-07-19T14:41:50.560Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "politics",
+        "citation": "https://www.npr.org/2026/07/19/nx-s1-5896326/georgia-official-discusses-trumps-claims-about-election-security"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "published",
+      "proposition": {
+        "predicate": "published",
+        "object": "Sun, 19 Jul 2026 09:06:58 -0400"
+      },
+      "time": {
+        "asserted": "2026-07-19T14:41:50.560Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "politics",
+        "citation": "https://www.npr.org/2026/07/19/nx-s1-5896326/georgia-official-discusses-trumps-claims-about-election-security"
+      },
+      "status": "supported"
+    }
+  ]
+}

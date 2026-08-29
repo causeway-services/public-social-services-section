@@ -1,0 +1,69 @@
+{
+  "subject": "spain-world-cup-champions-gear-unveiled-within-moments-of-victory-over-argentina",
+  "claims": [
+    {
+      "id": "title",
+      "proposition": {
+        "predicate": "title",
+        "object": "Spain World Cup Champions Gear Unveiled Within Moments of Victory Over Argentina"
+      },
+      "time": {
+        "asserted": "2026-07-20T01:13:55.454Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "culture",
+        "citation": "https://www.hollywoodreporter.com/lifestyle/shopping/buy-spain-fifa-world-cup-2026-champions-jersey-shirts-merch-1236651853/"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "url",
+      "proposition": {
+        "predicate": "url",
+        "object": "https://www.hollywoodreporter.com/lifestyle/shopping/buy-spain-fifa-world-cup-2026-champions-jersey-shirts-merch-1236651853/"
+      },
+      "time": {
+        "asserted": "2026-07-20T01:13:55.454Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "culture",
+        "citation": "https://www.hollywoodreporter.com/lifestyle/shopping/buy-spain-fifa-world-cup-2026-champions-jersey-shirts-merch-1236651853/"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "summary",
+      "proposition": {
+        "predicate": "summary",
+        "object": "Fans can already secure official merchandise to commemorate the Spain national team's historic 2026 World Cup win."
+      },
+      "time": {
+        "asserted": "2026-07-20T01:13:55.454Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "culture",
+        "citation": "https://www.hollywoodreporter.com/lifestyle/shopping/buy-spain-fifa-world-cup-2026-champions-jersey-shirts-merch-1236651853/"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "published",
+      "proposition": {
+        "predicate": "published",
+        "object": "Mon, 20 Jul 2026 00:51:46 +0000"
+      },
+      "time": {
+        "asserted": "2026-07-20T01:13:55.454Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "culture",
+        "citation": "https://www.hollywoodreporter.com/lifestyle/shopping/buy-spain-fifa-world-cup-2026-champions-jersey-shirts-merch-1236651853/"
+      },
+      "status": "supported"
+    }
+  ]
+}

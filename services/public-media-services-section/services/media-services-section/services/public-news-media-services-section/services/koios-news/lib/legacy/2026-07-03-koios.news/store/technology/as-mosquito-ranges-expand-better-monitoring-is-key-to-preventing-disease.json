@@ -1,0 +1,69 @@
+{
+  "subject": "as-mosquito-ranges-expand-better-monitoring-is-key-to-preventing-disease",
+  "claims": [
+    {
+      "id": "title",
+      "proposition": {
+        "predicate": "title",
+        "object": "As mosquito ranges expand, better monitoring is key to preventing disease"
+      },
+      "time": {
+        "asserted": "2026-07-19T14:41:51.389Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "technology",
+        "citation": "https://arstechnica.com/science/2026/07/as-mosquito-ranges-expand-better-monitoring-is-key-to-preventing-disease/"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "url",
+      "proposition": {
+        "predicate": "url",
+        "object": "https://arstechnica.com/science/2026/07/as-mosquito-ranges-expand-better-monitoring-is-key-to-preventing-disease/"
+      },
+      "time": {
+        "asserted": "2026-07-19T14:41:51.389Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "technology",
+        "citation": "https://arstechnica.com/science/2026/07/as-mosquito-ranges-expand-better-monitoring-is-key-to-preventing-disease/"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "summary",
+      "proposition": {
+        "predicate": "summary",
+        "object": "With summer heat comes pool parties, beach days, backyard cookouts, and, of course, swarms of bloodthirsty mosquitoes. But while insect bites have always been a side effect of time spent outdoors, the species doing the biting are changing in historically temperate regions like New England. As climate change makes these areas warmer and wetter, their ranges are expanding—and any diseases they carry come with them. In Connecticut, for example, a statewide mosquito monitoring program has detected 54 different species, including invasives like the Asian tiger mosquito, which can transmit potentially serious diseases including dengue and Zika . The mosquito’s historical territory is in hot and humid climates farther south, but it has been moving north . Read full article Comments"
+      },
+      "time": {
+        "asserted": "2026-07-19T14:41:51.389Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "technology",
+        "citation": "https://arstechnica.com/science/2026/07/as-mosquito-ranges-expand-better-monitoring-is-key-to-preventing-disease/"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "published",
+      "proposition": {
+        "predicate": "published",
+        "object": "Sun, 19 Jul 2026 11:19:31 +0000"
+      },
+      "time": {
+        "asserted": "2026-07-19T14:41:51.389Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "technology",
+        "citation": "https://arstechnica.com/science/2026/07/as-mosquito-ranges-expand-better-monitoring-is-key-to-preventing-disease/"
+      },
+      "status": "supported"
+    }
+  ]
+}

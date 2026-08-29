@@ -1,0 +1,4579 @@
+{
+  "kind": "koios.static-shadow-manifest",
+  "node": "koios-news",
+  "canonicalOrigin": "https://koios.news",
+  "authority": "non-authoritative-shadow",
+  "policy": {
+    "indexing": "noindex-nofollow",
+    "advertising": false,
+    "viewBeacon": false,
+    "mutableRoutes": "excluded"
+  },
+  "exclusions": [
+    "/hit",
+    "/views.json",
+    "/healthz",
+    "/newsroom",
+    "/cable",
+    "/mcp",
+    "/operators"
+  ],
+  "limitations": [
+    "Search is a static empty-query surface until a separately contracted edge search operation exists.",
+    "Aggregate attention is omitted because the shadow has no admitted mutable telemetry service.",
+    "This artifact does not confer upload, preview-hostname, DNS, or cutover authority."
+  ],
+  "routeCount": 649,
+  "artifacts": [
+    {
+      "route": "/",
+      "file": "index.html",
+      "mediaType": "text/html; charset=utf-8",
+      "bytes": 81136,
+      "digest": "sha256:f0b2e461a323b3842efb6a52a8afd87d3c1983eb254e093919ce39f588272d8b"
+    },
+    {
+      "route": "/about",
+      "file": "about/index.html",
+      "mediaType": "text/html; charset=utf-8",
+      "bytes": 27194,
+      "digest": "sha256:1adff6932bc2084fb9a7430d162054d39cd72ef980b534857ed8904fa8b68be2"
+    },
+    {
+      "route": "/archive",
+      "file": "archive/index.html",
+      "mediaType": "text/html; charset=utf-8",
+      "bytes": 26566,
+      "digest": "sha256:52fd2bfd641131c7bd6dec1e04c05632840a9d32867a3a344bf0b21e7a5cfc30"
+    },
+    {
+      "route": "/archive.json",
+      "file": "archive.json",
+      "mediaType": "application/json; charset=utf-8",
+      "bytes": 1304,
+      "digest": "sha256:556f0357c48f10ccae9ed8f7f189e5f216fdb5c29797b2c2dfff13d0656e9174"
+    },
+    {
+      "route": "/archive/2025",
+      "file": "archive/2025/index.html",
+      "mediaType": "text/html; charset=utf-8",
+      "bytes": 61253,
+      "digest": "sha256:f9249c637c612b3e79830cfd6ee515b455bcb4f12f3390581e0b3e211b52540e"
+    },
+    {
+      "route": "/archive/2025/02",
+      "file": "archive/2025/02/index.html",
+      "mediaType": "text/html; charset=utf-8",
+      "bytes": 48717,
+      "digest": "sha256:1e822050cde11bfbbe4d7cdd7a0b5f3e2238ee0133eb9d3655b45c124a1898a7"
+    },
+    {
+      "route": "/archive/2025/03",
+      "file": "archive/2025/03/index.html",
+      "mediaType": "text/html; charset=utf-8",
+      "bytes": 37367,
+      "digest": "sha256:4f8981aab1fa48a74871c6cc096c0aa42f1f000520c20a103023adb07eba7d0f"
+    },
+    {
+      "route": "/archive/2025/04",
+      "file": "archive/2025/04/index.html",
+      "mediaType": "text/html; charset=utf-8",
+      "bytes": 27010,
+      "digest": "sha256:1b0a8fa4538954db766b349f3542a4b14e5f9cdad060acdf2a1b2c6bb86fe136"
+    },
+    {
+      "route": "/archive/2026",
+      "file": "archive/2026/index.html",
+      "mediaType": "text/html; charset=utf-8",
+      "bytes": 46186,
+      "digest": "sha256:9f81abc8f2b7809ec48190d31911abba39ec43de537e56f7dedef3edaa98a34a"
+    },
+    {
+      "route": "/archive/2026/06",
+      "file": "archive/2026/06/index.html",
+      "mediaType": "text/html; charset=utf-8",
+      "bytes": 44780,
+      "digest": "sha256:df2d7536eb8d26077aa89027ade1ccd610be8b5db0002fb6d8578c0ff56fbd0c"
+    },
+    {
+      "route": "/archive/2026/07",
+      "file": "archive/2026/07/index.html",
+      "mediaType": "text/html; charset=utf-8",
+      "bytes": 27257,
+      "digest": "sha256:dc228b896c9ce981c5ca01c9848fd501f0d73386adb6a35032b5e39e1ae591eb"
+    },
+    {
+      "route": "/bibliography",
+      "file": "bibliography/index.html",
+      "mediaType": "text/html; charset=utf-8",
+      "bytes": 33937,
+      "digest": "sha256:5e04ff171ca0bef5b8e765dab0013ab74b056ae868ec4434fb995e5ff32bd985"
+    },
+    {
+      "route": "/bibliography.json",
+      "file": "bibliography.json",
+      "mediaType": "application/json; charset=utf-8",
+      "bytes": 59399,
+      "digest": "sha256:baed550ce4689acf68194bbfbfe84680a443e5bc94aa16eef16e7d250448407e"
+    },
+    {
+      "route": "/bibliography/aave.com",
+      "file": "bibliography/aave.com",
+      "mediaType": "text/html; charset=utf-8",
+      "bytes": 26386,
+      "digest": "sha256:eb7b07467b9bf436ca60b00963ed5b72da00f39d26b47a2f9c4c3652f43700c3"
+    },
+    {
+      "route": "/bibliography/aave.com.json",
+      "file": "bibliography/aave.com.json",
+      "mediaType": "application/json; charset=utf-8",
+      "bytes": 579,
+      "digest": "sha256:37424ba95e6a705d58bdeb4b8532979bc0a573badf8aa6d6c8edbfc28e085db5"
+    },
+    {
+      "route": "/bibliography/adl.org",
+      "file": "bibliography/adl.org",
+      "mediaType": "text/html; charset=utf-8",
+      "bytes": 26619,
+      "digest": "sha256:9c5abcf0687e0bde2ac06a435517f3132206d908beab6a682fce6ac92182fdea"
+    },
+    {
+      "route": "/bibliography/adl.org.json",
+      "file": "bibliography/adl.org.json",
+      "mediaType": "application/json; charset=utf-8",
+      "bytes": 860,
+      "digest": "sha256:49d2a792aa54424bef759d857fb449dcb881facb80999a7b3b5b017e3e4e379b"
+    },
+    {
+      "route": "/bibliography/aljazeera.com",
+      "file": "bibliography/aljazeera.com",
+      "mediaType": "text/html; charset=utf-8",
+      "bytes": 26651,
+      "digest": "sha256:2b8b6f7a0e4142ef2b0e3062907500003526bfbbe5f4c326ad42f5169cdea6ec"
+    },
+    {
+      "route": "/bibliography/aljazeera.com.json",
+      "file": "bibliography/aljazeera.com.json",
+      "mediaType": "application/json; charset=utf-8",
+      "bytes": 852,
+      "digest": "sha256:b35c85b0e830ece3ae4a5fdae8fbc1338c2099f437661a4132cfad8c3e7005f0"
+    },
+    {
+      "route": "/bibliography/apnews.com",
+      "file": "bibliography/apnews.com",
+      "mediaType": "text/html; charset=utf-8",
+      "bytes": 26807,
+      "digest": "sha256:dd894df295e6188ace50c5c1f3bab16ba038c6ad6f305e2786f921383ad2cc27"
+    },
+    {
+      "route": "/bibliography/apnews.com.json",
+      "file": "bibliography/apnews.com.json",
+      "mediaType": "application/json; charset=utf-8",
+      "bytes": 1081,
+      "digest": "sha256:c9718570408d9c5c42c7c7cd19299153a8df2f39c933cfdd11b67e8d3f9b2031"
+    },
+    {
+      "route": "/bibliography/app.beefy.com",
+      "file": "bibliography/app.beefy.com",
+      "mediaType": "text/html; charset=utf-8",
+      "bytes": 26441,
+      "digest": "sha256:1882fd402df16a3a856f7e17007fd66cdb87dc81a6fa1f5e49dd0cc316c71cb4"
+    },
+    {
+      "route": "/bibliography/app.beefy.com.json",
+      "file": "bibliography/app.beefy.com.json",
+      "mediaType": "application/json; charset=utf-8",
+      "bytes": 597,
+      "digest": "sha256:3c3c316db3562d602568fc0087eae9b60c6c594aab07448f6d37ca7d95e6a3ad"
+    },
+    {
+      "route": "/bibliography/arstechnica.com",
+      "file": "bibliography/arstechnica.com",
+      "mediaType": "text/html; charset=utf-8",
+      "bytes": 26632,
+      "digest": "sha256:8f3be95402445184a0889387a4ae8f1a83949aadfa9b10029b3f57bf9717ae32"
+    },
+    {
+      "route": "/bibliography/arstechnica.com.json",
+      "file": "bibliography/arstechnica.com.json",
+      "mediaType": "application/json; charset=utf-8",
+      "bytes": 787,
+      "digest": "sha256:6fb7a807cfb56c602180aaeeffdf7c8378a6e84b2498f811cc8d65f30420662f"
+    },
+    {
+      "route": "/bibliography/banklesstimes.com",
+      "file": "bibliography/banklesstimes.com",
+      "mediaType": "text/html; charset=utf-8",
+      "bytes": 26628,
+      "digest": "sha256:dc7e00e3ea2b1279999c022906bac61fb22c89c71b2015cc1e2f438a30ee506c"
+    },
+    {
+      "route": "/bibliography/banklesstimes.com.json",
+      "file": "bibliography/banklesstimes.com.json",
+      "mediaType": "application/json; charset=utf-8",
+      "bytes": 762,
+      "digest": "sha256:c526b76d8410bbdb4c4b8e184317f6c6101af1a222d29f5f5b7ef44e5de54f94"
+    },
+    {
+      "route": "/bibliography/barrons.com",
+      "file": "bibliography/barrons.com",
+      "mediaType": "text/html; charset=utf-8",
+      "bytes": 27355,
+      "digest": "sha256:9e5484ec0bcb20ac934929989b7254d5329a8ecb10672756edd412217ac56b58"
+    },
+    {
+      "route": "/bibliography/barrons.com.json",
+      "file": "bibliography/barrons.com.json",
+      "mediaType": "application/json; charset=utf-8",
+      "bytes": 1775,
+      "digest": "sha256:1ea1cde45c471341f7fbf6d84e462fdc8149658689bf5d099dca9d4d5880ff4f"
+    },
+    {
+      "route": "/bibliography/beefy.com",
+      "file": "bibliography/beefy.com",
+      "mediaType": "text/html; charset=utf-8",
+      "bytes": 26422,
+      "digest": "sha256:1caf25ec2392fc396468698957abddf13ddf4d64366231ca6abea2d66f17f942"
+    },
+    {
+      "route": "/bibliography/beefy.com.json",
+      "file": "bibliography/beefy.com.json",
+      "mediaType": "application/json; charset=utf-8",
+      "bytes": 615,
+      "digest": "sha256:664da1547c207c369370addd72bcd3a6ed1da5a187cbcb71bcb00597c21741a0"
+    },
+    {
+      "route": "/bibliography/berachain.com",
+      "file": "bibliography/berachain.com",
+      "mediaType": "text/html; charset=utf-8",
+      "bytes": 26607,
+      "digest": "sha256:8f0dd872e5039da0bf0735427f1b1ca80d8f5bb0d3cbf8aaa977525052496c06"
+    },
+    {
+      "route": "/bibliography/berachain.com.json",
+      "file": "bibliography/berachain.com.json",
+      "mediaType": "application/json; charset=utf-8",
+      "bytes": 806,
+      "digest": "sha256:26db1af5c317969c34edc768603bf772c55d2287f634fd9e5886e928d9a62b9b"
+    },
+    {
+      "route": "/bibliography/businessinsider.com",
+      "file": "bibliography/businessinsider.com",
+      "mediaType": "text/html; charset=utf-8",
+      "bytes": 26625,
+      "digest": "sha256:993ca97a8f09a4eb770a5c29dc8bbe7073eea5ad55e276b1e7b0cf6287bd360e"
+    },
+    {
+      "route": "/bibliography/businessinsider.com.json",
+      "file": "bibliography/businessinsider.com.json",
+      "mediaType": "application/json; charset=utf-8",
+      "bytes": 761,
+      "digest": "sha256:bc9c109ea9ef6dd8d6494adc8b81df2ba536f8cb1136e76729a3ca44b650f5cf"
+    },
+    {
+      "route": "/bibliography/cbsnews.com",
+      "file": "bibliography/cbsnews.com",
+      "mediaType": "text/html; charset=utf-8",
+      "bytes": 26597,
+      "digest": "sha256:e407dd18cbd6ee7b79020d3796f2c9b94fe0cfc5d3d6196b833905635b36e96c"
+    },
+    {
+      "route": "/bibliography/cbsnews.com.json",
+      "file": "bibliography/cbsnews.com.json",
+      "mediaType": "application/json; charset=utf-8",
+      "bytes": 802,
+      "digest": "sha256:1d45bb0c0c3323f2c8124a87a7b5bfce0099e2bc9c70b4f333a63a3b57039e3c"
+    },
+    {
+      "route": "/bibliography/coindesk.com",
+      "file": "bibliography/coindesk.com",
+      "mediaType": "text/html; charset=utf-8",
+      "bytes": 27094,
+      "digest": "sha256:f2af58bd5cbed4f8ce05ef0c6606439a951ee5f1287de843ab86f5300865d9b6"
+    },
+    {
+      "route": "/bibliography/coindesk.com.json",
+      "file": "bibliography/coindesk.com.json",
+      "mediaType": "application/json; charset=utf-8",
+      "bytes": 1433,
+      "digest": "sha256:0eb424a3d005918c1259ca9840b60b787a77581e9c7914365d32118b6530af8f"
+    },
+    {
+      "route": "/bibliography/en.wikipedia.org",
+      "file": "bibliography/en.wikipedia.org",
+      "mediaType": "text/html; charset=utf-8",
+      "bytes": 29859,
+      "digest": "sha256:1eed3e188d501206210dc902c1a17ef6d63a5bdde4b973f4a8ae97020d791ad4"
+    },
+    {
+      "route": "/bibliography/en.wikipedia.org.json",
+      "file": "bibliography/en.wikipedia.org.json",
+      "mediaType": "application/json; charset=utf-8",
+      "bytes": 5096,
+      "digest": "sha256:670300e9e738da52de219348d45c55776f9ced42e01a573f2d15a523dc964c9c"
+    },
+    {
+      "route": "/bibliography/euler.finance",
+      "file": "bibliography/euler.finance",
+      "mediaType": "text/html; charset=utf-8",
+      "bytes": 26490,
+      "digest": "sha256:f60046c89abadb9cef3733b169f197ecacd6c87bb7d0f0dc7719ce6a406841c1"
+    },
+    {
+      "route": "/bibliography/euler.finance.json",
+      "file": "bibliography/euler.finance.json",
+      "mediaType": "application/json; charset=utf-8",
+      "bytes": 661,
+      "digest": "sha256:60d5eb75c0e05cb6382846a89c39a0e16303e1b5563c5bca19b38b664beceb9f"
+    },
+    {
+      "route": "/bibliography/extra.finance",
+      "file": "bibliography/extra.finance",
+      "mediaType": "text/html; charset=utf-8",
+      "bytes": 26464,
+      "digest": "sha256:9f9c1fcbca0ed34eb01e45087fcea8617bd827438164149331cbf8018dc18c9c"
+    },
+    {
+      "route": "/bibliography/extra.finance.json",
+      "file": "bibliography/extra.finance.json",
+      "mediaType": "application/json; charset=utf-8",
+      "bytes": 627,
+      "digest": "sha256:c81f5d73264af02fb941c0cdb91bb085cf7cb46cf8fa67a866f9a4af2675d003"
+    },
+    {
+      "route": "/bibliography/figuremarkets.com",
+      "file": "bibliography/figuremarkets.com",
+      "mediaType": "text/html; charset=utf-8",
+      "bytes": 26569,
+      "digest": "sha256:99cd1e40e7cf597f9bf2a6b59e892aabf227604c0485fd662d596d44049eb5a4"
+    },
+    {
+      "route": "/bibliography/figuremarkets.com.json",
+      "file": "bibliography/figuremarkets.com.json",
+      "mediaType": "application/json; charset=utf-8",
+      "bytes": 719,
+      "digest": "sha256:8dc5053cb42ed204ddfcd61cac86370b5d12fe5ddbd07f84eb994612f3ae8e93"
+    },
+    {
+      "route": "/bibliography/ft.com",
+      "file": "bibliography/ft.com",
+      "mediaType": "text/html; charset=utf-8",
+      "bytes": 26476,
+      "digest": "sha256:24e93dfe989319ed7995730c1874d6b3e9f0e195662df86e9a014f6e3f1dc527"
+    },
+    {
+      "route": "/bibliography/ft.com.json",
+      "file": "bibliography/ft.com.json",
+      "mediaType": "application/json; charset=utf-8",
+      "bytes": 714,
+      "digest": "sha256:f25373dd096ea5f5f8481a5dc4fca406c09882d04fe624f3727b9228dae585ef"
+    },
+    {
+      "route": "/bibliography/gnet-research.org",
+      "file": "bibliography/gnet-research.org",
+      "mediaType": "text/html; charset=utf-8",
+      "bytes": 26766,
+      "digest": "sha256:7bcb356a94b280dec825237a00603be93ebbdf65008b60f784ee5d79df77e407"
+    },
+    {
+      "route": "/bibliography/gnet-research.org.json",
+      "file": "bibliography/gnet-research.org.json",
+      "mediaType": "application/json; charset=utf-8",
+      "bytes": 949,
+      "digest": "sha256:400b8211039549459c183835aec5a4fc807165cf93619c05803e5af784a6b4cc"
+    },
+    {
+      "route": "/bibliography/grist.org",
+      "file": "bibliography/grist.org",
+      "mediaType": "text/html; charset=utf-8",
+      "bytes": 28582,
+      "digest": "sha256:6207b93b14e50eaff26bd7def4b97dc927ff5f7a1622616b43b64b239d199327"
+    },
+    {
+      "route": "/bibliography/grist.org.json",
+      "file": "bibliography/grist.org.json",
+      "mediaType": "application/json; charset=utf-8",
+      "bytes": 3402,
+      "digest": "sha256:e991e551150b1caa8451280aa777754d762b69157ed6d858827ab93dd6e067e2"
+    },
+    {
+      "route": "/bibliography/heyanon.ai",
+      "file": "bibliography/heyanon.ai",
+      "mediaType": "text/html; charset=utf-8",
+      "bytes": 26415,
+      "digest": "sha256:0c7e123a98c34a090086f91a466486c37ec675164185e4169daebfb0c6a7f465"
+    },
+    {
+      "route": "/bibliography/heyanon.ai.json",
+      "file": "bibliography/heyanon.ai.json",
+      "mediaType": "application/json; charset=utf-8",
+      "bytes": 598,
+      "digest": "sha256:eae25fa00f2cb336e7401df645899adc0c42a1473fd847ac9e51b03bf935ebc4"
+    },
+    {
+      "route": "/bibliography/ictnews.org",
+      "file": "bibliography/ictnews.org",
+      "mediaType": "text/html; charset=utf-8",
+      "bytes": 26607,
+      "digest": "sha256:f4b303990fb07a4804f63840f18538ab0987f8497e25bc4bbf1792349816ef46"
+    },
+    {
+      "route": "/bibliography/ictnews.org.json",
+      "file": "bibliography/ictnews.org.json",
+      "mediaType": "application/json; charset=utf-8",
+      "bytes": 807,
+      "digest": "sha256:e7926f212bf62581da8c81970766903787d1fe1e1a3abbe3c802bb1d09b50dcc"
+    },
+    {
+      "route": "/bibliography/insideclimatenews.org",
+      "file": "bibliography/insideclimatenews.org",
+      "mediaType": "text/html; charset=utf-8",
+      "bytes": 26657,
+      "digest": "sha256:d88336c481eac76459c45feb77a60edbe0d2cbc16426688faa8eb425a29ddd54"
+    },
+    {
+      "route": "/bibliography/insideclimatenews.org.json",
+      "file": "bibliography/insideclimatenews.org.json",
+      "mediaType": "application/json; charset=utf-8",
+      "bytes": 784,
+      "digest": "sha256:8736b72870bb598032cdcf1f85102ad6a99390297362a4588266d737eead3065"
+    },
+    {
+      "route": "/bibliography/isdglobal.org",
+      "file": "bibliography/isdglobal.org",
+      "mediaType": "text/html; charset=utf-8",
+      "bytes": 26663,
+      "digest": "sha256:a1dce6099a102e7bb96d27781429efbd0b73d821f628dac722d10957d828b826"
+    },
+    {
+      "route": "/bibliography/isdglobal.org.json",
+      "file": "bibliography/isdglobal.org.json",
+      "mediaType": "application/json; charset=utf-8",
+      "bytes": 869,
+      "digest": "sha256:df6fcd4b2b6e5405d2390f0bfff2c8395c8be3d3e8c8dd1fe45851710865d9cd"
+    },
+    {
+      "route": "/bibliography/koios.news",
+      "file": "bibliography/koios.news",
+      "mediaType": "text/html; charset=utf-8",
+      "bytes": 26990,
+      "digest": "sha256:f0212fc3d7f0d981fbe3d4c4ac38b705fee9240532168275034a84ecb6ddff59"
+    },
+    {
+      "route": "/bibliography/koios.news.json",
+      "file": "bibliography/koios.news.json",
+      "mediaType": "application/json; charset=utf-8",
+      "bytes": 1341,
+      "digest": "sha256:6671dc07c59fb950256dd1c186c28fee7918c9162a260bfd20a000844268adf2"
+    },
+    {
+      "route": "/bibliography/kpbs.org",
+      "file": "bibliography/kpbs.org",
+      "mediaType": "text/html; charset=utf-8",
+      "bytes": 26591,
+      "digest": "sha256:5ec21fa67f27c9bdf9a053d5971acb2ff0d46b94a1d099028beb5b9b1ff21041"
+    },
+    {
+      "route": "/bibliography/kpbs.org.json",
+      "file": "bibliography/kpbs.org.json",
+      "mediaType": "application/json; charset=utf-8",
+      "bytes": 833,
+      "digest": "sha256:5f2780c44bb0bfd99d9ff2573ee1e3607272f95451b338abea28eb931c51c537"
+    },
+    {
+      "route": "/bibliography/ktla.com",
+      "file": "bibliography/ktla.com",
+      "mediaType": "text/html; charset=utf-8",
+      "bytes": 26483,
+      "digest": "sha256:e79d91318be7092d1b06c64e6a56dc33edbf01630f23b1781858b967d88ef506"
+    },
+    {
+      "route": "/bibliography/ktla.com.json",
+      "file": "bibliography/ktla.com.json",
+      "mediaType": "application/json; charset=utf-8",
+      "bytes": 693,
+      "digest": "sha256:6a79e500c88470cdd0f435be3d56adf9f99ace7c58d6aefb0161589cde973aa3"
+    },
+    {
+      "route": "/bibliography/lombard.finance",
+      "file": "bibliography/lombard.finance",
+      "mediaType": "text/html; charset=utf-8",
+      "bytes": 26517,
+      "digest": "sha256:ff80e70496554a09ac43aa4c2a8bd66e442e4fe43b8fa7c5cae71d9cf621ea10"
+    },
+    {
+      "route": "/bibliography/lombard.finance.json",
+      "file": "bibliography/lombard.finance.json",
+      "mediaType": "application/json; charset=utf-8",
+      "bytes": 648,
+      "digest": "sha256:3d38765b083c2b1fe0391890d568378d78a068582c29e1af85c220de3f517515"
+    },
+    {
+      "route": "/bibliography/marketwatch.com",
+      "file": "bibliography/marketwatch.com",
+      "mediaType": "text/html; charset=utf-8",
+      "bytes": 26677,
+      "digest": "sha256:3602a3b0223b6920d343d117dafcfdda0a7d38c4f8f1fddadb5425d6839781da"
+    },
+    {
+      "route": "/bibliography/marketwatch.com.json",
+      "file": "bibliography/marketwatch.com.json",
+      "mediaType": "application/json; charset=utf-8",
+      "bytes": 833,
+      "digest": "sha256:a08b65871a3b94384c82f92061295f85ad7c6d3d2a6b894c66b6c0005dc5f0ef"
+    },
+    {
+      "route": "/bibliography/mizar.com",
+      "file": "bibliography/mizar.com",
+      "mediaType": "text/html; charset=utf-8",
+      "bytes": 26481,
+      "digest": "sha256:60bbe10a7b1a721be82e3110d8493aa6ee2156ce4a5758234dd04bc326d148cd"
+    },
+    {
+      "route": "/bibliography/mizar.com.json",
+      "file": "bibliography/mizar.com.json",
+      "mediaType": "application/json; charset=utf-8",
+      "bytes": 677,
+      "digest": "sha256:560688267b6dd7be006c52b7e5953e019faa89e7c476f3a609169dc614dc52cc"
+    },
+    {
+      "route": "/bibliography/moonwell.fi",
+      "file": "bibliography/moonwell.fi",
+      "mediaType": "text/html; charset=utf-8",
+      "bytes": 26426,
+      "digest": "sha256:aad1d86418053c3307a2a61b6851dba332df5c4b26bceb95d2bcf50e8aee3e15"
+    },
+    {
+      "route": "/bibliography/moonwell.fi.json",
+      "file": "bibliography/moonwell.fi.json",
+      "mediaType": "application/json; charset=utf-8",
+      "bytes": 601,
+      "digest": "sha256:d8299f0d72c0305a15ec496d2ebb55b8ecac746865af987209736561f2c90b90"
+    },
+    {
+      "route": "/bibliography/morpho.org",
+      "file": "bibliography/morpho.org",
+      "mediaType": "text/html; charset=utf-8",
+      "bytes": 26416,
+      "digest": "sha256:4cfa8274de33120e012a77a0432918542b4389d666a5f5acdf2468a47d3492c1"
+    },
+    {
+      "route": "/bibliography/morpho.org.json",
+      "file": "bibliography/morpho.org.json",
+      "mediaType": "application/json; charset=utf-8",
+      "bytes": 595,
+      "digest": "sha256:79eed414d33f5ebb5b04b38834c46d133f150496a0fd6499efb001775ea5aac0"
+    },
+    {
+      "route": "/bibliography/newsroom.koios.news",
+      "file": "bibliography/newsroom.koios.news",
+      "mediaType": "text/html; charset=utf-8",
+      "bytes": 26455,
+      "digest": "sha256:bb9ea5e710c5a426db5782c16924e120be7889a2d6d6c61fef650ac353af12c8"
+    },
+    {
+      "route": "/bibliography/newsroom.koios.news.json",
+      "file": "bibliography/newsroom.koios.news.json",
+      "mediaType": "application/json; charset=utf-8",
+      "bytes": 543,
+      "digest": "sha256:7eaecd3a41f47a75e62601d6850f20577084a918ad13e860850d9398390e0afe"
+    },
+    {
+      "route": "/bibliography/ons.gov.uk",
+      "file": "bibliography/ons.gov.uk",
+      "mediaType": "text/html; charset=utf-8",
+      "bytes": 26593,
+      "digest": "sha256:15968e79c94834dbbcdaa973a415fa6abd133bcd3b7058ebd0465200c16b5485"
+    },
+    {
+      "route": "/bibliography/ons.gov.uk.json",
+      "file": "bibliography/ons.gov.uk.json",
+      "mediaType": "application/json; charset=utf-8",
+      "bytes": 937,
+      "digest": "sha256:3d9afbd25eb946384d730c0f65abd771324d5b1df38e2be11cd8faaa16ff2ae1"
+    },
+    {
+      "route": "/bibliography/phys.org",
+      "file": "bibliography/phys.org",
+      "mediaType": "text/html; charset=utf-8",
+      "bytes": 26720,
+      "digest": "sha256:19513b69c7f7f733b2110cc7613c48ef1fb12a28bfe0bd0321a6d9fe72713f7c"
+    },
+    {
+      "route": "/bibliography/phys.org.json",
+      "file": "bibliography/phys.org.json",
+      "mediaType": "application/json; charset=utf-8",
+      "bytes": 1017,
+      "digest": "sha256:f23f014f2fdcc628b31bd077c716989a35dac3e09457f80bb09f36f521b4ba45"
+    },
+    {
+      "route": "/bibliography/reuters.com",
+      "file": "bibliography/reuters.com",
+      "mediaType": "text/html; charset=utf-8",
+      "bytes": 27156,
+      "digest": "sha256:2acfd5198a7a3bc12f0818649b5e95e4859c0c9b415deea868b12975ac10c145"
+    },
+    {
+      "route": "/bibliography/reuters.com.json",
+      "file": "bibliography/reuters.com.json",
+      "mediaType": "application/json; charset=utf-8",
+      "bytes": 1506,
+      "digest": "sha256:95ab8c36fb134b6d5934a7114f19bb7aba06770a870979d5adda80735cafc66a"
+    },
+    {
+      "route": "/bibliography/sec.gov",
+      "file": "bibliography/sec.gov",
+      "mediaType": "text/html; charset=utf-8",
+      "bytes": 26393,
+      "digest": "sha256:9b861482be3f896942dd6883f08c956be432c34d09067c19434ca3b5a01bec42"
+    },
+    {
+      "route": "/bibliography/sec.gov.json",
+      "file": "bibliography/sec.gov.json",
+      "mediaType": "application/json; charset=utf-8",
+      "bytes": 583,
+      "digest": "sha256:d9a51103a6d1e21556ec729bc1a340ba93238f1b17f0a15d2fe498e16e2ef9ba"
+    },
+    {
+      "route": "/bibliography/shadow.so",
+      "file": "bibliography/shadow.so",
+      "mediaType": "text/html; charset=utf-8",
+      "bytes": 26447,
+      "digest": "sha256:5c5173d2058d0202d76a57ea69959cdf7cc80dae665c7133f407055f4f1c32ca"
+    },
+    {
+      "route": "/bibliography/shadow.so.json",
+      "file": "bibliography/shadow.so.json",
+      "mediaType": "application/json; charset=utf-8",
+      "bytes": 651,
+      "digest": "sha256:529816e80001dbb554afde9f105aa0b98482702ba477783e51108559f0907003"
+    },
+    {
+      "route": "/bibliography/solana.com",
+      "file": "bibliography/solana.com",
+      "mediaType": "text/html; charset=utf-8",
+      "bytes": 26391,
+      "digest": "sha256:bd7562f098c2bf27c2e92c761847fa3d74b043fbf964bae934c6ec930aa6c018"
+    },
+    {
+      "route": "/bibliography/solana.com.json",
+      "file": "bibliography/solana.com.json",
+      "mediaType": "application/json; charset=utf-8",
+      "bytes": 582,
+      "digest": "sha256:8b7d9fe0e0e973d0d449d32104113fa3bfa1ec386ee12e9c9782ab72f22777c5"
+    },
+    {
+      "route": "/bibliography/spc.noaa.gov",
+      "file": "bibliography/spc.noaa.gov",
+      "mediaType": "text/html; charset=utf-8",
+      "bytes": 26462,
+      "digest": "sha256:214ffd2af96a31acead7e79c7eace8f3e29e8da278cbb67a2568f6fe508f7d85"
+    },
+    {
+      "route": "/bibliography/spc.noaa.gov.json",
+      "file": "bibliography/spc.noaa.gov.json",
+      "mediaType": "application/json; charset=utf-8",
+      "bytes": 619,
+      "digest": "sha256:66fac612c6d9e5121314a91f33a97364f4539ecdabf16f0ac81a51543f695a0e"
+    },
+    {
+      "route": "/bibliography/spectrum.ieee.org",
+      "file": "bibliography/spectrum.ieee.org",
+      "mediaType": "text/html; charset=utf-8",
+      "bytes": 28081,
+      "digest": "sha256:64b95511bbc1b36ea77131532d7b76ce26bd17af6deaab17d832709bece2610b"
+    },
+    {
+      "route": "/bibliography/spectrum.ieee.org.json",
+      "file": "bibliography/spectrum.ieee.org.json",
+      "mediaType": "application/json; charset=utf-8",
+      "bytes": 2834,
+      "digest": "sha256:9e64dbcd8b2c19e3fe4430ce7ff1b3b751aaac6c7ef758fc738bd49de4ce01f2"
+    },
+    {
+      "route": "/bibliography/stability.farm",
+      "file": "bibliography/stability.farm",
+      "mediaType": "text/html; charset=utf-8",
+      "bytes": 26505,
+      "digest": "sha256:c2c0ba50c9b8f04b1cbfda218e9f2d50a8af3eb53784710b8462ba865524eeb0"
+    },
+    {
+      "route": "/bibliography/stability.farm.json",
+      "file": "bibliography/stability.farm.json",
+      "mediaType": "application/json; charset=utf-8",
+      "bytes": 675,
+      "digest": "sha256:2467df504a0beed21a1958724d73392afbd7cbc84f1cf3d5e95563582600ca60"
+    },
+    {
+      "route": "/bibliography/technologyreview.com",
+      "file": "bibliography/technologyreview.com",
+      "mediaType": "text/html; charset=utf-8",
+      "bytes": 27704,
+      "digest": "sha256:16128a8a1e9fbdf1c575863c776aab1e0281845d27f0bc41a754c0e6d2310573"
+    },
+    {
+      "route": "/bibliography/technologyreview.com.json",
+      "file": "bibliography/technologyreview.com.json",
+      "mediaType": "application/json; charset=utf-8",
+      "bytes": 2222,
+      "digest": "sha256:0ae8357bcd06a007954bbc103a53bb380b87dd477a534610f62de4e9ab8e8539"
+    },
+    {
+      "route": "/bibliography/the-sun.com",
+      "file": "bibliography/the-sun.com",
+      "mediaType": "text/html; charset=utf-8",
+      "bytes": 26533,
+      "digest": "sha256:06c5bb287289b4c91ef845857aad86a05aa964b4d88ea64fab68c7b63fc9f843"
+    },
+    {
+      "route": "/bibliography/the-sun.com.json",
+      "file": "bibliography/the-sun.com.json",
+      "mediaType": "application/json; charset=utf-8",
+      "bytes": 719,
+      "digest": "sha256:4dc9a193a5ab572b611478547308f58e156de235395086498aad5a2efdf2aae6"
+    },
+    {
+      "route": "/bibliography/theguardian.com",
+      "file": "bibliography/theguardian.com",
+      "mediaType": "text/html; charset=utf-8",
+      "bytes": 31291,
+      "digest": "sha256:2bcf84e95036352606ba4c1ef60b1153656bad2e9a59441dcbddf5e9b14fcab4"
+    },
+    {
+      "route": "/bibliography/theguardian.com.json",
+      "file": "bibliography/theguardian.com.json",
+      "mediaType": "application/json; charset=utf-8",
+      "bytes": 6918,
+      "digest": "sha256:b6568c0b847bd07759dafd60605061ecb54d5d592b9a948f4ea1441482a0dcdf"
+    },
+    {
+      "route": "/bibliography/theregister.com",
+      "file": "bibliography/theregister.com",
+      "mediaType": "text/html; charset=utf-8",
+      "bytes": 28578,
+      "digest": "sha256:c918aaeedaca7857cdd3d3897d55c5c9186c31179617d92c5ad958f97a898de2"
+    },
+    {
+      "route": "/bibliography/theregister.com.json",
+      "file": "bibliography/theregister.com.json",
+      "mediaType": "application/json; charset=utf-8",
+      "bytes": 3384,
+      "digest": "sha256:e1487efca50b34cb676cfc89df761adbd019106c31c71cd284b3b9f5799bc05d"
+    },
+    {
+      "route": "/bibliography/timeanddate.com",
+      "file": "bibliography/timeanddate.com",
+      "mediaType": "text/html; charset=utf-8",
+      "bytes": 26619,
+      "digest": "sha256:62921d427714b1a88de061e249fb508571205121ffddfec37ecd34bbd8148204"
+    },
+    {
+      "route": "/bibliography/timeanddate.com.json",
+      "file": "bibliography/timeanddate.com.json",
+      "mediaType": "application/json; charset=utf-8",
+      "bytes": 797,
+      "digest": "sha256:981834daa68cd9b2aea3b80f7be19dd4ec5db4e5b395135a76d8601b30c5255f"
+    },
+    {
+      "route": "/bibliography/vox.com",
+      "file": "bibliography/vox.com",
+      "mediaType": "text/html; charset=utf-8",
+      "bytes": 26410,
+      "digest": "sha256:2375e1d0e0c4964134548b45dcbd6e71e507898c6760aebf57153406a56a5b71"
+    },
+    {
+      "route": "/bibliography/vox.com.json",
+      "file": "bibliography/vox.com.json",
+      "mediaType": "application/json; charset=utf-8",
+      "bytes": 599,
+      "digest": "sha256:2c198f677752e8d32995473b5dba8dd1317d32bf07a48d22ef60471b01449424"
+    },
+    {
+      "route": "/bibliography/weforum.org",
+      "file": "bibliography/weforum.org",
+      "mediaType": "text/html; charset=utf-8",
+      "bytes": 26611,
+      "digest": "sha256:1e84f299198d0e1196dd603fa16217985ebc92468910285de3ca7ac2d19cc0c6"
+    },
+    {
+      "route": "/bibliography/weforum.org.json",
+      "file": "bibliography/weforum.org.json",
+      "mediaType": "application/json; charset=utf-8",
+      "bytes": 801,
+      "digest": "sha256:1a9d2d08b7ad1a17027ffa556dc8ad383f7c2b71ee46c0e8b37507a561d55e76"
+    },
+    {
+      "route": "/bibliography/x.com",
+      "file": "bibliography/x.com",
+      "mediaType": "text/html; charset=utf-8",
+      "bytes": 26465,
+      "digest": "sha256:16cdb85f52695e479f003423ff617dfdcbd04abf6f99a6b193d95bf11af19424"
+    },
+    {
+      "route": "/bibliography/x.com.json",
+      "file": "bibliography/x.com.json",
+      "mediaType": "application/json; charset=utf-8",
+      "bytes": 719,
+      "digest": "sha256:a08ec9b40ab80990c9e2310327f3227c0cf52986a3a7fe467bbb3b50525fdc64"
+    },
+    {
+      "route": "/circulating.json",
+      "file": "circulating.json",
+      "mediaType": "application/json; charset=utf-8",
+      "bytes": 406,
+      "digest": "sha256:558b0a0a00d0ca83a2f7295d4b257e4ba3811528d0402676e7c6a7eb244b728a"
+    },
+    {
+      "route": "/corrections",
+      "file": "corrections/index.html",
+      "mediaType": "text/html; charset=utf-8",
+      "bytes": 26838,
+      "digest": "sha256:cbc5bcb0007721addf9b9a5e9a92164001b9dd997ec9e44306472be3626d002c"
+    },
+    {
+      "route": "/corrections.json",
+      "file": "corrections.json",
+      "mediaType": "application/json; charset=utf-8",
+      "bytes": 801,
+      "digest": "sha256:5430fb80a67d3320d49f72fea1097e2f6c808080ff41db8f7c032830f5449b50"
+    },
+    {
+      "route": "/coverage.json",
+      "file": "coverage.json",
+      "mediaType": "application/ld+json; charset=utf-8",
+      "bytes": 130930,
+      "digest": "sha256:bf29de21659084a051b20a22761aba52c717d901840d4304d93df4be3dea9e7a"
+    },
+    {
+      "route": "/desks",
+      "file": "desks/index.html",
+      "mediaType": "text/html; charset=utf-8",
+      "bytes": 34546,
+      "digest": "sha256:ff1c61ca88515fbc25690ad195a5af1f15b3d1de40ee0bfbdeab406fd1a3983e"
+    },
+    {
+      "route": "/desks.json",
+      "file": "desks.json",
+      "mediaType": "application/json; charset=utf-8",
+      "bytes": 24924,
+      "digest": "sha256:e9cad0cdd5074d4b83b6b38194171941d2b32f672961690bf3175196990c44b5"
+    },
+    {
+      "route": "/feed.atom",
+      "file": "feed.atom",
+      "mediaType": "application/atom+xml; charset=utf-8",
+      "bytes": 493524,
+      "digest": "sha256:1c97f83877aa5e7e1d39e55771d5155c05a05a247af7797dfafac7026dc4ba89"
+    },
+    {
+      "route": "/feed.json",
+      "file": "feed.json",
+      "mediaType": "application/feed+json; charset=utf-8",
+      "bytes": 457784,
+      "digest": "sha256:5320647fe5ead515a036eb3d5f58aafb996fcc0947c54c2b34c61a473c49866e"
+    },
+    {
+      "route": "/feed.xml",
+      "file": "feed.xml",
+      "mediaType": "application/rss+xml; charset=utf-8",
+      "bytes": 491612,
+      "digest": "sha256:c500fe99b72cf4521b589f7dc985aa01d4996ee9233d418d38e1f3ed4d8b98d3"
+    },
+    {
+      "route": "/fingerprints/acurite-delays-app-migration-due-to-user-concerns-over.json",
+      "file": "fingerprints/acurite-delays-app-migration-due-to-user-concerns-over.json",
+      "mediaType": "application/ld+json; charset=utf-8",
+      "bytes": 3847,
+      "digest": "sha256:cd5c3b0729859adc993dd8ccac2ef499f929aace39c9ad36e7f7d63d81b756f7"
+    },
+    {
+      "route": "/fingerprints/acurite-delays-app-migration-due-to-user-concerns-over.svg",
+      "file": "fingerprints/acurite-delays-app-migration-due-to-user-concerns-over.svg",
+      "mediaType": "image/svg+xml; charset=utf-8",
+      "bytes": 35347,
+      "digest": "sha256:ee3b6070262aa58b6f6a9671a4b5fbcbfb236195bb963b7a5f57a71315409c85"
+    },
+    {
+      "route": "/fingerprints/ai-compute-bottleneck-power-problem.json",
+      "file": "fingerprints/ai-compute-bottleneck-power-problem.json",
+      "mediaType": "application/ld+json; charset=utf-8",
+      "bytes": 4018,
+      "digest": "sha256:6087d2db3ecca4152b138c8d7dab7f53c02aa5407e4cf3e51c26d5df48f5a2dc"
+    },
+    {
+      "route": "/fingerprints/ai-compute-bottleneck-power-problem.svg",
+      "file": "fingerprints/ai-compute-bottleneck-power-problem.svg",
+      "mediaType": "image/svg+xml; charset=utf-8",
+      "bytes": 35357,
+      "digest": "sha256:a3aed0017f8bb76f8a42db54d1120c3cec0a5468ca37e7a2c986e1d460f0bc80"
+    },
+    {
+      "route": "/fingerprints/amazon-s-astro-and-the-energy-cost-of-giving.json",
+      "file": "fingerprints/amazon-s-astro-and-the-energy-cost-of-giving.json",
+      "mediaType": "application/ld+json; charset=utf-8",
+      "bytes": 3567,
+      "digest": "sha256:94fff78fd0422db7db097fc3ddb798bd166476144ff304d0ce0a77fbbe72256e"
+    },
+    {
+      "route": "/fingerprints/amazon-s-astro-and-the-energy-cost-of-giving.svg",
+      "file": "fingerprints/amazon-s-astro-and-the-energy-cost-of-giving.svg",
+      "mediaType": "image/svg+xml; charset=utf-8",
+      "bytes": 35355,
+      "digest": "sha256:5016c827de95338a17d31cd7a6551547e30e5e440818462ea22d3e49f0134163"
+    },
+    {
+      "route": "/fingerprints/april-2025-tornado-outbreak.json",
+      "file": "fingerprints/april-2025-tornado-outbreak.json",
+      "mediaType": "application/ld+json; charset=utf-8",
+      "bytes": 2918,
+      "digest": "sha256:4369c7bdcb0161098b346ce80c89aa28ad8a78af7925fc146a5c449416ed4845"
+    },
+    {
+      "route": "/fingerprints/april-2025-tornado-outbreak.svg",
+      "file": "fingerprints/april-2025-tornado-outbreak.svg",
+      "mediaType": "image/svg+xml; charset=utf-8",
+      "bytes": 35360,
+      "digest": "sha256:5676e51784050482ad4ce2d8fc858b384d61bd89096b881229552b86c7b93987"
+    },
+    {
+      "route": "/fingerprints/assisted-tree-migration-climate-change-solutions.json",
+      "file": "fingerprints/assisted-tree-migration-climate-change-solutions.json",
+      "mediaType": "application/ld+json; charset=utf-8",
+      "bytes": 3507,
+      "digest": "sha256:e137895cb88a54651a6fc0b8aae154a2e9d9eccc538f8263d516aaa2bdb0fe3e"
+    },
+    {
+      "route": "/fingerprints/assisted-tree-migration-climate-change-solutions.svg",
+      "file": "fingerprints/assisted-tree-migration-climate-change-solutions.svg",
+      "mediaType": "image/svg+xml; charset=utf-8",
+      "bytes": 35350,
+      "digest": "sha256:9942675e9038a664b142691b6bf97e1007ecee79f0ecb43c6dafdfc9a267a12f"
+    },
+    {
+      "route": "/fingerprints/berachain-bearish-social-sentiment-souring.json",
+      "file": "fingerprints/berachain-bearish-social-sentiment-souring.json",
+      "mediaType": "application/ld+json; charset=utf-8",
+      "bytes": 2921,
+      "digest": "sha256:2bdc7dc44cf2bd1968457c49b165308e80d19a624a9dbeaaa33738a6d58e8c20"
+    },
+    {
+      "route": "/fingerprints/berachain-bearish-social-sentiment-souring.svg",
+      "file": "fingerprints/berachain-bearish-social-sentiment-souring.svg",
+      "mediaType": "image/svg+xml; charset=utf-8",
+      "bytes": 35357,
+      "digest": "sha256:aa83223ac9ae618f08abd1575c05a21bb7c61ccfd0677c795c870ca8cac9c7e9"
+    },
+    {
+      "route": "/fingerprints/bitcoin-defi-security-consortium-launch.json",
+      "file": "fingerprints/bitcoin-defi-security-consortium-launch.json",
+      "mediaType": "application/ld+json; charset=utf-8",
+      "bytes": 3148,
+      "digest": "sha256:d84927092da5e37935e629f43a3448f2dc525298a9acef22b6fbe87ae0151ff3"
+    },
+    {
+      "route": "/fingerprints/bitcoin-defi-security-consortium-launch.svg",
+      "file": "fingerprints/bitcoin-defi-security-consortium-launch.svg",
+      "mediaType": "image/svg+xml; charset=utf-8",
+      "bytes": 35359,
+      "digest": "sha256:5f908a352038b97e92ccf88fa11356b6c732d8f21f6ca2d449dcbf476dcafca6"
+    },
+    {
+      "route": "/fingerprints/bitcoin-etf-investing-guide.json",
+      "file": "fingerprints/bitcoin-etf-investing-guide.json",
+      "mediaType": "application/ld+json; charset=utf-8",
+      "bytes": 2950,
+      "digest": "sha256:c3b46ae0d1a8d9055e821d7684354f94b1521f78279f84c1b547d1fc126c22ed"
+    },
+    {
+      "route": "/fingerprints/bitcoin-etf-investing-guide.svg",
+      "file": "fingerprints/bitcoin-etf-investing-guide.svg",
+      "mediaType": "image/svg+xml; charset=utf-8",
+      "bytes": 35355,
+      "digest": "sha256:d888b11014007fed5f4cd17706192b78a8133c4e568d9bb547ff96d2357c90f6"
+    },
+    {
+      "route": "/fingerprints/bybit-hack-weakens-consumer-sentiment.json",
+      "file": "fingerprints/bybit-hack-weakens-consumer-sentiment.json",
+      "mediaType": "application/ld+json; charset=utf-8",
+      "bytes": 3286,
+      "digest": "sha256:df91bd34ee726a29eca33f383709581aa0a687d533d22fe682eb9744c0ea85e6"
+    },
+    {
+      "route": "/fingerprints/bybit-hack-weakens-consumer-sentiment.svg",
+      "file": "fingerprints/bybit-hack-weakens-consumer-sentiment.svg",
+      "mediaType": "image/svg+xml; charset=utf-8",
+      "bytes": 35356,
+      "digest": "sha256:4133f7a50708d9169c04ea6eff5ae58422d59c2664073bca27ec535451873f4a"
+    },
+    {
+      "route": "/fingerprints/canada-tar-sands-shutdown.json",
+      "file": "fingerprints/canada-tar-sands-shutdown.json",
+      "mediaType": "application/ld+json; charset=utf-8",
+      "bytes": 2940,
+      "digest": "sha256:7579a9e25223bfc342978cca7f03cde043547f9e2e3440a1bbdfdb5fd60f304f"
+    },
+    {
+      "route": "/fingerprints/canada-tar-sands-shutdown.svg",
+      "file": "fingerprints/canada-tar-sands-shutdown.svg",
+      "mediaType": "image/svg+xml; charset=utf-8",
+      "bytes": 35360,
+      "digest": "sha256:d913493d51054b060cefadd466fd05d1984b56e2c88ca8491c93764de19f47de"
+    },
+    {
+      "route": "/fingerprints/crankgpt-makes-the-physical-cost-of-ai-visible.json",
+      "file": "fingerprints/crankgpt-makes-the-physical-cost-of-ai-visible.json",
+      "mediaType": "application/ld+json; charset=utf-8",
+      "bytes": 3757,
+      "digest": "sha256:467950c8bd83bc32cff0dd784a36804fd77cc867008ecb8234fde1a907f6f0f1"
+    },
+    {
+      "route": "/fingerprints/crankgpt-makes-the-physical-cost-of-ai-visible.svg",
+      "file": "fingerprints/crankgpt-makes-the-physical-cost-of-ai-visible.svg",
+      "mediaType": "image/svg+xml; charset=utf-8",
+      "bytes": 35356,
+      "digest": "sha256:073cf4c65fed65443a4d2e5762b546beb2457cd14d18cf4ed263c57a2f512b10"
+    },
+    {
+      "route": "/fingerprints/crypto-news-february-17th-2025.json",
+      "file": "fingerprints/crypto-news-february-17th-2025.json",
+      "mediaType": "application/ld+json; charset=utf-8",
+      "bytes": 4169,
+      "digest": "sha256:a1d1a0ecad1ea06faf8035029064f0619bc85104e0a34965e5f39c41e5308075"
+    },
+    {
+      "route": "/fingerprints/crypto-news-february-17th-2025.svg",
+      "file": "fingerprints/crypto-news-february-17th-2025.svg",
+      "mediaType": "image/svg+xml; charset=utf-8",
+      "bytes": 35361,
+      "digest": "sha256:0e099b893b5c043f356eee1be54b2010bb9a4d812f35140a5329aa2b22a2e330"
+    },
+    {
+      "route": "/fingerprints/cyclone-alfreds-impact-a-reflection-of-global-systemic-vulnerabilities.json",
+      "file": "fingerprints/cyclone-alfreds-impact-a-reflection-of-global-systemic-vulnerabilities.json",
+      "mediaType": "application/ld+json; charset=utf-8",
+      "bytes": 3519,
+      "digest": "sha256:4fc555b804780ebfe7cfd89dfdd0f124ac52c565ef8cf103fd3760a7d37be94e"
+    },
+    {
+      "route": "/fingerprints/cyclone-alfreds-impact-a-reflection-of-global-systemic-vulnerabilities.svg",
+      "file": "fingerprints/cyclone-alfreds-impact-a-reflection-of-global-systemic-vulnerabilities.svg",
+      "mediaType": "image/svg+xml; charset=utf-8",
+      "bytes": 35365,
+      "digest": "sha256:23c2ce925ed976e9f7f1c3bff25b4ce9de24b15e5095ab9585935e1d132b7dbb"
+    },
+    {
+      "route": "/fingerprints/defai-explained-how-ai-is-transforming-decentralized-finance.json",
+      "file": "fingerprints/defai-explained-how-ai-is-transforming-decentralized-finance.json",
+      "mediaType": "application/ld+json; charset=utf-8",
+      "bytes": 3091,
+      "digest": "sha256:a0ebffec9070ea92f14b8e0d8840b94033f5d3f253a10ccba36e95a016ca61b6"
+    },
+    {
+      "route": "/fingerprints/defai-explained-how-ai-is-transforming-decentralized-finance.svg",
+      "file": "fingerprints/defai-explained-how-ai-is-transforming-decentralized-finance.svg",
+      "mediaType": "image/svg+xml; charset=utf-8",
+      "bytes": 35346,
+      "digest": "sha256:8b7549362eaf268841670de719368e28ae4afcdc5fe7732c41f608b50d4f3be2"
+    },
+    {
+      "route": "/fingerprints/earn-safe-token-with-beefy.json",
+      "file": "fingerprints/earn-safe-token-with-beefy.json",
+      "mediaType": "application/ld+json; charset=utf-8",
+      "bytes": 2849,
+      "digest": "sha256:3f29abfc1cb1ad83a49375271a47510215cd2ccba9116259ea1ea36d5b445710"
+    },
+    {
+      "route": "/fingerprints/earn-safe-token-with-beefy.svg",
+      "file": "fingerprints/earn-safe-token-with-beefy.svg",
+      "mediaType": "image/svg+xml; charset=utf-8",
+      "bytes": 35355,
+      "digest": "sha256:c7be08726f35be902044df89b0efcb42b2eb3faad76621621899e33fb82df6e7"
+    },
+    {
+      "route": "/fingerprints/ecb-delays-inevitable-slashes-interest-rates-again.json",
+      "file": "fingerprints/ecb-delays-inevitable-slashes-interest-rates-again.json",
+      "mediaType": "application/ld+json; charset=utf-8",
+      "bytes": 3677,
+      "digest": "sha256:a88547980cd18d6c289138ca76ef94986b5c0c657a44c951ade18cc249a56ccf"
+    },
+    {
+      "route": "/fingerprints/ecb-delays-inevitable-slashes-interest-rates-again.svg",
+      "file": "fingerprints/ecb-delays-inevitable-slashes-interest-rates-again.svg",
+      "mediaType": "image/svg+xml; charset=utf-8",
+      "bytes": 35353,
+      "digest": "sha256:9b1ec16a1083c88fa486c7838c47e6f0ea5e9ec502e93f7f53f56b778108c0db"
+    },
+    {
+      "route": "/fingerprints/ecb-raises-interest-rates-amid-sovereign-debt-climate-disasters.json",
+      "file": "fingerprints/ecb-raises-interest-rates-amid-sovereign-debt-climate-disasters.json",
+      "mediaType": "application/ld+json; charset=utf-8",
+      "bytes": 4212,
+      "digest": "sha256:828d124b9f9099649320fe2fa610a64d37a6325bc8d5a301cfde1035c28fabb8"
+    },
+    {
+      "route": "/fingerprints/ecb-raises-interest-rates-amid-sovereign-debt-climate-disasters.svg",
+      "file": "fingerprints/ecb-raises-interest-rates-amid-sovereign-debt-climate-disasters.svg",
+      "mediaType": "image/svg+xml; charset=utf-8",
+      "bytes": 35359,
+      "digest": "sha256:43386945b17f9f2313cf128c8919d69663deb1ebd316804ab15152eb7c966b12"
+    },
+    {
+      "route": "/fingerprints/england-sinking-homes-insurance-climate-risk-withdrawal.json",
+      "file": "fingerprints/england-sinking-homes-insurance-climate-risk-withdrawal.json",
+      "mediaType": "application/ld+json; charset=utf-8",
+      "bytes": 4070,
+      "digest": "sha256:5b8857dc17442b1259fb2b5c617c55fbf94bce2c64fd3f1b70f39c29336cb5b2"
+    },
+    {
+      "route": "/fingerprints/england-sinking-homes-insurance-climate-risk-withdrawal.svg",
+      "file": "fingerprints/england-sinking-homes-insurance-climate-risk-withdrawal.svg",
+      "mediaType": "image/svg+xml; charset=utf-8",
+      "bytes": 35357,
+      "digest": "sha256:6b8512a6ce9429d50b977b3e8a8a007ab82ccca7b3ddb96c89abe8d13176790a"
+    },
+    {
+      "route": "/fingerprints/ethereum-staking-nyse-approval-etf.json",
+      "file": "fingerprints/ethereum-staking-nyse-approval-etf.json",
+      "mediaType": "application/ld+json; charset=utf-8",
+      "bytes": 2921,
+      "digest": "sha256:2780d4fe7b345972364000d3fa7de206eccc8ca3bded584bec85eb0e5bf9d5f2"
+    },
+    {
+      "route": "/fingerprints/ethereum-staking-nyse-approval-etf.svg",
+      "file": "fingerprints/ethereum-staking-nyse-approval-etf.svg",
+      "mediaType": "image/svg+xml; charset=utf-8",
+      "bytes": 35358,
+      "digest": "sha256:210c241c0497befc4b4df95374693d2a5d96c9bb9feccf062332177683f63125"
+    },
+    {
+      "route": "/fingerprints/exploring-the-risks-and-rewards-of-defi-leverage.json",
+      "file": "fingerprints/exploring-the-risks-and-rewards-of-defi-leverage.json",
+      "mediaType": "application/ld+json; charset=utf-8",
+      "bytes": 3045,
+      "digest": "sha256:18c9d9e5b7e798d368af5e13bb079f50a0f0ea736f81ba3e2d6ef34db4253ea4"
+    },
+    {
+      "route": "/fingerprints/exploring-the-risks-and-rewards-of-defi-leverage.svg",
+      "file": "fingerprints/exploring-the-risks-and-rewards-of-defi-leverage.svg",
+      "mediaType": "image/svg+xml; charset=utf-8",
+      "bytes": 35356,
+      "digest": "sha256:079d7c515d69d5b86dbeeeaf3f051b0a3a4cf2cac072aebed535754d72897017"
+    },
+    {
+      "route": "/fingerprints/farm-usdc-on-base-with-moonwell-beefy-or-extra.json",
+      "file": "fingerprints/farm-usdc-on-base-with-moonwell-beefy-or-extra.json",
+      "mediaType": "application/ld+json; charset=utf-8",
+      "bytes": 3221,
+      "digest": "sha256:e0c32f85a5fde7ea1e4a7ac53355e4d619226b3115642dd0750f3f4f44c79f2a"
+    },
+    {
+      "route": "/fingerprints/farm-usdc-on-base-with-moonwell-beefy-or-extra.svg",
+      "file": "fingerprints/farm-usdc-on-base-with-moonwell-beefy-or-extra.svg",
+      "mediaType": "image/svg+xml; charset=utf-8",
+      "bytes": 35354,
+      "digest": "sha256:c0c68b26d386f214673d38011ce04846025cd3c80d9cccdf081567227e65edcb"
+    },
+    {
+      "route": "/fingerprints/february-19-2025-daytrading-opportunities-in-leveraged-etfs.json",
+      "file": "fingerprints/february-19-2025-daytrading-opportunities-in-leveraged-etfs.json",
+      "mediaType": "application/ld+json; charset=utf-8",
+      "bytes": 3194,
+      "digest": "sha256:2bbc83bf9573d6683f0751840bc51d5f5ca04797abbf2bbc07a173254419d18d"
+    },
+    {
+      "route": "/fingerprints/february-19-2025-daytrading-opportunities-in-leveraged-etfs.svg",
+      "file": "fingerprints/february-19-2025-daytrading-opportunities-in-leveraged-etfs.svg",
+      "mediaType": "image/svg+xml; charset=utf-8",
+      "bytes": 35362,
+      "digest": "sha256:50b9f8639dd9ff002d48be0b9a74ad47c3a8c9d814d1981eddd293ee866b4fa9"
+    },
+    {
+      "route": "/fingerprints/heathrow-s-third-runway-a-62-5bn-miscalculation-in.json",
+      "file": "fingerprints/heathrow-s-third-runway-a-62-5bn-miscalculation-in.json",
+      "mediaType": "application/ld+json; charset=utf-8",
+      "bytes": 3863,
+      "digest": "sha256:0191f5af1decad9ecaff1d5299df6670813cd5b973d819a4693f037700823520"
+    },
+    {
+      "route": "/fingerprints/heathrow-s-third-runway-a-62-5bn-miscalculation-in.svg",
+      "file": "fingerprints/heathrow-s-third-runway-a-62-5bn-miscalculation-in.svg",
+      "mediaType": "image/svg+xml; charset=utf-8",
+      "bytes": 35365,
+      "digest": "sha256:b4c5f05fbdcfbd20b64b62b3b13467a874620f015483a7c5cdd693c7a5df394a"
+    },
+    {
+      "route": "/fingerprints/hello-world.json",
+      "file": "fingerprints/hello-world.json",
+      "mediaType": "application/ld+json; charset=utf-8",
+      "bytes": 3010,
+      "digest": "sha256:1c8fe0046124721be6a5093455faa75a11eaafd9f4a0f1016f961f2ace5256b0"
+    },
+    {
+      "route": "/fingerprints/hello-world.svg",
+      "file": "fingerprints/hello-world.svg",
+      "mediaType": "image/svg+xml; charset=utf-8",
+      "bytes": 35353,
+      "digest": "sha256:5905b66edafc8cb59afaa263345533afc37de602fc1e9aa22da6f8c2b4f18ab4"
+    },
+    {
+      "route": "/fingerprints/heyanon-revolutionizing-defi-with-ai-technology.json",
+      "file": "fingerprints/heyanon-revolutionizing-defi-with-ai-technology.json",
+      "mediaType": "application/ld+json; charset=utf-8",
+      "bytes": 2936,
+      "digest": "sha256:62c864b15f516f462a3923ac4358a5945fa6e998b798f7940a8f11f9f749d5cf"
+    },
+    {
+      "route": "/fingerprints/heyanon-revolutionizing-defi-with-ai-technology.svg",
+      "file": "fingerprints/heyanon-revolutionizing-defi-with-ai-technology.svg",
+      "mediaType": "image/svg+xml; charset=utf-8",
+      "bytes": 35357,
+      "digest": "sha256:f254a66ceca5d19b36e85d05ae9b421c6f38fdd8caf4139a6026e00537cd586d"
+    },
+    {
+      "route": "/fingerprints/indigenous-leaders-confront-the-collision-of-climate-and-extraction.json",
+      "file": "fingerprints/indigenous-leaders-confront-the-collision-of-climate-and-extraction.json",
+      "mediaType": "application/ld+json; charset=utf-8",
+      "bytes": 3830,
+      "digest": "sha256:e856308864d14f309c8fd098467e9e8c1397202e474780ab7c0a483914825549"
+    },
+    {
+      "route": "/fingerprints/indigenous-leaders-confront-the-collision-of-climate-and-extraction.svg",
+      "file": "fingerprints/indigenous-leaders-confront-the-collision-of-climate-and-extraction.svg",
+      "mediaType": "image/svg+xml; charset=utf-8",
+      "bytes": 35348,
+      "digest": "sha256:86c9a06ab1de545d0d6588cc330ae2472a940d21f82caa6f7528c37abd9d23e2"
+    },
+    {
+      "route": "/fingerprints/indonesia-island-evacuation.json",
+      "file": "fingerprints/indonesia-island-evacuation.json",
+      "mediaType": "application/ld+json; charset=utf-8",
+      "bytes": 3004,
+      "digest": "sha256:2811b9396dcbb5e98d06c7936c73fae75e9d0635680f36e3c416f023b5838b2c"
+    },
+    {
+      "route": "/fingerprints/indonesia-island-evacuation.svg",
+      "file": "fingerprints/indonesia-island-evacuation.svg",
+      "mediaType": "image/svg+xml; charset=utf-8",
+      "bytes": 35366,
+      "digest": "sha256:efdb4a43c8ee5aa19afa1527861ed81975078067ec73225927af1c8cce0a2559"
+    },
+    {
+      "route": "/fingerprints/michigan-program-helps-new-farmers-amidst-rising-crop-failure.json",
+      "file": "fingerprints/michigan-program-helps-new-farmers-amidst-rising-crop-failure.json",
+      "mediaType": "application/ld+json; charset=utf-8",
+      "bytes": 3486,
+      "digest": "sha256:8c04e61d400842676cf3a2c4c6acf1b08b1792d10606bcf9c90a3d1afa91b844"
+    },
+    {
+      "route": "/fingerprints/michigan-program-helps-new-farmers-amidst-rising-crop-failure.svg",
+      "file": "fingerprints/michigan-program-helps-new-farmers-amidst-rising-crop-failure.svg",
+      "mediaType": "image/svg+xml; charset=utf-8",
+      "bytes": 35357,
+      "digest": "sha256:d5265e83b47a4ecae1b335927e35ef01d6f87699f9534ee7868715ad30ef866b"
+    },
+    {
+      "route": "/fingerprints/mind-ai-token-release-another-step-toward-autonomous-trading.json",
+      "file": "fingerprints/mind-ai-token-release-another-step-toward-autonomous-trading.json",
+      "mediaType": "application/ld+json; charset=utf-8",
+      "bytes": 3149,
+      "digest": "sha256:293fe0f14f66cabd799ca522467fbb0efb94875e72e21245b3122b276551bf53"
+    },
+    {
+      "route": "/fingerprints/mind-ai-token-release-another-step-toward-autonomous-trading.svg",
+      "file": "fingerprints/mind-ai-token-release-another-step-toward-autonomous-trading.svg",
+      "mediaType": "image/svg+xml; charset=utf-8",
+      "bytes": 35369,
+      "digest": "sha256:86cbdc4477bba0184755c6585d4ffeb9cfba22d0b131f40d2e962bc628e529d9"
+    },
+    {
+      "route": "/fingerprints/mizar-alpha-program-bnb-chain-rewards.json",
+      "file": "fingerprints/mizar-alpha-program-bnb-chain-rewards.json",
+      "mediaType": "application/ld+json; charset=utf-8",
+      "bytes": 3034,
+      "digest": "sha256:9c869fc547bd22d8bba278a491726f9f456a4796355b5b7fb0effbf7fae45e87"
+    },
+    {
+      "route": "/fingerprints/mizar-alpha-program-bnb-chain-rewards.svg",
+      "file": "fingerprints/mizar-alpha-program-bnb-chain-rewards.svg",
+      "mediaType": "image/svg+xml; charset=utf-8",
+      "bytes": 35349,
+      "digest": "sha256:b017ccde3ef55276d848d09ff135135d43571ed8ae6967dd26376736f8e3edd6"
+    },
+    {
+      "route": "/fingerprints/peru-water-emergency-2025.json",
+      "file": "fingerprints/peru-water-emergency-2025.json",
+      "mediaType": "application/ld+json; charset=utf-8",
+      "bytes": 2920,
+      "digest": "sha256:540c977181b647a98d49ad8f5004dc811a35039d4457060d1d00bff37716992f"
+    },
+    {
+      "route": "/fingerprints/peru-water-emergency-2025.svg",
+      "file": "fingerprints/peru-water-emergency-2025.svg",
+      "mediaType": "image/svg+xml; charset=utf-8",
+      "bytes": 35368,
+      "digest": "sha256:6e9232aa03019d298bf4b9e70e7bf4b11c0d2e79c99f38d1a189e566d2751b87"
+    },
+    {
+      "route": "/fingerprints/proof-of-liquidity-in-defi-innovation.json",
+      "file": "fingerprints/proof-of-liquidity-in-defi-innovation.json",
+      "mediaType": "application/ld+json; charset=utf-8",
+      "bytes": 3002,
+      "digest": "sha256:58e957dd880fb71ace6164930afc793ab970569bce69c5ff3e733d5888f26add"
+    },
+    {
+      "route": "/fingerprints/proof-of-liquidity-in-defi-innovation.svg",
+      "file": "fingerprints/proof-of-liquidity-in-defi-innovation.svg",
+      "mediaType": "image/svg+xml; charset=utf-8",
+      "bytes": 35368,
+      "digest": "sha256:127ff6a348f37858f7e18bed9deee745645306d92016bbedcb106314fc630bb0"
+    },
+    {
+      "route": "/fingerprints/sec-approves-first-yield-bearing-stablecoin-ylds.json",
+      "file": "fingerprints/sec-approves-first-yield-bearing-stablecoin-ylds.json",
+      "mediaType": "application/ld+json; charset=utf-8",
+      "bytes": 3135,
+      "digest": "sha256:af18e151c4ab613f3a62bdf53ca17ed2d69dc7b253150c401f82000fceab9674"
+    },
+    {
+      "route": "/fingerprints/sec-approves-first-yield-bearing-stablecoin-ylds.svg",
+      "file": "fingerprints/sec-approves-first-yield-bearing-stablecoin-ylds.svg",
+      "mediaType": "image/svg+xml; charset=utf-8",
+      "bytes": 35341,
+      "digest": "sha256:9f9aeeb67cb54ed781e52e2ebf1c424ba55985823e32be01a8b78de1458b7425"
+    },
+    {
+      "route": "/fingerprints/solana-price-forecast-short-term-outlook.json",
+      "file": "fingerprints/solana-price-forecast-short-term-outlook.json",
+      "mediaType": "application/ld+json; charset=utf-8",
+      "bytes": 3209,
+      "digest": "sha256:92c9015b8c9cccae938e1107d976bb375b29f2d5437f08da655f198ba4438b93"
+    },
+    {
+      "route": "/fingerprints/solana-price-forecast-short-term-outlook.svg",
+      "file": "fingerprints/solana-price-forecast-short-term-outlook.svg",
+      "mediaType": "image/svg+xml; charset=utf-8",
+      "bytes": 35360,
+      "digest": "sha256:3a83ad6ae67667da13357e46268ecd43a5ad0511ae9a5331aa8c41984d8b5a28"
+    },
+    {
+      "route": "/fingerprints/solar-coal-crossover-us-grid.json",
+      "file": "fingerprints/solar-coal-crossover-us-grid.json",
+      "mediaType": "application/ld+json; charset=utf-8",
+      "bytes": 3473,
+      "digest": "sha256:aebc6c6230253151a5a47311708bf37da22791fbadcd8abc71816e8bbdd84d53"
+    },
+    {
+      "route": "/fingerprints/solar-coal-crossover-us-grid.svg",
+      "file": "fingerprints/solar-coal-crossover-us-grid.svg",
+      "mediaType": "image/svg+xml; charset=utf-8",
+      "bytes": 35356,
+      "digest": "sha256:46d6d62c8d36130267a751b06c7e1eedd7c6ec8c29d1c0280dfab8a96420dd0f"
+    },
+    {
+      "route": "/fingerprints/south-korea-wildfires-2025.json",
+      "file": "fingerprints/south-korea-wildfires-2025.json",
+      "mediaType": "application/ld+json; charset=utf-8",
+      "bytes": 2905,
+      "digest": "sha256:fac3bd2435213af2d53ba598ae4967c91070f4096b9eb405860d5913b3a826f8"
+    },
+    {
+      "route": "/fingerprints/south-korea-wildfires-2025.svg",
+      "file": "fingerprints/south-korea-wildfires-2025.svg",
+      "mediaType": "image/svg+xml; charset=utf-8",
+      "bytes": 35359,
+      "digest": "sha256:826bafa86105e8f6148e9b3068a069629e2b868c8c86e598cd4c9a9bef095806"
+    },
+    {
+      "route": "/fingerprints/super-bowl-libra-rugpull-crisis.json",
+      "file": "fingerprints/super-bowl-libra-rugpull-crisis.json",
+      "mediaType": "application/ld+json; charset=utf-8",
+      "bytes": 3150,
+      "digest": "sha256:dd9d826e7f3cf647692e9d8a023cc734125000108c88b319f64dffdde7676fed"
+    },
+    {
+      "route": "/fingerprints/super-bowl-libra-rugpull-crisis.svg",
+      "file": "fingerprints/super-bowl-libra-rugpull-crisis.svg",
+      "mediaType": "image/svg+xml; charset=utf-8",
+      "bytes": 35358,
+      "digest": "sha256:5ebe1ba7bfa74540600939402bd2d533c1b09e649b1a6e34b523d09a9deb7934"
+    },
+    {
+      "route": "/fingerprints/thailand-rice-export-ban.json",
+      "file": "fingerprints/thailand-rice-export-ban.json",
+      "mediaType": "application/ld+json; charset=utf-8",
+      "bytes": 2945,
+      "digest": "sha256:f6d629d8b5dae6ddc094f2c12039d5d766ab960ec67e24a1fefe17562ee442a0"
+    },
+    {
+      "route": "/fingerprints/thailand-rice-export-ban.svg",
+      "file": "fingerprints/thailand-rice-export-ban.svg",
+      "mediaType": "image/svg+xml; charset=utf-8",
+      "bytes": 35366,
+      "digest": "sha256:75b5d6a9c616533b2ad643e61fd188e407e400e24c5e2020b05f038cafe4bb35"
+    },
+    {
+      "route": "/fingerprints/the-2025-total-lunar-eclipse-a-blood-moon-illuminates-the-night-sky.json",
+      "file": "fingerprints/the-2025-total-lunar-eclipse-a-blood-moon-illuminates-the-night-sky.json",
+      "mediaType": "application/ld+json; charset=utf-8",
+      "bytes": 3252,
+      "digest": "sha256:da0b96e6b9f6c99660630a42a2116ab61ecc7efd6ba613c9a73a524667642bd7"
+    },
+    {
+      "route": "/fingerprints/the-2025-total-lunar-eclipse-a-blood-moon-illuminates-the-night-sky.svg",
+      "file": "fingerprints/the-2025-total-lunar-eclipse-a-blood-moon-illuminates-the-night-sky.svg",
+      "mediaType": "image/svg+xml; charset=utf-8",
+      "bytes": 35346,
+      "digest": "sha256:c7d7a8e2bb8dacd86bf625f631aedd9e398de5ab7e421e78ba8c494ebfbd0348"
+    },
+    {
+      "route": "/fingerprints/the-cost-of-certainty-how-robot-guesswork-meets-energy.json",
+      "file": "fingerprints/the-cost-of-certainty-how-robot-guesswork-meets-energy.json",
+      "mediaType": "application/ld+json; charset=utf-8",
+      "bytes": 3577,
+      "digest": "sha256:be11748fcd3d3411dee66ad82099d86b9c1a513ec2736b7494aff2aa97bca0b9"
+    },
+    {
+      "route": "/fingerprints/the-cost-of-certainty-how-robot-guesswork-meets-energy.svg",
+      "file": "fingerprints/the-cost-of-certainty-how-robot-guesswork-meets-energy.svg",
+      "mediaType": "image/svg+xml; charset=utf-8",
+      "bytes": 35360,
+      "digest": "sha256:0a2f3fefa15d663bdd5adfe2b5600bfbb7925b0ba0142ef67b8918058686471e"
+    },
+    {
+      "route": "/fingerprints/the-hidden-climate-tax-on-american-households.json",
+      "file": "fingerprints/the-hidden-climate-tax-on-american-households.json",
+      "mediaType": "application/ld+json; charset=utf-8",
+      "bytes": 3550,
+      "digest": "sha256:854483bd98c7d22a77b8a522b4c969596b3cb71700466ceb9fe6e96602c13d97"
+    },
+    {
+      "route": "/fingerprints/the-hidden-climate-tax-on-american-households.svg",
+      "file": "fingerprints/the-hidden-climate-tax-on-american-households.svg",
+      "mediaType": "image/svg+xml; charset=utf-8",
+      "bytes": 35355,
+      "digest": "sha256:cfbadda40a4363bc5120e8332edbf4506afe121131f97e8811fe39b405fd1000"
+    },
+    {
+      "route": "/fingerprints/the-mundane-automation-of-collapse-at-sxsw-london.json",
+      "file": "fingerprints/the-mundane-automation-of-collapse-at-sxsw-london.json",
+      "mediaType": "application/ld+json; charset=utf-8",
+      "bytes": 3790,
+      "digest": "sha256:9a0959afb6677c05ec393dd6d5b25c25d361101ef5980f85fd552b521367f8a8"
+    },
+    {
+      "route": "/fingerprints/the-mundane-automation-of-collapse-at-sxsw-london.svg",
+      "file": "fingerprints/the-mundane-automation-of-collapse-at-sxsw-london.svg",
+      "mediaType": "image/svg+xml; charset=utf-8",
+      "bytes": 35358,
+      "digest": "sha256:6f320f220592f3eb694f8ad3e3632bf098976d6d6145026b705b8c084889d7c1"
+    },
+    {
+      "route": "/fingerprints/the-san-diego-mosque-attack-and-the-fracturing-of.json",
+      "file": "fingerprints/the-san-diego-mosque-attack-and-the-fracturing-of.json",
+      "mediaType": "application/ld+json; charset=utf-8",
+      "bytes": 4794,
+      "digest": "sha256:d0c5a40a26d8822d56a664b97279549d1daa241e488091b376626e203f6e1ee9"
+    },
+    {
+      "route": "/fingerprints/the-san-diego-mosque-attack-and-the-fracturing-of.svg",
+      "file": "fingerprints/the-san-diego-mosque-attack-and-the-fracturing-of.svg",
+      "mediaType": "image/svg+xml; charset=utf-8",
+      "bytes": 35354,
+      "digest": "sha256:19b077282a4a53ab73037a83bafe55b722b8ce09431490b22ca3ca1cd1ff1742"
+    },
+    {
+      "route": "/fingerprints/the-sonic-blockchain-ecosystem-speed-and-developer-incentives.json",
+      "file": "fingerprints/the-sonic-blockchain-ecosystem-speed-and-developer-incentives.json",
+      "mediaType": "application/ld+json; charset=utf-8",
+      "bytes": 3316,
+      "digest": "sha256:538a6bd6e3c86e2089b5e00168b968d2583d4dba05f197b1e301a106a8a9ff09"
+    },
+    {
+      "route": "/fingerprints/the-sonic-blockchain-ecosystem-speed-and-developer-incentives.svg",
+      "file": "fingerprints/the-sonic-blockchain-ecosystem-speed-and-developer-incentives.svg",
+      "mediaType": "image/svg+xml; charset=utf-8",
+      "bytes": 35361,
+      "digest": "sha256:76251662dac714ec80866c56c9c93a3c5a6e1c7f460fe041397cba60045757ea"
+    },
+    {
+      "route": "/fingerprints/the-strategic-silence-democrats-mute-climate-as-systems-fracture.json",
+      "file": "fingerprints/the-strategic-silence-democrats-mute-climate-as-systems-fracture.json",
+      "mediaType": "application/ld+json; charset=utf-8",
+      "bytes": 3999,
+      "digest": "sha256:2ac1c0afe00d125cca5cca3472f7676512187c7fb05727d03f1d0cc619fa5a37"
+    },
+    {
+      "route": "/fingerprints/the-strategic-silence-democrats-mute-climate-as-systems-fracture.svg",
+      "file": "fingerprints/the-strategic-silence-democrats-mute-climate-as-systems-fracture.svg",
+      "mediaType": "image/svg+xml; charset=utf-8",
+      "bytes": 35353,
+      "digest": "sha256:b87df5fa8173b15fc556a53ec6bc3441abcd1096a7629c91419ef1befe637844"
+    },
+    {
+      "route": "/fingerprints/tornado-outbreak-ravages-southern-u-s.json",
+      "file": "fingerprints/tornado-outbreak-ravages-southern-u-s.json",
+      "mediaType": "application/ld+json; charset=utf-8",
+      "bytes": 2986,
+      "digest": "sha256:edad8ad62c29f6e44eabb63c0713aa582e7f56a807e71c64980b56dac7adf128"
+    },
+    {
+      "route": "/fingerprints/tornado-outbreak-ravages-southern-u-s.svg",
+      "file": "fingerprints/tornado-outbreak-ravages-southern-u-s.svg",
+      "mediaType": "image/svg+xml; charset=utf-8",
+      "bytes": 35355,
+      "digest": "sha256:0947692d972958013323d3a5c3999db5b0180d8b26da80ef3f85a872e5497646"
+    },
+    {
+      "route": "/fingerprints/tree-migration-climate-change-assistance.json",
+      "file": "fingerprints/tree-migration-climate-change-assistance.json",
+      "mediaType": "application/ld+json; charset=utf-8",
+      "bytes": 3213,
+      "digest": "sha256:9988e08c7682f34a538df0910392b609a271903b619d9839aaba2039cd3fff86"
+    },
+    {
+      "route": "/fingerprints/tree-migration-climate-change-assistance.svg",
+      "file": "fingerprints/tree-migration-climate-change-assistance.svg",
+      "mediaType": "image/svg+xml; charset=utf-8",
+      "bytes": 35364,
+      "digest": "sha256:ca55d8876c262fcda4f35addc5535eb9475e1c9da56835939430cba0cc4632e6"
+    },
+    {
+      "route": "/fingerprints/uk-bond-yields-rise-as-water-company-shares-fall.json",
+      "file": "fingerprints/uk-bond-yields-rise-as-water-company-shares-fall.json",
+      "mediaType": "application/ld+json; charset=utf-8",
+      "bytes": 3801,
+      "digest": "sha256:ecdb3d91c06ea9003f5968cab3513caa7e5c4c251934c7384ad7ce740b091536"
+    },
+    {
+      "route": "/fingerprints/uk-bond-yields-rise-as-water-company-shares-fall.svg",
+      "file": "fingerprints/uk-bond-yields-rise-as-water-company-shares-fall.svg",
+      "mediaType": "image/svg+xml; charset=utf-8",
+      "bytes": 35350,
+      "digest": "sha256:1baaa91e1b5097ae9d082418ec1ea2b607acc19ba009dae86a1f0ec3ac72e695"
+    },
+    {
+      "route": "/fingerprints/uk-retail-sales-spike-masks-climate-driven-supply-fragility.json",
+      "file": "fingerprints/uk-retail-sales-spike-masks-climate-driven-supply-fragility.json",
+      "mediaType": "application/ld+json; charset=utf-8",
+      "bytes": 3934,
+      "digest": "sha256:2dd3cecabc327375340e39443d0010fea13dfdee6860290ba0fb99fad80807ef"
+    },
+    {
+      "route": "/fingerprints/uk-retail-sales-spike-masks-climate-driven-supply-fragility.svg",
+      "file": "fingerprints/uk-retail-sales-spike-masks-climate-driven-supply-fragility.svg",
+      "mediaType": "image/svg+xml; charset=utf-8",
+      "bytes": 35358,
+      "digest": "sha256:a6623841bba0cf24342f7faabf1e816b1f1e95788be30ba0ddc39f566a20d737"
+    },
+    {
+      "route": "/fingerprints/ukraines-pursuit-of-ceasefire-amid-global-instabilities.json",
+      "file": "fingerprints/ukraines-pursuit-of-ceasefire-amid-global-instabilities.json",
+      "mediaType": "application/ld+json; charset=utf-8",
+      "bytes": 3448,
+      "digest": "sha256:1328cb0044de9b7f39ea0fa4ebd89037cf46ddf02be3a9af80059a2a2a2ceb12"
+    },
+    {
+      "route": "/fingerprints/ukraines-pursuit-of-ceasefire-amid-global-instabilities.svg",
+      "file": "fingerprints/ukraines-pursuit-of-ceasefire-amid-global-instabilities.svg",
+      "mediaType": "image/svg+xml; charset=utf-8",
+      "bytes": 35368,
+      "digest": "sha256:f87ae852e90bc7f7802ef52d25dff7c1f90b2c97cb7664b6c1813e87a63f7a02"
+    },
+    {
+      "route": "/fingerprints/us-steel-and-aluminum-tariffs-a-catalyst-for-global-economic-and-geopolitical-shifts.json",
+      "file": "fingerprints/us-steel-and-aluminum-tariffs-a-catalyst-for-global-economic-and-geopolitical-shifts.json",
+      "mediaType": "application/ld+json; charset=utf-8",
+      "bytes": 3495,
+      "digest": "sha256:ea6a376cccdf76c6ad885c0d42e8ac42b61039b413ed025e3e4c45890222fa9f"
+    },
+    {
+      "route": "/fingerprints/us-steel-and-aluminum-tariffs-a-catalyst-for-global-economic-and-geopolitical-shifts.svg",
+      "file": "fingerprints/us-steel-and-aluminum-tariffs-a-catalyst-for-global-economic-and-geopolitical-shifts.svg",
+      "mediaType": "image/svg+xml; charset=utf-8",
+      "bytes": 35363,
+      "digest": "sha256:5ae1722343e313a938abcf6fce22ce82e13cebe40f40b704496a63a2b0028c85"
+    },
+    {
+      "route": "/fingerprints/whats-a-good-health-factor-in-defi-managing-risk.json",
+      "file": "fingerprints/whats-a-good-health-factor-in-defi-managing-risk.json",
+      "mediaType": "application/ld+json; charset=utf-8",
+      "bytes": 3051,
+      "digest": "sha256:c79f38736bbd2a47aa5876a62163bc6ad4287c9c7baff032b00a6c54b47d3fc6"
+    },
+    {
+      "route": "/fingerprints/whats-a-good-health-factor-in-defi-managing-risk.svg",
+      "file": "fingerprints/whats-a-good-health-factor-in-defi-managing-risk.svg",
+      "mediaType": "image/svg+xml; charset=utf-8",
+      "bytes": 35350,
+      "digest": "sha256:746695b9bd7e6a921eb79d2bf1aedd5b71b7f4cd96fe773cb14c1eec5ff6396a"
+    },
+    {
+      "route": "/fingerprints/world-cup-faces-air-quality-disaster-as-wildfires-threaten.json",
+      "file": "fingerprints/world-cup-faces-air-quality-disaster-as-wildfires-threaten.json",
+      "mediaType": "application/ld+json; charset=utf-8",
+      "bytes": 3863,
+      "digest": "sha256:49e9418b72f73d446f1fa377fe50339d124a784d156c672f5b57548f35db6986"
+    },
+    {
+      "route": "/fingerprints/world-cup-faces-air-quality-disaster-as-wildfires-threaten.svg",
+      "file": "fingerprints/world-cup-faces-air-quality-disaster-as-wildfires-threaten.svg",
+      "mediaType": "image/svg+xml; charset=utf-8",
+      "bytes": 35349,
+      "digest": "sha256:c13c04d62dac11b3c120747e02f0a200207112de790772002dc33985cf1d6a94"
+    },
+    {
+      "route": "/news-sitemap.xml",
+      "file": "news-sitemap.xml",
+      "mediaType": "application/xml; charset=utf-8",
+      "bytes": 23658,
+      "digest": "sha256:86b066e68cd77d8cdff2609b4f103c4ab3216848f9b6afddc8edd7f739806d05"
+    },
+    {
+      "route": "/newswire-audit.json",
+      "file": "newswire-audit.json",
+      "mediaType": "application/json; charset=utf-8",
+      "bytes": 76771,
+      "digest": "sha256:a88ed120b7bfe0320e14b9d126039e582356e00b58318d984b35ce5552569669"
+    },
+    {
+      "route": "/ninjs.json",
+      "file": "ninjs.json",
+      "mediaType": "application/vnd.iptc.ninjs+json; charset=utf-8",
+      "bytes": 455319,
+      "digest": "sha256:56273e051c8aa0c26366f67b92a938080f54286854171594144422e12e3cd4c4"
+    },
+    {
+      "route": "/og.png",
+      "file": "og.png",
+      "mediaType": "image/png",
+      "bytes": 8323,
+      "digest": "sha256:da0ea06989a504858c862bcfed084cc9cc88fba27ff56f5e60ffd268609757f4"
+    },
+    {
+      "route": "/posts/acurite-delays-app-migration-due-to-user-concerns-over",
+      "file": "posts/acurite-delays-app-migration-due-to-user-concerns-over/index.html",
+      "mediaType": "text/html; charset=utf-8",
+      "bytes": 40591,
+      "digest": "sha256:26c71361e1a5a802021bc9aef5d49f7a3f7e7aa791e972d340ef6b85ced419e7"
+    },
+    {
+      "route": "/posts/ai-compute-bottleneck-power-problem",
+      "file": "posts/ai-compute-bottleneck-power-problem/index.html",
+      "mediaType": "text/html; charset=utf-8",
+      "bytes": 44458,
+      "digest": "sha256:8cfa6b4861d0d5bb9a420ce8bcd6a34fd725f065684d182c9524832cbcc30627"
+    },
+    {
+      "route": "/posts/amazon-s-astro-and-the-energy-cost-of-giving",
+      "file": "posts/amazon-s-astro-and-the-energy-cost-of-giving/index.html",
+      "mediaType": "text/html; charset=utf-8",
+      "bytes": 43189,
+      "digest": "sha256:2c8850df29529a5b8ea2f00236f738239d77b8f6a89344e19877ff535082f33f"
+    },
+    {
+      "route": "/posts/april-2025-tornado-outbreak",
+      "file": "posts/april-2025-tornado-outbreak/index.html",
+      "mediaType": "text/html; charset=utf-8",
+      "bytes": 38872,
+      "digest": "sha256:0b72bc6822402b672fc0cda1c15a6b7eaf29f494e5d250cd3a02412676d8e100"
+    },
+    {
+      "route": "/posts/assisted-tree-migration-climate-change-solutions",
+      "file": "posts/assisted-tree-migration-climate-change-solutions/index.html",
+      "mediaType": "text/html; charset=utf-8",
+      "bytes": 40757,
+      "digest": "sha256:8cf60b6dffba4eb850a20f6e27e486ebce5ddcd6b2f7829e7df2210ffc204853"
+    },
+    {
+      "route": "/posts/berachain-bearish-social-sentiment-souring",
+      "file": "posts/berachain-bearish-social-sentiment-souring/index.html",
+      "mediaType": "text/html; charset=utf-8",
+      "bytes": 38475,
+      "digest": "sha256:1af9213917e2e3f699c6c6df0980ba5a7255856112667987ba38896dee866bf0"
+    },
+    {
+      "route": "/posts/bitcoin-defi-security-consortium-launch",
+      "file": "posts/bitcoin-defi-security-consortium-launch/index.html",
+      "mediaType": "text/html; charset=utf-8",
+      "bytes": 41155,
+      "digest": "sha256:2252614b7604c5dc0e6ff252cedabf6b1b0121870c70d8df5cb82de15d06e7f6"
+    },
+    {
+      "route": "/posts/bitcoin-etf-investing-guide",
+      "file": "posts/bitcoin-etf-investing-guide/index.html",
+      "mediaType": "text/html; charset=utf-8",
+      "bytes": 40004,
+      "digest": "sha256:d5f6568aed2d7885f801be01f50a1f1d89169968b60d01b90bac45d807ca183f"
+    },
+    {
+      "route": "/posts/bybit-hack-weakens-consumer-sentiment",
+      "file": "posts/bybit-hack-weakens-consumer-sentiment/index.html",
+      "mediaType": "text/html; charset=utf-8",
+      "bytes": 38864,
+      "digest": "sha256:33f1c4fff8fb83240a2dadeff8a1ceab9d0b42aba503d9fb5aeb950ea97146de"
+    },
+    {
+      "route": "/posts/canada-tar-sands-shutdown",
+      "file": "posts/canada-tar-sands-shutdown/index.html",
+      "mediaType": "text/html; charset=utf-8",
+      "bytes": 37935,
+      "digest": "sha256:3c9131136f86b1b2b26543e567373979bc5c4846f65aa50fd7c9db0721ce64cc"
+    },
+    {
+      "route": "/posts/crankgpt-makes-the-physical-cost-of-ai-visible",
+      "file": "posts/crankgpt-makes-the-physical-cost-of-ai-visible/index.html",
+      "mediaType": "text/html; charset=utf-8",
+      "bytes": 42578,
+      "digest": "sha256:a0c7c234cf9e23a5c7385265344716115c9ab49bc1456e255655d97bd321d47e"
+    },
+    {
+      "route": "/posts/crypto-news-february-17th-2025",
+      "file": "posts/crypto-news-february-17th-2025/index.html",
+      "mediaType": "text/html; charset=utf-8",
+      "bytes": 41399,
+      "digest": "sha256:ea16efef8150aa18195e36224f27d69c61337b2a25241ff286be93579f771714"
+    },
+    {
+      "route": "/posts/cyclone-alfreds-impact-a-reflection-of-global-systemic-vulnerabilities",
+      "file": "posts/cyclone-alfreds-impact-a-reflection-of-global-systemic-vulnerabilities/index.html",
+      "mediaType": "text/html; charset=utf-8",
+      "bytes": 39758,
+      "digest": "sha256:407773c3683490579c3154ddc36ae9d02bd52b05ea0a1e4b706a14f49b444378"
+    },
+    {
+      "route": "/posts/defai-explained-how-ai-is-transforming-decentralized-finance",
+      "file": "posts/defai-explained-how-ai-is-transforming-decentralized-finance/index.html",
+      "mediaType": "text/html; charset=utf-8",
+      "bytes": 38783,
+      "digest": "sha256:638d23e3946e5cdd5544dc9d0202b41f3516dd7a371ac1a97dbe455e4b322f64"
+    },
+    {
+      "route": "/posts/earn-safe-token-with-beefy",
+      "file": "posts/earn-safe-token-with-beefy/index.html",
+      "mediaType": "text/html; charset=utf-8",
+      "bytes": 39023,
+      "digest": "sha256:6e2ddd452180c6772e84ad36671a7069ac09b45fe3854804b0e709d1a0b7eca0"
+    },
+    {
+      "route": "/posts/ecb-delays-inevitable-slashes-interest-rates-again",
+      "file": "posts/ecb-delays-inevitable-slashes-interest-rates-again/index.html",
+      "mediaType": "text/html; charset=utf-8",
+      "bytes": 41156,
+      "digest": "sha256:4af5c2c9d431697c79a19e708d7f2689ca2bd609b264bcf4e19c410e6aa2d31d"
+    },
+    {
+      "route": "/posts/ecb-raises-interest-rates-amid-sovereign-debt-climate-disasters",
+      "file": "posts/ecb-raises-interest-rates-amid-sovereign-debt-climate-disasters/index.html",
+      "mediaType": "text/html; charset=utf-8",
+      "bytes": 41152,
+      "digest": "sha256:25f28778f47235a5fd3459e7fa69876924397a11ab6b6be88cd82b5fc8702d25"
+    },
+    {
+      "route": "/posts/england-sinking-homes-insurance-climate-risk-withdrawal",
+      "file": "posts/england-sinking-homes-insurance-climate-risk-withdrawal/index.html",
+      "mediaType": "text/html; charset=utf-8",
+      "bytes": 39712,
+      "digest": "sha256:43a9b26e67daa18d94dfe502c58079d1877c8122940300ff940f1bfe4e893627"
+    },
+    {
+      "route": "/posts/ethereum-staking-nyse-approval-etf",
+      "file": "posts/ethereum-staking-nyse-approval-etf/index.html",
+      "mediaType": "text/html; charset=utf-8",
+      "bytes": 38301,
+      "digest": "sha256:bbbddc6f71b5cb2e3b4bb169aafc7227ffea5c20b314238c9e530eb6aacb0edc"
+    },
+    {
+      "route": "/posts/exploring-the-risks-and-rewards-of-defi-leverage",
+      "file": "posts/exploring-the-risks-and-rewards-of-defi-leverage/index.html",
+      "mediaType": "text/html; charset=utf-8",
+      "bytes": 39923,
+      "digest": "sha256:f5dfa24ba6b4956f8e564f07d4331e21734b1726f3cdb41081fd3de3ec12c12b"
+    },
+    {
+      "route": "/posts/farm-usdc-on-base-with-moonwell-beefy-or-extra",
+      "file": "posts/farm-usdc-on-base-with-moonwell-beefy-or-extra/index.html",
+      "mediaType": "text/html; charset=utf-8",
+      "bytes": 39060,
+      "digest": "sha256:b0bd0c34b599869ea9769238788dcaafeaed2891ec7540264c96ffd8fa8934f7"
+    },
+    {
+      "route": "/posts/february-19-2025-daytrading-opportunities-in-leveraged-etfs",
+      "file": "posts/february-19-2025-daytrading-opportunities-in-leveraged-etfs/index.html",
+      "mediaType": "text/html; charset=utf-8",
+      "bytes": 40773,
+      "digest": "sha256:5cdb603d570438aeca7e58ee485d0065f60123ceec61e1530645e20edfcf5213"
+    },
+    {
+      "route": "/posts/heathrow-s-third-runway-a-62-5bn-miscalculation-in",
+      "file": "posts/heathrow-s-third-runway-a-62-5bn-miscalculation-in/index.html",
+      "mediaType": "text/html; charset=utf-8",
+      "bytes": 42968,
+      "digest": "sha256:9469d9ae11900f23b26db8878128efd7f3d222e5bd941f3201a8b3ebba749b99"
+    },
+    {
+      "route": "/posts/hello-world",
+      "file": "posts/hello-world/index.html",
+      "mediaType": "text/html; charset=utf-8",
+      "bytes": 41076,
+      "digest": "sha256:9eae40b4776f710909b5072ff052ca60a2704e8498ad1e89d2d1c94d807d1b2c"
+    },
+    {
+      "route": "/posts/heyanon-revolutionizing-defi-with-ai-technology",
+      "file": "posts/heyanon-revolutionizing-defi-with-ai-technology/index.html",
+      "mediaType": "text/html; charset=utf-8",
+      "bytes": 39052,
+      "digest": "sha256:eaeae8f6a22ef99c6c17b978b144087d2b2a00d20532072f0d8473ae7d3b5419"
+    },
+    {
+      "route": "/posts/indigenous-leaders-confront-the-collision-of-climate-and-extraction",
+      "file": "posts/indigenous-leaders-confront-the-collision-of-climate-and-extraction/index.html",
+      "mediaType": "text/html; charset=utf-8",
+      "bytes": 39570,
+      "digest": "sha256:144c9551cc358740213dd1195984b6c2aeaa1b8dfebb456f2bd40774cc8eb33b"
+    },
+    {
+      "route": "/posts/indonesia-island-evacuation",
+      "file": "posts/indonesia-island-evacuation/index.html",
+      "mediaType": "text/html; charset=utf-8",
+      "bytes": 38103,
+      "digest": "sha256:24ff98db5423690e71e8c9e25ad6db72ffc8ec7043b433cf380506a46556c160"
+    },
+    {
+      "route": "/posts/michigan-program-helps-new-farmers-amidst-rising-crop-failure",
+      "file": "posts/michigan-program-helps-new-farmers-amidst-rising-crop-failure/index.html",
+      "mediaType": "text/html; charset=utf-8",
+      "bytes": 39217,
+      "digest": "sha256:dfed8e68234a614c27816fb5a9327c14ebbfa057089cf86884ab01f10ded832d"
+    },
+    {
+      "route": "/posts/mind-ai-token-release-another-step-toward-autonomous-trading",
+      "file": "posts/mind-ai-token-release-another-step-toward-autonomous-trading/index.html",
+      "mediaType": "text/html; charset=utf-8",
+      "bytes": 38975,
+      "digest": "sha256:0867b0b7bd37c3da9092ff1768e1121001d4329919f40ff7f39e4db304daa0f3"
+    },
+    {
+      "route": "/posts/mizar-alpha-program-bnb-chain-rewards",
+      "file": "posts/mizar-alpha-program-bnb-chain-rewards/index.html",
+      "mediaType": "text/html; charset=utf-8",
+      "bytes": 38320,
+      "digest": "sha256:fce9bd0d817ed477ac847cc9314936ea2942e0cd46c8670baf78f879575d7c30"
+    },
+    {
+      "route": "/posts/peru-water-emergency-2025",
+      "file": "posts/peru-water-emergency-2025/index.html",
+      "mediaType": "text/html; charset=utf-8",
+      "bytes": 38034,
+      "digest": "sha256:379c4d5ea08235def6ed2948437dd1e86d727cc26e0304d8fbb77ee1b733c24b"
+    },
+    {
+      "route": "/posts/proof-of-liquidity-in-defi-innovation",
+      "file": "posts/proof-of-liquidity-in-defi-innovation/index.html",
+      "mediaType": "text/html; charset=utf-8",
+      "bytes": 41738,
+      "digest": "sha256:c8bfe4f598907e80e158d42824681270bdbdfa62b25235f70df032c7436e09b0"
+    },
+    {
+      "route": "/posts/sec-approves-first-yield-bearing-stablecoin-ylds",
+      "file": "posts/sec-approves-first-yield-bearing-stablecoin-ylds/index.html",
+      "mediaType": "text/html; charset=utf-8",
+      "bytes": 41729,
+      "digest": "sha256:31651fa2aa47357a3871513fe0e6c38e631688bf88c3ca7e97911a8fcd87b488"
+    },
+    {
+      "route": "/posts/solana-price-forecast-short-term-outlook",
+      "file": "posts/solana-price-forecast-short-term-outlook/index.html",
+      "mediaType": "text/html; charset=utf-8",
+      "bytes": 39632,
+      "digest": "sha256:9e76eed282b4c7d7bab36e01e010ffcbf3e0818f7dd76476ef21d896cc0c2fe0"
+    },
+    {
+      "route": "/posts/solar-coal-crossover-us-grid",
+      "file": "posts/solar-coal-crossover-us-grid/index.html",
+      "mediaType": "text/html; charset=utf-8",
+      "bytes": 41872,
+      "digest": "sha256:72f8d5cfe3bfe9fe8ab5959eb6f7e0d80bb9b08dabce3c6eb550b61212afeac2"
+    },
+    {
+      "route": "/posts/south-korea-wildfires-2025",
+      "file": "posts/south-korea-wildfires-2025/index.html",
+      "mediaType": "text/html; charset=utf-8",
+      "bytes": 39720,
+      "digest": "sha256:197ae5c396a76d3a891e4a36b98acc9459fd87109f5077d733a38087b7371862"
+    },
+    {
+      "route": "/posts/super-bowl-libra-rugpull-crisis",
+      "file": "posts/super-bowl-libra-rugpull-crisis/index.html",
+      "mediaType": "text/html; charset=utf-8",
+      "bytes": 39943,
+      "digest": "sha256:0859b721f42bdaccee1ee1b0194e916a29a754e17735e734fd72beeabc5b6edb"
+    },
+    {
+      "route": "/posts/thailand-rice-export-ban",
+      "file": "posts/thailand-rice-export-ban/index.html",
+      "mediaType": "text/html; charset=utf-8",
+      "bytes": 38130,
+      "digest": "sha256:8b719c6e16d46dd6bf7f1b1e020ee1dd1ed259dcb286c50b2550e9311660835d"
+    },
+    {
+      "route": "/posts/the-2025-total-lunar-eclipse-a-blood-moon-illuminates-the-night-sky",
+      "file": "posts/the-2025-total-lunar-eclipse-a-blood-moon-illuminates-the-night-sky/index.html",
+      "mediaType": "text/html; charset=utf-8",
+      "bytes": 39911,
+      "digest": "sha256:b7d5aed541f07776955be01524b4af79b27becfc906cd984a2ec1bb497fad338"
+    },
+    {
+      "route": "/posts/the-cost-of-certainty-how-robot-guesswork-meets-energy",
+      "file": "posts/the-cost-of-certainty-how-robot-guesswork-meets-energy/index.html",
+      "mediaType": "text/html; charset=utf-8",
+      "bytes": 42047,
+      "digest": "sha256:c5b316fc8b060d52520bb85a6820e9152d5632d86b3721ca50048b4ef1fe539b"
+    },
+    {
+      "route": "/posts/the-hidden-climate-tax-on-american-households",
+      "file": "posts/the-hidden-climate-tax-on-american-households/index.html",
+      "mediaType": "text/html; charset=utf-8",
+      "bytes": 40001,
+      "digest": "sha256:7980a6eb935d320051ed4e157d87b62500c279efdf74b6b467b5cd4ee5057683"
+    },
+    {
+      "route": "/posts/the-mundane-automation-of-collapse-at-sxsw-london",
+      "file": "posts/the-mundane-automation-of-collapse-at-sxsw-london/index.html",
+      "mediaType": "text/html; charset=utf-8",
+      "bytes": 42725,
+      "digest": "sha256:0cc5915acb92b3fe7dbc9bd2430db3de6021d5ac56eecba378015ce20eb76eff"
+    },
+    {
+      "route": "/posts/the-san-diego-mosque-attack-and-the-fracturing-of",
+      "file": "posts/the-san-diego-mosque-attack-and-the-fracturing-of/index.html",
+      "mediaType": "text/html; charset=utf-8",
+      "bytes": 40014,
+      "digest": "sha256:950d9e4b831682985eff8ba46f6616cbcffe54f19075b8a2ae059fe26ff58da8"
+    },
+    {
+      "route": "/posts/the-sonic-blockchain-ecosystem-speed-and-developer-incentives",
+      "file": "posts/the-sonic-blockchain-ecosystem-speed-and-developer-incentives/index.html",
+      "mediaType": "text/html; charset=utf-8",
+      "bytes": 41399,
+      "digest": "sha256:3590196721a4c1bcbec707f3d3184f62e1b766712f3b1861c78a4e49ad7cf962"
+    },
+    {
+      "route": "/posts/the-strategic-silence-democrats-mute-climate-as-systems-fracture",
+      "file": "posts/the-strategic-silence-democrats-mute-climate-as-systems-fracture/index.html",
+      "mediaType": "text/html; charset=utf-8",
+      "bytes": 42888,
+      "digest": "sha256:a110083948bee1f12b34fac44660c5833098ac74ab6c7c2be02a745c296329e1"
+    },
+    {
+      "route": "/posts/tornado-outbreak-ravages-southern-u-s",
+      "file": "posts/tornado-outbreak-ravages-southern-u-s/index.html",
+      "mediaType": "text/html; charset=utf-8",
+      "bytes": 39952,
+      "digest": "sha256:337d6aaa6e676eb0af0c41931113b9fb9018676890b6e49b331547641fed24fd"
+    },
+    {
+      "route": "/posts/tree-migration-climate-change-assistance",
+      "file": "posts/tree-migration-climate-change-assistance/index.html",
+      "mediaType": "text/html; charset=utf-8",
+      "bytes": 39338,
+      "digest": "sha256:c5e953569d218df4a53ffa4866e8490aef0f658845d3c74c4ac643a3f96d4e44"
+    },
+    {
+      "route": "/posts/uk-bond-yields-rise-as-water-company-shares-fall",
+      "file": "posts/uk-bond-yields-rise-as-water-company-shares-fall/index.html",
+      "mediaType": "text/html; charset=utf-8",
+      "bytes": 42558,
+      "digest": "sha256:d7fa78920a90d06f16dfa2dda00e7af8e8ec33dc75b32e3d72632b113fdd3456"
+    },
+    {
+      "route": "/posts/uk-retail-sales-spike-masks-climate-driven-supply-fragility",
+      "file": "posts/uk-retail-sales-spike-masks-climate-driven-supply-fragility/index.html",
+      "mediaType": "text/html; charset=utf-8",
+      "bytes": 41372,
+      "digest": "sha256:179468d8d8a61500544e26ef7a7e30b1ed2f1c44e61b337d72f1ad602dc60224"
+    },
+    {
+      "route": "/posts/ukraines-pursuit-of-ceasefire-amid-global-instabilities",
+      "file": "posts/ukraines-pursuit-of-ceasefire-amid-global-instabilities/index.html",
+      "mediaType": "text/html; charset=utf-8",
+      "bytes": 38701,
+      "digest": "sha256:9907e3a30b013150b8dddd4ba2857e0dc8a290117ce804309cc59e5b95ac01d2"
+    },
+    {
+      "route": "/posts/us-steel-and-aluminum-tariffs-a-catalyst-for-global-economic-and-geopolitical-shifts",
+      "file": "posts/us-steel-and-aluminum-tariffs-a-catalyst-for-global-economic-and-geopolitical-shifts/index.html",
+      "mediaType": "text/html; charset=utf-8",
+      "bytes": 40652,
+      "digest": "sha256:f05d922c341c2fd34feaa9d57b96f1d0d696525a27bd051e2f8ec7617cbec9fd"
+    },
+    {
+      "route": "/posts/whats-a-good-health-factor-in-defi-managing-risk",
+      "file": "posts/whats-a-good-health-factor-in-defi-managing-risk/index.html",
+      "mediaType": "text/html; charset=utf-8",
+      "bytes": 39409,
+      "digest": "sha256:0879b0cab14afc30944a85423218bb6a125d3a57ccf88ef2f276afd2fc68ce09"
+    },
+    {
+      "route": "/posts/world-cup-faces-air-quality-disaster-as-wildfires-threaten",
+      "file": "posts/world-cup-faces-air-quality-disaster-as-wildfires-threaten/index.html",
+      "mediaType": "text/html; charset=utf-8",
+      "bytes": 39915,
+      "digest": "sha256:dbaa5720d4b8108775c7d81ae16d24b87512541e6072b3a2c158d2fa204eda5c"
+    },
+    {
+      "route": "/privacy",
+      "file": "privacy/index.html",
+      "mediaType": "text/html; charset=utf-8",
+      "bytes": 26831,
+      "digest": "sha256:a23ba87d626229793e8cbaaba19c4aeb3031127b9061e1d7d0779a671817e3d9"
+    },
+    {
+      "route": "/robots.txt",
+      "file": "robots.txt",
+      "mediaType": "text/plain; charset=utf-8",
+      "bytes": 26,
+      "digest": "sha256:331ea9090db0c9f6f597bd9840fd5b171830f6e0b3ba1cb24dfa91f0c95aedc1"
+    },
+    {
+      "route": "/search",
+      "file": "search/index.html",
+      "mediaType": "text/html; charset=utf-8",
+      "bytes": 26076,
+      "digest": "sha256:6be91cc550cc012a146d8e903329f05f70f37d010c3a1b301d5f90ad3cb39aa5"
+    },
+    {
+      "route": "/sitemap.xml",
+      "file": "sitemap.xml",
+      "mediaType": "application/xml; charset=utf-8",
+      "bytes": 7503,
+      "digest": "sha256:7f79a3f4f67d6ae7a53acb17d6098277592d2ca1a127ecb14e0b16c5a85d8e3b"
+    },
+    {
+      "route": "/sources",
+      "file": "sources/index.html",
+      "mediaType": "text/html; charset=utf-8",
+      "bytes": 40531,
+      "digest": "sha256:98270f426275a6d9b16232515ea3c589f1ad1b635e9948d1acefd7a227ba1827"
+    },
+    {
+      "route": "/sources.json",
+      "file": "sources.json",
+      "mediaType": "application/json; charset=utf-8",
+      "bytes": 20817,
+      "digest": "sha256:98efa3164eba812bee0c9c058fa07c62f74b990e0573fa1d7be6494be2d0e8a8"
+    },
+    {
+      "route": "/standards",
+      "file": "standards/index.html",
+      "mediaType": "text/html; charset=utf-8",
+      "bytes": 28956,
+      "digest": "sha256:a63fd3ae56acb2170e523b40a6a0ea5f1b610e378ae8c3d7a7dd75923c63f1f2"
+    },
+    {
+      "route": "/standards.json",
+      "file": "standards.json",
+      "mediaType": "application/json; charset=utf-8",
+      "bytes": 2035,
+      "digest": "sha256:ae32e7de22b8d408cf798a774ff8caca605f0dc0f554665fcc13f7f0f5d2b168"
+    },
+    {
+      "route": "/syndicating.json",
+      "file": "syndicating.json",
+      "mediaType": "application/json; charset=utf-8",
+      "bytes": 7863,
+      "digest": "sha256:5eb8c1bf37960f8d1253b94e1dc1388ab7b49d1a15f0b8f85f7f5c704b81e503"
+    },
+    {
+      "route": "/tags",
+      "file": "tags/index.html",
+      "mediaType": "text/html; charset=utf-8",
+      "bytes": 81563,
+      "digest": "sha256:e440d668d5e1756328e148095c55f549e2b8badf7d2b95cec14e8762f485cb75"
+    },
+    {
+      "route": "/tags.json",
+      "file": "tags.json",
+      "mediaType": "application/json; charset=utf-8",
+      "bytes": 113454,
+      "digest": "sha256:1c9896a8046b7e6f56e3ed1d2d8792f7fb79de0182261bcf3d8789689f2e7ff3"
+    },
+    {
+      "route": "/tags/",
+      "file": "tags/index.html",
+      "mediaType": "text/html; charset=utf-8",
+      "bytes": 81563,
+      "digest": "sha256:e440d668d5e1756328e148095c55f549e2b8badf7d2b95cec14e8762f485cb75"
+    },
+    {
+      "route": "/tags/ai",
+      "file": "tags/ai/index.html",
+      "mediaType": "text/html; charset=utf-8",
+      "bytes": 29062,
+      "digest": "sha256:129847f8a0060ff6591b963f0ef542a8e818a8d5c48b5152f676a2d8ae2af8c9"
+    },
+    {
+      "route": "/tags/ai-agent",
+      "file": "tags/ai-agent/index.html",
+      "mediaType": "text/html; charset=utf-8",
+      "bytes": 27771,
+      "digest": "sha256:d8e6e8cdb3b8dff196c87b264c90fa2a479d0e3986ce157be8128ced05d847fe"
+    },
+    {
+      "route": "/tags/ai-agent.json",
+      "file": "tags/ai-agent.json",
+      "mediaType": "application/json; charset=utf-8",
+      "bytes": 630,
+      "digest": "sha256:0dcfa6b6cab85f199cc78313e5ec8eba19a51eddde67c587cd336f65fa6c84c7"
+    },
+    {
+      "route": "/tags/ai-ethics",
+      "file": "tags/ai-ethics/index.html",
+      "mediaType": "text/html; charset=utf-8",
+      "bytes": 27829,
+      "digest": "sha256:6b2775eb87cfaf45da751ca9cc3a430a47d321d8c3481ffb84388ca3f663cb2a"
+    },
+    {
+      "route": "/tags/ai-ethics.json",
+      "file": "tags/ai-ethics.json",
+      "mediaType": "application/json; charset=utf-8",
+      "bytes": 636,
+      "digest": "sha256:c8462c82a553b90411509afc6e035a18d6299ac72d7e26850777204e6bb6390c"
+    },
+    {
+      "route": "/tags/ai-infrastructure",
+      "file": "tags/ai-infrastructure/index.html",
+      "mediaType": "text/html; charset=utf-8",
+      "bytes": 27972,
+      "digest": "sha256:0db0a765b23959eafb099c7ef096af609e52040aa01709c25e0aeb85e190dd86"
+    },
+    {
+      "route": "/tags/ai-infrastructure.json",
+      "file": "tags/ai-infrastructure.json",
+      "mediaType": "application/json; charset=utf-8",
+      "bytes": 739,
+      "digest": "sha256:cf06615ef4b6858a5e3a2a26e78e2468947a1749cf14bb6087404b43acf200d2"
+    },
+    {
+      "route": "/tags/ai.json",
+      "file": "tags/ai.json",
+      "mediaType": "application/json; charset=utf-8",
+      "bytes": 993,
+      "digest": "sha256:be6e4f8737e06ebad784a8e92ba394fa622cadc50cc1490c8abe17475c07b4eb"
+    },
+    {
+      "route": "/tags/air-quality",
+      "file": "tags/air-quality/index.html",
+      "mediaType": "text/html; charset=utf-8",
+      "bytes": 27900,
+      "digest": "sha256:37020d5128c9705db006e5a1850175e3f95221dd85bf72e896d5342a90ebf93c"
+    },
+    {
+      "route": "/tags/air-quality.json",
+      "file": "tags/air-quality.json",
+      "mediaType": "application/json; charset=utf-8",
+      "bytes": 648,
+      "digest": "sha256:7a7f300786f15b2958c4398d06af77c574389e81c5bd876c544c061cb4ca32f6"
+    },
+    {
+      "route": "/tags/aluminum",
+      "file": "tags/aluminum/index.html",
+      "mediaType": "text/html; charset=utf-8",
+      "bytes": 27910,
+      "digest": "sha256:24d0c6ee630afbd0d83dad39fe8717802d57fc40d74554c768f9a7499231f9b7"
+    },
+    {
+      "route": "/tags/aluminum.json",
+      "file": "tags/aluminum.json",
+      "mediaType": "application/json; charset=utf-8",
+      "bytes": 630,
+      "digest": "sha256:ca734061759b47b160575322ccae1b3393c625a13220835c80c840ec98ca3ad8"
+    },
+    {
+      "route": "/tags/anon",
+      "file": "tags/anon/index.html",
+      "mediaType": "text/html; charset=utf-8",
+      "bytes": 27676,
+      "digest": "sha256:336d5745c6a1abc468ca0d979c01c29d6afecd5f8b614c82a716bc2a33e62402"
+    },
+    {
+      "route": "/tags/anon.json",
+      "file": "tags/anon.json",
+      "mediaType": "application/json; charset=utf-8",
+      "bytes": 610,
+      "digest": "sha256:3a181783c69178c59173ec20a7f79bda29cc3c6931e6071d6147a380f07ed88e"
+    },
+    {
+      "route": "/tags/app-migration",
+      "file": "tags/app-migration/index.html",
+      "mediaType": "text/html; charset=utf-8",
+      "bytes": 28096,
+      "digest": "sha256:ec28a09804abebb1aa9492014c87cd1434ac81fa2689a1b9499e3f2cfb460643"
+    },
+    {
+      "route": "/tags/app-migration.json",
+      "file": "tags/app-migration.json",
+      "mediaType": "application/json; charset=utf-8",
+      "bytes": 660,
+      "digest": "sha256:a68e1aba1d71bc09d439dca755580eb1b0294d832c888286d2e75108db2405f0"
+    },
+    {
+      "route": "/tags/artificial-intelligence",
+      "file": "tags/artificial-intelligence/index.html",
+      "mediaType": "text/html; charset=utf-8",
+      "bytes": 29163,
+      "digest": "sha256:61be607b1c9bf9ca57ad0707baba927224b5d10ca7f98607cd16706df68b164d"
+    },
+    {
+      "route": "/tags/artificial-intelligence.json",
+      "file": "tags/artificial-intelligence.json",
+      "mediaType": "application/json; charset=utf-8",
+      "bytes": 720,
+      "digest": "sha256:38305c6118cf5022e18f9f0a3ba73f960a189233f20d73c2ce7853ce995a6b2f"
+    },
+    {
+      "route": "/tags/astronomy",
+      "file": "tags/astronomy/index.html",
+      "mediaType": "text/html; charset=utf-8",
+      "bytes": 27850,
+      "digest": "sha256:0a1839dd58b85553d65919beb423720bb28e143c5af335124a0d4a4665b68284"
+    },
+    {
+      "route": "/tags/astronomy.json",
+      "file": "tags/astronomy.json",
+      "mediaType": "application/json; charset=utf-8",
+      "bytes": 636,
+      "digest": "sha256:1af2fe0449a0d516617e625bc5317a2ba76e967169881cd378b29b9ad7ff2cf2"
+    },
+    {
+      "route": "/tags/australia",
+      "file": "tags/australia/index.html",
+      "mediaType": "text/html; charset=utf-8",
+      "bytes": 27889,
+      "digest": "sha256:ad0626de6bc8c2dbe78bce212df76e364133298a2bf887e77baad2e5ce7a1767"
+    },
+    {
+      "route": "/tags/australia.json",
+      "file": "tags/australia.json",
+      "mediaType": "application/json; charset=utf-8",
+      "bytes": 636,
+      "digest": "sha256:8f5391975b5da754f0a328bf94a81fddf09c0283814a402fdd9d6cb41b098e72"
+    },
+    {
+      "route": "/tags/automation",
+      "file": "tags/automation/index.html",
+      "mediaType": "text/html; charset=utf-8",
+      "bytes": 27884,
+      "digest": "sha256:7809450d9015b39280e2ad4952eecc782484a54b220711583a2333804c6f3270"
+    },
+    {
+      "route": "/tags/automation.json",
+      "file": "tags/automation.json",
+      "mediaType": "application/json; charset=utf-8",
+      "bytes": 642,
+      "digest": "sha256:60446004ba67a3ffb4748602ea98f5ad81f5801ac2dc221421f987b99fa12fef"
+    },
+    {
+      "route": "/tags/autonomous-newsroom",
+      "file": "tags/autonomous-newsroom/index.html",
+      "mediaType": "text/html; charset=utf-8",
+      "bytes": 28143,
+      "digest": "sha256:1f8dd77ed768ca9030b0517f2379dc64fbfc975806e250d1d1b4288487d0bf4d"
+    },
+    {
+      "route": "/tags/autonomous-newsroom.json",
+      "file": "tags/autonomous-newsroom.json",
+      "mediaType": "application/json; charset=utf-8",
+      "bytes": 1007,
+      "digest": "sha256:6ebca8f08ccce94cc7c642c43cbd5057390ed52f0a78bf04003c04081605bb8b"
+    },
+    {
+      "route": "/tags/barstool-sports",
+      "file": "tags/barstool-sports/index.html",
+      "mediaType": "text/html; charset=utf-8",
+      "bytes": 27834,
+      "digest": "sha256:ceef2eda278c77f1fed06c19dbda8ecb1d904efc407133ca9d845bf831b23d53"
+    },
+    {
+      "route": "/tags/barstool-sports.json",
+      "file": "tags/barstool-sports.json",
+      "mediaType": "application/json; charset=utf-8",
+      "bytes": 672,
+      "digest": "sha256:881b132d8aec62a28373b83c41d4821e65aec94baff118ffe1c6a5bcb7287f91"
+    },
+    {
+      "route": "/tags/base",
+      "file": "tags/base/index.html",
+      "mediaType": "text/html; charset=utf-8",
+      "bytes": 27704,
+      "digest": "sha256:c56101ed8780817bab85d47e0c90ee8b24990fb81124e499aada8195c3de0081"
+    },
+    {
+      "route": "/tags/base.json",
+      "file": "tags/base.json",
+      "mediaType": "application/json; charset=utf-8",
+      "bytes": 606,
+      "digest": "sha256:43fe8292fa7247ac2a48a6ee5552bb75471d715eb261447b4f08aa555bbbaa69"
+    },
+    {
+      "route": "/tags/beefy-finance",
+      "file": "tags/beefy-finance/index.html",
+      "mediaType": "text/html; charset=utf-8",
+      "bytes": 28755,
+      "digest": "sha256:fdc1055c7bbeda6580ed3d4930502232df543525d16e4898739bf5da5853cd13"
+    },
+    {
+      "route": "/tags/beefy-finance.json",
+      "file": "tags/beefy-finance.json",
+      "mediaType": "application/json; charset=utf-8",
+      "bytes": 660,
+      "digest": "sha256:626c058e793bc67eba189dd419a43d264c5a9fe3b52593291485694a650354d0"
+    },
+    {
+      "route": "/tags/berachain",
+      "file": "tags/berachain/index.html",
+      "mediaType": "text/html; charset=utf-8",
+      "bytes": 27721,
+      "digest": "sha256:1c79f4f7ea0dc02c1d32ad0bbc9f8035777a8bcfe4584cfdf5de32591aec64c0"
+    },
+    {
+      "route": "/tags/berachain.json",
+      "file": "tags/berachain.json",
+      "mediaType": "application/json; charset=utf-8",
+      "bytes": 636,
+      "digest": "sha256:140fe3f23a7c28388fbb9c85a14cebc1961db89cc667ec4efd483ebc91409478"
+    },
+    {
+      "route": "/tags/binance-smart-chain",
+      "file": "tags/binance-smart-chain/index.html",
+      "mediaType": "text/html; charset=utf-8",
+      "bytes": 27881,
+      "digest": "sha256:a4d141f2e99be9f8399448b23c832cf66a1e219c7bcda97b17f90e63577a3d1d"
+    },
+    {
+      "route": "/tags/binance-smart-chain.json",
+      "file": "tags/binance-smart-chain.json",
+      "mediaType": "application/json; charset=utf-8",
+      "bytes": 696,
+      "digest": "sha256:46a49409cbe1bfa51b91b7528452664715b8367e44c2daf250103264a86072e6"
+    },
+    {
+      "route": "/tags/bitcoin",
+      "file": "tags/bitcoin/index.html",
+      "mediaType": "text/html; charset=utf-8",
+      "bytes": 28752,
+      "digest": "sha256:dff55427435979cb89a9586dae8f662fd54551cceb1ad1fbf61ac93417799cb9"
+    },
+    {
+      "route": "/tags/bitcoin.json",
+      "file": "tags/bitcoin.json",
+      "mediaType": "application/json; charset=utf-8",
+      "bytes": 624,
+      "digest": "sha256:da303e86243c3e9050c680d117b674b7982a16e81c89b19c6dc13d20d19d898c"
+    },
+    {
+      "route": "/tags/bnb",
+      "file": "tags/bnb/index.html",
+      "mediaType": "text/html; charset=utf-8",
+      "bytes": 27624,
+      "digest": "sha256:1dd0c6370ba1b2e8d3d365ba26fe999b843cb009f20e9ff7ad6b3edc9b8719e3"
+    },
+    {
+      "route": "/tags/bnb.json",
+      "file": "tags/bnb.json",
+      "mediaType": "application/json; charset=utf-8",
+      "bytes": 604,
+      "digest": "sha256:ac919931586b1f2e7cb5928c5860b034953bd2c3e96e95cfe34def5e26b83f60"
+    },
+    {
+      "route": "/tags/bond-markets",
+      "file": "tags/bond-markets/index.html",
+      "mediaType": "text/html; charset=utf-8",
+      "bytes": 27875,
+      "digest": "sha256:09518ae409249f0dd62ff2c70db8c95d13124b716a9d78087e04f02d46c73b45"
+    },
+    {
+      "route": "/tags/bond-markets.json",
+      "file": "tags/bond-markets.json",
+      "mediaType": "application/json; charset=utf-8",
+      "bytes": 654,
+      "digest": "sha256:ca46aac1a47b1bcd8fb6384c90bf75ed576fae40e32669c9b213ac469ea02987"
+    },
+    {
+      "route": "/tags/bybit",
+      "file": "tags/bybit/index.html",
+      "mediaType": "text/html; charset=utf-8",
+      "bytes": 27666,
+      "digest": "sha256:3f4e57c965a2e9b5acbf0981e733e67f6ae0cd11fee7696c1823ab5ae688b3e3"
+    },
+    {
+      "route": "/tags/bybit.json",
+      "file": "tags/bybit.json",
+      "mediaType": "application/json; charset=utf-8",
+      "bytes": 612,
+      "digest": "sha256:853b9cd5b42f37c78a34d7a14774c9a5f47a199b8bdd218007a1286fe93e9d77"
+    },
+    {
+      "route": "/tags/central-bank-interest-rates",
+      "file": "tags/central-bank-interest-rates/index.html",
+      "mediaType": "text/html; charset=utf-8",
+      "bytes": 28077,
+      "digest": "sha256:9530acc1c518982c04dc34e27e784d7859539d4e16be4505da14e4439cc62434"
+    },
+    {
+      "route": "/tags/central-bank-interest-rates.json",
+      "file": "tags/central-bank-interest-rates.json",
+      "mediaType": "application/json; charset=utf-8",
+      "bytes": 744,
+      "digest": "sha256:3a09c8e4302f6bc83cd6427a9d27b80e7c76d4ba206a8456929bd313ab1c7640"
+    },
+    {
+      "route": "/tags/charles-schwab",
+      "file": "tags/charles-schwab/index.html",
+      "mediaType": "text/html; charset=utf-8",
+      "bytes": 27767,
+      "digest": "sha256:3c0413e121e68f395f300483460c674ce9e8a5dc792f645ddcac04deadf2d6ac"
+    },
+    {
+      "route": "/tags/charles-schwab.json",
+      "file": "tags/charles-schwab.json",
+      "mediaType": "application/json; charset=utf-8",
+      "bytes": 666,
+      "digest": "sha256:c87513fad3a1a69a5f7522cd5fafff61b6961f4b5d9d57c276ca70fdc727d1b9"
+    },
+    {
+      "route": "/tags/climate-adaptation",
+      "file": "tags/climate-adaptation/index.html",
+      "mediaType": "text/html; charset=utf-8",
+      "bytes": 29134,
+      "digest": "sha256:48dad766c2a966000fa737d3db2d080e2f7ddbbda9db7bf832f9c6c885cdda5c"
+    },
+    {
+      "route": "/tags/climate-adaptation.json",
+      "file": "tags/climate-adaptation.json",
+      "mediaType": "application/json; charset=utf-8",
+      "bytes": 690,
+      "digest": "sha256:636e1a259a33927eeeb4a294d169e4fdd9c012834a899076cd472a2f959793c1"
+    },
+    {
+      "route": "/tags/climate-breakdown",
+      "file": "tags/climate-breakdown/index.html",
+      "mediaType": "text/html; charset=utf-8",
+      "bytes": 32560,
+      "digest": "sha256:6f7949b6eedc3ab25d4f7532832b127ad18f45b6c1f74f97376491e9e11cecd3"
+    },
+    {
+      "route": "/tags/climate-breakdown.json",
+      "file": "tags/climate-breakdown.json",
+      "mediaType": "application/json; charset=utf-8",
+      "bytes": 967,
+      "digest": "sha256:6248e3f5e8382cd30aa4b667f6c0d172db7ced4b20b4a0cd2ffc02473e0a0821"
+    },
+    {
+      "route": "/tags/climate-change",
+      "file": "tags/climate-change/index.html",
+      "mediaType": "text/html; charset=utf-8",
+      "bytes": 29286,
+      "digest": "sha256:eb2fc2e0074a6c570f221a0772b58c03d6422b0cfc13defa6145d72336662af5"
+    },
+    {
+      "route": "/tags/climate-change.json",
+      "file": "tags/climate-change.json",
+      "mediaType": "application/json; charset=utf-8",
+      "bytes": 666,
+      "digest": "sha256:61ad613bc5ba4141193c74aa5ffb7e0e37208d033eec62bcada5f4991405dea0"
+    },
+    {
+      "route": "/tags/climate-collapse",
+      "file": "tags/climate-collapse/index.html",
+      "mediaType": "text/html; charset=utf-8",
+      "bytes": 30129,
+      "digest": "sha256:24d2c61184e8a71d4e308202e8a3b2382a1c27702b86e42ca205aa9b87101572"
+    },
+    {
+      "route": "/tags/climate-collapse.json",
+      "file": "tags/climate-collapse.json",
+      "mediaType": "application/json; charset=utf-8",
+      "bytes": 678,
+      "digest": "sha256:a854f6d15027cf3c17d59595483c4a14b202057e20a8ee39a7c5f747169c5485"
+    },
+    {
+      "route": "/tags/climate-economics",
+      "file": "tags/climate-economics/index.html",
+      "mediaType": "text/html; charset=utf-8",
+      "bytes": 28007,
+      "digest": "sha256:189f13fc195b0ac72a73b91e232ca06812bbce52bf6f1f15a359ed52d7dc7588"
+    },
+    {
+      "route": "/tags/climate-economics.json",
+      "file": "tags/climate-economics.json",
+      "mediaType": "application/json; charset=utf-8",
+      "bytes": 684,
+      "digest": "sha256:b04594912b8e7559254ff0ed28c9fd09a92b1e481e117e80bd21973f606c7fb2"
+    },
+    {
+      "route": "/tags/climate-migration",
+      "file": "tags/climate-migration/index.html",
+      "mediaType": "text/html; charset=utf-8",
+      "bytes": 29054,
+      "digest": "sha256:577db7f66b22ed3b39c8861943731be68881aa5db0ead36cb76b16dba6ddf2cd"
+    },
+    {
+      "route": "/tags/climate-migration.json",
+      "file": "tags/climate-migration.json",
+      "mediaType": "application/json; charset=utf-8",
+      "bytes": 721,
+      "digest": "sha256:f639d9cdbde12778bc0c1140a4741356ea1494bd921fdbe2dbdca2fbf3eedea0"
+    },
+    {
+      "route": "/tags/climate-silence",
+      "file": "tags/climate-silence/index.html",
+      "mediaType": "text/html; charset=utf-8",
+      "bytes": 28021,
+      "digest": "sha256:0bb3e4a2886b904aaf022db6bb7036c8ebd756ab9e39e00a8145f1e71b72b94f"
+    },
+    {
+      "route": "/tags/climate-silence.json",
+      "file": "tags/climate-silence.json",
+      "mediaType": "application/json; charset=utf-8",
+      "bytes": 672,
+      "digest": "sha256:7491b31f36579b0e57472a7d0dfe4cf9d1e5207d8a30421db831723ef25684c8"
+    },
+    {
+      "route": "/tags/coal",
+      "file": "tags/coal/index.html",
+      "mediaType": "text/html; charset=utf-8",
+      "bytes": 27628,
+      "digest": "sha256:b141a4c6ba689cb6c076df709f1a034ba6678aad064007c1f174f84e8a50d84d"
+    },
+    {
+      "route": "/tags/coal.json",
+      "file": "tags/coal.json",
+      "mediaType": "application/json; charset=utf-8",
+      "bytes": 606,
+      "digest": "sha256:ed5a2bc80b1be177de7bcf77e8b420c07f59573108a9c0ce1e4372bcfe2f3c2a"
+    },
+    {
+      "route": "/tags/computational-efficiency",
+      "file": "tags/computational-efficiency/index.html",
+      "mediaType": "text/html; charset=utf-8",
+      "bytes": 28097,
+      "digest": "sha256:06150ca0e67895b74b8a627525813756ad210798fa4387784a90a7fde900e999"
+    },
+    {
+      "route": "/tags/computational-efficiency.json",
+      "file": "tags/computational-efficiency.json",
+      "mediaType": "application/json; charset=utf-8",
+      "bytes": 726,
+      "digest": "sha256:a4fb020b42f2a3aafa72d3edec071b368c8a436d834d90a46b1b356d4fa05e36"
+    },
+    {
+      "route": "/tags/compute",
+      "file": "tags/compute/index.html",
+      "mediaType": "text/html; charset=utf-8",
+      "bytes": 27695,
+      "digest": "sha256:939f1e246793411ad65039b8b8cf7b8d5fb5907611f264a8f16e5ba7c8236ada"
+    },
+    {
+      "route": "/tags/compute.json",
+      "file": "tags/compute.json",
+      "mediaType": "application/json; charset=utf-8",
+      "bytes": 624,
+      "digest": "sha256:b3a3a149b88c46e17cafdec8bfa55f1fc406d0963c681288f3f4ddcb29e8c4d8"
+    },
+    {
+      "route": "/tags/crop-failure-food-prices",
+      "file": "tags/crop-failure-food-prices/index.html",
+      "mediaType": "text/html; charset=utf-8",
+      "bytes": 27989,
+      "digest": "sha256:957d9eefeed4c610030fe95fd87720021c96177ed59c3eb334714e129602337b"
+    },
+    {
+      "route": "/tags/crop-failure-food-prices.json",
+      "file": "tags/crop-failure-food-prices.json",
+      "mediaType": "application/json; charset=utf-8",
+      "bytes": 726,
+      "digest": "sha256:7be571ea71c36de684477b9be2ba065c443aace9d02f49b02a20219df4296576"
+    },
+    {
+      "route": "/tags/cultural-heritage",
+      "file": "tags/cultural-heritage/index.html",
+      "mediaType": "text/html; charset=utf-8",
+      "bytes": 27865,
+      "digest": "sha256:56e28a56a5fafd2982ad70d58b417264b089d60cd09466111c85b50cb3303820"
+    },
+    {
+      "route": "/tags/cultural-heritage.json",
+      "file": "tags/cultural-heritage.json",
+      "mediaType": "application/json; charset=utf-8",
+      "bytes": 684,
+      "digest": "sha256:f44e46c7272e561614c763947ed903233151aab3561450467d2c345f795acb12"
+    },
+    {
+      "route": "/tags/cyclone",
+      "file": "tags/cyclone/index.html",
+      "mediaType": "text/html; charset=utf-8",
+      "bytes": 27855,
+      "digest": "sha256:967862b883586ab7f1fb03140d53441f832b262dea8171b3a94942cd8d5968a1"
+    },
+    {
+      "route": "/tags/cyclone.json",
+      "file": "tags/cyclone.json",
+      "mediaType": "application/json; charset=utf-8",
+      "bytes": 624,
+      "digest": "sha256:9fdb30c54fe621e95ca30c87e4074a487aa1ae6bce3391706dd37a0cb1f46fae"
+    },
+    {
+      "route": "/tags/data-center-water-use",
+      "file": "tags/data-center-water-use/index.html",
+      "mediaType": "text/html; charset=utf-8",
+      "bytes": 28297,
+      "digest": "sha256:c855a0cf18df23386e97d66e8cd7fdb91a0485ce0c3d7ae85cdd21d7b7114251"
+    },
+    {
+      "route": "/tags/data-center-water-use.json",
+      "file": "tags/data-center-water-use.json",
+      "mediaType": "application/json; charset=utf-8",
+      "bytes": 731,
+      "digest": "sha256:79a8cf2a3bc81a1076d0ae152222fa4e5e3e9caa2fa35f2c63486b72023c9ac3"
+    },
+    {
+      "route": "/tags/data-centers",
+      "file": "tags/data-centers/index.html",
+      "mediaType": "text/html; charset=utf-8",
+      "bytes": 27780,
+      "digest": "sha256:8d73e5c79fd8081a1fc206a1c07331628136676240c114f2c298ad71ddf4c8f3"
+    },
+    {
+      "route": "/tags/data-centers.json",
+      "file": "tags/data-centers.json",
+      "mediaType": "application/json; charset=utf-8",
+      "bytes": 654,
+      "digest": "sha256:e7770d5d96c16ce4a3beb8f0eb72b1506aa406f5830830cbb29b9f64a7e54c6c"
+    },
+    {
+      "route": "/tags/dave-portnoy",
+      "file": "tags/dave-portnoy/index.html",
+      "mediaType": "text/html; charset=utf-8",
+      "bytes": 27783,
+      "digest": "sha256:238e6b605b60be8162b6f9b9a30d97d3904459254d60f845f169e3b4ffa5088e"
+    },
+    {
+      "route": "/tags/dave-portnoy.json",
+      "file": "tags/dave-portnoy.json",
+      "mediaType": "application/json; charset=utf-8",
+      "bytes": 654,
+      "digest": "sha256:6660726c9f5be8c0c26510c48f045814ec4ea964519ea21f6876d561caf904a9"
+    },
+    {
+      "route": "/tags/defai",
+      "file": "tags/defai/index.html",
+      "mediaType": "text/html; charset=utf-8",
+      "bytes": 29746,
+      "digest": "sha256:79a213baf3ac9d99a3aa0a94bd8bbf7cf66cced0e934b89981285e28c88dc267"
+    },
+    {
+      "route": "/tags/defai.json",
+      "file": "tags/defai.json",
+      "mediaType": "application/json; charset=utf-8",
+      "bytes": 612,
+      "digest": "sha256:ebfe7e8cd9ccec8a7cb15d6d9e4b28f2cf61c88d20b86bf197c6b0e24791047c"
+    },
+    {
+      "route": "/tags/defi",
+      "file": "tags/defi/index.html",
+      "mediaType": "text/html; charset=utf-8",
+      "bytes": 32165,
+      "digest": "sha256:7678390b47a38608b9f9207fe5d271f019500e92a97eb075d89763f393968a05"
+    },
+    {
+      "route": "/tags/defi.json",
+      "file": "tags/defi.json",
+      "mediaType": "application/json; charset=utf-8",
+      "bytes": 874,
+      "digest": "sha256:d25a2db74154f9078de3a902a70700a3ba85ca4772486f00a878cf8e1df250c7"
+    },
+    {
+      "route": "/tags/democratic-party",
+      "file": "tags/democratic-party/index.html",
+      "mediaType": "text/html; charset=utf-8",
+      "bytes": 28038,
+      "digest": "sha256:2611285e560dfc9860bec4cfc4d54175eb6cd522dbb3d1079803756ea2107e7a"
+    },
+    {
+      "route": "/tags/democratic-party.json",
+      "file": "tags/democratic-party.json",
+      "mediaType": "application/json; charset=utf-8",
+      "bytes": 678,
+      "digest": "sha256:fb1ae11d39448e9d8de0879d577924d07a163cb5d7fc03954cca006ea93ceeda"
+    },
+    {
+      "route": "/tags/earn",
+      "file": "tags/earn/index.html",
+      "mediaType": "text/html; charset=utf-8",
+      "bytes": 28524,
+      "digest": "sha256:afabd39ee26cc7400203348c26ac73960f5b227e7c3313febc09eb43a7a6838e"
+    },
+    {
+      "route": "/tags/earn.json",
+      "file": "tags/earn.json",
+      "mediaType": "application/json; charset=utf-8",
+      "bytes": 606,
+      "digest": "sha256:86711d465573950005498100506503d786bbfd0e5f359b882c63d3f6e64cbdc5"
+    },
+    {
+      "route": "/tags/ecb-interest-rate",
+      "file": "tags/ecb-interest-rate/index.html",
+      "mediaType": "text/html; charset=utf-8",
+      "bytes": 27907,
+      "digest": "sha256:7fe3e2f85868d9625191a9b3f0586e2b3be003de5984f8b8f191702266210d29"
+    },
+    {
+      "route": "/tags/ecb-interest-rate.json",
+      "file": "tags/ecb-interest-rate.json",
+      "mediaType": "application/json; charset=utf-8",
+      "bytes": 684,
+      "digest": "sha256:24896b79e11bc314296ce53bc12a1cce046510c54a41b09bbc5f099dcd85976b"
+    },
+    {
+      "route": "/tags/economic-collapse",
+      "file": "tags/economic-collapse/index.html",
+      "mediaType": "text/html; charset=utf-8",
+      "bytes": 28034,
+      "digest": "sha256:89b4d5283f210dd24959442ce14a34e21b06b0f89b18e9ce9611cf2895926b5d"
+    },
+    {
+      "route": "/tags/economic-collapse.json",
+      "file": "tags/economic-collapse.json",
+      "mediaType": "application/json; charset=utf-8",
+      "bytes": 684,
+      "digest": "sha256:8e86eebb65575fd99c2849e0ba175c79c2703c6d7649b7329511b9d1710c2af3"
+    },
+    {
+      "route": "/tags/economics",
+      "file": "tags/economics/index.html",
+      "mediaType": "text/html; charset=utf-8",
+      "bytes": 28163,
+      "digest": "sha256:902dd161a1ca35cada6e902a40fe7bc4b16cb586c7eab600fc50bd1e844defda"
+    },
+    {
+      "route": "/tags/economics.json",
+      "file": "tags/economics.json",
+      "mediaType": "application/json; charset=utf-8",
+      "bytes": 659,
+      "digest": "sha256:eeec878713c5e5bb30258b03f9664d6c99cb65ce869661fa6ed180127154e434"
+    },
+    {
+      "route": "/tags/economy",
+      "file": "tags/economy/index.html",
+      "mediaType": "text/html; charset=utf-8",
+      "bytes": 27974,
+      "digest": "sha256:7745b16adac24be06ed6301b22e070af895178ae1bc75491904ad967b218a53e"
+    },
+    {
+      "route": "/tags/economy.json",
+      "file": "tags/economy.json",
+      "mediaType": "application/json; charset=utf-8",
+      "bytes": 961,
+      "digest": "sha256:17476437e7d523941f2a423198ddd02a0112350007709647940b0fa8c8adfcaa"
+    },
+    {
+      "route": "/tags/electoral-strategy",
+      "file": "tags/electoral-strategy/index.html",
+      "mediaType": "text/html; charset=utf-8",
+      "bytes": 28072,
+      "digest": "sha256:93ef8b38d83af775c6d82dd59d4401df388fce041c1ebdc11968f5e9facdb6ef"
+    },
+    {
+      "route": "/tags/electoral-strategy.json",
+      "file": "tags/electoral-strategy.json",
+      "mediaType": "application/json; charset=utf-8",
+      "bytes": 690,
+      "digest": "sha256:9120f0ebc9ce88e7460d17d7988b7656d7d3f91e8e7a2f879e8c998d716dd237"
+    },
+    {
+      "route": "/tags/electricity",
+      "file": "tags/electricity/index.html",
+      "mediaType": "text/html; charset=utf-8",
+      "bytes": 27747,
+      "digest": "sha256:7d6313be9e9d587a1ce3f74c7398f311f79ac5d7832995e1df2641bae9463ddb"
+    },
+    {
+      "route": "/tags/electricity.json",
+      "file": "tags/electricity.json",
+      "mediaType": "application/json; charset=utf-8",
+      "bytes": 648,
+      "digest": "sha256:9e4d38304eaa917edaf4ba1eb6198464926dac7d83b8029153a5886f055bee8c"
+    },
+    {
+      "route": "/tags/energy",
+      "file": "tags/energy/index.html",
+      "mediaType": "text/html; charset=utf-8",
+      "bytes": 27790,
+      "digest": "sha256:03311cd178f3294bd7f71eefab68fc7294498aaef5804c37281db9ce424d5fcf"
+    },
+    {
+      "route": "/tags/energy-consumption",
+      "file": "tags/energy-consumption/index.html",
+      "mediaType": "text/html; charset=utf-8",
+      "bytes": 27982,
+      "digest": "sha256:36a45719331580a7c41856fa46e77951f2fc47bf21f2e94c313832d2b1751861"
+    },
+    {
+      "route": "/tags/energy-consumption.json",
+      "file": "tags/energy-consumption.json",
+      "mediaType": "application/json; charset=utf-8",
+      "bytes": 690,
+      "digest": "sha256:08ee1b48d2883b4e44f81065a6de20853a736790e4f28719043b7a5afa41a138"
+    },
+    {
+      "route": "/tags/energy-crisis",
+      "file": "tags/energy-crisis/index.html",
+      "mediaType": "text/html; charset=utf-8",
+      "bytes": 30095,
+      "digest": "sha256:b594e3952c4c638d6899783ab7aeea4d57350ef800246161579d44b2b65a5ba1"
+    },
+    {
+      "route": "/tags/energy-crisis.json",
+      "file": "tags/energy-crisis.json",
+      "mediaType": "application/json; charset=utf-8",
+      "bytes": 660,
+      "digest": "sha256:08225edb4173088f4a28b647459898b771805785d7d79baa94e8d447e2423405"
+    },
+    {
+      "route": "/tags/energy-grid",
+      "file": "tags/energy-grid/index.html",
+      "mediaType": "text/html; charset=utf-8",
+      "bytes": 27869,
+      "digest": "sha256:0af1eb863328d4ad7a96a73402d13a5800b3add81d961e1cc3a213301cdc2ff6"
+    },
+    {
+      "route": "/tags/energy-grid.json",
+      "file": "tags/energy-grid.json",
+      "mediaType": "application/json; charset=utf-8",
+      "bytes": 648,
+      "digest": "sha256:f5ef8fc466d2e046998fb4c82919f5cfa3e586ab1adac8b3c52ed014a2b000e9"
+    },
+    {
+      "route": "/tags/energy-transition",
+      "file": "tags/energy-transition/index.html",
+      "mediaType": "text/html; charset=utf-8",
+      "bytes": 27849,
+      "digest": "sha256:d27dbbf7a6bc62daa972ec53295e7612eb7b5b98932241680178788b41777112"
+    },
+    {
+      "route": "/tags/energy-transition.json",
+      "file": "tags/energy-transition.json",
+      "mediaType": "application/json; charset=utf-8",
+      "bytes": 684,
+      "digest": "sha256:4679f4dfcfd21d368eeedb8ade27fc3243e4caf94dd42a2aeb8e9f9f345aea1b"
+    },
+    {
+      "route": "/tags/energy.json",
+      "file": "tags/energy.json",
+      "mediaType": "application/json; charset=utf-8",
+      "bytes": 678,
+      "digest": "sha256:587e068c435ca43c36e4fe59581554cab9f3542fb8b671957768c095ec76164d"
+    },
+    {
+      "route": "/tags/environmental-disasters",
+      "file": "tags/environmental-disasters/index.html",
+      "mediaType": "text/html; charset=utf-8",
+      "bytes": 28104,
+      "digest": "sha256:0a110056518669066ba85e4fd67168cf373076dfc66c309d8332033e9ca9e444"
+    },
+    {
+      "route": "/tags/environmental-disasters.json",
+      "file": "tags/environmental-disasters.json",
+      "mediaType": "application/json; charset=utf-8",
+      "bytes": 720,
+      "digest": "sha256:b47991241b7fd31df0d06f065ca08887265f1e1baa375ce20fbaca1338d51a99"
+    },
+    {
+      "route": "/tags/etf",
+      "file": "tags/etf/index.html",
+      "mediaType": "text/html; charset=utf-8",
+      "bytes": 28623,
+      "digest": "sha256:64093505236188b3d71b31c0cb32ff615c23399870222298ec0901d2d9af5c8c"
+    },
+    {
+      "route": "/tags/etf.json",
+      "file": "tags/etf.json",
+      "mediaType": "application/json; charset=utf-8",
+      "bytes": 600,
+      "digest": "sha256:b12674ad2d8f68baf9a6d9b4c8984b7d22a9af7e501172019fa5a93e2a8ec3c6"
+    },
+    {
+      "route": "/tags/ethereum",
+      "file": "tags/ethereum/index.html",
+      "mediaType": "text/html; charset=utf-8",
+      "bytes": 29605,
+      "digest": "sha256:05f40a1bce31d4801c57508d6d1f0aaf6f5b98e4ce31fb0b62ed1c34392a4c43"
+    },
+    {
+      "route": "/tags/ethereum.json",
+      "file": "tags/ethereum.json",
+      "mediaType": "application/json; charset=utf-8",
+      "bytes": 630,
+      "digest": "sha256:4cad7c9de248909e804a273499a208e59e5850f190e4aef51647692e2ab238a7"
+    },
+    {
+      "route": "/tags/euler-finance",
+      "file": "tags/euler-finance/index.html",
+      "mediaType": "text/html; charset=utf-8",
+      "bytes": 27895,
+      "digest": "sha256:c4994ca50be85288239fcd3bbe1197a27d8024c3806298510f66b20b357c45ac"
+    },
+    {
+      "route": "/tags/euler-finance.json",
+      "file": "tags/euler-finance.json",
+      "mediaType": "application/json; charset=utf-8",
+      "bytes": 660,
+      "digest": "sha256:eb7ce45d9165414658831744273c55e7cc68e4f445588bf76641da4b3f846637"
+    },
+    {
+      "route": "/tags/european-central-bank",
+      "file": "tags/european-central-bank/index.html",
+      "mediaType": "text/html; charset=utf-8",
+      "bytes": 27975,
+      "digest": "sha256:65879778b2d422409245ec5dbe0c455c6256ba86955f585bcd1d643187183e99"
+    },
+    {
+      "route": "/tags/european-central-bank.json",
+      "file": "tags/european-central-bank.json",
+      "mediaType": "application/json; charset=utf-8",
+      "bytes": 708,
+      "digest": "sha256:32d97d119268b7effc1da2373669bc85d413bbfd91fb4501fb5216ffedde5331"
+    },
+    {
+      "route": "/tags/extra-finance",
+      "file": "tags/extra-finance/index.html",
+      "mediaType": "text/html; charset=utf-8",
+      "bytes": 27857,
+      "digest": "sha256:b21ef8d2c32d1af0c4e1e3e26c963d7117b15c4ce3677c7a0bf30a8047918998"
+    },
+    {
+      "route": "/tags/extra-finance.json",
+      "file": "tags/extra-finance.json",
+      "mediaType": "application/json; charset=utf-8",
+      "bytes": 660,
+      "digest": "sha256:9c7c54176c43c6b70a4457310c9b3f519e54428227d096afbe51dd8d1310f291"
+    },
+    {
+      "route": "/tags/extreme-weather",
+      "file": "tags/extreme-weather/index.html",
+      "mediaType": "text/html; charset=utf-8",
+      "bytes": 28934,
+      "digest": "sha256:2d70883db6767cb780e80d1eb82051150638aa986e07dbbb5e10d68d417baa46"
+    },
+    {
+      "route": "/tags/extreme-weather.json",
+      "file": "tags/extreme-weather.json",
+      "mediaType": "application/json; charset=utf-8",
+      "bytes": 672,
+      "digest": "sha256:e71e7aa51da825d64e18d83118579bf820a2c11450cbbef86881c0cb1bed1d41"
+    },
+    {
+      "route": "/tags/extremism",
+      "file": "tags/extremism/index.html",
+      "mediaType": "text/html; charset=utf-8",
+      "bytes": 27939,
+      "digest": "sha256:fbc3f109450127a588f018be04997e6b5268c5c9c7d468a85fd3468fce272f18"
+    },
+    {
+      "route": "/tags/extremism.json",
+      "file": "tags/extremism.json",
+      "mediaType": "application/json; charset=utf-8",
+      "bytes": 661,
+      "digest": "sha256:8ecfce2fd7170e1a8c10113f922c5cd8eca3b94706287e510b58cb11aa78133a"
+    },
+    {
+      "route": "/tags/fas",
+      "file": "tags/fas/index.html",
+      "mediaType": "text/html; charset=utf-8",
+      "bytes": 27723,
+      "digest": "sha256:d42f0e13ad3528740e118bfe39ab0bc0189ccdbbe92cc0ec0d5ec54966e4af35"
+    },
+    {
+      "route": "/tags/fas.json",
+      "file": "tags/fas.json",
+      "mediaType": "application/json; charset=utf-8",
+      "bytes": 604,
+      "digest": "sha256:fad57808d0aa27a87657999380e7f1d2a5d8f4733e2e2117b24430c3825cded0"
+    },
+    {
+      "route": "/tags/figures-market",
+      "file": "tags/figures-market/index.html",
+      "mediaType": "text/html; charset=utf-8",
+      "bytes": 27850,
+      "digest": "sha256:f15d58a08d3703ae1bafa1f18d56b0dcfdc4ab7be50d7daf2493500def21a985"
+    },
+    {
+      "route": "/tags/figures-market.json",
+      "file": "tags/figures-market.json",
+      "mediaType": "application/json; charset=utf-8",
+      "bytes": 666,
+      "digest": "sha256:c646e32d1e914063560970c48505e47c7f3cf4c6d4a6bef6971a30c6e70fc9fe"
+    },
+    {
+      "route": "/tags/food-security",
+      "file": "tags/food-security/index.html",
+      "mediaType": "text/html; charset=utf-8",
+      "bytes": 27939,
+      "digest": "sha256:6a891f6c8971b8e122cfe514c631fc5317984a1f62fde90d888fa8cb558dd4df"
+    },
+    {
+      "route": "/tags/food-security.json",
+      "file": "tags/food-security.json",
+      "mediaType": "application/json; charset=utf-8",
+      "bytes": 660,
+      "digest": "sha256:d8b844303ad15d6f79b4e70e66b375c4bf9caa9006bad80865f67e7edc94afb0"
+    },
+    {
+      "route": "/tags/food-systems",
+      "file": "tags/food-systems/index.html",
+      "mediaType": "text/html; charset=utf-8",
+      "bytes": 27806,
+      "digest": "sha256:959ed1a19ae72b945a93ea22fd6e03e960ec61c0ddbe3b31f95b0857f784451b"
+    },
+    {
+      "route": "/tags/food-systems.json",
+      "file": "tags/food-systems.json",
+      "mediaType": "application/json; charset=utf-8",
+      "bytes": 654,
+      "digest": "sha256:22e9685919d072aa1ec018c7e6cc59ab3f3bb2f223d8635e2d504eccf475e661"
+    },
+    {
+      "route": "/tags/fossil-fuels",
+      "file": "tags/fossil-fuels/index.html",
+      "mediaType": "text/html; charset=utf-8",
+      "bytes": 27797,
+      "digest": "sha256:7449a262aea456a282599066fb6ef708b1b774a51cd3df39712fd385b4e9a367"
+    },
+    {
+      "route": "/tags/fossil-fuels.json",
+      "file": "tags/fossil-fuels.json",
+      "mediaType": "application/json; charset=utf-8",
+      "bytes": 654,
+      "digest": "sha256:3093258bb2d842e31022c8ac6e10b1ff31911ce6c9a5e6e9a070208c5f0b2506"
+    },
+    {
+      "route": "/tags/ftx",
+      "file": "tags/ftx/index.html",
+      "mediaType": "text/html; charset=utf-8",
+      "bytes": 27641,
+      "digest": "sha256:19e7c53bab1df7f5c4f9e87ee4d48bb93cc52a355c6f39fe589da5ee022a63f5"
+    },
+    {
+      "route": "/tags/ftx.json",
+      "file": "tags/ftx.json",
+      "mediaType": "application/json; charset=utf-8",
+      "bytes": 600,
+      "digest": "sha256:04b056dadb16c5a9f785271f84a22344dbbed8702c59a11528cccf4b601cf08b"
+    },
+    {
+      "route": "/tags/germany",
+      "file": "tags/germany/index.html",
+      "mediaType": "text/html; charset=utf-8",
+      "bytes": 27737,
+      "digest": "sha256:54939d2ed8629c9c64cc1a33fbe3cebdef2611361b067daa72f34a569a7abdfc"
+    },
+    {
+      "route": "/tags/germany.json",
+      "file": "tags/germany.json",
+      "mediaType": "application/json; charset=utf-8",
+      "bytes": 624,
+      "digest": "sha256:9192974ec75dde9a7238ecfe9988db04398752fe02999ed20b034e13138d68a7"
+    },
+    {
+      "route": "/tags/glaciers",
+      "file": "tags/glaciers/index.html",
+      "mediaType": "text/html; charset=utf-8",
+      "bytes": 27723,
+      "digest": "sha256:317ee88d1e2be2fa4bd162dc498b1e20cec53195962275b285839f1cd21b234b"
+    },
+    {
+      "route": "/tags/glaciers.json",
+      "file": "tags/glaciers.json",
+      "mediaType": "application/json; charset=utf-8",
+      "bytes": 630,
+      "digest": "sha256:b96bbe509f209b6ef36ad675881b50ac1f395af197f74c0576c5357db0685b7c"
+    },
+    {
+      "route": "/tags/global-markets",
+      "file": "tags/global-markets/index.html",
+      "mediaType": "text/html; charset=utf-8",
+      "bytes": 28183,
+      "digest": "sha256:29c38380f9fbf3964b5ea82843bd949a3fc6ff493fd9240f7b1799a7c7eaf4ce"
+    },
+    {
+      "route": "/tags/global-markets.json",
+      "file": "tags/global-markets.json",
+      "mediaType": "application/json; charset=utf-8",
+      "bytes": 666,
+      "digest": "sha256:00f0cddf6c001857524ebf4542d6bff0298ff7d86883976f3a72f0af694951cf"
+    },
+    {
+      "route": "/tags/global-south",
+      "file": "tags/global-south/index.html",
+      "mediaType": "text/html; charset=utf-8",
+      "bytes": 28155,
+      "digest": "sha256:3b893cc11d6989d2de75ac3e78885605c487be1ec98a81b60ef403149331369a"
+    },
+    {
+      "route": "/tags/global-south.json",
+      "file": "tags/global-south.json",
+      "mediaType": "application/json; charset=utf-8",
+      "bytes": 725,
+      "digest": "sha256:f606d11feec27bfa3c17d7a39e3712b8b9d7022dbdcd24689d9ac91574847288"
+    },
+    {
+      "route": "/tags/gnosis",
+      "file": "tags/gnosis/index.html",
+      "mediaType": "text/html; charset=utf-8",
+      "bytes": 27614,
+      "digest": "sha256:a64b65246dff4d055f81fdb697d0ae14d6699a438404fc68be7f878041ad555b"
+    },
+    {
+      "route": "/tags/gnosis.json",
+      "file": "tags/gnosis.json",
+      "mediaType": "application/json; charset=utf-8",
+      "bytes": 618,
+      "digest": "sha256:79c1fb013a34e518bbd370dc014a2ba5a52a5a3eb692667a704b3f4eb384a088"
+    },
+    {
+      "route": "/tags/gnosisdao",
+      "file": "tags/gnosisdao/index.html",
+      "mediaType": "text/html; charset=utf-8",
+      "bytes": 27665,
+      "digest": "sha256:0575cdc76b0dc4ab004768029faa056115f7995cc7d79cdb41c1484dace55db7"
+    },
+    {
+      "route": "/tags/gnosisdao.json",
+      "file": "tags/gnosisdao.json",
+      "mediaType": "application/json; charset=utf-8",
+      "bytes": 636,
+      "digest": "sha256:8a28687f2708c607ead739386097065aff9cbb3e046aefdf16132ec428c0d811"
+    },
+    {
+      "route": "/tags/grayscale",
+      "file": "tags/grayscale/index.html",
+      "mediaType": "text/html; charset=utf-8",
+      "bytes": 27742,
+      "digest": "sha256:ab7b3a007c516de26178f9c992c2f4b4925b189f5dd87f20bb2996151f668540"
+    },
+    {
+      "route": "/tags/grayscale.json",
+      "file": "tags/grayscale.json",
+      "mediaType": "application/json; charset=utf-8",
+      "bytes": 636,
+      "digest": "sha256:8181e963cf437dc09d0536719686f5c0d6b1e9697d82d917ec8be869879f4ed5"
+    },
+    {
+      "route": "/tags/hack",
+      "file": "tags/hack/index.html",
+      "mediaType": "text/html; charset=utf-8",
+      "bytes": 27649,
+      "digest": "sha256:a185e726c7654c6e56ac0d4998ce95f8ee644cd4d2ff0cc31ad7aa182713a003"
+    },
+    {
+      "route": "/tags/hack.json",
+      "file": "tags/hack.json",
+      "mediaType": "application/json; charset=utf-8",
+      "bytes": 606,
+      "digest": "sha256:98cb16c16350ddfe36756e4a82325664363f5defae9a55568890526b5ca0f69e"
+    },
+    {
+      "route": "/tags/health-factor",
+      "file": "tags/health-factor/index.html",
+      "mediaType": "text/html; charset=utf-8",
+      "bytes": 27840,
+      "digest": "sha256:4dcdfaedc7e3f292702aedfb21eb6a7f74c7628bd6f1a37c08556db45db68935"
+    },
+    {
+      "route": "/tags/health-factor.json",
+      "file": "tags/health-factor.json",
+      "mediaType": "application/json; charset=utf-8",
+      "bytes": 660,
+      "digest": "sha256:e6c0c14fee9e1be6bf9d0f5b4b737dca248093e8ec8b53df1d3c1a8499031e3c"
+    },
+    {
+      "route": "/tags/heyanon",
+      "file": "tags/heyanon/index.html",
+      "mediaType": "text/html; charset=utf-8",
+      "bytes": 27712,
+      "digest": "sha256:a15587fa102e7149a750645df7b6fcc1c82aeac5818e4511944a286bf112e86c"
+    },
+    {
+      "route": "/tags/heyanon.json",
+      "file": "tags/heyanon.json",
+      "mediaType": "application/json; charset=utf-8",
+      "bytes": 624,
+      "digest": "sha256:a338e863d67aa71db4d9c66a979d2800590bdb4e894158e4e29c4a5c7e693a3d"
+    },
+    {
+      "route": "/tags/household-inflation",
+      "file": "tags/household-inflation/index.html",
+      "mediaType": "text/html; charset=utf-8",
+      "bytes": 28041,
+      "digest": "sha256:9b1a15fc4fe0364cb7a0c8dd81880353bb532c6d54f1a8b951111c733e3e7c39"
+    },
+    {
+      "route": "/tags/household-inflation.json",
+      "file": "tags/household-inflation.json",
+      "mediaType": "application/json; charset=utf-8",
+      "bytes": 696,
+      "digest": "sha256:b329124ae097aa5c599aa22068d2f3433fdc597b636f33be40aff3af11fa65d9"
+    },
+    {
+      "route": "/tags/housing",
+      "file": "tags/housing/index.html",
+      "mediaType": "text/html; charset=utf-8",
+      "bytes": 27936,
+      "digest": "sha256:b5f6cd2f4eb5735ed4ba07130e596a7535f925ed39c39e182112928287fb87ec"
+    },
+    {
+      "route": "/tags/housing.json",
+      "file": "tags/housing.json",
+      "mediaType": "application/json; charset=utf-8",
+      "bytes": 624,
+      "digest": "sha256:8af0cc080ac79af9f5a8a075ea34922adb875c7136085af828f783d82105fe99"
+    },
+    {
+      "route": "/tags/indigenous-rights",
+      "file": "tags/indigenous-rights/index.html",
+      "mediaType": "text/html; charset=utf-8",
+      "bytes": 28117,
+      "digest": "sha256:2c74d9a1a9184516db04768ed5a434131bb98b8ecc9dc38d84b935ff9e2a244a"
+    },
+    {
+      "route": "/tags/indigenous-rights.json",
+      "file": "tags/indigenous-rights.json",
+      "mediaType": "application/json; charset=utf-8",
+      "bytes": 684,
+      "digest": "sha256:6d1d12cfe4264dd15e81c32c89b5ecc090433c54e2cac425d9004ed09e4eb367"
+    },
+    {
+      "route": "/tags/inflation",
+      "file": "tags/inflation/index.html",
+      "mediaType": "text/html; charset=utf-8",
+      "bytes": 28098,
+      "digest": "sha256:612c8057f1c4484fb7c99fe8a276c52708c9561e4ce1a81f93195fc3e53e05ce"
+    },
+    {
+      "route": "/tags/inflation.json",
+      "file": "tags/inflation.json",
+      "mediaType": "application/json; charset=utf-8",
+      "bytes": 636,
+      "digest": "sha256:88eaf515b6a91f50b91b0c3259ec08527cea0c17b675a9d68cc99c414f450b67"
+    },
+    {
+      "route": "/tags/infrastructure",
+      "file": "tags/infrastructure/index.html",
+      "mediaType": "text/html; charset=utf-8",
+      "bytes": 29095,
+      "digest": "sha256:343bfae8e70857b75195d841237627966b6e1a478345069240e40e0c6bb5c8b0"
+    },
+    {
+      "route": "/tags/infrastructure.json",
+      "file": "tags/infrastructure.json",
+      "mediaType": "application/json; charset=utf-8",
+      "bytes": 755,
+      "digest": "sha256:b2cc47daca50c4ddd33f8e6e9ee0af68b6669cb968c9d68b1b0f422542ea2a6e"
+    },
+    {
+      "route": "/tags/insurance",
+      "file": "tags/insurance/index.html",
+      "mediaType": "text/html; charset=utf-8",
+      "bytes": 28047,
+      "digest": "sha256:1d58e92ce5a3a857afd0c7f63ef2c55310a9d6d303f8b1fece1c87103ee116f3"
+    },
+    {
+      "route": "/tags/insurance.json",
+      "file": "tags/insurance.json",
+      "mediaType": "application/json; charset=utf-8",
+      "bytes": 671,
+      "digest": "sha256:20131e6ea91166d69113b2e545eca0e3e1a18dd415f6b0fba5168dcf117f4e05"
+    },
+    {
+      "route": "/tags/interest-rates",
+      "file": "tags/interest-rates/index.html",
+      "mediaType": "text/html; charset=utf-8",
+      "bytes": 28183,
+      "digest": "sha256:a4624a334f6c61409ebe4321a40974f6e506c541581db46222d9679f73c4716e"
+    },
+    {
+      "route": "/tags/interest-rates.json",
+      "file": "tags/interest-rates.json",
+      "mediaType": "application/json; charset=utf-8",
+      "bytes": 666,
+      "digest": "sha256:c94af9e0c88170659da9ecdb0763b1f8f2df44dcca8177f047b065ee6a1df616"
+    },
+    {
+      "route": "/tags/iot",
+      "file": "tags/iot/index.html",
+      "mediaType": "text/html; charset=utf-8",
+      "bytes": 27926,
+      "digest": "sha256:4576b34cb6312dfe488ad8aa22dbbda929b287780561cdbf545b4cee39f30507"
+    },
+    {
+      "route": "/tags/iot.json",
+      "file": "tags/iot.json",
+      "mediaType": "application/json; charset=utf-8",
+      "bytes": 600,
+      "digest": "sha256:67fc575201cfc64cb2a1c1e6569a8d1be021acd2736b928e4a3aa5dee1436a4f"
+    },
+    {
+      "route": "/tags/javier-milei",
+      "file": "tags/javier-milei/index.html",
+      "mediaType": "text/html; charset=utf-8",
+      "bytes": 28698,
+      "digest": "sha256:d0c42c2bcd2168bf87eb61846c47742c116310599cfe8371959eb5710b1095d1"
+    },
+    {
+      "route": "/tags/javier-milei.json",
+      "file": "tags/javier-milei.json",
+      "mediaType": "application/json; charset=utf-8",
+      "bytes": 654,
+      "digest": "sha256:6928b9c7ee67639ddb3f77b3f12061fdada6cfe1ec76c0c4d3edf075be44084c"
+    },
+    {
+      "route": "/tags/l1",
+      "file": "tags/l1/index.html",
+      "mediaType": "text/html; charset=utf-8",
+      "bytes": 27602,
+      "digest": "sha256:56609da0372460d088534b0aa571f573afbe3c8c2fbb5d7cb7c811f4421970a6"
+    },
+    {
+      "route": "/tags/l1.json",
+      "file": "tags/l1.json",
+      "mediaType": "application/json; charset=utf-8",
+      "bytes": 594,
+      "digest": "sha256:0007f387825aa33b22a0cf6308f8c4d5b5d5028259a215bdead1ed3797b4925e"
+    },
+    {
+      "route": "/tags/lbtc",
+      "file": "tags/lbtc/index.html",
+      "mediaType": "text/html; charset=utf-8",
+      "bytes": 27733,
+      "digest": "sha256:82e44f2af2224b8c5292db566f790ab559c01044955bf5f68489949883eaed41"
+    },
+    {
+      "route": "/tags/lbtc.json",
+      "file": "tags/lbtc.json",
+      "mediaType": "application/json; charset=utf-8",
+      "bytes": 610,
+      "digest": "sha256:04f1960d41e27848e20b9211b7ba228c03820e4f5ef2d5dd03b90effadf239df"
+    },
+    {
+      "route": "/tags/lending",
+      "file": "tags/lending/index.html",
+      "mediaType": "text/html; charset=utf-8",
+      "bytes": 27738,
+      "digest": "sha256:6878e9f582fb7d84d51646d3089f7111f2447e7f4e1acb8f8ac4f334a7eb057d"
+    },
+    {
+      "route": "/tags/lending.json",
+      "file": "tags/lending.json",
+      "mediaType": "application/json; charset=utf-8",
+      "bytes": 624,
+      "digest": "sha256:a09cf0445cf0c0f70d8d6c2250fcd480d2b957d1092235af23f435363c3ed743"
+    },
+    {
+      "route": "/tags/leverage",
+      "file": "tags/leverage/index.html",
+      "mediaType": "text/html; charset=utf-8",
+      "bytes": 27755,
+      "digest": "sha256:379b3b2d5610761987043c5df86a6186d27582a3e9dc33030010550d8f46b6bf"
+    },
+    {
+      "route": "/tags/leverage.json",
+      "file": "tags/leverage.json",
+      "mediaType": "application/json; charset=utf-8",
+      "bytes": 630,
+      "digest": "sha256:7b475c2b2ac5179c515f187879d69f00233ad379641a08d3417f2d8e1b75d1ab"
+    },
+    {
+      "route": "/tags/leveraged-etf",
+      "file": "tags/leveraged-etf/index.html",
+      "mediaType": "text/html; charset=utf-8",
+      "bytes": 27878,
+      "digest": "sha256:f72732a8488bb1f1dd7afaaf3f070212ac96a65b10e1e2f5565c2fe3d47a0620"
+    },
+    {
+      "route": "/tags/leveraged-etf.json",
+      "file": "tags/leveraged-etf.json",
+      "mediaType": "application/json; charset=utf-8",
+      "bytes": 660,
+      "digest": "sha256:f85fcbe86d87ab58b1572f2abae05afff2286c34d14ce5e8661e8582dab1e355"
+    },
+    {
+      "route": "/tags/libra",
+      "file": "tags/libra/index.html",
+      "mediaType": "text/html; charset=utf-8",
+      "bytes": 28594,
+      "digest": "sha256:9e16be9f10e94480fd0401219144164bb4c7c7b0d8fc6fd8657bbfc308251b26"
+    },
+    {
+      "route": "/tags/libra.json",
+      "file": "tags/libra.json",
+      "mediaType": "application/json; charset=utf-8",
+      "bytes": 616,
+      "digest": "sha256:5199b2f17deedc7f91dbf30ade86252508a991181f29e7780bbca0873813702e"
+    },
+    {
+      "route": "/tags/lombard-finance",
+      "file": "tags/lombard-finance/index.html",
+      "mediaType": "text/html; charset=utf-8",
+      "bytes": 27905,
+      "digest": "sha256:bc2c5a0ccdd374d8345b413a989ed0adc5493e4c20557b2a2e6d7f83c7fa15ed"
+    },
+    {
+      "route": "/tags/lombard-finance.json",
+      "file": "tags/lombard-finance.json",
+      "mediaType": "application/json; charset=utf-8",
+      "bytes": 672,
+      "digest": "sha256:b310232cf156f9c50b061f4f449a98d2cec95b9baefddcbcb56caff61e7953ed"
+    },
+    {
+      "route": "/tags/lunar-eclipse",
+      "file": "tags/lunar-eclipse/index.html",
+      "mediaType": "text/html; charset=utf-8",
+      "bytes": 27918,
+      "digest": "sha256:c3adeb9fce81d8ab162d19c1eb6fda0a8bfd34bb55a55ff4c62e1ff817f0da71"
+    },
+    {
+      "route": "/tags/lunar-eclipse.json",
+      "file": "tags/lunar-eclipse.json",
+      "mediaType": "application/json; charset=utf-8",
+      "bytes": 660,
+      "digest": "sha256:53456c3f8845856f8b3ad43b73aa374d0d1189259f173c14a3e5b3e62c9c52c6"
+    },
+    {
+      "route": "/tags/ma",
+      "file": "tags/ma/index.html",
+      "mediaType": "text/html; charset=utf-8",
+      "bytes": 28189,
+      "digest": "sha256:bef0232af1af27e7989c7f8b4617f14333700f67d7ba1f3867ce490fe7f64726"
+    },
+    {
+      "route": "/tags/ma.json",
+      "file": "tags/ma.json",
+      "mediaType": "application/json; charset=utf-8",
+      "bytes": 951,
+      "digest": "sha256:492b642dcf816fd02ef91e187649dd2e515a5897fc0418754876c056f72cbe59"
+    },
+    {
+      "route": "/tags/managed-retreat",
+      "file": "tags/managed-retreat/index.html",
+      "mediaType": "text/html; charset=utf-8",
+      "bytes": 27867,
+      "digest": "sha256:ee60e258f70b0b5f3a1d2375ba5b6a9a1de5d8dfb330b7cddbe59470574c8db8"
+    },
+    {
+      "route": "/tags/managed-retreat.json",
+      "file": "tags/managed-retreat.json",
+      "mediaType": "application/json; charset=utf-8",
+      "bytes": 672,
+      "digest": "sha256:5e3f7cf3baea15fb25ed628bfb6b893ab9998be0a27dc1d0e46e5d7d51ea6a7b"
+    },
+    {
+      "route": "/tags/mind-ai",
+      "file": "tags/mind-ai/index.html",
+      "mediaType": "text/html; charset=utf-8",
+      "bytes": 27754,
+      "digest": "sha256:ddd85abbff806a60356259f73cec171ccb7dde9f92a39dd26b35ee147c012a29"
+    },
+    {
+      "route": "/tags/mind-ai.json",
+      "file": "tags/mind-ai.json",
+      "mediaType": "application/json; charset=utf-8",
+      "bytes": 624,
+      "digest": "sha256:3cca81dc971d93697c8dc6ebd2b88e5b4a5a57e92cd0c6dc26a76c5e11f50e38"
+    },
+    {
+      "route": "/tags/mizar",
+      "file": "tags/mizar/index.html",
+      "mediaType": "text/html; charset=utf-8",
+      "bytes": 27643,
+      "digest": "sha256:91d0f63131d48b018ec7e7cd12accc9b53f0a600600fa5ce19eadef32b6df3da"
+    },
+    {
+      "route": "/tags/mizar.json",
+      "file": "tags/mizar.json",
+      "mediaType": "application/json; charset=utf-8",
+      "bytes": 612,
+      "digest": "sha256:59d3411e0113a0a81defeeb0988067043ac070657b5c06acb9efb5ca58ea0cc7"
+    },
+    {
+      "route": "/tags/moonwell",
+      "file": "tags/moonwell/index.html",
+      "mediaType": "text/html; charset=utf-8",
+      "bytes": 27772,
+      "digest": "sha256:eee18e8a522aacdafb0cfb62a0da429eaf7000cf99dc2ab61347a425b651bc94"
+    },
+    {
+      "route": "/tags/moonwell.json",
+      "file": "tags/moonwell.json",
+      "mediaType": "application/json; charset=utf-8",
+      "bytes": 630,
+      "digest": "sha256:1af5a436f54e62b7fde12aefe6c96abdfdbb50223eb735a666afb982acee2a37"
+    },
+    {
+      "route": "/tags/morpho",
+      "file": "tags/morpho/index.html",
+      "mediaType": "text/html; charset=utf-8",
+      "bytes": 27721,
+      "digest": "sha256:ab8d728e06412f2d20c221453ecb56c98726e0a615f4dd5a071b84273136c8cc"
+    },
+    {
+      "route": "/tags/morpho.json",
+      "file": "tags/morpho.json",
+      "mediaType": "application/json; charset=utf-8",
+      "bytes": 618,
+      "digest": "sha256:dd3f59e6662c44d28f65b8d82dffbdece89eb90485dc5a2e19a8409c60a1d24f"
+    },
+    {
+      "route": "/tags/mzr",
+      "file": "tags/mzr/index.html",
+      "mediaType": "text/html; charset=utf-8",
+      "bytes": 27624,
+      "digest": "sha256:caed835c4c9669d4f91cb4f70aeab3fdc111a39f826bb78dc053a0323b5ec936"
+    },
+    {
+      "route": "/tags/mzr.json",
+      "file": "tags/mzr.json",
+      "mediaType": "application/json; charset=utf-8",
+      "bytes": 604,
+      "digest": "sha256:1a75708f4e98d5740de1cc76b73c22d6fefdb2d6ec18754c11d5e6dac9678690"
+    },
+    {
+      "route": "/tags/neo-nazi-accelerationism",
+      "file": "tags/neo-nazi-accelerationism/index.html",
+      "mediaType": "text/html; charset=utf-8",
+      "bytes": 28195,
+      "digest": "sha256:32b4099075276996b779ad9eec5af5ae47251405c4a1480050b613ab5a57297a"
+    },
+    {
+      "route": "/tags/neo-nazi-accelerationism.json",
+      "file": "tags/neo-nazi-accelerationism.json",
+      "mediaType": "application/json; charset=utf-8",
+      "bytes": 752,
+      "digest": "sha256:381f51a00717a7bfa76e43478b4a497a35eb313b8790a80cca1192893e1f1d77"
+    },
+    {
+      "route": "/tags/online-radicalization",
+      "file": "tags/online-radicalization/index.html",
+      "mediaType": "text/html; charset=utf-8",
+      "bytes": 28141,
+      "digest": "sha256:f742e9e0e57673312e2dc2509fa9bf4724e15c68a6cce9d354377efff4d0b325"
+    },
+    {
+      "route": "/tags/online-radicalization.json",
+      "file": "tags/online-radicalization.json",
+      "mediaType": "application/json; charset=utf-8",
+      "bytes": 731,
+      "digest": "sha256:3200079152a25ad38529a8baa47337a5f35a113d93e74521a2c18dbfddbe7ab3"
+    },
+    {
+      "route": "/tags/politics",
+      "file": "tags/politics/index.html",
+      "mediaType": "text/html; charset=utf-8",
+      "bytes": 28278,
+      "digest": "sha256:0c43aa08d41eb1d8a03b73fd070beac9d77ce3666da17cc71f13ab64e5f23b5f"
+    },
+    {
+      "route": "/tags/politics.json",
+      "file": "tags/politics.json",
+      "mediaType": "application/json; charset=utf-8",
+      "bytes": 881,
+      "digest": "sha256:896d40871ddb75042b646de823bf5dddbd71f9a2147a7e75e926090766eaf371"
+    },
+    {
+      "route": "/tags/proof-of-liquidity",
+      "file": "tags/proof-of-liquidity/index.html",
+      "mediaType": "text/html; charset=utf-8",
+      "bytes": 28867,
+      "digest": "sha256:587c5bc71ad8b3045a5cdf8e79cf51a42e7737bab2a21baf82c23ef2e7325a70"
+    },
+    {
+      "route": "/tags/proof-of-liquidity.json",
+      "file": "tags/proof-of-liquidity.json",
+      "mediaType": "application/json; charset=utf-8",
+      "bytes": 690,
+      "digest": "sha256:440242e13b13da900da75c50f7c84f27109a854934720746ec972f2a5763ad4c"
+    },
+    {
+      "route": "/tags/public-finance",
+      "file": "tags/public-finance/index.html",
+      "mediaType": "text/html; charset=utf-8",
+      "bytes": 27909,
+      "digest": "sha256:0d327501ef28a51afc04acbe8c8ee4eeb230beed3cd69d7d6fe276d4f5efe3d4"
+    },
+    {
+      "route": "/tags/public-finance.json",
+      "file": "tags/public-finance.json",
+      "mediaType": "application/json; charset=utf-8",
+      "bytes": 666,
+      "digest": "sha256:eab31f8daf1d9fa898d5f691fc1667ccb61ebf564a4c88c93c00d50dbcdd684a"
+    },
+    {
+      "route": "/tags/publishing",
+      "file": "tags/publishing/index.html",
+      "mediaType": "text/html; charset=utf-8",
+      "bytes": 27603,
+      "digest": "sha256:afea86726938b9d8242826e0f119a3b6d2f5d83f3fc3240288af58de5bac835b"
+    },
+    {
+      "route": "/tags/publishing.json",
+      "file": "tags/publishing.json",
+      "mediaType": "application/json; charset=utf-8",
+      "bytes": 642,
+      "digest": "sha256:f4e356576d703a5dcf785f005b51710f8c0b0f75d8971705e3b3e4633f44e262"
+    },
+    {
+      "route": "/tags/resource-extraction",
+      "file": "tags/resource-extraction/index.html",
+      "mediaType": "text/html; charset=utf-8",
+      "bytes": 28151,
+      "digest": "sha256:599162cce8875b49c009e219b8ea7124cf0e9b638521379d9eeb231d0a9da07a"
+    },
+    {
+      "route": "/tags/resource-extraction.json",
+      "file": "tags/resource-extraction.json",
+      "mediaType": "application/json; charset=utf-8",
+      "bytes": 696,
+      "digest": "sha256:d7ea2ecc92fd1dccbd29a17a88e3ee935b5aa331f1f532fd43f9d71647963be6"
+    },
+    {
+      "route": "/tags/resource-governance",
+      "file": "tags/resource-governance/index.html",
+      "mediaType": "text/html; charset=utf-8",
+      "bytes": 27994,
+      "digest": "sha256:2c0f0d894b37a72f0f3c7118414b189b733c3dd976e60d8010496d82e0b5a269"
+    },
+    {
+      "route": "/tags/resource-governance.json",
+      "file": "tags/resource-governance.json",
+      "mediaType": "application/json; charset=utf-8",
+      "bytes": 696,
+      "digest": "sha256:1332dd16c89e14134b64f7c66c31ec22765ae24122896a3fa5cdb3f8614361c5"
+    },
+    {
+      "route": "/tags/resource-scarcity",
+      "file": "tags/resource-scarcity/index.html",
+      "mediaType": "text/html; charset=utf-8",
+      "bytes": 27982,
+      "digest": "sha256:79bcd22b57a9f756bdc247c08709d220248c6c09a78552cfb2ed03f628e92641"
+    },
+    {
+      "route": "/tags/resource-scarcity.json",
+      "file": "tags/resource-scarcity.json",
+      "mediaType": "application/json; charset=utf-8",
+      "bytes": 684,
+      "digest": "sha256:5792c22ef43a13720eba210ebdffec1c5f6ed8f916cdb25981eb46a6fdcbf6d1"
+    },
+    {
+      "route": "/tags/retail-volatility",
+      "file": "tags/retail-volatility/index.html",
+      "mediaType": "text/html; charset=utf-8",
+      "bytes": 27971,
+      "digest": "sha256:0ed01316c9e12777735a5f6c59508fdba9270088bd995feb8cf62b6fac0b0189"
+    },
+    {
+      "route": "/tags/retail-volatility.json",
+      "file": "tags/retail-volatility.json",
+      "mediaType": "application/json; charset=utf-8",
+      "bytes": 684,
+      "digest": "sha256:b32c9cfb34baa11283007df31849a769ac2715777fb6d430b114d23e2444eec9"
+    },
+    {
+      "route": "/tags/robotics",
+      "file": "tags/robotics/index.html",
+      "mediaType": "text/html; charset=utf-8",
+      "bytes": 28891,
+      "digest": "sha256:9206099d80907c3c0775e7fe81dfe400c0fc503310b2516c35dec9612604732a"
+    },
+    {
+      "route": "/tags/robotics.json",
+      "file": "tags/robotics.json",
+      "mediaType": "application/json; charset=utf-8",
+      "bytes": 630,
+      "digest": "sha256:59c1a2b0f8b8b57c95ceb3b65142c41ab6f98b8297bbb62200e5f5111a32add6"
+    },
+    {
+      "route": "/tags/rugpull",
+      "file": "tags/rugpull/index.html",
+      "mediaType": "text/html; charset=utf-8",
+      "bytes": 27698,
+      "digest": "sha256:6b93ecb5cd8181b3686a320429496efaf956a6ad0d113ae81881f1a901eaedec"
+    },
+    {
+      "route": "/tags/rugpull.json",
+      "file": "tags/rugpull.json",
+      "mediaType": "application/json; charset=utf-8",
+      "bytes": 624,
+      "digest": "sha256:23ffe1e043488b2b6ab0e234822b4895fa033b6e22c2d0335092352e5ccb22a8"
+    },
+    {
+      "route": "/tags/russo-ukrainian-conflict",
+      "file": "tags/russo-ukrainian-conflict/index.html",
+      "mediaType": "text/html; charset=utf-8",
+      "bytes": 28063,
+      "digest": "sha256:b45ac0095eaa65df29574ead468f675c040d0919271bddbf84bd30960d93fd2a"
+    },
+    {
+      "route": "/tags/russo-ukrainian-conflict.json",
+      "file": "tags/russo-ukrainian-conflict.json",
+      "mediaType": "application/json; charset=utf-8",
+      "bytes": 726,
+      "digest": "sha256:6595672b6bae8760f2ad79b716a45653d633fedfd2be99c9cb3872c6fce8e7f6"
+    },
+    {
+      "route": "/tags/s",
+      "file": "tags/s/index.html",
+      "mediaType": "text/html; charset=utf-8",
+      "bytes": 28197,
+      "digest": "sha256:6581a39b8931599fb7024a781b06d4f87bb133f70bb08d18065fe21065296b7a"
+    },
+    {
+      "route": "/tags/s.json",
+      "file": "tags/s.json",
+      "mediaType": "application/json; charset=utf-8",
+      "bytes": 1773,
+      "digest": "sha256:b4b1791880622796a2327a496c0305da6b7c48716a3dc3364cef8af5456cfb45"
+    },
+    {
+      "route": "/tags/safe",
+      "file": "tags/safe/index.html",
+      "mediaType": "text/html; charset=utf-8",
+      "bytes": 27595,
+      "digest": "sha256:8d3e22b0638e44e710efb11e1449a833900cc97174e7af325a40c96d23c7d2db"
+    },
+    {
+      "route": "/tags/safe.json",
+      "file": "tags/safe.json",
+      "mediaType": "application/json; charset=utf-8",
+      "bytes": 610,
+      "digest": "sha256:8982de46195a3e1b3eeb90739b8111d2b0072056239c2a698ff7b1bc1ca50b2c"
+    },
+    {
+      "route": "/tags/safedao",
+      "file": "tags/safedao/index.html",
+      "mediaType": "text/html; charset=utf-8",
+      "bytes": 27631,
+      "digest": "sha256:c97b104c4c2789c195a174ec096e6c7976d132aa555088663cdb0de2ad526b4f"
+    },
+    {
+      "route": "/tags/safedao.json",
+      "file": "tags/safedao.json",
+      "mediaType": "application/json; charset=utf-8",
+      "bytes": 624,
+      "digest": "sha256:0a03a8a4f924f1275581d923c1e3e1b80abc80c50073e23a46e8736a144e9468"
+    },
+    {
+      "route": "/tags/san-diego",
+      "file": "tags/san-diego/index.html",
+      "mediaType": "text/html; charset=utf-8",
+      "bytes": 27872,
+      "digest": "sha256:f0cf42663a26012ac1b63ef7871f5e4b9e2cb37616d4dc7e7271842a3c5fc393"
+    },
+    {
+      "route": "/tags/san-diego.json",
+      "file": "tags/san-diego.json",
+      "mediaType": "application/json; charset=utf-8",
+      "bytes": 636,
+      "digest": "sha256:53358959ee28dc75c0ce2b9d6352bf34f23e71ae5d805c5126d4ceb993949394"
+    },
+    {
+      "route": "/tags/satoshi-nakamoto",
+      "file": "tags/satoshi-nakamoto/index.html",
+      "mediaType": "text/html; charset=utf-8",
+      "bytes": 27801,
+      "digest": "sha256:1a803075437eebc838c9487fdecf4e1104424ebd1e6657f12533e5146097a573"
+    },
+    {
+      "route": "/tags/satoshi-nakamoto.json",
+      "file": "tags/satoshi-nakamoto.json",
+      "mediaType": "application/json; charset=utf-8",
+      "bytes": 678,
+      "digest": "sha256:6582d8100bc519a8851c13adbef691496b0f500fdc434b2e3a531cf05b279c4b"
+    },
+    {
+      "route": "/tags/saudi-arabia",
+      "file": "tags/saudi-arabia/index.html",
+      "mediaType": "text/html; charset=utf-8",
+      "bytes": 27859,
+      "digest": "sha256:35207aa2a3fdbff61c248749de15083576f4ec539d6e820029cdf8ec3ca4f9af"
+    },
+    {
+      "route": "/tags/saudi-arabia.json",
+      "file": "tags/saudi-arabia.json",
+      "mediaType": "application/json; charset=utf-8",
+      "bytes": 654,
+      "digest": "sha256:d4a2a108a7effb8d0db0e229f50d68ce42cbd9a5641d0078f60c4a0b00f40655"
+    },
+    {
+      "route": "/tags/scam",
+      "file": "tags/scam/index.html",
+      "mediaType": "text/html; charset=utf-8",
+      "bytes": 27647,
+      "digest": "sha256:5563200159a5452857373e1b38570b52a1851d1ff7c40d2ce1aaab734db4a629"
+    },
+    {
+      "route": "/tags/scam.json",
+      "file": "tags/scam.json",
+      "mediaType": "application/json; charset=utf-8",
+      "bytes": 606,
+      "digest": "sha256:3f7dfeccbef61c76dfc4d370e6663affa06629e6fc6a0ae4b2e10d985a43fbc9"
+    },
+    {
+      "route": "/tags/sea-level-rise",
+      "file": "tags/sea-level-rise/index.html",
+      "mediaType": "text/html; charset=utf-8",
+      "bytes": 27850,
+      "digest": "sha256:65c8fcfa086c44886be9021ac5fb2a85094e933c317472f7b47fcd604ba249e6"
+    },
+    {
+      "route": "/tags/sea-level-rise.json",
+      "file": "tags/sea-level-rise.json",
+      "mediaType": "application/json; charset=utf-8",
+      "bytes": 666,
+      "digest": "sha256:0edd15d64880171620e480e33c21d82de5204806baf6f60dd1c3bc01e8d1e325"
+    },
+    {
+      "route": "/tags/sec",
+      "file": "tags/sec/index.html",
+      "mediaType": "text/html; charset=utf-8",
+      "bytes": 27580,
+      "digest": "sha256:511b3fb1949483686f9df327dc27a4f6c9b0687b165fad463690122889b552d6"
+    },
+    {
+      "route": "/tags/sec.json",
+      "file": "tags/sec.json",
+      "mediaType": "application/json; charset=utf-8",
+      "bytes": 600,
+      "digest": "sha256:6ea9e8ac9419b1217be5e3d593a8fc555e85107cd77f0878dd84e2bc3d5d23a6"
+    },
+    {
+      "route": "/tags/semiconductors",
+      "file": "tags/semiconductors/index.html",
+      "mediaType": "text/html; charset=utf-8",
+      "bytes": 27814,
+      "digest": "sha256:46eccbc4c423f7fbed97d6c462fb53299ce72f99a2489a28d2beed615299cd7b"
+    },
+    {
+      "route": "/tags/semiconductors.json",
+      "file": "tags/semiconductors.json",
+      "mediaType": "application/json; charset=utf-8",
+      "bytes": 666,
+      "digest": "sha256:af6523fdbc7b47a3428672644e74a188ebe1451a63ad8ba4fd3f690ce78213d9"
+    },
+    {
+      "route": "/tags/severe-weather",
+      "file": "tags/severe-weather/index.html",
+      "mediaType": "text/html; charset=utf-8",
+      "bytes": 27842,
+      "digest": "sha256:8f3fe246b490e930b20fcb54ded7f5311be813e6c6bec9e87aebaa8d3c2c8e09"
+    },
+    {
+      "route": "/tags/severe-weather.json",
+      "file": "tags/severe-weather.json",
+      "mediaType": "application/json; charset=utf-8",
+      "bytes": 666,
+      "digest": "sha256:c512fabe6dc659e80c0ffa1468bb9b69d90afeaa078c28cbdff16eb4f7671464"
+    },
+    {
+      "route": "/tags/shadow",
+      "file": "tags/shadow/index.html",
+      "mediaType": "text/html; charset=utf-8",
+      "bytes": 27776,
+      "digest": "sha256:6894bc55fc78c9ca39cac89ab4e46a460e1d7593d9fa5bf0ed27b2820fba152f"
+    },
+    {
+      "route": "/tags/shadow.json",
+      "file": "tags/shadow.json",
+      "mediaType": "application/json; charset=utf-8",
+      "bytes": 618,
+      "digest": "sha256:5f5f833acbd748c85d36311c49118fcffe27609df81b6ad673027faf7e6c3c73"
+    },
+    {
+      "route": "/tags/site-announcement",
+      "file": "tags/site-announcement/index.html",
+      "mediaType": "text/html; charset=utf-8",
+      "bytes": 27722,
+      "digest": "sha256:33d056a5628a567c977dd73b8e2a590a4ea9348c1ec622929a542940c1b68ee6"
+    },
+    {
+      "route": "/tags/site-announcement.json",
+      "file": "tags/site-announcement.json",
+      "mediaType": "application/json; charset=utf-8",
+      "bytes": 684,
+      "digest": "sha256:3b7a17d8d3a0447103401df00380aa39efa8687f3bbe05918e2b119475ef4418"
+    },
+    {
+      "route": "/tags/sol",
+      "file": "tags/sol/index.html",
+      "mediaType": "text/html; charset=utf-8",
+      "bytes": 27656,
+      "digest": "sha256:72d6da99ce095435729d63cfdeebc2055d0176f9fdae87f88df4465cc590ce24"
+    },
+    {
+      "route": "/tags/sol.json",
+      "file": "tags/sol.json",
+      "mediaType": "application/json; charset=utf-8",
+      "bytes": 604,
+      "digest": "sha256:a72f3712defd466b5d980dcfd165d0373b63eb24e31015bf3d8fd32d25ad5566"
+    },
+    {
+      "route": "/tags/solana",
+      "file": "tags/solana/index.html",
+      "mediaType": "text/html; charset=utf-8",
+      "bytes": 27692,
+      "digest": "sha256:ff6b9e1c9510850637a648452426c9c6924a191f3e5e24ea8cf54b521b6650b8"
+    },
+    {
+      "route": "/tags/solana-etf",
+      "file": "tags/solana-etf/index.html",
+      "mediaType": "text/html; charset=utf-8",
+      "bytes": 27760,
+      "digest": "sha256:3ebe1db086f152cf7b22e86d99fd0eb0ec38706a49429f405718df8f2a7240c4"
+    },
+    {
+      "route": "/tags/solana-etf.json",
+      "file": "tags/solana-etf.json",
+      "mediaType": "application/json; charset=utf-8",
+      "bytes": 642,
+      "digest": "sha256:b3c7f184990dc9ce7a035eaa72b89d29c364d7fe78f053d94055ae1c5e738aa5"
+    },
+    {
+      "route": "/tags/solana.json",
+      "file": "tags/solana.json",
+      "mediaType": "application/json; charset=utf-8",
+      "bytes": 618,
+      "digest": "sha256:99278f303dc160a1b67381df925a57f91ff3fa1c485b639c3b757ff52c2bce8e"
+    },
+    {
+      "route": "/tags/solar",
+      "file": "tags/solar/index.html",
+      "mediaType": "text/html; charset=utf-8",
+      "bytes": 27645,
+      "digest": "sha256:6f2dbfa53a554776417d2d0403e554d12c4888eb2cb983b1e323b229debfd66f"
+    },
+    {
+      "route": "/tags/solar.json",
+      "file": "tags/solar.json",
+      "mediaType": "application/json; charset=utf-8",
+      "bytes": 612,
+      "digest": "sha256:4b4b4cdc065a306172cd0878d0d9ad774ceceb7e4f6dbcc1d798419a7e26e119"
+    },
+    {
+      "route": "/tags/sonic",
+      "file": "tags/sonic/index.html",
+      "mediaType": "text/html; charset=utf-8",
+      "bytes": 27759,
+      "digest": "sha256:32ea1568d29bc25fdf1d6b9bb7a79ba4a7d8f3719a21fc0899fd3f575ed04092"
+    },
+    {
+      "route": "/tags/sonic.json",
+      "file": "tags/sonic.json",
+      "mediaType": "application/json; charset=utf-8",
+      "bytes": 612,
+      "digest": "sha256:53459f2d7fbdde0c76ca0489b6ecb9232c8e60bb1af770a5461bf7c9344dfd14"
+    },
+    {
+      "route": "/tags/soxl",
+      "file": "tags/soxl/index.html",
+      "mediaType": "text/html; charset=utf-8",
+      "bytes": 27740,
+      "digest": "sha256:fdea129d43a8785ae9741925ed10f4f6057876428343cf3d45b5e1b35fe399ec"
+    },
+    {
+      "route": "/tags/soxl.json",
+      "file": "tags/soxl.json",
+      "mediaType": "application/json; charset=utf-8",
+      "bytes": 610,
+      "digest": "sha256:25ba2cb46feef5cfb659bae5286627482e82752c8f8a301f648e9e2b99d2c2bd"
+    },
+    {
+      "route": "/tags/stability-dao",
+      "file": "tags/stability-dao/index.html",
+      "mediaType": "text/html; charset=utf-8",
+      "bytes": 27895,
+      "digest": "sha256:632627c78ae7cfeb82beacd37c6a6d53bc6bf7dcdcc5e6ae558aa9da4e1d7c14"
+    },
+    {
+      "route": "/tags/stability-dao.json",
+      "file": "tags/stability-dao.json",
+      "mediaType": "application/json; charset=utf-8",
+      "bytes": 660,
+      "digest": "sha256:51543b52262f4cd81884912e80614d4b29be202889abbe4d6b07dc53a349c11b"
+    },
+    {
+      "route": "/tags/stablecoin",
+      "file": "tags/stablecoin/index.html",
+      "mediaType": "text/html; charset=utf-8",
+      "bytes": 27850,
+      "digest": "sha256:298064f3f1cddf73c965026308b357c6d75becb76923ba416ebbc0edabb7b5a4"
+    },
+    {
+      "route": "/tags/stablecoin.json",
+      "file": "tags/stablecoin.json",
+      "mediaType": "application/json; charset=utf-8",
+      "bytes": 668,
+      "digest": "sha256:199bca472018457b4c0a5fef649861de5826fdb0797676db65330451129896c2"
+    },
+    {
+      "route": "/tags/steel",
+      "file": "tags/steel/index.html",
+      "mediaType": "text/html; charset=utf-8",
+      "bytes": 27859,
+      "digest": "sha256:facfa5e276f75e163c037692f506b24d990af1e0e1beda386985f4c8a377b83c"
+    },
+    {
+      "route": "/tags/steel.json",
+      "file": "tags/steel.json",
+      "mediaType": "application/json; charset=utf-8",
+      "bytes": 612,
+      "digest": "sha256:4c10c8b64f67b2c528260494994f0c34c81e809a0ed6312edbea7877619f2db9"
+    },
+    {
+      "route": "/tags/subsidence",
+      "file": "tags/subsidence/index.html",
+      "mediaType": "text/html; charset=utf-8",
+      "bytes": 27987,
+      "digest": "sha256:54b551bcc7b05335b182878534fa675f82f62c9a41c99f666fa418d3a9e275af"
+    },
+    {
+      "route": "/tags/subsidence.json",
+      "file": "tags/subsidence.json",
+      "mediaType": "application/json; charset=utf-8",
+      "bytes": 642,
+      "digest": "sha256:90709155c6becb622d7ca38dd809bdef0323ac93135d958f7bae5cb99449c83e"
+    },
+    {
+      "route": "/tags/supply-chains",
+      "file": "tags/supply-chains/index.html",
+      "mediaType": "text/html; charset=utf-8",
+      "bytes": 27966,
+      "digest": "sha256:ef69fc2eb11348311ddb54de3767b14c709b64b969a003809691383999ee9ff6"
+    },
+    {
+      "route": "/tags/supply-chains.json",
+      "file": "tags/supply-chains.json",
+      "mediaType": "application/json; charset=utf-8",
+      "bytes": 660,
+      "digest": "sha256:6f500c4a57fcd1f1ade1ab318785560e32ee68497cf4589158d7fcdafad967cb"
+    },
+    {
+      "route": "/tags/sustainable-agriculture",
+      "file": "tags/sustainable-agriculture/index.html",
+      "mediaType": "text/html; charset=utf-8",
+      "bytes": 27972,
+      "digest": "sha256:bdb8cdacfbdb2b9039b94e0b21705ac25d06dd5c95c95365cc26340a3562d76d"
+    },
+    {
+      "route": "/tags/sustainable-agriculture.json",
+      "file": "tags/sustainable-agriculture.json",
+      "mediaType": "application/json; charset=utf-8",
+      "bytes": 720,
+      "digest": "sha256:5af9513ca513d5ba92a2be68fdf33610123cbaf04ee858db9ca774bdd13af27a"
+    },
+    {
+      "route": "/tags/sxsw",
+      "file": "tags/sxsw/index.html",
+      "mediaType": "text/html; charset=utf-8",
+      "bytes": 27782,
+      "digest": "sha256:0423496f9f22f6d3aa90fa050ae197b57271c6e285aceb32bd38f2026cc525f0"
+    },
+    {
+      "route": "/tags/sxsw.json",
+      "file": "tags/sxsw.json",
+      "mediaType": "application/json; charset=utf-8",
+      "bytes": 606,
+      "digest": "sha256:d7532292562300c3d4d8c8e086f7ec074274d343af31cd63f929a14473f2a30e"
+    },
+    {
+      "route": "/tags/systemic-collapse",
+      "file": "tags/systemic-collapse/index.html",
+      "mediaType": "text/html; charset=utf-8",
+      "bytes": 29163,
+      "digest": "sha256:02f74b70c1d6f87abb91a19e1c31104b1cef478c0aa32d08aed0e115c0b8b893"
+    },
+    {
+      "route": "/tags/systemic-collapse.json",
+      "file": "tags/systemic-collapse.json",
+      "mediaType": "application/json; charset=utf-8",
+      "bytes": 684,
+      "digest": "sha256:6ce9e29743cdb8ff0ce016d24017041440919668b434e1adb20b6000fd56ce9f"
+    },
+    {
+      "route": "/tags/systemic-risk",
+      "file": "tags/systemic-risk/index.html",
+      "mediaType": "text/html; charset=utf-8",
+      "bytes": 28969,
+      "digest": "sha256:56663955def6880f645a9f55c82143afcbd594269557b3264d47a44361a432d2"
+    },
+    {
+      "route": "/tags/systemic-risk.json",
+      "file": "tags/systemic-risk.json",
+      "mediaType": "application/json; charset=utf-8",
+      "bytes": 660,
+      "digest": "sha256:e0b853a6ec2787088698d67cc85971c0b49613c0367c79e00bda248c6ffe3908"
+    },
+    {
+      "route": "/tags/tariffs",
+      "file": "tags/tariffs/index.html",
+      "mediaType": "text/html; charset=utf-8",
+      "bytes": 27893,
+      "digest": "sha256:1d5d9e8700aed24d9d9d9c9f031ac7c452e17287e8f5ff619d23cbfcce8f22ff"
+    },
+    {
+      "route": "/tags/tariffs.json",
+      "file": "tags/tariffs.json",
+      "mediaType": "application/json; charset=utf-8",
+      "bytes": 624,
+      "digest": "sha256:81744da48c0c4bfb6adf99641b1805971dbb2f9247d645ab84ded49f3e746a80"
+    },
+    {
+      "route": "/tags/technology",
+      "file": "tags/technology/index.html",
+      "mediaType": "text/html; charset=utf-8",
+      "bytes": 28314,
+      "digest": "sha256:bc8f904b4830d222e917fc491581af1bff7162e181c702b83ff75c50b171bb4e"
+    },
+    {
+      "route": "/tags/technology-limits",
+      "file": "tags/technology-limits/index.html",
+      "mediaType": "text/html; charset=utf-8",
+      "bytes": 27982,
+      "digest": "sha256:ba98edf969c601ab586d8c4df675dc9f032ca50a00e0a0871ca5e4ee1432e7a9"
+    },
+    {
+      "route": "/tags/technology-limits.json",
+      "file": "tags/technology-limits.json",
+      "mediaType": "application/json; charset=utf-8",
+      "bytes": 684,
+      "digest": "sha256:1645be1b66645f81d8f25c370fb2e84f8a48561d5e405a9ae5858371b24fbbb7"
+    },
+    {
+      "route": "/tags/technology.json",
+      "file": "tags/technology.json",
+      "mediaType": "application/json; charset=utf-8",
+      "bytes": 830,
+      "digest": "sha256:98681b2f8e38fd70a5710512ce23e1dffe64579206b857f20db5230b5bfea0ba"
+    },
+    {
+      "route": "/tags/tecl",
+      "file": "tags/tecl/index.html",
+      "mediaType": "text/html; charset=utf-8",
+      "bytes": 27740,
+      "digest": "sha256:8dbda0c80a1a09a08e8e0219f62647cba764c23c7181073f173c4b3274f5d6a9"
+    },
+    {
+      "route": "/tags/tecl.json",
+      "file": "tags/tecl.json",
+      "mediaType": "application/json; charset=utf-8",
+      "bytes": 610,
+      "digest": "sha256:3d55965f244ccfd5ca756705f2647d15ad481adc5c60f2604c98a3e059c94816"
+    },
+    {
+      "route": "/tags/terrorism",
+      "file": "tags/terrorism/index.html",
+      "mediaType": "text/html; charset=utf-8",
+      "bytes": 27972,
+      "digest": "sha256:2970b44f9479c71919db289b7de96f9f26918be8c3f6dc52178b4f8b305d0f20"
+    },
+    {
+      "route": "/tags/terrorism.json",
+      "file": "tags/terrorism.json",
+      "mediaType": "application/json; charset=utf-8",
+      "bytes": 684,
+      "digest": "sha256:cea6bb68ab0d3ad976a9e7af59c0f612845c62c85da861ef77c405b9b861f30b"
+    },
+    {
+      "route": "/tags/tornado",
+      "file": "tags/tornado/index.html",
+      "mediaType": "text/html; charset=utf-8",
+      "bytes": 27723,
+      "digest": "sha256:6886a38365ee0abd8d74fc181c95bbe2bbab6912ac13bf2594956d5d83097c82"
+    },
+    {
+      "route": "/tags/tornado.json",
+      "file": "tags/tornado.json",
+      "mediaType": "application/json; charset=utf-8",
+      "bytes": 624,
+      "digest": "sha256:881d408182e5b4635dd9ea17c8e6b3d85453d09568db8d7c502641d25759f0ba"
+    },
+    {
+      "route": "/tags/trade",
+      "file": "tags/trade/index.html",
+      "mediaType": "text/html; charset=utf-8",
+      "bytes": 28959,
+      "digest": "sha256:e3a12c469849f2ff9ff4e4501dbd088cfb54ad6768e795eb986b6cb485b13436"
+    },
+    {
+      "route": "/tags/trade.json",
+      "file": "tags/trade.json",
+      "mediaType": "application/json; charset=utf-8",
+      "bytes": 669,
+      "digest": "sha256:07a9a60bd6588433a4ddd452be589c3d332e6f3a7e05457c56e892bd3ce3af8c"
+    },
+    {
+      "route": "/tags/uk-economy",
+      "file": "tags/uk-economy/index.html",
+      "mediaType": "text/html; charset=utf-8",
+      "bytes": 28913,
+      "digest": "sha256:85526e88b23ce2fa594d0cd4b24cbb02fdea93280e52024a6db8436821c8ac46"
+    },
+    {
+      "route": "/tags/uk-economy.json",
+      "file": "tags/uk-economy.json",
+      "mediaType": "application/json; charset=utf-8",
+      "bytes": 642,
+      "digest": "sha256:3c14acdbc2f30d5a050be97d512a441adc3a3319b82af57c85d76e6437c558c1"
+    },
+    {
+      "route": "/tags/uk-policy",
+      "file": "tags/uk-policy/index.html",
+      "mediaType": "text/html; charset=utf-8",
+      "bytes": 27898,
+      "digest": "sha256:23271f2dcdffc188e66fa96f8a2f99ff94fc5573dc238bfbd7a250c941e22859"
+    },
+    {
+      "route": "/tags/uk-policy.json",
+      "file": "tags/uk-policy.json",
+      "mediaType": "application/json; charset=utf-8",
+      "bytes": 636,
+      "digest": "sha256:f21a98f42f7e9199c6a5d39cbfec6e4e25f7ee28e1b7baf8e7183138e743535b"
+    },
+    {
+      "route": "/tags/ukraine",
+      "file": "tags/ukraine/index.html",
+      "mediaType": "text/html; charset=utf-8",
+      "bytes": 27774,
+      "digest": "sha256:4d581ae9bcdd6a8f925133365bb81bc74982025712975ed071dece503b51c83a"
+    },
+    {
+      "route": "/tags/ukraine.json",
+      "file": "tags/ukraine.json",
+      "mediaType": "application/json; charset=utf-8",
+      "bytes": 624,
+      "digest": "sha256:11d90f7663f2b0e02366b1df9ed67fa8941c8decc919b244b4d19aba1db81465"
+    },
+    {
+      "route": "/tags/un",
+      "file": "tags/un/index.html",
+      "mediaType": "text/html; charset=utf-8",
+      "bytes": 27978,
+      "digest": "sha256:75e131cb383748041c4779bebd2ba41b348095e6873082a177724f278ceb6e21"
+    },
+    {
+      "route": "/tags/un.json",
+      "file": "tags/un.json",
+      "mediaType": "application/json; charset=utf-8",
+      "bytes": 658,
+      "digest": "sha256:2470f97441c42766b1afe0903015315fe58f5e018091edf7bb0e248fbbc63a93"
+    },
+    {
+      "route": "/tags/united-kingdom",
+      "file": "tags/united-kingdom/index.html",
+      "mediaType": "text/html; charset=utf-8",
+      "bytes": 29099,
+      "digest": "sha256:c0257b442a07c27626cd6ce76f924b79f229466594f62b53c849edf55dd60587"
+    },
+    {
+      "route": "/tags/united-kingdom.json",
+      "file": "tags/united-kingdom.json",
+      "mediaType": "application/json; charset=utf-8",
+      "bytes": 666,
+      "digest": "sha256:ce73ebf815ab91d5ff2a9d843063b83a1d162908c418df8c965690f3cb2a9622"
+    },
+    {
+      "route": "/tags/united-states",
+      "file": "tags/united-states/index.html",
+      "mediaType": "text/html; charset=utf-8",
+      "bytes": 27781,
+      "digest": "sha256:d27c2cfdb59a15e523e0b2a104224d99dde6fad973a999eeb65f6ae38fce5af6"
+    },
+    {
+      "route": "/tags/united-states.json",
+      "file": "tags/united-states.json",
+      "mediaType": "application/json; charset=utf-8",
+      "bytes": 660,
+      "digest": "sha256:20a19aa8b7bb05c20fbf0566a89d0a6e63c622b6ad5ecdf3f4e2f555c64ac12e"
+    },
+    {
+      "route": "/tags/usdc",
+      "file": "tags/usdc/index.html",
+      "mediaType": "text/html; charset=utf-8",
+      "bytes": 27719,
+      "digest": "sha256:42a5de54e1c2a1f6e4dc9c49a0b093f8f325775e77017b067228a31c3f2f1623"
+    },
+    {
+      "route": "/tags/usdc.json",
+      "file": "tags/usdc.json",
+      "mediaType": "application/json; charset=utf-8",
+      "bytes": 610,
+      "digest": "sha256:73ee080d88e7ce42b36566605b53496b734f7b9fa093402c7e0236ac2aba85cd"
+    },
+    {
+      "route": "/tags/user-experience",
+      "file": "tags/user-experience/index.html",
+      "mediaType": "text/html; charset=utf-8",
+      "bytes": 28130,
+      "digest": "sha256:3652e2516993dc7dc7842762a3014d26cc8c24ec02b9f72bab0b6f3ecffde956"
+    },
+    {
+      "route": "/tags/user-experience.json",
+      "file": "tags/user-experience.json",
+      "mediaType": "application/json; charset=utf-8",
+      "bytes": 672,
+      "digest": "sha256:009c4eaccf3b12a336ae500fe76a4a61d3d11e678264879c32ce6f3fabe3dd01"
+    },
+    {
+      "route": "/tags/volodymyr-zelenskyy",
+      "file": "tags/volodymyr-zelenskyy/index.html",
+      "mediaType": "text/html; charset=utf-8",
+      "bytes": 27978,
+      "digest": "sha256:d5a0d36860417a08411785edd45587d6cdc5aad01c2a7bc8162576d0b0518a6e"
+    },
+    {
+      "route": "/tags/volodymyr-zelenskyy.json",
+      "file": "tags/volodymyr-zelenskyy.json",
+      "mediaType": "application/json; charset=utf-8",
+      "bytes": 696,
+      "digest": "sha256:f16e7596777cb405fbe21738ee8cafdd0f5cb599096bb60832f5d3534ae12234"
+    },
+    {
+      "route": "/tags/water-scarcity-cities",
+      "file": "tags/water-scarcity-cities/index.html",
+      "mediaType": "text/html; charset=utf-8",
+      "bytes": 28070,
+      "digest": "sha256:703667c267593d9be01007a5fd4ce009f2125547422aa47a42277f3d179c7e0c"
+    },
+    {
+      "route": "/tags/water-scarcity-cities.json",
+      "file": "tags/water-scarcity-cities.json",
+      "mediaType": "application/json; charset=utf-8",
+      "bytes": 708,
+      "digest": "sha256:9f03095437fae5769460f2b17f7a672811b35c0bf10eb51cd5109dfa2fe2908d"
+    },
+    {
+      "route": "/tags/water-systems",
+      "file": "tags/water-systems/index.html",
+      "mediaType": "text/html; charset=utf-8",
+      "bytes": 28790,
+      "digest": "sha256:425d18e7e6c69138cb4cd01f3c56a0e2f13051cdb90acac871606f6cf6d64999"
+    },
+    {
+      "route": "/tags/water-systems.json",
+      "file": "tags/water-systems.json",
+      "mediaType": "application/json; charset=utf-8",
+      "bytes": 660,
+      "digest": "sha256:93068edcd6d9a8391e34f51bd29f921b4232ff9deea6a9364a023116975afa69"
+    },
+    {
+      "route": "/tags/water-utilities",
+      "file": "tags/water-utilities/index.html",
+      "mediaType": "text/html; charset=utf-8",
+      "bytes": 27926,
+      "digest": "sha256:f07fb55cbe1623c07419fd629a82a236488938d10c0f776e8208916f7cfa1eb6"
+    },
+    {
+      "route": "/tags/water-utilities.json",
+      "file": "tags/water-utilities.json",
+      "mediaType": "application/json; charset=utf-8",
+      "bytes": 672,
+      "digest": "sha256:e6c8244ac170231d1d5d5d753e775c468ee4d199d4e0eefe039e8c96506abe42"
+    },
+    {
+      "route": "/tags/wildfire",
+      "file": "tags/wildfire/index.html",
+      "mediaType": "text/html; charset=utf-8",
+      "bytes": 27712,
+      "digest": "sha256:9e738ecca0513b6eea352d0bdfdc13d9ae0ba214c00430e69d839618ed800a35"
+    },
+    {
+      "route": "/tags/wildfire.json",
+      "file": "tags/wildfire.json",
+      "mediaType": "application/json; charset=utf-8",
+      "bytes": 630,
+      "digest": "sha256:18659f20cd70ad1cc57f12df8f8e4303459de231fa411bd4eed3436b15a6cf0b"
+    },
+    {
+      "route": "/tags/world-cup",
+      "file": "tags/world-cup/index.html",
+      "mediaType": "text/html; charset=utf-8",
+      "bytes": 27866,
+      "digest": "sha256:23b97499882aea414a024cc796c2d238a96b6a4defe2d77cff0978c6e300ce13"
+    },
+    {
+      "route": "/tags/world-cup.json",
+      "file": "tags/world-cup.json",
+      "mediaType": "application/json; charset=utf-8",
+      "bytes": 636,
+      "digest": "sha256:af5d6e4a4863bcc409f3f236413f13bb5ed5d584a9603f7e08bc4a3fb6cc6f59"
+    },
+    {
+      "route": "/tags/xrp",
+      "file": "tags/xrp/index.html",
+      "mediaType": "text/html; charset=utf-8",
+      "bytes": 27595,
+      "digest": "sha256:9a58d4d49f593fb58f98ac4514f7bcc18f600ad4173aef25fe44192ba9bd6452"
+    },
+    {
+      "route": "/tags/xrp.json",
+      "file": "tags/xrp.json",
+      "mediaType": "application/json; charset=utf-8",
+      "bytes": 604,
+      "digest": "sha256:35afe6262cd04cd28b97b57a178a14c393e26b03e677bc755080b13c5853fbdb"
+    },
+    {
+      "route": "/tags/yield-bearing-stablecoin",
+      "file": "tags/yield-bearing-stablecoin/index.html",
+      "mediaType": "text/html; charset=utf-8",
+      "bytes": 28020,
+      "digest": "sha256:4a4d6074956340c2a4f7935d43e86527e94dca9e8eb6d2dbd8fd185238858b46"
+    },
+    {
+      "route": "/tags/yield-bearing-stablecoin.json",
+      "file": "tags/yield-bearing-stablecoin.json",
+      "mediaType": "application/json; charset=utf-8",
+      "bytes": 726,
+      "digest": "sha256:70860e0f6e5f2975e535d4564cdec16e93993b3b13d92d7703ad5898887d4dd2"
+    },
+    {
+      "route": "/tags/ylds",
+      "file": "tags/ylds/index.html",
+      "mediaType": "text/html; charset=utf-8",
+      "bytes": 27680,
+      "digest": "sha256:8123bc7ff0e16b8464c2fef45fd30fddf55d4c00865cddfdc2d8a7f69ab01e8e"
+    },
+    {
+      "route": "/tags/ylds.json",
+      "file": "tags/ylds.json",
+      "mediaType": "application/json; charset=utf-8",
+      "bytes": 606,
+      "digest": "sha256:8925b1836d6870b8d87ca05df875bcd71da144c95080c98db55203dedcb30317"
+    },
+    {
+      "route": "/topics",
+      "file": "topics/index.html",
+      "mediaType": "text/html; charset=utf-8",
+      "bytes": 28397,
+      "digest": "sha256:3e6be3dd67d85c144fced3a8a77e9da4e667939377baa25fb6abb6ce507d888e"
+    },
+    {
+      "route": "/topics.json",
+      "file": "topics.json",
+      "mediaType": "application/json; charset=utf-8",
+      "bytes": 5956,
+      "digest": "sha256:4326c69ab590f818b0c66196477eb55eeffdbac75ff1022de14f0f112852f0ef"
+    },
+    {
+      "route": "/topics/decolonization",
+      "file": "topics/decolonization/index.html",
+      "mediaType": "text/html; charset=utf-8",
+      "bytes": 28499,
+      "digest": "sha256:e2b276317adf33791a0099d992dbf655de0d26f771dffd60ae5503bd9458fdfe"
+    },
+    {
+      "route": "/topics/decolonization.json",
+      "file": "topics/decolonization.json",
+      "mediaType": "application/json; charset=utf-8",
+      "bytes": 924,
+      "digest": "sha256:1ab297a3ee7f4ce1931626e2c620e3bf32e55376fe5e035a054ac374394293a9"
+    },
+    {
+      "route": "/topics/economy",
+      "file": "topics/economy/index.html",
+      "mediaType": "text/html; charset=utf-8",
+      "bytes": 53670,
+      "digest": "sha256:7f1c30b8dd1f5dd0fb365f7336586143f41d6cad7b783f2674072780f0452870"
+    },
+    {
+      "route": "/topics/economy.json",
+      "file": "topics/economy.json",
+      "mediaType": "application/json; charset=utf-8",
+      "bytes": 982,
+      "digest": "sha256:0b70670db7be9908435793128f68df16c5dda85e6d734debbb478aa33a11acee"
+    },
+    {
+      "route": "/topics/environment",
+      "file": "topics/environment/index.html",
+      "mediaType": "text/html; charset=utf-8",
+      "bytes": 43336,
+      "digest": "sha256:42b28c2abc1ecb074a4edd093abcd269f1b7e4d1ad3d0d7c639961ade5982501"
+    },
+    {
+      "route": "/topics/environment.json",
+      "file": "topics/environment.json",
+      "mediaType": "application/json; charset=utf-8",
+      "bytes": 669,
+      "digest": "sha256:344079f4fde119143e2604fef4f9e3aa4f728acc88145117f0d7c295b8929166"
+    },
+    {
+      "route": "/topics/newsroom",
+      "file": "topics/newsroom/index.html",
+      "mediaType": "text/html; charset=utf-8",
+      "bytes": 28043,
+      "digest": "sha256:dd5eb005a46a36e0a03125ff75b0e5e7ed2694656e7c73230bfdfefe283ed945"
+    },
+    {
+      "route": "/topics/newsroom.json",
+      "file": "topics/newsroom.json",
+      "mediaType": "application/json; charset=utf-8",
+      "bytes": 978,
+      "digest": "sha256:523a0db6fd498c70ddbddd2576c5c2951f4bf39e6e1b36490d2ccc37d99ca85d"
+    },
+    {
+      "route": "/topics/politics",
+      "file": "topics/politics/index.html",
+      "mediaType": "text/html; charset=utf-8",
+      "bytes": 28171,
+      "digest": "sha256:180a17d2d430ba8b3033046ba8775a370f261dd8784498997edd54784ec17e81"
+    },
+    {
+      "route": "/topics/politics.json",
+      "file": "topics/politics.json",
+      "mediaType": "application/json; charset=utf-8",
+      "bytes": 901,
+      "digest": "sha256:e5c0a6f0b6d3197a5520ad4a4adc747d2cb282844c6245860d580f289f461387"
+    },
+    {
+      "route": "/topics/technology",
+      "file": "topics/technology/index.html",
+      "mediaType": "text/html; charset=utf-8",
+      "bytes": 34692,
+      "digest": "sha256:ea17fc5240e0d6939b85042172055eda58d4542098aeb6dadfb5a18c15508298"
+    },
+    {
+      "route": "/topics/technology.json",
+      "file": "topics/technology.json",
+      "mediaType": "application/json; charset=utf-8",
+      "bytes": 850,
+      "digest": "sha256:f6ed464024a06099b51c495d747048291f7614ef9e6ce6eb481ed5379d0c5606"
+    },
+    {
+      "route": "/topics/war",
+      "file": "topics/war/index.html",
+      "mediaType": "text/html; charset=utf-8",
+      "bytes": 27840,
+      "digest": "sha256:aeb5f5941da1186e2b57c64cd592f9940f29f1a1e9b7018b2d981e2ce8de980e"
+    },
+    {
+      "route": "/topics/war.json",
+      "file": "topics/war.json",
+      "mediaType": "application/json; charset=utf-8",
+      "bytes": 644,
+      "digest": "sha256:a23b627949903abe7381d5e73ea3c1d2193816b9224bd6d180cc2a914fddc66a"
+    },
+    {
+      "route": "urn:cloudflare-pages:_headers",
+      "file": "_headers",
+      "mediaType": "text/plain",
+      "bytes": 133,
+      "digest": "sha256:5a5ae78e7be675057ec29db2f8d1d2aafd9379ffc4f065037e0148adbdea1a4a"
+    }
+  ]
+}

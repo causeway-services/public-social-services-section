@@ -1,0 +1,101 @@
+#+SETUPFILE: ./setup.inc
+#+TITLE: Catalog of Mundane Things
+#+EXPORT_FILE_NAME: ../../pub/reference-books/catalog-of-mundane-things
+#+TOC: headlines 1
+* DRAFT Introduction
+{{{document-isdraft}}}
+
+The */Catalog of Mundane Things/* is a directory of common objects and
+stuff found in the fantasy world of Teraum. This book is intended as a
+resource for getting a deeper feel for the setting, and doesn't have
+much use on its own.
+
+{{{document-hasproject}}}
+* DRAFT Catalog of Mundane Things
+#+TOC: headlines 1 local
+** DRAFT Chert
+   :PROPERTIES:
+   :CUSTOM_ID: chert
+   :END:
+#+INDEX: chert!"Chert" in /Catalog of Mundane Things/
+*/Chert/* is a type of rock found in the southern /Green Delta/, into
+the /Widewoods/.
+** DRAFT Cokeberries
+   :PROPERTIES:
+   :CUSTOM_ID: cokeberries
+   :END:
+#+INDEX: cokeberries!"Cokeberries" in /Catalog of Mundane Things/
+*/Cokeberries/* are a tart purple berry that grows natively in
+/Arathel County/ and have been cultivated around /Gnalens/, in the
+/New World/. They are used to make /wine/, /preserves/, and /dye/, among
+other cottage uses.
+** DRAFT Death Masks
+   :PROPERTIES:
+   :CUSTOM_ID: death-masks
+   :END:
+#+INDEX: masks, death!"Death Masks" in /Catalog of Mundane Things/
+*/Death masks/* are created in the town of /Bellybrush/, at /Masked
+Mortuary/ by /Daxol Nabrish/ and his son /Arandul/. The masks are
+created using a wax cast of the deceased's face, artfully distorted
+while warm, to create a clay mold.
+** DRAFT Dye
+   :PROPERTIES:
+   :CUSTOM_ID: dye
+   :END:
+#+INDEX: dye!"Dye" in /Catalog of Mundane Things/
+** DRAFT Money
+   :PROPERTIES:
+   :CUSTOM_ID: money
+   :END:
+#+INDEX: money!"Money" in /Catalog of Mundane Things/
+*/Money/* is the collective name for scraps of metal used to ease
+trade.
+** DRAFT Preserves
+   :PROPERTIES:
+   :CUSTOM_ID: preserves
+   :END:
+#+INDEX: preserves!"Preserves" in /Catalog of Mundane Things/
+** DRAFT Salmon Leather
+   :PROPERTIES:
+   :CUSTOM_ID: salmon-leather
+   :END:
+#+INDEX: leather, salmon!"Salmon Leather" in /Catalog of Mundane Things/
+Produced by /humans/ in the /New World/, */salmon leather/* is a
+popular choice of fabric in their fashion.
+** DRAFT Unlimited Pasta Pass
+   :PROPERTIES:
+   :CUSTOM_ID: unlimited-pasta-pass
+   :END:
+#+INDEX: unlimited pasta pass!"Unlimited Pasta Pass" in /Catalog of Mundane Things/
+The */unlimited pasta pass/* can be used at any participating /Pasta
+Palace/ for free unlimited pasta for the owner, and free soft drinks
+for them and their guest. Does not include breadsticks.
+** DRAFT Wine
+   :PROPERTIES:
+   :CUSTOM_ID: wine
+   :END:
+#+INDEX: wine!"Wine" in /Catalog of Mundane Things/
+* DRAFT Supplements
+** DRAFT Index
+- Arathel County :: {{{teraum-defsrc(arathel-county)}}}
+- Bellybrush :: {{{teraum-defsrc(bellybrush)}}}
+- chert :: {{{teraum-define-chert}}} See [[#chert]["Chert"]].
+- cokeberries :: {{{teraum-define-cokeberries}}} See [[#cokeberries]["Cokeberries"]].
+- masks, death :: {{{teraum-define-masks-death}}} See [[#death-masks]["Death Masks"]].
+- dye :: {{{teraum-define-dye}}} See [[#dye]["Dye"]].
+- Gnalens :: {{{teraum-defsrc(gnalens)}}}
+- Green Delta :: {{{teraum-defsrc(green-delta)}}}
+- humans :: {{{teraum-defsrc(humans)}}}
+- Masked Mortuary :: {{{teraum-defsrc(bellybrush-masked-mortuary)}}}
+- money :: {{{teraum-define-money}}} See [[#money]["Money"]].
+- Nabrish, Arandul :: {{{teraum-defsrc(nabrish-arandul)}}}
+- Nabrish, Daxol :: {{{teraum-defsrc(nabrish-daxol)}}}
+- New World :: {{{teraum-defsrc(new-world)}}}
+- Pasta Palace :: {{{teraum-defsrc(pasta-palace)}}}
+- preserves :: {{{teraum-define-preserves}}} See [[#preserves]["Preserves]].
+- leather, salmon :: {{{teraum-define-leather-salmon}}} See [[#salmon-leather]["Salmon
+     Leather"]].
+- unlimited pasta pass :: {{{teraum-define-unlimited-pasta-pass}}} See
+     [[#unlimited-pasta-pass]["Unlimited Pasta Pass"]].
+- Widewoods :: {{{teraum-defsrc(widewoods)}}}
+- wine :: {{{teraum-define-wine}}} See [[#wine]["Wine"]].

@@ -1,0 +1,6 @@
+import assert from "node:assert/strict";
+import test from "node:test";
+import { planScheduledUpload } from "../src/scheduled-upload-bridge.mjs";
+function video() { const bytes = Buffer.alloc(16); bytes.write("ftyp", 4, "ascii"); return bytes; }
+test("scheduled bridge plans one exact eligible future upload without an effect", () => { const value = planScheduledUpload({ videoBytes: video(), metadata: { title: "Value and purpose", description: "A relational map." }, publishAt: "2096-07-26T15:00:00.000Z", now: "2096-07-21T00:00:00.000Z" }); assert.equal(value.publishMode, "scheduled-public"); assert.equal(value.civilDay, "2096-07-26"); assert.equal(value.disposition, "dry-run-no-effect"); });
+test("scheduled bridge refuses ineligible, past, or non-MP4 work", () => { const base = { videoBytes: video(), metadata: { title: "Value", description: "Purpose" }, now: "2096-07-21T00:00:00.000Z" }; assert.throws(() => planScheduledUpload({ ...base, publishAt: "2096-07-27T15:00:00.000Z" }), /outside/u); assert.throws(() => planScheduledUpload({ ...base, publishAt: "2096-07-20T15:00:00.000Z" }), /future/u); assert.throws(() => planScheduledUpload({ ...base, videoBytes: Buffer.alloc(16), publishAt: "2096-07-26T15:00:00.000Z" }), /MP4/u); });

@@ -1,0 +1,69 @@
+{
+  "subject": "christopher-nolan-says-the-odyssey-made-him-hit-the-limits-of-my-own-stamina-it-ll-be-at-least-3-years-until-his-next-film",
+  "claims": [
+    {
+      "id": "title",
+      "proposition": {
+        "predicate": "title",
+        "object": "Christopher Nolan Says ‘The Odyssey’ Made Him “Hit The Limits Of My Own Stamina” & It’ll Be “At Least” 3 Years Until His Next Film"
+      },
+      "time": {
+        "asserted": "2026-07-19T15:04:21.677Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "culture",
+        "citation": "https://deadline.com/2026/07/christopher-nolan-the-odyssey-next-film-1236997438/"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "url",
+      "proposition": {
+        "predicate": "url",
+        "object": "https://deadline.com/2026/07/christopher-nolan-the-odyssey-next-film-1236997438/"
+      },
+      "time": {
+        "asserted": "2026-07-19T15:04:21.677Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "culture",
+        "citation": "https://deadline.com/2026/07/christopher-nolan-the-odyssey-next-film-1236997438/"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "summary",
+      "proposition": {
+        "predicate": "summary",
+        "object": "Christopher Nolan’s The Odyssey is making big numbers at the box office, but don’t expect his next film to be released anytime soon. The filmmaker recently revealed that it’ll be “at least” three years before audiences see another of his works on the big screen. In an interview with Today, it was noted that Nolan has […]"
+      },
+      "time": {
+        "asserted": "2026-07-19T15:04:21.677Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "culture",
+        "citation": "https://deadline.com/2026/07/christopher-nolan-the-odyssey-next-film-1236997438/"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "published",
+      "proposition": {
+        "predicate": "published",
+        "object": "Sat, 18 Jul 2026 21:45:06 +0000"
+      },
+      "time": {
+        "asserted": "2026-07-19T15:04:21.677Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "culture",
+        "citation": "https://deadline.com/2026/07/christopher-nolan-the-odyssey-next-film-1236997438/"
+      },
+      "status": "supported"
+    }
+  ]
+}

@@ -1,0 +1,69 @@
+{
+  "subject": "ai-ops-tools-will-create-console-sprawl-and-break-it-more-often-gartner",
+  "claims": [
+    {
+      "id": "title",
+      "proposition": {
+        "predicate": "title",
+        "object": "AI ops tools will create console sprawl and break IT more often: Gartner"
+      },
+      "time": {
+        "asserted": "2026-07-20T04:32:47.919Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "technology",
+        "citation": "https://www.theregister.com/ai-and-ml/2026/07/20/ai-ops-tools-will-create-console-sprawl-and-break-it-more-often-gartner/5274712"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "url",
+      "proposition": {
+        "predicate": "url",
+        "object": "https://www.theregister.com/ai-and-ml/2026/07/20/ai-ops-tools-will-create-console-sprawl-and-break-it-more-often-gartner/5274712"
+      },
+      "time": {
+        "asserted": "2026-07-20T04:32:47.919Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "technology",
+        "citation": "https://www.theregister.com/ai-and-ml/2026/07/20/ai-ops-tools-will-create-console-sprawl-and-break-it-more-often-gartner/5274712"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "summary",
+      "proposition": {
+        "predicate": "summary",
+        "object": "A quarter of the work performed by IT infrastructure and operations people will be handled by AI in the year 2030, according to analyst firm Gartner, despite AI also complicating your environment and possibly creating outages. Those predictions landed on July 10 in Gartner’s 2026 Hype Cycle for AI in IT Operations, the firm’s view on the future of AI-powered infrastructure management tools. Gartner thinks there’ll be pain before AI-powered automation pays off. “Many AI-for-IT-operations narratives promise tool consolidation. Agents will query multiple systems, reason across silos and reduce dependence on specialized tools,” the document states, before predicting “the opposite outcome in the near term.” For at least a couple of years, you’ll have to wrestle with “more layers, more control points, and more specialized observability, orchestration and management capabilities.” The pain will lessen once “future market and vendor consolidation reduce the overall tooling footprint.” Between now and whenever that happens, Gartner suggests ops teams’ strategic planning assumptions include the increased likelihood of AI having a role in an outage. “By 2028, 40 percent of I&O organizations that use agentic I&O at scale in production will experience a business-critical service disruption, up from less than 1 percent of organizations in 2026,” the document states. You, or your bosses, will apparently be undeterred by that trend. Gartner thinks that by 2029, 60 percent of enterprises will deploy agentic AI as a part of IT infrastructure operations – up from fewer than ten percent today. In the same year, just 20 percent of actions suggested by AI will happen after human-in-the-loop approval, down from 80 percent in 2025. That shift will happen due to increased use of “deterministic guardrails” – policy-driven rules that determine what an AI is allowed to do. A year later, in 2030, Gartner thinks bosses will have restructured half of all infrastructure and ops teams after investing in agents to handle complex management tasks. In the same year, those of you still working in the field will use AI for every task that humans handle. “75 percent will be done by humans augmented with AI, and 25 percent will be done by AI alone,” Gartner predicts. Gartner thinks the following technologies will be mature in the next couple of years, and therefore set us all on the road to this fabulous future: Generative AI and “native” vendors that build IT ops tools GenAI, rather than adding it to existing tools. GenAI Virtual Assistants that offer conversational interfaces that users can employ for self-service problem solving, which happens when the assistants connect with agents to initiate fixes; Generative AI-Augmented CloudOps that analyze logs, metrics, traces, configuration and change events, and uses them to create scripts or infrastructure-as-code templates to automate future cloud maintenance. These bots can also write runbooks and post incident reports. Clouds are already creating these tools because they know their wares are enormously complex and users need help; Autonomous endpoint management that automatically configures machines with software to match user profiles, and handles patches – therefore helping IT teams to keep up with the increased number of software fixes created by AI; Network AI and Automation tools that monitor networks and can recommend configuration improvements to boost resilience. Service providers are the direct beneficiaries, the rest of us will enjoy downstream performance improvements; Network AI and Automation, aka conversational interfaces for networking equipment. Gartner rates four tools likely to reach maturity in the next two to five years – Agentic AI Observability, Agentic NetOps, Augmented FinOps, and Multiagent Systems – as likely to be the most impactful. Agentic AI Observability is a tech that observes AI agents and reports when they go awry, making such tools a must-have for those who want to govern AI properly and keep on top of AI costs. Agentic NetOps automates network management tasks. The term “Multiagent Systems” is self-explanatory – it’s multiple agents working together to achieve a task. Augmented FinOps uses AI to offer “algorithmically driven cloud budget planning and financial operations” and apparently “automatically optimize the underlying cloud resources” and deliver “efficient resource utilization and optimal spending by reducing misaligned or poor use of cloud infrastructure and service offerings.” ®"
+      },
+      "time": {
+        "asserted": "2026-07-20T04:32:47.919Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "technology",
+        "citation": "https://www.theregister.com/ai-and-ml/2026/07/20/ai-ops-tools-will-create-console-sprawl-and-break-it-more-often-gartner/5274712"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "published",
+      "proposition": {
+        "predicate": "published",
+        "object": "Mon, 20 Jul 2026 05:28:36 +0200"
+      },
+      "time": {
+        "asserted": "2026-07-20T04:32:47.919Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "technology",
+        "citation": "https://www.theregister.com/ai-and-ml/2026/07/20/ai-ops-tools-will-create-console-sprawl-and-break-it-more-often-gartner/5274712"
+      },
+      "status": "supported"
+    }
+  ]
+}

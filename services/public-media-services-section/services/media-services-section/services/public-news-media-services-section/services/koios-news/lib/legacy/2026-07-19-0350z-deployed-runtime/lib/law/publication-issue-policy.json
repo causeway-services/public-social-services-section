@@ -1,0 +1,37 @@
+{
+  "kind": "koios.news.publication-issue-policy",
+  "version": 1,
+  "permittedBeats": [
+    "technology",
+    "economy",
+    "culture",
+    "politics",
+    "war",
+    "environment",
+    "degrowth",
+    "decolonization"
+  ],
+  "maxIssuesPerPulse": 1,
+  "maxOpenAssignments": 1,
+  "minimumHoursBetweenNewIssues": 20,
+  "freshnessWindowDays": 14,
+  "selectionMode": "measured-demand-and-source",
+  "sourceRefreshAuthorized": true,
+  "triggerAuthorities": [
+    {
+      "actor": "urn:colony:cold-red-gate:clockkeeper",
+      "capability": "urn:capability:koios-news:clockkeeper:cold-red-gate:publication-issue-pulse:v1"
+    }
+  ],
+  "sensitiveBeats": [
+    "war",
+    "politics"
+  ],
+  "law": [
+    "reader demand selects attention and never supplies factual warrant",
+    "only a separately admitted trigger actor carrying its exact attenuated capability may pulse the publication",
+    "one admitted source must support the whole assignment lens",
+    "an open assignment is resumed before another issue is created",
+    "the controller forms at most one assignment and performs no drafting, editing, publishing, delivery, or model selection"
+  ]
+}

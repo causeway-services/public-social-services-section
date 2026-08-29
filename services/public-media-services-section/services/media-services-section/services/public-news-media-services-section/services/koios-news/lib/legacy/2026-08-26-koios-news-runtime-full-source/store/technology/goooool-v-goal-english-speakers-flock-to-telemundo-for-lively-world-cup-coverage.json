@@ -1,0 +1,69 @@
+{
+  "subject": "goooool-v-goal-english-speakers-flock-to-telemundo-for-lively-world-cup-coverage",
+  "claims": [
+    {
+      "id": "title",
+      "proposition": {
+        "predicate": "title",
+        "object": "Goooool v goal: English speakers flock to Telemundo for lively World Cup coverage"
+      },
+      "time": {
+        "asserted": "2026-07-18T19:52:25.296Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "technology",
+        "citation": "https://www.theguardian.com/football/2026/jul/17/telemundo-world-cup-english-speaking-viewers"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "url",
+      "proposition": {
+        "predicate": "url",
+        "object": "https://www.theguardian.com/football/2026/jul/17/telemundo-world-cup-english-speaking-viewers"
+      },
+      "time": {
+        "asserted": "2026-07-18T19:52:25.296Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "technology",
+        "citation": "https://www.theguardian.com/football/2026/jul/17/telemundo-world-cup-english-speaking-viewers"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "summary",
+      "proposition": {
+        "predicate": "summary",
+        "object": "<p>The Spanish-language broadcaster has won over millions of US viewers with its energetic commentary during games</p><p>Soccer fans looking to watch the <a href=\"https://www.theguardian.com/football/world-cup-2026\">2026 World Cup</a> on US television have been presented with two very different options this tournament.</p><p>The first is <a href=\"https://www.theguardian.com/football/2026/jul/17/fox-world-cup-coverage-us-2026\">Fox Sports</a>, a cousin of Fox News owned by the same parent company and the sole network airing matches in English in the US. Audiences tuning in to Fox, which acquired the exclusive English broadcast rights in 2015, are met with coverage that reflects the network’s “America first” aesthetic, with promos for pro-Donald Trump talkshows, advertising breaks during games and the frequent, <a href=\"https://www.theguardian.com/football/2026/jun/21/thierry-henry-alexi-lalas-fox-world-cup\">grating presence</a> of host Alexi Lalas.</p> <a href=\"https://www.theguardian.com/football/2026/jul/17/telemundo-world-cup-english-speaking-viewers\">Continue reading...</a>"
+      },
+      "time": {
+        "asserted": "2026-07-18T19:52:25.296Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "technology",
+        "citation": "https://www.theguardian.com/football/2026/jul/17/telemundo-world-cup-english-speaking-viewers"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "published",
+      "proposition": {
+        "predicate": "published",
+        "object": "Fri, 17 Jul 2026 16:30:49 GMT"
+      },
+      "time": {
+        "asserted": "2026-07-18T19:52:25.296Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "technology",
+        "citation": "https://www.theguardian.com/football/2026/jul/17/telemundo-world-cup-english-speaking-viewers"
+      },
+      "status": "supported"
+    }
+  ]
+}

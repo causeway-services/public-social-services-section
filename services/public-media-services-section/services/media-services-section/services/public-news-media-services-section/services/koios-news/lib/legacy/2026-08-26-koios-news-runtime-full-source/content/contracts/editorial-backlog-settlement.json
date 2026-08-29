@@ -1,0 +1,23 @@
+{
+  "kind": "publication-owned-operation-contract",
+  "id": "koios.news/editorial-backlog-settlement/v1",
+  "owner": "koios.news",
+  "service": "settle inherited open draft assignments from already-accepted structured editorial judgments",
+  "preconditions": [
+    "every automatic refusal names an accepted exact-manuscript editorial judgment whose failure layer is assignment, sources, or deterministic gates",
+    "recoverable work remains byte-preserved and receives active or deferred control state",
+    "at most one recoverable assignment is active after settlement"
+  ],
+  "postconditions": [
+    "structurally invalid assignments have append-only refused dispositions",
+    "one cheapest-repairable assignment is active",
+    "other recoverable assignments are deferred rather than deleted",
+    "the settlement records the exact reused judgment digests and invokes no new inference"
+  ],
+  "prohibitions": [
+    "no manuscript deletion or rewriting",
+    "no new inference",
+    "no publication approval",
+    "no conversion of a revise judgment into an accepted manuscript"
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "kind": "koios.bilateral-contract-interface",
+  "id": "koios-hires-corpus-management-team-for-prior-research",
+  "customer": "urn:ame:koios-news",
+  "provider": "urn:ame:corpus-management-team",
+  "providerContract": "recovering-prior-research",
+  "providerRoot": "../../../../../../../board-of-directors/services/executive-office/services/knowledge-services-section/services/corpus-management-team",
+  "admission": "ActivityStreams Offer<ServiceSolicitation> followed by acceptance of the provider-authored executable offer with a read-only capability attenuated to exact roots, terms, file count, byte count, and match count.",
+  "result": "Digest-bound ContextualBundle plus explicit GapBundle; no Koios or source-territory mutation.",
+  "admittedCachedRecovery": {
+    "id": "urn:sha256:ee4c1e720dfba42f04eb691b635c05200c5b413afefab04e05e6e2353d39b331",
+    "contextualBundleDigest": "sha256:cb586aedbddf16801e473699734b69f3ffbe744aedb4617d027aaab76dfec041",
+    "gapBundleDigest": "sha256:1a91f4a07478585b156b5e41f44c35b9e5008f0d51d0e4b8da2f5adf954140e5",
+    "sourceCount": 180,
+    "gapCount": 23,
+    "recoveredAt": "2026-07-18T03:18:50.660Z"
+  },
+  "reuse": "Koios requests a bounded PriorResearchProjectionRequest over the admitted cached recovery. CMT verifies the exact provider-owned digests and projects its stored source records without rereading source territory.",
+  "existingEvidence": "The admitted 2026-07-18 CMT recovery holds 180 source records and 23 explicit gaps. Koios consumes bounded projections of that recovery and does not rerun the filesystem sweep merely to create local paperwork.",
+  "status": "callable-provider-interface-adopted"
+}

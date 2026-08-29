@@ -1,0 +1,69 @@
+{
+  "subject": "freddy-cannon-rock-and-roller-behind-hits-palisades-park-and-tallahassee-lassie-dies-at-89",
+  "claims": [
+    {
+      "id": "title",
+      "proposition": {
+        "predicate": "title",
+        "object": "Freddy Cannon, Rock and Roller Behind Hits “Palisades Park” and “Tallahassee Lassie,” Dies at 89"
+      },
+      "time": {
+        "asserted": "2026-07-19T14:42:05.531Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "culture",
+        "citation": "https://www.hollywoodreporter.com/music/music-news/freddy-cannon-dead-rocker-palisades-park-1236651629/"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "url",
+      "proposition": {
+        "predicate": "url",
+        "object": "https://www.hollywoodreporter.com/music/music-news/freddy-cannon-dead-rocker-palisades-park-1236651629/"
+      },
+      "time": {
+        "asserted": "2026-07-19T14:42:05.531Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "culture",
+        "citation": "https://www.hollywoodreporter.com/music/music-news/freddy-cannon-dead-rocker-palisades-park-1236651629/"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "summary",
+      "proposition": {
+        "predicate": "summary",
+        "object": "Cannon died Friday at a hospice facility in California."
+      },
+      "time": {
+        "asserted": "2026-07-19T14:42:05.531Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "culture",
+        "citation": "https://www.hollywoodreporter.com/music/music-news/freddy-cannon-dead-rocker-palisades-park-1236651629/"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "published",
+      "proposition": {
+        "predicate": "published",
+        "object": "Sun, 19 Jul 2026 05:14:08 +0000"
+      },
+      "time": {
+        "asserted": "2026-07-19T14:42:05.531Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "culture",
+        "citation": "https://www.hollywoodreporter.com/music/music-news/freddy-cannon-dead-rocker-palisades-park-1236651629/"
+      },
+      "status": "supported"
+    }
+  ]
+}

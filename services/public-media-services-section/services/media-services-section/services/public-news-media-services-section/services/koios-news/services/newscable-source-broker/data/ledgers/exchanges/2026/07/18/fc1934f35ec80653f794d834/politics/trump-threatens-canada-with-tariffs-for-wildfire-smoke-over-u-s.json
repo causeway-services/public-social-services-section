@@ -1,0 +1,69 @@
+{
+  "subject": "trump-threatens-canada-with-tariffs-for-wildfire-smoke-over-u-s",
+  "claims": [
+    {
+      "id": "title",
+      "proposition": {
+        "predicate": "title",
+        "object": "Trump Threatens Canada With Tariffs for Wildfire Smoke Over U.S."
+      },
+      "time": {
+        "asserted": "2026-07-18T07:55:42.726Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "politics",
+        "citation": "https://www.nytimes.com/2026/07/17/weather/trump-canada-tariffs-wildfire-smoke.html"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "url",
+      "proposition": {
+        "predicate": "url",
+        "object": "https://www.nytimes.com/2026/07/17/weather/trump-canada-tariffs-wildfire-smoke.html"
+      },
+      "time": {
+        "asserted": "2026-07-18T07:55:42.726Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "politics",
+        "citation": "https://www.nytimes.com/2026/07/17/weather/trump-canada-tariffs-wildfire-smoke.html"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "summary",
+      "proposition": {
+        "predicate": "summary",
+        "object": "The president said on Friday in a social media post that Canada was failing to manage its wildfire response as smoke has blanketed U.S. cities including New York and Chicago."
+      },
+      "time": {
+        "asserted": "2026-07-18T07:55:42.726Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "politics",
+        "citation": "https://www.nytimes.com/2026/07/17/weather/trump-canada-tariffs-wildfire-smoke.html"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "published",
+      "proposition": {
+        "predicate": "published",
+        "object": "Sat, 18 Jul 2026 03:06:43 +0000"
+      },
+      "time": {
+        "asserted": "2026-07-18T07:55:42.726Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "politics",
+        "citation": "https://www.nytimes.com/2026/07/17/weather/trump-canada-tariffs-wildfire-smoke.html"
+      },
+      "status": "supported"
+    }
+  ]
+}

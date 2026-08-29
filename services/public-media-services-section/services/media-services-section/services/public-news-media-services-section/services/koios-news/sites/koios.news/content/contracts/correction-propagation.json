@@ -1,0 +1,34 @@
+{
+  "kind": "publication-owned-operation-contract",
+  "id": "koios.news/correction-propagation/v1",
+  "owner": "koios.news",
+  "service": "bind a source or newsroom-claim change to withdrawal, renewed editorial admission, and verified regeneration of every controlled public carrier",
+  "preconditions": [
+    "the demand names one currently exact-admitted public manuscript and its prior digest",
+    "the trigger names source-claim supersession, source-claim withdrawal, or claim narrowing plus an immutable evidence digest",
+    "the trigger names at least one affected source subject or newsroom claim identifier",
+    "the demand carries the prior static manifest and route digests",
+    "the declared affected surfaces include every publication-controlled correction carrier"
+  ],
+  "postconditions": [
+    "the publication appends the source or claim custody change without rewriting historic custody",
+    "opening withdraws the prior exact manuscript and invalidates its publication gate",
+    "closure requires a new accepted editorial judgment for the corrected exact bytes",
+    "closure rebuilds and verifies the deterministic static surface",
+    "the closure receipt binds trigger evidence, source/claim act, prior and corrected manuscript, editorial acceptance, before and after manifests, and per-route change witnesses",
+    "byte-identical same-day sitemap output is admitted only with an explicit day-granularity semantic witness",
+    "the operation performs no remote deployment, preview upload, DNS change, or cutover"
+  ],
+  "authority": {
+    "sourceClaimCustody": "koios.news source desk",
+    "manuscriptWithdrawalAndAdmission": "koios.news editorial operation",
+    "staticRegeneration": "koios.news publication operations"
+  },
+  "prohibitions": [
+    "no mutation of upstream provider records",
+    "no deletion or rewriting of historic claim custody",
+    "no synthetic editorial acceptance outside an isolated fixture",
+    "no inference unless separately contracted and receipted",
+    "no external delivery claim"
+  ]
+}

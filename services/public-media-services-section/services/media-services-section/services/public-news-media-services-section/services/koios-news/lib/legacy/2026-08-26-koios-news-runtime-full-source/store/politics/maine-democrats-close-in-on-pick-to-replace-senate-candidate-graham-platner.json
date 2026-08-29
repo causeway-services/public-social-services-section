@@ -1,0 +1,69 @@
+{
+  "subject": "maine-democrats-close-in-on-pick-to-replace-senate-candidate-graham-platner",
+  "claims": [
+    {
+      "id": "title",
+      "proposition": {
+        "predicate": "title",
+        "object": "Maine Democrats close in on pick to replace Senate candidate Graham Platner"
+      },
+      "time": {
+        "asserted": "2026-07-20T09:48:45.426Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "politics",
+        "citation": "https://www.npr.org/2026/07/20/nx-s1-5897456/maine-democrats-close-in-on-pick-to-replace-senate-candidate-graham-platner"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "url",
+      "proposition": {
+        "predicate": "url",
+        "object": "https://www.npr.org/2026/07/20/nx-s1-5897456/maine-democrats-close-in-on-pick-to-replace-senate-candidate-graham-platner"
+      },
+      "time": {
+        "asserted": "2026-07-20T09:48:45.426Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "politics",
+        "citation": "https://www.npr.org/2026/07/20/nx-s1-5897456/maine-democrats-close-in-on-pick-to-replace-senate-candidate-graham-platner"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "summary",
+      "proposition": {
+        "predicate": "summary",
+        "object": "Maine Democrats appear to be settling on a frontrunner to replace former Senate candidate Graham Platner in a rushed process to take on Republican Sen. Susan Collins."
+      },
+      "time": {
+        "asserted": "2026-07-20T09:48:45.426Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "politics",
+        "citation": "https://www.npr.org/2026/07/20/nx-s1-5897456/maine-democrats-close-in-on-pick-to-replace-senate-candidate-graham-platner"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "published",
+      "proposition": {
+        "predicate": "published",
+        "object": "Mon, 20 Jul 2026 04:41:56 -0400"
+      },
+      "time": {
+        "asserted": "2026-07-20T09:48:45.426Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "politics",
+        "citation": "https://www.npr.org/2026/07/20/nx-s1-5897456/maine-democrats-close-in-on-pick-to-replace-senate-candidate-graham-platner"
+      },
+      "status": "supported"
+    }
+  ]
+}

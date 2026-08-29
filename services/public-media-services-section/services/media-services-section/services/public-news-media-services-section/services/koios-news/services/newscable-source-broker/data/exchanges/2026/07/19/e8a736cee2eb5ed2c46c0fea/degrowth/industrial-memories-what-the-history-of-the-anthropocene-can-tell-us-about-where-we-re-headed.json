@@ -1,0 +1,69 @@
+{
+  "subject": "industrial-memories-what-the-history-of-the-anthropocene-can-tell-us-about-where-we-re-headed",
+  "claims": [
+    {
+      "id": "title",
+      "proposition": {
+        "predicate": "title",
+        "object": "‘Industrial memories’: What the history of the Anthropocene can tell us about where we’re headed"
+      },
+      "time": {
+        "asserted": "2026-07-19T14:41:55.181Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "degrowth",
+        "citation": "https://www.resilience.org/stories/2026-07-16/industrial-memories-what-the-history-of-the-anthropocene-can-tell-us-about-where-were-headed/"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "url",
+      "proposition": {
+        "predicate": "url",
+        "object": "https://www.resilience.org/stories/2026-07-16/industrial-memories-what-the-history-of-the-anthropocene-can-tell-us-about-where-were-headed/"
+      },
+      "time": {
+        "asserted": "2026-07-19T14:41:55.181Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "degrowth",
+        "citation": "https://www.resilience.org/stories/2026-07-16/industrial-memories-what-the-history-of-the-anthropocene-can-tell-us-about-where-were-headed/"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "summary",
+      "proposition": {
+        "predicate": "summary",
+        "object": "Industrial landscapes are living reminders of how centuries of fossil-fuel development reshaped Earth’s systems. As the Anthropocene unfolds, that legacy continues to shape our future. Historian Sabine Höhler argues that bridging the divide between human and Earth history is essential to understanding where we are and at what cost."
+      },
+      "time": {
+        "asserted": "2026-07-19T14:41:55.181Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "degrowth",
+        "citation": "https://www.resilience.org/stories/2026-07-16/industrial-memories-what-the-history-of-the-anthropocene-can-tell-us-about-where-were-headed/"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "published",
+      "proposition": {
+        "predicate": "published",
+        "object": "Thu, 16 Jul 2026 08:00:59 +0000"
+      },
+      "time": {
+        "asserted": "2026-07-19T14:41:55.181Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "degrowth",
+        "citation": "https://www.resilience.org/stories/2026-07-16/industrial-memories-what-the-history-of-the-anthropocene-can-tell-us-about-where-were-headed/"
+      },
+      "status": "supported"
+    }
+  ]
+}

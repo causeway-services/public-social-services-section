@@ -1,0 +1,69 @@
+{
+  "subject": "repeated-storms-are-turning-disaster-recovery-into-a-way-of-life-and-leaving-communities-facing-disaster-fatigue",
+  "claims": [
+    {
+      "id": "title",
+      "proposition": {
+        "predicate": "title",
+        "object": "Repeated storms are turning disaster recovery into a way of life, and leaving communities facing disaster fatigue"
+      },
+      "time": {
+        "asserted": "2026-07-19T14:41:55.181Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "degrowth",
+        "citation": "https://www.resilience.org/stories/2026-07-17/repeated-storms-are-turning-disaster-recovery-into-a-way-of-life-and-leaving-communities-facing-disaster-fatigue/"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "url",
+      "proposition": {
+        "predicate": "url",
+        "object": "https://www.resilience.org/stories/2026-07-17/repeated-storms-are-turning-disaster-recovery-into-a-way-of-life-and-leaving-communities-facing-disaster-fatigue/"
+      },
+      "time": {
+        "asserted": "2026-07-19T14:41:55.181Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "degrowth",
+        "citation": "https://www.resilience.org/stories/2026-07-17/repeated-storms-are-turning-disaster-recovery-into-a-way-of-life-and-leaving-communities-facing-disaster-fatigue/"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "summary",
+      "proposition": {
+        "predicate": "summary",
+        "object": "As storms intensify in our warming world, recovery no longer feels permanent in places at risk of disasters. Instead, it’s too often a temporary reprieve before the next disaster hits. Recognizing community disaster fatigue is an important step toward building resilient recovery systems."
+      },
+      "time": {
+        "asserted": "2026-07-19T14:41:55.181Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "degrowth",
+        "citation": "https://www.resilience.org/stories/2026-07-17/repeated-storms-are-turning-disaster-recovery-into-a-way-of-life-and-leaving-communities-facing-disaster-fatigue/"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "published",
+      "proposition": {
+        "predicate": "published",
+        "object": "Fri, 17 Jul 2026 08:00:35 +0000"
+      },
+      "time": {
+        "asserted": "2026-07-19T14:41:55.181Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "degrowth",
+        "citation": "https://www.resilience.org/stories/2026-07-17/repeated-storms-are-turning-disaster-recovery-into-a-way-of-life-and-leaving-communities-facing-disaster-fatigue/"
+      },
+      "status": "supported"
+    }
+  ]
+}

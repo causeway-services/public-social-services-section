@@ -1,0 +1,33 @@
+{
+  "type": "TTIUnionMediaActivityPubCarrierServiceProposal",
+  "version": 1,
+  "id": "ni:///sha-256;k_66Y6JQnjloMBqfm-RfGfP17iLeetzdaQ8OaUNQgYA",
+  "status": "customer-proposed-provider-acceptance-and-live-host-pending",
+  "customer": "urn:ame:turntide-islands",
+  "provider": "urn:ame:activitypub-services-section",
+  "providerAdvertisedContracts": [
+    "activitypub-services-section/signed-delivery/v1",
+    "activitypub-services-section/rmn-link/v1"
+  ],
+  "operation": "The provider supplies its public Fedify carrier face to a customer-scoped TTI process. TTI supplies its actor description, persistent actor keys, protocol-state path, private inbox-reader token, outbox view, and accepted-arrival callback. The provider verifies ActivityPub signatures or integrity proofs, applies protocol idempotency, and invokes the callback only with a verified ActivityStreams activity.",
+  "custody": {
+    "ttiRetains": ["actor private keys", "inbox-reader token", "protocol state", "placement admission", "witness journal entry", "Discord authority", "advertiser records", "bids", "business records"],
+    "providerRetains": ["provider implementation", "provider enterprise account", "provider deployment plate", "provider data and keystores"],
+    "forbiddenTransfer": "No provider keystore, account binding, deployment state, bearer token, or displaced binding may be copied into TTI. No TTI secret may be committed, returned in a receipt, or granted to another settlement."
+  },
+  "customerFace": {
+    "origin": "https://turntide-islands.561.group/",
+    "identifier": "union-media",
+    "actor": "https://turntide-islands.561.group/actors/union-media",
+    "agentCard": "https://turntide-islands.561.group/.well-known/agent-card.json",
+    "boundedPaths": ["/.well-known/webfinger", "/.well-known/nodeinfo", "/nodeinfo/2.1", "/actors/union-media", "/actors/union-media/inbox", "/actors/union-media/outbox", "/inbox", "/.well-known/agent-card.json"]
+  },
+  "acceptance": "TTI may mark technical compatibility only after a customer-owned loopback probe proves unsigned refusal, signed delivery, exact RFC 6920 RMN-byte recovery, one callback, and absence of copied provider custody material. Service selection additionally requires provider-authored acceptance, attributable consideration or explicit zero price, public-host acceptance, external HTTPS probes, and a production custody assay.",
+  "refusal": "Refuse copied custody material, unsigned callback, changed actor or recipient, foreign Agent Card, changed RMN digest, duplicate callback, unbounded body, undeclared public path, missing provider acceptance, unavailable public origin, or any provider claim over TTI admission, Discord, advertiser, bid, revenue, or business authority.",
+  "consideration": null,
+  "providerAccepted": false,
+  "publicHostingAccepted": false,
+  "liveEffectsAuthorized": false,
+  "revenueRecognized": false,
+  "profitRecognized": false
+}

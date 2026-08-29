@@ -1,0 +1,69 @@
+{
+  "subject": "venice-critics-week-lineup-shalini-adnani-s-family-drama-our-share-of-sand-ai-assisted-colombian-doc-the-end-of-times-and-more",
+  "claims": [
+    {
+      "id": "title",
+      "proposition": {
+        "predicate": "title",
+        "object": "Venice Critics’ Week Lineup: Shalini Adnani’s Family Drama ‘Our Share of Sand,’ AI-Assisted Colombian Doc ‘The End of Times’ and More"
+      },
+      "time": {
+        "asserted": "2026-07-20T10:18:52.888Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "culture",
+        "citation": "https://variety.com/2026/film/festivals/venice-critics-week-lineup-shalini-adnani-our-share-of-sand-1236815353/"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "url",
+      "proposition": {
+        "predicate": "url",
+        "object": "https://variety.com/2026/film/festivals/venice-critics-week-lineup-shalini-adnani-our-share-of-sand-1236815353/"
+      },
+      "time": {
+        "asserted": "2026-07-20T10:18:52.888Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "culture",
+        "citation": "https://variety.com/2026/film/festivals/venice-critics-week-lineup-shalini-adnani-our-share-of-sand-1236815353/"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "summary",
+      "proposition": {
+        "predicate": "summary",
+        "object": "London-based Chilean-Indian director Shalini Adnani’s debut feature “Our Share of Sand,” about a 12-year-old girl named Maya who returns to rural India to reconnect with her estranged father, is among standout entries in the upcoming Venice Film Festival Critics’ Week. The section, dedicated to first works from around the world, also comprises two titles from Colombia: […]"
+      },
+      "time": {
+        "asserted": "2026-07-20T10:18:52.888Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "culture",
+        "citation": "https://variety.com/2026/film/festivals/venice-critics-week-lineup-shalini-adnani-our-share-of-sand-1236815353/"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "published",
+      "proposition": {
+        "predicate": "published",
+        "object": "Mon, 20 Jul 2026 10:00:00 +0000"
+      },
+      "time": {
+        "asserted": "2026-07-20T10:18:52.888Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "culture",
+        "citation": "https://variety.com/2026/film/festivals/venice-critics-week-lineup-shalini-adnani-our-share-of-sand-1236815353/"
+      },
+      "status": "supported"
+    }
+  ]
+}

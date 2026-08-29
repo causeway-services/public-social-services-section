@@ -1,0 +1,2 @@
+<urn:sha256:d0ad62a61a2e13a801d90f860a3bc8b62b5d1d60f09e88c0925bbbfa53e3baa3> <http://www.w3.org/ns/prov#wasRevisionOf> <urn:ame:koios.news:source:site-evm-authority> <urn:ame:koios.news:cutover:2026-07-19> .
+<urn:sha256:96e16977f1624d438f0fa426f6692bad807c2f4701358996b0a3c65286a1bbfa> <http://www.w3.org/ns/prov#invalidatedAtTime> "2026-07-19" <urn:ame:koios.news:cutover:2026-07-19> .

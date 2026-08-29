@@ -1,0 +1,69 @@
+{
+  "subject": "hbo-s-harry-potter-cinematographer-says-it-s-brutal-working-around-the-young-stars-strict-shooting-schedules-have-to-pre-shoot-all-the-scenes-while-they-re-in-class",
+  "claims": [
+    {
+      "id": "title",
+      "proposition": {
+        "predicate": "title",
+        "object": "HBO’s ‘Harry Potter’ Cinematographer Says It’s ‘Brutal’ Working Around the Young Stars’ Strict Shooting Schedules: ‘Have to Pre-Shoot All the Scenes While They’re in Class’"
+      },
+      "time": {
+        "asserted": "2026-07-19T20:06:19.825Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "culture",
+        "citation": "https://variety.com/2026/film/news/hbo-harry-potter-brutal-working-stars-strict-schedules-1236816011/"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "url",
+      "proposition": {
+        "predicate": "url",
+        "object": "https://variety.com/2026/film/news/hbo-harry-potter-brutal-working-stars-strict-schedules-1236816011/"
+      },
+      "time": {
+        "asserted": "2026-07-19T20:06:19.825Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "culture",
+        "citation": "https://variety.com/2026/film/news/hbo-harry-potter-brutal-working-stars-strict-schedules-1236816011/"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "summary",
+      "proposition": {
+        "predicate": "summary",
+        "object": "Adriano Goldman, the cinematographer for HBO’s “Harry Potter” series, said in a recent interview with Andre Pilli that the filming conditions for the show have been “brutal” because the camera team must work around the young cast’s strict shooting schedules. “You have to shoot really fast, and the faster you go, the more you compromise […]"
+      },
+      "time": {
+        "asserted": "2026-07-19T20:06:19.825Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "culture",
+        "citation": "https://variety.com/2026/film/news/hbo-harry-potter-brutal-working-stars-strict-schedules-1236816011/"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "published",
+      "proposition": {
+        "predicate": "published",
+        "object": "Sun, 19 Jul 2026 17:35:11 +0000"
+      },
+      "time": {
+        "asserted": "2026-07-19T20:06:19.825Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "culture",
+        "citation": "https://variety.com/2026/film/news/hbo-harry-potter-brutal-working-stars-strict-schedules-1236816011/"
+      },
+      "status": "supported"
+    }
+  ]
+}

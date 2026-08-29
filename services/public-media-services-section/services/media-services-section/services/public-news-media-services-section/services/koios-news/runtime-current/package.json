@@ -1,0 +1,26 @@
+{
+  "name": "@causeway-services/koios-news-runtime-current",
+  "version": "0.1.0",
+  "type": "module",
+  "description": "Offline admission seam for Koios's current provider contracts.",
+  "engines": {
+    "node": ">=22.18"
+  },
+  "bin": {
+    "koios-runtime-current": "./src/koios-runtime.mjs"
+  },
+  "scripts": {
+    "check": "node --check src/koios-runtime.mjs",
+    "inspect": "node src/koios-runtime.mjs inspect",
+    "plan": "node src/koios-runtime.mjs plan",
+    "test": "node --test test/*.test.mjs",
+    "verify": "npm run check && npm test && npm run inspect"
+  },
+  "files": [
+    "README.md",
+    "config/",
+    "src/",
+    "test/",
+    "package.json"
+  ]
+}

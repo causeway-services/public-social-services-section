@@ -1,0 +1,69 @@
+{
+  "subject": "nebraska-wants-data-centers-to-come-clean-about-water-usage",
+  "claims": [
+    {
+      "id": "title",
+      "proposition": {
+        "predicate": "title",
+        "object": "Nebraska wants data centers to come clean about water usage"
+      },
+      "time": {
+        "asserted": "2026-07-19T15:04:04.072Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "environment",
+        "citation": "https://grist.org/climate-energy/nebraska-wants-data-centers-to-come-clean-about-water-usage/"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "url",
+      "proposition": {
+        "predicate": "url",
+        "object": "https://grist.org/climate-energy/nebraska-wants-data-centers-to-come-clean-about-water-usage/"
+      },
+      "time": {
+        "asserted": "2026-07-19T15:04:04.072Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "environment",
+        "citation": "https://grist.org/climate-energy/nebraska-wants-data-centers-to-come-clean-about-water-usage/"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "summary",
+      "proposition": {
+        "predicate": "summary",
+        "object": "Often seen as a black box of information, data centers in Nebraska will be forced to reveal more about their operations, like their annual water use and power demand, to the state, following the recent passing of a new law by the Nebraska Legislature. Jesse Bradley, director of the Department of Water, Energy, and Environment, said the state agency will then see what information gaps remain, but that the legislation is a “great start” and will help with future planning. In addition to electricity production, water has emerged as a point of contention as companies look to build more data centers in Nebraska. Local residents, researchers, and regulators worry that new data centers could bring about water shortages in a state where water availability can vary widely and where wide swaths of this agricultural state are suffering through extreme drought. For now, the best available information about how much water data centers use comes directly from the data center companies themselves — if they choose to be transparent. For instance, in Nebraska, there isn’t even an official count of how many data centers there are in the state. Of the ones that have reported their water usage, the amounts vary. Google’s Nebraska data centers consumed about 732 million gallons of water in 2025, according to the company. Google, a subsidiary of Alphabet, expects its water consumption from data centers to grow. From 2020 to 2024 , Meta’s 4 million-square-foot Sarpy County data center withdrew anywhere from 26.7 million gallons to 37.5 million gallons from the local water supply, depending on the year. Data centers use water to cool the buildings and the computer servers inside. Keeping everything at optimal temperatures ensures the equipment doesn’t malfunction. Some cooling methods, like evaporative cooling systems, typically use large amounts of water. Air-cooled chiller systems, however, deploy a “closed loop” containing water, a chemical coolant, or sometimes both and can operate without needing to be replenished for years. While closed loop systems use less water, they tend to use more electricity — the production of which can also require water. “What’s best?” said Eric Masanet, a University of California, Santa Barbara engineering professor. “It depends on the data center, its design, the local climate, if you have enough water, if you have enough power, what people want, what they’re willing to devote their resources to.” Read Next A swarm of solar ‘bees’ are coming to western North Carolina community hubs Katie Myers Google decides which cooling system to use depending on how much water is available in a given location, according to Ben Townsend, the company’s head of infrastructure and sustainability. The company assesses local watersheds before and after building a data center. Meta’s Sarpy County data center uses a combination of evaporative and closed loop cooling. While data centers have typically been built in urban areas, developments have started to move further out to suburbs and rural areas as fiber optic cables and infrastructure has improved, said Dan Diorio, vice president of state policy at the Data Center Coalition. This expansion raises concerns for areas of Nebraska that either don’t have enough water already or whose water supply is already fully allocated. Most of the state’s water is used for irrigation to support the agriculture-based economy.&nbsp; With water use expected to rise due to droughts and higher temperatures from climate change, water policy and allocation are top of mind, said Crystal Powers, water extension educator at the University of Nebraska-Lincoln.&nbsp; “From a logical, common-sense perspective, we really need to stop putting industry in areas where they can’t be supported” by natural resources like water, said John Winkler, general manager of the Papio-Missouri River Natural Resource District. “It doesn’t make sense to put a data center in an area that’s very water-insecure to begin with.” Masanet and fellow researcher Jonathan Koomey said the pressure is being put on the data center industry to be more efficient and transparent. “I work with a lot of people in the tech industry. They’re pouring trillions into this industry,” Masanet said. “We should hold them to account and make them install the very best technologies that minimize energy and water.” This story was originally published by Grist with the headline Nebraska wants data centers to come clean about water usage on Jul 15, 2026."
+      },
+      "time": {
+        "asserted": "2026-07-19T15:04:04.072Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "environment",
+        "citation": "https://grist.org/climate-energy/nebraska-wants-data-centers-to-come-clean-about-water-usage/"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "published",
+      "proposition": {
+        "predicate": "published",
+        "object": "Wed, 15 Jul 2026 08:00:00 +0000"
+      },
+      "time": {
+        "asserted": "2026-07-19T15:04:04.072Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "environment",
+        "citation": "https://grist.org/climate-energy/nebraska-wants-data-centers-to-come-clean-about-water-usage/"
+      },
+      "status": "supported"
+    }
+  ]
+}

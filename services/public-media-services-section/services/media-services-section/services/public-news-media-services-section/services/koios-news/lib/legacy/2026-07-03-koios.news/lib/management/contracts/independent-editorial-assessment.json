@@ -1,0 +1,16 @@
+{
+  "kind": "koios.bilateral-contract-interface",
+  "id": "koios-hires-independent-editorial-assessment",
+  "customer": "urn:ame:koios-news",
+  "provider": "urn:ame:independent-editorial-assessment",
+  "providerContract": "ni:///sha-256;GTSsfC0lmcjPLQvtlGmYwLJLCa9pirz1d8oUqRweioo",
+  "providerContractSource": "../../services/independent-editorial-assessment/content/contracts/editorial-assessment-service.rml",
+  "service": "independent-editorial-assessment",
+  "admission": "Koios supplies exact manuscript bytes, manuscript digest, deterministic standards reading, production provenance, admitted source and claim evidence, and the current editorial context identity without granting filesystem authority.",
+  "result": "One validated bounded editorial-tool selection bound to the exact manuscript and editorial context, with provider exchange evidence; Koios alone invokes the selected tool and records the resulting judgment.",
+  "publicationRule": "Only the latest accepted provider result for the exact current manuscript can satisfy the independent editorial gate.",
+  "supersedes": [
+    "sha256:673bb5b2d75da68ed8e1f471531521ccfcfae71275b323b9781400e69650df46"
+  ],
+  "status": "executing"
+}

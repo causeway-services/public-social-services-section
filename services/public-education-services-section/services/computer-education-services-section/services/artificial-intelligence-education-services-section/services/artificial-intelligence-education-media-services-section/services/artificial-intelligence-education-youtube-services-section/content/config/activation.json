@@ -1,0 +1,78 @@
+{
+  "status": "alternating-replenishing-routine-active",
+  "curriculumAdmission": "active-exact-settled-products",
+  "productionAdmission": "active-dedicated-notebook-deliveries",
+  "youtubeWrites": "granted",
+  "coursePlaylistWrites": "withheld-until-three-public-lessons-and-expanded-oauth",
+  "analyticsCollection": "granted-read-only",
+  "analyticsRoutine": {
+    "status": "enabled-active",
+    "timerUnit": "emsweb-artificial-intelligence-analytics-daily.timer",
+    "nextDailyTime": "04:45 America/Chicago",
+    "firstClosedWindowReport": "urn:sha256:b0abda4bce325d1e231fe77a8fc4d83444875ead5846e821f8a0ba5c68b734ab",
+    "firstObservationCount": 0,
+    "protocolProvider": "ni:///sha-256;Sr7aQvRBz7B4G2kYnsDg4YSEKPpfbCz6dekODdA3Qt4"
+  },
+  "oauthIdentity": {
+    "status": "verified",
+    "youtubeChannelId": "UCZY23kFU8ddtPn8mnY9xGaw",
+    "refreshTokenEnvironment": "ARTIFICIAL_INTELLIGENCE_YOUTUBE_OAUTH_REFRESH_TOKEN",
+    "tokenPrinted": false,
+    "verifiedOn": "2026-07-21"
+  },
+  "privateDraftPilot": {
+    "status": "completed-retained-private-pilot-residue",
+    "law": "ni:///sha-256;U-BfrTKUS0eDtOLqmM0L6iEztquz2yR99ewE_e07MtU",
+    "publicScheduleAuthority": false
+  },
+  "scheduledPublication": {
+    "status": "first-exact-schedule-public-and-processed-observed",
+    "law": "ni:///sha-256;4EZ6i224H9SUYCXgtmyEZbQKmVg2kKq4Xs1a9pPNv3s",
+    "authority": "leader repeatedly requested unattended uploads and scheduling and accepted the channel-local OAuth risk",
+    "oauthCapability": "youtube.upload",
+    "protocol": "videos.insert with private status and future publishAt",
+    "complianceEvidence": ["exact OAuth channel identity", "future eligible M/W/F release claim", "made-for-kids false", "synthetic-media disclosure true", "effect intent before upload", "no publication claim before public-and-processed observation"],
+    "venueQualification": "schedule acceptance is not publication; venue restrictions remain subject to later observation",
+    "firstScheduledVideoId": "GclkrGj49co",
+    "firstScheduledReceipt": "urn:sha256:31505f6028ea5c465ffc198951984a288fb1ea2ef60ffd3ce187ef3b024190ab",
+    "firstPublishAt": "2026-07-22T15:00:00.000Z",
+    "firstVenueObservation": "urn:sha256:c3ed77ffcd18b46b25fec7684bf2bc0530c457482e977db543b182354f905513",
+    "firstPublicPublicationReceipt": "urn:sha256:e8bcaa12b33e469bcb0fefaddd20dcbf9b38bf7014beba99b1bcf86ae4d1b32f",
+    "firstReleaseNotice": "urn:sha256:9bd83abe0542b797961fbefcbb3ebbb91b5774f7cbece8d81dbbbf0314006a94",
+    "firstDistributionPlan": "urn:sha256:cfb9231567347ac75b941e7140c6eb7962a9d5e42ff0f43b22747ce37a7cead1",
+    "firstDistributionProcessingReceipt": "urn:sha256:b93782edd9e11da59e203ff6d2d19d755607f4f2161ef3b71129f5bd502d8114"
+  },
+  "alternatingRoutine": {
+    "status": "active-signed-suppliers-scheduled-public-insert",
+    "cadence": "Monday Wednesday Friday at 00:30 America/Chicago",
+    "timerUnit": "emsweb-artificial-intelligence-alternating.timer",
+    "curriculumAgentCardIdentity": "ni:///sha-256;cNLk1ifH3drR2U4fQlC_k7zDmxPawDt2nxXyqdLhaHc",
+    "notebookAgentCardIdentity": "ni:///sha-256;0gi9QKYrNSEBuEuEgJomcDKd_eRrio6d4ooHgCr2YOU",
+    "currentReleaseMode": "automatic scheduled-public upload",
+    "publicScheduling": "granted through scope-minimized videos.insert"
+  },
+  "pendingScheduleRoutine": {
+    "status": "retired-superseded-by-scheduled-public-insert",
+    "timerUnit": "emsweb-artificial-intelligence-pending-schedule.timer",
+    "interval": "10 minutes",
+    "admission": "one exact future unscheduled private draft and its exact release claim",
+    "currentDisposition": "legacy private pilot remains private; future releases do not require videos.update or youtube.force-ssl"
+  },
+  "publicationObservationRoutine": {
+    "status": "enabled-active",
+    "timerUnit": "emsweb-artificial-intelligence-observe-public.timer",
+    "interval": "15 minutes",
+    "currentDisposition": "first public-and-processed transition completed for GclkrGj49co",
+    "publicationClaim": "witnessed and retained under the channel-local publication law"
+  },
+  "coursePlaylistProjection": {
+    "status": "installed-waiting-for-three-public-lessons-and-expanded-oauth",
+    "timerUnit": "emsweb-artificial-intelligence-course-playlist-projection.timer",
+    "minimumPublicLessons": 3,
+    "courseDesignationAuthority": "withheld-to-leader-desktop-studio-action"
+  },
+  "leaderInputsStillRequired": [
+    "grant playlist-write OAuth scope after three public lessons exist",
+    "designate the playlist as a Course in desktop YouTube Studio"
+  ]
+}

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0">
+  <channel>
+    <title>Fixture Wire</title>
+    <link>https://example.test/</link>
+    <description>Fixture feed</description>
+    <item>
+      <title>Heat stress forces a city power cut</title>
+      <link>https://example.test/heat-stress-power-cut</link>
+      <guid isPermaLink="true">https://example.test/heat-stress-power-cut</guid>
+      <pubDate>Mon, 29 Jun 2026 12:00:00 GMT</pubDate>
+      <description>Extreme heat pushed the grid past its operating margin.</description>
+      <category>grid</category>
+    </item>
+    <item>
+      <title>Water utility delays expansion plan</title>
+      <link>https://example.test/water-utility-delay</link>
+      <guid isPermaLink="true">https://example.test/water-utility-delay</guid>
+      <pubDate>Mon, 29 Jun 2026 13:00:00 GMT</pubDate>
+      <description>A water utility paused new hookups after reservoir levels fell.</description>
+      <category>water</category>
+    </item>
+  </channel>
+</rss>

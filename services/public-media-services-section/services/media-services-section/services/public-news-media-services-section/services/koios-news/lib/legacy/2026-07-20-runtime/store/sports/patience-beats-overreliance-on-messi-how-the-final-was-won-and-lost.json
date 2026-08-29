@@ -1,0 +1,69 @@
+{
+  "subject": "patience-beats-overreliance-on-messi-how-the-final-was-won-and-lost",
+  "claims": [
+    {
+      "id": "title",
+      "proposition": {
+        "predicate": "title",
+        "object": "Patience beats overreliance on Messi: how the final was won and lost"
+      },
+      "time": {
+        "asserted": "2026-07-19T23:18:26.490Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "sports",
+        "citation": "https://www.theguardian.com/football/2026/jul/19/patience-beats-overreliance-on-messi-how-the-final-was-won-and-lost"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "url",
+      "proposition": {
+        "predicate": "url",
+        "object": "https://www.theguardian.com/football/2026/jul/19/patience-beats-overreliance-on-messi-how-the-final-was-won-and-lost"
+      },
+      "time": {
+        "asserted": "2026-07-19T23:18:26.490Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "sports",
+        "citation": "https://www.theguardian.com/football/2026/jul/19/patience-beats-overreliance-on-messi-how-the-final-was-won-and-lost"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "summary",
+      "proposition": {
+        "predicate": "summary",
+        "object": "<p>Argentina tried to kill the spectacle and make it a physical battle but Spain refused to take the bait and kept passing</p><p>A worrying thought as a tepid first half drew to a close: was the half-time show going to be better than the football? This was a slog. Argentina could not match Spain’s possession approach but they had ways to level the playing field. There was physicality from Lionel Scaloni’s side, whose aim was to kill the spectacle before taking control in the second half, and they were allowed to take it to the limit by the Slovenian referee, Slavko Vincic. Alexis Mac Allister could have been booked for an early foul on Dani Olmo and the leniency, together with a pitch not conducive to playing flowing football, allowed Argentina to disrupt Spain’s passing game, creating the conditions for one of the most tedious World Cup finals.</p> <a href=\"https://www.theguardian.com/football/2026/jul/19/patience-beats-overreliance-on-messi-how-the-final-was-won-and-lost\">Continue reading...</a>"
+      },
+      "time": {
+        "asserted": "2026-07-19T23:18:26.490Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "sports",
+        "citation": "https://www.theguardian.com/football/2026/jul/19/patience-beats-overreliance-on-messi-how-the-final-was-won-and-lost"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "published",
+      "proposition": {
+        "predicate": "published",
+        "object": "Sun, 19 Jul 2026 22:37:15 GMT"
+      },
+      "time": {
+        "asserted": "2026-07-19T23:18:26.490Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "sports",
+        "citation": "https://www.theguardian.com/football/2026/jul/19/patience-beats-overreliance-on-messi-how-the-final-was-won-and-lost"
+      },
+      "status": "supported"
+    }
+  ]
+}

@@ -1,0 +1,43 @@
+#+SETUPFILE: ./setup.inc
+#+TITLE: Catalog of Books and Letters
+#+EXPORT_FILE_NAME: ../../pub/reference-books/catalog-of-books-and-letters
+* DRAFT Introduction
+{{{document-isdraft}}}
+
+{{{document-hasproject}}}
+* DRAFT Catalog of Books and Letters
+** DRAFT Gnork's Encyclopedia of Dwarven Construction
+   :PROPERTIES:
+   :CUSTOM_ID: gnorks-encyclopedia-of-dwarven-construction
+   :END:
+#+INDEX: Gnork's Encyclopedia of Dwarven Construction!"Gnork's Encyclopedia of Dwarven Construction" in /Catalog of Books and Letters/
+*/Gnork's/ Encyclopedia of Dwarven Construction* is a manual written
+by /Edward Gnork/ in 81bc. The book contains a breadth and depth of
+information about dwarven building methods, including their recipes
+for concrete and schematics for building foundries and other
+facilities.
+*** DRAFT Known Copies
+As the book was published before the advent of the /printing press/,
+there were very few original copies of the text, and even fewer
+survive today. It is suspected that inside the library at /Honeyfern
+Laboratories/ there may be a copy. It's known that /Jenos Anadini/
+possess a copy.
+**** DRAFT Maram's Marvelous Mirrors
+     :PROPERTIES:
+     :CUSTOM_ID: marams-marvelous-mirrors
+     :END:
+#+INDEX: Maram's Marvelous Mirrors!"Maram's Marvelous Mirrors" in /Catalog of Books and Letters/
+**** DRAFT Yeastslump's Architecture
+     :PROPERTIES:
+     :CUSTOM_ID: yeastslumps-architecture
+     :END:
+#+INDEX: Yeastslump's Architecture!"Yeastslump's Architecture" in /Catalog of Books and Letters/
+* DRAFT Supplements
+** DRAFT Index
+- Anadini, Jenos :: {{{teraum-defsrc(anadini-jenos)}}}
+- Gnork, Edward :: {{{teraum-defsrc(gnork-edward)}}}
+- Gnork's Encyclopedia of Dwarven Construction :: {{{teraum-define-gnorks-encyclopedia-of-dwarven-construction}}} See [[#gnorks-encyclopedia-of-dwarven-construction]["Gnork's Encyclopedia of Dwarven Construction"]].
+- Honeyfern Laboratories :: {{{teraum-defsrc(honeyfern-laboratories)}}}
+- Maram's Marvelous Mirrors :: {{{teraum-define-marams-marvelous-mirrors}}} See [[#marams-marvelous-mirrors]["Maram's Marvelous Mirrors"]].
+- printing press :: {{{teraum-defsrc(printing-press)}}}
+- Yeastslump's Architecture :: {{{teraum-define-yeastslumps-architecture}}} See [[#yeastslumps-architecture]["Yeastslump's Architecture"]].

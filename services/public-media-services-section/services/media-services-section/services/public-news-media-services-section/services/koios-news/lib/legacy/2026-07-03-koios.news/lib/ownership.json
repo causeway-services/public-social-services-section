@@ -1,0 +1,23 @@
+{
+  "kind": "agentic-metro-enterprise-ownership",
+  "node": "koios-news",
+  "root": ".",
+  "owns": [
+    "lib",
+    "src",
+    "working",
+    "public projections produced by this site"
+  ],
+  "contractsWith": {
+    "content": "the separately versioned Koios content store mounted at content/",
+    "data": "the separately versioned Koios event store mounted at data/",
+    "providers": "only through provider-authored offers accepted under an explicit service contract"
+  },
+  "doesNotOwn": [
+    "content/ internals",
+    "data/ internals",
+    "provider internals",
+    "Cloudflare account authority",
+    "the current VPS delivery authority"
+  ]
+}

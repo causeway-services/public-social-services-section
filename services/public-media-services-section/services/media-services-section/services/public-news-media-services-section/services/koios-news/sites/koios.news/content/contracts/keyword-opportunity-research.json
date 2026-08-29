@@ -1,0 +1,32 @@
+{
+  "kind": "rendanheyi-internal-node-service-contract",
+  "id": "koios.news/keyword-opportunity-research/v1",
+  "owner": "koios.news",
+  "customer": "urn:micro-enterprise:koios.news:journalism-commissioning",
+  "provider": "urn:micro-enterprise:koios.news:keyword-research",
+  "service": "sell one keyword and audience opportunity brief for a bounded publication pulse",
+  "inputs": [
+    "owned published-corpus coverage",
+    "owned newscable intake vocabulary",
+    "Search Console demand when admitted",
+    "privacy-preserving first-party attention",
+    "public Google Trends as obstruction-or-value"
+  ],
+  "commodity": {
+    "quantity": 1,
+    "unit": "keyword-opportunity-brief",
+    "consideration": "one keyword-opportunity-research-credit"
+  },
+  "postconditions": [
+    "the provider returns a digest-bound brief and a bilateral internal-market receipt",
+    "the buyer and seller receive matching debit and credit entries",
+    "the brief distinguishes missing, obstructed, and observed demand",
+    "the brief may select newsroom attention but carries factualWarrant false"
+  ],
+  "prohibitions": [
+    "a keyword, impression, click, trend, ad request, or revenue receipt never supplies a factual claim",
+    "the provider does not commission, source, write, edit, publish, or sell advertising",
+    "an internal sale is not reported as outside revenue",
+    "the provider never writes another settlement's plate"
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "kind": "enterprise-ownership",
+  "enterprise": "newscable-source-broker",
+  "owns": [
+    "source-fetch execution",
+    "provider-side immutable bundle offers",
+    "provider event and exchange records"
+  ],
+  "doesNotOwn": [
+    "a customer's corpus",
+    "a customer's source admission decision",
+    "editorial assignment, drafting, acceptance, publication, or deployment"
+  ]
+}

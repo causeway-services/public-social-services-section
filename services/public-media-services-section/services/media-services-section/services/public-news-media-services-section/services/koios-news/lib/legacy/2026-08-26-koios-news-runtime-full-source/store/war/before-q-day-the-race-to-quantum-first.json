@@ -1,0 +1,69 @@
+{
+  "subject": "before-q-day-the-race-to-quantum-first",
+  "claims": [
+    {
+      "id": "title",
+      "proposition": {
+        "predicate": "title",
+        "object": "Before Q-Day: The Race to Quantum First"
+      },
+      "time": {
+        "asserted": "2026-07-20T09:48:50.211Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "war",
+        "citation": "https://warontherocks.com/cogs-of-war/before-q-day-the-race-to-quantum-first/"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "url",
+      "proposition": {
+        "predicate": "url",
+        "object": "https://warontherocks.com/cogs-of-war/before-q-day-the-race-to-quantum-first/"
+      },
+      "time": {
+        "asserted": "2026-07-20T09:48:50.211Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "war",
+        "citation": "https://warontherocks.com/cogs-of-war/before-q-day-the-race-to-quantum-first/"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "summary",
+      "proposition": {
+        "predicate": "summary",
+        "object": "Somewhere, a hard drive is filling up with secrets no one can read yet, and its owner is waiting for the machine that opens them all at once. On March 30, 2026, that wait got shorter.Two independent research teams lowered the public estimates for breaking the encryption that secures banking, communications, and classified traffic. One showed that Shor’s algorithm, the quantum method for factoring the large numbers behind public-key encryption, could run at cryptographically relevant scale with as few as 10,000 reconfigurable neutral-atom qubits. Google Quantum AI, with the Ethereum Foundation and Stanford, put the threshold for breaking elliptic-curve encryption The post Before Q-Day: The Race to Quantum First appeared first on War on the Rocks ."
+      },
+      "time": {
+        "asserted": "2026-07-20T09:48:50.211Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "war",
+        "citation": "https://warontherocks.com/cogs-of-war/before-q-day-the-race-to-quantum-first/"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "published",
+      "proposition": {
+        "predicate": "published",
+        "object": "Mon, 20 Jul 2026 08:00:11 +0000"
+      },
+      "time": {
+        "asserted": "2026-07-20T09:48:50.211Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "war",
+        "citation": "https://warontherocks.com/cogs-of-war/before-q-day-the-race-to-quantum-first/"
+      },
+      "status": "supported"
+    }
+  ]
+}

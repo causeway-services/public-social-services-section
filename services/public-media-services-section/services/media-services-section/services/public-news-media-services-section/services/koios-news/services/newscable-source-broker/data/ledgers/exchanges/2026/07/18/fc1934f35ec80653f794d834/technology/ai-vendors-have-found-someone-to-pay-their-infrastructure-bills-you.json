@@ -1,0 +1,69 @@
+{
+  "subject": "ai-vendors-have-found-someone-to-pay-their-infrastructure-bills-you",
+  "claims": [
+    {
+      "id": "title",
+      "proposition": {
+        "predicate": "title",
+        "object": "AI vendors have found someone to pay their infrastructure bills: You"
+      },
+      "time": {
+        "asserted": "2026-07-18T07:55:43.768Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "technology",
+        "citation": "https://www.theregister.com/software/2026/07/16/ai-vendors-have-found-someone-to-pay-their-infrastructure-bills-you/5273712"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "url",
+      "proposition": {
+        "predicate": "url",
+        "object": "https://www.theregister.com/software/2026/07/16/ai-vendors-have-found-someone-to-pay-their-infrastructure-bills-you/5273712"
+      },
+      "time": {
+        "asserted": "2026-07-18T07:55:43.768Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "technology",
+        "citation": "https://www.theregister.com/software/2026/07/16/ai-vendors-have-found-someone-to-pay-their-infrastructure-bills-you/5273712"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "summary",
+      "proposition": {
+        "predicate": "summary",
+        "object": "Forrester warns that customers should brace for bigger software bills next year as software and AI vendors raise prices and pile on usage charges. Working from a survey of more than 2,600 business and technology decision-makers, the tech research company said software budgets were expected to rise \"as vendors increase prices or add usage charges to pass their AI costs to customers.\" In the last six months, Anthropic, OpenAI, and GitHub have shifted some services away from flat-rate subscriptions toward usage-based billing, prompting cost concerns among users. Forrester added Microsoft to the list, citing its recent launch of the premium E7 license, which bolts M365 Copilot, Agent 365, and security tools onto E5. Last year, consultants Bain & Company estimated that the build cost for AI datacenters would hit $2 trillion by 2030. Forrester said that AI would drive increases in data and software spending, with 80 percent of decision-makers expecting those budgets to rise. Sharyn Leaver, chief research officer at Forrester, said: \"The organizations that outperform in 2027 won't be those that spend the most on AI. They'll be the ones that invest in the foundations that make AI effective: trusted data, strong governance, organizational readiness, and the ability to continuously adapt as technology and customer behavior evolve.\" Forrester also found that personnel costs have yet to fall, despite the \"AI washing of layoffs\" in the tech industry. \"While several tech giants, including Oracle, Microsoft, and Meta, have announced significant layoffs in recent months, IT staffing spend has not declined in recent years,\" the report said. Staffing accounted for 35 percent of IT budgets in 2025. For 2027, 67 percent of tech decision-makers expected to increase their staffing budget, while 23 percent said it would stay flat, and 10 percent expected it to decline. \"The AI washing of layoffs will continue as vendors trim for financial and restructuring reasons. Guard against inflated promises that AI can replace employees across the board. Staffing for data/analytics-specific roles is expected to rise, with 68 percent of data technology decision-makers expecting this budget item to increase,\" the report said. Forrester said that organizations should adapt their FinOps practices to help manage the unpredictable costs associated with AI. \"Traditional FinOps wasn't built for token-based, usage-driven AI costs, but that team is certainly best positioned to build these new capabilities and must make this leap in 2027. Fund runtime cost controls such as model routing, semantic caching, and usage guardrails to prevent runaway spend,\" the report recommended. In July, KPMG research found that nearly a third of corporate leaders reported difficulty understanding and controlling operating costs when implementing business AI at scale. \"As usage-based pricing models become more common, many organizations are still building the capabilities required to forecast, monitor, and manage AI spending effectively,\" the consultancy said. ®"
+      },
+      "time": {
+        "asserted": "2026-07-18T07:55:43.768Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "technology",
+        "citation": "https://www.theregister.com/software/2026/07/16/ai-vendors-have-found-someone-to-pay-their-infrastructure-bills-you/5273712"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "published",
+      "proposition": {
+        "predicate": "published",
+        "object": "Thu, 16 Jul 2026 18:21:00 +0200"
+      },
+      "time": {
+        "asserted": "2026-07-18T07:55:43.768Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "technology",
+        "citation": "https://www.theregister.com/software/2026/07/16/ai-vendors-have-found-someone-to-pay-their-infrastructure-bills-you/5273712"
+      },
+      "status": "supported"
+    }
+  ]
+}

@@ -1,0 +1,69 @@
+{
+  "subject": "the-dangers-of-using-ungrounded-idealisations",
+  "claims": [
+    {
+      "id": "title",
+      "proposition": {
+        "predicate": "title",
+        "object": "The dangers of using ungrounded idealisations"
+      },
+      "time": {
+        "asserted": "2026-07-19T15:04:13.219Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "degrowth",
+        "citation": "https://rwer.wordpress.com/2026/07/10/the-dangers-of-using-ungrounded-idealisations/"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "url",
+      "proposition": {
+        "predicate": "url",
+        "object": "https://rwer.wordpress.com/2026/07/10/the-dangers-of-using-ungrounded-idealisations/"
+      },
+      "time": {
+        "asserted": "2026-07-19T15:04:13.219Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "degrowth",
+        "citation": "https://rwer.wordpress.com/2026/07/10/the-dangers-of-using-ungrounded-idealisations/"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "summary",
+      "proposition": {
+        "predicate": "summary",
+        "object": "from Lars Syll Using simplifying tractability or heuristic assumptions — rational expectations, common knowledge, representative agents, linearity, additivity, ergodicity, and so forth — does not exempt economists from having to justify their modelling choices, even if such assumptions are necessary for them to ‘manipulate’ their models or produce ‘rigorous’ and ‘precise’ predictions and explanations. Being […]"
+      },
+      "time": {
+        "asserted": "2026-07-19T15:04:13.219Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "degrowth",
+        "citation": "https://rwer.wordpress.com/2026/07/10/the-dangers-of-using-ungrounded-idealisations/"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "published",
+      "proposition": {
+        "predicate": "published",
+        "object": "Fri, 10 Jul 2026 20:14:09 +0000"
+      },
+      "time": {
+        "asserted": "2026-07-19T15:04:13.219Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "degrowth",
+        "citation": "https://rwer.wordpress.com/2026/07/10/the-dangers-of-using-ungrounded-idealisations/"
+      },
+      "status": "supported"
+    }
+  ]
+}

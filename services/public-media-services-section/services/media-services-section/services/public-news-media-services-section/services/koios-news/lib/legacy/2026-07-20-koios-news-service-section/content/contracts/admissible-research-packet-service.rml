@@ -1,0 +1,13 @@
+#lang rmn/v2
+(map
+  ("type" "AdmissibleResearchPacketLaw")
+  ("version" 2)
+  ("provider" "urn:ame:koios-news-service-section")
+  ("providerAccount" "eip155:31337:0x55397286728b70d86a139fe8263c2d63c5d6770c")
+  ("precondition" "A contractor authorizes one publication assignment, exact source-policy identity, freshness and evidence bounds, an accepted Newscable source-bundle delivery, optional accepted public-Web source text, and an accepted Corpus Management prior-research result.")
+  ("operation" "The provider validates provider custody and semantic identities, selects fresh relevant source-grounded predications, keeps prior research context-only, and forms a bounded research packet without writing any contractor or dependency interior.")
+  ("postcondition" "The contractor receives a content-identified research packet, custody statement, explicit source and assertion measures, and a provider-account-bound RWIL receipt, or a typed refusal.")
+  ("refusal" "Refuse malformed or changed demands, unbound provider evidence, insufficient fresh sources or assertions, unsupported assignment lenses, missing source policy, and any promotion of attention or prior context into factual evidence.")
+  ("proofProfile" "bounded-news-research-packet-v2")
+  ("protocol" "ActivityStreams-2.0")
+  ("evidence" "RWIL-RDF"))

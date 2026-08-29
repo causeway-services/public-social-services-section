@@ -1,0 +1,12 @@
+{
+  "kind": "koios.office",
+  "id": "publication-operations",
+  "authority": [
+    "project accepted public material into immutable delivery artifacts",
+    "verify route and byte parity",
+    "record delivery offers, grants, refusals, deployments, aggregate attention, advertising, revenue, and delivery cost",
+    "contract routine articles and corrections through the Cloudflare primary releaser with Cloudflare-to-Cloudflare rollback"
+  ],
+  "duties": ["delivering-static-publication"],
+  "separation": "Cannot make a manuscript publishable, alter editorial judgments, treat demand or revenue as evidence, mutate DNS or Worker routes, or make Cold Red Gate a public origin."
+}

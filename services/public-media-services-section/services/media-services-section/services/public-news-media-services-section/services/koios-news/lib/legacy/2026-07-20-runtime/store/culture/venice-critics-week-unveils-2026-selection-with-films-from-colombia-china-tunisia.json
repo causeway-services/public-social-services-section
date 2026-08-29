@@ -1,0 +1,69 @@
+{
+  "subject": "venice-critics-week-unveils-2026-selection-with-films-from-colombia-china-tunisia",
+  "claims": [
+    {
+      "id": "title",
+      "proposition": {
+        "predicate": "title",
+        "object": "Venice Critics’ Week Unveils 2026 Selection With Films From Colombia, China & Tunisia"
+      },
+      "time": {
+        "asserted": "2026-07-20T11:21:26.010Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "culture",
+        "citation": "https://deadline.com/2026/07/venice-critics-week-unveils-2026-selection-1236998264/"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "url",
+      "proposition": {
+        "predicate": "url",
+        "object": "https://deadline.com/2026/07/venice-critics-week-unveils-2026-selection-1236998264/"
+      },
+      "time": {
+        "asserted": "2026-07-20T11:21:26.010Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "culture",
+        "citation": "https://deadline.com/2026/07/venice-critics-week-unveils-2026-selection-1236998264/"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "summary",
+      "proposition": {
+        "predicate": "summary",
+        "object": "Venice parallel sidebar Settimana Internazionale della Critica (International Critics’ Week) has unveiled the lineup for its 41st edition. The section, organised by the Union of Italian Film Critics (SNCCI) and focused on works by emerging filmmakers, will showcase seven features in competition and two films out of competition. Colombia has a strong presence this year […]"
+      },
+      "time": {
+        "asserted": "2026-07-20T11:21:26.010Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "culture",
+        "citation": "https://deadline.com/2026/07/venice-critics-week-unveils-2026-selection-1236998264/"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "published",
+      "proposition": {
+        "predicate": "published",
+        "object": "Mon, 20 Jul 2026 10:30:50 +0000"
+      },
+      "time": {
+        "asserted": "2026-07-20T11:21:26.010Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "culture",
+        "citation": "https://deadline.com/2026/07/venice-critics-week-unveils-2026-selection-1236998264/"
+      },
+      "status": "supported"
+    }
+  ]
+}

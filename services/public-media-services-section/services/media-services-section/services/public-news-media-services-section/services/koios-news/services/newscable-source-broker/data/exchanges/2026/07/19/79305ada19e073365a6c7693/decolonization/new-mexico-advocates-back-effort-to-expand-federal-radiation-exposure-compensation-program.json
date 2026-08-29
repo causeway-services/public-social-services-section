@@ -1,0 +1,69 @@
+{
+  "subject": "new-mexico-advocates-back-effort-to-expand-federal-radiation-exposure-compensation-program",
+  "claims": [
+    {
+      "id": "title",
+      "proposition": {
+        "predicate": "title",
+        "object": "New Mexico advocates back effort to expand federal radiation exposure compensation program"
+      },
+      "time": {
+        "asserted": "2026-07-19T15:04:15.228Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "decolonization",
+        "citation": "https://ictnews.org/news/new-mexico-advocates-back-effort-to-expand-federal-radiation-exposure-compensation-program/"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "url",
+      "proposition": {
+        "predicate": "url",
+        "object": "https://ictnews.org/news/new-mexico-advocates-back-effort-to-expand-federal-radiation-exposure-compensation-program/"
+      },
+      "time": {
+        "asserted": "2026-07-19T15:04:15.228Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "decolonization",
+        "citation": "https://ictnews.org/news/new-mexico-advocates-back-effort-to-expand-federal-radiation-exposure-compensation-program/"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "summary",
+      "proposition": {
+        "predicate": "summary",
+        "object": "This story was originally published by Source New Mexico. Patrick Lohmann Source New Mexico A bipartisan group of congressional lawmakers announced Tuesday, July 14, they will soon seek to further expand the 2025 federal Radiation and Exposure Compensation Act to include more communities sickened by historic nuclear tests and production. The virtual news conference featured elected members of Congress from Missouri and Nevada, as well as U.S. Rep. Gabe Vasquez (D-N.M.), and advocates including New Mexico’s Tina Cordova, who founded the Tularosa Basin Downwinders Consortium. The consortium has advocated for federal compensation for those exposed to radiation from the&nbsp; 1945 Trinity Test . Last year, Congress greatly expanded RECA to include Downwinders and post-1971 uranium miners in New Mexico, along with Downwinders in the states of Idaho and Utah, and portions of Nevada and Arizona. But Cordova and Vasquez said the bill still does not go far enough, and the application period’s 2027 expiration date comes too quickly, to fully compensate those who can trace their radiation exposure to various cancers and other ailments in the decades since. “I think that it’s high time our government realizes that we are not going to stand for justice for some,” Cordova said. “We are in favor of justice for not just a few, but justice for the many, and we will continue to fight until we receive justice for all.” Cordova said two close friends who have joined her in the roughly two-decade fight for compensation do not qualify for RECA because they have prostate and bone cancer, diseases ineligible for compensation. Her brother and sister have skin cancer and kidney cancer, which also do not qualify, she said.&nbsp; Vasquez and other speakers said the legislation will extend eligibility to additional qualifying illnesses, allow the parents of radiation victims to apply and expand geographic eligibility. The bill, the Radiation Exposure Reauthorization Act of 2026, is expected later this summer. In addition to expanding qualifying illnesses, the bill would allow the use of affidavits in cases in which claimants, predominantly in rural and Indigenous communities, are unable to collect what are often decades-old medical records.&nbsp; The bill would also increase compensation from $100,000 to $150,000, Vasquez said.&nbsp; States that would be fully eligible under the proposed expansion include Arizona, Colorado, Guam, Montana and Nevada, and the bill would cover communities in St. Louis, Missouri, Washington, Ohio, and elsewhere whose residents were exposed to waste from the Manhattan Project.&nbsp; Finally, the bill would extend the application period by 15 years, which Vasquez said will enable more eligible people to apply and also potentially decrease fraud. Shortly after the 2025 expansion went into effect, the New Mexico Department of Justice&nbsp; warned about potential fraud &nbsp;by organizations and attorneys soliciting paid work filing claims for recipients. “The sense of urgency around filing has opened the door to rampant fraud in communities across New Mexico,” Vasquez said. “Bad actors are preying on our communities because of this short timeline, because folks are very eager and desperate to get their rightfully owed compensation.” According to data from the U.S. Department of Justice’s Civil Division, which is administering the RECA funds, the division has received roughly 4,400 claims for RECA under the 2025 expansion. Of those, 558 have been approved, amounting to $55.8 million in compensation. About 3,800 claims are still pending, and three have been denied.&nbsp; This story was updated following publication to add information about which states were added in the 2025 RECA expansion. The post New Mexico advocates back effort to expand federal radiation exposure compensation program appeared first on ICT ."
+      },
+      "time": {
+        "asserted": "2026-07-19T15:04:15.228Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "decolonization",
+        "citation": "https://ictnews.org/news/new-mexico-advocates-back-effort-to-expand-federal-radiation-exposure-compensation-program/"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "published",
+      "proposition": {
+        "predicate": "published",
+        "object": "Sat, 18 Jul 2026 21:00:00 +0000"
+      },
+      "time": {
+        "asserted": "2026-07-19T15:04:15.228Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "decolonization",
+        "citation": "https://ictnews.org/news/new-mexico-advocates-back-effort-to-expand-federal-radiation-exposure-compensation-program/"
+      },
+      "status": "supported"
+    }
+  ]
+}

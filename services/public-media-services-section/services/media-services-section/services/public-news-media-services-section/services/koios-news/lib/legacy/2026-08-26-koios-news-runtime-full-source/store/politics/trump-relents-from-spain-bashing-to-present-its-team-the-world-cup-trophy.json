@@ -1,0 +1,69 @@
+{
+  "subject": "trump-relents-from-spain-bashing-to-present-its-team-the-world-cup-trophy",
+  "claims": [
+    {
+      "id": "title",
+      "proposition": {
+        "predicate": "title",
+        "object": "Trump Relents From Spain-Bashing to Present Its Team the World Cup Trophy"
+      },
+      "time": {
+        "asserted": "2026-07-20T00:18:22.568Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "politics",
+        "citation": "https://www.nytimes.com/2026/07/19/us/politics/trump-world-cup-final.html"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "url",
+      "proposition": {
+        "predicate": "url",
+        "object": "https://www.nytimes.com/2026/07/19/us/politics/trump-world-cup-final.html"
+      },
+      "time": {
+        "asserted": "2026-07-20T00:18:22.568Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "politics",
+        "citation": "https://www.nytimes.com/2026/07/19/us/politics/trump-world-cup-final.html"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "summary",
+      "proposition": {
+        "predicate": "summary",
+        "object": "Mr. Trump, who this month referred to Spain as “hopeless,” seemingly had little choice but to exhibit diplomacy on Sunday as he handed the golden trophy to the country’s players."
+      },
+      "time": {
+        "asserted": "2026-07-20T00:18:22.568Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "politics",
+        "citation": "https://www.nytimes.com/2026/07/19/us/politics/trump-world-cup-final.html"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "published",
+      "proposition": {
+        "predicate": "published",
+        "object": "Sun, 19 Jul 2026 23:47:27 +0000"
+      },
+      "time": {
+        "asserted": "2026-07-20T00:18:22.568Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "politics",
+        "citation": "https://www.nytimes.com/2026/07/19/us/politics/trump-world-cup-final.html"
+      },
+      "status": "supported"
+    }
+  ]
+}

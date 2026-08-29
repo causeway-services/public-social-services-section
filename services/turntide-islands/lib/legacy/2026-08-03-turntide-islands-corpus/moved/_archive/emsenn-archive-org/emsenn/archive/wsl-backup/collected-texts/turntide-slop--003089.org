@@ -1,0 +1,156 @@
+:PROPERTIES:
+:ID:       c99ef4bd-3ebb-404a-bab8-850e1ff48e03
+:END:
+#+TITLE: AI Slop about Turntide Islands
+
+* AI Slop on Turntide Islands
+### **🛠 Governance Channel Setup (Finalized List)**
+
+We structured governance to be **transparent** (viewable by all) but **actionable only by those with governance roles.**
+
+📂 **Governance Category** (Visible to all, but restricted by role permissions)  
+🔹 **#governance-discussion** → Open space for discussion of governance topics and proposal drafting.  
+🔹 **#governance-action** → Only Governors can post here; finalized decisions and results are announced.  
+🔹 **#governance-feedback** → Non-Governors can comment and provide input before votes.  
+🔹 **#governance-questions** → Space for new members or observers to ask about governance processes.  
+🔹 **#governance-history** → Read-only channel where past decisions and governance logs (from Hive) are posted.To ensure **transparent, immutable, and decentralized documentation of governance decisions**, TTIDAO should establish an official **Hive blockchain account** to serve as its **historical record**. This account will be used to **log all passed proposals, quorum vote results, governance changes, and major discussions** in a way that prevents tampering or revisionism. By recording decisions on-chain, we ensure that **future members can audit past governance actions, prevent duplicate debates, and maintain long-term institutional memory** without relying on a centralized document controlled by any single person. Posts will follow a structured format including **proposal details, vote counts, timestamps, and discussion context**. Additionally, a bot can be set up to **automatically share Hive links** in `#governance-history` on Discord for easy access.
+
+## **Discord Communities & Culture**
+
+Since you’re **coming from IRC** and aren’t deeply familiar with Discord’s culture, let’s step back and talk about **how communities actually function** on this platform.
+
+Discord isn’t just a chat server—it’s a **highly social, multi-channel space** with its own **norms, engagement strategies, and retention dynamics**.
+
+---
+
+### **🏗️ How Strong Discord Communities Are Built**
+
+A Discord community is like a **tiny digital town**—and for it to thrive, you need more than just governance. You need **culture, engagement, and a sense of belonging**.
+
+Here’s what **healthy, decentralized** Discord communities usually have:
+
+### **1️⃣ A Strong "Why" (Clear Community Identity)**
+
+People don’t just join a Discord **for governance**—they join because they resonate with its **mission and energy**.
+
+Your **mission** is already solid:  
+🌱 **Helping people move from reacting to climate weirding → to responding to it.**
+
+But to make that **actionable**, the community needs to feel **clear and inviting**. Some key things that help:  
+✔ A **simple, one-sentence pinned message** in a welcome channel that says what this place is about.  
+✔ A **clear onboarding experience** that helps people find relevant spaces.  
+✔ A **culture of shared action**—not just talking about climate responses, but actually **doing things together**.
+
+---
+
+### **2️⃣ Onboarding & Member Flow (How People Get Engaged)**
+
+**One of the biggest mistakes** in Discords is assuming people will “figure it out” on their own. Most won’t. You need to **guide them smoothly into participation.**
+
+Right now, people will:
+
+1. **Join the server.**
+    
+2. **See a bunch of channels.**
+    
+3. ???
+    
+
+We don’t want that _confusion gap_. Instead, we want:  
+✔ A **Welcome & Start Here channel** → Explains what the server is for in 1-2 sentences.  
+✔ A **“Choose Your Interests” role system** → Lets people self-assign roles to unlock relevant channels.  
+✔ A **First Easy Action** → Give new members something small & immediate to do (e.g., vote in a fun poll, introduce themselves, react to a post).
+
+This **onboarding flow** ensures new members don’t just **lurk**—they start **participating** from day one.
+
+---
+
+### **3️⃣ Channel Structure & Organization (Avoiding the Mess)**
+
+Most Discords **fail** because they become a **spaghetti mess of channels**—too many spaces, no clear structure, and people get overwhelmed.
+
+You're already **thinking well about governance**, but here’s how to structure your **entire** community clearly:
+
+#### **🔹 Core Sections Your Server Needs**
+
+🟢 **Community Hub** (For Everyone)
+
+- **#welcome** → “What this place is about”
+    
+- **#announcements** → Major updates
+    
+- **#introductions** → “Say hi & share your interests”
+    
+
+🟡 **Topical Discussion Channels** (Where action happens)
+
+- **#climate-strategies** → Discuss real-world tactics
+    
+- **#resource-sharing** → Post helpful guides, links, tools
+    
+- **#mutual-aid** → Organizing support for people
+    
+
+🔵 **Governance Section** (For transparency & decision-making)
+
+- **#governance-discussion** → Informal proposal talk
+    
+- **#governance-action** → Where final decisions get posted
+    
+- **#governance-feedback** → Non-Governors weigh in
+    
+- **#governance-questions** → Open to all for learning
+    
+
+This **keeps things structured** while making sure people **find what they need easily**.
+
+---
+
+### **4️⃣ Engagement & Retention (Keeping People Active)**
+
+A Discord isn’t a **“set it and forget it”** space. You need **consistent activity** or it’ll feel **empty**, and people will **drift away**.
+
+Here’s what strong communities **do** to stay alive:  
+✔ **Regular Check-Ins** – Weekly discussion prompts, challenges, or polls.  
+✔ **Recognition & Rewards** – Celebrating contributors, even just with shoutouts.  
+✔ **Community Rituals** – Recurring calls, reading groups, action sprints.  
+✔ **Low-Friction Engagement** – Not every action should be “big”; let people participate in **quick & easy** ways (emoji reactions, quick questions).
+
+---
+
+### **🌍 Making This Work for _Your_ Community**
+
+Every community has a **different vibe**. So here’s what I’d ask **you**:
+
+1. **What kind of culture do you want?**
+    
+    - Hyper-pragmatic & action-focused?
+        
+    - More educational & discussion-heavy?
+        
+    - A mix?
+        
+2. **What should be the easiest way to participate?**
+    
+    - Is just **lurking & learning** fine?
+        
+    - Do you want **every new member to take a first action**?
+        
+3. **What are the biggest risks for failure?**
+    
+    - What would make the server go **dead** or **toxic**?
+        
+    - What problems do you foresee?
+        
+
+---
+
+### **🚀 Next Steps (What to Do Right Now)**
+
+To **ground this in action**, I’d suggest:
+
+**1️⃣ Setting Up a “Start Here” Channel** → So new members get onboarded properly.  
+**2️⃣ Drafting a “Choose Your Interests” Role System** → So people can unlock channels they actually care about.  
+**3️⃣ Testing a Weekly Engagement Strategy** → A simple ritual (like “What’s your climate win this week?”) to keep momentum.
+
+💬 **Which of these feels like the best next step?** Or do you want to focus on something else first?

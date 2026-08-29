@@ -1,0 +1,22 @@
+{
+  "type": "ArtificialIntelligenceLessonBriefDraft",
+  "courseId": "history-and-frontiers-of-machine-learning",
+  "courseRevision": 1,
+  "lessonId": "neural-networks-and-representation-learning",
+  "learningObjectives": [
+    "Relate architecture, objective, data, backpropagated gradients, optimization, and evaluation without treating any one as the whole learning system.",
+    "Distinguish Rosenblatt's historical perceptron program from the narrower later textbook linear classifier.",
+    "Explain how hidden representations become task-useful under backpropagation and why usefulness does not guarantee causal truth or interpretability.",
+    "Identify local connectivity and weight sharing as architectural priors in convolutional document recognition rather than discoveries made from data alone."
+  ],
+  "definitions": [
+    "Artificial neural network: a parameterized composition of connected computational units, not by that name a faithful biological model.",
+    "Backpropagation: reverse application of the chain rule that computes an objective's derivatives with respect to intermediate quantities and parameters.",
+    "Representation: an internal transformation or encoding used by later computations in a learned system.",
+    "Weight sharing: use of the same learned parameters at multiple positions or relations.",
+    "Architectural prior: a constraint or symmetry encoded in the model's available computations before training data are fitted."
+  ],
+  "notebookPrompt": "Create an advanced source-grounded explainer titled ‘Neural Networks, Backpropagation, and Representation Learning.’ Organize it around a relational diagram connecting architecture, data, objective, backpropagated gradients, optimization path, internal representation, evaluation, and deployment. Use Rosenblatt to recover the perceptron as a historical adaptive-organization program without equating it to all modern networks. Use Rumelhart, Hinton, and Williams to explain how error derivatives give hidden units task-dependent learning signals while explicitly acknowledging the longer differentiation lineage. Use LeCun, Bottou, Bengio, and Haffner to show how local connectivity, weight sharing, subsampling, structured task constraints, and end-to-end learning cooperate in document recognition. Use Bengio, Courville, and Vincent to frame representation learning as a plural research program with unresolved criteria. Include negative controls: gradients are not explanations, learned does not mean undesigned, benchmark recognition is not general perception, and useful features are not necessarily causal or transferable. Do not narrate a single-hero invention story.",
+  "humanFrame": "Show that neural learning moves design among relations rather than abolishing it. Preserve historical terminology, priority uncertainty, and task scope.",
+  "assessment": "Given a trained image classifier, identify which properties came from architecture, data, objective, optimization, and evaluation; then reject two claims about interpretability or general intelligence that do not follow."
+}

@@ -1,0 +1,69 @@
+{
+  "subject": "crypto-market-slips-even-as-equities-advance-pump-surges-on-social-media-chatter",
+  "claims": [
+    {
+      "id": "title",
+      "proposition": {
+        "predicate": "title",
+        "object": "Crypto market slips even as equities advance. Pump surges on social-media chatter"
+      },
+      "time": {
+        "asserted": "2026-07-20T11:21:18.517Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "economy",
+        "citation": "https://www.coindesk.com/markets/2026/07/20/crypto-market-slips-even-as-equities-advance-pump-surges-on-social-media-chatter"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "url",
+      "proposition": {
+        "predicate": "url",
+        "object": "https://www.coindesk.com/markets/2026/07/20/crypto-market-slips-even-as-equities-advance-pump-surges-on-social-media-chatter"
+      },
+      "time": {
+        "asserted": "2026-07-20T11:21:18.517Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "economy",
+        "citation": "https://www.coindesk.com/markets/2026/07/20/crypto-market-slips-even-as-equities-advance-pump-surges-on-social-media-chatter"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "summary",
+      "proposition": {
+        "predicate": "summary",
+        "object": "With a Fear and Greed index pointing solidly at \"fear,\" crypto prices drifted lower even as stock index futures rose. PUMP's 20% surge was the only real headline in an otherwise quiet session."
+      },
+      "time": {
+        "asserted": "2026-07-20T11:21:18.517Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "economy",
+        "citation": "https://www.coindesk.com/markets/2026/07/20/crypto-market-slips-even-as-equities-advance-pump-surges-on-social-media-chatter"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "published",
+      "proposition": {
+        "predicate": "published",
+        "object": "Mon, 20 Jul 2026 10:33:14 +0000"
+      },
+      "time": {
+        "asserted": "2026-07-20T11:21:18.517Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "economy",
+        "citation": "https://www.coindesk.com/markets/2026/07/20/crypto-market-slips-even-as-equities-advance-pump-surges-on-social-media-chatter"
+      },
+      "status": "supported"
+    }
+  ]
+}

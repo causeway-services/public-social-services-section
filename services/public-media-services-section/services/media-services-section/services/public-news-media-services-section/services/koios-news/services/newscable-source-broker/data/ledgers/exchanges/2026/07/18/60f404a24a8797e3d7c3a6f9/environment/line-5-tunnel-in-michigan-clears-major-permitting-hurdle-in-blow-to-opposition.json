@@ -1,0 +1,69 @@
+{
+  "subject": "line-5-tunnel-in-michigan-clears-major-permitting-hurdle-in-blow-to-opposition",
+  "claims": [
+    {
+      "id": "title",
+      "proposition": {
+        "predicate": "title",
+        "object": "Line 5 tunnel in Michigan clears major permitting hurdle, in blow to opposition"
+      },
+      "time": {
+        "asserted": "2026-07-18T08:15:51.891Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "environment",
+        "citation": "https://grist.org/energy/line-5-tunnel-in-michigan-clears-major-permitting-hurdle-in-blow-to-opposition/"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "url",
+      "proposition": {
+        "predicate": "url",
+        "object": "https://grist.org/energy/line-5-tunnel-in-michigan-clears-major-permitting-hurdle-in-blow-to-opposition/"
+      },
+      "time": {
+        "asserted": "2026-07-18T08:15:51.891Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "environment",
+        "citation": "https://grist.org/energy/line-5-tunnel-in-michigan-clears-major-permitting-hurdle-in-blow-to-opposition/"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "summary",
+      "proposition": {
+        "predicate": "summary",
+        "object": "Michigan regulatory officials on Wednesday issued several key permits for the construction of a tunnel to replace an aging section of the Line 5 pipeline in the Straits of Mackinac, the waterways that straddle the state’s Upper and Lower peninsulas. Officials said that the necessity of the project in preventing an oil spill in the Great Lakes outweighed other public interests. The controversial plan by Enbridge Energy would replace a dual segment of the crude oil and natural gas liquids pipeline that runs through the environmentally sensitive straits, with one buried beneath the lakebed between lakes Michigan and Huron. For more than 73 years, Line 5 has transported oil and natural gas liquids 645 miles from Superior, Wisconsin, to Sarnia, Ontario.&nbsp; The Department of Environment, Great Lakes, and Energy, or EGLE, approved a construction permit on lake bottomlands “following comprehensive review.” The agency said in a news release that the permit requires Enbridge to minimize damage to surrounding wetlands. Despite acknowledging that construction would “adversely impact” rare plants and animals in the area, the state Department of Natural Resources still issued a permit to Enbridge. By state law, the permit also requires the company to “lessen impacts” with measures such as collecting seeds for later restoration or only clearing trees in the winter to protect bats. Enbridge spokesperson Ryan Duffy said the permits are “an important step forward” for the project that will “ensure the uninterrupted flow of energy that supports Michigan and the region.” Products from Line 5 are used in Canada and Michigan for propane or at oil refineries. Enbridge is currently reviewing the permits “to assess any impacts to tunnel construction,” Duffy said. Line 5 opponents slammed the decisions by state regulators. “The bigger picture is that there should be no destruction, no wetlands destruction, there should be no forest destruction for a project that is not needed,” said David Holtz, coalition coordinator for anti-Line 5 group Oil & Water Don’t Mix. Enbridge maintains that the tunnel project will protect the Great Lakes, and that Line 5 continues to operate “safely and reliably” under federal standards.&nbsp; Holtz said the news is especially ironic given the thick smoke currently blanketing the Great Lakes region from wildfires burning in Canada. He called out Michigan Governor Gretchen Whitmer’s administration for approving a project that would lock in fossil fuel use for decades, worsening climate change. Hotter average temperatures around the U.S. and Canada are making the conditions that can cause fires to ignite and burn more common . Tribal nations across the state also denounced the permit approvals. EGLE’s permit acknowledged that destruction or removal of historic and cultural resources is likely — including the remains of tribal ancestors — and requires Enbridge to submit a plan that would mitigate impacts. But Whitney Gravelle, president of the Bay Mills Indian Community, said any such plan is a “false penitence.” “Tribes have had so much taken away from them. We have had our land taken, we have had our rights taken, we have had our language taken, we have had our children taken,” Gravelle said. “To now have our ancestors taken and dug up, and moved, and not respected when doing all of that is disgusting.”&nbsp; The Bay Mills Indian Community, whose treaty lands the tunnel project would cross, is exploring its legal options for challenging the permits issued this week, such as initiating a contested case hearing for the EGLE permit. Read Next Why Indigenous nations are walking away from pipeline talks in Michigan Izzy Ross Enbridge is still waiting for additional permits from state and federal regulators, plus a court decision over a previously issued state permit, before it can begin construction. Wednesday’s decisions signal a favorable path ahead for the tunnel project, according to opposition groups. A pending state permit would allow Enbridge to discharge about 5 million gallons of treated wastewater a day during construction. Enbridge received this permit in 2021, but it has since expired.&nbsp; Environmental groups and tribal nations brought their challenge of a permit issued by the Public Service Commission in 2023 to the Michigan Supreme Court. Oral arguments were in March, and a decision from the court is expected before the end of summer. Wednesday’s decision from EGLE also includes a certification under the Clean Water Act that allows the U.S. Army Corps of Engineers to move forward with issuing its own permit. The Trump administration declared a national energy emergency last year, fast-tracking review processes for energy projects including Line 5. Holtz, with the Oil & Water Don’t Mix Coalition, said it’s highly likely the federal agency will issue its permit to Enbridge. Separate from the tunnel project, Line 5 faces legal challenges from groups that have fought to shut down the pipeline for years, including the Whitmer administration’s own litigation against Enbridge. This spring, a unanimous ruling from the U.S. Supreme Court paved the way for state court proceedings on whether the aging pipeline can continue operating in the Straits of Mackinac. And in northern Wisconsin, the Bad River Band of Lake Superior Chippewa and environmental groups are challenging the ongoing construction of a new Line 5 segment that crosses the tribe’s watershed. Last month, crews spilled about 1,900 gallons of drilling fluid into surrounding wetlands. Gravelle said the permit decisions are a setback. “But we have been trying to protect these things since time immemorial,” she said, “and we cannot abandon that sacred duty to do so because our children and future generations depend on that.” This story was originally published by Grist with the headline Line 5 tunnel in Michigan clears major permitting hurdle, in blow to opposition on Jul 17, 2026."
+      },
+      "time": {
+        "asserted": "2026-07-18T08:15:51.891Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "environment",
+        "citation": "https://grist.org/energy/line-5-tunnel-in-michigan-clears-major-permitting-hurdle-in-blow-to-opposition/"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "published",
+      "proposition": {
+        "predicate": "published",
+        "object": "Fri, 17 Jul 2026 08:30:00 +0000"
+      },
+      "time": {
+        "asserted": "2026-07-18T08:15:51.891Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "environment",
+        "citation": "https://grist.org/energy/line-5-tunnel-in-michigan-clears-major-permitting-hurdle-in-blow-to-opposition/"
+      },
+      "status": "supported"
+    }
+  ]
+}

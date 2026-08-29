@@ -1,0 +1,69 @@
+{
+  "subject": "china-box-office-kung-fu-soccer-maintains-dominance-as-animated-all-wishes-come-true-debuts-in-second",
+  "claims": [
+    {
+      "id": "title",
+      "proposition": {
+        "predicate": "title",
+        "object": "China Box Office: ‘Kung Fu Soccer’ Maintains Dominance as Animated ‘All Wishes Come True’ Debuts in Second"
+      },
+      "time": {
+        "asserted": "2026-07-20T09:48:52.265Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "culture",
+        "citation": "https://variety.com/2026/film/box-office/china-box-office-kung-fu-soccer-all-wishes-come-true-1236816338/"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "url",
+      "proposition": {
+        "predicate": "url",
+        "object": "https://variety.com/2026/film/box-office/china-box-office-kung-fu-soccer-all-wishes-come-true-1236816338/"
+      },
+      "time": {
+        "asserted": "2026-07-20T09:48:52.265Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "culture",
+        "citation": "https://variety.com/2026/film/box-office/china-box-office-kung-fu-soccer-all-wishes-come-true-1236816338/"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "summary",
+      "proposition": {
+        "predicate": "summary",
+        "object": "Shenzhen Film Studio’s sports comedy “Kung Fu Soccer” comfortably retained the top spot at the mainland China box office during the July 17–19 weekend, generating RMB501.1 million ($73.7 million) in its second weekend of release, according to data from Artisan Gateway. Directed by Stephen Chow, the hit has reached a cumulative total of $214.3 million […]"
+      },
+      "time": {
+        "asserted": "2026-07-20T09:48:52.265Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "culture",
+        "citation": "https://variety.com/2026/film/box-office/china-box-office-kung-fu-soccer-all-wishes-come-true-1236816338/"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "published",
+      "proposition": {
+        "predicate": "published",
+        "object": "Mon, 20 Jul 2026 06:16:29 +0000"
+      },
+      "time": {
+        "asserted": "2026-07-20T09:48:52.265Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "culture",
+        "citation": "https://variety.com/2026/film/box-office/china-box-office-kung-fu-soccer-all-wishes-come-true-1236816338/"
+      },
+      "status": "supported"
+    }
+  ]
+}

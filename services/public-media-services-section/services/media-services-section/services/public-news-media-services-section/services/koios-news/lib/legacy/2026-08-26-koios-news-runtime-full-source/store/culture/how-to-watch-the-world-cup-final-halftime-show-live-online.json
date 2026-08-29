@@ -1,0 +1,69 @@
+{
+  "subject": "how-to-watch-the-world-cup-final-halftime-show-live-online",
+  "claims": [
+    {
+      "id": "title",
+      "proposition": {
+        "predicate": "title",
+        "object": "How to Watch the World Cup Final Halftime Show Live Online"
+      },
+      "time": {
+        "asserted": "2026-07-19T14:42:05.531Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "culture",
+        "citation": "https://variety.com/2026/shopping/news/how-to-watch-world-cup-halftime-show-live-online-streaming-1236814990/"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "url",
+      "proposition": {
+        "predicate": "url",
+        "object": "https://variety.com/2026/shopping/news/how-to-watch-world-cup-halftime-show-live-online-streaming-1236814990/"
+      },
+      "time": {
+        "asserted": "2026-07-19T14:42:05.531Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "culture",
+        "citation": "https://variety.com/2026/shopping/news/how-to-watch-world-cup-halftime-show-live-online-streaming-1236814990/"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "summary",
+      "proposition": {
+        "predicate": "summary",
+        "object": "The FIFA World Cup is getting its own Super Bowl-style halftime show for the first time. Madonna, Shakira, Justin Bieber and BTS will co-headline the inaugural FIFA World Cup Final Halftime Show on Sunday, July 19, during the championship match between Spain and Argentina. Burna Boy, conductor Gustavo Dudamel and New York’s PS 22 Chorus […]"
+      },
+      "time": {
+        "asserted": "2026-07-19T14:42:05.531Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "culture",
+        "citation": "https://variety.com/2026/shopping/news/how-to-watch-world-cup-halftime-show-live-online-streaming-1236814990/"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "published",
+      "proposition": {
+        "predicate": "published",
+        "object": "Sun, 19 Jul 2026 13:00:00 +0000"
+      },
+      "time": {
+        "asserted": "2026-07-19T14:42:05.531Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "culture",
+        "citation": "https://variety.com/2026/shopping/news/how-to-watch-world-cup-halftime-show-live-online-streaming-1236814990/"
+      },
+      "status": "supported"
+    }
+  ]
+}

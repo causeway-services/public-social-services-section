@@ -1,0 +1,69 @@
+{
+  "subject": "jason-sudeikis-brings-ted-lasso-to-world-cup-halftime-show-to-hype-up-justin-bieber",
+  "claims": [
+    {
+      "id": "title",
+      "proposition": {
+        "predicate": "title",
+        "object": "Jason Sudeikis Brings Ted Lasso to World Cup Halftime Show to Hype Up Justin Bieber"
+      },
+      "time": {
+        "asserted": "2026-07-19T23:18:25.798Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "culture",
+        "citation": "https://www.hollywoodreporter.com/tv/tv-news/jason-sudeikis-ted-lasso-cameo-world-cup-halftime-show-1236651814/"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "url",
+      "proposition": {
+        "predicate": "url",
+        "object": "https://www.hollywoodreporter.com/tv/tv-news/jason-sudeikis-ted-lasso-cameo-world-cup-halftime-show-1236651814/"
+      },
+      "time": {
+        "asserted": "2026-07-19T23:18:25.798Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "culture",
+        "citation": "https://www.hollywoodreporter.com/tv/tv-news/jason-sudeikis-ted-lasso-cameo-world-cup-halftime-show-1236651814/"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "summary",
+      "proposition": {
+        "predicate": "summary",
+        "object": "Sudeikis had a surprise cameo during the first-ever World Cup Final halftime show, weeks before 'Ted Lasso' returns with season four in August."
+      },
+      "time": {
+        "asserted": "2026-07-19T23:18:25.798Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "culture",
+        "citation": "https://www.hollywoodreporter.com/tv/tv-news/jason-sudeikis-ted-lasso-cameo-world-cup-halftime-show-1236651814/"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "published",
+      "proposition": {
+        "predicate": "published",
+        "object": "Sun, 19 Jul 2026 21:51:50 +0000"
+      },
+      "time": {
+        "asserted": "2026-07-19T23:18:25.798Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "culture",
+        "citation": "https://www.hollywoodreporter.com/tv/tv-news/jason-sudeikis-ted-lasso-cameo-world-cup-halftime-show-1236651814/"
+      },
+      "status": "supported"
+    }
+  ]
+}

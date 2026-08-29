@@ -1,0 +1,69 @@
+{
+  "subject": "a-brief-introduction-to-the-bioregional-movement-and-bioregional-congressing",
+  "claims": [
+    {
+      "id": "title",
+      "proposition": {
+        "predicate": "title",
+        "object": "A brief introduction to the bioregional movement and bioregional congressing"
+      },
+      "time": {
+        "asserted": "2026-07-18T04:08:26.505Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "degrowth",
+        "citation": "https://www.resilience.org/stories/2026-07-10/a-brief-introduction-to-the-bioregional-movement-and-bioregional-congressing/"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "url",
+      "proposition": {
+        "predicate": "url",
+        "object": "https://www.resilience.org/stories/2026-07-10/a-brief-introduction-to-the-bioregional-movement-and-bioregional-congressing/"
+      },
+      "time": {
+        "asserted": "2026-07-18T04:08:26.505Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "degrowth",
+        "citation": "https://www.resilience.org/stories/2026-07-10/a-brief-introduction-to-the-bioregional-movement-and-bioregional-congressing/"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "summary",
+      "proposition": {
+        "predicate": "summary",
+        "object": "As climate disruption, biodiversity loss and political polarization deepen, a revived bioregional movement is emerging worldwide. This piece traces its roots and explores why place is becoming a source of resilience and belonging."
+      },
+      "time": {
+        "asserted": "2026-07-18T04:08:26.505Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "degrowth",
+        "citation": "https://www.resilience.org/stories/2026-07-10/a-brief-introduction-to-the-bioregional-movement-and-bioregional-congressing/"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "published",
+      "proposition": {
+        "predicate": "published",
+        "object": "Fri, 10 Jul 2026 08:00:42 +0000"
+      },
+      "time": {
+        "asserted": "2026-07-18T04:08:26.505Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "degrowth",
+        "citation": "https://www.resilience.org/stories/2026-07-10/a-brief-introduction-to-the-bioregional-movement-and-bioregional-congressing/"
+      },
+      "status": "supported"
+    }
+  ]
+}

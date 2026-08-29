@@ -1,0 +1,69 @@
+{
+  "subject": "how-us-renewable-energy-growth-persists-despite-federal-policy-uncertainty",
+  "claims": [
+    {
+      "id": "title",
+      "proposition": {
+        "predicate": "title",
+        "object": "How US renewable-energy growth persists despite federal policy uncertainty"
+      },
+      "time": {
+        "asserted": "2026-07-18T08:10:03.256Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "degrowth",
+        "citation": "https://www.resilience.org/stories/2026-07-14/how-us-renewable-energy-growth-persists-despite-federal-policy-uncertainty/"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "url",
+      "proposition": {
+        "predicate": "url",
+        "object": "https://www.resilience.org/stories/2026-07-14/how-us-renewable-energy-growth-persists-despite-federal-policy-uncertainty/"
+      },
+      "time": {
+        "asserted": "2026-07-18T08:10:03.256Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "degrowth",
+        "citation": "https://www.resilience.org/stories/2026-07-14/how-us-renewable-energy-growth-persists-despite-federal-policy-uncertainty/"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "summary",
+      "proposition": {
+        "predicate": "summary",
+        "object": "Despite recent shifts in federal energy policies, a Carbon Brief analysis shows that the US transition to renewable energy is continuing."
+      },
+      "time": {
+        "asserted": "2026-07-18T08:10:03.256Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "degrowth",
+        "citation": "https://www.resilience.org/stories/2026-07-14/how-us-renewable-energy-growth-persists-despite-federal-policy-uncertainty/"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "published",
+      "proposition": {
+        "predicate": "published",
+        "object": "Tue, 14 Jul 2026 08:00:51 +0000"
+      },
+      "time": {
+        "asserted": "2026-07-18T08:10:03.256Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "degrowth",
+        "citation": "https://www.resilience.org/stories/2026-07-14/how-us-renewable-energy-growth-persists-despite-federal-policy-uncertainty/"
+      },
+      "status": "supported"
+    }
+  ]
+}

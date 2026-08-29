@@ -1,0 +1,69 @@
+{
+  "subject": "how-green-is-andy-burnham-britain-s-next-pm-faces-tough-climate-decisions",
+  "claims": [
+    {
+      "id": "title",
+      "proposition": {
+        "predicate": "title",
+        "object": "How green is Andy Burnham? Britain’s next PM faces tough climate decisions"
+      },
+      "time": {
+        "asserted": "2026-07-18T08:37:37.917Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "economy",
+        "citation": "https://www.theguardian.com/environment/2026/jul/16/how-green-andy-burnham-britain-next-pm-tough-climate-decisions"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "url",
+      "proposition": {
+        "predicate": "url",
+        "object": "https://www.theguardian.com/environment/2026/jul/16/how-green-andy-burnham-britain-next-pm-tough-climate-decisions"
+      },
+      "time": {
+        "asserted": "2026-07-18T08:37:37.917Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "economy",
+        "citation": "https://www.theguardian.com/environment/2026/jul/16/how-green-andy-burnham-britain-next-pm-tough-climate-decisions"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "summary",
+      "proposition": {
+        "predicate": "summary",
+        "object": "<p>Heatwaves, high energy prices, calls for reindustrialisation and North Sea drilling are all high on the to-do list</p><p>Wildfires <a href=\"https://www.manchestereveningnews.co.uk/news/greater-manchester-news/greater-manchesters-new-air-quality-34292334\">cast a pall of smoke this week over Greater Manchester</a>, whose former mayor Andy Burnham stands on the threshold of No 10. Amid three UK heatwaves so far this year, which have <a href=\"https://www.theguardian.com/environment/2026/jul/13/june-heatwave-killed-440-people-a-day-england-wales-data-suggests-climate-crisis\">killed thousands of people</a> in England and Wales, damaged harvests and left <a href=\"https://www.theguardian.com/education/2026/jul/11/uk-pupils-struggle-extreme-heat-schools-classrooms\">children crying in classrooms</a>, the new prime minister’s plans for the climate crisis remain as shrouded as his city.</p><p>“Burnham has been very quiet about the climate [crisis] so far,” says Chris Venables, an environmental campaigner and fellow at the Green Alliance thinktank. “I don’t think [it] is at the forefront of his mind, but that does not mean he will water down this agenda.”</p> <a href=\"https://www.theguardian.com/environment/2026/jul/16/how-green-andy-burnham-britain-next-pm-tough-climate-decisions\">Continue reading...</a>"
+      },
+      "time": {
+        "asserted": "2026-07-18T08:37:37.917Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "economy",
+        "citation": "https://www.theguardian.com/environment/2026/jul/16/how-green-andy-burnham-britain-next-pm-tough-climate-decisions"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "published",
+      "proposition": {
+        "predicate": "published",
+        "object": "Thu, 16 Jul 2026 14:00:41 GMT"
+      },
+      "time": {
+        "asserted": "2026-07-18T08:37:37.917Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "economy",
+        "citation": "https://www.theguardian.com/environment/2026/jul/16/how-green-andy-burnham-britain-next-pm-tough-climate-decisions"
+      },
+      "status": "supported"
+    }
+  ]
+}

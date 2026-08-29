@@ -1,0 +1,22 @@
+{
+  "kind": "koios.bilateral-contract-interface",
+  "id": "koios-news-hires-service-section-for-licensed-editorial-state",
+  "customer": "urn:ame:koios.news-publication",
+  "provider": "urn:ame:koios-news-service-section",
+  "providerContract": "koios-news-service-section/licensed-editorial-state/v1",
+  "service": "source-evidence-to-licensed-editorial-state",
+  "packet": [
+    "exact assignment",
+    "admitted research packet",
+    "reported-analysis genre-law digest",
+    "publication-policy digest"
+  ],
+  "result": "Provider-authored source-bound assertions and licensed passage plan, or typed refusal before writer inference.",
+  "authority": "The service section may interpret only the admitted source evidence. It cannot admit sources, choose Koios's attention, authorize publication, alter the publication corpus, or invoke a writer.",
+  "customerAdmission": "Koios independently records and admits the returned value before presenting its bounded prose brief to a contracted writer.",
+  "price": {
+    "amount": 0,
+    "currency": "USD"
+  },
+  "status": "executable"
+}

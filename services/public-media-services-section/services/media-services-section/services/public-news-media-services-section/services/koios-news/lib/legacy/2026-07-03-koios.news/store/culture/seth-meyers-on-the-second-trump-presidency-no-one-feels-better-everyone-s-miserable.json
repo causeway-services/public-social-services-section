@@ -1,0 +1,69 @@
+{
+  "subject": "seth-meyers-on-the-second-trump-presidency-no-one-feels-better-everyone-s-miserable",
+  "claims": [
+    {
+      "id": "title",
+      "proposition": {
+        "predicate": "title",
+        "object": "Seth Meyers on the second Trump presidency: ‘No one feels better, everyone’s miserable’"
+      },
+      "time": {
+        "asserted": "2026-07-19T14:42:05.531Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "culture",
+        "citation": "https://www.theguardian.com/culture/2026/jul/16/late-night-roundup-seth-meyers-second-trump-presidency"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "url",
+      "proposition": {
+        "predicate": "url",
+        "object": "https://www.theguardian.com/culture/2026/jul/16/late-night-roundup-seth-meyers-second-trump-presidency"
+      },
+      "time": {
+        "asserted": "2026-07-19T14:42:05.531Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "culture",
+        "citation": "https://www.theguardian.com/culture/2026/jul/16/late-night-roundup-seth-meyers-second-trump-presidency"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "summary",
+      "proposition": {
+        "predicate": "summary",
+        "object": "<p>Late-night host covered the dire state of the US economy and how the president is distracted by other priorities</p><p>Seth Meyers discussed <a href=\"https://www.theguardian.com/us-news/donaldtrump\">Donald Trump</a>’s many weaknesses as president as the US economy continues to tumble.</p><p>On Late Night, the host started by covering how <a href=\"https://www.theguardian.com/us-news/donaldtrump\">Donald Trump</a> responded to the death of his longtime loyalist <a href=\"https://www.theguardian.com/us-news/2026/jul/12/lindsey-graham-key-ally-of-donald-trump-has-died-after-sudden-illness-his-office-says\">Lindsey Graham</a>, joking that he was an “empathetic president who knows when to use a deft touch” before playing footage of him speculating on the cause of death.</p> <a href=\"https://www.theguardian.com/culture/2026/jul/16/late-night-roundup-seth-meyers-second-trump-presidency\">Continue reading...</a>"
+      },
+      "time": {
+        "asserted": "2026-07-19T14:42:05.531Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "culture",
+        "citation": "https://www.theguardian.com/culture/2026/jul/16/late-night-roundup-seth-meyers-second-trump-presidency"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "published",
+      "proposition": {
+        "predicate": "published",
+        "object": "Thu, 16 Jul 2026 15:07:10 GMT"
+      },
+      "time": {
+        "asserted": "2026-07-19T14:42:05.531Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "culture",
+        "citation": "https://www.theguardian.com/culture/2026/jul/16/late-night-roundup-seth-meyers-second-trump-presidency"
+      },
+      "status": "supported"
+    }
+  ]
+}

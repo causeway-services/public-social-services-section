@@ -1,0 +1,31 @@
+/*
+  Content-Security-Policy: default-src 'self'; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; font-src https://fonts.gstatic.com; script-src 'self' 'unsafe-inline'; img-src 'self' data:; connect-src 'self'; frame-src https://acceptable.a-ads.com; base-uri 'self'; frame-ancestors 'none'; object-src 'none'
+  Cross-Origin-Opener-Policy: same-origin
+  Cross-Origin-Resource-Policy: same-origin
+  Origin-Agent-Cluster: ?1
+  Permissions-Policy: geolocation=(), microphone=(), camera=()
+  Referrer-Policy: no-referrer
+  Strict-Transport-Security: max-age=31536000; includeSubDomains
+  X-Content-Type-Options: nosniff
+  X-Dns-Prefetch-Control: off
+  X-Download-Options: noopen
+  X-Frame-Options: DENY
+  X-Permitted-Cross-Domain-Policies: none
+
+/coverage.json
+  Content-Type: application/ld+json; charset=utf-8
+
+/feed.atom
+  Content-Type: application/atom+xml; charset=utf-8
+
+/feed.json
+  Content-Type: application/feed+json; charset=utf-8
+
+/feed.xml
+  Content-Type: application/rss+xml; charset=utf-8
+
+/fingerprints/*.json
+  Content-Type: application/ld+json; charset=utf-8
+
+/ninjs.json
+  Content-Type: application/vnd.iptc.ninjs+json; charset=utf-8

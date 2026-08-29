@@ -1,0 +1,166 @@
+#+SETUPFILE: ./default-setup.inc
+#+TITLE: The Delvers
+#+EXPORT_FILE_NAME: ../../pub/teraum/the-delvers
+#+INDEX: fiction!/The Delvers/
+#+INDEX: Delvers, The!/The Delvers/
+#+TOC: headlines 1 local
+* Introduction
+#+INCLUDE: "../plates.inc::draft"
+#+INCLUDE: "../plates.inc::default-eli"
+* The Delvers [0/18]
+   :PROPERTIES:
+   :CUSTOM_ID: the-delvers
+   :END:
+*The Delvers* is a silly story loaded with half-baked subtext. It
+follows a group who seek magic artifacts, despite being wanted by the
+imperial government.
+#+TOC: headlines 1 local
+*** EDIT Chapter 1: The /Hunnul/ Ascends
+    :PROPERTIES:
+    :CUSTOM_ID: the-delvers-1
+    :END:
+This was Stevie's favorite part of the job.
+
+"Thank you for choosing to fly with the Cloudbound Trading Company,"
+he said in a well-practiced monotone. "We just flew in from Ack, and
+boy - are my arms tired," he continued, equally deadpan.
+
+A few passengers in the cabin chuckled, and then the laughter began to
+build, shifting into chatter as some explained the joke to others. It
+wasn't often that the /Hunnul/ flew all the way up to Helmet's
+Dent, and Stevie knew that meant this would be the first time
+many of them had been on an airship. Through the chatter, Stevie heard
+one woman keep laughing, a hearty belly-laugh. This was going to be
+fun flight, Stevie thought to himself.
+
+"As I explained when we were boarding, today's flight won't be making
+its usual stop in Tayopopopolis," Stevie went on. He had to slow down
+for "Tayopopopolis," the foreign convention of adding an "op" to the
+city's name when a new monarch took over was sensible enough, but Tay
+the Third was an old man, and his son wasn't in good health - it
+wouldn't be long, and Stevie would need both hands to count the "ops."
+
+"Because of the shorter flight, we won't be able to honor any of your
+drink tickets," Stevie continued, pausing to allow a few grumbles.
+Cloudbound flights almost never honored drink tickets, and Stevie had
+found it helped if he let people grumble as a group. "But they don't
+expire, so make sure to book your next flight with us." The passengers
+were moving in their seats, and starting their own conversations, so
+Stevie had to raise his voice slightly.
+
+"If you have any questions, please make your way to the front of the
+cabin, where I'll be. And again, thank you for flying with the
+Cloudbound Trading Company."
+
+Stevie went up to his seat near the cockpit and opened the
+thick canvas curtain that separated the cockpit from the passengers.
+
+"We're ready to take off," Stevie said, and without looking back, the
+pilot gave Stevie a thumbs-up. Stevie closed the curtain and leaned
+out the airship's open door. He gave his own thumbs-up to the men
+standing in the field, who released levers which freed the thick ropes
+weighing down the airship's canopy.
+
+Stevie remained leaning out the doorway as the Hunnul lurched upward,
+appreciating how the breeze suddenly shifted direction, seeming for a
+moment to come up from the field below. With a content sigh, he slid
+the door shut, and moved to his seat.
+
+He leaned back in his chair and rested his eyes, listening to the
+excited chatter of the passengers as they watched the field drop away
+under them, the whole of nearby Helmet's Dent come into view, and
+slowly fall off toward the horizon as the airship Hunnul made its way
+out of the Farsteppes and through the Central Plains toward the city
+of Ack.
+*** DRAFT Chapter 2: Exposition
+    :PROPERTIES:
+    :CUSTOM_ID: the-delvers-2
+    :END:
+Jenos Anadini was seated near the middle of the airship's passenger
+cabin, in the aisle seat. He was trying to listen to Stevie's speech,
+but was distracted by the three passengers seated closest to him.
+
+Across from him was a woman who, despite all his inclinations toward
+social courtesy, couldn't help but describe her in his head as a
+"barbarian." Her black hair was knotted past her incredibly broad
+shoulders, and she was dressed in a simple tunic and
+trousers. However, her fingers and neck were loaded with gold
+jewelery, and the way she carried herself confirmed: she wasn't a
+local peasant.
+
+Seated next to her was a lanky young man, with hair as long as hers,
+but nicely brushed and bright red. His outfit was also unusual: fine
+trousers and a vest over a collared shirt, but everything looked a bit
+musty. And those wide salmon-leather lapels were definitely the style
+when Jenos had been a young soldier.
+
+The seat next to Jenos, near the window, had been occupied by the time
+he had boarded the ship, by a pale man with a bushy black beard,
+dressed in many layers of fur and leather. The man, the youngest of
+the four, sat turned toward the window. Jenos suspected he was a nomad
+from the Farfarsteppes.
+
+Jenos had ridden on airships many times before, so when the flight
+steward began his speech, Jenos continued to look at his fellow
+passengers.
+
+He figured, based on their outfits, that most were merchants returning
+to the Green Delta.
+*** DRAFT Scene-setting the Green Delta
+*** DRAFT Ravens Attack, Hunnul Descends
+*** DRAFT Phasing into Jerry's Hallway
+*** DRAFT Crash, Recovery, Walk to Bellybrush
+*** DRAFT Jenos goes to the Curio Shop
+presents his book to barnabus, who says he might know more if jenos is
+willing to help investigate the strange noises.
+*** DRAFT Jenos Buy Supplies
+Wrapping each arrow individually in tissue paper.
+*** DRAFT Jenos tour the curio shop
+*** DRAFT Jenos defends the curio shop from imps
+*** DRAFT trent tells jenos about the book
+it's old dwarven, he'll have to go to the worldkeep to learn more.
+*** DRAFT trent tells jenos to go to lorrestar's estate
+"Find this book about this magic wand that'll make imps go away"
+*** DRAFT jenos goes to bar
+the leaping eel, sees kindal and renkah again, tells them about the
+house, they agree to come along.
+*** DRAFT the group explores lorrestar's estate
+finds book, it's in dwarven, nothing to do with imps, jenos' reads dwarven.
+*** DRAFT the group comes back, barnabus is actually honest
+barnabus admits he's cursed, wants to break it reform the
+delvers. jenos agrees to help
+*** DRAFT jenos goes into the sewers
+carbon dioxide trap
+*** DRAFT jenos breaks into basement of chandlers guild, but it's abandoned.
+*** DRAFT Jenos returns to Curio Shop
+"place was abandoned"
+"they're onto me, we gotta flee - blindfold me, let's go to
+lorrestar's estate"
+* Supplements
+#+TOC: headlines local 1
+** Contribute
+   :PROPERTIES:
+   :CUSTOM_ID: supplements-contribute
+   :END:
+#+INCLUDE: "../plates.inc::personal-contribute"
+** License
+   :PROPERTIES:
+   :CUSTOM_ID: supplements-license
+   :END:
+#+INCLUDE: "../plates.inc::mit-license"
+
+
+---
+
+<!-- source: archive/multi-user-dungeon/tab/worlds/teraum-paracosm/factions/the-delvers.md -->
+
+## Imported source: archive/multi-user-dungeon/tab/worlds/teraum-paracosm/factions/the-delvers.md
+
+---
+type: faction
+name: "The Delvers"
+description: "The Delvers are a society dedicated to destroying magical artifacts, founded in 22bB by Rickle Axager and continuing in semi-secret post-Collapse so no second Dakkle can re-power the world."
+summary: "Society destroying magical artifacts since shortly after the Collapse."
+lore: "Founded 22bB by Rickle Axager as a for-hire adventuring group; after the Collapse they pivoted to artifact destruction. Not recognized by the Red Union. Members include Aldar Honeyfern and Barnabus Trent; Nubbles and Nells are unofficial."
+status: active
+---

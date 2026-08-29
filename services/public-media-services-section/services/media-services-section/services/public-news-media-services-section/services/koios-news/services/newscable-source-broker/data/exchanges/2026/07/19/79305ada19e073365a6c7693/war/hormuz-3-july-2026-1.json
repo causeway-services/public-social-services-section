@@ -1,0 +1,69 @@
+{
+  "subject": "hormuz-3-july-2026-1",
+  "claims": [
+    {
+      "id": "title",
+      "proposition": {
+        "predicate": "title",
+        "object": "Hormuz 3 July 2026 #1"
+      },
+      "time": {
+        "asserted": "2026-07-19T15:04:18.891Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "war",
+        "citation": "https://www.crisisgroup.org/content/hormuz-3-july-2026-1"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "url",
+      "proposition": {
+        "predicate": "url",
+        "object": "https://www.crisisgroup.org/content/hormuz-3-july-2026-1"
+      },
+      "time": {
+        "asserted": "2026-07-19T15:04:18.891Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "war",
+        "citation": "https://www.crisisgroup.org/content/hormuz-3-july-2026-1"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "summary",
+      "proposition": {
+        "predicate": "summary",
+        "object": "<span>Hormuz 3 July 2026 #1</span> <span><span>lalasor</span></span> <span><time datetime=\"2026-07-03T16:34:06+02:00\" title=\"Friday, July 3, 2026 - 16:34\">Fri, 07/03/2026 - 16:34</time> </span> <a href=\"https://www.crisisgroup.org/strait-hormuz\" hreflang=\"en\">Strait of Hormuz</a> <div class=\"paragraph paragraph--type--timeline-date paragraph--view-mode--default\"> <time datetime=\"2026-07-03T12:00:00Z\">Fri, 07/03/2026 - 12:00</time> 3 July 2026 <p><span style=\"background-color:#ffffff;color:#0f1418;font-family:Arial,sans-serif;font-size:10pt;font-style:normal;font-variant:normal;font-weight:400;text-decoration:none;vertical-align:baseline;white-space:pre-wrap;\">Iranian media cited the speaker of parliament as&nbsp;</span><a style=\"text-decoration:none;\" href=\"https://farsnews.ir/Rahgozar_b/1783069999972146849/Iranian-Parliament-Speaker-Tehran-Not-to-Allow-US-Interference-in-Strait-of-Hormuz\" target=\"_blank\"><span style=\"-webkit-text-decoration-skip:none;background-color:#ffffff;color:#1155cc;font-family:Arial,sans-serif;font-size:10pt;font-style:normal;font-variant:normal;font-weight:400;text-decoration-skip-ink:none;text-decoration:underline;vertical-align:baseline;white-space:pre-wrap;\">stressing</span></a><span style=\"background-color:#ffffff;color:#0f1418;font-family:Arial,sans-serif;font-size:10pt;font-style:normal;font-variant:normal;font-weight:400;text-decoration:none;vertical-align:baseline;white-space:pre-wrap;\"> that Iran would “not allow any U.S. interference in the Strait of Hormuz”, positing too that “Israel is undoubtedly seeking to undermine the Iran–U.S. memorandum of understanding, but…the Islamic Republic’s deterrence capability in the region would prevent Israel from launching another war”.</span></p> </div>"
+      },
+      "time": {
+        "asserted": "2026-07-19T15:04:18.891Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "war",
+        "citation": "https://www.crisisgroup.org/content/hormuz-3-july-2026-1"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "published",
+      "proposition": {
+        "predicate": "published",
+        "object": "Fri, 03 Jul 2026 14:34:06 +0000"
+      },
+      "time": {
+        "asserted": "2026-07-19T15:04:18.891Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "war",
+        "citation": "https://www.crisisgroup.org/content/hormuz-3-july-2026-1"
+      },
+      "status": "supported"
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "type": "TTIUnionMediaOriginRouteManifest",
+  "version": 1,
+  "owner": "urn:ame:turntide-islands",
+  "origin": "https://turntide-islands.561.group/",
+  "actor": "https://turntide-islands.561.group/actors/union-media",
+  "webFingerSubject": "acct:union-media@turntide-islands.561.group",
+  "status": "tti-local-discovery-ready-carrier-and-signed-agent-card-unavailable",
+  "routes": [
+    {"method":"GET","path":"/.well-known/webfinger","effect":"exact-resource-discovery","readiness":"local-ready"},
+    {"method":"GET","path":"/.well-known/nodeinfo","effect":"nodeinfo-discovery","readiness":"local-ready"},
+    {"method":"GET","path":"/nodeinfo/2.1","effect":"bounded-node-metadata","readiness":"local-ready"},
+    {"method":"GET","path":"/actors/union-media","effect":"public-actor-identity","readiness":"local-ready"},
+    {"method":"GET","path":"/actors/union-media/outbox","effect":"empty-public-outbox","readiness":"local-ready"},
+    {"method":"POST","path":"/actors/union-media/inbox","effect":"typed-carrier-unavailable-refusal-without-body-admission","readiness":"blocked-on-hired-carrier"},
+    {"method":"POST","path":"/inbox","effect":"typed-carrier-unavailable-refusal-without-body-admission","readiness":"blocked-on-hired-carrier"},
+    {"method":"GET","path":"/.well-known/agent-card.json","effect":"typed-signed-agent-card-unavailable-refusal","readiness":"blocked-on-signed-agent-card"},
+    {"method":"GET","path":"/.well-known/jwks.json","effect":"typed-agent-card-jwks-unavailable-refusal","readiness":"blocked-on-signed-agent-card"},
+    {"method":"GET","path":"/.well-known/tti-union-media-origin.json","effect":"this-public-route-manifest","readiness":"local-ready"}
+  ],
+  "carrierBoundary": "Public POST bodies are never read or admitted by this surface. Only the separately hired carrier may verify a signed ActivityPub delivery, recover exact named RMN bytes, and invoke TTI's customer callback.",
+  "hostingBoundary": "A hosting provider may route only these exact paths after accepting a separate border contract. This manifest grants no DNS, proxy, credential, provider-plate, or publication authority.",
+  "economicEffect": "Local interface readiness only; no public deployment, provider acceptance, advertiser identity, request, bid, transfer, publication, revenue, or profit."
+}

@@ -1,0 +1,20 @@
+{
+  "type": "koios.news/stage-product-registry-contract/v1",
+  "purpose": "Retain an exact completed stage product before any downstream admission decision so a refused, interrupted, or resumed newsroom circuit never purchases the same work twice.",
+  "preconditions": [
+    "The customer supplies a named stage, the provider contract, a mechanism digest, and the semantic digest of every input that can change the product.",
+    "The hired RWIL/RDF provider is available to encode the product as a typed deterministic-CBOR object and witness its append-only admission."
+  ],
+  "postconditions": [
+    "At most one product identity is admitted for an exact stage-request digest.",
+    "The complete product needed by the next stage is retained, not merely its provider receipt.",
+    "A repeated exact request returns the retained product without invoking the producer."
+  ],
+  "refusals": [
+    "A request digest has conflicting admitted product identities.",
+    "A retained product fails its caller-supplied shape admission.",
+    "The product cannot be witnessed through Koios's contracted RWIL/RDF provider."
+  ],
+  "serialization": "Koios code shapes the relational value; inference providers produce prose or choose tools and never serialize this record.",
+  "authority": "koios.news"
+}

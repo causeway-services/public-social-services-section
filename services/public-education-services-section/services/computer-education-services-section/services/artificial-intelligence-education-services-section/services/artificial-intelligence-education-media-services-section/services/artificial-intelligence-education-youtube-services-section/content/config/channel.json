@@ -1,0 +1,26 @@
+{
+  "type": "YouTubeChannelIdentity",
+  "status": "public-identity-oauth-and-notebook-bound-awaiting-suppliers",
+  "actor": "urn:ame:artificial-intelligence-youtube-channel-enterprise",
+  "title": "Machine Learning: History & Frontiers",
+  "youtubeChannelId": "UCZY23kFU8ddtPn8mnY9xGaw",
+  "youtubeHandle": "@MachineLearningHistoryFrontier",
+  "identityObservation": {
+    "method": "youtube-public-canonical-page",
+    "url": "https://www.youtube.com/@MachineLearningHistoryFrontier",
+    "observedAt": "2026-07-21T17:37:38-05:00",
+    "authorityConferred": false
+  },
+  "line": "artificial-intelligence-history-and-frontiers",
+  "format": "explainer",
+  "audience": "students, researchers, and practitioners already conversant with AI or machine learning",
+  "curriculum": "urn:ame:artificial-intelligence-curriculum-enterprise",
+  "persistentNotebook": {
+    "actor": "urn:ame:artificial-intelligence-persistent-notebook-enterprise",
+    "notebookId": "9c3eed44-7fa3-4203-8b79-e0a20b91017f"
+  },
+  "timezone": "America/Chicago",
+  "releaseWeekdays": ["Monday", "Wednesday", "Friday"],
+  "targetOnEligibleDay": 1,
+  "targetOnOtherDays": 0
+}

@@ -1,0 +1,69 @@
+{
+  "subject": "limestone-whitewash-an-old-material-with-practical-benefits",
+  "claims": [
+    {
+      "id": "title",
+      "proposition": {
+        "predicate": "title",
+        "object": "Limestone whitewash: An old material with practical benefits"
+      },
+      "time": {
+        "asserted": "2026-07-18T19:52:29.175Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "degrowth",
+        "citation": "https://www.resilience.org/stories/2026-07-16/limestone-whitewash-an-old-material-with-practical-benefits/"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "url",
+      "proposition": {
+        "predicate": "url",
+        "object": "https://www.resilience.org/stories/2026-07-16/limestone-whitewash-an-old-material-with-practical-benefits/"
+      },
+      "time": {
+        "asserted": "2026-07-18T19:52:29.175Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "degrowth",
+        "citation": "https://www.resilience.org/stories/2026-07-16/limestone-whitewash-an-old-material-with-practical-benefits/"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "summary",
+      "proposition": {
+        "predicate": "summary",
+        "object": "Modern paints contain toxic chemicals that linger in our homes and bodies, while traditional lime-based whitewash offers a low-energy, low-tox alternative that brightens buildings, protects surfaces and can even ‘sweeten’ acidic soils to boost fertility."
+      },
+      "time": {
+        "asserted": "2026-07-18T19:52:29.175Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "degrowth",
+        "citation": "https://www.resilience.org/stories/2026-07-16/limestone-whitewash-an-old-material-with-practical-benefits/"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "published",
+      "proposition": {
+        "predicate": "published",
+        "object": "Thu, 16 Jul 2026 08:00:14 +0000"
+      },
+      "time": {
+        "asserted": "2026-07-18T19:52:29.175Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "degrowth",
+        "citation": "https://www.resilience.org/stories/2026-07-16/limestone-whitewash-an-old-material-with-practical-benefits/"
+      },
+      "status": "supported"
+    }
+  ]
+}

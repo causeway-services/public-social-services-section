@@ -1,0 +1,69 @@
+{
+  "subject": "justice-morality-and-triumph-why-matilda-is-my-feelgood-movie",
+  "claims": [
+    {
+      "id": "title",
+      "proposition": {
+        "predicate": "title",
+        "object": "‘Justice, morality and triumph’: why Matilda is my feelgood movie"
+      },
+      "time": {
+        "asserted": "2026-07-20T09:48:52.265Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "culture",
+        "citation": "https://www.theguardian.com/film/2026/jul/20/why-matilda-is-my-feelgood-movie"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "url",
+      "proposition": {
+        "predicate": "url",
+        "object": "https://www.theguardian.com/film/2026/jul/20/why-matilda-is-my-feelgood-movie"
+      },
+      "time": {
+        "asserted": "2026-07-20T09:48:52.265Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "culture",
+        "citation": "https://www.theguardian.com/film/2026/jul/20/why-matilda-is-my-feelgood-movie"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "summary",
+      "proposition": {
+        "predicate": "summary",
+        "object": "<p>The latest in our series of writers picking their most meaningful comfort watches is a tribute to the inspiring power of the 1996 Roald Dahl adaptation</p><p>When I think about what makes me feel good, it isn’t fantasy or escapism; it’s justice, morality and triumph – sizing up to a bully bigger than you and prevailing against the odds. I never fail to be charmed by the story of an underdog, someone who shouldn’t win but finds a way through resilience, determination or sometimes a genius loophole and a little bit of magic, and no film hits those attributes harder for me than Danny DeVito’s Matilda.</p><p>The zany adaptation of Roald Dahl’s 1988 children’s novel came out in cinemas in December 1996, four months after I came into the world. The film, set (unlike the supremely British source text) in a leopard-print-clad edition of suburban California, focuses on the titular character (played by Mara Wilson), who grows up unseen and unheard by her grifter, TV-obsessed parents, Harry and Zinnia Wormwood, played by DeVito and his then-wife Rhea Perlman.</p> <a href=\"https://www.theguardian.com/film/2026/jul/20/why-matilda-is-my-feelgood-movie\">Continue reading...</a>"
+      },
+      "time": {
+        "asserted": "2026-07-20T09:48:52.265Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "culture",
+        "citation": "https://www.theguardian.com/film/2026/jul/20/why-matilda-is-my-feelgood-movie"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "published",
+      "proposition": {
+        "predicate": "published",
+        "object": "Mon, 20 Jul 2026 09:00:51 GMT"
+      },
+      "time": {
+        "asserted": "2026-07-20T09:48:52.265Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "culture",
+        "citation": "https://www.theguardian.com/film/2026/jul/20/why-matilda-is-my-feelgood-movie"
+      },
+      "status": "supported"
+    }
+  ]
+}

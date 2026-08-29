@@ -1,0 +1,69 @@
+{
+  "subject": "up-all-night-by-imogen-willetts-review-a-seductive-history-of-going-out",
+  "claims": [
+    {
+      "id": "title",
+      "proposition": {
+        "predicate": "title",
+        "object": "Up All Night by Imogen Willetts review – a seductive history of going out"
+      },
+      "time": {
+        "asserted": "2026-07-18T04:08:36.538Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "culture",
+        "citation": "https://www.theguardian.com/books/2026/jul/16/up-all-night-by-imogen-willetts-review-a-seductive-history-of-going-out"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "url",
+      "proposition": {
+        "predicate": "url",
+        "object": "https://www.theguardian.com/books/2026/jul/16/up-all-night-by-imogen-willetts-review-a-seductive-history-of-going-out"
+      },
+      "time": {
+        "asserted": "2026-07-18T04:08:36.538Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "culture",
+        "citation": "https://www.theguardian.com/books/2026/jul/16/up-all-night-by-imogen-willetts-review-a-seductive-history-of-going-out"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "summary",
+      "proposition": {
+        "predicate": "summary",
+        "object": "<p>From 18th-century pleasure gardens to Studio 54, the story of nightlife in all its hedonistic – and political – glory</p><p>In this fabulous alternative history of the modern world, the academic and “party historian” Imogen Willetts looks at the last 500 years of civilisation through the sometimes blurry lenses of its after-dark scenes, with fascinating results. She begins by&nbsp;trying to capture what it feels like to go on a big night out, focusing on&nbsp;a&nbsp;phenomenon that, in 1912, the sociologist Émile Durkheim labelled “collective effervescence”. In one passage, she explains this by referencing dancing as part of ancient tribal hunting rituals, listening to Charli xcx’s 365, or singing along to Sweet Caroline with tens of thousands of other people in a stadium.</p><p>This is no dry academic study, then, and its mix of historical research, critical theory and conversational references to pop culture makes for a&nbsp;bright and compelling read. What Willetts calls the “seemingly superficial act of getting gussied up to drink, dance, have fun and meet people” is, of course, much more than that, and she scratches away at the layers with skill. Nightlife can contain, or enable, rebellion, community, innovation, art, love, sex and political revolution. From Japan to France, from Shanghai to Germany, via many detours to the United States, she examines historical movements as they might be seen from dusk till dawn.</p> <a href=\"https://www.theguardian.com/books/2026/jul/16/up-all-night-by-imogen-willetts-review-a-seductive-history-of-going-out\">Continue reading...</a>"
+      },
+      "time": {
+        "asserted": "2026-07-18T04:08:36.538Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "culture",
+        "citation": "https://www.theguardian.com/books/2026/jul/16/up-all-night-by-imogen-willetts-review-a-seductive-history-of-going-out"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "published",
+      "proposition": {
+        "predicate": "published",
+        "object": "Thu, 16 Jul 2026 06:00:15 GMT"
+      },
+      "time": {
+        "asserted": "2026-07-18T04:08:36.538Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "culture",
+        "citation": "https://www.theguardian.com/books/2026/jul/16/up-all-night-by-imogen-willetts-review-a-seductive-history-of-going-out"
+      },
+      "status": "supported"
+    }
+  ]
+}

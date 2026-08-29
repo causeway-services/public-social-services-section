@@ -1,0 +1,69 @@
+{
+  "subject": "telemundo-scores-u-s-spanish-language-rights-to-uefa-champions-league",
+  "claims": [
+    {
+      "id": "title",
+      "proposition": {
+        "predicate": "title",
+        "object": "Telemundo Scores U.S. Spanish-Language Rights To UEFA Champions League"
+      },
+      "time": {
+        "asserted": "2026-07-19T15:58:01.697Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "culture",
+        "citation": "https://deadline.com/2026/07/telemundo-scores-spanish-language-rights-uefa-champions-league-1236997711/"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "url",
+      "proposition": {
+        "predicate": "url",
+        "object": "https://deadline.com/2026/07/telemundo-scores-spanish-language-rights-uefa-champions-league-1236997711/"
+      },
+      "time": {
+        "asserted": "2026-07-19T15:58:01.697Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "culture",
+        "citation": "https://deadline.com/2026/07/telemundo-scores-spanish-language-rights-uefa-champions-league-1236997711/"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "summary",
+      "proposition": {
+        "predicate": "summary",
+        "object": "Gooooooooooooal!!!!! Telemundo is not done with soccer after the World Cup final, as the U.S.-based network has scored the Spanish-language rights to all of UEFA’s men’s club competitions. The deal is for three seasons and begins with the 2027-28 season and includes the Spanish-language rights in the U.S. for the UEFA Champions League, UEFA Europa […]"
+      },
+      "time": {
+        "asserted": "2026-07-19T15:58:01.697Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "culture",
+        "citation": "https://deadline.com/2026/07/telemundo-scores-spanish-language-rights-uefa-champions-league-1236997711/"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "published",
+      "proposition": {
+        "predicate": "published",
+        "object": "Sun, 19 Jul 2026 15:55:08 +0000"
+      },
+      "time": {
+        "asserted": "2026-07-19T15:58:01.697Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "culture",
+        "citation": "https://deadline.com/2026/07/telemundo-scores-spanish-language-rights-uefa-champions-league-1236997711/"
+      },
+      "status": "supported"
+    }
+  ]
+}

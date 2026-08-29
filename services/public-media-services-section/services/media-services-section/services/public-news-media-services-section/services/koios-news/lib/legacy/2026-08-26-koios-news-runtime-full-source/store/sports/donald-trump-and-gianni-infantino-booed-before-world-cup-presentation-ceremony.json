@@ -1,0 +1,69 @@
+{
+  "subject": "donald-trump-and-gianni-infantino-booed-before-world-cup-presentation-ceremony",
+  "claims": [
+    {
+      "id": "title",
+      "proposition": {
+        "predicate": "title",
+        "object": "Donald Trump and Gianni Infantino booed before World Cup presentation ceremony"
+      },
+      "time": {
+        "asserted": "2026-07-19T23:18:26.490Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "sports",
+        "citation": "https://www.theguardian.com/football/2026/jul/19/donald-trump-world-cup-final"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "url",
+      "proposition": {
+        "predicate": "url",
+        "object": "https://www.theguardian.com/football/2026/jul/19/donald-trump-world-cup-final"
+      },
+      "time": {
+        "asserted": "2026-07-19T23:18:26.490Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "sports",
+        "citation": "https://www.theguardian.com/football/2026/jul/19/donald-trump-world-cup-final"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "summary",
+      "proposition": {
+        "predicate": "summary",
+        "object": "<ul><li><p>US president watches Spain v Argentina match</p></li><li><p><a href=\"https://www.theguardian.com/football/2026/jul/19/spain-win-world-cup-argentina-final-match-report\">Match report: Spain beat Argentina in extra-time</a></p></li></ul><p>Donald Trump and Gianni Infantino were booed as they took to the field for the presentation ceremony of the World Cup final on Sunday.</p><p>Trump arrived at the stadium on Marine One, with the president’s helicopter first flying over the stadium about 45 minutes before kick-off. There was little reaction from the crowd as the aircraft flew over the stadium, with Marine One landing nearby a few minutes later. The president was seated in a glassed-in section of luxury seats on the west side of the stadium shortly before kick-off, along with the Fifa president, Gianni Infantino. Other dignitaries and former players sat nearby, including Spain’s king, Felipe VI, Canada’s prime minister, Mark Carney, and Mexico’s president, Claudia Sheinbaum.</p> <a href=\"https://www.theguardian.com/football/2026/jul/19/donald-trump-world-cup-final\">Continue reading...</a>"
+      },
+      "time": {
+        "asserted": "2026-07-19T23:18:26.490Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "sports",
+        "citation": "https://www.theguardian.com/football/2026/jul/19/donald-trump-world-cup-final"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "published",
+      "proposition": {
+        "predicate": "published",
+        "object": "Sun, 19 Jul 2026 22:32:19 GMT"
+      },
+      "time": {
+        "asserted": "2026-07-19T23:18:26.490Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "sports",
+        "citation": "https://www.theguardian.com/football/2026/jul/19/donald-trump-world-cup-final"
+      },
+      "status": "supported"
+    }
+  ]
+}

@@ -1,0 +1,69 @@
+{
+  "subject": "breaking-america-s-promise-to-pacific-island-veterans",
+  "claims": [
+    {
+      "id": "title",
+      "proposition": {
+        "predicate": "title",
+        "object": "Breaking America’s Promise to Pacific Island Veterans"
+      },
+      "time": {
+        "asserted": "2026-07-18T08:10:07.838Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "war",
+        "citation": "https://warontherocks.com/breaking-americas-promise-to-pacific-island-veterans/"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "url",
+      "proposition": {
+        "predicate": "url",
+        "object": "https://warontherocks.com/breaking-americas-promise-to-pacific-island-veterans/"
+      },
+      "time": {
+        "asserted": "2026-07-18T08:10:07.838Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "war",
+        "citation": "https://warontherocks.com/breaking-americas-promise-to-pacific-island-veterans/"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "summary",
+      "proposition": {
+        "predicate": "summary",
+        "object": "In January, Robson Henry died at the age of 66. Chances are, you have never heard of Henry. He was not famous, rich, or powerful. In many ways, Henry was no different from the thousands of young men and women who, at the age of 18, chose to serve by enlisting in the U.S. Army. Nor does the fact that he stayed in the Army for the next 26 years, serving multiple tours of duty in the Middle East, meaningfully distinguish him. And yet, Henry was special: Unlike the vast majority of his fellow soldiers, he was not from the The post Breaking America’s Promise to Pacific Island Veterans appeared first on War on the Rocks ."
+      },
+      "time": {
+        "asserted": "2026-07-18T08:10:07.838Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "war",
+        "citation": "https://warontherocks.com/breaking-americas-promise-to-pacific-island-veterans/"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "published",
+      "proposition": {
+        "predicate": "published",
+        "object": "Wed, 15 Jul 2026 07:15:55 +0000"
+      },
+      "time": {
+        "asserted": "2026-07-18T08:10:07.838Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "war",
+        "citation": "https://warontherocks.com/breaking-americas-promise-to-pacific-island-veterans/"
+      },
+      "status": "supported"
+    }
+  ]
+}

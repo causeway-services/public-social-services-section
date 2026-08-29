@@ -1,0 +1,28 @@
+{
+  "type": "TTIKnowledgeContributionTerms",
+  "version": 1,
+  "id": "tti-knowledge-contribution-terms-draft-2026-01",
+  "status": "draft-not-effective-not-legal-advice",
+  "operator": "Turntide Islands",
+  "plainLanguageNotice": [
+    "Talking in TTI Discord is not consent to sell your messages or knowledge.",
+    "Mentioning the TTI Knowledge Broker bot in your own message asks TTI to DM you a private contribution-offer link; the mention is not the contribution, license, or sale.",
+    "The broker keeps only the Discord account and message pointer needed to open and audit that session. It does not copy the Discord message into TTI's sale corpus.",
+    "A sale-eligible contribution begins only when you deliberately submit it through TTI's own contribution intake and select a license scope.",
+    "You keep ownership of your contribution. The selected license lets TTI store, transform, provenance, correct, and—only for a Union-licensed scope—sublicense bounded derived knowledge products.",
+    "A Discord account may be linked privately for authentication and credit notices, but Union products use only your chosen attribution mode.",
+    "Credits are non-transferable ledger claims, not cash, securities, deposits, or settled wages; payout terms are not potential until separately reviewed and accepted.",
+    "You may stop future uses. Already settled customer licenses and required accounting records are not automatically erased; unpublished and unsold uses must stop after a valid revocation is admitted.",
+    "Corrections and disputes propagate through the provenance graph so buyers can learn that knowledge changed or was withdrawn."
+  ],
+  "requiredConsent": ["age-and-capacity attestation","selected license scope","subject and geographic context","attribution mode","sensitive-data attestations","terms version","affirmative submission act","recorded consent instant"],
+  "prohibitedContribution": ["knowledge copied from another person's Discord message","third-party secrets or identifying data","instructions intended to cause harm","material the contributor does not have authority to license"],
+  "revocation": {"prospective":true,"unpaidDrafts":"retire","futureSales":"stop","settledLicenses":"continue under their frozen terms unless the buyer contract says otherwise","accountingEvidence":"retain only as required","correction":"append; never rewrite history"},
+  "appeal": {"weight":"Contributor may challenge attribution weights before sale or during the disclosed settlement window.","provenance":"Contributor may challenge identity, scope, transformation, or omission.","decisionAuthority":"Human TTI authority; automated systems may assemble evidence but may not finally adjudicate ownership or sensitive disputes."},
+  "sources": [
+    {"title":"Discord Terms of Service","url":"https://discord.com/terms","observed":"2026-07-21","relevance":"Users retain their content; other people's content requires consent; Discord restricts commercializing content or data obtained from the service."},
+    {"title":"Discord Developer Policy","url":"https://support-dev.discord.com/hc/en-us/articles/8563934450327-Discord-Developer-Policy","observed":"2026-07-21","relevance":"API Data may not be sold, licensed, commercialized, mined, or scraped; API message content may not train AI without Discord express permission."},
+    {"title":"FTC Consumer Privacy","url":"https://www.ftc.gov/business-guidance/privacy-security/consumer-privacy","observed":"2026-07-21","relevance":"Privacy representations must accurately disclose data use and be honored."}
+  ],
+  "activationBlockers": ["qualified legal review for applicable contributor jurisdictions","minor-exclusion and age-assurance implementation","privacy and security review","tax and payout review","effective contributor agreement acceptance mechanism","direct TTI HTTPS contribution intake","Discord Developer Policy compliance review or Discord written permission for any broader use"]
+}

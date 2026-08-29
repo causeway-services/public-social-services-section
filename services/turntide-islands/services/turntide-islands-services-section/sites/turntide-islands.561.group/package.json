@@ -1,0 +1,22 @@
+{
+  "name": "@causeway-services/turntide-islands-561-group-site",
+  "version": "0.1.0",
+  "type": "module",
+  "description": "The public Turntide Islands site, built with VICTOR.",
+  "dependencies": {
+    "@red-cup-engineering/victor": "0.1.1"
+  },
+  "devDependencies": {
+    "wrangler": "4.123.0"
+  },
+  "scripts": {
+    "build": "victor build content dist --config=./victor.config.mjs",
+    "check": "victor check content --config=./victor.config.mjs",
+    "deploy": "npm run build && wrangler deploy",
+    "serve": "victor serve content --port=8561 --config=./victor.config.mjs",
+    "test": "node --test test/*.test.mjs"
+  },
+  "engines": {
+    "node": ">=22.18"
+  }
+}

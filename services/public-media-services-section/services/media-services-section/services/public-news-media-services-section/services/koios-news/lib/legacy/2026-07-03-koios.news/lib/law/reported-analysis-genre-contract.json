@@ -1,0 +1,47 @@
+{
+  "kind": "koios.genre-contract",
+  "id": "reported-analysis/v1",
+  "promise": "A timely report organized around one witnessed event, with Koios's systems interpretation visibly subordinate to and licensed by the reporting.",
+  "evidenceBudget": {
+    "targetWords": {
+      "minimum": 800,
+      "maximum": 1100
+    },
+    "minimumDistinctAssertions": 15,
+    "minimumPrimaryAssertions": 15,
+    "maximumWordsPerAssertion": 55,
+    "law": "The requested length is licensed only when the admitted packet carries enough distinct source-bound assertions to sustain it. When the budget does not clear, acquire reporting or commission a narrower genre before writer inference."
+  },
+  "writerPromptLaws": [
+    "Write reported analysis, not a thematic essay: the event and the people, institutions, places, dates, quantities, documents, and decisions in the sources remain the article's spine.",
+    "Before drafting, silently inventory the packet's supported claims and distinct new details; every paragraph and every section must advance at least one of them rather than restating the frame.",
+    "Treat each source as evidence only for its own actors, place, time, scope, attribution, and modality; never use thematic similarity as a bridge between different events.",
+    "Koios's systems interpretation may explain a pattern made visible by supported facts, but it may not supply an unreported causal mechanism, motive, consequence, category, or analogy.",
+    "Use straight attribution when the source is an allegation, estimate, forecast, interpretation, institutional statement, or contested claim; do not launder it into Koios's voice.",
+    "Model output is never evidence. Prefer original and named sources, preserve source motives and uncertainty, and treat consequential claims as publishable only to the extent they are corroborated by the admitted packet.",
+    "When the story criticizes a person or institution, alleges wrongdoing, or reports a dispute, represent the subject's response or state only what the admitted reporting establishes about a documented opportunity to respond; otherwise return REPORTING_NEEDED.",
+    "Avoid needless harm, sensationalism, stereotypes, unattributed opinion, and commercial influence; keep reported analysis visibly distinct from advocacy and advertising.",
+    "A headline may intensify relevance but not certainty; it names the subject before withholding an answer and preserves material attribution, uncertainty, scope, and correction state.",
+    "The lede tells the reader what happened, where, to whom, and why it matters now; do not open with a universal thesis, scene-setting abstraction, or generic collapse language.",
+    "Do not create a section unless the packet supplies a distinct factual development for it; if fewer than three sections are supportable, refuse with REPORTING_NEEDED instead of padding.",
+    "The ending must close on the most consequential supported unresolved fact, decision, deadline, conflict, or question facing the named actors; never substitute an abstract meditation for reporting.",
+    "Give readers enough factual payoff in the headline, description, summary, and lede to make an informed click or no-click decision; withhold an answer when useful, never the subject."
+  ],
+  "gates": [
+    "event spine",
+    "paragraph-level source warrant",
+    "attribution and modality preservation",
+    "headline-body congruity",
+    "non-repetition",
+    "correction readiness",
+    "exact-manuscript independent editorial acceptance"
+  ],
+  "derivedFrom": [
+    "dev/content/notes/2026/06/01/journalism.md",
+    "dev/content/notes/2026/06/01/agentic-newsroom.md",
+    "dev/content/notes/2026/06/01/circulation-surface.md",
+    "dev/content/notes/2026/06/01/ietf-conformant-clickbait.md",
+    "dev/content/notes/2026/06/01/accountable-attention.md",
+    "dev/content/notes/2026/06/01/clickbait.md"
+  ]
+}

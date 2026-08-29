@@ -1,0 +1,26 @@
+{
+  "kind": "koios.bilateral-contract-interface",
+  "id": "koios-hires-inference-work-market-for-writer-work",
+  "customer": "urn:ame:koios-news",
+  "provider": "urn:ame:inference-work-lot-service",
+  "providerContract": "ni:///sha-256;RpgVNZ3vpJICt4SgQ1BqQwCJj82YSO-5q5Nx7Y_CpVQ",
+  "service": "schema-bound-inference-work-lot",
+  "admission": "Koios authors one finite typed text-work intent, exact source material, required capabilities, output ceiling, consideration alternatives, exclusions, and an output schema. The market admits signed provider offers, selects under its own versioned law, and contracts the selected leaf provider directly.",
+  "packet": [
+    "typed text-work intent",
+    "exact source material",
+    "required capabilities",
+    "output ceiling",
+    "customer-owned output schema",
+    "consideration alternatives",
+    "explicit exclusions"
+  ],
+  "result": "One provider-authored advisory candidate with distinct work-lot, request, result, compact, settlement, receipt, provider, model, market-account, and assay evidence, or one typed contracting residue.",
+  "acceptance": "Schema conformance and market settlement do not accept prose. Koios independently assays the exact candidate against its commission, evidence, standards, and publication law.",
+  "authority": "Koios never selects model tiers, handles provider credentials, invokes a model directly, or treats market admission as editorial warrant.",
+  "supersedes": [
+    "sha256:e504c7893564295cabdc21c9888b2036a6ae8281a3de48105dbfb6aa9f4d7c48",
+    "sha256:622361af0d84d6cba1a6b7c8c5dfaf5e9262254ee93bac116d0e46c7837aba3f"
+  ],
+  "status": "executing"
+}

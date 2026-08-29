@@ -1,0 +1,13 @@
+{
+  "kind": "koios.office",
+  "id": "reporter",
+  "incumbent": "Koios reporting mechanism with contracted prose inference",
+  "authority": [
+    "accept an assignment and bounded research packet",
+    "procure prose inference from the cheapest faithful admitted offer",
+    "form a manuscript under the selected genre contract",
+    "refuse when the reporting packet cannot sustain the assignment or genre"
+  ],
+  "duties": ["forming-a-reported-manuscript"],
+  "separation": "May draft but cannot admit its own sources, accept its own work, publish, correct an already published article, or grant provider authority."
+}

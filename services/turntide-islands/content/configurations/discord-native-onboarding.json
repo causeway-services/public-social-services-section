@@ -1,0 +1,82 @@
+{
+  "type": "TTIDiscordNativeOnboardingConfiguration",
+  "version": 1,
+  "status": "live",
+  "operator": "urn:ame:turntide-islands",
+  "guildId": "1184863861065658419",
+  "appliedAt": "2026-08-29T15:55:00.000Z",
+  "publicPermissionOverwrites": {
+    "allow": "68608",
+    "deny": "0",
+    "meaning": ["view-channel", "send-messages", "read-message-history"],
+    "channels": [
+      { "id": "1184863861065658422", "name": "mainland" },
+      { "id": "1266775258808189025", "name": "soundwaves" },
+      { "id": "1396155279208484997", "name": "question-quarry" }
+    ]
+  },
+  "welcomeScreen": {
+    "enabled": true,
+    "description": "A neighborhood porch and field station for climate breakdown.",
+    "channels": [
+      { "id": "1519620760161878136", "name": "start-here", "description": "Start here and do one useful thing" },
+      { "id": "1184863861065658422", "name": "mainland", "description": "Everyday conversation and current life" },
+      { "id": "1266775258808189025", "name": "soundwaves", "description": "Music, culture, and sounds people carry" },
+      { "id": "1396155279208484997", "name": "question-quarry", "description": "Bring a question or help investigate" },
+      { "id": "1529174202597249125", "name": "colonial-news-service", "description": "Witnessed Turntide Islands updates" }
+    ]
+  },
+  "onboarding": {
+    "enabled": true,
+    "mode": "default-channels",
+    "belowRequirements": false,
+    "defaultChannelIds": [
+      "1266775258808189025",
+      "1396155279208484997",
+      "1519620763144159313",
+      "1519620761847992340",
+      "1184863861065658422",
+      "1519620760161878136",
+      "1528099832143544381"
+    ],
+    "prompts": [
+      {
+        "id": "1543357317385297942",
+        "title": "What would you like to find in Turntide Islands?",
+        "required": true,
+        "multipleChoice": true,
+        "options": [
+          {
+            "id": "1543357317385297945",
+            "title": "Conversation and culture",
+            "description": "Everyday life, music, and the people already here",
+            "channelIds": ["1266775258808189025", "1184863861065658422"]
+          },
+          {
+            "id": "1543357317385297946",
+            "title": "Questions and research",
+            "description": "Ask, investigate, and connect sources to lived places",
+            "channelIds": ["1519620761847992340", "1396155279208484997"]
+          },
+          {
+            "id": "1543357317385297947",
+            "title": "Memes and fast-moving signals",
+            "description": "Notice what is changing without losing the human context",
+            "channelIds": ["1519620763144159313", "1519620761847992340"]
+          },
+          {
+            "id": "1543357317385297948",
+            "title": "Sky and witnessed TTI updates",
+            "description": "Recurring observations and accountable community reports",
+            "channelIds": ["1528099832143544381", "1529174202597249125"]
+          }
+        ]
+      }
+    ]
+  },
+  "boundaries": {
+    "ordinaryParticipationIsCommercialConsent": false,
+    "interestSelectionCreatesPaymentOrEntitlement": false,
+    "memberAndStaffLanesChanged": false
+  }
+}

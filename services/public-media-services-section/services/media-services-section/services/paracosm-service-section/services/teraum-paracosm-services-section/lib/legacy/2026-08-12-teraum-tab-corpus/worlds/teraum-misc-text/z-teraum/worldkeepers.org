@@ -1,0 +1,12 @@
+#+title: Worldkeepers
+#+author: emsenn
+#+email: emsenn@emsenn.net
+#+date: [2020-12-18 Fri 21:31]
+#+roam_tags: Teraum area
+
+#+name: worldkeepers-definition
+The */[[file:worldkeepers.org][Worldkeepers]]/* are a vast mountain range on the surface of [[file:../teraum.org][Teraum]].
+
+* History
+
+  #+include: "worldkeep.org::worldkeep-founded-event"

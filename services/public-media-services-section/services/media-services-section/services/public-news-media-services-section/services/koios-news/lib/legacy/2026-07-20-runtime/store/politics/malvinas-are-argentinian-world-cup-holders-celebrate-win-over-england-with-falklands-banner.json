@@ -1,0 +1,69 @@
+{
+  "subject": "malvinas-are-argentinian-world-cup-holders-celebrate-win-over-england-with-falklands-banner",
+  "claims": [
+    {
+      "id": "title",
+      "proposition": {
+        "predicate": "title",
+        "object": "‘Malvinas are Argentinian’: World Cup holders celebrate win over England with Falklands banner"
+      },
+      "time": {
+        "asserted": "2026-07-18T04:08:20.053Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "politics",
+        "citation": "https://www.theguardian.com/football/2026/jul/15/malvinas-is-argentinian-world-cup-holders-celebrate-win-over-england-with-banner"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "url",
+      "proposition": {
+        "predicate": "url",
+        "object": "https://www.theguardian.com/football/2026/jul/15/malvinas-is-argentinian-world-cup-holders-celebrate-win-over-england-with-banner"
+      },
+      "time": {
+        "asserted": "2026-07-18T04:08:20.053Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "politics",
+        "citation": "https://www.theguardian.com/football/2026/jul/15/malvinas-is-argentinian-world-cup-holders-celebrate-win-over-england-with-banner"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "summary",
+      "proposition": {
+        "predicate": "summary",
+        "object": "<ul><li><p>Banner refers to Falkland Islands conflict in 1982</p></li><li><p>UK business secretary calls for Fifa investigation </p></li></ul><p>The Argentina players celebrated <a href=\"https://www.theguardian.com/football/2026/jul/15/england-argentina-world-cup-semi-final-match-report\">their World Cup win over England</a> with a banner saying “<em>Las Malvinas son Argentinas</em>”, making reference to <a href=\"https://www.theguardian.com/football/2026/jul/15/argentina-england-tensions-world-cup-football\">the 1982 Falklands war</a>.</p><p>Argentina were 1-0 down with five minutes to go of the semi-final in Atlanta but rallied and scored twice in quick succession <a href=\"https://www.theguardian.com/football/live/2026/jul/15/england-v-argentina-world-cup-2026-semi-final-live\">to reach a second straight World Cup final</a>, where they will face Spain in New Jersey on Sunday.</p> <a href=\"https://www.theguardian.com/football/2026/jul/15/malvinas-is-argentinian-world-cup-holders-celebrate-win-over-england-with-banner\">Continue reading...</a>"
+      },
+      "time": {
+        "asserted": "2026-07-18T04:08:20.053Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "politics",
+        "citation": "https://www.theguardian.com/football/2026/jul/15/malvinas-is-argentinian-world-cup-holders-celebrate-win-over-england-with-banner"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "published",
+      "proposition": {
+        "predicate": "published",
+        "object": "Thu, 16 Jul 2026 08:13:50 GMT"
+      },
+      "time": {
+        "asserted": "2026-07-18T04:08:20.053Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "politics",
+        "citation": "https://www.theguardian.com/football/2026/jul/15/malvinas-is-argentinian-world-cup-holders-celebrate-win-over-england-with-banner"
+      },
+      "status": "supported"
+    }
+  ]
+}

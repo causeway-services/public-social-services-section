@@ -1,0 +1,101 @@
+#+SETUPFILE: ./setup.inc
+#+begin_basic-config
+#+TITLE: The Celson Estate
+#+end_basic-config
+#+begin_export-options
+#+EXPORT_FILE_NAME: ../../pub/adventures/celson-estate
+#+end_export-options
+#+begin_macros
+#+MACRO: document-type adventure
+#+MACRO: adventure-inwhich the party gets a nobleman his house back
+#+MACRO: adventure-length two to four hours
+#+MACRO: adventure-question Why won't the local law help Celson?
+#+MACRO: adventure-year 80pc
+#+end_macros
+#+TOC: headlines 2 local
+* DRAFT Introduction
+  :PROPERTIES:
+  :CUSTOM_ID: introduction
+  :END:
+{{{document-isdraft}}}
+
+{{{adventure-brief}}}
+
+{{{adventure-written-for-bow}}}
+{{{adventure-has-character-templates}}}
+
+In the town of /Helmet's Dent/, a man named /Nash Celson/ is looking
+for help. Bandits have taken over the small castle that's been in his
+family for generations, and he wants it back.
+
+*/{{{adventure-question}}}/*
+
+{{{adventure-era(Reconstruction Era)}}}
+{{{teraum-reconstruction-era-definition}}}
+
+{{{document-hasproject}}}
+
+#+TOC: headlines 3 local
+* DRAFT The Celson Estate
+{{{adventure-narrator-warning}}}
+
+#+TOC: headlines 2 local
+** DRAFT Exposition
+  :PROPERTIES:
+  :CUSTOM_ID: exposition
+  :END:
+The castle is actually occupied by its rightful owners, the Culver family.
+
+Before beginning the session, your party should know:
+- ?
+*** DRAFT Settings
+   :PROPERTIES:
+   :CUSTOM_ID: settings
+   :END:
+- ?
+*** DRAFT Cast
+   :PROPERTIES:
+   :CUSTOM_ID: cast
+   :END:
+- ?
+** DRAFT The Plot
+  :PROPERTIES:
+  :CUSTOM_ID: the-plot
+  :END:
+#+TOC: headlines 1 local
+*** DRAFT Scene One: ?
+   :PROPERTIES:
+   :CUSTOM_ID: scene-one
+   :END:
+** DRAFT Epilogue
+  :PROPERTIES:
+  :CUSTOM_ID: epilogue
+  :END:
+* DRAFT Supplements
+#+TOC: headlines local 1
+** DRAFT Character Templates
+   :PROPERTIES:
+   :CUSTOM_ID: character-templates
+   :END:
+- ?
+** DRAFT Index
+   :PROPERTIES:
+   :CUSTOM_ID: dictionary
+   :END:
+- Celson, Nash :: {{{teraum-define-celson-nash}}}
+- Culver Family :: {{{teraum-define-culver-family}}}
+- Helmet's Dent :: {{{teraum-define-helmets-dent}}}
+- adventure :: A prepared story that a /narrator/ can guide the
+               /party/ through. See [[#abridged-rules]["Abridged Rules"]].
+- adventurer :: A member of the /party/, a character in the
+                /adventure/ that is controlled by a player. See
+                [[#abridged-rules]["Abridged Rules"]].
+- narrator :: The player responsible for starting and guiding an
+              /adventure/. See [[#abridged-rules]["Abridged Rules"]].
+- party :: The group of /adventurers/ going through a story. See
+           [[#abridged-rules]["Abridged Rules"]].
+** DRAFT Abridged Rules
+   :PROPERTIES:
+   :CUSTOM_ID: abridged-rules
+   :END:
+#+INCLUDE: "../../../../src/brave-old-world/index.org::#abridged-rules" :only-contents t

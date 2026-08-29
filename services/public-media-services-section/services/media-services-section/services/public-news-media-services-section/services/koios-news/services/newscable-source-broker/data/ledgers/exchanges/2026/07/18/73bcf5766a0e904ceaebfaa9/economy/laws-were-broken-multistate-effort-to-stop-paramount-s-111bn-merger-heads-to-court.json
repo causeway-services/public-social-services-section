@@ -1,0 +1,69 @@
+{
+  "subject": "laws-were-broken-multistate-effort-to-stop-paramount-s-111bn-merger-heads-to-court",
+  "claims": [
+    {
+      "id": "title",
+      "proposition": {
+        "predicate": "title",
+        "object": "‘Laws were broken’: multistate effort to stop Paramount’s $111bn merger heads to court"
+      },
+      "time": {
+        "asserted": "2026-07-18T07:51:39.430Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "economy",
+        "citation": "https://www.theguardian.com/media/2026/jul/17/paramount-warner-bros-merger"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "url",
+      "proposition": {
+        "predicate": "url",
+        "object": "https://www.theguardian.com/media/2026/jul/17/paramount-warner-bros-merger"
+      },
+      "time": {
+        "asserted": "2026-07-18T07:51:39.430Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "economy",
+        "citation": "https://www.theguardian.com/media/2026/jul/17/paramount-warner-bros-merger"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "summary",
+      "proposition": {
+        "predicate": "summary",
+        "object": "<p>Attorneys general from 12 states are suing to block the Paramount-Warner Bros deal they say violates antitrust law</p><p>A last-ditch effort to block the merger between Paramount Skydance and Warner Bros Discovery (WBD) is heading to court as 12 Democratic state attorneys general attempt to stop the $111bn deal they say violates antitrust law and reduces competition in both the film and cable television industries.</p><p>The lawsuit, which was <a href=\"https://www.theguardian.com/media/2026/jul/13/paramount-warner-bros-merger-lawsuit\">filed</a> on Monday, faces a crucial hearing on Friday to determine if a judge will temporarily pause the deal or allow it to continue toward approval. The merger <a href=\"https://www.theguardian.com/us-news/2026/jun/12/paramount-warner-bros-merger\">was already approved</a> by the Department of Justice in June.</p> <a href=\"https://www.theguardian.com/media/2026/jul/17/paramount-warner-bros-merger\">Continue reading...</a>"
+      },
+      "time": {
+        "asserted": "2026-07-18T07:51:39.430Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "economy",
+        "citation": "https://www.theguardian.com/media/2026/jul/17/paramount-warner-bros-merger"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "published",
+      "proposition": {
+        "predicate": "published",
+        "object": "Fri, 17 Jul 2026 11:00:06 GMT"
+      },
+      "time": {
+        "asserted": "2026-07-18T07:51:39.430Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "economy",
+        "citation": "https://www.theguardian.com/media/2026/jul/17/paramount-warner-bros-merger"
+      },
+      "status": "supported"
+    }
+  ]
+}

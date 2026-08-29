@@ -1,0 +1,24 @@
+{
+  "kind": "koios.management-contract",
+  "id": "koios-news/newsroom-learning-pulse/v1",
+  "customer": "koios-news/editor-in-chief",
+  "provider": "koios-news/publication-operations",
+  "demand": "Read Koios-owned assignment, circuit, editorial, provider, publication, attention, and revenue records through their ledger boundary and propose the next bounded newsroom move.",
+  "service": "src/management/newsroom-learning.mts#settleNewsroomLearningPulse",
+  "outputs": [
+    "a digest-bound reading for every observed assignment",
+    "one typed proposed move and rationale per reading",
+    "an append-only research-lessons act"
+  ],
+  "authority": "proposal-only",
+  "refusals": [
+    "invalid pulse identity or time",
+    "unadmitted filesystem authority",
+    "any request to publish, replay work, change provider routes, or amend law"
+  ],
+  "separations": [
+    "attention and revenue cannot supply factual warrant",
+    "provider refusal cannot be classified as bad output",
+    "a proposed standards amendment requires an Editor-in-Chief act before execution"
+  ]
+}

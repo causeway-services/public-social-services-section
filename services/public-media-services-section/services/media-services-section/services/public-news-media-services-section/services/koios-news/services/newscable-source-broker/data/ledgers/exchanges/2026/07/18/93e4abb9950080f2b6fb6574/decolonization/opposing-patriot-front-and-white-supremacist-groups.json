@@ -1,0 +1,69 @@
+{
+  "subject": "opposing-patriot-front-and-white-supremacist-groups",
+  "claims": [
+    {
+      "id": "title",
+      "proposition": {
+        "predicate": "title",
+        "object": "Opposing Patriot Front and White Supremacist Groups"
+      },
+      "time": {
+        "asserted": "2026-07-18T08:10:04.780Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "decolonization",
+        "citation": "https://www.blackagendareport.com/opposing-patriot-front-and-white-supremacist-groups"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "url",
+      "proposition": {
+        "predicate": "url",
+        "object": "https://www.blackagendareport.com/opposing-patriot-front-and-white-supremacist-groups"
+      },
+      "time": {
+        "asserted": "2026-07-18T08:10:04.780Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "decolonization",
+        "citation": "https://www.blackagendareport.com/opposing-patriot-front-and-white-supremacist-groups"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "summary",
+      "proposition": {
+        "predicate": "summary",
+        "object": "<span class=\"field field--name-title field--type-string field--label-hidden\">Opposing Patriot Front and White Supremacist Groups</span> <div class=\"field field--name-field-authors field--type-entity-reference field--label-above\"> <div class=\"field__label\">Authors</div> <div class=\"field__items\"> <div class=\"field__item\"><a href=\"https://www.blackagendareport.com/taxonomy/term/2425\" hreflang=\"en\">Black Agenda Radio with Margaret Kimberley</a></div> </div> </div> <span class=\"field field--name-uid field--type-entity-reference field--label-hidden\"><span>bareditors</span></span> <span class=\"field field--name-created field--type-created field--label-hidden\"><time datetime=\"2026-07-10T04:38:38+05:30\" title=\"Friday, July 10, 2026 - 04:38\" class=\"datetime\">Fri, 07/10/2026 - 04:38</time> </span> <div class=\"clearfix text-formatted field field--name-field-embed-link field--type-text-with-summary field--label-hidden field__item\"><p><iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/5wvsfMSpGJE?si=YjwPWq1QwfzESHgc\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" referrerpolicy=\"strict-origin-when-cross-origin\" allowfullscreen></iframe></p> </div> <div class=\"clearfix text-formatted field field--name-body field--type-text-with-summary field--label-hidden field__item\"><p>Daryle Lamont Jenkins is founder of <a href=\"https://onepeoplesproject.com/\" rel=\"nofollow\">One People’s Project</a>, which seeks to combat and expose right-wing, white supremacist groups and individuals. He joins us from New Brunswick, New Jersey, to discuss the group Patriot Front. They marched in Washington, D.C. on July 4 where they very famously traveled via public transportation. Who are the Patriot Front, and why should we be concerned about their public presence? Daryle provides analysis.<br>&nbsp;</p> </div> <div class=\"taxonomy__terms__container\"> <div class=\"taxonomy__term\"> <a href=\"https://www.blackagendareport.com/articlelist/US Politics\">US Politics</a> </div> </div> <div class=\"field field--name-tags1 field--type-entity-reference field--label-hidden field--items\"> <div class=\"field--item\"> <a href=\"https://www.blackagendareport.com/articles/white supremacy\">white supremacy</a> </div> <div class=\"field--item\"> <a href=\"https://www.blackagendareport.com/articles/White Supremacists\">White Supremacists</a> </div> <div class=\"field--item\"> <a href=\"https://www.blackagendareport.com/articles/Patriot Front\">Patriot Front</a> </div> <div class=\"field--item\"> <a href=\"https://www.blackagendareport.com/articles/Fascism\">Fascism</a> </div> <div class=\"field--item\"> <a href=\"https://www.blackagendareport.com/articles/Right wing\">Right wing</a> </div> </div>"
+      },
+      "time": {
+        "asserted": "2026-07-18T08:10:04.780Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "decolonization",
+        "citation": "https://www.blackagendareport.com/opposing-patriot-front-and-white-supremacist-groups"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "published",
+      "proposition": {
+        "predicate": "published",
+        "object": "Thu, 09 Jul 2026 23:08:38 +0000"
+      },
+      "time": {
+        "asserted": "2026-07-18T08:10:04.780Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "decolonization",
+        "citation": "https://www.blackagendareport.com/opposing-patriot-front-and-white-supremacist-groups"
+      },
+      "status": "supported"
+    }
+  ]
+}

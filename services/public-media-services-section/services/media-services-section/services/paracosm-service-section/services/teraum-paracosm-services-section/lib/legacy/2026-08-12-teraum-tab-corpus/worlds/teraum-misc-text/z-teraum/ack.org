@@ -1,0 +1,5 @@
+#+title: Ack
+#+date: [2020-12-23 Wed 18:48]
+
+#+name: definition
+*/[[file:ack.org][Ack]]/* is the largest human city in [[file:../teraum.org][Teraum]], and the de facto capital of their civilization.

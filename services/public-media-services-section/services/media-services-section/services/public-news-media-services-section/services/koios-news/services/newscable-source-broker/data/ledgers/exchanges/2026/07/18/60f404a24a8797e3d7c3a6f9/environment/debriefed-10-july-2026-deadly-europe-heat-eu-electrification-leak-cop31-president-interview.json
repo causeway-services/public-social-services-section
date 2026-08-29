@@ -1,0 +1,69 @@
+{
+  "subject": "debriefed-10-july-2026-deadly-europe-heat-eu-electrification-leak-cop31-president-interview",
+  "claims": [
+    {
+      "id": "title",
+      "proposition": {
+        "predicate": "title",
+        "object": "DeBriefed 10 July 2026: Deadly Europe heat | EU electrification leak | COP31 president interview"
+      },
+      "time": {
+        "asserted": "2026-07-18T08:15:51.891Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "environment",
+        "citation": "https://www.carbonbrief.org/debriefed-10-july-2026-deadly-europe-heat-eu-electrification-leak-cop31-president-interview/"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "url",
+      "proposition": {
+        "predicate": "url",
+        "object": "https://www.carbonbrief.org/debriefed-10-july-2026-deadly-europe-heat-eu-electrification-leak-cop31-president-interview/"
+      },
+      "time": {
+        "asserted": "2026-07-18T08:15:51.891Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "environment",
+        "citation": "https://www.carbonbrief.org/debriefed-10-july-2026-deadly-europe-heat-eu-electrification-leak-cop31-president-interview/"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "summary",
+      "proposition": {
+        "predicate": "summary",
+        "object": "Welcome to Carbon Brief’s DeBriefed. An essential guide to the week’s key developments relating to climate change. This week ‘Catastrophic’ climate impacts RECORD HEAT: Western Europe experienced its hottest June on record –&nbsp;some 3C above average&nbsp;– according to analysis covered by the Guardian . It said the finding came “as the UK enters its third heatwave of the year and wildfires ravage France and Spain”. Le Monde said 10,000 people had been evacuated due to wildfires in southern France. ‘EXCESS DEATHS’ : The June heatwave killed more than 2,700 people in France, according to a guest post analysis for Carbon Brief . Similar analysis for Germany said there had been more than 5,000 “excess deaths”, reported Bloomberg . Meanwhile, an ongoing heatwave in the US has killed at least 30 people, said USA Today . STORM TEST: Floods have killed 39 people in Guangxi province in southern China, said state-run newspaper China Daily . Scientists warned that climate change and the weather phenomenon El Niño are exposing China to “catastrophic storms” that will test its resilience in 2026, reported Reuters . The nation’s latest official climate report found that “extreme weather and climate events…have become more frequent and severe”, said China National Radio . Around the world EU ELECTRIFICATION: The European Commission is set to unveil a 2040 target for EU electrification on 17 July, reported Bloomberg . Citing a leaked draft, it said the plan would aim to cut oil use in half and gas use by two-thirds. PEAKING PLAN : China has published an “action plan” for peaking emissions during the 15th five-year plan period to 2030, reported Xinhua . It lists targets including “ new energy vehicles ” making up 30% of cars on the road by 2030, said Reuters . CLIMATE ‘FLAT EARTHER’ : The Trump administration has appointed Matthew Wielicki, described by Politico as a “climate critic”, to lead the office in charge of the US national climate assessment. Common Dreams quoted a scientist describing the move as “like putting a flat-earther in charge of NASA”. UGANDAN SUIT : A group of farmers from Uganda have launched a legal suit in London against the East African oil pipeline, according to Climate Home News . 23% The share of Irish electricity used by data centres in 2025, reported the Irish Times . 2% The share of global electricity used by data centres in the same year, according to Carbon Brief analysis of the Energy Institute statistical review . Latest climate research Meltwater from the western Himalayan glaciers will peak at around 2C of warming, before declining at higher warming levels | Environmental Research Letters Current coral restoration efforts may be unsuitable for temperate reefs, including those in the Mediterranean | Nature Ecology & Evolution People tend to underestimate the level of “broad public support” for climate action | Nature Climate Change (For more, see Carbon Brief’s in-depth daily summaries of the top climate news stories on Monday , Tuesday , Wednesday , Thursday and Friday .) Captured Carbon Brief explained – via eight facts – why air conditioning rates in some parts of Europe are relatively low, as the technology emerges as a new front in the global “culture war” over climate action. Analysis for the article illustrated that, in many parts of the world’s fastest-warming continent, air conditioning simply was not needed in the past. Spotlight COP31 president speaks to Carbon Brief on electrification This week, Carbon Brief interviews Murat Kurum, president-designate of the COP31 UN climate talks in November and Turkey’s minister of environment, urbanisation and climate change, on his target to boost global electrification. Carbon Brief: You recently launched a target for 35% of the world’s final energy to come from electricity by 2035. Where did this idea come from? Murat Kurum: The “35 by 35” target is grounded in technical data and based on the IEA [International Energy Agency] and IRENA [International Renewable Energy Agency] analysis of what is needed to keep [the 1.5C Paris Agreement target ] within reach. The level was not chosen politically. Rather, it reflects what the science and the energy modelling tell us is required. CB: Why do you think an electrification target is important right now? MK: The case for the target is urgent right now. The latest war in the Gulf has made energy diversification –&nbsp;and, in particular, renewable energy transition and electrification –&nbsp;a top global priority, because it is the surest and cleanest way to protect citizens around the world from high and volatile energy prices. At a time of real fragmentation in international relations, a single, shared target is needed to focus global efforts by aligning governments, businesses and investors behind a common benchmark and to send a clear market signal. COP31 president-designate Murat Kurum. Credit: Supplied by COP31 secretariat CB: Which countries are supporting this target so far? MK: The reaction so far has been extremely positive and, while we presented our target at the UN June climate meetings in Bonn , our earlier conversations with parties at both the Petersberg and Copenhagen climate dialogues paved the way for this launch. For example, the EU, UK, and Canada have welcomed the target, as have the Brazilian COP30 and Ethiopian COP32 presidencies. All have confirmed it will be central to discussions at COP31. This support has been reflected in the business community as well, with polling by the We Mean Business Coalition showing that 90% of businesses expect to have largely electrified their operations by 2035 and that 88% expect electrification will make their business more competitive. CB: How do you hope and expect to see this taken forward at the COP? Could it be in the formal COP outcomes, or part of the second global stocktake ? MK: We are now taking electrification forward as an “ action agenda ” initiative to bring actors together and drive progress. The action agenda and the [formal COP] negotiations are separate, but complementary, with different processes and thresholds, and it is too early to say what all countries might be able to agree in the negotiations. That is for parties to determine as the year progresses. We are focused and determined to use COP31 as a moment to spark a global conversation about electrification. CB: What are the key priorities for reaching the target? MK: The critical sectors for reaching the target are buildings, transport and industry, which together account for around 45% of global emissions. Financial support for the developing world and investment in grids and infrastructure is also crucial. The target also builds on COP28’s target to triple renewable energy capacity and seeks to take advantage of the tumbling cost of renewable power and other technologies critical to the energy transition. This is a journey that Turkey itself is taking ambitious steps on, including our plan to reach 120GW [gigawatts] of renewable capacity by 2035. Watch, read, listen HEATED: A Financial Times long read asked if Europe&nbsp;–&nbsp;the world’s fastest-warming continent&nbsp;– is “prepared for a world of extreme heat”. LITIGATED : The Outrage and Optimism podcast spoke to Prof Joana Setzer and Catherine Higham about the latest trends in climate litigation. ‘SHATTERED’ : Confidence in fossil-fuel exports via the strait of Hormuz has been “shattered”, wrote IEA chief Fatih Birol for Foreign Policy . Coming up 13-17 July: Meeting of open-ended working group on the Montreal Protocol , Bangkok, Thailand 13-24 July : International Seabed Authority Council , Kingston, Jamaica 16 July : International Energy Agency critical minerals outlook 2026 , online Pick of the jobs Wellcome Trust , head of policy – climate and health | Salary: £84,640-£105,800. Location: London Financial Times , senior reporter, Sustainable Views | Salary: Unknown. Location: London North Texas Public Broadcasting , climate, energy and environment reporter | Salary: $70,000-$78,000. Location: Fort Worth, Texas Energy & Climate Intelligence Unit , head of communications and engagement | Salary: £65,000-£70,000. Location: London DeBriefed is edited by Daisy Dunne. Please send any tips or feedback to debriefed@carbonbrief.org . This is an online version of Carbon Brief’s weekly DeBriefed email newsletter. Subscribe for free here. Debriefed 17 July 2026: UK ‘firewave’ | Fossil-fuelled heat deaths | London’s Natural History Museum spotlights climate DeBriefed | 17.07.26 DeBriefed 3 July 2026: US faces scorching Independence Day | Record ocean temperatures | Vietnam’s EV surge DeBriefed | 03.07.26 DeBriefed 26 June 2026: Heat records broken across Europe | London climate action week | Introducing ‘Project Cosmos’ DeBriefed | 26.06.26 DeBriefed 19 June 2026: Bonn talks end in ‘gridlock’ | Energy’s ‘new era’ | Oceans in climate negotiations DeBriefed | 19.06.26 jQuery(document).ready(function() { jQuery('.block-related-articles-slider-block_010352ff76bad78b8f5ff7b4b64543b6 .mh').matchHeight({ byRow: false }); }); The post DeBriefed 10 July 2026: Deadly Europe heat | EU electrification leak | COP31 president interview appeared first on Carbon Brief ."
+      },
+      "time": {
+        "asserted": "2026-07-18T08:15:51.891Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "environment",
+        "citation": "https://www.carbonbrief.org/debriefed-10-july-2026-deadly-europe-heat-eu-electrification-leak-cop31-president-interview/"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "published",
+      "proposition": {
+        "predicate": "published",
+        "object": "Fri, 10 Jul 2026 15:30:00 +0000"
+      },
+      "time": {
+        "asserted": "2026-07-18T08:15:51.891Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "environment",
+        "citation": "https://www.carbonbrief.org/debriefed-10-july-2026-deadly-europe-heat-eu-electrification-leak-cop31-president-interview/"
+      },
+      "status": "supported"
+    }
+  ]
+}

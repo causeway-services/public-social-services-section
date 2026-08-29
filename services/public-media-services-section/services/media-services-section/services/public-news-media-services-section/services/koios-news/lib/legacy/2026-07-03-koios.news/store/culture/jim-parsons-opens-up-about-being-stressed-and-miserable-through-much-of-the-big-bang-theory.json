@@ -1,0 +1,69 @@
+{
+  "subject": "jim-parsons-opens-up-about-being-stressed-and-miserable-through-much-of-the-big-bang-theory",
+  "claims": [
+    {
+      "id": "title",
+      "proposition": {
+        "predicate": "title",
+        "object": "Jim Parsons Opens Up About Being “Stressed” And “Miserable” Through Much Of ‘The Big Bang Theory’"
+      },
+      "time": {
+        "asserted": "2026-07-19T14:42:05.531Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "culture",
+        "citation": "https://deadline.com/2026/07/jim-parsons-big-bang-theory-titanique-1236997567/"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "url",
+      "proposition": {
+        "predicate": "url",
+        "object": "https://deadline.com/2026/07/jim-parsons-big-bang-theory-titanique-1236997567/"
+      },
+      "time": {
+        "asserted": "2026-07-19T14:42:05.531Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "culture",
+        "citation": "https://deadline.com/2026/07/jim-parsons-big-bang-theory-titanique-1236997567/"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "summary",
+      "proposition": {
+        "predicate": "summary",
+        "object": "Jim Parsons, who rose to fame on The Big Bang Theory and is currently appearing on Broadway in Titanique, is opening up about his mental health during the height of his sitcom fame and success. Appearing on the YouTube podcast All Out with Jon Dean (watch it below), Parsons spoke with the British host – […]"
+      },
+      "time": {
+        "asserted": "2026-07-19T14:42:05.531Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "culture",
+        "citation": "https://deadline.com/2026/07/jim-parsons-big-bang-theory-titanique-1236997567/"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "published",
+      "proposition": {
+        "predicate": "published",
+        "object": "Sat, 18 Jul 2026 18:36:00 +0000"
+      },
+      "time": {
+        "asserted": "2026-07-19T14:42:05.531Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "culture",
+        "citation": "https://deadline.com/2026/07/jim-parsons-big-bang-theory-titanique-1236997567/"
+      },
+      "status": "supported"
+    }
+  ]
+}

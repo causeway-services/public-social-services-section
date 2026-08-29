@@ -1,0 +1,69 @@
+{
+  "subject": "adam-lambert-looks-back-i-couldn-t-pass-up-on-joining-queen-even-if-the-fans-were-protective-of-freddie",
+  "claims": [
+    {
+      "id": "title",
+      "proposition": {
+        "predicate": "title",
+        "object": "Adam Lambert looks back: ‘I couldn’t pass up on joining Queen – even if the fans were protective of Freddie’"
+      },
+      "time": {
+        "asserted": "2026-07-19T14:42:05.531Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "culture",
+        "citation": "https://www.theguardian.com/lifeandstyle/2026/jul/19/adam-lambert-looks-back-queen-freddie-mercury"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "url",
+      "proposition": {
+        "predicate": "url",
+        "object": "https://www.theguardian.com/lifeandstyle/2026/jul/19/adam-lambert-looks-back-queen-freddie-mercury"
+      },
+      "time": {
+        "asserted": "2026-07-19T14:42:05.531Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "culture",
+        "citation": "https://www.theguardian.com/lifeandstyle/2026/jul/19/adam-lambert-looks-back-queen-freddie-mercury"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "summary",
+      "proposition": {
+        "predicate": "summary",
+        "object": "<p>The singer and actor on the edgy artists of his youth, a controversial 2009 kiss, and his relationship with Brian May and Roger Taylor</p><p>Born in Indianapolis in&nbsp;1982, actor and musician Adam Lambert rose to fame in 2009 as runner-up on the eighth season of American Idol. His second album, Trespassing, made history as the first No 1 on the Billboard 200 by an openly gay male artist. He went on to front Queen + Adam Lambert from 2012, made his Broadway debut in 2024 as the Emcee in Cabaret at the Kit Kat Club, and starred as Judas in Jesus Christ Superstar at the Hollywood Bowl in 2025. His sixth solo album, Adam, is out now. He performs at London’s Roundhouse on 21 July.</p><p><strong>This was my first professional headshot</strong>. When I was 12 I would spend a lot of time driving from San Diego to Los Angeles for auditions with my mum and my brother, who also wanted to act. That guy in the plaid shirt never booked a single job. My brother did, though. He was a far cuter, more photogenic kid than I was.</p> <a href=\"https://www.theguardian.com/lifeandstyle/2026/jul/19/adam-lambert-looks-back-queen-freddie-mercury\">Continue reading...</a>"
+      },
+      "time": {
+        "asserted": "2026-07-19T14:42:05.531Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "culture",
+        "citation": "https://www.theguardian.com/lifeandstyle/2026/jul/19/adam-lambert-looks-back-queen-freddie-mercury"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "published",
+      "proposition": {
+        "predicate": "published",
+        "object": "Sun, 19 Jul 2026 13:00:28 GMT"
+      },
+      "time": {
+        "asserted": "2026-07-19T14:42:05.531Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "culture",
+        "citation": "https://www.theguardian.com/lifeandstyle/2026/jul/19/adam-lambert-looks-back-queen-freddie-mercury"
+      },
+      "status": "supported"
+    }
+  ]
+}

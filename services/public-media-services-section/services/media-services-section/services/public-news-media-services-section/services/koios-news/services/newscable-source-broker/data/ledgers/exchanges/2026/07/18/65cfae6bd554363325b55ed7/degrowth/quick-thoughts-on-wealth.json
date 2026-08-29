@@ -1,0 +1,69 @@
+{
+  "subject": "quick-thoughts-on-wealth",
+  "claims": [
+    {
+      "id": "title",
+      "proposition": {
+        "predicate": "title",
+        "object": "Quick Thoughts on Wealth"
+      },
+      "time": {
+        "asserted": "2026-07-18T07:49:57.938Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "degrowth",
+        "citation": "https://rwer.wordpress.com/2026/06/22/quick-thoughts-on-wealth/"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "url",
+      "proposition": {
+        "predicate": "url",
+        "object": "https://rwer.wordpress.com/2026/06/22/quick-thoughts-on-wealth/"
+      },
+      "time": {
+        "asserted": "2026-07-18T07:49:57.938Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "degrowth",
+        "citation": "https://rwer.wordpress.com/2026/06/22/quick-thoughts-on-wealth/"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "summary",
+      "proposition": {
+        "predicate": "summary",
+        "object": "from Dean Baker Elon Musk’s trillion-dollar payday from the IPO of SpaceX has hugely amplified the public’s focus on extreme wealth inequality. Musk’s economic and political power is certainly something to be concerned about, but wealth can be a misleading focus. I have raised this point before; wealth can be a misleading measure on both […]"
+      },
+      "time": {
+        "asserted": "2026-07-18T07:49:57.938Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "degrowth",
+        "citation": "https://rwer.wordpress.com/2026/06/22/quick-thoughts-on-wealth/"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "published",
+      "proposition": {
+        "predicate": "published",
+        "object": "Mon, 22 Jun 2026 19:35:39 +0000"
+      },
+      "time": {
+        "asserted": "2026-07-18T07:49:57.938Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "degrowth",
+        "citation": "https://rwer.wordpress.com/2026/06/22/quick-thoughts-on-wealth/"
+      },
+      "status": "supported"
+    }
+  ]
+}

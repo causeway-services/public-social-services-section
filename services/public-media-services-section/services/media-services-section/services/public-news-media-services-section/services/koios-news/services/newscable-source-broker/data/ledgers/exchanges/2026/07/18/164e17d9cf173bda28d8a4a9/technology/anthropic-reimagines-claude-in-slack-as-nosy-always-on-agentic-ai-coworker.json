@@ -1,0 +1,69 @@
+{
+  "subject": "anthropic-reimagines-claude-in-slack-as-nosy-always-on-agentic-ai-coworker",
+  "claims": [
+    {
+      "id": "title",
+      "proposition": {
+        "predicate": "title",
+        "object": "Anthropic reimagines Claude in Slack as nosy, always-on agentic AI coworker"
+      },
+      "time": {
+        "asserted": "2026-07-18T08:37:41.516Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "technology",
+        "citation": "https://www.theregister.com/ai-and-ml/2026/06/23/anthropic-reimagines-claude-in-slack-as-nosy-always-on-agentic-ai-coworker/5260422"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "url",
+      "proposition": {
+        "predicate": "url",
+        "object": "https://www.theregister.com/ai-and-ml/2026/06/23/anthropic-reimagines-claude-in-slack-as-nosy-always-on-agentic-ai-coworker/5260422"
+      },
+      "time": {
+        "asserted": "2026-07-18T08:37:41.516Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "technology",
+        "citation": "https://www.theregister.com/ai-and-ml/2026/06/23/anthropic-reimagines-claude-in-slack-as-nosy-always-on-agentic-ai-coworker/5260422"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "summary",
+      "proposition": {
+        "predicate": "summary",
+        "object": "Anthropic is killing off its existing Claude in Slack app in favor of an always-on agentic alternative dubbed Claude Tag that will listen and learn from everything it’s given access to. Claude Tag can now join organizational Slack instances “as a team member,” according to Anthropic’s announcement, where it will have access to whatever channels domain administrators decide upon, as well as the tools, data, and codebases they contain. Anyone in a channel with Claude Tag can tag @Claude to delegate tasks to the bot, which will be able to perform a variety of actions and build context about its environment based on what flows through a channel. “We see Claude Tag as the beginning of an evolution of Claude Code,” Anthropic said. “It makes the model even more proactive, and it works better with a full team.” Anthropic further explained that it’s using Tag to write code (65 percent of the product team's code is apparently written by Tag) as well as “chase down product metrics and data, work through support tickets … [and] help find the root cause of tricky bugs.” Integrating Claude into Slack isn’t exactly new – there’s already an existing Slack connector app for Claude, but it’s being depreciated in favor of Tag. According to the Claude in Slack help page, the existing connector will leave service on August 3, and Enterprise and Teams customers are getting access to Tag beginning today, per Anthropic’s announcement. The persistence and contextual learning that Tag brings are its major changes over the prior Claude-Slack connector, according to Anthropic. Tag is shared across a channel, meaning that everyone who interacts with it in a particular space will interact with the same Claude as their coworkers, “more like interacting collaboratively with a teammate” instead of just getting one-off advice from a bot, according to Anthropic. As mentioned above, Claude Tag will also learn the longer it’s in a channel, meaning users won’t have to explain things to it every time they chat with it. A Claude Tag based in one channel can also learn from other channels and data sources, provided that it’s given permission to do so. Beyond that, Claude Tag can also take initiative to “keep you updated about whatever it thinks you might need to know” across channels and tools it has access to, as long as ambient behavior is toggled on. Anthropic says that it’s also able to schedule tasks for itself in order to autonomously pursue its own assignments “over hours or days.” Anthropic’s announcement said that its employees have found that feature particularly helpful, as instead of doing their own work “we now spend much more of our time delegating tasks to many Claudes in parallel,” which is supposed to sound like a good thing. Act now; free credits running out and you'll need 'em Administrators of Slack environments using the old Claude for Slack app have 30 days to opt in to the Tag migration. That said, Anthropic is still keen on keeping those user numbers up, so it’s offering a hefty volume of credits to anyone on an Enterprise or Teams plan with more than 10 total seats as long as they migrate before the credits expire on September 1. According to a support page, Enterprise customers who add Tag to Slack will get $25,000 worth of credits, while Teams customers will get $2,500. Those credits are only applicable to Tag usage in Slack, but not for direct messages with Claude, which are billed to individual seats. AI token use has recently become a hot topic, especially since Anthropic did away with bundled usage pricing in favor of metered pricing that has surprised many customers with large bills. It's not clear how far those Tab credits will stretch, and Anthropic didn't respond to questions for this story. It's also worth nothing that using Tag means handing business data over to an AI model that lives on Anthropic’s servers, so caveat emptor to anyone adding this agent to channels where sensitive info may be discussed and ingested for contextual learning. Then again, Slack is shunting potentially sensitive business data into the cloud too, and it’s not always safe with the Salesforce subsidiary, either. ®"
+      },
+      "time": {
+        "asserted": "2026-07-18T08:37:41.516Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "technology",
+        "citation": "https://www.theregister.com/ai-and-ml/2026/06/23/anthropic-reimagines-claude-in-slack-as-nosy-always-on-agentic-ai-coworker/5260422"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "published",
+      "proposition": {
+        "predicate": "published",
+        "object": "Tue, 23 Jun 2026 22:16:34 +0200"
+      },
+      "time": {
+        "asserted": "2026-07-18T08:37:41.516Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "technology",
+        "citation": "https://www.theregister.com/ai-and-ml/2026/06/23/anthropic-reimagines-claude-in-slack-as-nosy-always-on-agentic-ai-coworker/5260422"
+      },
+      "status": "supported"
+    }
+  ]
+}

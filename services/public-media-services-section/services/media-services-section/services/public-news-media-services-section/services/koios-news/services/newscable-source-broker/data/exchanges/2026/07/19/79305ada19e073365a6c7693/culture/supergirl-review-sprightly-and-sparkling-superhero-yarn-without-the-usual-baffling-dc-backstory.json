@@ -1,0 +1,69 @@
+{
+  "subject": "supergirl-review-sprightly-and-sparkling-superhero-yarn-without-the-usual-baffling-dc-backstory",
+  "claims": [
+    {
+      "id": "title",
+      "proposition": {
+        "predicate": "title",
+        "object": "Supergirl review – sprightly and sparkling superhero yarn without the usual baffling DC backstory"
+      },
+      "time": {
+        "asserted": "2026-07-19T15:04:21.677Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "culture",
+        "citation": "https://www.theguardian.com/film/2026/jun/24/supergirl-review-milly-alcock-eve-ridley"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "url",
+      "proposition": {
+        "predicate": "url",
+        "object": "https://www.theguardian.com/film/2026/jun/24/supergirl-review-milly-alcock-eve-ridley"
+      },
+      "time": {
+        "asserted": "2026-07-19T15:04:21.677Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "culture",
+        "citation": "https://www.theguardian.com/film/2026/jun/24/supergirl-review-milly-alcock-eve-ridley"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "summary",
+      "proposition": {
+        "predicate": "summary",
+        "object": "<p>Milly Alcock’s Supergirl joins with Eve Ridley’s Ruthye to fight an evil intergalactic human trafficker</p><p>The sexual politics of perceived female maturity has always been a problem in this particular set of superhero films. Quite why Kara Zor-El gets to be a “supergirl” while Kal-El gets to be a “superman”, despite not being that much older, is not obvious. Even that notorious wokester Friedrich Nietzsche went with the non-gender term “Übermensch”. The issue is in fact pre-emptively raised here in an early scene, but the dialogue breaks off without the question being explicitly resolved. Maybe there is a copyright issue. If our heroine really did have a title exactly corresponding to “Superman”, <a href=\"https://www.theguardian.com/books/2024/may/10/dame-shirley-conran-obituary\">the spirit of Shirley Conran</a> would no doubt angrily barge on to the screen with a phalanx of lawyers and a bag of defiantly unstuffed mushrooms.</p><p>Well, after her brief walk-on in <a href=\"https://www.theguardian.com/film/2025/jul/08/superman-review-david-corenswet-james-gunn\">last year’s muddled and boring Superman reboot feature</a>, Supergirl now gets a sprightlier and sparkier film of her own, with 26-year-old Australian actor Milly Alcock in the lead. Rising British comer Eve Ridley, as gutsy alien teen Ruthye Marye Knoll, joins forces with SG to avenge the death of her dad at the hands of the evil intergalactic human trafficker Krem of the Yellow Hills, an odious pirate who kidnaps women for breeding stock purposes, played with watchable relish by Matthias Schoenaerts. SG is after Krem, too, because he has taken her adorable dog Krypto, of all the appalling things (though sadly Krypto hasn’t yet got his own little cape). Meanwhile, Jason Momoa turns in a cheerfully cigar-smoking man-mountain performance as Lobo the bounty hunter, who is schooled by Ruthye in how to escape from prison – the movie’s one clear feminist moment.</p> <a href=\"https://www.theguardian.com/film/2026/jun/24/supergirl-review-milly-alcock-eve-ridley\">Continue reading...</a>"
+      },
+      "time": {
+        "asserted": "2026-07-19T15:04:21.677Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "culture",
+        "citation": "https://www.theguardian.com/film/2026/jun/24/supergirl-review-milly-alcock-eve-ridley"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "published",
+      "proposition": {
+        "predicate": "published",
+        "object": "Wed, 24 Jun 2026 16:00:49 GMT"
+      },
+      "time": {
+        "asserted": "2026-07-19T15:04:21.677Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "culture",
+        "citation": "https://www.theguardian.com/film/2026/jun/24/supergirl-review-milly-alcock-eve-ridley"
+      },
+      "status": "supported"
+    }
+  ]
+}

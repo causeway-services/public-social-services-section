@@ -1,0 +1,69 @@
+{
+  "subject": "as-the-uk-and-europe-battle-deadly-wildfires-what-lessons-can-australia-offer",
+  "claims": [
+    {
+      "id": "title",
+      "proposition": {
+        "predicate": "title",
+        "object": "As the UK and Europe battle deadly wildfires, what lessons can Australia offer?"
+      },
+      "time": {
+        "asserted": "2026-07-19T02:19:56.932Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "environment",
+        "citation": "https://www.theguardian.com/world/2026/jul/17/as-the-uk-and-europe-battle-deadly-wildfires-what-lessons-can-australia-offer"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "url",
+      "proposition": {
+        "predicate": "url",
+        "object": "https://www.theguardian.com/world/2026/jul/17/as-the-uk-and-europe-battle-deadly-wildfires-what-lessons-can-australia-offer"
+      },
+      "time": {
+        "asserted": "2026-07-19T02:19:56.932Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "environment",
+        "citation": "https://www.theguardian.com/world/2026/jul/17/as-the-uk-and-europe-battle-deadly-wildfires-what-lessons-can-australia-offer"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "summary",
+      "proposition": {
+        "predicate": "summary",
+        "object": "<p>Knowledge learned over more than a century in Australia is being tested by worsening fires. It’s a familiar narrative around the world</p><p>The violent hot red flames of deadly wildfires across the UK and Europe and scenes of panicked communities fleeing homes could not, at least geographically, be further away for Jan Harris.</p><p>But sitting in her new home at Reedy Swamp in rural New South Wales in Australia, the 67-year-old has found herself in tears.</p> <a href=\"https://www.theguardian.com/world/2026/jul/17/as-the-uk-and-europe-battle-deadly-wildfires-what-lessons-can-australia-offer\">Continue reading...</a>"
+      },
+      "time": {
+        "asserted": "2026-07-19T02:19:56.932Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "environment",
+        "citation": "https://www.theguardian.com/world/2026/jul/17/as-the-uk-and-europe-battle-deadly-wildfires-what-lessons-can-australia-offer"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "published",
+      "proposition": {
+        "predicate": "published",
+        "object": "Fri, 17 Jul 2026 04:00:58 GMT"
+      },
+      "time": {
+        "asserted": "2026-07-19T02:19:56.932Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "environment",
+        "citation": "https://www.theguardian.com/world/2026/jul/17/as-the-uk-and-europe-battle-deadly-wildfires-what-lessons-can-australia-offer"
+      },
+      "status": "supported"
+    }
+  ]
+}

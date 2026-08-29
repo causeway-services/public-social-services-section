@@ -1,0 +1,69 @@
+{
+  "subject": "jd-and-usha-vance-welcome-fourth-child",
+  "claims": [
+    {
+      "id": "title",
+      "proposition": {
+        "predicate": "title",
+        "object": "JD and Usha Vance Welcome Fourth Child"
+      },
+      "time": {
+        "asserted": "2026-07-19T23:38:19.674Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "politics",
+        "citation": "https://www.nytimes.com/2026/07/19/us/jd-usha-vance-baby.html"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "url",
+      "proposition": {
+        "predicate": "url",
+        "object": "https://www.nytimes.com/2026/07/19/us/jd-usha-vance-baby.html"
+      },
+      "time": {
+        "asserted": "2026-07-19T23:38:19.674Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "politics",
+        "citation": "https://www.nytimes.com/2026/07/19/us/jd-usha-vance-baby.html"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "summary",
+      "proposition": {
+        "predicate": "summary",
+        "object": "In a post on social media, Mr. Vance said his wife and their son, Alec Neel Vance, were “happy and healthy.”"
+      },
+      "time": {
+        "asserted": "2026-07-19T23:38:19.674Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "politics",
+        "citation": "https://www.nytimes.com/2026/07/19/us/jd-usha-vance-baby.html"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "published",
+      "proposition": {
+        "predicate": "published",
+        "object": "Sun, 19 Jul 2026 23:21:34 +0000"
+      },
+      "time": {
+        "asserted": "2026-07-19T23:38:19.674Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "politics",
+        "citation": "https://www.nytimes.com/2026/07/19/us/jd-usha-vance-baby.html"
+      },
+      "status": "supported"
+    }
+  ]
+}

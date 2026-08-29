@@ -1,0 +1,69 @@
+{
+  "subject": "jill-scott-review-joyous-phones-free-show-is-a-taste-of-how-all-concerts-should-be",
+  "claims": [
+    {
+      "id": "title",
+      "proposition": {
+        "predicate": "title",
+        "object": "Jill Scott review – joyous phones-free show is a taste of how all concerts should be"
+      },
+      "time": {
+        "asserted": "2026-07-18T08:37:53.578Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "culture",
+        "citation": "https://www.theguardian.com/music/2026/jul/17/jill-scott-concert-review"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "url",
+      "proposition": {
+        "predicate": "url",
+        "object": "https://www.theguardian.com/music/2026/jul/17/jill-scott-concert-review"
+      },
+      "time": {
+        "asserted": "2026-07-18T08:37:53.578Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "culture",
+        "citation": "https://www.theguardian.com/music/2026/jul/17/jill-scott-concert-review"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "summary",
+      "proposition": {
+        "predicate": "summary",
+        "object": "<p><strong>Kings Theatre, Brooklyn</strong></p><p>The queen of Philly soul is in phenomenal form in a saucy and effortlessly virtuosic show celebrating 26 years in music</p><p>At one point during her triumphant phones-free show at Brooklyn’s Kings Theater, <a href=\"https://www.theguardian.com/culture/2026/jan/22/jill-scott-interview-rnb-neo-soul-singer-actor\">Jill Scott</a> takes a moment to introduce Dwayne Wright, her bass player and co-musical director who is known to his friends, the queen of Philly soul informs the 3,000-strong audience, as the “pussy whisperer”. The crowd cracks up, but she’s not done. “I want you to close your ears and listen with your vagina,” she instructs, as Wright launches into a deep, toe-curling run on his instrument. “Kegel to the music!” she whoops. “You come to a Jill Scott concert and you become a virgin again.”</p><p>Perhaps Scott is emboldened by the no-phones policy tonight; ours were stashed in Yondr pouches upon entry à la recent <a href=\"https://www.theguardian.com/music/jack-white\">Jack White</a> and <a href=\"https://www.theguardian.com/music/phoebe-bridgers\">Phoebe Bridgers</a> concerts. But the emotionally attuned, pointedly political and proudly horny soul singer probably doesn’t need any help in getting loose. Despite my initial grumbles, the technology ban turns out to be an inspired decision in an evening that feels deeply connected, as if we’re at a summer block party hosted by the neighborhood’s most charismatic character.</p> <a href=\"https://www.theguardian.com/music/2026/jul/17/jill-scott-concert-review\">Continue reading...</a>"
+      },
+      "time": {
+        "asserted": "2026-07-18T08:37:53.578Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "culture",
+        "citation": "https://www.theguardian.com/music/2026/jul/17/jill-scott-concert-review"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "published",
+      "proposition": {
+        "predicate": "published",
+        "object": "Fri, 17 Jul 2026 16:09:31 GMT"
+      },
+      "time": {
+        "asserted": "2026-07-18T08:37:53.578Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "culture",
+        "citation": "https://www.theguardian.com/music/2026/jul/17/jill-scott-concert-review"
+      },
+      "status": "supported"
+    }
+  ]
+}

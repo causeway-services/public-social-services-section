@@ -1,0 +1,69 @@
+{
+  "subject": "why-did-energy-saving-tips-disappear-from-the-energy-department-website",
+  "claims": [
+    {
+      "id": "title",
+      "proposition": {
+        "predicate": "title",
+        "object": "Why did energy-saving tips disappear from the Energy Department website?"
+      },
+      "time": {
+        "asserted": "2026-07-18T08:37:35.059Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "environment",
+        "citation": "https://grist.org/politics/energy-department-saving-disappear-website/"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "url",
+      "proposition": {
+        "predicate": "url",
+        "object": "https://grist.org/politics/energy-department-saving-disappear-website/"
+      },
+      "time": {
+        "asserted": "2026-07-18T08:37:35.059Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "environment",
+        "citation": "https://grist.org/politics/energy-department-saving-disappear-website/"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "summary",
+      "proposition": {
+        "predicate": "summary",
+        "object": "If you wanted to save some money by learning how to check your home for air leaks, poor insulation, and power-hungry lightbulbs, the Department of Energy’s website was ready to help. And if you needed an expert, the site guided you to another page for help lining up a professional energy assessment, a well-established first step to cut utility bills and curb pollution at the same time.&nbsp; That is, until this summer, when both of those resources vanished from the agency’s site, each now redirecting to “Page not found.” They were taken down by July 3 , around the same time that the Department of Energy deleted more than 1,600 pages from the Energy Saver section of its site, gutting a resource for people looking to conserve energy and lower bills. “I can’t remember another time that, with DOE specifically, we’ve seen an entire domain go down the way that [it] has been reported on now,” said Izzy Pacenza, who monitors government websites for the Environmental Data and Governance Initiative. Over a 30-day span this summer, as swaths of the country suffered under heat waves , more than 300 of the webpages had received 160,000 page views, according to an analysis from The Guardian . The news coverage of the missing websites has focused on the disappearance of one recommendation in particular. Ahead of a heat wave that roasted New York City with 100-degree temperatures earlier this month, Mayor Zohran Mamdani asked businesses and residents to set their AC to 78 degrees to conserve energy, drawing the ire of Republicans who mocked the restrictions as “socialism.” Internet sleuths were quick to notice that similar guidance had vanished from the Department of Energy’s website, which used to direct people to keep their thermostat between 75 and 78 degrees . The timing suggested that the agency might have removed the pages as a rebuke to Mamdani’s advice. The purge looked suspiciously timed for another reason:&nbsp; On July 2, the Energy Department announced a proposed rule to make it harder for future administrations to approve energy efficiency standards for household appliances, saying it would “permanently end Green New Scam appliance mandates.” The move was part of the Trump administration’s broader attack on energy efficiency requirements . The Environmental Data and Governance Initiative has argued that Trump’s federal agencies tend to remove information from their websites related to regulatory changes they just announced, which limits access to information people could use to oppose agency proposals during the legally required public comment period. But the facts that would be most relevant here — the agency’s information about its Appliance and Equipment Standards Program — remain on the site , pointed out Andrew deLaski, the executive director of the Appliance Standards Awareness Project. “I haven’t seen things come down that are directly related to the appliance standards program,” he said. Read Next The plan to make climate science harder to erase Kate Yoder The Department of Energy did not respond to questions about why it removed the webpages. But the purge could be understood as part of a broader pattern of removing the most accessible, actionable public information about climate change from federal government websites. Last summer brought an abrupt end to the government website that hosted the National Climate Assessment, a series of congressionally mandated reports that broke down how climate change affects the regions where people live. Around the same time, Climate.gov, the widely used site that translated the National Oceanic and Atmospheric Administration’s research into easy-to-understand resources, vanished too. Energy Saver provided a similar service, distilling technical knowledge about conserving energy into advice for ordinary people: shopping for efficient appliances , installing “cool roofs,” and do-it-yourself guides to saving energy and money.&nbsp; “These things are seen as authoritative resources and tools given to us by the government for us to think about how climate change interacts with our daily lives,” Pacenza said. “And now that interaction, and that relationship, is being broken or interrupted.” This kind of consumer advice on how to save energy clashes with President Donald Trump’s “ energy dominance ” framing. The administration has promoted a narrative that energy use, powered by fossil fuels, “is a tenet of American values and of our identity,” Pacenza said. Telling people to be aware of their energy use is in tension with this narrative. Even if the DOE’s website purge wasn’t driven by Mamdani’s statements about conserving energy, a similar impulse may lie behind the decision. The debate over asking Americans to adjust their thermostats to save energy is actually decades old: During a fuel shortage in the summer of 1979, President Jimmy Carter required retail stores, restaurants, and other public and commercial buildings to keep the thermostat no warmer than 65 degrees in winter and no cooler than 78 degrees in summer (sound familiar?). President Ronald Reagan reversed those restrictions in 1981, calling them “an excessive regulatory burden.”&nbsp; In general, though, energy efficiency measures used to be in the realm of bipartisan agreement. Reagan went on to sign the National Appliance Energy Conservation Act of 1987 into law, establishing minimum efficiency standards for refrigerators, freezers, and other household equipment. But recent years have seen air conditioners, laundry machines, shower heads, and other items get roped into the culture wars . Republicans have argued that government efficiency standards interfere with “consumer choice” and have been undoing regulations passed by Democratic administrations. “This administration isn’t doing anything to improve efficiency standards — they’re only trying to go backwards,” deLaski said. This story was originally published by Grist with the headline Why did energy-saving tips disappear from the Energy Department website? on Jul 17, 2026."
+      },
+      "time": {
+        "asserted": "2026-07-18T08:37:35.059Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "environment",
+        "citation": "https://grist.org/politics/energy-department-saving-disappear-website/"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "published",
+      "proposition": {
+        "predicate": "published",
+        "object": "Fri, 17 Jul 2026 08:45:00 +0000"
+      },
+      "time": {
+        "asserted": "2026-07-18T08:37:35.059Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "environment",
+        "citation": "https://grist.org/politics/energy-department-saving-disappear-website/"
+      },
+      "status": "supported"
+    }
+  ]
+}

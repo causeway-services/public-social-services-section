@@ -1,0 +1,69 @@
+{
+  "subject": "top-30-from-half-a-million-world-cup-photos-why-i-love-these-the-most",
+  "claims": [
+    {
+      "id": "title",
+      "proposition": {
+        "predicate": "title",
+        "object": "Top 30: from half a million World Cup photos, why I love these the most"
+      },
+      "time": {
+        "asserted": "2026-07-20T09:48:52.778Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "sports",
+        "citation": "https://www.theguardian.com/football/ng-interactive/2026/jul/20/world-cup-2026-best-30-photographs-gallery"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "url",
+      "proposition": {
+        "predicate": "url",
+        "object": "https://www.theguardian.com/football/ng-interactive/2026/jul/20/world-cup-2026-best-30-photographs-gallery"
+      },
+      "time": {
+        "asserted": "2026-07-20T09:48:52.778Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "sports",
+        "citation": "https://www.theguardian.com/football/ng-interactive/2026/jul/20/world-cup-2026-best-30-photographs-gallery"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "summary",
+      "proposition": {
+        "predicate": "summary",
+        "object": "<p>Our picture editor chooses his favourite images from the tournament including Lionel Messi’s cathedral, <em>that</em> delicious diving header from Jude Bellingham and a humbling scene in Gaza</p><p>What makes a great World Cup photograph? Now there’s a question with myriad answers. Composition, newsworthiness, emotional resonance, expert timing and luck can all contribute to varying degrees. But one thing they all share is the power to capture attention.</p><p>On the Guardian sport picture desk, we have received more than 500,000 World Cup photographs over the past six weeks, with so many classics among them. Here, with much applause to the photographers who created them and a slight bias towards England, are my favourite images of the tournament.</p> <a href=\"https://www.theguardian.com/football/ng-interactive/2026/jul/20/world-cup-2026-best-30-photographs-gallery\">Continue reading...</a>"
+      },
+      "time": {
+        "asserted": "2026-07-20T09:48:52.778Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "sports",
+        "citation": "https://www.theguardian.com/football/ng-interactive/2026/jul/20/world-cup-2026-best-30-photographs-gallery"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "published",
+      "proposition": {
+        "predicate": "published",
+        "object": "Mon, 20 Jul 2026 07:00:49 GMT"
+      },
+      "time": {
+        "asserted": "2026-07-20T09:48:52.778Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "sports",
+        "citation": "https://www.theguardian.com/football/ng-interactive/2026/jul/20/world-cup-2026-best-30-photographs-gallery"
+      },
+      "status": "supported"
+    }
+  ]
+}

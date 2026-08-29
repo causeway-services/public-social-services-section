@@ -1,0 +1,69 @@
+{
+  "subject": "world-cup-var-controversies-show-why-human-referees-should-decide-where-potential-fouls-begin",
+  "claims": [
+    {
+      "id": "title",
+      "proposition": {
+        "predicate": "title",
+        "object": "World Cup VAR controversies show why human referees should decide where potential fouls begin"
+      },
+      "time": {
+        "asserted": "2026-07-19T15:04:15.228Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "decolonization",
+        "citation": "https://theconversation.com/world-cup-var-controversies-show-why-human-referees-should-decide-where-potential-fouls-begin-287676"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "url",
+      "proposition": {
+        "predicate": "url",
+        "object": "https://theconversation.com/world-cup-var-controversies-show-why-human-referees-should-decide-where-potential-fouls-begin-287676"
+      },
+      "time": {
+        "asserted": "2026-07-19T15:04:15.228Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "decolonization",
+        "citation": "https://theconversation.com/world-cup-var-controversies-show-why-human-referees-should-decide-where-potential-fouls-begin-287676"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "summary",
+      "proposition": {
+        "predicate": "summary",
+        "object": "<p>Two contested decisions at the 2026 World Cup <a href=\"https://www.reuters.com/sports/soccer/vargentina-reach-semi-finals-under-cloud-complaints-2026-07-13/\">have reignited debate</a> over how video assistant referee (VAR) reviews should work, and how far back a referee should look when deciding what counts as part of the same passage of play.</p> <p>VAR allows referees to review contentious incidents using replay footage, <a href=\"https://www.theifab.com/laws/latest/video-assistant-referee-var-protocol/\">with the human referee making the final decision</a>. It’s meant to catch “clear and obvious errors” or incidents that the on-field officials missed. A referee reviewing an incident must decide how far back in time the reviewable passage of play extends.</p> <p>A 2021 <a href=\"https://fis.dshs-koeln.de/en/publications/video-assistant-referees-var-the-impact-of-technology-on-decision/\">study of 2,195 competitive football matches across 13 countries</a> found referees got calls right 92.1 per cent of the time, rising to 98.3 per cent after a VAR intervention. </p> <p>But replay only supplies the evidence. It doesn’t supply interpretation, responsibility or a decision about how much of the play needs to be examined to establish appropriate context. That judgment falls to the referee. VAR’s effectiveness depends on referees interpreting the evidence within the incident’s interactions and its relevant context.</p> <p>As researchers <a href=\"https://digital.la84.org/digital/collection/p17103coll10/id/24101/\">who study the ethical implications of AI use in soccer</a>, we’ve found that two decisions from the 2026 tournament illustrate how difficult these boundary calls can be in practice.</p> <h2>Argentina’s overturned goal</h2> <p>In the round of 16 match between Argentina and Egypt, VAR overturned an Egyptian goal after reviewing an incident that occurred nearly a minute earlier.</p> <p>Egypt was leading 1-0 when Mostafa Ziko scored in the 58th minute to make it 2-0. VAR recommended an on-field review of Egypt’s Marwan Attia stepping on Argentina’s Lisandro Martínez’s foot <a href=\"https://observer.co.uk/news/national/article/red-cards-var-disallowed-goals-conspiracy-theories-thrive-at-the-world-cup\">17 seconds before the goal</a> and more than 80 metres from where it was scored. </p> <p>The referee reviewed the incident and cancelled the goal. Argentina came back to win the game 3-2. </p> <p>The integral question is whether that foot-stepping incident still counted as being connected to the goal a minute later, or whether play had moved on enough to be treated as over and done with.</p> <p><a href=\"https://inside.fifa.com/refereeing/news/pierluigi-collina-we-are-not-influenced\">FIFA, soccer’s governing body, says</a> an attacking phase in a game has no pre-set time or distance limit. </p> <p>Providing commentary on the situation, former referee <a href=\"https://www.theguardian.com/football/2026/jul/08/refereeing-world-cup-fine-input-tuchel-trump-comment\">Chris Foy argued the play should count as one continuous move</a> because the ball kept travelling forward. Another former referee, <a href=\"https://www.foxsports.com/stories/soccer/egypts-goal-vs-argentina-disallowed-after-var-check-not-why-var-brought-game\">Mark Clattenburg, disagreed</a>, arguing the distance covered and the time that had passed were enough to break the connection between the foul and the goal that followed.</p> <p>Egypt also appealed for a penalty late in the match, <a href=\"https://www.espn.com/soccer/story/_/id/49312344/pierluigi-collina-defends-egypt-argentina-referee-calls-send-home-world-cup\">after Mohamed Salah went down following contact with Julián Álvarez</a>, but it didn’t prompt an on-field review; <a href=\"https://inside.fifa.com/refereeing/news/pierluigi-collina-we-are-not-influenced\">FIFA said</a> the defender played the ball first before normal contact followed. </p> <p>Both decisions may be legally defensible, but their different treatment shows why officials should explain where their review began, why the earlier act remained relevant and why one incident reached the VAR monitor while the other did not.</p> <h2>Haaland push overturns Norway’s goal</h2> <p>A second case, from Norway’s World Cup quarterfinal against England, raises a similar question: does a VAR review apply before the ball is back in play? </p> <p>Torbjørn Heggem appeared to put Norway ahead in the 55th minute of the game, scoring on a rebound from a corner kick. </p> <p>But replays showed that as the corner was being delivered, Norway’s <a href=\"https://www.the-independent.com/sport/football/norway-england-goal-erling-haaland-foul-var-world-cup-b3013299.html\">Erling Haaland had extended both his arms and pushed England’s Elliot Anderson to the ground</a>. The two had been <a href=\"https://www.si.com/soccer/how-new-world-cup-rule-england-vs-norway-world-cup-quarterfinal\">jostling for position</a> prior to the moment of contact, and Haaland appeared to be reacting to Anderson.</p> <p>The ball was not yet in play when the push occurred, but officials judged it had a direct causal link to the goal that followed: Haaland remained involved as the ball arrived from the corner kick, which fell to Patrick Berg. His shot was saved by goalkeeper Jordan Pickford, and the rebound fell to Heggem, who scored.</p> <p>Under a World Cup clarification, an attacking offence before a restart of play <a href=\"https://www.theifab.com/news/the-ifab-clarifies-var-protocol-for-attacking-team-offences-before-the-ball-is-in/\">may be reviewed if it directly affects a goal</a>. After review, the goal was cancelled and the corner retaken. Norway lost the match 2-1 after extra time.</p> <p>Questions were nonetheless asked about when the review began, since it did not appear to include Anderson’s own physical duel with Haaland in the moments before the push. That earlier jostling does not necessarily mean Anderson provoked Haaland, but it is a reminder that the referee wasn’t reviewing an isolated fact off a VAR screen. </p> <p>Neither case necessarily proves the referees’ decisions wrong, but both show that defining the relevant incident remains part of human refereeing.</p> <h2>Where does an incident begin?</h2> <p>VAR’s core problem is, in fact, defining the event under review: how far it extends through time and across the pitch, and where the causal connection ends. This requires reading whether ball possession, player positions and opportunities to challenge still carry the effects of an earlier incident, or whether the game has moved on and reset. </p> <p>Too narrow a frame isolates an action from the broader context that makes it significant. Too broad a frame drags in remote events after a new phase of the game has begun. </p> <p>Footage is not self-explanatory. Referees and video officials choose duration, angle, speed and relevant interactions, turning play into a visual narrative of the game. This process can test the referee’s impression, but it can also shape what appears on screen as “the incident.”</p> <p>A <a href=\"https://doi.org/10.1186/s41235-018-0105-8\">study of 88 elite referees from five countries</a> found slow motion produced more severe sanctions than normal speed. An accurate slow-motion fragment can produce a contextually incomplete judgment when compared with the whole event.</p> <p>Consider two children, A and B, competing for a reward. A provokes B in ways a parent, C, doesn’t see. When B pushes A, C sees only the reaction. B is still responsible, but the fuller context can change how the act is understood.</p> <p>This is the test we suggest: could an omitted interaction change perceptions about what offence occurred, who was responsible or what consequences should follow? By that measure, reviews should end once possession, position and opportunities to challenge have been genuinely reset.</p> <h2>Making reviews fairer</h2> <p>We propose three changes to make VAR reviews clearer and fairer. </p> <p>First, the referee’s initial call on the field, including any decision to let play continue, should establish what actually needs reviewing. Second, the replay should be checked against that specific call. Third, the human referee should interpret what the replay shows using the relevant passage of play, <a href=\"https://www.theifab.com/laws-of-the-game-documents/?language=all&amp;year=2026%2F27\">FIFA’s official rules</a> and football’s shared norms for what counts as fair.</p> <p>Football’s law-making body <a href=\"https://www.theifab.com/laws/latest/video-assistant-referee-var-protocol/\">allows competitions to publish public VAR explanations</a>. To preserve match flow, FIFA should add a public post-match note for consequential reviews and checks, laying out the timing and distance of the incident, and the intervention threshold, including whether play continued or reset.</p> <p>Referees should also judge intensity at normal speed, and only use slow motion to confirm that contact happened, not to judge how hard it was. The technology should support human judgment, not replace it. The clarity of an isolated replay must never be mistaken for the completeness of a fair judgment, since only a human referee can supply that judgment.</p><img src=\"https://counter.theconversation.com/content/287676/count.gif\" alt=\"The Conversation\" width=\"1\" height=\"1\" /> <p class=\"fine-print\"><em><span>The authors do not work for, consult, own shares in or receive funding from any company or organisation that would benefit from this article, and have disclosed no relevant affiliations beyond their academic appointment.</span></em></p>"
+      },
+      "time": {
+        "asserted": "2026-07-19T15:04:15.228Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "decolonization",
+        "citation": "https://theconversation.com/world-cup-var-controversies-show-why-human-referees-should-decide-where-potential-fouls-begin-287676"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "published",
+      "proposition": {
+        "predicate": "published",
+        "object": "2026-07-16T21:22:02Z"
+      },
+      "time": {
+        "asserted": "2026-07-19T15:04:15.228Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "decolonization",
+        "citation": "https://theconversation.com/world-cup-var-controversies-show-why-human-referees-should-decide-where-potential-fouls-begin-287676"
+      },
+      "status": "supported"
+    }
+  ]
+}

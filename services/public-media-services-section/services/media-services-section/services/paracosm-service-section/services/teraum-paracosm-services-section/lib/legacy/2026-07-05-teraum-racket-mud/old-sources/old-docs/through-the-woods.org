@@ -1,0 +1,44 @@
+#+SETUPFILE: ./setup.inc
+#+TITLE: Through the Woods
+#+EXPORT_FILE_NAME: ../../pub/adventures/through-the-woods
+#+MACRO: adventure-inwhich the party brings food to grandma
+#+MACRO: adventure-length three to five hours
+#+MACRO: adventure-question What is grandma's sickness?
+#+MACRO: adventure-year 80pc
+#+MACRO: headlines 2 local
+* DRAFT Introduction
+  :PROPERTIES:
+  :CUSTOM_ID: introduction
+  :END:
+{{{document-isdraft}}}
+
+{{{adventure-brief}}}
+
+{{{adventure-written-for-bow}}}
+
+*/{{{adventure-question}}}/*
+
+{{{adventure-era(Reconstruction Era)}}}
+{{{teraum-define-reconstruction-era}}}
+
+{{{teraum-readmore}}}
+
+#+TOC: headlines 3 local
+* Through the Woods
+The party is in a small village, and overhears a married couple
+discussing how they don't want to send their daughter throughh the
+woods to bring her sickly grandma some food.
+
+The party goes through the woods to grandma's house, and upon
+arriving, finds a grandma with goatlike pupils, short horns, and a
+forked tongue.
+
+How to resolve? Her symptoms get worse as she turns into a bugbear,
+growing more violent.
+* Supplements
+** Index
+** DRAFT Abridged Rules
+   :PROPERTIES:
+   :CUSTOM_ID: abridged-rules
+   :END:
+#+INCLUDE: "../../../../src/brave-old-world/index.org::#abridged-rules" :only-contents t

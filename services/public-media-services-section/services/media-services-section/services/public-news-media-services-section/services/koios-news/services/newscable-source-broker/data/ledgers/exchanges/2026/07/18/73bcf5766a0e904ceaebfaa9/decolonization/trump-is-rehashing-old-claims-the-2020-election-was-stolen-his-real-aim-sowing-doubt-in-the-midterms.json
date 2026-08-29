@@ -1,0 +1,69 @@
+{
+  "subject": "trump-is-rehashing-old-claims-the-2020-election-was-stolen-his-real-aim-sowing-doubt-in-the-midterms",
+  "claims": [
+    {
+      "id": "title",
+      "proposition": {
+        "predicate": "title",
+        "object": "Trump is rehashing old claims the 2020 election was stolen. His real aim: sowing doubt in the midterms"
+      },
+      "time": {
+        "asserted": "2026-07-18T07:51:45.987Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "decolonization",
+        "citation": "https://theconversation.com/trump-is-rehashing-old-claims-the-2020-election-was-stolen-his-real-aim-sowing-doubt-in-the-midterms-287774"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "url",
+      "proposition": {
+        "predicate": "url",
+        "object": "https://theconversation.com/trump-is-rehashing-old-claims-the-2020-election-was-stolen-his-real-aim-sowing-doubt-in-the-midterms-287774"
+      },
+      "time": {
+        "asserted": "2026-07-18T07:51:45.987Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "decolonization",
+        "citation": "https://theconversation.com/trump-is-rehashing-old-claims-the-2020-election-was-stolen-his-real-aim-sowing-doubt-in-the-midterms-287774"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "summary",
+      "proposition": {
+        "predicate": "summary",
+        "object": "<p>US President Donald Trump has used a <a href=\"https://www.pbs.org/newshour/politics/watch-live-trump-to-address-nation-from-white-house\">rare nationwide prime-time address</a> to again claim the 2020 presidential election was stolen, US voting machines cannot be trusted, and a <a href=\"https://doi.org/10.1017/S1537592722000901\">“deep state” conspiracy</a> has covered it all up. </p> <p>However, the declassified documents the White House <a href=\"https://www.whitehouse.gov/election-integrity/\">released</a> alongside the speech do not support those claims.</p> <p>As such, Trump’s speech may matter less for what it says about the 2020 election than what it portends for November’s Congressional midterm elections, which could result in huge losses for his Republican Party.</p> <p>Critics say Trump is clearly <a href=\"https://thehill.com/homenews/administration/5973430-democrats-alarm-trump-election-fraud-claims/\">setting the stage</a> to delegitimise the vote, so he can contest the result if it doesn’t go his way.</p> <h2>Old claims, new packaging</h2> <p>Trump claimed his explosive allegations were backed up by a set of intelligence documents, which were newly declassified and posted on the <a href=\"https://www.whitehouse.gov/election-integrity/\">White House website</a>. </p> <p>Trump said these documents revealed foreign interference in the 2020 election, Chinese access to voter data, and a cover-up by “rogue bureaucrats”. He also claimed illegal ballots were manufactured for his opponent, Joe Biden, and that more than 278,000 non-citizens were enrolled to vote.</p> <p>Most of this is not new. Trump has made versions of these claims since his election defeat in 2020. More than <a href=\"https://campaignlegal.org/results-lawsuits-regarding-2020-elections\">60 courts have rejected</a> Trump’s claims of fraud in the election. Audits and recounts in contested states, including some run by Republicans, also confirmed the results. </p> <p>Trump’s own former attorney-general, Bill Barr, <a href=\"https://www.pbs.org/newshour/politics/barr-says-justice-department-found-no-evidence-of-fraud-that-would-change-election-outcome\">found no fraud</a> on a scale that could have changed the outcome, and his own cybersecurity agency called the election the “<a href=\"https://www.cisa.gov/news-events/news/joint-statement-elections-infrastructure-government-coordinating-council-election-infrastructure\">most secure</a>” in US history.</p> <p>In addition, the documents produced by the White House either <a href=\"https://www.washingtonpost.com/politics/2026/07/16/white-house-touts-trump-speech-democrats-warn-recycled-falsehoods/\">do not support</a> his claims or <a href=\"https://www.nytimes.com/2026/07/17/us/trump-speech-elections-takeaways.html\">sit at odds</a> with the speech.</p> <h2>What investigations have found</h2> <p>The official record is consistent. A <a href=\"https://www.dhs.gov/sites/default/files/2023-12/1_b_%20Memo%20DOJ%20and%20DHS%20Approved_508c.pdf\">joint report</a> by the Departments of Justice and Homeland Security found no evidence that any foreign government changed votes or blocked voting in the US in 2020 and 2022. </p> <p>A <a href=\"https://www.dni.gov/files/ODNI/documents/assessments/ICA-declass-16MAR21.pdf\">declassified intelligence assessment</a> in 2021 similarly found no sign that foreign actors touched any technical part of the voting process, including registration, ballots, counting or reporting.</p> <p>This assessment <a href=\"https://www.dni.gov/files/ODNI/documents/assessments/ICA-declass-16MAR21.pdf\">also concluded</a> Beijing did not actively interfere in the election. Even the one dissenting analyst in the report, whose “minority view” Trump’s speech presents as suppressed truth, agreed there was no evidence China interfered with US election systems. And, contrary to Trump’s view, that dissent was not “covered up”: it was published in the declassified assessment, alongside the majority analysis.</p> <p>What the newly declassified documents do show is that <a href=\"https://www.afr.com/world/north-america/election-security-nightmare-trump-says-china-hacked-voter-files-20260717-p60g1j\">China spied</a> on campaigns and collected voter data. But collecting data is not changing votes or interfering in the process, and much of that data is commercially available. Trump’s speech blurs the distinction.</p> <p>The claim about non-citizen voters follows a similar pattern: creating a false reality of widespread non-citizen voting fraud, when the real numbers are small and insignificant.</p> <p>A <a href=\"https://www.pbs.org/newshour/politics/critics-fear-a-midterm-purge-as-the-trump-administration-promotes-program-to-check-voter-eligibility\">Homeland Security program</a>, for example, has checked about 60 million voter registrations and flagged roughly <a href=\"https://www.votebeat.org/national/2026/06/29/trump-save-system-blocked-legal-ruling-noncitizen-voters/\">24,000 possible non-citizens</a>. This comes to about 0.04% of registered voters, a figure that shrinks further once false positives are removed. </p> <p>State reviews have also flagged insignificant numbers of naturalised and native-born citizens on voter rolls. Utah <a href=\"https://ltgovernor.utah.gov/wp-content/uploads/CITIZENSHIP-FULL-SUMMARY-2.pdf\">audited its entire roll</a> of more than two million voters over more than a year. After it found <a href=\"https://www.ksl.com/article/51503158/new-audit-finds-small-handful-of-noncitizens-on-utah-voter-rolls\">27 confirmed non-citizens</a> (about 0.001%), the Republican official who ran the audit said it showed no widespread problem.</p> <h2>The SAVE America Act would reshape who can vote</h2> <p>To address this issue, Trump urged Congress in his speech to pass the <a href=\"https://bipartisanpolicy.org/article/five-things-to-know-about-the-save-act/\">SAVE America Act</a>.</p> <p>The bill, which is currently <a href=\"https://www.americanprogress.org/article/the-save-act-may-be-stalled-in-congress-but-state-versions-are-being-advanced-all-across-the-country/\">stalled in the Senate</a>, would require every American to show proof of citizenship (usually a passport or birth certificate) in person to register to vote, plus photo ID to cast a ballot.</p> <p>While the bill is framed as an anti-fraud measure, <a href=\"https://papers.ssrn.com/sol3/papers.cfm?abstract_id=1084598\">electoral research</a> suggests its primary impact would be widespread disenfranchisement. </p> <p>There is direct evidence of this – a similar program has <a href=\"https://www.americanprogress.org/article/the-save-act-may-be-stalled-in-congress-but-state-versions-are-being-advanced-all-across-the-country/\">already been run at state level</a>. When Kansas required documentary proof of citizenship for voter enrolment, it blocked about <a href=\"https://bipartisanpolicy.org/article/five-things-to-know-about-the-save-act/\">31,000 eligible citizens</a> (12% of all applicants) from registering. Federal courts struck it down.</p> <p><a href=\"https://www.americanprogress.org/article/the-save-act-would-disenfranchise-millions-of-citizens/#:%7E:text=As%20many%20as%2069%20million%20women%20who,a%20birth%20certificate%20matching%20their%20legal%20name\">Research also shows</a> the costly administrative hurdles – the cost of applying for a passport, for instance – proposed in the SAVE America Act would considerably impact who can vote. </p> <p>This burden would be toughest on young, rural and low-income voters, who make up a substantial proportion of US voters.</p> <h2>What’s at stake in November</h2> <p>Research on elections and electoral integrity shows that what leaders say about fraud is more damaging than actual electoral fraud itself.</p> <p>Democracies depend on what political scientists call “<a href=\"https://doi.org/10.1007/s11109-025-10001-1\">losers’ consent</a>”: the willingness of the losing side to accept the results of free and fair elections. <a href=\"https://doi.org/10.1017/XPS.2021.18\">Studies</a> consistently find that when a candidate alleges fraud, <a href=\"https://doi.org/10.1177/10659129231206179\">trust falls sharply</a> among their supporters. Some research also points to <a href=\"https://doi.org/10.1007/s11109-024-09952-8\">demobilisation</a> and <a href=\"https://doi.org/10.71781/19800\">decreased turnout</a> among those who adhere to these claims.</p> <p>The claims keep working even after they are debunked. The supposed absence of evidence of voter fraud is treated as proof of a cover-up, not evidence of a system working as it should. </p> <p><a href=\"https://www.dhs.gov/sites/default/files/2023-12/1_b_%20Memo%20DOJ%20and%20DHS%20Approved_508c.pdf\">US intelligence agencies warned</a> of exactly this in 2020, cautioning that fabricated, hard-to-disprove claims about election processes could damage public confidence more than any real attack.</p> <p>The context surrounding Trump’s speech raises further concerns. </p> <p>A week ago, Trump <a href=\"https://www.votebeat.org/national/2026/07/13/trump-eac-voting-oversight-neutralize-election-assistance/\">removed the remaining members</a> of the Election Assistance Commission, the federal body that certifies voting machines and helps administer elections, leaving it unable to act. </p> <p>He has now directed his intelligence chief to investigate and charge the “rogue bureaucrats” behind the alleged cover-up of a rigged 2020 election. </p> <p>Asked whether Trump would accept November’s midterm results, his <a href=\"https://www.youtube.com/watch?v=gOSV_FBWMBI\">press secretary declined to answer</a>.</p> <p>For many, the combination of these moves – questioning the machines and voting processes, sidelining the agency that certifies them, threatening the officials who check the claims, and leaving open whether results will be accepted – point to a clear aim of delegitimising the upcoming elections.</p> <p>The clearest test will come in November. Will Trump’s claims of fraud follow the evidence, or follow the results?</p><img src=\"https://counter.theconversation.com/content/287774/count.gif\" alt=\"The Conversation\" width=\"1\" height=\"1\" /> <p class=\"fine-print\"><em><span>Jean-Nicolas Bordeleau does not work for, consult, own shares in or receive funding from any company or organisation that would benefit from this article, and has disclosed no relevant affiliations beyond their academic appointment.</span></em></p>"
+      },
+      "time": {
+        "asserted": "2026-07-18T07:51:45.987Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "decolonization",
+        "citation": "https://theconversation.com/trump-is-rehashing-old-claims-the-2020-election-was-stolen-his-real-aim-sowing-doubt-in-the-midterms-287774"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "published",
+      "proposition": {
+        "predicate": "published",
+        "object": "2026-07-17T06:54:42Z"
+      },
+      "time": {
+        "asserted": "2026-07-18T07:51:45.987Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "decolonization",
+        "citation": "https://theconversation.com/trump-is-rehashing-old-claims-the-2020-election-was-stolen-his-real-aim-sowing-doubt-in-the-midterms-287774"
+      },
+      "status": "supported"
+    }
+  ]
+}

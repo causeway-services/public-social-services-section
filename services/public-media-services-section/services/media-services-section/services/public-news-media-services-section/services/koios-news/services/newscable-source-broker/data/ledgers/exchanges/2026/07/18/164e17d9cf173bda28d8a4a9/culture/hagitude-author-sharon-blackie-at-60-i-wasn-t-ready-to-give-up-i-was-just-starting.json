@@ -1,0 +1,69 @@
+{
+  "subject": "hagitude-author-sharon-blackie-at-60-i-wasn-t-ready-to-give-up-i-was-just-starting",
+  "claims": [
+    {
+      "id": "title",
+      "proposition": {
+        "predicate": "title",
+        "object": "Hagitude author Sharon Blackie: ‘At 60 I wasn’t ready to give up, I was just starting’"
+      },
+      "time": {
+        "asserted": "2026-07-18T08:37:53.578Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "culture",
+        "citation": "https://www.theguardian.com/books/2026/jul/18/hagitude-author-sharon-blackie-at-60-i-wasnt-ready-to-give-up-i-was-just-starting"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "url",
+      "proposition": {
+        "predicate": "url",
+        "object": "https://www.theguardian.com/books/2026/jul/18/hagitude-author-sharon-blackie-at-60-i-wasnt-ready-to-give-up-i-was-just-starting"
+      },
+      "time": {
+        "asserted": "2026-07-18T08:37:53.578Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "culture",
+        "citation": "https://www.theguardian.com/books/2026/jul/18/hagitude-author-sharon-blackie-at-60-i-wasnt-ready-to-give-up-i-was-just-starting"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "summary",
+      "proposition": {
+        "predicate": "summary",
+        "object": "<p>The writer of cult hit If Women Rose Rooted is on a mission to bring folklore to modern readers. She talks about confronting her fears, communing with nature – and the power that comes with age</p><p>Like many of the wise women in her books, Sharon Blackie lives miles from anyone. Hers is the only house on the road winding through a valley deep in&nbsp;the Yorkshire Dales. The River Eden runs along the bottom of her&nbsp;garden, which overlooks the ruins of a castle built, as legend has it, by King Arthur’s father. The writer shares this romantic idyll with three border collies, six sheep, nine hens and her husband, David Knowles, a former RAF Tornado pilot.</p><p>It seems an appropriate setting for an author who is on a mission to bring fairytales to modern readers. Blackie runs <a href=\"https://nostos.institute/the-nostos-retreat/\">spiritual retreats and workshops</a> at the nearby Broughton Sanctuary and publishes a popular Substack called <a href=\"https://sharonblackie.substack.com/\">The Art of Enchantment</a>. Her books, including word-of-mouth hits such as <a href=\"https://sharonblackie.net/if-women-rose-rooted/\">If Women Rose Rooted</a> and <a href=\"https://www.thetimes.com/culture/books/article/hagitude-by-sharon-blackie-review-busting-the-menopause-myth-dl0n6bbjx?eafs_enabled=false\">Hagitude</a>, are a beguiling mix of memoir, mythology and eco-feminism – manifestos for a better way of&nbsp;living.</p> <a href=\"https://www.theguardian.com/books/2026/jul/18/hagitude-author-sharon-blackie-at-60-i-wasnt-ready-to-give-up-i-was-just-starting\">Continue reading...</a>"
+      },
+      "time": {
+        "asserted": "2026-07-18T08:37:53.578Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "culture",
+        "citation": "https://www.theguardian.com/books/2026/jul/18/hagitude-author-sharon-blackie-at-60-i-wasnt-ready-to-give-up-i-was-just-starting"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "published",
+      "proposition": {
+        "predicate": "published",
+        "object": "Sat, 18 Jul 2026 08:00:52 GMT"
+      },
+      "time": {
+        "asserted": "2026-07-18T08:37:53.578Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "culture",
+        "citation": "https://www.theguardian.com/books/2026/jul/18/hagitude-author-sharon-blackie-at-60-i-wasnt-ready-to-give-up-i-was-just-starting"
+      },
+      "status": "supported"
+    }
+  ]
+}

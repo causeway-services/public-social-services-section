@@ -1,0 +1,69 @@
+{
+  "subject": "targeted-tropical-forest-restoration-can-offset-deforestation-induced-water-flux-losses",
+  "claims": [
+    {
+      "id": "title",
+      "proposition": {
+        "predicate": "title",
+        "object": "Targeted tropical forest restoration can offset deforestation-induced water flux losses"
+      },
+      "time": {
+        "asserted": "2026-07-19T02:19:56.932Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "environment",
+        "citation": "https://www.nature.com/articles/s41558-026-02709-7"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "url",
+      "proposition": {
+        "predicate": "url",
+        "object": "https://www.nature.com/articles/s41558-026-02709-7"
+      },
+      "time": {
+        "asserted": "2026-07-19T02:19:56.932Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "environment",
+        "citation": "https://www.nature.com/articles/s41558-026-02709-7"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "summary",
+      "proposition": {
+        "predicate": "summary",
+        "object": "Nature Climate Change, Published online: 15 July 2026; doi:10.1038/s41558-026-02709-7 The authors demonstrate asymmetrical impacts of forest gain and loss on evapotranspiration and precipitation: gain increases the processes more than loss reduces them. They highlight a need to better consider hydrological asymmetry in climate models and in planning of forest-based climate solutions."
+      },
+      "time": {
+        "asserted": "2026-07-19T02:19:56.932Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "environment",
+        "citation": "https://www.nature.com/articles/s41558-026-02709-7"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "published",
+      "proposition": {
+        "predicate": "published",
+        "object": "2026-07-15"
+      },
+      "time": {
+        "asserted": "2026-07-19T02:19:56.932Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "environment",
+        "citation": "https://www.nature.com/articles/s41558-026-02709-7"
+      },
+      "status": "supported"
+    }
+  ]
+}

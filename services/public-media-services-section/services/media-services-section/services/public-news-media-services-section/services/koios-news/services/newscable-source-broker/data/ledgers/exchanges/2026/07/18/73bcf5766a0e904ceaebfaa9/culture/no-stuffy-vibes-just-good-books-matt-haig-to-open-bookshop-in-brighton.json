@@ -1,0 +1,69 @@
+{
+  "subject": "no-stuffy-vibes-just-good-books-matt-haig-to-open-bookshop-in-brighton",
+  "claims": [
+    {
+      "id": "title",
+      "proposition": {
+        "predicate": "title",
+        "object": "‘No stuffy vibes … just good books’: Matt Haig to open bookshop in Brighton"
+      },
+      "time": {
+        "asserted": "2026-07-18T07:51:51.266Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "culture",
+        "citation": "https://www.theguardian.com/books/2026/jul/17/matt-haig-bookshop-brighton"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "url",
+      "proposition": {
+        "predicate": "url",
+        "object": "https://www.theguardian.com/books/2026/jul/17/matt-haig-bookshop-brighton"
+      },
+      "time": {
+        "asserted": "2026-07-18T07:51:51.266Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "culture",
+        "citation": "https://www.theguardian.com/books/2026/jul/17/matt-haig-bookshop-brighton"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "summary",
+      "proposition": {
+        "predicate": "summary",
+        "object": "<p>‘My belief, as someone who grew up in a town without a bookshop, is that all communities should have one,’ says author of The Midnight Library</p><p>Matt Haig, the bestselling author of titles including <a href=\"https://www.theguardian.com/books/2020/aug/27/the-midnight-library-by-matt-haig-review-a-celebration-of-lifes-possibilities\">The Midnight Library</a> and <a href=\"https://www.theguardian.com/books/2016/jan/31/reasons-to-stay-alive-matt-haig-review-depression\">Reasons to Stay Alive</a>, is opening a bookshop in Brighton.</p><p>The writer plans to open the shop, called Golden, by Christmas. It is located in the Seven Dials neighbourhood, a part of the coastal city that doesn’t currently have a bookshop.</p> <a href=\"https://www.theguardian.com/books/2026/jul/17/matt-haig-bookshop-brighton\">Continue reading...</a>"
+      },
+      "time": {
+        "asserted": "2026-07-18T07:51:51.266Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "culture",
+        "citation": "https://www.theguardian.com/books/2026/jul/17/matt-haig-bookshop-brighton"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "published",
+      "proposition": {
+        "predicate": "published",
+        "object": "Fri, 17 Jul 2026 12:29:59 GMT"
+      },
+      "time": {
+        "asserted": "2026-07-18T07:51:51.266Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "culture",
+        "citation": "https://www.theguardian.com/books/2026/jul/17/matt-haig-bookshop-brighton"
+      },
+      "status": "supported"
+    }
+  ]
+}

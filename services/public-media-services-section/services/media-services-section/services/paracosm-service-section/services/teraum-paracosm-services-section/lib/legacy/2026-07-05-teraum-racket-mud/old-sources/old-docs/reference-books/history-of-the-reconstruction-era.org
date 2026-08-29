@@ -1,0 +1,18 @@
+#+SETUPFILE: ./setup.inc
+#+TITLE: History of the Reconstruction Era
+#+EXPORT_FILE_NAME: ../../pub/reference-books/history-of-the-reconstruction-era
+#+INDEX: Reconstruction Era!/History of the Reconstruction Era/
+* DRAFT Introduction
+* DRAFT History of the Reconstruction Era
+** DRAFT Winter 79pc
+*** DRAFT The Gloaming
+- /Idbol Brag/, a /goblin/, leads his clan out of the /Widewoods/ and
+  settles at /Jacob's Folly/, a small limestone tower in the
+  wilderness west of the small town of /Belcaer/.
+* DRAFT Supplements
+** DRAFT Index
+- Idbol Bark :: {{{teraum-define-bark-idbol}}}
+- goblins :: {{{teraum-define-goblins}}}
+- Widewoods :: {{{teraum-define-widewoods}}}
+- Jacob's Folly :: {{{teraum-define-jacobs-folly}}}
+- Belcaer :: {{{teraum-define-belcaer}}}

@@ -1,0 +1,132 @@
+{
+  "kind": "koios.editorial-product-commission-law",
+  "version": 1,
+  "invariants": [
+    "Audience demand, attention, advertising, and revenue may select and fund a commission; they never supply factual warrant.",
+    "Every factual commitment must remain within admitted source evidence regardless of product cost, length, or urgency.",
+    "Collapse awareness is an available editorial perspective, never a subject-admission condition or compulsory frame.",
+    "A shorter product narrows the promised reporting task; it never weakens attribution, correction, privacy, harm, or fabrication gates."
+  ],
+  "productProfiles": {
+    "service-utility": "service-brief/v1",
+    "entertainment-celebrity": "current-news-brief/v1",
+    "sports": "current-news-brief/v1",
+    "culture": "current-news-brief/v1",
+    "politics-power": "standard-news/v1",
+    "business-consumer": "standard-news/v1",
+    "technology-science": "standard-news/v1",
+    "environment": "standard-news/v1",
+    "investigations": "deep-report/v1"
+  },
+  "profiles": {
+    "service-brief/v1": {
+      "promise": "Answer one time-sensitive reader need accurately and directly from an authoritative source, with the operative date, eligibility, price, location, schedule, or action easy to find.",
+      "evidenceBudget": {
+        "targetWords": { "minimum": 300, "maximum": 650 },
+        "minimumDistinctAssertions": 4,
+        "minimumPrimaryAssertions": 3,
+        "minimumIndependentSources": 1,
+        "maximumWordsPerAssertion": 90,
+        "minimumSections": 1,
+        "sectionPurposes": [
+          "give the direct answer and identify who, what, where, and when it applies",
+          "explain the supported steps, exceptions, deadlines, costs, or unresolved status"
+        ]
+      },
+      "writerPromptLaws": [
+        "Lead with the answer or operative change; do not make the reader excavate it from an essay.",
+        "Use exact dates, jurisdictions, eligibility conditions, prices, schedules, and instructions only as the admitted source states them.",
+        "Distinguish a current rule from a proposal, forecast, rumor, or prior-year practice.",
+        "Do not pad a service answer with a generic systems meditation."
+      ]
+    },
+    "current-news-brief/v1": {
+      "promise": "Report one current public event quickly, engagingly, and in proportion to its stakes while preserving attribution, uncertainty, privacy, and correction readiness.",
+      "evidenceBudget": {
+        "targetWords": { "minimum": 300, "maximum": 650 },
+        "minimumDistinctAssertions": 4,
+        "minimumPrimaryAssertions": 2,
+        "minimumIndependentSources": 1,
+        "maximumWordsPerAssertion": 120,
+        "minimumSections": 1,
+        "sectionPurposes": [
+          "establish what happened, to whom, where, and when",
+          "supply the most useful confirmed context and response",
+          "close on the next supported date, decision, release, contest, or unresolved fact"
+        ]
+      },
+      "writerPromptLaws": [
+        "Be lively without laundering rumor into fact or manufacturing conflict, intimacy, scandal, or certainty.",
+        "Attribute claims about relationships, health, private conduct, wrongdoing, or disputed statements to the exact admitted source.",
+        "Do not confuse publicity material, fan speculation, anonymous social posts, and independent reporting.",
+        "Give the audience the promised factual payoff; curiosity may organize the headline but may not replace the answer."
+      ]
+    },
+    "standard-news/v1": {
+      "promise": "Report one consequential current development with corroboration, useful context, and visible attribution, while sizing the article to the evidence rather than manufacturing an essay.",
+      "evidenceBudget": {
+        "targetWords": { "minimum": 450, "maximum": 850 },
+        "minimumDistinctAssertions": 7,
+        "minimumPrimaryAssertions": 4,
+        "minimumIndependentSources": 2,
+        "maximumWordsPerAssertion": 100,
+        "minimumSections": 2,
+        "sectionPurposes": [
+          "establish what happened, who is responsible, where and when it occurred, and the immediate consequence",
+          "give the most useful corroborated context, response, disagreement, deadline, or next development"
+        ]
+      },
+      "writerPromptLaws": [
+        "Lead with the current development and its consequence; do not begin with a universal thesis or generic systems frame.",
+        "Separate established fact, attributed statement, allegation, estimate, interpretation, and unresolved uncertainty.",
+        "Use only as much background and analysis as the admitted evidence can advance without repetition.",
+        "Represent meaningful response or contrary evidence carried by the packet, and close on the next supported development rather than an abstract meditation."
+      ]
+    },
+    "reported-analysis/v2": {
+      "promise": "Explain one consequential current event through corroborated reporting, with interpretation visibly subordinate to the evidence.",
+      "evidenceBudget": {
+        "targetWords": { "minimum": 800, "maximum": 1100 },
+        "minimumDistinctAssertions": 15,
+        "minimumPrimaryAssertions": 10,
+        "minimumIndependentSources": 2,
+        "maximumWordsPerAssertion": 60,
+        "minimumSections": 3,
+        "sectionPurposes": [
+          "establish the reported event, actors, place, time, and present consequence",
+          "advance corroborated details, institutional context, disagreement, and response",
+          "explain only evidence-licensed implications and close on the decisive unresolved status"
+        ]
+      },
+      "writerPromptLaws": [
+        "The event and its people, institutions, places, dates, quantities, documents, and decisions remain the article's spine.",
+        "Separate established fact, source allegation, expert interpretation, Koios analysis, and unresolved uncertainty.",
+        "Represent meaningful contrary evidence or response carried by the packet.",
+        "Use systems interpretation only where the admitted evidence licenses the connection."
+      ]
+    },
+    "deep-report/v1": {
+      "promise": "Produce an original deep report or synthesis from multiple independent sources, primary records where available, contrary evidence, and explicit reporting gaps.",
+      "evidenceBudget": {
+        "targetWords": { "minimum": 1200, "maximum": 1800 },
+        "minimumDistinctAssertions": 22,
+        "minimumPrimaryAssertions": 12,
+        "minimumIndependentSources": 3,
+        "maximumWordsPerAssertion": 70,
+        "minimumSections": 4,
+        "sectionPurposes": [
+          "state the finding, event, or question and the evidence on which it rests",
+          "show the documentary chronology, mechanisms, and accountable actors",
+          "test the account against contrary evidence, limitations, and responses",
+          "explain supported consequences and identify the next unresolved reporting target"
+        ]
+      },
+      "writerPromptLaws": [
+        "Do not claim originality merely because Koios combined sources; identify what the reporting actually establishes.",
+        "Prefer primary records and direct evidence, preserve chronology, and expose evidentiary gaps.",
+        "Represent the subject's response or the documented effort to obtain it for consequential criticism.",
+        "A deep report may be long only because its evidence and analysis advance, never because its framing repeats."
+      ]
+    }
+  }
+}

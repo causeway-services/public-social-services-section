@@ -1,0 +1,43 @@
+{
+  "kind": "rendanheyi.venture-participation-contract",
+  "id": "koios.news/venture-participation/v1",
+  "venture": "urn:ame:koios.news",
+  "economicIdentity": {
+    "form": "market-micro-enterprise",
+    "externalUsers": "readers who choose Koios reporting and receive warranted, useful understanding",
+    "revenueCounterparties": "advertisers and other outside buyers who pay Koios for attributable publication value",
+    "internalMetabolismIsNotProduct": [
+      "publication-cycle",
+      "newsroom-pulse",
+      "source-cycle",
+      "editorial-review",
+      "static-delivery"
+    ]
+  },
+  "precondition": {
+    "id": "exact-at-risk-participation-bid",
+    "description": "The participant names Koios, an entrepreneurial role, an external-user outcome, outside revenue counterparties, non-secret resource contributions that are not valued at zero, a measured leading goal, symmetric downside, and a distribution rule."
+  },
+  "move": {
+    "id": "form-koios-venture-participation",
+    "description": "Koios admits one exact participation agreement on its own plate without treating the participant as a reader, advertiser, internal customer, or purchaser of Koios metabolism.",
+    "partial": true,
+    "effects": ["provider-local-write"]
+  },
+  "postcondition": {
+    "id": "participation-active-profit-unproven",
+    "description": "The participant's role, contributions, downside, and contingent distribution right are durable. No profit, value-added pool, or distribution is claimed until outside revenue and every attributable contribution and provider cost have settled."
+  },
+  "valueAdjustment": {
+    "upside": "only externally received value above the accepted target, attributable costs, provider obligations, and reserve can enter the participant's distribution basis",
+    "downside": "contributed resources are at risk; a miss creates no value-added distribution and may open the owner role to a successor bid",
+    "unknownIsNotZero": true,
+    "passiveEquityAloneEarns": false
+  },
+  "authority": {
+    "threeRightsBelongToKoiosOwner": ["decision", "personnel", "distribution"],
+    "leaderMovementTeamOwnsNoVentureRight": true,
+    "providersJoinOnlyByTheirOwnOffer": true,
+    "credentialsRemainWithCustodians": true
+  }
+}

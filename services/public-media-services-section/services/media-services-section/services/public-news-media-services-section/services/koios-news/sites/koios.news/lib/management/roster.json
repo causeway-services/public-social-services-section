@@ -1,0 +1,38 @@
+{
+  "kind": "koios.management-roster",
+  "node": "koios-news",
+  "offices": [
+    "lib/management/offices/source-desk.json",
+    "lib/management/offices/reporter.json",
+    "lib/management/offices/editor-in-chief.json",
+    "lib/management/offices/publication-operations.json"
+  ],
+  "duties": [
+    "lib/management/duties/settling-source-bundles.json",
+    "lib/management/duties/forming-a-reported-manuscript.json",
+    "lib/management/duties/judging-accountable-publication.json",
+    "lib/management/duties/delivering-static-publication.json",
+    "lib/management/duties/learning-from-newsroom-outcomes.json"
+  ],
+  "law": [
+    "lib/law/accountable-attention-and-publication.json",
+    "lib/law/publication-issue-policy.json",
+    "lib/law/reported-analysis-genre-contract.json",
+    "lib/law/public-record-carry-forward.json",
+    "lib/law/cloudflare-public-authority.json"
+  ],
+  "contracts": [
+    "content/contracts/publication-issue-pulse.json",
+    "lib/management/contracts/corpus-management-team-prior-research-recovery.json",
+    "lib/management/contracts/independent-editorial-assessment.json",
+    "lib/management/contracts/inference-market-writer-work.json",
+    "lib/management/contracts/newscable-source-bundles.json",
+    "lib/management/contracts/data-ledger-append.json",
+    "lib/management/contracts/a-ads-static-publication.json",
+    "lib/management/contracts/cloudflare-static-publication.json",
+    "lib/management/contracts/cloudflare-primary-static-release.json",
+    "lib/management/contracts/correction-publication.json",
+    "lib/management/contracts/newsroom-learning-pulse.json",
+    "lib/management/contracts/newsroom-repair-dispatcher.json"
+  ]
+}

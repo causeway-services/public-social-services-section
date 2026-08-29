@@ -1,0 +1,69 @@
+{
+  "subject": "wildfire-smoke-engulfs-toronto-as-unhealthy-air-reaches-new-york-video",
+  "claims": [
+    {
+      "id": "title",
+      "proposition": {
+        "predicate": "title",
+        "object": "Wildfire smoke engulfs Toronto as unhealthy air reaches New York - video"
+      },
+      "time": {
+        "asserted": "2026-07-18T08:15:51.891Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "environment",
+        "citation": "https://www.theguardian.com/world/video/2026/jul/16/wildfire-smoke-engulfs-toronto-as-unhealthy-air-reaches-new-york-video"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "url",
+      "proposition": {
+        "predicate": "url",
+        "object": "https://www.theguardian.com/world/video/2026/jul/16/wildfire-smoke-engulfs-toronto-as-unhealthy-air-reaches-new-york-video"
+      },
+      "time": {
+        "asserted": "2026-07-18T08:15:51.891Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "environment",
+        "citation": "https://www.theguardian.com/world/video/2026/jul/16/wildfire-smoke-engulfs-toronto-as-unhealthy-air-reaches-new-york-video"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "summary",
+      "proposition": {
+        "predicate": "summary",
+        "object": "<p>Smoke from more than 100 potential wildfires in northern Ontario have made Toronto’s air quality the current worst in the world and caused yellow, smoky air in cities across the north-east US. 'You could definitely smell the smoke in the air and it's very hazy out. So absolutely it's noticeable,' says Toronto resident Paula Oreskovich</p><p></p><ul><li><p><a href=\"https://www.theguardian.com/world/2026/jul/15/wildfires-in-ontario-make-toronto-canada-air-quality-worst-in-world\">Wildfires in Ontario make Toronto air quality worst in world</a></p></li><li><p><a href=\"https://www.theguardian.com/us-news/2026/jul/15/extreme-heat-warnings-us\">Extreme temperature warnings in place as ‘heat dome’ bakes US</a></p></li></ul> <a href=\"https://www.theguardian.com/world/video/2026/jul/16/wildfire-smoke-engulfs-toronto-as-unhealthy-air-reaches-new-york-video\">Continue reading...</a>"
+      },
+      "time": {
+        "asserted": "2026-07-18T08:15:51.891Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "environment",
+        "citation": "https://www.theguardian.com/world/video/2026/jul/16/wildfire-smoke-engulfs-toronto-as-unhealthy-air-reaches-new-york-video"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "published",
+      "proposition": {
+        "predicate": "published",
+        "object": "Thu, 16 Jul 2026 03:29:08 GMT"
+      },
+      "time": {
+        "asserted": "2026-07-18T08:15:51.891Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "environment",
+        "citation": "https://www.theguardian.com/world/video/2026/jul/16/wildfire-smoke-engulfs-toronto-as-unhealthy-air-reaches-new-york-video"
+      },
+      "status": "supported"
+    }
+  ]
+}

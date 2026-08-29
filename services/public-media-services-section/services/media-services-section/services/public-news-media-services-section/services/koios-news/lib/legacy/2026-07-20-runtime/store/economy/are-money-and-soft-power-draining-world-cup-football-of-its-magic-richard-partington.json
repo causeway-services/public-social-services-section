@@ -1,0 +1,69 @@
+{
+  "subject": "are-money-and-soft-power-draining-world-cup-football-of-its-magic-richard-partington",
+  "claims": [
+    {
+      "id": "title",
+      "proposition": {
+        "predicate": "title",
+        "object": "Are money and soft power draining World Cup football of its magic? | Richard Partington"
+      },
+      "time": {
+        "asserted": "2026-07-19T14:41:48.886Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "economy",
+        "citation": "https://www.theguardian.com/media/2026/jul/19/money-soft-power-draining-world-cup-football-magic-fifa"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "url",
+      "proposition": {
+        "predicate": "url",
+        "object": "https://www.theguardian.com/media/2026/jul/19/money-soft-power-draining-world-cup-football-magic-fifa"
+      },
+      "time": {
+        "asserted": "2026-07-19T14:41:48.886Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "economy",
+        "citation": "https://www.theguardian.com/media/2026/jul/19/money-soft-power-draining-world-cup-football-magic-fifa"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "summary",
+      "proposition": {
+        "predicate": "summary",
+        "object": "<p>Fifa’s orchestration of incompatible or frankly absurd corporate sponsorship suggests the balance may have tipped too far</p><p>It’s almost all over. No more hydration breaks, no more obligatory pans of the TV cameras to Hollywood A-listers, or dread of the crushing inevitability of English disappointment. The Fifa <a href=\"https://www.theguardian.com/football/world-cup-2026\">World Cup</a> 2026 is at an end, after another month of planet-straddling drama laced with significance and symbolism, both on and off the pitch.</p><p>Before the kick-off between Spain and Argentina on Sunday evening, the result is already clear: football’s greatest prize is more than a sporting event; it is a geopolitically charged economic juggernaut.</p> <a href=\"https://www.theguardian.com/media/2026/jul/19/money-soft-power-draining-world-cup-football-magic-fifa\">Continue reading...</a>"
+      },
+      "time": {
+        "asserted": "2026-07-19T14:41:48.886Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "economy",
+        "citation": "https://www.theguardian.com/media/2026/jul/19/money-soft-power-draining-world-cup-football-magic-fifa"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "published",
+      "proposition": {
+        "predicate": "published",
+        "object": "Sun, 19 Jul 2026 11:16:50 GMT"
+      },
+      "time": {
+        "asserted": "2026-07-19T14:41:48.886Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "economy",
+        "citation": "https://www.theguardian.com/media/2026/jul/19/money-soft-power-draining-world-cup-football-magic-fifa"
+      },
+      "status": "supported"
+    }
+  ]
+}

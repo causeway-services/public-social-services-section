@@ -1,0 +1,69 @@
+{
+  "subject": "huge-search-operation-after-passenger-ferry-sinks-off-coast-of-guyana",
+  "claims": [
+    {
+      "id": "title",
+      "proposition": {
+        "predicate": "title",
+        "object": "Huge search operation after passenger ferry sinks off coast of Guyana"
+      },
+      "time": {
+        "asserted": "2026-07-20T03:57:56.653Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "politics",
+        "citation": "https://www.theguardian.com/world/2026/jul/19/dozens-missing-after-passenger-ferry-sinks-off-coast-of-guyana"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "url",
+      "proposition": {
+        "predicate": "url",
+        "object": "https://www.theguardian.com/world/2026/jul/19/dozens-missing-after-passenger-ferry-sinks-off-coast-of-guyana"
+      },
+      "time": {
+        "asserted": "2026-07-20T03:57:56.653Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "politics",
+        "citation": "https://www.theguardian.com/world/2026/jul/19/dozens-missing-after-passenger-ferry-sinks-off-coast-of-guyana"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "summary",
+      "proposition": {
+        "predicate": "summary",
+        "object": "<p>Authorities launch criminal investigation after passenger list – showing more than 100 passengers – was found to be inaccurate, complicating rescue efforts</p><p>A massive search-and-rescue operation is under way after a ferry sank ⁠off the coast of <a href=\"https://www.theguardian.com/world/guyana\">Guyana</a> in South America ⁠late on Saturday, in what has been described by officials as one of the country’s worst maritime disasters.</p><p>Authorities launched a criminal investigation after a government official said the captain and a crew member of the ferry allegedly tested positive for marijuana and the vessel’s passenger manifest was found to be inaccurate.</p> <a href=\"https://www.theguardian.com/world/2026/jul/19/dozens-missing-after-passenger-ferry-sinks-off-coast-of-guyana\">Continue reading...</a>"
+      },
+      "time": {
+        "asserted": "2026-07-20T03:57:56.653Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "politics",
+        "citation": "https://www.theguardian.com/world/2026/jul/19/dozens-missing-after-passenger-ferry-sinks-off-coast-of-guyana"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "published",
+      "proposition": {
+        "predicate": "published",
+        "object": "Mon, 20 Jul 2026 03:54:52 GMT"
+      },
+      "time": {
+        "asserted": "2026-07-20T03:57:56.653Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "politics",
+        "citation": "https://www.theguardian.com/world/2026/jul/19/dozens-missing-after-passenger-ferry-sinks-off-coast-of-guyana"
+      },
+      "status": "supported"
+    }
+  ]
+}

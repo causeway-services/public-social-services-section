@@ -1,0 +1,69 @@
+{
+  "subject": "tasmania-devils-sign-ken-hinkley-as-first-afl-coach-in-five-year-deal",
+  "claims": [
+    {
+      "id": "title",
+      "proposition": {
+        "predicate": "title",
+        "object": "Tasmania Devils sign Ken Hinkley as first AFL coach in five-year deal"
+      },
+      "time": {
+        "asserted": "2026-07-20T02:45:11.445Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "sports",
+        "citation": "https://www.theguardian.com/sport/2026/jul/20/ken-hinkley-coach-tasmania-devils-afl"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "url",
+      "proposition": {
+        "predicate": "url",
+        "object": "https://www.theguardian.com/sport/2026/jul/20/ken-hinkley-coach-tasmania-devils-afl"
+      },
+      "time": {
+        "asserted": "2026-07-20T02:45:11.445Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "sports",
+        "citation": "https://www.theguardian.com/sport/2026/jul/20/ken-hinkley-coach-tasmania-devils-afl"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "summary",
+      "proposition": {
+        "predicate": "summary",
+        "object": "<ul><li><p>Former Port Adelaide coach will prepare club for 2028 entry</p></li><li><p>Nathan Buckley and John Longmire overlooked for role</p></li></ul><p>Ken Hinkley has been officially named as the Tasmania Devils’ inaugural AFL coach, less than 12 months after being <a href=\"https://www.theguardian.com/sport/2025/aug/20/from-the-pocket-ken-hinkleys-farewell-tour-ends-with-results-clouding-whether-his-reign-was-a-success\">moved on from Port Adelaide</a>.</p><p>The league’s newest expansion franchise, who will enter the competition in 2028, announced on Monday that the 59-year-old had signed a five-year deal.</p> <a href=\"https://www.theguardian.com/sport/2026/jul/20/ken-hinkley-coach-tasmania-devils-afl\">Continue reading...</a>"
+      },
+      "time": {
+        "asserted": "2026-07-20T02:45:11.445Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "sports",
+        "citation": "https://www.theguardian.com/sport/2026/jul/20/ken-hinkley-coach-tasmania-devils-afl"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "published",
+      "proposition": {
+        "predicate": "published",
+        "object": "Mon, 20 Jul 2026 02:24:29 GMT"
+      },
+      "time": {
+        "asserted": "2026-07-20T02:45:11.445Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "sports",
+        "citation": "https://www.theguardian.com/sport/2026/jul/20/ken-hinkley-coach-tasmania-devils-afl"
+      },
+      "status": "supported"
+    }
+  ]
+}

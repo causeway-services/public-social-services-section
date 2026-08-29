@@ -1,0 +1,69 @@
+{
+  "subject": "there-is-a-way-to-dress-for-the-office-in-a-heatwave-but-leave-the-paul-mescal-short-shorts-at-home-chloe-mac-donnell",
+  "claims": [
+    {
+      "id": "title",
+      "proposition": {
+        "predicate": "title",
+        "object": "There is a way to dress for the office in a heatwave – but leave the Paul Mescal short shorts at home | Chloe Mac Donnell"
+      },
+      "time": {
+        "asserted": "2026-07-18T08:15:51.891Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "environment",
+        "citation": "https://www.theguardian.com/commentisfree/2026/jul/13/dress-office-heatwave-shorts-fabrics-beach"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "url",
+      "proposition": {
+        "predicate": "url",
+        "object": "https://www.theguardian.com/commentisfree/2026/jul/13/dress-office-heatwave-shorts-fabrics-beach"
+      },
+      "time": {
+        "asserted": "2026-07-18T08:15:51.891Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "environment",
+        "citation": "https://www.theguardian.com/commentisfree/2026/jul/13/dress-office-heatwave-shorts-fabrics-beach"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "summary",
+      "proposition": {
+        "predicate": "summary",
+        "object": "<p>Breathable fabrics and loose cuts are in. It’s possible to beat the heat without dressing like you’re off to the beach or the lido</p><p>Never mind weddings or job interviews. When it comes to getting dressed, the past few weeks have confirmed that the biggest challenge is what to wear to the office during a heatwave. I write this as <a href=\"https://www.theguardian.com/environment/2026/jul/09/uk-swelters-third-heatwave-western-europe-counts-cost-hottest-ever-june\">Europe is grappling with record-breaking temperatures</a> due to the climate crisis. In the UK, fire brigades have issued <a href=\"https://www.theguardian.com/uk-news/2025/jun/16/heatwave-wildfire-risk-london\">wildfire alerts</a>, with temperatures reaching <a href=\"https://www.theguardian.com/world/live/2026/jun/25/europe-heatwave-uk-italy-france-record-temperature-latest-news-updates\">more than 36C</a>. My street now resembles an art installation, with varying colours and patterns of bed sheets taped to windows in the battle against the heat. The corner shop has pivoted to selling fans. And everyone is lingering just that little bit longer in the freezer aisle.</p><p>Given the somewhat apocalyptic conditions, getting dressed to go to the office is the last thing anyone wants to think about, mainly because it feels wrong to be working. But for those of us who haven’t timed our annual leave to coincide with the heatwave peak, it’s off to work we go.</p> <a href=\"https://www.theguardian.com/commentisfree/2026/jul/13/dress-office-heatwave-shorts-fabrics-beach\">Continue reading...</a>"
+      },
+      "time": {
+        "asserted": "2026-07-18T08:15:51.891Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "environment",
+        "citation": "https://www.theguardian.com/commentisfree/2026/jul/13/dress-office-heatwave-shorts-fabrics-beach"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "published",
+      "proposition": {
+        "predicate": "published",
+        "object": "Mon, 13 Jul 2026 07:00:40 GMT"
+      },
+      "time": {
+        "asserted": "2026-07-18T08:15:51.891Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "environment",
+        "citation": "https://www.theguardian.com/commentisfree/2026/jul/13/dress-office-heatwave-shorts-fabrics-beach"
+      },
+      "status": "supported"
+    }
+  ]
+}

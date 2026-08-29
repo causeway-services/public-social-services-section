@@ -1,0 +1,69 @@
+{
+  "subject": "afraid-of-nothing-how-argentina-s-players-drew-on-childhood-inspiration-to-reach-the-final",
+  "claims": [
+    {
+      "id": "title",
+      "proposition": {
+        "predicate": "title",
+        "object": "‘Afraid of nothing’: how Argentina’s players drew on childhood inspiration to reach the final"
+      },
+      "time": {
+        "asserted": "2026-07-19T15:58:02.610Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "sports",
+        "citation": "https://www.theguardian.com/football/2026/jul/19/afraid-of-nothing-argentina-players-childhood-world-cup-final"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "url",
+      "proposition": {
+        "predicate": "url",
+        "object": "https://www.theguardian.com/football/2026/jul/19/afraid-of-nothing-argentina-players-childhood-world-cup-final"
+      },
+      "time": {
+        "asserted": "2026-07-19T15:58:02.610Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "sports",
+        "citation": "https://www.theguardian.com/football/2026/jul/19/afraid-of-nothing-argentina-players-childhood-world-cup-final"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "summary",
+      "proposition": {
+        "predicate": "summary",
+        "object": "<p>Lionel Scaloni says he has a squad full of fighters – wild and unruly – but on the pitch they play with a freedom reminiscent of eight- or nine-year olds</p><p>After scoring the goal that <a href=\"https://www.theguardian.com/football/2026/jul/15/england-argentina-world-cup-semi-final-match-report\">secured Argentina’s place in the World Cup final</a>, Lautaro Martínez burst into convulsive sobs during the touchline interview. He spoke of the first pair of trainers his father bought him and of how his mother kept making his bed when he moved to a club pension house in another city as a teenager. <a href=\"https://www.goal.com/en-gb/lists/can-t-stop-crying-lautaro-martinez-breaks-down-in-live-tv-interview-after-argentina-s-world-cup-semi-final-win-over-england/blt782af970bf4c7132\">Every single day.</a> Martínez said that mattered to him more than any goal, any cup.</p><p><a href=\"https://www.theguardian.com/football/2026/jul/14/lionel-scaloni-messi-argentina-england-world-cup-hero\">Argentina’s head coach, Lionel Scaloni</a>, said he was a bit worried after England’s goal but never stopped believing in his players. “They grew up in environments where they were afraid of nothing, in which they’ve always been the best at what they do,” he said. “As small children they competed and everyone expected so much of them; responsibility doesn’t weigh them down.”</p> <a href=\"https://www.theguardian.com/football/2026/jul/19/afraid-of-nothing-argentina-players-childhood-world-cup-final\">Continue reading...</a>"
+      },
+      "time": {
+        "asserted": "2026-07-19T15:58:02.610Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "sports",
+        "citation": "https://www.theguardian.com/football/2026/jul/19/afraid-of-nothing-argentina-players-childhood-world-cup-final"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "published",
+      "proposition": {
+        "predicate": "published",
+        "object": "Sun, 19 Jul 2026 10:04:33 GMT"
+      },
+      "time": {
+        "asserted": "2026-07-19T15:58:02.610Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "sports",
+        "citation": "https://www.theguardian.com/football/2026/jul/19/afraid-of-nothing-argentina-players-childhood-world-cup-final"
+      },
+      "status": "supported"
+    }
+  ]
+}

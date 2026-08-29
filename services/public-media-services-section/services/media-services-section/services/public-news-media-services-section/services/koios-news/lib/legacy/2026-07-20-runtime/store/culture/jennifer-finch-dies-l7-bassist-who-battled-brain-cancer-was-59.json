@@ -1,0 +1,69 @@
+{
+  "subject": "jennifer-finch-dies-l7-bassist-who-battled-brain-cancer-was-59",
+  "claims": [
+    {
+      "id": "title",
+      "proposition": {
+        "predicate": "title",
+        "object": "Jennifer Finch Dies: L7 Bassist Who Battled Brain Cancer Was 59"
+      },
+      "time": {
+        "asserted": "2026-07-20T03:18:27.397Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "culture",
+        "citation": "https://deadline.com/2026/07/jennifer-finch-dead-l7-bassist-1236998168/"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "url",
+      "proposition": {
+        "predicate": "url",
+        "object": "https://deadline.com/2026/07/jennifer-finch-dead-l7-bassist-1236998168/"
+      },
+      "time": {
+        "asserted": "2026-07-20T03:18:27.397Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "culture",
+        "citation": "https://deadline.com/2026/07/jennifer-finch-dead-l7-bassist-1236998168/"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "summary",
+      "proposition": {
+        "predicate": "summary",
+        "object": "Jennifer Finch, the powerhouse bassist of L7 during the band’s creative peak in the 1990s, has died. That, according to her Instagram account. She was 59. A social media post from the band today noted Finch waged “a long courageous fight with brain cancer.” Earlier this month, friends and family launched a GoFundMe page to […]"
+      },
+      "time": {
+        "asserted": "2026-07-20T03:18:27.397Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "culture",
+        "citation": "https://deadline.com/2026/07/jennifer-finch-dead-l7-bassist-1236998168/"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "published",
+      "proposition": {
+        "predicate": "published",
+        "object": "Mon, 20 Jul 2026 02:48:30 +0000"
+      },
+      "time": {
+        "asserted": "2026-07-20T03:18:27.397Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "culture",
+        "citation": "https://deadline.com/2026/07/jennifer-finch-dead-l7-bassist-1236998168/"
+      },
+      "status": "supported"
+    }
+  ]
+}

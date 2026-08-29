@@ -1,0 +1,28 @@
+#+SETUPFILE: ./setup.inc
+#+TITLE: Geography and Settlements of Ellon County
+#+EXPORT_FILE_NAME: ../../pub/reference-books/geography-and-settlements-of-ellon-county
+#+INDEX: Ellon County!/Geography and Settlements of Ellon County/
+* DRAFT Introduction
+{{{document-isdraft}}}
+
+{{{document-hasproject}}}
+* DRAFT Geography and Settlements of Ellon County
+** DRAFT Overview
+** DRAFT History
+** DRAFT Map
+** DRAFT Areas
+** DRAFT Notable Organizations and People
+*** DRAFT Culver Family
+    :PROPERTIES:
+    :CUSTOM_ID: culver-family
+    :END:
+A minor nobility in the county, the */Culver Family/* hold a small
+nameless castle southeast of the town of /Helmet's Dent/.
+** DRAFT Plots
+* DRAFT Supplements
+** DRAFT Index
+- Farsteppes :: {{{teraum-defsrc(farsteppes)}}}
+- Ellon County :: {{{teraum-define-ellon-county}}} The subject of this
+                  {{{document-type}}}.
+- Culver Family :: {{{teraum-define-culver-family}}} See [[#culver-family]["Culver Family"]].
+- Helmet's Dent :: {{{teraum-defsrc(helmets-dent)}}}

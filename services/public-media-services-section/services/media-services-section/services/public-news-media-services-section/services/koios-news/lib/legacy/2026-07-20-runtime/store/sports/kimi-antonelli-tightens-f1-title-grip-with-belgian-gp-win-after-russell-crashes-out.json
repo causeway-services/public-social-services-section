@@ -1,0 +1,69 @@
+{
+  "subject": "kimi-antonelli-tightens-f1-title-grip-with-belgian-gp-win-after-russell-crashes-out",
+  "claims": [
+    {
+      "id": "title",
+      "proposition": {
+        "predicate": "title",
+        "object": "Kimi Antonelli tightens F1 title grip with Belgian GP win after Russell crashes out"
+      },
+      "time": {
+        "asserted": "2026-07-19T15:58:02.610Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "sports",
+        "citation": "https://www.theguardian.com/sport/2026/jul/19/kimi-antonelli-f1-title-grip-belgian-grand-prix-george-russell-formula-one"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "url",
+      "proposition": {
+        "predicate": "url",
+        "object": "https://www.theguardian.com/sport/2026/jul/19/kimi-antonelli-f1-title-grip-belgian-grand-prix-george-russell-formula-one"
+      },
+      "time": {
+        "asserted": "2026-07-19T15:58:02.610Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "sports",
+        "citation": "https://www.theguardian.com/sport/2026/jul/19/kimi-antonelli-f1-title-grip-belgian-grand-prix-george-russell-formula-one"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "summary",
+      "proposition": {
+        "predicate": "summary",
+        "object": "<ul><li><p>Russell out on opening lap after clash with Hamilton</p></li><li><p>Antonelli has 50-point lead on Mercedes teammate</p></li></ul><p>Kimi Antonelli won the Belgian Grand Prix for Mercedes with a cool, assured drive but his title rival and teammate George Russell was left distraught after his championship challenge suffered another serious blow when he was knocked out on the opening lap after a clash with Ferrari’s Lewis Hamilton.</p><p>Antonelli was in control at the front and delivered a commanding drive including coming back at Ferrari’s Charles Leclerc, who finished second, after the Monegasque driver had gained the lead through the pit stops. The win was assuredly deserved but the race was notable because of Russell’s retirement, for which the British driver took aim at his Mercedes team and what he sees as his car’s weakness.</p> <a href=\"https://www.theguardian.com/sport/2026/jul/19/kimi-antonelli-f1-title-grip-belgian-grand-prix-george-russell-formula-one\">Continue reading...</a>"
+      },
+      "time": {
+        "asserted": "2026-07-19T15:58:02.610Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "sports",
+        "citation": "https://www.theguardian.com/sport/2026/jul/19/kimi-antonelli-f1-title-grip-belgian-grand-prix-george-russell-formula-one"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "published",
+      "proposition": {
+        "predicate": "published",
+        "object": "Sun, 19 Jul 2026 15:02:43 GMT"
+      },
+      "time": {
+        "asserted": "2026-07-19T15:58:02.610Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "sports",
+        "citation": "https://www.theguardian.com/sport/2026/jul/19/kimi-antonelli-f1-title-grip-belgian-grand-prix-george-russell-formula-one"
+      },
+      "status": "supported"
+    }
+  ]
+}

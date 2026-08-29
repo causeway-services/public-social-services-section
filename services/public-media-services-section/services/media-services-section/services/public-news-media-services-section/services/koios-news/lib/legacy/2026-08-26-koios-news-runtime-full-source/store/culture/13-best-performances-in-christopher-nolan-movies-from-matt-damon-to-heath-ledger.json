@@ -1,0 +1,69 @@
+{
+  "subject": "13-best-performances-in-christopher-nolan-movies-from-matt-damon-to-heath-ledger",
+  "claims": [
+    {
+      "id": "title",
+      "proposition": {
+        "predicate": "title",
+        "object": "13 Best Performances in Christopher Nolan Movies: From Matt Damon to Heath Ledger"
+      },
+      "time": {
+        "asserted": "2026-07-19T20:06:19.825Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "culture",
+        "citation": "https://variety.com/lists/christopher-nolan-best-acting-performances-ranked/"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "url",
+      "proposition": {
+        "predicate": "url",
+        "object": "https://variety.com/lists/christopher-nolan-best-acting-performances-ranked/"
+      },
+      "time": {
+        "asserted": "2026-07-19T20:06:19.825Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "culture",
+        "citation": "https://variety.com/lists/christopher-nolan-best-acting-performances-ranked/"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "summary",
+      "proposition": {
+        "predicate": "summary",
+        "object": "Time has been kind to Christopher Nolan. The bending cities, rotating hallways, ticking clocks and practical explosions he captures on film have made him one of the most popular and vital directors working today. His newest venture, “The Odyssey,” arrives in theaters with Matt Damon stepping into the armor of Homer’s wandering king, and it […]"
+      },
+      "time": {
+        "asserted": "2026-07-19T20:06:19.825Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "culture",
+        "citation": "https://variety.com/lists/christopher-nolan-best-acting-performances-ranked/"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "published",
+      "proposition": {
+        "predicate": "published",
+        "object": "Sun, 19 Jul 2026 17:00:00 +0000"
+      },
+      "time": {
+        "asserted": "2026-07-19T20:06:19.825Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "culture",
+        "citation": "https://variety.com/lists/christopher-nolan-best-acting-performances-ranked/"
+      },
+      "status": "supported"
+    }
+  ]
+}

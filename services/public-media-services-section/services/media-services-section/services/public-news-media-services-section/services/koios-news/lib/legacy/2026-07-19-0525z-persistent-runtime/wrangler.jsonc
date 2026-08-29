@@ -1,0 +1,12 @@
+{
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "koios-news-shadow",
+  "compatibility_date": "2026-07-18",
+  "workers_dev": true,
+  "preview_urls": true,
+  "assets": {
+    "directory": "./.static/koios.news",
+    "html_handling": "drop-trailing-slash",
+    "not_found_handling": "404-page"
+  }
+}

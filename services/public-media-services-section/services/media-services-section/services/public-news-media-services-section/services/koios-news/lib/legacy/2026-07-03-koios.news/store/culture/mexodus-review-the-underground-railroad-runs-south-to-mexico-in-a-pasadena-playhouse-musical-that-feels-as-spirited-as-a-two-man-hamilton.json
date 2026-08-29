@@ -1,0 +1,69 @@
+{
+  "subject": "mexodus-review-the-underground-railroad-runs-south-to-mexico-in-a-pasadena-playhouse-musical-that-feels-as-spirited-as-a-two-man-hamilton",
+  "claims": [
+    {
+      "id": "title",
+      "proposition": {
+        "predicate": "title",
+        "object": "‘Mexodus’ Review: The Underground Railroad Runs South to Mexico in a Pasadena Playhouse Musical That Feels as Spirited as a Two-Man ‘Hamilton’"
+      },
+      "time": {
+        "asserted": "2026-07-19T14:42:05.531Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "culture",
+        "citation": "https://variety.com/2026/legit/reviews/mexodus-pasadena-playhouse-musical-theater-review-1236815638/"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "url",
+      "proposition": {
+        "predicate": "url",
+        "object": "https://variety.com/2026/legit/reviews/mexodus-pasadena-playhouse-musical-theater-review-1236815638/"
+      },
+      "time": {
+        "asserted": "2026-07-19T14:42:05.531Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "culture",
+        "citation": "https://variety.com/2026/legit/reviews/mexodus-pasadena-playhouse-musical-theater-review-1236815638/"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "summary",
+      "proposition": {
+        "predicate": "summary",
+        "object": "To paraphrase Aaliyah: Cast size ain’t nothing but a number. In the realm of the theater, no one exactly equates the number of headshots on a Playbill page with the ultimate fulfillment a stage show provides. Still, a question may arise: How few people can you have in a musical and still generate just as […]"
+      },
+      "time": {
+        "asserted": "2026-07-19T14:42:05.531Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "culture",
+        "citation": "https://variety.com/2026/legit/reviews/mexodus-pasadena-playhouse-musical-theater-review-1236815638/"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "published",
+      "proposition": {
+        "predicate": "published",
+        "object": "Sat, 18 Jul 2026 23:52:06 +0000"
+      },
+      "time": {
+        "asserted": "2026-07-19T14:42:05.531Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "culture",
+        "citation": "https://variety.com/2026/legit/reviews/mexodus-pasadena-playhouse-musical-theater-review-1236815638/"
+      },
+      "status": "supported"
+    }
+  ]
+}

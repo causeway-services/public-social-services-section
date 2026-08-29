@@ -1,0 +1,81 @@
+#+SETUPFILE: ../default-setup.inc
+#+TITLE: The Crown of Idbol Bark
+#+EXPORT_FILE_NAME: ../../../pub/teraum/adventures/crown-of-idbol-bark
+#+TOC: headlines 1 local
+* Introduction
+#+INCLUDE: "../../plates.inc::draft"
+#+INCLUDE: "../../plates.inc::default-eli"
+* The Crown of Idbol Bark
+The town of Belcaer used to be a sleepy place that travelers going
+from the Green Delta to Unseen Sea would visit. But over the past
+several months, goblins have been kidnapping travelers (and eating
+their horses.) Recently, the goblins have even raided the farms on the
+outskirts of Belcaer, so the villagers have banded together to hire
+anyone able to find the goblins and eliminate them.
+
+The goblins are staying in a 80' tall, 30' diameter, roughly circular
+limestone tower southeast of town, after migrating there from the
+Widewoods to the southwest. This is far from the main trade roads, in
+an area where there are several chert outcroppings that break the
+fields, making it hard to maintain bearing or keep a far watch.
+
+[how does theparty learn about the tower?]
+
+The tower's entrance has been sealed with the same limestone bricks as
+the tower - but there are a couple of windows near the top, and there
+are pine planks shoved into the mortar in a rough ladder up to the
+windows. (Placing more than 120lb of weight on any single plank risks
+breaking it, getting riskier for every 10lb.)
+
+There are goblins working around the tower, digging toilets and
+tearing up grass and stuffing it in sacks. If any goblin notices the
+party, they'll inform the other goblins working outside who will work
+together to try and harass the party into leaving - jeering and
+throwing stones at them, hiding behind outcroppings. If the party
+doesn't leave and approaches the tower, the goblins will rush toward
+them, but instead climb the planks and disappear into the tower,
+warning the others in their group. A couple will stay at the top of
+the tower, and drop pebbles and dried grass down on the party if they
+try and climb into the tower.
+
+In the evening, the owlbear mom that nests on top of the tower will
+also harass the party, with the intention of picking up anything
+edible that's small enough (<120lb, so may attempt to carry small
+party members).
+
+If the party gets to the top of the tower, #1,  (not sure how, lol) they'd
+find 2 owlbear hatchlings, that they could take and train if they knew
+how - and killed the mom.
+
+When the party enters the room at the top of the tower, through the
+window, #2, they'll find an empty stone room with some sticks, dry
+piles of dung, buckets, and a large brass dish that's clearly been
+used for fires. The goblins will retreat down underneath the trap
+door, #4.
+
+There are three other "floors" inside the tower, though they are empty
+except for more dirty straw and dung, #3. There is a large, heavy wood
+door in the floor at the ground level, #4.
+
+Once the players are inside the tower and the goblins have retreated,
+they will descend to the ground floor.
+
+The trap door has no stairs under it - there is a ladder the goblins
+use, but they removed it as they retreated from the party. The party
+will be unable to see the ladder before they dropped the ~7 feet into
+the first level of the tower's basement, #5.
+
+The room is circular, a bit wider in diameter than the tower above,
+and is full of farm tools and preserved foodstuff and grains.
+* Supplements
+#+TOC: headlines local 1
+** Contribute
+   :PROPERTIES:
+   :CUSTOM_ID: supplements-contribute
+   :END:
+#+INCLUDE: "../../plates.inc::personal-contribute"
+** License
+   :PROPERTIES:
+   :CUSTOM_ID: supplements-license
+   :END:
+#+INCLUDE: "../../plates.inc::mit-license"

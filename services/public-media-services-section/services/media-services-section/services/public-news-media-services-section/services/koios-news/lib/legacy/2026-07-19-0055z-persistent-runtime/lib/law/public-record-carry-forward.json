@@ -1,0 +1,31 @@
+{
+  "kind": "koios.migration-law",
+  "id": "public-record-carry-forward/v1",
+  "purpose": "Preserve Koios.News's already-public predecessor record during a controlled delivery migration without representing legacy manuscripts as newly accepted under the current newsroom gate.",
+  "admission": [
+    "An article may enter either controlled-migration publication profile under exact-editorial-acceptance when its current manuscript digest has a deterministic standards pass and an independent accepting editorial judgment.",
+    "An article lacking exact-editorial-acceptance may enter only when the predecessor Koios publication store marks it public and the current live Koios feed witnesses the same canonical route.",
+    "A predecessor-publication witness preserves availability and correction obligations; it does not assert that the manuscript passes current standards."
+  ],
+  "publicEvidence": [
+    "/publication-provenance.json names the authority, current manuscript digest, deterministic gate state, and exact editorial-acceptance state for every carried article.",
+    "/newswire-audit.json remains the public current-gate reading and is never rewritten to make a legacy article appear compliant.",
+    "Each predecessor-witness article page carries a visible public-record notice."
+  ],
+  "invariants": [
+    "Every new newsroom publication still requires exact-manuscript independent editorial acceptance.",
+    "No migration act mutates the separately owned content store.",
+    "No live canonical route may disappear at cutover.",
+    "A route absent from the frozen predecessor witness is admissible to either profile only when exact-editorial-acceptance authorizes it.",
+    "The shadow and cutover candidate must be projected by the same renderer from the same public-record witness; their only permissible byte differences are the declared indexing advertising privacy and security-policy consequences of the selected profile.",
+    "Corrections and retractions apply equally to predecessor-witness and exact-accepted articles.",
+    "Cutover remains forbidden without a provider resource grant, preview witness, route preservation, rollback rehearsal, and explicit authority transfer."
+  ],
+  "enforcedBy": [
+    "src/index.mts",
+    "src/surface.mts",
+    "src/administrating/deploying/static-shadow.mts",
+    "src/administrating/deploying/static-profile-parity.mts",
+    "src/administrating/deploying/shadow-parity.mts"
+  ]
+}

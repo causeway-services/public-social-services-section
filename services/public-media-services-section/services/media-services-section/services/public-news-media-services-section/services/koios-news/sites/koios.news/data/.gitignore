@@ -1,0 +1,6 @@
+# Runtime-generated farm data is regenerated, not tracked.
+journals/logs/*.jsonl
+journals/logs/**/*.jsonl
+records/search-console.json
+data/logs/
+data/records/evm/

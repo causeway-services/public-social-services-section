@@ -1,0 +1,69 @@
+{
+  "subject": "ozzy-osbourne-s-hometown-of-birmingham-to-honor-singer-on-anniversary-of-death",
+  "claims": [
+    {
+      "id": "title",
+      "proposition": {
+        "predicate": "title",
+        "object": "Ozzy Osbourne’s Hometown of Birmingham to Honor Singer on Anniversary of Death"
+      },
+      "time": {
+        "asserted": "2026-07-19T14:42:05.531Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "culture",
+        "citation": "https://www.rollingstone.com/music/music-news/ozzy-osbournebirmingham-honor-singer-anniversary-death-1235595424/"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "url",
+      "proposition": {
+        "predicate": "url",
+        "object": "https://www.rollingstone.com/music/music-news/ozzy-osbournebirmingham-honor-singer-anniversary-death-1235595424/"
+      },
+      "time": {
+        "asserted": "2026-07-19T14:42:05.531Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "culture",
+        "citation": "https://www.rollingstone.com/music/music-news/ozzy-osbournebirmingham-honor-singer-anniversary-death-1235595424/"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "summary",
+      "proposition": {
+        "predicate": "summary",
+        "object": "Ozzy Day on July 22 will celebrate “the life, legacy and Birmingham roots of the Prince of Darkness,” city council says"
+      },
+      "time": {
+        "asserted": "2026-07-19T14:42:05.531Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "culture",
+        "citation": "https://www.rollingstone.com/music/music-news/ozzy-osbournebirmingham-honor-singer-anniversary-death-1235595424/"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "published",
+      "proposition": {
+        "predicate": "published",
+        "object": "Fri, 17 Jul 2026 20:59:02 +0000"
+      },
+      "time": {
+        "asserted": "2026-07-19T14:42:05.531Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "culture",
+        "citation": "https://www.rollingstone.com/music/music-news/ozzy-osbournebirmingham-honor-singer-anniversary-death-1235595424/"
+      },
+      "status": "supported"
+    }
+  ]
+}

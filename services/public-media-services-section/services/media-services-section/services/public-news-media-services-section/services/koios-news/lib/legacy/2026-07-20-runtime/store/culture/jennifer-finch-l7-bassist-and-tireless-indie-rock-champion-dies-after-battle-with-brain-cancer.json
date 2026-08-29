@@ -1,0 +1,69 @@
+{
+  "subject": "jennifer-finch-l7-bassist-and-tireless-indie-rock-champion-dies-after-battle-with-brain-cancer",
+  "claims": [
+    {
+      "id": "title",
+      "proposition": {
+        "predicate": "title",
+        "object": "Jennifer Finch, L7 Bassist and Tireless Indie-Rock Champion, Dies After Battle With Brain Cancer"
+      },
+      "time": {
+        "asserted": "2026-07-19T15:58:01.697Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "culture",
+        "citation": "https://variety.com/2026/music/news/jennifer-finch-dead-l7-bassist-brain-cancer-1236815960/"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "url",
+      "proposition": {
+        "predicate": "url",
+        "object": "https://variety.com/2026/music/news/jennifer-finch-dead-l7-bassist-brain-cancer-1236815960/"
+      },
+      "time": {
+        "asserted": "2026-07-19T15:58:01.697Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "culture",
+        "citation": "https://variety.com/2026/music/news/jennifer-finch-dead-l7-bassist-brain-cancer-1236815960/"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "summary",
+      "proposition": {
+        "predicate": "summary",
+        "object": "Jennifer Finch, bassist, singer and songwriter for the veteran indie-rock band L7, died Saturday after a battle with an aggressive form of brain cancer, according to a statement from the band’s rep. She was 59. A popular and well-known presence on the indie-rock scene of the 1990s, earlier in her career Finch played with Courtney […]"
+      },
+      "time": {
+        "asserted": "2026-07-19T15:58:01.697Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "culture",
+        "citation": "https://variety.com/2026/music/news/jennifer-finch-dead-l7-bassist-brain-cancer-1236815960/"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "published",
+      "proposition": {
+        "predicate": "published",
+        "object": "Sun, 19 Jul 2026 15:23:27 +0000"
+      },
+      "time": {
+        "asserted": "2026-07-19T15:58:01.697Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "culture",
+        "citation": "https://variety.com/2026/music/news/jennifer-finch-dead-l7-bassist-brain-cancer-1236815960/"
+      },
+      "status": "supported"
+    }
+  ]
+}

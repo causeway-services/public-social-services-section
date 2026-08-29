@@ -1,0 +1,6 @@
+:PROPERTIES:
+:ID:       748fb558-b92d-4020-ad0d-ff334c92de2e
+:END:
+#+title: ward of Ack
+#+date: [2025-09-28 Sun 23:46]
+

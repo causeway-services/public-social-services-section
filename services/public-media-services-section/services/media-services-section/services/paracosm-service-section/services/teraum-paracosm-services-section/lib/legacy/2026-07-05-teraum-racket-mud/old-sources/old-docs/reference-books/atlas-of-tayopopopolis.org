@@ -1,0 +1,13 @@
+#+SETUPFILE: ./setup.inc
+#+TITLE: Atlas of Tayopopopolis
+#+EXPORT_FILE_NAME: ../../pub/reference-books/atlas-of-tayopopopolis
+#+INDEX: Tayopopopolis!/Atlas of Tayopopopolis/
+#+TOC: headlines 2
+* DRAFT Introduction
+{{{document-isdraft}}}
+
+{{{document-hasproject}}}
+* DRAFT Atlas of Tayopopopolis
+* DRAFT Supplements
+** DRAFT Index
+- Tayopopopolis ::

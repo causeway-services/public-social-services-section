@@ -1,0 +1,69 @@
+{
+  "subject": "my-hands-were-all-over-the-place-for-surreal-open-winning-putt-says-ryan-fox",
+  "claims": [
+    {
+      "id": "title",
+      "proposition": {
+        "predicate": "title",
+        "object": "My hands were all over the place for ‘surreal’ Open-winning putt, says Ryan Fox"
+      },
+      "time": {
+        "asserted": "2026-07-20T11:21:26.521Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "sports",
+        "citation": "https://www.theguardian.com/sport/2026/jul/19/ryan-fox-the-open-championship-2026-golf-new-zealand"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "url",
+      "proposition": {
+        "predicate": "url",
+        "object": "https://www.theguardian.com/sport/2026/jul/19/ryan-fox-the-open-championship-2026-golf-new-zealand"
+      },
+      "time": {
+        "asserted": "2026-07-20T11:21:26.521Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "sports",
+        "citation": "https://www.theguardian.com/sport/2026/jul/19/ryan-fox-the-open-championship-2026-golf-new-zealand"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "summary",
+      "proposition": {
+        "predicate": "summary",
+        "object": "<ul><li><p>Fox sinks winning putt on 18th for first major title</p></li><li><p>‘It’s going to be big back home in New Zealand’</p></li></ul><p>Ryan Fox has said he had no ­sensation in his hands as he hit the winning putt in the 154th Open Cham­pionship. Fox, who claimed <a href=\"https://www.theguardian.com/sport/2026/jul/19/open-championship-final-round-ryan-fox-tommy-fleetwood-scottie-scheffler-rory-mcilroy-golf\">his first major title</a>, became the first New Zealander since Bob Charles in 1963 to win the Open. He did so in dramatic style, with a birdie putt on the final hole sufficient&nbsp;for a 68 and 10-under-par total which was enough to beat Cameron Young by one stroke.</p><p>Fox was typically brisk in his approach to playing the 18th. Reflecting on the moment of victory, though, he explained the state of his emotions. “You can’t feel your hands, I know that,” he said.</p> <a href=\"https://www.theguardian.com/sport/2026/jul/19/ryan-fox-the-open-championship-2026-golf-new-zealand\">Continue reading...</a>"
+      },
+      "time": {
+        "asserted": "2026-07-20T11:21:26.521Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "sports",
+        "citation": "https://www.theguardian.com/sport/2026/jul/19/ryan-fox-the-open-championship-2026-golf-new-zealand"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "published",
+      "proposition": {
+        "predicate": "published",
+        "object": "Sun, 19 Jul 2026 20:25:08 GMT"
+      },
+      "time": {
+        "asserted": "2026-07-20T11:21:26.521Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "sports",
+        "citation": "https://www.theguardian.com/sport/2026/jul/19/ryan-fox-the-open-championship-2026-golf-new-zealand"
+      },
+      "status": "supported"
+    }
+  ]
+}

@@ -1,0 +1,69 @@
+{
+  "subject": "agencies-issue-joint-statement-on-handling-of-highly-sensitive-information-during-bank-examinations",
+  "claims": [
+    {
+      "id": "title",
+      "proposition": {
+        "predicate": "title",
+        "object": "Agencies issue joint statement on handling of highly sensitive information during bank examinations"
+      },
+      "time": {
+        "asserted": "2026-07-18T08:37:37.917Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "economy",
+        "citation": "https://www.federalreserve.gov/newsevents/pressreleases/bcreg20260716a.htm"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "url",
+      "proposition": {
+        "predicate": "url",
+        "object": "https://www.federalreserve.gov/newsevents/pressreleases/bcreg20260716a.htm"
+      },
+      "time": {
+        "asserted": "2026-07-18T08:37:37.917Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "economy",
+        "citation": "https://www.federalreserve.gov/newsevents/pressreleases/bcreg20260716a.htm"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "summary",
+      "proposition": {
+        "predicate": "summary",
+        "object": "Agencies issue joint statement on handling of highly sensitive information during bank examinations"
+      },
+      "time": {
+        "asserted": "2026-07-18T08:37:37.917Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "economy",
+        "citation": "https://www.federalreserve.gov/newsevents/pressreleases/bcreg20260716a.htm"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "published",
+      "proposition": {
+        "predicate": "published",
+        "object": "Thu, 16 Jul 2026 18:00:00 GMT"
+      },
+      "time": {
+        "asserted": "2026-07-18T08:37:37.917Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "economy",
+        "citation": "https://www.federalreserve.gov/newsevents/pressreleases/bcreg20260716a.htm"
+      },
+      "status": "supported"
+    }
+  ]
+}

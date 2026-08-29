@@ -1,0 +1,69 @@
+{
+  "subject": "the-odyssey-slaying-with-120m-u-s-opening-a-cinemascore-best-live-action-haul-of-2026-record-for-matt-damon-as-lead-box-office-saturday-am-update",
+  "claims": [
+    {
+      "id": "title",
+      "proposition": {
+        "predicate": "title",
+        "object": "‘The Odyssey’ Slaying With $120M+ U.S. Opening: ‘A’ CinemaScore, Best Live-Action Haul Of 2026 & Record For Matt Damon As Lead – Box Office Saturday AM Update"
+      },
+      "time": {
+        "asserted": "2026-07-19T14:42:05.531Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "culture",
+        "citation": "https://deadline.com/2026/07/box-office-the-odyssey-1236993792/"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "url",
+      "proposition": {
+        "predicate": "url",
+        "object": "https://deadline.com/2026/07/box-office-the-odyssey-1236993792/"
+      },
+      "time": {
+        "asserted": "2026-07-19T14:42:05.531Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "culture",
+        "citation": "https://deadline.com/2026/07/box-office-the-odyssey-1236993792/"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "summary",
+      "proposition": {
+        "predicate": "summary",
+        "object": "SATURDAY AM: Christopher Nolan’s The Odyssey remains on course for the best live-action feature debut this year at the North American box office to date with $120.5M after Friday/previews of $51.2M. We already told you that this is Nolan’s third best opening ever in U.S./Canada, and so it is in opening days as well. The […]"
+      },
+      "time": {
+        "asserted": "2026-07-19T14:42:05.531Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "culture",
+        "citation": "https://deadline.com/2026/07/box-office-the-odyssey-1236993792/"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "published",
+      "proposition": {
+        "predicate": "published",
+        "object": "Sat, 18 Jul 2026 15:27:00 +0000"
+      },
+      "time": {
+        "asserted": "2026-07-19T14:42:05.531Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "culture",
+        "citation": "https://deadline.com/2026/07/box-office-the-odyssey-1236993792/"
+      },
+      "status": "supported"
+    }
+  ]
+}

@@ -1,0 +1,69 @@
+{
+  "subject": "black-agenda-radio-july-17-2026",
+  "claims": [
+    {
+      "id": "title",
+      "proposition": {
+        "predicate": "title",
+        "object": "Black Agenda Radio July 17, 2026"
+      },
+      "time": {
+        "asserted": "2026-07-19T14:41:57.848Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "decolonization",
+        "citation": "https://www.blackagendareport.com/black-agenda-radio-july-17-2026"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "url",
+      "proposition": {
+        "predicate": "url",
+        "object": "https://www.blackagendareport.com/black-agenda-radio-july-17-2026"
+      },
+      "time": {
+        "asserted": "2026-07-19T14:41:57.848Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "decolonization",
+        "citation": "https://www.blackagendareport.com/black-agenda-radio-july-17-2026"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "summary",
+      "proposition": {
+        "predicate": "summary",
+        "object": "<span class=\"field field--name-title field--type-string field--label-hidden\">Black Agenda Radio July 17, 2026</span> <div class=\"field field--name-field-authors field--type-entity-reference field--label-above\"> <div class=\"field__label\">Authors</div> <div class=\"field__items\"> <div class=\"field__item\"><a href=\"https://www.blackagendareport.com/taxonomy/term/2425\" hreflang=\"en\">Black Agenda Radio with Margaret Kimberley</a></div> </div> </div> <span class=\"field field--name-uid field--type-entity-reference field--label-hidden\"><span>bareditors</span></span> <span class=\"field field--name-created field--type-created field--label-hidden\"><time datetime=\"2026-07-17T04:19:53+05:30\" title=\"Friday, July 17, 2026 - 04:19\" class=\"datetime\">Fri, 07/17/2026 - 04:19</time> </span> <div class=\"clearfix text-formatted field field--name-field-embed-link field--type-text-with-summary field--label-hidden field__item\"><p><iframe width=\"100%\" height=\"300\" scrolling=\"no\" frameborder=\"no\" allow=\"autoplay; encrypted-media\" src=\"https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/soundcloud%3Atracks%3A2362372172%3Fsecret_token%3Ds-peeNMk3VQqV&amp;color=%23ff5500&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;show_teaser=true&amp;visual=true\"></iframe></p> <div style=\"color:#cccccc;font-family:Interstate,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Garuda,Verdana,Tahoma,sans-serif;font-size:10px;font-weight:100;line-break:anywhere;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;word-break:normal;\"><a style=\"color:#cccccc;text-decoration:none;\" href=\"https://soundcloud.com/user-92939733\" title=\"Black Agenda Radio\" target=\"_blank\">Black Agenda Radio</a> · <a style=\"color:#cccccc;text-decoration:none;\" href=\"https://soundcloud.com/user-92939733/black-agenda-radio-july-17/s-peeNMk3VQqV\" title=\"Black Agenda Radio July 17, 2026\" target=\"_blank\">Black Agenda Radio July 17, 2026</a></div> </div> <div class=\"clearfix text-formatted field field--name-body field--type-text-with-summary field--label-hidden field__item\"><p>In this week’s segment, we discuss the Supreme Court ruling that ends Temporary Protected Status (TPS) for Haitian immigrants. But we begin with South Africa and discuss the origins of xenophobic attacks on migrant workers and ask who benefits from this dangerous movement.</p> </div> <div class=\"taxonomy__terms__container\"> <div class=\"taxonomy__term\"> <a href=\"https://www.blackagendareport.com/articlelist/International\">International</a> </div> </div> <div class=\"field field--name-tags1 field--type-entity-reference field--label-hidden field--items\"> <div class=\"field--item\"> <a href=\"https://www.blackagendareport.com/articles/Haiti\">Haiti</a> </div> <div class=\"field--item\"> <a href=\"https://www.blackagendareport.com/articles/South Africa\">South Africa</a> </div> <div class=\"field--item\"> <a href=\"https://www.blackagendareport.com/articles/Immigration\">Immigration</a> </div> <div class=\"field--item\"> <a href=\"https://www.blackagendareport.com/articles/anti-immigration\">anti-immigration</a> </div> <div class=\"field--item\"> <a href=\"https://www.blackagendareport.com/articles/Human Rights\">Human Rights</a> </div> <div class=\"field--item\"> <a href=\"https://www.blackagendareport.com/articles/Temporary Protected Status\">Temporary Protected Status</a> </div> <div class=\"field--item\"> <a href=\"https://www.blackagendareport.com/articles/Colonialism\">Colonialism</a> </div> <div class=\"field--item\"> <a href=\"https://www.blackagendareport.com/articles/imperialism\">imperialism</a> </div> <div class=\"field--item\"> <a href=\"https://www.blackagendareport.com/articles/TPS\">TPS</a> </div> <div class=\"field--item\"> <a href=\"https://www.blackagendareport.com/articles/ANC\">ANC</a> </div> </div>"
+      },
+      "time": {
+        "asserted": "2026-07-19T14:41:57.848Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "decolonization",
+        "citation": "https://www.blackagendareport.com/black-agenda-radio-july-17-2026"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "published",
+      "proposition": {
+        "predicate": "published",
+        "object": "Thu, 16 Jul 2026 22:49:53 +0000"
+      },
+      "time": {
+        "asserted": "2026-07-19T14:41:57.848Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "decolonization",
+        "citation": "https://www.blackagendareport.com/black-agenda-radio-july-17-2026"
+      },
+      "status": "supported"
+    }
+  ]
+}

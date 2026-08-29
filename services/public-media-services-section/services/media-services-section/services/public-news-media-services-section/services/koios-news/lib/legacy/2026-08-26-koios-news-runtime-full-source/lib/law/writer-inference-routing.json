@@ -1,0 +1,45 @@
+{
+  "kind": "koios.writer-inference-routing-law",
+  "version": 1,
+  "service": "newswire-editorial-production/prose-contribution/v1",
+  "selection": "strict-cheapest-sufficient-forward-route",
+  "providerFailure": "continue-forward-within-the-accepted-finite-route-on-provider-owned-refusal-or-transport-failure; stop-on-local-contract-or-resource-failure",
+  "minimumProseCharacters": 1200,
+  "minimumHeadlineCharacters": 20,
+  "tiers": [
+    {
+      "id": "free-groq",
+      "model": "llama-3.1-8b-instant",
+      "credentialAliases": ["GROQ_API_KEY", "API_KEY_GROQ_GROQCLOUD", "API_KEY_GROQ"],
+      "maximumEstimatedInputTokens": 4500,
+      "maximumOutputTokens": 1500
+    },
+    {
+      "id": "free-gemini",
+      "model": "gemini-3.1-flash-lite",
+      "credentialAliases": ["GEMINI_API_KEY", "GOOGLE_API_KEY", "API_KEY_GOOGLE_GEMINI"],
+      "maximumEstimatedInputTokens": 120000,
+      "maximumOutputTokens": 2500
+    },
+    {
+      "id": "free-nim",
+      "model": "meta/llama-3.1-8b-instruct",
+      "credentialAliases": ["NVIDIA_API_KEY", "API_KEY_NVIDIA_NIM", "NVIDIA_NIM_API_KEY", "API_KEY_INFERENCE_NVIDIA"],
+      "maximumEstimatedInputTokens": 90000,
+      "maximumOutputTokens": 2000
+    },
+    {
+      "id": "leader-claude",
+      "model": "claude-sonnet-4-6",
+      "credentialAliases": [],
+      "maximumEstimatedInputTokens": 180000,
+      "maximumOutputTokens": 4000
+    }
+  ],
+  "authority": {
+    "modelsProduce": "prose-only",
+    "customerProduces": "assignment-manuscript-ledger-and-publication-records",
+    "newswireProduces": "commission-offer-prose-delivery-and-provider-receipt",
+    "lissProduces": "route-plan-inference-result-and-attempt-witnesses"
+  }
+}

@@ -1,0 +1,69 @@
+{
+  "subject": "saka-hat-trick-seals-6-4-england-win-over-france-in-epic-world-cup-third-place-playoff",
+  "claims": [
+    {
+      "id": "title",
+      "proposition": {
+        "predicate": "title",
+        "object": "Saka hat-trick seals 6-4 England win over France in epic World Cup third-place playoff"
+      },
+      "time": {
+        "asserted": "2026-07-19T15:58:02.610Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "sports",
+        "citation": "https://www.theguardian.com/football/2026/jul/19/england-france-world-cup-third-place-playoff-match-report"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "url",
+      "proposition": {
+        "predicate": "url",
+        "object": "https://www.theguardian.com/football/2026/jul/19/england-france-world-cup-third-place-playoff-match-report"
+      },
+      "time": {
+        "asserted": "2026-07-19T15:58:02.610Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "sports",
+        "citation": "https://www.theguardian.com/football/2026/jul/19/england-france-world-cup-third-place-playoff-match-report"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "summary",
+      "proposition": {
+        "predicate": "summary",
+        "object": "<p>Where to start with this rollercoaster of a match? Thomas Tuchel had promised a reaction but he could not have imagined the manner of the response from England, albeit against a France team firmly on their sunloungers during an incredible first half in which they conceded four times.</p><p>Yet with Kylian Mbappé on the hunt for his second successive Golden Boot in Didier Deschamps’ last match in charge of <em>Les Bleus</em>, even that lead courtesy of goals from Declan Rice, Ezri Konsa and two from Bukayo Saka almost wasn’t enough. Mbappé began the comeback straight after half-time before adding his second after Bradley Barcola’s strike. The 27-year-old has become the first male player to reach double figures at a World Cup since Gerd Müller in 1970. Over to you, Lionel.</p> <a href=\"https://www.theguardian.com/football/2026/jul/19/england-france-world-cup-third-place-playoff-match-report\">Continue reading...</a>"
+      },
+      "time": {
+        "asserted": "2026-07-19T15:58:02.610Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "sports",
+        "citation": "https://www.theguardian.com/football/2026/jul/19/england-france-world-cup-third-place-playoff-match-report"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "published",
+      "proposition": {
+        "predicate": "published",
+        "object": "Sat, 18 Jul 2026 23:05:21 GMT"
+      },
+      "time": {
+        "asserted": "2026-07-19T15:58:02.610Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "sports",
+        "citation": "https://www.theguardian.com/football/2026/jul/19/england-france-world-cup-third-place-playoff-match-report"
+      },
+      "status": "supported"
+    }
+  ]
+}

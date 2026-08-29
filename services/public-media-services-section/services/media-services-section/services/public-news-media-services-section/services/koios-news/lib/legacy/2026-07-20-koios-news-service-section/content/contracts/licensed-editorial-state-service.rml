@@ -1,0 +1,13 @@
+#lang rmn/v2
+(map
+  ("type" "LicensedEditorialStateLaw")
+  ("version" 2)
+  ("provider" "urn:ame:koios-news-service-section")
+  ("providerAccount" "eip155:31337:0x55397286728b70d86a139fe8263c2d63c5d6770c")
+  ("precondition" "A contractor authorizes one assignment, its admitted research packet, exact genre and publication-policy identities, and the genre evidence budget.")
+  ("operation" "The provider derives source-bound assertions and a passage plan, preserves attribution and uncertainty, measures the maximum prose licensed by admitted evidence, and performs no writer inference.")
+  ("postcondition" "The contractor receives a content-identified licensed editorial state with a provider-account-bound RWIL receipt, or a typed pre-inference refusal; customer publication authority remains unchanged.")
+  ("refusal" "Refuse missing laws, unadmitted sources, incoherent genre bounds, insufficient source assertions, unlicensed passage plans, changed demands, and any promotion of assignment pressure into evidence.")
+  ("proofProfile" "bounded-licensed-editorial-state-v2")
+  ("protocol" "ActivityStreams-2.0")
+  ("evidence" "RWIL-RDF"))

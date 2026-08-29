@@ -1,0 +1,12 @@
+[Unit]
+Description=Drain one verified Koios arrival after each Cold Red Gate pulse window
+
+[Timer]
+OnBootSec=2min
+OnUnitActiveSec=15min
+AccuracySec=15s
+Persistent=true
+Unit=koios-activitypub-settle-next.service
+
+[Install]
+WantedBy=timers.target

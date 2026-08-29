@@ -1,0 +1,33 @@
+{
+  "type": "TTIKnowledgeVaultSubscriptionTerms",
+  "version": 1,
+  "id": "tti-founding-knowledge-vault-subscription-terms-draft-2026-01",
+  "status": "draft-not-effective",
+  "operator": "Turntide Islands",
+  "legalMerchant": "emsenn",
+  "productId": "tti-founding-knowledge-vault-2026-01",
+  "offeringId": "tti-founding-knowledge-vault-monthly",
+  "planId": "vault-subscriber-monthly",
+  "price": { "currency": "USD", "unitAmount": 500, "billingPeriod": "P1M" },
+  "service": {
+    "included": [
+      "At least one source-traceable Vault briefing each week while the founding product is operated",
+      "Access to the pooled member retrieval and reading-path request desk",
+      "Access to durable rescues of selected knowledge when TTI is authorized to share it",
+      "Access to the product receipts lane"
+    ],
+    "excluded": [
+      "Individual consulting or a guaranteed response to every request",
+      "Medical, legal, financial, safety, or emergency advice",
+      "Material TTI is not authorized to redistribute",
+      "Any constitutional or governance status in Turntide Islands"
+    ]
+  },
+  "renewal": "Draft: monthly automatic renewal until cancellation; exact timing and notice require Leader and qualified commercial review.",
+  "cancellation": "Draft: cancellation stops future renewal and access ends at the admitted paid-through boundary; exact procedure requires review.",
+  "refunds": "Draft: refund eligibility, partial periods, outages, and exceptional cases require Leader and qualified commercial review.",
+  "privacy": "Draft: TTI binds the Discord account locally to an opaque provider order reference; the payment provider does not receive the Discord user ID. Payment data remains with the provider.",
+  "disputesAndLaw": "Not yet specified; live sale is prohibited until this field and the complete terms receive admitted review evidence.",
+  "acceptance": "No acceptance is possible while these terms remain draft-not-effective.",
+  "neverEvidence": "Viewing these terms, invoking /vault, or recording no-charge checkout interest is not a purchase, payment, entitlement, revenue, or profit."
+}

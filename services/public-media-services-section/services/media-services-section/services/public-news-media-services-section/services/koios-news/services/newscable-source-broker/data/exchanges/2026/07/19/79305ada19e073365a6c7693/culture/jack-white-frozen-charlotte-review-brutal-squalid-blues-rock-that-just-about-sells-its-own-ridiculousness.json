@@ -1,0 +1,69 @@
+{
+  "subject": "jack-white-frozen-charlotte-review-brutal-squalid-blues-rock-that-just-about-sells-its-own-ridiculousness",
+  "claims": [
+    {
+      "id": "title",
+      "proposition": {
+        "predicate": "title",
+        "object": "Jack White: Frozen Charlotte review – brutal, squalid blues-rock that just about sells its own ridiculousness"
+      },
+      "time": {
+        "asserted": "2026-07-19T15:04:21.677Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "culture",
+        "citation": "https://www.theguardian.com/music/2026/jul/09/jack-white-frozen-charlotte-review-brutal-squalid-blues-rock-that-just-about-sells-its-own-ridiculousness"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "url",
+      "proposition": {
+        "predicate": "url",
+        "object": "https://www.theguardian.com/music/2026/jul/09/jack-white-frozen-charlotte-review-brutal-squalid-blues-rock-that-just-about-sells-its-own-ridiculousness"
+      },
+      "time": {
+        "asserted": "2026-07-19T15:04:21.677Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "culture",
+        "citation": "https://www.theguardian.com/music/2026/jul/09/jack-white-frozen-charlotte-review-brutal-squalid-blues-rock-that-just-about-sells-its-own-ridiculousness"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "summary",
+      "proposition": {
+        "predicate": "summary",
+        "object": "<p><strong>(Third Man)</strong><br>Following the superb No Name, White continues his fan service with stripped back songs and nasty, anarchic riffs – though it all ends up feeling a little samey</p><p>It’s a strange thing to say about one of the most prolific artists of his – or any – generation, but: Jack White has been undergoing something of a career renaissance of late. After firmly establishing himself as one of the most beloved and defining figures of 21st-century rock with his early-00s blues duo the White Stripes, White seemed to get bigger and bigger over the next decade-plus, releasing albums with well-liked side projects the Raconteurs and the Dead Weather, dropping a couple of fine solo albums, and helping spark the music industry’s vinyl revival with his label and pressing plant Third Man Records.</p><p>But, at some point in the mid-2010s – around the release of his third solo album, 2018’s Boarding House Reach, let’s say – White’s influence and celebrity seemed to be outweighing his actual output, with rising pop stars like Billie Eilish and Olivia Rodrigo naming him a prime influence. Record plants the world over became backed-up, thanks to pop stars releasing dozens of gimmicky vinyl variants of their own albums, resulting in months-long delays for indie artists – hardly a problem White was responsible for (and likely one he himself was annoyed by), but certainly the result of a craze he had helped spark. At the same time, all the quirks and codes of White’s output – the specific colour schemes and sometimes arcane guiding opinions – threatened to overwhelm the immediacy and sharpness that had once been the core of White’s actual music.</p> <a href=\"https://www.theguardian.com/music/2026/jul/09/jack-white-frozen-charlotte-review-brutal-squalid-blues-rock-that-just-about-sells-its-own-ridiculousness\">Continue reading...</a>"
+      },
+      "time": {
+        "asserted": "2026-07-19T15:04:21.677Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "culture",
+        "citation": "https://www.theguardian.com/music/2026/jul/09/jack-white-frozen-charlotte-review-brutal-squalid-blues-rock-that-just-about-sells-its-own-ridiculousness"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "published",
+      "proposition": {
+        "predicate": "published",
+        "object": "Thu, 09 Jul 2026 11:00:01 GMT"
+      },
+      "time": {
+        "asserted": "2026-07-19T15:04:21.677Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "culture",
+        "citation": "https://www.theguardian.com/music/2026/jul/09/jack-white-frozen-charlotte-review-brutal-squalid-blues-rock-that-just-about-sells-its-own-ridiculousness"
+      },
+      "status": "supported"
+    }
+  ]
+}

@@ -1,0 +1,69 @@
+{
+  "subject": "tour-de-france-2026-vingegaard-crashes-out-before-evenepoel-wins-on-stage-15-live",
+  "claims": [
+    {
+      "id": "title",
+      "proposition": {
+        "predicate": "title",
+        "object": "Tour de France 2026: Vingegaard crashes out before Evenepoel wins on stage 15 – live"
+      },
+      "time": {
+        "asserted": "2026-07-19T15:58:02.610Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "sports",
+        "citation": "https://www.theguardian.com/sport/live/2026/jul/19/tour-de-france-2026-stage-15-takes-riders-into-alps-and-plateau-de-solaison-finish-live"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "url",
+      "proposition": {
+        "predicate": "url",
+        "object": "https://www.theguardian.com/sport/live/2026/jul/19/tour-de-france-2026-stage-15-takes-riders-into-alps-and-plateau-de-solaison-finish-live"
+      },
+      "time": {
+        "asserted": "2026-07-19T15:58:02.610Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "sports",
+        "citation": "https://www.theguardian.com/sport/live/2026/jul/19/tour-de-france-2026-stage-15-takes-riders-into-alps-and-plateau-de-solaison-finish-live"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "summary",
+      "proposition": {
+        "predicate": "summary",
+        "object": "<p> Stage updates, starting from 1.10pm CET/12.10pm BST<br> <a href=\"mailto:tanya.aldred.freelance@theguardian.com\">You can email Tanya</a> | <a href=\"https://www.theguardian.com/sport/2026/jul/01/tour-de-france-2026-stage-by-stage-guide-to-this-years-race\">Stage-by-stage guide</a> | <a href=\"https://www.theguardian.com/sport/2026/jul/02/tour-de-france-2026-full-team-by-team-guide\">Team guide</a></p><p><strong>The peloton will pedal</strong> away from Champagnole in about five minutes, with kilometre zero at 12.20.</p><p><strong>Doping control</strong> have been visiting in the night – Pogacar at 5am and Vingegaard at 2am – he isn’t impressed.</p> <a href=\"https://www.theguardian.com/sport/live/2026/jul/19/tour-de-france-2026-stage-15-takes-riders-into-alps-and-plateau-de-solaison-finish-live\">Continue reading...</a>"
+      },
+      "time": {
+        "asserted": "2026-07-19T15:58:02.610Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "sports",
+        "citation": "https://www.theguardian.com/sport/live/2026/jul/19/tour-de-france-2026-stage-15-takes-riders-into-alps-and-plateau-de-solaison-finish-live"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "published",
+      "proposition": {
+        "predicate": "published",
+        "object": "Sun, 19 Jul 2026 15:56:18 GMT"
+      },
+      "time": {
+        "asserted": "2026-07-19T15:58:02.610Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "sports",
+        "citation": "https://www.theguardian.com/sport/live/2026/jul/19/tour-de-france-2026-stage-15-takes-riders-into-alps-and-plateau-de-solaison-finish-live"
+      },
+      "status": "supported"
+    }
+  ]
+}

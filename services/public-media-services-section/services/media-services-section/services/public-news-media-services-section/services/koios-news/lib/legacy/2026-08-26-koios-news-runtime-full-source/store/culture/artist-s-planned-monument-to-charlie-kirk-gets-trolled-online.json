@@ -1,0 +1,69 @@
+{
+  "subject": "artist-s-planned-monument-to-charlie-kirk-gets-trolled-online",
+  "claims": [
+    {
+      "id": "title",
+      "proposition": {
+        "predicate": "title",
+        "object": "Artist’s Planned Monument to Charlie Kirk Gets Trolled Online"
+      },
+      "time": {
+        "asserted": "2026-07-18T04:08:36.538Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "culture",
+        "citation": "https://hyperallergic.com/artists-planned-monument-to-charlie-kirk-gets-trolled-online/"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "url",
+      "proposition": {
+        "predicate": "url",
+        "object": "https://hyperallergic.com/artists-planned-monument-to-charlie-kirk-gets-trolled-online/"
+      },
+      "time": {
+        "asserted": "2026-07-18T04:08:36.538Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "culture",
+        "citation": "https://hyperallergic.com/artists-planned-monument-to-charlie-kirk-gets-trolled-online/"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "summary",
+      "proposition": {
+        "predicate": "summary",
+        "object": "New York City sculptor Sergio Furnari is being raked over the coals online over his plan to unveil a memorial sculpture of slain right-wing podcaster Charlie Kirk in Times Square. Thousands have flocked to Furnari's Instagram comments to troll and threaten the forthcoming memorial, which will reportedly be unveiled on September 10 in recognition of the first anniversary of Kirk's assassination. Flurries of crude jokes and punchlines riffing off Kirk's political beliefs and the manner of his killing have piled up across Furnari's posts, continuing to push the boundaries of what is and isn't protected by free speech. Others have threatened to damage, vandalize, and urinate on the memorial, saying that NYC will show how it really feels about Kirk. Sergio Furnari's cast-steel memorial to Charlie Kirk in its final stages (photo courtesy the artist) “ Now what happens is that the more they threaten me, the more I want to make multiple statues,” Furnari said in a phone call with Hyperallergic . The artist has also created a crowdfunding page to help reach a goal of $150,000 for the sculpture's debut and future displays (he has raised ~$3,483 at the time of this article). Regarding the actual unveiling, Furnari is decidedly unconcerned about authorization and other regulations. “Permit from who?” he asked rhetorically. “Who's gotta give me a permit if today I wanna write a song, or sculpt a rose? ... God gave me permission.” Furnari, who moved from Sicily to NYC decades ago, is known for figurative sculptures, including a 2025 monument to Portuguese soccer star Cristiano Ronaldo . Concerning his commemoration of Kirk, the artist specified that he's neither a “MAGA guy,” nor does he agree with all of the Turning Point USA co-founder's views, but he appreciated his commitment to \"open dialogue\" strongly disagreed with the way his widow, Erika Kirk, has been treated by the media. “You know, when I used to see him before his death, I was like, 'Okay, this guy is crazy,'” Furnari said to Hyperallergic . He emphasized that he wished he could have debated Kirk in his life, especially noting that he disagreed with Kirk's stance on immigration. “ But it's all dialogue in that,” Furnari continued. “That's why I loved the guy.” Sergio Furnari with his sculpture of Charlie Kirk (photo Sergio Furnari) The sculpture of Kirk, who was fatally shot by a rooftop sniper while speaking at a Turning Point debate event at Utah Valley University last year, has him sitting and holding a microphone while wearing a crewneck emblazoned with the word “FREEDOM.” Shortly after Kirk was assassinated, the New College of Florida said it was going to commission a public sculpture of the right-wing activist with a microphone to signify its devotion to “defend and fight for free speech and civil discourse in American life.” Kirk's killing has proven to be polarizing worldwide because of his alignment and promotion of far-right ideals , as well as his public speaking appearances, which frequently stirred controversy because of their provocative and offensive content. Commenters on Furnari's posts have been stirring controversy themselves by thanking the artist for creating a new public restroom in Midtown. Others questioned why Kirk was deserving of a memorial as he was “just a podcaster.” Regardless, there are also plenty of fans who have expressed support for the Kirk memorial. “There are some people out there who love to dialogue on anything, and then there are others who think they have to use violence just because other people don't think like them,” Furnari said about the negativity. Additional comments trolling Furnari's Kirk statue posts on Instagram (screenshot via Instagram ) Kirk's death punctured the façade of the First Amendment as hundreds of people who celebrated or meme-d the incident, or simply made posts critical of Kirk's ideologies, were censored, doxxed, or professionally penalized. Among them was Karen Leader, a tenured associate professor of art history at Florida Atlantic University (FAU) who was placed on leave last year for reposting content criticizing Kirk's views. Whether or not the unveiling will take place on September 10 has yet to be seen, as Furnari has not coordinated with the Times Square Alliance for any type of event or display permit. In 2021, the city removed the artist's red heart sculpture , which was funded by a city-issued grant, from Central Park because he did not have a permit. “I'm not an activist, I'm an artist,” Furnari said."
+      },
+      "time": {
+        "asserted": "2026-07-18T04:08:36.538Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "culture",
+        "citation": "https://hyperallergic.com/artists-planned-monument-to-charlie-kirk-gets-trolled-online/"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "published",
+      "proposition": {
+        "predicate": "published",
+        "object": "Thu, 16 Jul 2026 21:40:56 GMT"
+      },
+      "time": {
+        "asserted": "2026-07-18T04:08:36.538Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "culture",
+        "citation": "https://hyperallergic.com/artists-planned-monument-to-charlie-kirk-gets-trolled-online/"
+      },
+      "status": "supported"
+    }
+  ]
+}

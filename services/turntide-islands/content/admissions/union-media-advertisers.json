@@ -1,0 +1,37 @@
+{
+  "type": "TTIUnionMediaAdvertiserRegistry",
+  "version": 1,
+  "status": "one-account-ready-four-discovered-awaiting-account-carrier",
+  "customer": "urn:ame:turntide-islands",
+  "chain": {
+    "caip2": "eip155:31337",
+    "chainId": 31337,
+    "rpcConfiguration": "TTI_EVM_RPC_URL",
+    "finalityDepth": 0,
+    "finalityPolicy": "local-anvil-instant-finality-pilot-only",
+    "typedCommitmentProjection": "0x2557627d61f85e5629b23b48d7226d0a9368d507",
+    "provider": "urn:ame:ethereum-services-section",
+    "deploymentCarrierSha256": "1292f3e1f4302f029f573086f3db6f9eb53c3098590a22dba15720430b77e9c6"
+  },
+  "enterprises": [
+    {
+      "actor": "urn:ame:youtube-channel-enterprise",
+      "nodeId": "youtube-channel-enterprise",
+      "status": "authentication-pilot-admitted",
+      "enterpriseId": "0x01bdabe05ac409509aa0e19517e90c63f464203f70984382a923bd9c13450390",
+      "account": "eip155:31337:0x86c16921b9c4a1d687e5b46cfb0168278450c396",
+      "accountAddress": "0x86c16921b9c4a1d687e5b46cfb0168278450c396",
+      "factory": "0x7bf3cf1176c4a037d3ea2a5ff3d480359ac65ecd",
+      "evidence": {
+        "packageManifestSha256": "663fabbde7f859d92132df93aef3b4453e23392dd61c394e9ac5e0a6cb85a002",
+        "accountCarrierSha256": "1b6d5e754c729ca571f92b4d8acd07ac561b58e7bec8b8487cfbc41b48f91293",
+        "accountRecutWitnessSha256": "38d763c9b0508e01056b384a043ba3b99fb15567050818a5f925277f91021fa8"
+      }
+    },
+    {"actor":"urn:ame:artificial-intelligence-youtube-channel-enterprise","nodeId":"artificial-intelligence-youtube-channel-enterprise","status":"discovered-awaiting-sovereign-account-carrier","account":null,"evidence":{"packageManifestSha256":"e176c5962895e2e69ddeddf20c7415e81744519644cca5d36052a26a74a0a921"}},
+    {"actor":"urn:ame:climate-youtube-channel-enterprise","nodeId":"climate-youtube-channel-enterprise","status":"discovered-awaiting-sovereign-account-carrier","account":null,"evidence":{"packageManifestSha256":"2d8c9a8a5c69e640dfa6ab45e0a093a1dfd12febdde71a8b1d0bce18142d75f4"}},
+    {"actor":"urn:ame:mathematics-youtube-channel-enterprise","nodeId":"mathematics-youtube-channel-enterprise","status":"discovered-awaiting-sovereign-account-carrier","account":null,"evidence":{"packageManifestSha256":"fb720a4a969cef4ceab41f74219ebdc58dbb0154fd5d4fd44cefe6dbe60b211c"}},
+    {"actor":"urn:ame:modern-business-youtube-channel-enterprise","nodeId":"modern-business-youtube-channel-enterprise","status":"discovered-awaiting-sovereign-account-carrier","account":null,"evidence":{"packageManifestSha256":"c5ddc6c967091206fc97ffb2b2325c73281daed211c3d29a7cf812d3bc12f219"}}
+  ],
+  "admissionRule": "Only status authentication-pilot-admitted plus an exact account-authored typed commitment can authenticate an enterprise. Discovery alone is never identity, delegation, a bid, revenue, or profit."
+}

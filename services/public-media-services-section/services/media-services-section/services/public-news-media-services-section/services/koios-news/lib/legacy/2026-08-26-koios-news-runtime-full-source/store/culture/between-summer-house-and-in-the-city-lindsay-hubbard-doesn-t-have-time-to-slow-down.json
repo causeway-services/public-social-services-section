@@ -1,0 +1,69 @@
+{
+  "subject": "between-summer-house-and-in-the-city-lindsay-hubbard-doesn-t-have-time-to-slow-down",
+  "claims": [
+    {
+      "id": "title",
+      "proposition": {
+        "predicate": "title",
+        "object": "Between ‘Summer House’ and ‘In the City,’ Lindsay Hubbard Doesn’t Have Time to Slow Down"
+      },
+      "time": {
+        "asserted": "2026-07-19T14:42:05.531Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "culture",
+        "citation": "https://www.hollywoodreporter.com/tv/tv-features/lindsay-hubbard-summer-house-season-11-filming-florastor-1236651239/"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "url",
+      "proposition": {
+        "predicate": "url",
+        "object": "https://www.hollywoodreporter.com/tv/tv-features/lindsay-hubbard-summer-house-season-11-filming-florastor-1236651239/"
+      },
+      "time": {
+        "asserted": "2026-07-19T14:42:05.531Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "culture",
+        "citation": "https://www.hollywoodreporter.com/tv/tv-features/lindsay-hubbard-summer-house-season-11-filming-florastor-1236651239/"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "summary",
+      "proposition": {
+        "predicate": "summary",
+        "object": "Hubbard is a busy woman, and that’s why she’s teamed up with Florastor in support of their new Digest + Skin Renew Probiotic to prioritize wellness amid the business in her personal and professional life."
+      },
+      "time": {
+        "asserted": "2026-07-19T14:42:05.531Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "culture",
+        "citation": "https://www.hollywoodreporter.com/tv/tv-features/lindsay-hubbard-summer-house-season-11-filming-florastor-1236651239/"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "published",
+      "proposition": {
+        "predicate": "published",
+        "object": "Sat, 18 Jul 2026 15:15:00 +0000"
+      },
+      "time": {
+        "asserted": "2026-07-19T14:42:05.531Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "culture",
+        "citation": "https://www.hollywoodreporter.com/tv/tv-features/lindsay-hubbard-summer-house-season-11-filming-florastor-1236651239/"
+      },
+      "status": "supported"
+    }
+  ]
+}

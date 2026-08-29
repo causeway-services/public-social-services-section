@@ -1,0 +1,69 @@
+{
+  "subject": "pay-gap-widens-as-uk-bosses-get-130-times-average-worker-s-salary",
+  "claims": [
+    {
+      "id": "title",
+      "proposition": {
+        "predicate": "title",
+        "object": "Pay gap widens as UK bosses get 130 times average worker’s salary"
+      },
+      "time": {
+        "asserted": "2026-07-20T00:18:21.917Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "economy",
+        "citation": "https://www.theguardian.com/business/2026/jul/20/uk-bosses-130-times-high-pay-worker-gap-widens"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "url",
+      "proposition": {
+        "predicate": "url",
+        "object": "https://www.theguardian.com/business/2026/jul/20/uk-bosses-130-times-high-pay-worker-gap-widens"
+      },
+      "time": {
+        "asserted": "2026-07-20T00:18:21.917Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "economy",
+        "citation": "https://www.theguardian.com/business/2026/jul/20/uk-bosses-130-times-high-pay-worker-gap-widens"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "summary",
+      "proposition": {
+        "predicate": "summary",
+        "object": "<p>In its final report the High Pay Centre says the median remuneration of a FTSE 100 CEO has risen to a record £5.06m</p><p>The bosses of Britain’s largest listed companies received record pay last year, fuelling the widest earnings gap with workers in eight years.</p><p>Median pay for FTSE 100 chief executives hit £5.06m in the last financial year, according to data released by the High Pay Centre, an 8.6% increase on £4.66m the previous year and the highest level on record.</p> <a href=\"https://www.theguardian.com/business/2026/jul/20/uk-bosses-130-times-high-pay-worker-gap-widens\">Continue reading...</a>"
+      },
+      "time": {
+        "asserted": "2026-07-20T00:18:21.917Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "economy",
+        "citation": "https://www.theguardian.com/business/2026/jul/20/uk-bosses-130-times-high-pay-worker-gap-widens"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "published",
+      "proposition": {
+        "predicate": "published",
+        "object": "Sun, 19 Jul 2026 23:01:39 GMT"
+      },
+      "time": {
+        "asserted": "2026-07-20T00:18:21.917Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "economy",
+        "citation": "https://www.theguardian.com/business/2026/jul/20/uk-bosses-130-times-high-pay-worker-gap-widens"
+      },
+      "status": "supported"
+    }
+  ]
+}

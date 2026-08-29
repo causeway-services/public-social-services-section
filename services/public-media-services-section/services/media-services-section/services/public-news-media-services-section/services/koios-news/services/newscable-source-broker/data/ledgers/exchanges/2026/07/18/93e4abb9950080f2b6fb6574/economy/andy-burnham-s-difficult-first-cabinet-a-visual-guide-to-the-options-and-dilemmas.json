@@ -1,0 +1,69 @@
+{
+  "subject": "andy-burnham-s-difficult-first-cabinet-a-visual-guide-to-the-options-and-dilemmas",
+  "claims": [
+    {
+      "id": "title",
+      "proposition": {
+        "predicate": "title",
+        "object": "Andy Burnham’s difficult first cabinet – a visual guide to the options and dilemmas"
+      },
+      "time": {
+        "asserted": "2026-07-18T08:09:57.084Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "economy",
+        "citation": "https://www.theguardian.com/politics/ng-interactive/2026/jul/17/andy-burnham-first-cabinet-options-visual-guide"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "url",
+      "proposition": {
+        "predicate": "url",
+        "object": "https://www.theguardian.com/politics/ng-interactive/2026/jul/17/andy-burnham-first-cabinet-options-visual-guide"
+      },
+      "time": {
+        "asserted": "2026-07-18T08:09:57.084Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "economy",
+        "citation": "https://www.theguardian.com/politics/ng-interactive/2026/jul/17/andy-burnham-first-cabinet-options-visual-guide"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "summary",
+      "proposition": {
+        "predicate": "summary",
+        "object": "<p>The Makerfield MP enters No 10 as prime minister on Monday. But who will he choose to join him at the table?</p><p>Keir Starmer is expected formally to resign as prime minister on Monday morning at Buckingham Palace, with Andy Burnham being invited to take on the role shortly afterwards. Once back in Downing Street mid-morning, Burnham will begin assembling his cabinet.</p> <a href=\"https://www.theguardian.com/politics/ng-interactive/2026/jul/17/andy-burnham-first-cabinet-options-visual-guide\">Continue reading...</a>"
+      },
+      "time": {
+        "asserted": "2026-07-18T08:09:57.084Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "economy",
+        "citation": "https://www.theguardian.com/politics/ng-interactive/2026/jul/17/andy-burnham-first-cabinet-options-visual-guide"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "published",
+      "proposition": {
+        "predicate": "published",
+        "object": "Fri, 17 Jul 2026 06:54:33 GMT"
+      },
+      "time": {
+        "asserted": "2026-07-18T08:09:57.084Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "economy",
+        "citation": "https://www.theguardian.com/politics/ng-interactive/2026/jul/17/andy-burnham-first-cabinet-options-visual-guide"
+      },
+      "status": "supported"
+    }
+  ]
+}
