@@ -15,9 +15,9 @@ const TARGET = Object.freeze({ packageRoot: "/home/emsenn/services/koios-news-ru
 // a later customer acceptance, because ScheduleDelivery binds the inspected
 // target closure into the schedule identity.
 const TARGET_BINDING = Object.freeze({
-  packageDigest: "ni:///sha-256;ohuN9iyYU5FtjXqyMGGpJ_Eabzfp3GjTkh_JcVoMK1o",
-  selectedBinDigest: "ni:///sha-256;tXHnX4I-Ulux5FO0QH4WpyolBJ92Nsu1lKObfNZSgdo",
-  runtimeClosureDigest: "ni:///sha-256;9L1tbCpXwa52xzJvSV19SyVnxLSPmMGY5OdZN_nsAgc",
+  packageDigest: "ni:///sha-256;0yKUqiN6oBx3OPLC1hlEH_bI75jh8krJrrpXlejffHY",
+  selectedBinDigest: "ni:///sha-256;GT6O4vInCdejn2thcqFIqCq137OIwKsJ3X8abxTMvgI",
+  runtimeClosureDigest: "ni:///sha-256;Y2IXvgUmtT1AtDfxyD3XFrSNkU7ERomL7OPd4Z6uBPs",
 });
 const DELIVERY_CAPABILITY = "urn:capability:koios-news:cold-red-gate:routine-publication:v1";
 const EFFECTS = Object.freeze(["provider-local-append-only-schedule", "provider-local-occurrence-reservation", "exact-advertised-target-operation-invocation"]);

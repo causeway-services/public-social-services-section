@@ -7,8 +7,9 @@ Cloudflare, or runs Wrangler.
 
 An authority holder uses it in this order:
 
-1. Create an unsigned canonical grant. The exact resulting UTF-8 bytes (with
-   the terminal LF) are taken to an independent signing device.
+1. Create an unsigned canonical grant. The canonical JSON object bytes are
+   taken to an independent signing device; the create-only artifact's terminal
+   storage LF is not part of the signed message.
 2. The signing device signs the canonical object bytes exactly as written. It
    returns only the unpadded-base64url 64-byte Ed25519 signature.
 3. Attach the returned signature against an independently configured public

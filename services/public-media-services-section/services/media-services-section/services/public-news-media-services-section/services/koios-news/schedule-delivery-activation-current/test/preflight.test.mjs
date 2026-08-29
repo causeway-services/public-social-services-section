@@ -35,9 +35,9 @@ test("offer preflight recognizes only the real provider offer law and never perm
       sourceActivity: solicitation.object.sourceActivity.id, customer: solicitation.actor, request,
       requestDigest: "ni:///sha-256;test-request", scheduleId: "ni:///sha-256;test-schedule",
       targetBinding: {
-        packageDigest: "ni:///sha-256;ohuN9iyYU5FtjXqyMGGpJ_Eabzfp3GjTkh_JcVoMK1o",
-        selectedBinDigest: "ni:///sha-256;tXHnX4I-Ulux5FO0QH4WpyolBJ92Nsu1lKObfNZSgdo",
-        runtimeClosureDigest: "ni:///sha-256;9L1tbCpXwa52xzJvSV19SyVnxLSPmMGY5OdZN_nsAgc",
+        packageDigest: "ni:///sha-256;0yKUqiN6oBx3OPLC1hlEH_bI75jh8krJrrpXlejffHY",
+        selectedBinDigest: "ni:///sha-256;GT6O4vInCdejn2thcqFIqCq137OIwKsJ3X8abxTMvgI",
+        runtimeClosureDigest: "ni:///sha-256;Y2IXvgUmtT1AtDfxyD3XFrSNkU7ERomL7OPd4Z6uBPs",
       },
       effects: ["provider-local-append-only-schedule", "provider-local-occurrence-reservation", "exact-advertised-target-operation-invocation"], operation: "invoke-service",
     },
@@ -51,7 +51,7 @@ test("offer preflight recognizes only the real provider offer law and never perm
     const preflight = JSON.parse(result.stdout);
     assert.equal(preflight.offerLawShapeVerified, true);
     assert.equal(preflight.targetBindingVerified, true);
-    assert.equal(preflight.targetBinding.runtimeClosureDigest, "ni:///sha-256;9L1tbCpXwa52xzJvSV19SyVnxLSPmMGY5OdZN_nsAgc");
+    assert.equal(preflight.targetBinding.runtimeClosureDigest, "ni:///sha-256;Y2IXvgUmtT1AtDfxyD3XFrSNkU7ERomL7OPd4Z6uBPs");
     assert.equal(preflight.providerAuthorityAuthenticated, false);
     assert.equal(preflight.acceptanceProduced, false);
     assert.equal(preflight.activationPermitted, false);

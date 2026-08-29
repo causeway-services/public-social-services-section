@@ -268,12 +268,23 @@ served production observation. Editorial and Cloudflare private keys, grants,
 replay records, observations, and receipts remain mode-0600 outside Git under
 the operator activation root.
 
-The scheduler is active, but routine *content supply* still requires rotating
-the selected job to a newly admitted manuscript and unused editorial grant
-before its due occurrence. Reusing the current fixed job cannot publish a new
-story. Treat that rotation queue and release handoff as the next content-mill
-automation boundary; do not confuse a healthy timer with an infinite article
-supply.
+The fixed-job schedule was atomically transitioned to the queue-capable daily
+schedule `ni:///sha-256;rtbyUMRWKEX9hbrdy6lFki-7KLvd3KhI5qk1P_1_RPI`, first
+due at `2026-08-30T14:00:00.000Z`. Its inspected target binding is package
+`ni:///sha-256;0yKUqiN6oBx3OPLC1hlEH_bI75jh8krJrrpXlejffHY`, selected bin
+`ni:///sha-256;GT6O4vInCdejn2thcqFIqCq137OIwKsJ3X8abxTMvgI`, and runtime
+closure `ni:///sha-256;Y2IXvgUmtT1AtDfxyD3XFrSNkU7ERomL7OPd4Z6uBPs`.
+The predecessor was retired in the same provider-owned transition. Cold Red
+Gate now selects one immutable routine-job file per pulse, records the claim
+under the durable replay root, and keeps retries bound to the same exact job.
+
+The first queued manuscript is the independently admitted and exactly signed
+Atlantic mackerel report. Its baseline is the current 457-artifact production
+manifest, so forming the next candidate retains the already published Alex
+Odeh report. Queue supply still requires fresh reporting, independent
+admission, and a finite editorial grant for each story. Cloudflare preview and
+release remain a separate effect boundary after offline candidate formation;
+do not confuse a healthy content queue with an unattended production release.
 
 The separate [`schedule-delivery-activation-current`](schedule-delivery-activation-current/README.md)
 package can form and structurally preflight the current provider-law
