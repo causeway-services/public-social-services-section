@@ -43,7 +43,7 @@ aggregate. Passing a check proves only the boundary named by that check.
   before effects when any job, trust, freshness, admission, or replay condition
   is absent. It never deploys the candidate.
 - Cold Red Gate's fixed target path now contains only the minimal Guix-built
-  package: `package.json` and the five declared runtime files. The clean
+  package: `package.json` and the six declared runtime files. The clean
   historical aggregate was moved intact to
   `/home/emsenn/services/koios-news-aggregate-preserved-20260829`; it is
   preservation evidence, not the scheduled target.
@@ -113,6 +113,62 @@ and exercises release plus rollback binding through an injected executor. This
 proves composition and separation of the current boundaries without using a
 production key, credential, network request, provider schedule, Wrangler
 process, or publication effect. It is not evidence of a live release.
+
+## Read-only production audit and alert boundary
+
+Run the production audit with the receipts available to the operator:
+
+```sh
+node bin/koios-news-production-audit.mjs \
+  --release-receipt /path/to/cloudflare-release-receipt.json \
+  --schedule-transition-receipt /path/to/schedule-transition-receipt.json \
+  --scheduler-tick /path/to/latest-scheduler-tick.json \
+  --backup-receipt /path/to/off-provider-backup-receipt.json \
+  --restore-receipt /path/to/fresh-restore-receipt.json
+```
+
+The command is read-only and always emits one JSON audit. It checks the live
+manifest against the Cloudflare release receipt, samples sealed public assets,
+probes the feed, sitemap, operations, newswire audit, ActivityPub actor, and
+WebFinger, and checks schedule and recovery receipts. It exits nonzero whenever
+`alertRequired` is true, so a timer or monitor can use the exit status without
+scraping prose.
+
+An on-provider rollback version is not an off-provider backup. Missing backup
+or fresh-restore evidence produces `status: "degraded"`, `recoveryReady: false`,
+and a nonzero exit. Backup evidence must be an accepted
+`koios.news.off-provider-backup-receipt/v1` bound to the live production
+manifest and sealed backup object; restore evidence must be an accepted
+`koios.news.fresh-restore-receipt/v1` binding that same production manifest to
+the freshly restored manifest. Arbitrary JSON does not satisfy either check.
+A scheduler receipt that reports `transport-failure` or a
+`targetResponseProblem` remains a failure even if the child process exited zero
+and says `offline-candidate-written`; that contradiction needs operator review,
+not a green timer dashboard.
+
+Create the recovery evidence in an operator-owned location outside the
+activation and Cloudflare trees. Both destination directories and both receipt
+paths must be absent; the tool never overwrites them:
+
+```sh
+node bin/koios-news-production-recovery.mjs backup \
+  --source /path/to/exact/public \
+  --backup /operator/backups/koios-news/RELEASE/public \
+  --receipt /operator/backups/koios-news/RELEASE/backup-receipt.json
+
+node bin/koios-news-production-recovery.mjs restore \
+  --backup /operator/backups/koios-news/RELEASE/public \
+  --backup-receipt /operator/backups/koios-news/RELEASE/backup-receipt.json \
+  --restore /operator/backups/koios-news/RELEASE/restore-rehearsal/public \
+  --receipt /operator/backups/koios-news/RELEASE/restore-receipt.json
+```
+
+Backup validates every manifest-sealed artifact, rejects symlinks and extra
+files, copies exact bytes, revalidates the copy, and seals the full directory
+tree. Restore first revalidates that seal, copies into a fresh directory, then
+revalidates every artifact and the full tree before issuing its receipt. These
+receipts prove this local copy and rehearsal; they do not by themselves prove
+geographic separation or durable retention policy.
 
 ## Build a continuity candidate and test the parity gate
 

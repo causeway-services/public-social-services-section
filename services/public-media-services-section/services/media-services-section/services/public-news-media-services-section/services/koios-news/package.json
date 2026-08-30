@@ -6,6 +6,8 @@
   "bin": {
     "describe-service": "./src/service-section.mjs",
     "settle-message": "./src/service-section.mjs",
+    "koios-news-production-audit": "./bin/koios-news-production-audit.mjs",
+    "koios-news-production-recovery": "./bin/koios-news-production-recovery.mjs",
     "koios-news-routine-operation": "./bin/koios-news-routine-operation.mjs",
     "solicit-admissible-research-packet": "./src/contract-admissible-research-packet.mjs",
     "invoke-admissible-research-packet": "./src/contract-admissible-research-packet.mjs",
@@ -14,7 +16,7 @@
     "settle-mathematics-research-delivery": "./src/contract-mathematics-research-intake.mjs"
   },
   "scripts": {
-    "check": "node --check bin/koios-news-routine-operation.mjs && node --check src/contract-licensed-editorial-state.mjs && node --check src/contract-admissible-research-packet.mjs && node --check src/contract-mathematics-research-intake.mjs && node --check src/service-section.mjs",
+    "check": "node --check bin/koios-news-production-audit.mjs && node --check bin/koios-news-production-recovery.mjs && node --check bin/koios-news-routine-operation.mjs && node --check src/production-audit.mjs && node --check src/production-recovery.mjs && node --check src/contract-licensed-editorial-state.mjs && node --check src/contract-admissible-research-packet.mjs && node --check src/contract-mathematics-research-intake.mjs && node --check src/service-section.mjs",
     "describe": "node src/service-section.mjs describe",
     "settle": "node src/service-section.mjs settle-message",
     "test": "node --test test/*.test.mjs",
