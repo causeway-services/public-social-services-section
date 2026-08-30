@@ -112,6 +112,8 @@ test("writes a marked two-phase offline candidate without changing source bytes 
     assert.equal(receipt.provenance.transition.sourceMutated, false);
     assert.equal(receipt.authority.kind, "Ed25519");
     assert.equal(receipt.authority.scope, "exact-manuscript");
+    assert.equal(receipt.authority.issuedAt, "2026-08-29T00:00:00.000Z");
+    assert.equal(receipt.authority.expiresAt, "2026-08-30T00:00:00.000Z");
     assert.match(receipt.staticCarrier.manifestSha256, /^sha256:[a-f0-9]{64}$/u);
     assert.ok(receipt.staticCarrier.artifactCount > 0);
     assert.equal(receipt.provenance.baseline.artifactCount, 1);

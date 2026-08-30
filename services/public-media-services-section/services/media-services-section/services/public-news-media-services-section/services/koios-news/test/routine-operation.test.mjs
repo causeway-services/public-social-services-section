@@ -108,6 +108,7 @@ test("routine operation preflight proves the selected signed job without consumi
     assert.equal(report.ready, true);
     assert.equal(report.jobId, "scheduled-job-id-0001");
     assert.equal(report.authorityScope, "exact-manuscript");
+    assert.deepEqual(report.authorityValidity, { issuedAt: "2026-08-29T00:00:00.000Z", expiresAt: "2026-08-30T00:00:00.000Z" });
     assert.equal(report.baseline.artifactCount, 1);
     assert.deepEqual(report.effects, []);
     assert.equal(existsSync(fixture.candidate), false);

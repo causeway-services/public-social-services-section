@@ -100,7 +100,7 @@ if (process.argv[2] === "preflight") {
   try {
     const index = process.argv.indexOf("--now"), now = canonicalInstant(index < 0 ? undefined : process.argv[index + 1], "preflight --now");
     const job = selectedJob({ operation: "form-offline-candidate" }, now, false), plan = planRoutinePublication(job);
-    process.stdout.write(`${JSON.stringify({ type: "KoiosRoutineOperationPreflight", ready: true, jobId: job.jobId, slug: plan.candidate.slug, authorityScope: plan.provenance.authority.scope, sourceSha256: plan.candidate.sourceSha256, baseline: plan.provenance.baseline, executionMode: plan.provenance.runtime.executionMode, queueReservation: job.queueReservation === undefined ? undefined : { jobName: job.queueReservation.jobName, jobSha256: job.queueReservation.jobSha256 }, effects: [] }, null, 2)}\n`);
+    process.stdout.write(`${JSON.stringify({ type: "KoiosRoutineOperationPreflight", ready: true, jobId: job.jobId, slug: plan.candidate.slug, authorityScope: plan.provenance.authority.scope, authorityValidity: { issuedAt: plan.provenance.authority.issuedAt, expiresAt: plan.provenance.authority.expiresAt }, sourceSha256: plan.candidate.sourceSha256, baseline: plan.provenance.baseline, executionMode: plan.provenance.runtime.executionMode, queueReservation: job.queueReservation === undefined ? undefined : { jobName: job.queueReservation.jobName, jobSha256: job.queueReservation.jobSha256 }, effects: [] }, null, 2)}\n`);
   } catch (error) {
     process.stderr.write(`koios-news-routine-operation preflight: ${error instanceof Error ? error.message : String(error)}\n`);
     process.exitCode = 2;

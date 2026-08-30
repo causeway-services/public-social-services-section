@@ -54,6 +54,8 @@ test("a real Ed25519 exact-manuscript grant binds bytes and is consumed once", (
   assert.equal(result.ok, true);
   assert.equal(result.consumed, true);
   assert.equal(result.scope, "exact-manuscript");
+  assert.equal(result.issuedAt, "2098-12-31T00:00:00.000Z");
+  assert.equal(result.expiresAt, "2099-01-02T00:00:00.000Z");
   assert.throws(() => consumePublicationAuthority({ replayStore: store, grantSource: source, authorityKeys: authority.keys, manuscriptSource: manuscript, manuscriptSlug: "exact", now }), /already been consumed/u);
   assert.throws(() => verifyPublicationAuthority({ grantSource: source, authorityKeys: authority.keys, manuscriptSource: `${manuscript}tampered`, manuscriptSlug: "exact", now }), /does not bind/u);
 });
@@ -77,6 +79,7 @@ test("a standing policy admits distinct independently assessed manuscripts but n
     const call = () => consumePublicationAuthority({ replayStore: store, grantSource, authorityKeys: authority.keys, assessmentReceiptSource: receiptSource, assessmentKeys: assessor.keys, manuscriptSource: input, manuscriptSlug: slug, now });
     const result = call();
     assert.equal(result.scope, "standing-policy");
+    assert.equal(result.expiresAt, "2099-01-02T00:00:00.000Z");
     assert.equal(result.assessmentId, `assessment-id-000${index + 1}`);
     assert.throws(call, /already been consumed/u);
   }

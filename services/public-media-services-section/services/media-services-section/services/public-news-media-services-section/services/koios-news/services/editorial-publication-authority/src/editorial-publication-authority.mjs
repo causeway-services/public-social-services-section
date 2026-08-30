@@ -118,7 +118,7 @@ export function verifyPublicationAuthority({ grantSource, authorityKeys, manuscr
     exactKeys(grant.scope, ["manuscript", "type"], "exact-manuscript scope");
     manuscript(grant.scope.manuscript, "publication grant");
     if (grant.scope.manuscript.digest !== manuscriptDigest || grant.scope.manuscript.slug !== manuscriptSlug) fail("exact-manuscript grant does not bind the supplied exact manuscript bytes and slug");
-    return Object.freeze({ ok: true, grantId: grant.grantId, consumptionId: `grant:${grant.grantId}`, scope: "exact-manuscript", manuscriptSlug, manuscriptDigest, grantDigest: sha256(grantSource) });
+    return Object.freeze({ ok: true, grantId: grant.grantId, issuedAt: grant.issuedAt, expiresAt: grant.expiresAt, consumptionId: `grant:${grant.grantId}`, scope: "exact-manuscript", manuscriptSlug, manuscriptDigest, grantDigest: sha256(grantSource) });
   }
   if (grant.scope.type === "standing-policy") {
     exactKeys(grant.scope, ["policyDigest", "type"], "standing-policy scope");
@@ -126,7 +126,7 @@ export function verifyPublicationAuthority({ grantSource, authorityKeys, manuscr
     const assessment = verifyAssessmentReceipt({ receiptSource: assessmentReceiptSource, assessmentKeys, manuscriptSource, manuscriptSlug, now });
     if (assessment.receipt.policyDigest !== grant.scope.policyDigest) fail("standing-policy grant does not bind the independently verified assessment policy");
     const consumptionId = sha256(Buffer.from(canonicalJson({ grantId: grant.grantId, manuscriptDigest }), "utf8"));
-    return Object.freeze({ ok: true, grantId: grant.grantId, consumptionId, scope: "standing-policy", manuscriptSlug, manuscriptDigest, grantDigest: sha256(grantSource), assessmentReceiptDigest: assessment.digest, assessmentId: assessment.receipt.assessmentId });
+    return Object.freeze({ ok: true, grantId: grant.grantId, issuedAt: grant.issuedAt, expiresAt: grant.expiresAt, consumptionId, scope: "standing-policy", manuscriptSlug, manuscriptDigest, grantDigest: sha256(grantSource), assessmentReceiptDigest: assessment.digest, assessmentId: assessment.receipt.assessmentId });
   }
   fail("publication grant scope type is not recognized");
 }
