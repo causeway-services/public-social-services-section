@@ -7,10 +7,10 @@ Cloudflare, or runs Wrangler.
 
 An authority holder uses it in this order:
 
-1. Create an unsigned canonical grant. The canonical JSON object bytes are
+1. Create an unsigned grant. The JSON object bytes are
    taken to an independent signing device; the create-only artifact's terminal
    storage LF is not part of the signed message.
-2. The signing device signs the canonical object bytes exactly as written. It
+2. The signing device signs the object bytes exactly as written. It
    returns only the unpadded-base64url 64-byte Ed25519 signature.
 3. Attach the returned signature against an independently configured public
    key map. The tool refuses weak Ed25519 encodings, an untrusted issuer, or a
@@ -39,7 +39,7 @@ node tools/authority-ceremony-current/bin/koios-news-authority-ceremony.mjs firs
   --out /secure/koios-authority/alex-first-post-handoff.json
 ```
 
-The resulting canonical JSON names the exact digest and byte count and lists
+The resulting JSON names the exact digest and byte count and lists
 only the separately supplied admission and signed-authority boundaries. The
 ordinary `editorial-template`, `attach`, and `verify-editorial` sequence below
 remains the only route to a signed editorial grant.
@@ -100,7 +100,7 @@ the grant before it invokes Wrangler.
 
 After independently observing the current production version ID, form the
 separate rollback binding from that explicit value and the exact release
-binding file. This command only reads the binding and creates one canonical
+binding file. This command only reads the binding and creates one
 mode-`0600` file; it does not read credentials, contact Cloudflare, sign
 anything, or execute a rollback. It verifies both the input binding and the
 new output through `cloudflare-release-current`'s fixed-target contracts.

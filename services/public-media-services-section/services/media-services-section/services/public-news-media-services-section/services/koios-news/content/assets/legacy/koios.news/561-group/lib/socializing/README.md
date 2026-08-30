@@ -26,7 +26,7 @@ The **diagonal** lifts are subordinate per-observer semiosis.
 | verb | reading | what it does |
 |---|---|---|
 | `admit` | **grow `O`** (scale-2-native) | append an observer and grow the observer category (default `completeTranslations`). One observer = a discrete `O` = communicating. |
-| `merge` | **CRDT `∨_k`** (scale-2-native) | observer `to` becomes `V(to) ∨_k V(from)` cellwise (charges over a shared cell `joinKnowledge`-d, emitted in canonical normal form). Monotone, idempotent; requires adjacency. No single-agent analog. |
+| `merge` | **CRDT `∨_k`** (scale-2-native) | observer `to` becomes `V(to) ∨_k V(from)` cellwise (charges over a shared cell `joinKnowledge`-d, emitted in normal form). Monotone, idempotent; requires adjacency. No single-agent analog. |
 | `settle` | **social settling** (scale-2-native) | iterate the synchronous gossip-merge across settling stages τ to the quiescent limit v∞; record the settling depth κ (the closure ordinal = the graph eccentricity) in `section.closureOrdinal`. CRDT convergence, no consensus protocol. |
 | `glue` | **Mayer–Vietoris** (scale-2-native) | present a node's H⁰ global section by ∨_k-merging its replica-cover `{o_i → target}` into it; the cover's δ⁰/H¹ obstruction and Čech overlaps are exposed by `replicaCoverConsensus`. The static Čech complement to `settle`. |
 | `translate` | **`V(α)`** (off-diagonal) | carry observer `from`'s memes across a directed translation morphism into observer `to`'s frame, re-signed by communicating's `translate`; `from` unchanged. |

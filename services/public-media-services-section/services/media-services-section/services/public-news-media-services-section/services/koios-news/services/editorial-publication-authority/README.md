@@ -4,17 +4,17 @@ This package only verifies externally issued authority. It has no private-key
 handling, key generation, signing operation, issuer registry, policy chooser,
 or default trusted key. A caller must independently configure both trust roots.
 
-Grant and assessment files are canonical JSON: recursively lexicographic keys,
+Grant and assessment files are JSON: recursively lexicographic keys,
 no insignificant whitespace, and exactly one final LF. The Ed25519 signature
-covers the canonical UTF-8 JSON object with `signature` omitted. Public keys
+covers the UTF-8 JSON object with `signature` omitted. Public keys
 and signatures are unpadded base64url encodings of respectively 32 and 64 raw
 bytes. Key identifiers, grant identifiers, slugs, SHA-256 digests, and UTC
 timestamps are deliberately narrow so two implementations cannot silently
 reinterpret a signed authority.
 
 Key and signature admission is strict across Node/OpenSSL versions: public keys
-and signature `R` values must be canonical non-small-order Ed25519 points, and
-the signature scalar must be canonical. This package does not rely on the host
+and signature `R` values must be non-small-order Ed25519 points, and
+the signature scalar must be. This package does not rely on the host
 runtime to reject low-order encodings.
 
 `verifyPublicationAuthority` validates a supplied exact manuscript against one

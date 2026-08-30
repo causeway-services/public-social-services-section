@@ -14,7 +14,7 @@ advance. It holds.
 
 - [Worlding guide](texts/worlding-guide.md) — master reference. Defines
   field, basin, clinic, characters, locations, narrative structure,
-  tonal constraints, and AI storymaker protocol. Canonical for any
+  tonal constraints, and AI storymaker protocol. for any
   question about the storyworld.
 - [Project frame](texts/project-frame.md) — abridged manifesto: the
   fiction project's tonal and structural commitments at a glance.
@@ -32,7 +32,7 @@ advance. It holds.
   Zinar Swamp), and a witness-by-witness audit of every prior draft.
 - [Praxonic overlay](texts/praxonic-overlay.md) — a synthetic-vocabulary
   reframing of Hevi Mala ("the recursive emission of care under
-  collapse"). Explicitly bracketed off from the canonical project by
+  collapse"). Explicitly bracketed off from the project by
   its own source material; kept as an inactive interpretive layer, not
   active canon.
 

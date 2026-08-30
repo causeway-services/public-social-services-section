@@ -69,7 +69,7 @@ npm test
 ```
 
 runs the public settlement's integration tests. Engineering and Community
-Operations verify independently in their canonical sections; each remaining
+Operations verify independently in their sections; each remaining
 `services/*` package also provides its own `npm test` command.
 
 ## Deployment

@@ -24,7 +24,7 @@ For an explicit continuity migration, add `--production-baseline
 v1 `manifest.json` or the legacy production `koios.static-publication-manifest`
 with its exact cutover profile and authority. Each listed artifact must be a
 regular file on a safe relative path whose byte count and SHA-256 (including
-canonical `ni:///sha-256;` legacy digests) match before staging begins.
+`ni:///sha-256;` legacy digests) match before staging begins.
 Verified files are copied into fresh staging and current corpus-dependent routes
 are generated over them; the final manifest seals both retained and regenerated artifacts.
 Symlinks, traversal, missing/corrupt artifacts, control files, and known
@@ -55,8 +55,8 @@ public tag vocabulary. License URLs must be credential-free HTTPS URLs.
 ## Intentional parity limits
 
 This is the routine public surface, not a replacement for the retained
-application. Article pages carry a canonical URL, `NewsArticle` JSON-LD, and
-microformats `h-entry`; supplied legacy paths become canonical HTML continuation
+application. Article pages carry a URL, `NewsArticle` JSON-LD, and
+microformats `h-entry`; supplied legacy paths become HTML continuation
 pages. Actual HTTP 3xx rules, topic/archive pages, fingerprints, ads, view
 collection, mutable operations, editorial-ledger adjudication, and Cloudflare
 delivery/cutover authority remain outside this carrier. Its front-matter audit

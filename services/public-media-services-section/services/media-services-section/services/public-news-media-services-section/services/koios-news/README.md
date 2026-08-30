@@ -32,7 +32,7 @@ functions now live in small package-local carriers:
   verifies externally supplied Ed25519 exact-manuscript or receipt-bound
   standing-policy authority, without creating keys, grants, policy, or trust;
 - [`tools/authority-ceremony-current`](tools/authority-ceremony-current/README.md)
-  prepares canonical unsigned authority artifacts, verifies externally made
+  prepares unsigned authority artifacts, verifies externally made
   signatures against public-key maps, and writes path-only routine artifacts
   without ever accepting an admission or handling a private key;
 - [`routine-publication-current`](routine-publication-current/README.md) forms

@@ -30,12 +30,12 @@ node bin/koios-news-cloudflare-release.mjs plan \
 ```
 
 The binding digest is SHA-256 of the exact binding-file bytes—not reserialized
-JSON. A grant is canonical exact JSON carrying an Ed25519 signature. Its scope
+JSON. A grant is exact JSON carrying an Ed25519 signature. Its scope
 binds one action (`preview` or `release`), that binding digest, the exact
 candidate-manifest digest, and the complete fixed Cloudflare target. The
 signing key must be present in a separately configured trusted-key map; the
 carrier has no signing capability. Issued and expiry times are compared only
-to the explicit canonical `--now` input, never an ambient process clock.
+to the explicit `--now` input, never an ambient process clock.
 Rollback records also bind the exact binding bytes.
 
 The checked-in binding is public topology, not a credential or release grant.
@@ -63,7 +63,7 @@ koios-news-primary --json` readback, records its deployment and version IDs,
 then requires an explicit observation URL and byte-compares the served
 `manifest.json` and every publicly served, non-provider-managed sealed asset
 before it writes the immutable success receipt. Directory indexes use
-Cloudflare's canonical directory routes, `404.html` is observed at `/404`, and
+Cloudflare's directory routes, `404.html` is observed at `/404`, and
 `_headers` is recorded as deployment configuration rather than a public asset.
 The zone-managed `robots.txt` transform is bounded and recorded with its
 observed digest and size instead of being falsely claimed as byte-identical to

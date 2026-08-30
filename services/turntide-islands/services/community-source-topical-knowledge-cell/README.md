@@ -43,7 +43,7 @@ Runs `node --check` over `src/*.mjs` and `test/*.test.mjs`, then
   projection of a reconciled record.
 - `fulfillCommunityKnowledgeQuery(query, records, evaluationInstantIso)` —
   answers a topic/id/since query against a corpus of reconciled records.
-- `contentDigest(value)` — the canonical `sha256:...` content digest used
+- `contentDigest(value)` — the `sha256:...` content digest used
   throughout the module.
 - `WITHHELD_EFFECTS` — the frozen list of effects this module never performs
   itself: `discord-write`, `message-text-import`,

@@ -6,7 +6,7 @@ This package does not project an actor at `koios.news/activitypub/actor`.
 The CLI requires explicit private `ACTIVITYPUB_SQLITE_PATH`,
 `ACTIVITYPUB_KEYS_PATH`, and `ACTIVITYPUB_INBOX_BEARER_TOKEN_FILE` paths. It
 builds the durable SQLite KV store, queue, and verified-arrival custody from
-the canonical ActivityPub services package. Programmatic callers may instead
+the ActivityPub services package. Programmatic callers may instead
 inject durable adapters. `createRetainedInbox()` remains a JSONL compatibility
 and migration utility, not the live CLI custody path.
 
