@@ -1,0 +1,12 @@
+{
+  "name": "@causeway-services/tti-zelo-member-lifecycle-adapter-service",
+  "version": "0.1.0",
+  "type": "module",
+  "description": "Public Turntide Islands lifecycle configuration adapter for Zelo shadow review.",
+  "scripts": {
+    "check": "node --check src/*.mjs",
+    "test": "node --test test/*.test.mjs",
+    "verify": "npm run check && npm test"
+  },
+  "engines": { "node": ">=22.18" }
+}
