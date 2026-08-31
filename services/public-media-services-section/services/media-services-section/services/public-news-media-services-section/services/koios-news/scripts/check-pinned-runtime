@@ -7,5 +7,5 @@ script_directory=$(CDPATH='' cd -- "$(dirname -- "$0")" && pwd)
 service_directory=$(CDPATH='' cd -- "$script_directory/.." && pwd)
 repository_root=$(cd -- "$script_directory" && git rev-parse --show-toplevel)
 
-exec "$repository_root/scripts/guix/run-pinned" \
+exec "$repository_root/scripts/run-pinned-guix.sh" \
   shell -f "$service_directory/koios-news.scm" --dry-run
