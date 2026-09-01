@@ -1,0 +1,69 @@
+{
+  "subject": "jim-gilstrap-singer-on-good-times-theme-and-stevie-wonder-s-you-are-the-sunshine-of-my-life-dies-at-79",
+  "claims": [
+    {
+      "id": "title",
+      "proposition": {
+        "predicate": "title",
+        "object": "Jim Gilstrap, Singer on ‘Good Times’ Theme and Stevie Wonder’s “You Are the Sunshine of My Life,” Dies at 79"
+      },
+      "time": {
+        "asserted": "2026-07-20T03:58:03.557Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "culture",
+        "citation": "https://www.hollywoodreporter.com/music/music-news/jim-gilstrap-dead-singer-good-times-theme-you-are-the-sunshine-of-my-life-1236651897/"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "url",
+      "proposition": {
+        "predicate": "url",
+        "object": "https://www.hollywoodreporter.com/music/music-news/jim-gilstrap-dead-singer-good-times-theme-you-are-the-sunshine-of-my-life-1236651897/"
+      },
+      "time": {
+        "asserted": "2026-07-20T03:58:03.557Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "culture",
+        "citation": "https://www.hollywoodreporter.com/music/music-news/jim-gilstrap-dead-singer-good-times-theme-you-are-the-sunshine-of-my-life-1236651897/"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "summary",
+      "proposition": {
+        "predicate": "summary",
+        "object": "He also had a solo hit in 1975 with \"Swing Your Daddy.\""
+      },
+      "time": {
+        "asserted": "2026-07-20T03:58:03.557Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "culture",
+        "citation": "https://www.hollywoodreporter.com/music/music-news/jim-gilstrap-dead-singer-good-times-theme-you-are-the-sunshine-of-my-life-1236651897/"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "published",
+      "proposition": {
+        "predicate": "published",
+        "object": "Mon, 20 Jul 2026 02:28:19 +0000"
+      },
+      "time": {
+        "asserted": "2026-07-20T03:58:03.557Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "culture",
+        "citation": "https://www.hollywoodreporter.com/music/music-news/jim-gilstrap-dead-singer-good-times-theme-you-are-the-sunshine-of-my-life-1236651897/"
+      },
+      "status": "supported"
+    }
+  ]
+}

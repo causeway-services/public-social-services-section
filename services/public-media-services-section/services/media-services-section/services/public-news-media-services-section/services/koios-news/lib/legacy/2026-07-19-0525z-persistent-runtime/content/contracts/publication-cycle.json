@@ -1,0 +1,31 @@
+{
+  "kind": "publication-owned-operation-contract",
+  "id": "koios.news/publication-cycle/v1",
+  "owner": "koios.news",
+  "service": "compose one admitted publication pulse through the exact assignment, newsroom, candidate, and delivery boundaries",
+  "ingress": "one externally authored ActivityStreams Create<NewsroomIssueDemand> carrying an admitted Clockkeeper actor-capability pair",
+  "preconditions": [
+    "operate-issue is advertised by Koios with this exact contract",
+    "the issue controller settles the exact pulse before any newsroom work begins",
+    "only an accepted controller settlement may nominate the assignment supplied to the newsroom circuit"
+  ],
+  "postconditions": [
+    "a controller refusal is returned byte-for-byte as the terminal response",
+    "a newsroom refusal or obstruction returns one typed PublicationCycleSettlement naming the earliest observed failure and required next demand",
+    "editorially accepted work produces one verified production-indexable cutover candidate, never a shadow artifact",
+    "candidate formation returns a StaticPublicationDeliveryDemand and does not claim live publication before Cloudflare delivery settles",
+    "every terminal result is appended to Koios's contract-event ledger and is suitable for a Clockkeeper delivery receipt"
+  ],
+  "prohibitions": [
+    "Clockkeeper does not source, write, edit, publish, deploy, retry, or repair",
+    "the composed operation does not impersonate Newscable, Corpus Management, LISS, editorial assessment, or Cloudflare delivery",
+    "a local candidate is never represented as live public delivery",
+    "no hidden provider fallback and no ambient customer or provider filesystem authority"
+  ],
+  "currentClosure": {
+    "controller": "executing",
+    "newsroom": "executing only where its sovereign provider carriers are reachable",
+    "candidate": "executing",
+    "cloudflareDelivery": "missing standing post-publication contract; successful candidate formation therefore returns Question"
+  }
+}

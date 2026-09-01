@@ -1,0 +1,69 @@
+{
+  "subject": "every-year-6-student-to-be-given-katherine-rundell-book-for-christmas",
+  "claims": [
+    {
+      "id": "title",
+      "proposition": {
+        "predicate": "title",
+        "object": "Every year 6 student to be given Katherine Rundell book for Christmas"
+      },
+      "time": {
+        "asserted": "2026-07-19T02:20:03.765Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "culture",
+        "citation": "https://www.theguardian.com/books/2026/jul/17/every-year-6-student-to-be-given-katherine-rundell-book-for-christmas"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "url",
+      "proposition": {
+        "predicate": "url",
+        "object": "https://www.theguardian.com/books/2026/jul/17/every-year-6-student-to-be-given-katherine-rundell-book-for-christmas"
+      },
+      "time": {
+        "asserted": "2026-07-19T02:20:03.765Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "culture",
+        "citation": "https://www.theguardian.com/books/2026/jul/17/every-year-6-student-to-be-given-katherine-rundell-book-for-christmas"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "summary",
+      "proposition": {
+        "predicate": "summary",
+        "object": "<p>More than 800,000 copies of Impossible Creatures will be distributed to year 6 and P6 children through The Queen’s Christmas Present initiative</p><p>Every child in year 6 in England, Wales and Northern Ireland, and P6 in Scotland, will be given the bestselling book Impossible Creatures by Katherine Rundell this Christmas, to coincide with the end of the government’s National Year of Reading.</p><p>Queen Camilla announced the initiative, called The Queen’s Christmas Present, to mark her birthday on Friday.</p> <a href=\"https://www.theguardian.com/books/2026/jul/17/every-year-6-student-to-be-given-katherine-rundell-book-for-christmas\">Continue reading...</a>"
+      },
+      "time": {
+        "asserted": "2026-07-19T02:20:03.765Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "culture",
+        "citation": "https://www.theguardian.com/books/2026/jul/17/every-year-6-student-to-be-given-katherine-rundell-book-for-christmas"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "published",
+      "proposition": {
+        "predicate": "published",
+        "object": "Fri, 17 Jul 2026 16:51:24 GMT"
+      },
+      "time": {
+        "asserted": "2026-07-19T02:20:03.765Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "culture",
+        "citation": "https://www.theguardian.com/books/2026/jul/17/every-year-6-student-to-be-given-katherine-rundell-book-for-christmas"
+      },
+      "status": "supported"
+    }
+  ]
+}

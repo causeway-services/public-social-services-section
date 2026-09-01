@@ -1,0 +1,69 @@
+{
+  "subject": "sadiq-khan-given-seat-in-lords-as-starmer-creates-26-new-peers-days-before-he-leaves-no-10-as-it-happened",
+  "claims": [
+    {
+      "id": "title",
+      "proposition": {
+        "predicate": "title",
+        "object": "Sadiq Khan given seat in Lords, as Starmer creates 26 new peers days before he leaves No 10 – as it happened"
+      },
+      "time": {
+        "asserted": "2026-07-18T08:15:53.850Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "economy",
+        "citation": "https://www.theguardian.com/politics/live/2026/jul/16/keir-starmer-andy-burnham-labour-farage-badenoch-widdecombe-latest-news-updates"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "url",
+      "proposition": {
+        "predicate": "url",
+        "object": "https://www.theguardian.com/politics/live/2026/jul/16/keir-starmer-andy-burnham-labour-farage-badenoch-widdecombe-latest-news-updates"
+      },
+      "time": {
+        "asserted": "2026-07-18T08:15:53.850Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "economy",
+        "citation": "https://www.theguardian.com/politics/live/2026/jul/16/keir-starmer-andy-burnham-labour-farage-badenoch-widdecombe-latest-news-updates"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "summary",
+      "proposition": {
+        "predicate": "summary",
+        "object": "<p>This blog is now closed, you can read more on this story <a href=\"https://www.theguardian.com/politics/2026/jul/16/keir-starmer-makes-sadiq-khan-a-peer-in-the-house-of-lords\">here</a></p><p>Couples could legally marry in forests, on beaches, at sea or in their gardens under new proposals, the Press Association reports. PA says <a href=\"https://www.gov.uk/government/consultations/tying-the-knot-reforming-weddings-law-in-england-and-wales\">a government consultation announced today</a>, covering rules in England and Wales, could help cut the costs of <em>weddings</em> and mean two ceremonies are no longer required to cover different faiths. PA says:</p><p>The average <em>wedding</em> in England is estimated to cost more than £20,000, with venue hire alone typically accounting for around £6,000 without catering.</p><p>The system as it stands means some couples have two ceremonies – one where they feel their beliefs are best reflected and another making their marriage legal.</p> <a href=\"https://www.theguardian.com/politics/live/2026/jul/16/keir-starmer-andy-burnham-labour-farage-badenoch-widdecombe-latest-news-updates\">Continue reading...</a>"
+      },
+      "time": {
+        "asserted": "2026-07-18T08:15:53.850Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "economy",
+        "citation": "https://www.theguardian.com/politics/live/2026/jul/16/keir-starmer-andy-burnham-labour-farage-badenoch-widdecombe-latest-news-updates"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "published",
+      "proposition": {
+        "predicate": "published",
+        "object": "Thu, 16 Jul 2026 16:45:22 GMT"
+      },
+      "time": {
+        "asserted": "2026-07-18T08:15:53.850Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "economy",
+        "citation": "https://www.theguardian.com/politics/live/2026/jul/16/keir-starmer-andy-burnham-labour-farage-badenoch-widdecombe-latest-news-updates"
+      },
+      "status": "supported"
+    }
+  ]
+}

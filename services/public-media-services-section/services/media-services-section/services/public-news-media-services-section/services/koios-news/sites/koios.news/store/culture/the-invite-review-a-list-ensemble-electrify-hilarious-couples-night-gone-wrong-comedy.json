@@ -1,0 +1,69 @@
+{
+  "subject": "the-invite-review-a-list-ensemble-electrify-hilarious-couples-night-gone-wrong-comedy",
+  "claims": [
+    {
+      "id": "title",
+      "proposition": {
+        "predicate": "title",
+        "object": "The Invite review – A-list ensemble electrify hilarious couples night gone wrong comedy"
+      },
+      "time": {
+        "asserted": "2026-07-19T14:42:05.531Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "culture",
+        "citation": "https://www.theguardian.com/film/2026/jan/25/the-invite-review-sundance-olivia-wilde"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "url",
+      "proposition": {
+        "predicate": "url",
+        "object": "https://www.theguardian.com/film/2026/jan/25/the-invite-review-sundance-olivia-wilde"
+      },
+      "time": {
+        "asserted": "2026-07-19T14:42:05.531Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "culture",
+        "citation": "https://www.theguardian.com/film/2026/jan/25/the-invite-review-sundance-olivia-wilde"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "summary",
+      "proposition": {
+        "predicate": "summary",
+        "object": "<p><strong>Sundance film festival:</strong> Olivia Wilde, Seth Rogen, Penelope Cruz and Edward Norton are exceptional in a smart and funny winner about sex, marriage and partner-swapping</p><p>Not enough people managed to see last year’s self-billed “unromantic comedy” <a href=\"https://www.theguardian.com/film/2025/aug/20/splitsville-review-open-marriage-comedy\">Splitsville</a>, a shame for how tremendously entertaining it was and for what it represents at this given moment. A rigorously well-directed, genuinely funny, relatably messy look at two couples dealing with the maelstrom of non-monogamy, it was the kind of smart, well-crafted film for adults we are constantly complaining we don’t get enough of.</p><p>I had a similar thrill watching The Invite at its sold-out <a href=\"https://www.theguardian.com/film/sundance-2026\">Sundance</a> premiere on Saturday night. Like that film, it is also about two adult couples negotiating anxieties surrounding sex with other people – and also like that film, it’s really, consistently funny and stylishly directed, made with the kind of care and rigidity that comedies just aren’t afforded now. It doesn’t have the same absurdist slapstick streak – it’s much more of this world – but it made me feel equally energised, a reminder that maybe that mid-sized movie gap is finally being filled. I just hope more people see this one.</p> <a href=\"https://www.theguardian.com/film/2026/jan/25/the-invite-review-sundance-olivia-wilde\">Continue reading...</a>"
+      },
+      "time": {
+        "asserted": "2026-07-19T14:42:05.531Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "culture",
+        "citation": "https://www.theguardian.com/film/2026/jan/25/the-invite-review-sundance-olivia-wilde"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "published",
+      "proposition": {
+        "predicate": "published",
+        "object": "Sun, 25 Jan 2026 18:54:22 GMT"
+      },
+      "time": {
+        "asserted": "2026-07-19T14:42:05.531Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "culture",
+        "citation": "https://www.theguardian.com/film/2026/jan/25/the-invite-review-sundance-olivia-wilde"
+      },
+      "status": "supported"
+    }
+  ]
+}

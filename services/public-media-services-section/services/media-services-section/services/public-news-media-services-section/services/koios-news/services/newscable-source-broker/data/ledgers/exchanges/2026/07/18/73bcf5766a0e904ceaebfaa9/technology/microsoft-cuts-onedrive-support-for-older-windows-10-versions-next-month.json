@@ -1,0 +1,69 @@
+{
+  "subject": "microsoft-cuts-onedrive-support-for-older-windows-10-versions-next-month",
+  "claims": [
+    {
+      "id": "title",
+      "proposition": {
+        "predicate": "title",
+        "object": "Microsoft cuts OneDrive support for older Windows 10 versions next month"
+      },
+      "time": {
+        "asserted": "2026-07-18T07:51:41.287Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "technology",
+        "citation": "https://www.theregister.com/os-platforms/2026/07/17/microsoft-cuts-onedrive-support-for-older-windows-10-versions-next-month/5274489"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "url",
+      "proposition": {
+        "predicate": "url",
+        "object": "https://www.theregister.com/os-platforms/2026/07/17/microsoft-cuts-onedrive-support-for-older-windows-10-versions-next-month/5274489"
+      },
+      "time": {
+        "asserted": "2026-07-18T07:51:41.287Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "technology",
+        "citation": "https://www.theregister.com/os-platforms/2026/07/17/microsoft-cuts-onedrive-support-for-older-windows-10-versions-next-month/5274489"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "summary",
+      "proposition": {
+        "predicate": "summary",
+        "object": "Microsoft will end OneDrive synchronization support next month for older versions of Windows 10, leaving users without client updates, fixes, or technical assistance. According to a post on the company's Message Center, OneDrive sync app updates will continue on Windows 10 22H2 until October 10, 2028, but will stop for earlier versions from August 15, 2026. No support means no more updates, fixes, or security patches, although the service itself won't suddenly stop working. However, users running into problems cannot expect Microsoft to fix them. The move should not come as a surprise. Support for Windows 10 21H2, the last official release before the final 22H2, ended on June 13, 2023. The message mentions Windows 10 22H1, although this was never officially released by Microsoft – the company switched to an annual release cadence after 21H2. According to Microsoft, \"this change aligns OneDrive support with the Windows lifecycle policy and helps Microsoft focus ongoing investments on supported operating systems.\" Microsoft 365 file synchronization services will also be affected, although, again, nothing will necessarily stop working immediately. Microsoft stated: \"Existing installations may continue to function, but future functionality is not guaranteed.\" Users still clinging to Windows 10 versions before 22H2 will have to use the web interface to access OneDrive, which is a good deal less convenient than desktop synchronization. Alternatively, there's always the upgrade to Windows 11 that Microsoft would dearly like users to make, although OneDrive synchronization on Windows 10 22H2 should be fine until 2028. There are plenty of alternatives for cloud synchronization. For organizations looking for something a little more sovereign, there are always options like Nextcloud, which told The Register that its synchronization software would work on Windows 10 1809 or later. As with Microsoft, Windows 11 is the recommendation. However, unlike Microsoft, Linux is also an option. ®"
+      },
+      "time": {
+        "asserted": "2026-07-18T07:51:41.287Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "technology",
+        "citation": "https://www.theregister.com/os-platforms/2026/07/17/microsoft-cuts-onedrive-support-for-older-windows-10-versions-next-month/5274489"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "published",
+      "proposition": {
+        "predicate": "published",
+        "object": "Fri, 17 Jul 2026 19:00:00 +0200"
+      },
+      "time": {
+        "asserted": "2026-07-18T07:51:41.287Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "technology",
+        "citation": "https://www.theregister.com/os-platforms/2026/07/17/microsoft-cuts-onedrive-support-for-older-windows-10-versions-next-month/5274489"
+      },
+      "status": "supported"
+    }
+  ]
+}

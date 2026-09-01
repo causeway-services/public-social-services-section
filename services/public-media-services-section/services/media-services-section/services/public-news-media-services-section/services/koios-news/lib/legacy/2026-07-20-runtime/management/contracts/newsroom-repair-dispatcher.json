@@ -1,0 +1,20 @@
+{
+  "id": "koios.news/newsroom-repair-replay/v1",
+  "kind": "koios.management-contract",
+  "customer": "urn:ame:koios-news",
+  "softwareProvider": "urn:ame:software-development-services-section",
+  "softwareProduct": "urn:sha256:5a1453cf59c05c8ac79d0dbc3f104cafe10afb63319857a9dbbc3b925948c1db",
+  "inferenceProvider": "urn:ame:logical-inference-service-section",
+  "inferenceContract": "inference-fabric-activitystreams-service",
+  "precondition": "A terminal Koios learning reading proposes repair-draft or replay-writer and Koios can form a content-addressed RepairContext containing the exact manuscript, editor report, witnessed research packet, assignment, and operating instructions.",
+  "service": "Issue a provider-authored LISS repair contract, accept prose only, validate it under Koios law, create a linked successor without reopening the terminal predecessor, and replay independent editorial admission.",
+  "postcondition": "The successor reaches independent newsroom settlement and, only if admitted, the separate Cloudflare release contract; otherwise a typed refusal or obstruction remains in Koios records.",
+  "invariants": [
+    "Cold Red Gate never serves public Koios bytes",
+    "a terminal predecessor is never reopened or rewritten",
+    "provider prose never directly serializes Koios state",
+    "search demand attention and revenue never supply factual warrant",
+    "LISS admission is asynchronous and a submission receipt is not an editorial result",
+    "Cloudflare release remains a separate provider contract"
+  ]
+}

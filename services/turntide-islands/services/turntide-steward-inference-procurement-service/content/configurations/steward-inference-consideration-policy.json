@@ -1,0 +1,18 @@
+{
+  "type": "ConsiderationPolicy",
+  "acceptableAlternatives": [
+    {
+      "id": "resolution-credit",
+      "obligations": [
+        {
+          "kind": "credit",
+          "asset": "urn:union:credit:relative-resolution-milliquanta-v1",
+          "unit": "relative-resolution-milliquanta-v1",
+          "settlementCapabilities": [
+            "urn:union:settlement-capability:direct-witness-v1"
+          ]
+        }
+      ]
+    }
+  ]
+}

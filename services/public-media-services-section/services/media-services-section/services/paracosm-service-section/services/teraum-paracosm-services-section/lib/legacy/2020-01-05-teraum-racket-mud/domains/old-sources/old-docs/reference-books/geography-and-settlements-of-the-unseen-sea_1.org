@@ -1,0 +1,39 @@
+#+SETUPFILE: ./setup.inc
+#+TITLE: Geography and Settlements of the Unseen Sea
+#+EXPORT_FILE_NAME: ../../pub/reference-books/geography-and-settlements-of-the-unseen-sea
+#+INDEX: Unseen Sea!/Geography and Settlements of the Unseen Sea/
+* DRAFT Introduction
+* DRAFT Geography and Settlements of the Unseen Sea
+#+TOC: headlines 2 local
+** DRAFT Overview
+#+BEGIN_QUOTE
+When human pilgrims first got to the Coast of the Unseen Sea, it was
+after slogging through the muck of the Gloaming for weeks. They were
+tired, and hungry. So it's understandable how they mistook the Unseen
+Sea for an ocean. An endless desert that rolls out into the horizon,
+at the base of a miles-long cliff? With heat waves rolling off it, I
+could see how it might seen like a very clear body of water, until you
+reach the bottom and realize the illusion.
+
+But what I don't understand is why they choose to stick with the name.
+It makes us all look a bit daft.
+#+END_QUOTE
+
+The */Unseen Sea/* is a region past decline. Once the playground of
+wizards and other magical beasts, who took full advantage of the miles
+of dunes and salt flats, the region is considered dying. Almost all
+the humans have moved away or perished, and only the once-vibrant city
+of /Tayopopopolous/ remains, sustained by airship trade that comes in
+from the /Green Delta/.
+** DRAFT Landmarks
+*** DRAFT The Coast
+    :PROPERTIES:
+    :CUSTOM_ID: coast
+    :END:
+#+INDEX: Coast of the Unseen Sea!"The Coast" in /Geography and Settlements of the Unseen Sea/
+* DRAFT Supplements
+** DRAFT Index
+- Green Delta :: {{{teraum-define-green-delta}}}
+- Tayopopopolis ::
+- Unseen Sea ::
+- The Coast ::

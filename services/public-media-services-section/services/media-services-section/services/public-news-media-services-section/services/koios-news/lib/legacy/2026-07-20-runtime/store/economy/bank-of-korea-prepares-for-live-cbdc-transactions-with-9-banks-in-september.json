@@ -1,0 +1,69 @@
+{
+  "subject": "bank-of-korea-prepares-for-live-cbdc-transactions-with-9-banks-in-september",
+  "claims": [
+    {
+      "id": "title",
+      "proposition": {
+        "predicate": "title",
+        "object": "Bank of Korea prepares for live CBDC transactions with 9 banks in September"
+      },
+      "time": {
+        "asserted": "2026-07-20T11:21:18.517Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "economy",
+        "citation": "https://www.coindesk.com/business/2026/07/20/bank-of-korea-prepares-for-live-cbdc-transactions-with-nine-banks-in-september"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "url",
+      "proposition": {
+        "predicate": "url",
+        "object": "https://www.coindesk.com/business/2026/07/20/bank-of-korea-prepares-for-live-cbdc-transactions-with-nine-banks-in-september"
+      },
+      "time": {
+        "asserted": "2026-07-20T11:21:18.517Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "economy",
+        "citation": "https://www.coindesk.com/business/2026/07/20/bank-of-korea-prepares-for-live-cbdc-transactions-with-nine-banks-in-september"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "summary",
+      "proposition": {
+        "predicate": "summary",
+        "object": "Major banking heavyweights join a massive blockchain network test that will allow retail consumers to trade tokenized won freely across commercial lines."
+      },
+      "time": {
+        "asserted": "2026-07-20T11:21:18.517Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "economy",
+        "citation": "https://www.coindesk.com/business/2026/07/20/bank-of-korea-prepares-for-live-cbdc-transactions-with-nine-banks-in-september"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "published",
+      "proposition": {
+        "predicate": "published",
+        "object": "Mon, 20 Jul 2026 11:10:07 +0000"
+      },
+      "time": {
+        "asserted": "2026-07-20T11:21:18.517Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "economy",
+        "citation": "https://www.coindesk.com/business/2026/07/20/bank-of-korea-prepares-for-live-cbdc-transactions-with-nine-banks-in-september"
+      },
+      "status": "supported"
+    }
+  ]
+}

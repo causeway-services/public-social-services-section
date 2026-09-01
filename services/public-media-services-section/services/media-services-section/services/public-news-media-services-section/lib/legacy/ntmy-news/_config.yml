@@ -1,0 +1,12 @@
+---
+title: NTMY News
+timezone: UTC
+collections:
+  posts:
+    title: Articles
+    output: true
+  uploads:
+    title: Media
+    output: true
+remote_theme: jekyll-material-theme
+theme: jekyll-theme-merlot

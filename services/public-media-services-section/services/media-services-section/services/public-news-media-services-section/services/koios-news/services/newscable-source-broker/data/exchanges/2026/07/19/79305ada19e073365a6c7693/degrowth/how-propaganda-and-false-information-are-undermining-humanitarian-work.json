@@ -1,0 +1,69 @@
+{
+  "subject": "how-propaganda-and-false-information-are-undermining-humanitarian-work",
+  "claims": [
+    {
+      "id": "title",
+      "proposition": {
+        "predicate": "title",
+        "object": "How propaganda and false information are undermining humanitarian work"
+      },
+      "time": {
+        "asserted": "2026-07-19T15:04:13.219Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "degrowth",
+        "citation": "https://www.resilience.org/stories/2026-07-15/how-propaganda-and-false-information-are-undermining-humanitarian-work/"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "url",
+      "proposition": {
+        "predicate": "url",
+        "object": "https://www.resilience.org/stories/2026-07-15/how-propaganda-and-false-information-are-undermining-humanitarian-work/"
+      },
+      "time": {
+        "asserted": "2026-07-19T15:04:13.219Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "degrowth",
+        "citation": "https://www.resilience.org/stories/2026-07-15/how-propaganda-and-false-information-are-undermining-humanitarian-work/"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "summary",
+      "proposition": {
+        "predicate": "summary",
+        "object": "From vaccine hesitancy to conflict-zone rumors, false information is making it harder for humanitarian organizations to build trust, protect civilians, and save lives."
+      },
+      "time": {
+        "asserted": "2026-07-19T15:04:13.219Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "degrowth",
+        "citation": "https://www.resilience.org/stories/2026-07-15/how-propaganda-and-false-information-are-undermining-humanitarian-work/"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "published",
+      "proposition": {
+        "predicate": "published",
+        "object": "Wed, 15 Jul 2026 08:00:08 +0000"
+      },
+      "time": {
+        "asserted": "2026-07-19T15:04:13.219Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "degrowth",
+        "citation": "https://www.resilience.org/stories/2026-07-15/how-propaganda-and-false-information-are-undermining-humanitarian-work/"
+      },
+      "status": "supported"
+    }
+  ]
+}

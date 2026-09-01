@@ -1,0 +1,35 @@
+{
+  "kind": "rendanheyi-internal-service-contract",
+  "id": "koios.news/commissioned-journalism/v1",
+  "owner": "koios.news",
+  "customer": "urn:micro-enterprise:koios.news:publishing-and-ad-inventory",
+  "provider": "urn:micro-enterprise:koios.news:journalism-commissioning",
+  "service": "deliver one independently admitted, source-warranted article candidate",
+  "commodity": {
+    "id": "urn:commodity:koios.news:warranted-article-package",
+    "quantity": 1,
+    "unit": "warranted-article-package"
+  },
+  "consideration": {
+    "amount": 1,
+    "unit": "commissioned-journalism-credit",
+    "dueOn": "digest-bound-warranted-article-delivery",
+    "monetaryClaim": false
+  },
+  "preconditions": [
+    "the assignment descends from a purchased keyword-opportunity brief",
+    "the newsroom circuit has produced an exact editorially admitted manuscript and a production-indexable static candidate",
+    "the delivery binds the assignment, slug, keyword brief, and candidate manifest digests"
+  ],
+  "postconditions": [
+    "Publishing and Ad Inventory receives one warranted article package",
+    "Journalism Commissioning receives one matching internal credit",
+    "the debit and credit eliminate on Koios consolidation and are never reported as external revenue"
+  ],
+  "prohibitions": [
+    "a refused or obstructed newsroom attempt is not sold as an article",
+    "keyword demand is not represented as factual warrant",
+    "a candidate artifact is not represented as live publication",
+    "the internal receipt is not represented as advertiser payment"
+  ]
+}

@@ -1,0 +1,75 @@
+:PROPERTIES:
+:ID:       7f527251-b5fc-4546-9fc7-8b6af33451e0
+:END:
+#+title: Teraum
+#+date: [2025-08-25 Mon 19:57]
+#+index: Teraum
+
+Here's some pages to learn about Teraum. Unless otherwise stated, assume information about Teraum is about the world as it was about 80 years after the [[id:233e5799-b31a-45b0-9f23-20dbb403f361][Teraumian Collapse]], and information is, unless otherwise specified, presented how the [[id:c8095611-55b5-41da-ad69-79f6c89d1b3a][Red Union]] does (or would) talk about it.
+
+
+
+* Atlas-at-a-Glance
+
+Two major known [[id:7af0655d-b196-4388-99d1-0fbefb541464][continents]]: [[id:ce0071b4-89a6-4e92-87a2-e856efd7f33e][Eastland]] and [[id:8c3f716d-037f-48e8-b633-8b8e360d2439][Westland]], separated by the [[id:0bf0043c-e329-4859-88f1-dee7df5ee70b][Optic Ocean]]
+
+Eastland has:
+
+- [[id:7ebae11b-9fe8-420c-9093-6d8f3af87cfe][Central Plains]]
+  - Plains, sandhills, etc.
+- [[id:b77267eb-3033-448a-87a5-f7726a781fd5][Farsteppes]]
+  - Steppes
+  - Trading town of [[id:bc5efd4b-415c-4eaf-aec9-a5db7f22ed73][Helmet's Dent]]
+  - 
+- [[id:38423cc5-25b9-43ea-a484-f0f4764c17f7][Farfarsteppes]]
+  - (Usually frozen) steppes
+- [[id:c1b76d38-d7e8-494f-84d3-9916c04f48c8][Green Delta]]
+  - Marshes and farmland
+  - Big city of [[id:5ccc63d5-eab8-48bf-aba4-038a5781a610][Ack]] and its suburb [[id:404a7988-a331-49c3-ab80-1293a04ac9aa][Bellybrush]]
+  - Four counties: [[id:fed865ef-176b-4519-b4a2-525f93dc73fa][Arathel]], [[id:0841c521-a9cf-4a4e-95c1-81bccf6b5550][Marby]], [[id:6b42f688-f242-4fbb-88c4-fecacee9c237][Pled]], [[id:47c7a182-c964-4070-ac26-6303a51bfc52][Sherwyn]]
+- [[id:988f3465-8a73-4e0b-9531-b04523c585f4][Unseen Sea]]
+  - Vast desert
+  - [[id:ad7ebe27-cd62-4913-98cd-c8c1d9b4e3a7][Tayopolis]]
+- [[id:d7d0f106-182e-4356-9e48-6e419e4acfe2][Widewoods]]
+- [[id:752b7876-6ade-491a-8e15-6bc6b9b0995c][Worldkeepers]]
+
+Westland has:
+
+- [[id:0a27bfa8-cd5a-4627-80d3-80f9c9e26205][Elflands]]
+  - Dense temperate forests
+- [[id:87b60266-0949-4b8d-96f1-5164460d002c][Halfling Country]]
+  - Rolling hills and farmland
+  - [[id:3b03f5f9-697d-44c3-bbda-7dd53776bbeb][Gnalens]]
+  - [[id:f2f33fa3-383a-4b1b-a50f-8f662752231a][Westland Coast]]
+    - [[id:97bbc84c-425a-4093-ad0a-3d22c3cf78f3][Trepi Island]]
+
+* Factions
+- [[id:96a010d2-1e0d-4a63-843e-3f2daa277899][House Oru]]
+  - Self-declared sovereignty in the Farsteppes, led by [[id:665f3bf4-5182-4f41-8854-4bd36b67fe32][Renkah Oru]] and her son [[id:2517266b-b917-4758-b104-082a8fd3b08e][Kolpe Oru]] acting as governor.
+  - The Red Union invoices [[id:8bd3fc4e-106f-4355-911f-844a17e062c3][House Ellon]] for the lands Oru claims, so does not recognize their soveriegnty.
+- [[id:8bd3fc4e-106f-4355-911f-844a17e062c3][House Ellon]]
+  - Defunct, territory claimed by Oru. Rumored [[id:cb15a143-e15c-4e7a-b142-a0f16090c004][Last Baron of House Ellon]]
+- [[id:2a85f992-8302-4e75-af43-11151ba2e76a][Blacksmith's Guild]]
+  - [[id:33009221-adbd-46dd-a0b6-9626b4b1b7b0][Ackian guild]] and now [[id:a2d1c3a1-2287-49c2-b221-b9bdf81c55df][Red Union guild]] for [[id:641a3271-77f2-4f77-8f30-78571038f968][blacksmithing]] and other smithing. Headquartered in the [[id:119401a3-51a7-4ea9-b089-89abc5ebafba][Copper Ward]] of Ack.
+  - [[id:92bfa9c9-3a77-4486-9426-5df10f291f41][Atrix Hucklebee]] is a member.
+- [[id:406c7753-52cf-4964-9155-b691d574b644][Chandler's Guild]]
+  - [[id:92ad15fb-ce6c-4eed-9432-e54125804cbc][candlemakers]] and [[id:000fe862-1b86-4d95-a485-70f70601f1b9][printing press]]
+  - Member of the [[id:c8095611-55b5-41da-ad69-79f6c89d1b3a][Red Union]]
+  - Headquartered in Ack, with offices in Bellybrush, Marby, and Sherwyn
+  - [[id:32f510be-9239-4be8-b8ac-74ad3be7cedd][Wybert]] is a member
+  - 
+- [[id:86d59bf7-3205-49ea-9251-44b0b2f1a48a][Cloudbound Trading Company]]
+  - Transportation company focused on, but not limited to, airship travel. Headquarted in Ack with offices in Bellybrush, Marby, Sherwyn, Arathel, Pled, Helmet's Dent, Gnalens, and Tayopolis.
+  - member of the Red Union
+  - [[id:24499195-160a-44c0-b49f-8b27a46f1db4][Stevie]] was a member, now deceased
+- [[id:3b03f5f9-697d-44c3-bbda-7dd53776bbeb][Gnalens]] is a city but also a faction.
+  - [[id:96d1525a-3fe9-45eb-883d-903679a13b75][democratic republic]] on the coast of Halfling Country
+  - run by [[id:b2265ce6-175b-4f14-9b9d-aef1226882ee][The Governor of Gnalens]]
+    - has a [[id:5b9f91a1-d97e-46b1-af4e-e8258573d789][Lieutenant Governor of Gnalens]], currently [[id:9ef42d92-5ed1-4fc3-9ecb-98a759836adc][Ander Falone]]
+- [[id:e9ea0a82-e6f0-408e-9eef-910b82775fe5][Leatherworkers Guild]]
+  - Member of the Red Union
+  - Offices in Ack and Gnalens
+  - [[id:aca5d192-7ead-428d-bd43-fe3bf43c25f7][Wayne Helder]] is a member
+- [[id:c8095611-55b5-41da-ad69-79f6c89d1b3a][Red Union]]
+  - Bureaucrats who control many human systems with debt and credit
+  - Originated in the [[id:9ccb6cfe-d0cf-426b-aefe-3268efe4e757][Red Ward]] of Ack, with offices established in many former temples anyplace humans live.

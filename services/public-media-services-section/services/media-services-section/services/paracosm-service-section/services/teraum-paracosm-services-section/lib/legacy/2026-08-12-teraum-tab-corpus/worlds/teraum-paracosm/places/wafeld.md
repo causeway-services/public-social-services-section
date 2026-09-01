@@ -1,0 +1,7 @@
+---
+type: place
+name: "Wafeld"
+description: "Wafeld is a settlement in the Green Delta of Teraum."
+behaviors: [area]
+in-region: green-delta
+---

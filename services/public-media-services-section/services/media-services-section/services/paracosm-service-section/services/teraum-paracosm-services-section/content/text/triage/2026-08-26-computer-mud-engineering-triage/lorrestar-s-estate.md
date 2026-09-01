@@ -1,0 +1,5 @@
+:PROPERTIES:
+:ID:       83f198f3-eaab-4edb-8189-6ca906e31665
+:END:
+#+title: Lorrestar's Estate
+#+date: [2025-09-10 Wed 10:55]

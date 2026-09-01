@@ -1,0 +1,69 @@
+{
+  "subject": "ben-shapiro-calls-the-odyssey-a-masterpiece-despite-conservative-outrage-christopher-nolan-is-the-best-working-director-today",
+  "claims": [
+    {
+      "id": "title",
+      "proposition": {
+        "predicate": "title",
+        "object": "Ben Shapiro Calls ‘The Odyssey’ a ‘Masterpiece’ Despite Conservative Outrage: Christopher Nolan Is the ‘Best Working Director Today’"
+      },
+      "time": {
+        "asserted": "2026-07-19T23:18:25.798Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "culture",
+        "citation": "https://variety.com/2026/film/news/ben-shapiro-the-odyssey-masterpiece-christopher-nolan-1236816164/"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "url",
+      "proposition": {
+        "predicate": "url",
+        "object": "https://variety.com/2026/film/news/ben-shapiro-the-odyssey-masterpiece-christopher-nolan-1236816164/"
+      },
+      "time": {
+        "asserted": "2026-07-19T23:18:25.798Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "culture",
+        "citation": "https://variety.com/2026/film/news/ben-shapiro-the-odyssey-masterpiece-christopher-nolan-1236816164/"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "summary",
+      "proposition": {
+        "predicate": "summary",
+        "object": "Ben Shapiro posted an 18-minute review of Christopher Nolan’s “The Odyssey” to his YouTube channel on Saturday, in which he called the Greek epic a “masterpiece” despite the conservative outrage about the film’s cast and historical accuracy. “Nolan is unparalleled. He’s the best director working today, without a doubt. He just creates iconic movie after […]"
+      },
+      "time": {
+        "asserted": "2026-07-19T23:18:25.798Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "culture",
+        "citation": "https://variety.com/2026/film/news/ben-shapiro-the-odyssey-masterpiece-christopher-nolan-1236816164/"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "published",
+      "proposition": {
+        "predicate": "published",
+        "object": "Sun, 19 Jul 2026 21:24:08 +0000"
+      },
+      "time": {
+        "asserted": "2026-07-19T23:18:25.798Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "culture",
+        "citation": "https://variety.com/2026/film/news/ben-shapiro-the-odyssey-masterpiece-christopher-nolan-1236816164/"
+      },
+      "status": "supported"
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "name": "@causeway-services/newscable-source-broker",
+  "version": "0.0.6",
+  "type": "module",
+  "description": "Separately hireable zero-price syndication intake that offers immutable claim-state bundles without writing a customer's corpus.",
+  "bin": {
+    "solicit-service": "./src/contract-source-bundles.mjs",
+    "invoke-service": "./src/contract-source-bundles.mjs",
+    "solicit-recall": "./src/contract-source-bundles.mjs",
+    "invoke-recall": "./src/contract-source-bundles.mjs"
+  },
+  "scripts": {
+    "check": "node --check src/*.mjs && node --check test/*.test.mjs",
+    "contract": "node src/contract-source-bundles.mjs",
+    "test": "node --test test/*.test.mjs"
+  },
+  "dependencies": {
+    "@red-cup-engineering/semantic-content-identify-service": "0.2.7",
+    "@red-cup-engineering/semantic-record-journal-service": "0.1.6"
+  },
+  "files": [
+    "src/",
+    "test/",
+    "package.json"
+  ]
+}

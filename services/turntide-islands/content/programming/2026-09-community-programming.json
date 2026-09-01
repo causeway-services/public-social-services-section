@@ -1,0 +1,57 @@
+{
+  "type": "TTICommunityProgrammingCycle",
+  "version": 1,
+  "id": "tti-community-programming-2026-09",
+  "status": "active-intake",
+  "publishedAt": "2026-08-29T21:30:00Z",
+  "window": {
+    "startsOn": "2026-09-01",
+    "endsOn": "2026-09-30"
+  },
+  "accountability": {
+    "owner": "TTI administrator",
+    "facilitator": "A separately confirmed human host is required for synchronous events.",
+    "zeloRole": "Zelo may explain the intake and route a proposal; it does not volunteer, schedule, host, or moderate on a human's behalf."
+  },
+  "programs": [
+    {
+      "week": 1,
+      "name": "Open Harbor",
+      "status": "collecting-host-time-and-topic-proposals",
+      "channel": { "name": "mainland", "id": "1184863861065658422" },
+      "prompt": "Propose an accessible orientation or community gathering, including two availability windows with timezone and any access needs."
+    },
+    {
+      "week": 2,
+      "name": "Question Quarry",
+      "status": "collecting-questions",
+      "channel": { "name": "question-quarry", "id": "1396155279208484997" },
+      "prompt": "Offer one practical or research question that could become a sourced response or human-facilitated session."
+    },
+    {
+      "week": 3,
+      "name": "Project Dock",
+      "status": "collecting-projects-asks-and-offers",
+      "channel": { "name": "dock", "id": "1184864166142558349" },
+      "prompt": "Share one project, concrete ask, or bounded offer for possible peer connection."
+    },
+    {
+      "week": 4,
+      "name": "Field Notes",
+      "status": "collecting-place-based-observations",
+      "channel": { "name": "location", "id": "1304191643410235403" },
+      "prompt": "Share a place-based observation, practice, or source-linked note; label what was observed versus inferred."
+    }
+  ],
+  "scheduling": {
+    "discordEventsIsAuthoritative": true,
+    "scheduledEventIds": [],
+    "automaticReminders": false,
+    "closeoutRequired": true
+  },
+  "privacy": {
+    "ordinaryMessagesAreCommercialConsent": false,
+    "automaticCohortProfiling": false,
+    "messageBodiesCopiedToAnalytics": false
+  }
+}

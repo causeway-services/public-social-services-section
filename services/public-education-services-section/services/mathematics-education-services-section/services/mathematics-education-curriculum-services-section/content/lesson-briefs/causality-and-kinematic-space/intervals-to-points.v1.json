@@ -1,0 +1,23 @@
+{
+  "type": "MathematicsLessonBriefDraft",
+  "courseId": "causality-and-kinematic-space",
+  "courseRevision": 1,
+  "lessonId": "intervals-to-points",
+  "learningObjectives": [
+    "Parameterize an oriented interval by endpoints and by midpoint plus half-opening angle.",
+    "Explain precisely how an interval or geodesic becomes a point of a derived kinematic space.",
+    "Identify degeneracy, orientation, branch, and quotient issues in the parameterization.",
+    "Keep the AdS3/CFT2 hypotheses separate from a general relational analogy."
+  ],
+  "definitions": [
+    "Oriented interval: an interval whose ordered endpoints retain an orientation.",
+    "Kinematic point: one element of a derived space representing an interval or geodesic.",
+    "Midpoint coordinate: the average of lifted endpoint coordinates.",
+    "Half-opening angle: half the endpoint separation on the chosen lift.",
+    "Degenerate interval: the limiting case in which the endpoints coincide.",
+    "Branch data: additional identity needed when the same endpoints admit multiple relevant geodesics or phases."
+  ],
+  "notebookPrompt": "Create a mathematically serious cinematic lesson titled ‘From intervals to points.’ In the explicitly labeled AdS3/CFT2 setting, animate ordered endpoint pairs (u,v) on a boundary circle, the associated boundary interval and bulk geodesic, and then map each whole object to one point in a second kinematic space. Reparameterize using midpoint θ=(u+v)/2 and half-opening angle α=(v-u)/2; show θ moving the interval and α changing its size. Treat α→0 as a domain boundary or degeneracy. Preserve orientation and show how multiple-geodesic or phase-transition branches can defeat a naive endpoint-only label. Include the negative control that becoming a kinematic point does not make the interval dimensionless in its original space. State all holographic and semiclassical hypotheses and use no unsupported universalization.",
+  "humanFrame": "The central conceptual move is a change of ontology between spaces: extended objects in one space can be elementary points in another. Every visual transition must keep the two spaces visibly distinct.",
+  "assessment": "Convert three endpoint pairs into midpoint/opening coordinates, identify the degenerate limit, explain the role of orientation, and give one case where endpoint labels require additional branch data."
+}

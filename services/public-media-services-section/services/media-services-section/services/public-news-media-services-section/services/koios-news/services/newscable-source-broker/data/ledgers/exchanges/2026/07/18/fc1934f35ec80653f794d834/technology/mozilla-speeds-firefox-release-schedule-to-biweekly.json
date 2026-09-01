@@ -1,0 +1,69 @@
+{
+  "subject": "mozilla-speeds-firefox-release-schedule-to-biweekly",
+  "claims": [
+    {
+      "id": "title",
+      "proposition": {
+        "predicate": "title",
+        "object": "Mozilla speeds Firefox release schedule to biweekly"
+      },
+      "time": {
+        "asserted": "2026-07-18T07:55:43.768Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "technology",
+        "citation": "https://www.theregister.com/software/2026/07/17/mozilla-speeds-firefox-release-schedule-to-biweekly/5274423"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "url",
+      "proposition": {
+        "predicate": "url",
+        "object": "https://www.theregister.com/software/2026/07/17/mozilla-speeds-firefox-release-schedule-to-biweekly/5274423"
+      },
+      "time": {
+        "asserted": "2026-07-18T07:55:43.768Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "technology",
+        "citation": "https://www.theregister.com/software/2026/07/17/mozilla-speeds-firefox-release-schedule-to-biweekly/5274423"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "summary",
+      "proposition": {
+        "predicate": "summary",
+        "object": "Firefox releases will soon get even closer together – but not ESR ones, which remain annual, with the next one due out soon. The change was announced last week on the dev-platform@mozilla.org mailing list by Mozilla’s director of engineering Sylvestre Ledru: “We are planning to move Firefox Desktop and Android from a 4-week release cadence to a 2-week release cadence starting in September 2026. “This will be an experiment… This does not mean that all work needs to ship twice as fast. Work that is not ready should not be rushed, and features can still take the time they need to bake. “The current target is to release Firefox 155 on September 1, 2026, instead of September 15 … “We will closely monitor how this change works in practice and adjust if needed.” The change is already visible in the upcoming Firefox Release Calendar. At the time of writing, it shows the current four-week cadence for Firefox 153 and 154, with Firefox 155 brought forward to September 1. From then on, it lists releases at roughly two-week intervals. This isn’t unprecedented. The last time Mozilla did it was over a decade ago. Google announced a very similar change for Chrome back in March, and The Register reported on it going to six-weekly releases in 2010 and then four-weekly ones in 2021. Brace for the impact of the next ESR In the meantime, Firefox 153 is nearly here: at the time of writing, it’s scheduled for Tuesday, July 21. Right now, the release notes are blank, but the beta release notes are more forthcoming. You can look forward to further improvements to PDF editing. Version 153 will be able to merge multiple PDF documents into one by a simple drag-and-drop in the PDF sidebar, and insert images into PDFs as new pages. It will also improve highlighting text in PDFs. The new version can generate QR codes for sharing web pages offline, such as in printed documents. It can verify and display the EU’s new Qualified Website Authentication Certificates, or QWACs for short. These are part of the new eIDAS legislation, which is a slightly convoluted acronym for “electronic IDentification, Authentication and trust Services”. Sounds cumbersome, but if it helps make the Wild West of the Web a bit safer, we’re all for it. Another security tweak is that extensions will lose local-file access by default. As we use one that relies on it - the excellent Multithreaded Download Manager - that's slightly concerning, although users will be able to grant the permission separately, so we'll see. If a tab is using your location, Firefox 153 will highlight this with a map-pin icon in the address bar. The last release could recognize a few keywords in the address bar to mute all sound: this function will get extended, with typed commands for picking colors from pages, and accessing experimental “Labs” features. Come back, Ubuntu Unity and your HUD, all is forgiven. There’s also experimental JPEG XL support. Pop-up video player controls will work better, and if you use Windows and have a compatible GPU and drivers, 153 will play HDR video. On macOS, Firefox supports the Fn+F keystroke for switching to full-screen mode – which means KeyboardControls.com has to update its description of the function. Firefox 153 will also be a significant release, because it will be the next ESR version: it will get security updates for at least 15 months, meaning until late 2027. (And maybe longer: Firefox 115 is still getting updates, and now will until March 2027.) In turn, that means that Firefox 153 is also the basis of the latest beta of the AI-free Waterfox fork, which recently integrated built-in ad blocking. ®"
+      },
+      "time": {
+        "asserted": "2026-07-18T07:55:43.768Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "technology",
+        "citation": "https://www.theregister.com/software/2026/07/17/mozilla-speeds-firefox-release-schedule-to-biweekly/5274423"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "published",
+      "proposition": {
+        "predicate": "published",
+        "object": "Fri, 17 Jul 2026 19:40:00 +0200"
+      },
+      "time": {
+        "asserted": "2026-07-18T07:55:43.768Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "technology",
+        "citation": "https://www.theregister.com/software/2026/07/17/mozilla-speeds-firefox-release-schedule-to-biweekly/5274423"
+      },
+      "status": "supported"
+    }
+  ]
+}

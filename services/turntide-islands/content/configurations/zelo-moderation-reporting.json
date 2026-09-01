@@ -1,0 +1,20 @@
+{
+  "type": "TTIZeloModerationReportingDesiredState",
+  "version": 1,
+  "status": "shadow-only-private-intake-unresolved",
+  "guildId": "1184863861065658419",
+  "humanDecisionOwner": "emsenn, Turntide Islands administrator",
+  "humanAuthority": ["decisions", "appeals", "emergency judgment", "any live moderation action"],
+  "verifiedSurfaces": {
+    "modlog": { "channelName": "modlog", "purpose": "moderation record surface; visibility and reporting intake are not verified" },
+    "receipts": { "channelName": "receipts", "purpose": "public source trails, links, citations, screenshots, and provenance; not private reporting" },
+    "governanceQuestions": { "channelName": "governance-questions", "purpose": "public governance questions; not private reporting" }
+  },
+  "memberHumanContactToday": "No private human-report intake is verified in the committed public state. Members needing private, urgent, or safety-sensitive help must use an administrator contact method supplied outside this configuration; Zelo must not invent one.",
+  "reasonTaxonomy": ["spam", "scam", "doxxing", "terms-of-service-violation", "harassment", "threat-or-immediate-safety", "other-escalation"],
+  "proportionalActions": { "low": ["warn"], "moderate": ["warn", "timeout"], "high": ["warn", "timeout", "remove-role"], "restoration": ["restore-role-after-upheld-appeal"] },
+  "protectedRoles": ["Zelo", "carl-bot", "PluralKit", "governor", "muted"],
+  "privacy": { "retain": ["reason-code", "evidence-digest", "human-decision-receipt"], "neverPublic": ["ordinary-message-content", "member-identities", "private-report-content", "reaction-user-history"], "publicReceipt": "pseudonymous-minimal" },
+  "appealAndEmergency": { "appeals": "emsenn records and decides appeals; restoration needs an upheld appeal receipt.", "emergency": "Zelo may surface a non-executable escalation only; emsenn decides any action and preserves a bounded receipt." },
+  "sources": ["data/state/discord-guild-state.json", "content/offices/zelo.json", "content/texts/documents/articles/notes/2026-08-29-established-community-model-and-big-plans.md"]
+}

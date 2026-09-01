@@ -1,0 +1,69 @@
+{
+  "subject": "how-elephant-and-castle-risks-becoming-london-s-gentrification-patient-zero",
+  "claims": [
+    {
+      "id": "title",
+      "proposition": {
+        "predicate": "title",
+        "object": "How Elephant and Castle risks becoming London’s gentrification ‘patient zero’"
+      },
+      "time": {
+        "asserted": "2026-07-20T10:18:45.791Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "economy",
+        "citation": "https://www.theguardian.com/cities/2026/jul/20/elephant-and-castle-london-gentrification-patient-zero"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "url",
+      "proposition": {
+        "predicate": "url",
+        "object": "https://www.theguardian.com/cities/2026/jul/20/elephant-and-castle-london-gentrification-patient-zero"
+      },
+      "time": {
+        "asserted": "2026-07-20T10:18:45.791Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "economy",
+        "citation": "https://www.theguardian.com/cities/2026/jul/20/elephant-and-castle-london-gentrification-patient-zero"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "summary",
+      "proposition": {
+        "predicate": "summary",
+        "object": "<p>New £500m town centre welcomes its first tenant this month, but displaced traders say promises that they could return have been broken</p><p>Diana Sach once employed more than 30 people and catered for hundreds more every day from her Latin American restaurant and delicatessen, famous for its Peruvian empanadas, in south London’s Elephant and Castle district.</p><p>Now, she looks longingly at the shiny tall buildings that have replaced the brightly coloured but shabby shopping centre that was her home from home before being <a href=\"https://www.theguardian.com/uk-news/2020/sep/24/were-going-to-miss-the-community-elephant-and-castle-shopping-centre-closes-after-55-years\">demolished in 2021</a>.</p> <a href=\"https://www.theguardian.com/cities/2026/jul/20/elephant-and-castle-london-gentrification-patient-zero\">Continue reading...</a>"
+      },
+      "time": {
+        "asserted": "2026-07-20T10:18:45.791Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "economy",
+        "citation": "https://www.theguardian.com/cities/2026/jul/20/elephant-and-castle-london-gentrification-patient-zero"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "published",
+      "proposition": {
+        "predicate": "published",
+        "object": "Mon, 20 Jul 2026 09:58:55 GMT"
+      },
+      "time": {
+        "asserted": "2026-07-20T10:18:45.791Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "economy",
+        "citation": "https://www.theguardian.com/cities/2026/jul/20/elephant-and-castle-london-gentrification-patient-zero"
+      },
+      "status": "supported"
+    }
+  ]
+}

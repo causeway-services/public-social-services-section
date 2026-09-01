@@ -1,0 +1,69 @@
+{
+  "subject": "auditors-tell-uk-government-to-do-the-math-before-banking-on-45b-ai-savings",
+  "claims": [
+    {
+      "id": "title",
+      "proposition": {
+        "predicate": "title",
+        "object": "Auditors tell UK government to do the math before banking on £45B AI savings"
+      },
+      "time": {
+        "asserted": "2026-07-20T09:48:45.540Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "technology",
+        "citation": "https://www.theregister.com/public-sector/2026/07/20/auditors-tell-uk-government-to-do-the-math-before-banking-on-45b-ai-savings/5274194"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "url",
+      "proposition": {
+        "predicate": "url",
+        "object": "https://www.theregister.com/public-sector/2026/07/20/auditors-tell-uk-government-to-do-the-math-before-banking-on-45b-ai-savings/5274194"
+      },
+      "time": {
+        "asserted": "2026-07-20T09:48:45.540Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "technology",
+        "citation": "https://www.theregister.com/public-sector/2026/07/20/auditors-tell-uk-government-to-do-the-math-before-banking-on-45b-ai-savings/5274194"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "summary",
+      "proposition": {
+        "predicate": "summary",
+        "object": "UK government auditors are calling for officials to consider the impact of AI on the size of the workforce needed for the civil service and wider public sector. The National Audit Office (NAO) recommends civil service leaders to \"reflect the impact of major technological change in their long-term workforce planning,\" including on \"workforce size, roles and grades, tasks and skills.\" These are among the workforce changes on which senior management should focus \"to realize productivity benefits from AI and digital transformation.\" \"The major challenge for the government is reflecting the fundamental impact of AI and digital change in planning for how organisations will operate in future. This includes expected implications on staff numbers, the nature of work, and capabilities required to carry out that work,\" the recently published report says. The NAO references the government's claim that it can create efficiencies from digital transformation and AI amounting to £45 billion each year. However, as The Register has already reported, others were much more skeptical about the claim, with Nick Davies, program director at the Institute for Government, pointing out it was a \"huge amount\" given most spending is on salaries or infrastructure. Later, Parliament's Science, Innovation and Technology Committee said the figure was \"worryingly optimistic,\" calling it an example of \"hype\" that could impede progress in digital transformation. The NAO report says \"reduced staffing needs and improved productivity\" are expected from digital self-service for areas such as tax and benefits, and automating manual tasks such as checking planning applications. However, the report also points out the challenges to workforce changes, not least that the public sector lacks the tech and digital skills needed to reap the slated efficiencies from AI. \"The published efficiency plans do not provide details of how departments derived their expected workforce efficiencies. There is a risk that departments are not identifying and estimating workforce efficiencies consistently. There is also a more fundamental risk that departments may not be identifying the full opportunities for efficiencies from reshaping workforces in response to wide-ranging digital and AI adoption,\" the NAO report says. The report also notes that Cabinet Secretary Dame Antonia Romeo had already pointed out that current workforce plans for the civil service \"do not sufficiently reflect how AI and technology are going to change the shape of the civil service\". It stresses that government departments need to prepare their digital and AI plans to sit alongside their strategic workforce plans. The NAO report also warns: \"There may be ethical concerns around AI use in some circumstances, resulting in organizations restricting its deployment.\" ®"
+      },
+      "time": {
+        "asserted": "2026-07-20T09:48:45.540Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "technology",
+        "citation": "https://www.theregister.com/public-sector/2026/07/20/auditors-tell-uk-government-to-do-the-math-before-banking-on-45b-ai-savings/5274194"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "published",
+      "proposition": {
+        "predicate": "published",
+        "object": "Mon, 20 Jul 2026 10:30:00 +0200"
+      },
+      "time": {
+        "asserted": "2026-07-20T09:48:45.540Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "technology",
+        "citation": "https://www.theregister.com/public-sector/2026/07/20/auditors-tell-uk-government-to-do-the-math-before-banking-on-45b-ai-savings/5274194"
+      },
+      "status": "supported"
+    }
+  ]
+}

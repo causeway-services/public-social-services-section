@@ -1,0 +1,23 @@
+{
+  "type": "MathematicsLessonBriefDraft",
+  "courseId": "causality-and-kinematic-space",
+  "courseRevision": 1,
+  "lessonId": "lorentzian-geometry",
+  "learningObjectives": [
+    "Classify tangent vectors and event separations as timelike, null, or spacelike under an explicit sign convention.",
+    "Construct causal futures, causal pasts, and causal diamonds without reading metric data from their drawings.",
+    "Distinguish local light-cone structure from global causal conditions.",
+    "State the holographic assumptions that later connect boundary intervals to bulk extremal surfaces."
+  ],
+  "definitions": [
+    "Lorentzian metric: a nondegenerate metric with one time direction and the remaining spatial directions of opposite sign.",
+    "Null cone: the tangent directions whose Lorentzian norm is zero.",
+    "Causal curve: a future- or past-directed curve whose tangent is timelike or null.",
+    "Causal diamond: the intersection of the causal future of one event with the causal past of another.",
+    "Global hyperbolicity: a strong global causal condition, commonly formulated using causality and compact causal diamonds.",
+    "Extremal surface: a surface stationary under area variation, used in covariant holographic entropy prescriptions under specific hypotheses."
+  ],
+  "notebookPrompt": "Create a mathematically precise cinematic lesson titled ‘Lorentzian geometry: cones, intervals, and diamonds.’ Begin by transforming a Euclidean metric into the two-dimensional Minkowski line element ds² = -dt² + dx². Classify worked displacements as timelike, null, and spacelike; grow future and past light cones; and construct a causal diamond. Distort the coordinate grid while preserving causal type so the viewer does not mistake screen geometry for invariant geometry. Distinguish local cone structure from chronology, causality, strong causality, stable causality, and global hyperbolicity without claiming equivalence. End by introducing static minimal and covariant extremal surfaces only inside their AdS/CFT hypotheses. Explicitly reject the inference that a diamond’s pixel height is a proper time. Preserve all source-packet limits and use no anthropomorphic host.",
+  "humanFrame": "Keep sign conventions explicit and treat the causal hierarchy as a hierarchy of hypotheses, not as interchangeable terminology. The holographic ending is a bridge to later construction, not a universal claim about causal systems.",
+  "assessment": "Classify three Minkowski displacements, draw a causal diamond, identify which features survive a coordinate distortion, and explain why one local light cone does not prove global hyperbolicity."
+}

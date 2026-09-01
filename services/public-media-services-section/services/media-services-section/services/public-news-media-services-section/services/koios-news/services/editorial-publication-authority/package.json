@@ -1,0 +1,12 @@
+{
+  "name": "@causeway-services/editorial-publication-authority",
+  "version": "0.1.0",
+  "type": "module",
+  "description": "Verifier-only Ed25519 publication-authority boundary for exact Koios manuscripts.",
+  "engines": { "node": ">=22.18" },
+  "scripts": {
+    "check": "node --check src/editorial-publication-authority.mjs && node --check test/editorial-publication-authority.test.mjs",
+    "test": "node --test test/*.test.mjs"
+  },
+  "files": ["src/", "test/", "README.md", "package.json"]
+}

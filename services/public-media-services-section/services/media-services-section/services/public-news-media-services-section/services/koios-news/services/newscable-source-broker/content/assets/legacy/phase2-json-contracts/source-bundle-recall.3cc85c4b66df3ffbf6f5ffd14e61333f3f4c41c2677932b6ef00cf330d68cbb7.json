@@ -1,0 +1,22 @@
+{
+  "kind": "newscable-source-bundle-recall-contract",
+  "id": "newscable-source-broker/source-bundle-recall/v1",
+  "provider": "newscable-source-broker",
+  "service": "return the newest provider-held immutable bundle for each exact customer-declared source URL",
+  "preconditions": [
+    "the customer supplies one to eight exact HTTP or HTTPS source URLs",
+    "the provider previously acquired each returned bundle through its source-bundle refresh service",
+    "the offer binds the exact provider-held snapshot returned by invocation"
+  ],
+  "postconditions": [
+    "the returned delivery contains only exact provider-held bundle values and canonical digests",
+    "the delivery and provider receipt bind the requested URL set and returned snapshot",
+    "the provider performs no network fetch and no customer-territory write"
+  ],
+  "prohibitions": [
+    "no reconstruction from customer files",
+    "no claim that recalled evidence is fresh merely because it was recalled",
+    "no URL discovery, writing, editing, or publication"
+  ],
+  "price": { "amount": 0, "currency": "USD" }
+}

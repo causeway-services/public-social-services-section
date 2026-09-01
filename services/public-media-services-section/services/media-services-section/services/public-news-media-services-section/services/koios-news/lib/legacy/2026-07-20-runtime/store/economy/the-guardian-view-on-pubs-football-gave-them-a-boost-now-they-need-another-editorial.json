@@ -1,0 +1,69 @@
+{
+  "subject": "the-guardian-view-on-pubs-football-gave-them-a-boost-now-they-need-another-editorial",
+  "claims": [
+    {
+      "id": "title",
+      "proposition": {
+        "predicate": "title",
+        "object": "The Guardian view on pubs: football gave them a boost – now they need another | Editorial"
+      },
+      "time": {
+        "asserted": "2026-07-19T20:06:11.680Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "economy",
+        "citation": "https://www.theguardian.com/commentisfree/2026/jul/19/the-guardian-view-on-pubs-football-gave-them-a-boost-now-they-need-another"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "url",
+      "proposition": {
+        "predicate": "url",
+        "object": "https://www.theguardian.com/commentisfree/2026/jul/19/the-guardian-view-on-pubs-football-gave-them-a-boost-now-they-need-another"
+      },
+      "time": {
+        "asserted": "2026-07-19T20:06:11.680Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "economy",
+        "citation": "https://www.theguardian.com/commentisfree/2026/jul/19/the-guardian-view-on-pubs-football-gave-them-a-boost-now-they-need-another"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "summary",
+      "proposition": {
+        "predicate": "summary",
+        "object": "<p>Communal spaces where people can share big moments are a vital part of our shared life</p><p>“People can’t get enough of football fever,” a <a href=\"https://www.theguardian.com/football/2026/jul/13/pub-landlords-lifeline-england-world-cup-heroes\">pub landlord, Sam Hale,</a> told the Guardian last week. The World Cup provided the UK’s struggling hospitality industry with a much-needed boost, with <a href=\"https://www.theguardian.com/business/2026/jul/14/world-cup-sunshine-uk-consumers-splash-out-on-beer-and-online-shopping\">pubs benefiting</a> from extended opening hours and one estimate suggesting that an extra 5.5m pints were sold in the group stages alone. The tournament lifted customers’ spirits too – even if it ended in disappointment for England and Scotland fans – as millions of people relished the communal spectacle.</p><p>These sociable few weeks could not have come at a better time for pubs, which are <a href=\"https://www.theguardian.com/lifeandstyle/ng-interactive/2026/may/07/now-the-village-is-dead-its-awful-why-was-one-of-britains-best-pubs-forced-to-close\">closing at a rate of two a day</a>, with about 2,000 gone since 2020. This reflects a long-term trend away from going out, combined with pressures from rising costs including energy bills, business rates, wages and national insurance contributions. The hope in the sector, and among its advocates, is that the temporary uplift of the past few weeks will focus minds on the importance of venues, including pubs, in promoting social cohesion and “<a href=\"https://www.theguardian.com/commentisfree/2026/jul/17/andy-burnham-world-cup-outdoor-viewing-parties-fan-zone-british\">watercooler moments</a>”.</p> <a href=\"https://www.theguardian.com/commentisfree/2026/jul/19/the-guardian-view-on-pubs-football-gave-them-a-boost-now-they-need-another\">Continue reading...</a>"
+      },
+      "time": {
+        "asserted": "2026-07-19T20:06:11.680Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "economy",
+        "citation": "https://www.theguardian.com/commentisfree/2026/jul/19/the-guardian-view-on-pubs-football-gave-them-a-boost-now-they-need-another"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "published",
+      "proposition": {
+        "predicate": "published",
+        "object": "Sun, 19 Jul 2026 16:25:31 GMT"
+      },
+      "time": {
+        "asserted": "2026-07-19T20:06:11.680Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "economy",
+        "citation": "https://www.theguardian.com/commentisfree/2026/jul/19/the-guardian-view-on-pubs-football-gave-them-a-boost-now-they-need-another"
+      },
+      "status": "supported"
+    }
+  ]
+}

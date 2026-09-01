@@ -1,0 +1,69 @@
+{
+  "subject": "microsoft-gives-admins-exchange-online-breathing-room",
+  "claims": [
+    {
+      "id": "title",
+      "proposition": {
+        "predicate": "title",
+        "object": "Microsoft gives admins Exchange Online breathing room"
+      },
+      "time": {
+        "asserted": "2026-07-19T02:19:57.968Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "technology",
+        "citation": "https://www.theregister.com/saas/2026/07/17/microsoft-gives-admins-exchange-online-breathing-room/5274346"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "url",
+      "proposition": {
+        "predicate": "url",
+        "object": "https://www.theregister.com/saas/2026/07/17/microsoft-gives-admins-exchange-online-breathing-room/5274346"
+      },
+      "time": {
+        "asserted": "2026-07-19T02:19:57.968Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "technology",
+        "citation": "https://www.theregister.com/saas/2026/07/17/microsoft-gives-admins-exchange-online-breathing-room/5274346"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "summary",
+      "proposition": {
+        "predicate": "summary",
+        "object": "Microsoft has delayed the removal of the -Credential parameter from Exchange Online PowerShell until December 2026, giving administrators more time to update affected scripts and automation. The -Credential parameter is used when connecting to Exchange Online PowerShell. It allows an administrator to supply stored username and password credentials. These days, it is heavily discouraged, particularly when more secure authentication methods are available. Microsoft had designated the parameter for removal in July 2026 as part of its move away from password-based authentication. The trouble is tracking down automation scripts that use it, updating them, and validating the changes – assuming a fix is even possible. Once the parameter is gone from the Connect-ExchangeOnline and Connect-IppsSession cmdlets in the Exchange Online PowerShell module, any scripts still relying on it will break, potentially taking carefully built workflows down with them. However, Microsoft has opted to push back the retirement beginning December 2026 – a festive gift for administrators. The company stated: \"If your organization uses the -Credential parameter in PowerShell scripts or automation workflows connecting to Exchange Online or Security & Compliance PowerShell, those scripts will break when you update to an Exchange Online PowerShell module version released beginning December 2026.\" As such, the retirement won't take effect until an update is performed. The server-side retirement of the underlying authentication flow is planned \"for a later date.\" \"When that occurs, the -Credential parameter will stop functioning even on older module versions.\" Microsoft said it delayed the retirement due to \"customer feedback,\" although it came late in the day. That said, a few extra months will be welcomed by affected administrators dealing with the impact of the change. And the change is still coming. Microsoft added: \"While our published timeline extends to the start of December 2026, we strongly recommend that all customers transition away from the -Credential parameter as soon as possible and not wait until the deadline.\" ®"
+      },
+      "time": {
+        "asserted": "2026-07-19T02:19:57.968Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "technology",
+        "citation": "https://www.theregister.com/saas/2026/07/17/microsoft-gives-admins-exchange-online-breathing-room/5274346"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "published",
+      "proposition": {
+        "predicate": "published",
+        "object": "Fri, 17 Jul 2026 15:20:00 +0200"
+      },
+      "time": {
+        "asserted": "2026-07-19T02:19:57.968Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "technology",
+        "citation": "https://www.theregister.com/saas/2026/07/17/microsoft-gives-admins-exchange-online-breathing-room/5274346"
+      },
+      "status": "supported"
+    }
+  ]
+}

@@ -1,0 +1,69 @@
+{
+  "subject": "a-stolen-dove-takes-flight-again",
+  "claims": [
+    {
+      "id": "title",
+      "proposition": {
+        "predicate": "title",
+        "object": "A Stolen Dove Takes Flight Again"
+      },
+      "time": {
+        "asserted": "2026-07-20T10:18:52.888Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "culture",
+        "citation": "https://hyperallergic.com/7/"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "url",
+      "proposition": {
+        "predicate": "url",
+        "object": "https://hyperallergic.com/7/"
+      },
+      "time": {
+        "asserted": "2026-07-20T10:18:52.888Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "culture",
+        "citation": "https://hyperallergic.com/7/"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "summary",
+      "proposition": {
+        "predicate": "summary",
+        "object": "Outside a public library in Santa Ana, California, sat a bronze statue of a man with a book under one arm, a dove taking flight from the other. Palestinian-American poet, scholar, and civil rights leader Alex Odeh was assassinated in 1985; nine years later, Algerian-American artist Khalil Bendib made the statue in his honor. It was vandalized with red paint in 1996 and then again the year after; in 2020, the dove — a symbol of peace — was stolen, before eventually being recovered. Now, artist Jon Rubin is setting that dove free, sending it on a world tour as a living, participatory artwork that brings renewed attention to Odeh’s life and legacy, a continued history of anti-Arab violence, and efforts to end occupation and genocide in Palestine — a quiet prayer for peace. This past weekend, it flew to Los Angeles for an evening of music, poetry, and food; next, it’ll head to the Bay Area, Pittsburgh, and hopefully, to Jifna, Odeh’s hometown, before returning home to roost. It’s a timely reminder that art is something meant to be shared in community — as Patrick Guetta, the artist featured in this week’s edition of A View From the Easel, puts it, “One of my favorite museums is the street.” Also today, inside the cheerfully sinister worlds of Trevor Winkfield, and Zendaya wearing 3,000-year-old Iranian artifacts to a movie premiere points to bigger problems than out-of-touch celebrities. —Lisa Yin Zhang, associate editor CORRECTION: Our Daily Newsletter from Friday, July 17, mistakenly stated that three antiquities the Manhattan District Attorney’s Office returned to Mexico were previously held at the Metropolitan Museum of Art, when in fact only one of them was. We regret the error. A Living Memorial to Palestinian Activist Alex Odeh Takes Flight “The Stolen Dove” is a participatory project that turns a decades-old monument into an artwork to keep the scholar and civil rights leader’s memory alive. | Matt Stromberg Read More SPONSORED Artists Announced for Louisiana Contemporary 2026 Louisiana Contemporary , presented by The Helis Foundation, celebrates the vitality of artistic practice across Louisiana. Juror Sarah Jones of The Metropolitan Museum of Art selected 50 works by 45 artists for the 2026 exhibition, on view August 1, 2026 - February 14, 2027. Explore this year's artists News Dmitriy Popov was handed a 20-year sentence over the fatal stabbing of Black gay professional dancer O’Shae Sibley. The sentencing comes after Popov was convicted of manslaughter as a hate crime in June. From Our Critics Trevor Winkfield’s Cheerfully Sinister Worlds His rejection of certainty is an urgent reminder that imagination should not be neglected in the pursuit of art. | John Yau Read More Opinion Zendaya’s Earrings Are Part of a Much Bigger Problem The 3,000-year-old Iranian discs turned red-carpet jewelry are emblematic of a market that has spent decades quietly dismantling ancient objects for parts. | Emiline Smith Read More A View From the Easel: Patrick Guetta “One of my favorite museums is the street itself.” Read More From the Archive Hildegard von Bingen’s Eternal Garden The 12th-century mystic continues to attract devotees among both Catholic clergy and New Age gurus, Christian traditionalists and radical feminists. | Ed Simon Read More"
+      },
+      "time": {
+        "asserted": "2026-07-20T10:18:52.888Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "culture",
+        "citation": "https://hyperallergic.com/7/"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "published",
+      "proposition": {
+        "predicate": "published",
+        "object": "Mon, 20 Jul 2026 10:00:43 GMT"
+      },
+      "time": {
+        "asserted": "2026-07-20T10:18:52.888Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "culture",
+        "citation": "https://hyperallergic.com/7/"
+      },
+      "status": "supported"
+    }
+  ]
+}

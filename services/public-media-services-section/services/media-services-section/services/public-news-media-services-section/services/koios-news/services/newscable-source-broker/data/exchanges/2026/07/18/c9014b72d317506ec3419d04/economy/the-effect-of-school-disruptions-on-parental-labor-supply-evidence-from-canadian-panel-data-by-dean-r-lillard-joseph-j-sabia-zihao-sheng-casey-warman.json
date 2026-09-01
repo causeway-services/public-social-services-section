@@ -1,0 +1,53 @@
+{
+  "subject": "the-effect-of-school-disruptions-on-parental-labor-supply-evidence-from-canadian-panel-data-by-dean-r-lillard-joseph-j-sabia-zihao-sheng-casey-warman",
+  "claims": [
+    {
+      "id": "title",
+      "proposition": {
+        "predicate": "title",
+        "object": "The Effect of School Disruptions on Parental Labor Supply: Evidence from Canadian Panel Data -- by Dean R. Lillard, Joseph J. Sabia, Zihao Sheng, Casey Warman"
+      },
+      "time": {
+        "asserted": "2026-07-18T19:52:21.689Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "economy",
+        "citation": "https://www.nber.org/papers/w35432#fromrss"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "url",
+      "proposition": {
+        "predicate": "url",
+        "object": "https://www.nber.org/papers/w35432#fromrss"
+      },
+      "time": {
+        "asserted": "2026-07-18T19:52:21.689Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "economy",
+        "citation": "https://www.nber.org/papers/w35432#fromrss"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "summary",
+      "proposition": {
+        "predicate": "summary",
+        "object": "This study explores the effects of COVID-19 school closures on labor market outcomes of Canadian parents of school-aged children. Using newly collected data on grade-level-specific school closures across 141 Canadian cities along with individual-level panel data from the Labour Force Survey, difference-in-differences estimates provide robust evidence that restrictions on in-person schooling reduced employment among partnered mothers of school-aged children by approximately 2 percentage points. For fathers, labor supply adjustments are much weaker and concentrated on single fathers. Finally, auxiliary analyses using administrative tax records provide suggestive evidence that school closures increased public benefit receipt among single parents."
+      },
+      "time": {
+        "asserted": "2026-07-18T19:52:21.689Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "economy",
+        "citation": "https://www.nber.org/papers/w35432#fromrss"
+      },
+      "status": "supported"
+    }
+  ]
+}

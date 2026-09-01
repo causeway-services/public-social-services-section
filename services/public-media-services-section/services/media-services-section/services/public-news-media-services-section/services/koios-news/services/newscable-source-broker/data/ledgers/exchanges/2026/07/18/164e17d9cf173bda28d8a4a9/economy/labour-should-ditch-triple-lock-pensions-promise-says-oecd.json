@@ -1,0 +1,69 @@
+{
+  "subject": "labour-should-ditch-triple-lock-pensions-promise-says-oecd",
+  "claims": [
+    {
+      "id": "title",
+      "proposition": {
+        "predicate": "title",
+        "object": "Labour should ditch triple-lock pensions promise, says OECD"
+      },
+      "time": {
+        "asserted": "2026-07-18T08:37:37.917Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "economy",
+        "citation": "https://www.theguardian.com/business/2026/jul/15/labour-should-ditch-triple-lock-pensions-promise-says-oecd"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "url",
+      "proposition": {
+        "predicate": "url",
+        "object": "https://www.theguardian.com/business/2026/jul/15/labour-should-ditch-triple-lock-pensions-promise-says-oecd"
+      },
+      "time": {
+        "asserted": "2026-07-18T08:37:37.917Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "economy",
+        "citation": "https://www.theguardian.com/business/2026/jul/15/labour-should-ditch-triple-lock-pensions-promise-says-oecd"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "summary",
+      "proposition": {
+        "predicate": "summary",
+        "object": "<p>Organisation’s experts say pledge puts pressure on UK public finances and ‘adds significant fiscal risks’</p><p>Labour should ditch the triple-lock pensions promise to help tackle the UK’s straitened public finances, the Organisation for Economic Cooperation and Development has urged.</p><p>In its latest survey of the UK economy, the Paris-based club of industrialised nations added its voice to those calling for an end to the pledge, <a href=\"https://www.theguardian.com/money/2025/sep/16/uk-state-pension-what-is-the-triple-lock-and-could-it-be-ditched\">which uprates the state pension each year</a> by whichever is the highest of wage growth, inflation or 2.5%.</p> <a href=\"https://www.theguardian.com/business/2026/jul/15/labour-should-ditch-triple-lock-pensions-promise-says-oecd\">Continue reading...</a>"
+      },
+      "time": {
+        "asserted": "2026-07-18T08:37:37.917Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "economy",
+        "citation": "https://www.theguardian.com/business/2026/jul/15/labour-should-ditch-triple-lock-pensions-promise-says-oecd"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "published",
+      "proposition": {
+        "predicate": "published",
+        "object": "Wed, 15 Jul 2026 09:00:51 GMT"
+      },
+      "time": {
+        "asserted": "2026-07-18T08:37:37.917Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "economy",
+        "citation": "https://www.theguardian.com/business/2026/jul/15/labour-should-ditch-triple-lock-pensions-promise-says-oecd"
+      },
+      "status": "supported"
+    }
+  ]
+}

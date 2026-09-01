@@ -1,0 +1,69 @@
+{
+  "subject": "post-malone-debuts-new-song-chrome-heartbreaker-at-world-cup-final-pregame-ceremony",
+  "claims": [
+    {
+      "id": "title",
+      "proposition": {
+        "predicate": "title",
+        "object": "Post Malone Debuts New Song ‘Chrome Heartbreaker’ at World Cup Final Pregame Ceremony"
+      },
+      "time": {
+        "asserted": "2026-07-19T20:06:19.825Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "culture",
+        "citation": "https://www.rollingstone.com/music/music-news/post-malone-performance-world-cup-final-pregame-ceremony-1235594952/"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "url",
+      "proposition": {
+        "predicate": "url",
+        "object": "https://www.rollingstone.com/music/music-news/post-malone-performance-world-cup-final-pregame-ceremony-1235594952/"
+      },
+      "time": {
+        "asserted": "2026-07-19T20:06:19.825Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "culture",
+        "citation": "https://www.rollingstone.com/music/music-news/post-malone-performance-world-cup-final-pregame-ceremony-1235594952/"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "summary",
+      "proposition": {
+        "predicate": "summary",
+        "object": "Jennifer Hudson delivered the United States national anthem and IShowSpeed performed \"Champions\" before Spain and Argentina match at New York New Jersey Stadium"
+      },
+      "time": {
+        "asserted": "2026-07-19T20:06:19.825Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "culture",
+        "citation": "https://www.rollingstone.com/music/music-news/post-malone-performance-world-cup-final-pregame-ceremony-1235594952/"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "published",
+      "proposition": {
+        "predicate": "published",
+        "object": "Sun, 19 Jul 2026 18:35:31 +0000"
+      },
+      "time": {
+        "asserted": "2026-07-19T20:06:19.825Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "culture",
+        "citation": "https://www.rollingstone.com/music/music-news/post-malone-performance-world-cup-final-pregame-ceremony-1235594952/"
+      },
+      "status": "supported"
+    }
+  ]
+}

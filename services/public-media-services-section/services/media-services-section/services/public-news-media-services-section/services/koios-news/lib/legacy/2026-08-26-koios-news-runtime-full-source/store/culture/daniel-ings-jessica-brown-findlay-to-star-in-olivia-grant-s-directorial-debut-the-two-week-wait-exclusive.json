@@ -1,0 +1,69 @@
+{
+  "subject": "daniel-ings-jessica-brown-findlay-to-star-in-olivia-grant-s-directorial-debut-the-two-week-wait-exclusive",
+  "claims": [
+    {
+      "id": "title",
+      "proposition": {
+        "predicate": "title",
+        "object": "Daniel Ings, Jessica Brown Findlay to Star in Olivia Grant’s Directorial Debut, ‘The Two Week Wait’ (Exclusive)"
+      },
+      "time": {
+        "asserted": "2026-07-20T10:18:52.888Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "culture",
+        "citation": "https://www.hollywoodreporter.com/movies/movie-news/daniel-ings-jessica-brown-findlay-olivia-grant-short-film-1236652010/"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "url",
+      "proposition": {
+        "predicate": "url",
+        "object": "https://www.hollywoodreporter.com/movies/movie-news/daniel-ings-jessica-brown-findlay-olivia-grant-short-film-1236652010/"
+      },
+      "time": {
+        "asserted": "2026-07-20T10:18:52.888Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "culture",
+        "citation": "https://www.hollywoodreporter.com/movies/movie-news/daniel-ings-jessica-brown-findlay-olivia-grant-short-film-1236652010/"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "summary",
+      "proposition": {
+        "predicate": "summary",
+        "object": "The personal project, chronicling a woman's painstaking experience navigating IVF and infertility, will have its world premiere at the Indy Shorts Film Festival."
+      },
+      "time": {
+        "asserted": "2026-07-20T10:18:52.888Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "culture",
+        "citation": "https://www.hollywoodreporter.com/movies/movie-news/daniel-ings-jessica-brown-findlay-olivia-grant-short-film-1236652010/"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "published",
+      "proposition": {
+        "predicate": "published",
+        "object": "Mon, 20 Jul 2026 10:00:00 +0000"
+      },
+      "time": {
+        "asserted": "2026-07-20T10:18:52.888Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "culture",
+        "citation": "https://www.hollywoodreporter.com/movies/movie-news/daniel-ings-jessica-brown-findlay-olivia-grant-short-film-1236652010/"
+      },
+      "status": "supported"
+    }
+  ]
+}

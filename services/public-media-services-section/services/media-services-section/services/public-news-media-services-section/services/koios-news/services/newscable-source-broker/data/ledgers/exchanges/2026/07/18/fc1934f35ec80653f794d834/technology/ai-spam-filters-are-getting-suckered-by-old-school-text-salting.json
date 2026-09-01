@@ -1,0 +1,69 @@
+{
+  "subject": "ai-spam-filters-are-getting-suckered-by-old-school-text-salting",
+  "claims": [
+    {
+      "id": "title",
+      "proposition": {
+        "predicate": "title",
+        "object": "AI spam filters are getting suckered by old-school text salting"
+      },
+      "time": {
+        "asserted": "2026-07-18T07:55:43.768Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "technology",
+        "citation": "https://www.theregister.com/security/2026/07/17/ai-spam-filters-are-getting-suckered-by-old-school-text-salting/5274434"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "url",
+      "proposition": {
+        "predicate": "url",
+        "object": "https://www.theregister.com/security/2026/07/17/ai-spam-filters-are-getting-suckered-by-old-school-text-salting/5274434"
+      },
+      "time": {
+        "asserted": "2026-07-18T07:55:43.768Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "technology",
+        "citation": "https://www.theregister.com/security/2026/07/17/ai-spam-filters-are-getting-suckered-by-old-school-text-salting/5274434"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "summary",
+      "proposition": {
+        "predicate": "summary",
+        "object": "Notice more spam getting through that corporate email filter lately? Attackers are using a technique known as \"text salting,\" which hides benign-looking words intended to confuse some AI-powered email filters, says cybersecurity firm Barracuda. The email security outfit said on Thursday that it had detected more than one million retail-themed phishing attacks using text salting since April. It’s not a new technique by any stretch and has been used to fool traditional secure email gateways for years, but Barracuda says it can also confuse machine-learning and LLM-based security tools. Text salting involves peppering (sorry) a malicious email with random, harmless-seeming words in order to fool an email scanning system into thinking there’s nothing off about the flavor of a message (sorry again), tricking the system into passing it to its recipient for consumption (I’ll stop with the food jokes here). Pour a pile of salty text on top of an email and a human reader would probably get suspicious, however, so attackers typically use one or more of three flavor variations (okay, I'm done – promise) to hide the additives from human readers, but not automated scanners, per Barracuda. Typical techniques include CSS cropping, which sets the visible window small enough that a human won't see the hidden filler text; text manipulation to move the salty copy outside the visible screen; and zero font techniques which insert misleading words between suspicious phishing copy that’s visible to a machine but not a human. The end result of each of those techniques is a message that reads less malicious, more gibberish to a machine, leading it to assume the email is fine, and which looks exactly as the attacker intended when viewed by a human. Modern email security systems have largely adapted to these techniques, with newer tools able to remove hidden text to see what a reader is supposed to see, sounding alarms when a lot of hidden stuff is inserted in an email, and the like. AI, however, hasn’t managed to follow suit, says Barracuda. “Text salting and related techniques can be used to confuse AI-driven content analysis engines by flooding the email with random terms that encourage the AI system into making an incorrect classification decision,” the company wrote in its report - just like those early 2000s SEGs. What a technological leap we’ve made! LLMs, Barracuda explained, are typically designed to process email text and source code plainly, with no understanding of whether text is visible or hidden from a user. They can be trained to do so, but that just means most tools probably aren’t doing that by default. So, what can enterprises do to stop the flow of salty spam to their employees? Barracuda recommends a layered approach to email security rather than relying solely on keyword detection, including checking sender reputation, authentication results, embedded URLs, HTML-rendering techniques, and differences between user-visible and hidden content. Ditching that AI spam filter might not be a bad idea, either. ®"
+      },
+      "time": {
+        "asserted": "2026-07-18T07:55:43.768Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "technology",
+        "citation": "https://www.theregister.com/security/2026/07/17/ai-spam-filters-are-getting-suckered-by-old-school-text-salting/5274434"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "published",
+      "proposition": {
+        "predicate": "published",
+        "object": "Fri, 17 Jul 2026 18:15:22 +0200"
+      },
+      "time": {
+        "asserted": "2026-07-18T07:55:43.768Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "technology",
+        "citation": "https://www.theregister.com/security/2026/07/17/ai-spam-filters-are-getting-suckered-by-old-school-text-salting/5274434"
+      },
+      "status": "supported"
+    }
+  ]
+}

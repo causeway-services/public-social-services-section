@@ -1,0 +1,34 @@
+{
+  "type": "TTIUnionMediaAdvertiserSolicitation",
+  "version": 2,
+  "id": "tti-union-media-advertiser-solicitation-2026-01",
+  "status": "authentication-pilot-solicitation-no-placement-or-auction-open",
+  "customer": "urn:ame:turntide-islands",
+  "productId": "tti-union-media-syndication-2026-01",
+  "contract": "ni:///sha-256;_3Vr73uJvicSjls4LCZoNspuAKpUl2RFKC0auMcGfS4",
+  "invitedEnterprises": [
+    "urn:ame:youtube-channel-enterprise",
+    "urn:ame:mathematics-youtube-channel-enterprise",
+    "urn:ame:climate-youtube-channel-enterprise",
+    "urn:ame:artificial-intelligence-youtube-channel-enterprise",
+    "urn:ame:modern-business-youtube-channel-enterprise"
+  ],
+  "request": "An invited enterprise may offer its exact HTTPS ActivityPub actor and A2A Agent Card for a TTI treaty revision and later send the bounded verified inter-enterprise records TTI requests. TTI's three Discord Union Media commands are now an administrator-only UHC-private sponsor/referral and authentication rehearsal console; they are not an external advertiser surface. The admitted base YouTube Channel Enterprise is invited to author delegation from its own sovereign account, and the four discovered child channel enterprises are invited to provision sovereign account carriers. A later request may describe concrete compute, research, data, media, editorial, moderation, operational, or other nonmonetary resources the enterprise can fulfill.",
+  "scarcityRule": "TTI assigns no global or advertiser-authored price to a resource. Once auctions are separately opened, TTI will freeze its own needs before each cycle; a small amount of useful compute may outrank broad image access when compute is TTI's binding scarcity, and that ordering may reverse under a later witnessed needs policy.",
+  "authentication": {
+    "contract": "ni:///sha-256;xX10couZ9FmdpLcQFvlvxBFdZemz55UJ_-h_sxQR0Ss",
+    "discordRehearsalCommand": "/union-media-authenticate (TTI leader in hidden UHC Embassy channel only)",
+    "pilotReadyEnterprise": "urn:ame:youtube-channel-enterprise",
+    "providerProtocol": "org.emsenn.evm.typed-commitment-projection.v1",
+    "effect": "Authenticates one enterprise account and representative delegation for one later placement request; creates no request, bid, award, transfer, publication, revenue, or profit."
+  },
+  "activityPubPilot": {
+    "status": "tti-customer-die-probed-awaiting-custody-clean-carrier-public-host-and-advertiser-identity",
+    "request": "The authentication-ready YouTube Channel Enterprise is invited to offer its exact HTTPS ActivityPub actor and A2A Agent Card for a TTI treaty revision. TTI will not infer these identities from its EVM account.",
+    "ingressContract": "ni:///sha-256;lA86YpfReCyssDxcPqC0ooB-OscHHYoPe13BWmHB8jQ",
+    "effect": "One verified canonical RMN request can consume one authentication and enter editorial review only; it creates no approval, bid, reservation, publication, revenue, or profit."
+  },
+  "boundary": "The advertiser offers ActivityStreams evidence to TTI. It never writes TTI's channel, reads TTI's Discord interior, receives audience data, or transfers credentials. TTI independently admits or refuses every request and alone publishes.",
+  "currentEffect": "No endpoint or auction cycle is advertised, no inventory is reserved, no resource bid or dollar payment is accepted, no placement is promised, and no cash revenue or monetary profit is recognized until authenticated bid and resource-transfer boundaries are separately activated.",
+  "responseUse": "Aggregate customer discovery and contract design only; an offered creative does not authorize publication before a later frozen offer and exact external settlement."
+}

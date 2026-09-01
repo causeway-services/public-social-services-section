@@ -1,0 +1,69 @@
+{
+  "subject": "at-the-world-cup-of-superstars-a-team-take-home-the-trophy-sid-lowe",
+  "claims": [
+    {
+      "id": "title",
+      "proposition": {
+        "predicate": "title",
+        "object": "At the World Cup of superstars, a team take home the trophy | Sid Lowe"
+      },
+      "time": {
+        "asserted": "2026-07-20T01:13:56.334Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "sports",
+        "citation": "https://www.theguardian.com/football/2026/jul/20/world-cup-2026-final-spain-argentina"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "url",
+      "proposition": {
+        "predicate": "url",
+        "object": "https://www.theguardian.com/football/2026/jul/20/world-cup-2026-final-spain-argentina"
+      },
+      "time": {
+        "asserted": "2026-07-20T01:13:56.334Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "sports",
+        "citation": "https://www.theguardian.com/football/2026/jul/20/world-cup-2026-final-spain-argentina"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "summary",
+      "proposition": {
+        "predicate": "summary",
+        "object": "<p>The European champions conceded just one goal in the tournament and Spain’s success is a victory for a system</p><p>Release the pressure, let it out. All of it and all of them. Again and again they had come, again and again they had been halted but they would not be denied. A dozen different players had taken aim at Emi Martínez’s goal but somehow he was still standing and time was slipping away, yet Spain refused to do so, so they came some more.</p><p>And then, suddenly, only this wasn’t really sudden, the result instead of the purest logic, the clearest justice, Pedro Porro’s deep cross found Nico Williams at the far post and he headed back. The ball dropped deep inside the Argentina penalty area, bounced on the turf and just kind of sat there: waiting, willing someone take this moment.</p> <a href=\"https://www.theguardian.com/football/2026/jul/20/world-cup-2026-final-spain-argentina\">Continue reading...</a>"
+      },
+      "time": {
+        "asserted": "2026-07-20T01:13:56.334Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "sports",
+        "citation": "https://www.theguardian.com/football/2026/jul/20/world-cup-2026-final-spain-argentina"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "published",
+      "proposition": {
+        "predicate": "published",
+        "object": "Sun, 19 Jul 2026 23:05:28 GMT"
+      },
+      "time": {
+        "asserted": "2026-07-20T01:13:56.334Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "sports",
+        "citation": "https://www.theguardian.com/football/2026/jul/20/world-cup-2026-final-spain-argentina"
+      },
+      "status": "supported"
+    }
+  ]
+}

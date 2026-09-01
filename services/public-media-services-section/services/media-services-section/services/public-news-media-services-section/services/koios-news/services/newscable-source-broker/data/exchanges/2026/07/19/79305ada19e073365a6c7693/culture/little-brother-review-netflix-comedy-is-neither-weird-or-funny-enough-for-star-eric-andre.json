@@ -1,0 +1,69 @@
+{
+  "subject": "little-brother-review-netflix-comedy-is-neither-weird-or-funny-enough-for-star-eric-andre",
+  "claims": [
+    {
+      "id": "title",
+      "proposition": {
+        "predicate": "title",
+        "object": "Little Brother review – Netflix comedy is neither weird or funny enough for star Eric André"
+      },
+      "time": {
+        "asserted": "2026-07-19T15:04:21.677Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "culture",
+        "citation": "https://www.theguardian.com/film/2026/jun/25/little-brother-movie-review-netflix"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "url",
+      "proposition": {
+        "predicate": "url",
+        "object": "https://www.theguardian.com/film/2026/jun/25/little-brother-movie-review-netflix"
+      },
+      "time": {
+        "asserted": "2026-07-19T15:04:21.677Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "culture",
+        "citation": "https://www.theguardian.com/film/2026/jun/25/little-brother-movie-review-netflix"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "summary",
+      "proposition": {
+        "predicate": "summary",
+        "object": "<p>The surreal comedian struggles to sell a middling and mostly conventional film about an uptight realtor whose life is upturned by an unpredictable figure from his past</p><p>The specific, unforced strangeness of <a href=\"https://www.theguardian.com/tv-and-radio/2020/jun/27/comedian-eric-andre-we-dont-tell-guests-a-thing-they-waltz-into-a-house-of-horrors\">Eric André’s comedy</a> hasn’t been an easy fit for Hollywood. His surreal and frequently hilarious late-night series The Eric André Show was an unpredictably odd and often violently catastrophic mix of awkward celebrity interviews and daring, dangerous on-the-street pranks and his manic, anything-for-the-bit energy marked him as someone execs would be unwise to entirely ignore.</p><p>But André didn’t really feel like someone who desperately needed industry approval and broader acceptance or the inevitable comedy vehicle that would come with it (those projects are also admittedly far less common than they once were). There was an attempt in 2020, a hidden camera hybrid comedy called Bad Trip that saw André lead a fictional narrative playing out in real locations with real people unwittingly cast alongside. But Covid forced a theatrical play into a Netflix premiere and while it had its moments (the zoo-based sexual assault is a work of crude genius), the format was a gamble that, for me, didn’t completely pay off (it was as hit-and-miss as a sketch show). The film’s looseness did at least feel like a more natural fit for André than his follow-up for the streamer, the far more conventional and far less amusing comedy Little Brother, the closest he has come to “fitting in”.</p> <a href=\"https://www.theguardian.com/film/2026/jun/25/little-brother-movie-review-netflix\">Continue reading...</a>"
+      },
+      "time": {
+        "asserted": "2026-07-19T15:04:21.677Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "culture",
+        "citation": "https://www.theguardian.com/film/2026/jun/25/little-brother-movie-review-netflix"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "published",
+      "proposition": {
+        "predicate": "published",
+        "object": "Thu, 25 Jun 2026 23:00:02 GMT"
+      },
+      "time": {
+        "asserted": "2026-07-19T15:04:21.677Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "culture",
+        "citation": "https://www.theguardian.com/film/2026/jun/25/little-brother-movie-review-netflix"
+      },
+      "status": "supported"
+    }
+  ]
+}

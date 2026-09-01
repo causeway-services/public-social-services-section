@@ -1,0 +1,69 @@
+{
+  "subject": "andy-burnham-must-act-fast-on-the-climate-or-risk-getting-stuck-in-a-derailment-doom-loop-laurie-laybourn",
+  "claims": [
+    {
+      "id": "title",
+      "proposition": {
+        "predicate": "title",
+        "object": "Andy Burnham must act fast on the climate – or risk getting stuck in a ‘derailment’ doom loop | Laurie Laybourn"
+      },
+      "time": {
+        "asserted": "2026-07-18T07:49:49.277Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "environment",
+        "citation": "https://www.theguardian.com/commentisfree/2026/jul/14/andy-burnham-climate-floods-fires-political-capital"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "url",
+      "proposition": {
+        "predicate": "url",
+        "object": "https://www.theguardian.com/commentisfree/2026/jul/14/andy-burnham-climate-floods-fires-political-capital"
+      },
+      "time": {
+        "asserted": "2026-07-18T07:49:49.277Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "environment",
+        "citation": "https://www.theguardian.com/commentisfree/2026/jul/14/andy-burnham-climate-floods-fires-political-capital"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "summary",
+      "proposition": {
+        "predicate": "summary",
+        "object": "<p>Around the world, climate-sceptic parties are exploiting floods and fires to make political capital. Without urgent changes, this deadly spiral will continue</p><p>Recent unprecedented heatwaves in the UK may have <a href=\"https://www.theguardian.com/environment/2026/jul/13/june-heatwave-killed-440-people-a-day-england-wales-data-suggests-climate-crisis\">killed thousands</a> of people. Children are suffering in <a href=\"https://www.theguardian.com/education/2026/jul/11/uk-pupils-struggle-extreme-heat-schools-classrooms\">overheating schools</a>. NHS trusts <a href=\"https://www.theguardian.com/society/2026/jun/25/hospitals-nhs-england-critical-incidents-machines-it-fail-extreme-heat\">are straining</a> under <a href=\"https://www.bbc.co.uk/news/articles/c621qzl43nxo\">record-breaking demand</a>. This all comes after climate extremes have even affected national security, with three of Britain’s five worst harvests coming <a href=\"https://eciu.net/analysis/reports/2025/england-cereals-and-oilseeds-harvests-ranked\">since 2020</a>, impairing food security.</p><p>This is what life looks like in the “adaptation gap”.</p><p>Laurie Laybourn is executive director of the <a href=\"https://www.scri.org.uk/\">Strategic Climate Risks Initiative</a></p><p><em><strong>Do you have an opinion on the issues raised in this article? If you would like to submit a response of up to 300 words by email to be considered for publication in our<a href=\"https://www.theguardian.com/tone/letters\"> letters</a> section, please <a href=\"mailto:guardian.letters@theguardian.com?body=Please%20include%20your%20name,%20full%20postal%20address%20and%20phone%20number%20with%20your%20letter%20below.%20Letters%20are%20usually%20published%20with%20the%20author%27s%20name%20and%20city/town/village.%20The%20rest%20of%20the%20information%20is%20for%20verification%20only%20and%20to%20contact%20you%20where%20necessary.\">click here</a>.</strong></em></p> <a href=\"https://www.theguardian.com/commentisfree/2026/jul/14/andy-burnham-climate-floods-fires-political-capital\">Continue reading...</a>"
+      },
+      "time": {
+        "asserted": "2026-07-18T07:49:49.277Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "environment",
+        "citation": "https://www.theguardian.com/commentisfree/2026/jul/14/andy-burnham-climate-floods-fires-political-capital"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "published",
+      "proposition": {
+        "predicate": "published",
+        "object": "Tue, 14 Jul 2026 16:51:49 GMT"
+      },
+      "time": {
+        "asserted": "2026-07-18T07:49:49.277Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "environment",
+        "citation": "https://www.theguardian.com/commentisfree/2026/jul/14/andy-burnham-climate-floods-fires-political-capital"
+      },
+      "status": "supported"
+    }
+  ]
+}

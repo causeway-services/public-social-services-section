@@ -1,0 +1,69 @@
+{
+  "subject": "trump-made-1-4bn-from-crypto-in-one-year-is-justin-sun-the-man-who-helped-him-do-it",
+  "claims": [
+    {
+      "id": "title",
+      "proposition": {
+        "predicate": "title",
+        "object": "Trump made $1.4bn from crypto in one year. Is Justin Sun the man who helped him do it?"
+      },
+      "time": {
+        "asserted": "2026-07-18T07:55:43.768Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "technology",
+        "citation": "https://www.theguardian.com/technology/ng-interactive/2026/jul/16/justin-sun-trump-family-crypto"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "url",
+      "proposition": {
+        "predicate": "url",
+        "object": "https://www.theguardian.com/technology/ng-interactive/2026/jul/16/justin-sun-trump-family-crypto"
+      },
+      "time": {
+        "asserted": "2026-07-18T07:55:43.768Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "technology",
+        "citation": "https://www.theguardian.com/technology/ng-interactive/2026/jul/16/justin-sun-trump-family-crypto"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "summary",
+      "proposition": {
+        "predicate": "summary",
+        "object": "<p>The entrepreneur is known in Washington as the financial power behind the president’s crypto fortune. How did Sun’s business love-in with the Trump family spiral into dueling lawsuits?</p><p>The most infamous financial scandal in US presidential history – the 1920s Teapot Dome affair – involved then president Warren G Harding’s interior secretary, Albert Fall, taking roughly $400,000 in bribes. Adjusted for inflation, that’s about $6m today. Last year, Donald Trump made at least <a href=\"https://www.nytimes.com/2026/06/30/us/politics/trump-financial-disclosure-crypto-windfall.html\">$2.2bn</a>; his single year of income is on the order of 200 to 300 times larger than the bribe that defined “presidential corruption” in the American imagination for a century.</p><p>It’s taken for granted that Trump flogs items like Bibles and gold sneakers as a way to wring more money from his loyal base. But of the president’s $2.2bn, at least $1.4bn came from his crypto businesses. That’s an extraordinary achievement, even for an unscrupulous sitting president. How exactly did he do it without any prior background in crypto?</p> <a href=\"https://www.theguardian.com/technology/ng-interactive/2026/jul/16/justin-sun-trump-family-crypto\">Continue reading...</a>"
+      },
+      "time": {
+        "asserted": "2026-07-18T07:55:43.768Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "technology",
+        "citation": "https://www.theguardian.com/technology/ng-interactive/2026/jul/16/justin-sun-trump-family-crypto"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "published",
+      "proposition": {
+        "predicate": "published",
+        "object": "Thu, 16 Jul 2026 16:19:56 GMT"
+      },
+      "time": {
+        "asserted": "2026-07-18T07:55:43.768Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "technology",
+        "citation": "https://www.theguardian.com/technology/ng-interactive/2026/jul/16/justin-sun-trump-family-crypto"
+      },
+      "status": "supported"
+    }
+  ]
+}

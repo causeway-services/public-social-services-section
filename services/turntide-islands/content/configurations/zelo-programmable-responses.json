@@ -1,0 +1,74 @@
+{
+  "type": "TTIZeloProgrammableResponseConfiguration",
+  "version": 1,
+  "status": "shadow-only",
+  "guildId": "1184863861065658419",
+  "execution": "forbidden-pending-reviewed-admission",
+  "commands": [
+    {
+      "id": "tti-help",
+      "revision": "r20260829-1",
+      "trigger": "!tti-help",
+      "response": "Turntide Islands: start with #dock, use #channel-visas to choose topical spaces, ask governance questions in #governance-questions, and keep source trails in #receipts.",
+      "channels": ["dock", "channel-visas", "governance-questions", "receipts"],
+      "source": {
+        "id": "tti-established-community-model",
+        "revision": "r20260829",
+        "reference": "content/texts/documents/articles/notes/2026-08-29-established-community-model-and-big-plans.md"
+      },
+      "humanOwner": "emsenn, Turntide Islands administrator"
+    },
+    {
+      "id": "tti-arrival",
+      "revision": "r20260829-1",
+      "trigger": "!tti-arrival",
+      "response": "Read the established welcome in #dock and use its 🏝️ reaction to enter. This response does not assert what role that reaction grants; ask a human administrator if the journey does not work.",
+      "channels": ["dock"],
+      "source": {
+        "id": "tti-established-entry-reaction",
+        "revision": "r20260829",
+        "reference": "content/configurations/discord-reaction-system.json"
+      },
+      "humanOwner": "emsenn, Turntide Islands administrator"
+    },
+    {
+      "id": "tti-visas",
+      "revision": "r20260829-1",
+      "trigger": "!tti-visas",
+      "response": "#channel-visas is the established path for choosing topical communities by emoji reaction. Zelo does not replace or assign those roles through this shadow response.",
+      "channels": ["channel-visas"],
+      "source": {
+        "id": "tti-channel-visas-reaction-map",
+        "revision": "r20260829",
+        "reference": "content/configurations/discord-reaction-system.json"
+      },
+      "humanOwner": "emsenn, Turntide Islands administrator"
+    },
+    {
+      "id": "tti-governance",
+      "revision": "r20260829-1",
+      "trigger": "!tti-governance",
+      "response": "Use #governance-questions, #governance-discussion, and #governance-proposals for the proposed discussion → quorum → recorded-decision cycle. Current DAO identifiers remain unresolved; this command makes no live on-chain claim.",
+      "channels": ["governance-questions", "governance-discussion", "governance-proposals"],
+      "source": {
+        "id": "tti-polycentric-governance-protocol",
+        "revision": "r20260829",
+        "reference": "content/texts/documents/governance/polycentric-participatory-consensus.md"
+      },
+      "humanOwner": "emsenn, Turntide Islands administrator"
+    },
+    {
+      "id": "tti-reporting",
+      "revision": "r20260829-1",
+      "trigger": "!tti-reporting",
+      "response": "Use #receipts for source trails, links, citations, screenshots, and provenance worth preserving. This is not a moderation or emergency-reporting channel; contact a human administrator for those matters.",
+      "channels": ["receipts"],
+      "source": {
+        "id": "tti-receipts-channel-observation",
+        "revision": "r20260829",
+        "reference": "data/state/discord-guild-state.json"
+      },
+      "humanOwner": "emsenn, Turntide Islands administrator"
+    }
+  ]
+}

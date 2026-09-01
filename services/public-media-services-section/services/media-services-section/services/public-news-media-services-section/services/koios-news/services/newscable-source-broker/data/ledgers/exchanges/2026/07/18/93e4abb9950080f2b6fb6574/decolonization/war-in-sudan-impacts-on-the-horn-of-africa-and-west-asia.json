@@ -1,0 +1,69 @@
+{
+  "subject": "war-in-sudan-impacts-on-the-horn-of-africa-and-west-asia",
+  "claims": [
+    {
+      "id": "title",
+      "proposition": {
+        "predicate": "title",
+        "object": "War in Sudan: Impacts on the Horn of Africa and West Asia"
+      },
+      "time": {
+        "asserted": "2026-07-18T08:10:04.780Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "decolonization",
+        "citation": "https://www.blackagendareport.com/war-sudan-impacts-horn-africa-and-west-asia"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "url",
+      "proposition": {
+        "predicate": "url",
+        "object": "https://www.blackagendareport.com/war-sudan-impacts-horn-africa-and-west-asia"
+      },
+      "time": {
+        "asserted": "2026-07-18T08:10:04.780Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "decolonization",
+        "citation": "https://www.blackagendareport.com/war-sudan-impacts-horn-africa-and-west-asia"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "summary",
+      "proposition": {
+        "predicate": "summary",
+        "object": "<span class=\"field field--name-title field--type-string field--label-hidden\">War in Sudan: Impacts on the Horn of Africa and West Asia</span> <div class=\"field field--name-field-authors field--type-entity-reference field--label-above\"> <div class=\"field__label\">Authors</div> <div class=\"field__items\"> <div class=\"field__item\"><a href=\"https://www.blackagendareport.com/taxonomy/term/2425\" hreflang=\"en\">Black Agenda Radio with Margaret Kimberley</a></div> </div> </div> <span class=\"field field--name-uid field--type-entity-reference field--label-hidden\"><span>bareditors</span></span> <span class=\"field field--name-created field--type-created field--label-hidden\"><time datetime=\"2026-07-10T04:51:49+05:30\" title=\"Friday, July 10, 2026 - 04:51\" class=\"datetime\">Fri, 07/10/2026 - 04:51</time> </span> <div class=\"clearfix text-formatted field field--name-field-embed-link field--type-text-with-summary field--label-hidden field__item\"><p><iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/vCseUh9yVTY?si=__GoekznaP7BUwRk\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" referrerpolicy=\"strict-origin-when-cross-origin\" allowfullscreen></iframe></p> </div> <div class=\"clearfix text-formatted field field--name-body field--type-text-with-summary field--label-hidden field__item\"><p>The war in Sudan between government forces and the United Arab Emirates (UAE) backed Rapid Support Force (RSF) continues, and so does what experts call the worst humanitarian crisis in the world. The city of El Obeid is under siege, and there are fears of another massacre, such as in El Fasher. Abayomi Azikiwe, editor of <a href=\"https://panafricannews.blogspot.com/\" rel=\"nofollow\">Pan-African Newswire</a>, joins us from Detroit to provide analysis.</p> </div> <div class=\"taxonomy__terms__container\"> <div class=\"taxonomy__term\"> <a href=\"https://www.blackagendareport.com/articlelist/Africa\">Africa</a> </div> </div> <div class=\"field field--name-tags1 field--type-entity-reference field--label-hidden field--items\"> <div class=\"field--item\"> <a href=\"https://www.blackagendareport.com/articles/Sudan\">Sudan</a> </div> <div class=\"field--item\"> <a href=\"https://www.blackagendareport.com/articles/War in Sudan\">War in Sudan</a> </div> <div class=\"field--item\"> <a href=\"https://www.blackagendareport.com/articles/UAE\">UAE</a> </div> <div class=\"field--item\"> <a href=\"https://www.blackagendareport.com/articles/humanitarian crisis\">humanitarian crisis</a> </div> </div>"
+      },
+      "time": {
+        "asserted": "2026-07-18T08:10:04.780Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "decolonization",
+        "citation": "https://www.blackagendareport.com/war-sudan-impacts-horn-africa-and-west-asia"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "published",
+      "proposition": {
+        "predicate": "published",
+        "object": "Thu, 09 Jul 2026 23:21:49 +0000"
+      },
+      "time": {
+        "asserted": "2026-07-18T08:10:04.780Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "decolonization",
+        "citation": "https://www.blackagendareport.com/war-sudan-impacts-horn-africa-and-west-asia"
+      },
+      "status": "supported"
+    }
+  ]
+}

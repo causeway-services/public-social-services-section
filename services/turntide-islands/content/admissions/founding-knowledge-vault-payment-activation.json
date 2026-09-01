@@ -1,0 +1,36 @@
+{
+  "type": "TTIKnowledgeVaultPaymentActivationAdmission",
+  "version": 1,
+  "status": "not-admitted",
+  "productId": "tti-founding-knowledge-vault-2026-01",
+  "offeringId": "tti-founding-knowledge-vault-monthly",
+  "planId": "vault-subscriber-monthly",
+  "provider": {
+    "actor": "urn:ame:stripe-payment-acceptance-enterprise",
+    "offerContract": "ni:///sha-256;5FDqaxh3jvPkeAKcTstOGLm8tvrFHea7S5zb06wMX2w",
+    "checkoutContract": "ni:///sha-256;3EBj3TDXwaixs8x0ZhgpqddX_cWrof8wIJkZ4GpBS5Y",
+    "webhookContract": "ni:///sha-256;i_TblBaOnEGrk6UEzqP23piKpu_wZD5NDJdoreuGPpY",
+    "receiptDeliveryContract": null
+  },
+  "evidenceBindings": {
+    "commercialTerms": null,
+    "providerOffering": null,
+    "providerSubscriptionLifecycle": null,
+    "providerReceiptDelivery": null,
+    "discordIdentityIngress": null,
+    "publicOriginControl": null,
+    "witnessJournalProviderContract": null,
+    "discordRoleTerritory": null
+  },
+  "blockers": [
+    "Leader-authorized tax, refund, cancellation, dispute, payout, privacy, and fulfillment terms",
+    "Witnessed non-synthetic TTI operational admission, following authenticated offer qualification and seven customer-observed tests, for this exact USD 5 P1M subscription and its immutable service contracts",
+    "Provider support for invoice.paid, invoice.payment_failed, and subscription lifecycle receipts",
+    "Provider-authenticated delivery of full privacy-preserving event receipts to TTI",
+    "Authenticated binding between the paying human and their Discord account",
+    "Public HTTPS TTI origin and safe redirect paths",
+    "Dedicated provider-offer, customer-checkout, and provider-receipt credentials",
+    "Contracted witness-journal RDF provider and dedicated vault subscriber Discord role"
+  ],
+  "neverEvidence": "Code, configuration, a Checkout Session, a Discord role, a reaction, or a synthetic receipt is not evidence of payment, revenue, profit, entitlement, or fulfillment."
+}

@@ -1,0 +1,69 @@
+{
+  "subject": "intercity-rail-passengers-face-summer-disruption-amid-slashed-services-and-strike-votes",
+  "claims": [
+    {
+      "id": "title",
+      "proposition": {
+        "predicate": "title",
+        "object": "Intercity rail passengers face summer disruption amid slashed services and strike votes"
+      },
+      "time": {
+        "asserted": "2026-07-18T07:55:41.153Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "economy",
+        "citation": "https://www.theguardian.com/uk-news/2026/jul/17/intercity-rail-summer-cancelled-services-strike-votes"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "url",
+      "proposition": {
+        "predicate": "url",
+        "object": "https://www.theguardian.com/uk-news/2026/jul/17/intercity-rail-summer-cancelled-services-strike-votes"
+      },
+      "time": {
+        "asserted": "2026-07-18T07:55:41.153Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "economy",
+        "citation": "https://www.theguardian.com/uk-news/2026/jul/17/intercity-rail-summer-cancelled-services-strike-votes"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "summary",
+      "proposition": {
+        "predicate": "summary",
+        "object": "<p>East Midlands Railway cancels trains on Midland mainline, as drivers on LNER and Avanti West Coast ballot</p><p>Intercity rail travellers face potential disruption this summer across Great Britain’s three north-south mainlines, with drivers voting on strike action on two lines and timetables slashed on the other owing to malfunctioning trains.</p><p>East Midlands Railway announced it will cancel hundreds of services in the coming weeks from its intercity timetable on the Midland mainline, because of continued problems with its fleet of Hitachi trains.</p> <a href=\"https://www.theguardian.com/uk-news/2026/jul/17/intercity-rail-summer-cancelled-services-strike-votes\">Continue reading...</a>"
+      },
+      "time": {
+        "asserted": "2026-07-18T07:55:41.153Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "economy",
+        "citation": "https://www.theguardian.com/uk-news/2026/jul/17/intercity-rail-summer-cancelled-services-strike-votes"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "published",
+      "proposition": {
+        "predicate": "published",
+        "object": "Fri, 17 Jul 2026 15:49:28 GMT"
+      },
+      "time": {
+        "asserted": "2026-07-18T07:55:41.153Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "economy",
+        "citation": "https://www.theguardian.com/uk-news/2026/jul/17/intercity-rail-summer-cancelled-services-strike-votes"
+      },
+      "status": "supported"
+    }
+  ]
+}

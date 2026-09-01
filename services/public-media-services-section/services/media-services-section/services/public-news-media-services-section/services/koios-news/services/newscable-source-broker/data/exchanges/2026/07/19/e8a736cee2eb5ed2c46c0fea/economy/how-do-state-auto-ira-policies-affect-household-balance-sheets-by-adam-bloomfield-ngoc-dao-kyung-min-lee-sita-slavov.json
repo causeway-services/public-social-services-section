@@ -1,0 +1,53 @@
+{
+  "subject": "how-do-state-auto-ira-policies-affect-household-balance-sheets-by-adam-bloomfield-ngoc-dao-kyung-min-lee-sita-slavov",
+  "claims": [
+    {
+      "id": "title",
+      "proposition": {
+        "predicate": "title",
+        "object": "How Do State “Auto-IRA” Policies Affect Household Balance Sheets? -- by Adam Bloomfield, Ngoc Dao, Kyung Min Lee, Sita Slavov"
+      },
+      "time": {
+        "asserted": "2026-07-19T14:41:48.886Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "economy",
+        "citation": "https://www.nber.org/papers/w35373#fromrss"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "url",
+      "proposition": {
+        "predicate": "url",
+        "object": "https://www.nber.org/papers/w35373#fromrss"
+      },
+      "time": {
+        "asserted": "2026-07-19T14:41:48.886Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "economy",
+        "citation": "https://www.nber.org/papers/w35373#fromrss"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "summary",
+      "proposition": {
+        "predicate": "summary",
+        "object": "We examine how state policies requiring firms to facilitate workplace retirement saving affect household balance sheets. Using data from the Survey of Income and Program Participation (SIPP), we compare private-sector workers likely exposed to Oregon’s Automatic-Enrollment Individual Retirement Account (Auto-IRA) policy with similar workers in not-yet-adopting states. We find that the Auto-IRA policy is associated with increases in IRA and employer-sponsored retirement plan ownership and assets. We also find increases in checking or savings account ownership and balances, as well as higher credit card debt. The results suggest that Auto-IRA policies spill over to household liquidity management and borrowing."
+      },
+      "time": {
+        "asserted": "2026-07-19T14:41:48.886Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "economy",
+        "citation": "https://www.nber.org/papers/w35373#fromrss"
+      },
+      "status": "supported"
+    }
+  ]
+}

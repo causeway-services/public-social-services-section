@@ -1,0 +1,69 @@
+{
+  "subject": "eu-forces-google-to-share-its-toys-with-the-other-ai-and-search-kids",
+  "claims": [
+    {
+      "id": "title",
+      "proposition": {
+        "predicate": "title",
+        "object": "EU forces Google to share its toys with the other AI and search kids"
+      },
+      "time": {
+        "asserted": "2026-07-19T14:41:51.389Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "technology",
+        "citation": "https://www.theregister.com/software/2026/07/16/eu-forces-google-to-share-its-toys-with-the-other-ai-and-search-kids/5273819"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "url",
+      "proposition": {
+        "predicate": "url",
+        "object": "https://www.theregister.com/software/2026/07/16/eu-forces-google-to-share-its-toys-with-the-other-ai-and-search-kids/5273819"
+      },
+      "time": {
+        "asserted": "2026-07-19T14:41:51.389Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "technology",
+        "citation": "https://www.theregister.com/software/2026/07/16/eu-forces-google-to-share-its-toys-with-the-other-ai-and-search-kids/5273819"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "summary",
+      "proposition": {
+        "predicate": "summary",
+        "object": "Spelled out in big colorful letters that even Google can understand, the EU is now requiring the Chocolate Factory to share search data with competitors while enhancing Android AI interoperability for bots other than Gemini. Needless to say, the company would like to find a way to disable this default. The European Commission (EC) announced a pair of specification decisions on Thursday. The first covers AI vendors' ability to integrate into Google's mobile OS, and the other forces Google to give search data to other search engines in order to “rebalance the playing field,\" as the EC put it. The specification proceeding, the Commission said, isn’t a noncompliance decision and doesn’t attempt to determine whether Google has been flouting its obligations as a Digital Markets Act gatekeeper (i.e., it’s big enough that it controls access to markets for smaller firms). It only wanted to make sure both parties were clear on what the EC actually wants Google to do to lessen its monopolistic hold on search and its control over the operating system on the majority of the world’s smartphones. Gemini gets pried loose from Android “Currently, on Android phones, competitors' AI assistants only have restricted access to key functionalities,” the EC said. “Today's decision will ensure that users can activate their preferred AI assistant.” Specifically, Google will be required to give third-party AI providers extensive access to Android-powered devices, including allowing them to be voice-activated in place of Gemini, and to take actions in apps on user’s behalf. Google cried foul, as it has when faced with practically any EU decision spanking it for unfair competition. “Today's decisions risk undermining vital privacy and security guardrails for millions of Europeans,” Google and Alphabet president of global affairs Kent Walker said in a statement. More specifically to the AI portion of the decision, Walker said the EC’s ruling is unnecessary, as AI assistants \"already safely access Android’s capabilities” inasmuch as OEMs let them. “This Android ruling threatens device security by granting external apps sensitive and powerful device permissions without [OEM] safeguards,” Walker said. Never mind the fact that the Commission spelled out in its FAQ for the AI interoperability specifications that Google and OEMs still retain a good deal of control over their implementations. “In view of the sensitive nature of some of the features, Google may put in place objective and non-discriminatory eligibility conditions to limit access to third parties meeting certain privacy, security and integrity standards,” the EC said. An unreasonable search seizure? As for the search half of the specification decision, the EU was concerned Google’s prior attempts at offering to open up were “innefective so far.” With that in mind, the Commish wants other search engines to be able to access Google data in order to improve their own services and compete more effectively. “Subject to anonymisation, Google should share the same data that it collects to optimise its own search services,” the Commission said, noting that that includes giving AI chatbots access to that data to improve their services as well. “The aim of these measures is to allow companies to be able to offer European users a wider and more feature-rich range of options to choose from, both when it comes to their AI services on Android and to search services.” Google, again, is predictably unhappy. “Europeans’ private searches would be exposed to unfamiliar companies, without adequate anonymisation of the data and without user knowledge or consent,” Walker argued in his response. “This would weaken citizens' privacy, risk business trade secrets, and endanger national security.” The Chamber of Progress, which speaks as a voice for the tech industry and is funded in part by Google, similarly decried the risks of the decision to user safety. “The Commission is ignoring well documented privacy risks to impose a vision of the digital economy, rather than working with industry to find solutions that are safe and supported by consumer demand,” said the group's VP for Europe, Kay Jebelli. “The likely result is services will be pulled while legal challenges are mounted.” Neither Google nor the Chamber bothered to get specific in their responses, and likely with good reason: The Commission made it clear that Google has final say over what gets shared, and spells out various elements of how it will require search data to be anonymized in an FAQ for the search section of the decision. “The decision … allows Google to assess, before sharing any data, whether sharing such data with a specific third party poses serious cyber security and data protection risks,” the Commission explained. Per the FAQ, particular technical elements of the search data sharing anonymization include suppressing search records that contain rare items (e.g., usernames and passwords, addresses, bank account info, etc.), generalization of metadata and grouping users into bundles of at least 1,000 people with similar geographic and device data, and the removal of all direct and indirect identifiers. Additionally, search data shared by Google with other providers “will only be made available to eligible beneficiaries with verified investment plans to improve online search services,” and the use of that data is limited to improving search services. Recipients won’t be allowed to link the data to any other datasets, share it with any third party, and must undergo independent audits to verify safeguards and compliance with EU policy before ever getting access, followed by yearly audits afterward. “The measures will also be subject to biennial reviews to take into account practical experience and any new developments,” the Commission added. Cambridge Analytica redux? Google's complaints are nearly identical to those made when the EU first told it to open up search data in April. So we reached out to understand which points were particularly sticky for the search giant. Jebelli from the Chamber of Progress told us he's concerned that the Commission's decision is overly reliant on contractual restrictions to enforce search privacy – \"the same kind … that led to the Cambridge Analytica scandal.\" Recall, that's when Facebook allowed a third-party firm to collect detailed data about users by offering them a \"quiz,\" then attempted to use this data to influence the US presidential election with microtargeted advertising. When we asked Google for comment, Google pointed us to the statement above, and also provided us with additional background counterpoints. The company called attention to the fact that there's no explicit user consent in the EU's specifications, and also noted that the Commission is only asking for pseudonymization of search data instead of full anonymization. Google also expressed concern over handing search data to AI chatbots, saying that companies like OpenAI could slurp up search data en masse to train their models – an argument we note is somewhat rebuffed by the Commission's point that search data won't be freely available under its proposed schema. As for the AI interoperability concerns, Google told us third-party AI assistants are gaining distribution on Android all the time thanks to OEM agreements, calling the EU's decision a side-step on manufacturers' ability to safely vet AI. The company also told us that giving third-party AI the ability to screen-scrape with system-level access is a huge window for threat actors, dismissing the EU decision as a rushed checklist instead of actual law. The EU said that Google has a right of defense regarding the decisions, and independent judicial scrutiny of today’s announcements is still warranted too. If nothing manages to change the Commission’s mind, Google will be forced to comply with the search data sharing specifications beginning in January 2027, while the AI portion will go into effect in July 2027. In all likelihood it'll be tied up in litigation for far longer than that. ®"
+      },
+      "time": {
+        "asserted": "2026-07-19T14:41:51.389Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "technology",
+        "citation": "https://www.theregister.com/software/2026/07/16/eu-forces-google-to-share-its-toys-with-the-other-ai-and-search-kids/5273819"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "published",
+      "proposition": {
+        "predicate": "published",
+        "object": "Thu, 16 Jul 2026 18:48:41 +0200"
+      },
+      "time": {
+        "asserted": "2026-07-19T14:41:51.389Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "technology",
+        "citation": "https://www.theregister.com/software/2026/07/16/eu-forces-google-to-share-its-toys-with-the-other-ai-and-search-kids/5273819"
+      },
+      "status": "supported"
+    }
+  ]
+}

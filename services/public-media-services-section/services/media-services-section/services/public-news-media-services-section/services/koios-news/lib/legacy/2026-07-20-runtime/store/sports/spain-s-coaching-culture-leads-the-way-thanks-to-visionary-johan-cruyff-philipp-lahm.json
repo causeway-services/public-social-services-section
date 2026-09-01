@@ -1,0 +1,69 @@
+{
+  "subject": "spain-s-coaching-culture-leads-the-way-thanks-to-visionary-johan-cruyff-philipp-lahm",
+  "claims": [
+    {
+      "id": "title",
+      "proposition": {
+        "predicate": "title",
+        "object": "Spain’s coaching culture leads the way, thanks to visionary Johan Cruyff | Philipp Lahm"
+      },
+      "time": {
+        "asserted": "2026-07-19T15:58:02.610Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "sports",
+        "citation": "https://www.theguardian.com/football/2026/jul/19/spain-argentina-2026-world-cup-final-johan-cruyff-pep-guardiola"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "url",
+      "proposition": {
+        "predicate": "url",
+        "object": "https://www.theguardian.com/football/2026/jul/19/spain-argentina-2026-world-cup-final-johan-cruyff-pep-guardiola"
+      },
+      "time": {
+        "asserted": "2026-07-19T15:58:02.610Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "sports",
+        "citation": "https://www.theguardian.com/football/2026/jul/19/spain-argentina-2026-world-cup-final-johan-cruyff-pep-guardiola"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "summary",
+      "proposition": {
+        "predicate": "summary",
+        "object": "<p>Great brought an ideology to Barcelona that Guardiola and Emery refined, defining the playing style of the national team</p><p>Two countries are generating powerful, cross-border momentum in football. Spain represent the leading footballing culture, radiating their influence across the globe. Argentina possess a distinct identity that shapes the South American continent. Consequently, the World Cup is witnessing the perfect final.</p><p>The architect of Spain’s vision is Johan Cruyff. He brought the 4-3-3 formation and a specific ideology to Barcelona. A cadre of tactical purists, such as Pep Guardiola and Unai Emery, refined his approach into a philosophy that has defined the playing style of the entire league, all youth squads and the national team for nearly two decades. Its principles include ball-oriented defending, clearly defined positions and roles, a high level of organisation, and technical, combination-based football. Eleven players operate as a unit, moving like a swarm.</p> <a href=\"https://www.theguardian.com/football/2026/jul/19/spain-argentina-2026-world-cup-final-johan-cruyff-pep-guardiola\">Continue reading...</a>"
+      },
+      "time": {
+        "asserted": "2026-07-19T15:58:02.610Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "sports",
+        "citation": "https://www.theguardian.com/football/2026/jul/19/spain-argentina-2026-world-cup-final-johan-cruyff-pep-guardiola"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "published",
+      "proposition": {
+        "predicate": "published",
+        "object": "Sun, 19 Jul 2026 11:00:24 GMT"
+      },
+      "time": {
+        "asserted": "2026-07-19T15:58:02.610Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "sports",
+        "citation": "https://www.theguardian.com/football/2026/jul/19/spain-argentina-2026-world-cup-final-johan-cruyff-pep-guardiola"
+      },
+      "status": "supported"
+    }
+  ]
+}

@@ -1,0 +1,69 @@
+{
+  "subject": "trump-administration-ends-tps-for-haitians",
+  "claims": [
+    {
+      "id": "title",
+      "proposition": {
+        "predicate": "title",
+        "object": "Trump Administration Ends TPS for Haitians"
+      },
+      "time": {
+        "asserted": "2026-07-18T08:10:04.780Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "decolonization",
+        "citation": "https://www.blackagendareport.com/trump-administration-ends-tps-haitians"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "url",
+      "proposition": {
+        "predicate": "url",
+        "object": "https://www.blackagendareport.com/trump-administration-ends-tps-haitians"
+      },
+      "time": {
+        "asserted": "2026-07-18T08:10:04.780Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "decolonization",
+        "citation": "https://www.blackagendareport.com/trump-administration-ends-tps-haitians"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "summary",
+      "proposition": {
+        "predicate": "summary",
+        "object": "<span class=\"field field--name-title field--type-string field--label-hidden\">Trump Administration Ends TPS for Haitians</span> <div class=\"field field--name-field-authors field--type-entity-reference field--label-above\"> <div class=\"field__label\">Authors</div> <div class=\"field__items\"> <div class=\"field__item\"><a href=\"https://www.blackagendareport.com/taxonomy/term/2425\" hreflang=\"en\">Black Agenda Radio with Margaret Kimberley</a></div> </div> </div> <span class=\"field field--name-uid field--type-entity-reference field--label-hidden\"><span>bareditors</span></span> <span class=\"field field--name-created field--type-created field--label-hidden\"><time datetime=\"2026-07-17T04:07:03+05:30\" title=\"Friday, July 17, 2026 - 04:07\" class=\"datetime\">Fri, 07/17/2026 - 04:07</time> </span> <div class=\"clearfix text-formatted field field--name-field-embed-link field--type-text-with-summary field--label-hidden field__item\"><p><iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/8xQaX9tWmzU?si=V5eLEtXF1IHLCVx-\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" referrerpolicy=\"strict-origin-when-cross-origin\" allowfullscreen></iframe></p> </div> <div class=\"clearfix text-formatted field field--name-body field--type-text-with-summary field--label-hidden field__item\"><p>On June 25, the Supreme Court of the United States ruled that Temporary Protected Status (TPS) for Haitians and Syrians would end. What does this ruling mean for the more than 350,000 Haitians living in the US under TPS? Brian Concannon is Executive Director of the <a href=\"https://www.ijdh.org/\" rel=\"nofollow\">Institute for Justice &amp; Democracy in Haiti</a>, a US-based NGO that creates pathways to justice and accountability for human rights violations in Haiti. He joins us from Boston to discuss the impact of the Supreme Court decision.</p> </div> <div class=\"taxonomy__terms__container\"> <div class=\"taxonomy__term\"> <a href=\"https://www.blackagendareport.com/articlelist/International\">International</a> </div> </div> <div class=\"field field--name-tags1 field--type-entity-reference field--label-hidden field--items\"> <div class=\"field--item\"> <a href=\"https://www.blackagendareport.com/articles/Haiti\">Haiti</a> </div> <div class=\"field--item\"> <a href=\"https://www.blackagendareport.com/articles/Temporary Protected Status\">Temporary Protected Status</a> </div> <div class=\"field--item\"> <a href=\"https://www.blackagendareport.com/articles/Immigration\">Immigration</a> </div> <div class=\"field--item\"> <a href=\"https://www.blackagendareport.com/articles/Haitian immigrants\">Haitian immigrants</a> </div> <div class=\"field--item\"> <a href=\"https://www.blackagendareport.com/articles/Human Rights\">Human Rights</a> </div> <div class=\"field--item\"> <a href=\"https://www.blackagendareport.com/articles/TPS\">TPS</a> </div> </div>"
+      },
+      "time": {
+        "asserted": "2026-07-18T08:10:04.780Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "decolonization",
+        "citation": "https://www.blackagendareport.com/trump-administration-ends-tps-haitians"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "published",
+      "proposition": {
+        "predicate": "published",
+        "object": "Thu, 16 Jul 2026 22:37:03 +0000"
+      },
+      "time": {
+        "asserted": "2026-07-18T08:10:04.780Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "decolonization",
+        "citation": "https://www.blackagendareport.com/trump-administration-ends-tps-haitians"
+      },
+      "status": "supported"
+    }
+  ]
+}

@@ -1,0 +1,69 @@
+{
+  "subject": "2026-lucid-gravity-touring-review-a-strong-act-2",
+  "claims": [
+    {
+      "id": "title",
+      "proposition": {
+        "predicate": "title",
+        "object": "2026 Lucid Gravity Touring review: A strong act 2"
+      },
+      "time": {
+        "asserted": "2026-07-18T07:49:54.433Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "technology",
+        "citation": "https://arstechnica.com/cars/2026/07/2026-lucid-gravity-touring-review-a-strong-act-2/"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "url",
+      "proposition": {
+        "predicate": "url",
+        "object": "https://arstechnica.com/cars/2026/07/2026-lucid-gravity-touring-review-a-strong-act-2/"
+      },
+      "time": {
+        "asserted": "2026-07-18T07:49:54.433Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "technology",
+        "citation": "https://arstechnica.com/cars/2026/07/2026-lucid-gravity-touring-review-a-strong-act-2/"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "summary",
+      "proposition": {
+        "predicate": "summary",
+        "object": "When Lucid introduced the Air electric sedan in late 2021, the first Air Dream Edition I tested packed over 1,100 hp (820 kW) and carried a $180,000-plus window sticker. It's easily the most powerful street car I've tested; the only vehicle I've driven with more power was a purebred race car with a third the mass, and it was on a proper track. Its combustion engine was also about 1,000 times louder than the Air, helping to remind us that \"combustion\" really does mean explosion after explosion. For Lucid's second act, the company debuted the Gravity electric SUV last year, and I've just tested the 2026 Gravity Touring, which starts at about $82,000 in the US, including the required destination charge. My test model carried a bevy of options, including a 22-speaker audio system, the Comfort and Convenience package, third-row seating, a Dynamic Handling package (combining rear-wheel steering and three-chamber air suspension), a luxury seating package (bundling Nappa leather and massaging and ventilated front seats), and special metallic paint. Read full article Comments"
+      },
+      "time": {
+        "asserted": "2026-07-18T07:49:54.433Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "technology",
+        "citation": "https://arstechnica.com/cars/2026/07/2026-lucid-gravity-touring-review-a-strong-act-2/"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "published",
+      "proposition": {
+        "predicate": "published",
+        "object": "Fri, 17 Jul 2026 11:00:30 +0000"
+      },
+      "time": {
+        "asserted": "2026-07-18T07:49:54.433Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "technology",
+        "citation": "https://arstechnica.com/cars/2026/07/2026-lucid-gravity-touring-review-a-strong-act-2/"
+      },
+      "status": "supported"
+    }
+  ]
+}

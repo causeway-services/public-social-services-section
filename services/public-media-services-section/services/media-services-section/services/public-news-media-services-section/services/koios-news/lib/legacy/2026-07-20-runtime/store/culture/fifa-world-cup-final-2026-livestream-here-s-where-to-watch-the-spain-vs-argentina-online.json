@@ -1,0 +1,69 @@
+{
+  "subject": "fifa-world-cup-final-2026-livestream-here-s-where-to-watch-the-spain-vs-argentina-online",
+  "claims": [
+    {
+      "id": "title",
+      "proposition": {
+        "predicate": "title",
+        "object": "FIFA World Cup Final 2026 Livestream: Here’s Where to Watch the Spain vs. Argentina Online"
+      },
+      "time": {
+        "asserted": "2026-07-19T15:58:01.697Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "culture",
+        "citation": "https://variety.com/2026/shopping/news/how-to-watch-spain-vs-argentina-world-cup-final-2026-live-online-free-1236814389/"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "url",
+      "proposition": {
+        "predicate": "url",
+        "object": "https://variety.com/2026/shopping/news/how-to-watch-spain-vs-argentina-world-cup-final-2026-live-online-free-1236814389/"
+      },
+      "time": {
+        "asserted": "2026-07-19T15:58:01.697Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "culture",
+        "citation": "https://variety.com/2026/shopping/news/how-to-watch-spain-vs-argentina-world-cup-final-2026-live-online-free-1236814389/"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "summary",
+      "proposition": {
+        "predicate": "summary",
+        "object": "After a month of gameplay, the 2026 FIFA World Cup Final starts on Sunday, July 19. For the 23rd edition of the international soccer tournament final, the match takes place at New York New Jersey Stadium (MetLife Stadium) in East Rutherford, New Jersey. Kick off is at 3 p.m. ET/12 p.m. PT. If you want […]"
+      },
+      "time": {
+        "asserted": "2026-07-19T15:58:01.697Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "culture",
+        "citation": "https://variety.com/2026/shopping/news/how-to-watch-spain-vs-argentina-world-cup-final-2026-live-online-free-1236814389/"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "published",
+      "proposition": {
+        "predicate": "published",
+        "object": "Sun, 19 Jul 2026 15:30:00 +0000"
+      },
+      "time": {
+        "asserted": "2026-07-19T15:58:01.697Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "culture",
+        "citation": "https://variety.com/2026/shopping/news/how-to-watch-spain-vs-argentina-world-cup-final-2026-live-online-free-1236814389/"
+      },
+      "status": "supported"
+    }
+  ]
+}

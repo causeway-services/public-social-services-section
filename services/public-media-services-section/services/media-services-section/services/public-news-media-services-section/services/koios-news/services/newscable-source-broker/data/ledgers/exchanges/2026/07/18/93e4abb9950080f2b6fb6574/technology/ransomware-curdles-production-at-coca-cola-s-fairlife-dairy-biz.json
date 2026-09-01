@@ -1,0 +1,69 @@
+{
+  "subject": "ransomware-curdles-production-at-coca-cola-s-fairlife-dairy-biz",
+  "claims": [
+    {
+      "id": "title",
+      "proposition": {
+        "predicate": "title",
+        "object": "Ransomware curdles production at Coca-Cola's Fairlife dairy biz"
+      },
+      "time": {
+        "asserted": "2026-07-18T08:09:59.493Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "technology",
+        "citation": "https://www.theregister.com/cyber-crime/2026/07/17/ransomware-curdles-production-at-coca-colas-fairlife-dairy-biz/5274157"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "url",
+      "proposition": {
+        "predicate": "url",
+        "object": "https://www.theregister.com/cyber-crime/2026/07/17/ransomware-curdles-production-at-coca-colas-fairlife-dairy-biz/5274157"
+      },
+      "time": {
+        "asserted": "2026-07-18T08:09:59.493Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "technology",
+        "citation": "https://www.theregister.com/cyber-crime/2026/07/17/ransomware-curdles-production-at-coca-colas-fairlife-dairy-biz/5274157"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "summary",
+      "proposition": {
+        "predicate": "summary",
+        "object": "Ransomware has soured production at Coca-Cola-owned Fairlife, forcing the dairy business to temporarily halt production at its US plants. In an SEC filing on Thursday, Coca-Cola said Fairlife detected \"unauthorized access by a third party to a portion of its systems, including its production-related systems,\" in what it described as a ransomware event. The company said it immediately activated its incident response and business continuity plans, brought in outside cybersecurity experts, and notified law enforcement. Fairlife has halted production at its US plants while Coca-Cola investigates the ransomware attack, but its Canadian facilities are still running. The business, which was fully acquired by Coca-Cola in 2020 and makes ultra-filtered milk and Core Power protein shakes, said the quality and safety of the products themselves have not been affected. The drinks giant said it is still investigating the incident and working to restore affected systems, adding that it has not yet determined whether the attack is reasonably likely to materially affect the company. The filing sheds little light on the technical details, other than confirming that production-related systems were affected. It remains unclear whether the ransomware reached operational technology used to run Fairlife's manufacturing facilities or whether production was suspended because supporting IT systems were taken offline as part of the company's response. Coca-Cola also hasn't said who was behind the attack or whether any data was stolen. No ransomware gang has publicly claimed responsibility at the time of writing, although such claims often surface days after an attack if negotiations fail or the attackers decide to increase the pressure. The Register asked Coca-Cola how many Fairlife facilities were affected, whether customer or employee data was compromised, whether operational technology was directly impacted, and when it expects US production to resume, but didn't receive an immediate response. The criminals may not have milked the company for a ransom yet, but they've already curdled production. ®"
+      },
+      "time": {
+        "asserted": "2026-07-18T08:09:59.493Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "technology",
+        "citation": "https://www.theregister.com/cyber-crime/2026/07/17/ransomware-curdles-production-at-coca-colas-fairlife-dairy-biz/5274157"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "published",
+      "proposition": {
+        "predicate": "published",
+        "object": "Fri, 17 Jul 2026 12:00:00 +0200"
+      },
+      "time": {
+        "asserted": "2026-07-18T08:09:59.493Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "technology",
+        "citation": "https://www.theregister.com/cyber-crime/2026/07/17/ransomware-curdles-production-at-coca-colas-fairlife-dairy-biz/5274157"
+      },
+      "status": "supported"
+    }
+  ]
+}

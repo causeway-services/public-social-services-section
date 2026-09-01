@@ -1,0 +1,8 @@
+:PROPERTIES:
+:ID:       9821a7d4-e48e-443d-b994-6efa7ca30740
+:instantiates: [[id:b6e247c8-7e74-46b4-8ed4-e25d2335dd2c][Teraumian year]]
+:public:   true
+:END:
+#+title: 439bR
+#+date: [2025-09-10 Wed 09:42]
+

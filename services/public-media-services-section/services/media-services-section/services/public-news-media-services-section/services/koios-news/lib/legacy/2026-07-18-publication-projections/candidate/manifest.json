@@ -1,0 +1,2878 @@
+{
+  "kind": "koios.static-publication-manifest",
+  "node": "koios-news",
+  "canonicalOrigin": "https://koios.news",
+  "profile": "cutover-candidate",
+  "authority": "non-authoritative-cutover-candidate",
+  "policy": {
+    "indexing": "production-indexable",
+    "advertising": true,
+    "viewBeacon": false,
+    "attention": "cloudflare-worker-aggregate/v1",
+    "mutableRoutes": "excluded",
+    "navigation": "delivery-origin-portable",
+    "legacyNavigation": "canonical-static-aliases",
+    "publicationAdmission": "public-record-carry-forward/v1"
+  },
+  "exclusions": [
+    "/hit",
+    "/views.json",
+    "/healthz",
+    "/newsroom",
+    "/cable",
+    "/mcp",
+    "/operators"
+  ],
+  "limitations": [
+    "Predecessor-published articles are carried as public record, not represented as newly accepted under the current exact-manuscript editorial gate.",
+    "Search is a static empty-query surface until a separately contracted edge search operation exists.",
+    "The primary Cloudflare Worker counts successful article loads by canonical path and UTC day without retaining reader identifiers; imported totals remain separate from factual warrant.",
+    "A-Ads carriers are production-shaped; ad-performance settlement remains unavailable until separately contracted.",
+    "Production-indexable candidate bytes may reach a public preview only through the provider-owned separately digested noindex overlay; removing that overlay requires an explicit cutover act.",
+    "This artifact does not confer upload, preview-hostname, DNS, or cutover authority."
+  ],
+  "livePublicationWitnessDigest": "sha256:57c9582688e9c43efbea8719f3dc3d37330705b9b146cd2619a831d720722d66",
+  "aliasCount": 96,
+  "advertisingUnits": [
+    "2382510",
+    "2382512"
+  ],
+  "routeCount": 404,
+  "artifacts": [
+    {
+      "route": "/",
+      "file": "index.html",
+      "mediaType": "text/html; charset=utf-8",
+      "bytes": 46420,
+      "digest": "ni:///sha-256;acvSShRlYguQ2q0MpWBuuWlODPh9Hb1sKxfNKAUX7jg"
+    },
+    {
+      "route": "/2025/02/15/hello-world",
+      "file": "2025/02/15/hello-world/index.html",
+      "mediaType": "text/html; charset=utf-8",
+      "bytes": 526,
+      "digest": "ni:///sha-256;xEMq1xWi-26OW3KvGy8MsyNT21fiiesDPOdB7VSiXwo"
+    },
+    {
+      "route": "/2025/02/15/hello-world-from-koios-news",
+      "file": "2025/02/15/hello-world-from-koios-news/index.html",
+      "mediaType": "text/html; charset=utf-8",
+      "bytes": 542,
+      "digest": "ni:///sha-256;McrLsTySE_ldI9D1dmTgXNCWoJd8uzpZgs6xFCXOMpo"
+    },
+    {
+      "route": "/2025/02/16/berachain-bearish-social-sentiment-souring",
+      "file": "2025/02/16/berachain-bearish-social-sentiment-souring/index.html",
+      "mediaType": "text/html; charset=utf-8",
+      "bytes": 650,
+      "digest": "ni:///sha-256;CFn92WGHvXNhnf7TQ7MoYL-MmrUrtBoM8cYqe1r6Fzs"
+    },
+    {
+      "route": "/2025/02/16/bitcoin-etf-investing-guide",
+      "file": "2025/02/16/bitcoin-etf-investing-guide/index.html",
+      "mediaType": "text/html; charset=utf-8",
+      "bytes": 590,
+      "digest": "ni:///sha-256;s3NS510hSL2HEea7JzJ1Kh2e2HoOVPPn9NqZAWiawUY"
+    },
+    {
+      "route": "/2025/02/16/ethereum-staking-nyse-approval-etf",
+      "file": "2025/02/16/ethereum-staking-nyse-approval-etf/index.html",
+      "mediaType": "text/html; charset=utf-8",
+      "bytes": 618,
+      "digest": "ni:///sha-256;3-zzu3RHhaEjVHAraNZcSkpCDxt9xMHJ9_Rz1iHloYs"
+    },
+    {
+      "route": "/2025/02/16/nyse-seeks-approval-for-grayscale-ethereum-staking",
+      "file": "2025/02/16/nyse-seeks-approval-for-grayscale-ethereum-staking/index.html",
+      "mediaType": "text/html; charset=utf-8",
+      "bytes": 634,
+      "digest": "ni:///sha-256;jL5xrjgCXQxmmHWGN90DF7PpyKEWq1KQ0QHXpBY1iNE"
+    },
+    {
+      "route": "/2025/02/16/whats-a-bitcoin-etf-crypto-investing-for-traditional-finance",
+      "file": "2025/02/16/whats-a-bitcoin-etf-crypto-investing-for-traditional-finance/index.html",
+      "mediaType": "text/html; charset=utf-8",
+      "bytes": 623,
+      "digest": "ni:///sha-256;0fERBSxTG4hJelUcPKNa-11G_79fmzI9L34WIHxrWaU"
+    },
+    {
+      "route": "/2025/02/17/assisted-tree-migration-climate-change-solutions",
+      "file": "2025/02/17/assisted-tree-migration-climate-change-solutions/index.html",
+      "mediaType": "text/html; charset=utf-8",
+      "bytes": 674,
+      "digest": "ni:///sha-256;iAKpVtzPb8oWR7dVkxjCRsALuyBtyyg8noMHGMYuKdY"
+    },
+    {
+      "route": "/2025/02/17/what-is-assisted-tree-migration-helping-forests-keep-up-with-climate-change",
+      "file": "2025/02/17/what-is-assisted-tree-migration-helping-forests-keep-up-with-climate-change/index.html",
+      "mediaType": "text/html; charset=utf-8",
+      "bytes": 701,
+      "digest": "ni:///sha-256;KksytZK6gcrL_mxscAaGmNgdlc5lRKXo3bieb86FlFc"
+    },
+    {
+      "route": "/2025/02/18/bitcoin-defi-security-consortium-launch",
+      "file": "2025/02/18/bitcoin-defi-security-consortium-launch/index.html",
+      "mediaType": "text/html; charset=utf-8",
+      "bytes": 638,
+      "digest": "ni:///sha-256;_nddld2FoGzQ4CPg4uYGwE6wedxrmV-KnvoZ0HmEyUw"
+    },
+    {
+      "route": "/2025/02/18/lombard-launches-security-consortium-to-strengthen-bitcoins-defi-integration",
+      "file": "2025/02/18/lombard-launches-security-consortium-to-strengthen-bitcoins-defi-integration/index.html",
+      "mediaType": "text/html; charset=utf-8",
+      "bytes": 675,
+      "digest": "ni:///sha-256;IOrRtT7Qx9Nd7ERPN6uc0FQNiqM25guIJsLrkxLQgns"
+    },
+    {
+      "route": "/2025/02/19/farm-usdc-on-base-with-moonwell-beefy-or-extra",
+      "file": "2025/02/19/farm-usdc-on-base-with-moonwell-beefy-or-extra/index.html",
+      "mediaType": "text/html; charset=utf-8",
+      "bytes": 666,
+      "digest": "ni:///sha-256;zMzmZu_GkQbrVrxDTxPnO5jZi1rq5Zz5Mf261PN-v6M"
+    },
+    {
+      "route": "/2025/02/19/february-19-2025-daytrading-opportunities-in-leveraged-etfs",
+      "file": "2025/02/19/february-19-2025-daytrading-opportunities-in-leveraged-etfs/index.html",
+      "mediaType": "text/html; charset=utf-8",
+      "bytes": 718,
+      "digest": "ni:///sha-256;y96R4zrz5-l-eov8E___3IM2DzCd4vhHn1DAN3NC6Gs"
+    },
+    {
+      "route": "/2025/02/20/defai-explained-how-ai-is-transforming-decentralized-finance",
+      "file": "2025/02/20/defai-explained-how-ai-is-transforming-decentralized-finance/index.html",
+      "mediaType": "text/html; charset=utf-8",
+      "bytes": 722,
+      "digest": "ni:///sha-256;VkBBD-WOHu7VKhMKkYMM82zyfx9JTjjAljNHVYXZg8Q"
+    },
+    {
+      "route": "/2025/02/21/the-sonic-blockchain-ecosystem-speed-and-developer-incentives",
+      "file": "2025/02/21/the-sonic-blockchain-ecosystem-speed-and-developer-incentives/index.html",
+      "mediaType": "text/html; charset=utf-8",
+      "bytes": 726,
+      "digest": "ni:///sha-256;4bSYCaH9ZLRVK9YadWFRfZkDIQLODK3i_s2eZkaphdM"
+    },
+    {
+      "route": "/2025/02/22/bybit-hack-weakens-consumer-sentiment",
+      "file": "2025/02/22/bybit-hack-weakens-consumer-sentiment/index.html",
+      "mediaType": "text/html; charset=utf-8",
+      "bytes": 630,
+      "digest": "ni:///sha-256;8HhvTODeu0TRdjwSuxtleBcJfTV-3uTKMC_Bswzfd30"
+    },
+    {
+      "route": "/2025/02/22/exploring-the-risks-and-rewards-of-defi-leverage",
+      "file": "2025/02/22/exploring-the-risks-and-rewards-of-defi-leverage/index.html",
+      "mediaType": "text/html; charset=utf-8",
+      "bytes": 674,
+      "digest": "ni:///sha-256;It8apzyWAhnsfTKlMIEXYCY5e0BJjG05wjs7fBmN4S4"
+    },
+    {
+      "route": "/2025/03/06/ecb-delays-inevitable-slashes-interest-rates-again",
+      "file": "2025/03/06/ecb-delays-inevitable-slashes-interest-rates-again/index.html",
+      "mediaType": "text/html; charset=utf-8",
+      "bytes": 682,
+      "digest": "ni:///sha-256;uuZzZiotiVkA4czXjKXyTMXcDG8VlxkfGwCD5VkVqt0"
+    },
+    {
+      "route": "/2025/03/07/cyclone-alfreds-impact-a-reflection-of-global-systemic-vulnerabilities",
+      "file": "2025/03/07/cyclone-alfreds-impact-a-reflection-of-global-systemic-vulnerabilities/index.html",
+      "mediaType": "text/html; charset=utf-8",
+      "bytes": 762,
+      "digest": "ni:///sha-256;4ETUX4ylCtlfn5g50D8FeULuU2Ca1ilsPGn4O628Jtk"
+    },
+    {
+      "route": "/2026/06/11/michigan-program-helps-new-farmers-amidst-rising-crop-failure-food-prices",
+      "file": "2026/06/11/michigan-program-helps-new-farmers-amidst-rising-crop-failure-food-prices/index.html",
+      "mediaType": "text/html; charset=utf-8",
+      "bytes": 738,
+      "digest": "ni:///sha-256;yAHWSj1JFFf_Byo5m4unBCvetpTmsaFFsKE4C96qNMA"
+    },
+    {
+      "route": "/2026/06/13/the-hidden-climate-tax-on-american-households",
+      "file": "2026/06/13/the-hidden-climate-tax-on-american-households/index.html",
+      "mediaType": "text/html; charset=utf-8",
+      "bytes": 662,
+      "digest": "ni:///sha-256;hXPgsBM8UqCePpec5RJALudjyAUzR-dyZ6bcCVpaOMI"
+    },
+    {
+      "route": "/2026/06/19/the-ai-compute-bottleneck-is-becoming-a-power-problem",
+      "file": "2026/06/19/the-ai-compute-bottleneck-is-becoming-a-power-problem/index.html",
+      "mediaType": "text/html; charset=utf-8",
+      "bytes": 640,
+      "digest": "ni:///sha-256;vgKzCC3HPEzxzMCge_ja7FkF3Xv4w7FExiZMfRUu2ME"
+    },
+    {
+      "route": "/2026/06/19/the-cost-of-certainty-how-robot-guesswork-meets-energy-scarcity",
+      "file": "2026/06/19/the-cost-of-certainty-how-robot-guesswork-meets-energy-scarcity/index.html",
+      "mediaType": "text/html; charset=utf-8",
+      "bytes": 707,
+      "digest": "ni:///sha-256;uQNtzK7VNocEtwN2swzuKr-gBA-FKCaSYIMB6EtGRWY"
+    },
+    {
+      "route": "/2026/06/19/the-mundane-automation-of-collapse-at-sxsw-london",
+      "file": "2026/06/19/the-mundane-automation-of-collapse-at-sxsw-london/index.html",
+      "mediaType": "text/html; charset=utf-8",
+      "bytes": 678,
+      "digest": "ni:///sha-256;7bwL0CPGlzJjiZZlR1eq952WvEk2kmUku4-LzVF8jaY"
+    },
+    {
+      "route": "/2026/06/19/uk-borrowing-and-water-shares-expose-a-narrow-resource-market-fault",
+      "file": "2026/06/19/uk-borrowing-and-water-shares-expose-a-narrow-resource-market-fault/index.html",
+      "mediaType": "text/html; charset=utf-8",
+      "bytes": 693,
+      "digest": "ni:///sha-256;8IGREKad2WzoB2KOC7nzAhrdHyQDm9xZjIZlsgtG6L8"
+    },
+    {
+      "route": "/about",
+      "file": "about/index.html",
+      "mediaType": "text/html; charset=utf-8",
+      "bytes": 27778,
+      "digest": "ni:///sha-256;5Hgw8WiiNTfFSJCqNe-YSmlW7eY46mEy96GuTBlPXBo"
+    },
+    {
+      "route": "/archive",
+      "file": "archive/index.html",
+      "mediaType": "text/html; charset=utf-8",
+      "bytes": 26968,
+      "digest": "ni:///sha-256;xDT6HejCTlANZbBHcIQKonWP7b27RmqCnMJXFPiAqTY"
+    },
+    {
+      "route": "/archive.json",
+      "file": "archive.json",
+      "mediaType": "application/json; charset=utf-8",
+      "bytes": 932,
+      "digest": "ni:///sha-256;_pxNYWdTV579P2i1uQTrjbd_LsG5hymQ1l5aIFGJ8Os"
+    },
+    {
+      "route": "/archive/2025",
+      "file": "archive/2025/index.html",
+      "mediaType": "text/html; charset=utf-8",
+      "bytes": 40319,
+      "digest": "ni:///sha-256;QgfzjpkrZ3Ec9gsGKN2BP6_jxzyew4sW0JY6qVxzCBs"
+    },
+    {
+      "route": "/archive/2025/02",
+      "file": "archive/2025/02/index.html",
+      "mediaType": "text/html; charset=utf-8",
+      "bytes": 38104,
+      "digest": "ni:///sha-256;bOMZLeyKiGSKmTpp6o5Ktd7nvOYw4lGoRKzo8gIDRJA"
+    },
+    {
+      "route": "/archive/2025/03",
+      "file": "archive/2025/03/index.html",
+      "mediaType": "text/html; charset=utf-8",
+      "bytes": 28625,
+      "digest": "ni:///sha-256;yAQdqwGoQuBlhTjB1FqopxF9YfmfraiaOlWGept9Cl8"
+    },
+    {
+      "route": "/archive/2026",
+      "file": "archive/2026/index.html",
+      "mediaType": "text/html; charset=utf-8",
+      "bytes": 32702,
+      "digest": "ni:///sha-256;OhEjAznc1_u7SF9qYDngTuO71Y1Wn6fiTYarD9XGCDc"
+    },
+    {
+      "route": "/archive/2026/06",
+      "file": "archive/2026/06/index.html",
+      "mediaType": "text/html; charset=utf-8",
+      "bytes": 32618,
+      "digest": "ni:///sha-256;1kM7G9l6TKCmWzxf2yiqmo2Jz2u8KPKuv3tKXd2nybs"
+    },
+    {
+      "route": "/bibliography",
+      "file": "bibliography/index.html",
+      "mediaType": "text/html; charset=utf-8",
+      "bytes": 30621,
+      "digest": "ni:///sha-256;YiHR-DL2dOnXMzpTjmWFs_YrNlTcrKoStUNAZc2jlH8"
+    },
+    {
+      "route": "/bibliography.json",
+      "file": "bibliography.json",
+      "mediaType": "application/json; charset=utf-8",
+      "bytes": 27146,
+      "digest": "ni:///sha-256;hPn-behc5qNdwokwBX2D7t2Ft4tlhmfPNuqsYyS7Oro"
+    },
+    {
+      "route": "/bibliography/app.beefy.com",
+      "file": "bibliography/app.beefy.com/index.html",
+      "mediaType": "text/html; charset=utf-8",
+      "bytes": 26937,
+      "digest": "ni:///sha-256;53dDq4VhtVQxUMvAMqzLnDX_-JVGJP-NeF02TxuA9PI"
+    },
+    {
+      "route": "/bibliography/app.beefy.com.json",
+      "file": "bibliography/app.beefy.com.json",
+      "mediaType": "application/json; charset=utf-8",
+      "bytes": 597,
+      "digest": "ni:///sha-256;PDwxbbNWLWAlaPwAh-rptgxsWUqrB0SPbTfKfZXmo60"
+    },
+    {
+      "route": "/bibliography/barrons.com",
+      "file": "bibliography/barrons.com/index.html",
+      "mediaType": "text/html; charset=utf-8",
+      "bytes": 27019,
+      "digest": "ni:///sha-256;JogAsKg2-4vIdoKG_zthwYC4uwxqiMZ4IKQmVcUCWPs"
+    },
+    {
+      "route": "/bibliography/barrons.com.json",
+      "file": "bibliography/barrons.com.json",
+      "mediaType": "application/json; charset=utf-8",
+      "bytes": 734,
+      "digest": "ni:///sha-256;D88hlfpX3Znt2RBhDqbqG0-E6TMFz5znnD9_sxd2kdo"
+    },
+    {
+      "route": "/bibliography/berachain.com",
+      "file": "bibliography/berachain.com/index.html",
+      "mediaType": "text/html; charset=utf-8",
+      "bytes": 26944,
+      "digest": "ni:///sha-256;vGEsvT9hJNH2IDvoOyjq8OQaHC0WCT-G2tpCzyXY9rg"
+    },
+    {
+      "route": "/bibliography/berachain.com.json",
+      "file": "bibliography/berachain.com.json",
+      "mediaType": "application/json; charset=utf-8",
+      "bytes": 604,
+      "digest": "ni:///sha-256;aFtUUnSUwW0tES3a5cWEle-hdkgUqTy6Gi_guo7HWGg"
+    },
+    {
+      "route": "/bibliography/businessinsider.com",
+      "file": "bibliography/businessinsider.com/index.html",
+      "mediaType": "text/html; charset=utf-8",
+      "bytes": 27121,
+      "digest": "ni:///sha-256;T3_Xd4IGCIACfwTUzlc-GzSLa0B2T-OMRlaXmkQGjXk"
+    },
+    {
+      "route": "/bibliography/businessinsider.com.json",
+      "file": "bibliography/businessinsider.com.json",
+      "mediaType": "application/json; charset=utf-8",
+      "bytes": 761,
+      "digest": "ni:///sha-256;vJwQnqnvbdjWSUrci4HfK6U2-MsRNudnKaPKRLZQ9c8"
+    },
+    {
+      "route": "/bibliography/en.wikipedia.org",
+      "file": "bibliography/en.wikipedia.org/index.html",
+      "mediaType": "text/html; charset=utf-8",
+      "bytes": 28610,
+      "digest": "ni:///sha-256;VO3Cj707O1GV4f6slc4gWU7GaLbUzyArsFw-N8HTSks"
+    },
+    {
+      "route": "/bibliography/en.wikipedia.org.json",
+      "file": "bibliography/en.wikipedia.org.json",
+      "mediaType": "application/json; charset=utf-8",
+      "bytes": 2885,
+      "digest": "ni:///sha-256;NBl16Ehav_MbS3NUeiO6skwgvSsLZvp1f6btbEiw47I"
+    },
+    {
+      "route": "/bibliography/euler.finance",
+      "file": "bibliography/euler.finance/index.html",
+      "mediaType": "text/html; charset=utf-8",
+      "bytes": 26986,
+      "digest": "ni:///sha-256;yIW6IjcsOu4AZCFpa9MfPlBAiaitz7UD1Fwdp4mPyhg"
+    },
+    {
+      "route": "/bibliography/euler.finance.json",
+      "file": "bibliography/euler.finance.json",
+      "mediaType": "application/json; charset=utf-8",
+      "bytes": 661,
+      "digest": "ni:///sha-256;YNXrdcDgXLY4KEaonDmg4WMD4bVWPFvKGbOLZkvs658"
+    },
+    {
+      "route": "/bibliography/extra.finance",
+      "file": "bibliography/extra.finance/index.html",
+      "mediaType": "text/html; charset=utf-8",
+      "bytes": 26960,
+      "digest": "ni:///sha-256;WVUeclsyxQXM0POfnBsO9JHzRci6vF-1nLvGM1FKxQo"
+    },
+    {
+      "route": "/bibliography/extra.finance.json",
+      "file": "bibliography/extra.finance.json",
+      "mediaType": "application/json; charset=utf-8",
+      "bytes": 627,
+      "digest": "ni:///sha-256;yB9dcyZK8C-5QcDNuRuwhc98tGz4-meoZvmkryZ10AM"
+    },
+    {
+      "route": "/bibliography/ft.com",
+      "file": "bibliography/ft.com/index.html",
+      "mediaType": "text/html; charset=utf-8",
+      "bytes": 26972,
+      "digest": "ni:///sha-256;VtRMUtGsTEXfv1dSBW0H8GdN3FFVCuKJooK29Oe3B3U"
+    },
+    {
+      "route": "/bibliography/ft.com.json",
+      "file": "bibliography/ft.com.json",
+      "mediaType": "application/json; charset=utf-8",
+      "bytes": 714,
+      "digest": "ni:///sha-256;8lNz3QlupfX4SBpdxPykBsCYgtBP5iTzcnuSKNrlhe8"
+    },
+    {
+      "route": "/bibliography/grist.org",
+      "file": "bibliography/grist.org/index.html",
+      "mediaType": "text/html; charset=utf-8",
+      "bytes": 27729,
+      "digest": "ni:///sha-256;IMxCadh4dUd_ko26mmoD5It5yETBalPIuTfSfyutgg4"
+    },
+    {
+      "route": "/bibliography/grist.org.json",
+      "file": "bibliography/grist.org.json",
+      "mediaType": "application/json; charset=utf-8",
+      "bytes": 1689,
+      "digest": "ni:///sha-256;qXRPrR0MsPcxQxOojChPUc64prjozD7n88eBRhum9aI"
+    },
+    {
+      "route": "/bibliography/koios.news",
+      "file": "bibliography/koios.news/index.html",
+      "mediaType": "text/html; charset=utf-8",
+      "bytes": 27360,
+      "digest": "ni:///sha-256;DJ2eIco6ujbjdx0jfjTXyQwmAU-iRtgwN8flnd2i5So"
+    },
+    {
+      "route": "/bibliography/koios.news.json",
+      "file": "bibliography/koios.news.json",
+      "mediaType": "application/json; charset=utf-8",
+      "bytes": 1341,
+      "digest": "ni:///sha-256;ZnHcB8WfuVAlbdHBhsKP7nkYyRYqJgv9IKAAhEJorfI"
+    },
+    {
+      "route": "/bibliography/lombard.finance",
+      "file": "bibliography/lombard.finance/index.html",
+      "mediaType": "text/html; charset=utf-8",
+      "bytes": 27013,
+      "digest": "ni:///sha-256;HN3Cf5yM7g2843mUARt6IK6no6_H2sv9b30p8OVcFok"
+    },
+    {
+      "route": "/bibliography/lombard.finance.json",
+      "file": "bibliography/lombard.finance.json",
+      "mediaType": "application/json; charset=utf-8",
+      "bytes": 648,
+      "digest": "ni:///sha-256;PTh2Wwg8Kx_gORiQ1Wg3jXigaFgsKeGvhcIg3j9RdRU"
+    },
+    {
+      "route": "/bibliography/marketwatch.com",
+      "file": "bibliography/marketwatch.com/index.html",
+      "mediaType": "text/html; charset=utf-8",
+      "bytes": 27173,
+      "digest": "ni:///sha-256;uzN3CukZjpdsQB2Ux3uVtnMEMl3Zml_jQrCFSpkUHJ8"
+    },
+    {
+      "route": "/bibliography/marketwatch.com.json",
+      "file": "bibliography/marketwatch.com.json",
+      "mediaType": "application/json; charset=utf-8",
+      "bytes": 833,
+      "digest": "ni:///sha-256;oItlhxo7lDhMgvkgYSlfha18bT0qa4lMZrbAAF3F8O8"
+    },
+    {
+      "route": "/bibliography/moonwell.fi",
+      "file": "bibliography/moonwell.fi/index.html",
+      "mediaType": "text/html; charset=utf-8",
+      "bytes": 26922,
+      "digest": "ni:///sha-256;CQPeHofMx-5quJlzA-P0Z3xfvGSdk6ggK6EVhH5m29w"
+    },
+    {
+      "route": "/bibliography/moonwell.fi.json",
+      "file": "bibliography/moonwell.fi.json",
+      "mediaType": "application/json; charset=utf-8",
+      "bytes": 601,
+      "digest": "ni:///sha-256;2CmfDXLAMFoV7EltLrtVuOysdGhlr5hyCXNlYfLJC5A"
+    },
+    {
+      "route": "/bibliography/newsroom.koios.news",
+      "file": "bibliography/newsroom.koios.news/index.html",
+      "mediaType": "text/html; charset=utf-8",
+      "bytes": 26951,
+      "digest": "ni:///sha-256;DlsCSz7DiLDUAQlcWYsG3AD5OAlQ4aabEux5HHbHtVc"
+    },
+    {
+      "route": "/bibliography/newsroom.koios.news.json",
+      "file": "bibliography/newsroom.koios.news.json",
+      "mediaType": "application/json; charset=utf-8",
+      "bytes": 543,
+      "digest": "ni:///sha-256;fq7NOkH0enXmJgHWhQ8gV3CEqRitE-hghQ2TmDkOCv4"
+    },
+    {
+      "route": "/bibliography/ons.gov.uk",
+      "file": "bibliography/ons.gov.uk/index.html",
+      "mediaType": "text/html; charset=utf-8",
+      "bytes": 27089,
+      "digest": "ni:///sha-256;GiB-NEIS9giv12ETOz2oGKgPJZ-ZLfeND0SzFTJBe2o"
+    },
+    {
+      "route": "/bibliography/ons.gov.uk.json",
+      "file": "bibliography/ons.gov.uk.json",
+      "mediaType": "application/json; charset=utf-8",
+      "bytes": 937,
+      "digest": "ni:///sha-256;PZr70l65RjhNcwwPZavXcTJNWx3zjivhHNj6qhb_KuE"
+    },
+    {
+      "route": "/bibliography/phys.org",
+      "file": "bibliography/phys.org/index.html",
+      "mediaType": "text/html; charset=utf-8",
+      "bytes": 26995,
+      "digest": "ni:///sha-256;5nsWjzYWz8RloulUtgUJcpliOC_QPoIxf-jGUwIcApY"
+    },
+    {
+      "route": "/bibliography/phys.org.json",
+      "file": "bibliography/phys.org.json",
+      "mediaType": "application/json; charset=utf-8",
+      "bytes": 750,
+      "digest": "ni:///sha-256;rKimgHy0Omru2x4Eqen5NP6JIIa6wOg7oQuUQf1oSPc"
+    },
+    {
+      "route": "/bibliography/reuters.com",
+      "file": "bibliography/reuters.com/index.html",
+      "mediaType": "text/html; charset=utf-8",
+      "bytes": 27051,
+      "digest": "ni:///sha-256;2ZfT31XLxrvjRYmHqk0f-xLRkD3PBpAfZyCywzZwtUE"
+    },
+    {
+      "route": "/bibliography/reuters.com.json",
+      "file": "bibliography/reuters.com.json",
+      "mediaType": "application/json; charset=utf-8",
+      "bytes": 762,
+      "digest": "ni:///sha-256;Y0wX8_uOtdPb4dxBtQ-1CD8XrCjvCsRQnEMpQgTiWDU"
+    },
+    {
+      "route": "/bibliography/sec.gov",
+      "file": "bibliography/sec.gov/index.html",
+      "mediaType": "text/html; charset=utf-8",
+      "bytes": 26889,
+      "digest": "ni:///sha-256;mg9GuI9oWL_w0_OKcZr9KeUZDk3RCgaos4sdGnDrlFE"
+    },
+    {
+      "route": "/bibliography/sec.gov.json",
+      "file": "bibliography/sec.gov.json",
+      "mediaType": "application/json; charset=utf-8",
+      "bytes": 583,
+      "digest": "ni:///sha-256;2aURA6bR4hVW7HKbwaNAupMjjxsX8KFdL-SY4W4u-bo"
+    },
+    {
+      "route": "/bibliography/shadow.so",
+      "file": "bibliography/shadow.so/index.html",
+      "mediaType": "text/html; charset=utf-8",
+      "bytes": 26943,
+      "digest": "ni:///sha-256;WeIU7fO-FUk8ALxK1i7rAYADAPKZPhObpYVzGxWpdZ4"
+    },
+    {
+      "route": "/bibliography/shadow.so.json",
+      "file": "bibliography/shadow.so.json",
+      "mediaType": "application/json; charset=utf-8",
+      "bytes": 651,
+      "digest": "ni:///sha-256;UpgW6AAB27VUr96fEFqguYSCcCukd3g-URCFWfCQcAM"
+    },
+    {
+      "route": "/bibliography/spectrum.ieee.org",
+      "file": "bibliography/spectrum.ieee.org/index.html",
+      "mediaType": "text/html; charset=utf-8",
+      "bytes": 28192,
+      "digest": "ni:///sha-256;JXs2EaHyAb1diPbVRikv9MhrX06XNQRx_B2g1Yy8xOE"
+    },
+    {
+      "route": "/bibliography/spectrum.ieee.org.json",
+      "file": "bibliography/spectrum.ieee.org.json",
+      "mediaType": "application/json; charset=utf-8",
+      "bytes": 2393,
+      "digest": "ni:///sha-256;JwgzdophyDg_ZwqcrBONXMEpKKwUBhuYqXl_XQXZNVg"
+    },
+    {
+      "route": "/bibliography/stability.farm",
+      "file": "bibliography/stability.farm/index.html",
+      "mediaType": "text/html; charset=utf-8",
+      "bytes": 27001,
+      "digest": "ni:///sha-256;t7_erl3iABS6UegYyeCXNpNuKGCJuU6HYgpyzEkkNds"
+    },
+    {
+      "route": "/bibliography/stability.farm.json",
+      "file": "bibliography/stability.farm.json",
+      "mediaType": "application/json; charset=utf-8",
+      "bytes": 675,
+      "digest": "ni:///sha-256;JGffUEoL7tIaGVhyTXM5KvvXy8hPHPPV6VVjWCYAymA"
+    },
+    {
+      "route": "/bibliography/technologyreview.com",
+      "file": "bibliography/technologyreview.com/index.html",
+      "mediaType": "text/html; charset=utf-8",
+      "bytes": 28164,
+      "digest": "ni:///sha-256;G8U8UO1eXzg8C_7LSHocfV_j6A4e893kqfNQ4SLPNzs"
+    },
+    {
+      "route": "/bibliography/technologyreview.com.json",
+      "file": "bibliography/technologyreview.com.json",
+      "mediaType": "application/json; charset=utf-8",
+      "bytes": 2222,
+      "digest": "ni:///sha-256;Cug1e80GoAeVS7wQOlO7OAuH3Ud6U0YQ9i3k6auOhTk"
+    },
+    {
+      "route": "/bibliography/theguardian.com",
+      "file": "bibliography/theguardian.com/index.html",
+      "mediaType": "text/html; charset=utf-8",
+      "bytes": 27804,
+      "digest": "ni:///sha-256;IAesD8e_KWs3QLr-Vli3j2jN06UPJF1vtnqWcaFx60I"
+    },
+    {
+      "route": "/bibliography/theguardian.com.json",
+      "file": "bibliography/theguardian.com.json",
+      "mediaType": "application/json; charset=utf-8",
+      "bytes": 1826,
+      "digest": "ni:///sha-256;rQx7AxOsXvB4WD-Tnw_T2Iy1fkYmM7f6QdcA4DpOiLg"
+    },
+    {
+      "route": "/bibliography/theregister.com",
+      "file": "bibliography/theregister.com/index.html",
+      "mediaType": "text/html; charset=utf-8",
+      "bytes": 28139,
+      "digest": "ni:///sha-256;IN0ab7QX1fHep8wTp5jO7FcW_9aWzeGb70Da5zXX9QY"
+    },
+    {
+      "route": "/bibliography/theregister.com.json",
+      "file": "bibliography/theregister.com.json",
+      "mediaType": "application/json; charset=utf-8",
+      "bytes": 2197,
+      "digest": "ni:///sha-256;yVcJ9_EJMvX7HlZ71FMn12MVdhmFhndAooFe0lLnpbU"
+    },
+    {
+      "route": "/bibliography/weforum.org",
+      "file": "bibliography/weforum.org/index.html",
+      "mediaType": "text/html; charset=utf-8",
+      "bytes": 27107,
+      "digest": "ni:///sha-256;yVcbuxoTW1uwMmAEWH3UsM2k5HCZnAtnlWl3qxct16A"
+    },
+    {
+      "route": "/bibliography/weforum.org.json",
+      "file": "bibliography/weforum.org.json",
+      "mediaType": "application/json; charset=utf-8",
+      "bytes": 801,
+      "digest": "ni:///sha-256;Gp0tCLetGhcCf_pVbcitOD98K3HuRsDos3UHpWHVXnY"
+    },
+    {
+      "route": "/category/blockchain",
+      "file": "category/blockchain/index.html",
+      "mediaType": "text/html; charset=utf-8",
+      "bytes": 490,
+      "digest": "ni:///sha-256;MZPOibb_qkeIYt6hNY2e1lWiGgQw2M22DV0NhLbAYyA"
+    },
+    {
+      "route": "/category/daytrading",
+      "file": "category/daytrading/index.html",
+      "mediaType": "text/html; charset=utf-8",
+      "bytes": 490,
+      "digest": "ni:///sha-256;Gfr6PHjwc_uX-MpmIbU6x8XqJ8YKFcUdDzlf_W8W3gA"
+    },
+    {
+      "route": "/category/economy",
+      "file": "category/economy/index.html",
+      "mediaType": "text/html; charset=utf-8",
+      "bytes": 511,
+      "digest": "ni:///sha-256;vt2EqFXQlpFO3ZuC4g4pcB2xa7geD3zmOmHAqUSso0I"
+    },
+    {
+      "route": "/category/environment",
+      "file": "category/environment/index.html",
+      "mediaType": "text/html; charset=utf-8",
+      "bytes": 527,
+      "digest": "ni:///sha-256;F1k-QWgxEJQa5ZWVsm0jGeuyAEuCol1f1fnMXqssl0M"
+    },
+    {
+      "route": "/category/newsroom",
+      "file": "category/newsroom/index.html",
+      "mediaType": "text/html; charset=utf-8",
+      "bytes": 515,
+      "digest": "ni:///sha-256;-yHcMWAz2m0V8meZouoBUwp6l6uQ0u-R6nm1TOuhmgM"
+    },
+    {
+      "route": "/category/technology",
+      "file": "category/technology/index.html",
+      "mediaType": "text/html; charset=utf-8",
+      "bytes": 523,
+      "digest": "ni:///sha-256;M7vRkYlwiC8jZMiXWAXnVxgShaNLBouhiM4XOtB6QuA"
+    },
+    {
+      "route": "/circulating.json",
+      "file": "circulating.json",
+      "mediaType": "application/json; charset=utf-8",
+      "bytes": 406,
+      "digest": "ni:///sha-256;VYsKCgDQyoOi9yldSyV-S6OBFSjQQCZ258an6yRLcoo"
+    },
+    {
+      "route": "/corrections",
+      "file": "corrections/index.html",
+      "mediaType": "text/html; charset=utf-8",
+      "bytes": 27352,
+      "digest": "ni:///sha-256;IKEnkHtu2pgrBMqPKsV-8S7mzVs1-joq7P_4CRM4HCc"
+    },
+    {
+      "route": "/corrections.json",
+      "file": "corrections.json",
+      "mediaType": "application/json; charset=utf-8",
+      "bytes": 801,
+      "digest": "ni:///sha-256;VDD7gKZ9MyDUn3L-oQl-L2yAgID_QduPfAMoMPVEm1A"
+    },
+    {
+      "route": "/coverage.json",
+      "file": "coverage.json",
+      "mediaType": "application/ld+json; charset=utf-8",
+      "bytes": 50438,
+      "digest": "ni:///sha-256;Gp4ryRsWqQPJfekLPqnzsZ2w_OzC8yO-pDmhuoL5lno"
+    },
+    {
+      "route": "/desks",
+      "file": "desks/index.html",
+      "mediaType": "text/html; charset=utf-8",
+      "bytes": 36975,
+      "digest": "ni:///sha-256;wMzY9I0o9V6cb9ud6vEL-kNA0EGVT6TJnsSHaBtuiuc"
+    },
+    {
+      "route": "/desks.json",
+      "file": "desks.json",
+      "mediaType": "application/json; charset=utf-8",
+      "bytes": 30073,
+      "digest": "ni:///sha-256;_K7_DVLOSL4sMz2e1P3b95x-5W0gH2Y02NHTZWz9mRs"
+    },
+    {
+      "route": "/feed.atom",
+      "file": "feed.atom",
+      "mediaType": "application/atom+xml; charset=utf-8",
+      "bytes": 194514,
+      "digest": "ni:///sha-256;clAEjVa-RFQBy1QcZA457IzrZMVwSDyNVN3ZxaAd0Wg"
+    },
+    {
+      "route": "/feed.json",
+      "file": "feed.json",
+      "mediaType": "application/feed+json; charset=utf-8",
+      "bytes": 178929,
+      "digest": "ni:///sha-256;kxjGOyhkQn99Q5OSDmgtbXH-JOd-cU_fY2koqaBpvuQ"
+    },
+    {
+      "route": "/feed.xml",
+      "file": "feed.xml",
+      "mediaType": "application/rss+xml; charset=utf-8",
+      "bytes": 193790,
+      "digest": "ni:///sha-256;1YJPcPAW6j2Zl6x1G3ujHqL-zdHCuCB841OgzRQcn0U"
+    },
+    {
+      "route": "/fingerprints/ai-compute-bottleneck-power-problem.json",
+      "file": "fingerprints/ai-compute-bottleneck-power-problem.json",
+      "mediaType": "application/ld+json; charset=utf-8",
+      "bytes": 4120,
+      "digest": "ni:///sha-256;GNt_5Yj8THq1S1OhcJ2Aj4qZlaTIrAD9M7ONhOZzVpQ"
+    },
+    {
+      "route": "/fingerprints/ai-compute-bottleneck-power-problem.png",
+      "file": "fingerprints/ai-compute-bottleneck-power-problem.png",
+      "mediaType": "image/png",
+      "bytes": 30619,
+      "digest": "ni:///sha-256;YJwUph5ANl9QKOxDWFK1DnkU5ureEnh4euUiKreDgNI"
+    },
+    {
+      "route": "/fingerprints/ai-compute-bottleneck-power-problem.svg",
+      "file": "fingerprints/ai-compute-bottleneck-power-problem.svg",
+      "mediaType": "image/svg+xml; charset=utf-8",
+      "bytes": 35363,
+      "digest": "ni:///sha-256;p06CsD3EiFFWapXfWxzSVeMUkqN8tZ6BukexCuOSe5Q"
+    },
+    {
+      "route": "/fingerprints/assisted-tree-migration-climate-change-solutions.json",
+      "file": "fingerprints/assisted-tree-migration-climate-change-solutions.json",
+      "mediaType": "application/ld+json; charset=utf-8",
+      "bytes": 3609,
+      "digest": "ni:///sha-256;eOlqalzYnelZat1_TKYtLopjIttsyiljUoBYCy6kTAg"
+    },
+    {
+      "route": "/fingerprints/assisted-tree-migration-climate-change-solutions.png",
+      "file": "fingerprints/assisted-tree-migration-climate-change-solutions.png",
+      "mediaType": "image/png",
+      "bytes": 27550,
+      "digest": "ni:///sha-256;YEGtZyhx5ozxqO68aKFOF4o5KfbY2HfdeanQB0SvJDU"
+    },
+    {
+      "route": "/fingerprints/assisted-tree-migration-climate-change-solutions.svg",
+      "file": "fingerprints/assisted-tree-migration-climate-change-solutions.svg",
+      "mediaType": "image/svg+xml; charset=utf-8",
+      "bytes": 35349,
+      "digest": "ni:///sha-256;jodmbqPDFkwHwC94M-3xYg9iNG7yjfkm7tGnclUJ9BA"
+    },
+    {
+      "route": "/fingerprints/berachain-bearish-social-sentiment-souring.json",
+      "file": "fingerprints/berachain-bearish-social-sentiment-souring.json",
+      "mediaType": "application/ld+json; charset=utf-8",
+      "bytes": 3023,
+      "digest": "ni:///sha-256;x-ykCYcpr78TF_eVZ1oF1w_hF9zFfhCCKKnkl89-kdQ"
+    },
+    {
+      "route": "/fingerprints/berachain-bearish-social-sentiment-souring.png",
+      "file": "fingerprints/berachain-bearish-social-sentiment-souring.png",
+      "mediaType": "image/png",
+      "bytes": 27290,
+      "digest": "ni:///sha-256;4ws9h6o4Prlv00cPlwMOguTSQ8SZ0snD_veaTtfunnQ"
+    },
+    {
+      "route": "/fingerprints/berachain-bearish-social-sentiment-souring.svg",
+      "file": "fingerprints/berachain-bearish-social-sentiment-souring.svg",
+      "mediaType": "image/svg+xml; charset=utf-8",
+      "bytes": 35356,
+      "digest": "ni:///sha-256;uV5BFgtehZY_wdpi23p9th0eiDdEJ6dp-0-akh59Gjs"
+    },
+    {
+      "route": "/fingerprints/bitcoin-defi-security-consortium-launch.json",
+      "file": "fingerprints/bitcoin-defi-security-consortium-launch.json",
+      "mediaType": "application/ld+json; charset=utf-8",
+      "bytes": 3250,
+      "digest": "ni:///sha-256;d7kCBbRxjIcKN77fCAe-MFf4d3ABAP5SUoAuy7YKiq4"
+    },
+    {
+      "route": "/fingerprints/bitcoin-defi-security-consortium-launch.png",
+      "file": "fingerprints/bitcoin-defi-security-consortium-launch.png",
+      "mediaType": "image/png",
+      "bytes": 28745,
+      "digest": "ni:///sha-256;6_6SAAIWyRSptyYNAncQuiBzkRnmfH9WAQQatxbJJKM"
+    },
+    {
+      "route": "/fingerprints/bitcoin-defi-security-consortium-launch.svg",
+      "file": "fingerprints/bitcoin-defi-security-consortium-launch.svg",
+      "mediaType": "image/svg+xml; charset=utf-8",
+      "bytes": 35353,
+      "digest": "ni:///sha-256;GIPKaFovDe3w1MTFLYNLxSeDvcB_JrEU4MiNiLilgEY"
+    },
+    {
+      "route": "/fingerprints/bitcoin-etf-investing-guide.json",
+      "file": "fingerprints/bitcoin-etf-investing-guide.json",
+      "mediaType": "application/ld+json; charset=utf-8",
+      "bytes": 3052,
+      "digest": "ni:///sha-256;RvqrhGaZfkts60TaGnh99AD8aVR8IdZoIDPAW-4yWqg"
+    },
+    {
+      "route": "/fingerprints/bitcoin-etf-investing-guide.png",
+      "file": "fingerprints/bitcoin-etf-investing-guide.png",
+      "mediaType": "image/png",
+      "bytes": 27419,
+      "digest": "ni:///sha-256;mbGn8fl_SSiDxtP74M3vh8XbkM1OrZvstJBPqX7O3Jw"
+    },
+    {
+      "route": "/fingerprints/bitcoin-etf-investing-guide.svg",
+      "file": "fingerprints/bitcoin-etf-investing-guide.svg",
+      "mediaType": "image/svg+xml; charset=utf-8",
+      "bytes": 35358,
+      "digest": "ni:///sha-256;_BqM1C4kNjybINkc8KT_0I-ne2Jbk4xZ51_MUBtw1YQ"
+    },
+    {
+      "route": "/fingerprints/bybit-hack-weakens-consumer-sentiment.json",
+      "file": "fingerprints/bybit-hack-weakens-consumer-sentiment.json",
+      "mediaType": "application/ld+json; charset=utf-8",
+      "bytes": 3388,
+      "digest": "ni:///sha-256;eP6PwyveNKWOick5mN3XHw3KUe0koL0YODi44SkDx6Q"
+    },
+    {
+      "route": "/fingerprints/bybit-hack-weakens-consumer-sentiment.png",
+      "file": "fingerprints/bybit-hack-weakens-consumer-sentiment.png",
+      "mediaType": "image/png",
+      "bytes": 27272,
+      "digest": "ni:///sha-256;3a1l2M7wPuiNVRBzHUOUpYDTHYDdY89HZPIrJPnj2yI"
+    },
+    {
+      "route": "/fingerprints/bybit-hack-weakens-consumer-sentiment.svg",
+      "file": "fingerprints/bybit-hack-weakens-consumer-sentiment.svg",
+      "mediaType": "image/svg+xml; charset=utf-8",
+      "bytes": 35348,
+      "digest": "ni:///sha-256;WA7STukQFJhp9VlQgFmDmjAgkt9b02jDMTDi-LBAv_k"
+    },
+    {
+      "route": "/fingerprints/cyclone-alfreds-impact-a-reflection-of-global-systemic-vulnerabilities.json",
+      "file": "fingerprints/cyclone-alfreds-impact-a-reflection-of-global-systemic-vulnerabilities.json",
+      "mediaType": "application/ld+json; charset=utf-8",
+      "bytes": 3621,
+      "digest": "ni:///sha-256;UvBm42ZCQKNtyhkjdBOpCzUoRVzpGaZaSglXsrOq7K0"
+    },
+    {
+      "route": "/fingerprints/cyclone-alfreds-impact-a-reflection-of-global-systemic-vulnerabilities.png",
+      "file": "fingerprints/cyclone-alfreds-impact-a-reflection-of-global-systemic-vulnerabilities.png",
+      "mediaType": "image/png",
+      "bytes": 30044,
+      "digest": "ni:///sha-256;d09d_54tTmlWb3Tf4wlVVDuxRDuP6B3nWfilZyaT44A"
+    },
+    {
+      "route": "/fingerprints/cyclone-alfreds-impact-a-reflection-of-global-systemic-vulnerabilities.svg",
+      "file": "fingerprints/cyclone-alfreds-impact-a-reflection-of-global-systemic-vulnerabilities.svg",
+      "mediaType": "image/svg+xml; charset=utf-8",
+      "bytes": 35362,
+      "digest": "ni:///sha-256;Fb9KAEFTF-z5Ge58VtNP076Cq4qPYAydKERavCcOrLA"
+    },
+    {
+      "route": "/fingerprints/defai-explained-how-ai-is-transforming-decentralized-finance.json",
+      "file": "fingerprints/defai-explained-how-ai-is-transforming-decentralized-finance.json",
+      "mediaType": "application/ld+json; charset=utf-8",
+      "bytes": 3193,
+      "digest": "ni:///sha-256;7BJiLKGWDPxM76KOdwPLm6TjrvxA34HjQn7S-OugVB0"
+    },
+    {
+      "route": "/fingerprints/defai-explained-how-ai-is-transforming-decentralized-finance.png",
+      "file": "fingerprints/defai-explained-how-ai-is-transforming-decentralized-finance.png",
+      "mediaType": "image/png",
+      "bytes": 29679,
+      "digest": "ni:///sha-256;0aXvljBJGv5dh9oHzXkbbpLrJDQSKiuJ2fVJTsTLUF4"
+    },
+    {
+      "route": "/fingerprints/defai-explained-how-ai-is-transforming-decentralized-finance.svg",
+      "file": "fingerprints/defai-explained-how-ai-is-transforming-decentralized-finance.svg",
+      "mediaType": "image/svg+xml; charset=utf-8",
+      "bytes": 35355,
+      "digest": "ni:///sha-256;Q7O4yJZ_VOQ6ywG5z7i8O9SJa3mk43S3lD9YxWcKycI"
+    },
+    {
+      "route": "/fingerprints/ecb-delays-inevitable-slashes-interest-rates-again.json",
+      "file": "fingerprints/ecb-delays-inevitable-slashes-interest-rates-again.json",
+      "mediaType": "application/ld+json; charset=utf-8",
+      "bytes": 3779,
+      "digest": "ni:///sha-256;beBFDq2a9m7Z-gT0gl95SOp4gIbLCPztG0f9DMJwOnA"
+    },
+    {
+      "route": "/fingerprints/ecb-delays-inevitable-slashes-interest-rates-again.png",
+      "file": "fingerprints/ecb-delays-inevitable-slashes-interest-rates-again.png",
+      "mediaType": "image/png",
+      "bytes": 27641,
+      "digest": "ni:///sha-256;Ij8OwWbh3iL_7ABkR2vdRBG4aiIOhjyoMKfa9F5WvTM"
+    },
+    {
+      "route": "/fingerprints/ecb-delays-inevitable-slashes-interest-rates-again.svg",
+      "file": "fingerprints/ecb-delays-inevitable-slashes-interest-rates-again.svg",
+      "mediaType": "image/svg+xml; charset=utf-8",
+      "bytes": 35358,
+      "digest": "ni:///sha-256;WIg2y94-r42RjHec83iktO5ykvnQfYEjwH0_QDdH2ZA"
+    },
+    {
+      "route": "/fingerprints/ethereum-staking-nyse-approval-etf.json",
+      "file": "fingerprints/ethereum-staking-nyse-approval-etf.json",
+      "mediaType": "application/ld+json; charset=utf-8",
+      "bytes": 3023,
+      "digest": "ni:///sha-256;GJzqqUQmjgoeIwcLN5e3AZqOijngAZZB_ona449Gqio"
+    },
+    {
+      "route": "/fingerprints/ethereum-staking-nyse-approval-etf.png",
+      "file": "fingerprints/ethereum-staking-nyse-approval-etf.png",
+      "mediaType": "image/png",
+      "bytes": 30790,
+      "digest": "ni:///sha-256;no6kUSYgYM8FL0pm065VA696sBLLyCZJcIozzrSWMAM"
+    },
+    {
+      "route": "/fingerprints/ethereum-staking-nyse-approval-etf.svg",
+      "file": "fingerprints/ethereum-staking-nyse-approval-etf.svg",
+      "mediaType": "image/svg+xml; charset=utf-8",
+      "bytes": 35368,
+      "digest": "ni:///sha-256;z0OsneDD-no-hKrZqmi9j1EDa7GTOmsYarzvzrhX5P4"
+    },
+    {
+      "route": "/fingerprints/exploring-the-risks-and-rewards-of-defi-leverage.json",
+      "file": "fingerprints/exploring-the-risks-and-rewards-of-defi-leverage.json",
+      "mediaType": "application/ld+json; charset=utf-8",
+      "bytes": 3147,
+      "digest": "ni:///sha-256;mlgG-VjJjkmBtIerJbqJXRY8sQTqvjizqWiAgb17YTE"
+    },
+    {
+      "route": "/fingerprints/exploring-the-risks-and-rewards-of-defi-leverage.png",
+      "file": "fingerprints/exploring-the-risks-and-rewards-of-defi-leverage.png",
+      "mediaType": "image/png",
+      "bytes": 30523,
+      "digest": "ni:///sha-256;4EKNA2to2KhELbniVDzZwLtiR7k_0jC4jisreL1Zp6k"
+    },
+    {
+      "route": "/fingerprints/exploring-the-risks-and-rewards-of-defi-leverage.svg",
+      "file": "fingerprints/exploring-the-risks-and-rewards-of-defi-leverage.svg",
+      "mediaType": "image/svg+xml; charset=utf-8",
+      "bytes": 35366,
+      "digest": "ni:///sha-256;L0uwfcGpeKjqob3ipiSXtDljs7mUN1oNY0PXXduCd3w"
+    },
+    {
+      "route": "/fingerprints/farm-usdc-on-base-with-moonwell-beefy-or-extra.json",
+      "file": "fingerprints/farm-usdc-on-base-with-moonwell-beefy-or-extra.json",
+      "mediaType": "application/ld+json; charset=utf-8",
+      "bytes": 3323,
+      "digest": "ni:///sha-256;5jA6rPOFJ_4TspmNZRtQMpx06WKIsYDI3iCuV0nHO5g"
+    },
+    {
+      "route": "/fingerprints/farm-usdc-on-base-with-moonwell-beefy-or-extra.png",
+      "file": "fingerprints/farm-usdc-on-base-with-moonwell-beefy-or-extra.png",
+      "mediaType": "image/png",
+      "bytes": 27127,
+      "digest": "ni:///sha-256;izXEggo3XtWokm7Mpb87csQ17KqCLrMnRo2Od0dhoJQ"
+    },
+    {
+      "route": "/fingerprints/farm-usdc-on-base-with-moonwell-beefy-or-extra.svg",
+      "file": "fingerprints/farm-usdc-on-base-with-moonwell-beefy-or-extra.svg",
+      "mediaType": "image/svg+xml; charset=utf-8",
+      "bytes": 35353,
+      "digest": "ni:///sha-256;rqOS8DweO9G140iG5_VjN6F9J9Tmi2OlNTDKpPNZYjk"
+    },
+    {
+      "route": "/fingerprints/february-19-2025-daytrading-opportunities-in-leveraged-etfs.json",
+      "file": "fingerprints/february-19-2025-daytrading-opportunities-in-leveraged-etfs.json",
+      "mediaType": "application/ld+json; charset=utf-8",
+      "bytes": 3296,
+      "digest": "ni:///sha-256;f01kH6ch6X7sNo7mwxoZslcLmkreGiYZfa7UlH74swo"
+    },
+    {
+      "route": "/fingerprints/february-19-2025-daytrading-opportunities-in-leveraged-etfs.png",
+      "file": "fingerprints/february-19-2025-daytrading-opportunities-in-leveraged-etfs.png",
+      "mediaType": "image/png",
+      "bytes": 26517,
+      "digest": "ni:///sha-256;HvSE-I0CTajJdNbYlBuaCEOdKYWny8tU2W2ODhYLAvM"
+    },
+    {
+      "route": "/fingerprints/february-19-2025-daytrading-opportunities-in-leveraged-etfs.svg",
+      "file": "fingerprints/february-19-2025-daytrading-opportunities-in-leveraged-etfs.svg",
+      "mediaType": "image/svg+xml; charset=utf-8",
+      "bytes": 35344,
+      "digest": "ni:///sha-256;7jcwok94t3q139S0d0C7rJ0KEOs3pTa6v4pB_f243wA"
+    },
+    {
+      "route": "/fingerprints/hello-world.json",
+      "file": "fingerprints/hello-world.json",
+      "mediaType": "application/ld+json; charset=utf-8",
+      "bytes": 3112,
+      "digest": "ni:///sha-256;Qh4truBqwRoc00wbQ_tq3z0xhN-ovZ-Cs-IHq9oIBGE"
+    },
+    {
+      "route": "/fingerprints/hello-world.png",
+      "file": "fingerprints/hello-world.png",
+      "mediaType": "image/png",
+      "bytes": 27792,
+      "digest": "ni:///sha-256;fVgwdFD5lDeQbpmYCD4x481XkgznYQzdfuKDMIeAooY"
+    },
+    {
+      "route": "/fingerprints/hello-world.svg",
+      "file": "fingerprints/hello-world.svg",
+      "mediaType": "image/svg+xml; charset=utf-8",
+      "bytes": 35363,
+      "digest": "ni:///sha-256;hP3tgkHP0LnwhBRrg6ynkTJ-bfQKtMYuX3qk2Z6CDOM"
+    },
+    {
+      "route": "/fingerprints/michigan-program-helps-new-farmers-amidst-rising-crop-failure.json",
+      "file": "fingerprints/michigan-program-helps-new-farmers-amidst-rising-crop-failure.json",
+      "mediaType": "application/ld+json; charset=utf-8",
+      "bytes": 3588,
+      "digest": "ni:///sha-256;EBFhlX_OrbzfIGR0D1Pn2y2KePweX_bnSEiM2jmyRyU"
+    },
+    {
+      "route": "/fingerprints/michigan-program-helps-new-farmers-amidst-rising-crop-failure.png",
+      "file": "fingerprints/michigan-program-helps-new-farmers-amidst-rising-crop-failure.png",
+      "mediaType": "image/png",
+      "bytes": 29285,
+      "digest": "ni:///sha-256;Y-DVgJSZIyPduOHXoE29YxGgD2MexWypTrd2hpPLgtU"
+    },
+    {
+      "route": "/fingerprints/michigan-program-helps-new-farmers-amidst-rising-crop-failure.svg",
+      "file": "fingerprints/michigan-program-helps-new-farmers-amidst-rising-crop-failure.svg",
+      "mediaType": "image/svg+xml; charset=utf-8",
+      "bytes": 35363,
+      "digest": "ni:///sha-256;indck71Njtm9JVm7-2F6pweEx1yUMuQFMBssbDs2O_k"
+    },
+    {
+      "route": "/fingerprints/the-cost-of-certainty-how-robot-guesswork-meets-energy.json",
+      "file": "fingerprints/the-cost-of-certainty-how-robot-guesswork-meets-energy.json",
+      "mediaType": "application/ld+json; charset=utf-8",
+      "bytes": 3679,
+      "digest": "ni:///sha-256;3kdP4anfj6I3sD70b5dcqSKiwguOB3SqRAHKADQbW6I"
+    },
+    {
+      "route": "/fingerprints/the-cost-of-certainty-how-robot-guesswork-meets-energy.png",
+      "file": "fingerprints/the-cost-of-certainty-how-robot-guesswork-meets-energy.png",
+      "mediaType": "image/png",
+      "bytes": 26834,
+      "digest": "ni:///sha-256;_B3lDH6ncbZqxujcmp5uZEMAV0d8fr2OfO-OHDqRcBw"
+    },
+    {
+      "route": "/fingerprints/the-cost-of-certainty-how-robot-guesswork-meets-energy.svg",
+      "file": "fingerprints/the-cost-of-certainty-how-robot-guesswork-meets-energy.svg",
+      "mediaType": "image/svg+xml; charset=utf-8",
+      "bytes": 35353,
+      "digest": "ni:///sha-256;T_2fZe_ZsPp_vzbB8xePkC609xzGAPle2V4BgtqQQgI"
+    },
+    {
+      "route": "/fingerprints/the-hidden-climate-tax-on-american-households.json",
+      "file": "fingerprints/the-hidden-climate-tax-on-american-households.json",
+      "mediaType": "application/ld+json; charset=utf-8",
+      "bytes": 3652,
+      "digest": "ni:///sha-256;dV3e4BBnKR9DyHr13FuBKiTEcJt6x1uz9jYQpeCXSFo"
+    },
+    {
+      "route": "/fingerprints/the-hidden-climate-tax-on-american-households.png",
+      "file": "fingerprints/the-hidden-climate-tax-on-american-households.png",
+      "mediaType": "image/png",
+      "bytes": 29153,
+      "digest": "ni:///sha-256;KCWGUXrNwchQ2tLG0hGkXJe0U5_MA6RlZHiAYVmXXC8"
+    },
+    {
+      "route": "/fingerprints/the-hidden-climate-tax-on-american-households.svg",
+      "file": "fingerprints/the-hidden-climate-tax-on-american-households.svg",
+      "mediaType": "image/svg+xml; charset=utf-8",
+      "bytes": 35363,
+      "digest": "ni:///sha-256;PLjQ6vxuSPgBi3RH0Ykc5FAMDuSdXI4xAAP5NbLoZiw"
+    },
+    {
+      "route": "/fingerprints/the-mundane-automation-of-collapse-at-sxsw-london.json",
+      "file": "fingerprints/the-mundane-automation-of-collapse-at-sxsw-london.json",
+      "mediaType": "application/ld+json; charset=utf-8",
+      "bytes": 3892,
+      "digest": "ni:///sha-256;yjPUGZbIwD-P_EEcIqf-VfZ8UTcwpAFu3SDj_dQMrDo"
+    },
+    {
+      "route": "/fingerprints/the-mundane-automation-of-collapse-at-sxsw-london.png",
+      "file": "fingerprints/the-mundane-automation-of-collapse-at-sxsw-london.png",
+      "mediaType": "image/png",
+      "bytes": 28979,
+      "digest": "ni:///sha-256;xF62UI34HuezRn1-6K6guylYkly_CT4HGxTvfGjyAu0"
+    },
+    {
+      "route": "/fingerprints/the-mundane-automation-of-collapse-at-sxsw-london.svg",
+      "file": "fingerprints/the-mundane-automation-of-collapse-at-sxsw-london.svg",
+      "mediaType": "image/svg+xml; charset=utf-8",
+      "bytes": 35363,
+      "digest": "ni:///sha-256;lLuGl7Q5rtpVv0sbQnfV9AjI1AXqQJIgyELvSSiPQ_I"
+    },
+    {
+      "route": "/fingerprints/the-sonic-blockchain-ecosystem-speed-and-developer-incentives.json",
+      "file": "fingerprints/the-sonic-blockchain-ecosystem-speed-and-developer-incentives.json",
+      "mediaType": "application/ld+json; charset=utf-8",
+      "bytes": 3418,
+      "digest": "ni:///sha-256;px05reAcBYCLXWh0vPyGKQGDqQeirQBniI7V5gU88zw"
+    },
+    {
+      "route": "/fingerprints/the-sonic-blockchain-ecosystem-speed-and-developer-incentives.png",
+      "file": "fingerprints/the-sonic-blockchain-ecosystem-speed-and-developer-incentives.png",
+      "mediaType": "image/png",
+      "bytes": 27214,
+      "digest": "ni:///sha-256;N2f5MCY3vJL1S5svY-LuOguBGReMP7mBr3QTngUJOxo"
+    },
+    {
+      "route": "/fingerprints/the-sonic-blockchain-ecosystem-speed-and-developer-incentives.svg",
+      "file": "fingerprints/the-sonic-blockchain-ecosystem-speed-and-developer-incentives.svg",
+      "mediaType": "image/svg+xml; charset=utf-8",
+      "bytes": 35363,
+      "digest": "ni:///sha-256;uEa7XIfob5cy8o858F0gcA1jYL1QyfrnN9aNrHZLoPc"
+    },
+    {
+      "route": "/fingerprints/uk-bond-yields-rise-as-water-company-shares-fall.json",
+      "file": "fingerprints/uk-bond-yields-rise-as-water-company-shares-fall.json",
+      "mediaType": "application/ld+json; charset=utf-8",
+      "bytes": 3903,
+      "digest": "ni:///sha-256;fj78v55bhkLpftpyg7Joojfm56jpF2j_2M68MHhXwI0"
+    },
+    {
+      "route": "/fingerprints/uk-bond-yields-rise-as-water-company-shares-fall.png",
+      "file": "fingerprints/uk-bond-yields-rise-as-water-company-shares-fall.png",
+      "mediaType": "image/png",
+      "bytes": 29134,
+      "digest": "ni:///sha-256;l4X9lyJ-YbDRnhRxZrWW9Z2FHrdiTtZeUL0_KJ0kJ48"
+    },
+    {
+      "route": "/fingerprints/uk-bond-yields-rise-as-water-company-shares-fall.svg",
+      "file": "fingerprints/uk-bond-yields-rise-as-water-company-shares-fall.svg",
+      "mediaType": "image/svg+xml; charset=utf-8",
+      "bytes": 35356,
+      "digest": "ni:///sha-256;mlmBeZUM4HZlmypn_2QB4ajTx3EVuKH5ipZSS2_pelY"
+    },
+    {
+      "route": "/news-sitemap.xml",
+      "file": "news-sitemap.xml",
+      "mediaType": "application/xml; charset=utf-8",
+      "bytes": 8961,
+      "digest": "ni:///sha-256;r83DU9an1T1xwnPFQn51_EOEHrBb6deunWS0--8JIzY"
+    },
+    {
+      "route": "/newswire-audit.json",
+      "file": "newswire-audit.json",
+      "mediaType": "application/json; charset=utf-8",
+      "bytes": 29309,
+      "digest": "ni:///sha-256;OTkSRn4ryle0AyHSMtk-mYhtqAeFhzKBZGDt9CxNJZc"
+    },
+    {
+      "route": "/ninjs.json",
+      "file": "ninjs.json",
+      "mediaType": "application/vnd.iptc.ninjs+json; charset=utf-8",
+      "bytes": 177669,
+      "digest": "ni:///sha-256;EJLQmOPxJMaNbdIfZZuI82e6xHUHqib6Nsm25WmbR_8"
+    },
+    {
+      "route": "/og.png",
+      "file": "og.png",
+      "mediaType": "image/png",
+      "bytes": 8323,
+      "digest": "ni:///sha-256;2g6gaYmlBIWMhivP7QhMycyI-6J_9W9eYP_SaGCXV_Q"
+    },
+    {
+      "route": "/operations",
+      "file": "operations/index.html",
+      "mediaType": "text/html; charset=utf-8",
+      "bytes": 30105,
+      "digest": "ni:///sha-256;f4Uc70bSAcGkf7t0SYGk80oW0g88FOj2M0S6cbJsPt4"
+    },
+    {
+      "route": "/operations.json",
+      "file": "operations.json",
+      "mediaType": "application/json; charset=utf-8",
+      "bytes": 14246,
+      "digest": "ni:///sha-256;bQb4t3uwxDI-nw2f_EdAzm05WzCEog7jl79GaVzRb_s"
+    },
+    {
+      "route": "/posts/ai-compute-bottleneck-power-problem",
+      "file": "posts/ai-compute-bottleneck-power-problem/index.html",
+      "mediaType": "text/html; charset=utf-8",
+      "bytes": 44814,
+      "digest": "ni:///sha-256;un1ut59bwS-FigcAdmdhnOlE5HK7w-5sbSF1v2xdnjg"
+    },
+    {
+      "route": "/posts/assisted-tree-migration-climate-change-solutions",
+      "file": "posts/assisted-tree-migration-climate-change-solutions/index.html",
+      "mediaType": "text/html; charset=utf-8",
+      "bytes": 41623,
+      "digest": "ni:///sha-256;HO4nA4MFATH_bJWON2XC0ONeEbDUAgk_MtQj1Ix68us"
+    },
+    {
+      "route": "/posts/berachain-bearish-social-sentiment-souring",
+      "file": "posts/berachain-bearish-social-sentiment-souring/index.html",
+      "mediaType": "text/html; charset=utf-8",
+      "bytes": 39438,
+      "digest": "ni:///sha-256;INN_QqdaWQQNfeFn-ZUHC5IDYQVOC17xY9xluYuZH2Y"
+    },
+    {
+      "route": "/posts/bitcoin-defi-security-consortium-launch",
+      "file": "posts/bitcoin-defi-security-consortium-launch/index.html",
+      "mediaType": "text/html; charset=utf-8",
+      "bytes": 42119,
+      "digest": "ni:///sha-256;w04I27TXqyNS_jdAUxmghdEBVsM5yG9Xl2-p4rOnHZY"
+    },
+    {
+      "route": "/posts/bitcoin-etf-investing-guide",
+      "file": "posts/bitcoin-etf-investing-guide/index.html",
+      "mediaType": "text/html; charset=utf-8",
+      "bytes": 40898,
+      "digest": "ni:///sha-256;zE7GdIgMi6t0AJMn71H0rCRcQI3jQVRzVEvQ53KxwCo"
+    },
+    {
+      "route": "/posts/bybit-hack-weakens-consumer-sentiment",
+      "file": "posts/bybit-hack-weakens-consumer-sentiment/index.html",
+      "mediaType": "text/html; charset=utf-8",
+      "bytes": 39803,
+      "digest": "ni:///sha-256;ntELz13labcJEo9orey1wwr9HrlgQMkN9SPRC0_IKe8"
+    },
+    {
+      "route": "/posts/cyclone-alfreds-impact-a-reflection-of-global-systemic-vulnerabilities",
+      "file": "posts/cyclone-alfreds-impact-a-reflection-of-global-systemic-vulnerabilities/index.html",
+      "mediaType": "text/html; charset=utf-8",
+      "bytes": 40529,
+      "digest": "ni:///sha-256;LkjU2WxQ_2Hsb9kqxEMh2E_Lm931eZM3T2PQdnHT83k"
+    },
+    {
+      "route": "/posts/defai-explained-how-ai-is-transforming-decentralized-finance",
+      "file": "posts/defai-explained-how-ai-is-transforming-decentralized-finance/index.html",
+      "mediaType": "text/html; charset=utf-8",
+      "bytes": 39715,
+      "digest": "ni:///sha-256;UfnyQQlmQn0UhqfzUvBM5HMq1GlzYkCR5a5QvfyMVe4"
+    },
+    {
+      "route": "/posts/ecb-delays-inevitable-slashes-interest-rates-again",
+      "file": "posts/ecb-delays-inevitable-slashes-interest-rates-again/index.html",
+      "mediaType": "text/html; charset=utf-8",
+      "bytes": 41925,
+      "digest": "ni:///sha-256;dgjDHSvj76fWVkmgzhvupVLEHZp60f6l9Gku0mke9-4"
+    },
+    {
+      "route": "/posts/ethereum-staking-nyse-approval-etf",
+      "file": "posts/ethereum-staking-nyse-approval-etf/index.html",
+      "mediaType": "text/html; charset=utf-8",
+      "bytes": 39367,
+      "digest": "ni:///sha-256;DIlEyRcIKcRkPH8sQa5gWhgjOMbNp877toRaAWThMRQ"
+    },
+    {
+      "route": "/posts/exploring-the-risks-and-rewards-of-defi-leverage",
+      "file": "posts/exploring-the-risks-and-rewards-of-defi-leverage/index.html",
+      "mediaType": "text/html; charset=utf-8",
+      "bytes": 40869,
+      "digest": "ni:///sha-256;-oBXOjKQrjpz-JL1UNrrGdFHzzxZ9TqZoP6Pnu75NHc"
+    },
+    {
+      "route": "/posts/farm-usdc-on-base-with-moonwell-beefy-or-extra",
+      "file": "posts/farm-usdc-on-base-with-moonwell-beefy-or-extra/index.html",
+      "mediaType": "text/html; charset=utf-8",
+      "bytes": 39891,
+      "digest": "ni:///sha-256;JsOyYkHPzvP9VMzA0c-ZmD5SckamcfwKbn2G4FEQPtU"
+    },
+    {
+      "route": "/posts/february-19-2025-daytrading-opportunities-in-leveraged-etfs",
+      "file": "posts/february-19-2025-daytrading-opportunities-in-leveraged-etfs/index.html",
+      "mediaType": "text/html; charset=utf-8",
+      "bytes": 41473,
+      "digest": "ni:///sha-256;qQI59hYv3AyLjQ028q0n1MraHZftl5qGoNhQMG2MMl0"
+    },
+    {
+      "route": "/posts/hello-world",
+      "file": "posts/hello-world/index.html",
+      "mediaType": "text/html; charset=utf-8",
+      "bytes": 41120,
+      "digest": "ni:///sha-256;XXQ8j7pb78sfGsSammIB9QX6buTVrwJ8AP_Sx3y39XE"
+    },
+    {
+      "route": "/posts/michigan-program-helps-new-farmers-amidst-rising-crop-failure",
+      "file": "posts/michigan-program-helps-new-farmers-amidst-rising-crop-failure/index.html",
+      "mediaType": "text/html; charset=utf-8",
+      "bytes": 39833,
+      "digest": "ni:///sha-256;r0YGavyrsWLXKQZ8QLEAXSz_LYHDvUR1rOnbpa-6Jl0"
+    },
+    {
+      "route": "/posts/the-cost-of-certainty-how-robot-guesswork-meets-energy",
+      "file": "posts/the-cost-of-certainty-how-robot-guesswork-meets-energy/index.html",
+      "mediaType": "text/html; charset=utf-8",
+      "bytes": 42232,
+      "digest": "ni:///sha-256;cimF2u1qfg15yfBJNwpmR1NAhojk9LI5KG3WE61VOKY"
+    },
+    {
+      "route": "/posts/the-hidden-climate-tax-on-american-households",
+      "file": "posts/the-hidden-climate-tax-on-american-households/index.html",
+      "mediaType": "text/html; charset=utf-8",
+      "bytes": 40880,
+      "digest": "ni:///sha-256;zTSADTZeSi8uE6BLyUX0F2Qjaw3jqGh1g-KwZauu3i8"
+    },
+    {
+      "route": "/posts/the-mundane-automation-of-collapse-at-sxsw-london",
+      "file": "posts/the-mundane-automation-of-collapse-at-sxsw-london/index.html",
+      "mediaType": "text/html; charset=utf-8",
+      "bytes": 43352,
+      "digest": "ni:///sha-256;6HXlWJLjJ29PpZJY_rJR1fgQTLN4EdOY9Z69Eme9nds"
+    },
+    {
+      "route": "/posts/the-sonic-blockchain-ecosystem-speed-and-developer-incentives",
+      "file": "posts/the-sonic-blockchain-ecosystem-speed-and-developer-incentives/index.html",
+      "mediaType": "text/html; charset=utf-8",
+      "bytes": 42135,
+      "digest": "ni:///sha-256;Ju7SbU0sHheOL4pWitUhKrVFojTwAni-ItioD8aW9A0"
+    },
+    {
+      "route": "/posts/uk-bond-yields-rise-as-water-company-shares-fall",
+      "file": "posts/uk-bond-yields-rise-as-water-company-shares-fall/index.html",
+      "mediaType": "text/html; charset=utf-8",
+      "bytes": 43012,
+      "digest": "ni:///sha-256;NtWT2e8hKYp2NUu179zuLcU52vU59zFQrPfGiq0QgJI"
+    },
+    {
+      "route": "/privacy",
+      "file": "privacy/index.html",
+      "mediaType": "text/html; charset=utf-8",
+      "bytes": 27974,
+      "digest": "ni:///sha-256;1Vgf86oU9Uf4D96aPqsXtEJ_kfCIRjDy-dxzbn8qy7c"
+    },
+    {
+      "route": "/publication-provenance.json",
+      "file": "publication-provenance.json",
+      "mediaType": "application/json; charset=utf-8",
+      "bytes": 6637,
+      "digest": "ni:///sha-256;QeAL-CZw7SwALR5NnzMknbYl1hm0pD9GZQbs2ajHQ1I"
+    },
+    {
+      "route": "/robots.txt",
+      "file": "robots.txt",
+      "mediaType": "text/plain; charset=utf-8",
+      "bytes": 134,
+      "digest": "ni:///sha-256;kP-SIUSE3UA3E7Tw0QtRWkEwYmFhDUzZLtgZSQUMdNw"
+    },
+    {
+      "route": "/search",
+      "file": "search/index.html",
+      "mediaType": "text/html; charset=utf-8",
+      "bytes": 26590,
+      "digest": "ni:///sha-256;U0wj_je5fh67lWnHJgiMd0JLClCIl4vP2jYC7GtGyOI"
+    },
+    {
+      "route": "/sitemap.xml",
+      "file": "sitemap.xml",
+      "mediaType": "application/xml; charset=utf-8",
+      "bytes": 2989,
+      "digest": "ni:///sha-256;byXVg_8Slet_6R4eoAL10fQM1COTISQLsvVBafF5zWE"
+    },
+    {
+      "route": "/sources",
+      "file": "sources/index.html",
+      "mediaType": "text/html; charset=utf-8",
+      "bytes": 43940,
+      "digest": "ni:///sha-256;ijZPd0-BUpdMSVcP2j7DsAaiAlgopnVJxFWSyhS4C1U"
+    },
+    {
+      "route": "/sources.json",
+      "file": "sources.json",
+      "mediaType": "application/json; charset=utf-8",
+      "bytes": 24993,
+      "digest": "ni:///sha-256;NaeiJM0pLMAKhWs0PmhjQyiebwiYk2QSn0BfXVN7XsQ"
+    },
+    {
+      "route": "/standards",
+      "file": "standards/index.html",
+      "mediaType": "text/html; charset=utf-8",
+      "bytes": 29470,
+      "digest": "ni:///sha-256;4CJ87K9dECOPjGepbAclh4BbhLYqQ6DTqqRv8oGbQxw"
+    },
+    {
+      "route": "/standards.json",
+      "file": "standards.json",
+      "mediaType": "application/json; charset=utf-8",
+      "bytes": 2035,
+      "digest": "ni:///sha-256;UyGtsfMXmD96RfmsPGqayq2qG_2_ihCv7i5xO0pEbSE"
+    },
+    {
+      "route": "/syndicating.json",
+      "file": "syndicating.json",
+      "mediaType": "application/json; charset=utf-8",
+      "bytes": 3811,
+      "digest": "ni:///sha-256;9AlN8jX1sH1cEaW2bOPeXxCNdj_ROMH28BK6XNtgHeE"
+    },
+    {
+      "route": "/tag/ai",
+      "file": "tag/ai/index.html",
+      "mediaType": "text/html; charset=utf-8",
+      "bytes": 480,
+      "digest": "ni:///sha-256;VbAUL-imauXrsaNxPoSk7xrH9zK4dbddh4l65NGa738"
+    },
+    {
+      "route": "/tag/ai-infrastructure",
+      "file": "tag/ai-infrastructure/index.html",
+      "mediaType": "text/html; charset=utf-8",
+      "bytes": 540,
+      "digest": "ni:///sha-256;rN78WCedM5MQVB30Tjq2PqyeAZsFMw0mJUS5GK16foU"
+    },
+    {
+      "route": "/tag/artificial-intelligence",
+      "file": "tag/artificial-intelligence/index.html",
+      "mediaType": "text/html; charset=utf-8",
+      "bytes": 564,
+      "digest": "ni:///sha-256;yL88iJggu0T1p07_W9_DdOcq_uqZ1ecPjH5Ner91C9o"
+    },
+    {
+      "route": "/tag/australia",
+      "file": "tag/australia/index.html",
+      "mediaType": "text/html; charset=utf-8",
+      "bytes": 508,
+      "digest": "ni:///sha-256;kbHdarz1ICCTlnzugpBjix6RpNmTNGHP2-X2HFru-Yo"
+    },
+    {
+      "route": "/tag/automation",
+      "file": "tag/automation/index.html",
+      "mediaType": "text/html; charset=utf-8",
+      "bytes": 512,
+      "digest": "ni:///sha-256;yplzmnlG-_ELXASnFJXRFMj17M5OCtllx-Zwb6f22BU"
+    },
+    {
+      "route": "/tag/autonomous-newsroom",
+      "file": "tag/autonomous-newsroom/index.html",
+      "mediaType": "text/html; charset=utf-8",
+      "bytes": 548,
+      "digest": "ni:///sha-256;cDEokdLs1SuK1n6-spB0YKIJNyPzmjHpG2I7sWzgP8A"
+    },
+    {
+      "route": "/tag/base",
+      "file": "tag/base/index.html",
+      "mediaType": "text/html; charset=utf-8",
+      "bytes": 473,
+      "digest": "ni:///sha-256;m1RqHMmCitClAjeLNBahi-ijw2VHUISIP86G8NGNbts"
+    },
+    {
+      "route": "/tag/beefy-finance",
+      "file": "tag/beefy-finance/index.html",
+      "mediaType": "text/html; charset=utf-8",
+      "bytes": 524,
+      "digest": "ni:///sha-256;eAhkUwxCMxCtP24eK_F-9PORVODWyq2PzT_bv8ZJndU"
+    },
+    {
+      "route": "/tag/berachain",
+      "file": "tag/berachain/index.html",
+      "mediaType": "text/html; charset=utf-8",
+      "bytes": 508,
+      "digest": "ni:///sha-256;N0-lFbE3G_t2crvlPZ40fg85dNoaESmMNZbJB62_qRI"
+    },
+    {
+      "route": "/tag/bitcoin",
+      "file": "tag/bitcoin/index.html",
+      "mediaType": "text/html; charset=utf-8",
+      "bytes": 500,
+      "digest": "ni:///sha-256;ekEASglpFh54Sxxs_hwasgv1OSuhr9esnhXEBwtG4gw"
+    },
+    {
+      "route": "/tag/bond-markets",
+      "file": "tag/bond-markets/index.html",
+      "mediaType": "text/html; charset=utf-8",
+      "bytes": 520,
+      "digest": "ni:///sha-256;2KSpn3u3GWPPdRWMtX2sznIQzkO0Fif8ubp1zlC2LiQ"
+    },
+    {
+      "route": "/tag/bybit",
+      "file": "tag/bybit/index.html",
+      "mediaType": "text/html; charset=utf-8",
+      "bytes": 492,
+      "digest": "ni:///sha-256;wJp7yRZNnf5aIuK-9ZppmNsd4Uh41CuiFwRuEJd170w"
+    },
+    {
+      "route": "/tag/central-bank-interest-rates",
+      "file": "tag/central-bank-interest-rates/index.html",
+      "mediaType": "text/html; charset=utf-8",
+      "bytes": 580,
+      "digest": "ni:///sha-256;lgGOvhwng0TfseEa75eQPeSTELelGBiHRGmSarZNGFE"
+    },
+    {
+      "route": "/tag/climate-breakdown",
+      "file": "tag/climate-breakdown/index.html",
+      "mediaType": "text/html; charset=utf-8",
+      "bytes": 540,
+      "digest": "ni:///sha-256;HifsDDb5Be9MudeyL7JwsFCsgF2a1bYYVXnV-5P3QsQ"
+    },
+    {
+      "route": "/tag/climate-collapse",
+      "file": "tag/climate-collapse/index.html",
+      "mediaType": "text/html; charset=utf-8",
+      "bytes": 536,
+      "digest": "ni:///sha-256;HlwaYUu2ns1meDHSqQLFikTFqCbk7MDxNk1iMxguf0o"
+    },
+    {
+      "route": "/tag/climate-economics",
+      "file": "tag/climate-economics/index.html",
+      "mediaType": "text/html; charset=utf-8",
+      "bytes": 540,
+      "digest": "ni:///sha-256;1cHkDCn7RKjJSQ_sEjTeftp-82gZfMrfpGEZJr4Oqtw"
+    },
+    {
+      "route": "/tag/climate-migration",
+      "file": "tag/climate-migration/index.html",
+      "mediaType": "text/html; charset=utf-8",
+      "bytes": 540,
+      "digest": "ni:///sha-256;AucBsfqo6twi1OuLeVvpUXEy4msRCGkZXF94bu6PS_U"
+    },
+    {
+      "route": "/tag/computational-efficiency",
+      "file": "tag/computational-efficiency/index.html",
+      "mediaType": "text/html; charset=utf-8",
+      "bytes": 568,
+      "digest": "ni:///sha-256;sGVP8SPpGNkzNnmgFOQcdco8iHZ21Odr96hqFdPwZN8"
+    },
+    {
+      "route": "/tag/compute",
+      "file": "tag/compute/index.html",
+      "mediaType": "text/html; charset=utf-8",
+      "bytes": 500,
+      "digest": "ni:///sha-256;68Ijz2H3dkOTTrP9yJvhFVWSOuUUf6X1iqe4JT_th-s"
+    },
+    {
+      "route": "/tag/crop-failure-food-prices",
+      "file": "tag/crop-failure-food-prices/index.html",
+      "mediaType": "text/html; charset=utf-8",
+      "bytes": 568,
+      "digest": "ni:///sha-256;1Qp-EtQX1HYgIH0_x33g1yERnWZIdnrSlKiGlhl7qQ0"
+    },
+    {
+      "route": "/tag/cyclone",
+      "file": "tag/cyclone/index.html",
+      "mediaType": "text/html; charset=utf-8",
+      "bytes": 500,
+      "digest": "ni:///sha-256;qOWJUT2m17WLiUof8u9eZ82lD4b8-adPyg_2b6LY8uY"
+    },
+    {
+      "route": "/tag/data-centers",
+      "file": "tag/data-centers/index.html",
+      "mediaType": "text/html; charset=utf-8",
+      "bytes": 520,
+      "digest": "ni:///sha-256;TK92y4DjwY4_XL8iUoOdoDdmYjOWRiZHo_ahmDOASbA"
+    },
+    {
+      "route": "/tag/defai",
+      "file": "tag/defai/index.html",
+      "mediaType": "text/html; charset=utf-8",
+      "bytes": 492,
+      "digest": "ni:///sha-256;MP56l3I2zapcpWJ_yq4jcWASyUa_EN15nrKh3JirsxA"
+    },
+    {
+      "route": "/tag/defi",
+      "file": "tag/defi/index.html",
+      "mediaType": "text/html; charset=utf-8",
+      "bytes": 473,
+      "digest": "ni:///sha-256;P_jlbrZGUqs4hYGqEmYDaJP5urGuS15I8vPtdPDGivE"
+    },
+    {
+      "route": "/tag/ecb-interest-rate",
+      "file": "tag/ecb-interest-rate/index.html",
+      "mediaType": "text/html; charset=utf-8",
+      "bytes": 540,
+      "digest": "ni:///sha-256;enH3Xu3WPaNbWqCYd4q_RfX_TWpRMF_AcTkpzP6yRv0"
+    },
+    {
+      "route": "/tag/economy",
+      "file": "tag/economy/index.html",
+      "mediaType": "text/html; charset=utf-8",
+      "bytes": 500,
+      "digest": "ni:///sha-256;VlE4UDzA9MwFd1_KXtg6EzlhgvwpMHA0eNR9C0jTA6E"
+    },
+    {
+      "route": "/tag/energy",
+      "file": "tag/energy/index.html",
+      "mediaType": "text/html; charset=utf-8",
+      "bytes": 496,
+      "digest": "ni:///sha-256;ceACMIUv_vMv_Lt9s5QAsFzH-7DlusutIaiMYM4T470"
+    },
+    {
+      "route": "/tag/energy-crisis",
+      "file": "tag/energy-crisis/index.html",
+      "mediaType": "text/html; charset=utf-8",
+      "bytes": 524,
+      "digest": "ni:///sha-256;NruPD5mRK4bJBPt1ULvoeLupbYGfSH6XmIGnbpjQgxc"
+    },
+    {
+      "route": "/tag/etf",
+      "file": "tag/etf/index.html",
+      "mediaType": "text/html; charset=utf-8",
+      "bytes": 484,
+      "digest": "ni:///sha-256;iWNGyUZ5XQmD_uNARNbAL8PMgSPfwtujK9FFPrO_Wts"
+    },
+    {
+      "route": "/tag/ethereum",
+      "file": "tag/ethereum/index.html",
+      "mediaType": "text/html; charset=utf-8",
+      "bytes": 504,
+      "digest": "ni:///sha-256;yMjt3cJgHdhn7daIffh04JJyNh38b9hvTKlA2TBLkvA"
+    },
+    {
+      "route": "/tag/euler-finance",
+      "file": "tag/euler-finance/index.html",
+      "mediaType": "text/html; charset=utf-8",
+      "bytes": 524,
+      "digest": "ni:///sha-256;VFCoqw-E2xYnYRyXHaiCnGAjS2FLuJkvcYCK67HrFR8"
+    },
+    {
+      "route": "/tag/european-central-bank",
+      "file": "tag/european-central-bank/index.html",
+      "mediaType": "text/html; charset=utf-8",
+      "bytes": 556,
+      "digest": "ni:///sha-256;NC2GX4aY40ep6WRt-XVn0ojpD1gtRRAAfcHOlKk0o7M"
+    },
+    {
+      "route": "/tag/extra-finance",
+      "file": "tag/extra-finance/index.html",
+      "mediaType": "text/html; charset=utf-8",
+      "bytes": 524,
+      "digest": "ni:///sha-256;D6t30L50m8fA9YCpO4-fURwXId7LqZ6QMHzrARMoOHI"
+    },
+    {
+      "route": "/tag/extreme-weather",
+      "file": "tag/extreme-weather/index.html",
+      "mediaType": "text/html; charset=utf-8",
+      "bytes": 532,
+      "digest": "ni:///sha-256;iCYHVUYG6UhljlVNsA7aOJ0fmwrVhjF4KuanaMa_gTM"
+    },
+    {
+      "route": "/tag/fas",
+      "file": "tag/fas/index.html",
+      "mediaType": "text/html; charset=utf-8",
+      "bytes": 472,
+      "digest": "ni:///sha-256;yYwdBRKt0LigSklHfqQoBbzJO6qZ98xs0FvUvKAXql4"
+    },
+    {
+      "route": "/tag/food-security",
+      "file": "tag/food-security/index.html",
+      "mediaType": "text/html; charset=utf-8",
+      "bytes": 524,
+      "digest": "ni:///sha-256;j5ZzSkgg6AKwzQ4b2LHSKqwQSeFIltypBEs99T1q_Ao"
+    },
+    {
+      "route": "/tag/germany",
+      "file": "tag/germany/index.html",
+      "mediaType": "text/html; charset=utf-8",
+      "bytes": 500,
+      "digest": "ni:///sha-256;DEBfCSELtd_8BSkPx_AuSZcapksqBTdzYtOdR7IstKQ"
+    },
+    {
+      "route": "/tag/grayscale",
+      "file": "tag/grayscale/index.html",
+      "mediaType": "text/html; charset=utf-8",
+      "bytes": 508,
+      "digest": "ni:///sha-256;X6xlOstMKPoHItgrmlKEBhyaGjJwvi4noOOr5PJiCrM"
+    },
+    {
+      "route": "/tag/hack",
+      "file": "tag/hack/index.html",
+      "mediaType": "text/html; charset=utf-8",
+      "bytes": 488,
+      "digest": "ni:///sha-256;YIY4KShxvi2RyUAkwc7hVsVt6SlnI0I_Jt6LOnLuttk"
+    },
+    {
+      "route": "/tag/household-inflation",
+      "file": "tag/household-inflation/index.html",
+      "mediaType": "text/html; charset=utf-8",
+      "bytes": 548,
+      "digest": "ni:///sha-256;u5ZGHd1f6A3I0Meg-fMT6XUCbEtLcTQRqx6pqGGr9QQ"
+    },
+    {
+      "route": "/tag/l1",
+      "file": "tag/l1/index.html",
+      "mediaType": "text/html; charset=utf-8",
+      "bytes": 480,
+      "digest": "ni:///sha-256;EWqYyI8x_LZUD3lMaGckqh5vKER6xv5ZfuXogys1Ohk"
+    },
+    {
+      "route": "/tag/lbtc",
+      "file": "tag/lbtc/index.html",
+      "mediaType": "text/html; charset=utf-8",
+      "bytes": 488,
+      "digest": "ni:///sha-256;wu-K_84XqTUYEFbesK_3w_0yWGKGxu8nM2gfNtx2Ytc"
+    },
+    {
+      "route": "/tag/leverage",
+      "file": "tag/leverage/index.html",
+      "mediaType": "text/html; charset=utf-8",
+      "bytes": 504,
+      "digest": "ni:///sha-256;nDaQ1ibyP21wrcq4rqGoHkXV2s-xbqxc3o4EEXek_bw"
+    },
+    {
+      "route": "/tag/leveraged-etf",
+      "file": "tag/leveraged-etf/index.html",
+      "mediaType": "text/html; charset=utf-8",
+      "bytes": 524,
+      "digest": "ni:///sha-256;tw7-iHQHh2KLM6k-lid6KGrltEa_W8DTUgVfiu5eQxY"
+    },
+    {
+      "route": "/tag/lombard-finance",
+      "file": "tag/lombard-finance/index.html",
+      "mediaType": "text/html; charset=utf-8",
+      "bytes": 532,
+      "digest": "ni:///sha-256;i9UYvJVgo2U_lc3uyiJDBK7DtR6FVuWuNo8tf_NJM-M"
+    },
+    {
+      "route": "/tag/moonwell",
+      "file": "tag/moonwell/index.html",
+      "mediaType": "text/html; charset=utf-8",
+      "bytes": 504,
+      "digest": "ni:///sha-256;OGZSnipATKJLcTmorT5VAJ_C4DX5t5ggHrFpp3jtG40"
+    },
+    {
+      "route": "/tag/proof-of-liquidity",
+      "file": "tag/proof-of-liquidity/index.html",
+      "mediaType": "text/html; charset=utf-8",
+      "bytes": 544,
+      "digest": "ni:///sha-256;kQ70V8CAxv6B-ewJjzChE8j-sv9W7Q_IilgIxrMty9E"
+    },
+    {
+      "route": "/tag/public-finance",
+      "file": "tag/public-finance/index.html",
+      "mediaType": "text/html; charset=utf-8",
+      "bytes": 528,
+      "digest": "ni:///sha-256;8LK2h1NwVg8u04dzDaAU4Ullmtp_URS-_EkyJn3K_hA"
+    },
+    {
+      "route": "/tag/publishing",
+      "file": "tag/publishing/index.html",
+      "mediaType": "text/html; charset=utf-8",
+      "bytes": 512,
+      "digest": "ni:///sha-256;GUHPKKwPT7yUxj3Q0dTs9W8ErYJYXfwNaHAgOZErVDg"
+    },
+    {
+      "route": "/tag/resource-governance",
+      "file": "tag/resource-governance/index.html",
+      "mediaType": "text/html; charset=utf-8",
+      "bytes": 548,
+      "digest": "ni:///sha-256;tDvhP_1JBaGu7MNFx5PulbxdI8MPem7vAX3s86cswYw"
+    },
+    {
+      "route": "/tag/robotics",
+      "file": "tag/robotics/index.html",
+      "mediaType": "text/html; charset=utf-8",
+      "bytes": 504,
+      "digest": "ni:///sha-256;IG-Uic2HfaHjENZSIaa_vPvLoXrksBCTTyI2epm4rL4"
+    },
+    {
+      "route": "/tag/s",
+      "file": "tag/s/index.html",
+      "mediaType": "text/html; charset=utf-8",
+      "bytes": 470,
+      "digest": "ni:///sha-256;KgdVnwJNrCIWsjawQbHvSLgan38XoDd8B0IZDEEWyqI"
+    },
+    {
+      "route": "/tag/semiconductors",
+      "file": "tag/semiconductors/index.html",
+      "mediaType": "text/html; charset=utf-8",
+      "bytes": 528,
+      "digest": "ni:///sha-256;btCjKbISALq4J6XedscHjIT-qxNk0LsfhI91TXVCCbA"
+    },
+    {
+      "route": "/tag/shadow",
+      "file": "tag/shadow/index.html",
+      "mediaType": "text/html; charset=utf-8",
+      "bytes": 496,
+      "digest": "ni:///sha-256;WNfST4g0USQhPsZ4sG_xoMyBYo9Svr6h2bRriM57v4I"
+    },
+    {
+      "route": "/tag/site-announcement",
+      "file": "tag/site-announcement/index.html",
+      "mediaType": "text/html; charset=utf-8",
+      "bytes": 540,
+      "digest": "ni:///sha-256;CjKpV9khKpqdMmEHM_gPZS5G0sNOvJYgZetOLBmorCc"
+    },
+    {
+      "route": "/tag/sonic",
+      "file": "tag/sonic/index.html",
+      "mediaType": "text/html; charset=utf-8",
+      "bytes": 492,
+      "digest": "ni:///sha-256;0Jxx1NSY5t6_4H0p38VXCcSWmYOh09q0oH7pf-bzqF4"
+    },
+    {
+      "route": "/tag/soxl",
+      "file": "tag/soxl/index.html",
+      "mediaType": "text/html; charset=utf-8",
+      "bytes": 473,
+      "digest": "ni:///sha-256;IN24LkyBYIyndcxE8AL9Urhj2IqaoO5V9atedBxsjCo"
+    },
+    {
+      "route": "/tag/stability-dao",
+      "file": "tag/stability-dao/index.html",
+      "mediaType": "text/html; charset=utf-8",
+      "bytes": 524,
+      "digest": "ni:///sha-256;u4_1Ba5EY6QH60_FhukIhOKw4qdd5gNFAbRGlSmYR-w"
+    },
+    {
+      "route": "/tag/sustainable-agriculture",
+      "file": "tag/sustainable-agriculture/index.html",
+      "mediaType": "text/html; charset=utf-8",
+      "bytes": 564,
+      "digest": "ni:///sha-256;UKpC__1CHi1yIAMHnYVkJ3NgGpt5dXIqMHWbRQ75YJk"
+    },
+    {
+      "route": "/tag/sxsw",
+      "file": "tag/sxsw/index.html",
+      "mediaType": "text/html; charset=utf-8",
+      "bytes": 488,
+      "digest": "ni:///sha-256;LbvXbDGns7kSBcabXqHn7x_IWECFynq3RzzA85-PkS4"
+    },
+    {
+      "route": "/tag/systemic-collapse",
+      "file": "tag/systemic-collapse/index.html",
+      "mediaType": "text/html; charset=utf-8",
+      "bytes": 540,
+      "digest": "ni:///sha-256;w2hnqyyzNf_F8LzAvTcNsNukkLWNFg0uRAXMSK5H7Xw"
+    },
+    {
+      "route": "/tag/tecl",
+      "file": "tag/tecl/index.html",
+      "mediaType": "text/html; charset=utf-8",
+      "bytes": 473,
+      "digest": "ni:///sha-256;eznpLciqbBAFNCIUIyB1rry-jfoSg-g63r4KTe9sbcs"
+    },
+    {
+      "route": "/tag/uk-economy",
+      "file": "tag/uk-economy/index.html",
+      "mediaType": "text/html; charset=utf-8",
+      "bytes": 512,
+      "digest": "ni:///sha-256;lE_ZpLXyBHv7bYDVarlll2ou-G9RCwkVkroV9DhYopQ"
+    },
+    {
+      "route": "/tag/usdc",
+      "file": "tag/usdc/index.html",
+      "mediaType": "text/html; charset=utf-8",
+      "bytes": 473,
+      "digest": "ni:///sha-256;uy9y72fVJDGIg1QHZe-a10P4-axpNjySQDgAjDn9EJE"
+    },
+    {
+      "route": "/tag/water-utilities",
+      "file": "tag/water-utilities/index.html",
+      "mediaType": "text/html; charset=utf-8",
+      "bytes": 532,
+      "digest": "ni:///sha-256;Ak4YQNMwfXLCm9T2Qmv0I9wfnL1-XDXRGe-8fNLnypU"
+    },
+    {
+      "route": "/tags",
+      "file": "tags/index.html",
+      "mediaType": "text/html; charset=utf-8",
+      "bytes": 46545,
+      "digest": "ni:///sha-256;kG78DrdCsUhkJOaWO7r4vqG_S1uPjVfi-7X9m0j1v5A"
+    },
+    {
+      "route": "/tags.json",
+      "file": "tags.json",
+      "mediaType": "application/json; charset=utf-8",
+      "bytes": 44431,
+      "digest": "ni:///sha-256;HxTUtmRae8uMzNSDMC-tdA7wKmQFWXa2POSt_gHOPuM"
+    },
+    {
+      "route": "/tags/ai",
+      "file": "tags/ai/index.html",
+      "mediaType": "text/html; charset=utf-8",
+      "bytes": 29538,
+      "digest": "ni:///sha-256;tzJInsPC9dOrKRBxNmN3F3pVpNFXAUwrQKeeQJAmw20"
+    },
+    {
+      "route": "/tags/ai-infrastructure",
+      "file": "tags/ai-infrastructure/index.html",
+      "mediaType": "text/html; charset=utf-8",
+      "bytes": 28358,
+      "digest": "ni:///sha-256;yMVBH-PvQvOzoepI8Z4aLp88-Lu0QuQSrfHLqeziD-k"
+    },
+    {
+      "route": "/tags/ai-infrastructure.json",
+      "file": "tags/ai-infrastructure.json",
+      "mediaType": "application/json; charset=utf-8",
+      "bytes": 707,
+      "digest": "ni:///sha-256;R3faXMAnjYAaNowTlnEsJ8WU5fg2R61itRYtfW16MfY"
+    },
+    {
+      "route": "/tags/ai.json",
+      "file": "tags/ai.json",
+      "mediaType": "application/json; charset=utf-8",
+      "bytes": 1090,
+      "digest": "ni:///sha-256;TvDNL3z1UVnVVxEBCtkx4wtF5mvPSNK0baLY8n5RUAQ"
+    },
+    {
+      "route": "/tags/artificial-intelligence",
+      "file": "tags/artificial-intelligence/index.html",
+      "mediaType": "text/html; charset=utf-8",
+      "bytes": 28466,
+      "digest": "ni:///sha-256;Vasq2uJcL9fI--xgSiYzcb0DZ1UZexyLCgWCL9flCwk"
+    },
+    {
+      "route": "/tags/artificial-intelligence.json",
+      "file": "tags/artificial-intelligence.json",
+      "mediaType": "application/json; charset=utf-8",
+      "bytes": 688,
+      "digest": "ni:///sha-256;cTyZTgLz3fAg2I8GhSd-WskW0216WypKh6dlFPYAf1A"
+    },
+    {
+      "route": "/tags/australia",
+      "file": "tags/australia/index.html",
+      "mediaType": "text/html; charset=utf-8",
+      "bytes": 28275,
+      "digest": "ni:///sha-256;pGpWMCeuFpCjKdinazkwCbBuRZuqNmNLNmmsFG1FBZ4"
+    },
+    {
+      "route": "/tags/australia.json",
+      "file": "tags/australia.json",
+      "mediaType": "application/json; charset=utf-8",
+      "bytes": 604,
+      "digest": "ni:///sha-256;fPIM2zk6OqmiNseO3GhvG5sWLUAv4JCyVCP9I2qYf14"
+    },
+    {
+      "route": "/tags/automation",
+      "file": "tags/automation/index.html",
+      "mediaType": "text/html; charset=utf-8",
+      "bytes": 28270,
+      "digest": "ni:///sha-256;mfqLzfYt9kIC7Jur0zsSlVPTPbHQLw07A1A5oqkbQ1I"
+    },
+    {
+      "route": "/tags/automation.json",
+      "file": "tags/automation.json",
+      "mediaType": "application/json; charset=utf-8",
+      "bytes": 610,
+      "digest": "ni:///sha-256;xv6bqMOS0WhPePLz5B92olAzl1Zg9oYCpJ6dP7ux7sU"
+    },
+    {
+      "route": "/tags/autonomous-newsroom",
+      "file": "tags/autonomous-newsroom/index.html",
+      "mediaType": "text/html; charset=utf-8",
+      "bytes": 28621,
+      "digest": "ni:///sha-256;Si-YXiddofcdq8UMit-0myOMa2Tyh0wXWQ3dUv85tAY"
+    },
+    {
+      "route": "/tags/autonomous-newsroom.json",
+      "file": "tags/autonomous-newsroom.json",
+      "mediaType": "application/json; charset=utf-8",
+      "bytes": 1070,
+      "digest": "ni:///sha-256;88BzLQ3YjVjWQ1OtICMrjk2Oz9BYxcf-S6WW5kEUS74"
+    },
+    {
+      "route": "/tags/base",
+      "file": "tags/base/index.html",
+      "mediaType": "text/html; charset=utf-8",
+      "bytes": 28090,
+      "digest": "ni:///sha-256;-DLMeXj6ClyOKW7RvjI1XcCJzLnpV9fVZYxsgwEfJ90"
+    },
+    {
+      "route": "/tags/base.json",
+      "file": "tags/base.json",
+      "mediaType": "application/json; charset=utf-8",
+      "bytes": 574,
+      "digest": "ni:///sha-256;n3v45SIENEuRzOMZd6BCDsLdHa9eTRbCH-rz7f2QwMI"
+    },
+    {
+      "route": "/tags/beefy-finance",
+      "file": "tags/beefy-finance/index.html",
+      "mediaType": "text/html; charset=utf-8",
+      "bytes": 28243,
+      "digest": "ni:///sha-256;0Zvj6rdZw4hxcGjGDnsAsO2f3TFlC1Iv54aHamiRuD8"
+    },
+    {
+      "route": "/tags/beefy-finance.json",
+      "file": "tags/beefy-finance.json",
+      "mediaType": "application/json; charset=utf-8",
+      "bytes": 628,
+      "digest": "ni:///sha-256;rR8KJdXNvsECJCj55E495rG99EGVGmGc4OWZbYpDZks"
+    },
+    {
+      "route": "/tags/berachain",
+      "file": "tags/berachain/index.html",
+      "mediaType": "text/html; charset=utf-8",
+      "bytes": 28107,
+      "digest": "ni:///sha-256;SXB_BIFWeOIPWzTQQungymllJtKAOAdLnebIJPMjSdY"
+    },
+    {
+      "route": "/tags/berachain.json",
+      "file": "tags/berachain.json",
+      "mediaType": "application/json; charset=utf-8",
+      "bytes": 604,
+      "digest": "ni:///sha-256;uiDQH660Un9vuZ5cYxpzzTB5TFh6DoAyoBZnP-g644Q"
+    },
+    {
+      "route": "/tags/bitcoin",
+      "file": "tags/bitcoin/index.html",
+      "mediaType": "text/html; charset=utf-8",
+      "bytes": 29102,
+      "digest": "ni:///sha-256;boLpYx7SbHZJnSaeOVEKMUOFiItqmk-KYbSrXQVOC3w"
+    },
+    {
+      "route": "/tags/bitcoin.json",
+      "file": "tags/bitcoin.json",
+      "mediaType": "application/json; charset=utf-8",
+      "bytes": 592,
+      "digest": "ni:///sha-256;Le2gZmti6kwae_NETUCSPgi_NiPhliRkuQTIWDlwfQ4"
+    },
+    {
+      "route": "/tags/bond-markets",
+      "file": "tags/bond-markets/index.html",
+      "mediaType": "text/html; charset=utf-8",
+      "bytes": 28261,
+      "digest": "ni:///sha-256;o9LG1MchOsI3-dlqKdOJvTL5Do4JCSSH6jhXfeavg_A"
+    },
+    {
+      "route": "/tags/bond-markets.json",
+      "file": "tags/bond-markets.json",
+      "mediaType": "application/json; charset=utf-8",
+      "bytes": 622,
+      "digest": "ni:///sha-256;0rjq8ihzDdDQRipg3YJwrgUBDVU9ZzF-eYPtmVLDiCs"
+    },
+    {
+      "route": "/tags/bybit",
+      "file": "tags/bybit/index.html",
+      "mediaType": "text/html; charset=utf-8",
+      "bytes": 28052,
+      "digest": "ni:///sha-256;erzlau-Uwn7NW4XccHS8NNdkVxRzVZSAQI6s_aTFA1w"
+    },
+    {
+      "route": "/tags/bybit.json",
+      "file": "tags/bybit.json",
+      "mediaType": "application/json; charset=utf-8",
+      "bytes": 580,
+      "digest": "ni:///sha-256;mCHVhSWRr-0wSfl6tJHWYrlPnA53wZVa7-EcBnPdIV0"
+    },
+    {
+      "route": "/tags/central-bank-interest-rates",
+      "file": "tags/central-bank-interest-rates/index.html",
+      "mediaType": "text/html; charset=utf-8",
+      "bytes": 28463,
+      "digest": "ni:///sha-256;kGVlMo9bHlcvYYj63dSj8D9s27oeNXNflZFuWDjUm_E"
+    },
+    {
+      "route": "/tags/central-bank-interest-rates.json",
+      "file": "tags/central-bank-interest-rates.json",
+      "mediaType": "application/json; charset=utf-8",
+      "bytes": 712,
+      "digest": "ni:///sha-256;NKHULKLgHHlXAoBu0X8nIF1ObmqYsT2qvczhmkBPDwU"
+    },
+    {
+      "route": "/tags/climate-breakdown",
+      "file": "tags/climate-breakdown/index.html",
+      "mediaType": "text/html; charset=utf-8",
+      "bytes": 29511,
+      "digest": "ni:///sha-256;H1g86J158WBYpe0gJvQ3vmWkQaCayrhpTn9V8gWYwAk"
+    },
+    {
+      "route": "/tags/climate-breakdown.json",
+      "file": "tags/climate-breakdown.json",
+      "mediaType": "application/json; charset=utf-8",
+      "bytes": 967,
+      "digest": "ni:///sha-256;5ieoWUoOSfKK1nsnz39tCPGBYiGSaG-JWpShGuERa0Y"
+    },
+    {
+      "route": "/tags/climate-collapse",
+      "file": "tags/climate-collapse/index.html",
+      "mediaType": "text/html; charset=utf-8",
+      "bytes": 29415,
+      "digest": "ni:///sha-256;-Mc-Nd_LMRKWCiofVHPPz6aD2hqHPIkOnGuXkg3VI8U"
+    },
+    {
+      "route": "/tags/climate-collapse.json",
+      "file": "tags/climate-collapse.json",
+      "mediaType": "application/json; charset=utf-8",
+      "bytes": 646,
+      "digest": "ni:///sha-256;2n4UExPjVPIcaDxMI-P6Xq3HJ0KzOW0BvoNRuFs4tsE"
+    },
+    {
+      "route": "/tags/climate-economics",
+      "file": "tags/climate-economics/index.html",
+      "mediaType": "text/html; charset=utf-8",
+      "bytes": 28393,
+      "digest": "ni:///sha-256;3iHFwYAKHJ3oKiA87d5gi5iZj2Lp-BgpUvhVZ3eLsMs"
+    },
+    {
+      "route": "/tags/climate-economics.json",
+      "file": "tags/climate-economics.json",
+      "mediaType": "application/json; charset=utf-8",
+      "bytes": 652,
+      "digest": "ni:///sha-256;-tnxjWbRG_3twMz4J0_0b7h2Y1auLa1fd0ZThlvmwfQ"
+    },
+    {
+      "route": "/tags/climate-migration",
+      "file": "tags/climate-migration/index.html",
+      "mediaType": "text/html; charset=utf-8",
+      "bytes": 28417,
+      "digest": "ni:///sha-256;ydkb5bdQhm82KhPTmwld2SNYHLvY-fYdYFL-QSlT31A"
+    },
+    {
+      "route": "/tags/climate-migration.json",
+      "file": "tags/climate-migration.json",
+      "mediaType": "application/json; charset=utf-8",
+      "bytes": 689,
+      "digest": "ni:///sha-256;SB6Etok3qghKZbmsg_PlZ7bJXP7XohpeBlMY-sJ104M"
+    },
+    {
+      "route": "/tags/computational-efficiency",
+      "file": "tags/computational-efficiency/index.html",
+      "mediaType": "text/html; charset=utf-8",
+      "bytes": 28483,
+      "digest": "ni:///sha-256;-y-RYRde32Vsv0jCUgx0Es1Sz98uOIO41lxcVTEJ1Bo"
+    },
+    {
+      "route": "/tags/computational-efficiency.json",
+      "file": "tags/computational-efficiency.json",
+      "mediaType": "application/json; charset=utf-8",
+      "bytes": 694,
+      "digest": "ni:///sha-256;iifcmJJqDGLiiC5-3BhKrnCeynaD9-_7Pr5J7D3Z2Gk"
+    },
+    {
+      "route": "/tags/compute",
+      "file": "tags/compute/index.html",
+      "mediaType": "text/html; charset=utf-8",
+      "bytes": 28081,
+      "digest": "ni:///sha-256;GFCIWs2okYeP2j_78jGGDqDFBwYC-tiaHnbcKT1KjCw"
+    },
+    {
+      "route": "/tags/compute.json",
+      "file": "tags/compute.json",
+      "mediaType": "application/json; charset=utf-8",
+      "bytes": 592,
+      "digest": "ni:///sha-256;YKJAvUc0Ck96clf8zmUAyxcc7ol5exygERDFrJX7kXQ"
+    },
+    {
+      "route": "/tags/crop-failure-food-prices",
+      "file": "tags/crop-failure-food-prices/index.html",
+      "mediaType": "text/html; charset=utf-8",
+      "bytes": 28375,
+      "digest": "ni:///sha-256;b6SyToTK9VKZITC6iyiw4Dcu2-I2K0vGJQyDIo9OkAw"
+    },
+    {
+      "route": "/tags/crop-failure-food-prices.json",
+      "file": "tags/crop-failure-food-prices.json",
+      "mediaType": "application/json; charset=utf-8",
+      "bytes": 694,
+      "digest": "ni:///sha-256;nlHnrWHHioYB-HrSO94aoGUDnW15aEEaWlMqLa8cqLU"
+    },
+    {
+      "route": "/tags/cyclone",
+      "file": "tags/cyclone/index.html",
+      "mediaType": "text/html; charset=utf-8",
+      "bytes": 28241,
+      "digest": "ni:///sha-256;1kH7FCS3Ze5sTMShLoUm0X9SZuWUx2t_fH2IPBhTe8s"
+    },
+    {
+      "route": "/tags/cyclone.json",
+      "file": "tags/cyclone.json",
+      "mediaType": "application/json; charset=utf-8",
+      "bytes": 592,
+      "digest": "ni:///sha-256;QTcThc16ekUUrlb8YGk6lrEKJQ2rbq3uVCvxkyof86c"
+    },
+    {
+      "route": "/tags/data-centers",
+      "file": "tags/data-centers/index.html",
+      "mediaType": "text/html; charset=utf-8",
+      "bytes": 28166,
+      "digest": "ni:///sha-256;dU0nT87l56cn4qbBZE5cuikm0_9f_-gYWA7HYuXNscY"
+    },
+    {
+      "route": "/tags/data-centers.json",
+      "file": "tags/data-centers.json",
+      "mediaType": "application/json; charset=utf-8",
+      "bytes": 622,
+      "digest": "ni:///sha-256;BWIkzGd9WS7_Ih-P4FyonDKjbg15MVKlsuPtRsyrGjk"
+    },
+    {
+      "route": "/tags/defai",
+      "file": "tags/defai/index.html",
+      "mediaType": "text/html; charset=utf-8",
+      "bytes": 28134,
+      "digest": "ni:///sha-256;1ROBcabZPryVrUjB7Tf4sapdMANfiDZCDO-ebQap2Do"
+    },
+    {
+      "route": "/tags/defai.json",
+      "file": "tags/defai.json",
+      "mediaType": "application/json; charset=utf-8",
+      "bytes": 580,
+      "digest": "ni:///sha-256;xQySnESuRaVk8Z2EDp4y1EKynJv0pYMeasu7q_N7t8o"
+    },
+    {
+      "route": "/tags/defi",
+      "file": "tags/defi/index.html",
+      "mediaType": "text/html; charset=utf-8",
+      "bytes": 31583,
+      "digest": "ni:///sha-256;QmQT849zzloEIHoV7d8v42tRx7ASsSSUIUt2NqQaya0"
+    },
+    {
+      "route": "/tags/defi.json",
+      "file": "tags/defi.json",
+      "mediaType": "application/json; charset=utf-8",
+      "bytes": 1033,
+      "digest": "ni:///sha-256;IgPFDICKE7WFf2LIzxVqJmUKw7Yj_YARFoYYX7esFU0"
+    },
+    {
+      "route": "/tags/ecb-interest-rate",
+      "file": "tags/ecb-interest-rate/index.html",
+      "mediaType": "text/html; charset=utf-8",
+      "bytes": 28293,
+      "digest": "ni:///sha-256;2a3K0ser7ZvqX6spCI9Qx_92NP_RQGVgoeGpwagVImY"
+    },
+    {
+      "route": "/tags/ecb-interest-rate.json",
+      "file": "tags/ecb-interest-rate.json",
+      "mediaType": "application/json; charset=utf-8",
+      "bytes": 652,
+      "digest": "ni:///sha-256;M6YyGIbUv3O2WnsDmXJmeoNWwhkQ9ai6u8tM3oWWgxU"
+    },
+    {
+      "route": "/tags/economy",
+      "file": "tags/economy/index.html",
+      "mediaType": "text/html; charset=utf-8",
+      "bytes": 28474,
+      "digest": "ni:///sha-256;xVbduH-pM5JfM5CyozuotiWozneItmEVLSB_WZvupJk"
+    },
+    {
+      "route": "/tags/economy.json",
+      "file": "tags/economy.json",
+      "mediaType": "application/json; charset=utf-8",
+      "bytes": 1136,
+      "digest": "ni:///sha-256;gmrrXs4HVPk284Ha8FgWzhqs19jVjVtmngZf9Lrzie8"
+    },
+    {
+      "route": "/tags/energy",
+      "file": "tags/energy/index.html",
+      "mediaType": "text/html; charset=utf-8",
+      "bytes": 28176,
+      "digest": "ni:///sha-256;iV1GZtOK-tmRRtJksFgjP4nxtLmNebZ1qBnSA7vIE7o"
+    },
+    {
+      "route": "/tags/energy-crisis",
+      "file": "tags/energy-crisis/index.html",
+      "mediaType": "text/html; charset=utf-8",
+      "bytes": 29364,
+      "digest": "ni:///sha-256;z0tD76E_xSAsaBFSymYzMmg0CGAu1s4Cy6SFr9qvabY"
+    },
+    {
+      "route": "/tags/energy-crisis.json",
+      "file": "tags/energy-crisis.json",
+      "mediaType": "application/json; charset=utf-8",
+      "bytes": 628,
+      "digest": "ni:///sha-256;Jvoqx-xRWL1sFuZAA3GF61NrPnQXx-oKSZRB_NTLUzU"
+    },
+    {
+      "route": "/tags/energy.json",
+      "file": "tags/energy.json",
+      "mediaType": "application/json; charset=utf-8",
+      "bytes": 646,
+      "digest": "ni:///sha-256;PnR_kCVQ3pGurKh7Lr-4mBMM0zhMylQy_VOcqQ_gIX8"
+    },
+    {
+      "route": "/tags/etf",
+      "file": "tags/etf/index.html",
+      "mediaType": "text/html; charset=utf-8",
+      "bytes": 28973,
+      "digest": "ni:///sha-256;UFhrUrKk8YpDWg8oQZBkVBtV_bZotSE2eTQcNzcEigs"
+    },
+    {
+      "route": "/tags/etf.json",
+      "file": "tags/etf.json",
+      "mediaType": "application/json; charset=utf-8",
+      "bytes": 568,
+      "digest": "ni:///sha-256;h5aucU-wNyCoBvnsstQadmGOT9m6jvac74fdD2Oh2Gs"
+    },
+    {
+      "route": "/tags/ethereum",
+      "file": "tags/ethereum/index.html",
+      "mediaType": "text/html; charset=utf-8",
+      "bytes": 29042,
+      "digest": "ni:///sha-256;h-Vr-ncQ0pIhCRaTL3wXlgxCOBKr8k9a32gf4GN7mA8"
+    },
+    {
+      "route": "/tags/ethereum.json",
+      "file": "tags/ethereum.json",
+      "mediaType": "application/json; charset=utf-8",
+      "bytes": 598,
+      "digest": "ni:///sha-256;2BRhL5wrBKR30jAuXNPjWePja9E28bORNdwBJj1i0G0"
+    },
+    {
+      "route": "/tags/euler-finance",
+      "file": "tags/euler-finance/index.html",
+      "mediaType": "text/html; charset=utf-8",
+      "bytes": 28281,
+      "digest": "ni:///sha-256;wGgRrUR6WQOTfEafGpBQRj1MrDVVJ87fzM2tYrhVG3s"
+    },
+    {
+      "route": "/tags/euler-finance.json",
+      "file": "tags/euler-finance.json",
+      "mediaType": "application/json; charset=utf-8",
+      "bytes": 628,
+      "digest": "ni:///sha-256;DiNQFZyi-Tn72FCMWahGKHPvQJsVHmWP3g4Rgslt2V8"
+    },
+    {
+      "route": "/tags/european-central-bank",
+      "file": "tags/european-central-bank/index.html",
+      "mediaType": "text/html; charset=utf-8",
+      "bytes": 28361,
+      "digest": "ni:///sha-256;MjNlNq66GYtAz5AXJYUcNgdCH66YqaU9H4RjYjUsSJU"
+    },
+    {
+      "route": "/tags/european-central-bank.json",
+      "file": "tags/european-central-bank.json",
+      "mediaType": "application/json; charset=utf-8",
+      "bytes": 676,
+      "digest": "ni:///sha-256;4R6E-NTbhiFR7VHQlAFxqxFRUbQ8ewJvkGTLVDPEKcE"
+    },
+    {
+      "route": "/tags/extra-finance",
+      "file": "tags/extra-finance/index.html",
+      "mediaType": "text/html; charset=utf-8",
+      "bytes": 28243,
+      "digest": "ni:///sha-256;6ETyHNcesmN6ZXhm9LoO2aQ5iBfrXz6NwyrJ5B83QCk"
+    },
+    {
+      "route": "/tags/extra-finance.json",
+      "file": "tags/extra-finance.json",
+      "mediaType": "application/json; charset=utf-8",
+      "bytes": 628,
+      "digest": "ni:///sha-256;IEu5mXbzpYHU1Z4XT9OUYkf1vV3LesqMd7IjJD78Wm0"
+    },
+    {
+      "route": "/tags/extreme-weather",
+      "file": "tags/extreme-weather/index.html",
+      "mediaType": "text/html; charset=utf-8",
+      "bytes": 28359,
+      "digest": "ni:///sha-256;8iLOPX5jjRQZMRQV7SEXx8TWiZ1QsLJvYcwmzABleCg"
+    },
+    {
+      "route": "/tags/extreme-weather.json",
+      "file": "tags/extreme-weather.json",
+      "mediaType": "application/json; charset=utf-8",
+      "bytes": 640,
+      "digest": "ni:///sha-256;3jfDHk0Cl9UTa1RJCzUKtmWfE4J76j129dOAa2JH-v4"
+    },
+    {
+      "route": "/tags/fas",
+      "file": "tags/fas/index.html",
+      "mediaType": "text/html; charset=utf-8",
+      "bytes": 28109,
+      "digest": "ni:///sha-256;ReVjk-cKTx7uEocmMRf_R8FHD5CUhJYcmMGHw45g_UM"
+    },
+    {
+      "route": "/tags/fas.json",
+      "file": "tags/fas.json",
+      "mediaType": "application/json; charset=utf-8",
+      "bytes": 572,
+      "digest": "ni:///sha-256;gPyRIbKs15gtcrBu_hqivGRj4fHHru17O63LtJtxjlk"
+    },
+    {
+      "route": "/tags/food-security",
+      "file": "tags/food-security/index.html",
+      "mediaType": "text/html; charset=utf-8",
+      "bytes": 28325,
+      "digest": "ni:///sha-256;cNqTnjUJ7om-VUw3oul6u6cejSnzBHfX7SdAxnR2wao"
+    },
+    {
+      "route": "/tags/food-security.json",
+      "file": "tags/food-security.json",
+      "mediaType": "application/json; charset=utf-8",
+      "bytes": 628,
+      "digest": "ni:///sha-256;yJ93i13_34F2wA0Eu5T0ABsSvLjG15XC9zdiIr8hrIc"
+    },
+    {
+      "route": "/tags/germany",
+      "file": "tags/germany/index.html",
+      "mediaType": "text/html; charset=utf-8",
+      "bytes": 28123,
+      "digest": "ni:///sha-256;IA7wyliNPLU_NZLmQgC6aIUwrM-FqDCKGz0bkixUUGw"
+    },
+    {
+      "route": "/tags/germany.json",
+      "file": "tags/germany.json",
+      "mediaType": "application/json; charset=utf-8",
+      "bytes": 592,
+      "digest": "ni:///sha-256;bX13v84tqX4ZECH3ux6KA6py4T7tuHBJsMlvQcBBo9w"
+    },
+    {
+      "route": "/tags/grayscale",
+      "file": "tags/grayscale/index.html",
+      "mediaType": "text/html; charset=utf-8",
+      "bytes": 28128,
+      "digest": "ni:///sha-256;RiUpf2e0FTliUObmuo-XcEhbZv9Wl7QQ9XUMTatZbZ0"
+    },
+    {
+      "route": "/tags/grayscale.json",
+      "file": "tags/grayscale.json",
+      "mediaType": "application/json; charset=utf-8",
+      "bytes": 604,
+      "digest": "ni:///sha-256;b4-7yIxmiElzjIpWFNw1lGTjCQBI33Gq0jsZb5Clf0c"
+    },
+    {
+      "route": "/tags/hack",
+      "file": "tags/hack/index.html",
+      "mediaType": "text/html; charset=utf-8",
+      "bytes": 28035,
+      "digest": "ni:///sha-256;MLazsAjF3aq3HpcMMti_Oi9U5quIZ5613mgeSKqRPCA"
+    },
+    {
+      "route": "/tags/hack.json",
+      "file": "tags/hack.json",
+      "mediaType": "application/json; charset=utf-8",
+      "bytes": 574,
+      "digest": "ni:///sha-256;LLcpuoyg3dT8LFknovGZJrdW3eraHqRMfmdZelTWfeM"
+    },
+    {
+      "route": "/tags/household-inflation",
+      "file": "tags/household-inflation/index.html",
+      "mediaType": "text/html; charset=utf-8",
+      "bytes": 28427,
+      "digest": "ni:///sha-256;BE1zJncTLZVML29HXlQD-swyJziJl474VRxIMI_r7lE"
+    },
+    {
+      "route": "/tags/household-inflation.json",
+      "file": "tags/household-inflation.json",
+      "mediaType": "application/json; charset=utf-8",
+      "bytes": 664,
+      "digest": "ni:///sha-256;o-ikR1tID5v7P3TYWnZ35wU9HhlM94vVDljhsIr9Qug"
+    },
+    {
+      "route": "/tags/l1",
+      "file": "tags/l1/index.html",
+      "mediaType": "text/html; charset=utf-8",
+      "bytes": 27988,
+      "digest": "ni:///sha-256;HqQ7PlJBGULcC3lbyTeVFjGXSWth4cS1BblRbb5Iyvs"
+    },
+    {
+      "route": "/tags/l1.json",
+      "file": "tags/l1.json",
+      "mediaType": "application/json; charset=utf-8",
+      "bytes": 562,
+      "digest": "ni:///sha-256;xJo2NgR_GgD9EQsvwtW_eJ8DqPQYMc_2pZ4HpfSHDjo"
+    },
+    {
+      "route": "/tags/lbtc",
+      "file": "tags/lbtc/index.html",
+      "mediaType": "text/html; charset=utf-8",
+      "bytes": 28119,
+      "digest": "ni:///sha-256;8iknezLi5JZQu4--MMNlCC__U4m22QF0K-Fhzxdvytk"
+    },
+    {
+      "route": "/tags/lbtc.json",
+      "file": "tags/lbtc.json",
+      "mediaType": "application/json; charset=utf-8",
+      "bytes": 578,
+      "digest": "ni:///sha-256;WulqeKIfG-5o9bVdDqStSHT9V2UgZFjq68AB5KlgssM"
+    },
+    {
+      "route": "/tags/leverage",
+      "file": "tags/leverage/index.html",
+      "mediaType": "text/html; charset=utf-8",
+      "bytes": 28141,
+      "digest": "ni:///sha-256;KOwmsJtJ8KowPRSSEaHhHQJrM21vq9NfVf8MwLVrxBU"
+    },
+    {
+      "route": "/tags/leverage.json",
+      "file": "tags/leverage.json",
+      "mediaType": "application/json; charset=utf-8",
+      "bytes": 598,
+      "digest": "ni:///sha-256;72CvYrVMTvD5zMYkB95Kgb_KfJj9utQsXeH8Q1oeNZM"
+    },
+    {
+      "route": "/tags/leveraged-etf",
+      "file": "tags/leveraged-etf/index.html",
+      "mediaType": "text/html; charset=utf-8",
+      "bytes": 28264,
+      "digest": "ni:///sha-256;oNBBVMrjWjxzKIjgOIU0WxF1TF2eLU7NM4lo3w_lhqc"
+    },
+    {
+      "route": "/tags/leveraged-etf.json",
+      "file": "tags/leveraged-etf.json",
+      "mediaType": "application/json; charset=utf-8",
+      "bytes": 628,
+      "digest": "ni:///sha-256;NvSm-Rl6320WdIuoG8gtUoeycriR_z8ODV5kLw61Om0"
+    },
+    {
+      "route": "/tags/lombard-finance",
+      "file": "tags/lombard-finance/index.html",
+      "mediaType": "text/html; charset=utf-8",
+      "bytes": 28291,
+      "digest": "ni:///sha-256;uCmnqOWaM30PQVJz8wU8ry52QYMBuvT_4dMS0jdHOmI"
+    },
+    {
+      "route": "/tags/lombard-finance.json",
+      "file": "tags/lombard-finance.json",
+      "mediaType": "application/json; charset=utf-8",
+      "bytes": 640,
+      "digest": "ni:///sha-256;hYGWnzj6TmjO-I3c-or-7a1W5aXzIRV2zhuN5fx12JY"
+    },
+    {
+      "route": "/tags/moonwell",
+      "file": "tags/moonwell/index.html",
+      "mediaType": "text/html; charset=utf-8",
+      "bytes": 28158,
+      "digest": "ni:///sha-256;9NvSAFUak3IvTodvghRiDsMyMHZ8IKFspSMbjt3tnuI"
+    },
+    {
+      "route": "/tags/moonwell.json",
+      "file": "tags/moonwell.json",
+      "mediaType": "application/json; charset=utf-8",
+      "bytes": 598,
+      "digest": "ni:///sha-256;ZYz6nvRjhAKoZmfMdDcxuPVVvEZ78u_YITHqawIyHzU"
+    },
+    {
+      "route": "/tags/proof-of-liquidity",
+      "file": "tags/proof-of-liquidity/index.html",
+      "mediaType": "text/html; charset=utf-8",
+      "bytes": 28260,
+      "digest": "ni:///sha-256;4mxDCWVY1Ylx7j4kXvtLeoU2amf1x8jlmj0ZaklwTCw"
+    },
+    {
+      "route": "/tags/proof-of-liquidity.json",
+      "file": "tags/proof-of-liquidity.json",
+      "mediaType": "application/json; charset=utf-8",
+      "bytes": 658,
+      "digest": "ni:///sha-256;IxGHGMjLLGhiYHRjpt6jw2HuLEPsPWx0HGCminy8WQs"
+    },
+    {
+      "route": "/tags/public-finance",
+      "file": "tags/public-finance/index.html",
+      "mediaType": "text/html; charset=utf-8",
+      "bytes": 28295,
+      "digest": "ni:///sha-256;Y9SkC1atHDpXPLZ61BJIteuGnyXmqV91Utt-Jx9vrKI"
+    },
+    {
+      "route": "/tags/public-finance.json",
+      "file": "tags/public-finance.json",
+      "mediaType": "application/json; charset=utf-8",
+      "bytes": 634,
+      "digest": "ni:///sha-256;hLBu0ulJSQE3p_LM2NJ8LiiFIrJINtPx3l54ZXiWHM4"
+    },
+    {
+      "route": "/tags/publishing",
+      "file": "tags/publishing/index.html",
+      "mediaType": "text/html; charset=utf-8",
+      "bytes": 27989,
+      "digest": "ni:///sha-256;tvgHx6BfJWKEEPNHCq4R0M4g1paP83J0og5xosNxaNk"
+    },
+    {
+      "route": "/tags/publishing.json",
+      "file": "tags/publishing.json",
+      "mediaType": "application/json; charset=utf-8",
+      "bytes": 610,
+      "digest": "ni:///sha-256;yoSxgGwDz1c_2sYRz3etUpS6HQ5EqydoD2xGv6zwKb8"
+    },
+    {
+      "route": "/tags/resource-governance",
+      "file": "tags/resource-governance/index.html",
+      "mediaType": "text/html; charset=utf-8",
+      "bytes": 28380,
+      "digest": "ni:///sha-256;p7vGpVdqONyRGMJ_-ki7ZUtbWO4uNRNCplCFJyCGLRg"
+    },
+    {
+      "route": "/tags/resource-governance.json",
+      "file": "tags/resource-governance.json",
+      "mediaType": "application/json; charset=utf-8",
+      "bytes": 664,
+      "digest": "ni:///sha-256;LbsMJfhsWXmd7ORNY820cfr426YMuBPuV37LIbJv7AQ"
+    },
+    {
+      "route": "/tags/robotics",
+      "file": "tags/robotics/index.html",
+      "mediaType": "text/html; charset=utf-8",
+      "bytes": 28211,
+      "digest": "ni:///sha-256;1rLARKbNNcvEjG_fpsAmpNkKfyvrlanoj7kHhCACgdw"
+    },
+    {
+      "route": "/tags/robotics.json",
+      "file": "tags/robotics.json",
+      "mediaType": "application/json; charset=utf-8",
+      "bytes": 598,
+      "digest": "ni:///sha-256;mG-dm8BsozwRgW2gjOBcpK8K2e704u2KxPpR00ZUnew"
+    },
+    {
+      "route": "/tags/s",
+      "file": "tags/s/index.html",
+      "mediaType": "text/html; charset=utf-8",
+      "bytes": 28573,
+      "digest": "ni:///sha-256;q7822GWmxXkSleL5pCsPnP_GOfSHU0ZAB_mfjwiBn-0"
+    },
+    {
+      "route": "/tags/s.json",
+      "file": "tags/s.json",
+      "mediaType": "application/json; charset=utf-8",
+      "bytes": 2343,
+      "digest": "ni:///sha-256;vyHxuwfn81Inu0jU-q37p98FVGwx5sPMAXzSBOCqFRc"
+    },
+    {
+      "route": "/tags/semiconductors",
+      "file": "tags/semiconductors/index.html",
+      "mediaType": "text/html; charset=utf-8",
+      "bytes": 28200,
+      "digest": "ni:///sha-256;yXUu3v35D13EPk_awuqqhpseyBt1TpBtgUrbLfEVCcQ"
+    },
+    {
+      "route": "/tags/semiconductors.json",
+      "file": "tags/semiconductors.json",
+      "mediaType": "application/json; charset=utf-8",
+      "bytes": 634,
+      "digest": "ni:///sha-256;c3YnX-65Ey-FGUOMvwhPjrThdBSw7amsU0Q1MXyMPJQ"
+    },
+    {
+      "route": "/tags/shadow",
+      "file": "tags/shadow/index.html",
+      "mediaType": "text/html; charset=utf-8",
+      "bytes": 28162,
+      "digest": "ni:///sha-256;B8JlS6Rt-V1kZ5nSp8IaKTVLC30pQXlg4O7NCrr7LxE"
+    },
+    {
+      "route": "/tags/shadow.json",
+      "file": "tags/shadow.json",
+      "mediaType": "application/json; charset=utf-8",
+      "bytes": 586,
+      "digest": "ni:///sha-256;alOX4EBa-pAbMzUAOexT9URdpBVwaspJcYKh9N21c5M"
+    },
+    {
+      "route": "/tags/site-announcement",
+      "file": "tags/site-announcement/index.html",
+      "mediaType": "text/html; charset=utf-8",
+      "bytes": 28108,
+      "digest": "ni:///sha-256;Wl1dzj0lPoaVT1i1wCzVq05vlgtda2dqjaCjxMxw_ug"
+    },
+    {
+      "route": "/tags/site-announcement.json",
+      "file": "tags/site-announcement.json",
+      "mediaType": "application/json; charset=utf-8",
+      "bytes": 652,
+      "digest": "ni:///sha-256;C3Mqz_nemP9bQdrkBhd53U0qfmrUGRi_8JqFKQdi1Jk"
+    },
+    {
+      "route": "/tags/sonic",
+      "file": "tags/sonic/index.html",
+      "mediaType": "text/html; charset=utf-8",
+      "bytes": 28145,
+      "digest": "ni:///sha-256;9xpuHmAwDMuwsf_L1VnUE76M77p7BZU-1q388u8PByc"
+    },
+    {
+      "route": "/tags/sonic.json",
+      "file": "tags/sonic.json",
+      "mediaType": "application/json; charset=utf-8",
+      "bytes": 580,
+      "digest": "ni:///sha-256;CYq89FSvVKCt-kKgAjIX_lYlv6FN-K-I8jZg5X6AbT0"
+    },
+    {
+      "route": "/tags/soxl",
+      "file": "tags/soxl/index.html",
+      "mediaType": "text/html; charset=utf-8",
+      "bytes": 28126,
+      "digest": "ni:///sha-256;GG-xEXGj8kNRD97mWWBB7Ie2BdUlfLWZ4__W4n2ESJA"
+    },
+    {
+      "route": "/tags/soxl.json",
+      "file": "tags/soxl.json",
+      "mediaType": "application/json; charset=utf-8",
+      "bytes": 578,
+      "digest": "ni:///sha-256;7Jq4JPhuDDBAaKzZXNjP43_cZS-cARNnXhxymID-ldQ"
+    },
+    {
+      "route": "/tags/stability-dao",
+      "file": "tags/stability-dao/index.html",
+      "mediaType": "text/html; charset=utf-8",
+      "bytes": 28281,
+      "digest": "ni:///sha-256;77DzWjlUoN3C7KUnpZlWcK2pR0BRJzd-I8wNe-exlGs"
+    },
+    {
+      "route": "/tags/stability-dao.json",
+      "file": "tags/stability-dao.json",
+      "mediaType": "application/json; charset=utf-8",
+      "bytes": 628,
+      "digest": "ni:///sha-256;TXfHXBz0TfMNiCFpuqr7EXsO7VCgD7R_mk5vlUNIEBk"
+    },
+    {
+      "route": "/tags/sustainable-agriculture",
+      "file": "tags/sustainable-agriculture/index.html",
+      "mediaType": "text/html; charset=utf-8",
+      "bytes": 28358,
+      "digest": "ni:///sha-256;e7-kdAUNL-eKj7yI2xJhV9-5JYmt44cX-OxuNcbBJUI"
+    },
+    {
+      "route": "/tags/sustainable-agriculture.json",
+      "file": "tags/sustainable-agriculture.json",
+      "mediaType": "application/json; charset=utf-8",
+      "bytes": 688,
+      "digest": "ni:///sha-256;R1Rox2VdJDZJNBBxPN33Yv6g46afn8myg6WRVhSY7e0"
+    },
+    {
+      "route": "/tags/sxsw",
+      "file": "tags/sxsw/index.html",
+      "mediaType": "text/html; charset=utf-8",
+      "bytes": 28168,
+      "digest": "ni:///sha-256;ovf7Jjvq8nlnR29_5QdKYFnX-efkTiarbuHU_8bjdD8"
+    },
+    {
+      "route": "/tags/sxsw.json",
+      "file": "tags/sxsw.json",
+      "mediaType": "application/json; charset=utf-8",
+      "bytes": 574,
+      "digest": "ni:///sha-256;_gs3ZVB4eB5Gn4hY9XsJ6TkmUQAtdEuXTaLhatm8L8U"
+    },
+    {
+      "route": "/tags/systemic-collapse",
+      "file": "tags/systemic-collapse/index.html",
+      "mediaType": "text/html; charset=utf-8",
+      "bytes": 28393,
+      "digest": "ni:///sha-256;sR1U3D1wWkdLTO0o52CvUsvzwU3gs-IRr9dRKxhCdAg"
+    },
+    {
+      "route": "/tags/systemic-collapse.json",
+      "file": "tags/systemic-collapse.json",
+      "mediaType": "application/json; charset=utf-8",
+      "bytes": 652,
+      "digest": "ni:///sha-256;0qnXqpRgID6xKe2uUtt82nnHXs-SCIUv7S1inWxgiQo"
+    },
+    {
+      "route": "/tags/tecl",
+      "file": "tags/tecl/index.html",
+      "mediaType": "text/html; charset=utf-8",
+      "bytes": 28126,
+      "digest": "ni:///sha-256;_8rqpy96Q6yQ1uUBHo6LpUloC_ffhDvd4qIz8gmaQzw"
+    },
+    {
+      "route": "/tags/tecl.json",
+      "file": "tags/tecl.json",
+      "mediaType": "application/json; charset=utf-8",
+      "bytes": 578,
+      "digest": "ni:///sha-256;cenTpQg1X_AMo-mJKZZaB7uwDSY8QzF9P7q20o0dTb0"
+    },
+    {
+      "route": "/tags/uk-economy",
+      "file": "tags/uk-economy/index.html",
+      "mediaType": "text/html; charset=utf-8",
+      "bytes": 28227,
+      "digest": "ni:///sha-256;B8kJ3mgjpnH89l5LEI0kLW3CtudSnK0QCY6cYRHQMio"
+    },
+    {
+      "route": "/tags/uk-economy.json",
+      "file": "tags/uk-economy.json",
+      "mediaType": "application/json; charset=utf-8",
+      "bytes": 610,
+      "digest": "ni:///sha-256;WoKbuDSLopC5RI4pjeCIr26eXj59JlGrR1JyWMhaCcw"
+    },
+    {
+      "route": "/tags/usdc",
+      "file": "tags/usdc/index.html",
+      "mediaType": "text/html; charset=utf-8",
+      "bytes": 28105,
+      "digest": "ni:///sha-256;R10nIf7ZR6oG1rhyddBfKFG-kSRh08d97gOsIxOyZPs"
+    },
+    {
+      "route": "/tags/usdc.json",
+      "file": "tags/usdc.json",
+      "mediaType": "application/json; charset=utf-8",
+      "bytes": 578,
+      "digest": "ni:///sha-256;K_ThVRHcAUw1_iqLc4LnUYCJwoVqFYy1LizCMXejw1I"
+    },
+    {
+      "route": "/tags/water-utilities",
+      "file": "tags/water-utilities/index.html",
+      "mediaType": "text/html; charset=utf-8",
+      "bytes": 28312,
+      "digest": "ni:///sha-256;csxcoJF0LxCuEo6W7WEHuizoDXm0WY50bhSa6elD9so"
+    },
+    {
+      "route": "/tags/water-utilities.json",
+      "file": "tags/water-utilities.json",
+      "mediaType": "application/json; charset=utf-8",
+      "bytes": 640,
+      "digest": "ni:///sha-256;2NaWHhLd60Ndx5FSpT0auntz1PTo5YySoQoheYr2VCU"
+    },
+    {
+      "route": "/topics",
+      "file": "topics/index.html",
+      "mediaType": "text/html; charset=utf-8",
+      "bytes": 27891,
+      "digest": "ni:///sha-256;wqzLYPrrrRRORILqAd1qdQZLb4VJfKWJj5e5ldffOqw"
+    },
+    {
+      "route": "/topics.json",
+      "file": "topics.json",
+      "mediaType": "application/json; charset=utf-8",
+      "bytes": 3807,
+      "digest": "ni:///sha-256;OtAcpXcj3RGqVch-xOLjEglQKwu_zYxOg8THHo0Qd9Q"
+    },
+    {
+      "route": "/topics/economy",
+      "file": "topics/economy/index.html",
+      "mediaType": "text/html; charset=utf-8",
+      "bytes": 39403,
+      "digest": "ni:///sha-256;JMuOumE7e_PDyGc4z49-BT4gXp-sZSSjF62Q3vz7Puk"
+    },
+    {
+      "route": "/topics/economy.json",
+      "file": "topics/economy.json",
+      "mediaType": "application/json; charset=utf-8",
+      "bytes": 1157,
+      "digest": "ni:///sha-256;EnQwEuSwnGnVS8p3S9eV4vgIM5TLc-YZd7hjv6lSTCQ"
+    },
+    {
+      "route": "/topics/environment",
+      "file": "topics/environment/index.html",
+      "mediaType": "text/html; charset=utf-8",
+      "bytes": 31329,
+      "digest": "ni:///sha-256;YqmPklxOBfVDJwb4WhYiyFEhc5D4gmKHqQCeu_ApPbo"
+    },
+    {
+      "route": "/topics/environment.json",
+      "file": "topics/environment.json",
+      "mediaType": "application/json; charset=utf-8",
+      "bytes": 636,
+      "digest": "ni:///sha-256;lpzZHZ4TPxZCvWOrsRmQAEkAjTrLO5z40IHd3oXJ4qQ"
+    },
+    {
+      "route": "/topics/newsroom",
+      "file": "topics/newsroom/index.html",
+      "mediaType": "text/html; charset=utf-8",
+      "bytes": 28510,
+      "digest": "ni:///sha-256;Qp1J9u8M-_NzJk4nGuYiBzcrZt-TOQXDWz7sjx13B_I"
+    },
+    {
+      "route": "/topics/newsroom.json",
+      "file": "topics/newsroom.json",
+      "mediaType": "application/json; charset=utf-8",
+      "bytes": 1081,
+      "digest": "ni:///sha-256;By711TPsx6y8fXf7p-tYnIQ1eHlr58vvHxQ5BGWxhkQ"
+    },
+    {
+      "route": "/topics/technology",
+      "file": "topics/technology/index.html",
+      "mediaType": "text/html; charset=utf-8",
+      "bytes": 30677,
+      "digest": "ni:///sha-256;1xr0oXY3wDSAs9nPb-GWAv1kexugPT7ZyyF5dv_UxbY"
+    },
+    {
+      "route": "/topics/technology.json",
+      "file": "topics/technology.json",
+      "mediaType": "application/json; charset=utf-8",
+      "bytes": 928,
+      "digest": "ni:///sha-256;z8A7koxsCDPyV07Mia7OXsuodDEvAByoahvC3kBRAe0"
+    },
+    {
+      "route": "urn:cloudflare-pages:_headers",
+      "file": "_headers",
+      "mediaType": "text/plain",
+      "bytes": 1163,
+      "digest": "ni:///sha-256;0DAnpbOTmy9GdhcVbNd5fQ1Cv8zjKmpdu8twk_xg8gU"
+    }
+  ]
+}

@@ -1,0 +1,69 @@
+{
+  "subject": "netanyahu-is-behind-iran-war-not-trump-and-that-makes-peace-unlikely",
+  "claims": [
+    {
+      "id": "title",
+      "proposition": {
+        "predicate": "title",
+        "object": "Netanyahu is behind Iran war, not Trump – and that makes peace unlikely"
+      },
+      "time": {
+        "asserted": "2026-07-18T08:37:48.082Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "decolonization",
+        "citation": "https://www.opendemocracy.net/en/iran-war-israel-trump-netanyahu-peace-unlikely/"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "url",
+      "proposition": {
+        "predicate": "url",
+        "object": "https://www.opendemocracy.net/en/iran-war-israel-trump-netanyahu-peace-unlikely/"
+      },
+      "time": {
+        "asserted": "2026-07-18T08:37:48.082Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "decolonization",
+        "citation": "https://www.opendemocracy.net/en/iran-war-israel-trump-netanyahu-peace-unlikely/"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "summary",
+      "proposition": {
+        "predicate": "summary",
+        "object": "Within hours of Donald Trump accepting a two-week ceasefire in Iran, walking back on his dire threat that “a whole civilisation will die”, Binyamin Netanyahu did his best to wreck any prospect of peace. Israel launched an intense bombardment of Beirut and other Lebanese towns and cities, with 100 attacks in the first ten minutes. More than 300 people were killed and more than a thousand wounded, according to Lebanon’s Health Ministry. The Israeli Defence Forces (IDF) also carried out a series of strikes across Gaza, including a precisely targeted armed drone attack on the car of Al Jazeera journalist Mohammed Wishah, the 262nd journalist to be killed by Israel since October 2023."
+      },
+      "time": {
+        "asserted": "2026-07-18T08:37:48.082Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "decolonization",
+        "citation": "https://www.opendemocracy.net/en/iran-war-israel-trump-netanyahu-peace-unlikely/"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "published",
+      "proposition": {
+        "predicate": "published",
+        "object": "Fri, 10 Apr 2026 14:56:35 GMT"
+      },
+      "time": {
+        "asserted": "2026-07-18T08:37:48.082Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "decolonization",
+        "citation": "https://www.opendemocracy.net/en/iran-war-israel-trump-netanyahu-peace-unlikely/"
+      },
+      "status": "supported"
+    }
+  ]
+}

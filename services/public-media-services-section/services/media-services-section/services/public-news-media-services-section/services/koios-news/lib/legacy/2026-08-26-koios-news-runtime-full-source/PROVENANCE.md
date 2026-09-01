@@ -1,0 +1,3 @@
+# Provenance
+
+Capture taken 2026-08-26 of cold-red-gate `~/services/koios-news-runtime`, the live koios.news newsroom runtime. This is the full TypeScript source (newsroom-circuit, editorial-judge, correction, the management suite, researching, administrating) that the previously-captured `dist/` compiled output was built from; earlier local snapshots held only dist. The directory is a git worktree of the koios-news submodule — whether it holds commits ahead of the submodule pointer is unverified. Excluded: `node_modules`, deploy staging (`.deploy`, `deploy`), live `data/`, and `dist` (already captured in the 2026-08-17 VPS snapshots).

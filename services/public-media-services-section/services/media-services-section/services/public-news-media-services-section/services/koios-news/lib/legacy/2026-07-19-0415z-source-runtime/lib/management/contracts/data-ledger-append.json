@@ -1,0 +1,17 @@
+{
+  "kind": "koios.boundary-contract",
+  "id": "koios-appends-durable-acts-to-data-store",
+  "customer": "urn:ame:koios-news",
+  "provider": "urn:store:koios-news-data",
+  "operation": "append one deterministic JSON record followed by newline",
+  "path": "data/<carrier>/<ledger>/YYYY/MM/DD/YYYY-MM-DD-koios-news-<ledger>.jsonl",
+  "carriers": {
+    "journals": ["corrections-omissions", "contract-events", "deployments", "attention"],
+    "ledgers": ["source-claims", "editorial-authority", "provider-usage", "shadow-deliveries", "advertising", "revenue-cost"],
+    "records": ["editorial-judgments"],
+    "state": ["assignments"]
+  },
+  "allowedLedgers": ["assignments", "source-claims", "editorial-authority", "editorial-judgments", "corrections-omissions", "contract-events", "provider-usage", "deployments", "shadow-deliveries", "attention", "advertising", "revenue-cost"],
+  "constraints": ["append only", "tool-owned serialization", "caller supplies explicit event time", "no credentials", "no reader identifiers", "record digest binds the serialized act"],
+  "implementation": "src/management/ledger.mts"
+}

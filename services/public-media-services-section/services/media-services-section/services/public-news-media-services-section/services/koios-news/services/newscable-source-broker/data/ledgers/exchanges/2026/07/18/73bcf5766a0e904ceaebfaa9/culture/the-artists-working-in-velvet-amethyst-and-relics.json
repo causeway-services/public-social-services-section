@@ -1,0 +1,69 @@
+{
+  "subject": "the-artists-working-in-velvet-amethyst-and-relics",
+  "claims": [
+    {
+      "id": "title",
+      "proposition": {
+        "predicate": "title",
+        "object": "The Artists Working in Velvet, Amethyst, and Relics"
+      },
+      "time": {
+        "asserted": "2026-07-18T07:51:51.266Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "culture",
+        "citation": "https://hyperallergic.com/the-artists-working-in-velvet-amethyst-and-relics/"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "url",
+      "proposition": {
+        "predicate": "url",
+        "object": "https://hyperallergic.com/the-artists-working-in-velvet-amethyst-and-relics/"
+      },
+      "time": {
+        "asserted": "2026-07-18T07:51:51.266Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "culture",
+        "citation": "https://hyperallergic.com/the-artists-working-in-velvet-amethyst-and-relics/"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "summary",
+      "proposition": {
+        "predicate": "summary",
+        "object": "PASADENA, Calif. — When Marshall McLuhan remarked that “the medium is the message,” he was not referring to tapestries made from crushed velvet or sculptures crafted from wood and amethyst crystals — although Material Prophecies: Craft as Divination at Armory Art Center might suggest otherwise. First uttered in 1958 during a radio broadcast, the phrase addressed the rise of then-new technologies like television and video, which, according to McLuhan, shaped the reception, influence, and even character of their content. A similar idea infuses Material Prophecies , which features eight artists working with materials that have deep-seated connections to spiritual practices and religious rituals. To what extent, they seem to ask, does each medium determine the meaning — or “message” — of art itself? The exhibition wavers in its answer. A few works keep close to the theme, foregrounding raw materials in their most bare form. Five wall reliefs from Jackie Amézquita’s 2024 Earthworks series use mud, masa, and dried clay to create cracked, rectangular surfaces redolent of painterly canvases. Others stray further. Joel Gaitan’s sculptures use a similarly unvarnished, unglazed clay “associated with devotional objects,” per the wall text. In “No Pidas Agua, Cuando No Hay Sed” (2024), a lounging terracotta figure sports a crown, metallic teeth, and chunky gold jewelry. The figure’s confident pose and lavish adornment assert a contemporary defiance, while its texture and rounded shape recall that of pre-Colombian ceramic vessels. Left: Installation view of works by Jackie Amézquita; right: installation view of works by Joel Gaitan Elsewhere, the exhibition’s focus can feel strained. Calethia DeConto’s “Mapping the Emotional Weather of Memory and the Space Between” (2026) is a sprawling cyanotype installation featuring 25 small, circular blue-and-white “photographs” pinned in a weblike constellation across one wall. Framed as “intimate” and “emotional” in exhibition materials, the prints center female figures posing in seaside landscapes alongside natural ephemera like shells and plants. The medium’s history complicates this more visceral, bodily framing; invented in 1842 by British electrochemist John Herschel, cyanotypes were originally used in scientific expeditions to Antarctica and New Zealand, a practice more rooted in colonization than spirituality. The strongest works fit the exhibition’s brief the least. Emmanuel Louisnord Desir’s standout sculptures use a combination of wood and bronze that reference “African Diasporic traditions of carved and cast figures,” according to the wall text — but what’s on view resists the stricter categorization. “Raging Machine” (2025) assembles industrially manufactured devices and machines — a pencil sharpener, a handaxe — into a bronze hybrid creature halfway between a robot and a person. Another highlight is vanessa german’s “DAMN.” (2024), a portrait bust entirely encrusted with pink rose quartz, its neck draped in a linked chain made from metal bottle caps. The face itself appears superhuman, its translucent, pastel skin entirely singular."
+      },
+      "time": {
+        "asserted": "2026-07-18T07:51:51.266Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "culture",
+        "citation": "https://hyperallergic.com/the-artists-working-in-velvet-amethyst-and-relics/"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "published",
+      "proposition": {
+        "predicate": "published",
+        "object": "Thu, 16 Jul 2026 19:19:47 GMT"
+      },
+      "time": {
+        "asserted": "2026-07-18T07:51:51.266Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "culture",
+        "citation": "https://hyperallergic.com/the-artists-working-in-velvet-amethyst-and-relics/"
+      },
+      "status": "supported"
+    }
+  ]
+}

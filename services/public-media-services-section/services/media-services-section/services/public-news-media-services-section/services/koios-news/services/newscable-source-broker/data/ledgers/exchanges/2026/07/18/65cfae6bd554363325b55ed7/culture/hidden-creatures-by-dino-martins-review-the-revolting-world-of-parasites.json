@@ -1,0 +1,69 @@
+{
+  "subject": "hidden-creatures-by-dino-martins-review-the-revolting-world-of-parasites",
+  "claims": [
+    {
+      "id": "title",
+      "proposition": {
+        "predicate": "title",
+        "object": "Hidden Creatures by Dino Martins review – the revolting world of parasites"
+      },
+      "time": {
+        "asserted": "2026-07-18T07:50:06.436Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "culture",
+        "citation": "https://www.theguardian.com/books/2026/jul/15/hidden-creatures-by-dino-martins-review-the-revolting-world-of-parasites"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "url",
+      "proposition": {
+        "predicate": "url",
+        "object": "https://www.theguardian.com/books/2026/jul/15/hidden-creatures-by-dino-martins-review-the-revolting-world-of-parasites"
+      },
+      "time": {
+        "asserted": "2026-07-18T07:50:06.436Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "culture",
+        "citation": "https://www.theguardian.com/books/2026/jul/15/hidden-creatures-by-dino-martins-review-the-revolting-world-of-parasites"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "summary",
+      "proposition": {
+        "predicate": "summary",
+        "object": "<p>From maggots to viruses, this gross-out compendium also manages to celebrate the awe and inventiveness of nature</p><p>When Craig Venter, one of the&nbsp;mappers of the human genome, set out on a sailboat cruise to map DNA in seawater all across the globe, he found that a teaspoon of seawater contained on average 50m viruses. While this doesn’t sound particularly reassuring, the bad news is mitigated by the fact that most of these are phages that infect marine bacteria and have no interest in us.</p><p>Viruses are parasites, and like all their parasitic kind, they get a free ride from living organisms. The whole point of multicellular life is to create a&nbsp;cosy environment for cells to live in, and evolution has invented all manner of stowaways that want this comfort and manage to get on board, either outside or sometimes inside the cells themselves. While it is not generally in the best interest of a parasite to kill its host and be forced to find a new home, some come dangerously close. Most diseases in the developing world are connected in some way or another to parasitic infections.</p> <a href=\"https://www.theguardian.com/books/2026/jul/15/hidden-creatures-by-dino-martins-review-the-revolting-world-of-parasites\">Continue reading...</a>"
+      },
+      "time": {
+        "asserted": "2026-07-18T07:50:06.436Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "culture",
+        "citation": "https://www.theguardian.com/books/2026/jul/15/hidden-creatures-by-dino-martins-review-the-revolting-world-of-parasites"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "published",
+      "proposition": {
+        "predicate": "published",
+        "object": "Wed, 15 Jul 2026 08:00:49 GMT"
+      },
+      "time": {
+        "asserted": "2026-07-18T07:50:06.436Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "culture",
+        "citation": "https://www.theguardian.com/books/2026/jul/15/hidden-creatures-by-dino-martins-review-the-revolting-world-of-parasites"
+      },
+      "status": "supported"
+    }
+  ]
+}

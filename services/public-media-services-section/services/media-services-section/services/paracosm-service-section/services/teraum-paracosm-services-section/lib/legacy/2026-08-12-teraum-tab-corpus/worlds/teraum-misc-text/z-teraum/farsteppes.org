@@ -1,0 +1,5 @@
+#+title: Farsteppes
+#+author: emsenn
+#+email: emsenn@emsenn.net
+#+date: [2020-12-18 Fri 21:30]
+The */Farsteppes/* are a region of [[file:../teraum.org][Teraum]] located west of the [[file:central_plains.org][Central Plains]] and east of the [[file:worldkeepers.org][Worldkeepers]]

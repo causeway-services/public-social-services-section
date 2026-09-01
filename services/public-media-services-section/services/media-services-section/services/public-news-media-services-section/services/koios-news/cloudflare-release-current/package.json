@@ -1,0 +1,20 @@
+{
+  "name": "@causeway-services/cloudflare-release-current",
+  "version": "0.1.0",
+  "type": "module",
+  "description": "Apply-gated Cloudflare preview and release carrier for independently built Koios static candidates.",
+  "engines": {
+    "node": ">=22"
+  },
+  "bin": {
+    "koios-news-cloudflare-release": "./bin/koios-news-cloudflare-release.mjs"
+  },
+  "scripts": {
+    "test": "node --test test/*.test.mjs",
+    "check": "node --check src/carrier.mjs && node --check bin/koios-news-cloudflare-release.mjs",
+    "check:wrangler": "wrangler --version"
+  },
+  "devDependencies": {
+    "wrangler": "4.127.1"
+  }
+}

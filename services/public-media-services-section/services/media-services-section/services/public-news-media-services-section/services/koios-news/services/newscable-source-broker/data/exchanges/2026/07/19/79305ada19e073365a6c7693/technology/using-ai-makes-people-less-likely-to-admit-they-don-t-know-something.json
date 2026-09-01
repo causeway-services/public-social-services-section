@@ -1,0 +1,69 @@
+{
+  "subject": "using-ai-makes-people-less-likely-to-admit-they-don-t-know-something",
+  "claims": [
+    {
+      "id": "title",
+      "proposition": {
+        "predicate": "title",
+        "object": "Using AI makes people less likely to admit they don't know something"
+      },
+      "time": {
+        "asserted": "2026-07-19T15:04:08.909Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "technology",
+        "citation": "https://www.theregister.com/ai-and-ml/2026/07/19/using-ai-makes-people-less-likely-to-admit-they-dont-know-something/5274567"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "url",
+      "proposition": {
+        "predicate": "url",
+        "object": "https://www.theregister.com/ai-and-ml/2026/07/19/using-ai-makes-people-less-likely-to-admit-they-dont-know-something/5274567"
+      },
+      "time": {
+        "asserted": "2026-07-19T15:04:08.909Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "technology",
+        "citation": "https://www.theregister.com/ai-and-ml/2026/07/19/using-ai-makes-people-less-likely-to-admit-they-dont-know-something/5274567"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "summary",
+      "proposition": {
+        "predicate": "summary",
+        "object": "In 2026, AI still \"hallucinates\" and gives you wrong answers a good chunk of the time. Nevertheless, academics from French and Italian universities have found that access to AI advice suppresses critical thinking, making people more likely to confidently parrot incorrect information that the bot provided. \"For humans, the capacity to say, 'I don't know,' is very important because it represents the recognition of the limits of our own knowledge,\" said Valerio Capraro, associate professor at the University of Milano-Bicocca, in a phone interview. \"But now with AI, we can get an easy answer to virtually every question, so we wondered whether this would interfere with human capacity to say, 'I don't know,' to suspend judgment.\" Capraro and co-authors Chiara Marcoccia (École Normale Supérieure) and Walter Quattrociocchi (Sapienza University of Rome) set out to see how access to AI advice affects people's willingness to admit ignorance. The title of their paper reveals their findings: \"AI advice suppresses people’s willingness to say 'I don’t know', even when the advice is wrong and accuracy is incentivized.\" Capraro said that he and his colleagues designed a set of questions where large language models typically fail. In this instance, they asked study participants to answer questions about visual details in films, such as the color of the team's uniform in Bend It Like Beckham or the vehicle Monica drives in Like a Cat on a Highway. The researchers expected these sorts of details would be absent from most model training data, which was the case for the model used in the experiment (Step 3.5 Flash). They also tested recent frontier models (GPT-5.5, Claude Sonnet 4.6, Gemini 3.5 Flash), which missed the vehicle question but often got other details correct. They used Step 3.5 Flash because it was usually wrong, as explained in the paper, so any reduction in judgment could not be explained away as sensible delegation to a reliable tool. \"We divided human participants into two groups,\" explained Capraro. \"One group had to answer these questions without AI advice, and another group could ask the AI for advice. What we found is that in the baseline, 44 percent of people responded that they didn't know the answer, so they suspended judgment. With AI advice, only three percent did so. So the judgment suspension collapsed.\" Capraro said that even more interestingly, accuracy collapsed when AI help was available. In other words, they trusted AI's answer more than their own. \"In the baseline, 27 percent of people gave the correct answer,\" he said. \"With AI advice, only nine percent of people gave the correct answer. So some would-be correct people asked for AI advice and became wrong.\" Also, access to AI advice made people more confident that they were correct. The baseline level was 30 percent, he said, but with AI help, confidence rose to 76 percent. They believed the bots, despite the possibility of hallucinations. \"So basically people became much worse – the accuracy was only one third – but they were twice as confident,\" he said. The researchers also conducted the experiment with monetary incentives, which helped a bit. Willingness to suspend judgment and admit ignorance rose from 3 percent to 8 percent and accuracy rose from 9 percent to 16 percent but was still below the baseline of 44 percent and 27 percent respectively. While the researchers chose questions about film trivia, they contend their findings can be generalized across other domains. Capraro said that he believes this is an issue that needs to be dealt with at a societal level through AI literacy and education policy initiatives. \"Of course model providers should try to help, but I would imagine that the incentives are not very much aligned,\" he said. \"A much more promising approach would be at the educational level.\" \"I'm very much concerned for children, because adults have learned critical thinking. But for children who basically are born with these systems, the risk is that they don't even learn the basic critical skills.\" ®"
+      },
+      "time": {
+        "asserted": "2026-07-19T15:04:08.909Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "technology",
+        "citation": "https://www.theregister.com/ai-and-ml/2026/07/19/using-ai-makes-people-less-likely-to-admit-they-dont-know-something/5274567"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "published",
+      "proposition": {
+        "predicate": "published",
+        "object": "Sun, 19 Jul 2026 10:01:00 +0200"
+      },
+      "time": {
+        "asserted": "2026-07-19T15:04:08.909Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "technology",
+        "citation": "https://www.theregister.com/ai-and-ml/2026/07/19/using-ai-makes-people-less-likely-to-admit-they-dont-know-something/5274567"
+      },
+      "status": "supported"
+    }
+  ]
+}

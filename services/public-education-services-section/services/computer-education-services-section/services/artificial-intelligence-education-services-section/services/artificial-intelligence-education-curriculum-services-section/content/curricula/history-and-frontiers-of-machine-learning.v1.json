@@ -1,0 +1,26 @@
+{
+  "type": "ArtificialIntelligenceCourseRevision",
+  "courseId": "history-and-frontiers-of-machine-learning",
+  "revision": 1,
+  "title": "History and Frontiers of Machine Learning",
+  "promise": "Enable an already technically literate learner to connect the field's historical programs to current architectures, evaluation failures, scientific disputes, infrastructure constraints, and credible research frontiers.",
+  "audience": "advanced students, researchers, and practitioners",
+  "competencies": [
+    { "id": "historical-programs", "description": "Distinguish major programs of machine intelligence and their institutional contexts." },
+    { "id": "learning-theory", "description": "Relate empirical learning systems to statistical assumptions and generalization claims." },
+    { "id": "architecture", "description": "Explain how representations, objectives, data, compute, and architecture interact." },
+    { "id": "evaluation", "description": "Assay benchmark, robustness, safety, and deployment evidence without collapsing warrant." },
+    { "id": "frontier-mapping", "description": "Map frontier claims to unresolved technical, economic, and governance constraints." }
+  ],
+  "lessons": [
+    { "id": "cybernetics-computation-symbolic-ai", "sequence": 1, "title": "Cybernetics, Computation, and Symbolic AI", "prerequisites": [], "competencies": ["historical-programs"], "researchProductClasses": ["primary-history", "technical-retrospective"], "freshnessDays": 3650 },
+    { "id": "statistics-and-statistical-learning", "sequence": 2, "title": "Probability, Statistics, and Statistical Learning", "prerequisites": ["cybernetics-computation-symbolic-ai"], "competencies": ["learning-theory"], "researchProductClasses": ["textbook-synthesis", "learning-theory-survey"], "freshnessDays": 1825 },
+    { "id": "neural-networks-and-representation-learning", "sequence": 3, "title": "Neural Networks, Backpropagation, and Representation Learning", "prerequisites": ["statistics-and-statistical-learning"], "competencies": ["historical-programs", "architecture"], "researchProductClasses": ["primary-paper-lineage", "architecture-survey"], "freshnessDays": 1095 },
+    { "id": "transformers-scaling-foundation-models", "sequence": 4, "title": "Attention, Transformers, Scaling, and Foundation Models", "prerequisites": ["neural-networks-and-representation-learning"], "competencies": ["architecture", "evaluation"], "researchProductClasses": ["primary-paper-lineage", "current-scaling-evidence", "infrastructure-economics"], "freshnessDays": 90 },
+    { "id": "reinforcement-learning-planning-decision", "sequence": 5, "title": "Reinforcement Learning, Planning, and Decision Systems", "prerequisites": ["statistics-and-statistical-learning", "neural-networks-and-representation-learning"], "competencies": ["learning-theory", "architecture"], "researchProductClasses": ["technical-survey", "current-agent-evaluation"], "freshnessDays": 180 },
+    { "id": "evaluation-generalization-robustness", "sequence": 6, "title": "Evaluation, Generalization, Robustness, and Distribution Shift", "prerequisites": ["transformers-scaling-foundation-models", "reinforcement-learning-planning-decision"], "competencies": ["evaluation"], "researchProductClasses": ["benchmark-audit", "robustness-survey", "deployment-incident-set"], "freshnessDays": 60 },
+    { "id": "interpretability-alignment-safety-security", "sequence": 7, "title": "Interpretability, Alignment, Safety, and Security", "prerequisites": ["evaluation-generalization-robustness"], "competencies": ["evaluation", "frontier-mapping"], "researchProductClasses": ["current-research-survey", "threat-model", "governance-comparison"], "freshnessDays": 30 },
+    { "id": "multimodality-agents-world-models", "sequence": 8, "title": "Frontiers: Multimodality, Agents, World Models, Compute, and Data", "prerequisites": ["interpretability-alignment-safety-security"], "competencies": ["architecture", "evaluation", "frontier-mapping"], "researchProductClasses": ["frontier-paper-map", "capability-evaluation", "compute-data-market-observation"], "freshnessDays": 14 }
+  ],
+  "correctionPolicy": "append a new course revision; never edit admitted lesson truth in place"
+}

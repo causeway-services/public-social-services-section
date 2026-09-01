@@ -1,0 +1,69 @@
+{
+  "subject": "we-are-waiting-with-bated-breath-experts-alarmed-as-bom-says-gathering-el-nino-could-be-strongest-on-record",
+  "claims": [
+    {
+      "id": "title",
+      "proposition": {
+        "predicate": "title",
+        "object": "‘We are waiting with bated breath’: experts alarmed as BoM says gathering El Niño could be strongest on record"
+      },
+      "time": {
+        "asserted": "2026-07-18T08:15:51.891Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "environment",
+        "citation": "https://www.theguardian.com/environment/2026/jul/17/record-el-nino-forecast-2027-hottest-year-on-record-bom-says"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "url",
+      "proposition": {
+        "predicate": "url",
+        "object": "https://www.theguardian.com/environment/2026/jul/17/record-el-nino-forecast-2027-hottest-year-on-record-bom-says"
+      },
+      "time": {
+        "asserted": "2026-07-18T08:15:51.891Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "environment",
+        "citation": "https://www.theguardian.com/environment/2026/jul/17/record-el-nino-forecast-2027-hottest-year-on-record-bom-says"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "summary",
+      "proposition": {
+        "predicate": "summary",
+        "object": "<p>Most Australian capital cities have at least 80% chance of unusually warm and dry spring as climatologists watch developing system with increasing alarm</p><ul><li><p><a href=\"https://www.theguardian.com/australia-news/live/2026/jul/17/australia-news-live-telstra-mobile-outage-parliament-inquiry-royal-commission-antisemitism-ai-anthony-albanese-labor-liberals-coalition-politics-ntwnfb\">Follow our Australia news live blog for latest updates</a></p></li><li><p>Get our <a href=\"https://www.theguardian.com/email-newsletters?CMP=cvau_sfl\">breaking news email</a>, <a href=\"https://app.adjust.com/w4u7jx3\">free app</a> or <a href=\"https://www.theguardian.com/australia-news/series/full-story?CMP=cvau_sfl\">daily news podcast</a></p></li></ul><p>The El Niño climate phenomenon linked to record global temperatures and now locked in place in the Pacific Ocean could develop into the strongest on record, according to Australia’s Bureau of Meteorology.</p><p>Climatologists are watching the strengthening El Niño <a href=\"https://www.theguardian.com/us-news/2026/jul/09/el-nino-risks-extreme-weather\">with increasing alarm</a>, saying the forecasts from climate models in the coming months are “mind blowing” and “astounding”.</p> <a href=\"https://www.theguardian.com/environment/2026/jul/17/record-el-nino-forecast-2027-hottest-year-on-record-bom-says\">Continue reading...</a>"
+      },
+      "time": {
+        "asserted": "2026-07-18T08:15:51.891Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "environment",
+        "citation": "https://www.theguardian.com/environment/2026/jul/17/record-el-nino-forecast-2027-hottest-year-on-record-bom-says"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "published",
+      "proposition": {
+        "predicate": "published",
+        "object": "Thu, 16 Jul 2026 23:56:52 GMT"
+      },
+      "time": {
+        "asserted": "2026-07-18T08:15:51.891Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "environment",
+        "citation": "https://www.theguardian.com/environment/2026/jul/17/record-el-nino-forecast-2027-hottest-year-on-record-bom-says"
+      },
+      "status": "supported"
+    }
+  ]
+}

@@ -1,0 +1,69 @@
+{
+  "subject": "the-pentagon-s-space-development-agency-hasn-t-moved-as-fast-as-anyone-would-like",
+  "claims": [
+    {
+      "id": "title",
+      "proposition": {
+        "predicate": "title",
+        "object": "The Pentagon's Space Development Agency hasn't moved as fast as anyone would like"
+      },
+      "time": {
+        "asserted": "2026-07-18T07:51:41.287Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "technology",
+        "citation": "https://arstechnica.com/space/2026/07/the-pentagons-space-development-agency-hasnt-moved-as-fast-as-anyone-would-like/"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "url",
+      "proposition": {
+        "predicate": "url",
+        "object": "https://arstechnica.com/space/2026/07/the-pentagons-space-development-agency-hasnt-moved-as-fast-as-anyone-would-like/"
+      },
+      "time": {
+        "asserted": "2026-07-18T07:51:41.287Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "technology",
+        "citation": "https://arstechnica.com/space/2026/07/the-pentagons-space-development-agency-hasnt-moved-as-fast-as-anyone-would-like/"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "summary",
+      "proposition": {
+        "predicate": "summary",
+        "object": "The Space Development Agency was established in 2019 to help speed up the deployment of US military space systems by sidestepping the Pentagon's traditional sluggish bureaucracy. Seven years later, SDA is finally launching its first batches of operational satellites, just as the Pentagon plans to shutter the semi-autonomous agency and fold it back into the Space Force's procurement pipeline, newly reorganized under several program acquisition executives in a bid to streamline weapons buying. SDA's fate is not a surprise, and lawmakers in both houses of Congress have backed the agency's closure in drafts of this year's National Defense Authorization Act. Read full article Comments"
+      },
+      "time": {
+        "asserted": "2026-07-18T07:51:41.287Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "technology",
+        "citation": "https://arstechnica.com/space/2026/07/the-pentagons-space-development-agency-hasnt-moved-as-fast-as-anyone-would-like/"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "published",
+      "proposition": {
+        "predicate": "published",
+        "object": "Fri, 17 Jul 2026 19:19:42 +0000"
+      },
+      "time": {
+        "asserted": "2026-07-18T07:51:41.287Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "technology",
+        "citation": "https://arstechnica.com/space/2026/07/the-pentagons-space-development-agency-hasnt-moved-as-fast-as-anyone-would-like/"
+      },
+      "status": "supported"
+    }
+  ]
+}

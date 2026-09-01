@@ -1,0 +1,69 @@
+{
+  "subject": "nigel-farage-says-questions-over-his-finances-are-part-of-coordinated-pile-on",
+  "claims": [
+    {
+      "id": "title",
+      "proposition": {
+        "predicate": "title",
+        "object": "Nigel Farage says questions over his finances are part of ‘coordinated pile-on’"
+      },
+      "time": {
+        "asserted": "2026-07-18T19:52:21.689Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "economy",
+        "citation": "https://www.theguardian.com/politics/2026/jul/17/nigel-farage-questions-finances-coordinated-pile-on-reform-uk"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "url",
+      "proposition": {
+        "predicate": "url",
+        "object": "https://www.theguardian.com/politics/2026/jul/17/nigel-farage-questions-finances-coordinated-pile-on-reform-uk"
+      },
+      "time": {
+        "asserted": "2026-07-18T19:52:21.689Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "economy",
+        "citation": "https://www.theguardian.com/politics/2026/jul/17/nigel-farage-questions-finances-coordinated-pile-on-reform-uk"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "summary",
+      "proposition": {
+        "predicate": "summary",
+        "object": "<p>Reform leader says he’s been ‘demonised’ since revelation he received £5m from billionaire before election</p><p>Nigel Farage has accused people raising questions about his financial backing of “demonising” him as part of a “coordinated pile-on” to stop Reform UK.</p><p>In one of his first speeches since the opening of two parliamentary standards inquiries into his financial support, the Reform leader said he had been “dehumanised in the most extraordinary way” in recent months, after the Guardian <a href=\"https://www.theguardian.com/politics/2026/apr/29/revealed-nigel-farage-was-given-undisclosed-5m-by-crypto-billionaire-in-2024\">revealed in April</a> that he had received a <a href=\"https://www.theguardian.com/politics/2026/apr/29/revealed-nigel-farage-was-given-undisclosed-5m-by-crypto-billionaire-in-2024\">£5m gift</a> from the crypto billionaire Christopher Harborne before the last election.</p> <a href=\"https://www.theguardian.com/politics/2026/jul/17/nigel-farage-questions-finances-coordinated-pile-on-reform-uk\">Continue reading...</a>"
+      },
+      "time": {
+        "asserted": "2026-07-18T19:52:21.689Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "economy",
+        "citation": "https://www.theguardian.com/politics/2026/jul/17/nigel-farage-questions-finances-coordinated-pile-on-reform-uk"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "published",
+      "proposition": {
+        "predicate": "published",
+        "object": "Fri, 17 Jul 2026 18:05:42 GMT"
+      },
+      "time": {
+        "asserted": "2026-07-18T19:52:21.689Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "economy",
+        "citation": "https://www.theguardian.com/politics/2026/jul/17/nigel-farage-questions-finances-coordinated-pile-on-reform-uk"
+      },
+      "status": "supported"
+    }
+  ]
+}

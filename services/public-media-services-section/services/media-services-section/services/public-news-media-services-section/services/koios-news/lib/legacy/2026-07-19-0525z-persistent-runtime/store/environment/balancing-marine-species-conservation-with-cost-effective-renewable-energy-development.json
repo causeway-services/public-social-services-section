@@ -1,0 +1,69 @@
+{
+  "subject": "balancing-marine-species-conservation-with-cost-effective-renewable-energy-development",
+  "claims": [
+    {
+      "id": "title",
+      "proposition": {
+        "predicate": "title",
+        "object": "Balancing marine species conservation with cost-effective renewable energy development"
+      },
+      "time": {
+        "asserted": "2026-07-19T02:19:56.932Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "environment",
+        "citation": "https://www.nature.com/articles/s41558-026-02696-9"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "url",
+      "proposition": {
+        "predicate": "url",
+        "object": "https://www.nature.com/articles/s41558-026-02696-9"
+      },
+      "time": {
+        "asserted": "2026-07-19T02:19:56.932Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "environment",
+        "citation": "https://www.nature.com/articles/s41558-026-02696-9"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "summary",
+      "proposition": {
+        "predicate": "summary",
+        "object": "Nature Climate Change, Published online: 17 July 2026; doi:10.1038/s41558-026-02696-9 The authors consider the potential conflict between renewable energy development (offshore wind) and wildlife (North Atlantic right whales, Eubalaena glacialis). They demonstrate a framework to identify trade-offs under different scenarios, maximizing conservation with minimal financial burden."
+      },
+      "time": {
+        "asserted": "2026-07-19T02:19:56.932Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "environment",
+        "citation": "https://www.nature.com/articles/s41558-026-02696-9"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "published",
+      "proposition": {
+        "predicate": "published",
+        "object": "2026-07-17"
+      },
+      "time": {
+        "asserted": "2026-07-19T02:19:56.932Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "environment",
+        "citation": "https://www.nature.com/articles/s41558-026-02696-9"
+      },
+      "status": "supported"
+    }
+  ]
+}

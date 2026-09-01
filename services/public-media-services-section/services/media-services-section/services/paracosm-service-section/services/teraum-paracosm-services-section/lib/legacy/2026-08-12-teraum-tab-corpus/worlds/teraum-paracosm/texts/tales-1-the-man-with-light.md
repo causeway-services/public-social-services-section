@@ -1,0 +1,16 @@
+---
+type: text
+name: "Tales from Teraum #1: The Man with Light"
+description: "*Tales from Teraum #1: The Man with Light* is a short story by emsenn set on the 2nd of Sleeting, 44bB — Ben Finely's lamppost-maintenance route in Ack's Brass Ward takes him past 114 Caliper Street, where Altar Sendvogue is testing a cerulean blue light (a lumorb prototype) behind shuttered windows."
+genre: story
+narrated-by: emsenn
+references: [ben-finely, altar-sendvogue, lumorb, caliper-street, twisted-alembic, brass-ward, giniper]
+---
+
+(Stub from the source — the full Tale and its planned scenes —
+Sendvogue Leaves Lab, Sendvogue Brags About Lumorb Prototype, Ben
+Observes Sendvogue's Lab Destroyed, Sendvogue Draws Schematics on
+Napkin, Giniper Meets Sendvogue at Deli, Ben Responds to Ad for
+Part-time Work Hanging Posters, Ben Walks Around — are at
+`tales-from-teraum/1.org` in the older sources. Content should be
+expanded if/when fully extracted.)

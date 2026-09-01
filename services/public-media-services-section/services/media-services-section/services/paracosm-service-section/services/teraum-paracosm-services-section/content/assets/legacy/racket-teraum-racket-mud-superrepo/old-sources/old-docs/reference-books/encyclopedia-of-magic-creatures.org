@@ -1,0 +1,128 @@
+#+SETUPFILE: ./setup.inc
+#+TITLE: Encyclopedia of Magic Creatures
+#+EXPORT_FILE_NAME: ../../pub/reference-books/encyclopedia-of-magic-creatures
+* DRAFT Introduction
+{{{document-isdraft}}}
+
+{{{document-hasproject}}}
+* DRAFT Encyclopedia of Magic Creatures
+** DRAFT Bugbears
+#+INDEX: bugbears!"Bugbears" in /Encyclopedia of Magic Creatures/
+*/Bugbears/* are a type of magic creature. They are between 8-9 feet
+tall, and usually have fur, two arms, two legs, a torso, and at least
+one head. However, individual bugbears vary by quite a big.
+*** Bugbear Culture
+Most bugbears live solitary lifestyles, though some manage to
+subjugate other creatures to establish small communities. Often,
+bugbears will occupy a goblin clan's home and enslave them, but this
+is usually beneficial to the goblins, who enjoy the protection such a
+large creature brings.
+** DRAFT Cyclopes
+   :PROPERTIES:
+   :CUSTOM_ID: cyclopes
+   :END:
+#+INDEX: cyclopes!"Cyclopes" in /Encyclopedia of Magic Creatures/
+** DRAFT Devin
+   :PROPERTIES:
+   :CUSTOM_ID: devin
+   :END:
+#+INDEX: Devin!"Devin" in /Encyclopedia of Magic Creatures/
+*/Devin/* is a magic cactus that grows somewhere in the /Unseen Sea/.
+He is approximately 120 feet tall, and has a long root which extends
+to the /Worldkeep/, into the roof of the /Knotted Hell/. Devin smokes
+cigarettes.
+** DRAFT Giant Spiders
+#+INDEX: giant spiders!"Giant Spiders" in /Encyclopedia of Magic Creatures/
+** DRAFT Goblins
+   :PROPERTIES:
+   :CUSTOM_ID: goblins
+   :END:
+#+INDEX: goblins!"Goblins" in /Encyclopedia of Magic Creatures/
+#+TOC: headlines 1 local
+*/Goblins/* are a species of /magic/ creature, and one of the oldest
+sapient species on the planet. Native to the /Widewoods/, they at one
+point settled as far as the /Central Plains/ and /Gloaming/.
+
+Members of the species are between three and four-and-a-half feet
+tall, with black hair and skin that varies in hue from blue to green.
+They are capable of respirating air with a significantly higher ratio
+of carbon-dioxide, and have excellent vision in the dark.
+
+Their small size has led to them being subjugated by many other
+species through their history, and that oppression has shaped their
+culture.
+*** DRAFT Goblin Culture
+Goblins have a strong oral history, featuring many folk heroes.
+
+They also have a long hatred of /horses/, so will gang up on them and
+eat them.
+*** DRAFT Goblin History
+#+TOC: headlines 1 local
+**** Goblins Escape the Worldkeep
+     :PROPERTIES:
+     :CUSTOM_ID: goblins-escape-the-worldkeep
+     :END:
+#+INDEX: 29400bc!"Goblins Escape the Worldkeep" in /Encyclopedia of Magic Creatures/
+In 29400bc, a clan of goblins led by /Uzdar Brag/ raided the /Knotted
+Hell/ region of the /Worldkeep/.
+** DRAFT Gods
+   :PROPERTIES:
+   :CUSTOM_ID: gods
+   :END:
+#+INDEX: gods!"Gods" in /Encyclopedia of Magic Creatures/
+The */gods/* are a collection of lifeforms whose only shared attribute
+is that they require /belief/ for sustenance.
+** DRAFT Golems
+   :PROPERTIES:
+   :CUSTOM_ID: golems
+   :END:
+#+INDEX: golems!"Golems" in /Encyclopedia of Magic Creatures/
+** DRAFT Halflings
+   :PROPERTIES:
+   :CUSTOM_ID: halflings
+   :END:
+*/Halflings/* are an extinct /magic/ species that formerly occupied
+/Halfling Country/ in the /New World/, before the /Collapse/ caused
+them to lose their sapience, and they were hunted by the /elves/.
+*** Halfling History
+**** Extinction of the Halflings
+** DRAFT Hamakings
+   :PROPERTIES:
+   :CUSTOM_ID: hamakings
+   :END:
+#+INDEX: hamakings!"Hamakings" in /Encyclopedia of Magic Creatures/
+*/Hamakings/* are a species of large predator resembling snakes with
+ featured wings.
+** DRAFT Imps
+** DRAFT Nowits
+** DRAFT Orcs
+** DRAFT Unusually Large Ravens
+*/Unusually large ravens/* are an avian species not native to Teraum.
+It is suspected that they are exploring the planet on behalf of /Odin/,
+a /god/. This suspicion is true, they are looking for one of /Odin's/
+favorite glass eyes, which is currently stitched into a /toy cyclops/.
+* DRAFT Supplements
+** DRAFT Index
+- belief ::
+- Brag, Uzdar ::
+- bugbears ::
+- Central Plains ::
+- cyclopes ::
+- elves ::
+- giant spiders ::
+- Gloaming ::
+- goblins ::
+- golems ::
+- Halfling Country ::
+- halflings ::
+- Knotted Hell ::
+- magic ::
+- Unseen Sea ::
+- Widewoods ::
+- Worldkeep :: {{{teraum-define-worldkeep}}}
+- imps ::
+- nowits ::
+- orcs ::
+- unusually large ravens ::
+- Odin ::
+- toy cyclops ::

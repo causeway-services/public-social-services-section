@@ -1,0 +1,69 @@
+{
+  "subject": "fubo-hikes-prices-by-15-after-restoring-some-nbcu-channels-lost-in-november",
+  "claims": [
+    {
+      "id": "title",
+      "proposition": {
+        "predicate": "title",
+        "object": "Fubo hikes prices by $15 after restoring some NBCU channels lost in November"
+      },
+      "time": {
+        "asserted": "2026-07-19T15:04:08.909Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "technology",
+        "citation": "https://arstechnica.com/gadgets/2026/07/fubo-hikes-prices-by-15-after-restoring-some-nbcu-channels-lost-in-november/"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "url",
+      "proposition": {
+        "predicate": "url",
+        "object": "https://arstechnica.com/gadgets/2026/07/fubo-hikes-prices-by-15-after-restoring-some-nbcu-channels-lost-in-november/"
+      },
+      "time": {
+        "asserted": "2026-07-19T15:04:08.909Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "technology",
+        "citation": "https://arstechnica.com/gadgets/2026/07/fubo-hikes-prices-by-15-after-restoring-some-nbcu-channels-lost-in-november/"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "summary",
+      "proposition": {
+        "predicate": "summary",
+        "object": "Fubo prices are going up by $15 per month because it will have some NBCUniversal channels again. For years, Fubo, a sports-centric vMVPD (virtual multichannel video programming distributor, which lets subscribers watch traditional TV channels live over the Internet), offered NBCUniversal channels. That stopped in November 2025 due to a contract dispute. With the loss of local NBC affiliates, Telemundo, nine regional sports channels, and 32 national channels, Fubo made the sensible but rare decision to lower subscription prices in December . The Essential plan went from $85 per month to $74 per month. The Pro plan dropped from $85 to $75 per month, and the Elite plan dropped from $95 to $84 per month. Read full article Comments"
+      },
+      "time": {
+        "asserted": "2026-07-19T15:04:08.909Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "technology",
+        "citation": "https://arstechnica.com/gadgets/2026/07/fubo-hikes-prices-by-15-after-restoring-some-nbcu-channels-lost-in-november/"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "published",
+      "proposition": {
+        "predicate": "published",
+        "object": "Fri, 17 Jul 2026 16:24:21 +0000"
+      },
+      "time": {
+        "asserted": "2026-07-19T15:04:08.909Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "technology",
+        "citation": "https://arstechnica.com/gadgets/2026/07/fubo-hikes-prices-by-15-after-restoring-some-nbcu-channels-lost-in-november/"
+      },
+      "status": "supported"
+    }
+  ]
+}

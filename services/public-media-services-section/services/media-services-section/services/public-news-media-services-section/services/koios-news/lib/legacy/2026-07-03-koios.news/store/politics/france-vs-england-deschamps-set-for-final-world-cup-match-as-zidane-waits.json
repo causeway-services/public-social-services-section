@@ -1,0 +1,69 @@
+{
+  "subject": "france-vs-england-deschamps-set-for-final-world-cup-match-as-zidane-waits",
+  "claims": [
+    {
+      "id": "title",
+      "proposition": {
+        "predicate": "title",
+        "object": "France vs England: Deschamps set for final World Cup match as Zidane waits"
+      },
+      "time": {
+        "asserted": "2026-07-18T07:16:08.134Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "politics",
+        "citation": "https://www.aljazeera.com/sports/2026/7/18/world-cup-france-england-third-place-playoff-deschamps-zidane-coach?traffic_source=rss"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "url",
+      "proposition": {
+        "predicate": "url",
+        "object": "https://www.aljazeera.com/sports/2026/7/18/world-cup-france-england-third-place-playoff-deschamps-zidane-coach?traffic_source=rss"
+      },
+      "time": {
+        "asserted": "2026-07-18T07:16:08.134Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "politics",
+        "citation": "https://www.aljazeera.com/sports/2026/7/18/world-cup-france-england-third-place-playoff-deschamps-zidane-coach?traffic_source=rss"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "summary",
+      "proposition": {
+        "predicate": "summary",
+        "object": "Deschamps, who led France to the 2018 World Cup title, bids farewell after Saturday's third-place playoff with England."
+      },
+      "time": {
+        "asserted": "2026-07-18T07:16:08.134Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "politics",
+        "citation": "https://www.aljazeera.com/sports/2026/7/18/world-cup-france-england-third-place-playoff-deschamps-zidane-coach?traffic_source=rss"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "published",
+      "proposition": {
+        "predicate": "published",
+        "object": "Sat, 18 Jul 2026 06:01:26 +0000"
+      },
+      "time": {
+        "asserted": "2026-07-18T07:16:08.134Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "politics",
+        "citation": "https://www.aljazeera.com/sports/2026/7/18/world-cup-france-england-third-place-playoff-deschamps-zidane-coach?traffic_source=rss"
+      },
+      "status": "supported"
+    }
+  ]
+}

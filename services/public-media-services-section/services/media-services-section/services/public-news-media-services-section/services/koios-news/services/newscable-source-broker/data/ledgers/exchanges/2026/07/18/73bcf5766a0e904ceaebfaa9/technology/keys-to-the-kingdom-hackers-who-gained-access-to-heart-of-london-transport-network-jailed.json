@@ -1,0 +1,69 @@
+{
+  "subject": "keys-to-the-kingdom-hackers-who-gained-access-to-heart-of-london-transport-network-jailed",
+  "claims": [
+    {
+      "id": "title",
+      "proposition": {
+        "predicate": "title",
+        "object": "‘Keys to the kingdom’: hackers who gained access to heart of London transport network jailed"
+      },
+      "time": {
+        "asserted": "2026-07-18T07:51:41.287Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "technology",
+        "citation": "https://www.theguardian.com/technology/2026/jul/16/hackers-2024-cyber-attack-transport-for-london-tfl-jailed"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "url",
+      "proposition": {
+        "predicate": "url",
+        "object": "https://www.theguardian.com/technology/2026/jul/16/hackers-2024-cyber-attack-transport-for-london-tfl-jailed"
+      },
+      "time": {
+        "asserted": "2026-07-18T07:51:41.287Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "technology",
+        "citation": "https://www.theguardian.com/technology/2026/jul/16/hackers-2024-cyber-attack-transport-for-london-tfl-jailed"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "summary",
+      "proposition": {
+        "predicate": "summary",
+        "object": "<p>Thalha Jubair, 20, and Owen Flowers, 19, sentenced to five and a half years each for cyber-attack that cost Transport for London £39m</p><p>The data of millions of commuters was stolen, Londoners were left out of pocket and 27,000 Transport for London staff were forced to reset their passwords.</p><p>Over four days in 2024 a pair of teenage hackers had London’s transport network at their mercy. Thalha Jubair and Owen Flowers had burrowed into the heart of Transport for London’s IT systems and held the “keys to the kingdom”.</p> <a href=\"https://www.theguardian.com/technology/2026/jul/16/hackers-2024-cyber-attack-transport-for-london-tfl-jailed\">Continue reading...</a>"
+      },
+      "time": {
+        "asserted": "2026-07-18T07:51:41.287Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "technology",
+        "citation": "https://www.theguardian.com/technology/2026/jul/16/hackers-2024-cyber-attack-transport-for-london-tfl-jailed"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "published",
+      "proposition": {
+        "predicate": "published",
+        "object": "Thu, 16 Jul 2026 12:01:51 GMT"
+      },
+      "time": {
+        "asserted": "2026-07-18T07:51:41.287Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "technology",
+        "citation": "https://www.theguardian.com/technology/2026/jul/16/hackers-2024-cyber-attack-transport-for-london-tfl-jailed"
+      },
+      "status": "supported"
+    }
+  ]
+}

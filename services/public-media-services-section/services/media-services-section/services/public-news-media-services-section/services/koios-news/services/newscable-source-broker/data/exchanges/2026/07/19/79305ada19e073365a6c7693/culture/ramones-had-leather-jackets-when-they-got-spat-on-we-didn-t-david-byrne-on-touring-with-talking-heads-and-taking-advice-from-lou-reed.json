@@ -1,0 +1,69 @@
+{
+  "subject": "ramones-had-leather-jackets-when-they-got-spat-on-we-didn-t-david-byrne-on-touring-with-talking-heads-and-taking-advice-from-lou-reed",
+  "claims": [
+    {
+      "id": "title",
+      "proposition": {
+        "predicate": "title",
+        "object": "‘Ramones had leather jackets when they got spat on. We didn’t!’ David Byrne on touring with Talking Heads and taking advice from Lou Reed"
+      },
+      "time": {
+        "asserted": "2026-07-19T15:04:21.677Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "culture",
+        "citation": "https://www.theguardian.com/music/2026/jul/09/david-byrne-reader-interview-touring-talking-heads-ramones-lou-reed"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "url",
+      "proposition": {
+        "predicate": "url",
+        "object": "https://www.theguardian.com/music/2026/jul/09/david-byrne-reader-interview-touring-talking-heads-ramones-lou-reed"
+      },
+      "time": {
+        "asserted": "2026-07-19T15:04:21.677Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "culture",
+        "citation": "https://www.theguardian.com/music/2026/jul/09/david-byrne-reader-interview-touring-talking-heads-ramones-lou-reed"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "summary",
+      "proposition": {
+        "predicate": "summary",
+        "object": "<p>As his American Utopia tour film hits cinemas, the musician answers your questions about his Scottish sense of humour, working with Brian Eno and his desire to direct another film</p><p><strong>In May 1977, Talking Heads along with </strong><strong>Ramones</strong><strong> toured the UK starting at </strong><strong>Eric’s Club in Liverpool</strong><strong>. Did touring</strong><strong> as punk</strong><strong> exploded have an impact on you? </strong><em>SpiritofWacker<br></em>There was something really great about that tour because other than maybe a few singles the audience had never seen us, so there was a lot of curiosity and openness to us and Ramones, as different as we were. Later on, fans kind of decided they liked this band or didn’t like this band, but everything happened very quickly. I remember we did a show at the Roundhouse [in London] where somebody in the audience was gobbing on the bands and, of course, Ramones really didn’t like this. Understandably enough, they didn’t see it as a sign of – ha! – respect: “We’re with you so we’re gonna spit on you.” Ramones got more of that than we did, but at least they had leather jackets. We didn’t.</p><p><strong>Ever since the Stop Making Sense tour, it seems to me that your</strong><strong> live shows ha</strong><strong>ve been a</strong><strong> quest to unchain the band from the physical restrictions of the typical rock concert. If </strong><strong>that is so, where do you go from here? </strong><em>Lucifer_Sam<br></em>From various tours I’d realised that my guitar could be wireless. Then I did a tour with St Vincent where the brass players had started in marching bands, so were used to being mobile. I thought: “OK, what about drums?” I looked at drumline in American football and samba schools in Rio. I asked my longtime percussionist Mauro [Refosco] how many players we’d need to break down the drum kit into components and he said six. I took a big gulp and said: “I think we can afford it.” Then I discovered a Hungarian company which had invented a Midi keyboard on a self-powered rack. Suddenly, the whole band were liberated to move about, which democratised the concert experience for the musicians and the audience, who get to understand what each one does.</p> <a href=\"https://www.theguardian.com/music/2026/jul/09/david-byrne-reader-interview-touring-talking-heads-ramones-lou-reed\">Continue reading...</a>"
+      },
+      "time": {
+        "asserted": "2026-07-19T15:04:21.677Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "culture",
+        "citation": "https://www.theguardian.com/music/2026/jul/09/david-byrne-reader-interview-touring-talking-heads-ramones-lou-reed"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "published",
+      "proposition": {
+        "predicate": "published",
+        "object": "Thu, 09 Jul 2026 14:00:08 GMT"
+      },
+      "time": {
+        "asserted": "2026-07-19T15:04:21.677Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "culture",
+        "citation": "https://www.theguardian.com/music/2026/jul/09/david-byrne-reader-interview-touring-talking-heads-ramones-lou-reed"
+      },
+      "status": "supported"
+    }
+  ]
+}

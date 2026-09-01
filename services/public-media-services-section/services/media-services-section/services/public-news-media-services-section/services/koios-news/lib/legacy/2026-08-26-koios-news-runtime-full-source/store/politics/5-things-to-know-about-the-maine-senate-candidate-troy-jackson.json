@@ -1,0 +1,69 @@
+{
+  "subject": "5-things-to-know-about-the-maine-senate-candidate-troy-jackson",
+  "claims": [
+    {
+      "id": "title",
+      "proposition": {
+        "predicate": "title",
+        "object": "5 Things to Know About the Maine Senate Candidate Troy Jackson"
+      },
+      "time": {
+        "asserted": "2026-07-20T09:48:45.426Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "politics",
+        "citation": "https://www.nytimes.com/2026/07/20/us/politics/troy-jackson-maine-senate.html"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "url",
+      "proposition": {
+        "predicate": "url",
+        "object": "https://www.nytimes.com/2026/07/20/us/politics/troy-jackson-maine-senate.html"
+      },
+      "time": {
+        "asserted": "2026-07-20T09:48:45.426Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "politics",
+        "citation": "https://www.nytimes.com/2026/07/20/us/politics/troy-jackson-maine-senate.html"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "summary",
+      "proposition": {
+        "predicate": "summary",
+        "object": "Mr. Jackson, who has emerged as the clear front-runner to replace Graham Platner, is a Republican turned Democrat who is seen as close to Mr. Platner on policy."
+      },
+      "time": {
+        "asserted": "2026-07-20T09:48:45.426Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "politics",
+        "citation": "https://www.nytimes.com/2026/07/20/us/politics/troy-jackson-maine-senate.html"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "published",
+      "proposition": {
+        "predicate": "published",
+        "object": "Mon, 20 Jul 2026 09:02:27 +0000"
+      },
+      "time": {
+        "asserted": "2026-07-20T09:48:45.426Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "politics",
+        "citation": "https://www.nytimes.com/2026/07/20/us/politics/troy-jackson-maine-senate.html"
+      },
+      "status": "supported"
+    }
+  ]
+}

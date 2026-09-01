@@ -1,0 +1,1 @@
+{"version":3,"file":"security.d.mts","sourceRoot":"","sources":["../../../src/server/edge/security.mts"],"names":[],"mappings":"AAAA,OAAO,KAAK,EAAE,UAAU,EAAE,eAAe,EAAE,MAAM,cAAc,CAAC;AAGhE,MAAM,MAAM,gCAAgC,GAAG,eAAe,GAAG,IAAI,CAAC;AAEtE,wBAAgB,eAAe,CAAC,MAAM,GAAE,gCAAuC,GAAG,UAAU,CAI3F;AAED,eAAO,MAAM,MAAM,wBAAkB,CAAC"}

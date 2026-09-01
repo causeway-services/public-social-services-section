@@ -1,0 +1,38 @@
+[Unit]
+Description=Settle one retained Koios ActivityPub arrival through one resumable newsroom transition
+After=network-online.target rwil-rdf-projection-service.service wit-transition-assay.service bare-cedar-fog-koios-activitypub.service inference-work-lot-service.service bare-cedar-fog-c2pa-provenance.service bare-cedar-fog-erc4337-bundler.service
+Wants=network-online.target
+Requires=rwil-rdf-projection-service.service wit-transition-assay.service bare-cedar-fog-koios-activitypub.service inference-work-lot-service.service
+
+[Service]
+Type=oneshot
+WorkingDirectory=/home/emsenn/info/lib/emsenn/services/561-group/services/rsc-quiescent/services/koios-news/sites/koios.news
+EnvironmentFile=-/home/emsenn/info/.env
+Environment=NODE_OPTIONS=--max-old-space-size=1280
+Environment=RMN_CONFORMANCE_AGENT=http://127.0.0.1:8786/.well-known/agent-card.json
+Environment=RWIL_RDF_AGENT=http://127.0.0.1:19764/.well-known/agent-card.json
+Environment=WIT_TRANSITION_ASSAY_AGENT=http://127.0.0.1:19827/.well-known/agent-card.json
+Environment=ACTIVITYPUB_INBOX_URL=https://bare-cedar-fog.561.group/actors/koios-news/inbox
+Environment=ACTIVITYPUB_INBOX_TRANSPORT_URL=http://127.0.0.1:8794/actors/koios-news/inbox
+Environment=ACTIVITYPUB_INBOX_BEARER_TOKEN_FILE=/home/emsenn/.local/share/emsenn/activitypub/koios-inbox.token
+Environment=INFERENCE_WORK_LOT_AGENT_CARD_URL=http://127.0.0.1:8796/.well-known/agent-card.json
+Environment=KOIOS_INDEPENDENT_EDITORIAL_ASSESSMENT_ROOT=/home/emsenn/info/lib/emsenn/services/561-group/services/rsc-quiescent/services/koios-news/services/independent-editorial-assessment
+Environment=KOIOS_NEWSWIRE_EDITORIAL_PRODUCTION_ROOT=/home/emsenn/info/lib/emsenn/services/561-group/services/rsc-quiescent/services/koios-news/services/newswire-editorial-production
+Environment=KOIOS_NEWSCABLE_SOURCE_BROKER_ROOT=/home/emsenn/info/lib/emsenn/services/561-group/services/rsc-quiescent/services/koios-news/services/newscable-source-broker
+Environment=KOIOS_WEB_SOURCE_ACQUISITION_ROOT=/home/emsenn/info/lib/emsenn/services/561-group/services/rsc-quiescent/services/koios-news/services/web-source-acquisition
+Environment=KOIOS_CORPUS_MANAGEMENT_TEAM_ROOT=/home/emsenn/info/lib/emsenn/services/561-group/services/board-of-directors/services/executive-office/services/knowledge-services-section/services/corpus-management-team
+Environment=KOIOS_RESOURCE_BROKERAGE_TEAM_ROOT=/home/emsenn/info/lib/emsenn/services/561-group/services/board-of-directors/services/executive-office/services/change-services-section/services/resource-brokerage-team
+Environment=C2PA_AGENT=http://127.0.0.1:8792/.well-known/agent-card.json
+Environment=EVM_RPC_URL=http://127.0.0.1:8545
+Environment=ERC4337_BUNDLER_URL=http://127.0.0.1:4337
+Environment=KOIOS_EVM_PASSWORD_FILE=/home/emsenn/.local/share/emsenn/settlement-credentials/5fbdae8a7e345595added81300e0ca48ed3ef90b33a3b6033bbdbac0057d864f/eip155-31337.password
+ExecStart=/home/emsenn/.config/nvm/versions/node/v24.13.1/bin/node dist/operate-activitypub-inbox.mjs --operation pull-and-settle-next
+TimeoutStartSec=35min
+Nice=10
+CPUWeight=50
+IOWeight=50
+MemoryHigh=35%
+MemoryMax=50%
+TasksMax=192
+NoNewPrivileges=true
+PrivateTmp=true

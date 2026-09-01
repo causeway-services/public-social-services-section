@@ -1,0 +1,31 @@
+{
+  "type": "DiscordNewsTerritorySpecification",
+  "version": 1,
+  "customer": "urn:ame:turntide-islands",
+  "guildId": "1184863861065658419",
+  "period": "PT1H",
+  "firstWindowToInclusive": "2026-07-21T17:00:00.000Z",
+  "lanes": [
+    {
+      "edition": "union",
+      "category": "UHC Embassy",
+      "channel": "union-news-service",
+      "channelId": "1529174199971610855",
+      "topic": "Hourly, source-bound news editions supplied by the Union News Service.",
+      "audience": {
+        "kind": "admitted-role",
+        "role": "UHC member",
+        "members": ["681333902740160598"],
+        "admissionBasis": "leader direction 2026-07-21: the TTI leader is presently the only TTI user who is also in the UHC"
+      }
+    },
+    {
+      "edition": "colonial",
+      "category": "TTI Governance",
+      "channel": "colonial-news-service",
+      "channelId": "1529174202597249125",
+      "topic": "Hourly Turntide Islands colony updates supplied under contract by the Colonial News Service.",
+      "audience": { "kind": "everyone" }
+    }
+  ]
+}

@@ -1,0 +1,86 @@
+{
+  "type": "TTIVaultSubscriptionPaymentProviderSolicitation",
+  "version": 2,
+  "id": "tti-vault-subscription-payment-provider-solicitation-2026-01",
+  "status": "request-for-offer-not-provider-accepted",
+  "offerBoundary": {
+    "contract": "ni:///sha-256;5FDqaxh3jvPkeAKcTstOGLm8tvrFHea7S5zb06wMX2w",
+    "endpoint": "/membership/payment-provider/offer",
+    "contentType": "application/activity+json",
+    "authentication": "Dedicated bearer contract token distinct from checkout and lifecycle-receipt credentials; secret bytes are never recorded.",
+    "offerType": "TTIVaultSubscriptionProviderServiceOffer",
+    "requiredBindings": ["self content identity", "this exact solicitation digest", "provider and customer", "product/offering/plan", "merchant and beneficiary", "price/recurrence/quantity", "checkout/webhook/receipt-delivery contracts", "all ten requirement evidence sets", "provider witness", "bounded attributable-cost quote and receipt schema", "validity window"],
+    "decision": "TTI appends an independent TTIVaultProviderOfferAdmissionDecision that may only qualify the offer for testing. After seven exact customer-observed tests cover all ten requirements, a separate non-synthetic TTIVaultProviderOperationalAdmissionDecision may satisfy the later activation's providerOffering evidence slot."
+  },
+  "customer": "urn:ame:turntide-islands",
+  "targetProvider": "urn:ame:stripe-payment-acceptance-enterprise",
+  "legalMerchant": "emsenn",
+  "beneficiarySettlement": "urn:ame:turntide-islands",
+  "product": {
+    "productId": "tti-founding-knowledge-vault-2026-01",
+    "offeringId": "tti-founding-knowledge-vault-monthly",
+    "planId": "vault-subscriber-monthly",
+    "mode": "subscription",
+    "currency": "usd",
+    "unitAmount": 500,
+    "billingPeriod": "P1M",
+    "quantity": { "minimum": 1, "maximum": 1 }
+  },
+  "boundaryOwnership": {
+    "provider": [
+      "Stripe credentials and account configuration",
+      "Fixed provider catalog offering and price derivation",
+      "Idempotent hosted Checkout Session creation",
+      "Raw Stripe webhook signature verification and event deduplication",
+      "Privacy-preserving provider checkout and lifecycle receipts",
+      "Provider fee and Stripe processing-cost receipts"
+    ],
+    "customer": [
+      "Discord identity and private checkout invitation",
+      "Opaque order reference and local Discord-account binding",
+      "Product terms, entitlement decisions, Discord role fulfillment, content fulfillment, customer support, and books",
+      "Independent receipt admission, revenue recognition, cost attribution, retention, and profit measurement"
+    ]
+  },
+  "requiredCapabilities": [
+    { "id": "REQ-PAY-001", "must": "Offer exactly the fixed product, offering, plan, subscription mode, USD 500-cent P1M price, quantity one, beneficiary, and legal merchant named above.", "evidence": "Provider-authored catalog receipt bound to the potential provider contract." },
+    { "id": "REQ-PAY-002", "must": "Derive all Stripe price and recurrence fields from the admitted provider catalog; refuse caller price, currency, interval, mode, quantity, and beneficiary overrides.", "evidence": "Mutation and negative acceptance tests plus provider service offer digest." },
+    { "id": "REQ-PAY-003", "must": "Create subscription-mode Checkout idempotently from the customer solicitation while keeping Discord identity outside the provider boundary.", "evidence": "Test-mode Checkout receipt showing opaque order/request correlation and no Discord identifier or buyer payment data." },
+    { "id": "REQ-PAY-004", "must": "Propagate request_digest, offering_id, and customer_settlement correlation to the created Subscription and recurring Invoices, not only the Checkout Session.", "evidence": "Test-mode provider receipts for Checkout, Subscription, and first and second Invoice sharing the admitted correlation." },
+    { "id": "REQ-PAY-005", "must": "Verify raw Stripe signatures, enforce replay tolerance and body bounds, deduplicate, and keep raw bodies and buyer personal/payment data inside the provider boundary.", "evidence": "Provider webhook-law tests and privacy-preserving event receipt." },
+    { "id": "REQ-PAY-006", "must": "Emit authenticated full provider receipts for checkout.session.completed, checkout.session.expired, invoice.paid, invoice.payment_failed, customer.subscription.updated, customer.subscription.deleted, charge.refunded, and dispute/chargeback lifecycle events.", "evidence": "Provider-authored event capability manifest and test receipts delivered across the customer contract." },
+    { "id": "REQ-PAY-007", "must": "Treat every provider receipt as evidence offered to TTI and never directly write TTI orders, entitlements, Discord roles, fulfillment records, revenue, profit, or books.", "evidence": "Contract law and tests proving zero customer-settlement mutations." },
+    { "id": "REQ-PAY-008", "must": "Deliver full privacy-preserving receipts to TTI through an authenticated, idempotent inter-enterprise boundary and support customer acknowledgment/retry.", "evidence": "Receipt-delivery contract, authentication evidence, duplicate delivery test, and TTI acknowledgment receipt." },
+    { "id": "REQ-PAY-009", "must": "Separate test and live catalogs/credentials; a test offering or synthetic receipt can never activate live Checkout, entitlement, revenue, or profit.", "evidence": "Credential-mode and catalog-mode refusal tests." },
+    { "id": "REQ-PAY-010", "must": "Quote and receipt all provider charges, Stripe processing fees, refunds, disputes, chargebacks, taxes collected, and payout adjustments at the event or settlement boundary TTI needs for honest unit economics.", "evidence": "Provider fee schedule and per-period cost/payout receipt schema." }
+  ],
+  "eventConsequences": [
+    { "eventType": "checkout.session.completed", "providerMeaning": "Initial Checkout completed with declared payment state", "ttiConsequence": "Independent initial entitlement admission only when correlation, offering, mode, and paid state pass" },
+    { "eventType": "checkout.session.expired", "providerMeaning": "Hosted Checkout expired without completion", "ttiConsequence": "Close or re-offer the pending checkout binding; never infer payment, entitlement, or revenue" },
+    { "eventType": "invoice.paid", "providerMeaning": "Initial or renewal invoice paid", "ttiConsequence": "Independent paid-through/renewal admission" },
+    { "eventType": "invoice.payment_failed", "providerMeaning": "Invoice collection failed", "ttiConsequence": "Dunning/grace review; never immediate invented profit or refund" },
+    { "eventType": "customer.subscription.updated", "providerMeaning": "Subscription lifecycle changed", "ttiConsequence": "Independent status and paid-through reconciliation" },
+    { "eventType": "customer.subscription.deleted", "providerMeaning": "Subscription ended", "ttiConsequence": "Independent cancellation/end-of-access reconciliation" },
+    { "eventType": "charge.refunded", "providerMeaning": "Correlated charge was partially or fully refunded", "ttiConsequence": "Independent entitlement/economics review based on amount and paid-through law" },
+    { "eventType": "dispute.created-or-updated", "providerMeaning": "Correlated payment entered dispute lifecycle", "ttiConsequence": "Independent risk, reserve, access, and economics review" }
+  ],
+  "economics": {
+    "customerPriceHypothesis": { "currency": "usd", "unitAmount": 500, "billingPeriod": "P1M" },
+    "providerCostCeilingHypothesis": { "currency": "usd", "unitAmount": 100, "basis": "per successfully settled subscriber-month including payment processing and provider service, before refunds/disputes/tax" },
+    "targetPreFulfillmentContribution": { "currency": "usd", "minimumUnitAmount": 400, "status": "hypothesis-not-profit" },
+    "unknowns": ["Stripe account fee schedule", "provider service fee", "tax cost", "refund/dispute/chargeback incidence", "payout timing", "Vault fulfillment labor and inference cost", "support and moderation cost"],
+    "rule": "The ceiling is a TTI procurement hypothesis, not a provider offer or accepted cost. Profit remains unknown until externally settled revenue and all attributable costs are receipted."
+  },
+  "activationSequence": [
+    "Provider returns a content-addressed ActivityStreams service offer and cost quote through the dedicated authenticated offer boundary",
+    "TTI witnesses the ingress and appends a qualified-for-test or refused customer-side offer decision",
+    "TTI runs all test-mode acceptance and negative tests",
+    "TTI appends a separate operational admission only when seven self-addressed customer-observed test receipts pass all ten requirements",
+    "Provider and TTI witness test receipts and compatibility reading through their own WitnessJournal providers",
+    "Leader and qualified reviewers admit complete commercial, tax, privacy, refund, cancellation, dispute, payout, and fulfillment terms",
+    "Public HTTPS and both authenticated service borders are proven",
+    "Separate live activation evidence binds exact catalog, contracts, terms, territory, and role",
+    "One explicitly authorized low-volume pilot may begin; no bulk or retroactive charging"
+  ],
+  "neverEvidence": "This solicitation, source inspection, code, a test offer, a Checkout Session, a Discord role, or a provider estimate is not provider acceptance, payment, revenue, entitlement, fulfillment, or profit."
+}

@@ -1,0 +1,69 @@
+{
+  "subject": "bruno-mars-review-half-seedy-club-half-church-service-as-diminutive-singer-answers-fans-prayers",
+  "claims": [
+    {
+      "id": "title",
+      "proposition": {
+        "predicate": "title",
+        "object": "Bruno Mars review – half seedy club, half church service as diminutive singer answers fans’ prayers"
+      },
+      "time": {
+        "asserted": "2026-07-20T09:48:52.265Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "culture",
+        "citation": "https://www.theguardian.com/music/2026/jul/19/bruno-mars-review-wembley-stadium-london-romantic-tour"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "url",
+      "proposition": {
+        "predicate": "url",
+        "object": "https://www.theguardian.com/music/2026/jul/19/bruno-mars-review-wembley-stadium-london-romantic-tour"
+      },
+      "time": {
+        "asserted": "2026-07-20T09:48:52.265Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "culture",
+        "citation": "https://www.theguardian.com/music/2026/jul/19/bruno-mars-review-wembley-stadium-london-romantic-tour"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "summary",
+      "proposition": {
+        "predicate": "summary",
+        "object": "<p><strong>Wembley Stadium, London</strong><br>Mars sings every line like it’s his big solo in a show that leans more on his stage presence than pyro and pageantry</p><p>Wembley Stadium is awash with crimson as the Bruno Mars operation rolls into town for the first of a six night run. The tour is named for the diminutive singer’s <a href=\"https://www.theguardian.com/music/2026/feb/27/bruno-mars-the-romantic-review-youre-better-off-listening-to-the-songs-hes-blatantly-imitating\">2026 album The Romantic</a>. Mars is feeling amorous and the Saturday night crowd is very happy to be romanced, clad in red and brandishing hand fans that read “Hot for Bruno”.</p><p>He starts with a prayer, a kitschy video in which he asks for a hand giving the audience a show we’ll never forget, before emerging in a puff of dry ice. Stained glass behind him and twinkling fairy lights all around, it’s half seedy club, half church service as he barrels into Risk It All. Is this show meant to be a spaghetti western or a 50s high school prom? The Romantic Tour bravely asks: why not both?</p> <a href=\"https://www.theguardian.com/music/2026/jul/19/bruno-mars-review-wembley-stadium-london-romantic-tour\">Continue reading...</a>"
+      },
+      "time": {
+        "asserted": "2026-07-20T09:48:52.265Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "culture",
+        "citation": "https://www.theguardian.com/music/2026/jul/19/bruno-mars-review-wembley-stadium-london-romantic-tour"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "published",
+      "proposition": {
+        "predicate": "published",
+        "object": "Sun, 19 Jul 2026 10:19:58 GMT"
+      },
+      "time": {
+        "asserted": "2026-07-20T09:48:52.265Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "culture",
+        "citation": "https://www.theguardian.com/music/2026/jul/19/bruno-mars-review-wembley-stadium-london-romantic-tour"
+      },
+      "status": "supported"
+    }
+  ]
+}

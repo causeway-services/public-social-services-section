@@ -1,0 +1,69 @@
+{
+  "subject": "flavours-of-iraq-review-vivid-childhood-memories-of-80s-baghdad-from-writer-in-paris-exile",
+  "claims": [
+    {
+      "id": "title",
+      "proposition": {
+        "predicate": "title",
+        "object": "Flavours of Iraq review – vivid childhood memories of 80s Baghdad from writer in Paris exile"
+      },
+      "time": {
+        "asserted": "2026-07-20T09:48:52.265Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "culture",
+        "citation": "https://www.theguardian.com/film/2026/jul/20/flavours-of-iraq-review-animation"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "url",
+      "proposition": {
+        "predicate": "url",
+        "object": "https://www.theguardian.com/film/2026/jul/20/flavours-of-iraq-review-animation"
+      },
+      "time": {
+        "asserted": "2026-07-20T09:48:52.265Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "culture",
+        "citation": "https://www.theguardian.com/film/2026/jul/20/flavours-of-iraq-review-animation"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "summary",
+      "proposition": {
+        "predicate": "summary",
+        "object": "<p>Powerful animation portrays experiences of a French-Iraqi journalist Feurat Alani, with anecdotes about his father, a prominent leftist exile</p><p>With a title translated a little inelegantly from Le Parfum d’Irak to “flavours of Iraq” when “the perfume of Iraq” might have been simpler and better, this film is a powerful, vivid animation co-directed by Léonard Cohen with its author, French-Iraqi journalist Feurat Alani, robustly narrated in Alani’s first-person by the actor Malik Zidi. The animation style is stylised and expressionist: shapes and forms like silhouette cutouts suggest the piercingly insistent forms of memory.</p><p>It is about Alani’s childhood and fractured family experience growing up in Paris in the 80s as the son of a prominent leftist Iraqi exile who was forced out of his native country on account of his opposition to Saddam Hussein. The story itself is told through a loose series of flashbacks occasioned by his father’s funeral, at which mourners, members of Iraq’s 1970s socialist diaspora brought together by his death, start recounting anecdotes. To these, Alani adds his own reminiscences of going back to see his extended family in Iraq at the end of the 80s, and experiencing the madeleines of those flavours and smells of Baghdad and Falluja: the delicious taste of ice-cream and the fragrances of young men’s exotic hair oil.</p> <a href=\"https://www.theguardian.com/film/2026/jul/20/flavours-of-iraq-review-animation\">Continue reading...</a>"
+      },
+      "time": {
+        "asserted": "2026-07-20T09:48:52.265Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "culture",
+        "citation": "https://www.theguardian.com/film/2026/jul/20/flavours-of-iraq-review-animation"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "published",
+      "proposition": {
+        "predicate": "published",
+        "object": "Mon, 20 Jul 2026 06:00:48 GMT"
+      },
+      "time": {
+        "asserted": "2026-07-20T09:48:52.265Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "culture",
+        "citation": "https://www.theguardian.com/film/2026/jul/20/flavours-of-iraq-review-animation"
+      },
+      "status": "supported"
+    }
+  ]
+}

@@ -1,0 +1,69 @@
+{
+  "subject": "23-responses-to-economics-biggest-ever-question",
+  "claims": [
+    {
+      "id": "title",
+      "proposition": {
+        "predicate": "title",
+        "object": "23 Responses to Economics’ Biggest-ever Question"
+      },
+      "time": {
+        "asserted": "2026-07-18T07:51:44.480Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "degrowth",
+        "citation": "https://rwer.wordpress.com/2026/07/14/23-responses-to-economics-biggest-ever-question/"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "url",
+      "proposition": {
+        "predicate": "url",
+        "object": "https://rwer.wordpress.com/2026/07/14/23-responses-to-economics-biggest-ever-question/"
+      },
+      "time": {
+        "asserted": "2026-07-18T07:51:44.480Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "degrowth",
+        "citation": "https://rwer.wordpress.com/2026/07/14/23-responses-to-economics-biggest-ever-question/"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "summary",
+      "proposition": {
+        "predicate": "summary",
+        "object": "Economicsandthe Biophysical Limits to Economic Growth Edited by Edward Fullbrook and Jamie Morgan For over a century economics has loosely guided the global economy’s national economies. Natural science tells us that the climate crisis has been both caused by the global economy and ultimately threatens its existence. Because that crisis is now in an accelerating phase […]"
+      },
+      "time": {
+        "asserted": "2026-07-18T07:51:44.480Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "degrowth",
+        "citation": "https://rwer.wordpress.com/2026/07/14/23-responses-to-economics-biggest-ever-question/"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "published",
+      "proposition": {
+        "predicate": "published",
+        "object": "Tue, 14 Jul 2026 10:12:48 +0000"
+      },
+      "time": {
+        "asserted": "2026-07-18T07:51:44.480Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "degrowth",
+        "citation": "https://rwer.wordpress.com/2026/07/14/23-responses-to-economics-biggest-ever-question/"
+      },
+      "status": "supported"
+    }
+  ]
+}

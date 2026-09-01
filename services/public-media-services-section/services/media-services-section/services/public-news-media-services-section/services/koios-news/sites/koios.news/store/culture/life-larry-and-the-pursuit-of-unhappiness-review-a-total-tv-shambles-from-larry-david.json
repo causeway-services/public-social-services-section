@@ -1,0 +1,69 @@
+{
+  "subject": "life-larry-and-the-pursuit-of-unhappiness-review-a-total-tv-shambles-from-larry-david",
+  "claims": [
+    {
+      "id": "title",
+      "proposition": {
+        "predicate": "title",
+        "object": "Life, Larry and the Pursuit of Unhappiness review – a total TV shambles from Larry David"
+      },
+      "time": {
+        "asserted": "2026-07-19T14:42:05.531Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "culture",
+        "citation": "https://www.theguardian.com/tv-and-radio/2026/jun/27/life-larry-and-the-pursuit-of-unhappiness-review-larry-david-shambles"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "url",
+      "proposition": {
+        "predicate": "url",
+        "object": "https://www.theguardian.com/tv-and-radio/2026/jun/27/life-larry-and-the-pursuit-of-unhappiness-review-larry-david-shambles"
+      },
+      "time": {
+        "asserted": "2026-07-19T14:42:05.531Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "culture",
+        "citation": "https://www.theguardian.com/tv-and-radio/2026/jun/27/life-larry-and-the-pursuit-of-unhappiness-review-larry-david-shambles"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "summary",
+      "proposition": {
+        "predicate": "summary",
+        "object": "<p>There are glimpses of the Curb star at his razor-like best here – but they are desperately few. It’s mainly worth watching for the immaculate Obama intro</p><p>It is always an emotional blow to see former US president Barack Obama pop up on one’s screen. The Instagram algorithm sends me a lot of him, because it knows I always click on him being charming with babies, statesmanlike in speeches, cool at rallies, articulate and witty at anything, endlessly composed, compassionate, intelligent, handsome, thoughtful – a fully functioning adult human, if you want the short version. The algorithm does not know that I jack-knife in pain before I click and weep softly at how far we – the US sneezed, but the UK has surely caught a cold – have fallen.</p><p>And then he turns up at the beginning of Life, Larry and the Pursuit of Unhappiness: an Almost History of America (one of the offspring of his and Michelle’s TV company, Higher Ground Productions) to remind us that on top of all that he also has immaculate comic timing. As he walks through what I assume is the new Barack Obama Presidential Center, he modulates his performance so beautifully that I almost began to softly weep again. If I’d known what a shambles was to follow after this masterclass, I would have sobbed.</p> <a href=\"https://www.theguardian.com/tv-and-radio/2026/jun/27/life-larry-and-the-pursuit-of-unhappiness-review-larry-david-shambles\">Continue reading...</a>"
+      },
+      "time": {
+        "asserted": "2026-07-19T14:42:05.531Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "culture",
+        "citation": "https://www.theguardian.com/tv-and-radio/2026/jun/27/life-larry-and-the-pursuit-of-unhappiness-review-larry-david-shambles"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "published",
+      "proposition": {
+        "predicate": "published",
+        "object": "Sat, 27 Jun 2026 11:00:03 GMT"
+      },
+      "time": {
+        "asserted": "2026-07-19T14:42:05.531Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "culture",
+        "citation": "https://www.theguardian.com/tv-and-radio/2026/jun/27/life-larry-and-the-pursuit-of-unhappiness-review-larry-david-shambles"
+      },
+      "status": "supported"
+    }
+  ]
+}

@@ -1,0 +1,69 @@
+{
+  "subject": "uk-s-josh-kerr-smashes-longstanding-world-mile-record-in-london",
+  "claims": [
+    {
+      "id": "title",
+      "proposition": {
+        "predicate": "title",
+        "object": "UK’s Josh Kerr smashes longstanding world mile record in London"
+      },
+      "time": {
+        "asserted": "2026-07-18T19:52:24.428Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "politics",
+        "citation": "https://www.aljazeera.com/sports/2026/7/18/uks-josh-kerr-smashes-longstanding-world-mile-record-in-london?traffic_source=rss"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "url",
+      "proposition": {
+        "predicate": "url",
+        "object": "https://www.aljazeera.com/sports/2026/7/18/uks-josh-kerr-smashes-longstanding-world-mile-record-in-london?traffic_source=rss"
+      },
+      "time": {
+        "asserted": "2026-07-18T19:52:24.428Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "politics",
+        "citation": "https://www.aljazeera.com/sports/2026/7/18/uks-josh-kerr-smashes-longstanding-world-mile-record-in-london?traffic_source=rss"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "summary",
+      "proposition": {
+        "predicate": "summary",
+        "object": "Kerr ran a 3:42.66 mile at the London Diamond League, smashing Hicham El Guerrouj’s world record by 0.47 seconds."
+      },
+      "time": {
+        "asserted": "2026-07-18T19:52:24.428Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "politics",
+        "citation": "https://www.aljazeera.com/sports/2026/7/18/uks-josh-kerr-smashes-longstanding-world-mile-record-in-london?traffic_source=rss"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "published",
+      "proposition": {
+        "predicate": "published",
+        "object": "Sat, 18 Jul 2026 17:29:23 +0000"
+      },
+      "time": {
+        "asserted": "2026-07-18T19:52:24.428Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "politics",
+        "citation": "https://www.aljazeera.com/sports/2026/7/18/uks-josh-kerr-smashes-longstanding-world-mile-record-in-london?traffic_source=rss"
+      },
+      "status": "supported"
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "kind": "koios.service-contract",
+  "id": "koios-liss-editorial-judgment",
+  "customer": "koios-news",
+  "provider": "logical-inference-service-section",
+  "service": "independent-editorial-judgment",
+  "precondition": "Koios supplies one immutable manuscript, deterministic standards findings, its production run, the witnessed source records available to that run, and—when a gate failed—the operative assignments, skills, scripts, configuration, and prompting code that produced it.",
+  "move": "LISS executes Koios's editorial and failed-pipeline-diagnosis instructions through one explicitly contracted leader-claude tier using claude-sonnet-4-6 and returns an accept, revise, or refuse judgment plus the earliest causal layer to improve and replay.",
+  "postcondition": "Koios appends the judgment under data/editorial-judgments; publication is admissible only when deterministic standards are clear and the independent judgment says accept and publishable true.",
+  "authority": "The Leader sets editorial law; routine manuscript judgment is delegated to Koios's editorial duty and performed by LISS without a per-article human gate.",
+  "refusal": ["missing-manuscript", "missing-provider-offer", "provider-refusal", "unusable-judgment-carrier", "invalid-disposition"],
+  "evidence": ["manuscript-digest", "provider-result", "model", "findings", "claim-audit", "required-repairs", "pipeline-diagnosis", "replay-point"]
+}

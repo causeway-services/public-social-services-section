@@ -1,0 +1,9 @@
+{
+  "kind": "koios.duty",
+  "id": "settling-source-bundles",
+  "office": "source-desk",
+  "precondition": "Koios has an exact source demand and a provider exposes an executable source-bundle offer.",
+  "move": "Accept the exact zero-price offer, receive provider-owned immutable bundles, verify delivery and bundle digests, then independently admit, retain, collide, or refuse each subject.",
+  "postcondition": "Provider and Koios retain separate causal records; Koios's source corpus changes only through its own exclusive-create admission boundary.",
+  "refusals": ["no addressed provider offer", "changed demand digest", "unsafe wire or subject", "bundle digest mismatch", "undeclared wire", "provider attempted customer write"]
+}

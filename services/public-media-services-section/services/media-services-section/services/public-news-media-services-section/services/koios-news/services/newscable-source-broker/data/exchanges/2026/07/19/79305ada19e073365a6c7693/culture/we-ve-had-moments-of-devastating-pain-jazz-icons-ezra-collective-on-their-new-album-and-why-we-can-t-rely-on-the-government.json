@@ -1,0 +1,69 @@
+{
+  "subject": "we-ve-had-moments-of-devastating-pain-jazz-icons-ezra-collective-on-their-new-album-and-why-we-can-t-rely-on-the-government",
+  "claims": [
+    {
+      "id": "title",
+      "proposition": {
+        "predicate": "title",
+        "object": "‘We’ve had moments of devastating pain’: jazz icons Ezra Collective on their new album – and why we can’t rely on the government"
+      },
+      "time": {
+        "asserted": "2026-07-19T15:04:21.677Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "culture",
+        "citation": "https://www.theguardian.com/music/2026/jul/09/weve-had-moments-of-devastating-pain-jazz-icons-ezra-collective-on-their-new-album-and-why-we-cant-rely-on-the-government"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "url",
+      "proposition": {
+        "predicate": "url",
+        "object": "https://www.theguardian.com/music/2026/jul/09/weve-had-moments-of-devastating-pain-jazz-icons-ezra-collective-on-their-new-album-and-why-we-cant-rely-on-the-government"
+      },
+      "time": {
+        "asserted": "2026-07-19T15:04:21.677Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "culture",
+        "citation": "https://www.theguardian.com/music/2026/jul/09/weve-had-moments-of-devastating-pain-jazz-icons-ezra-collective-on-their-new-album-and-why-we-cant-rely-on-the-government"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "summary",
+      "proposition": {
+        "predicate": "summary",
+        "object": "<p>Speaking at a Guardian Live event at Love Supreme festival, the band tell us about lessons with Tony Allen, mayhem in Lagos and why musicians should be ‘pillars of the community’</p><p>At Sussex’s Love Supreme festival last weekend, Femi Koleoso and James Mollison of British jazz figureheads <a href=\"https://www.theguardian.com/music/2024/oct/13/ezra-collective-dance-no-ones-watching-mercury-prize-youth-clubs\">Ezra Collective</a> joined me for a wide-ranging conversation on their artistry, the power of the dancefloor and hopes for the future of British music.</p><p>With Koleoso noting that “dancefloors are dancefloors, whether it’s people with instruments or people with turntables, there’s a synergy between all those spaces”, the pair reminisced about some of their own favourite dancefloor memories. Mollison mentioned east London’s now-shuttered Passing Clouds, while Koleoso remembered north London’s University of Dub night at the Scala, as well as Sunday sessions at the Haggerston pub, where a jazz jam would take place at the same time as a disco night: “I was so conflicted on which room to go to!”</p> <a href=\"https://www.theguardian.com/music/2026/jul/09/weve-had-moments-of-devastating-pain-jazz-icons-ezra-collective-on-their-new-album-and-why-we-cant-rely-on-the-government\">Continue reading...</a>"
+      },
+      "time": {
+        "asserted": "2026-07-19T15:04:21.677Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "culture",
+        "citation": "https://www.theguardian.com/music/2026/jul/09/weve-had-moments-of-devastating-pain-jazz-icons-ezra-collective-on-their-new-album-and-why-we-cant-rely-on-the-government"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "published",
+      "proposition": {
+        "predicate": "published",
+        "object": "Thu, 09 Jul 2026 15:12:35 GMT"
+      },
+      "time": {
+        "asserted": "2026-07-19T15:04:21.677Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "culture",
+        "citation": "https://www.theguardian.com/music/2026/jul/09/weve-had-moments-of-devastating-pain-jazz-icons-ezra-collective-on-their-new-album-and-why-we-cant-rely-on-the-government"
+      },
+      "status": "supported"
+    }
+  ]
+}

@@ -1,0 +1,70 @@
+{
+  "kind": "rendanheyi-internal-node-service-contract",
+  "id": "koios.news/publication-cycle/v1",
+  "owner": "koios.news",
+  "customer": "urn:ame:koios.news",
+  "provider": "urn:micro-enterprise:koios.news:publication-operations",
+  "service": "operate one publication pulse against Koios's reader and outside-revenue outcomes",
+  "ingress": "one ScheduleDelivery-delivered ActivityStreams Create<NewsroomIssueDemand> carrying Koios's standing internal order and an admitted delivery capability",
+  "economicChain": {
+    "marketMicroEnterprise": "urn:ame:koios.news",
+    "internalServiceCustomer": "Koios.News",
+    "endUsers": "readers who choose Koios reporting",
+    "revenueCounterparties": [
+      "advertisers",
+      "outside buyers of Koios publication products"
+    ],
+    "internalPurchase": {
+      "commodity": "one settled publication cycle",
+      "consideration": "one publication-cycle-service-credit",
+      "buyer": "urn:ame:koios.news",
+      "seller": "urn:micro-enterprise:koios.news:publication-operations",
+      "books": "a bilateral receipt creates a Koios buyer debit and publication-operations seller credit"
+    },
+    "nodeIncomeRule": "publication operations sells each settled cycle to Koios and participates in externally evidenced article value-added after attributable costs",
+    "consolidationRule": "the internal buyer debit and seller credit eliminate one-for-one in Koios-wide profit; external receipts and outside costs do not",
+    "zeroExternalValueRule": "without reader or outside-revenue evidence, value-added payout is unproven and may be zero"
+  },
+  "transport": {
+    "provider": "urn:colony:cold-red-gate:clockkeeper",
+    "role": "deliver the standing order on schedule and return the target receipt",
+    "notRoles": [
+      "customer",
+      "publisher",
+      "newsroom operator",
+      "source desk",
+      "editor"
+    ],
+    "deliveryCheck": {
+      "intervalSeconds": 1800,
+      "rule": "ScheduleDelivery checks whether Koios's standing order is due; Koios's issue controller alone decides whether the six-hour publication cadence admits work.",
+      "phaseRule": "the delivery-check interval must remain shorter than the publication minimum so a successful issue cannot phase-shift the next opportunity by a whole cadence"
+    }
+  },
+  "preconditions": [
+    "operate-issue is advertised by Koios with this exact contract",
+    "the issue controller settles the exact pulse before any newsroom work begins",
+    "only an accepted controller settlement may nominate the assignment supplied to the newsroom circuit"
+  ],
+  "postconditions": [
+    "a controller refusal is returned byte-for-byte as the terminal response",
+    "a newsroom refusal or obstruction returns one typed PublicationCycleSettlement naming the earliest observed failure and required next demand",
+    "editorially accepted work produces one verified production-indexable cutover candidate, never a shadow artifact",
+    "candidate formation returns a StaticPublicationDeliveryDemand and does not claim live publication before Cloudflare delivery settles",
+    "every terminal result is appended to Koios's contract-event ledger and is suitable for a ScheduleDelivery delivery receipt"
+  ],
+  "prohibitions": [
+    "ScheduleDelivery does not source, write, edit, publish, deploy, retry, or repair",
+    "the composed operation does not impersonate Newscable, Corpus Management, LISS, editorial assessment, or Cloudflare delivery",
+    "a local candidate is never represented as live public delivery",
+    "no hidden provider fallback and no ambient customer or provider filesystem authority",
+    "an internal sale, invoice, effort, or completed cycle is never represented as outside revenue or external user value",
+    "ScheduleDelivery transport is never represented as the economic customer"
+  ],
+  "currentClosure": {
+    "controller": "executing",
+    "newsroom": "executing only where its sovereign provider carriers are reachable",
+    "candidate": "executing",
+    "cloudflareDelivery": "executing through cloudflare-primary-static-release/v1; candidate formation is deliberately settled by a subsequent low-memory pulse"
+  }
+}

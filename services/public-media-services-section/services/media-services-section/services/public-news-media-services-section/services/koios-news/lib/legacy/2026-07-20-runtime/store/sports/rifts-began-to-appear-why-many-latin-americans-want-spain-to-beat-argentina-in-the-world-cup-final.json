@@ -1,0 +1,69 @@
+{
+  "subject": "rifts-began-to-appear-why-many-latin-americans-want-spain-to-beat-argentina-in-the-world-cup-final",
+  "claims": [
+    {
+      "id": "title",
+      "proposition": {
+        "predicate": "title",
+        "object": "‘Rifts began to appear’: Why many Latin Americans want Spain to beat Argentina in the World Cup final"
+      },
+      "time": {
+        "asserted": "2026-07-19T15:58:02.610Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "sports",
+        "citation": "https://www.theguardian.com/football/2026/jul/18/argentina-spain-latin-america-support-world-cup-final"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "url",
+      "proposition": {
+        "predicate": "url",
+        "object": "https://www.theguardian.com/football/2026/jul/18/argentina-spain-latin-america-support-world-cup-final"
+      },
+      "time": {
+        "asserted": "2026-07-19T15:58:02.610Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "sports",
+        "citation": "https://www.theguardian.com/football/2026/jul/18/argentina-spain-latin-america-support-world-cup-final"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "summary",
+      "proposition": {
+        "predicate": "summary",
+        "object": "<p>A history of racism and ongoing footballing rivalries have made the choice of which team to get behind in Sunday’s final a charged topic</p><p>The Brazilian journalist and columnist Julia Duailibi usually writes about politics in her weekly column for the leading Brazilian newspaper O Globo, but last Thursday she took a different tack, writing instead about why she would not be supporting neighbouring Argentina in the World Cup final.</p><p>“I have always been an admirer of the <em>hermanos</em> [as Brazilians affectionately call Argentinians] and would have loved to cheer on a fellow South American team,” she <a href=\"https://oglobo.globo.com/opiniao/julia-duailibi/coluna/2026/07/torcer-pela-argentina-ficou-inviavel.ghtml\">wrote</a> on the morning after Argentina’s dramatic semi-final victory over England. “But I admit that the racist scenes involving a minority of the fans, and the silence of the majority on the pitch, turned my stomach.”</p> <a href=\"https://www.theguardian.com/football/2026/jul/18/argentina-spain-latin-america-support-world-cup-final\">Continue reading...</a>"
+      },
+      "time": {
+        "asserted": "2026-07-19T15:58:02.610Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "sports",
+        "citation": "https://www.theguardian.com/football/2026/jul/18/argentina-spain-latin-america-support-world-cup-final"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "published",
+      "proposition": {
+        "predicate": "published",
+        "object": "Sat, 18 Jul 2026 15:03:00 GMT"
+      },
+      "time": {
+        "asserted": "2026-07-19T15:58:02.610Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "sports",
+        "citation": "https://www.theguardian.com/football/2026/jul/18/argentina-spain-latin-america-support-world-cup-final"
+      },
+      "status": "supported"
+    }
+  ]
+}

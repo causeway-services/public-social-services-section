@@ -1,0 +1,69 @@
+{
+  "subject": "fifa-world-cup-tobin-heath-on-record-goals-france-and-lamine-yamal",
+  "claims": [
+    {
+      "id": "title",
+      "proposition": {
+        "predicate": "title",
+        "object": "FIFA World Cup: Tobin Heath on record goals, France and Lamine Yamal"
+      },
+      "time": {
+        "asserted": "2026-07-19T14:41:50.560Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "politics",
+        "citation": "https://www.aljazeera.com/sports/2026/7/19/tobin-heath-fifa-world-cup-2026-football-analysis-players-teams-tournament?traffic_source=rss"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "url",
+      "proposition": {
+        "predicate": "url",
+        "object": "https://www.aljazeera.com/sports/2026/7/19/tobin-heath-fifa-world-cup-2026-football-analysis-players-teams-tournament?traffic_source=rss"
+      },
+      "time": {
+        "asserted": "2026-07-19T14:41:50.560Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "politics",
+        "citation": "https://www.aljazeera.com/sports/2026/7/19/tobin-heath-fifa-world-cup-2026-football-analysis-players-teams-tournament?traffic_source=rss"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "summary",
+      "proposition": {
+        "predicate": "summary",
+        "object": "In an exclusive interview, Tobin Heath shares her insights before World Cup final and discusses best players and teams."
+      },
+      "time": {
+        "asserted": "2026-07-19T14:41:50.560Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "politics",
+        "citation": "https://www.aljazeera.com/sports/2026/7/19/tobin-heath-fifa-world-cup-2026-football-analysis-players-teams-tournament?traffic_source=rss"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "published",
+      "proposition": {
+        "predicate": "published",
+        "object": "Sun, 19 Jul 2026 11:21:52 +0000"
+      },
+      "time": {
+        "asserted": "2026-07-19T14:41:50.560Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "politics",
+        "citation": "https://www.aljazeera.com/sports/2026/7/19/tobin-heath-fifa-world-cup-2026-football-analysis-players-teams-tournament?traffic_source=rss"
+      },
+      "status": "supported"
+    }
+  ]
+}

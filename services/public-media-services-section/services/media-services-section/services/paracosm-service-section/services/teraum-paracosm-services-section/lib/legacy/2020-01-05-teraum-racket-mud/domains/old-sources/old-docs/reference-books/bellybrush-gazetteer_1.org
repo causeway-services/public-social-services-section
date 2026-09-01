@@ -1,0 +1,693 @@
+#+SETUPFILE: ./setup.inc
+#+TITLE: Bellybrush Gazetteer
+#+EXPORT_FILE_NAME: ../../pub/reference-books/bellybrush-gazetteer
+#+OPTIONS: todo:nil
+#+LATEX_CLASS: teraum_reference_book
+#+MACRO: document-type gazetteer
+#+INDEX: Bellybrush!/Bellybrush Gazetteer/
+{{{document-isdraft}}}
+
+{{{document-hasproject}}}
+* DRAFT Overview
+*/Bellybrush/* is town in the /Green Delta/. It is the primary suburb of
+the human city of /Ack/, located about a half-mile east along the
+/Kingsroad/. The town was founded in 701bc as a retirement community for
+the fisherfolk of /Ack/, and quickly grew into an agricultural community
+in its own right, focused around the raising of /pigs/.
+* DRAFT History
+** DRAFT Founding of Bellybrush
+   :PROPERTIES:
+   :CUSTOM_ID: founding-of-bellybrush
+   :END:
+#+INDEX: 701bc!"Founding of Bellybrush" in /Bellybrush Gazetteer/
+The town of Bellybrush was founded in 701bc by retiring fisherfolk.
+** DRAFT Bellybrush During the Lull
+   :PROPERTIES:
+   :CUSTOM_ID: bellybrush-during-the-lull
+   :END:
+#+INDEX: 22pc!"Bellybrush During the Lull" in /Bellybrush Gazetteer/
+#+INDEX: 34pc!"Bellybrush During the Lull" in /Bellybrush Gazetteer/
+#+INDEX: 53pc!"Bellybrush During the Lull" in /Bellybrush Gazetteer/
+The /Lull/ was the brief period of time after the /Age of Heroes/, but
+before the start of the /Great Wars/, roughly 20pc to 40pc. It was a
+peaceful and prosperous time for Bellybrush, which had served as a
+base for many of the heroes of the previous age.
+
+Those heroes, now retired, helped /humans/ begin to take their first
+steps toward recovering from the /Collapse/ here in town. For example,
+in 22pc, the /Chandlers Guild/ office, at the time the organization's
+headquarters, was where the /wax clock/ was invented.
+
+In 34pc, the first issue of the newspaper /The Bellybrush Review/ was
+printed.
+
+In 53pc, /Barnabus Trent/ moved to town and established /Ye Olde Curio
+shop/.
+** DRAFT Bellybrush During the Great Wars
+#+INDEX: 70pc!"Bellybrush During the Great Wars" in /Bellybrush Gazetteer/
+#+INDEX: 75pc!"Bellybrush During the Great Wars" in /Bellybrush Gazetteer/
+#+INDEX: 76pc!"Bellybrush During the Great Wars" in /Bellybrush Gazetteer/
+In 70pc, /Nell/ was found on the steps of the /orphanage/.
+
+In 74pc, /The Bellybrush Review/ ran an expose demonstrating the /Red
+Union/, then the "Red Ward," did not provide any services.
+
+In 75pc, the editors of /The Bellybrush Review/ are found guilty and
+hanged for libel.
+
+In 76pc, /Nell/ begins to work part-time for /Barnabus Trent/ at /Ye
+Olde Curio Shop/.
+** DRAFT Bellybrush During the Reconstruction Era
+#+INDEX: 80pc!Sleeting, 80pc!14th of Sleeting, 80pc!"Bellybrush During the Reconstruction Era"
+On the 14th of Sleeting, 80pc, the /Chandlers Guild/ bought the
+/printing press/ formerly owned by /The Bellybrush Review/
+** DRAFT Contemporary Bellybrush
+   :PROPERTIES:
+   :CUSTOM_ID: contemporary-bellybrush
+   :END:
+* DRAFT COMMENT Maps
+** DRAFT Map of Bellybrush
+   :PROPERTIES:
+   :CUSTOM_ID: map-of-bellybrush
+   :END:
+[[file:../assets/bellybrush-map.jpg][file:../assets/bellybrush-map.jpg]]
+| Key | Description            |
+|-----+------------------------|
+|   2 | [[#masked-mortuary][Masked Mortuary]]        |
+|   3 | [[#madrins-shack][Madrin's Shack]]         |
+|   4 | [[#par-weaponry][Par Weaponry]]           |
+|   5 | [[#southbank-house][Southbank House]]        |
+|   6 | [[#beggars-alley][Beggar's Alley]]         |
+|   7 | [[#walk][The Walk]]               |
+|   8 | [[#gibbet-street][Gibbet Street]]          |
+|  10 | [[#boundary-street][Boundary Street]]        |
+|  11 | entrance to the [[#sewers][sewers]] |
+|  12 | [[#redbrick-flats][Redbrick Flats]]         |
+|  13 | the [[#cobbler-shop][cobbler shop]]       |
+|  13 | [[#sovels][Sovel's]]                |
+|  13 | the [[#tobacco-hut][tobacco-hut]]        |
+|  14 | the [[#money-lender][money lender]]       |
+|  15 | [[#grape-vine][Grape Vine]]             |
+|  16 | [[#steamworks][Steamworks]]             |
+|  17 | the [[#netmaker][netmaker]]           |
+|  18 | [[#kalduras-house][Kaldura's House]]        |
+|  19 | the [[#butcher][butcher]]            |
+|  20 | the [[#barber-surgeon][barber-surgeon]]     |
+|  21 | the [[#cheese-shop][cheese shop]]        |
+|  22 | the [[#ramen-shop][ramen shop]]         |
+|  23 | [[#cheers][Cheers]]                 |
+|  24 | [[#beynway-boarding-house][Beynway Boarding House]] |
+|  25 | the [[#undertaker][undertaker]]         |
+|  26 | the [[#orphanage][orphanage]]          |
+|  27 | [[#meigs-mercantile][Meig's Mercantile]]      |
+|  28 | [[#freddys-fuels][Freddy's Fuels]]         |
+|  29 | the [[#asylum][asylum]]             |
+|  30 | [[#midway][Midway]]                 |
+|  31 | [[#leaping-eel][Leaping Eel]]            |
+|  32 | the [[#tenement][tenement]]           |
+|  34 | the [[#market][market]]             |
+|  37 | [[#waterfront-fletcher][Waterfront Fletcher]]    |
+|  38 | [[#chandlers-guild][Chandlers Guild]]        |
+|  40 | the [[#fair][Fair]]               |
+|  41 | [[#red-keep][Red Keep]]               |
+|  47 | [[#cock-o-the-walk][Cock o the Walk]]        |
+|  47 | [[#westmeet-market][Westmeet Market]]        |
+|  48 | [[#westgate][Westgate]]               |
+|  50 | the [[#wynd][Wynd]]               |
+|  51 | [[#cornocopia][Cornocopia]]             |
+|  52 | [[#hamaking-warehouse][Hamaking Warehouse]]     |
+|  53 | [[#old-bastion][Old Bastion]]            |
+    :PROPERTIES:
+    :CUSTOM_ID: map-of-the-sewers
+    :END:
+[[file:../assets/bellybrush-sewers-map.jpg][file:../assets/bellybrush-sewers-map.jpg]]
+| Key | Description                     |
+|-----+---------------------------------|
+|   1 | basement of [[#ye-olde-curio-shop][Ye Olde Curio Shop]]  |
+|   4 | basement of the [[#chandlers-guild][Chandlers Guild]] |
+* DRAFT Areas
+** DRAFT Streets
+*** DRAFT Beggar's Alley
+    :PROPERTIES:
+    :CUSTOM_ID: beggars-alley
+    :END:
+#+INDEX: Beggar's Alley!"Beggar's Alley" in /Bellybrush Gazetteer/
+*/Beggar's Alley/* is a road in the southern part of town, near the
+/Green River/. As the name suggests, it's where many of the town's
+poorest residents live. Among the residents is /Budlock Baster/.
+*** DRAFT Boundary Street
+    :PROPERTIES:
+    :CUSTOM_ID: boundary-street
+    :END:
+#+INDEX: Boundary Street!Boundary Street in Bellybrush!"Boundary Street" in /Bellybrush Gazetteer/
+Before the /Walk/ was built, */Boundary Street/* was the original
+riverfront street in town.
+*** DRAFT Gibbet Street
+    :PROPERTIES:
+    :CUSTOM_ID: gibbet-street
+    :END:
+#+INDEX: Gibbet Street!"Gibbet Street" in /Bellybrush Gazetteer/
+*/Gibbet Street/* is one of the oldest streets in the town, and one of
+the poorest. At the southern end of the street, at the intersection
+with /Boundary Street/ there is a barren gibbet: two tall poles on
+either side of the street, with a thick board slung between them. The
+poles are covered in /death masks/, a mundane treasure used to remember
+those executed for their crimes.
+
+Near where Gibbet Street intersects with the /Walk/, there is an
+assemblage of old wooden houses that have grown into one property.
+Among the residents are /Wadren Smith/, a 16-year-old orphan who raises pigs,
+and /Holman Holder/, a 55-year old who "steals" those pigs, as a prank.
+/Nell/ also spends a lot of time here, even though she lives at the
+orphanage.
+*** DRAFT The Walk
+    :PROPERTIES:
+    :CUSTOM_ID: walk
+    :END:
+#+INDEX: Walk, the!"The Walk" in /Bellybrush Gazetteer/
+*/The Walk/* runs parallel to the southern bank of the /Green River/.
+** DRAFT Buildings
+*** DRAFT Asylum
+    :PROPERTIES:
+    :CUSTOM_ID: asylum
+    :END:
+#+INDEX: Asylum!"Asylum" in /Bellybrush Gazetteer/
+The */asylum/* is the local prison.
+*** DRAFT Barber-Surgeon
+    :PROPERTIES:
+    :CUSTOM_ID: barber-surgeon
+    :END:
+#+INDEX: barber-surgeon!"Barber-Surgeon" in /Bellybrush Gazetteer/
+The */barber-surgeon/* is the town's healthcare worker.
+*** DRAFT Beynway Boarding House
+    :PROPERTIES:
+    :CUSTOM_ID: beynway-boarding-house
+    :END:
+#+INDEX: Beynway Boarding House!"Beynway Boarding House" in /Bellybrush Gazetteer/
+*/Beynway Boarding House/* is one of the town's older hotels.
+*** DRAFT Butcher
+    :PROPERTIES:
+    :CUSTOM_ID: butcher
+    :END:
+#+INDEX: butcher!"Butcher" in /Bellybrush Gazetteer/
+The */butcher/* is the local meat seller. The shop specializes in /aged
+sausages/.
+*** DRAFT Chandlers Guild
+    :PROPERTIES:
+    :CUSTOM_ID: chandlers-guild
+    :END:
+#+INDEX: Chandlers Guild!"Chandlers Guild" in /Bellybrush/
+The local office the */Chandlers Guild/* is a squat brick building.
+*** DRAFT Cheers
+    :PROPERTIES:
+    :CUSTOM_ID: cheers
+    :END:
+#+INDEX: Cheers!"Cheers" in /Bellybrush Gazetteer/
+*/Cheers/* is a high-end liquor store.
+*** DRAFT Cheese Shop
+    :PROPERTIES:
+    :CUSTOM_ID: cheese-shop
+    :END:
+#+INDEX: cheese shop!"Cheese Shop" in /Bellybrush Gazetteer/
+The */cheese shop/* sells a wide variety of local cheeses, as well as
+a rare collection of foreign products.
+*** DRAFT Cobbler Shop
+    :PROPERTIES:
+    :CUSTOM_ID: cobbler-shop
+    :END:
+#+INDEX: cobbler shop!"Cobbler Shop" in /Bellybrush Gazetteer/
+The */cobbler shop/* is a shoe-selling and -making business. Due to
+the unfortunate name, they also sell cobblers, the baked good, though
+their stock in that is often stale.
+*** DRAFT Cock o the Walk
+    :PROPERTIES:
+    :CUSTOM_ID: cock-o-the-walk
+    :END:
+#+INDEX: Cock o the Walk!"Cock o the Walk" in /Bellybrush Gazetteer/
+The */Cock o the Walk/* is a bar and music venu on the south bank of
+the /Green River/, east of /Gibbet Street.
+*** DRAFT Cornocopia
+    :PROPERTIES:
+    :CUSTOM_ID: cornocopia
+    :END:
+#+INDEX: Cornocopia!"Cornocopia" in /Bellybrush Gazetteer/
+*/Cornocopia/* is a high-end restaurant.
+*** DRAFT The Fair
+    :PROPERTIES:
+    :CUSTOM_ID: fair
+    :END:
+#+INDEX: Fair, the!"The Fair" in /Bellybrush Gazetteer/
+The */Fair/* is a small market in the north part of town. Recently
+constructed, it features booths from local artists and craftsfolk.
+*** DRAFT Freddy's Fuels
+    :PROPERTIES:
+    :CUSTOM_ID: freddys-fuels
+    :END:
+#+INDEX: Freddy's Fuels!"Freddy's Fuels" in /Bellybrush Gazetteer/
+*/Freddy's Fuels/* sells charcoal for nearby households.
+*** DRAFT Grape Vine
+    :PROPERTIES:
+    :CUSTOM_ID: grape-vine
+    :END:
+#+INDEX: Grape Vine!"Grape Vine" in /Bellybrush Gazetteer/
+The */Grape Vine/* is a low-class tavern.
+*** DRAFT Hamaking Warehouse
+    :PROPERTIES:
+    :CUSTOM_ID: hamaking-warehouse
+    :END:
+#+INDEX: Hamaking Warehouse!"Hamaking Warehouse" in /Bellybrush Gazetteer/
+Owned by two brothers, */Hamaking Warehouse/* is a shipping company
+on the west end of /Boundary Street/.
+*** DRAFT Kaldura's House
+    :PROPERTIES:
+    :CUSTOM_ID: kalduras-house
+    :END:
+#+INDEX: Kaldura's House!"Kaldura's House" in /Bellybrush Gazetteer/
+*/Kaldura's House/* is a brothel.
+*** DRAFT Leaping Eel
+    :PROPERTIES:
+    :CUSTOM_ID: leaping-eel
+    :END:
+The */Leaping Eel/* is a large tavern north of the /Kingsroad/ as it
+enters the west part of town. Outside the tavern is a /Red Union job
+board/ and /postal box/.
+*** DRAFT Madrin's Shack
+    :PROPERTIES:
+    :CUSTOM_ID: madrins-shack
+    :END:
+#+INDEX: Madrin's Shack!"Madrin's Shack" in /Bellybrush Gazetteer/
+*/Madrin's Shack/* is a squashboard hovel built just north of /Gibbet
+Street's/ intersection with /Boundary Street/. /Madrin/, an
+individual escaped from the local /asylum/, built the shack on the 2nd
+of Melting, 80pc. The shack often smells strongly of fresh hay, and
+when the area is quiet, passerbys can hear /Madrin/ inside, shouting
+at himself.
+*** DRAFT Southbank House
+    :PROPERTIES:
+    :CUSTOM_ID: southbank-house
+    :END:
+#+INDEX: Southbank House!"Southbank House" in /Bellybrush Gazetteer/
+The */Southbank House/* is a large run-down house built in the
+earliest days of Bellybrush. /Wadren Smith/ lives here with /Holman
+Holder/, though the two are not really friends.
+*** DRAFT Market
+    :PROPERTIES:
+    :CUSTOM_ID: market
+    :END:
+#+INDEX: market!"Market" in /Bellybrush Gazetteer/
+The */market/* is where most locals buy their food and clothing.
+*** DRAFT Masked Mortuary
+    :PROPERTIES:
+    :CUSTOM_ID: masked-mortuary
+    :END:
+#+INDEX: Masked Mortuary!"Masked Mortuary" in /Bellybrush Gazetteer/
+*/Masked Mortuary/* is a small building at the corner of /Boundary/
+ and /Gibbet Streets/.
+*** DRAFT Meig's Mercantile
+    :PROPERTIES:
+    :CUSTOM_ID: meigs-mercantile
+    :END:
+*/Meig's Mercantile/* sells lots of things imported from the /New World/.
+*** DRAFT Midway
+    :PROPERTIES:
+    :CUSTOM_ID: midway
+    :END:
+#+INDEX: Midway!"Midway" in /Bellybrush Gazetteer/
+*/Midway/* is the town's largest park.
+*** DRAFT Money Lender
+    :PROPERTIES:
+    :CUSTOM_ID: money-lender
+    :END:
+#+INDEX: money lender!"Money Lender" in /Bellybrush Gazetteer/
+A squat stone building, the */money lender/* is where locals secure
+loans on collateral - it's a pawn shop.
+*** DRAFT Netmaker
+    :PROPERTIES:
+    :CUSTOM_ID: netmaker
+    :END:
+#+INDEX: netmaker!"Netmaker" in /Bellybrush Gazetteer/
+The */netmaker/* is a small building that makes and sells fishing nets.
+*** DRAFT Old Bastion
+    :PROPERTIES:
+    :CUSTOM_ID: old-bastion
+    :END:
+The */Old Bastion/* is a dinner-with-a-show restaurant that appeals to
+tourists coming into the Bellybrush on their way to visit /Ack/.
+*** DRAFT Orphange
+    :PROPERTIES:
+    :CUSTOM_ID: orphanage
+    :END:
+The */Orphanage/* is run by /Mother Jaffa/, and also serves as a
+laundromat.
+*** DRAFT Par Weaponry
+    :PROPERTIES:
+    :CUSTOM_ID: par-weaponry
+    :END:
+#+INDEX: Par Weaponry!"Par Weaponry" in /Bellybrush Gazetteer/
+/Dokas/ and /Milly Par/ ran */Par Weaponry/* before their daughter
+/Negalis/ murdered them. Now, the building is empty.
+
+The /Red Union/ holds the deed.
+*** DRAFT Ramen Shop
+    :PROPERTIES:
+    :CUSTOM_ID: ramen-shop
+    :END:
+#+INDEX: ramen shop!"Ramen Shop" in /Bellybrush Gazetteer/
+The */ramen shop/* serves one type of ramen each day, at a very low
+price.
+*** DRAFT Redbrick Flats
+    :PROPERTIES:
+    :CUSTOM_ID: redbrick-flats
+    :END:
+#+INDEX: Redbrick Flats!"Redbrick Flats" in /Bellybrush Gazetteer/
+*/Redbrick Flats/* is a brick building where many of the town's poor
+live in cramped flats.
+*** DRAFT Sovel's
+    :PROPERTIES:
+    :CUSTOM_ID: sovels
+    :END:
+#+INDEX: Sovel's!"Sovel's" in /Bellybrush Gazetteer/
+*/Sovel's/* is a small restaurant and general store run by /Henri
+Sovel/.
+**** DRAFT Henri Sovel
+    :PROPERTIES:
+    :CUSTOM_ID: henri-sovel
+    :END:
+#+INDEX: Sovel, Henri!"Henri Sovel" in /Bellybrush Gazetteer/
+*/Henri Sovel/* is the proprietor of /Sovel's/. Lorem ipsum balh
+blfkda efa;ljfae dfa fd afds dsf jeallwfjwfj dsal fdasjfd ewa faewn faew
+nfaew lfaewfa;ljf faew efaw a
+*** DRAFT Steamworks
+    :PROPERTIES:
+    :CUSTOM_ID: steamworks
+    :END:
+#+INDEX: Steamworks!"Steamworks" in /Bellybrush Gazetteer/
+The */Steamworks/* is a sculpture gallery displaying works built by
+local farmers out of old equipment.
+*** DRAFT Tenement
+    :PROPERTIES:
+    :CUSTOM_ID: tenement
+    :END:
+#+INDEX: tenement!"Tenement" in /Bellybrush Gazetteer/
+The */tenement/* is shared housing.
+*** DRAFT The Wynd
+    :PROPERTIES:
+    :CUSTOM_ID: wynd
+    :END:
+#+INDEX: Wynd, the!"The Wynd" in /Bellybrush Gazetteer/
+The */Wynd/* is a large tavern near the middle of town.
+*** DRAFT Tobacco Hut
+    :PROPERTIES:
+    :CUSTOM_ID: tobacco-hut
+    :END:
+#+INDEX: tobacco hut!"Tobacco Hut" in /Bellybrush Gazetteer/
+The */tobacco hut/* is a small tobacco store.
+*** DRAFT Undertaker
+    :PROPERTIES:
+    :CUSTOM_ID: undertaker
+    :END:
+#+INDEX: undertaker!"Undertaker" in /Bellybrush Gazetteer/
+The */undertaker/* is where town residents take their dead, if they
+are too wealthy to consider /Masked Mortuary/.
+*** DRAFT Waterfront Fletcher
+    :PROPERTIES:
+    :CUSTOM_ID: waterfront-fletcher
+    :END:
+#+INDEX: Waterfront Fletcher!"Waterfront Fletcher" in /Bellybrush Gazetteer/
+*/Waterfront Fletcher/* is an archery and camping supply store.
+*** DRAFT Westmeet Market
+    :PROPERTIES:
+    :CUSTOM_ID: westmeet-market
+    :END:
+#+INDEX: Westmeet Market!"Westmeet Market" in /Bellybrush Gazetteer/
+*/Westmeet Market/* is a small market in the middle of town.
+*** DRAFT Ye Olde Curio Shop
+    :PROPERTIES:
+    :CUSTOM_ID: ye-olde-curio-shop
+    :END:
+*/Ye Olde Curio Shop/* is a cramped thrift store. Formerly owned and
+run by /Barnabus Trent/, the building was abandoned on the 18th of
+Blooming, 80pc.
+*** DRAFT Pasta Palace
+#+INDEX: Pasta Palace!"Pasta Palace" in /Bellybrush Gazetteer/
+*/Pasta Palace/* is a restaurant franchise founded here in town, now
+with locations all over the /GAME area/. One of the few things the
+franchise dictates between locations is that all menu items should be
+named after pasta dishes, for example cake is "brownie lasagna," and
+some inane "health" regulations like not adding salt to anything.
+
+** DRAFT Landmarks
+*** DRAFT Old Wall
+    :PROPERTIES:
+    :CUSTOM_ID: old-wall
+    :END:
+#+INDEX: Old Wall!"Old Wall" in /Bellybrush Gazetteer/
+While presumably the */Old Wall/* used to be part of a larger
+structure, all that remains is a five-foot tall, two-foot wide
+assembly of limestone bricks. It is covered, entirely, in painted
+graffiti.
+*** DRAFT Red Keep
+    :PROPERTIES:
+    :CUSTOM_ID: red-keep
+    :END:
+#+INDEX: Red Keep!"Red Keep" in /Bellybrush Gazetteer/
+The */Red Keep/* is a small folly on the north bank of the /Green River/.
+*** DRAFT Sewers
+    :PROPERTIES:
+    :CUSTOM_ID: sewers
+    :END:
+#+INDEX: Sewers!"Sewers" in /Bellybrush Gazetteer/
+The town of Bellybrush has a sophisticated sewer system, constructed
+during the /Magic Revolution/. Many local businesses have had
+basements that extend into it, while others have sealed theirs off.
+Thus, the exact layout of the sewers is impossible to know.
+*** DRAFT Westgate
+    :PROPERTIES:
+    :CUSTOM_ID: westgate
+    :END:
+#+INDEX: Westgate!"Westgate" in /Bellybrush Gazetteer/
+The */Westgate/* is a folly made of limestone on the north side of the
+bridge that crosses the /Green River/ on the west end of town.
+** DRAFT Notable Organizations and People
+*** DRAFT Aaron Pollar
+#+INDEX: Pollar, Aaron!"Aaron Pollar" in /Bellybrush Gazetteer/
+*/Aaron Pollar/* is an employee of the /Chandlers Guild/.
+*** DRAFT Mother Jaffa
+    :PROPERTIES:
+    :CUSTOM_ID: mother-jaffa
+    :END:
+#+INDEX: Mother Jaffa!"Mother Jaffa" in /Bellybrush Gazetteer/
+*/Mother Jaffa/* is a human who runs the orphanage in the town of
+Bellybrush.
+*** DRAFT Budlock Baster
+    :PROPERTIES:
+    :CUSTOM_ID: budlock-baster
+    :END:
+#+INDEX: Baster, Budlock!"Budlock Baster" in /Bellybrush Gazetteer/
+*/Budlock Baster/* is a /human/ beggar who lives in Bellybrush. He is often in
+the area around /Beggar's Alley/.
+*** DRAFT Bellybrush Flayer
+    :PROPERTIES:
+    :CUSTOM_ID: bellybrush-flayer
+    :END:
+#+INDEX: Bellybrush Flayer!"Bellybrush Flayer" in /Bellybrush Gazetteer/
+The */Bellybrush Flayer/* is a rumored serial killer in town. He's
+suspected to be responsible for the death of several poor residents,
+all found without their faces.
+*** DRAFT Arandul Nabrish
+    :PROPERTIES:
+    :CUSTOM_ID: arandul-nabrish
+    :END:
+#+INDEX: Nabrish, Arandul!"Arandul Nabrish" in /Bellybrush Gazetteer/
+*/Arandul Nabrish/* is a young /human/ who lives with his father
+/Daxol/, running the /Masked Mortuary/. He has gotten in trouble for
+pickpocketing before.
+*** DRAFT Daxol Nabrish
+    :PROPERTIES:
+    :CUSTOM_ID: daxol-nabrish
+    :END:
+#+INDEX: Nabrish, Daxol!"Daxol Nabrish" in /Bellybrush Gazetteer/
+*/Daxol Nabrish/* is an older /human/ who lives with his son
+/Arandul/, running the /Masked Mortuary/.
+*** DRAFT Madrin
+    :PROPERTIES:
+    :CUSTOM_ID: madrin
+    :END:
+#+INDEX: Squeal, Madrin!"Madrin" in /Bellybrush Gazetteer/
+*/Madrin/* is a mostly-/human/ individual whose
+great-great-great-grandfather was a /goblin/ named /Madrin Squeal/.
+Madrin was born in 44pc, in the town of /Marby/, southwest of
+Bellybrush.
+
+An emotional child, Madrin had trouble growing up and finding work as
+an adult. He found himself in the custody of the /asylum/ by the time
+he was in his twenties. He was held there until the 28th of Winter,
+80pc, when he escaped.
+
+After his escape, he built himself a shack in the area of /Gibbet
+Street/. His emotional outbursts have recently been getting worse, and
+he's begun to develop a strange body odor, smelling strongly of hay.
+*** DRAFT Nubbles
+    :PROPERTIES:
+    :CUSTOM_ID: nubbles
+    :END:
+#+INDEX: Nubbles!"Nubbles" in /Bellybrush Gazetteer/
+*/Nubbles/* is a young /human/ girl who lives in the /tenement/.
+*** DRAFT Dokas Par
+    :PROPERTIES:
+    :CUSTOM_ID: dokas-par
+    :END:
+#+INDEX: Par, Dokas!"Dokas Par" in /Bellybrush Gazetteer/
+*/Dokas Par/* was a blacksmith and weapon-seller who lived at /Par
+Weaponry/ with his wife /Milly/ before they were murdered by their
+daughter /Negalis/.
+*** DRAFT Milly Par
+    :PROPERTIES:
+    :CUSTOM_ID: milly-par
+    :END:
+#+INDEX: Par, Milly!"Milly Par" in /Bellybrush Gazetteer
+*/Milly Par/* was a blacksmith and weapon-seller who lived in town
+with her husband /Dokas/ before they were murdered by their daughter
+/Negalis/.
+*** DRAFT Wadren Smith
+    :PROPERTIES:
+    :CUSTOM_ID: wadren-smith
+    :END:
+#+INDEX: Smith, Wadren!"Wadren Smith" in /Bellybrush Gazetteer/
+*/Wadren Smith/* is a young impoverished /human/ who lives on at the
+/Southbank House/, where he breeds pigs.
+*** DRAFT Holman Holder
+    :PROPERTIES:
+    :CUSTOM_ID: holman-holder
+    :END:
+#+INDEX: Holder, Holman!"Holman Holder" in /Bellybrush Gazetteer/
+*/Holman Holder/* is an impoverished /human/ who lives at the
+/Southbank House/ with /Wadren Smith/, though the two aren't really friends.
+*** DRAFT Nell
+    :PROPERTIES:
+    :CUSTOM_ID: nell
+    :END:
+#+INDEX: Nell!"Nell" in /Bellybrush Gazetteer/
+*/Nell/* is a young /human/ girl who lives at the /orphanage/ and
+spends a lot of time at the /Southbank House/. Until recently, she
+often helped /Barnabus Trent/ at his /Ye Olde Curio Shop/.
+** DRAFT Plots
+* DRAFT Supplements
+** DRAFT Index
+- Ack :: {{{teraum-defsrc(ack)}}}
+- Pollar, Aaron ::
+- aged sausage :: {{{teraum-defsrc(aged-sausage)}}}
+- Age of Heroes :: {{{teraum-defsrc(age-of-heroes)}}}
+- asylum :: {{{teraum-define-bellybrush-asylum}}} See [[#asylum]["Asylum"]].
+- barber-surgeon :: {{{teraum-define-bellybrush-barber-surgeon}}} See
+                    [[#barber-surgeon]["Barber-Surgeon"]].
+- Baster, Budlock :: {{{teraum-define-baster-budlock}}} See [[#budlock-baster]["Budlock
+     Baster"]].
+- Beggar's Alley :: {{{teraum-define-bellybrush-beggars-alley}}} See [[#beggars-alley]["Beggar's
+                    Alley"]].
+- Bellybrush Flayer :: {{{teraum-define-bellybrush-flayer}}} See
+     [[#bellybrush-flayer]["Bellybrush Flayer"]].
+- Bellybrush Review, The :: {{{teraum-defsrc(bellybrush-review)}}}
+- Bellybrush :: {{{teraum-define-bellybrush}}} The subject of this
+                {{{document-type}}}.
+- Beynway Boarding House ::
+     {{{teraum-define-bellybrush-beynway-boarding-house}}} See
+     [[#beynway-boarding-house]["Beynway Boarding House"]].
+- Boundary Street :: {{{teraum-define-bellybrush-boundary-street}}}
+     See [[#boundary-street]["Boundary Street"]].
+- butcher :: {{{teraum-define-bellybrush-butcher}}} See [[#butcher]["Butcher"]].
+- Chandlers Guild :: {{{teraum-define-bellybrush-chandlers-guild}}}
+     See [[#chandlers-guild]["Chandlers Guild"]]. This is one office of a larger
+     organization. {{{teraum-defsrc(chandlers-guild)}}}
+- Cheers :: {{{teraum-define-bellybrush-cheers}}} See [[#cheers]["Cheers"]].
+- Cheese Shop :: {{{teraum-define-bellybrush-cheese-shop}}} See
+                 [[#cheese-shop]["Cheese Shop"]].
+- Cobbler Shop :: {{{teraum-define-bellybrush-cobbler-shop}}} See
+                  [[#cobbler-shop]["Cobbler Shop"]]/
+- Cock o the Walk :: {{{teraum-define-bellybrush-cock-o-the-walk}}}
+     See [[#cock-o-the-walk]["Cock o the Walk"]].
+- Collapse, the :: {{{teraum-defsrc(collapse)}}}
+- Cornocopia :: {{{teraum-define-bellybrush-cornocopia}}} See [[#cornocopia]["Cornocopia"]].
+- death masks :: {{{teraum-defsrc(death-masks)}}}
+- Fair, the :: {{{teraum-define-bellybrush-fair}}}
+- Gibbet Street :: {{{teraum-define-bellybrush-gibbet-street}}} See
+                   [[#gibbet-street]["Gibbet Street"]].
+- goblins :: {{{teraum-defsrc(goblins)}}}
+- Grape Vine :: {{{teraum-define-bellybrush-grape-vine}}} See
+                [[#grape-vine]["Grape Vine"]].
+- Great Wars :: {{{teraum-defsrc(great-wars)}}}
+- Green Delta :: {{{teraum-defsrc(green-delta)}}}
+- Green River :: {{{teraum-defsrc(green-river)}}}
+- Hamaking Warehouse ::
+     {{{teraum-define-bellybrush-hamaking-warehouse}}} See
+     [[#hamaking-warehouse]["Hamaking Warehouse"]].
+- Holder, Holman :: {{{teraum-define-holder-holman}}} See [[#holman-holder]["Holder
+                    Holman"]].
+- humans :: {{{teraum-defsrc(humans)}}}
+- job board :: {{{teraum-defsrc(job-board}}}
+- Kaldura's House :: {{{teraum-define-bellybrush-kalduras-house}}} See
+     [[#kalduras-house]["Kaldura's House"]].
+- Leaping Eel :: {{{teraum-define-bellybrush-leaping-eel}}} See
+                 [[#leaping-eel]["Leaping Eel"]].
+- Lull, the :: {{{teraum-defsrc(lull)}}}
+- Madrin :: {{{teraum-define-madrin}}} See [[#madrin]["Madrin"]].
+- Madrin's Shack :: {{{teraum-define-bellybrush-madrins-shack}}} See
+                    [[#madrins-shack]["Madrin's Shack"]].
+- Magic Revolution :: {{{teraum-defsrc(magic-revolution)}}}
+- Marby :: {{{teraum-defsrc(marby)}}}
+- market :: {{{teraum-define-bellybrush-market}}} See [[#market]["Market"]].
+- Masked Mortuary :: {{{teraum-define-bellybrush-masked-mortuary}}} See
+     [[#masked-mortuary]["Masked Mortuary"]].
+- Meig's Mercantile :: {{{teraum-define-bellybrush-meigs-mercantile}}}
+     See [[#meigs-mercantile]["Meig's Mercantile"]].
+- Midway :: {{{teraum-define-bellybrush-midway}}} See [[#midway]["Midway"]].
+- money lender :: {{{teraum-define-bellybrush-money-lender}}} See
+                  [[#money-lender]["Money Lender"]].
+- Mother Jaffa :: {{{teraum-define-mother-jaffa}}} See [[#mother-jaffa]["Mother Jaffa"]].
+- Nabrish, Arandul :: {{{teraum-define-nabrish-arandul}}} See [[#arandul-nabrish]["Arandul
+     Nabrish"]].
+- Nabrish, Daxol :: {{{teraum-define-nabrish-daxol}}} See
+                    [[#daxol-nabrish]["Daxol Nabrish"]].
+- Nell :: {{{teraum-define-nell}}} See [[#nell]["Nell"]].
+- netmaker :: {{{teraum-define-bellybrush-netmaker}}} See [[#netmaker]["Netmaker"]].
+- New World :: {{{teraum-defsrc(new-world)}}}
+- Nubbles :: {{{teraum-define-nubbles}}} See [[#nubbles]["Nubbles"]].
+- Old Bastion :: {{{teraum-define-bellybrush-old-bastion}}} See
+                 [[#old-bastion]["Old Bastion"]].
+- Old Wall :: {{{teraum-define-bellybrush-old-wall}}} See
+              [[#old-wall]["Old Wall"]].
+- orphanage :: {{{teraum-define-bellybrush-orphanage}}} See [[#orphanage]["Orphanage"]].
+- Par, Dokas :: {{{teraum-define-par-dokas}}} See [[#dokas-par]["Dokas Par"]].
+- Par, Milly :: {{{teraum-define-par-milly}}} See [[#milly-par]["Milly Par"]].
+- Par, Negalis :: {{{teraum-defsrc(par-negalis)}}}
+- Par Weaponry :: {{{teraum-define-bellybrush-par-weaponry}}} See [[#par-weaponry]["Par
+                  Weaponry"]].
+- pigs :: {{{teraum-defsrc(pigs)}}}
+- postal box :: {{{teraum-defsrc(postal-box)}}}
+- printing press :: {{{teraum-defsrc(printing-press)}}}
+- Ramen Shop :: {{{teraum-define-bellybrush-ramen-shop}}} See
+                [[#ramen-shop]["Ramen Shop"]].
+- Redbrick Flats :: {{{teraum-define-bellybrush-redbrick-flats}}} See
+                    [[#redbrick-flats]["Redbrick Flats"]].
+- Red Keep :: {{{teraum-define-bellybrush-red-keep}}} See [[#red-keep]["Red Keep"]].
+- Red Union :: {{{teraum-defsrc(red-union)}}}
+- Smith, Wadren :: {{{teraum-define-smith-wadren}}} See [[#wadren-smith]["Wadren
+                   Smith"]].
+- Southbank House :: {{{teraum-define-bellybrush-southbank-house}}}
+     See [[#southbank-house]["Southbank House"]].
+- Sovel, Henri :: {{{teraum-define-sovel-henri}}} See [[#henri-sovel]["Henri Sovel"]].
+- Sovel's :: {{{teraum-define-bellybrush-sovels}}} See [[#sovels]["Sovel's"]].
+- Squeal, Madrin :: {{{teraum-defsrc(squeal-madrin)}}}
+- Steamworks :: {{{teraum-define-bellybrush-steamworks}}} See [[#steamworks]["Steamworks"]].
+- Tenement :: {{{teraum-define-bellybrush-tenement}}} See [[#tenement]["Tenement"]].
+- tobacco hut :: {{{teraum-define-bellybrush-tobacco-hut}}} See
+                 [[#tobacco-hut]["Tobacco Hut"]].
+- Trent, Barnabus :: {{{teraum-defsrc(trent-barnabus)}}}
+- undertaker :: {{{teraum-define-bellybrush-undertaker}}} See [[#undertaker]["Undertaker"]].
+- Walk :: {{{teraum-define-bellybrush-walk}}} See [[#walk]["The Walk"]].
+- Waterfront Fletcher ::
+     {{{teraum-define-bellybrush-waterfront-fletcher}}} See
+     [[#waterfront-fletcher]["Waterfront Fletcher"]].
+- Westmeet Market :: {{{teraum-define-bellybrush-westmeet-market}}}
+     See [[#westmeet-market]["Westmeet Market"]].
+- Wynd, the :: {{{teraum-define-bellybrush-wynd}}} See [[#wynd][Wynd]].

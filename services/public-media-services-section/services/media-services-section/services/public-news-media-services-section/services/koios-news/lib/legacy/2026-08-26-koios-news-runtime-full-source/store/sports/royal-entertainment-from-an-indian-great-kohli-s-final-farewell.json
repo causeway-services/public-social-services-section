@@ -1,0 +1,69 @@
+{
+  "subject": "royal-entertainment-from-an-indian-great-kohli-s-final-farewell",
+  "claims": [
+    {
+      "id": "title",
+      "proposition": {
+        "predicate": "title",
+        "object": "'Royal entertainment from an Indian great' - Kohli's final farewell?"
+      },
+      "time": {
+        "asserted": "2026-07-19T20:06:20.506Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "sports",
+        "citation": "https://www.bbc.co.uk/sport/cricket/videos/cvg85p0evdno?at_medium=RSS&at_campaign=rss"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "url",
+      "proposition": {
+        "predicate": "url",
+        "object": "https://www.bbc.co.uk/sport/cricket/videos/cvg85p0evdno?at_medium=RSS&at_campaign=rss"
+      },
+      "time": {
+        "asserted": "2026-07-19T20:06:20.506Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "sports",
+        "citation": "https://www.bbc.co.uk/sport/cricket/videos/cvg85p0evdno?at_medium=RSS&at_campaign=rss"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "summary",
+      "proposition": {
+        "predicate": "summary",
+        "object": "In what could be his last appearance in England, Virat Kohli hits an entertaining 74 from 60 balls in the third and final ODI against England at Lord's."
+      },
+      "time": {
+        "asserted": "2026-07-19T20:06:20.506Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "sports",
+        "citation": "https://www.bbc.co.uk/sport/cricket/videos/cvg85p0evdno?at_medium=RSS&at_campaign=rss"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "published",
+      "proposition": {
+        "predicate": "published",
+        "object": "Sun, 19 Jul 2026 18:29:53 GMT"
+      },
+      "time": {
+        "asserted": "2026-07-19T20:06:20.506Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "sports",
+        "citation": "https://www.bbc.co.uk/sport/cricket/videos/cvg85p0evdno?at_medium=RSS&at_campaign=rss"
+      },
+      "status": "supported"
+    }
+  ]
+}

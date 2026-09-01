@@ -1,0 +1,467 @@
+#+SETUPFILE: ./setup.inc
+#+TITLE: Timeline
+#+EXPORT_FILE_NAME: ../../pub/reference-books/timeline
+#+TOC: headlines 1
+* Introduction
+{{{document-isdraft}}}
+
+{{{document-hasproject}}}
+* Timeline
+#+TOC: headlines 3 local
+** DRAFT 54000bc
+#+INDEX: 54000bc!"54000bc" in /Timeline/
+- Gods from around the multiverse created the /Worldkeep/ deep under
+  Teraum, and raised up the /Worldkeeper/ mountains.
+** DRAFT 25th of Blooming, 30000bc
+#+INDEX: 30000bc!Blooming, 30000bc!25th of Blooming, 30000bc!"25th of Blooming, 30000bc" in /Timeline/
+- In the /Worldkeepers/, an earthquake caused a breach in the walls of
+  the /Worldkeep/, letting /giant spiders/ out of the /Knotted Hell/
+  for the first time.
+** DRAFT 19th of Browning, 29407bc
+#+INDEX: 29407bc!Browning, 29407bc!19th of Browning, 29407bc!"19th of Browing, 29407bc" in /Timeline/
+- In the /Undermuck/, a /goblin/ named /Uzdar Brag/ was born.
+** DRAFT 2nd of Sleeting, 29395bc
+#+INDEX: 29395bc!Sleeting, 29395bc!2nd of Sleeting, 29395bc!"2nd of Sleeting, 29395bc" in /Timeline/
+- In the /Undermuck/, /Uzdar Brag/ discovered a route into the
+  /Widewoods/.
+** DRAFT 9th of Rotting, 29392bc
+#+INDEX: 29392bc!Rotting, 29392bc!9th of Rotting, 29392bc!"9th of Rotting, 29392bc" in /Timeline/
+- In the /Widewoods/, /Uzdar Brag/ tripped on a stick, fell into a mud
+  puddle, drowned, and died.
+** DRAFT 26th of Blooming, 3402bc
+#+INDEX: 3402bc!Blooming, 3402bc!26th of Blooming, 3402!"26th of Blooming, 3402" in /Timeline/
+- In the /Farsteppes/, a group of /humans/ invents /ragar/, fermented
+  mares milk. They become known as the /Lazy Mare Tribe/.
+** 1200bc
+#+INDEX: 1200bc!"1200bc" in /Timeline/
+*** Melting, 1200bc
+#+INDEX: 1200bc!Melting, 1200bc!"Melting, 1200bc" in /Timeline/
+**** DRAFT 2nd of Melting, 1200bc
+#+INDEX: 1200bc!Melting, 1200bc!2nd of Melting, 1200bc!"2nd of Melting, 1200bc" in /Timeline/
+- In the /Central Plains/, /dwarves/ who migrated from the
+  /Worldkeepers/ began to construct new enclaves.
+*** Rotting
+#+INDEX: 1200bc!Rotting, 1200bc!"Rotting, 1200bc" in /Timeline/
+**** DRAFT 12th of Rotting, 1200bc
+#+INDEX: 1200bc!Rotting, 1200bc!12th of Rotting, 1200bc!"12th of Rotting, 1200bc" in /Timeline/
+- In /Green Delta/, /humans/ construct a monastery in honor of
+  /Chauntea/.
+** 873bc
+#+INDEX: 873bc!"873bc" in /Timeline/
+- In the /Green Delta/, /human/ fisherfolk found the city to be known
+  as /Ack/. {{{teraum-source-ack-founding}}}
+** 721bc
+#+INDEX: 721bc!"721bc" in /Timeline/
+- In the town of /Ack/, the /Red Ward/ is constructed.
+** 701bc
+#+INDEX: 701bc!"701bc" in /Timeline/
+- In the /Green Delta/, /humans/ settle the town of /Bellybrush/.
+  {{{teraum-source-bellybrush-founding}}}
+** DRAFT 490bc
+#+INDEX: 490bc!"490bc" in /Timeline/
+- In the /Central Plains/, /humans/ form the /Indenon Empire/.
+** DRAFT 480bc
+#+INDEX: 480bc!"480bc" in /Timeline/
+- In the /Central Plains/, the /Indenon Empire/ launches an offensive
+  against the /dwarves/.
+** 478bc
+#+INDEX: 478bc!"478bc" in /Timeline/
+- In the /Green Delta/, /humans/ settled the community of /Arathel/.
+  {{{teraum-source-arathel-founding}}}
+** 477bc
+#+INDEX: 477bc!"477bc" in /Timeline/
+- In the village of /Arathel/, a /human/ named /Osmits Reinhard/ built
+  the /Reinhard Lumber Mill/. {{{teraum-source-arathel-founding}}}
+** 474bc
+#+INDEX: 474bc!"474bc" in /Timeline/
+- In the village of /Arathel/, residents construct a church in honor of
+  /Povator/. {{{teraum-source-arathel-founding}}}
+** DRAFT 464bc
+#+INDEX: 464bc!"464bc" in /Timeline/
+- In the town of /Arathel/, residents expand the /First Church of
+  Povator/.
+** DRAFT 462bc
+#+INDEX: 462bc!"462bc" in /Timeline/
+- In town of /Arathel County/, /Osmits Reinhard/ commissions the planting of
+  the /Borderwood/.
+** DRAFT 460bc
+#+INDEX: 460bc!"460bc" in /Timeline/
+- In town of /Arathel/, /Osmits Reinhard/ is hanged by the workers to whom he
+  owes money.
+** DRAFT 454bc
+#+INDEX: 454bc!"454bc" in /Timeline/
+- In town of /Arathel/, residents build the /Siggrit Temple/.
+** DRAFT 442bc
+#+INDEX: 442bc!"442bc" in /Timeline/
+- In town of /Arathel/, residents build the /Second Church of Povator/.
+** DRAFT 440bc
+#+INDEX: 440bc!"440bc" in /Timeline/
+- In town of /Arathel/, a /human/ named /Henri Astar/ buys many local farms.
+** DRAFT 438bc
+#+INDEX: 438bc!"438bc" in /Timeline/
+- In the /Green Delta/, /Henri Astar/ leads a mercenary militia in an
+  offensive against the /Indenon Empire/.
+** DRAFT 436bc
+#+INDEX: 436bc!"463bc" in /Timeline/
+- In the town of /Arathel/, /Henri Astar/ declared himself first
+  emperor of the /Astar Empire/.
+** 223bc
+   :PROPERTIES:
+   :ORDERED:  t
+   :END:
+#+INDEX: 223bc!"223bc" in /Timeline/
+- In the /Gloaming/, a group of /humans/ settle the community of
+  /Belcaer/. {{{teraum-source-belcaer-founding}}}
+** DRAFT 91bc
+#+INDEX: 91bc!"91bc" in /Timeline/
+- In the city of /Ack/, a /human/ named /Altar Sendvogue/ was born.
+** DRAFT 81bc
+#+INDEX: 81bc!"81bc" in /Timeline/
+- In the city of /Ack/, /Edward Gnork/ released /Gnork's Encyclopedia
+  of Dwarven Construction/.
+** DRAFT 72bc
+#+INDEX: 72bc!"72bc" in /Timeline/
+- In the /New World/, /human/ explorers discover the /Optic Islands/
+  and /Halfling Country/. TK
+- In the /Green Delta/, /Alfred Bartleby/ creates the /waxy wand/ for
+  the /Chandlers Guild/.
+** DRAFT 26th of Blooming, 55bc
+#+INDEX: 55bc!Blooming, 55bc!26th of Blooming, 55bc!"26th of Blooming, 55bc" in /Timeline/
+- In the /Green Delta/, /Madrin Squeal/ fell into cow-poop, drowned,
+  and died.
+** DRAFT 52bc
+#+INDEX: 52bc!"52bc" in /Timeline/
+- In the city of /Ack/, /Atlar Sendvogue/ invents the /pocket dragon/.
+** DRAFT 51bc
+#+INDEX: 51bc!"51bc" in /Timeline/
+- In the /Elflands/, /humans/ wanting to avoid the /Magic Revolution/
+  built a /Lystran monastery/.
+** DRAFT 44bc
+#+INDEX: 44bc!"44bc" in /Timeline/
+- In the city of /Ack/, /Altar Sendvogue/ invents the /lumorb/.
+*** Sleeting, 44bc
+#+INDEX: 44bc!Sleeting, 44bc!"Sleeting, 44bc" in /Timeline/
+**** 2nd of Sleeting, 44bc
+#+INDEX: 44bc!Sleeting, 44bc!2nd of Sleeting, 44bc!"2nd of Sleeting, 44bc" in /Timeline/
+- In the city of /Ack/, it rained all day.
+** DRAFT 41bc
+#+INDEX: 41bc!"41bc" in /Timeline/
+- In the city of /Ack/, /Altar Sendvogue/ invents the /autoheart/.
+** DRAFT 26th of Blooming, 31bc
+#+INDEX: 31bc!Blooming, 31bc!26th of Blooming, 31bc"26th of Blooming, 31bc" in /Timeline/
+- In the city of /Ack/, a /human/ boy named /Rickle Axager/ is born.
+** DRAFT 14bc
+#+INDEX: 14bc!"14bc" in /Timeline/
+- In the city of /Ack/, /Rickle Axager/ founds the /Delvers/.
+** DRAFT 1st of Sleeting, 0pc
+#+INDEX: 0pc!Sleeting, 0pc!1st of Sleeting, 0pc!"1st of Sleeting, 0pc" in /Timeline/
+- In the town of /Arathel/, /Jerry the Nowit/, at that time a /human/,
+  was pulled into his copy of /Gnorks Encyclopedia of Dwarven
+  Construction/.
+** DRAFT 17pc
+#+INDEX: 17pc!"17pc" in /Timeline/
+- In /Gnalens/, the /Bonnet Family/ was given a large parcel of land
+  west of the city, north of the /Southwoods/. It came to be known as
+  /Bonnet County/.
+** DRAFT 22pc
+#+INDEX: 22pc!"22pc" in /Timeline/
+- In the town of /Bellybrush/, the /Chandlers Guild/ invents the /wax
+  clock/.
+** DRAFT 23pc
+#+INDEX: 23pc!"23pc" in /Timeline/
+- In the city of /Ack/, /Aldous Honeyfern/ is born.
+** DRAFT 34pc
+#+INDEX: 34pc!"34pc" in /Timeline
+- In the town of /Bellybrush/ the newspaper /The Bellybrush Review/
+  prints their first issue.
+** DRAFT 26th of Blooming, 43pc
+#+INDEX: 43pc!Blooming, 43pc!26th of Blooming, 43pc!"26th of Blooming, 43pc" in /Timeline/
+** DRAFT 25th of Blooming, 44pc
+#+INDEX: 44pc!Blooming, 44pc!25th of Blooming, 44pc!"25th of Blooming, 44pc" in /Timeline/
+- In the town of /Marby/, a /human/ named /Madrin/ is born.
+** DRAFT 47pc
+#+INDEX: 47pc!"47pc" in /Timeline/
+- In the city of /Ack/, /Rickle Axager/ dies of natural causes.
+** DRAFT 53pc
+#+INDEX: 53pc!"53pc" in /Timeline/
+- In /Halfling Country/, near the border with the /Elflands/, a
+  /human/ girl named /Ilea/ is born.
+- In the town of /Bellybrush/, /Barnabus Trent/ opens /Ye Olde Curio
+  Shop/.
+** DRAFT 61pc
+#+INDEX: 61pc!"61pc" in /Timeline/
+- In the /Unseen Sea/, /Renkah/ marries /Gegin Harden/.
+** DRAFT 30th of Showering, 63pc
+#+INDEX: 63pc!Showering, 63pc!30th of Showering, 63pc!"30th of Showering, 63pc" in /Timeline/
+- In the /Unseen sea/, /Renkah/ and /Gegin Harden/ give birth to a
+  son, /Kolpe/.
+** 64pc
+#+INDEX: 64pc!"64pc" in /Timeline/
+*** Summer, 64pc
+#+INDEX: 64pc!Summer, 64pc!"Summer, 64pc" in /Timeline/
+**** DRAFT 8th of Summer, 64pc
+#+INDEX: 64pc!Summer, 64pc!8th of Summer, 64pc!"8th of Summer, 64pc" in /Timeline/
+- In /Arathel County/, a /human/ boy named /Athyer/ is born. See
+  {{{teraum-source-athyer}}}
+*** Droughting, 64pc
+#+INDEX: 64pc!Droughting, 64pc!"Droughting, 64pc" in /Timeline/
+**** DRAFT 7th of Droughting, 64pc
+#+INDEX: 64pc!Droughting, 64pc!7th of Droughting, 64pc!"7th of Droughting, 64pc" in /Timeline/
+- In /Oru County/, then /Ellon County/, a /human/ boy named /Tobin
+  Smiles/ is born.
+** DRAFT 4th of Summer, 65pc
+#+INDEX: 65pc!Summer, 65pc!4th of Summer, 65pc!"4th of Summer, 65pc" in /Timeline/
+- In the /Unseen Sea/, /Renkah/ and /Gegin Harden/ give birth to
+  triplets: /Tonna/, /Ronna/, and /Donna/.
+** DRAFT 26th of Rotting, 66pc
+#+INDEX: 66pc!Rotting, 66pc!26th of Rotting, 66pc!"26th of Rotting, 66pc" in /Timeline/
+- In /Pled County/, the forces of the /Ackian Merchant Kings/ attack
+  the force of /King Glavin the White/, at the /Second Battle for
+  Enrich's Mill/.
+** 15th of Winter, 68pc
+#+INDEX: 68pc!Winter, 69pc!15th of Winter, 68pc!"15th of Winter, 68pc" in /Timeline/
+- In the /Unseen Sea/, /Renkah/ and /Gegin Harden/ give birth to a
+  son, /Rual/.
+** 69pc
+#+INDEX: 69pc!"69pc" in /Timeline/
+- In the city of /Gnalens/, the /Bonnet Estate/ is condemned.
+- In the /Unseen Sea/, /Gegin Harden/ decides to lead his tribe north
+  across the /Worldkeepers/, to the /Farsteppes/.
+** DRAFT 70pc
+#+INDEX: 70pc!"70pc" in /Timeline/
+- In the town of /Bellybrush/, /Nell/ was found on the steps of the
+  /orphanage/.
+- In the city of /Ack/, the /Ackian Merchant Kings/ seize control of
+  the /Red Ward/ from the /Astar Empire/.
+** DRAFT 71pc
+#+INDEX: 71pc!"71pc" in /Timeline/
+- In the /Worldkeepers/, /Gegin Harden/ dies of an infection.
+** 73pc
+#+INDEX: 73pc!"73pc" in /Timeline/
+- In /Oru County/, then /Ellon County/, /Renkah/ settles into a /Ellon
+  Keep/ and renames it /Castle Oru/.
+** DRAFT 75pc
+#+INDEX: 75pc!"75pc" in /Timeline/
+- In the town of /Bellybrush/, /The Bellybrush Review/ ran an expose
+  declaring the /Red Union/, then the "Red Ward" did not offer any
+  services.
+- At /Castle Oru/, /Renkah Oru/ gives birth to a daughter, /Ekunit/.
+** DRAFT 76pc
+#+INDEX: 76pc!"76pc" in /Timeline/
+- In the town of /Bellybrush/, the editors of /The Bellybrush Review/
+  were found guilty and hanged for libel.
+** DRAFT Blooming, 77pc
+#+INDEX: 77pc!Blooming, 77pc!Blooming, 77pc!"Blooming, 77pc" in /Timline/
+- In /Arathel County/, the parents of /Athyer/ pass away from an
+  illness. {{{teraum-source-athyer}}}
+** DRAFT 22nd of Rotting, 79pc
+#+INDEX: 79pc!Rotting, 79pc!22nd of Rotting, 79pc!"22nd of Rotting, 79pc" in /Timeline/
+- At /Castle Oru/, /Thomas Jonmark/, an accountant from the /Red
+  Union/, arrives with an invoice for the current landholders.
+** 80pc
+#+INDEX: 80pc!"80pc" in /Timeline/
+*** Winter, 80pc
+#+INDEX: 80pc!Winter, 80pc!"Winter, 80pc" in /Timeline/
+- In the town of /Bellybrush/, /Madrin/ escapes from the /asylum/.
+*** Sleeting, 80pc
+#+INDEX: 80pc!Sleeting, 80pc!"Sleeting, 80pc" in /Timeline/
+**** DRAFT 14th of Sleeting, 80pc
+#+INDEX: 80pc!Sleeting, 80pc!14th of Sleeting, 80pc"14th of Sleeting, 80pc" in /Timeline/
+- In the town of /Bellybrush/, the /Chandlers Guild/ buys the
+  /printing press/ formerly used by /The Bellybrush Review/.
+*** Melting, 80pc
+**** DRAFT 2nd of Melting, 80pc
+- In the town of /Bellybrush/, /Mandrin Squeal/ builds himself a small
+  shack.
+- In the city of /Gnalens/, the /Vagrant/ assumes the identity of the
+  late /Wayne Helder/.
+*** Showering, 80pc
+#+INDEX: 80pc!Showering, 80pc!"Showering, 80pc" in /Timeline/
+**** 9th of Showering, 80pc
+#+INDEX: 80pc!Showering, 80pc!9th of Showering, 80pc!"9th of Showering, 80pc" in /Timeline/
+- Aboard the /One Route/, the /Vagrant/, /Brother Sun/, and /Ilea/
+  emigrate from the /New/ to /Old World/. {{{teraum-source-tft-11}}}
+**** DRAFT 12th of Showering, 80pc
+#+INDEX: 80pc!Showering, 80pc!12th of Showering, 80pc!"12th of Showering, 80pc" in /Timeline/
+- In the town of /Bellybrush/, /Nubbles/ recovers the /Big Book of
+  Misfortune and Mishap/ and sells it to /Barnabus Trent/.
+**** DRAFT 14th of Showering, 80pc
+#+INDEX: 80pc!Showering, 80pc!14th of Showering, 80pc!"14th of Showering, 80pc" in /Timeline/
+- In the town of /Bellybrush/, /Barnabus Trent/ detects /magic/ coming
+  from the /Big Book of Misfortune and Mishap/ and decides not to read
+  it, storing it in his basement vault. Spies from the /Red Union/
+  become aware he has a book he is not reading.
+*** Blooming, 80pc
+**** DRAFT 1st of Blooming, 80pc
+- In the town of /Bellybrush/, /Negalis Par/ murdered her parents,
+  /Dokas/ and /Milly Par/.
+**** DRAFT 8th of Blooming, 80pc
+#+INDEX: 80pc!Blooming, 80pc!8th of Blooming, 80pc!"8th of Blooming, 80pc" in /Timeline/
+- In the town of /Bellybrush/, /imps/ being directed by the /Chandlers
+  Guild/ break into the basement of /Ye Olde Curio Shop/, trying to
+  find the /Big Book of Misfortune and Mishap/.
+**** DRAFT 12th of Blooming, 80pc
+#+INDEX: 80pc!Blooming, 80pc!12 of Blooming, 80pc!"12th of Blooming, 80pc" in /Timeline/"
+- In the /Green Delta/, the airship /Hunnul/ crashes. During that,
+  four survivors (/Freke/, /Jenos Anadini/, /Kindal/, and /Renkah/)
+  are teleported by /magic/ into /Jerry's Hallway/, in the
+  /Worldkeep/. They then teleport back to the site of the crash,
+  unharmed. Later that afternoon, they wander into the town of
+  /Bellybrush/.
+**** DRAFT 13th of Blooming, 80pc
+#+INDEX: 80pc!Blooming, 80pc!13 of Blooming, 80pc!"13th of Blooming, 80pc" in /Timeline/"
+- In the town of /Green Delta/, /Kindal/ uses the /Red Union job
+  board/ outside the /Leaping Eel/ in /Bellybrush/ to recruit /Ross
+  Camden/ and recovers some, but not all, of his belongings from where
+  the airship /Hunnul's/ cargo crash-landed. While there, they
+  witnessed some /unusually large ravens/ scouting the crash site.
+- In the town of /Bellybrush/, /Budlock Baster/ discovers a corpse
+  with its face ripped off, in /Beggar's Alley/.
+  - Elsewhere in town, /Barnabus Trent/ puts a listing on the /Red
+    Union job board/ looking for help investigating the strange sounds
+    coming from his shop at night.
+**** DRAFT 14th of Blooming, 80pc
+#+INDEX: 80pc!Blooming, 80pc!14th of Blooming, 80pc!"14th of Blooming, 80pc" in /Timeline/
+- The city of /Ack/ was burnt. See [[file:./atlas-of-ack.org::#fire-of-80pc]["Fire of 80pc"]] in [[file:./atlas-of-ack.org][/Atlas of Ack/]].
+- In the town of /Bellybrush/, a /Chandlers Guild/ clerk named
+  /Wybert/ transfers from /Ack/. Elsewhere in town:
+  - /Ilea/ and /Brother Sun/ arrive at /Opal's Tavern/ and are met by
+    the /Vagrant/, under the identity of /Wayne Helder/. /Wayne/
+    returns the /mysterious putty/ to /Brother Sun/.
+  - /Jenos Anadini/ and /Kindal/ meet /Richie/ outside the /Leaping
+    Eel/.
+- In the /Sherwyn County/, /Brother Sun/, /Ilea/, and the /Vagrant/
+  massacre the /Chauntean Ruffians/ and occupy the /Chauntean
+  monastery/.
+**** DRAFT 18th of Blooming, 80pc
+- In the town of /Bellybrush/, /Barnabus Trent/ abandons /Ye Olde
+  Curio Shop/.
+** DRAFT 27th of Frosting, 80pc
+#+INDEX: 80pc!Frosting, 80pc!27th of Frosting, 80pc!"27th of Frosting, 80pc" in /Timeline/
+- In /Oru County/, a traveling dressmaker went missing while travening
+  from /Wultha/ to /Culthbert/.
+*** Snowing, 80pc
+#+INDEX: 80pc!Snowing, 80pc!"Snowing, 80pc" in /Timeline/
+**** DRAFT 1st of Snowing, 80pc
+#+INDEX: 80pc!Snowing, 80pc!1st of Snowing, 80pc!"1st of Snowing, 80pc" in /Timeline/
+- In /Oru County/, /Susan Gladly/ goes missing while returning to
+  /Culthbert Ciderworks/ from selling cider in the town of /Wultha/.
+**** DRAFT 2nd of Snowing, 80pc
+#+INDEX: 80pc!Snowing, 80pc!2nd of Snowing, 80pc!"2nd of Snowing, 80pc" in /Timeline/
+- In the village of /Wultha/, a farm boy went missing.
+**** DRAFT 3rd of Snowing, 80pc
+#+INDEX: 80pc!Snowing, 80pc!3rd of Snowing, 80pc!"3rd of Snowing, 80pc" in /Timeline/
+- In the village of /Wultha/, an out-of-towner staying at the /Green
+  Wayne Inn/ went missing.
+**** DRAFT 8th of Snowing, 80pc
+#+INDEX: 80pc!Snowing, 80pc!8th of Snowing, 80pc!"8th of Snowing, 80pc" in /Timeline/
+- In the village of /Wultha/, /Jeyro Harden/, a sheriff with /House
+  Oru/, arrived to investigate recent disappearances. In the early
+  evening, the village was attacked by /goblins/ led by a /bugbear/,
+  and destroyed.
+* Supplements
+** Timekeeping on Teraum
+   P:ROPERTIES:
+   :CUSTOM_ID: timekeeping
+   :END:
+ */Timekeeping/* is the business of tracking time and days. Time is
+ divided into years, each with 12 months containing three ten-day
+ periods. There are also five annual holidays occuring every four
+ years, with a sixth holiday occuring every four years, for a year that
+ is 365.25 days long.
+
+ The calendar, having originally been established by humans in the
+ Green Delta to coordinate agriculture, is largely defined by the
+ weather in that region through the year. There are four seasons of
+ three months each, each ending in a holiday, except the dry season
+ which ends in two holidays.
+
+ | Season | Months... | .       | .          | Holiday                             |
+ | Winter | Frosting  | Snowing | Sleeting   | Wintertyg                           |
+ | Spring | Winter    | Melting | Showering  | Springtyg                           |
+ | Summer | Blooming  | Summer  | Droughting | Summertyg (& Restyg, every 4 years) |
+ | Fall   | Browning  | Dusking | Rotting    | Harvestyg & Feastyg                 |
+*** Seasons
+**** Cold
+**** Wet
+**** Hot
+**** Dry
+*** Months
+**** Sleeting
+ */Sleeting/* is equivalent to Earth's January. Most known regions of
+ Teraum are frozen, except the New World and southern parts of the
+ Unseen Sea. The holiday of Wintertyg occurs after the last day of
+ Sleeting. Formerly /Deepwinter/.
+**** Winter
+ */Winter/* is equivalent to Earth's February. Temperatures continue to
+ drop, with parts of the New World dipping below freezing.
+**** Melting
+ */Melting/* is equivalent to Earth's March. Temperatures rapidly
+ increase as the days lengthen. The spring equinox is on the 19th of
+ Melting.
+**** Showering
+ */Showering/* is the eqivalent to Earth's April. The Central Plains
+ thaw. Springtyg occurs after the last day of Showering.
+**** Blooming
+ */Blooming/* is the equivalent to Earth's May. The Farsteppes thaw.
+**** Summer
+ */Summer/* is the equivalent to Earth's June. The summer solstice is
+  on the 20th of Summer.
+**** Droughting
+     :PROPERTIES:
+     :CUSTOM_ID: droughting
+     :END:
+ During the month of */Droughting/*, the more temperate areas of the
+ Farfarsteppes thaw.
+
+ The holiday of Summertyg occurs after the last day of
+ the month, and every four years, another holiday follows, called
+ Restyg.
+
+ Droughting is the equivalent to Earth's July.
+**** Browning
+     :PROPERTIES:
+     :CUSTOM_ID: browning
+     :END:
+ */Browning/* is the equivalent to Earth's August. In the
+ Farfarsteppes, humans harvest whatever agriculture they planted in
+ Droughting. Constructive Criticism Day is observed on the 15th of
+ Browning, within the Greater Ack Metropolitan Enclosure.
+**** Dusking
+ */Dusking/* is the equivalent to Earth's September. The autumn equinox
+ is the 21st of Dusking. The Farfarsteppes freeze. Harvestyg occurs
+ after the last day of Dusking.
+**** Rotting
+ */Rotting/* is the equivalent to Earth's October.
+**** Frosting
+ */Frosting/* is the equivalent to Earth's November.
+**** Snowing
+ */Snowing/* is the equivalent to Earth's December. The winter solstice
+ is on the 20th of Drawing.
+*** Holidays
+**** Wintertyg
+**** Springtyg
+**** Summertyg
+     :PROPERTIES:
+     :CUSTOM_ID: summertyg
+     :END:
+ The holiday of */Summertyg/* comes after the month of
+ Droughting. Every four years, the holiday of
+ Restyg comes after Summertyg, otherwise, the next day is
+ the 1st of Browning. For most humans, Summertyg is a
+ day of rest, but there is no collective means of celebrating the
+ day.
+**** Harvestyg
+**** Restyg
+     :PROPERTIES:
+     :CUSTOM_ID: restyg
+     :END:
+**** Feastyg
+*** Stellar Occurrences
+**** Winter Solstice
+**** Spring Equinox
+ The
+**** Summer Solstice
+**** Autumn Equinox
+*** Observations
+**** Constructive Criticism Day

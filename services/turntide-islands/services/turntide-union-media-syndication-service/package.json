@@ -1,0 +1,28 @@
+{
+  "name": "@causeway-services/turntide-union-media-syndication-service",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "Turntide's Union Media contract, admissions, clearing, settlement, and publication capability, independent of the aggregate settlement and Discord application.",
+  "exports": {
+    ".": "./src/union-media-syndication.mjs",
+    "./package.json": "./package.json"
+  },
+  "files": [
+    "src",
+    "content",
+    "lib"
+  ],
+  "scripts": {
+    "test": "node --test test/*.test.mjs"
+  },
+  "dependencies": {
+    "@red-cup-engineering/ni-services-section": "0.1.2",
+    "@red-cup-engineering/semantic-content-identify-service": "0.2.8",
+    "@causeway-services/turntide-witness-journal-binding-service": "1.0.1",
+    "@red-cup-engineering/witness-journal-document-service": "1.0.1"
+  },
+  "engines": {
+    "node": ">=22.18"
+  },
+  "sideEffects": false
+}

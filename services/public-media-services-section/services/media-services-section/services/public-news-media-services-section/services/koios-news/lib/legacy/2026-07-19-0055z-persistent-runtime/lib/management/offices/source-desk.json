@@ -1,0 +1,13 @@
+{
+  "kind": "koios.office",
+  "id": "source-desk",
+  "incumbent": "Koios source-custody mechanism",
+  "authority": [
+    "solicit source-bundle offers under Koios's declared source law",
+    "verify provider delivery and bundle digests",
+    "admit new immutable subjects into Koios's corpus and preserve collisions without overwrite",
+    "record upstream failures, refusals, provider usage, and zero-price settlement"
+  ],
+  "duties": ["settling-source-bundles"],
+  "separation": "May admit witnessed source material but cannot create assignments, treat demand as evidence, draft, judge, publish, or let a provider write Koios's corpus."
+}

@@ -1,0 +1,69 @@
+{
+  "subject": "lebanon-3-july-2026-1",
+  "claims": [
+    {
+      "id": "title",
+      "proposition": {
+        "predicate": "title",
+        "object": "Lebanon 3 July 2026 #1"
+      },
+      "time": {
+        "asserted": "2026-07-18T08:37:50.759Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "war",
+        "citation": "https://www.crisisgroup.org/content/lebanon-3-july-2026-1"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "url",
+      "proposition": {
+        "predicate": "url",
+        "object": "https://www.crisisgroup.org/content/lebanon-3-july-2026-1"
+      },
+      "time": {
+        "asserted": "2026-07-18T08:37:50.759Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "war",
+        "citation": "https://www.crisisgroup.org/content/lebanon-3-july-2026-1"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "summary",
+      "proposition": {
+        "predicate": "summary",
+        "object": "<span>Lebanon 3 July 2026 #1</span> <span><span>lalasor</span></span> <span><time datetime=\"2026-07-03T16:35:28+02:00\" title=\"Friday, July 3, 2026 - 16:35\">Fri, 07/03/2026 - 16:35</time> </span> <a href=\"https://www.crisisgroup.org/lebanon\" hreflang=\"en\">Lebanon</a> <div class=\"paragraph paragraph--type--timeline-date paragraph--view-mode--default\"> <time datetime=\"2026-07-03T12:00:00Z\">Fri, 07/03/2026 - 12:00</time> 3 July 2026 <p><span style=\"background-color:#ffffff;color:#121212;font-family:Arial,sans-serif;font-size:10pt;font-style:normal;font-variant:normal;font-weight:400;text-decoration:none;vertical-align:baseline;white-space:pre-wrap;\">The IDF&nbsp;</span><a style=\"text-decoration:none;\" href=\"https://x.com/IDF/status/2073003512531669076\" target=\"_blank\"><span style=\"-webkit-text-decoration-skip:none;background-color:#ffffff;color:#1155cc;font-family:Arial,sans-serif;font-size:10pt;font-style:normal;font-variant:normal;font-weight:400;text-decoration-skip-ink:none;text-decoration:underline;vertical-align:baseline;white-space:pre-wrap;\">reported</span></a><span style=\"background-color:#ffffff;color:#121212;font-family:Arial,sans-serif;font-size:10pt;font-style:normal;font-variant:normal;font-weight:400;text-decoration:none;vertical-align:baseline;white-space:pre-wrap;\"> that “in response to Hizbollah’s repeated ceasefire violations: [approximately] ten Hizbollah infrastructure sites in southern Lebanon, which were used to advance attacks against IDF soldiers, were struck. Additionally, IDF soldiers identified and struck a Hizbollah terrorist cell transporting weapons in a truck near the security zone”.&nbsp;</span></p> </div>"
+      },
+      "time": {
+        "asserted": "2026-07-18T08:37:50.759Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "war",
+        "citation": "https://www.crisisgroup.org/content/lebanon-3-july-2026-1"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "published",
+      "proposition": {
+        "predicate": "published",
+        "object": "Fri, 03 Jul 2026 14:35:28 +0000"
+      },
+      "time": {
+        "asserted": "2026-07-18T08:37:50.759Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "war",
+        "citation": "https://www.crisisgroup.org/content/lebanon-3-july-2026-1"
+      },
+      "status": "supported"
+    }
+  ]
+}

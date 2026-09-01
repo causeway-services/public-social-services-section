@@ -1,0 +1,69 @@
+{
+  "subject": "chinese-president-xi-jinping-wants-emergency-response-systems-to-keep-ai-in-check",
+  "claims": [
+    {
+      "id": "title",
+      "proposition": {
+        "predicate": "title",
+        "object": "Chinese President Xi Jinping wants emergency response systems to keep AI in check"
+      },
+      "time": {
+        "asserted": "2026-07-20T01:13:48.560Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "technology",
+        "citation": "https://www.theregister.com/ai-and-ml/2026/07/20/chinese-president-xi-jinping-wants-emergency-response-systems-to-keep-ai-in-check/5274687"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "url",
+      "proposition": {
+        "predicate": "url",
+        "object": "https://www.theregister.com/ai-and-ml/2026/07/20/chinese-president-xi-jinping-wants-emergency-response-systems-to-keep-ai-in-check/5274687"
+      },
+      "time": {
+        "asserted": "2026-07-20T01:13:48.560Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "technology",
+        "citation": "https://www.theregister.com/ai-and-ml/2026/07/20/chinese-president-xi-jinping-wants-emergency-response-systems-to-keep-ai-in-check/5274687"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "summary",
+      "proposition": {
+        "predicate": "summary",
+        "object": "ASIA IN BRIEF Chinese President Xi Jinping has delivered a major speech on AI, which he thinks has enormous potential – for good and evil. Xi’s speech called for AI development to “adhere to the principle of openness.” “As a new engine of world economic growth and an accelerator for the shift of growth drivers, AI is moving from the digital world into the physical world. We should seize this rare, historic opportunity to encourage open source, openness, collaboration and sharing,” he said. China’s leader also thinks we need to remain open to the possibility that AI could go badly. “We should strengthen risk-awareness and ensure that AI is secure and controllable,” he said. “We should take seriously the various types of inherent and secondary risks that AI may trigger. We should put in place laws and regulations, technological monitoring, early warning and emergency response systems in order to strengthen the line of security, prevent abuses and malicious use, and ensure that AI is always under human control.” “In the meantime, we should jointly oppose overstretching the national security concept in the field of AI and placing one country's security over that of others,” he added, a remark that sounds a lot like criticism of the Trump administration’s policy of limiting access to Anthropic’s Mythos model. Xi’s next suggestion was to “encourage inclusiveness and promote mutual learning between civilizations.” He also wants better global governance of AI. “AI is an invaluable asset that encapsulates humanity's collective wisdom,” he said. “China is ready to be more open, take more practical actions, and assume a more visionary perspective,” he added. To make that happen, China last week also launched an entity called the “World Artificial Intelligence Cooperation Organization” (WAICO) and its 29 members, including Indonesia, Malaysia, Russia, Pakistan, Brazil and South Africa. Several of those nations are already members of the “BRICS” bloc of emerging nations that China sees as a counterweight to other geopolitical groupings. Xi’s speech included a call for China to “carry out extensive international cooperation and help global South countries with capacity building to bridge the AI and digital divides, promote sustainable development, and prevent creating new historical injustice in AI.” Which sounds like a job for the WAICO. Coupang burns Coupang, South Korea’s largest e-commerce company, is on fire – but not in a good way. One of the company’s logistics centers caught fire on Saturday morning, and Korean media report firefighters have not yet extinguished the blaze. The company apologized for the incident and said the warehouse’s three tiers of shelving mean the fire is burning so fiercely that firefighters struggled to gain safe access. None of the 100-plus staff who work at the facility were hurt, but the blaze has impacted nearby residents who have sheltered in a local school. New Delhi throws more money at chipmaking and smartphones India’s government last week announced new subsidy schemes to boost local production of semiconductors and smartphones. The goals of the $13 billion semiconductor scheme include developing more fabs, and the industries chipmakers rely on to manufacture their wares. The $6.5 billion smartphone subsidy will go towards increasing the scale of local smartphone manufacturing. India’s prime minister Narendra Modi often says the world has quickly come to recognize India as a leading source of semiconductor smarts and manufacturing. However the nation’s first fab won’t open until 2028, and reports in local media suggest the first products to roll off the production line will be commodity silicon made on a 90nm process and not the 28nm chips previously touted as the likely output of the plant. Japan’s KFC cyber-crisis eases Japanese frozen food outfit Nichirei Group says it “has begun the phased resumption of operations” after the cyberattack that caused it to suspend production and deliveries and led KFC to warn of shortages and store closures. The chicken chain’s most recent advice on the situation says Nichirei is working to resume operations but continues to warn that some products may be out of stock, menu items may be limited, and stores may reduce their business hours. India’s first private rocket reaches orbit on first try Indian private space startup Skyroot Aerospace has successfully launched its Vikram-1 rocket at its first attempt. The launcher is an expendable four-stage vehicle capable of heaving payloads of up to 550kg into low earth orbit. It’s rare for first flights to succeed, never mind also placing payloads into orbit. Skyroot Aerospace achieved both feats, by successfully placing a number of demonstration satellites in orbit. The mission also carried jewelry and sculptures. Oz uni does the VMware-to-Nutanix thing Australia’s University of Southern Queensland last week announced it has shifted 800 VMs to Nutanix, including its Oracle, Peoplesoft, and Moodle. The Register understands VMware was the University’s incumbent virtualization provider. ®"
+      },
+      "time": {
+        "asserted": "2026-07-20T01:13:48.560Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "technology",
+        "citation": "https://www.theregister.com/ai-and-ml/2026/07/20/chinese-president-xi-jinping-wants-emergency-response-systems-to-keep-ai-in-check/5274687"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "published",
+      "proposition": {
+        "predicate": "published",
+        "object": "Mon, 20 Jul 2026 02:38:54 +0200"
+      },
+      "time": {
+        "asserted": "2026-07-20T01:13:48.560Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "technology",
+        "citation": "https://www.theregister.com/ai-and-ml/2026/07/20/chinese-president-xi-jinping-wants-emergency-response-systems-to-keep-ai-in-check/5274687"
+      },
+      "status": "supported"
+    }
+  ]
+}

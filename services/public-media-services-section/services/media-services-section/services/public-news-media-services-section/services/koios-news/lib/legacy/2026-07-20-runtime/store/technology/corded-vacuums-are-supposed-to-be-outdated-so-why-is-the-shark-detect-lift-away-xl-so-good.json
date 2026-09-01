@@ -1,0 +1,69 @@
+{
+  "subject": "corded-vacuums-are-supposed-to-be-outdated-so-why-is-the-shark-detect-lift-away-xl-so-good",
+  "claims": [
+    {
+      "id": "title",
+      "proposition": {
+        "predicate": "title",
+        "object": "Corded vacuums are supposed to be outdated – so why is the Shark Detect Lift-Away XL so good?"
+      },
+      "time": {
+        "asserted": "2026-07-19T14:41:51.389Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "technology",
+        "citation": "https://www.theguardian.com/thefilter/2026/jul/19/shark-detect-xl-lift-away-car-pet-expert-review-tested-uk"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "url",
+      "proposition": {
+        "predicate": "url",
+        "object": "https://www.theguardian.com/thefilter/2026/jul/19/shark-detect-xl-lift-away-car-pet-expert-review-tested-uk"
+      },
+      "time": {
+        "asserted": "2026-07-19T14:41:51.389Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "technology",
+        "citation": "https://www.theguardian.com/thefilter/2026/jul/19/shark-detect-xl-lift-away-car-pet-expert-review-tested-uk"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "summary",
+      "proposition": {
+        "predicate": "summary",
+        "object": "<p>Surprisingly easy to manoeuvre and skilled at cleaning carpet and hard floor, Shark’s upright bagless model is one of the best corded vacuums I’ve tested</p><p>• <a href=\"https://www.theguardian.com/thefilter/2026/feb/13/best-vacuum-cleaners-uk-tested\"><strong>The best vacuum cleaners</strong></a></p><p>Corded <a href=\"https://www.theguardian.com/thefilter/2026/feb/13/best-vacuum-cleaners-uk-tested\">vacuum cleaners</a> aren’t as glamorous as their cordless cousins, but swapping battery power for a plug socket has its advantages. The device will never be short of power, so it can keep cleaning for as long as you need it to. Prices also tend to be lower because there’s no expensive battery to factor into the cost.</p><p>On the downside, there’s a cable to manage while you clean, and even the longest cords usually need to be switched from one plug socket to another if your home is any larger than a small flat.</p> <a href=\"https://www.theguardian.com/thefilter/2026/jul/19/shark-detect-xl-lift-away-car-pet-expert-review-tested-uk\">Continue reading...</a>"
+      },
+      "time": {
+        "asserted": "2026-07-19T14:41:51.389Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "technology",
+        "citation": "https://www.theguardian.com/thefilter/2026/jul/19/shark-detect-xl-lift-away-car-pet-expert-review-tested-uk"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "published",
+      "proposition": {
+        "predicate": "published",
+        "object": "Sun, 19 Jul 2026 12:00:26 GMT"
+      },
+      "time": {
+        "asserted": "2026-07-19T14:41:51.389Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "technology",
+        "citation": "https://www.theguardian.com/thefilter/2026/jul/19/shark-detect-xl-lift-away-car-pet-expert-review-tested-uk"
+      },
+      "status": "supported"
+    }
+  ]
+}

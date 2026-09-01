@@ -1,0 +1,69 @@
+{
+  "subject": "notice-to-membership",
+  "claims": [
+    {
+      "id": "title",
+      "proposition": {
+        "predicate": "title",
+        "object": "Notice to Membership"
+      },
+      "time": {
+        "asserted": "2026-07-19T02:19:57.968Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "technology",
+        "citation": "https://spectrum.ieee.org/notice-to-membership-july-2026"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "url",
+      "proposition": {
+        "predicate": "url",
+        "object": "https://spectrum.ieee.org/notice-to-membership-july-2026"
+      },
+      "time": {
+        "asserted": "2026-07-19T02:19:57.968Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "technology",
+        "citation": "https://spectrum.ieee.org/notice-to-membership-july-2026"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "summary",
+      "proposition": {
+        "predicate": "summary",
+        "object": "As of 21 June 2026, a Level 1 Expulsion has been imposed on IEEE Member Dr. Fei-Yue Wang, former editor-in-chief of the IEEE Transactions on Intelligent Vehicles . In accordance with IEEE Bylaw I-110.5(D)(i), Dr. Wang is no longer a member of IEEE, and is permanently banned from any type of membership in any IEEE organizational unit or participation in any IEEE activity. The Board of Directors also determined this notice to IEEE membership should be made."
+      },
+      "time": {
+        "asserted": "2026-07-19T02:19:57.968Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "technology",
+        "citation": "https://spectrum.ieee.org/notice-to-membership-july-2026"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "published",
+      "proposition": {
+        "predicate": "published",
+        "object": "Wed, 15 Jul 2026 18:00:02 +0000"
+      },
+      "time": {
+        "asserted": "2026-07-19T02:19:57.968Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "technology",
+        "citation": "https://spectrum.ieee.org/notice-to-membership-july-2026"
+      },
+      "status": "supported"
+    }
+  ]
+}

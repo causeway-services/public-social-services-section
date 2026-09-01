@@ -1,0 +1,69 @@
+{
+  "subject": "attackers-target-critical-fortisandbox-flaws-as-cisa-issues-patch-order",
+  "claims": [
+    {
+      "id": "title",
+      "proposition": {
+        "predicate": "title",
+        "object": "Attackers target critical FortiSandbox flaws as CISA issues patch order"
+      },
+      "time": {
+        "asserted": "2026-07-18T07:55:43.768Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "technology",
+        "citation": "https://www.theregister.com/security/2026/07/17/attackers-target-critical-fortisandbox-flaws-as-cisa-issues-patch-order/5274287"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "url",
+      "proposition": {
+        "predicate": "url",
+        "object": "https://www.theregister.com/security/2026/07/17/attackers-target-critical-fortisandbox-flaws-as-cisa-issues-patch-order/5274287"
+      },
+      "time": {
+        "asserted": "2026-07-18T07:55:43.768Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "technology",
+        "citation": "https://www.theregister.com/security/2026/07/17/attackers-target-critical-fortisandbox-flaws-as-cisa-issues-patch-order/5274287"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "summary",
+      "proposition": {
+        "predicate": "summary",
+        "object": "Fortinet admins have two more reasons to clear their calendars after CISA confirmed a pair of critical FortiSandbox bugs are being actively exploited. The two bugs, tracked as CVE-2026-39808 and CVE-2026-25089, both carry CVSS scores of 9.1 and affect FortiSandbox, FortiSandbox Cloud, and FortiSandbox PaaS. According to Fortinet, they are OS command injection flaws that allow unauthenticated attackers to execute arbitrary commands via specially crafted HTTP requests, requiring neither valid credentials nor user interaction. Fortinet released fixes for CVE-2026-39808 in April and CVE-2026-25089 in June, warning in advisories published at the time that successful exploitation could lead to remote code execution via low-complexity attacks. Fortinet has not publicly confirmed that either flaw is being exploited in the wild, but CISA has now added both bugs to its Known Exploited Vulnerabilities (KEV) catalog. Inclusion in the catalog means CISA has evidence that the vulnerabilities are being actively exploited, although the agency rarely attributes attacks or discloses how widespread they are. For federal civilian agencies, bugs landing in KEV come with homework. Binding Operational Directive 26-04 requires them to patch within CISA's deadlines or pull the plug on vulnerable products if they can't be adequately secured. Fortinet has not updated its advisories to mark either flaw as exploited and did not respond to The Register's questions. CISA isn't the only one reporting attackers poking at these vulnerabilities. Security firm Defused said it had observed exploitation attempts against both flaws this week alongside another FortiSandbox vulnerability, CVE-2026-39813. Not every exploit appears to be doing its job, though, as Defused described the one targeting CVE-2026-25089 as \"vibecoded\" and likely broken, adding that it has yet to see a working public exploit. CISA also used Thursday's KEV update to flag another fresh concern: Microsoft's newly patched SharePoint Server bug, CVE-2026-58644. The critical deserialization vulnerability, rated 9.8, allows authenticated attackers with Site Owner privileges to execute arbitrary code remotely against vulnerable SharePoint servers. Microsoft warned that the bug can be exploited remotely over the internet with relatively little effort, making it one to patch sooner rather than later. ®"
+      },
+      "time": {
+        "asserted": "2026-07-18T07:55:43.768Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "technology",
+        "citation": "https://www.theregister.com/security/2026/07/17/attackers-target-critical-fortisandbox-flaws-as-cisa-issues-patch-order/5274287"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "published",
+      "proposition": {
+        "predicate": "published",
+        "object": "Fri, 17 Jul 2026 13:58:10 +0200"
+      },
+      "time": {
+        "asserted": "2026-07-18T07:55:43.768Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "technology",
+        "citation": "https://www.theregister.com/security/2026/07/17/attackers-target-critical-fortisandbox-flaws-as-cisa-issues-patch-order/5274287"
+      },
+      "status": "supported"
+    }
+  ]
+}

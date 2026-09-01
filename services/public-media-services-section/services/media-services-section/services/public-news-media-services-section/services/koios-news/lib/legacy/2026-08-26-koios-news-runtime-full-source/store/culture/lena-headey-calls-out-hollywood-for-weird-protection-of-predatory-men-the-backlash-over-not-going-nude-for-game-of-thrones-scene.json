@@ -1,0 +1,69 @@
+{
+  "subject": "lena-headey-calls-out-hollywood-for-weird-protection-of-predatory-men-the-backlash-over-not-going-nude-for-game-of-thrones-scene",
+  "claims": [
+    {
+      "id": "title",
+      "proposition": {
+        "predicate": "title",
+        "object": "Lena Headey Calls Out Hollywood For “Weird Protection” Of “Predatory Men” & The Backlash Over Not Going Nude For ‘Game Of Thrones’ Scene"
+      },
+      "time": {
+        "asserted": "2026-07-19T14:42:05.531Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "culture",
+        "citation": "https://deadline.com/2026/07/lena-headey-hollywood-predatory-men-backlash-game-of-thrones-1236997595/"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "url",
+      "proposition": {
+        "predicate": "url",
+        "object": "https://deadline.com/2026/07/lena-headey-hollywood-predatory-men-backlash-game-of-thrones-1236997595/"
+      },
+      "time": {
+        "asserted": "2026-07-19T14:42:05.531Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "culture",
+        "citation": "https://deadline.com/2026/07/lena-headey-hollywood-predatory-men-backlash-game-of-thrones-1236997595/"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "summary",
+      "proposition": {
+        "predicate": "summary",
+        "object": "Lena Headey is getting real about the “weird protection” of “predatory men” in Hollywood and reveals what “shocked” her about the reaction to the Game of Thrones nudity scandal. In a new interview, the GoT star who played Cersei Lannister in the HBO fantasy series opened up about the backlash she got for using a […]"
+      },
+      "time": {
+        "asserted": "2026-07-19T14:42:05.531Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "culture",
+        "citation": "https://deadline.com/2026/07/lena-headey-hollywood-predatory-men-backlash-game-of-thrones-1236997595/"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "published",
+      "proposition": {
+        "predicate": "published",
+        "object": "Sat, 18 Jul 2026 23:00:39 +0000"
+      },
+      "time": {
+        "asserted": "2026-07-19T14:42:05.531Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "culture",
+        "citation": "https://deadline.com/2026/07/lena-headey-hollywood-predatory-men-backlash-game-of-thrones-1236997595/"
+      },
+      "status": "supported"
+    }
+  ]
+}

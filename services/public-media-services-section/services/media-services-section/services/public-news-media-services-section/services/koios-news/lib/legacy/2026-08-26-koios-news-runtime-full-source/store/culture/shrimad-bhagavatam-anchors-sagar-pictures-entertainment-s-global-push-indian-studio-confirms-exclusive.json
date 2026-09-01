@@ -1,0 +1,69 @@
+{
+  "subject": "shrimad-bhagavatam-anchors-sagar-pictures-entertainment-s-global-push-indian-studio-confirms-exclusive",
+  "claims": [
+    {
+      "id": "title",
+      "proposition": {
+        "predicate": "title",
+        "object": "‘Shrimad Bhagavatam’ Anchors Sagar Pictures Entertainment’s Global Push, Indian Studio Confirms (EXCLUSIVE)"
+      },
+      "time": {
+        "asserted": "2026-07-20T09:48:52.265Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "culture",
+        "citation": "https://variety.com/2026/film/news/shrimad-bhagavatam-sagar-pictures-entertainment-global-studio-1236816382/"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "url",
+      "proposition": {
+        "predicate": "url",
+        "object": "https://variety.com/2026/film/news/shrimad-bhagavatam-sagar-pictures-entertainment-global-studio-1236816382/"
+      },
+      "time": {
+        "asserted": "2026-07-20T09:48:52.265Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "culture",
+        "citation": "https://variety.com/2026/film/news/shrimad-bhagavatam-sagar-pictures-entertainment-global-studio-1236816382/"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "summary",
+      "proposition": {
+        "predicate": "summary",
+        "object": "Sagar Pictures Entertainment (SPE) has confirmed the launch of a global studio business, moving beyond film and television production into an intellectual property-led growth strategy spanning gaming, music, consumer products and theme parks. The Mumbai-based studio said it is transitioning from a traditional content company into what it describes as a future-focused entertainment enterprise, aiming […]"
+      },
+      "time": {
+        "asserted": "2026-07-20T09:48:52.265Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "culture",
+        "citation": "https://variety.com/2026/film/news/shrimad-bhagavatam-sagar-pictures-entertainment-global-studio-1236816382/"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "published",
+      "proposition": {
+        "predicate": "published",
+        "object": "Mon, 20 Jul 2026 08:46:51 +0000"
+      },
+      "time": {
+        "asserted": "2026-07-20T09:48:52.265Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "culture",
+        "citation": "https://variety.com/2026/film/news/shrimad-bhagavatam-sagar-pictures-entertainment-global-studio-1236816382/"
+      },
+      "status": "supported"
+    }
+  ]
+}

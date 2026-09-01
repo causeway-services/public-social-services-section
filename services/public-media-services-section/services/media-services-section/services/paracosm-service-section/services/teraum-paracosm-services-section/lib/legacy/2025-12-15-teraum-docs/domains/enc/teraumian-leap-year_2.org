@@ -1,0 +1,6 @@
+:PROPERTIES:
+:ID:       93cb2320-9436-4a81-a942-fe52cf4f6f3a
+:END:
+#+title: Teraumian leap year
+#+date: [2025-09-05 Fri 20:47]
+

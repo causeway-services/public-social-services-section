@@ -1,0 +1,8 @@
+:PROPERTIES:
+:ID:       9ccb6cfe-d0cf-426b-aefe-3268efe4e757
+:instantiates: [[id:748fb558-b92d-4020-ad0d-ff334c92de2e][ward of Ack]]
+:field:    [[id:7f527251-b5fc-4546-9fc7-8b6af33451e0][Teraum]]
+:END:
+#+title: Red Ward
+#+date: [2025-09-05 Fri 21:15]
+#+index: Teraum!Westlands!Green Delta!Ack!Red Ward

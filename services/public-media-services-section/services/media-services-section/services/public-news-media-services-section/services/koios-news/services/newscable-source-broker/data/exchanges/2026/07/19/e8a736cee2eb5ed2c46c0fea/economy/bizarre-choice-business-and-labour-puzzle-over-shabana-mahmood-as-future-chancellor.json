@@ -1,0 +1,69 @@
+{
+  "subject": "bizarre-choice-business-and-labour-puzzle-over-shabana-mahmood-as-future-chancellor",
+  "claims": [
+    {
+      "id": "title",
+      "proposition": {
+        "predicate": "title",
+        "object": "‘Bizarre choice’: business and Labour puzzle over Shabana Mahmood as future chancellor"
+      },
+      "time": {
+        "asserted": "2026-07-19T14:41:48.886Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "economy",
+        "citation": "https://www.theguardian.com/politics/2026/jul/16/shabana-mahmood-future-chancellor"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "url",
+      "proposition": {
+        "predicate": "url",
+        "object": "https://www.theguardian.com/politics/2026/jul/16/shabana-mahmood-future-chancellor"
+      },
+      "time": {
+        "asserted": "2026-07-19T14:41:48.886Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "economy",
+        "citation": "https://www.theguardian.com/politics/2026/jul/16/shabana-mahmood-future-chancellor"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "summary",
+      "proposition": {
+        "predicate": "summary",
+        "object": "<p>The home secretary, favourite to take over at No 11, has minimal economic credentials and many MPs would prefer Ed Miliband</p><p>Andy Burnham last month promised the UK he would bring “good growth in every postcode and hope in every heart” when he is installed as prime minister. Britain’s industry leaders also have a hope in their hearts: that Burnham will install a pro-business chancellor.</p><p>The energy secretary, Ed Miliband, was for several weeks seen as the most likely candidate to succeed Rachel Reeves but, after a brutal briefing battle and a backlash from big business, the home secretary, <a href=\"https://www.theguardian.com/politics/2026/jul/15/shabana-mahmood-andy-burnham-chancellor\">Shabana Mahmood, appears to have emerged as the frontrunner</a>. Now businesses are scrambling to try to work out how she might run the economy if confirmed in the Treasury on Monday.</p> <a href=\"https://www.theguardian.com/politics/2026/jul/16/shabana-mahmood-future-chancellor\">Continue reading...</a>"
+      },
+      "time": {
+        "asserted": "2026-07-19T14:41:48.886Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "economy",
+        "citation": "https://www.theguardian.com/politics/2026/jul/16/shabana-mahmood-future-chancellor"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "published",
+      "proposition": {
+        "predicate": "published",
+        "object": "Thu, 16 Jul 2026 18:00:45 GMT"
+      },
+      "time": {
+        "asserted": "2026-07-19T14:41:48.886Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "economy",
+        "citation": "https://www.theguardian.com/politics/2026/jul/16/shabana-mahmood-future-chancellor"
+      },
+      "status": "supported"
+    }
+  ]
+}

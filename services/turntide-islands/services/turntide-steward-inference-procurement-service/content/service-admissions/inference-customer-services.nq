@@ -1,0 +1,7 @@
+# Turntide Islands' customer-side service plate for the inference market:
+# the RMN conformance and witness-journal RDF provider Agent Cards this settlement hires
+# to conform and witness its inference contracts. Both roles are required by
+# the market law; while this plate carries no admitted services the steward's
+# market access stays refused (typed, never silent). Seat one quad per role:
+# <provider-actor> <urn:union:service-role:rmn-conformance> <card-url> <urn:ame:turntide-islands:inference-customer-service-admissions> .
+# <provider-actor> <urn:union:service-role:witness-journal-rdf> <card-url> <urn:ame:turntide-islands:inference-customer-service-admissions> .

@@ -1,0 +1,30 @@
+{
+  "name": "@emsenn/mathematics-curriculum-enterprise",
+  "version": "0.1.7",
+  "type": "module",
+  "description": "Sovereign owner of public mathematics course revisions, lesson membership, prerequisite graphs, and digest-bound lesson brief products.",
+  "files": [
+    "content/",
+    "src/"
+  ],
+  "scripts": {
+    "check": "node --check src/curriculum.mjs && node --check test/curriculum.test.mjs",
+    "test": "node --test test/curriculum.test.mjs"
+  },
+  "engines": {
+    "node": ">=22.18"
+  },
+  "dependencies": {
+    "@red-cup-engineering/semantic-content-identify-service": "0.2.7",
+    "@red-cup-engineering/semantic-record-journal-service": "0.1.8"
+  },
+  "keywords": [
+    "sovereign-state-enterprise",
+    "curriculum"
+  ],
+  "license": "UNLICENSED",
+  "exports": {
+    ".": "./src/curriculum.mjs",
+    "./journal": "./src/journal.mjs"
+  }
+}

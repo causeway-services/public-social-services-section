@@ -1,0 +1,69 @@
+{
+  "subject": "russell-s-mercedes-problems-100-on-us-says-toto-wolff-after-belgium-blow",
+  "claims": [
+    {
+      "id": "title",
+      "proposition": {
+        "predicate": "title",
+        "object": "Russell’s Mercedes problems ‘100% on us’, says Toto Wolff after Belgium blow"
+      },
+      "time": {
+        "asserted": "2026-07-20T09:48:52.778Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "sports",
+        "citation": "https://www.theguardian.com/sport/2026/jul/19/george-russell-toto-wolff-mercedes-lewis-hamilton-ferrari-belgian-grand-prix-f1-formule-one"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "url",
+      "proposition": {
+        "predicate": "url",
+        "object": "https://www.theguardian.com/sport/2026/jul/19/george-russell-toto-wolff-mercedes-lewis-hamilton-ferrari-belgian-grand-prix-f1-formule-one"
+      },
+      "time": {
+        "asserted": "2026-07-20T09:48:52.778Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "sports",
+        "citation": "https://www.theguardian.com/sport/2026/jul/19/george-russell-toto-wolff-mercedes-lewis-hamilton-ferrari-belgian-grand-prix-f1-formule-one"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "summary",
+      "proposition": {
+        "predicate": "summary",
+        "object": "<ul><li><p>Russell clipped by Hamilton on lap one after power loss </p></li><li><p>British driver 50 points behind Antonelli in standings</p></li></ul><p>Toto Wolff, the Mercedes principal, has admitted the team let George Russell down at the Belgian Grand Prix. The British driver failed to score a point after a clash with Lewis Hamilton that Russell attributed to his car’s performance not being up to scratch.</p><p>The race <a href=\"https://www.theguardian.com/sport/2026/jul/19/kimi-antonelli-f1-title-grip-belgian-grand-prix-george-russell-formula-one\">was won by Kimi Antonelli</a>, who now leads his teammate Russell by 50 points in the world championship, a serious blow to the latter’s title hopes.</p> <a href=\"https://www.theguardian.com/sport/2026/jul/19/george-russell-toto-wolff-mercedes-lewis-hamilton-ferrari-belgian-grand-prix-f1-formule-one\">Continue reading...</a>"
+      },
+      "time": {
+        "asserted": "2026-07-20T09:48:52.778Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "sports",
+        "citation": "https://www.theguardian.com/sport/2026/jul/19/george-russell-toto-wolff-mercedes-lewis-hamilton-ferrari-belgian-grand-prix-f1-formule-one"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "published",
+      "proposition": {
+        "predicate": "published",
+        "object": "Sun, 19 Jul 2026 19:06:41 GMT"
+      },
+      "time": {
+        "asserted": "2026-07-20T09:48:52.778Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "sports",
+        "citation": "https://www.theguardian.com/sport/2026/jul/19/george-russell-toto-wolff-mercedes-lewis-hamilton-ferrari-belgian-grand-prix-f1-formule-one"
+      },
+      "status": "supported"
+    }
+  ]
+}

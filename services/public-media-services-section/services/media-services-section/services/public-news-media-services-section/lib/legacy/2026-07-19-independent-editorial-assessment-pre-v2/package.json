@@ -1,0 +1,34 @@
+{
+  "name": "@emsenn/independent-editorial-assessment",
+  "version": "0.1.0",
+  "type": "module",
+  "description": "Separately hireable independent editorial assessment returning a validated bounded tool selection and prose grounds.",
+  "bin": {
+    "solicit-service": "./src/contract-editorial-assessment.mjs",
+    "invoke-service": "./src/contract-editorial-assessment.mjs"
+  },
+  "scripts": {
+    "check": "node --check src/contract-editorial-assessment.mjs && node --check test/contract-editorial-assessment.test.mjs",
+    "test": "node --test test/contract-editorial-assessment.test.mjs",
+    "verify": "npm run check && npm test"
+  },
+  "engines": { "node": ">=18" },
+  "x-agentic-metro-enterprise": {
+    "node-id": "independent-editorial-assessment",
+    "membrane": { "law": "lib/", "lasting-instances": "content/", "append-only-instances": "data/" },
+    "operation-catalog": {
+      "solicit-service": {
+        "contract": "independent-editorial-assessment/editorial-assessment/v1",
+        "accepts": "ActivityStreams Offer<ServiceSolicitation>",
+        "returns": "ActivityStreams Offer<ExecutableServiceOffer>|Reject",
+        "timeoutMs": 30000
+      },
+      "invoke-service": {
+        "contract": "independent-editorial-assessment/editorial-assessment/v1",
+        "accepts": "ActivityStreams Accept<ServiceContract>",
+        "returns": "ActivityStreams Accept<EditorialToolSelectionDelivery>|Reject",
+        "timeoutMs": 1200000
+      }
+    }
+  }
+}

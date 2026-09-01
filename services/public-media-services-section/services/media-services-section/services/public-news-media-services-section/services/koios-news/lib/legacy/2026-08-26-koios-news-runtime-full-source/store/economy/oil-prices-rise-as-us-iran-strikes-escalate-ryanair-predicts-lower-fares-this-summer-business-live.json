@@ -1,0 +1,69 @@
+{
+  "subject": "oil-prices-rise-as-us-iran-strikes-escalate-ryanair-predicts-lower-fares-this-summer-business-live",
+  "claims": [
+    {
+      "id": "title",
+      "proposition": {
+        "predicate": "title",
+        "object": "Oil prices rise as US-Iran strikes escalate; Ryanair predicts lower fares this summer - business live"
+      },
+      "time": {
+        "asserted": "2026-07-20T09:48:44.773Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "economy",
+        "citation": "https://www.theguardian.com/business/live/2026/jul/20/oil-price-rises-us-iran-strikes-ryanair-lower-fares-summer-economy-latest-news-updates"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "url",
+      "proposition": {
+        "predicate": "url",
+        "object": "https://www.theguardian.com/business/live/2026/jul/20/oil-price-rises-us-iran-strikes-ryanair-lower-fares-summer-economy-latest-news-updates"
+      },
+      "time": {
+        "asserted": "2026-07-20T09:48:44.773Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "economy",
+        "citation": "https://www.theguardian.com/business/live/2026/jul/20/oil-price-rises-us-iran-strikes-ryanair-lower-fares-summer-economy-latest-news-updates"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "summary",
+      "proposition": {
+        "predicate": "summary",
+        "object": "<p>Rolling coverage of the latest economic and financial news</p><p>Investors will be watching the bond market carefully today as <strong><a href=\"https://www.theguardian.com/politics/live/2026/jul/20/andy-burnham-new-prime-minister-pm-keir-starmer-labour-no-10-downing-street-speech-cabinet-uk-politics-latest-news-updates\">Andy Burnham </a></strong><a href=\"https://www.theguardian.com/politics/live/2026/jul/20/andy-burnham-new-prime-minister-pm-keir-starmer-labour-no-10-downing-street-speech-cabinet-uk-politics-latest-news-updates\">is set to become the prime minister</a> and prepares to pick his cabinet.</p><p><strong>Russ Mould</strong>, an investment director at the broker <strong>AJ Bell</strong>, said bond markets reacted positively on reports last week that current home secretary <strong>Shabana Mahmood </strong>is frontrunner for chancellor.</p><p>Gilt yields eased back last week on speculation that Mahmood would get the job, which is the biggest clue that markets are accepting the governmental change in a calm manner.</p><p>That’s good for now, but it’s what comes next that really matters. Bond investors are looking for any clues on public spending intentions, how they will be funded, and any policies that deviate from the path pursued under the <strong>Starmer</strong>-<strong>Reeves</strong> regime. Burnham’s big speech later today might offer a glimpse at what he wants to achieve but is unlikely to give the full picture.</p> <a href=\"https://www.theguardian.com/business/live/2026/jul/20/oil-price-rises-us-iran-strikes-ryanair-lower-fares-summer-economy-latest-news-updates\">Continue reading...</a>"
+      },
+      "time": {
+        "asserted": "2026-07-20T09:48:44.773Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "economy",
+        "citation": "https://www.theguardian.com/business/live/2026/jul/20/oil-price-rises-us-iran-strikes-ryanair-lower-fares-summer-economy-latest-news-updates"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "published",
+      "proposition": {
+        "predicate": "published",
+        "object": "Mon, 20 Jul 2026 09:04:54 GMT"
+      },
+      "time": {
+        "asserted": "2026-07-20T09:48:44.773Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "economy",
+        "citation": "https://www.theguardian.com/business/live/2026/jul/20/oil-price-rises-us-iran-strikes-ryanair-lower-fares-summer-economy-latest-news-updates"
+      },
+      "status": "supported"
+    }
+  ]
+}

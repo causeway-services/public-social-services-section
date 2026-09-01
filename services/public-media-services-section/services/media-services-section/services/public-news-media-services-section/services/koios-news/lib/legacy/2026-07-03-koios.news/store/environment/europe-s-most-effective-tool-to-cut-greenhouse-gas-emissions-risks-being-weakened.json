@@ -1,0 +1,69 @@
+{
+  "subject": "europe-s-most-effective-tool-to-cut-greenhouse-gas-emissions-risks-being-weakened",
+  "claims": [
+    {
+      "id": "title",
+      "proposition": {
+        "predicate": "title",
+        "object": "Europe’s most effective tool to cut greenhouse gas emissions ‘risks being weakened’"
+      },
+      "time": {
+        "asserted": "2026-07-18T04:08:15.342Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "environment",
+        "citation": "https://www.theguardian.com/environment/2026/jul/17/europe-emissions-trading-system-greenhouse-gas-risks-weakened"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "url",
+      "proposition": {
+        "predicate": "url",
+        "object": "https://www.theguardian.com/environment/2026/jul/17/europe-emissions-trading-system-greenhouse-gas-risks-weakened"
+      },
+      "time": {
+        "asserted": "2026-07-18T04:08:15.342Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "environment",
+        "citation": "https://www.theguardian.com/environment/2026/jul/17/europe-emissions-trading-system-greenhouse-gas-risks-weakened"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "summary",
+      "proposition": {
+        "predicate": "summary",
+        "object": "<p>European Commission proposal to overhaul emissions trading system would give companies less demanding pathway to reductions</p><p>Europe’s most effective method of cutting dangerous planet-heating gases risks being weakened after the European Commission proposed an overhaul of its flagship carbon market, critics have said.</p><p>In a long-awaited review of the European Union emissions trading system (ETS), the European Commission proposed giving companies a less demanding and cheaper pathway to reduce greenhouse gas emissions.</p> <a href=\"https://www.theguardian.com/environment/2026/jul/17/europe-emissions-trading-system-greenhouse-gas-risks-weakened\">Continue reading...</a>"
+      },
+      "time": {
+        "asserted": "2026-07-18T04:08:15.342Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "environment",
+        "citation": "https://www.theguardian.com/environment/2026/jul/17/europe-emissions-trading-system-greenhouse-gas-risks-weakened"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "published",
+      "proposition": {
+        "predicate": "published",
+        "object": "Fri, 17 Jul 2026 16:01:02 GMT"
+      },
+      "time": {
+        "asserted": "2026-07-18T04:08:15.342Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "environment",
+        "citation": "https://www.theguardian.com/environment/2026/jul/17/europe-emissions-trading-system-greenhouse-gas-risks-weakened"
+      },
+      "status": "supported"
+    }
+  ]
+}

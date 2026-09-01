@@ -1,0 +1,69 @@
+{
+  "subject": "galaxy-digital-puts-its-name-on-texas-tech-football-stadium-in-15-year-partnership",
+  "claims": [
+    {
+      "id": "title",
+      "proposition": {
+        "predicate": "title",
+        "object": "Galaxy Digital puts its name on Texas Tech football stadium in 15-year partnership"
+      },
+      "time": {
+        "asserted": "2026-07-19T02:19:57.230Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "economy",
+        "citation": "https://www.theblock.co/post/408772/galaxy-digital-puts-name-texas-tech-football-stadium-15-year-partnership?utm_source=rss&utm_medium=rss"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "url",
+      "proposition": {
+        "predicate": "url",
+        "object": "https://www.theblock.co/post/408772/galaxy-digital-puts-name-texas-tech-football-stadium-15-year-partnership?utm_source=rss&utm_medium=rss"
+      },
+      "time": {
+        "asserted": "2026-07-19T02:19:57.230Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "economy",
+        "citation": "https://www.theblock.co/post/408772/galaxy-digital-puts-name-texas-tech-football-stadium-15-year-partnership?utm_source=rss&utm_medium=rss"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "summary",
+      "proposition": {
+        "predicate": "summary",
+        "object": "The deal's financial terms were not disclosed, but Yahoo Sports reported the agreement is worth more than $70 million."
+      },
+      "time": {
+        "asserted": "2026-07-19T02:19:57.230Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "economy",
+        "citation": "https://www.theblock.co/post/408772/galaxy-digital-puts-name-texas-tech-football-stadium-15-year-partnership?utm_source=rss&utm_medium=rss"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "published",
+      "proposition": {
+        "predicate": "published",
+        "object": "Fri, 17 Jul 2026 10:33:42 -0400"
+      },
+      "time": {
+        "asserted": "2026-07-19T02:19:57.230Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "economy",
+        "citation": "https://www.theblock.co/post/408772/galaxy-digital-puts-name-texas-tech-football-stadium-15-year-partnership?utm_source=rss&utm_medium=rss"
+      },
+      "status": "supported"
+    }
+  ]
+}

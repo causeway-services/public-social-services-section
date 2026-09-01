@@ -1,0 +1,69 @@
+{
+  "subject": "comment-in-code-read-dear-future-me-sorry-i-wrote-this",
+  "claims": [
+    {
+      "id": "title",
+      "proposition": {
+        "predicate": "title",
+        "object": "Comment in code read 'Dear future me, sorry I wrote this'"
+      },
+      "time": {
+        "asserted": "2026-07-20T09:48:45.540Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "technology",
+        "citation": "https://www.theregister.com/software/2026/07/20/comment-in-code-read-dear-future-me-sorry-i-wrote-this/5274130"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "url",
+      "proposition": {
+        "predicate": "url",
+        "object": "https://www.theregister.com/software/2026/07/20/comment-in-code-read-dear-future-me-sorry-i-wrote-this/5274130"
+      },
+      "time": {
+        "asserted": "2026-07-20T09:48:45.540Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "technology",
+        "citation": "https://www.theregister.com/software/2026/07/20/comment-in-code-read-dear-future-me-sorry-i-wrote-this/5274130"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "summary",
+      "proposition": {
+        "predicate": "summary",
+        "object": "WHO, ME? Regrets? We've had a few. And so have many readers of The Register, who we try to help by getting their stories of workplace mistakes off their chests every Friday in a reader-contributed column we call \"Who, Me?\" This week, meet a reader who asked to be Regomized as \"Johnny,\" who told us he was once hired as a Visual Basic developer, a job he thought was beneath him. He got on with things anyway, until he was given a new project that he decided to write in C# despite that language being new at the time. \"To my satisfaction, it handled everything the customer required,\" Johnny told The Register. But then he hit trouble. A complex string manipulation routine that determined how tasks were routed started to glitch. \"About half the time, it worked perfectly. The rest of the time, it failed completely,\" Johnny wrote. \"I stepped through the code repeatedly, checking every transformation, every condition, every variable – but nothing stood out as wrong.\" He therefore started making small and random changes in the hope it would flush the bug into the open. One of those changes broke everything, so Johnny reverted it – and after that the glitch magically disappeared. \"I compared versions, searched for differences, retraced my steps – and found no reason,\" he told The Register. \"To this day, I have no idea what caused it or why it disappeared.\" Over time, the incident faded from Johnny's memory. Several years later, Johnny was still at the company and had climbed the career ladder to become a senior developer. \"One day, the support team escalated an issue to me: an intermittent bug that no one could solve. I agreed to take a look,\" he said. His first step was to look for comments in the code to understand the intent of whoever wrote this piece of software. \"Scrolling through the header, I found the author's note originally written by myself and felt an immediate sense of dread,\" he told Who, Me? That sense was prescient because the comment read: \"Dear future Johnny, I am very, very sorry.\" Have you written code that came back to haunt you? If so, click here to send us an email to share your story. We promise to handle it carefully so contributing won't haunt your career. ®"
+      },
+      "time": {
+        "asserted": "2026-07-20T09:48:45.540Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "technology",
+        "citation": "https://www.theregister.com/software/2026/07/20/comment-in-code-read-dear-future-me-sorry-i-wrote-this/5274130"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "published",
+      "proposition": {
+        "predicate": "published",
+        "object": "Mon, 20 Jul 2026 08:30:00 +0200"
+      },
+      "time": {
+        "asserted": "2026-07-20T09:48:45.540Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "technology",
+        "citation": "https://www.theregister.com/software/2026/07/20/comment-in-code-read-dear-future-me-sorry-i-wrote-this/5274130"
+      },
+      "status": "supported"
+    }
+  ]
+}

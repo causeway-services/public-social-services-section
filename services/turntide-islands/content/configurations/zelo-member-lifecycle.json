@@ -1,0 +1,50 @@
+{
+  "type": "TTIZeloMemberLifecycleConfiguration",
+  "version": 1,
+  "status": "shadow-only",
+  "guildId": "1184863861065658419",
+  "communityId": "turntide-islands",
+  "execution": "forbidden-pending-reviewed-admission",
+  "establishedJourney": {
+    "arrival": "#dock remains the only new-arrival surface. Its established welcome and emoji reaction are preserved.",
+    "selection": "#channel-visas remains the established emoji/self-assigned-role path to topical communities.",
+    "replacement": "forbidden"
+  },
+  "admittedKinds": [
+    "arrival",
+    "leave",
+    "milestone"
+  ],
+  "reengagement": {
+    "status": "disabled-pending-explicit-revocable-opt-in-process",
+    "rule": "No member is contacted for reengagement. A future admitted policy must require an explicit opt-in and the generic planner's authoritative cooldown state."
+  },
+  "humanOwner": "emsenn, Turntide Islands administrator",
+  "policy": {
+    "sourceRevision": "tti-lifecycle-r20260829-1",
+    "maxStateAgeMinutes": 30,
+    "provenance": {
+      "source": "tti-established-community-model",
+      "sourceRevision": "tti-lifecycle-r20260829-1",
+      "observedAt": "2026-08-29T21:57:33.032Z"
+    },
+    "cooldownHours": 720,
+    "quietInterval": {
+      "utcOffsetMinutes": -300,
+      "startMinute": 1260,
+      "endMinute": 480
+    },
+    "templates": {
+      "arrival": "Turntide Islands has an established welcome in #dock. Preserve that message and its emoji-entry journey; this shadow plan never posts or replaces it.",
+      "leave": "A departure is recorded only as a privacy-minimized shadow receipt. No follow-up is sent.",
+      "milestone": "Completed participation may be recognized only as a shadow receipt after a human approves a specific practice.",
+      "reengagement": "Reengagement is disabled for Turntide Islands until an explicit, revocable opt-in process is admitted.",
+      "digest": "0f0d65707b2a6a11f8d0a1167160f9722859e4695a70bec0adac7cd62809f262"
+    }
+  },
+  "sources": [
+    "data/state/discord-guild-state.json",
+    "content/configurations/discord-reaction-system.json",
+    "content/texts/documents/articles/notes/2026-08-29-established-community-model-and-big-plans.md"
+  ]
+}

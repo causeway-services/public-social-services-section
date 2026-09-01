@@ -1,0 +1,26 @@
+{
+  "kind": "koios.service-contract",
+  "id": "koios.news/correction-publication/v1",
+  "customer": "Koios readers and the Editor-in-Chief",
+  "provider": "publication-operations",
+  "service": "propagate one editorially admitted correction across every declared public carrier and the live Cloudflare publication",
+  "precondition": [
+    "A source-claim supersession, withdrawal, or narrowing act identifies the affected article and exact prior publication manifest.",
+    "The corrected manuscript carries an exact accepted independent editorial judgment.",
+    "The correction transaction names the public surfaces whose bytes or semantics must change."
+  ],
+  "move": "Publication Operations rebuilds and verifies the complete static candidate, records one resumable correction candidate, and contracts Resource Brokerage Team under cloudflare-primary-static-release/v1 for the exact digest.",
+  "postcondition": "The article, correction register, feeds, sitemaps, NinJS, and fingerprints carry the correction and Cloudflare serves the accepted candidate; or the public site remains on the prior Cloudflare version while the exact candidate remains pending for the next operating pulse.",
+  "refusals": [
+    "missing causal source-claim act",
+    "corrected manuscript lacks exact editorial admission",
+    "required carrier omitted or byte-identical without an admitted semantic reason",
+    "release provider refuses or cannot prove the existing Cloudflare route"
+  ],
+  "excluded": [
+    "DNS mutation",
+    "Worker route mutation",
+    "Cold Red Gate HTTP origin, fallback, mirror, or rollback",
+    "using attention or revenue as factual warrant"
+  ]
+}

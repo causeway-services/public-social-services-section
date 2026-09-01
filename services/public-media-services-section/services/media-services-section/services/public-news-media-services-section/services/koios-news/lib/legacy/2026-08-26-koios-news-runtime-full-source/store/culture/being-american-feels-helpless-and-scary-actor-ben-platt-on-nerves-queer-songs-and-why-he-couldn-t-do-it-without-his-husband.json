@@ -1,0 +1,69 @@
+{
+  "subject": "being-american-feels-helpless-and-scary-actor-ben-platt-on-nerves-queer-songs-and-why-he-couldn-t-do-it-without-his-husband",
+  "claims": [
+    {
+      "id": "title",
+      "proposition": {
+        "predicate": "title",
+        "object": "‘Being American feels helpless and scary’: actor Ben Platt on nerves, queer songs and why he couldn’t do it without his husband"
+      },
+      "time": {
+        "asserted": "2026-07-20T09:48:52.265Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "culture",
+        "citation": "https://www.theguardian.com/stage/2026/jul/20/ben-platt-actor-interview-queer-musical-midnight-at-the-never-get"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "url",
+      "proposition": {
+        "predicate": "url",
+        "object": "https://www.theguardian.com/stage/2026/jul/20/ben-platt-actor-interview-queer-musical-midnight-at-the-never-get"
+      },
+      "time": {
+        "asserted": "2026-07-20T09:48:52.265Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "culture",
+        "citation": "https://www.theguardian.com/stage/2026/jul/20/ben-platt-actor-interview-queer-musical-midnight-at-the-never-get"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "summary",
+      "proposition": {
+        "predicate": "summary",
+        "object": "<p>The star of Dear Evan Hansen plays a 1960s Greenwich Village crooner in hit queer musical Midnight at the Never Get. It’s the perfect outlet for his anxiety, he says</p><p>In performance, Ben Platt is a mellifluous singer and loose-limbed dancer, with a fizzy back-note of neurotic New York. The stage – most famously, as star of Dear Evan Hansen – is his safe space. In person, in a south London rehearsal room, he is sweet, earnest, nervy. He crosses his legs, knots his arms about him. The chat roams widely, the body language is wound tight.</p><p>Platt talks frankly about anxiety, like it’s his constant companion. So, how’s that going? “My relationship with my husband is a huge factor in being able to manage anxiety. There’s still highs and lows, but everything’s more in my sights, because I thankfully have him. And having something creative to focus on is a big help.”</p> <a href=\"https://www.theguardian.com/stage/2026/jul/20/ben-platt-actor-interview-queer-musical-midnight-at-the-never-get\">Continue reading...</a>"
+      },
+      "time": {
+        "asserted": "2026-07-20T09:48:52.265Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "culture",
+        "citation": "https://www.theguardian.com/stage/2026/jul/20/ben-platt-actor-interview-queer-musical-midnight-at-the-never-get"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "published",
+      "proposition": {
+        "predicate": "published",
+        "object": "Mon, 20 Jul 2026 07:00:49 GMT"
+      },
+      "time": {
+        "asserted": "2026-07-20T09:48:52.265Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "culture",
+        "citation": "https://www.theguardian.com/stage/2026/jul/20/ben-platt-actor-interview-queer-musical-midnight-at-the-never-get"
+      },
+      "status": "supported"
+    }
+  ]
+}

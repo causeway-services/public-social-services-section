@@ -1,0 +1,69 @@
+{
+  "subject": "the-us-may-be-hitting-a-tipping-point-for-heat-pumps",
+  "claims": [
+    {
+      "id": "title",
+      "proposition": {
+        "predicate": "title",
+        "object": "The US may be hitting a tipping point for heat pumps"
+      },
+      "time": {
+        "asserted": "2026-07-18T07:49:49.277Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "environment",
+        "citation": "https://grist.org/energy/the-us-may-be-hitting-a-tipping-point-for-heat-pumps/"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "url",
+      "proposition": {
+        "predicate": "url",
+        "object": "https://grist.org/energy/the-us-may-be-hitting-a-tipping-point-for-heat-pumps/"
+      },
+      "time": {
+        "asserted": "2026-07-18T07:49:49.277Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "environment",
+        "citation": "https://grist.org/energy/the-us-may-be-hitting-a-tipping-point-for-heat-pumps/"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "summary",
+      "proposition": {
+        "predicate": "summary",
+        "object": "It appears America is falling in love with heat pumps, which is a tall order for an appliance. They use tricks of physics to extract warmth from wintry air and bring it inside, a far more efficient way of staying toasty than with gas furnaces. (It’s better to move heat from one place to another, instead of generating it by burning fossil fuels. Cold-climate heat pumps can still do this in the most frigid of places .) As a bonus, in the summer a heat pump reverses the process to act like a traditional air conditioner, providing comfort in all seasons. According to a new report from the nonprofit Building Decarbonization Coalition, over the past 15 years, heat pump sales have doubled. In the first quarter of this year, the appliances outpaced shipments of fossil fuel furnaces by 32 percent, and narrowly missed beating out AC units. And in 2024, 46 percent of new housing included a heat pump, compared to 47 percent that went with forced-air furnaces. (This includes models running on natural gas and electric versions that work like giant hair dryers .) “All the trends are pointing towards increased heat pump adoption, not only versus gas, but also versus just traditional one-way air conditioning,” said Kevin Carbonnier, associate director of analytics at the coalition. “It’s not just that heat pumps are better, more comfortable, more efficient than furnaces. But also, you get the two-in-one appliance.” A major driver of this electrification is new housing. Three quarters of new apartments in the US are heated electrically, and if you’re doing that, the thinking goes, you may as well install electric stoves. At that point, it doesn’t make sense for a builder to spend money with everything needed to pipe natural gas into the place. “It’s kind of becoming more of a common-sense measure to only build electric, especially with these new buildings, because the appliances are also so much more efficient,” said Kristin George Bagdanov, associate director of research at the coalition.&nbsp; The tricky bit is that homebuilders too often opt for resistance heating, like baseboard heaters, which are basically giant toasters. These have a “coefficient of performance,” or COP, of one, meaning you get one unit of heat for every unit of energy that goes into the device. Heat pumps, by contrast, have a COP of between 2 and 4, making them at least twice as efficient. (And vastly more so than even the most advanced gas furnaces.) Apartment builders seem to be coming around to heat pumps, though. Half a century ago, vanishingly few new structures used them, in favor of resistance heating. But since 2010 — in the Northwest, at least — 18 percent of new apartment buildings featured heat pumps, according to a recent report from the nonprofit Sightline Institute. Multifamily housing, then, is a hugely powerful and popular way for the U.S. to decarbonize , as both Democrats and Republicans agree that the country urgently needs new housing. The Building Decarbonization Coalition’s report also notes that in new housing overall, including single-family homes, heat pumps were installed nearly half the time in 2024. Utilities are also experimenting with a way of heating and cooling buildings even more efficiently with heat pumps. It’s known as networked geothermal : The utility drills holes in the ground, installs pipes that look almost exactly like gas ones, pumps liquid through them, and delivers it to the homes and businesses in a neighborhood, where heat pumps use the water, rather than air, to work their magic. Because the earth might still be 50 degrees Fahrenheit as air temperatures drop below freezing, the devices can extract consistent subterranean heat in the winter, then spend the summer drawing heat from structures and adding it to the liquid, which circulates back through the ground. This makes a utility’s geothermal system up to seven or eight times more efficient than having the same homes using gas furnaces.&nbsp; You might imagine a future, then, where liquid, not natural gas, flows into neighborhoods with nothing but electrified kitchens. “It’s all the same skill sets: managing infrastructure systems, drilling, laying down pipe in the street,” Carbonnier said. “All the same stuff that the gas workers are already doing.” Ultra-efficient systems like networked geothermal aren’t just ideal for decarbonization because they run on electricity. As the U.S. uses more electricity in general — as massive data centers plug into the grid , for instance — utilities will have to build out more solar and wind farms, transmission lines, and battery banks to store power. Those costs get passed down to ratepayers. The less energy we use warming and cooling our homes, the less additional electricity and infrastructure we’ll need, reducing energy bills. (Electric vehicles are another way utilities are trying to avoid adding infrastructure: All those batteries will place extra demand on the grid, but can also send power to it in times of need. This will also lower costs for customers .) Energy bills have exploded of late, entering the political zeitgeist , as pressure increases on politicians to do something. “I think for a long time individual consumers were taught that it was their fault if their bills were high, either they weren’t turning off their lights or they were keeping their thermostat too low or too high,” George Bagdanov said. Now they’re learning more about how public utility commissions set rates, how much money building out additional fossil fuel infrastructure costs, and how a utility’s investors reap financial rewards. “And then we kind of saw more of a shift to the conversation being about the systems around those bills,” George Bagdanov said. Meanwhile, the market continues shifting in favor of the heat pump. “It’s been four years in a row that there’s more heat pumps being shipped out from manufacturers than fossil fuel furnaces,” Carbonnier said. “I think we are at a tipping point .” toolTips('.classtoolTips4','The process of reducing the emission of carbon dioxide and other greenhouse gases that drive climate change, most often by deprioritizing the use of fossil fuels like oil and gas in favor of renewable sources of energy.'); This story was originally published by Grist with the headline The US may be hitting a tipping point for heat pumps on Jul 14, 2026."
+      },
+      "time": {
+        "asserted": "2026-07-18T07:49:49.277Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "environment",
+        "citation": "https://grist.org/energy/the-us-may-be-hitting-a-tipping-point-for-heat-pumps/"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "published",
+      "proposition": {
+        "predicate": "published",
+        "object": "Tue, 14 Jul 2026 11:00:00 +0000"
+      },
+      "time": {
+        "asserted": "2026-07-18T07:49:49.277Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "environment",
+        "citation": "https://grist.org/energy/the-us-may-be-hitting-a-tipping-point-for-heat-pumps/"
+      },
+      "status": "supported"
+    }
+  ]
+}

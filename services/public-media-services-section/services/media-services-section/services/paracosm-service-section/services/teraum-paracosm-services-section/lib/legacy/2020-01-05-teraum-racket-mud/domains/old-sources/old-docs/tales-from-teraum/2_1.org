@@ -1,0 +1,27 @@
+#+SETUPFILE: ./setup.inc
+#+TITLE: Tales from Teraum #2
+#+SUBTITLE: Oscar Goes West
+#+EXPORT_FILE_NAME: ../../pub/tales-from-teraum/2
+* Introduction
+{{{document-isdraft}}}
+
+{{{document-hasproject}}}
+* Tales from Teraum #2: "oscar Goes West"
+oscar jayne was sitting in a deer stand when the collapse
+happened. his first clue of it was the rainbow that seemed to be in
+that suddenly rose out of the horizon, from the direction of the
+nearby mine, despite the cloudless sky. he couldn't recall ever seeing
+before.
+
+but oscar'd been in that stand all day, and a some strange weather
+wasn't going to drive him home. who's to say the rainbow wasn't a good
+omen?
+
+and sure enough, just a few minutes later, oscar saw his first deer of
+the day, flying in over the treetops - also, from the direction of the
+mine.
+
+Oscar also did not recall ever seeing a deer fly, and he felt as
+though he would.
+* Supplements
+** Index

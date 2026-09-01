@@ -1,0 +1,69 @@
+{
+  "subject": "tropical-forest-restoration-can-offset-water-flux-losses-from-deforestation-but-not-everywhere",
+  "claims": [
+    {
+      "id": "title",
+      "proposition": {
+        "predicate": "title",
+        "object": "Tropical forest restoration can offset water flux losses from deforestation but not everywhere"
+      },
+      "time": {
+        "asserted": "2026-07-19T02:19:56.932Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "environment",
+        "citation": "https://www.nature.com/articles/s41558-026-02710-0"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "url",
+      "proposition": {
+        "predicate": "url",
+        "object": "https://www.nature.com/articles/s41558-026-02710-0"
+      },
+      "time": {
+        "asserted": "2026-07-19T02:19:56.932Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "environment",
+        "citation": "https://www.nature.com/articles/s41558-026-02710-0"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "summary",
+      "proposition": {
+        "predicate": "summary",
+        "object": "Nature Climate Change, Published online: 17 July 2026; doi:10.1038/s41558-026-02710-0 Tropical forest restoration is widely promoted as a nature-based climate solution, but its potential to restore hydrological functions impaired by deforestation remains unclear. Now, satellite observations show that forest gain can increase evapotranspiration and precipitation more than forest loss reduces them, with prominent asymmetry in South America and Africa."
+      },
+      "time": {
+        "asserted": "2026-07-19T02:19:56.932Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "environment",
+        "citation": "https://www.nature.com/articles/s41558-026-02710-0"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "published",
+      "proposition": {
+        "predicate": "published",
+        "object": "2026-07-17"
+      },
+      "time": {
+        "asserted": "2026-07-19T02:19:56.932Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "environment",
+        "citation": "https://www.nature.com/articles/s41558-026-02710-0"
+      },
+      "status": "supported"
+    }
+  ]
+}

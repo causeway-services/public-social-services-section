@@ -1,0 +1,69 @@
+{
+  "subject": "the-fedorov-dismissal-on-trust-technology-and-turnover",
+  "claims": [
+    {
+      "id": "title",
+      "proposition": {
+        "predicate": "title",
+        "object": "The Fedorov Dismissal: On Trust, Technology, and Turnover"
+      },
+      "time": {
+        "asserted": "2026-07-18T08:10:07.838Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "war",
+        "citation": "https://warontherocks.com/the-fedorov-dismissal-on-trust-technology-and-turnover-2/"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "url",
+      "proposition": {
+        "predicate": "url",
+        "object": "https://warontherocks.com/the-fedorov-dismissal-on-trust-technology-and-turnover-2/"
+      },
+      "time": {
+        "asserted": "2026-07-18T08:10:07.838Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "war",
+        "citation": "https://warontherocks.com/the-fedorov-dismissal-on-trust-technology-and-turnover-2/"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "summary",
+      "proposition": {
+        "predicate": "summary",
+        "object": "Welcome to The Ukraine Compass, a weekly digest of Ukrainian commentary and analysis from across the political spectrum only for War on the Rocks members.Each Monday, we bring you a curated selection of articles from Ukrainian media offering insight into how Ukrainians themselves debate the issues shaping their country.Western coverage often narrows the view to the battlefield — these pieces widen it, revealing the texture of daily life, politics, and public argument in a nation at war. The perspectives gathered here are varied, candid, and often surprising, together forming a more complete picture of Ukraine as it really is.This week, The post The Fedorov Dismissal: On Trust, Technology, and Turnover appeared first on War on the Rocks ."
+      },
+      "time": {
+        "asserted": "2026-07-18T08:10:07.838Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "war",
+        "citation": "https://warontherocks.com/the-fedorov-dismissal-on-trust-technology-and-turnover-2/"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "published",
+      "proposition": {
+        "predicate": "published",
+        "object": "Fri, 17 Jul 2026 17:30:33 +0000"
+      },
+      "time": {
+        "asserted": "2026-07-18T08:10:07.838Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "war",
+        "citation": "https://warontherocks.com/the-fedorov-dismissal-on-trust-technology-and-turnover-2/"
+      },
+      "status": "supported"
+    }
+  ]
+}

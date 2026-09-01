@@ -1,0 +1,69 @@
+{
+  "subject": "zohran-mamdani-knows-he-has-political-capital-and-he-intends-to-spend-it",
+  "claims": [
+    {
+      "id": "title",
+      "proposition": {
+        "predicate": "title",
+        "object": "Zohran Mamdani Knows He Has Political Capital. And He Intends to Spend It."
+      },
+      "time": {
+        "asserted": "2026-07-19T14:41:50.560Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "politics",
+        "citation": "https://www.nytimes.com/2026/07/18/magazine/zohran-mamdani-interview.html"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "url",
+      "proposition": {
+        "predicate": "url",
+        "object": "https://www.nytimes.com/2026/07/18/magazine/zohran-mamdani-interview.html"
+      },
+      "time": {
+        "asserted": "2026-07-19T14:41:50.560Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "politics",
+        "citation": "https://www.nytimes.com/2026/07/18/magazine/zohran-mamdani-interview.html"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "summary",
+      "proposition": {
+        "predicate": "summary",
+        "object": "Lulu Garcia-Navarro sits down for an interview with the mayor of New York City."
+      },
+      "time": {
+        "asserted": "2026-07-19T14:41:50.560Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "politics",
+        "citation": "https://www.nytimes.com/2026/07/18/magazine/zohran-mamdani-interview.html"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "published",
+      "proposition": {
+        "predicate": "published",
+        "object": "Sat, 18 Jul 2026 13:24:37 +0000"
+      },
+      "time": {
+        "asserted": "2026-07-19T14:41:50.560Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "politics",
+        "citation": "https://www.nytimes.com/2026/07/18/magazine/zohran-mamdani-interview.html"
+      },
+      "status": "supported"
+    }
+  ]
+}

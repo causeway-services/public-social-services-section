@@ -1,0 +1,47 @@
+#+SETUPFILE: ./setup.inc
+#+TITLE: Geography and Settlements of Sherwyn County
+#+EXPORT_FILE_NAME: ../../pub/geography-and-settlements-of-sherwyn-county
+#+INDEX: New World!/Geography and Settlements of Sherwyn County/
+#+TOC: headlines 2
+* Introduction
+{{{document-isdraft}}}
+
+{{{document-hasproject}}}
+* Geography and Settlements of Sherwyn County
+** History
+** Areas
+** Landmarks
+*** Chauntean Monastery
+#+INDEX: monastery, Chauntean!"Chauntean Monastery" in /Geography and Settlements of Sherwyn County/
+Constructed in 1140bc, the */Chautean monastery/* is a brick and
+timber building in the northwest part of the county.
+** Notable Organizations and People
+*** The Vagrant
+#+INDEX: Vagrant, The!"The Vagrant" in /Geography and Settlements of Sherwyn County/
+Born in the city of /Gnalens/ in the /New World/ as Stede Bonnet, the */Vagrant/* is a career criminal.
+*** Brother Sun
+Born in a monastery deep in the /Elflands/, */Brother Sun/* is more talkative than one would expect.
+*** Ilea
+Raised as a hunter in the /Elflands/ of the /New World/, */Ilea/* is a person.
+***** Biography
+****** Early Life
+Ilea was born on a human farm in the northwest part of /Halfling
+Country/, near its border with the /Elflands/, in 53pc. She had an
+interest in scouting those woods as a young child, which her parents
+encouraged. She apprenticed with local hunters, who worked to quell to
+local elf population.
+****** Immigration to the Old World
+In 80pc, Ilea immigrated from the /New/ to /Old World/. On the 9th of
+Showers, 80pc, she boarded the /One Route/...
+***** Current Information
+****** Inventory
+
+* Supplements
+** Index
+- Sherwyn County ::
+- monastery, Chauntean ::
+- Brother Sun ::
+- Ilea ::
+- The Vagrant ::
+- New World ::
+- Halfling Country ::

@@ -1,0 +1,24 @@
+packages:
+  - "."
+  - "../../content/assets/legacy/koios.news/561-group/lib/*"
+  - "!../../content/assets/legacy/koios.news/561-group/lib/content"
+  - "!../../content/assets/legacy/koios.news/561-group/lib/producing-content"
+  - "!../../content/assets/legacy/koios.news/561-group/lib/organizing-a-content-farm"
+  - "!../../content/assets/legacy/koios.news/561-group/lib/organizing-a-knowledge-vault"
+  - "!../../content/assets/legacy/koios.news/561-group/lib/relating"
+  - "../../content/assets/legacy/koios.news/561-group/services/*"
+  - "../../../../../red-cup-engineering/src/content/assets/legacy/2026-06-27-agential-relationality/relating"
+  - "../../../../../red-cup-engineering/src/content/assets/legacy/2026-07-03-content"
+  - "../../../../../red-cup-engineering/src/content/assets/legacy/2026-07-03-producing-content"
+  - "../../../../../red-cup-engineering/src/content/assets/legacy/2026-07-03-organizing-a-knowledge-vault"
+  - "../../../../../red-cup-engineering/src/content/assets/legacy/2026-07-02-organizing-a-content-farm"
+  - "../../../../../red-cup-engineering/src/content/assets/legacy/2026-07-02-organizing-a-content-mill"
+  - "../../../../../red-cup-engineering/src/content/assets/legacy/2026-07-02-organizing-a-newscable"
+  - "../../../../../red-cup-engineering/src/content/assets/legacy/2026-07-02-organizing-a-newswire"
+allowBuilds:
+  esbuild: true
+  sharp: true
+  workerd: true
+minimumReleaseAgeExclude:
+  - miniflare@4.20260714.0
+  - wrangler@4.112.0

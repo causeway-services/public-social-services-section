@@ -1,0 +1,69 @@
+{
+  "subject": "man-sentenced-to-20-years-for-fatally-stabbing-nyc-vogue-dancer",
+  "claims": [
+    {
+      "id": "title",
+      "proposition": {
+        "predicate": "title",
+        "object": "Man Sentenced to 20 Years for Fatally Stabbing NYC Vogue Dancer"
+      },
+      "time": {
+        "asserted": "2026-07-18T08:10:10.944Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "culture",
+        "citation": "https://hyperallergic.com/man-sentenced-to-20-years-for-fatally-stabbing-nyc-vogue-dancer/"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "url",
+      "proposition": {
+        "predicate": "url",
+        "object": "https://hyperallergic.com/man-sentenced-to-20-years-for-fatally-stabbing-nyc-vogue-dancer/"
+      },
+      "time": {
+        "asserted": "2026-07-18T08:10:10.944Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "culture",
+        "citation": "https://hyperallergic.com/man-sentenced-to-20-years-for-fatally-stabbing-nyc-vogue-dancer/"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "summary",
+      "proposition": {
+        "predicate": "summary",
+        "object": "A photo of late professional dancer O'Shae Sibley attending a class at the Ailey Extension's drop in program (photo Whitney Browne for Ailey Extension, courtesy Ailey Extension) Nearly three years since the attack, Dmitriy Popov was handed a 20-year sentence today, July 16, over the fatal stabbing of Black gay professional dancer O'Shae Sibley at a gas station in Midwood, Brooklyn. The sentencing comes after Popov was convicted of manslaughter as a hate crime in June, as the 2023 stabbing happened after he and a group of friends confronted Sibley's group with homophobic slurs because the dancer was vogueing to music at a gas pump. “O’Shae Sibley was simply being himself — a Black gay man enjoying a summer evening — but his mere existence caused this defendant to curse, harass and ultimately kill him,” said Brooklyn District Attorney Eric Gonzalez upon announcing Popov's sentence. Hailing from Philadelphia, 28-year-old Sibley was a performer with the Philadanco professional dance troupe. After moving to Brownsville, Brooklyn in 2020, he became a devoted student at the Alvin Ailey Dance Theater's drop-in classes. Sibley integrated his love of movement with his identity as a proud Black gay man, and in his advocacy for social change and racial justice through public performances and projects directed by his close friend, choreographer Kemar Jewel. After a day at the beach on July 29, 2023, Sibley and his friends stopped to fill gas at a station on Coney Island Avenue after 11 pm. Still clad in swimming trunks, the group began dancing to a Beyoncé song playing from the car, and Popov's band of friends began taunting Sibley's group with homophobic and racial slurs. The two groups were in a heated argument for a few minutes before ultimately dispersing, but Popov, who was 17 at the time, took out his phone and began filming while reportedly continuing to disparage Sibley and his friends. Sibley turned around and confronted Popov while a witness tried to intervene. He chased Popov to the sidewalk area, where the teenager ultimately pulled out a five-and-a-half-inch blade and stabbed Sibley in the torso. The dancer was pronounced dead after arriving at Maimonides Hospital, and Popov was on the lam for about a week before turning himself in. Popov initially pled not guilty and testified that he acted in self-defense and not hate after Sibley approached again, but failed to convince the jury that convicted him last month. “I hope today's sentence will bring some closure to O’Shae’s many loved ones and to the entire LGTBQ+ community, which has been shaken by this tragic and deeply upsetting crime,” Gonzalez said."
+      },
+      "time": {
+        "asserted": "2026-07-18T08:10:10.944Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "culture",
+        "citation": "https://hyperallergic.com/man-sentenced-to-20-years-for-fatally-stabbing-nyc-vogue-dancer/"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "published",
+      "proposition": {
+        "predicate": "published",
+        "object": "Fri, 17 Jul 2026 18:30:53 GMT"
+      },
+      "time": {
+        "asserted": "2026-07-18T08:10:10.944Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "culture",
+        "citation": "https://hyperallergic.com/man-sentenced-to-20-years-for-fatally-stabbing-nyc-vogue-dancer/"
+      },
+      "status": "supported"
+    }
+  ]
+}

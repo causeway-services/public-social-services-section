@@ -1,0 +1,69 @@
+{
+  "subject": "amc-theatres-sees-revenue-rise-as-hollywood-box-office-bounces-back",
+  "claims": [
+    {
+      "id": "title",
+      "proposition": {
+        "predicate": "title",
+        "object": "AMC Theatres Sees Revenue Rise As Hollywood Box Office Bounces Back"
+      },
+      "time": {
+        "asserted": "2026-07-20T11:47:43.772Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "culture",
+        "citation": "https://www.hollywoodreporter.com/business/business-news/amc-theatres-revenue-rise-1236652041/"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "url",
+      "proposition": {
+        "predicate": "url",
+        "object": "https://www.hollywoodreporter.com/business/business-news/amc-theatres-revenue-rise-1236652041/"
+      },
+      "time": {
+        "asserted": "2026-07-20T11:47:43.772Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "culture",
+        "citation": "https://www.hollywoodreporter.com/business/business-news/amc-theatres-revenue-rise-1236652041/"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "summary",
+      "proposition": {
+        "predicate": "summary",
+        "object": "The exhibition giant saw its net loss grow as overall revenue jumped 14 percent to $1.59 billion during the second quarter."
+      },
+      "time": {
+        "asserted": "2026-07-20T11:47:43.772Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "culture",
+        "citation": "https://www.hollywoodreporter.com/business/business-news/amc-theatres-revenue-rise-1236652041/"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "published",
+      "proposition": {
+        "predicate": "published",
+        "object": "Mon, 20 Jul 2026 11:26:52 +0000"
+      },
+      "time": {
+        "asserted": "2026-07-20T11:47:43.772Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "culture",
+        "citation": "https://www.hollywoodreporter.com/business/business-news/amc-theatres-revenue-rise-1236652041/"
+      },
+      "status": "supported"
+    }
+  ]
+}

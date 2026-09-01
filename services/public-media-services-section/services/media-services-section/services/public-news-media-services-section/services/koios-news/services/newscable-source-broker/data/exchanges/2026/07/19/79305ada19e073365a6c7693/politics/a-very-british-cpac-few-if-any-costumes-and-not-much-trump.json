@@ -1,0 +1,69 @@
+{
+  "subject": "a-very-british-cpac-few-if-any-costumes-and-not-much-trump",
+  "claims": [
+    {
+      "id": "title",
+      "proposition": {
+        "predicate": "title",
+        "object": "A Very British CPAC: Few, if Any, Costumes and Not Much Trump"
+      },
+      "time": {
+        "asserted": "2026-07-19T15:04:07.991Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "politics",
+        "citation": "https://www.nytimes.com/2026/07/18/world/europe/cpac-great-britain-farage.html"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "url",
+      "proposition": {
+        "predicate": "url",
+        "object": "https://www.nytimes.com/2026/07/18/world/europe/cpac-great-britain-farage.html"
+      },
+      "time": {
+        "asserted": "2026-07-19T15:04:07.991Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "politics",
+        "citation": "https://www.nytimes.com/2026/07/18/world/europe/cpac-great-britain-farage.html"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "summary",
+      "proposition": {
+        "predicate": "summary",
+        "object": "London hosted an understated version of the Conservative Political Action Conference, known in the United States for its over-the-top celebration of MAGA causes."
+      },
+      "time": {
+        "asserted": "2026-07-19T15:04:07.991Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "politics",
+        "citation": "https://www.nytimes.com/2026/07/18/world/europe/cpac-great-britain-farage.html"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "published",
+      "proposition": {
+        "predicate": "published",
+        "object": "Sat, 18 Jul 2026 16:48:22 +0000"
+      },
+      "time": {
+        "asserted": "2026-07-19T15:04:07.991Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "politics",
+        "citation": "https://www.nytimes.com/2026/07/18/world/europe/cpac-great-britain-farage.html"
+      },
+      "status": "supported"
+    }
+  ]
+}

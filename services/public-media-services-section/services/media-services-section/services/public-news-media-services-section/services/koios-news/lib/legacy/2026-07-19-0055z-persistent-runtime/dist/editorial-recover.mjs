@@ -1,0 +1,8 @@
+#!/usr/bin/env node
+import { recoverEditorialDiagnostic } from "./researching/writing/editing/liss-editorial.mjs";
+const slug = process.argv[2];
+const exchangePath = process.argv[3];
+if (slug === undefined || exchangePath === undefined)
+    throw new TypeError("usage: editorial-recover <slug> <provider-exchange-path>");
+process.stdout.write(`${JSON.stringify(recoverEditorialDiagnostic({ slug, exchangePath }), null, 2)}\n`);
+//# sourceMappingURL=editorial-recover.mjs.map

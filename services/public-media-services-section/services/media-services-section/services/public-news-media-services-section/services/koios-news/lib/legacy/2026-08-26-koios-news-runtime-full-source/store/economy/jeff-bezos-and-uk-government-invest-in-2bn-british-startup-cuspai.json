@@ -1,0 +1,69 @@
+{
+  "subject": "jeff-bezos-and-uk-government-invest-in-2bn-british-startup-cuspai",
+  "claims": [
+    {
+      "id": "title",
+      "proposition": {
+        "predicate": "title",
+        "object": "Jeff Bezos and UK government invest in £2bn British startup CuspAI"
+      },
+      "time": {
+        "asserted": "2026-07-20T09:48:44.773Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "economy",
+        "citation": "https://www.theguardian.com/technology/2026/jul/20/jeff-bezos-uk-government-invest-in-2bn-british-startup-cuspai"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "url",
+      "proposition": {
+        "predicate": "url",
+        "object": "https://www.theguardian.com/technology/2026/jul/20/jeff-bezos-uk-government-invest-in-2bn-british-startup-cuspai"
+      },
+      "time": {
+        "asserted": "2026-07-20T09:48:44.773Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "economy",
+        "citation": "https://www.theguardian.com/technology/2026/jul/20/jeff-bezos-uk-government-invest-in-2bn-british-startup-cuspai"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "summary",
+      "proposition": {
+        "predicate": "summary",
+        "object": "<p>Company aims to develop AI software that cuts research times and use of rare metals in chipmakers’ supply chains</p><ul><li><p><a href=\"https://www.theguardian.com/business/live/2026/jul/20/oil-price-rises-us-iran-strikes-ryanair-lower-fares-summer-economy-latest-news-updates\">Business live – latest updates</a></p></li></ul><p>Amazon’s founder, Jeff Bezos, and the UK government have invested in a £2bn British artificial intelligence startup that is aiming to become the “search engine for rare materials” that accelerates the next wave of technological breakthroughs.</p><p>The Cambridge-based CuspAI has <a href=\"https://medium.com/@CuspAI/launching-our-ai-materials-foundry-and-450-million-series-b-f5603d8259dd\">raised $450m (£330m) in funding</a> from investors including Bezos and the government’s sovereign AI fund, valuing the two-year-old business at $2.6bn.</p> <a href=\"https://www.theguardian.com/technology/2026/jul/20/jeff-bezos-uk-government-invest-in-2bn-british-startup-cuspai\">Continue reading...</a>"
+      },
+      "time": {
+        "asserted": "2026-07-20T09:48:44.773Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "economy",
+        "citation": "https://www.theguardian.com/technology/2026/jul/20/jeff-bezos-uk-government-invest-in-2bn-british-startup-cuspai"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "published",
+      "proposition": {
+        "predicate": "published",
+        "object": "Mon, 20 Jul 2026 08:37:52 GMT"
+      },
+      "time": {
+        "asserted": "2026-07-20T09:48:44.773Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "economy",
+        "citation": "https://www.theguardian.com/technology/2026/jul/20/jeff-bezos-uk-government-invest-in-2bn-british-startup-cuspai"
+      },
+      "status": "supported"
+    }
+  ]
+}

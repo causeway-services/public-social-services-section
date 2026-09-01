@@ -1,0 +1,69 @@
+{
+  "subject": "spain-s-system-subdues-a-team-built-on-the-irrational-magic-of-messi-s-lone-genius-barney-ronay",
+  "claims": [
+    {
+      "id": "title",
+      "proposition": {
+        "predicate": "title",
+        "object": "Spain’s system subdues a team built on the irrational magic of Messi’s lone genius | Barney Ronay"
+      },
+      "time": {
+        "asserted": "2026-07-20T04:32:54.976Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "sports",
+        "citation": "https://www.theguardian.com/football/2026/jul/20/spain-team-system-subdue-argentina-messi-magic-world-cup-2026-final"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "url",
+      "proposition": {
+        "predicate": "url",
+        "object": "https://www.theguardian.com/football/2026/jul/20/spain-team-system-subdue-argentina-messi-magic-world-cup-2026-final"
+      },
+      "time": {
+        "asserted": "2026-07-20T04:32:54.976Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "sports",
+        "citation": "https://www.theguardian.com/football/2026/jul/20/spain-team-system-subdue-argentina-messi-magic-world-cup-2026-final"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "summary",
+      "proposition": {
+        "predicate": "summary",
+        "object": "<p>The route to this World Cup victory involved beating the other 2022 finalist and then suffocating Argentina as they dried out in the sun</p><p>Time to break the staff, bury the book and call time on that rough magic. There was, by the end, an <a href=\"https://www.theguardian.com/football/2026/jul/20/lionel-messis-world-cup-fairytale-ends-with-pitiful-argentina-as-final-villains\">undertone of sadness about Lionel Messi</a>, New Jersey and a World Cup final that brought Spain the glory of an <a href=\"https://www.theguardian.com/football/2026/jul/19/spain-win-world-cup-argentina-final-match-report\">entirely deserved second trophy</a>, and which saw Argentina offer almost nothing beyond a gnarled and gristly sense of resistance.</p><p>This is an Argentina team built on faith, devotional energy and a belief in the frankly irrational magic of your lone scurrying 39-year-old genius. Well, sometimes that magic will forsake you. The deus ex machina will refuse to appear. And he is perhaps gone from this stage now for good, a Prospero giving his final address to the crowd from a clanky metal bowl outside New York.</p> <a href=\"https://www.theguardian.com/football/2026/jul/20/spain-team-system-subdue-argentina-messi-magic-world-cup-2026-final\">Continue reading...</a>"
+      },
+      "time": {
+        "asserted": "2026-07-20T04:32:54.976Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "sports",
+        "citation": "https://www.theguardian.com/football/2026/jul/20/spain-team-system-subdue-argentina-messi-magic-world-cup-2026-final"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "published",
+      "proposition": {
+        "predicate": "published",
+        "object": "Mon, 20 Jul 2026 04:19:11 GMT"
+      },
+      "time": {
+        "asserted": "2026-07-20T04:32:54.976Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "sports",
+        "citation": "https://www.theguardian.com/football/2026/jul/20/spain-team-system-subdue-argentina-messi-magic-world-cup-2026-final"
+      },
+      "status": "supported"
+    }
+  ]
+}

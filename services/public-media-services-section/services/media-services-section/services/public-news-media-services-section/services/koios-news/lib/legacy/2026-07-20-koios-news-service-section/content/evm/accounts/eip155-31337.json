@@ -1,0 +1,28 @@
+{
+  "profile": "org.emsenn.evm.sovereign-enterprise-account.v2",
+  "enterprise": {
+    "nodeId": "koios-news-service-section",
+    "urn": "urn:ame:koios-news-service-section",
+    "enterpriseId": "0x9d4240a45357c911b16206289d704019aef93845129202438a1cb1b9a44a57f9"
+  },
+  "chain": {
+    "chainId": 31337,
+    "caip2": "eip155:31337"
+  },
+  "account": {
+    "address": "0x55397286728b70d86a139fe8263c2d63c5d6770c",
+    "caip10": "eip155:31337:0x55397286728b70d86a139fe8263c2d63c5d6770c"
+  },
+  "factory": {
+    "address": "0x0956d3d8480cd0c4e35b168d843b70582b67a7bc",
+    "userSalt": "0xc595446839a2dc5e50f525789cccaeabe35f96bcc1185ba537643e01d0dc9506"
+  },
+  "policy": {
+    "signer": "0x63574d2d35bbcdc742f8e42571bed90e400f81e4",
+    "custody": "settlement-private"
+  },
+  "deployment": {
+    "transaction": "0xe50101949a4f0ab78edcff85fb2089f5b4fc5b764d56dd6875f6dc8a08d98d8e",
+    "block": 1135
+  }
+}

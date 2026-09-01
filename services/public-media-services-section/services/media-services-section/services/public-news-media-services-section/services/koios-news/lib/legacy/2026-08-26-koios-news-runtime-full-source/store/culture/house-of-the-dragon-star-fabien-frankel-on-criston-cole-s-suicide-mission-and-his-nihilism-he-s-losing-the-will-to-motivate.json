@@ -1,0 +1,69 @@
+{
+  "subject": "house-of-the-dragon-star-fabien-frankel-on-criston-cole-s-suicide-mission-and-his-nihilism-he-s-losing-the-will-to-motivate",
+  "claims": [
+    {
+      "id": "title",
+      "proposition": {
+        "predicate": "title",
+        "object": "‘House of the Dragon’ Star Fabien Frankel on Criston Cole’s Suicide Mission and His ‘Nihilism’: ‘He’s Losing the Will to Motivate’"
+      },
+      "time": {
+        "asserted": "2026-07-20T02:45:10.552Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "culture",
+        "citation": "https://variety.com/2026/tv/news/house-of-the-dragon-fabien-frankel-criston-cole-suicide-mission-butchers-ball-1236815984/"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "url",
+      "proposition": {
+        "predicate": "url",
+        "object": "https://variety.com/2026/tv/news/house-of-the-dragon-fabien-frankel-criston-cole-suicide-mission-butchers-ball-1236815984/"
+      },
+      "time": {
+        "asserted": "2026-07-20T02:45:10.552Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "culture",
+        "citation": "https://variety.com/2026/tv/news/house-of-the-dragon-fabien-frankel-criston-cole-suicide-mission-butchers-ball-1236815984/"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "summary",
+      "proposition": {
+        "predicate": "summary",
+        "object": "SPOILER ALERT: This article contains spoilers for Season 3, Episode 5 of “House of the Dragon,” now streaming on HBO Max. In tonight’s “House of the Dragon” episode, Ser Criston Cole (Fabien Frankel) proclaims that he’s ready to die — and he’s ready to do so honorably. As the war to capture the Iron Throne rages on, […]"
+      },
+      "time": {
+        "asserted": "2026-07-20T02:45:10.552Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "culture",
+        "citation": "https://variety.com/2026/tv/news/house-of-the-dragon-fabien-frankel-criston-cole-suicide-mission-butchers-ball-1236815984/"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "published",
+      "proposition": {
+        "predicate": "published",
+        "object": "Mon, 20 Jul 2026 02:00:00 +0000"
+      },
+      "time": {
+        "asserted": "2026-07-20T02:45:10.552Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "culture",
+        "citation": "https://variety.com/2026/tv/news/house-of-the-dragon-fabien-frankel-criston-cole-suicide-mission-butchers-ball-1236815984/"
+      },
+      "status": "supported"
+    }
+  ]
+}

@@ -1,0 +1,69 @@
+{
+  "subject": "china-is-funding-african-farmers-but-not-food-processing-and-storage-why-it-s-a-problem",
+  "claims": [
+    {
+      "id": "title",
+      "proposition": {
+        "predicate": "title",
+        "object": "China is funding African farmers but not food processing and storage: why it’s a problem"
+      },
+      "time": {
+        "asserted": "2026-07-18T07:51:45.987Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "decolonization",
+        "citation": "https://theconversation.com/china-is-funding-african-farmers-but-not-food-processing-and-storage-why-its-a-problem-287499"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "url",
+      "proposition": {
+        "predicate": "url",
+        "object": "https://theconversation.com/china-is-funding-african-farmers-but-not-food-processing-and-storage-why-its-a-problem-287499"
+      },
+      "time": {
+        "asserted": "2026-07-18T07:51:45.987Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "decolonization",
+        "citation": "https://theconversation.com/china-is-funding-african-farmers-but-not-food-processing-and-storage-why-its-a-problem-287499"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "summary",
+      "proposition": {
+        "predicate": "summary",
+        "object": "<p><em>China has become one of Africa’s <a href=\"https://doi.org/10.1093/oso/9780198830504.003.0008\">largest development financiers</a>. Since 2000, Chinese and other state-backed institutions have committed more <a href=\"https://doi.org/10.1016/j.worlddev.2025.107091\">than US$180 billion</a> in loans to African countries. The money has been used to finance roads, railways, power stations, ports, water infrastructure and industrial projects. Agriculture has also become part of this expanding partnership. Food systems specialist Adrino Mazenda <a href=\"https://onlinelibrary.wiley.com/doi/full/10.1111/1758-5899.70193\">analysed</a> Chinese loans to African countries between 2000 and 2024 to find out about China’s spend in agriculture.</em></p> <h2>What and where is China investing in when it comes to agriculture?</h2> <p>China’s agricultural funding mainly goes to farm development, fisheries, irrigation, mechanisation, agricultural technology and rural infrastructure. They invest less in agro-processing and storage. Southern African countries (Angola, Zambia, Zimbabwe and Mozambique) receive the most in loans. They’re followed by east Africa (Ethiopia, Kenya and Tanzania) and west Africa (Nigeria and Ghana). Chinese institutions also invest in agriculture in Egypt.</p> <p><a href=\"https://onlinelibrary.wiley.com/doi/full/10.1111/1758-5899.70193\">My study</a> compared agricultural lending from Chinese institutions with lending to other sectors. It also looked at who received the loans, where the money went, and the kinds of farming projects that were funded.</p> <hr> <p> <em> <strong> Read more: <a href=\"https://theconversation.com/chinas-investments-in-africa-arent-working-as-well-as-they-should-for-cities-this-needs-to-change-238046\">China’s investments in Africa aren’t working as well as they should for cities: this needs to change</a> </strong> </em> </p> <hr> <p>I found that Chinese lending to agriculture has expanded across Africa. Between 2000 and 2024, Chinese lenders financed 41 agricultural loans worth approximately <a href=\"https://www.bu.edu/gdp/chinese-loans-to-africa-database/\">US$2.26 billion across Africa</a>.</p> <p>Most agricultural finance supported farm schemes, production estates, fisheries, mechanisation and irrigation infrastructure. </p> <ul> <li><p>Farm schemes accounted for almost 36% of agricultural lending.</p></li> <li><p>Fisheries received 29% of the loans.</p></li> <li><p>Investment in storage and cold-chain infrastructure made up only 3% of China’s loans.</p></li> <li><p>Loans for agro-processing facilities were less than 2%. </p></li> </ul> <p>Larger loans were more frequently channelled through government-affiliated agencies and other non-sovereign entities rather than national governments. </p> <hr> <p> <em> <strong> Read more: <a href=\"https://theconversation.com/china-and-africa-ethiopia-case-study-debunks-investment-myths-177098\">China and Africa: Ethiopia case study debunks investment myths</a> </strong> </em> </p> <hr> <p>Overall, agricultural funding is a relatively small part of China’s much larger development finance portfolio. Transport, energy and other infrastructure sectors consistently received much larger commitments.</p> <h2>What are the shortcomings?</h2> <p>My study found that many investments improved farming infrastructure, such as irrigation systems and roads. However, there was not enough investment in food processing, storage, transport and markets. These are needed to build strong agricultural industries.</p> <p>I also found that decisions about agricultural loans were driven more by whether projects were practical and who was applying for the money. Whether countries had the capacity to carry out the work was also key for investors. Funding wasn’t shaped by any plan to transform agriculture across Africa. </p> <hr> <p> <em> <strong> Read more: <a href=\"https://theconversation.com/china-in-africa-investment-and-trade-work-well-when-theres-strong-oversight-and-badly-when-there-isnt-273815\">China in Africa: investment and trade work well when there’s strong oversight, and badly when there isn’t</a> </strong> </em> </p> <hr> <p>This fits a <a href=\"https://doi.org/10.1016/j.worlddev.2022.105908\">broader pattern</a> by Chinese lenders to fund projects they believe can be delivered, rather than following a wider strategy for developing a particular sector.</p> <p>This is a problem because many African countries need major investment to modernise agriculture. They often do not have enough money to pay for irrigation, farm machinery, storage facilities, transport infrastructure and food processing plants on their own. Loans from <a href=\"https://doi.org/10.1016/j.worlddev.2025.107091\">international development partners</a> are therefore important. But whether these loans lead to lasting development depends not only on how much money is available, but also on the kinds of projects they fund.</p> <p>For agriculture to drive economic growth and improve food security in Africa, the sector needs to change. This means more than producing more crops. It also requires investment in markets, research, agricultural extension services and institutions that connect farmers to local and international buyers. For example, smallholder farmers need to be <a href=\"https://doi.org/10.1016/j.worlddev.2024.106905\">connected to</a> global supply chains.</p> <p>But my research <a href=\"https://onlinelibrary.wiley.com/doi/full/10.1111/1758-5899.70193\">found</a> that China’s investments fall short in this area. Although China’s funding strengthened agricultural production, it provided comparatively little support for storage, processing and market systems. These are widely recognised as essential for agricultural transformation.</p> <h2>What are the solutions?</h2> <p>The long-term contribution of Chinese finance to African countries will depend on two things.</p> <p>Firstly, the amount of investment. Secondly, whether future lending supports the wider systems that connect production, processing and markets. Investing only in farming infrastructure is unlikely to produce the bigger changes needed to create a more productive and competitive agricultural sector.</p> <hr> <p> <em> <strong> Read more: <a href=\"https://theconversation.com/china-in-africa-kenya-railway-study-shows-investment-projects-arent-a-one-way-street-205509\">China in Africa: Kenya railway study shows investment projects aren’t a one-way street</a> </strong> </em> </p> <hr> <p>African governments have an opportunity to negotiate financing that goes beyond financial boosts to individual projects. Greater investment in the following would strengthen agricultural value chains and increase the long-term benefits of external finance:</p> <ul> <li><p>storage facilities</p></li> <li><p>agro-processing</p></li> <li><p>cold-chain systems</p></li> <li><p>transport networks</p></li> <li><p>research</p></li> <li><p>extension services</p></li> <li><p>market development. </p></li> </ul> <p>Governments also need to make sure that their agriculture, finance and planning departments work together. This would help ensure that loans from international lenders support each country’s long-term plans for agriculture instead of funding disconnected projects.</p> <p>Governments should also be more transparent about how they borrow money and how projects are carried out. This would make it easier for the public to hold them accountable. It would also help ensure that the money leads to lasting improvements in agriculture.</p> <hr> <p> <em> <strong> Read more: <a href=\"https://theconversation.com/chinas-belt-and-road-initiative-turns-10-xi-announces-8-new-priorities-continues-push-for-global-influence-216014\">China’s Belt and Road Initiative turns 10: Xi announces 8 new priorities, continues push for global influence</a> </strong> </em> </p> <hr> <p>Development partners can choose to support agricultural financing models that connect production with processing, post-harvest infrastructure and market access. In this way, their investment in a country’s agriculture can generate wider economic benefits.</p> <p>Climate change, population growth and food insecurity are placing increasing pressure on African food systems. The question is whether development finance is structured to create value long after individual projects have been completed. This will require building productive, competitive and resilient agricultural systems.</p><img src=\"https://counter.theconversation.com/content/287499/count.gif\" alt=\"The Conversation\" width=\"1\" height=\"1\" /> <p class=\"fine-print\"><em><span>Adrino Mazenda does not work for, consult, own shares in or receive funding from any company or organisation that would benefit from this article, and has disclosed no relevant affiliations beyond their academic appointment.</span></em></p>"
+      },
+      "time": {
+        "asserted": "2026-07-18T07:51:45.987Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "decolonization",
+        "citation": "https://theconversation.com/china-is-funding-african-farmers-but-not-food-processing-and-storage-why-its-a-problem-287499"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "published",
+      "proposition": {
+        "predicate": "published",
+        "object": "2026-07-15T13:31:14Z"
+      },
+      "time": {
+        "asserted": "2026-07-18T07:51:45.987Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "decolonization",
+        "citation": "https://theconversation.com/china-is-funding-african-farmers-but-not-food-processing-and-storage-why-its-a-problem-287499"
+      },
+      "status": "supported"
+    }
+  ]
+}

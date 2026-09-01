@@ -1,0 +1,69 @@
+{
+  "subject": "northern-first-nation-razed-by-wildfire",
+  "claims": [
+    {
+      "id": "title",
+      "proposition": {
+        "predicate": "title",
+        "object": "Northern First Nation razed by wildfire"
+      },
+      "time": {
+        "asserted": "2026-07-18T04:08:29.665Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "decolonization",
+        "citation": "https://ictnews.org/news/northern-first-nation-razed-by-wildfire/"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "url",
+      "proposition": {
+        "predicate": "url",
+        "object": "https://ictnews.org/news/northern-first-nation-razed-by-wildfire/"
+      },
+      "time": {
+        "asserted": "2026-07-18T04:08:29.665Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "decolonization",
+        "citation": "https://ictnews.org/news/northern-first-nation-razed-by-wildfire/"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "summary",
+      "proposition": {
+        "predicate": "summary",
+        "object": "Miles Morrisseau ICT The Namaygoosisagagun (Collins) First Nation has been destroyed by a fast moving fire that came on so quickly, people were forced to carry out an emergency evacuation; including some forced to flee by boat. Residents reported having only minutes to gather their belongings before homes were overtaken by the flames. Anishinabek Nation Grand Council Chief Linda Debassige released a statement regarding the devastation, saying all community members have been accounted for pending a full assessment.&nbsp;&nbsp; “It is with heartfelt sadness that I share that our member First Nation, Namaygoosisagagun First Nation, has been devastated by an unexpected and fast-moving wildfire that advanced toward and through the community, causing extensive damage and destruction to homes and community buildings,” Debassige said in the statement. According to the Chiefs of Ontario, several First Nations are facing mandatory evacuation orders issued by their leadership with support from the Ontario Provincial Police. In addition to Namaygoosisagagun, Whitesand First Nation, Kiashke Zaaging Anishinaabek and Animbiigoo Zaagi’igan Anishinaabek have been evacuated or are under evacuation orders. There are 177 wildfires active in the province of Ontario, according to the website fireradar.ca which tracks wildfires across Canada. Along with the aforementioned First Nations, dozens of communities are also under evacuation orders or getting ready to leave.&nbsp; As the situation unfolds, many other First Nations are currently undergoing processes to declare states of emergencies and evacuate their communities.&nbsp; Smoke heavily impacting Great Lakes tribes, Indigenous communities Ontario Chiefs held an emergency meeting on July 15 and during the discussions, Chiefs expressed frustration with the bureaucratic processes in place to access emergency response services and a lack of communication from government officials regarding practices in place to declare a state of emergency. “Jurisdictional disputes and administrative delays have immediate consequences and put lives at risk,” said Ontario Regional Chief Abram Benedict. “The priority of our leadership is to get people out as quickly and safely as possible. This needs to be everyone’s priority rather than financial discussions and technicalities.” Benedict added that people are coming together to help one another.&nbsp; “We are on the front lines of this catastrophe that is having international impacts. Our First Nations Leadership, emergency responders, and community members are working to protect their people and homelands,” Benedict said. On July 16, during their national assembly in Ottawa, the Assembly of First Nations passed emergency resolutions to provide support for Namaygoosisagagun and for other First Nations currently impacted, as well as calling on the federal government for ongoing support to deal with the ongoing crisis.&nbsp; The Anishinabek Nation asked for prayers for the people of the community that are dealing with this unprecedented loss.&nbsp; “We ask that you please keep Chief Paavola, the citizens of Namaygoosisagagun First Nation, and all those affected by these wildfires in your prayers, and give them the privacy, time, and space required as they navigate this devastating situation,” the Nation said in a statement. “We send our heartfelt condolences, and our thoughts are with Namaygoosisagagun members who have suffered this tremendous loss of their entire community; our Anishinabek Nation family will be with you.”&nbsp; The wildfire smoke continues to drift southward, making Toronto and Detroit, Michigan the cities with the worst air quality in the world at one point. According to Fireradar, there are currently 811 wildfires active in Canada.&nbsp; The post Northern First Nation razed by wildfire appeared first on ICT ."
+      },
+      "time": {
+        "asserted": "2026-07-18T04:08:29.665Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "decolonization",
+        "citation": "https://ictnews.org/news/northern-first-nation-razed-by-wildfire/"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "published",
+      "proposition": {
+        "predicate": "published",
+        "object": "Thu, 16 Jul 2026 23:59:00 +0000"
+      },
+      "time": {
+        "asserted": "2026-07-18T04:08:29.665Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "decolonization",
+        "citation": "https://ictnews.org/news/northern-first-nation-razed-by-wildfire/"
+      },
+      "status": "supported"
+    }
+  ]
+}

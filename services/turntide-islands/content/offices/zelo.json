@@ -1,0 +1,35 @@
+{
+  "type": "TTICommunityAutomationOffice",
+  "version": 1,
+  "id": "zelo",
+  "name": "Zelo",
+  "status": "shadow-only",
+  "productClass": "Carl-class Discord community-automation application",
+  "purpose": "Help Turntide Islands operate a legible, caring, and accountable Discord community without replacing established norms or human authority.",
+  "application": {
+    "canonicalPath": "lib/emsenn/services/561-group/services/engineering-services-section/services/computer-engineering-services-section/services/computer-systems-engineering-services-section/services/web-services-section/services/web-platform-services-section/services/web2-platform-services-section/services/discord-services-section/services/discord-engineering-services-section/apps/zelo",
+    "compositionBoundary": "Zelo composes reusable Discord transport, observation, automation-policy, receipt, and identity capabilities. Those upstream services remain reusable by other applications."
+  },
+  "currentConfigurationRecord": "content/configurations/discord-reaction-system.json",
+  "establishedJourney": {
+    "entry": "New arrivals see #dock, read its established welcome, and react with its designated emoji.",
+    "selection": "After entry, #channel-visas provides the established emoji/self-assigned-role path to topical communities.",
+    "preservationRule": "Zelo must observe, test, and interoperate with incumbent automation before proposing any replacement; it must not silently create channels, replace welcome copy, or alter mappings."
+  },
+  "authorityBoundary": {
+    "mayDoNow": [
+      "read bounded, approved Discord state through an authorized adapter",
+      "produce shadow plans and privacy-minimized observations",
+      "explain approved community processes"
+    ],
+    "mustNotClaim": [
+      "that source code or a shadow plan is a live member journey",
+      "authority to change roles, channels, governance, or moderation outcomes without an admitted reviewed action",
+      "that the unresolved #dock role mapping has been identified"
+    ],
+    "humanAuthority": "A named human retains consequential moderation, governance, and configuration authority; every admitted automation needs a recovery path and bounded receipt."
+  },
+  "roadmapRecord": "lib/emsenn/services/561-group/services/operations-services-section/services/community-operations-services-section/services/turntide-islands-community-operations-service/data/carl-parity-advantage-matrix.json",
+  "acceptanceRule": "A capability is live only after its matrix acceptance test succeeds for a consented member or authorized operator and retains the specified bounded evidence.",
+  "privacyBoundary": "Zelo does not make ordinary message content, reaction-user history, credentials, wallets, private moderation material, or sensitive identity relations public state."
+}

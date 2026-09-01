@@ -1,0 +1,69 @@
+{
+  "subject": "trump-said-the-election-system-is-broken-what-do-swing-voters-make-of-the-claim",
+  "claims": [
+    {
+      "id": "title",
+      "proposition": {
+        "predicate": "title",
+        "object": "Trump said the election system is broken. What do swing voters make of the claim?"
+      },
+      "time": {
+        "asserted": "2026-07-19T14:41:50.560Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "politics",
+        "citation": "https://www.npr.org/2026/07/19/nx-s1-5898445/trump-said-the-election-system-is-broken-what-do-swing-voters-make-of-the-claim"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "url",
+      "proposition": {
+        "predicate": "url",
+        "object": "https://www.npr.org/2026/07/19/nx-s1-5898445/trump-said-the-election-system-is-broken-what-do-swing-voters-make-of-the-claim"
+      },
+      "time": {
+        "asserted": "2026-07-19T14:41:50.560Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "politics",
+        "citation": "https://www.npr.org/2026/07/19/nx-s1-5898445/trump-said-the-election-system-is-broken-what-do-swing-voters-make-of-the-claim"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "summary",
+      "proposition": {
+        "predicate": "summary",
+        "object": "What did some swing state voters think of President Trump's primetime speech on elections?"
+      },
+      "time": {
+        "asserted": "2026-07-19T14:41:50.560Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "politics",
+        "citation": "https://www.npr.org/2026/07/19/nx-s1-5898445/trump-said-the-election-system-is-broken-what-do-swing-voters-make-of-the-claim"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "published",
+      "proposition": {
+        "predicate": "published",
+        "object": "Sun, 19 Jul 2026 08:13:24 -0400"
+      },
+      "time": {
+        "asserted": "2026-07-19T14:41:50.560Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "politics",
+        "citation": "https://www.npr.org/2026/07/19/nx-s1-5898445/trump-said-the-election-system-is-broken-what-do-swing-voters-make-of-the-claim"
+      },
+      "status": "supported"
+    }
+  ]
+}

@@ -1,0 +1,69 @@
+{
+  "subject": "donald-trump-arrives-by-helicopter-to-attend-world-cup-final-alongside-gianni-infantino",
+  "claims": [
+    {
+      "id": "title",
+      "proposition": {
+        "predicate": "title",
+        "object": "Donald Trump arrives by helicopter to attend World Cup final alongside Gianni Infantino"
+      },
+      "time": {
+        "asserted": "2026-07-19T20:06:20.506Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "sports",
+        "citation": "https://www.theguardian.com/football/2026/jul/19/donald-trump-world-cup-final"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "url",
+      "proposition": {
+        "predicate": "url",
+        "object": "https://www.theguardian.com/football/2026/jul/19/donald-trump-world-cup-final"
+      },
+      "time": {
+        "asserted": "2026-07-19T20:06:20.506Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "sports",
+        "citation": "https://www.theguardian.com/football/2026/jul/19/donald-trump-world-cup-final"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "summary",
+      "proposition": {
+        "predicate": "summary",
+        "object": "<ul><li><p>US president watches Spain v Argentina match</p></li><li><p>Trump avoids hostile reception from crowd</p></li><li><p><a href=\"https://www.theguardian.com/football/live/2026/jul/19/spain-v-argentina-world-cup-2026-final-live-updates\">World Cup final: live coverage of the match</a></p></li></ul><p>Donald Trump took his place at the World Cup final at the New York New Jersey Stadium on Sunday.</p><p>Trump arrived at the stadium on Marine One, with the president’s helicopter first flying over the stadium around 45 minutes before kickoff. There was little reaction from the crowd as the aircraft flew over the stadium, with Marine One landing nearby a few minutes later. The president was seated in a glassed-in section of luxury seats on the west side of the stadium shortly before kickoff, along with the Fifa president, Gianni Infantino. Other dignitaries and former players sat nearby, including Spain’s king, Felipe VI, Canada prime minister Mark Carney and Mexico’s president, Claudia Sheinbaum.</p> <a href=\"https://www.theguardian.com/football/2026/jul/19/donald-trump-world-cup-final\">Continue reading...</a>"
+      },
+      "time": {
+        "asserted": "2026-07-19T20:06:20.506Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "sports",
+        "citation": "https://www.theguardian.com/football/2026/jul/19/donald-trump-world-cup-final"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "published",
+      "proposition": {
+        "predicate": "published",
+        "object": "Sun, 19 Jul 2026 19:16:04 GMT"
+      },
+      "time": {
+        "asserted": "2026-07-19T20:06:20.506Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "sports",
+        "citation": "https://www.theguardian.com/football/2026/jul/19/donald-trump-world-cup-final"
+      },
+      "status": "supported"
+    }
+  ]
+}

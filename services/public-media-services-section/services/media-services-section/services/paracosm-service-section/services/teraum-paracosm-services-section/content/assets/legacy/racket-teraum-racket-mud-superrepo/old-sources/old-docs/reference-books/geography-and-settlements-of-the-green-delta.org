@@ -1,0 +1,178 @@
+#+SETUPFILE: ./setup.inc
+#+TITLE: Geography and Settlements of the Green Delta
+#+EXPORT_FILE_NAME: ../../pub/reference-books/geography-and-settlements-of-the-green-delta
+#+INDEX: Green Delta!/Geography and Settlements of the Green Delta/
+#+TOC: headlines 2
+* DRAFT Introduction
+{{{document-isdraft}}}
+
+{{{document-hasproject}}}
+* DRAFT Geography and Settlements of the Green Delta
+** DRAFT Map
+[[file:../assets/green-delta-map.jpg][file:../assets/green-delta-map.jpg]]
+|        Key | Description                         |
+|------------+-------------------------------------|
+|        Ack | [[#ack][Ack]]                                 |
+| Bellybrush | [[#bellybrush][Bellybrush]]                          |
+|          1 | [[#canary-docks][Canary Docks]]                        |
+|          2 | [[#kibbil][Kibbil]]                              |
+|          4 | [[#southeast-arathel-county][southeast Arathel County]]            |
+|          5 | [[#arathel][Arathel]]                             |
+|          6 | [[#old-arathel][Old Arathel]]                         |
+|          7 | [[#baruk][Baruk]]                               |
+|          8 | [[#hunnul-passenger-cabin-crash-site][/Hunnul/ passenger cabin crash site]] |
+|          9 | [[#hunnul-cargo-cabin-crash-site][/Hunnul/ cargo cabin crash site]]     |
+|         10 | [[#hunnul-crew-cabin-crash-site][/Hunnul/ crew cabin crash site]]      |
+|         12 | [[#lanfon][Lanfon]]                              |
+|         13 | [[#northwest-sherwyn-county][northwest Sherwyn County]]            |
+|         14 | [[#terro][Terro]]                               |
+|         15 | [[#dorth][Dorth]]                               |
+|         16 | [[#forlond][Forlond]]                             |
+|         17 | [[#erenin][Erenin]]                              |
+|         18 | [[#carrot-docks][Carrot Docks]]                        |
+|         20 | [[#nulbuk][Nulbuk]]                              |
+|         22 | [[#sharrin][Sharrin]]                             |
+|         23 | [[#alindest][Alindest]]                            |
+|         24 | [[#arlonest][Arlonest]]                            |
+|         27 | [[#eridrin][Eridrin]]                             |
+|         29 | [[#wafeld][Wafeld]]                              |
+|         31 | [[#sherwyn][Sherwyn]]                             |
+** DRAFT Areas
+*** DRAFT Southeast Arathel County
+    :PROPERTIES:
+    :CUSTOM_ID: southeast-arathel-county
+    :END:
+#+INDEX: Arathel County!"Southeast Arathel County" in /Geography and Settlements of the Green Delta/
+*** DRAFT Northwest Sherwyn County
+    :PROPERTIES:
+    :CUSTOM_ID: northwest-sherwyn-county
+    :END:
+#+INDEX: Sherwyn County!"Northwest Sherwyn County" in /Geography and Settlements of the Green Delta/
+** DRAFT Settlements
+*** DRAFT Ack
+    :PROPERTIES:
+    :CUSTOM_ID: ack
+    :END:
+#+INDEX: Ack!"Ack" in /Geography and Settlements of the Green Delta/
+*** DRAFT Terro
+    :PROPERTIES:
+    :CUSTOM_ID: terro
+    :END:
+#+INDEX: Terro!"Terro" in /Geography and Settlements of the Green Delta/
+*** DRAFT Dorth
+    :PROPERTIES:
+    :CUSTOM_ID: dorth
+    :END:
+#+INDEX: Dorth!"Dorth" in /Geography and Settlements of the Green Delta/
+*** DRAFT Forlond
+    :PROPERTIES:
+    :CUSTOM_ID: forlond
+    :END:
+#+INDEX: Forlond!"Forlond" in /Geography and Settlements of the Green Delta/
+*** DRAFT Erenin
+    :PROPERTIES:
+    :CUSTOM_ID: erenin
+    :END:
+#+INDEX: Erenin!"Erenin" in /Geography and Settlements of the Green Delta/
+*** DRAFT Bellybrush
+    :PROPERTIES:
+    :CUSTOM_ID: bellybrush
+    :END:
+#+INDEX: Bellybrush!"Bellybrush" in /Geography and Settlements of the Green Delta/
+*** DRAFT Kibbil
+    :PROPERTIES:
+    :CUSTOM_ID: kibbil
+    :END:
+#+INDEX: Kibbil!"Kibbil" in /Geography and Settlements of the Green Delta/
+*** DRAFT Arathel
+    :PROPERTIES:
+    :CUSTOM_ID: arathel
+    :END:
+#+INDEX: Arathel!"Arathel" in /Geography and Settlements of the Green Delta/
+*** DRAFT Old Arathel
+    :PROPERTIES:
+    :CUSTOM_ID: old-arathel
+    :END:
+#+INDEX: Old Arathel!"Old Arathel" in /Geography and Settlements of the Green Delta/
+*** DRAFT Baruk
+    :PROPERTIES:
+    :CUSTOM_ID: baruk
+    :END:
+#+INDEX: Baruk!"Baruk" in /Geography and Settlements of the Green Delta/
+*** DRAFT Nulbuk
+    :PROPERTIES:
+    :CUSTOM_ID: nulbuk
+    :END:
+#+INDEX: Nulbuk!"Nulbuk" in /Geography and Settlements of the Green Delta/
+*** DRAFT Sharrin
+    :PROPERTIES:
+    :CUSTOM_ID: sharrin
+    :END:
+#+INDEX: Sharrin!"Sharrin" in /Geography and Settlements of the Green Delta/
+*** DRAFT Arlonest
+    :PROPERTIES:
+    :CUSTOM_ID: arlonest
+    :END:
+#+INDEX: Arlonest!"Arlonest" in /Geography and Settlements of the Green Delta/
+*** DRAFT Eridrin
+    :PROPERTIES:
+    :CUSTOM_ID: eridrin
+    :END:
+#+INDEX: Eridrin!"Eridrin" in /Geography and Settlements of the Green Delta/
+*** DRAFT Wafeld
+    :PROPERTIES:
+    :CUSTOM_ID: wafeld
+    :END:
+#+INDEX: Wafeld!"Wafeld" in /Geography and Settlements of the Green Delta/
+*** DRAFT Sherwyn
+    :PROPERTIES:
+    :CUSTOM_ID: sherwyn
+    :END:
+#+INDEX: Sherwyn!"Sherwyn" in /Geography and Settlements of the Green Delta/
+*** DRAFT Alindest
+    :PROPERTIES:
+    :CUSTOM_ID: alindest
+    :END:
+#+INDEX: Alindest!"Alindest" in /Geography and Settlements of the Green Delta/
+*** DRAFT Lanfon
+    :PROPERTIES:
+    :CUSTOM_ID: lanfon
+    :END:
+#+INDEX: Lanfon!"Lanfon" in /Geography and Settlements of the Green Delta/
+** DRAFTS Outposts
+*** DRAFT Canary Docks
+    :PROPERTIES:
+    :CUSTOM_ID: canary-docks
+    :END:
+#+INDEX: Canary Docks!"Canary Docks" in /Geography and Settlements of the Green Delta/
+*** DRAFT Carrot Docks
+    :PROPERTIES:
+    :CUSTOM_ID: carrot-docks
+    :END:
+#+INDEX: Carrot Docks!"Carrot Docks" in /Geography and Settlements of the Green Delta/
+** DRAFT Ruins
+*** DRAFT Dungeon of Minor Inconveniences
+    :PROPERTIES:
+    :CUSTOM_ID: dungeon-of-minor-inconveniences
+    :END:
+#+INDEX: Dungeon of Minor Inconveniences!"Dungeon of Minor Inconveniences" in /Geography and Settlements of the Green Delta/
+*** DRAFT /Hunnul/ Passenger Cabin Crash Site
+    :PROPERTIES:
+    :CUSTOM_ID: hunnul-passenger-cabin-crash-site
+    :END:
+#+INDEX: Hunnul, passenger cabin crash site!"Hunnul Passenger Cabin Crash Site" in /Geography and Settlements of the Green Delta/
+*** DRAFT /Hunnul/ Cargo Cabin Crash Site
+    :PROPERTIES:
+    :CUSTOM_ID: hunnul-cargo-cabin-crash-site
+    :END:
+#+INDEX: Hunnul, cargo cabin crash site!"Hunnul Cargo Cabin Crash Site" in /Geography and Settlements of the Green Delta/
+*** DRAFT /Hunnul/ Crew Cabin Crash Site
+    :PROPERTIES:
+    :CUSTOM_ID: hunnul-crew-cabin-crash-site
+    :END:
+#+INDEX: Hunnul, crew cabin crash site!"Hunnul Crew Cabin Crash Site" in /Geography and Settlements of the Green Delta/
+* DRAFT Supplements
+** DRAFT Index
+- Green Delta ::
+- Dungeon of Minor Inconveniences ::
+- Alindest ::

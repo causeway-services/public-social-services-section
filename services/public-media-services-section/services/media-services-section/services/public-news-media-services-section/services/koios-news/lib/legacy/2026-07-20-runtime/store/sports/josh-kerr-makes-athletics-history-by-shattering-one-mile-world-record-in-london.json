@@ -1,0 +1,69 @@
+{
+  "subject": "josh-kerr-makes-athletics-history-by-shattering-one-mile-world-record-in-london",
+  "claims": [
+    {
+      "id": "title",
+      "proposition": {
+        "predicate": "title",
+        "object": "Josh Kerr makes athletics history by shattering one-mile world record in London"
+      },
+      "time": {
+        "asserted": "2026-07-19T15:58:02.610Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "sports",
+        "citation": "https://www.theguardian.com/sport/2026/jul/18/josh-kerr-makes-athletics-history-by-shattering-one-mile-world-record-in-london"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "url",
+      "proposition": {
+        "predicate": "url",
+        "object": "https://www.theguardian.com/sport/2026/jul/18/josh-kerr-makes-athletics-history-by-shattering-one-mile-world-record-in-london"
+      },
+      "time": {
+        "asserted": "2026-07-19T15:58:02.610Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "sports",
+        "citation": "https://www.theguardian.com/sport/2026/jul/18/josh-kerr-makes-athletics-history-by-shattering-one-mile-world-record-in-london"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "summary",
+      "proposition": {
+        "predicate": "summary",
+        "object": "<ul><li><p>Time of 3min 42.66sec betters El Guerrouj in 1999 by 0.47</p></li><li><p>Kerr becomes seventh British man to hold record</p></li></ul><p>Having put himself out there in the manner that he did, Josh Kerr left nowhere else to go. He had to deliver on Saturday. You call your shot, you take it. So he did. And boy, was it spectacular.</p><p>For the first time in 27 years there is a new one-mile world record-holder. On the morning of this London Diamond League meet, Sebastian Coe – a three-time mile world record-holder himself – described Morocco’s Hicham El Guerrouj, the incumbent, as the greatest miler in history. If that fact remains undisputed, the record books will now show Kerr’s name above El Guerrouj as the man who ran one mile in 3min 42.66sec. Just as he said he would.</p> <a href=\"https://www.theguardian.com/sport/2026/jul/18/josh-kerr-makes-athletics-history-by-shattering-one-mile-world-record-in-london\">Continue reading...</a>"
+      },
+      "time": {
+        "asserted": "2026-07-19T15:58:02.610Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "sports",
+        "citation": "https://www.theguardian.com/sport/2026/jul/18/josh-kerr-makes-athletics-history-by-shattering-one-mile-world-record-in-london"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "published",
+      "proposition": {
+        "predicate": "published",
+        "object": "Sat, 18 Jul 2026 14:56:05 GMT"
+      },
+      "time": {
+        "asserted": "2026-07-19T15:58:02.610Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "sports",
+        "citation": "https://www.theguardian.com/sport/2026/jul/18/josh-kerr-makes-athletics-history-by-shattering-one-mile-world-record-in-london"
+      },
+      "status": "supported"
+    }
+  ]
+}

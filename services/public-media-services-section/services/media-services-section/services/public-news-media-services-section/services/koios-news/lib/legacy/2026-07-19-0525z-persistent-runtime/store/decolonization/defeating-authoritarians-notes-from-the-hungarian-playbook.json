@@ -1,0 +1,69 @@
+{
+  "subject": "defeating-authoritarians-notes-from-the-hungarian-playbook",
+  "claims": [
+    {
+      "id": "title",
+      "proposition": {
+        "predicate": "title",
+        "object": "Defeating authoritarians: Notes from the Hungarian playbook"
+      },
+      "time": {
+        "asserted": "2026-07-19T02:20:00.056Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "decolonization",
+        "citation": "https://www.opendemocracy.net/en/hungary-election-orban-defeat-peter-magyar-win-lessons-progressives/"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "url",
+      "proposition": {
+        "predicate": "url",
+        "object": "https://www.opendemocracy.net/en/hungary-election-orban-defeat-peter-magyar-win-lessons-progressives/"
+      },
+      "time": {
+        "asserted": "2026-07-19T02:20:00.056Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "decolonization",
+        "citation": "https://www.opendemocracy.net/en/hungary-election-orban-defeat-peter-magyar-win-lessons-progressives/"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "summary",
+      "proposition": {
+        "predicate": "summary",
+        "object": "As the dust settles on last week’s Hungarian election, which saw Viktor Orbán and his Fidesz party wiped out in a landslide win by centre-right candidate Péter Magyar, some onlookers are left puzzled. What changed? Hungarians, including many Fidesz voters, have long known of the Orbán regime’s corruption and anti-democratic measures, which were backed by both Donald Trump in the US and Vladimir Putin in Russia. Was Magyar just in the right place at the right time, or is there something deeper at play? And what can progressive forces around the world learn from him? We know that it was not primarily – or not only – propaganda that kept millions wedded to Fidesz for so long. This is clear from a recent interview given to an independent media outlet (Partizán) in which a Fidesz politician explains that she had been scandalised by the enrichment of Orbán’s close circle and the cases of abuse within child protection services that had come to light – she just did not believe these were intrinsic to the workings of Fidesz. So if Fidesz politicians and voters alike were often aware of these issues, what kept them supporting the party for so long?"
+      },
+      "time": {
+        "asserted": "2026-07-19T02:20:00.056Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "decolonization",
+        "citation": "https://www.opendemocracy.net/en/hungary-election-orban-defeat-peter-magyar-win-lessons-progressives/"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "published",
+      "proposition": {
+        "predicate": "published",
+        "object": "Thu, 16 Apr 2026 13:38:38 GMT"
+      },
+      "time": {
+        "asserted": "2026-07-19T02:20:00.056Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "decolonization",
+        "citation": "https://www.opendemocracy.net/en/hungary-election-orban-defeat-peter-magyar-win-lessons-progressives/"
+      },
+      "status": "supported"
+    }
+  ]
+}

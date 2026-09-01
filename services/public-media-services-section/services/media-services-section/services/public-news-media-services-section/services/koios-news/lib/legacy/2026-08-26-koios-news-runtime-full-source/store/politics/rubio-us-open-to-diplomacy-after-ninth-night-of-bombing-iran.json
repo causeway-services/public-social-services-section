@@ -1,0 +1,69 @@
+{
+  "subject": "rubio-us-open-to-diplomacy-after-ninth-night-of-bombing-iran",
+  "claims": [
+    {
+      "id": "title",
+      "proposition": {
+        "predicate": "title",
+        "object": "Rubio: US ‘open to diplomacy’ after ninth night of bombing Iran"
+      },
+      "time": {
+        "asserted": "2026-07-20T09:48:45.426Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "politics",
+        "citation": "https://www.aljazeera.com/video/newsfeed/2026/7/20/rubio-us-open-to-diplomacy-after-ninth-night-of-bombing-iran?traffic_source=rss"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "url",
+      "proposition": {
+        "predicate": "url",
+        "object": "https://www.aljazeera.com/video/newsfeed/2026/7/20/rubio-us-open-to-diplomacy-after-ninth-night-of-bombing-iran?traffic_source=rss"
+      },
+      "time": {
+        "asserted": "2026-07-20T09:48:45.426Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "politics",
+        "citation": "https://www.aljazeera.com/video/newsfeed/2026/7/20/rubio-us-open-to-diplomacy-after-ninth-night-of-bombing-iran?traffic_source=rss"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "summary",
+      "proposition": {
+        "predicate": "summary",
+        "object": "Rubio: US ‘open to diplomacy’ after ninth night of bombing Iran"
+      },
+      "time": {
+        "asserted": "2026-07-20T09:48:45.426Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "politics",
+        "citation": "https://www.aljazeera.com/video/newsfeed/2026/7/20/rubio-us-open-to-diplomacy-after-ninth-night-of-bombing-iran?traffic_source=rss"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "published",
+      "proposition": {
+        "predicate": "published",
+        "object": "Mon, 20 Jul 2026 08:41:06 +0000"
+      },
+      "time": {
+        "asserted": "2026-07-20T09:48:45.426Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "politics",
+        "citation": "https://www.aljazeera.com/video/newsfeed/2026/7/20/rubio-us-open-to-diplomacy-after-ninth-night-of-bombing-iran?traffic_source=rss"
+      },
+      "status": "supported"
+    }
+  ]
+}

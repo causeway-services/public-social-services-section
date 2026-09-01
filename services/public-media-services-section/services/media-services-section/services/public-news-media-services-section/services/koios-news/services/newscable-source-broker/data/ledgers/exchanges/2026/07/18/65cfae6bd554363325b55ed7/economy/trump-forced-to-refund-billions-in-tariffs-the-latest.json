@@ -1,0 +1,69 @@
+{
+  "subject": "trump-forced-to-refund-billions-in-tariffs-the-latest",
+  "claims": [
+    {
+      "id": "title",
+      "proposition": {
+        "predicate": "title",
+        "object": "Trump forced to refund billions in tariffs – The Latest"
+      },
+      "time": {
+        "asserted": "2026-07-18T07:49:51.643Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "economy",
+        "citation": "https://www.theguardian.com/news/audio/2026/jul/14/trump-forced-to-refund-billions-in-tariffs-the-latest"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "url",
+      "proposition": {
+        "predicate": "url",
+        "object": "https://www.theguardian.com/news/audio/2026/jul/14/trump-forced-to-refund-billions-in-tariffs-the-latest"
+      },
+      "time": {
+        "asserted": "2026-07-18T07:49:51.643Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "economy",
+        "citation": "https://www.theguardian.com/news/audio/2026/jul/14/trump-forced-to-refund-billions-in-tariffs-the-latest"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "summary",
+      "proposition": {
+        "predicate": "summary",
+        "object": "<p>The US government has been forced to pay billions in refunds to companies that were hit by Donald Trump’s ‘liberation day’ tariffs.</p><p>The US has paid out $81bn (£61bn) this fiscal year after the supreme court ruled the tariffs were illegal. Lucy Hough speaks to international editor Chris Michael <strong>– </strong><a href=\"https://www.youtube.com/@todayinfocuspodcast\"><strong>watch on YouTube</strong></a></p> <a href=\"https://www.theguardian.com/news/audio/2026/jul/14/trump-forced-to-refund-billions-in-tariffs-the-latest\">Continue reading...</a>"
+      },
+      "time": {
+        "asserted": "2026-07-18T07:49:51.643Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "economy",
+        "citation": "https://www.theguardian.com/news/audio/2026/jul/14/trump-forced-to-refund-billions-in-tariffs-the-latest"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "published",
+      "proposition": {
+        "predicate": "published",
+        "object": "Tue, 14 Jul 2026 16:17:48 GMT"
+      },
+      "time": {
+        "asserted": "2026-07-18T07:49:51.643Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "economy",
+        "citation": "https://www.theguardian.com/news/audio/2026/jul/14/trump-forced-to-refund-billions-in-tariffs-the-latest"
+      },
+      "status": "supported"
+    }
+  ]
+}

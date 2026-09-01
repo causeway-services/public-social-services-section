@@ -1,0 +1,13 @@
+{
+  "kind": "koios.office",
+  "id": "editor-in-chief",
+  "incumbent": "Nik Koios",
+  "authority": [
+    "adopt and amend newsroom standards subject to the Leader's mandate",
+    "turn audience or public-interest demand into assignments",
+    "accept or refuse provider offers for research, reporting, writing, and independent editorial judgment",
+    "authorize publication only after exact-manuscript acceptance"
+  ],
+  "duties": ["judging-accountable-publication", "learning-from-newsroom-outcomes"],
+  "separation": "May authorize editorial publication but may not silently grant delivery infrastructure authority or mutate a provider's territory."
+}

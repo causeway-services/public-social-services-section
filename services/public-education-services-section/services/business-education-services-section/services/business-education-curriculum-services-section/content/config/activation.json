@@ -1,0 +1,9 @@
+{
+  "status": "course-active-second-lesson-admitted-signed-delivery-active",
+  "lessonOffers": "active-prerequisite-ordered-course-v1",
+  "lessonAdmission": "active-only-for-situated-settled-research-products",
+  "nextAdmittedLesson": "customer-discovery-market-intelligence",
+  "nextAdmittedProduct": "urn:sha256:68c171d88f209849747c360ce8a2b7d1cb0298fa5017fdfcaf459ecb5d667135",
+  "signedDelivery": {"status":"enabled-active-under-user-systemd","serviceUnit":"emsweb-modern-business-curriculum-delivery-a2a.service","customer":"urn:ame:modern-business-youtube-channel-enterprise","agentCardIdentity":"ni:///sha-256;OycZ1sUaReghjm4GaI5MuEXDFD3XJWw1Yo9xKR-_V5g"},
+  "leaderInputsStillRequired": []
+}

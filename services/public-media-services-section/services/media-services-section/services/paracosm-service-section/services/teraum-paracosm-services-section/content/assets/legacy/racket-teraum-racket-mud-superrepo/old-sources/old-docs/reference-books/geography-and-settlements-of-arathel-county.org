@@ -1,0 +1,284 @@
+#+SETUPFILE: ./setup.inc
+#+TITLE: Geography and Settlements of Arathel County
+#+EXPORT_FILE_NAME: ../../pub/reference-books/geography-and-settlements-of-arathel-county
+#+INDEX: Arathel County!/Geography and Settlements of Arathel County/
+#+TOC: headlines 1
+* DRAFT Introduction
+{{{document-isdraft}}}
+
+{{{document-hasproject}}}
+* DRAFT Geography and Settlements of Arathel County
+#+TOC: headlines 1 local
+** DRAFT Overview
+*/Arathel County/* is a marshy region in the northwest /Green Delta/. Its
+county seat is the town of /Arathel/, and its principle exports are
+/limestone/, /wool/, and /cokeberry/ and /cokeberry/ products.
+** DRAFT Maps
+*** DRAFT Southeast Arathel County
+[[file:../assets/southeast-arathel-county-map.jpg][file:../assets/southeast-arathel-county-map.jpg]]
+| Key | Description            |
+|-----+------------------------|
+|   1 | [[#temple-of-faluzure][Temple of Faluzure]]     |
+|   2 | [[#slow-lightning-inn][Slow Lightning Inn]]     |
+|   4 | [[#frekes-grave][Freke's grave]]          |
+|   5 | [[#honeyfern-laboratories][Honeyfern Laboratories]] |
+|   7 | [[#broken-arrow-inn][Broken Arrow Inn]]       |
+|   8 | [[#belys-blades][Bely's Blades]]          |
+|  10 | [[#green-dagger-inn][Green Dagger Inn]]       |
+|  11 | [[#crossed-candles-inn][Crossed Candles Inn]]    |
+|  13 | [[#dull-thorn-inn][Dull Thorn Inn]]         |
+|  14 | [[#golden-shield-inn][Golden Shield Inn]] |
+** DRAFT Landmarks
+#+TOC: headlines 1 local
+*** DRAFT Canary Docks
+    :PROPERTIES:
+    :CUSTOM_ID: canary-docks
+    :END:
+A small smugglers port, the */Canary Docks/* are located about 15
+minutes north of /Ack/, on the coast of the /Optic Ocean/.
+*** DRAFT Freke's Grave
+    :PROPERTIES:
+    :CUSTOM_ID: frekes-grave
+    :END:
+#+INDEX: Freke, grave!"Freke's Grave" in /Geography and Settlements of the Arathel County/
+*/Freke's grave/* is a simple wooden marker, engraved with "Freke",
+located just off the side of the road. Nearby, a /fascist/ has been
+hanged by his wrists from a tree. /Freke/ was an immigrant to the
+region who was killed by that /fascist/, who was in turn killed by
+/Freke's/ friends.
+*** DRAFT Kaiper River
+    :PROPERTIES:
+    :CUSTOM_ID: kaiper-river
+    :END:
+#+INDEX: Kaiper River!"Kaiper River" in /Geography and Settlements of Arathel County/
+The */Kaiper River/* is a small river that originates in the northern
+part of the county and flows past the town of /Arathel/.
+** DRAFT Flora and Fauna
+#+TOC: headlines 1 local
+*** DRAFT Cokeberries
+     :PROPERTIES:
+     :CUSTOM_ID: cokeberries
+     :END:
+#+INDEX: cokeberries!"Cokeberries" in /Geography and Settlements of Arathel County/
+*/Cokeberries/* are a tart purple berry that grows natively in
+Arathel County, and has been cultivated around /Gnalens/ in the /New
+World/.
+** DRAFT Settlements
+#+TOC: headlines 1 local
+*** DRAFT Arathel
+    :PROPERTIES:
+    :CUSTOM_ID: arathel
+    :END:
+#+INDEX: Arathel!"Arathel" in /Geography and Settlements of Marby County/
+*/Arathel/* is the /human/-populated county seat of Arathel County.
+First settled in 478bc as a logging community, Arathel is one of the
+larger towns in the community. It is governed by a council of local
+commercial leaders. its primary exports are wool, limestone, and
+cokeberries. Notably, Arathel was the capital of the Astar Empire. For
+more information, see "Arathel" in the /Arathel County Gazetteer/.
+*** DRAFT Kibbil
+    :PROPERTIES:
+    :CUSTOM_ID: kibbil
+    :END:
+#+INDEX: Kibbil!"Kibbil" in /Geography and Settlements of Arathel County/
+*/Kibbil/* is a small town south of the /Kaiper River/, about ten
+miles east of the /Canary Docks/.
+** DRAFT Homesteads, Inns, and Shops
+#+TOC: headlines 1 local
+*** DRAFT Slow Lightning Inn
+    :PROPERTIES:
+    :CUSTOM_ID: slow-lightning-inn
+    :END:
+#+INDEX: Slow Lightning Inn!"Slow Lightning Inn" in /Geography and Settlements of the Arathel County/p
+The */Slow Lightning Inn/* is a large single-storey timber-framed
+building with a small fenced yard. It is notably clean, and well-lit
+inside with a large /iron/ chandelier. Accomodations consist of several
+small rooms with wooden cots and several hammocks in the common room.
+/Wulfa/, the barkeep, is known for his dried /radish/ chips and his
+clearly-embellished adventuring stories.
+**** DRAFT Wulfa
+     :PROPERTIES:
+     :CUSTOM_ID: wulfa
+     :END:
+#+INDEX: Wulfa!"Wulfa" in /Geography and Settlements of Arathel County/
+*/Wulfa/* is a squat /human/ man.
+*** DRAFT Honeyfern Laboratories
+    :PROPERTIES:
+    :CUSTOM_ID: honeyfern-laboratories
+    :END:
+#+INDEX: Honeyfern Laboratories!"Honeyfern Laboratories" in /Geography and Settlements of the Arathel County/
+*/Honeyfern Laboratories/* is the home of /Aldous Honeyfern/ and his
+employees, who work to create mechanized trinkets for the /Red Union/.
+Secretly, the /Laboratory/ is the home of the /Delvers/, an outlaw
+group.
+*** DRAFT Broken Arrow Inn
+    :PROPERTIES:
+    :CUSTOM_ID: broken-arrow-inn
+    :END:
+#+INDEX: Broken Arrow Inn!"Broken Arrow Inn" in /Geography and Settlements of the Arathel County/
+The */Broken Arrow Inn/* is a single-storey stone-walled building,
+with a small fenced yard and large cellar. Accomodations consist of
+several small rooms with wooden cots. /Geda/ makes /cheese curds/.
+**** DRAFT Geda
+     :PROPERTIES:
+     :CUSTOM_ID: geda
+     :END:
+#+INDEX: Geda!"Geda" in /Geography and Settlements of Arathel County/
+*/Geda/* is a squat /human/ who runs the /Broken Arrow Inn/. They're
+known for their /cheese curds/, made with /milk/ brought in from the
+neighboring farms.
+*** DRAFT Bely's Blades
+    :PROPERTIES:
+    :CUSTOM_ID: belys-blades
+    :END:
+#+INDEX: Bely's Blade!"Bely's Blade" in /Geography and Settlements of the Arathel County/
+*/Bely's Blade/* is a two-storey tower hewn from an outcrop of rock,
+ with a /slate/ roof. It is dimly lit by a few candles and fairly
+ shabby. /Ingag Bely/ sells weapons retrieved from nearby dungeons.
+**** DRAFT Ingag Bely
+     :PROPERTIES:
+     :CUSTOM_ID: ingag-bely
+     :END:
+#+INDEX: Bely, Ingag!"Ingag Bely" in /Geography and Settlements of the Arathel County/
+*/Ingag Bely/* is the /human/ owner of /Bely's Blades/.
+*** DRAFT Green Dagger Inn
+    :PROPERTIES:
+    :CUSTOM_ID: green-dagger-inn
+    :END:
+#+INDEX: Green Dagger Inn!"Green Dagger Inn" in /Geography and Settlements of the Arathel County/
+The */Green Dagger Inn/* is a large two-storey timber-framed building,
+with finely-crafted tables and chairs. Accomodations consist of
+several large rooms with beds and feather mattresses. The innkeeper is
+a heavyset woman named /Nerwende/. She is a retired adventurer, and
+seems to know someone from every region of the world.
+**** DRAFT Nerwende
+     :PROPERTIES:
+     :CUSTOM_ID: nerwende
+     :END:
+#+INDEX: Nerwende!"Nerwende" in /Geography and Settlements of Arathel County/
+*/Nerwende/* is the owner of the /Green Dagger Inn/. A former
+ adventurer, she seems to know someone from every part of the world.
+*** DRAFT Crossed Candles Inn
+    :PROPERTIES:
+    :CUSTOM_ID: crossed-candles-inn
+    :END:
+#+INDEX: Crossed Candles Inn!"Crossed Candles Inn" in /Geography and Settlements of the Arathel County/
+The */Crossed Candles Inn/* is a simple wooden shack with several
+shuttered windows. Accomodations consist of a single large room with
+wooden cots. The /Inn/ is said to be haunted by the coast of a /human/
+man named /Alfric/. The innkeeper is a short /human/ woman named
+/Lexandra Terr/. She is a retired thief, and maintains a collection of
+various maps.
+**** DRAFT Alfric
+     :PROPERTIES:
+     :CUSTOM_ID: alfric
+     :END:
+#+INDEX: Alfric!"Alfric" in /Geography and Settlements of Arathel County/
+*/Alfric/* was a /human/ soldier during the /Great Wars/, who was
+visited the /Crossed Candles Inn/ on campaign. While there, he tried
+to start a bar fight, but slipped a puddle, cracked his head, and
+died. Now, his /ghost/ haunts the /Inn/, where he whispers into the
+ears of drunken regulars that newcomers have said unkind things about
+them and their kin. Visitors to the /Inn/ *risk* being randomly
+attacked by a drunken local.
+**** DRAFT Lexandra Terr
+     :PROPERTIES:
+     :CUSTOM_ID: lexandra-terr
+     :END:
+#+INDEX: Terr, Lexandra!"Lexandra Terr" in /Geography and Settlements of Arathel County/
+*/Lexandra Terr/* runs the /Crossed Candles Inn/, though she doesn't
+ seem very happy about it.
+*** DRAFT Dull Thorn Inn
+    :PROPERTIES:
+    :CUSTOM_ID: dull-thorn-inn
+    :END:
+#+INDEX: Dull Thorn Inn!"Dull Thorn Inn" in /Geography and Settlements of Arathel County/
+The /Dull Thorn Inn/ is a two-storey timber and brick building, with
+well-made tables and chairs. A collection of weapons hangs on the
+walls. Accomodations consist of a single large room with wooden cots
+and wooden cots near the hearth. The innkeeper is a timid /human/
+female named /Benne/.
+**** Benne
+     :PROPERTIES:
+     :CUSTOM_ID: benne
+     :END:
+#+INDEX: Benne!"Benne" in /Geography and Settlements of Arathel County/
+*/Benne/* is a tall /human/ woman who is much more timid than her
+ stature would have one assume.
+*** DRAFT Golden Shield Inn
+    :PROPERTIES:
+    :CUSTOM_ID: golden-shield-inn
+    :END:
+#+INDEX: Golden Shield Inn!"Golden Shield Inn" in /Geography and Settlements of the Arathel County/pp
+The */Golden Shield Inn/* is a large single-storey timber-framed
+building, with a reinforced wooden door and unusually high ceilings.
+Accomodations consist of a several large rooms with beds and straw
+mattresses, and a mezzanine with several wooden cots. The innkeeper is
+a young /human/ man named /Athyer/.
+**** DRAFT Athyer
+     :PROPERTIES:
+     :CUSTOM_ID: athyer
+     :END:
+#+INDEX: Athyer!"Athyer" in /Geography and Settlements of the Arathel County/
+*/Athyer/* is a young /human/ man, born on the 8th of Summer, 64pc.
+His parents were the previous owners of the /Golden Shield Inn/, but
+passed away in Blooming, 77pc from an illness that Athyer didn't get.
+** DRAFT Notable Organizations and People
+#+TOC: headlines 1 local
+*** DRAFT Jelf
+    :PROPERTIES:
+    :CUSTOM_ID: jelf
+    :END:
+#+INDEX: Jelf!"Jelf" in /Geography and Settlements of Arathel County/
+*/Jelf/* is a wizard who lives somewhere in the county. He previously
+ occupied /Honeyfern Laboratories/.
+** DRAFT Ruins
+*** DRAFT Temple of Faluzure
+    :PROPERTIES:
+    :CUSTOM_ID: temple-of-faluzure
+    :END:
+#+INDEX: Temple of Faluzure!"Temple of Faluzure" in /Geography and Settlements of the Arathel County/
+* DRAFT Supplements
+** DRAFT Index
+- milk :: {{{teraum-defsrc(milk)}}}
+- Ack :: {{{teraum-defsrc(ack)}}}
+- Alfric :: {{{teraum-define-alfric}}} See [[#alfric]["Alfric"]].
+- Arathel County :: {{{teraum-define-arathel}}} The subject of this {{{document-type}}}.
+- Arathel :: {{{teraum-defsrc(arathel)}}}
+- Athyer :: {{{teraum-define-athyer}}} See [[#athyer]["Athyer"]].
+- Bely, Ingag :: {{{teraum-define-bely-ingag}}} See [[#ingag-bely]["Ingag Bely"]].
+- Bely's Blades :: {{{teraum-define-arathel-county-belys-blades}}} See [[#belys-blades]["Bely's Blades"]].
+- Benne :: {{{teraum-define-benne}}} See [[#benne]["Benne"]].
+- Broken Arrow Inn :: {{{teraum-define-arathel-county-broken-arrow-inn}}} See [[#broken-arrow-inn]["Broken Arrow Inn"]].
+- Canary Docks :: {{{teraum-define-arathel-county-canary-docks}}} See [[#canary-docks]["Canary Docks"]].
+- cheese curds :: {{{teraum-defsrc(cheese-curds)}}}
+- cokeberry :: {{{teraum-defsrc(cokeberries)}}}
+- Crossed Candles Inn :: {{{teraum-define-arathel-county-crossed-candles-inn}}} See [[#crossed-candles-inn]["Crossed Candles Inn"]].
+- Delvers, the :: {{{teraum-defsrc(delvers)}}}
+- Dull Thorn Inn :: {{{teraum-define-arathel-county-dull-thorn-inn}}} See [[#dull-thorn-inn]["Dull Thorn Inn"]].
+- fascists :: {{{teraum-defsrc(fascists)}}}
+- Freke's grave :: {{{teraum-define-arathel-county-frekes-grave}}} See [[#frekes-grave]["Freke's Grave]].
+- Freke :: {{{teraum-defsrc(freke)}}}
+- Geda :: {{{teraum-define-geda}}} See [[#geda]["Geda"]].
+- ghost :: {{{teraum-defsrc(ghost)}}}
+- Gnalens :: {{{teraum-defsrc(gnalens)}}}
+- Golden Shield Inn :: {{{teraum-define-arathel-county-golden-shield-inn}}} See [[#golden-shield-inn]["Golden Shield Inn"]].
+- Green Dagger Inn :: {{{teraum-define-arathel-county-green-dagger-inn}}} See [[#green-dagger-inn]["Green Dagger Inn"]].
+- Green Delta :: {{{teraum-defsrc(green-delta)}}}
+- Honeyfern, Aldous :: {{{teraum-defsrc(honeyfern-aldous)}}}
+- Honeyfern Laboratories :: {{{teraum-define-arathel-county-honeyfern-laboratories}}} See [[#honeyfern-laboratories]["Honeyfern Laboratories"]].
+- humans :: {{{teraum-defsrc(humans)}}}
+- iron :: {{{teraum-defsrc(iron)}}}
+- Jelf :: {{{teraum-define-jelf)}}} See [[#jelf]["Jelf"]].
+- Kaiper River :: {{{teraum-define-kaiper-river}}} See [[#kaiper-river]["Kaiper River"]].
+- Kibbil :: {{{teraum-define-kibbil}}} See [[#kibbil]["Kibbil"]].
+- limestone :: {{{teraum-defsrc(limestone)}}}
+- Nerwende :: {{{teraum-define-nerwende}}} See [[#nerwende]["Nerwende"]].
+- New World :: {{{teraum-defsrc(new-world)}}}
+- Optic Ocean :: {{{teraum-defsrc(optic-ocean)}}}
+- radish :: {{{teraum-defsrc(radish)}}}
+- slate :: {{{teraum-defsrc(slate)}}}
+- Slow Lightning Inn :: {{{teraum-define-arathel-county-slow-lightning-inn}}} See [[#slow-lightning-inn]["Slow Lightning Inn"]].
+- Terr, Lexandra :: {{{teraum-define-terr-lexandra}}} See [[#lexandra-terr]["Lexandra Terr"]].
+- wool :: {{{teraum-defsrc(wool)}}}
+- Wulfa :: {{{teraum-define-wulfa}}} See [[#wulfa]["Wulfa"]].

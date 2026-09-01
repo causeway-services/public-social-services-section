@@ -1,0 +1,69 @@
+{
+  "subject": "required-reading",
+  "claims": [
+    {
+      "id": "title",
+      "proposition": {
+        "predicate": "title",
+        "object": "Required Reading"
+      },
+      "time": {
+        "asserted": "2026-07-18T08:37:53.578Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "culture",
+        "citation": "https://hyperallergic.com/required-reading-793/"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "url",
+      "proposition": {
+        "predicate": "url",
+        "object": "https://hyperallergic.com/required-reading-793/"
+      },
+      "time": {
+        "asserted": "2026-07-18T08:37:53.578Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "culture",
+        "citation": "https://hyperallergic.com/required-reading-793/"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "summary",
+      "proposition": {
+        "predicate": "summary",
+        "object": "Debika Ray writes about the film that beloved Indian author Arundhati Roy made during her time as an architecture student for Apollo : Seen with the hindsight of four decades, the film feels like the Arundhati Roy origin story. It is hard not to read the cynicism of the character she plays – and her uncertainty about what she might do after graduating, if not architecture – as an early articulation of her own disillusionment with the profession’s narrow notions of progress and subsequent discovery of her political voice. But it’s also the origin story of modern India – the accelerating pace of development and the shifting relationship between urban and rural – and a prescient glimpse of some of the social inequalities that the construction and real estate industries would entrench across the world over the coming decades. For the Los Angeles Review of Books , Abigail Susik considers how the Surrealist movement negotiated pessimism and hope in new translations of writing by André Breton: Even essays in Cavalier Perspective that are ostensibly about art or politics contain kernels of what might be called spiritual thinking. For instance, “Link,” which was a preface to the catalog for a surrealist exhibition in 1952, professes that surrealism’s goal is not just to transform the world but also to increasingly liberate the “instinctive impulse,” breaking the imprisoning dominion of the physical world in order “to reach the total psychophysical field (of which the arena of consciousness is only a small part).” One of the final “links” between the surrealist marvelous and the surrealist revolution to erupt in Breton’s life was his awareness of what the late artist Ben Morea—founder of the anarchist collective Up Against the Wall Motherfucker, active in New York in the 1960s, himself substantially influenced by surrealism—recently called “the unified field.” It’s the idea that art is not enough to change life as we know it, and neither is politics, nor radical art and politics hewn together. An animist understanding of the universe as fully alive can unite these aspects of the struggle into a single motivation to resist the death drive’s domination. If humans could perceive what Breton called this “Language of Stones” through art-as-divination and other forms of consciousness-changing activity, we might avoid the world’s extinction. Michelle Myles, who has been a tattoo artist for 35 years, shares a slice of New York City tattoo history with G othamist 's Sonia Rao: Hildebrandt was a hand-poke tattooer. Then these devices started coming out that used electricity. O’Reilly’s patent specifically was based on Thomas Edison’s [electric] pen, which was patented in 1876. Right after Edison’s patent, there was actually an editorial in a newspaper imploring Edison to invent an electric tattoo machine. O’Reilly’s patent from what we can tell is pretty much exactly like the Edison patent, but we don’t even know that it worked very well because he never put it into production. There’s only one that I know to exist. O’Reilly got into a fight over his patent. He worked with another tattooer named “Electric” Elmer Getchell and accused him of infringing on his patent, and the two of them ended up in court. There was a headline in the New York Times that said, “Tattoo Artists at War.” Tamara Davison reports for Wired on a museum in the West Bank that launched a digital archive project, which carefully documents and preserves Palestinian culture: What began with simple door-knocking—visiting families in the West Bank and asking permission to scan old photographs, letters and documents—has grown into one of the most ambitious digital preservation projects in the region. The open-source archive now contains more than 500,000 digitized photographs, identification papers, diaries, maps, films, and letters, many of which were collected directly from Palestinian families and might otherwise have been lost forever. The Palestinian Museum’s mission is both preservation and access: to safeguard Palestinian history and make it available to those unable to visit Palestine. Elise Taylor writes in Vanity Fair about two shows that highlight Paul R. Williams, a pioneering Black architect who left his mark across Los Angeles: “I always like to say you could be born in a hospital designed by Williams, get married in a church designed by Williams, live in a home designed by Williams, go to a school designed by Williams, and then when you die, have your funeral in a Williams design funeral home,” says ­Staci Steinberger, a decorative arts and design curator at LACMA. It’s a CV that would earn anyone a mention in the annals of history. “Paul Williams is one of the most prolific American architects, period. I would set his body of work alongside Frank Gehry and Thom Mayne,” says Milton S. F. Curry, senior associate dean at Cornell University. But when you factor in that Williams was the first licensed Black architect west of the Mississippi? Then he becomes a great, and unsung, figure of history. “He was an African American and doing such amazing work during the time where African Americans weren’t recognized for their brilliance,” Pauletta Washington says. “I felt special living in that house. I felt that he designed it for us.” For Huck , Jack Burke takes a deep dive (get it?) into the six-decade history of the mermaid show at Weeki Wachee Springs, a relic of mid-century Florida: It was tough going at first. In those early days, according to Weeki Wachee lore, the women would sit around listening out for the sound of a car rumbling down Route 19, then dash out in their swimsuits to try and flag the driver down. If they snared so much as a single customer, a full show would be put on. By the 1950s, they no longer had to. Word had got out, and the golden age of the American road trip delivered a steady stream of curious travellers. By the 1960s, Weeki Wachee had become one of America’s biggest tourist attractions. More people visited it than many newly-minted national parks. As many as nine shows a day were put on at its peak. Celebrities started passing through, first Don Knotts, then Elvis – resulting in the predictable scream fest of oestrogenic excitement. The mermaids began travelling, touring the country performing in giant tanks. They appeared on Ed Sullivan. They even represented Florida at world fairs. The New Yorker 's Joshua Rothman asks an age-old ethical question: Should we recline our airplane seats? It's a yes from me. Decide for yourself, dear reader: Is the pursuit of more legroom a red herring? After all, statistics show that people aren’t getting taller, but wider. Unfortunately, widening seats isn’t easy. As the aviation reporter Michael Boyd has pointed out, the tube-shaped nature of planes gives airlines freedom to change pitch, but not width. (A designer can move rows further apart an inch at a time, but can’t broaden the fuselage of the plane.) All of which suggests that your best bet might be to try to fly on planes with slightly wider seats. Boyd identifies the Airbus A220 and A320, along with the Embraer E175 and E190, as models with economy seats that are eighteen and even nineteen inches across. Perhaps, on such aircraft, we can all be a little more relaxed about reclining. This week in conservation, researchers identify a notably adorable new species of monkey in the Concolese rainforest. Yejin Lhee has the story for Science : The Likweli monkey was first caught on camera in 2008, when a research expedition snapped a blurry photo of a black-pelted primate they didn’t recognize. But it wasn’t spotted again by scientists until a decade later, when the Lukuru Wildlife Research Foundation’s TL2 Project, a conservation initiative focusing on the Tshupa, Lomami, and Lualaba river regions, established a field base in the area. When researchers spotted and photographed the monkeys again, they quickly realized they were dealing with an animal they didn’t know about. With racism in Argentina in the news thanks to the World Cup, Tess Garcia shines a light on the Indigenous and Black communities getting ignored in the discourse: @hithisistess Most successful erasure in history #argentina #worldcup2026 ♬ original sound - Tess Garcia Wildlife photographer Thomas Mangelsen to the rescue with National Park Service pass sleeves : @thomas_d_mangelsen Click on “more from this shop” to select the image you like best! Something to cover this year’s pass. Made for our Parks and wildlife. Can be used for licenses, credit cards, permits. Show your support to conservation of our lands. Find them all in my shop. #wildlifephotography #nationalparks #nature #nationalpark #conservation ♬ Take Me Home, Country Roads - Eloise Freud Maybe we are safe from an AI apocalypse after all : @huskistaken Maybe a 4th is needed ♬ original sound - Husk Required Reading is published every Thursday afternoon and comprises a short list of art-related links to long-form articles, videos, blog posts, or photo essays worth a second look ."
+      },
+      "time": {
+        "asserted": "2026-07-18T08:37:53.578Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "culture",
+        "citation": "https://hyperallergic.com/required-reading-793/"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "published",
+      "proposition": {
+        "predicate": "published",
+        "object": "Thu, 16 Jul 2026 20:37:20 GMT"
+      },
+      "time": {
+        "asserted": "2026-07-18T08:37:53.578Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "culture",
+        "citation": "https://hyperallergic.com/required-reading-793/"
+      },
+      "status": "supported"
+    }
+  ]
+}

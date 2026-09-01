@@ -1,0 +1,20 @@
+[Unit]
+Description=Modern Business curriculum signed next-lesson delivery A2A service
+After=network.target
+[Service]
+Type=simple
+WorkingDirectory=/home/emsenn/info/lib/emsenn/services/561-group/services/public-services-section/services/public-social-services-section/services/public-education-services-section/services/business-education-services-section/services/business-education-curriculum-services-section
+ExecStart=/home/emsenn/.config/nvm/versions/node/v24.13.1/bin/node src/serve-delivery-a2a.mjs
+Environment=MODERN_BUSINESS_CURRICULUM_DATA_ROOT=/home/emsenn/info/lib/emsenn/services/561-group/services/public-services-section/services/public-social-services-section/services/public-education-services-section/services/business-education-services-section/services/business-education-curriculum-services-section/data
+Restart=on-failure
+RestartSec=5s
+NoNewPrivileges=true
+PrivateTmp=true
+ProtectSystem=strict
+ProtectHome=read-only
+ReadWritePaths=/home/emsenn/info/lib/emsenn/services/561-group/services/public-services-section/services/public-social-services-section/services/public-education-services-section/services/business-education-services-section/services/business-education-curriculum-services-section/data/a2a/tasks
+ReadOnlyPaths=/home/emsenn/info/lib/emsenn/services/561-group/services/public-services-section/services/public-social-services-section/services/public-education-services-section/services/business-education-services-section/services/business-education-curriculum-services-section/data/credentials
+RestrictAddressFamilies=AF_UNIX AF_INET AF_INET6
+UMask=0077
+[Install]
+WantedBy=default.target

@@ -1,0 +1,69 @@
+{
+  "subject": "can-you-believe-it-best-shots-from-final-round-of-the-open",
+  "claims": [
+    {
+      "id": "title",
+      "proposition": {
+        "predicate": "title",
+        "object": "'Can you believe it?' - Best shots from final round of The Open"
+      },
+      "time": {
+        "asserted": "2026-07-19T20:06:20.506Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "sports",
+        "citation": "https://www.bbc.co.uk/sport/golf/videos/c998r497gkno?at_medium=RSS&at_campaign=rss"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "url",
+      "proposition": {
+        "predicate": "url",
+        "object": "https://www.bbc.co.uk/sport/golf/videos/c998r497gkno?at_medium=RSS&at_campaign=rss"
+      },
+      "time": {
+        "asserted": "2026-07-19T20:06:20.506Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "sports",
+        "citation": "https://www.bbc.co.uk/sport/golf/videos/c998r497gkno?at_medium=RSS&at_campaign=rss"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "summary",
+      "proposition": {
+        "predicate": "summary",
+        "object": "Enjoy the best shots from the final day of the 2026 Open Championship, featuring Tommy Fleetwood, Rory McIlroy and Ryan Fox."
+      },
+      "time": {
+        "asserted": "2026-07-19T20:06:20.506Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "sports",
+        "citation": "https://www.bbc.co.uk/sport/golf/videos/c998r497gkno?at_medium=RSS&at_campaign=rss"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "published",
+      "proposition": {
+        "predicate": "published",
+        "object": "Sun, 19 Jul 2026 18:27:07 GMT"
+      },
+      "time": {
+        "asserted": "2026-07-19T20:06:20.506Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "sports",
+        "citation": "https://www.bbc.co.uk/sport/golf/videos/c998r497gkno?at_medium=RSS&at_campaign=rss"
+      },
+      "status": "supported"
+    }
+  ]
+}

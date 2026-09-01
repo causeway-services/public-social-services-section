@@ -1,0 +1,7 @@
+:PROPERTIES:
+:ID:       3649713d-b482-4a7b-b344-d9d3df42d5e0
+:resource-description: (([[id:edaef069-c68d-46aa-a970-d3cb7fe3165c][resource type]] . [[id:e2e23979-c001-4308-b04c-de03ac461168][region]]) ([[id:5950d59a-8d30-47e6-939c-171327e23b44][creator]] . [[id:40cbaad9-af3c-4573-b356-ae116687e483][emsenn]]) ([[id:86f1d8e9-bb7b-4631-9fde-b208e8d79f2c][resource coverage]] . [[id:7f527251-b5fc-4546-9fc7-8b6af33451e0][Teraum]]))
+:public:   true
+:END:
+#+title: Teraumian region
+#+date: [2025-09-05 Fri 20:49]

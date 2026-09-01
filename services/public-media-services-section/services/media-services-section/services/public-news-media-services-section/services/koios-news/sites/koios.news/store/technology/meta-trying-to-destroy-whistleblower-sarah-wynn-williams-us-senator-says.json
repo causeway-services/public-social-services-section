@@ -1,0 +1,69 @@
+{
+  "subject": "meta-trying-to-destroy-whistleblower-sarah-wynn-williams-us-senator-says",
+  "claims": [
+    {
+      "id": "title",
+      "proposition": {
+        "predicate": "title",
+        "object": "Meta trying to destroy whistleblower Sarah Wynn-Williams, US senator says"
+      },
+      "time": {
+        "asserted": "2026-07-19T14:41:51.389Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "technology",
+        "citation": "https://www.theguardian.com/technology/2026/jul/17/meta-whistleblower-sarah-wynn-williams-us-senator-josh-hawley"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "url",
+      "proposition": {
+        "predicate": "url",
+        "object": "https://www.theguardian.com/technology/2026/jul/17/meta-whistleblower-sarah-wynn-williams-us-senator-josh-hawley"
+      },
+      "time": {
+        "asserted": "2026-07-19T14:41:51.389Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "technology",
+        "citation": "https://www.theguardian.com/technology/2026/jul/17/meta-whistleblower-sarah-wynn-williams-us-senator-josh-hawley"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "summary",
+      "proposition": {
+        "predicate": "summary",
+        "object": "<p>Republican Josh Hawley accuses Mark Zuckerberg’s firm of relentlessly pursuing and attempting to bankrupt her</p><p>A US senator has accused Meta of using lawfare in “efforts to destroy” a whistleblower who made allegations about the social media company’s dealings with China and its treatment of teenagers.</p><p>In a letter to its founder, Mark Zuckerberg, the Republican senator Josh Hawley demanded to know what measures Meta had taken to monitor Sarah Wynn-Williams, Facebook’s former global head of public policy, and her family.</p> <a href=\"https://www.theguardian.com/technology/2026/jul/17/meta-whistleblower-sarah-wynn-williams-us-senator-josh-hawley\">Continue reading...</a>"
+      },
+      "time": {
+        "asserted": "2026-07-19T14:41:51.389Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "technology",
+        "citation": "https://www.theguardian.com/technology/2026/jul/17/meta-whistleblower-sarah-wynn-williams-us-senator-josh-hawley"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "published",
+      "proposition": {
+        "predicate": "published",
+        "object": "Fri, 17 Jul 2026 16:27:32 GMT"
+      },
+      "time": {
+        "asserted": "2026-07-19T14:41:51.389Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "technology",
+        "citation": "https://www.theguardian.com/technology/2026/jul/17/meta-whistleblower-sarah-wynn-williams-us-senator-josh-hawley"
+      },
+      "status": "supported"
+    }
+  ]
+}

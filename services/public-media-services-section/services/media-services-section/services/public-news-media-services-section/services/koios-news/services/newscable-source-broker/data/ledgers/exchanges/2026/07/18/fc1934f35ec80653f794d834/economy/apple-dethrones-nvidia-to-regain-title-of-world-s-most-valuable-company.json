@@ -1,0 +1,69 @@
+{
+  "subject": "apple-dethrones-nvidia-to-regain-title-of-world-s-most-valuable-company",
+  "claims": [
+    {
+      "id": "title",
+      "proposition": {
+        "predicate": "title",
+        "object": "Apple dethrones Nvidia to regain title of world’s most valuable company"
+      },
+      "time": {
+        "asserted": "2026-07-18T07:55:41.153Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "economy",
+        "citation": "https://www.theguardian.com/technology/2026/jul/17/apple-nvidia-most-valuable-company"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "url",
+      "proposition": {
+        "predicate": "url",
+        "object": "https://www.theguardian.com/technology/2026/jul/17/apple-nvidia-most-valuable-company"
+      },
+      "time": {
+        "asserted": "2026-07-18T07:55:41.153Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "economy",
+        "citation": "https://www.theguardian.com/technology/2026/jul/17/apple-nvidia-most-valuable-company"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "summary",
+      "proposition": {
+        "predicate": "summary",
+        "object": "<p>Shift in pecking order illustrates that investors are reassessing outlook for artificial intelligence</p><p>Apple overtook Nvidia on Friday to become the world’s most valuable company, reshuffling the top ranks of tech heavyweights as investors reassess the outlook for artificial intelligence.</p><p>Apple was last valued at $4.88tn as ⁠its shares held steady, while Nvidia ⁠was roughly at $4.86tn, ​after a 3.5% decline.</p> <a href=\"https://www.theguardian.com/technology/2026/jul/17/apple-nvidia-most-valuable-company\">Continue reading...</a>"
+      },
+      "time": {
+        "asserted": "2026-07-18T07:55:41.153Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "economy",
+        "citation": "https://www.theguardian.com/technology/2026/jul/17/apple-nvidia-most-valuable-company"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "published",
+      "proposition": {
+        "predicate": "published",
+        "object": "Fri, 17 Jul 2026 15:01:09 GMT"
+      },
+      "time": {
+        "asserted": "2026-07-18T07:55:41.153Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "economy",
+        "citation": "https://www.theguardian.com/technology/2026/jul/17/apple-nvidia-most-valuable-company"
+      },
+      "status": "supported"
+    }
+  ]
+}

@@ -1,0 +1,44 @@
+{
+  "type": "TTIUnionMediaLocalNeedsRankingConfiguration",
+  "version": 1,
+  "owner": "urn:ame:turntide-islands",
+  "scope": "one Union Media quarter-hour auction horizon",
+  "maximumObservations": 64,
+  "maximumObservationAgeMilliseconds": 900000,
+  "maximumPolicyHorizonMilliseconds": 5400000,
+  "privacyAttestation": "NO-PERSONAL-DISCORD-CONTENT-OR-CREDENTIALS",
+  "storeObservationRule": "Both the exact resource-need observation identity and its business-evidence identity must be independently observed from TTI's settlement store before derivation and again before cycle opening.",
+  "businessImpactClasses": [
+    {
+      "class": "BLOCKS_CONTRACTED_FULFILLMENT",
+      "priority": 4,
+      "requiredEvidenceType": "unfulfilled-customer-obligation",
+      "requiredMarginalEffect": "UNLOCKS-BLOCKED-TTI-ACT"
+    },
+    {
+      "class": "REDUCES_ATTRIBUTABLE_COST",
+      "priority": 3,
+      "requiredEvidenceType": "attributable-cost-baseline",
+      "requiredMarginalEffect": "REDUCES-TTI-COST-OR-RISK"
+    },
+    {
+      "class": "ENABLES_QUALIFIED_DEMAND_EXPERIMENT",
+      "priority": 2,
+      "requiredEvidenceType": "qualified-demand-experiment",
+      "requiredMarginalEffect": "EXPANDS-CURRENT-TTI-ACT"
+    },
+    {
+      "class": "OPTION_VALUE_ONLY",
+      "priority": 1,
+      "requiredEvidenceType": "tti-capability-evidence",
+      "requiredMarginalEffect": "OPTION-VALUE-ONLY"
+    }
+  ],
+  "rankDerivation": "impact priority descending, evidence horizon ascending, observation semantic identity ascending; derived unique constraintRank is priority times 100 plus 64 minus within-class index",
+  "operatorNumericRankAccepted": false,
+  "bidderUtilityAccepted": false,
+  "commonDenomination": null,
+  "transferableUtility": false,
+  "currency": false,
+  "legalEffect": "This configuration admits and freezes TTI-local decision evidence only. It creates no bid, award, transfer, publication, cash revenue, monetary profit, or claim of global resource value."
+}

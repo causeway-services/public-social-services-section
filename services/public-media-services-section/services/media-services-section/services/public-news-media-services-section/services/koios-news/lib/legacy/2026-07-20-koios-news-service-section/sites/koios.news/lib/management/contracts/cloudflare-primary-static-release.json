@@ -1,0 +1,30 @@
+{
+  "kind": "koios.service-contract",
+  "id": "cloudflare-primary-static-release/v1",
+  "customer": "urn:ame:koios-news",
+  "provider": "urn:ame:resource-brokerage-team",
+  "service": "publish one accepted Koios static candidate through the already-authoritative Cloudflare Worker",
+  "precondition": [
+    "Koios supplies an immutable cutover-candidate artifact whose manifest and delivery-policy bytes match the request digests.",
+    "The request binds account 337e54ee6dc7d488933f473204a6d89e, Worker koios-news-primary, route koios.news/*, and origin https://koios.news.",
+    "The Resource Brokerage Team holds an unrevoked standing Leader grant and its own restricted Cloudflare resource carrier.",
+    "Cloudflare already reports that koios.news/* is bound to koios-news-primary."
+  ],
+  "move": "The provider revalidates the candidate, snapshots the current Cloudflare Worker deployment, updates only koios-news-primary's static assets, probes the exact public routes, and restores the prior Cloudflare Worker version if the new deployment fails its probes.",
+  "postcondition": "Koios receives an ActivityStreams release receipt binding the exact candidate, unchanged public route, probes, and Cloudflare-to-Cloudflare rollback state, or a typed refusal. Cold Red Gate never becomes an HTTP origin.",
+  "standingAuthority": {
+    "source": "the Leader's direction that Koios publish autonomously through Cloudflare and that Cold Red Gate carry persistence only",
+    "freshHumanGrantPerEdition": false,
+    "attenuation": "one exact candidate and one existing Worker per invocation"
+  },
+  "excluded": [
+    "DNS mutation",
+    "Worker route mutation",
+    "custom-domain mutation",
+    "VPS public ingress",
+    "VPS origin fallback",
+    "content or editorial mutation",
+    "credential disclosure",
+    "Worker deletion"
+  ]
+}

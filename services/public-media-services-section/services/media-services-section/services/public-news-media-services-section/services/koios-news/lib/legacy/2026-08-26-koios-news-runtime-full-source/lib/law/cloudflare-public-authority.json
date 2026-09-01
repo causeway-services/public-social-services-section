@@ -1,0 +1,43 @@
+{
+  "kind": "koios.delivery-authority-law",
+  "id": "cloudflare-public-authority/v3",
+  "authorities": {
+    "public": "the digest-bound Koios static carrier served by cloudflare-worker:koios-news-primary on koios.news/*",
+    "persistentOperations": "Cold Red Gate may carry clocks, ledgers, corpus state, newsroom execution, and other persistent services, but may not serve koios.news or any Koios public subdomain and is not a public origin, mirror, fallback, or rollback target",
+    "candidate": "a production-shaped immutable body manifest held non-authoritatively until its delivery policy and Cloudflare deployment act are accepted",
+    "rollbackTarget": "the last accepted Cloudflare deployment and route state, never a Cold Red Gate public origin"
+  },
+  "invariants": [
+    "site-admin.config.json advertises no Koios VPS web endpoint",
+    "Cold Red Gate has no Caddy host block for koios.news or a Koios subdomain and no listener on the retired public-site port 18802",
+    "Koios public-site and newsroom web-unit templates remain absent from the carrier",
+    "a publication release changes public authority only through a digest-bound Cloudflare deployment receipt",
+    "persistent services return artifacts and receipts to Koios; they do not become public delivery authority"
+  ],
+  "evidenceBinding": [
+    "Every candidate, grant, deployment receipt, parity result, and rollback act names the exact static manifest digest, delivery-policy digest, Cloudflare account, Worker, hostname, and effect set.",
+    "Candidate body bytes and delivery policy remain distinct witnesses.",
+    "A latest-state reading without those bindings cannot transfer authority."
+  ],
+  "mutableRouteDisposition": {
+    "/healthz": "A bounded Worker may answer artifact and deployment health only after its own grant.",
+    "/hit": "Requires a separately contracted accountable-attention Worker, or an explicit suspension act paired with updated privacy text.",
+    "/views.json": "Requires the same accountable-attention service and public aggregate contract as /hit.",
+    "/newsroom": "Requires a separately admitted private operator carrier; persistence alone never grants a public Koios hostname.",
+    "/cable": "Lives on a separately contracted authenticated ingress boundary.",
+    "/mcp": "Lives on a separately contracted authenticated protocol boundary.",
+    "/operators": "Lives on a separately admitted operator boundary."
+  },
+  "rollbackMove": [
+    "freeze publication and preserve the failed candidate, deployment receipt, and probe evidence",
+    "restore the last accepted Cloudflare Worker version and route state",
+    "purge only the failed candidate deployment cache under the accepted provider capability",
+    "probe root, feeds, sitemaps, privacy, standards, corrections, one live article, and health through public DNS",
+    "append the provider receipt, probes, elapsed time, and final Cloudflare authority to Koios's deployment ledger"
+  ],
+  "limits": [
+    "No credential, preview upload, route mutation, purge, deployment deletion, or rollback is authorized by this law alone.",
+    "Cold Red Gate persistence is not permission to serve public Koios bytes under an apex or subdomain.",
+    "Historical VPS-origin records remain evidence of prior state, not present authority."
+  ]
+}

@@ -1,0 +1,53 @@
+{
+  "subject": "let-s-chat-leveraging-chatbot-outreach-for-improved-course-performance-by-katharine-e-meyer-lindsay-c-page-catherine-mata-eric-smith-brendan-tyler-walsh-candice-l-fifield-michelle-tyson-amy-e-eremionkhale-michael-evans-shelby-frost-eye-eoun-jung",
+  "claims": [
+    {
+      "id": "title",
+      "proposition": {
+        "predicate": "title",
+        "object": "Let’s Chat: Leveraging Chatbot Outreach for Improved Course Performance -- by Katharine E. Meyer, Lindsay C. Page, Catherine Mata, Eric Smith, Brendan Tyler Walsh, Candice L. Fifield, Michelle Tyson, Amy E. Eremionkhale, Michael Evans, Shelby Frost, Eye Eoun Jung"
+      },
+      "time": {
+        "asserted": "2026-07-18T07:51:39.430Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "economy",
+        "citation": "https://www.nber.org/papers/w35397#fromrss"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "url",
+      "proposition": {
+        "predicate": "url",
+        "object": "https://www.nber.org/papers/w35397#fromrss"
+      },
+      "time": {
+        "asserted": "2026-07-18T07:51:39.430Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "economy",
+        "citation": "https://www.nber.org/papers/w35397#fromrss"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "summary",
+      "proposition": {
+        "predicate": "summary",
+        "object": "This study provides pre-registered, experimental evidence on the use of non-generative artificial intelligence (AI) chatbots to support students in large-enrollment undergraduate courses. We find the chatbot messaging increased students’ final grades and engagement with academic supports, such as tutoring. Treatment effects were generally consistent across student demographics, with the exception of treated women in a Microeconomics course, who earned final grades that were seven percentage points higher than women in the control group. This study provides evidence that integrating AI-enabled outreach and communication to students in their college courses can enhance student engagement, learning, and course performance."
+      },
+      "time": {
+        "asserted": "2026-07-18T07:51:39.430Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "economy",
+        "citation": "https://www.nber.org/papers/w35397#fromrss"
+      },
+      "status": "supported"
+    }
+  ]
+}

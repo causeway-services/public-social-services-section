@@ -1,0 +1,69 @@
+{
+  "subject": "uganda-s-peasant-movements-push-back-against-harmful-pesticides-with-agroecology",
+  "claims": [
+    {
+      "id": "title",
+      "proposition": {
+        "predicate": "title",
+        "object": "Uganda’s peasant movements push back against harmful pesticides with agroecology"
+      },
+      "time": {
+        "asserted": "2026-07-18T04:08:26.505Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "degrowth",
+        "citation": "https://www.resilience.org/stories/2026-07-09/ugandas-peasant-movements-push-back-against-harmful-pesticides-with-agroecology/"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "url",
+      "proposition": {
+        "predicate": "url",
+        "object": "https://www.resilience.org/stories/2026-07-09/ugandas-peasant-movements-push-back-against-harmful-pesticides-with-agroecology/"
+      },
+      "time": {
+        "asserted": "2026-07-18T04:08:26.505Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "degrowth",
+        "citation": "https://www.resilience.org/stories/2026-07-09/ugandas-peasant-movements-push-back-against-harmful-pesticides-with-agroecology/"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "summary",
+      "proposition": {
+        "predicate": "summary",
+        "object": "While Europe has banned hazardous pesticides, the same chemicals are exported to African countries such as Uganda, where farmers often apply them with minimal protection and without legal recourse. ESAFF Uganda and its partners are challenging the EU and demanding change."
+      },
+      "time": {
+        "asserted": "2026-07-18T04:08:26.505Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "degrowth",
+        "citation": "https://www.resilience.org/stories/2026-07-09/ugandas-peasant-movements-push-back-against-harmful-pesticides-with-agroecology/"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "published",
+      "proposition": {
+        "predicate": "published",
+        "object": "Thu, 09 Jul 2026 08:00:44 +0000"
+      },
+      "time": {
+        "asserted": "2026-07-18T04:08:26.505Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "degrowth",
+        "citation": "https://www.resilience.org/stories/2026-07-09/ugandas-peasant-movements-push-back-against-harmful-pesticides-with-agroecology/"
+      },
+      "status": "supported"
+    }
+  ]
+}

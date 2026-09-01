@@ -1,0 +1,69 @@
+{
+  "subject": "from-colonial-storage-to-open-access",
+  "claims": [
+    {
+      "id": "title",
+      "proposition": {
+        "predicate": "title",
+        "object": "From colonial storage to open access"
+      },
+      "time": {
+        "asserted": "2026-07-19T14:41:57.848Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "decolonization",
+        "citation": "https://africasacountry.com/2026/07/from-colonial-storage-to-open-access"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "url",
+      "proposition": {
+        "predicate": "url",
+        "object": "https://africasacountry.com/2026/07/from-colonial-storage-to-open-access"
+      },
+      "time": {
+        "asserted": "2026-07-19T14:41:57.848Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "decolonization",
+        "citation": "https://africasacountry.com/2026/07/from-colonial-storage-to-open-access"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "summary",
+      "proposition": {
+        "predicate": "summary",
+        "object": "It’s a cozy Thursday evening in Nairobi, and important conversations are about to begin. I ask my sound engineer, “Are you ready to record?” She signals yes. Deep breath in. Hold the mic close. “Welcome to Hadithi Hangout Chapter. . . . ” This is just one of the many conversations recorded and archived across Africa every single week. But why do we do it? Every single day, African creatives produce live performances, radio shows, DJ mixes, panel discussions, and cultural conversations. But where do these moments go after all is said and done? Our continent has a long tradition of preserving and sharing knowledge through oral literature — songs, proverbs, and legends. During the colonial era, foreign researchers, institutions and labels recorded African musical heritage and took them away. Today, many of these sound recordings remain caged in museums abroad or locked behind academic paywalls, accessible only to researchers and those who can afford them. To access the 14,000 recordings held by the African Music Archive , for example, you still need to travel to Mainz, Germany. Meanwhile, the International Library of African Music (ILAM) , founded in South Africa in 1954 by ethnomusicologist Hugh Tracey, has only recently begun digitizing parts of its vast collection and making them available online. The question remains: who gets to access African cultural memory? Kenyan sound artist KMRU explored this question in his 2023 album Temporary Stored . Blending sound synthesizers, field recordings, and archival recordings from the Royal Museum for Central Africa in Belgium, the project liberates these stolen sounds from the colonial archive. Today, African creatives and organizations are increasingly taking music preservation into their own hands. Empowered with digital technology, recording equipment, and online platforms, they are documenting traditional music, digitizing historical recordings, and creating new archives that are finally accessible to African audiences. Why does accessibility matter? Because preservation without access is still exclusion. Accessible archives help us reclaim culture, challenge colonial interpretations, and ensure African artists are the ones telling their own stories. Here are four music archives in Kenya doing exactly that. Based at The Mall in Westlands, Nairobi, Tamasha Records is one of East Africa’s most important custodians of recorded African music history. The company was established in the early 1990s, after Polygram East Africa exited the region, leaving behind one of the largest recorded music catalogs in East Africa. The collection contains more than 10,000 recordings from artists active between the 1950s and 1980s. Tamasha has spent decades digitizing vinyl and CD recordings by legendary artists such as Franco Luambo, Tabu Ley Rochereau, and Daudi Kabaka. These recordings are now available through streaming and download platforms. For many music listeners, Tamasha’s YouTube channel has become a nostalgic bridge into the world of classic East African music, also known as zilizopendwa . This is music which might have otherwise disappeared into storage rooms and deteriorating master tapes. A similar urgency, if a different approach, shapes Singing Wells. In 2011, cultural practitioners Tabu Osusa of Ketebul Music and Jimmy Allen of the UK’s Abubilla Music bonded over one common concern — traditional East African music was disappearing as older musicians passed away and younger generations gravitated toward global popular culture. So what did they do? They founded the Singing Wells project , got their teams in a van, and traveled across East Africa recording musicians in their own communities rather than bringing them into urban studios. 15 years later, Singing Wells has become the world’s largest open archive of traditional East African music. Its online collection contains hundreds of recordings documenting music and dance traditions from Kenya, Uganda, Tanzania, and Rwanda. Beyond music, Singing Wells also publishes musician biographies, field reports, and instrument documentation on their website, making it an invaluable resource for researchers, educators, and artists alike, who are seeking to reconnect and gain inspiration from their cultural roots. Founded in 2013 by David Tinning and Gregg Tendwa, Santuri East Africa has become a leader in music education, artist development, and cultural innovation. While Tamasha preserves historical recordings and Singing Wells documents traditional music, Santuri archives the present. Through Santuri Salon at The Mall, the community space hosts panel discussions, listening sessions, and artist talks focused on music, culture, and technology. Many of these conversations are recorded and uploaded online, creating a living archive of contemporary East African culture. One such archive is Hadithi Hangout , a monthly reading group exploring Kenya’s political and musical histories. Listeners can revisit conscious conversations on everything from the impact of colonialism on contemporary music to the evolution of Kenyan music across the generations. For future researchers looking to understand East Africa’s creative landscape in the 2020s, these recordings may be just as valuable as historical music collections. The fourth is Calotropis Radio, which flips the model: if traditional archives collect history after it happens, this community radio station records it as it unfolds. Founded in Nairobi and also based at The Mall, Calotropis describes itself as a dealer in sound, music, and poetry. When they are not playing eclectic music selections on their website, they live-stream and archive DJ sets, community conversations, and cultural events. Since 2025, they have partnered with Kilele Summit , Santuri’s annual festival for adventurous music and technology, streaming panel discussions and artist workshops to audiences far beyond Nairobi. Calotropis demonstrates that sometimes archives are built live, one broadcast at a time. These African archives remind us that the power to tell and preserve our own stories is now in our hands. Preserving African culture does not look one way. It can mean digitizing old records, documenting traditional musicians in remote villages, recording community discussions, or live-streaming experimental performances to audiences around the world. What matters is that these stories remain available. Accessible archives allow culture to be studied, remembered, and reimagined. And they help future generations understand who we were, what we created, and what we valued. Ultimately, sometimes, preserving culture begins with something as simple as holding a microphone close and pressing record."
+      },
+      "time": {
+        "asserted": "2026-07-19T14:41:57.848Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "decolonization",
+        "citation": "https://africasacountry.com/2026/07/from-colonial-storage-to-open-access"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "published",
+      "proposition": {
+        "predicate": "published",
+        "object": "2026-07-16T11:02:08.210366Z"
+      },
+      "time": {
+        "asserted": "2026-07-19T14:41:57.848Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "decolonization",
+        "citation": "https://africasacountry.com/2026/07/from-colonial-storage-to-open-access"
+      },
+      "status": "supported"
+    }
+  ]
+}

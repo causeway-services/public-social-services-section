@@ -1,0 +1,69 @@
+{
+  "subject": "ai-job-worries-grow-but-some-human-skills-can-t-be-replaced-by-machines-gaynor-parkin-and-dave-winsborough",
+  "claims": [
+    {
+      "id": "title",
+      "proposition": {
+        "predicate": "title",
+        "object": "AI job worries grow. But some human skills can’t be replaced by machines | Gaynor Parkin and Dave Winsborough"
+      },
+      "time": {
+        "asserted": "2026-07-20T09:48:44.773Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "economy",
+        "citation": "https://www.theguardian.com/commentisfree/2026/jul/20/ai-job-worries-human-skills-machines-cant-replace"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "url",
+      "proposition": {
+        "predicate": "url",
+        "object": "https://www.theguardian.com/commentisfree/2026/jul/20/ai-job-worries-human-skills-machines-cant-replace"
+      },
+      "time": {
+        "asserted": "2026-07-20T09:48:44.773Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "economy",
+        "citation": "https://www.theguardian.com/commentisfree/2026/jul/20/ai-job-worries-human-skills-machines-cant-replace"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "summary",
+      "proposition": {
+        "predicate": "summary",
+        "object": "<p>The fear of becoming obsolete is a rising source of anxiety as artificial intelligence emerges in the workplace. Staying strongly connected with others will help</p><ul><li><p><a href=\"https://www.theguardian.com/commentisfree/series/the-modern-mind\">The modern mind</a> is a column where experts discuss mental health issues they are seeing in their work</p></li></ul><p>Earlier this year Paul* discovered via a flurry of media stories that his business group had been targeted for job cuts, alongside a number of other public-sector agencies. For him, this was the second time, after his technical management role was restructured in 2024. While that process was difficult enough, the comms this time were highlighting the integration of AI as a cost-saving tool. “They say it’s not about firing people, but hey, my whole team will go.”</p><p>For Paul, the timing could not have been worse. He and his partner are expecting a child and recently bought their first house.</p><p>Curiosity: Seek new learning, perspectives and interests, look outside your usual sources for inspiration. You can use AI to widen your perspective and spark ideas but stay engaged with the world beyond the screen.</p><p>Humility: Grow your self-awareness. Reflect on what comes naturally, what energises you and where you get stuck. Then invite honest feedback. AI learns through feedback – you can too. Ask people you trust what to start, stop and keep doing.</p><p>Emotional intelligence: Your ability to connect, show empathy and communicate with care will only become more valuable.</p> <a href=\"https://www.theguardian.com/commentisfree/2026/jul/20/ai-job-worries-human-skills-machines-cant-replace\">Continue reading...</a>"
+      },
+      "time": {
+        "asserted": "2026-07-20T09:48:44.773Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "economy",
+        "citation": "https://www.theguardian.com/commentisfree/2026/jul/20/ai-job-worries-human-skills-machines-cant-replace"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "published",
+      "proposition": {
+        "predicate": "published",
+        "object": "Sun, 19 Jul 2026 15:00:31 GMT"
+      },
+      "time": {
+        "asserted": "2026-07-20T09:48:44.773Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "economy",
+        "citation": "https://www.theguardian.com/commentisfree/2026/jul/20/ai-job-worries-human-skills-machines-cant-replace"
+      },
+      "status": "supported"
+    }
+  ]
+}

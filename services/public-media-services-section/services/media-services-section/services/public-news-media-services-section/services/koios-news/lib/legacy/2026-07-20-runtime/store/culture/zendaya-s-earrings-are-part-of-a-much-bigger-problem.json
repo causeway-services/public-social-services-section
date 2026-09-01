@@ -1,0 +1,69 @@
+{
+  "subject": "zendaya-s-earrings-are-part-of-a-much-bigger-problem",
+  "claims": [
+    {
+      "id": "title",
+      "proposition": {
+        "predicate": "title",
+        "object": "Zendaya’s Earrings Are Part of a Much Bigger Problem"
+      },
+      "time": {
+        "asserted": "2026-07-18T04:08:36.538Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "culture",
+        "citation": "https://hyperallergic.com/zendayas-earrings-are-part-of-a-much-bigger-problem/"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "url",
+      "proposition": {
+        "predicate": "url",
+        "object": "https://hyperallergic.com/zendayas-earrings-are-part-of-a-much-bigger-problem/"
+      },
+      "time": {
+        "asserted": "2026-07-18T04:08:36.538Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "culture",
+        "citation": "https://hyperallergic.com/zendayas-earrings-are-part-of-a-much-bigger-problem/"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "summary",
+      "proposition": {
+        "predicate": "summary",
+        "object": "Zendaya faced backlash for wearing a pair of 3,000-year-old Iranian gold discs at a London photocall for Christopher Nolan's forthcoming adaptation of The Odyssey earlier this month. The discs, mounted in 18-karat gold and diamonds, were recently made into earrings by jeweler Glenn Spiro as part of his Materials of the Old World collection, and subsequently acquired by London jewelry house Barron London, who stated that they are part of the company’s private collection and not for sale. However, they did not belong on the red carpet at all. Described as a “ voracious collector ,” mesmerized by special artifacts “regardless of their provenance,” Spiro said in an interview about the collection, “You can wear something around your neck that dates back thousands of years but is still contemporary and cool.” One online review of Spiro’s collection perfectly captures the performative exoticism driving this kind of repurposing: “... fragments of forgotten empires are not merely displayed but reborn.” The backlash on TikTok and Instagram was immediate and, notably, first came from archaeologists rather than fashion critics. They pointed out that presenting the objects as jewelry, rather than as artifacts in a display case, further facilitated their commodification and exotification. The Forensic Archive of Iran quickly launched a petition requesting transparency around the discs’ provenance. Added to the controversy was Zendaya’s timing, wearing the earrings amid the United States and Israel’s ongoing attacks on Iran, which have resulted in thousands of deaths and widespread destruction to invaluable cultural heritage. Critics situated the controversy within a longer pattern of Western indifference to the ethics of trading, handling and displaying Middle Eastern heritage — what London-based writer Zirrar Ali described as celebrities, particularly in the Western world, being “largely deaf to questions of ethics and history when it comes to the Global South.” But Zendaya's earrings are a viral instance of something the art market does constantly and almost always unquestioned: It takes archaeological, ethnographic, funerary and other cultural objects and physically alters them into jewelry, furniture, and decorative art, selling the transformation itself as added value. The pair of 3,000-year-old Iranian discs turned red-carpet jewelry are emblematic of a market that has spent decades quietly dismantling ancient objects for parts. Roman, Egyptian, Phoenician and Islamic beads are regularly restrung into contemporary necklaces and bracelets. Archaeological textile fragments, detached architectural reliefs , ethnographic carvings, ritual and sacred objects, and other finite cultural resources are routinely reframed as decorative luxury commodities. This type of repurposing, both materially and epistemically, is foundational to the global art market. During this process, whatever archaeological information could still help date or interpret the object is polished off. And unlike restoration, which seeks to stabilize an object to preserve it for future research, repurposing is a one-way process, as the drilling, cutting, mounting, painting, and setting involved cannot be undone. Barron London advertises the earrings as “a pair of Ziwiye gold medallion plaques, circa 1st millennium BC Iran.” This description ties them to the “ Ziwiye treasure,” a hoard of gold, silver, and ivory objects reputedly discovered by local villagers in northwestern Iran (Kurdistan) in 1947. The site was looted before archaeological excavation could take place. Though objects attributed to the Ziwiye find are currently part of many museum collections , some scholars have questioned how much of what circulates belongs to a single find, because the artifacts are strikingly varied and virtually all appeared on the market through antiquities dealers rather than documented excavation, leaving their provenance untraceable. When the transformation is marketed as craftsmanship and artistry, the object emerges with a biography that begins with the person who reworked it, obscuring more difficult questions about where its materials actually came from . Prominent names in the art market have been accused of benefiting from this practice. The Barakat Gallery, for example , a multigenerational antiquities dealership with locations in London and Los Angeles, sells a series of “Painted African Sculptures” that are said to \"bridge the gap between old and new, traditional and abstract.\" The collection features 19th- and early 20th-century carved figures attributed to the Songye, Luba, and Metoko peoples of Central Africa, which dealer-turned-artist Fayez Barakat has personally painted over. These ethnographic objects, with their ritual functions and community histories repurposed for Barakat’s artistic expression, are sold at prices reportedly running into six figures. ( Hyperallergic contacted Barakat Gallery for comment.) Barakat Gallery’s history with contested material predates this particular collection. In 2005, the Islamic Republic of Iran sued the London-based antiquities dealership in the UK High Court over a group of objects it argued had been looted from Jiroft, a Bronze Age site in southeastern Iran discovered in 2001 and subject to intense looting almost immediately afterward. The Court of Appeal ultimately upheld Iran’s title under its patrimony law, a decision still cited in cultural property law as a landmark for source countries reclaiming looted objects, even when they entered the market through ostensibly \"good faith” purchases. Painting over a Songye figure or resetting Ziwiye plaques in diamonds not only recommodifies decontextualized and potentially looted cultural objects, but it also makes provenance research much harder to do. The art market’s preferred framing for all of this is conservation, or at a minimum, benign appreciation. Ancient objects, otherwise destined for storage, obscurity, or destruction, are being “saved” by the market and given new relevance through aesthetic use, the discourse goes. Such repurposing launders the problematic, harmful histories that surround the objects: something looted or unethically sourced could become a valued design object. The uncertain first centuries of its biography get compressed into a single word, \"ancient,\" that functions in these object descriptions as a credential rather than a red flag. Zendaya's earrings — briefly, accidentally — turned the spotlight onto a common market practice. Hopefully this scrutiny outlasts the Odyssey premiere."
+      },
+      "time": {
+        "asserted": "2026-07-18T04:08:36.538Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "culture",
+        "citation": "https://hyperallergic.com/zendayas-earrings-are-part-of-a-much-bigger-problem/"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "published",
+      "proposition": {
+        "predicate": "published",
+        "object": "Fri, 17 Jul 2026 17:59:14 GMT"
+      },
+      "time": {
+        "asserted": "2026-07-18T04:08:36.538Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "culture",
+        "citation": "https://hyperallergic.com/zendayas-earrings-are-part-of-a-much-bigger-problem/"
+      },
+      "status": "supported"
+    }
+  ]
+}

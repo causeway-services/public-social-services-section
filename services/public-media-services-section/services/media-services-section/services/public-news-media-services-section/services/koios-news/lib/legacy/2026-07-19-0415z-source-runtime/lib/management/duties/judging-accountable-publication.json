@@ -1,0 +1,9 @@
+{
+  "kind": "koios.duty",
+  "id": "judging-accountable-publication",
+  "office": "editor-in-chief",
+  "precondition": "One exact manuscript, its deterministic standards reading, source and claim records, production provenance, and any prior failure evidence are available.",
+  "move": "Procure independent judgment from an accepted provider under a provider-validated bounded tool schema, preserve its prose report, and let deterministic Koios code invoke exactly one selected editorial tool. Free-form prose labels never create publication authority.",
+  "postcondition": "The exact manuscript has an append-only accepted, revise, or refuse judgment carrying the validated tool-selection digest; publication is possible only when submit_editorial_acceptance was selected for deterministically clear bytes.",
+  "refusals": ["missing source custody", "missing provider offer", "provider result not accepted", "manuscript digest changed", "standards gate failed"]
+}

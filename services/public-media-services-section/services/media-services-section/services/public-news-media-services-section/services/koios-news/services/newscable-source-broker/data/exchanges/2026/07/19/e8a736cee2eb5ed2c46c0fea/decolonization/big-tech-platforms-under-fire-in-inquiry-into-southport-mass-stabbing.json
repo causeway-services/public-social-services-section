@@ -1,0 +1,69 @@
+{
+  "subject": "big-tech-platforms-under-fire-in-inquiry-into-southport-mass-stabbing",
+  "claims": [
+    {
+      "id": "title",
+      "proposition": {
+        "predicate": "title",
+        "object": "Big Tech platforms under fire in inquiry into Southport mass stabbing"
+      },
+      "time": {
+        "asserted": "2026-07-19T14:41:57.848Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "decolonization",
+        "citation": "https://www.opendemocracy.net/en/southport-murders-amazon-x-big-tech-criticised-age-verification-content-moderation/"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "url",
+      "proposition": {
+        "predicate": "url",
+        "object": "https://www.opendemocracy.net/en/southport-murders-amazon-x-big-tech-criticised-age-verification-content-moderation/"
+      },
+      "time": {
+        "asserted": "2026-07-19T14:41:57.848Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "decolonization",
+        "citation": "https://www.opendemocracy.net/en/southport-murders-amazon-x-big-tech-criticised-age-verification-content-moderation/"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "summary",
+      "proposition": {
+        "predicate": "summary",
+        "object": "In July 2024, a 17-year-old stabbed 13 people, killing three girls, in a dance studio in Southport, in the north-west of England. Fueled by misinformation about the incident in the aftermath, rioters clashed with police and attacked a local mosque. Anti-immigration protests and riots spread across the UK in the days that followed. On Monday, the UK government released the first phase of its inquiry report examining the event. While the report says that the “perpetrator’s responsibility is absolute” – he pled guilty and was sentenced to life imprisonment – it considers a range of other factors and failings that surrounded the event and its aftermath. That includes the role of the internet and tech platforms, including, in particular, X and Amazon. Social media and online content"
+      },
+      "time": {
+        "asserted": "2026-07-19T14:41:57.848Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "decolonization",
+        "citation": "https://www.opendemocracy.net/en/southport-murders-amazon-x-big-tech-criticised-age-verification-content-moderation/"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "published",
+      "proposition": {
+        "predicate": "published",
+        "object": "Fri, 17 Apr 2026 16:01:00 GMT"
+      },
+      "time": {
+        "asserted": "2026-07-19T14:41:57.848Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "decolonization",
+        "citation": "https://www.opendemocracy.net/en/southport-murders-amazon-x-big-tech-criticised-age-verification-content-moderation/"
+      },
+      "status": "supported"
+    }
+  ]
+}

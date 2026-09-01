@@ -1,0 +1,69 @@
+{
+  "subject": "europe-s-chip-ambitions-won-t-break-dependence-on-us-cloud-and-software-says-forrester",
+  "claims": [
+    {
+      "id": "title",
+      "proposition": {
+        "predicate": "title",
+        "object": "Europe's chip ambitions won't break dependence on US cloud and software, says Forrester"
+      },
+      "time": {
+        "asserted": "2026-07-18T08:15:56.087Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "technology",
+        "citation": "https://www.theregister.com/paas-and-iaas/2026/07/17/europes-chip-ambitions-wont-break-dependence-on-us-cloud-and-software-says-forrester/5274086"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "url",
+      "proposition": {
+        "predicate": "url",
+        "object": "https://www.theregister.com/paas-and-iaas/2026/07/17/europes-chip-ambitions-wont-break-dependence-on-us-cloud-and-software-says-forrester/5274086"
+      },
+      "time": {
+        "asserted": "2026-07-18T08:15:56.087Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "technology",
+        "citation": "https://www.theregister.com/paas-and-iaas/2026/07/17/europes-chip-ambitions-wont-break-dependence-on-us-cloud-and-software-says-forrester/5274086"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "summary",
+      "proposition": {
+        "predicate": "summary",
+        "object": "Europe can build more chip fabs, subsidize domestic manufacturing, and wrap it all in the language of sovereignty, but it still won't escape its dependence on American cloud providers and software anytime soon, according to Forrester. In its first Global Sovereignty Forecast, the analyst concludes that the race for technological independence has already produced two clear winners: China and the United States. Everyone else, Europe included, is left figuring out which dependencies it can live with. Forrester's Tech Sovereignty Index measures countries across areas such as AI investment, cloud infrastructure, semiconductors, software, datacenter capacity, and technical talent. Its forecast puts China and the US far ahead, with overall tech sovereignty scores of 82 percent and 79 percent respectively. Europe's biggest economies, by comparison, barely move between now and 2030: Germany and Spain rise from 34 percent to 36 percent, France from 33 percent to 35 percent, the UK from 30 percent to 32 percent, and Italy from 27 percent to 29 percent. Semiconductors offer one of the few signs of real progress. Governments are spending heavily on domestic production, and Forrester expects chip manufacturing scores to rise sharply in several countries by 2030. The catch is that more fabs do not amount to technological independence. Europe still designs only about 1 percent of the world's chips and has no homegrown equivalent to Nvidia or Qualcomm, Forrester says. Its wider stack is just as dependent: AWS, Microsoft Azure, and Google Cloud account for roughly 65 percent of the European cloud market, while high energy costs and planning constraints continue to slow datacenter expansion. The European Chips Act is unlikely to close that gap. Brussels wants the bloc to produce a fifth of the world's semiconductors by 2030, but Forrester expects Europe to reach just 11.3 percent as other regions expand at the same time. Forrester is also unconvinced by the hyperscalers' \"sovereign cloud\" pitch. AWS, Microsoft, and Google have rolled out European cloud offerings with separate governance and operational controls, but the report argues they remain subsidiaries of US companies. The datacenters may sit in Europe, but ultimate ownership does not. Rather than chasing complete self-sufficiency, Forrester says most countries should accept that some dependence is unavoidable and focus instead on managing it through alliances, open technologies, and selective investment. \"Ongoing geopolitical volatility, AI competition, and semiconductor supply chain risks have put tech sovereignty firmly in the spotlight,\" said Dario Maisto, principal analyst at Forrester. \"Today, tech sovereignty is concentrated in the hands of a few global leaders, creating an uneven competitive advantage for some countries. To compete in the AI era, nations must understand their strategic dependencies and build durable partnerships that safeguard their data, infrastructure, and long-term autonomy.\" It's hardly the rallying cry sovereignty advocates were hoping for. Europe may eventually produce more chips, but the harder part will be building an entire technology stack that doesn't ultimately answer to someone else's headquarters. ®"
+      },
+      "time": {
+        "asserted": "2026-07-18T08:15:56.087Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "technology",
+        "citation": "https://www.theregister.com/paas-and-iaas/2026/07/17/europes-chip-ambitions-wont-break-dependence-on-us-cloud-and-software-says-forrester/5274086"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "published",
+      "proposition": {
+        "predicate": "published",
+        "object": "Fri, 17 Jul 2026 12:45:00 +0200"
+      },
+      "time": {
+        "asserted": "2026-07-18T08:15:56.087Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "technology",
+        "citation": "https://www.theregister.com/paas-and-iaas/2026/07/17/europes-chip-ambitions-wont-break-dependence-on-us-cloud-and-software-says-forrester/5274086"
+      },
+      "status": "supported"
+    }
+  ]
+}

@@ -1,0 +1,69 @@
+{
+  "subject": "freddy-cannon-rocker-whose-late-50s-and-early-60s-hits-included-palisades-park-and-tallahassee-lassie-dies-at-89",
+  "claims": [
+    {
+      "id": "title",
+      "proposition": {
+        "predicate": "title",
+        "object": "Freddy Cannon, Rocker Whose Late ’50s and Early ’60s Hits Included ‘Palisades Park’ and ‘Tallahassee Lassie,’ Dies at 89"
+      },
+      "time": {
+        "asserted": "2026-07-19T15:04:21.677Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "culture",
+        "citation": "https://variety.com/2026/music/obituaries-people-news/freddy-cannon-dead-palisades-park-rocker-1236815495/"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "url",
+      "proposition": {
+        "predicate": "url",
+        "object": "https://variety.com/2026/music/obituaries-people-news/freddy-cannon-dead-palisades-park-rocker-1236815495/"
+      },
+      "time": {
+        "asserted": "2026-07-19T15:04:21.677Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "culture",
+        "citation": "https://variety.com/2026/music/obituaries-people-news/freddy-cannon-dead-palisades-park-rocker-1236815495/"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "summary",
+      "proposition": {
+        "predicate": "summary",
+        "object": "Freddy Cannon, a veteran of the early rock scene whose hits of the late ’50s and early ’60s included the top 10 hits “Palisades Park,” “Tallahassee Lassie” and “Way Down Yonder in New Orleans,” died Friday at 89. A representative said Cannon, who lived in Oxnard, California, died at a hospice facility after very recently […]"
+      },
+      "time": {
+        "asserted": "2026-07-19T15:04:21.677Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "culture",
+        "citation": "https://variety.com/2026/music/obituaries-people-news/freddy-cannon-dead-palisades-park-rocker-1236815495/"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "published",
+      "proposition": {
+        "predicate": "published",
+        "object": "Sat, 18 Jul 2026 19:29:54 +0000"
+      },
+      "time": {
+        "asserted": "2026-07-19T15:04:21.677Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "culture",
+        "citation": "https://variety.com/2026/music/obituaries-people-news/freddy-cannon-dead-palisades-park-rocker-1236815495/"
+      },
+      "status": "supported"
+    }
+  ]
+}

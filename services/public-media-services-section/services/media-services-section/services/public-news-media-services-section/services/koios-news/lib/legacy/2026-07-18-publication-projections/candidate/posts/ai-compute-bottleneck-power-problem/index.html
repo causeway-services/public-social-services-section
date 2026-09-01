@@ -1,0 +1,480 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>The AI Compute Bottleneck Is Becoming a Power Problem — Koios.News</title>
+    <meta name="description" content="The AI compute bottleneck is no longer only a chip or model problem. New claims from Subquadratic and Tensordyne point toward efficiency pressure, while data-center flexibility and orbital-compute proposals show the same constraint moving into power, cooling, capital, and public infrastructure." />
+    <meta name="author" content="Nik Koios" />
+    <meta name="generator" content="@emsenn/web-theming theme=koios" />
+    <link rel="canonical" href="https://koios.news/posts/ai-compute-bottleneck-power-problem" />
+    <style>:root {
+  --ink: #121212;
+  --ink-soft: #6a655c;
+  --surface: #f4f1e8;
+  --surface-deep: #ece7d8;
+  --surface-edge: #cfc8b6;
+  --rule: #121212;
+  --tint: rgba(18,18,18,0.05);
+  --accent: #d11a1a;
+  --sans: "Archivo", system-ui, -apple-system, "Segoe UI", sans-serif;
+  --serif: Georgia, "Times New Roman", serif;
+  --measure: 40rem;
+  --radius: 0;
+}
+@media (prefers-color-scheme: dark) {
+:root {
+  --ink: #ece8de;
+  --ink-soft: #9a958a;
+  --surface: #141310;
+  --surface-deep: #1c1a16;
+  --surface-edge: #3a352c;
+  --rule: #ece8de;
+  --tint: rgba(236,232,222,0.06);
+  --accent: #ff5a42;
+  --sans: "Archivo", system-ui, -apple-system, "Segoe UI", sans-serif;
+  --serif: Georgia, "Times New Roman", serif;
+  --measure: 40rem;
+  --radius: 0;
+}
+}
+[data-theme="light"] {
+  --ink: #121212;
+  --ink-soft: #6a655c;
+  --surface: #f4f1e8;
+  --surface-deep: #ece7d8;
+  --surface-edge: #cfc8b6;
+  --rule: #121212;
+  --tint: rgba(18,18,18,0.05);
+  --accent: #d11a1a;
+  --sans: "Archivo", system-ui, -apple-system, "Segoe UI", sans-serif;
+  --serif: Georgia, "Times New Roman", serif;
+  --measure: 40rem;
+  --radius: 0;
+}
+[data-theme="dark"] {
+  --ink: #ece8de;
+  --ink-soft: #9a958a;
+  --surface: #141310;
+  --surface-deep: #1c1a16;
+  --surface-edge: #3a352c;
+  --rule: #ece8de;
+  --tint: rgba(236,232,222,0.06);
+  --accent: #ff5a42;
+  --sans: "Archivo", system-ui, -apple-system, "Segoe UI", sans-serif;
+  --serif: Georgia, "Times New Roman", serif;
+  --measure: 40rem;
+  --radius: 0;
+}
+
+*,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+html{color-scheme:light dark;-webkit-text-size-adjust:100%;text-rendering:optimizeLegibility;-webkit-font-smoothing:antialiased}
+body{background:var(--surface);color:var(--ink);line-height:1.55;overflow-wrap:break-word;hyphens:auto}
+img{max-width:100%;height:auto;display:block}
+a{color:var(--accent)}
+a:visited{color:var(--visited,var(--accent))}
+::selection{background:var(--selection,var(--accent));color:var(--surface)}
+
+/* Headings — type as mass: display face, tight, load-bearing. */
+h1,h2,h3,h4,h5,h6{font-family:var(--sans);font-weight:700;line-height:1.1;letter-spacing:-.02em;text-wrap:balance;overflow-wrap:break-word}
+h1{font-size:clamp(1.9rem,5vw,2.8rem);margin:0 0 .5rem}
+h2{font-size:clamp(1.35rem,3vw,1.8rem);margin:2rem 0 .6rem;padding-top:.6rem;border-top:1px solid var(--rule)}
+h3{font-size:1.2rem;margin:1.5rem 0 .4rem}
+h4{font-size:1rem;margin:1.2rem 0 .3rem}
+p{text-wrap:pretty}
+
+/* Prose — the default styled content block. */
+.prose{font-family:var(--serif);font-size:1.0625rem;line-height:1.6;max-width:var(--measure,42rem)}
+.prose>*+*{margin-top:1.1rem}
+.prose a{color:var(--accent);text-underline-offset:2px}
+.prose strong{font-weight:700}
+.prose em{font-style:italic}
+.prose ul,.prose ol{padding-left:1.4rem}
+.prose li+li{margin-top:.3rem}
+.prose hr{border:0;border-top:2px solid var(--rule);margin:2rem 0}
+
+/* Lede — opening paragraph. */
+.lede{font-family:var(--serif);font-size:clamp(1.1rem,1.6vw,1.3rem);line-height:1.45;color:var(--ink)}
+
+/* Figures. */
+figure{margin:1.6rem 0}
+figcaption{font-family:var(--mono);font-size:.78rem;color:var(--ink-soft);margin-top:.4rem}
+
+/* Code. */
+code{font-family:var(--mono);font-size:.88em;background:var(--surface-deep);padding:.1em .35em;border-radius:var(--radius,.25rem)}
+pre{font-family:var(--mono);font-size:.85rem;background:var(--surface-deep);border:1px solid var(--surface-edge);padding:1rem;overflow-x:auto;border-radius:var(--radius,.25rem)}
+pre code{background:none;padding:0}
+
+/* Blockquote + callout. */
+blockquote{margin:1.4rem 0;padding:.5rem 0 .5rem 1.2rem;border-left:3px solid var(--accent);font-style:italic;color:var(--ink-soft)}
+.callout{background:var(--tint,var(--surface-deep));border-left:3px solid var(--accent);padding:.9rem 1.1rem;margin:1.4rem 0}
+
+/* Held contradiction — the display state mainstream theming kits structurally
+   lack, because none sit on a paraconsistent substrate. A cell our logic holds
+   as both-witnessed-and-obstructed is SHOWN, never silently resolved (Cubist
+   anti-closure: sustain the reading rather than collapse it). Anti-closure with
+   rails: it is always visible (Tuftean integrity — contradiction is never
+   hidden) yet restrained by default (Brutalist salience scarcity — not every
+   mark shouts). [data-mode=audit] amplifies it into a salient block; calm mode
+   keeps it a quiet underline. Themeable via --alarm; no new token names. */
+[data-contested=true]{text-decoration:underline dotted var(--alarm,#c33);text-decoration-thickness:2px;text-underline-offset:2px;cursor:help}
+[data-mode=calm] [data-contested=true]{text-decoration-style:dotted}
+[data-mode=audit] [data-contested=true]{background:color-mix(in oklab,var(--alarm,#c33) 12%,transparent);outline:1px solid var(--alarm,#c33);padding:0 .15em;border-radius:var(--radius,0)}
+.contested-strip{font-family:var(--mono);font-size:.8rem;color:var(--alarm,#c33);background:color-mix(in oklab,var(--alarm,#c33) 8%,transparent);border:1px solid var(--alarm,#c33);padding:.5rem .7rem;margin:.6rem 0;border-radius:var(--radius,0);white-space:pre-line}
+/* Honest absence — a gap is rendered, not left blank (Tuftean integrity). */
+.gap,[data-gap=true]{font-family:var(--mono);font-size:.85em;font-style:italic;color:var(--ink-soft)}
+
+/* Card grid + cards. */
+.card-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(15rem,1fr));gap:1rem;margin:1.4rem 0}
+.card{background:var(--surface-deep);border:1px solid var(--surface-edge);padding:1.1rem 1.2rem;border-radius:var(--radius,0)}
+a.card{display:block;text-decoration:none;color:inherit;transition:border-color .12s}
+a.card:hover{border-color:var(--accent)}
+.card__title{font-family:var(--sans);font-weight:700;font-size:1.15rem;letter-spacing:-.02em}
+.card__meta{font-family:var(--mono);font-size:.72rem;text-transform:uppercase;letter-spacing:.08em;color:var(--ink-soft)}
+
+/* Feed / list of entries (h-feed). */
+.h-feed,.feed{list-style:none;padding:0;margin:0}
+.h-feed>li,.feed>li{padding:1rem 0;border-bottom:1px solid var(--rule)}
+.feed__title{font-family:var(--sans);font-weight:700;font-size:1.2rem}
+.feed__sum{color:var(--ink-soft);margin-top:.3rem;max-width:60ch}
+
+/* Breadcrumbs. */
+.breadcrumbs{font-family:var(--mono);font-size:.72rem;letter-spacing:.04em;color:var(--ink-soft);margin-bottom:.6rem}
+.breadcrumbs a{color:var(--ink-soft)}
+.breadcrumb-sep{margin:0 .35em;color:var(--surface-edge)}
+
+/* Table of contents. */
+.toc{border:1px solid var(--surface-edge);background:var(--surface-deep);padding:.8rem 1rem;margin:1.4rem 0}
+.toc summary{font-family:var(--mono);font-size:.74rem;text-transform:uppercase;letter-spacing:.1em;color:var(--ink-soft);cursor:pointer}
+.toc ul{list-style:none;padding-left:1rem;margin:.4rem 0 0}
+.toc a{font-family:var(--mono);font-size:.82rem;color:var(--ink-soft)}
+.toc a:hover{color:var(--ink)}
+
+/* Tags. */
+.tags{display:flex;flex-wrap:wrap;gap:.35rem;margin:1rem 0}
+.tag,.tags a,.p-category{display:inline-block;font-family:var(--mono);font-size:.72rem;text-transform:uppercase;letter-spacing:.06em;text-decoration:none;border:1px solid var(--surface-edge);padding:.15em .5em;color:var(--ink-soft)}
+.tag:hover,.tags a:hover,a.p-category:hover{background:var(--ink);color:var(--surface)}
+
+/* Tables. */
+table{border-collapse:collapse;width:100%;margin:1.4rem 0;font-size:.95em}
+th,td{padding:.4em .7em;border:1px solid var(--rule);text-align:left}
+thead th{font-family:var(--mono);font-size:.78rem;text-transform:uppercase;letter-spacing:.06em;background:var(--surface-deep)}
+
+/* Pagination. */
+.pagination{display:flex;gap:1rem;justify-content:space-between;font-family:var(--mono);font-size:.8rem;margin:2rem 0;padding-top:1rem;border-top:1px solid var(--rule)}
+
+/* Forms. */
+input,button,textarea,select{font-family:var(--sans);font-size:.9rem;color:var(--ink);background:var(--surface);border:1.5px solid var(--surface-edge);padding:.4rem .6rem;border-radius:var(--radius,0)}
+button{font-weight:700;cursor:pointer}
+button:hover{background:var(--ink);color:var(--surface)}
+
+/* Accessibility. */
+.skip-to-content{position:absolute;left:-9999px}
+.skip-to-content:focus{position:static}
+
+
+
+/* === BASE === */
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+html { color-scheme: light dark; -webkit-text-size-adjust: 100%; }
+body {
+  background: var(--surface); color: var(--ink);
+  font-family: var(--serif); font-size: 1.0625rem; line-height: 1.55;
+  -webkit-font-smoothing: antialiased; text-rendering: optimizeLegibility;
+  overflow-wrap: break-word; hyphens: auto;
+  max-width: 66rem; margin: 0 auto; padding: 0 1.5rem;
+}
+img { max-width: 100%; height: auto; display: block; }
+a { color: inherit; }
+h1, h2, h3, h4 { font-family: var(--sans); font-weight: 800; line-height: 1.05; letter-spacing: -.02em;
+  text-wrap: balance; overflow-wrap: break-word; }
+p { text-wrap: pretty; }
+::selection { background: var(--accent); color: var(--surface); }
+
+/* === MASTHEAD === */
+header[role=banner] { border-bottom: 5px solid var(--rule); padding-top: 1.5rem; margin-bottom: 2rem; }
+.site-title { font-family: var(--sans); font-weight: 900; font-size: clamp(2rem, 8vw, 3.5rem);
+  text-transform: uppercase; letter-spacing: -.03em; line-height: .9; color: var(--ink); text-decoration: none; display: inline-block; }
+.site-title:hover { color: var(--accent); }
+.site-tagline { display: block; font-family: var(--sans); font-size: .78rem; font-weight: 600;
+  text-transform: uppercase; letter-spacing: .14em; color: var(--accent); margin-top: .5rem; }
+header[role=banner] nav { display: flex; flex-wrap: wrap; gap: 1.4rem; margin-top: 1.1rem; padding: .6rem 0;
+  border-top: 2px solid var(--rule); font-family: var(--sans); font-size: .8rem; font-weight: 700;
+  text-transform: uppercase; letter-spacing: .05em; }
+header[role=banner] nav a { text-decoration: none; color: var(--ink); }
+header[role=banner] nav a:hover { color: var(--accent); }
+
+/* === HOME: the story list === */
+.stories { display: grid; grid-template-columns: 1fr; }
+@media (min-width: 46rem) {
+  .stories { grid-template-columns: 1fr 1fr; column-gap: 2.5rem; }
+  .story--lead { grid-column: 1 / -1; }
+}
+.story { min-width: 0; padding: 1.4rem 0; border-bottom: 1px solid var(--rule); }
+.story__image { display: block; margin-bottom: .8rem; border: 3px solid var(--rule); background: var(--surface-deep); }
+.story__image img { width: 100%; aspect-ratio: 16 / 9; object-fit: cover; border: 0; margin: 0; }
+.story__kicker { display: inline-block; font-family: var(--sans); font-size: .7rem; font-weight: 700;
+  text-transform: uppercase; letter-spacing: .1em; color: var(--accent); margin-bottom: .45rem; }
+.story__head { font-size: 1.45rem; margin-bottom: .4rem; }
+.story__head a { text-decoration: none; color: var(--ink); }
+.story__head a:hover { color: var(--accent); }
+.story__sum { color: var(--ink); margin-bottom: .5rem; max-width: 60ch; }
+.story__meta { font-family: var(--sans); font-size: .72rem; font-weight: 600; text-transform: uppercase;
+  letter-spacing: .06em; color: var(--ink-soft); }
+.story--lead { border-bottom-width: 5px; padding-bottom: 1.8rem; }
+.story--lead .story__head { font-size: clamp(1.9rem, 5vw, 2.9rem); line-height: 1.0; }
+.story--lead .story__sum { font-size: 1.15rem; line-height: 1.45; }
+.story--lead .story__image { border-width: 5px; margin-bottom: 1rem; }
+
+/* === ARTICLE === */
+article.h-entry { max-width: var(--measure); margin: 0 auto; }
+article.h-entry > .p-name { font-size: clamp(1.8rem, 5vw, 2.7rem); line-height: 1.02; letter-spacing: -.02em; margin-bottom: .7rem; }
+article.h-entry > a.u-uid { display: none; }
+article.h-entry > .dt-published, article.h-entry > .p-author {
+  font-family: var(--sans); font-size: .74rem; font-weight: 600; text-transform: uppercase; letter-spacing: .05em;
+  color: var(--ink-soft); margin-right: 1.1rem; }
+article.h-entry > .p-author { color: var(--accent); font-weight: 700; }
+article.h-entry > .p-summary { font-size: 1.15rem; line-height: 1.45; color: var(--ink);
+  padding: .6rem 0 1rem; margin-bottom: 1.6rem; border-bottom: 2px solid var(--rule); }
+.e-content { font-size: 1.15rem; line-height: 1.65; }
+.e-content > * + *, .e-content article > * + * { margin-top: 1.1rem; }
+.e-content h2 { font-family: var(--sans); font-weight: 800; font-size: 1.4rem; text-transform: uppercase;
+  letter-spacing: -.01em; margin-top: 2.2rem; padding-top: .8rem; border-top: 2px solid var(--rule); }
+.e-content h3 { font-family: var(--sans); font-weight: 800; font-size: 1.15rem; margin-top: 1.6rem; }
+.e-content a { color: var(--accent); text-decoration: underline; text-underline-offset: 2px; }
+.e-content strong { font-weight: 700; }
+.e-content blockquote { border-left: 5px solid var(--accent); padding: .3rem 0 .3rem 1.2rem; margin: 1.6rem 0;
+  font-style: italic; }
+.e-content ul, .e-content ol { padding-left: 1.4rem; }
+.e-content li + li { margin-top: .4rem; }
+.e-content img { border: 1px solid var(--rule); margin: 1.6rem 0; }
+.e-content pre { overflow-x: auto; border: 1px solid var(--rule); padding: 1rem; font-size: .9rem; }
+.citation { font-family: var(--sans); font-size: .72em; font-weight: 800; text-decoration: none; color: var(--accent); vertical-align: super; }
+.citation--missing { color: var(--ink-soft); vertical-align: baseline; }
+.bibliography { margin-top: 2rem; padding-top: 1rem; border-top: 5px solid var(--rule); }
+.bibliography h2 { font-size: 1.2rem; text-transform: uppercase; }
+.bibliography ol { margin-top: .8rem; padding-left: 1.4rem; }
+.bibliography li { padding: .35rem 0; font-size: .95rem; }
+.bibliography cite { font-style: normal; font-weight: 700; }
+.reference__domain, .reference__kind { font-family: var(--sans); font-size: .72rem; font-weight: 700; text-transform: uppercase; color: var(--ink-soft); }
+
+/* === TAGS === */
+.tags { max-width: var(--measure); margin: 1.8rem auto 0; }
+.tags a, .p-category { display: inline-block; font-family: var(--sans); font-size: .7rem; font-weight: 600; text-transform: uppercase;
+  letter-spacing: .06em; text-decoration: none; border: 1.5px solid var(--rule); padding: .2rem .5rem; margin: 0 .35rem .35rem 0; color: var(--ink); }
+.tags a:hover, a.p-category:hover { background: var(--ink); color: var(--surface); }
+
+/* === LIST / TAXONOMY PAGES === */
+main > h1 { font-family: var(--sans); font-weight: 900; font-size: clamp(1.8rem, 5vw, 2.6rem);
+  text-transform: uppercase; letter-spacing: -.02em; margin-bottom: 1.2rem; }
+ul.pages { list-style: none; }
+ul.pages li { padding: .9rem 0; border-bottom: 1px solid var(--rule); }
+ul.pages li a { font-family: var(--sans); font-weight: 800; font-size: 1.2rem; text-decoration: none; color: var(--ink); }
+ul.pages li a:hover { color: var(--accent); }
+.section-index { margin-top: 1.4rem; border-top: 5px solid var(--rule); }
+.section-summary { padding: 1.1rem 0; border-bottom: 1px solid var(--rule); }
+.section-summary h2 { font-size: 1.35rem; text-transform: uppercase; }
+.section-summary a { text-decoration: none; color: var(--ink); }
+.section-summary a:hover { color: var(--accent); }
+.section-summary p { margin-top: .25rem; font-family: var(--sans); font-size: .75rem; font-weight: 700; text-transform: uppercase; color: var(--ink-soft); }
+.section-summary__dek, .tag-summary__dek { max-width: 58rem; font-family: var(--serif) !important; font-size: .98rem !important; font-weight: 400 !important; line-height: 1.45; text-transform: none !important; color: var(--ink) !important; }
+.tag-index { margin-top: 1.4rem; border-top: 5px solid var(--rule); }
+.tag-summary { padding: 1.1rem 0; border-bottom: 1px solid var(--rule); }
+.tag-summary h2 { font-size: 1.35rem; text-transform: uppercase; }
+.tag-summary a { text-decoration: none; color: var(--ink); }
+.tag-summary a:hover { color: var(--accent); }
+.tag-summary p { margin-top: .25rem; font-family: var(--sans); font-size: .75rem; font-weight: 700; text-transform: uppercase; color: var(--ink-soft); }
+.taxonomy-intro { max-width: 48rem; margin-bottom: 1.4rem; padding-bottom: 1.2rem; border-bottom: 5px solid var(--rule); }
+.taxonomy-intro p { margin-top: .65rem; }
+.taxonomy-meta { font-family: var(--sans); font-size: .75rem; font-weight: 800; text-transform: uppercase; color: var(--ink-soft); }
+.taxonomy-terms { display: flex; flex-wrap: wrap; gap: .35rem; }
+.taxonomy-terms span { display: inline-block; border: 1.5px solid var(--rule); padding: .18rem .45rem; font-family: var(--sans); font-size: .68rem; font-weight: 700; text-transform: uppercase; color: var(--ink); }
+.archive-index { margin: 1.4rem 0; border-top: 5px solid var(--rule); }
+.archive-year, .archive-month { padding: 1.1rem 0; border-bottom: 1px solid var(--rule); }
+.archive-year h2, .archive-month h2 { font-size: 1.35rem; text-transform: uppercase; }
+.archive-year a, .archive-month a { text-decoration: none; color: var(--ink); }
+.archive-year a:hover, .archive-month a:hover { color: var(--accent); }
+.archive-year p, .archive-month p { margin-top: .25rem; font-family: var(--sans); font-size: .75rem; font-weight: 700; text-transform: uppercase; color: var(--ink-soft); }
+.archive-year ul { margin-top: .8rem; padding-left: 1.2rem; }
+.source-domain-index, .source-reference-index { margin: 1.4rem 0; border-top: 5px solid var(--rule); }
+.source-domain, .source-reference { padding: 1.1rem 0; border-bottom: 1px solid var(--rule); }
+.source-domain h2, .source-reference h2 { font-size: 1.35rem; text-transform: uppercase; }
+.source-domain a, .source-reference a { text-decoration: none; color: var(--ink); }
+.source-domain a:hover, .source-reference a:hover { color: var(--accent); }
+.source-domain p, .source-reference p { margin-top: .25rem; font-family: var(--sans); font-size: .75rem; font-weight: 700; text-transform: uppercase; color: var(--ink-soft); }
+.source-reference ul { margin-top: .8rem; padding-left: 1.2rem; }
+
+/* === FORMS (search) === */
+input, button, textarea, select { font-family: var(--sans); font-size: .9rem; color: var(--ink); background: var(--surface);
+  border: 2px solid var(--rule); border-radius: 0; padding: .35rem .6rem; }
+textarea { width: 100%; min-height: 6rem; resize: vertical; line-height: 1.35; }
+select { max-width: 100%; }
+button { font-weight: 700; text-transform: uppercase; letter-spacing: .05em; cursor: pointer; }
+button:hover { background: var(--ink); color: var(--surface); }
+.operator-form form { display: grid; gap: .85rem; max-width: var(--measure); margin-top: 1rem; }
+.operator-form label { display: grid; gap: .25rem; font-family: var(--sans); font-size: .78rem; font-weight: 800; text-transform: uppercase; letter-spacing: .04em; }
+.operator-form small { font-family: var(--serif); font-size: .85rem; font-weight: 400; text-transform: none; letter-spacing: 0; color: var(--ink-soft); }
+.operator-work-item { padding: .9rem 0; border-top: 1px solid var(--rule); }
+.operator-work-item h3 { font-size: 1rem; text-transform: uppercase; letter-spacing: 0; }
+.operator-work-item p { margin-top: .35rem; font-size: .95rem; }
+.operator-work-item form { margin-top: .55rem; }
+.operator-work-item textarea[hidden] { display: none; }
+
+/* === ADS: declared surfaces, quiet frames === */
+.ad-slot { min-height: 90px; margin: 1.6rem auto; display: grid; place-items: center;
+  font-family: var(--sans); font-size: .7rem; color: var(--ink-soft); }
+.ad-slot--a-ads { max-width: var(--measure); border-top: 2px solid var(--rule); border-bottom: 2px solid var(--rule); padding: .7rem 0; }
+.ad-slot--a-ads iframe { border: 0; padding: 0; width: min(100%, 44rem); min-height: 90px; overflow: hidden; display: block; margin: auto; }
+.stories > .ad-slot { grid-column: 1 / -1; width: 100%; }
+
+.article-fingerprint { max-width: var(--measure); margin: 0 auto 1.8rem; border: 5px solid var(--rule); background: var(--surface-deep); }
+.article-fingerprint img { width: 100%; aspect-ratio: 16 / 9; object-fit: cover; border: 0; margin: 0; }
+.correction-notice { max-width: var(--measure); margin: 0 auto 1.8rem; padding: .9rem 0; border-top: 5px solid var(--rule); border-bottom: 2px solid var(--rule); }
+.correction-notice h2 { font-size: 1rem; text-transform: uppercase; margin: 0 0 .5rem; padding: 0; border: 0; }
+.correction-notice ol { padding-left: 1.3rem; }
+.correction-notice li { margin-top: .35rem; }
+.correction-notice p { margin-top: .6rem; font-family: var(--sans); font-size: .72rem; font-weight: 800; text-transform: uppercase; }
+.article-rights { max-width: var(--measure); margin: 2rem auto 0; padding-top: .9rem; border-top: 2px solid var(--rule); font-family: var(--sans); font-size: .78rem; line-height: 1.45; color: var(--ink-soft); }
+.article-rights h2 { font-size: .95rem; text-transform: uppercase; margin: 0 0 .45rem; padding: 0; border: 0; color: var(--ink); }
+.article-rights p + p { margin-top: .45rem; }
+.article-rights a { color: var(--accent); }
+.related-stories { max-width: var(--measure); margin: 2.2rem auto 0; padding-top: 1rem; border-top: 5px solid var(--rule); }
+.related-stories > h2 { font-size: 1.1rem; text-transform: uppercase; margin-bottom: .3rem; }
+.related-stories__grid { display: grid; gap: 0; border-top: 1px solid var(--rule); }
+.related-story { padding: .9rem 0; border-bottom: 1px solid var(--rule); }
+.related-story h3 { font-size: 1rem; text-transform: uppercase; letter-spacing: 0; }
+.related-story a { color: var(--ink); text-decoration: none; }
+.related-story a:hover { color: var(--accent); }
+.related-story p { margin-top: .35rem; font-size: .95rem; line-height: 1.4; }
+.related-story__meta { font-family: var(--sans); font-size: .68rem !important; font-weight: 800; text-transform: uppercase; color: var(--ink-soft); }
+@media (min-width: 50rem) {
+  .related-stories__grid { grid-template-columns: repeat(3, 1fr); border-left: 1px solid var(--rule); }
+  .related-story { border-right: 1px solid var(--rule); padding: .9rem .8rem; }
+}
+
+/* === FOOTER === */
+footer[role=contentinfo] { border-top: 5px solid var(--rule); margin-top: 3rem; padding: 1.5rem 0 3rem;
+  font-family: var(--sans); font-size: .78rem; line-height: 1.5; }
+footer[role=contentinfo] a { color: var(--accent); text-decoration: underline; }
+footer[role=contentinfo] .inner { display: flex; flex-wrap: wrap; gap: 1rem; }
+footer[role=contentinfo] .inner span:first-child { flex-basis: 100%; font-family: var(--serif); font-style: italic; }
+
+/* === ACCESSIBILITY === */
+.skip-to-content { position: absolute; left: -9999px; }
+.skip-to-content:focus { position: static; }
+
+/* === PRINT === */
+@media print {
+  :root { --ink: #121212; --surface: #ffffff; --rule: #121212; }
+  header[role=banner], footer[role=contentinfo], .ad-slot { display: none !important; }
+  body { max-width: 100%; padding: 0; }
+  a { text-decoration: underline; color: var(--ink) !important; }
+}
+</style>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Archivo:wght@400;600;700;800;900&display=swap" rel="stylesheet">
+<link rel="alternate" type="application/rss+xml" title="Koios.News RSS" href="/feed.xml">
+<link rel="alternate" type="application/feed+json" title="Koios.News JSON Feed" href="/feed.json">
+<link rel="alternate" type="application/atom+xml" title="Koios.News Atom" href="/feed.atom">
+<meta property="og:site_name" content="Koios.News">
+<meta property="og:locale" content="en_US">
+<meta property="og:type" content="article">
+<meta property="og:title" content="The AI Compute Bottleneck Is Becoming a Power Problem — Koios.News">
+<meta property="og:description" content="The AI compute bottleneck is no longer only a chip or model problem. New claims from Subquadratic and Tensordyne point toward efficiency pressure, while data-center flexibility and orbital-compute proposals show the same constraint moving into power, cooling, capital, and public infrastructure.">
+<meta property="og:url" content="https://koios.news/posts/ai-compute-bottleneck-power-problem">
+<meta property="og:image" content="https://koios.news/fingerprints/ai-compute-bottleneck-power-problem.png">
+<meta property="og:image:secure_url" content="https://koios.news/fingerprints/ai-compute-bottleneck-power-problem.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="675">
+<meta property="og:image:type" content="image/png">
+<meta property="og:image:alt" content="The AI Compute Bottleneck Is Becoming a Power Problem">
+<meta name="robots" content="max-snippet:-1, max-image-preview:large, max-video-preview:-1">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="The AI Compute Bottleneck Is Becoming a Power Problem — Koios.News">
+<meta name="twitter:description" content="The AI compute bottleneck is no longer only a chip or model problem. New claims from Subquadratic and Tensordyne point toward efficiency pressure, while data-center flexibility and orbital-compute proposals show the same constraint moving into power, cooling, capital, and public infrastructure.">
+<meta name="twitter:image" content="https://koios.news/fingerprints/ai-compute-bottleneck-power-problem.png">
+<meta name="twitter:image:alt" content="The AI Compute Bottleneck Is Becoming a Power Problem">
+<meta property="article:published_time" content="2026-06-19T00:00:00Z">
+<meta property="article:modified_time" content="2026-06-19T00:00:00Z">
+<meta property="article:author" content="https://koios.news/about">
+<meta property="article:section" content="Technology">
+<meta property="article:tag" content="AI compute bottleneck">
+<meta property="article:tag" content="AI infrastructure">
+<meta property="article:tag" content="compute">
+<meta property="article:tag" content="data centers">
+<meta property="article:tag" content="energy">
+<meta property="article:tag" content="semiconductors">
+<meta property="article:tag" content="Technology">
+<link rel="alternate" type="application/ld+json" title="Koios article fingerprint" href="/fingerprints/ai-compute-bottleneck-power-problem.json">
+</head>
+<body class="theme-koios">
+<header role="banner"><div class="site-identity"><a class="site-title" href="/">Koios.News</a><span class="site-tagline">Watching the future take shape</span></div><nav><a href="/">Posts</a><a href="/topics">Topics</a><a href="/archive">Archive</a><a href="/corrections">Corrections</a><a href="/about">About</a><a href="/feed.xml">RSS</a></nav></header>
+<main id="main-content" role="main">
+<figure class="article-fingerprint"><img src="/fingerprints/ai-compute-bottleneck-power-problem.svg" alt="" width="1200" height="675" loading="eager"></figure>
+<div class="ad-slot ad-slot--a-ads" data-provider="a-ads" data-placement="article-banner" data-unit="2382510"><iframe title="Advertisement" data-aa="2382510" src="https://acceptable.a-ads.com/2382510/?size=Adaptive" loading="lazy"></iframe></div>
+<aside class="publication-authority-notice" aria-labelledby="publication-authority-title">
+<h2 id="publication-authority-title">Public-record status</h2>
+<p>This article was published by Koios.News before the current exact-manuscript independent editorial gate. It remains available under its predecessor-publication witness and is not represented as newly accepted journalism. Its present gate evidence is public in <a href="/newswire-audit.json">the editorial audit</a>; corrections remain open through <a href="/corrections">the correction register</a>.</p>
+</aside>
+<article class="h-entry">
+<h1 class="p-name">The AI Compute Bottleneck Is Becoming a Power Problem</h1>
+<p class="p-summary">The AI compute bottleneck is no longer only a chip or model problem. New claims from Subquadratic and Tensordyne point toward efficiency pressure, while data-center flexibility and orbital-compute proposals show the same constraint moving into power, cooling, capital, and public infrastructure.</p>
+<p class="story__meta"><time class="dt-published" datetime="2026-06-19T00:00:00Z">2026-06-19T00:00:00Z</time> · <span class="p-author">Nik Koios</span></p>
+<div class="e-content"><article><p>The AI compute bottleneck is starting to look less like one bottleneck and more like a stack of constraints moving through the whole machine. A model architecture has a compute problem. A chip company has a power problem. A data center has a grid problem. A cloud company has a capital problem. The current wave of efficiency claims around sparse attention and logarithmic arithmetic matters because they are not just technical curiosities. They are symptoms of a system trying to make more intelligence-shaped output without admitting how much physical infrastructure the appetite now requires <a class="citation" role="doc-biblioref" href="#ref-technologyreview-com-56efa3ab" data-cites="technologyreview-com-56efa3ab">[1]</a><a class="citation" role="doc-biblioref" href="#ref-theregister-com-0955b791" data-cites="theregister-com-0955b791">[2]</a>.</p>
+<p>That does not mean every efficiency claim should be believed. It means the claims are appearing at exactly the point where the AI buildout needs them to appear. The industry is spending as if scale can keep arriving, while power, cooling, interconnection queues, chip supply, and software compatibility keep imposing drag. The useful question is therefore not whether one startup has already solved the whole problem. The useful question is why so many supposedly different solutions now point at the same constraint.</p>
+<h2>The AI compute bottleneck is not only attention</h2>
+<p>Technology Review reported that Subquadratic is claiming a new LLM architecture, SubQ, can use sparse attention to cut the cost of long-context work while remaining competitive on some coding and retrieval tests <a class="citation" role="doc-biblioref" href="#ref-technologyreview-com-56efa3ab" data-cites="technologyreview-com-56efa3ab">[1]</a>. The important word is &quot;claim.&quot; The article also notes the skepticism around the company, the limited public access to the model, and the difference between a benchmark result and broad real-world proof.</p>
+<p>Still, the shape of the claim is revealing. Dense attention makes long context expensive because tokens have to be compared across many pairings. That scaling pressure is one reason long-context models can become costly and power hungry. If a model can select fewer relationships without losing too much useful structure, then some workloads might become cheaper to run. That is the architectural version of the pressure: reduce the number of operations before they become electricity, heat, and billable cloud time.</p>
+<p>Tensordyne is approaching a different layer of the same stack. The Register reported that the company has taped out a commercial accelerator called Napier on TSMC&#39;s 3nm process and is betting on logarithmic arithmetic to make matrix-heavy AI workloads less expensive to execute <a class="citation" role="doc-biblioref" href="#ref-theregister-com-0955b791" data-cites="theregister-com-0955b791">[2]</a>. The claim is not simply &quot;new chip faster.&quot; It is that multiplication itself can be approximated in a way that reduces power while preserving useful accuracy for AI inference.</p>
+<p>That is why these two stories belong together. Subquadratic says the model should ask for less work. Tensordyne says the hardware should do each unit of work differently. Both are responses to the same boundary: brute-force scaling is becoming too expensive to treat as background.</p>
+<h2>Efficiency claims are capital claims</h2>
+<p>The AI industry often describes compute as if it were an abstract input. In practice it is a bundle of capital commitments: chips, racks, substations, leases, cooling systems, software ports, networking, land, and long-term power contracts. The Register&#39;s earlier report on OpenAI&#39;s expected compute spending put that pressure in financial language, describing testimony that the company expected to spend tens of billions of dollars on computing power in 2026 <a class="citation" role="doc-biblioref" href="#ref-theregister-com-1c709efd" data-cites="theregister-com-1c709efd">[5]</a>.</p>
+<p>That number is not used here as a stable fact about OpenAI&#39;s final bill. It is useful because it shows the scale of the story the industry is telling itself. If leading AI companies need extraordinary capital flows just to keep training and inference expanding, then any plausible efficiency gain becomes a financing instrument. A faster architecture is not only faster. A lower-power chip is not only lower power. Each one says to investors and customers: the curve can continue.</p>
+<p>This is where content about &quot;breakthroughs&quot; often gets lazy. A breakthrough article can make it sound as if an optimization simply removes a constraint. In infrastructure, optimization usually moves the constraint. A model that uses fewer operations may encourage larger contexts, more frequent inference, or cheaper automation at wider scale. A chip that uses fewer watts per token may encourage denser racks, larger deployments, or new workloads that were previously too costly. The bottleneck can loosen locally while total demand still rises.</p>
+<p>That is not an argument against efficiency. It is an argument against pretending efficiency is automatically sufficiency. Koios. News has already treated the physical cost of AI as part of the story, not a side note, in pieces like <a href="/posts/the-cost-of-certainty-how-robot-guesswork-meets-energy">The Cost of Certainty: How Robot Guesswork Meets Energy Scarcity</a>. The new compute-efficiency stories add a sharper point: even the companies trying to escape the power curve are confirming the power curve exists.</p>
+<h2>Data centers make the AI compute bottleneck public</h2>
+<p>Once compute becomes data-center load, the private bottleneck becomes a public infrastructure question. Technology Review&#39;s reporting on power-flexible data centers describes an effort to make AI facilities reduce demand at moments of grid stress, with companies and grid operators testing whether flexible load can bring facilities online faster and with less pressure on the existing grid <a class="citation" role="doc-biblioref" href="#ref-technologyreview-com-9cd1c177" data-cites="technologyreview-com-9cd1c177">[3]</a>.</p>
+<p>That is a very different kind of AI story from benchmark charts. It treats a data center not as a magic cloud, but as an industrial customer with timing, priority, and social obligations. If a facility can throttle low-priority work during peak demand, it might use existing capacity more gracefully. If it cannot, the grid has to be built around its worst moments. Either way, compute becomes a claim on shared infrastructure.</p>
+<p>The same logic explains why more exotic proposals keep appearing. IEEE Spectrum examined orbital data centers and the thermal, orbital, launch, and maintenance problems behind the idea <a class="citation" role="doc-biblioref" href="#ref-spectrum-ieee-org-5b4e8e19" data-cites="spectrum-ieee-org-5b4e8e19">[4]</a>. Putting compute in space sounds like a science-fiction escape from Earthly opposition, land conflict, and grid constraint. The engineering details make it look more like a displacement fantasy. Heat still has to go somewhere. Hardware still fails. Launches still cost money. Radiation still matters. Communications still impose latency and bandwidth limits.</p>
+<p>The more useful reading is that these proposals reveal the pressure inside the terrestrial system. When companies imagine data centers in oil fields, flexible grid contracts, or orbit, they are not only chasing novelty. They are looking for places where the physical cost of compute can be hidden, negotiated, shifted, or reclassified.</p>
+<h2>The constraint is a system, not a villain</h2>
+<p>It would be easy to turn this into a simple story about Nvidia, OpenAI, or one startup promising too much. That would miss the shape. The AI compute bottleneck is systemic. It includes mathematical operations, model architecture, chip arithmetic, memory bandwidth, interconnect, software tooling, rack density, grid timing, capital availability, and public tolerance for infrastructure. A real improvement at one layer can be eaten by growth at another.</p>
+<p>Tensordyne&#39;s reported Napier chip may or may not meet its strongest performance claims when systems ship. Subquadratic&#39;s reported sparse-attention model may or may not generalize beyond the tests and early demonstrations now available. Those uncertainties are not footnotes. They are the editorial center of the story. Claims about efficiency deserve attention because the system badly needs efficiency, and they deserve skepticism for the same reason.</p>
+<p>The next useful reporting work is concrete. Which workloads actually benefit from sparse attention without quality loss? Which claimed tokens-per-watt figures survive independent tests? How much of a data center&#39;s load can be delayed or shifted without breaking customer commitments? Who gets paid when flexible load supports the grid? Who pays when it fails? These questions are less glamorous than &quot;beats Nvidia&quot; or &quot;breaks the bottleneck,&quot; but they are closer to the infrastructure truth.</p>
+<p>For now, the signal is clear enough. AI companies are no longer only competing to make larger models. They are competing to make the cost of larger models politically, financially, and electrically survivable. That is the real story under the latest compute claims: the machine is trying to keep scaling, and every layer of the machine is beginning to show the strain.</p>
+<section class="bibliography" role="doc-bibliography" aria-labelledby="references">
+<h2 id="references">References</h2>
+<ol>
+<li id="ref-technologyreview-com-56efa3ab" role="doc-biblioentry" data-source-kind="professional-journal"><cite><a href="https://www.technologyreview.com/2026/06/19/1139313/a-startup-claims-it-broke-through-a-bottleneck-thats-holding-back-llms/">A startup claims it broke through a bottleneck that’s holding back LLMs</a></cite>. technologyreview.com. 2026-06-19. <span class="reference__domain">technologyreview.com</span>. <span class="reference__kind">professional-journal</span>.</li>
+<li id="ref-theregister-com-0955b791" role="doc-biblioentry" data-source-kind="commercial-website"><cite><a href="https://www.theregister.com/systems/2026/06/19/tensordyne-makes-a-big-bet-on-log-math-to-beat-nvidia/5258662">Tensordyne makes a big bet on log math to beat Nvidia</a></cite>. theregister.com. 2026-06-19. <span class="reference__domain">theregister.com</span>. <span class="reference__kind">commercial-website</span>.</li>
+<li id="ref-technologyreview-com-9cd1c177" role="doc-biblioentry" data-source-kind="professional-journal"><cite><a href="https://www.technologyreview.com/2026/06/16/1138591/data-center-online-quickly-electric-grid-flex/">Want to get a data center online quickly? Give it some flex.</a></cite>. technologyreview.com. 2026-06-16. <span class="reference__domain">technologyreview.com</span>. <span class="reference__kind">professional-journal</span>.</li>
+<li id="ref-spectrum-ieee-org-5b4e8e19" role="doc-biblioentry" data-source-kind="professional-journal"><cite><a href="https://spectrum.ieee.org/orbital-data-centers-heat">Why Orbital Data Centers Are Harder Than Silicon Valley Thinks</a></cite>. spectrum.ieee.org. 2026-06-11. <span class="reference__domain">spectrum.ieee.org</span>. <span class="reference__kind">professional-journal</span>.</li>
+<li id="ref-theregister-com-1c709efd" role="doc-biblioentry" data-source-kind="commercial-website"><cite><a href="https://www.theregister.com/software/2026/05/05/openai-exec-says-it-will-burn-50b-on-compute-this-year/5226088">OpenAI exec says company hopes to burn $50B of somebody else&#39;s money on compute this year</a></cite>. theregister.com. 2026-05-05. <span class="reference__domain">theregister.com</span>. <span class="reference__kind">commercial-website</span>.</li>
+</ol>
+</section></article></div>
+<a class="u-url" href="/posts/ai-compute-bottleneck-power-problem" hidden>permalink</a>
+</article>
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"NewsArticle","headline":"The AI Compute Bottleneck Is Becoming a Power Problem","url":"https://koios.news/posts/ai-compute-bottleneck-power-problem","mainEntityOfPage":"https://koios.news/posts/ai-compute-bottleneck-power-problem","description":"The AI compute bottleneck is no longer only a chip or model problem. New claims from Subquadratic and Tensordyne point toward efficiency pressure, while data-center flexibility and orbital-compute proposals show the same constraint moving into power, cooling, capital, and public infrastructure.","datePublished":"2026-06-19T00:00:00Z","dateModified":"2026-06-19T00:00:00Z","author":{"@type":"Person","name":"Nik Koios","url":"https://koios.news/about"},"publisher":{"@type":"Organization","name":"Koios.News","url":"https://koios.news"},"articleSection":"Technology","keywords":["AI compute bottleneck"],"image":{"@type":"ImageObject","url":"https://koios.news/fingerprints/ai-compute-bottleneck-power-problem.png","width":1200,"height":675}}</script>
+<aside class="article-rights" aria-labelledby="article-rights-title">
+<h2 id="article-rights-title">Rights and republication</h2>
+<p>This article is published under <a rel="license" href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a>. Reuse should credit Nik Koios and link the canonical article URL: <a href="/posts/ai-compute-bottleneck-power-problem">https://koios.news/posts/ai-compute-bottleneck-power-problem</a>.</p>
+<p>Licensed under Creative Commons Attribution 4.0 International; Koios.News permits indexing, snippets, large image previews, feed distribution, Google Search/News/Discover surfaces, and other attributed downstream syndication.</p>
+</aside>
+<aside class="related-stories" aria-labelledby="related-stories-title">
+<h2 id="related-stories-title">Related Stories</h2>
+<div class="related-stories__grid"><article class="related-story">
+<h3><a href="/posts/the-cost-of-certainty-how-robot-guesswork-meets-energy">The Cost of Certainty: How Robot Guesswork Meets Energy Scarcity</a></h3>
+<p>Yen-Ling Kuo trains robots to make educated guesses, reducing computational waste while AI data center power demand surges globally. This shift from perfect calculation to probabilistic action reflects a necessary adaptation to resource limits. The pursuit of absolute precision is becoming a luxury our energy systems can no longer afford.</p>
+<p class="related-story__meta">Technology · Technology</p>
+</article>
+<article class="related-story">
+<h3><a href="/posts/the-mundane-automation-of-collapse-at-sxsw-london">The Mundane Automation of Collapse at SXSW London</a></h3>
+<p>A recent talk at SXSW London highlighted how generative AI tools have become mundane while hiding the massive scale of AI infrastructure energy use. This normalization obscures the physical limits of our power grids as systems chase 98% and 99% reliability targets. The illusion of seamless digital expansion breaks when climate volatility meets the rigid demands of automated finance and labor.</p>
+<p class="related-story__meta">Technology · Technology</p>
+</article></div>
+</aside>
+</main>
+<footer role="contentinfo"><div class="ad-slot ad-slot--a-ads" data-provider="a-ads" data-placement="footer" data-unit="2382512"><iframe title="Advertisement" data-aa="2382512" src="https://acceptable.a-ads.com/2382512/?size=Adaptive" loading="lazy"></iframe></div><div class="inner"><span>© 2025–2026 Koios.News · Edited by Nik Koios</span><a href="/about">About</a> <a href="/standards">Standards</a> <a href="/privacy">Privacy</a> <a href="/archive">Archive</a> <a href="/bibliography">Sources</a> <a href="/search">Search</a> <a href="/tags">Tags</a> <a href="/feed.xml">RSS</a> <a href="/feed.json">JSON Feed</a> <a href="/sitemap.xml">Sitemap</a> <a href="/newswire-audit.json">Gate audit</a></div></footer>
+</body>
+</html>

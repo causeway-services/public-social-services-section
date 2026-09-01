@@ -1,0 +1,11 @@
+:PROPERTIES:
+:ID:       634206e3-0d78-42da-a7df-a18421aeb906
+:public:   true
+:form:     [[id:8b841773-a82c-4e01-b77d-bef6c7ee859f][story]]
+:END:
+#+title: The Man With Light
+#+date: [2025-08-27 Wed 22:54]
+
+- Aldous Sendvogue invents lightbulb
+- chandlers guild tries to repress it
+- sendvogue uses recently invented printing press (not moveable type) to make posters sharing the schematics

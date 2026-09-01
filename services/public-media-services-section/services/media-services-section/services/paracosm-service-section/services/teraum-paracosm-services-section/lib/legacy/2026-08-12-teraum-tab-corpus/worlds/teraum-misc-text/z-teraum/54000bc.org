@@ -1,0 +1,25 @@
+#+title: 54000bc
+#+begin_head
+#+ghe_schema: 
+#+author: emsenn
+#+email: emsenn@emsenn.net
+#+date: [2021-01-05 Tue 11:01]
+#+roam_tags: Teraum term
+#+end_head
+
+#+name: definition
+*/[[file:54000bc.org][54000bc]]/* is a year in [[file:teraum_s_history.org][Teraum's history]].
+#+toc: headlines 2
+* Introduction
+* 54000bc
+* Supplements
+** Record history
+   :PROPERTIES:
+   :CUSTOM_ID: record-history
+   :END:
+   :LOGBOOK:
+   - Note taken on [2021-01-05 Tue 11:01] \\
+      Created from [[file:~/org/s/p/teraum/worldkeep.org::worldkeep-founded-event][worldkeep-founded-event]]
+
+      
+   :END:

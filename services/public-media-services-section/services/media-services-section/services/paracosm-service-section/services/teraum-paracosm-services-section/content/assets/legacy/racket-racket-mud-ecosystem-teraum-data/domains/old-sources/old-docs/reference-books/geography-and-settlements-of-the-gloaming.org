@@ -1,0 +1,30 @@
+#+SETUPFILE: ./setup.inc
+#+TITLE: Geography and Settlements of the Gloaming
+#+EXPORT_FILE_NAME: ../../pub/reference-books/geography-and-settlements-of-the-gloaming
+#+INDEX: Gloaming!/Geography and Settlements of the Gloaming/
+* DRAFT Introduction
+{{{document-isdraft}}}
+* DRAFT Geography and Settlements of the Gloaming
+** DRAFT Landmarks
+** The Trade Road
+   :PROPERTIES:
+   :CUSTOM_ID: trade-road
+   :END:
+#+INDEX: Trade Road!Trade Road in the Gloaming!"The Trade Road" in /Geography and Settlements of the Gloaming/
+*** DRAFT Jacob's Folly
+    :PROPERTIES:
+    :CUSTOM_ID: jacobs-folly
+    :END:
+#+INDEX: Jacob's Folly!"Jacob's Folly" in /Geography and Settlements of the Gloaming/
+** DRAFT Notable Organizations and People
+*** DRAFT Idbol Bark
+    :PROPERTIES:
+    :CUSTOM_ID: idbol bark
+    :END:
+#+INDEX: Bark, Idbol!"Idbol Bark" in /Geography and Settlements of the Gloaming/
+* DRAFT Supplements
+** DRAFT Index
+- Idbol Bark ::
+- Gloaming ::
+- Jacob's Folly ::
+- Trade Road ::

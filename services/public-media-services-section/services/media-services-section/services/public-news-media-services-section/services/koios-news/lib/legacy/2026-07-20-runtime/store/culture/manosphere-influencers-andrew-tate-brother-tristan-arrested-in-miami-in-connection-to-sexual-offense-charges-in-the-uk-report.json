@@ -1,0 +1,69 @@
+{
+  "subject": "manosphere-influencers-andrew-tate-brother-tristan-arrested-in-miami-in-connection-to-sexual-offense-charges-in-the-uk-report",
+  "claims": [
+    {
+      "id": "title",
+      "proposition": {
+        "predicate": "title",
+        "object": "Manosphere Influencers Andrew Tate & Brother Tristan Arrested In Miami In Connection To Sexual Offense Charges In The UK, Report"
+      },
+      "time": {
+        "asserted": "2026-07-19T14:42:05.531Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "culture",
+        "citation": "https://deadline.com/2026/07/manosphere-influencers-andrew-tate-tristan-arrested-sexual-offense-charges-1236997616/"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "url",
+      "proposition": {
+        "predicate": "url",
+        "object": "https://deadline.com/2026/07/manosphere-influencers-andrew-tate-tristan-arrested-sexual-offense-charges-1236997616/"
+      },
+      "time": {
+        "asserted": "2026-07-19T14:42:05.531Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "culture",
+        "citation": "https://deadline.com/2026/07/manosphere-influencers-andrew-tate-tristan-arrested-sexual-offense-charges-1236997616/"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "summary",
+      "proposition": {
+        "predicate": "summary",
+        "object": "Andrew Tate and his brother Tristan were arrested in Miami, according to the U.S. Marshals Service. Charges for the manosphere influencers were not immediately available, with the Associated Press reporting the warrant was sealed. A Department of Justice spokesperson released a statement to CBS News saying, “Today, U.S. Marshals in the Southern District of Florida […]"
+      },
+      "time": {
+        "asserted": "2026-07-19T14:42:05.531Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "culture",
+        "citation": "https://deadline.com/2026/07/manosphere-influencers-andrew-tate-tristan-arrested-sexual-offense-charges-1236997616/"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "published",
+      "proposition": {
+        "predicate": "published",
+        "object": "Sun, 19 Jul 2026 01:23:39 +0000"
+      },
+      "time": {
+        "asserted": "2026-07-19T14:42:05.531Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "culture",
+        "citation": "https://deadline.com/2026/07/manosphere-influencers-andrew-tate-tristan-arrested-sexual-offense-charges-1236997616/"
+      },
+      "status": "supported"
+    }
+  ]
+}

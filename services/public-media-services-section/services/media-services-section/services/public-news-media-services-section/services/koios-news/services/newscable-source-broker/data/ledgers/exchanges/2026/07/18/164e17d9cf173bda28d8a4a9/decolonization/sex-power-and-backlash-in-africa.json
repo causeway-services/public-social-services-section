@@ -1,0 +1,69 @@
+{
+  "subject": "sex-power-and-backlash-in-africa",
+  "claims": [
+    {
+      "id": "title",
+      "proposition": {
+        "predicate": "title",
+        "object": "Sex, power and backlash in Africa"
+      },
+      "time": {
+        "asserted": "2026-07-18T08:37:48.082Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "decolonization",
+        "citation": "https://www.opendemocracy.net/en/backlash-sex-power-africa-book-extract/"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "url",
+      "proposition": {
+        "predicate": "url",
+        "object": "https://www.opendemocracy.net/en/backlash-sex-power-africa-book-extract/"
+      },
+      "time": {
+        "asserted": "2026-07-18T08:37:48.082Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "decolonization",
+        "citation": "https://www.opendemocracy.net/en/backlash-sex-power-africa-book-extract/"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "summary",
+      "proposition": {
+        "predicate": "summary",
+        "object": "In researching my book Seeking Sexual Freedom , I was struck by the contrast between the expansive ways our ancestors understood gender, sexuality and intimacy, and the growing restrictions being shaped today by religious fundamentalism, patriarchy and political power. I think of these restrictions – often described as a “backlash” – as an interruption. Across the continent, we have centuries of knowledge that speak to fluidity in our gods and goddesses, and to a multiplicity of family structures and ways of being. The current moment – marked by rising homophobia and the rollback of progressive rights across Africa and beyond – sits uneasily against that longer history."
+      },
+      "time": {
+        "asserted": "2026-07-18T08:37:48.082Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "decolonization",
+        "citation": "https://www.opendemocracy.net/en/backlash-sex-power-africa-book-extract/"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "published",
+      "proposition": {
+        "predicate": "published",
+        "object": "Tue, 21 Apr 2026 06:03:51 GMT"
+      },
+      "time": {
+        "asserted": "2026-07-18T08:37:48.082Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "decolonization",
+        "citation": "https://www.opendemocracy.net/en/backlash-sex-power-africa-book-extract/"
+      },
+      "status": "supported"
+    }
+  ]
+}

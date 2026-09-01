@@ -1,0 +1,69 @@
+{
+  "subject": "rising-seas-magnify-the-dangers-of-coastal-georgia-s-industrial-past",
+  "claims": [
+    {
+      "id": "title",
+      "proposition": {
+        "predicate": "title",
+        "object": "Rising seas magnify the dangers of Coastal Georgia’s industrial past"
+      },
+      "time": {
+        "asserted": "2026-07-20T09:48:43.681Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "environment",
+        "citation": "https://grist.org/cities/rising-seas-magnify-the-dangers-of-coastal-georgias-industrial-past/"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "url",
+      "proposition": {
+        "predicate": "url",
+        "object": "https://grist.org/cities/rising-seas-magnify-the-dangers-of-coastal-georgias-industrial-past/"
+      },
+      "time": {
+        "asserted": "2026-07-20T09:48:43.681Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "environment",
+        "citation": "https://grist.org/cities/rising-seas-magnify-the-dangers-of-coastal-georgias-industrial-past/"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "summary",
+      "proposition": {
+        "predicate": "summary",
+        "object": "This coverage is made possible through a partnership between Grist and WABE , Atlanta’s NPR station. Just across the road from the waterfront in Brunswick, Semona Holmes lives in a house surrounded by fruit trees, potted flowers, a fish pond, and — &nbsp; when it rains or the tide is extra high — floodwater. “If you can imagine this entire area here completely flooded,” she explained on her front porch on a recent afternoon. “The flooding would be — we would have like a river on our street.” The floodwater has reached to her knees at times. Once, after a hurricane, her neighbor canoed down the block. Improvements to the stormwater system have helped a bit in recent years. But Holmes’s concerns go beyond the inconvenience of an occasionally flooded street. She lives about half a mile from a former pesticide plant, which is now a toxic Superfund site — one of thousands of contaminated former industrial sites identified by the federal Environmental Protection Agency . Holmes is worried about what the floodwaters contain. “Everything from that chemical plant has flowed into our community,” she said. Scientists want to get a better handle on what, exactly, has flowed into this community’s air, soil, water, and people. Researchers from six institutions will soon launch Georgia’s first Superfund research center, with $15 million from the National Institute of Environmental Health Sciences. Over five years, the team of scientists from Emory University, the University of Georgia, Georgia Tech, Morehouse School of Medicine, Spelman College, and Texas Tech University will look at Glynn County’s four toxic Superfund sites, including the one near Holmes.&nbsp; The work has two main goals, according to Emory public health professor Noah Scovronick. “One is to understand the health effects of past chemical exposures, and the other is to try and reduce people’s future exposures,” he said. To do that, they’ll study links between the toxic substances at the former industrial sites and possible health effects, and conduct environmental sampling to figure out how and where people may have been exposed.&nbsp; They’ll also need to model impacts of climate change, like rising seas and stronger storms. On sites that have toxic materials stored in structures or under caps, flooding could breach those containment measures, which are supposed to keep people safe from exposure. “We want to be sure that the remediation that is ongoing at those sites is resilient to extreme weather moving forward,” Scovronick said.&nbsp; Holmes, standing in her garden, worries about pollution in the soil and water from a nearby superfund site. Emily Jones / Grist The researchers met with community members like Holmes to plan their work, so that the studies can answer the lingering questions Glynn County residents have about the industrial pollution in their environment. Holmes and her family already don’t drink their tap water or eat seafood from Glynn County waterways. But she said they need more information about what chemicals they’ve been exposed to, and the possible consequences. She has six grandchildren, several of whom attend an elementary school just blocks from the nearest toxic site. “We want them to be healthy,” she said. “And you don’t want to worry that they’re playing on a playground that has contaminated soil.” Even if the new research uncovers damage that can’t be undone or exposure to health risks that can’t be reversed, Holmes said, it’s important to have all of that documented — and acknowledged by the companies that operated the industrial sites in Glynn County. “It shows that you care about humanity,” she said. “And that you are able to acknowledge that, ‘Yeah, by our actions, we have possibly contaminated an entire county.’” But beyond that recognition of wrongdoing, Holmes said, “there has to be continued action.” This story was originally published by Grist with the headline Rising seas magnify the dangers of Coastal Georgia’s industrial past on Jul 20, 2026."
+      },
+      "time": {
+        "asserted": "2026-07-20T09:48:43.681Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "environment",
+        "citation": "https://grist.org/cities/rising-seas-magnify-the-dangers-of-coastal-georgias-industrial-past/"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "published",
+      "proposition": {
+        "predicate": "published",
+        "object": "Mon, 20 Jul 2026 08:30:00 +0000"
+      },
+      "time": {
+        "asserted": "2026-07-20T09:48:43.681Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "environment",
+        "citation": "https://grist.org/cities/rising-seas-magnify-the-dangers-of-coastal-georgias-industrial-past/"
+      },
+      "status": "supported"
+    }
+  ]
+}

@@ -1,0 +1,69 @@
+{
+  "subject": "canefields-to-ocean-to-rolling-hills-vision-splendid-of-135km-northern-nsw-rail-trail-short-changed",
+  "claims": [
+    {
+      "id": "title",
+      "proposition": {
+        "predicate": "title",
+        "object": "Canefields to ocean to rolling hills: vision splendid of 135km northern NSW rail trail short-changed"
+      },
+      "time": {
+        "asserted": "2026-07-19T14:41:46.239Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "environment",
+        "citation": "https://www.theguardian.com/australia-news/2026/jul/18/northern-rivers-rail-trail-tweed-nsw-funding-knock-back"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "url",
+      "proposition": {
+        "predicate": "url",
+        "object": "https://www.theguardian.com/australia-news/2026/jul/18/northern-rivers-rail-trail-tweed-nsw-funding-knock-back"
+      },
+      "time": {
+        "asserted": "2026-07-19T14:41:46.239Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "environment",
+        "citation": "https://www.theguardian.com/australia-news/2026/jul/18/northern-rivers-rail-trail-tweed-nsw-funding-knock-back"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "summary",
+      "proposition": {
+        "predicate": "summary",
+        "object": "<p>Despite the backing of councils in a region in dire need of support, the federal government has rejected a $42m grant request to complete the trail’s 54km missing link</p><ul><li><p>Get our <a href=\"https://www.theguardian.com/email-newsletters?CMP=cvau_sfl\">breaking news email</a>, <a href=\"https://app.adjust.com/w4u7jx3\">free app</a> or <a href=\"https://www.theguardian.com/australia-news/series/full-story?CMP=cvau_sfl\">daily news podcast</a></p></li></ul><p>There are glow-worms in the old train tunnel if you look hard enough into the deepest, darkest black, Paul Hixon says.</p><p>The visitor from Brisbane is cycling the Murwillumbah to Crabbes Creek section of the northern rivers rail trail with his two daughters, but today he only plans to make it as far as the Burringbar tunnel.</p> <a href=\"https://www.theguardian.com/australia-news/2026/jul/18/northern-rivers-rail-trail-tweed-nsw-funding-knock-back\">Continue reading...</a>"
+      },
+      "time": {
+        "asserted": "2026-07-19T14:41:46.239Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "environment",
+        "citation": "https://www.theguardian.com/australia-news/2026/jul/18/northern-rivers-rail-trail-tweed-nsw-funding-knock-back"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "published",
+      "proposition": {
+        "predicate": "published",
+        "object": "Sun, 19 Jul 2026 04:25:12 GMT"
+      },
+      "time": {
+        "asserted": "2026-07-19T14:41:46.239Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "environment",
+        "citation": "https://www.theguardian.com/australia-news/2026/jul/18/northern-rivers-rail-trail-tweed-nsw-funding-knock-back"
+      },
+      "status": "supported"
+    }
+  ]
+}

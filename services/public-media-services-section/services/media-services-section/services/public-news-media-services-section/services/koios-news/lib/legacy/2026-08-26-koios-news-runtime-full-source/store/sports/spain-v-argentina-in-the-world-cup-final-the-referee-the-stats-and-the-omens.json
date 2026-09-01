@@ -1,0 +1,69 @@
+{
+  "subject": "spain-v-argentina-in-the-world-cup-final-the-referee-the-stats-and-the-omens",
+  "claims": [
+    {
+      "id": "title",
+      "proposition": {
+        "predicate": "title",
+        "object": "Spain v Argentina in the World Cup final: the referee, the stats and the omens"
+      },
+      "time": {
+        "asserted": "2026-07-19T15:58:02.610Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "sports",
+        "citation": "https://www.theguardian.com/football/2026/jul/19/spain-v-argentina-world-cup-final-referee-stats-omens"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "url",
+      "proposition": {
+        "predicate": "url",
+        "object": "https://www.theguardian.com/football/2026/jul/19/spain-v-argentina-world-cup-final-referee-stats-omens"
+      },
+      "time": {
+        "asserted": "2026-07-19T15:58:02.610Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "sports",
+        "citation": "https://www.theguardian.com/football/2026/jul/19/spain-v-argentina-world-cup-final-referee-stats-omens"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "summary",
+      "proposition": {
+        "predicate": "summary",
+        "object": "<p>As the top two in the Fifa rankings prepare to meet in New Jersey on Sunday we look at the pointers that may help decide the game</p><p>Slavko Vincic becomes the first Slovene to referee a World Cup final. He oversaw the 2024 Champions League final at Wembley (Real Madrid beat Borussia Dortmund 2-0) as well as Spain’s 2-1 win over France at the 2024 Euros semi-final. The 46-year-old’s first World Cup match was Argentina’s opening loss to Saudi Arabia in 2022. At this tournament, Vincic showed Ecuador’s Piero Hincapié a red card for covering his mouth in the 95th minute against Mexico. He has averaged 2.33 yellow cards per game.</p> <a href=\"https://www.theguardian.com/football/2026/jul/19/spain-v-argentina-world-cup-final-referee-stats-omens\">Continue reading...</a>"
+      },
+      "time": {
+        "asserted": "2026-07-19T15:58:02.610Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "sports",
+        "citation": "https://www.theguardian.com/football/2026/jul/19/spain-v-argentina-world-cup-final-referee-stats-omens"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "published",
+      "proposition": {
+        "predicate": "published",
+        "object": "Sun, 19 Jul 2026 07:00:21 GMT"
+      },
+      "time": {
+        "asserted": "2026-07-19T15:58:02.610Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "sports",
+        "citation": "https://www.theguardian.com/football/2026/jul/19/spain-v-argentina-world-cup-final-referee-stats-omens"
+      },
+      "status": "supported"
+    }
+  ]
+}

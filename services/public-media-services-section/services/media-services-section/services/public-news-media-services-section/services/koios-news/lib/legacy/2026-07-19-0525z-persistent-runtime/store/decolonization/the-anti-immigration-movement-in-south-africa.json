@@ -1,0 +1,69 @@
+{
+  "subject": "the-anti-immigration-movement-in-south-africa",
+  "claims": [
+    {
+      "id": "title",
+      "proposition": {
+        "predicate": "title",
+        "object": "The Anti-Immigration Movement in South Africa"
+      },
+      "time": {
+        "asserted": "2026-07-19T02:20:00.056Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "decolonization",
+        "citation": "https://www.blackagendareport.com/anti-immigration-movement-south-africa"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "url",
+      "proposition": {
+        "predicate": "url",
+        "object": "https://www.blackagendareport.com/anti-immigration-movement-south-africa"
+      },
+      "time": {
+        "asserted": "2026-07-19T02:20:00.056Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "decolonization",
+        "citation": "https://www.blackagendareport.com/anti-immigration-movement-south-africa"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "summary",
+      "proposition": {
+        "predicate": "summary",
+        "object": "<span class=\"field field--name-title field--type-string field--label-hidden\">The Anti-Immigration Movement in South Africa</span> <div class=\"field field--name-field-authors field--type-entity-reference field--label-above\"> <div class=\"field__label\">Authors</div> <div class=\"field__items\"> <div class=\"field__item\"><a href=\"https://www.blackagendareport.com/taxonomy/term/2425\" hreflang=\"en\">Black Agenda Radio with Margaret Kimberley</a></div> </div> </div> <span class=\"field field--name-uid field--type-entity-reference field--label-hidden\"><span>bareditors</span></span> <span class=\"field field--name-created field--type-created field--label-hidden\"><time datetime=\"2026-07-17T04:12:57+05:30\" title=\"Friday, July 17, 2026 - 04:12\" class=\"datetime\">Fri, 07/17/2026 - 04:12</time> </span> <div class=\"clearfix text-formatted field field--name-field-embed-link field--type-text-with-summary field--label-hidden field__item\"><p><iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/LMyeBmDmFZs?si=MwcFEuRk-3ttVvB0\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" referrerpolicy=\"strict-origin-when-cross-origin\" allowfullscreen></iframe></p> </div> <div class=\"clearfix text-formatted field field--name-body field--type-text-with-summary field--label-hidden field__item\"><p>What is behind this South African movement that drives immigrants out of the country? We are joined by Nairobi-based political writer and strategist Clinton Nzala, who provides analysis of the history of immigrant labor in South Africa, the political expediency that feeds this conflict, the influence of external actors, and the need for African nations to achieve true self-determination and economic independence.</p> </div> <div class=\"taxonomy__terms__container\"> <div class=\"taxonomy__term\"> <a href=\"https://www.blackagendareport.com/articlelist/International\">International</a> </div> </div> <div class=\"field field--name-tags1 field--type-entity-reference field--label-hidden field--items\"> <div class=\"field--item\"> <a href=\"https://www.blackagendareport.com/articles/South Africa\">South Africa</a> </div> <div class=\"field--item\"> <a href=\"https://www.blackagendareport.com/articles/xenophobia\">xenophobia</a> </div> <div class=\"field--item\"> <a href=\"https://www.blackagendareport.com/articles/anti-immigration\">anti-immigration</a> </div> <div class=\"field--item\"> <a href=\"https://www.blackagendareport.com/articles/Colonialism\">Colonialism</a> </div> <div class=\"field--item\"> <a href=\"https://www.blackagendareport.com/articles/Self-Determination\">Self-Determination</a> </div> <div class=\"field--item\"> <a href=\"https://www.blackagendareport.com/articles/ANC\">ANC</a> </div> </div>"
+      },
+      "time": {
+        "asserted": "2026-07-19T02:20:00.056Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "decolonization",
+        "citation": "https://www.blackagendareport.com/anti-immigration-movement-south-africa"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "published",
+      "proposition": {
+        "predicate": "published",
+        "object": "Thu, 16 Jul 2026 22:42:57 +0000"
+      },
+      "time": {
+        "asserted": "2026-07-19T02:20:00.056Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "decolonization",
+        "citation": "https://www.blackagendareport.com/anti-immigration-movement-south-africa"
+      },
+      "status": "supported"
+    }
+  ]
+}

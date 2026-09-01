@@ -1,0 +1,69 @@
+{
+  "subject": "from-the-2010-olympics-to-the-world-cup-vancouver-has-pioneered-indigenous-inclusion",
+  "claims": [
+    {
+      "id": "title",
+      "proposition": {
+        "predicate": "title",
+        "object": "From the 2010 Olympics to the World Cup, Vancouver has pioneered Indigenous inclusion"
+      },
+      "time": {
+        "asserted": "2026-07-18T07:55:48.840Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "decolonization",
+        "citation": "https://ictnews.org/sports/from-the-2010-olympics-to-the-world-cup-vancouver-has-pioneered-indigenous-inclusion/"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "url",
+      "proposition": {
+        "predicate": "url",
+        "object": "https://ictnews.org/sports/from-the-2010-olympics-to-the-world-cup-vancouver-has-pioneered-indigenous-inclusion/"
+      },
+      "time": {
+        "asserted": "2026-07-18T07:55:48.840Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "decolonization",
+        "citation": "https://ictnews.org/sports/from-the-2010-olympics-to-the-world-cup-vancouver-has-pioneered-indigenous-inclusion/"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "summary",
+      "proposition": {
+        "predicate": "summary",
+        "object": "Anne M. Peterson AP Soccer Writer VANCOUVER, British Columbia — Scattered among the many big screens airing World Cup matches and the food stands with local fare like poutine, Vancouver’s fan festival includes exhibits recognizing the host city’s Indigenous communities: the Squamish, the Musqueam and Tsleil-Waututh nations. The First Nations have been involved in more than just the fan fest, however. They are partners with the local World Cup organizing committee, drawing on a tradition started at the 2010 Winter Olympics. It’s the latest example of how Indigenous inclusion has increasingly figured into big sporting events, from the 2023 Women’s World Cup in Australia and New Zealand to the 2028 Los Angeles Olympics. Vancouver’s goal was to ensure that the First Nations were at the table in the planning process for the World Cup, and ultimately provide a platform that brings awareness to the city’s Indigenous communities and creates a lasting legacy. “What we found in the 2010 Games, and also now, is that one of the main messages is to share the diversity of culture that we have. We’re not all the same, and I think that also we don’t just live in history books, we’re living and thriving today,” said Tewanee Joseph, major sports, entertainment and marquee events secretariat for the Squamish Nation. Tradition from the Olympics Joseph was CEO of the Four Host First Nations for the 2010 Vancouver Olympics, which took place on the traditional territories of the Squamish, Tsleil-Waututh, Musqueam and Lil’Wat nations. The groups’ involvement in the Winter Games marked the first time that Indigenous people were recognized by the International Olympic Committee as official host partners. Vancouver wasn’t the only city to draw Indigenous communities into its World Cup planning. In Seattle, the Puyallup Tribe was an official Presenting Legacy Sponsor of SeattleFWC26, the city’s host organization. Toronto’s opening ceremonies for the World Cup included Indigenous dancers and Peguis First Nation musician William Prince, while the fan festival’s Tkaronto Market featured local wares and art. In Mexico, FIFA collaborated with the National Fund for the Promotion of Handicrafts to promote Indigenous artisans on folk art products with soccer themes. FIFA is recognizing Indigenous communities Ahead of this World Cup, FIFA made Indigenous engagement “a central pillar of its sustainability and human rights strategy, promoting respectful collaboration” with communities across all three host countries. Indigenous people represent off the pitch at the World Cup In 2023, FIFA partnered with the Office of the United Nations High Commissioner for Human Rights for the Unite for Indigenous Peoples campaign. The initiative was a centerpiece of the 2023 Women’s World Cup, hosted by New Zealand and Australia. FIFA, led by a panel of six Indigenous women, ensured both Australia’s First Nations and New Zealand’s Maori cultures were included. Indigenous terms were used on all signage and flags were flown at stadiums. In New Zealand, the traditional karanga call of the Māori was performed before each match, while in Australia the pre-game ceremonies included a welcome to country by Aboriginal or Torres Strait Islander elders. And it’s not just FIFA. Organizers for the 2028 Los Angeles Olympics drew from the Indigenous history of lacrosse to bring the sport back to the games as a medal event for the first time since 1908. The Haudenosaunee (formerly known as the Iroquois, a name given to them by the French), are considered the inventors of the sport and have lobbied with their supporters to compete in the LA Games as an independent nation, but so far have been unsuccessful. Bringing World Cup visitors back Paula Amos of Indigenous Tourism BC said the outreach during the World Cup is vital. Indigenous tourism has a $1.1 billion economic impact to British Columbia each year, according to Destination BC, with 31 percent of international visitors seeking Indigenous experiences. “We’re saying once the final whistle blows, that’s not the end of it, because we are here to inspire visitors to want to come back and bring their families back and have an experience, an Indigenous tourism experience,” Amos said. “Vancouver is the great gateway into the province, so we’re using it to make sure that we’re highlighting all areas of the province, so that we make sure that people will come back, but they want to explore more.” A lasting legacy As partners in the planning and staging of the event, each of the three First Nations will receive $6 million for legacy projects. The Squamish plan to build a youth soccer field in West Vancouver. But the most important legacy is intangible. “My favorite part is seeing our members from our nation walk the streets of Vancouver, participate at the fan fest, sit here at our own watch events, and the pride that they show because people ask questions about our culture, they ask about how important we are, they let us know that,” Joseph said. “For us, to see our members there, front and center, with their chin up, held high, and being proud. To me, those are so many of the memories I have. It’s really the people and the interaction between the people and the cultures.” The post From the 2010 Olympics to the World Cup, Vancouver has pioneered Indigenous inclusion appeared first on ICT ."
+      },
+      "time": {
+        "asserted": "2026-07-18T07:55:48.840Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "decolonization",
+        "citation": "https://ictnews.org/sports/from-the-2010-olympics-to-the-world-cup-vancouver-has-pioneered-indigenous-inclusion/"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "published",
+      "proposition": {
+        "predicate": "published",
+        "object": "Thu, 16 Jul 2026 10:00:00 +0000"
+      },
+      "time": {
+        "asserted": "2026-07-18T07:55:48.840Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "decolonization",
+        "citation": "https://ictnews.org/sports/from-the-2010-olympics-to-the-world-cup-vancouver-has-pioneered-indigenous-inclusion/"
+      },
+      "status": "supported"
+    }
+  ]
+}

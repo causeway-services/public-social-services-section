@@ -1,0 +1,69 @@
+{
+  "subject": "the-genius-act-turns-1-state-of-crypto",
+  "claims": [
+    {
+      "id": "title",
+      "proposition": {
+        "predicate": "title",
+        "object": "The GENIUS Act turns 1: State of Crypto"
+      },
+      "time": {
+        "asserted": "2026-07-19T20:06:11.680Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "economy",
+        "citation": "https://www.coindesk.com/policy/2026/07/19/the-genius-act-turns-1-state-of-crypto"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "url",
+      "proposition": {
+        "predicate": "url",
+        "object": "https://www.coindesk.com/policy/2026/07/19/the-genius-act-turns-1-state-of-crypto"
+      },
+      "time": {
+        "asserted": "2026-07-19T20:06:11.680Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "economy",
+        "citation": "https://www.coindesk.com/policy/2026/07/19/the-genius-act-turns-1-state-of-crypto"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "summary",
+      "proposition": {
+        "predicate": "summary",
+        "object": "The stablecoin-focused GENIUS Act became a law a year ago."
+      },
+      "time": {
+        "asserted": "2026-07-19T20:06:11.680Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "economy",
+        "citation": "https://www.coindesk.com/policy/2026/07/19/the-genius-act-turns-1-state-of-crypto"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "published",
+      "proposition": {
+        "predicate": "published",
+        "object": "Sun, 19 Jul 2026 18:30:00 +0000"
+      },
+      "time": {
+        "asserted": "2026-07-19T20:06:11.680Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "economy",
+        "citation": "https://www.coindesk.com/policy/2026/07/19/the-genius-act-turns-1-state-of-crypto"
+      },
+      "status": "supported"
+    }
+  ]
+}

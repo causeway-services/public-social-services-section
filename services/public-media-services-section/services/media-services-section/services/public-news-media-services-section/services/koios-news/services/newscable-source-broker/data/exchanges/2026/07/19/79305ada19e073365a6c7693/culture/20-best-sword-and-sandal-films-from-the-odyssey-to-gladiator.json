@@ -1,0 +1,69 @@
+{
+  "subject": "20-best-sword-and-sandal-films-from-the-odyssey-to-gladiator",
+  "claims": [
+    {
+      "id": "title",
+      "proposition": {
+        "predicate": "title",
+        "object": "20 Best Sword-and-Sandal Films, From ‘The Odyssey’ to ‘Gladiator’"
+      },
+      "time": {
+        "asserted": "2026-07-19T15:04:21.677Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "culture",
+        "citation": "https://variety.com/lists/20-best-sword-and-sandal-films-the-odyssey-gladiator-the-ten-commandments/"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "url",
+      "proposition": {
+        "predicate": "url",
+        "object": "https://variety.com/lists/20-best-sword-and-sandal-films-the-odyssey-gladiator-the-ten-commandments/"
+      },
+      "time": {
+        "asserted": "2026-07-19T15:04:21.677Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "culture",
+        "citation": "https://variety.com/lists/20-best-sword-and-sandal-films-the-odyssey-gladiator-the-ten-commandments/"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "summary",
+      "proposition": {
+        "predicate": "summary",
+        "object": "It’s been decades since cinemagoers have been treated to a high quality sword-and-sandal film, so leave it to the great Christopher Nolan to reinvigorate the dying genre with his thrilling take on Homer’s classic “The Odyssey.” Needless to say, Elon Musk and his army of trolls couldn’t have been more wrong about this one. The […]"
+      },
+      "time": {
+        "asserted": "2026-07-19T15:04:21.677Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "culture",
+        "citation": "https://variety.com/lists/20-best-sword-and-sandal-films-the-odyssey-gladiator-the-ten-commandments/"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "published",
+      "proposition": {
+        "predicate": "published",
+        "object": "Sun, 19 Jul 2026 15:00:00 +0000"
+      },
+      "time": {
+        "asserted": "2026-07-19T15:04:21.677Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "culture",
+        "citation": "https://variety.com/lists/20-best-sword-and-sandal-films-the-odyssey-gladiator-the-ten-commandments/"
+      },
+      "status": "supported"
+    }
+  ]
+}

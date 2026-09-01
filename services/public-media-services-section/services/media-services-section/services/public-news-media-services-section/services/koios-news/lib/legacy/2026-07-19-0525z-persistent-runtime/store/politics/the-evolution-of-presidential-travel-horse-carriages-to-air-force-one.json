@@ -1,0 +1,69 @@
+{
+  "subject": "the-evolution-of-presidential-travel-horse-carriages-to-air-force-one",
+  "claims": [
+    {
+      "id": "title",
+      "proposition": {
+        "predicate": "title",
+        "object": "The Evolution of Presidential Travel: Horse Carriages to Air Force One"
+      },
+      "time": {
+        "asserted": "2026-07-19T02:19:57.834Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "politics",
+        "citation": "https://www.nytimes.com/2026/07/18/us/politics/trump-air-force-one-travel.html"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "url",
+      "proposition": {
+        "predicate": "url",
+        "object": "https://www.nytimes.com/2026/07/18/us/politics/trump-air-force-one-travel.html"
+      },
+      "time": {
+        "asserted": "2026-07-19T02:19:57.834Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "politics",
+        "citation": "https://www.nytimes.com/2026/07/18/us/politics/trump-air-force-one-travel.html"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "summary",
+      "proposition": {
+        "predicate": "summary",
+        "object": "From horse-drawn presidential coaches to Air Force One, presidents have used various modes of transportation to project an image of America for nearly 250 years."
+      },
+      "time": {
+        "asserted": "2026-07-19T02:19:57.834Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "politics",
+        "citation": "https://www.nytimes.com/2026/07/18/us/politics/trump-air-force-one-travel.html"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "published",
+      "proposition": {
+        "predicate": "published",
+        "object": "Sat, 18 Jul 2026 12:32:43 +0000"
+      },
+      "time": {
+        "asserted": "2026-07-19T02:19:57.834Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "politics",
+        "citation": "https://www.nytimes.com/2026/07/18/us/politics/trump-air-force-one-travel.html"
+      },
+      "status": "supported"
+    }
+  ]
+}

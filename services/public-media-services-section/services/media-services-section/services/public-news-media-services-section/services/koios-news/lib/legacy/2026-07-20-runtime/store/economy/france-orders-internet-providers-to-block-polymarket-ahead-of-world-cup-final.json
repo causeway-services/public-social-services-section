@@ -1,0 +1,69 @@
+{
+  "subject": "france-orders-internet-providers-to-block-polymarket-ahead-of-world-cup-final",
+  "claims": [
+    {
+      "id": "title",
+      "proposition": {
+        "predicate": "title",
+        "object": "France orders internet providers to block Polymarket ahead of World Cup final"
+      },
+      "time": {
+        "asserted": "2026-07-19T20:06:11.680Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "economy",
+        "citation": "https://www.theblock.co/post/408846/france-orders-internet-providers-to-block-polymarket-ahead-of-world-cup-final?utm_source=rss&utm_medium=rss"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "url",
+      "proposition": {
+        "predicate": "url",
+        "object": "https://www.theblock.co/post/408846/france-orders-internet-providers-to-block-polymarket-ahead-of-world-cup-final?utm_source=rss&utm_medium=rss"
+      },
+      "time": {
+        "asserted": "2026-07-19T20:06:11.680Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "economy",
+        "citation": "https://www.theblock.co/post/408846/france-orders-internet-providers-to-block-polymarket-ahead-of-world-cup-final?utm_source=rss&utm_medium=rss"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "summary",
+      "proposition": {
+        "predicate": "summary",
+        "object": "The order cuts French users off ahead of the World Cup final, which will settle the largest event markets in the industry's history."
+      },
+      "time": {
+        "asserted": "2026-07-19T20:06:11.680Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "economy",
+        "citation": "https://www.theblock.co/post/408846/france-orders-internet-providers-to-block-polymarket-ahead-of-world-cup-final?utm_source=rss&utm_medium=rss"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "published",
+      "proposition": {
+        "predicate": "published",
+        "object": "Sun, 19 Jul 2026 13:56:54 -0400"
+      },
+      "time": {
+        "asserted": "2026-07-19T20:06:11.680Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "economy",
+        "citation": "https://www.theblock.co/post/408846/france-orders-internet-providers-to-block-polymarket-ahead-of-world-cup-final?utm_source=rss&utm_medium=rss"
+      },
+      "status": "supported"
+    }
+  ]
+}

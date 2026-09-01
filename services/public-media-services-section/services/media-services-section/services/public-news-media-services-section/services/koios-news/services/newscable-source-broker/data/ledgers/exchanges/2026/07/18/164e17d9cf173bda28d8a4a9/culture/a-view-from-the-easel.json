@@ -1,0 +1,69 @@
+{
+  "subject": "a-view-from-the-easel",
+  "claims": [
+    {
+      "id": "title",
+      "proposition": {
+        "predicate": "title",
+        "object": "A View From the Easel"
+      },
+      "time": {
+        "asserted": "2026-07-18T08:37:53.578Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "culture",
+        "citation": "https://hyperallergic.com/a-view-from-the-easel-140/"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "url",
+      "proposition": {
+        "predicate": "url",
+        "object": "https://hyperallergic.com/a-view-from-the-easel-140/"
+      },
+      "time": {
+        "asserted": "2026-07-18T08:37:53.578Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "culture",
+        "citation": "https://hyperallergic.com/a-view-from-the-easel-140/"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "summary",
+      "proposition": {
+        "predicate": "summary",
+        "object": "Welcome to the 346th installment of A View From the Easel, a series in which artists reflect on their workspace. This week, Patrick Guetta repurposes brand imagery to spread environmentalist messages and approaches the streets of Los Angeles as mini museums in themselves. Want to take part? Check out our submission guidelines and share a bit about your studio with us through this form ! All mediums and workspaces are welcome, including your home studio. Patrick Guetta , Los Angeles, California How long have you been working in this space? I’ve been working in this space for two years. First, I had to build the studio itself and give it energy. Little by little, it transformed completely from an empty space into a place filled with ideas, colors, creation, and dreams. Describe an average day in your studio. I wake up slowly and try not to rush unless I have a meeting. Usually I start around 10 or 11, and I let the day unfold organically. I try not to put boundaries on creativity and let inspiration take over. Sometimes I work late, sometimes I leave and come back, and sometimes answering one email suddenly turns into creating. It’s a very organic process. How does the space affect your work? The space is very important because it feels like home, so I’m very comfortable in it. It’s sunny, filled with natural light, very private, and peaceful. That atmosphere helps me disconnect from the outside world and immerse myself in the creative process. Sometimes I can completely lose myself in the work for hours. How do you interact with the environment outside your studio? I can walk practically everywhere and rarely use my car. I’m surrounded by Fairfax, Melrose, and Beverly areas filled with graffiti, street art, energy, and creativity. I walk constantly through the neighborhood, to coffee shops, and around the city. It’s a very inspiring place to be in Los Angeles, and I feel lucky to have my studio in the middle of all that energy. What do you love about your studio? What I love most about my studio is that it’s mine. I designed it around the way I like to work and live creatively. It’s very private, peaceful, and allows me to fully focus without distractions. It feels personal, comfortable, and completely connected to my energy. What do you wish were different? Honestly, I don’t wish anything were different. I feel very lucky. My studio is an extension of my home, and my home is an extension of my studio. Everything feels connected and comfortable for the way I live and create. I’m not looking to grow into something bigger right now. I just want the freedom to create peacefully and stay inspired. What is your favorite local museum? I don’t really have one favorite museum because each one has a different creative energy. But honestly, one of my favorite museums is the street itself. I love walking through Los Angeles, looking at billboards, signs, graffiti, and visual culture. My work comes from observing what people create, say, and consume. In a way, I turn those everyday surroundings into art through the way I see them. What is your favorite art material to work with? I really like working with acrylic paint because of the vivacity and intensity of the colors. It translates the energy of my work very naturally. I also love photography and use it a lot in my creative process. Sculpture interests me too, but it’s a much more complicated process. Acrylic on canvas feels immediate, spontaneous, and connected to the way I like to create."
+      },
+      "time": {
+        "asserted": "2026-07-18T08:37:53.578Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "culture",
+        "citation": "https://hyperallergic.com/a-view-from-the-easel-140/"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "published",
+      "proposition": {
+        "predicate": "published",
+        "object": "Fri, 17 Jul 2026 15:24:43 GMT"
+      },
+      "time": {
+        "asserted": "2026-07-18T08:37:53.578Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "culture",
+        "citation": "https://hyperallergic.com/a-view-from-the-easel-140/"
+      },
+      "status": "supported"
+    }
+  ]
+}

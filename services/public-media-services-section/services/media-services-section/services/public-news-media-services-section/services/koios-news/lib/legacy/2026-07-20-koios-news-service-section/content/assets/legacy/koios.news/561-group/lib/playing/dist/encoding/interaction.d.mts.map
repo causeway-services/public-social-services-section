@@ -1,0 +1,1 @@
+{"version":3,"file":"interaction.d.mts","sourceRoot":"","sources":["../../src/encoding/interaction.mts"],"names":[],"mappings":"AAgBA,OAAO,KAAK,EAAE,iBAAiB,EAAgB,MAAM,cAAc,CAAC;AAKpE,OAAO,KAAK,EAAE,IAAI,EAAE,MAAM,YAAY,CAAC;AAuCvC,4EAA4E;AAC5E,wBAAgB,uBAAuB,CAAC,KAAK,EAAE,iBAAiB,GAAG,IAAI,CAMtE;AAED,wFAAwF;AACxF,wBAAgB,uBAAuB,CAAC,IAAI,EAAE,OAAO,GAAG,iBAAiB,CAexE"}

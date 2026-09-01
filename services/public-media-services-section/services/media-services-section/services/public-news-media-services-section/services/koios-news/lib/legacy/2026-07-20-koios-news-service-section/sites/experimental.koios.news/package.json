@@ -1,0 +1,80 @@
+{
+  "name": "@emsenn/koios.news",
+  "version": "0.0.0",
+  "type": "module",
+  "description": "Minimal Koios.News HTTP package on @emsenn/metroplat.",
+  "engines": {
+    "node": ">=22.18"
+  },
+  "scripts": {
+    "clean": "rm -rf dist",
+    "check": "tsc --noEmit -p tsconfig.json",
+    "build": "tsc -p tsconfig.json",
+    "build:standalone": "node scripts/build-standalone.mjs",
+    "test": "node --test \"test/**/*.test.mjs\"",
+    "cable:ingest": "node dist/cable-ingest.mjs",
+    "discover": "node dist/discover.mjs --no-trends",
+    "demand": "node dist/demand-cli.mjs",
+    "desk": "node dist/desk-cli.mjs",
+    "start:newsroom": "node dist/newsroom-server.mjs",
+    "new-brief": "node working/researching/scripts/new-brief.mjs",
+    "new-post": "node working/writing/scripts/new-post.mjs",
+    "lint-post": "node working/editing/scripts/lint-post.mjs",
+    "start": "node dist/server.mjs"
+  },
+  "bin": {
+    "cable-ingest": "./dist/cable-ingest.mjs",
+    "koios-discover": "./dist/discover.mjs",
+    "koios-demand": "./dist/demand-cli.mjs",
+    "koios-desk": "./dist/desk-cli.mjs",
+    "koios-new-brief": "./working/researching/scripts/new-brief.mjs",
+    "koios-new-post": "./working/writing/scripts/new-post.mjs",
+    "koios-lint-post": "./working/editing/scripts/lint-post.mjs"
+  },
+  "main": "./dist/index.mjs",
+  "types": "./dist/index.d.mts",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.mts",
+      "import": "./dist/index.mjs"
+    },
+    "./server": {
+      "types": "./dist/server.d.mts",
+      "import": "./dist/server.mjs"
+    },
+    "./newsroom": {
+      "types": "./dist/newsroom.d.mts",
+      "import": "./dist/newsroom.mjs"
+    },
+    "./newsroom-server": {
+      "types": "./dist/newsroom-server.d.mts",
+      "import": "./dist/newsroom-server.mjs"
+    },
+    "./cable": {
+      "types": "./dist/cable.d.mts",
+      "import": "./dist/cable.mjs"
+    },
+    "./demand": {
+      "types": "./dist/demand.d.mts",
+      "import": "./dist/demand.mjs"
+    },
+    "./desk": {
+      "types": "./dist/desk.d.mts",
+      "import": "./dist/desk.mjs"
+    },
+    "./discovery": {
+      "types": "./dist/discovery.d.mts",
+      "import": "./dist/discovery.mjs"
+    }
+  },
+  "dependencies": {
+    "@emsenn/metroplat": "workspace:*"
+  },
+  "devDependencies": {
+    "@types/node": "^22.0.0",
+    "typescript": "^5.8.0"
+  },
+  "keywords": [
+    "sovereign-state-enterprise"
+  ]
+}

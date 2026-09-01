@@ -1,0 +1,33 @@
+{
+  "kind": "metroplat.contract",
+  "id": "newswire-editorial-production/prose-contribution/v1",
+  "precondition": {
+    "id": "licensed-prose-commission-received",
+    "description": "A customer supplies an exact prose-only commission bound by digest to its assignment, admitted research packet, licensed editorial state, writing law, style law, required source URLs, and finite LISS route policy."
+  },
+  "move": {
+    "id": "procure-prose-contribution",
+    "description": "Newswire Editorial Production offers the exact commission, contracts LISS for the admitted cheapest-sufficient route, and returns the resulting prose with the complete upstream provider result.",
+    "domain": "prose-contribution-demand",
+    "codomain": "prose-contribution-delivery-or-typed-refusal",
+    "partial": false,
+    "deterministic": false,
+    "effects": ["boundary", "inference", "evidence"]
+  },
+  "postcondition": {
+    "id": "prose-contribution-settled",
+    "description": "The customer receives either prose bound to the exact commission and LISS receipt, a dry-run readiness witness with no prose, or a typed obstruction. Newswire never writes the customer's manuscript or publication state."
+  },
+  "constraints": [
+    "customer filesystem paths and mutation authority are inadmissible",
+    "models return prose rather than serialized newsroom records",
+    "provider failure is returned as obstruction and never causes Newswire to invent a new route",
+    "the accepted customer capability and child LISS capability preserve the exact offered effects and route scope",
+    "credentials enter only the invocation environment and are never recorded"
+  ],
+  "evidencePolicy": {
+    "required": true,
+    "records": ["newswire-offer", "newswire-exchange", "complete-liss-provider-result"],
+    "boundaryObject": "full"
+  }
+}

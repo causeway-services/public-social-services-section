@@ -1,0 +1,69 @@
+{
+  "subject": "from-the-father-of-the-guy-who-made-obsession-is-the-nepo-dad-the-new-nepo-baby",
+  "claims": [
+    {
+      "id": "title",
+      "proposition": {
+        "predicate": "title",
+        "object": "‘From the father of the guy who made Obsession’: is the nepo dad the new nepo baby?"
+      },
+      "time": {
+        "asserted": "2026-07-19T15:04:21.677Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "culture",
+        "citation": "https://www.theguardian.com/film/2026/jul/16/nepo-dad-curry-barker-father"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "url",
+      "proposition": {
+        "predicate": "url",
+        "object": "https://www.theguardian.com/film/2026/jul/16/nepo-dad-curry-barker-father"
+      },
+      "time": {
+        "asserted": "2026-07-19T15:04:21.677Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "culture",
+        "citation": "https://www.theguardian.com/film/2026/jul/16/nepo-dad-curry-barker-father"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "summary",
+      "proposition": {
+        "predicate": "summary",
+        "object": "<p>With Dane Cook set to star in his new film, Curry Barker’s dad joins Lana Del Rey’s dad and Tom Holland’s dad in a new wave of nepo daddies</p><p>A generational shift is happening in Hollywood. The two big breakout films of the spring – <a href=\"https://www.theguardian.com/film/2026/may/27/backrooms-review-kane-parsons-icily-disturbing-horror-rewrites-the-genre-rulebook\">Backrooms</a> and <a href=\"https://www.theguardian.com/film/2025/sep/06/obsession-movie-review-tiff\">Obsession</a> – were made by a pair of plucky young YouTubers who found themselves granted the <a href=\"https://www.theguardian.com/film/2026/jun/01/youtube-gen-z-filmmakers\">keys to the kingdom</a>. Both of these films took more money than the <a href=\"https://www.theguardian.com/film/2026/may/19/star-wars-the-mandalorian-and-grogu-review-helmeted-hero-tangles-with-hateful-hutts-in-decent-feature-outing\">most recent Star Wars</a>, the most recent superhero movie (<a href=\"https://www.theguardian.com/film/2026/jun/24/supergirl-review-milly-alcock-eve-ridley\">Supergirl</a>) and the <a href=\"https://www.theguardian.com/film/2026/jun/09/disclosure-day-review-close-encounters-of-a-deferred-kind-in-spielbergs-conspiracy-spectacular\">most recent Spielberg</a>. It is arguably the biggest shake-up of the film industry since the rise of New Hollywood in the 1970s.</p><p>But perhaps the biggest change is tangential to all of this. This week it was announced that Jeff Barker – the father of Obsession direction <a href=\"https://www.theguardian.com/film/2026/may/14/curry-barker-obsession-horror-movie\">Curry Barker</a> – is making a film of his own. <a href=\"https://www.hollywoodreporter.com/movies/movie-news/obsession-curry-barker-jeff-barker-horror-short-dane-cook-1236646534/\">Medium Rare</a> is a horror short that will shoot this summer and star Dane Cook and the Oscar-nominated actor Lesley Ann Warren. This will come hot on the heels of Good Tape, another horror short of Barker’s that is currently in post-production.</p> <a href=\"https://www.theguardian.com/film/2026/jul/16/nepo-dad-curry-barker-father\">Continue reading...</a>"
+      },
+      "time": {
+        "asserted": "2026-07-19T15:04:21.677Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "culture",
+        "citation": "https://www.theguardian.com/film/2026/jul/16/nepo-dad-curry-barker-father"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "published",
+      "proposition": {
+        "predicate": "published",
+        "object": "Thu, 16 Jul 2026 15:07:42 GMT"
+      },
+      "time": {
+        "asserted": "2026-07-19T15:04:21.677Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "culture",
+        "citation": "https://www.theguardian.com/film/2026/jul/16/nepo-dad-curry-barker-father"
+      },
+      "status": "supported"
+    }
+  ]
+}

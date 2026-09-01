@@ -1,0 +1,69 @@
+{
+  "subject": "vhf-propagation-what-every-rf-engineer-should-know",
+  "claims": [
+    {
+      "id": "title",
+      "proposition": {
+        "predicate": "title",
+        "object": "VHF Propagation: What Every RF Engineer Should Know"
+      },
+      "time": {
+        "asserted": "2026-07-19T14:41:51.389Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "technology",
+        "citation": "https://content.knowledgehub.wiley.com/understanding-vhf-very-high-frequency-propagation/"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "url",
+      "proposition": {
+        "predicate": "url",
+        "object": "https://content.knowledgehub.wiley.com/understanding-vhf-very-high-frequency-propagation/"
+      },
+      "time": {
+        "asserted": "2026-07-19T14:41:51.389Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "technology",
+        "citation": "https://content.knowledgehub.wiley.com/understanding-vhf-very-high-frequency-propagation/"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "summary",
+      "proposition": {
+        "predicate": "summary",
+        "object": "A practical educational guide to common and uncommon VHF propagation modes, covering thephysics, range implications, and real-world behaviors engineers need to understand. What Attendees will Learn Why “line of sight” fails as a practical VHF planning model. How refraction, reflection, diffraction, and scattering deliver or destroy signals where geometry alone cannot predict. How tropospheric refraction extends the VHF radio horizon roughly one-third beyond optical line of sight. How temperature inversions form ducts that can carry VHF signals over 1,500 km. How sporadic E, meteor burst, and EME propagate VHF signals across hundreds to thousands of kilometers. What frequency limits, distance ranges, and environmental triggers apply to each propagation mode. How to apply this knowledge to link budgeting, interference prediction, and contingency planning. Download this free whitepaper now!"
+      },
+      "time": {
+        "asserted": "2026-07-19T14:41:51.389Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "technology",
+        "citation": "https://content.knowledgehub.wiley.com/understanding-vhf-very-high-frequency-propagation/"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "published",
+      "proposition": {
+        "predicate": "published",
+        "object": "Mon, 13 Jul 2026 10:00:01 +0000"
+      },
+      "time": {
+        "asserted": "2026-07-19T14:41:51.389Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "technology",
+        "citation": "https://content.knowledgehub.wiley.com/understanding-vhf-very-high-frequency-propagation/"
+      },
+      "status": "supported"
+    }
+  ]
+}

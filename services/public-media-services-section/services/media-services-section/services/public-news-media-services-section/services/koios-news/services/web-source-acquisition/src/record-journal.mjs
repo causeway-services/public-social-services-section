@@ -1,0 +1,4 @@
+import { createSemanticRecordJournal } from "@red-cup-engineering/semantic-record-journal-service";
+const ACTOR = "urn:ame:web-source-acquisition";
+export function createSettlementStore({ settlementRoot } = {}) { return Object.freeze({ record({ category, recordedAt, record }) { return createSemanticRecordJournal({ root: settlementRoot, objectKind: "koios-news.web-source-acquisition.record" }).record({ category, recordedAt, record, charge: { support: true, refutation: false }, relation: { subject: ACTOR, predicate: "records", object: record.id ?? category } }); } }); }
+export function querySettlementRecords(category, { root } = {}) { return createSemanticRecordJournal({ root, objectKind: "koios-news.web-source-acquisition.record" }).query({ category }).map((row) => structuredClone(row.record)); }

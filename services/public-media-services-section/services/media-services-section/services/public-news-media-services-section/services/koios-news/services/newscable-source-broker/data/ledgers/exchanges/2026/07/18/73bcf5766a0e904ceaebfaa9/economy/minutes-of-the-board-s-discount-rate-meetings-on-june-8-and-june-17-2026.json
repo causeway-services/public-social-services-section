@@ -1,0 +1,69 @@
+{
+  "subject": "minutes-of-the-board-s-discount-rate-meetings-on-june-8-and-june-17-2026",
+  "claims": [
+    {
+      "id": "title",
+      "proposition": {
+        "predicate": "title",
+        "object": "Minutes of the Board's discount rate meetings on June 8 and June 17, 2026"
+      },
+      "time": {
+        "asserted": "2026-07-18T07:51:39.430Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "economy",
+        "citation": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260714a.htm"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "url",
+      "proposition": {
+        "predicate": "url",
+        "object": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260714a.htm"
+      },
+      "time": {
+        "asserted": "2026-07-18T07:51:39.430Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "economy",
+        "citation": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260714a.htm"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "summary",
+      "proposition": {
+        "predicate": "summary",
+        "object": "Minutes of the Board's discount rate meetings on June 8 and June 17, 2026"
+      },
+      "time": {
+        "asserted": "2026-07-18T07:51:39.430Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "economy",
+        "citation": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260714a.htm"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "published",
+      "proposition": {
+        "predicate": "published",
+        "object": "Tue, 14 Jul 2026 18:00:00 GMT"
+      },
+      "time": {
+        "asserted": "2026-07-18T07:51:39.430Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "economy",
+        "citation": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260714a.htm"
+      },
+      "status": "supported"
+    }
+  ]
+}

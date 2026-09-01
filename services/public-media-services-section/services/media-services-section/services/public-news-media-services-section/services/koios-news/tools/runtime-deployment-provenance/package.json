@@ -1,0 +1,9 @@
+{
+  "name": "@causeway-services/koios-runtime-deployment-provenance",
+  "version": "0.0.1",
+  "type": "module",
+  "scripts": {
+    "check": "node --check bin/koios-runtime-provenance.mjs && node --check test/provenance.test.mjs",
+    "test": "node --test test/*.test.mjs"
+  }
+}

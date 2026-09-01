@@ -1,0 +1,1404 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<!-- 2025-10-05 Sun 17:39 -->
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>TAB</title>
+<meta name="generator" content="Org Mode" />
+<style>
+/* [[file:../../emsenn-net.org::emsenn-net-css][emsenn-net-css]] */
+@charset "UTF-8";
+
+:root {
+  --body-font: sans-serif;
+  --header-font: sans-serif;
+  --code-font: monospace;
+  --primary-color: #ffe;
+  --primary-dim-color: #eed;
+  --secondary-color: #312;
+  --secondary-dim-color: #756;
+  --link-color: #880;
+  --link-hover-color: #aa2;
+  --link-visited-color: #934;
+  --link-visited-hover-color: #b56;
+  --external-link-color: #008;
+  --external-link-hover-color: #60b;
+  --external-link-visited-color: #172;
+  --external-link-visited-hover-color: #394;
+}
+@media(prefers-color-scheme:light){
+  :root {
+     --body-font: sans-serif;
+     --header-font: sans-serif;
+     --code-font: monospace;
+     --primary-color: #756;
+     --primary-dim-color: #312;
+     --secondary-color: #eed;
+     --secondary-dim-color: #ffe;
+     --link-color: #880;
+     --link-hover-color: #aa2;
+     --link-visited-color: #934;
+     --link-visited-hover-color: #b56;
+  }}
+body {
+  position: relative;
+  min-height: 100%;
+  background-color: var(--primary-color);
+  color: var(--secondary-color);
+  margin: 0 auto;
+  font-family: sans-serif;
+}
+main, #content {
+  background-color: var(--primary-dim-color);
+  border-left: 1.5em dotted var(--primary-color);
+  padding: 1em;
+}
+header {
+  border-bottom: 0.8em dotted var(--secondary-dim-color);
+}
+h1 { font-size: 2em; margin-bottom: 0; }
+h2 {
+  border-bottom: 0.3em dotted var(--secondary-dim-color);
+}
+h2, h3, h4, h5, h6, p, table, ul, ol, .org-src-container {
+  width: 60%;
+}
+aside {
+  float: right;
+  width: 35%;
+}
+aside p { width: 100%; }
+@media screen and (max-width:760px) {
+  h2, h3, h4, h5, h6, p, table, ul, ol, .org-src-container {
+     width: 90%;
+  }
+  aside {
+     float: inherit;
+     width: 90%;
+     border-top: 0.2em dotted var(--secondary-dim-color);
+     border-bottom: 0.2em dotted VAR(--secondary-dim-color);
+     font-size: 0.8em;
+	 }
+}
+
+footer, #postamble, #preamble {
+  padding: 0.5em;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+  empty-cells: show;
+  border: 0.1em solid #444;
+}
+thead { font-family: sans-serif; }
+th, td {
+  padding: 0 0.3em;
+  border: 0.01em solid #444;
+}
+img {
+  max-width: 80vw;
+  vertical-align: middle;
+}
+pre, .src {
+  padding: 0.5em;
+  border: 0.1em solid #444;
+  white-space: pre-wrap;
+  overflow-x: scroll;
+  text-overflow: clip;
+  scrollbar-width: none;
+}
+pre::-webkit-scrollbar, .src::-webkit-scrollbar {
+  display: none;
+}
+
+
+dt {
+  font-weight: normal;
+  display: inline-block;
+  border-bottom: 0.1rem dotted #444;
+}
+#text-index dt { border-bottom: none; }
+h2, h3, h4, h5, h6, h7, h8, h9, h10 {
+  display: block;
+  font-family: sans-serif;
+  margin: 0.2em auto 0.5em 0;
+}
+a, .link {
+  text-decoration: none;
+  color: #880;
+  display: inline;
+  position: relative;
+  border-bottom: 0.1rem dotted;
+  line-height: 1.2;
+  transition: border 0.3s;
+}
+a:hover {
+  color: #aa2;
+  outline-style: none;
+  border-bottom: 0.1rem solid;
+}
+a:visited, .visited-link { color: #934; }
+a:visited:hover { color: #b56; }
+a:focus {
+  outline-style: none;
+  border-bottom: 0.1rem solid;
+}
+::selection { background-color: #777; color: #eee; }
+a::selection { background-color: #ccc; }
+.org-todo {
+  background-color: #ddd;
+  color: #333;
+  font-size: .8rem;
+  float: right;
+}
+.org-src-container + .example {
+  margin-left: 8em;
+}
+a[href^="https://"]:not([href*="emsenn.net"]):after, a[href^="https://"]:not([href*="emsenn.net"]):visited:after, .external-link:after, .visited-external-link:after {
+  content: "^";
+  font-size: 0.5em;
+  vertical-align: super;
+}
+a[href^="https://"]:not([href*="emsenn.net"]), .external-link {
+  color: var(--external-link-color);
+}
+a[href^="https://"]:not([href*="emsenn.net"]):hover{
+  color: var(--external-link-hover-color);
+}
+a[href^="https://"]:not([href*="emsenn.net"]):visited, .visited-external-link {
+  color: var(--external-link-visited-color);
+}
+a[href^="https://"]:not([href*="emsenn.net"]):visited:hover{
+  color: var(--external-link-visited-hover-color);
+}
+blockquote {
+  border: 0.1em dashed var(--secondary-dim-color);
+  padding-left: 0.2em;
+}
+label.org-src-name {
+  margin: 0 0 0 3em;
+  font-family: sans-serif;
+  font-size: 1rem;
+  line-height: 0;
+}
+.skip-to-content {
+  opacity: 0;
+  position: absolute;
+  left: 0.2em;
+}
+.skip-to-content:focus{
+  opacity: 1;
+  background-color: var(--secondary-dim-color);
+  color: var(--primary-color);
+}
+ul { max-width: 85%; }
+.footpara { display: inline; font-size: 0.8rem; }
+/* emsenn-net-css ends here */
+
+</style>
+</head>
+<body>
+<section id="preamble" class="status">
+<!-- [[file:../../emsenn-net.org::emsenn-net-preamble][emsenn-net-preamble]] -->
+<a href="#content" class="skip-to-content">skip to content</a>
+<section class="nav"><strong>emsenn's digital garden</strong> 
+  <a href="./index.html">
+    Homepage</a> | 
+  <a href="./theindex.html">
+    Index</a>
+  <p>This Website was cultivated as a public asset with <a href="https://ko-fi.com/emsenn">support</a> from people like you. <strong><em>Thank you!</em></strong></p>
+  <details>
+    <summary>Click this sentence for information about my Website.</summary>
+    <p>Click each sentence below for more info:</p>
+    <ul>
+      <li><details>
+  	  <summary>This website was created by Emacs and Org-mode</summary>
+  	  <p>See <a href="https://emsenn.net/gnoponemacs.html">my Emacs configuration</a> to learn how.</p>
+      </details></li>
+      <li><details>
+  	  <summary>Its content was written by hand.</summary>
+  	  <p>This means there might be mistakes! 
+      </details></li>
+      <li><details>
+  	  <summary>It uses style to add information to the pages.</summary>
+  	  <ul>
+  	    <li><details>
+  	   	<summary>Click this sentence to see how links are styled:</summary>
+  	   	<table>
+  	   	  <thead><tr>
+  	   	      <th scope="col">Color</th>
+  	   	      <th scope="col">Link type</th>
+  	   	  </tr></thead>
+  	   	  <tbody>
+  	   	    <tr><td class="link">Sample</td>
+  	   	      <td>Unvisited local resource</td></tr>
+  	   	    <tr><td class="visited-link">Sample</td>
+  	   	      <td>Visited local resource</td></tr>
+  	   	    <tr><td class="external-link">Sample</td>
+  	   	      <td>Unvisited external resource</td></tr>
+  	   	    <tr><td class="visited-external-link">Sample</td>
+  	   	      <td>Visited external resource</td></tr>
+  	   	  </tbody>
+  	   	</table>
+  	    </details></li>
+  	  </ul>
+      </details></li>
+    </ul>
+  </details>
+</section>
+<!-- emsenn-net-preamble ends here -->
+</section>
+<main id="content" class="content">
+<header>
+<h1 class="title">TAB</h1>
+</header><section id="outline-container-org39ea96f" class="outline-2">
+<h2 id="org39ea96f">Documentation</h2>
+<div class="outline-text-2" id="text-org39ea96f">
+</div>
+<div id="outline-container-org66b796d" class="outline-3">
+<h3 id="org66b796d">README</h3>
+</div>
+</section>
+<section id="outline-container-org8ea6eb9" class="outline-2">
+<h2 id="org8ea6eb9">Engine</h2>
+<div class="outline-text-2" id="text-org8ea6eb9">
+</div>
+<div id="outline-container-org66e1245" class="outline-3">
+<h3 id="org66e1245">Configuration</h3>
+<div class="outline-text-3" id="text-org66e1245">
+<div class="org-src-container">
+<pre class="src src-fennel" id="orgac21ed5"><code>
+</code></pre>
+</div>
+</div>
+</div>
+<div id="outline-container-org4642e83" class="outline-3">
+<h3 id="org4642e83">Engine</h3>
+<div class="outline-text-3" id="text-org4642e83">
+<div class="org-src-container">
+<pre class="src src-fennel" id="orge9eb84b"><code>(local fennel (require :fennel))
+(local conf (require :conf))
+(local tab {:view fennel.view
+            :eval fennel.eval
+            :doc fennel.doc})
+</code></pre>
+</div>
+</div>
+<div id="outline-container-orgcb20e57" class="outline-4">
+<h4 id="orgcb20e57">Utilities</h4>
+<div class="outline-text-4" id="text-orgcb20e57">
+</div>
+<div id="outline-container-org1698ddb" class="outline-5">
+<h5 id="org1698ddb">Logging</h5>
+<div class="outline-text-5" id="text-org1698ddb">
+<div class="org-src-container">
+<pre class="src src-fennel" id="org912cfc2"><code>(local log-levels {:critical 1 :error 2 :warning 3
+                   :info 4 :debug 5 :spam 6})
+
+(fn tab.log [level ...]
+  {:fnl/docstring "Print MESSAGE (can be more than one string) if LEVEL is equal or greater to the configured log level."
+   :fnl/arglist [level message]}
+  (fn print-message [message]
+    (print (.. (tab.render-time (os.time) true)
+               "&gt; " level
+               (if (= level :error) ":    "
+                   (if (= level :warning) ":  "
+                       (if (= level :info) ":     "
+                           (if (= level :debug) ":    "
+                               (if (= level :spam) ":     "
+                                   ": ")))))
+               message)))
+  (when (&gt;= (. log-levels conf.log-level)
+            (. log-levels level))
+    (print-message (tab.concat ...))))    
+</code></pre>
+</div>
+</div>
+</div>
+<div id="outline-container-orge516f32" class="outline-5">
+<h5 id="orge516f32">Strings</h5>
+<div class="outline-text-5" id="text-orge516f32">
+</div>
+<div id="outline-container-org178f1a7" class="outline-6">
+<h6 id="org178f1a7">Concatenating</h6>
+<div class="outline-text-6" id="text-org178f1a7">
+<div class="org-src-container">
+<pre class="src src-fennel" id="org498c2a6"><code>(fn tab.concat [...]
+  (let [stab (table.pack ...)
+        A (tab.make-string-appender)]
+    (set stab.n nil)
+    (each [_ str (pairs stab)]
+      (A str))
+    (A)))
+</code></pre>
+</div>
+</div>
+</div>
+<div id="outline-container-orgf7d0d0f" class="outline-6">
+<h6 id="orgf7d0d0f">Appending</h6>
+<div class="outline-text-6" id="text-orgf7d0d0f">
+<div class="org-src-container">
+<pre class="src src-fennel" id="orgdef03d6"><code>(fn tab.make-string-appender [?sep]
+"Return a function that holds a string and accepts one additional argument (string or list of strings). If provided, the argument is appended to the held string, with SEP appended (to each one, if its a list of strings.)"
+(var o "")
+(lambda [?a]
+  (lambda q [r]
+    (set o (.. o r (or ?sep ""))) o)
+  (if ?a
+      (if (or (= (type ?a) :string)
+              (= (type ?a) :number))
+          (q ?a)
+          (each [_ v (pairs ?a)]
+            (q v)))
+      o)))
+</code></pre>
+</div>
+</div>
+</div>
+<div id="outline-container-org56787a2" class="outline-6">
+<h6 id="org56787a2">Quibbling</h6>
+<div class="outline-text-6" id="text-org56787a2">
+<div class="org-src-container">
+<pre class="src src-fennel" id="orgc542902"><code>(fn tab.quibble-strings [strings ?resort ?oxfordize]
+  "Return the sequence of STRINGS separated with commas and the conjunction 'and'. ?OXFORDIZE is currently irrelevant; strings are oxfordized by defualt."
+  (let [oxfordize (or ?oxfordize true)
+        o (tab.make-string-appender)]
+    (when ?resort (table.sort strings))
+    (var join "")
+    (for [count 1
+          (length strings) 1]
+      (if (= count (length strings))
+          (set join "")
+          (= count (- (length strings) 1))
+          (set join
+               (.. (if (and oxfordize
+                            (&gt; (length strings) 2))
+                       ","
+                       "")
+                   " and "))
+          (set join ", "))
+      (o [(. strings count) join]))
+    (o)))
+</code></pre>
+</div>
+</div>
+</div>
+<div id="outline-container-org8ea2750" class="outline-6">
+<h6 id="org8ea2750">Splitting</h6>
+<div class="outline-text-6" id="text-org8ea2750">
+<div class="org-src-container">
+<pre class="src src-fennel" id="orgdba6534"><code>(fn tab.split-string [string ?sep]
+(let [words []
+      matcher (string.gmatch string (or ?sep "%S+"))]
+  (var done? nil)
+  (while (not done?)
+    (let [word (matcher)]
+      (if word
+          (table.insert words word)
+          (set done? true))))
+  words))
+</code></pre>
+</div>
+</div>
+</div>
+<div id="outline-container-org74ec222" class="outline-6">
+<h6 id="org74ec222">Generating</h6>
+<div class="outline-text-6" id="text-org74ec222">
+</div>
+<div id="outline-container-org0bc29ef" class="outline-7">
+<h7 id="org0bc29ef">IDs</h7>
+<div class="outline-text-7" id="text-org0bc29ef">
+<div class="org-src-container">
+<pre class="src src-fennel" id="orgc7f5541"><code>(fn tab.make-id [?existing]
+(math.randomseed (os.time))
+(fn gen-id [x]
+  (let [r (- (math.random 16) 1)
+        p (or (and (= x :x) (+ r 1)) (+ (% r 4) 9))]
+    (: :0123456789abcdef :sub p p)))
+(let [gen (: :xxxxxxxx :gsub "[xy]" gen-id)]
+  (print "generated" gen)
+  (if (tab.find-element (or ?existing []) gen)
+      (tab.make-id ?existing)
+      gen)))
+</code></pre>
+</div>
+</div>
+</div>
+</div>
+<div id="outline-container-orgafd3e68" class="outline-6">
+<h6 id="orgafd3e68">Underlining</h6>
+<div class="outline-text-6" id="text-orgafd3e68">
+<div class="org-src-container">
+<pre class="src src-fennel" id="orgc5e9734"><code>(fn tab.underline [str]
+  (let [A (tab.make-string-appender)]
+    (for [i (length str) 1 -1]
+      (A :-))
+    (.. str "\n" (A))))
+</code></pre>
+</div>
+</div>
+</div>
+</div>
+<div id="outline-container-orgeb3c196" class="outline-5">
+<h5 id="orgeb3c196">Time</h5>
+<div class="outline-text-5" id="text-orgeb3c196">
+</div>
+<div id="outline-container-orgca4841c" class="outline-6">
+<h6 id="orgca4841c">Rendering</h6>
+<div class="outline-text-6" id="text-orgca4841c">
+<div class="org-src-container">
+<pre class="src src-fennel" id="orgc4c1d9c"><code>(fn tab.render-time [time ?seconds]
+  "Given a Lua timecode, renders it as YYYYMMDD:HHMM, appending ?SECONDS if true."
+  (os.date (if ?seconds
+               "%Y%m%d:%H%M%S"
+               "%Y%m%d:%H%M")
+           time))
+</code></pre>
+</div>
+</div>
+</div>
+</div>
+<div id="outline-container-orgceae22c" class="outline-5">
+<h5 id="orgceae22c">Files</h5>
+<div class="outline-text-5" id="text-orgceae22c">
+</div>
+<div id="outline-container-org1749bff" class="outline-6">
+<h6 id="org1749bff">Scanning Directories</h6>
+<div class="outline-text-6" id="text-org1749bff">
+<div class="org-src-container">
+<pre class="src src-fennel" id="org0f70e79"><code>(fn tab.scan-directory [path ?recurse ?type ?strip-ext]
+  "Return a list of files &amp; directories at PATH, ?RECURSE-ing if true, limited to Files or Directories if F or D are given as the TYPE, and ?STRIP-EXT if true removes the file extension from the file names in the returned list."
+  (local matches {})
+  (local A (tab.make-string-appender))
+  (A ["find \"" path "\""])
+  (when (not ?recurse) (A " -maxdepth 1"))
+  (when ?type (A [" -type " ?type]))
+  (let [results (io.popen (A))]
+    (each [result _ (results:lines)]
+      (let [line (string.sub result (+ 2 (length path)))]
+        (when (&gt; (length line) 0)
+          (table.insert matches (if ?strip-ext
+                                    (: line :sub 0 -5)
+                                    line))))))
+  matches)
+</code></pre>
+</div>
+</div>
+</div>
+<div id="outline-container-org39fc7d9" class="outline-6">
+<h6 id="org39fc7d9">Saving File</h6>
+<div class="outline-text-6" id="text-org39fc7d9">
+<div class="org-src-container">
+<pre class="src src-fennel" id="orgb4b0a19"><code>(fn tab.save-file [data path ?force]
+  (tab.log :debug (.. "Saving data to " path))
+  (match (io.open (.. path :.fnl) :w)
+    sfile (do (sfile:write (fennel.view data))
+              (sfile:close))
+    (_ err) (if ?force
+                (do (os.execute
+                 (.. "mkdir "
+                     (string.match path "(.*[/\\])")))
+                    (tab.save-file data path))
+                err)))
+</code></pre>
+</div>
+</div>
+</div>
+<div id="outline-container-org519ad22" class="outline-6">
+<h6 id="org519ad22">Loading File</h6>
+<div class="outline-text-6" id="text-org519ad22">
+<div class="org-src-container">
+<pre class="src src-fennel" id="org200e30c"><code>(fn tab.load-file [path ?fallback]
+  "Return the evaluated contents at PATH, or the ?FALLBACK if there's no file at PATH. (Evaluated means, its been parsed by Fennel, i.e. if you load a file containing a table, load-file will return a table, not a string."
+  (let [load-file (io.open (.. path ".fnl") :r)]
+    (if load-file
+        (let [loaded-data (load-file:read "*all")]
+          (fennel.eval loaded-data))
+        (if ?fallback
+            (do
+              (tab.save-file ?fallback path)
+              (tab.load-file path))
+            (print (.. "No file at " path
+                       " and no fallback given. Failed to load."))))))
+</code></pre>
+</div>
+</div>
+</div>
+<div id="outline-container-org06341c3" class="outline-6">
+<h6 id="org06341c3">Loading Folder</h6>
+<div class="outline-text-6" id="text-org06341c3">
+<div class="org-src-container">
+<pre class="src src-fennel" id="org7c048c4"><code>(fn tab.load-folder [path ?recurse]
+  (local files-data {})
+  (each [_ file-path (pairs (tab.scan-directory path ?recurse :f))]
+    (local id (: file-path :sub 0 -5))
+    (tset files-data id (tab.load-file (.. path :/ id))))
+  files-data)
+</code></pre>
+</div>
+</div>
+</div>
+</div>
+<div id="outline-container-orgc79c4b8" class="outline-5">
+<h5 id="orgc79c4b8">Tables</h5>
+<div class="outline-text-5" id="text-orgc79c4b8">
+</div>
+<div id="outline-container-org72e7dc4" class="outline-6">
+<h6 id="org72e7dc4">Collecting keys</h6>
+<div class="outline-text-6" id="text-org72e7dc4">
+<div class="org-src-container">
+<pre class="src src-fennel" id="org2f61d4a"><code>(fn tab.collect-keys [tbl]
+  "Return a list of the keys in TBL."
+  (icollect [key _ (pairs tbl)] key))
+</code></pre>
+</div>
+</div>
+</div>
+<div id="outline-container-orgddee1ca" class="outline-6">
+<h6 id="orgddee1ca">Listing values</h6>
+<div class="outline-text-6" id="text-orgddee1ca">
+<div class="org-src-container">
+<pre class="src src-fennel" id="org8364876"><code>(fn tab.list-values [tabs key]
+  "Return a list of the values for KEY in each table in TABS."
+  (let [lst []]
+    (each [_ tab (pairs tabs)]
+      (table.insert lst (. tab key)))
+    (tab.drop-dupes lst)))
+</code></pre>
+</div>
+</div>
+</div>
+<div id="outline-container-org43b07fc" class="outline-6">
+<h6 id="org43b07fc">Adding values</h6>
+<div class="outline-text-6" id="text-org43b07fc">
+<div class="org-src-container">
+<pre class="src src-fennel" id="org1f3b07b"><code>(fn tab.add-values [tab addn]
+  (each [k v (pairs addn)]
+    (tset tab k v)))
+</code></pre>
+</div>
+</div>
+</div>
+<div id="outline-container-orgd5d5728" class="outline-6">
+<h6 id="orgd5d5728">Removing values</h6>
+<div class="outline-text-6" id="text-orgd5d5728">
+<div class="org-src-container">
+<pre class="src src-fennel" id="org6e299d4"><code>(fn tab.remove-value [tab val]
+  (each [key value (pairs tab)]
+    (when (= value val)
+      (table.remove tab key)))
+  tab)
+</code></pre>
+</div>
+</div>
+</div>
+<div id="outline-container-org3b5bb87" class="outline-6">
+<h6 id="org3b5bb87">Cloning tables</h6>
+<div class="outline-text-6" id="text-org3b5bb87">
+<div class="org-src-container">
+<pre class="src src-fennel" id="org4341742"><code>(fn tab.clone-table [tab ?addn]
+  (let [clone (collect [k v (pairs tab)] k v)]
+    (when ?addn (tab.add-values clone ?addn))
+    clone))
+</code></pre>
+</div>
+</div>
+</div>
+</div>
+<div id="outline-container-orgbd1a413" class="outline-5">
+<h5 id="orgbd1a413">Sequences</h5>
+<div class="outline-text-5" id="text-orgbd1a413">
+</div>
+<div id="outline-container-orgdb31d59" class="outline-6">
+<h6 id="orgdb31d59">Finding elements</h6>
+<div class="outline-text-6" id="text-orgdb31d59">
+<div class="org-src-container">
+<pre class="src src-fennel" id="org5adac45"><code>(fn tab.find-element [seq query]
+  (let [matched []]
+    (each [_ element (pairs seq)]
+      (when (= element query)
+        (table.insert matched element)))
+    (if (&gt; (length matched) 0) true nil)))
+</code></pre>
+</div>
+</div>
+</div>
+<div id="outline-container-org4bac5e0" class="outline-6">
+<h6 id="org4bac5e0">Dropping duplicates</h6>
+<div class="outline-text-6" id="text-org4bac5e0">
+<div class="org-src-container">
+<pre class="src src-fennel" id="orga35cbb7"><code>(fn tab.drop-dupes [seq]
+  (local clean {})
+  (each [key val (pairs seq)]
+    (when (not (tab.find-element clean val))
+      (table.insert clean val)))
+  clean)
+</code></pre>
+</div>
+</div>
+</div>
+<div id="outline-container-org7c22a00" class="outline-6">
+<h6 id="org7c22a00">Reversing</h6>
+<div class="outline-text-6" id="text-org7c22a00">
+<div class="org-src-container">
+<pre class="src src-fennel" id="orga755c5a"><code>(fn tab.reverse-list [list]
+  (let [rev []]
+    (for [i (length list) 1 -1]
+      (tset rev (+ (length rev) 1) (. list i)))
+      rev))
+</code></pre>
+</div>
+</div>
+</div>
+<div id="outline-container-org21a299d" class="outline-6">
+<h6 id="org21a299d">Finding-by</h6>
+<div class="outline-text-6" id="text-org21a299d">
+<div class="org-src-container">
+<pre class="src src-fennel" id="org1b5c346"><code>(fn tab.find-by [tbl f ?i]
+  (let [x (. tbl (or ?i 1))]
+    (if (= nil x) nil
+        (or (f x)
+            (tab.find-by tbl f (+ 1 (or ?i 1)))))))
+</code></pre>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div id="outline-container-org13e7a3c" class="outline-4">
+<h4 id="org13e7a3c">Metaphysics</h4>
+<div class="outline-text-4" id="text-org13e7a3c">
+</div>
+<div id="outline-container-orgec56841" class="outline-5">
+<h5 id="orgec56841">Behaviors</h5>
+<div class="outline-text-5" id="text-orgec56841">
+</div>
+<div id="outline-container-org750a5a1" class="outline-6">
+<h6 id="org750a5a1">Lookup Behavior</h6>
+<div class="outline-text-6" id="text-org750a5a1">
+<div class="org-src-container">
+<pre class="src src-fennel" id="orgf4848a2"><code>(fn tab.lookup-behavior [key behavior-name]
+  (let [behavior-file (tab.load-file (.. :behaviors/ behavior-name))]
+    (if behavior-file
+        (. behavior-file key)
+        (tab.log :error (.. "Failed to find behavior file" behavior-name)))))
+(fn tab.lookup-behavior-method [thing key]
+   (tab.find-by thing.behaviors (partial tab.lookup-behavior key)))
+</code></pre>
+</div>
+</div>
+</div>
+</div>
+<div id="outline-container-org214b66b" class="outline-5">
+<h5 id="org214b66b">Attributes</h5>
+<div class="outline-text-5" id="text-org214b66b">
+</div>
+<div id="outline-container-orga619efa" class="outline-6">
+<h6 id="orga619efa">Load attributes file</h6>
+<div class="outline-text-6" id="text-orga619efa">
+<div class="org-src-container">
+<pre class="src src-fennel" id="org01ea1bd"><code>(fn tab.load-attributes-file [attr-path]
+  (tab.load-file (.. :attributes
+                      :/ attr-path)))
+</code></pre>
+</div>
+</div>
+</div>
+<div id="outline-container-orgcc28542" class="outline-6">
+<h6 id="orgcc28542">Clone attributes from file</h6>
+<div class="outline-text-6" id="text-orgcc28542">
+<div class="org-src-container">
+<pre class="src src-fennel" id="orgb4ec0be"><code>(fn tab.clone-attributes-from-file [attr-path]
+  (collect [k v (pairs (tab.load-attributes-file attr-path))] k v))
+</code></pre>
+</div>
+</div>
+</div>
+</div>
+<div id="outline-container-org5d079a4" class="outline-5">
+<h5 id="org5d079a4">Models</h5>
+<div class="outline-text-5" id="text-org5d079a4">
+</div>
+<div id="outline-container-org440fcef" class="outline-6">
+<h6 id="org440fcef">Collect bases</h6>
+<div class="outline-text-6" id="text-org440fcef">
+<div class="org-src-container">
+<pre class="src src-fennel" id="org44be80d"><code>(fn tab.collect-bases [thing ?collection ?prefix]
+  (let [collection (or ?collection [])]
+    (when thing.base
+      (if (= (type thing.base) :string)
+          (let [model-name thing.base
+                model (tab.load-attributes-file thing.base)]
+            (when model.base
+              (tab.collect-bases model collection true))
+            (if ?prefix
+                (table.insert collection 1 model-name)
+                (table.insert collection model-name))
+            (set thing.base nil))
+          (= (type thing.base) :table)
+          (for [i (length thing.base) 1 -1]
+            (let [model-name (. thing.base i)
+                  model (tab.load-attributes-file model-name)]
+              (when model.base (tab.collect-bases model collection true))
+              (if ?prefix
+                  (table.insert collection 1 model-name)
+                  (table.insert collection model-name)))
+            (table.remove thing.base i)
+            (when (= (length thing.base) 0) (set thing.base nil)))))
+    collection))
+</code></pre>
+</div>
+</div>
+</div>
+<div id="outline-container-org6cd9d07" class="outline-6">
+<h6 id="org6cd9d07">Merge models</h6>
+<div class="outline-text-6" id="text-org6cd9d07">
+<div class="org-src-container">
+<pre class="src src-fennel" id="orgb1225e7"><code>(fn tab.merge-models [base addn]
+  (fn merge-lists [start mergein]
+    (each [_ item (pairs mergein)]
+      (table.insert start item))
+    (tab.drop-dupes start))
+  (each [k v (pairs addn)]
+    (if (or (and base.additive-attributes
+                 (tab.find-element base.additive-attributes k))
+            (and addn.additive-attributes
+                 (tab.find-element addn.additive-attributes k)))
+        (do (when (not (. base k)) (tset base k {}))
+            (each [q p (pairs v)]
+              (if (= (type q) :number)
+                  (do (table.insert (. base k) p)
+                      (tset base k (tab.drop-dupes (. base k))))
+                  (tset (. base k) q p))))
+        (= k :grammar)
+        (do (when (not base.grammar) (set base.grammar {}))
+            (each [q p (pairs v)]
+              (when (or (= q :noun)
+                        (= q :nouns))
+                (when (not base.grammar.nouns) (set base.grammar.nouns [])))
+              (if (= q :noun)
+                  (table.insert base.grammar.nouns p)
+                  (= q :nouns)
+                  (set base.grammar.nouns (merge-lists base.grammar.nouns p))
+                  (= q :adjectives)
+                  (do (when (not base.grammar.adjectives) (set base.grammar.adjectives []))
+                      (set base.grammar.adjectives (merge-lists base.grammar.adjectives p)))
+                  (tset base.grammar q p))))
+        (do (tset base k v))))
+  base)
+</code></pre>
+</div>
+</div>
+</div>
+</div>
+<div id="outline-container-orgee7d276" class="outline-5">
+<h5 id="orgee7d276">Things</h5>
+<div class="outline-text-5" id="text-orgee7d276">
+</div>
+<div id="outline-container-org3f9b8b8" class="outline-6">
+<h6 id="org3f9b8b8">Make thing</h6>
+<div class="outline-text-6" id="text-org3f9b8b8">
+<div class="org-src-container">
+<pre class="src src-fennel" id="org447cabf"><code>(fn tab.make-thing [attr-path ?addn ?dimension]
+  {:fnl/docstring "Make the model found at MODEL-NAME, adding in the ?ADDITIONAL attributes if provided, and setting the made thing's ?DIMENSION if provided."
+   :fnl/arglist [model-name ?additional ?dimension]}
+  (let [made-thing {:additive-attributes [:additive-attributes :behaviors]}
+        base-collection []
+        model (if (= (type attr-path) :string)
+                  (tab.clone-attributes-from-file attr-path)
+                  attr-path)]
+    (tab.collect-bases model base-collection)
+    (when ?addn (tab.collect-bases ?addn base-collection))
+    (let [clean-base-collection (tab.drop-dupes base-collection)]
+      (tab.log :spam "Making a thing with this base collection: "
+               (tab.quibble-strings clean-base-collection))
+      (each [_ base-model-name (pairs clean-base-collection)]
+        (tab.log :spam "Merging this model into the thing: " base-model-name)
+        (tab.merge-models made-thing (tab.load-attributes-file base-model-name)))
+      (tab.log :spam "Added base collection to thing."))
+    (set model.base nil)
+    (tab.merge-models made-thing model)
+    (when ?addn
+      (set ?addn.base nil)
+      (tab.merge-models made-thing ?addn))
+    (when (or (not made-thing.behaviors)
+              (and made-thing.behaviors
+                   (= (length made-thing.behaviors) 0)))
+      (set made-thing.behaviors [:thing]))
+    (set made-thing.behaviors (tab.drop-dupes made-thing.behaviors))
+    (setmetatable made-thing {:__index tab.lookup-behavior-method})
+    (when ?dimension (set made-thing.dimension ?dimension)
+          (table.insert ?dimension.things made-thing))
+    made-thing))
+</code></pre>
+</div>
+</div>
+</div>
+<div id="outline-container-org2597aa6" class="outline-6">
+<h6 id="org2597aa6">Search things by term</h6>
+<div class="outline-text-6" id="text-org2597aa6">
+<div class="org-src-container">
+<pre class="src src-fennel" id="org3913ef7"><code>(fn tab.search-things-by-term [things term ?matches]
+  "Search the list of THINGS by TERM, adding them to ?MATCHES (or a fresh list)."
+  (let [matches (or ?matches [])]
+    (each [_ item (pairs things)]
+      (when (item:term=? term)
+        (table.insert matches item)))
+    matches))
+</code></pre>
+</div>
+</div>
+</div>
+<div id="outline-container-org9665af4" class="outline-6">
+<h6 id="org9665af4">Filter things</h6>
+<div class="outline-text-6" id="text-org9665af4">
+<div class="org-src-container">
+<pre class="src src-fennel" id="orgfff2afc"><code>(fn tab.filter-things [things filter-function ?matches]
+  (let [matches (or ?matches [])]
+    (each [_ thing (pairs things)]
+      (when (filter-function thing)
+        (table.insert matches thing)))
+    matches))
+</code></pre>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div id="outline-container-org9ed333e" class="outline-3">
+<h3 id="org9ed333e">Interfaces</h3>
+<div class="outline-text-3" id="text-org9ed333e">
+</div>
+<div id="outline-container-org9568ea5" class="outline-4">
+<h4 id="org9568ea5">REPL</h4>
+<div class="outline-text-4" id="text-org9568ea5">
+<div class="org-src-container">
+<pre class="src src-fennel"><code>(local fennel (require :fennel))
+
+(fn start [env]
+  (print "Start Fennel REPL interface for TAB.")
+  (print "Bindings available:" (table.concat (keys env) ", "))
+  (fennel.repl.start {:env env}))
+</code></pre>
+</div>
+</div>
+</div>
+<div id="outline-container-org6654ea7" class="outline-4">
+<h4 id="org6654ea7">Command-Line Interface</h4>
+</div>
+<div id="outline-container-org68f58d5" class="outline-4">
+<h4 id="org68f58d5">MUD Interface</h4>
+</div>
+</div>
+<div id="outline-container-org1706f2e" class="outline-3">
+<h3 id="org1706f2e">Packaging</h3>
+<div class="outline-text-3" id="text-org1706f2e">
+</div>
+<div id="outline-container-org74849a1" class="outline-4">
+<h4 id="org74849a1">Makefile</h4>
+<div class="outline-text-4" id="text-org74849a1">
+<div class="org-src-container">
+<pre class="src src-makefile" id="org83cff98"><code>#  Makefile for TAB
+
+# written by technomancy; based (ineptly) on their pengbot's Makefile
+
+
+LUA_VERSION=5.4.4
+
+marmud: ; ./fennel -e "(: ((. (require :tab) :make-thing) :marmud/dimension) :lsr)"
+
+tab-bin: tab.fnl socket.a mime.a lua-$(LUA_VERSION)/src/liblua.a
+        ./fennel --compile-binary $&lt; $@ \
+                lua-$(LUA_VERSION)/src/liblua.a lua-$(LUA_VERSION)/src \
+                --native-module socket.a --native-module mime.a
+
+# dependencies: lua and luasocket
+
+lua-$(LUA_VERSION): ; curl https://www.lua.org/ftp/lua-$(LUA_VERSION).tar.gz | tar xzf /dev/stdin
+lua-$(LUA_VERSION)/src/liblua.a: lua-$(LUA_VERSION)
+        make -C $^
+
+luasocket:
+        git clone https://github.com/diegonehab/luasocket
+        git -C luasocket checkout v3.0.0
+
+SOCKET_OBJS= \
+        luasocket/src/luasocket.o \
+        luasocket/src/timeout.o \
+        luasocket/src/buffer.o \
+        luasocket/src/io.o \
+        luasocket/src/auxiliar.o \
+        luasocket/src/compat.o \
+        luasocket/src/options.o \
+        luasocket/src/inet.o \
+        luasocket/src/except.o \
+        luasocket/src/select.o \
+        luasocket/src/tcp.o \
+        luasocket/src/udp.o \
+        luasocket/src/usocket.o # &lt;- this one should be wsocket.o for Windows
+
+luasocket/src/%.o: luasocket lua-$(LUA_VERSION)
+        make -C luasocket/src linux install MYCFLAGS=-static \
+                LUAV=5.4 DESTDIR=$(PWD) LUAINC_linux=$(PWD)/lua-$(LUA_VERSION)/src
+
+socket.a: $(SOCKET_OBJS)
+        ar rcs $@ $^
+
+mime.a: luasocket/src/mime.o luasocket/src/compat.o
+        ar rcs $@ $^
+
+# misc
+
+clean:
+        rm -f tab-bin mime.a .a
+        make -C luasocket clean
+        make -C lua-$(LUA_VERSION) clean
+
+.PHONY: run clean
+</code></pre>
+</div>
+</div>
+</div>
+<div id="outline-container-orgb7df887" class="outline-4">
+<h4 id="orgb7df887">Script</h4>
+<div class="outline-text-4" id="text-orgb7df887">
+<div class="org-src-container">
+<pre class="src src-fennel"><code>(local tab (require :tab))
+(local socket (require :socket))
+(local mime (require :mime))
+(local iface {:repl (require :interfaces.repl)})
+
+(print "Starting TAB REPL")
+(iface.repl.start {:tab tab :socket socket :mime mime})
+
+</code></pre>
+</div>
+</div>
+</div>
+</div>
+</section>
+<section id="outline-container-org2d5e9d1" class="outline-2">
+<h2 id="org2d5e9d1">Library</h2>
+<div class="outline-text-2" id="text-org2d5e9d1">
+</div>
+<div id="outline-container-orgc1d6f45" class="outline-3">
+<h3 id="orgc1d6f45">Models</h3>
+<div class="outline-text-3" id="text-orgc1d6f45">
+</div>
+<div id="outline-container-orgd282641" class="outline-4">
+<h4 id="orgd282641">Thing</h4>
+<div class="outline-text-4" id="text-orgd282641">
+<div class="org-src-container">
+<pre class="src src-fennel"><code>{:name :thing
+ :behaviors [:thing]
+ :additive-attributes [:additive-attributes :behaviors]
+ :grammar {:pronouns {:subject :it
+                      :object :it
+                      :determiner :its
+                      :possessive :its
+                      :reflexive :itself
+                      :first {:subject :I
+                              :object :me
+                              :determiner :my
+                              :possessive :mine
+                              :reflexive :myself}
+                      :second {:subject :you
+                               :object :you
+                               :determiner :your
+                               :posessive :yours
+                               :reflexive :yourself}}}}
+</code></pre>
+</div>
+</div>
+</div>
+</div>
+<div id="outline-container-orgd3ae153" class="outline-3">
+<h3 id="orgd3ae153">Behaviors</h3>
+<div class="outline-text-3" id="text-orgd3ae153">
+</div>
+<div id="outline-container-orgc0a6e16" class="outline-4">
+<h4 id="orgc0a6e16">Thing</h4>
+<div class="outline-text-4" id="text-orgc0a6e16">
+<div class="org-src-container">
+<pre class="src src-fennel"><code>
+(local fennel (require :fennel))
+(local tab (require :tab))
+
+(local thing {})
+
+(fn thing.fname [thing]
+  (.. (if (and thing.grammar
+               thing.grammar.article)
+          (.. thing.grammar.article (if (&gt; (length thing.grammar.article) 0)
+                                        " "
+                                        ""))
+          (if (tab.find-element [:a :e :i :o :u] (string.lower
+                                                  (string.sub thing.name 1 1)))
+              "an "
+              "a "))
+      thing.name))
+
+(fn thing.describe [thing]
+  (if thing.description
+      thing.description
+      (.. "This is " (thing:fname) ".")))
+
+(fn thing.name=? [thing term]
+  (= thing.name term))
+
+(fn thing.noun=? [thing term]
+  (let [phrase (tab.split-string term)
+        noun (. phrase (length phrase))]
+    (when (and thing.grammar
+               thing.grammar.nouns)
+      (or (= noun thing.name)
+          (tab.find-element thing.grammar.nouns noun)))))
+
+(fn thing.adjectives=? [thing term]
+  (var mismatch nil)
+  (let [phrase (tab.split-string term)
+        adjectives (if (&gt; (length phrase) 1)
+                       (do (table.remove phrase (length phrase))
+                           phrase)
+                       nil)]
+    (when (and adjectives
+               thing.grammar
+               thing.grammar.adjectives)
+      (each [_ adjective (pairs adjectives)]
+        (when (not (tab.find-element adjectives adjective))
+          (set mismatch true))))
+    (not mismatch)))
+
+(fn thing.term=? [thing term]
+  (or (thing:name=? term)
+      (and (thing:noun=? term)
+           (thing:adjectives=? term))))
+
+thing
+</code></pre>
+</div>
+</div>
+</div>
+</div>
+</section>
+<section id="outline-container-org5289626" class="outline-2">
+<h2 id="org5289626">Supplements</h2>
+<div class="outline-text-2" id="text-org5289626">
+</div>
+<div id="outline-container-org2c680c8" class="outline-3">
+<h3 id="org2c680c8">Source files</h3>
+<div class="outline-text-3" id="text-org2c680c8">
+</div>
+<div id="outline-container-org4a9f9ea" class="outline-4">
+<h4 id="org4a9f9ea">tab.fnl</h4>
+<div class="outline-text-4" id="text-org4a9f9ea">
+<div class="org-src-container">
+<pre class="src src-fennel" id="org16b2bb1"><code>(local fennel (require :fennel))
+(local conf (require :conf))
+(local tab {:view fennel.view
+            :eval fennel.eval
+            :doc fennel.doc})
+(local log-levels {:critical 1 :error 2 :warning 3
+                   :info 4 :debug 5 :spam 6})
+
+(fn tab.log [level ...]
+  {:fnl/docstring "Print MESSAGE (can be more than one string) if LEVEL is equal or greater to the configured log level."
+   :fnl/arglist [level message]}
+  (fn print-message [message]
+    (print (.. (tab.render-time (os.time) true)
+               "&gt; " level
+               (if (= level :error) ":    "
+                   (if (= level :warning) ":  "
+                       (if (= level :info) ":     "
+                           (if (= level :debug) ":    "
+                               (if (= level :spam) ":     "
+                                   ": ")))))
+               message)))
+  (when (&gt;= (. log-levels conf.log-level)
+            (. log-levels level))
+    (print-message (tab.concat ...))))    
+(fn tab.concat [...]
+  (let [stab (table.pack ...)
+        A (tab.make-string-appender)]
+    (set stab.n nil)
+    (each [_ str (pairs stab)]
+      (A str))
+    (A)))
+(fn tab.make-string-appender [?sep]
+"Return a function that holds a string and accepts one additional argument (string or list of strings). If provided, the argument is appended to the held string, with SEP appended (to each one, if its a list of strings.)"
+(var o "")
+(lambda [?a]
+  (lambda q [r]
+    (set o (.. o r (or ?sep ""))) o)
+  (if ?a
+      (if (or (= (type ?a) :string)
+              (= (type ?a) :number))
+          (q ?a)
+          (each [_ v (pairs ?a)]
+            (q v)))
+      o)))
+(fn tab.quibble-strings [strings ?resort ?oxfordize]
+  "Return the sequence of STRINGS separated with commas and the conjunction 'and'. ?OXFORDIZE is currently irrelevant; strings are oxfordized by defualt."
+  (let [oxfordize (or ?oxfordize true)
+        o (tab.make-string-appender)]
+    (when ?resort (table.sort strings))
+    (var join "")
+    (for [count 1
+          (length strings) 1]
+      (if (= count (length strings))
+          (set join "")
+          (= count (- (length strings) 1))
+          (set join
+               (.. (if (and oxfordize
+                            (&gt; (length strings) 2))
+                       ","
+                       "")
+                   " and "))
+          (set join ", "))
+      (o [(. strings count) join]))
+    (o)))
+(fn tab.split-string [string ?sep]
+(let [words []
+      matcher (string.gmatch string (or ?sep "%S+"))]
+  (var done? nil)
+  (while (not done?)
+    (let [word (matcher)]
+      (if word
+          (table.insert words word)
+          (set done? true))))
+  words))
+(fn tab.make-id [?existing]
+(math.randomseed (os.time))
+(fn gen-id [x]
+  (let [r (- (math.random 16) 1)
+        p (or (and (= x :x) (+ r 1)) (+ (% r 4) 9))]
+    (: :0123456789abcdef :sub p p)))
+(let [gen (: :xxxxxxxx :gsub "[xy]" gen-id)]
+  (print "generated" gen)
+  (if (tab.find-element (or ?existing []) gen)
+      (tab.make-id ?existing)
+      gen)))
+(fn tab.underline [str]
+  (let [A (tab.make-string-appender)]
+    (for [i (length str) 1 -1]
+      (A :-))
+    (.. str "\n" (A))))
+(fn tab.render-time [time ?seconds]
+  "Given a Lua timecode, renders it as YYYYMMDD:HHMM, appending ?SECONDS if true."
+  (os.date (if ?seconds
+               "%Y%m%d:%H%M%S"
+               "%Y%m%d:%H%M")
+           time))
+(fn tab.scan-directory [path ?recurse ?type ?strip-ext]
+  "Return a list of files &amp; directories at PATH, ?RECURSE-ing if true, limited to Files or Directories if F or D are given as the TYPE, and ?STRIP-EXT if true removes the file extension from the file names in the returned list."
+  (local matches {})
+  (local A (tab.make-string-appender))
+  (A ["find \"" path "\""])
+  (when (not ?recurse) (A " -maxdepth 1"))
+  (when ?type (A [" -type " ?type]))
+  (let [results (io.popen (A))]
+    (each [result _ (results:lines)]
+      (let [line (string.sub result (+ 2 (length path)))]
+        (when (&gt; (length line) 0)
+          (table.insert matches (if ?strip-ext
+                                    (: line :sub 0 -5)
+                                    line))))))
+  matches)
+(fn tab.save-file [data path ?force]
+  (tab.log :debug (.. "Saving data to " path))
+  (match (io.open (.. path :.fnl) :w)
+    sfile (do (sfile:write (fennel.view data))
+              (sfile:close))
+    (_ err) (if ?force
+                (do (os.execute
+                 (.. "mkdir "
+                     (string.match path "(.*[/\\])")))
+                    (tab.save-file data path))
+                err)))
+(fn tab.load-file [path ?fallback]
+  "Return the evaluated contents at PATH, or the ?FALLBACK if there's no file at PATH. (Evaluated means, its been parsed by Fennel, i.e. if you load a file containing a table, load-file will return a table, not a string."
+  (let [load-file (io.open (.. path ".fnl") :r)]
+    (if load-file
+        (let [loaded-data (load-file:read "*all")]
+          (fennel.eval loaded-data))
+        (if ?fallback
+            (do
+              (tab.save-file ?fallback path)
+              (tab.load-file path))
+            (print (.. "No file at " path
+                       " and no fallback given. Failed to load."))))))
+(fn tab.load-folder [path ?recurse]
+  (local files-data {})
+  (each [_ file-path (pairs (tab.scan-directory path ?recurse :f))]
+    (local id (: file-path :sub 0 -5))
+    (tset files-data id (tab.load-file (.. path :/ id))))
+  files-data)
+(fn tab.collect-keys [tbl]
+  "Return a list of the keys in TBL."
+  (icollect [key _ (pairs tbl)] key))
+(fn tab.list-values [tabs key]
+  "Return a list of the values for KEY in each table in TABS."
+  (let [lst []]
+    (each [_ tab (pairs tabs)]
+      (table.insert lst (. tab key)))
+    (tab.drop-dupes lst)))
+(fn tab.add-values [tab addn]
+  (each [k v (pairs addn)]
+    (tset tab k v)))
+
+(fn tab.clone-table [tab ?addn]
+  (let [clone (collect [k v (pairs tab)] k v)]
+    (when ?addn (tab.add-values clone ?addn))
+    clone))
+(fn tab.find-element [seq query]
+  (let [matched []]
+    (each [_ element (pairs seq)]
+      (when (= element query)
+        (table.insert matched element)))
+    (if (&gt; (length matched) 0) true nil)))
+(fn tab.drop-dupes [seq]
+  (local clean {})
+  (each [key val (pairs seq)]
+    (when (not (tab.find-element clean val))
+      (table.insert clean val)))
+  clean)
+(fn tab.reverse-list [list]
+  (let [rev []]
+    (for [i (length list) 1 -1]
+      (tset rev (+ (length rev) 1) (. list i)))
+      rev))
+(fn tab.find-by [tbl f ?i]
+  (let [x (. tbl (or ?i 1))]
+    (if (= nil x) nil
+        (or (f x)
+            (tab.find-by tbl f (+ 1 (or ?i 1)))))))
+(fn tab.lookup-behavior [key behavior-name]
+  (let [behavior-file (tab.load-file (.. :behaviors/ behavior-name))]
+    (if behavior-file
+        (. behavior-file key)
+        (tab.log :error (.. "Failed to find behavior file" behavior-name)))))
+(fn tab.lookup-behavior-method [thing key]
+   (tab.find-by thing.behaviors (partial tab.lookup-behavior key)))
+(fn tab.load-attributes-file [attr-path]
+  (tab.load-file (.. :attributes
+                      :/ attr-path)))
+(fn tab.clone-attributes-from-file [attr-path]
+  (collect [k v (pairs (tab.load-attributes-file attr-path))] k v))
+(fn tab.collect-bases [thing ?collection ?prefix]
+  (let [collection (or ?collection [])]
+    (when thing.base
+      (if (= (type thing.base) :string)
+          (let [model-name thing.base
+                model (tab.load-attributes-file thing.base)]
+            (when model.base
+              (tab.collect-bases model collection true))
+            (if ?prefix
+                (table.insert collection 1 model-name)
+                (table.insert collection model-name))
+            (set thing.base nil))
+          (= (type thing.base) :table)
+          (for [i (length thing.base) 1 -1]
+            (let [model-name (. thing.base i)
+                  model (tab.load-attributes-file model-name)]
+              (when model.base (tab.collect-bases model collection true))
+              (if ?prefix
+                  (table.insert collection 1 model-name)
+                  (table.insert collection model-name)))
+            (table.remove thing.base i)
+            (when (= (length thing.base) 0) (set thing.base nil)))))
+    collection))
+(fn tab.merge-models [base addn]
+  (fn merge-lists [start mergein]
+    (each [_ item (pairs mergein)]
+      (table.insert start item))
+    (tab.drop-dupes start))
+  (each [k v (pairs addn)]
+    (if (or (and base.additive-attributes
+                 (tab.find-element base.additive-attributes k))
+            (and addn.additive-attributes
+                 (tab.find-element addn.additive-attributes k)))
+        (do (when (not (. base k)) (tset base k {}))
+            (each [q p (pairs v)]
+              (if (= (type q) :number)
+                  (do (table.insert (. base k) p)
+                      (tset base k (tab.drop-dupes (. base k))))
+                  (tset (. base k) q p))))
+        (= k :grammar)
+        (do (when (not base.grammar) (set base.grammar {}))
+            (each [q p (pairs v)]
+              (when (or (= q :noun)
+                        (= q :nouns))
+                (when (not base.grammar.nouns) (set base.grammar.nouns [])))
+              (if (= q :noun)
+                  (table.insert base.grammar.nouns p)
+                  (= q :nouns)
+                  (set base.grammar.nouns (merge-lists base.grammar.nouns p))
+                  (= q :adjectives)
+                  (do (when (not base.grammar.adjectives) (set base.grammar.adjectives []))
+                      (set base.grammar.adjectives (merge-lists base.grammar.adjectives p)))
+                  (tset base.grammar q p))))
+        (do (tset base k v))))
+  base)
+(fn tab.make-thing [attr-path ?addn ?dimension]
+  {:fnl/docstring "Make the model found at MODEL-NAME, adding in the ?ADDITIONAL attributes if provided, and setting the made thing's ?DIMENSION if provided."
+   :fnl/arglist [model-name ?additional ?dimension]}
+  (let [made-thing {:additive-attributes [:additive-attributes :behaviors]}
+        base-collection []
+        model (if (= (type attr-path) :string)
+                  (tab.clone-attributes-from-file attr-path)
+                  attr-path)]
+    (tab.collect-bases model base-collection)
+    (when ?addn (tab.collect-bases ?addn base-collection))
+    (let [clean-base-collection (tab.drop-dupes base-collection)]
+      (tab.log :spam "Making a thing with this base collection: "
+               (tab.quibble-strings clean-base-collection))
+      (each [_ base-model-name (pairs clean-base-collection)]
+        (tab.log :spam "Merging this model into the thing: " base-model-name)
+        (tab.merge-models made-thing (tab.load-attributes-file base-model-name)))
+      (tab.log :spam "Added base collection to thing."))
+    (set model.base nil)
+    (tab.merge-models made-thing model)
+    (when ?addn
+      (set ?addn.base nil)
+      (tab.merge-models made-thing ?addn))
+    (when (or (not made-thing.behaviors)
+              (and made-thing.behaviors
+                   (= (length made-thing.behaviors) 0)))
+      (set made-thing.behaviors [:thing]))
+    (set made-thing.behaviors (tab.drop-dupes made-thing.behaviors))
+    (setmetatable made-thing {:__index tab.lookup-behavior-method})
+    (when ?dimension (set made-thing.dimension ?dimension)
+          (table.insert ?dimension.things made-thing))
+    made-thing))
+
+(fn tab.filter-things [things filter-function ?matches]
+  (let [matches (or ?matches [])]
+    (each [_ thing (pairs things)]
+      (when (filter-function thing)
+        (table.insert matches thing)))
+    matches))
+
+tab
+</code></pre>
+</div>
+</div>
+</div>
+</div>
+</section>
+<section id="outline-container-orgc130e24" class="outline-2">
+<h2 id="orgc130e24">Backlinks</h2>
+<div class="outline-text-2" id="text-orgc130e24">
+<ul class="org-ul">
+<li><a href="babble-20250722111523-0500.html#ID-0a5af0a3-fecb-4748-b333-edb37bb008d7">Attempting to install TAB</a></li>
+<li><a href="babble-20250915091943-0500.html#ID-8fc8c669-c688-4aa7-b1ed-244f6394fcd2">Babble, [2025-09-15 Mon 09:19], Properly installing Fennel on my Omnibook</a></li>
+</ul>
+</div>
+</section>
+</main>
+<section id="postamble" class="status">
+<p class="date">Created: 2025-10-05 Sun 17:39</p>
+</section>
+</body>
+</html>

@@ -1,0 +1,69 @@
+{
+  "subject": "tool-promises-to-make-lazy-academics-ai-written-papers-sound-more-human",
+  "claims": [
+    {
+      "id": "title",
+      "proposition": {
+        "predicate": "title",
+        "object": "Tool promises to make lazy academics' AI-written papers sound more human"
+      },
+      "time": {
+        "asserted": "2026-07-19T15:04:08.909Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "technology",
+        "citation": "https://www.theregister.com/ai-and-ml/2026/07/08/tool-promises-to-make-lazy-academics-ai-written-papers-sound-more-human/5268460"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "url",
+      "proposition": {
+        "predicate": "url",
+        "object": "https://www.theregister.com/ai-and-ml/2026/07/08/tool-promises-to-make-lazy-academics-ai-written-papers-sound-more-human/5268460"
+      },
+      "time": {
+        "asserted": "2026-07-19T15:04:08.909Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "technology",
+        "citation": "https://www.theregister.com/ai-and-ml/2026/07/08/tool-promises-to-make-lazy-academics-ai-written-papers-sound-more-human/5268460"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "summary",
+      "proposition": {
+        "predicate": "summary",
+        "object": "It's bad enough that you used AI to write a research paper instead of composing it yourself. Now, you can take the extra step to hide the evidence of your sloth. A startup has decided academics need a way to hide LLM tells, yet they insist their goal isn’t to support bad habits among boffins. AI humanizers are nothing new - take a cursory look online and you’ll find that companies pushing AI that helps AI writing sound less like AI wrote it are a dime a dozen. None, says the team behind Academic Humanizer, have been specifically tailored to papers and grant proposals. Thankfully for the world’s lazy academics unwilling to actually do their jobs, that’s now changed. “The problem is that AI-assisted drafts come out generic and verbose, with … inflated phrasing, and over-long sentences,” University of Minnesota associate professor and cofounder of MorphMind, the company behind the tool, Jie Ding, wrote in its GitHub readme. “They also drift from the author's own voice and lose the precision scholarship depends on.” A previous version of that statement, written prior to a recent readme update, lays the point of the tool bare. Academic Humanizer, the opening of the readme read until an update five days ago, is designed to “strip the tells of AI writing from papers and grant proposals, without flattening the precise, evidence-bound voice scholarship requires.” The GitHub repo includes several examples of text run through the humanizer for those who want to see what it’s actually capable of. Academic Humanizer is, at its core, just a Claude skill, so it’s using more AI to correct the problems introduced into the academic writing space by AI. To further make its generative utterances more lifelike, Academic Humanizer can be pointed directly at its user’s prior work so that it’ll sound more like the “author” of the new paper instead of a bot. As the GitHub repo and Ding both point out, the Humanizer is designed to rewrite AI-assisted drafts rather than generate new content, so it isn't supposed to pile more AI slop onto an already AI-generated draft. “Academic Humanizer is a writing-clarity tool to help researchers express their own ideas more precisely. It is not designed to generate novel content or circumvent review,” Ding told The Register in an email. The readme further warns users that Academic Humanizer doesn’t remove their obligation to disclose that AI helped them write a paper, or wrote it in its entirety. But if the tool isn't capable of generating findings, inventing data, or changing citations, instead serving only as \"an editing aid for clarity and voice,\" what does that mean for weak or error-prone material in the original AI-generated draft? It probably means that while the tool may tighten prose, it isn't intended to verify the underlying arguments or evidence. Weak content may simply end up sounding more convincingly human - not a great prospect for an industry already drowning in AI-generated slop. Academics at The University of Surrey warned last year that they were being inundated by “formulaic research articles” with “superficial and oversimplified … analysis” that were obviously crafted by large language models. The problem has even reached the AI research space itself, where last month AI output detector GPTZero said it found 100 hallucinated references across 51 papers accepted by the Conference on Neural Information Processing Systems (NeurIPS). It doesn’t bode well for academic integrity, already imperiled by the growing use of AI in higher education and academia, nor does it bode well for the quality of college graduates, either. According to MIT, students who use AI to write essays and papers have less brain activity than those who forego the tools, leading to poorer retention and less actual learning. But sure, let’s create a tool to make AI writing sound more human - that’s definitely the right approach to take in this situation. ®"
+      },
+      "time": {
+        "asserted": "2026-07-19T15:04:08.909Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "technology",
+        "citation": "https://www.theregister.com/ai-and-ml/2026/07/08/tool-promises-to-make-lazy-academics-ai-written-papers-sound-more-human/5268460"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "published",
+      "proposition": {
+        "predicate": "published",
+        "object": "Wed, 08 Jul 2026 17:55:00 +0200"
+      },
+      "time": {
+        "asserted": "2026-07-19T15:04:08.909Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "technology",
+        "citation": "https://www.theregister.com/ai-and-ml/2026/07/08/tool-promises-to-make-lazy-academics-ai-written-papers-sound-more-human/5268460"
+      },
+      "status": "supported"
+    }
+  ]
+}

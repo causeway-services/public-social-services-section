@@ -1,0 +1,69 @@
+{
+  "subject": "more-canadian-wildfire-smoke-shrouds-us-midwest-mid-atlantic-and-north-east",
+  "claims": [
+    {
+      "id": "title",
+      "proposition": {
+        "predicate": "title",
+        "object": "More Canadian wildfire smoke shrouds US midwest, mid-Atlantic and north-east"
+      },
+      "time": {
+        "asserted": "2026-07-18T08:15:55.287Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "politics",
+        "citation": "https://www.theguardian.com/us-news/2026/jul/17/canada-wildfire-smoke-midwest-mid-atlantic-north-east"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "url",
+      "proposition": {
+        "predicate": "url",
+        "object": "https://www.theguardian.com/us-news/2026/jul/17/canada-wildfire-smoke-midwest-mid-atlantic-north-east"
+      },
+      "time": {
+        "asserted": "2026-07-18T08:15:55.287Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "politics",
+        "citation": "https://www.theguardian.com/us-news/2026/jul/17/canada-wildfire-smoke-midwest-mid-atlantic-north-east"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "summary",
+      "proposition": {
+        "predicate": "summary",
+        "object": "<p>109 million people face another day of poor air quality as smoke from blazes in Ontario drifts over the US</p><ul><li><p><a href=\"https://www.theguardian.com/news/2026/feb/17/sign-up-for-the-breaking-news-us-email-to-get-newsletter-alerts-direct-to-your-inbox?utm_medium=ACQUISITIONS_STANDFIRST&amp;utm_campaign=BN22326&amp;utm_content=signup&amp;utm_term=standfirst&amp;utm_source=GUARDIAN_WEB\">Sign up for the Breaking News US newsletter email</a><em> </em></p></li></ul><p>Tens of millions of Americans are enduring another day of <a href=\"https://www.theguardian.com/us-news/2026/jul/16/smoke-canadian-wildfires-air-quality\">smoky skies</a>, irritated eyes and bad air quality, as Canadian <a href=\"https://www.theguardian.com/world/wildfires\">wildfire</a> smoke spread again over huge swathes of the US, affecting about 109 million people across the midwest, mid-Atlantic and north-east.</p><p>The pungent smoke blanketed cities such as Chicago and Detroit, where residents on Friday were warned to stay indoors and reduce activity levels after the air-quality index reached a “hazardous” 361, according to the government website <a href=\"https://www.airnow.gov/?city=Detroit&amp;state=MI&amp;country=USA\">AirNow</a>.</p> <a href=\"https://www.theguardian.com/us-news/2026/jul/17/canada-wildfire-smoke-midwest-mid-atlantic-north-east\">Continue reading...</a>"
+      },
+      "time": {
+        "asserted": "2026-07-18T08:15:55.287Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "politics",
+        "citation": "https://www.theguardian.com/us-news/2026/jul/17/canada-wildfire-smoke-midwest-mid-atlantic-north-east"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "published",
+      "proposition": {
+        "predicate": "published",
+        "object": "Fri, 17 Jul 2026 20:31:59 GMT"
+      },
+      "time": {
+        "asserted": "2026-07-18T08:15:55.287Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "politics",
+        "citation": "https://www.theguardian.com/us-news/2026/jul/17/canada-wildfire-smoke-midwest-mid-atlantic-north-east"
+      },
+      "status": "supported"
+    }
+  ]
+}

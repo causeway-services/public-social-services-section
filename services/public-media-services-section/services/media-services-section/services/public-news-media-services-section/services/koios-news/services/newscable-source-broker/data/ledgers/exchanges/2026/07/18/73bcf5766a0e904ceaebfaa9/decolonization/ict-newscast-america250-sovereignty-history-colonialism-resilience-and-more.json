@@ -1,0 +1,69 @@
+{
+  "subject": "ict-newscast-america250-sovereignty-history-colonialism-resilience-and-more",
+  "claims": [
+    {
+      "id": "title",
+      "proposition": {
+        "predicate": "title",
+        "object": "ICT NEWSCAST: America250, Sovereignty, History, Colonialism, Resilience and more"
+      },
+      "time": {
+        "asserted": "2026-07-18T07:51:45.987Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "decolonization",
+        "citation": "https://ictnews.org/newscasts/ict-newscast-america250-sovereignty-history-colonialism-resilience-and-more/"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "url",
+      "proposition": {
+        "predicate": "url",
+        "object": "https://ictnews.org/newscasts/ict-newscast-america250-sovereignty-history-colonialism-resilience-and-more/"
+      },
+      "time": {
+        "asserted": "2026-07-18T07:51:45.987Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "decolonization",
+        "citation": "https://ictnews.org/newscasts/ict-newscast-america250-sovereignty-history-colonialism-resilience-and-more/"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "summary",
+      "proposition": {
+        "predicate": "summary",
+        "object": "The ICT Newscast for Friday, July 17, 2026, covers a conversation about the United States’ 250th anniversary with Indigenous leaders: Philip J. Deloria, Se-ah-dom Edmo and Charitie Ropati. Check out the ICT Newscast on YouTube for this episode and more. Indigenous Leaders Reflect on “America 250” and a Legacy of Erasure As the nation marks 250 years since the Declaration of Independence, historian Philip J. Deloria and Indigenous advocates Se-ah-dom Edmo and Charitie Ropati examined the document’s fraught history, including its infamous reference to “merciless Indian savages.” Deloria traced the phrase back through centuries of colonial conflict, while Edmo raised questions about whether true multi-racial democracy can include tribal sovereignty. Ropati, a UPIC and Samoan climate advocate, called for the anniversary to spark “truth-telling and healing” rather than simple celebration, pointing to Indigenous-led conservation wins like buffalo restoration with the Blackfeet Nation as proof of Native solutions in today’s world. Together, the panelists urged Americans to see Indigenous nations not as relics of the past, but as vital, thriving parts of the country’s present and future. View previous ICT broadcasts here every week for the latest news from around Indian Country. Keywords: Native American news 2026, Indigenous news, Native American news today, Tribal news, First Nations news, Native American representation, Native American, Community, Culture, Identity, Native, Traditional, Heritage, fourth of July, Independence day, America’s history, First people, Americas first people, Americans. The post ICT NEWSCAST: America250, Sovereignty, History, Colonialism, Resilience and more appeared first on ICT ."
+      },
+      "time": {
+        "asserted": "2026-07-18T07:51:45.987Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "decolonization",
+        "citation": "https://ictnews.org/newscasts/ict-newscast-america250-sovereignty-history-colonialism-resilience-and-more/"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "published",
+      "proposition": {
+        "predicate": "published",
+        "object": "Fri, 17 Jul 2026 21:00:37 +0000"
+      },
+      "time": {
+        "asserted": "2026-07-18T07:51:45.987Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "decolonization",
+        "citation": "https://ictnews.org/newscasts/ict-newscast-america250-sovereignty-history-colonialism-resilience-and-more/"
+      },
+      "status": "supported"
+    }
+  ]
+}

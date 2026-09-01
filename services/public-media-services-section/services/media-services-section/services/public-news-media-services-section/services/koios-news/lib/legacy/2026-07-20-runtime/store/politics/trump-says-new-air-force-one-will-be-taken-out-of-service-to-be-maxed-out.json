@@ -1,0 +1,69 @@
+{
+  "subject": "trump-says-new-air-force-one-will-be-taken-out-of-service-to-be-maxed-out",
+  "claims": [
+    {
+      "id": "title",
+      "proposition": {
+        "predicate": "title",
+        "object": "Trump Says New Air Force One Will Be Taken Out of Service to Be ‘Maxed Out’"
+      },
+      "time": {
+        "asserted": "2026-07-20T03:18:20.083Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "politics",
+        "citation": "https://www.nytimes.com/2026/07/19/us/politics/trump-air-force-modifications.html"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "url",
+      "proposition": {
+        "predicate": "url",
+        "object": "https://www.nytimes.com/2026/07/19/us/politics/trump-air-force-modifications.html"
+      },
+      "time": {
+        "asserted": "2026-07-20T03:18:20.083Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "politics",
+        "citation": "https://www.nytimes.com/2026/07/19/us/politics/trump-air-force-modifications.html"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "summary",
+      "proposition": {
+        "predicate": "summary",
+        "object": "The Qatari-donated plane has been under scrutiny over whether it is fitted with sufficient defensive capabilities to adequately protect a U.S. president and others traveling on it."
+      },
+      "time": {
+        "asserted": "2026-07-20T03:18:20.083Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "politics",
+        "citation": "https://www.nytimes.com/2026/07/19/us/politics/trump-air-force-modifications.html"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "published",
+      "proposition": {
+        "predicate": "published",
+        "object": "Mon, 20 Jul 2026 03:05:39 +0000"
+      },
+      "time": {
+        "asserted": "2026-07-20T03:18:20.083Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "politics",
+        "citation": "https://www.nytimes.com/2026/07/19/us/politics/trump-air-force-modifications.html"
+      },
+      "status": "supported"
+    }
+  ]
+}

@@ -1,0 +1,7 @@
+node_modules/
+.tmp/
+.static/
+dist/
+src/generated/editorial-pipeline-context.mts
+content/editorial-context/pipeline-context.json
+.koios-deploy.env

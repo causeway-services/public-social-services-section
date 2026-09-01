@@ -1,0 +1,69 @@
+{
+  "subject": "tom-cruise-makes-appearance-at-world-cup-final-to-celebrate-a-tournament-that-brought-the-world-together-this-is-unity-this-is-greatness",
+  "claims": [
+    {
+      "id": "title",
+      "proposition": {
+        "predicate": "title",
+        "object": "Tom Cruise Makes Appearance At World Cup Final To “Celebrate A Tournament That Brought The World Together”: “This Is Unity & This Is Greatness”"
+      },
+      "time": {
+        "asserted": "2026-07-19T20:06:19.825Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "culture",
+        "citation": "https://deadline.com/2026/07/tom-cruise-world-cup-final-celebrate-tournament-football-1236997840/"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "url",
+      "proposition": {
+        "predicate": "url",
+        "object": "https://deadline.com/2026/07/tom-cruise-world-cup-final-celebrate-tournament-football-1236997840/"
+      },
+      "time": {
+        "asserted": "2026-07-19T20:06:19.825Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "culture",
+        "citation": "https://deadline.com/2026/07/tom-cruise-world-cup-final-celebrate-tournament-football-1236997840/"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "summary",
+      "proposition": {
+        "predicate": "summary",
+        "object": "Tom Cruise made a guest appearance during the pre-show for the 2026 FIFA World Cup final. Ahead of the matchup between Spain and Argentina to find out who becomes the soccer champion, the Digger star took the stage to deliver some encouraging words. “More than 30 days ago, 48 nations began a journey,” Cruise said. […]"
+      },
+      "time": {
+        "asserted": "2026-07-19T20:06:19.825Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "culture",
+        "citation": "https://deadline.com/2026/07/tom-cruise-world-cup-final-celebrate-tournament-football-1236997840/"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "published",
+      "proposition": {
+        "predicate": "published",
+        "object": "Sun, 19 Jul 2026 19:22:15 +0000"
+      },
+      "time": {
+        "asserted": "2026-07-19T20:06:19.825Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "culture",
+        "citation": "https://deadline.com/2026/07/tom-cruise-world-cup-final-celebrate-tournament-football-1236997840/"
+      },
+      "status": "supported"
+    }
+  ]
+}

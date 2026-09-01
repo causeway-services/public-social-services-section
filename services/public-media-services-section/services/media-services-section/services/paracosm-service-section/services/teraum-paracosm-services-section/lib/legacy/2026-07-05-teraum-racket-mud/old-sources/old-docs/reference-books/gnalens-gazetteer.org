@@ -1,0 +1,15 @@
+#+SETUPFILE: ./setup.inc
+#+TITLE: Gnalens Gazetteer
+#+EXPORT_FILE_NAME: ../../pub/reference-books/gnalens-gazetteer
+* Introduction
+{{{document-isdraft}}}
+
+{{{document-hasproject}}}
+
+{{{teraum-reference-book-measurement-system}}}
+* Gnalens Gazetteer
+** Climate
+Gnalens gets down into the 50s in the coldest months.
+* Supplements
+** Index
+- Gnalens :: {{{teraum-define-gnalens}}} The subject of this gazetteer.

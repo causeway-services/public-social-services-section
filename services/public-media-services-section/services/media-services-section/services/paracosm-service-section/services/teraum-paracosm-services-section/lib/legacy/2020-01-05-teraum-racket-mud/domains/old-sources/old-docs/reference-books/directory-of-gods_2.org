@@ -1,0 +1,39 @@
+#+SETUPFILE: ./setup.inc
+#+TITLE: Directory of Gods
+#+EXPORT_FILE_NAME: ../../pub/reference-books/directory-of-gods
+* Introduction
+{{{document-isdraft}}}
+
+{{{document-hasproject}}}
+* Directory of Gods
+** DRAFT Lystra
+   :PROPERTIES:
+   :CUSTOM_ID: lystra
+   :END:
+#+INDEX: Lystra!"Lystra" in /Directory of Gods/
+*/Lystra/* is a goddess of magic. She does not have many worshippers
+on Teraum, but is quite powerful anyway. Notably, there is a monastery
+to her in the /Elflands/.
+** DRAFT Povator
+   :PROPERTIES:
+   :CUSTOM_ID: povator
+   :END:
+#+INDEX: Povator!"Povator" in /Directory of Gods/
+*/Povator/* is a god of woodlands.
+** DRAFT Siggrit
+   :PROPERTIES:
+   :CUSTOM_ID: siggrit
+   :END:
+#+INDEX: Siggrit!"Siggrit" in /Directory of Gods/
+** DRAFT Odin
+   :PROPERTIES:
+   :CUSTOM_ID: odin
+   :END:
+#+INDEX: Odin!"Odin" in /Directory of Gods/
+* Supplements
+** Index
+- Lystra :: {{{teraum-define-lystra}}} See [[#lystra]["Lystra"]].
+- Elflands :: {{{teraum-defsrc(elflands)}}}
+- Odin :: {{{teraum-define-odin}}} See [[#odin]["Odin"]].
+- Siggrit :: {{{teraum-define-siggrit}}} See [[#siggrit]["Siggrit"]].
+- Povator :: {{{teraum-define-povator}}} See [[#povator]["Povator"]].

@@ -1,0 +1,400 @@
+{
+  "kind": "koios.static-shadow-manifest",
+  "node": "koios-news",
+  "canonicalOrigin": "https://koios.news",
+  "authority": "non-authoritative-shadow",
+  "policy": {
+    "indexing": "noindex-nofollow",
+    "advertising": false,
+    "viewBeacon": false,
+    "mutableRoutes": "excluded"
+  },
+  "exclusions": [
+    "/hit",
+    "/views.json",
+    "/healthz",
+    "/newsroom",
+    "/cable",
+    "/mcp",
+    "/operators"
+  ],
+  "limitations": [
+    "Search is a static empty-query surface until a separately contracted edge search operation exists.",
+    "Aggregate attention is omitted because the shadow has no admitted mutable telemetry service.",
+    "This artifact does not confer upload, preview-hostname, DNS, or cutover authority."
+  ],
+  "routeCount": 52,
+  "artifacts": [
+    {
+      "route": "/",
+      "file": "index.html",
+      "mediaType": "text/html; charset=utf-8",
+      "bytes": 27495,
+      "digest": "sha256:2ba4596c3248ab7d5f1731823e3ac758916ebdf4b833615368c862cb8801105d"
+    },
+    {
+      "route": "/about",
+      "file": "about/index.html",
+      "mediaType": "text/html; charset=utf-8",
+      "bytes": 27194,
+      "digest": "sha256:1adff6932bc2084fb9a7430d162054d39cd72ef980b534857ed8904fa8b68be2"
+    },
+    {
+      "route": "/archive",
+      "file": "archive/index.html",
+      "mediaType": "text/html; charset=utf-8",
+      "bytes": 26200,
+      "digest": "sha256:d8824424528295495a5e2d76fb9af432674d744c8f14b922791bca0542909b8c"
+    },
+    {
+      "route": "/archive.json",
+      "file": "archive.json",
+      "mediaType": "application/json; charset=utf-8",
+      "bytes": 398,
+      "digest": "sha256:ad2341cb3bef4a170888ffc25740fa8b2bf3818fe3061d699208b02b10a0009e"
+    },
+    {
+      "route": "/archive/2026",
+      "file": "archive/2026/index.html",
+      "mediaType": "text/html; charset=utf-8",
+      "bytes": 27339,
+      "digest": "sha256:cf744a059ef07f22bbd8ee8232b4ae7fac10adeffdcdbea833a01d321d68bd0b"
+    },
+    {
+      "route": "/archive/2026/07",
+      "file": "archive/2026/07/index.html",
+      "mediaType": "text/html; charset=utf-8",
+      "bytes": 27257,
+      "digest": "sha256:9e3dc839b2d823c9721011f416156237db1acbb4629295047367a8ee8bb9295a"
+    },
+    {
+      "route": "/bibliography",
+      "file": "bibliography/index.html",
+      "mediaType": "text/html; charset=utf-8",
+      "bytes": 26342,
+      "digest": "sha256:f803cf5a72ba37a8f65bff042ccddb3ff122827a43db095de3ea0cdb0b30c989"
+    },
+    {
+      "route": "/bibliography.json",
+      "file": "bibliography.json",
+      "mediaType": "application/json; charset=utf-8",
+      "bytes": 892,
+      "digest": "sha256:d9a5fc50efaaee5e1021391c80ffbeb344dc6564849e83de00022681a8b49cc2"
+    },
+    {
+      "route": "/bibliography/ictnews.org",
+      "file": "bibliography/ictnews.org",
+      "mediaType": "text/html; charset=utf-8",
+      "bytes": 26607,
+      "digest": "sha256:f4b303990fb07a4804f63840f18538ab0987f8497e25bc4bbf1792349816ef46"
+    },
+    {
+      "route": "/bibliography/ictnews.org.json",
+      "file": "bibliography/ictnews.org.json",
+      "mediaType": "application/json; charset=utf-8",
+      "bytes": 807,
+      "digest": "sha256:e7926f212bf62581da8c81970766903787d1fe1e1a3abbe3c802bb1d09b50dcc"
+    },
+    {
+      "route": "/circulating.json",
+      "file": "circulating.json",
+      "mediaType": "application/json; charset=utf-8",
+      "bytes": 406,
+      "digest": "sha256:558b0a0a00d0ca83a2f7295d4b257e4ba3811528d0402676e7c6a7eb244b728a"
+    },
+    {
+      "route": "/corrections",
+      "file": "corrections/index.html",
+      "mediaType": "text/html; charset=utf-8",
+      "bytes": 26838,
+      "digest": "sha256:cbc5bcb0007721addf9b9a5e9a92164001b9dd997ec9e44306472be3626d002c"
+    },
+    {
+      "route": "/corrections.json",
+      "file": "corrections.json",
+      "mediaType": "application/json; charset=utf-8",
+      "bytes": 801,
+      "digest": "sha256:5430fb80a67d3320d49f72fea1097e2f6c808080ff41db8f7c032830f5449b50"
+    },
+    {
+      "route": "/coverage.json",
+      "file": "coverage.json",
+      "mediaType": "application/ld+json; charset=utf-8",
+      "bytes": 4299,
+      "digest": "sha256:9e7a66779610071c58ee5192e2dab0dfe9befcc9139f88f33f7fe5b58696b6d7"
+    },
+    {
+      "route": "/desks",
+      "file": "desks/index.html",
+      "mediaType": "text/html; charset=utf-8",
+      "bytes": 34392,
+      "digest": "sha256:24c12606f61a15971229d18d58363ea6f64bb10f43a1a20ab731d75e96c480ee"
+    },
+    {
+      "route": "/desks.json",
+      "file": "desks.json",
+      "mediaType": "application/json; charset=utf-8",
+      "bytes": 24881,
+      "digest": "sha256:79d2bfc927a2a0413d78c8fdfee8445ef0e8f2696177573655fcefa18dde61ef"
+    },
+    {
+      "route": "/feed.atom",
+      "file": "feed.atom",
+      "mediaType": "application/atom+xml; charset=utf-8",
+      "bytes": 8591,
+      "digest": "sha256:21da604f0b0e7b8501ce4284f25d28f731ae7a31f53e2d27a7e4fcf2158ec348"
+    },
+    {
+      "route": "/feed.json",
+      "file": "feed.json",
+      "mediaType": "application/feed+json; charset=utf-8",
+      "bytes": 8083,
+      "digest": "sha256:4be1b000c1976d59de16ff6a1faca7029d2e7a532b60650f3028da639d440079"
+    },
+    {
+      "route": "/feed.xml",
+      "file": "feed.xml",
+      "mediaType": "application/rss+xml; charset=utf-8",
+      "bytes": 8551,
+      "digest": "sha256:dd21e757de752d9f50bf24ff583194a66b3caf0a015e14032f8138d08a514db9"
+    },
+    {
+      "route": "/fingerprints/indigenous-leaders-confront-the-collision-of-climate-and-extraction.json",
+      "file": "fingerprints/indigenous-leaders-confront-the-collision-of-climate-and-extraction.json",
+      "mediaType": "application/ld+json; charset=utf-8",
+      "bytes": 3932,
+      "digest": "sha256:bb0f62301cea528e21a68483f2d9f974915c8514930814f8b6cff40b1903172f"
+    },
+    {
+      "route": "/fingerprints/indigenous-leaders-confront-the-collision-of-climate-and-extraction.svg",
+      "file": "fingerprints/indigenous-leaders-confront-the-collision-of-climate-and-extraction.svg",
+      "mediaType": "image/svg+xml; charset=utf-8",
+      "bytes": 35353,
+      "digest": "sha256:19961aefe3dbd42fe2e74a2eab5f764b01d395d02f0d7f30fa783fd1f0ab188f"
+    },
+    {
+      "route": "/news-sitemap.xml",
+      "file": "news-sitemap.xml",
+      "mediaType": "application/xml; charset=utf-8",
+      "bytes": 652,
+      "digest": "sha256:dcaf752abc7d20418afa8f3382cf8170001394ad2ad424f9709e800b1bdc7ae4"
+    },
+    {
+      "route": "/newswire-audit.json",
+      "file": "newswire-audit.json",
+      "mediaType": "application/json; charset=utf-8",
+      "bytes": 1528,
+      "digest": "sha256:6e5d951be6c57b6103607413218d42cf6a18f7e73873d6d5e323f352c1f79e8a"
+    },
+    {
+      "route": "/ninjs.json",
+      "file": "ninjs.json",
+      "mediaType": "application/vnd.iptc.ninjs+json; charset=utf-8",
+      "bytes": 7604,
+      "digest": "sha256:aba480b4a318e1229d752ae2eaa13ebb6a843038bac6961dc4f1bca10228e8e3"
+    },
+    {
+      "route": "/og.png",
+      "file": "og.png",
+      "mediaType": "image/png",
+      "bytes": 8323,
+      "digest": "sha256:da0ea06989a504858c862bcfed084cc9cc88fba27ff56f5e60ffd268609757f4"
+    },
+    {
+      "route": "/posts/indigenous-leaders-confront-the-collision-of-climate-and-extraction",
+      "file": "posts/indigenous-leaders-confront-the-collision-of-climate-and-extraction/index.html",
+      "mediaType": "text/html; charset=utf-8",
+      "bytes": 38096,
+      "digest": "sha256:14e00a362552bfa3091dc0d76ce995f93e601c71c3748ea9b6ed8ee2421d2a68"
+    },
+    {
+      "route": "/privacy",
+      "file": "privacy/index.html",
+      "mediaType": "text/html; charset=utf-8",
+      "bytes": 26831,
+      "digest": "sha256:a23ba87d626229793e8cbaaba19c4aeb3031127b9061e1d7d0779a671817e3d9"
+    },
+    {
+      "route": "/robots.txt",
+      "file": "robots.txt",
+      "mediaType": "text/plain; charset=utf-8",
+      "bytes": 26,
+      "digest": "sha256:331ea9090db0c9f6f597bd9840fd5b171830f6e0b3ba1cb24dfa91f0c95aedc1"
+    },
+    {
+      "route": "/search",
+      "file": "search/index.html",
+      "mediaType": "text/html; charset=utf-8",
+      "bytes": 26076,
+      "digest": "sha256:6be91cc550cc012a146d8e903329f05f70f37d010c3a1b301d5f90ad3cb39aa5"
+    },
+    {
+      "route": "/sitemap.xml",
+      "file": "sitemap.xml",
+      "mediaType": "application/xml; charset=utf-8",
+      "bytes": 384,
+      "digest": "sha256:0823046266f6cba903a9f29c085eafc9a236b3bf6f0947f3d8536005db528cd3"
+    },
+    {
+      "route": "/sources",
+      "file": "sources/index.html",
+      "mediaType": "text/html; charset=utf-8",
+      "bytes": 40531,
+      "digest": "sha256:49472246b59d75ebf117472f14be92f1914203948d6821f01fb8f188381eea40"
+    },
+    {
+      "route": "/sources.json",
+      "file": "sources.json",
+      "mediaType": "application/json; charset=utf-8",
+      "bytes": 20776,
+      "digest": "sha256:1caa5dc309a491176703ebedb026807c55c6c835e67aef4cfe79c68475925ac8"
+    },
+    {
+      "route": "/standards",
+      "file": "standards/index.html",
+      "mediaType": "text/html; charset=utf-8",
+      "bytes": 28948,
+      "digest": "sha256:f1137bff8cc39afd0f7641f309c575a575897b00516a716d4837d7a47f12b259"
+    },
+    {
+      "route": "/standards.json",
+      "file": "standards.json",
+      "mediaType": "application/json; charset=utf-8",
+      "bytes": 2027,
+      "digest": "sha256:fb4023e323d9bc866a3134cac6fd3caa04d1e683f1aeaa478cc0a561ea9fb622"
+    },
+    {
+      "route": "/syndicating.json",
+      "file": "syndicating.json",
+      "mediaType": "application/json; charset=utf-8",
+      "bytes": 1472,
+      "digest": "sha256:7c0fabb20146a8e40c499584e45b6dfc2b2674127e5c83e76d2081d2582e29a8"
+    },
+    {
+      "route": "/tags",
+      "file": "tags/index.html",
+      "mediaType": "text/html; charset=utf-8",
+      "bytes": 27748,
+      "digest": "sha256:600c46d21af373ef2d44566b7a1f5e5ed9d4abe73ce38ffd026b6ff67d717551"
+    },
+    {
+      "route": "/tags.json",
+      "file": "tags.json",
+      "mediaType": "application/json; charset=utf-8",
+      "bytes": 3736,
+      "digest": "sha256:568bf475feb083a6081770950490d7e4dfa4bc1ff93abdf9d67a23daeb0fc45c"
+    },
+    {
+      "route": "/tags/",
+      "file": "tags/index.html",
+      "mediaType": "text/html; charset=utf-8",
+      "bytes": 27748,
+      "digest": "sha256:600c46d21af373ef2d44566b7a1f5e5ed9d4abe73ce38ffd026b6ff67d717551"
+    },
+    {
+      "route": "/tags/climate-breakdown",
+      "file": "tags/climate-breakdown/index.html",
+      "mediaType": "text/html; charset=utf-8",
+      "bytes": 28497,
+      "digest": "sha256:256e799824029a73312e4dd9fac060edb50f170621b553babd6bcec9c81d719f"
+    },
+    {
+      "route": "/tags/climate-breakdown.json",
+      "file": "tags/climate-breakdown.json",
+      "mediaType": "application/json; charset=utf-8",
+      "bytes": 967,
+      "digest": "sha256:3025985c425452c6a2b461394d2974da71e031c32a171dfebf8bdba4b99361ea"
+    },
+    {
+      "route": "/tags/global-south",
+      "file": "tags/global-south/index.html",
+      "mediaType": "text/html; charset=utf-8",
+      "bytes": 28155,
+      "digest": "sha256:6fc984376fbed88e01ffffabcc86f18ccf1bdbe9ddd3ee35135962c596cbab47"
+    },
+    {
+      "route": "/tags/global-south.json",
+      "file": "tags/global-south.json",
+      "mediaType": "application/json; charset=utf-8",
+      "bytes": 725,
+      "digest": "sha256:f606d11feec27bfa3c17d7a39e3712b8b9d7022dbdcd24689d9ac91574847288"
+    },
+    {
+      "route": "/tags/indigenous-rights",
+      "file": "tags/indigenous-rights/index.html",
+      "mediaType": "text/html; charset=utf-8",
+      "bytes": 28117,
+      "digest": "sha256:913b4f28bbdeca48ce606640ae61c4ed6f300e2beef898d6ce607ccb83ccc667"
+    },
+    {
+      "route": "/tags/indigenous-rights.json",
+      "file": "tags/indigenous-rights.json",
+      "mediaType": "application/json; charset=utf-8",
+      "bytes": 684,
+      "digest": "sha256:6d1d12cfe4264dd15e81c32c89b5ecc090433c54e2cac425d9004ed09e4eb367"
+    },
+    {
+      "route": "/tags/resource-extraction",
+      "file": "tags/resource-extraction/index.html",
+      "mediaType": "text/html; charset=utf-8",
+      "bytes": 28151,
+      "digest": "sha256:0fe1ad54f2c39598e1a7a86b18bf5fde1e4dd9be9a518a24223160ca6de52efb"
+    },
+    {
+      "route": "/tags/resource-extraction.json",
+      "file": "tags/resource-extraction.json",
+      "mediaType": "application/json; charset=utf-8",
+      "bytes": 696,
+      "digest": "sha256:d7ea2ecc92fd1dccbd29a17a88e3ee935b5aa331f1f532fd43f9d71647963be6"
+    },
+    {
+      "route": "/tags/un",
+      "file": "tags/un/index.html",
+      "mediaType": "text/html; charset=utf-8",
+      "bytes": 27978,
+      "digest": "sha256:1bd9d5c8fcf9b5c4d31d861ce1ac18ab280342c8c9051919caf1caab1e92a2fc"
+    },
+    {
+      "route": "/tags/un.json",
+      "file": "tags/un.json",
+      "mediaType": "application/json; charset=utf-8",
+      "bytes": 658,
+      "digest": "sha256:2470f97441c42766b1afe0903015315fe58f5e018091edf7bb0e248fbbc63a93"
+    },
+    {
+      "route": "/topics",
+      "file": "topics/index.html",
+      "mediaType": "text/html; charset=utf-8",
+      "bytes": 26493,
+      "digest": "sha256:e44a2fa8104e1145c200f239477ba826c57b2a08d3bd9190f95b8c93c047ce20"
+    },
+    {
+      "route": "/topics.json",
+      "file": "topics.json",
+      "mediaType": "application/json; charset=utf-8",
+      "bytes": 926,
+      "digest": "sha256:b6cda8524bec32d56662b8f16d050bbd6fffce4dcb4044ccf2bb4c9c41e44b06"
+    },
+    {
+      "route": "/topics/decolonization",
+      "file": "topics/decolonization/index.html",
+      "mediaType": "text/html; charset=utf-8",
+      "bytes": 28499,
+      "digest": "sha256:09df3b711290cb734a085a55288167ff892285f94b0b57b79daf2dfbb07a8e50"
+    },
+    {
+      "route": "/topics/decolonization.json",
+      "file": "topics/decolonization.json",
+      "mediaType": "application/json; charset=utf-8",
+      "bytes": 924,
+      "digest": "sha256:1ab297a3ee7f4ce1931626e2c620e3bf32e55376fe5e035a054ac374394293a9"
+    },
+    {
+      "route": "urn:cloudflare-pages:_headers",
+      "file": "_headers",
+      "mediaType": "text/plain",
+      "bytes": 133,
+      "digest": "sha256:5a5ae78e7be675057ec29db2f8d1d2aafd9379ffc4f065037e0148adbdea1a4a"
+    }
+  ]
+}

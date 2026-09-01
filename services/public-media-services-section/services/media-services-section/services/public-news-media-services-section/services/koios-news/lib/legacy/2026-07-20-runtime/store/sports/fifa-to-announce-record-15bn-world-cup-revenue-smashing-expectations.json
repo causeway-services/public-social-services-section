@@ -1,0 +1,69 @@
+{
+  "subject": "fifa-to-announce-record-15bn-world-cup-revenue-smashing-expectations",
+  "claims": [
+    {
+      "id": "title",
+      "proposition": {
+        "predicate": "title",
+        "object": "Fifa to announce record $15bn World Cup revenue, smashing expectations"
+      },
+      "time": {
+        "asserted": "2026-07-19T20:06:20.506Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "sports",
+        "citation": "https://www.theguardian.com/football/2026/jul/18/fifa-record-15bn-world-cup-revenue"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "url",
+      "proposition": {
+        "predicate": "url",
+        "object": "https://www.theguardian.com/football/2026/jul/18/fifa-record-15bn-world-cup-revenue"
+      },
+      "time": {
+        "asserted": "2026-07-19T20:06:20.506Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "sports",
+        "citation": "https://www.theguardian.com/football/2026/jul/18/fifa-record-15bn-world-cup-revenue"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "summary",
+      "proposition": {
+        "predicate": "summary",
+        "object": "<ul><li><p>Hospitality and secondary ticket market help fuel rise</p></li><li><p>Gianni Infantino will feel this shores up his position</p></li></ul><p>Fifa will announce record $15bn (£11.2bn) revenues from this summer’s World Cup, significantly exceeding the targets set before the tournament.</p><p>Fifa’s member associations were informed of the boost in income by Gianni Infantino on Saturday. Originally the governing body had projected $11bn in earnings. Sources have indicated that hospitality and <a href=\"https://www.theguardian.com/football/2025/oct/11/fifa-2026-world-cup-tickets-dynamic-pricing-nft-resale\">ticketing</a>, especially through the steeply priced secondary market, account for a significant amount of the increase. Fifa takes 15% from the buyer and another 15% from the seller on the secondary market.</p> <a href=\"https://www.theguardian.com/football/2026/jul/18/fifa-record-15bn-world-cup-revenue\">Continue reading...</a>"
+      },
+      "time": {
+        "asserted": "2026-07-19T20:06:20.506Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "sports",
+        "citation": "https://www.theguardian.com/football/2026/jul/18/fifa-record-15bn-world-cup-revenue"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "published",
+      "proposition": {
+        "predicate": "published",
+        "object": "Sat, 18 Jul 2026 22:30:09 GMT"
+      },
+      "time": {
+        "asserted": "2026-07-19T20:06:20.506Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "sports",
+        "citation": "https://www.theguardian.com/football/2026/jul/18/fifa-record-15bn-world-cup-revenue"
+      },
+      "status": "supported"
+    }
+  ]
+}

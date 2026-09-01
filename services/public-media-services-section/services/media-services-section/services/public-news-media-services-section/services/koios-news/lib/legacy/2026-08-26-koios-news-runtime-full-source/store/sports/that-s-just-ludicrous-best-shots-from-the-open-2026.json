@@ -1,0 +1,69 @@
+{
+  "subject": "that-s-just-ludicrous-best-shots-from-the-open-2026",
+  "claims": [
+    {
+      "id": "title",
+      "proposition": {
+        "predicate": "title",
+        "object": "'That's just ludicrous!' - best shots from The Open 2026"
+      },
+      "time": {
+        "asserted": "2026-07-20T09:48:52.778Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "sports",
+        "citation": "https://www.bbc.co.uk/sport/golf/videos/c1k1nzw7wz7o?at_medium=RSS&at_campaign=rss"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "url",
+      "proposition": {
+        "predicate": "url",
+        "object": "https://www.bbc.co.uk/sport/golf/videos/c1k1nzw7wz7o?at_medium=RSS&at_campaign=rss"
+      },
+      "time": {
+        "asserted": "2026-07-20T09:48:52.778Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "sports",
+        "citation": "https://www.bbc.co.uk/sport/golf/videos/c1k1nzw7wz7o?at_medium=RSS&at_campaign=rss"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "summary",
+      "proposition": {
+        "predicate": "summary",
+        "object": "Enjoy the best shots from the 2026 Open Championship, featuring Rory McIlroy, Scottie Scheffler and tournament winner Ryan Fox."
+      },
+      "time": {
+        "asserted": "2026-07-20T09:48:52.778Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "sports",
+        "citation": "https://www.bbc.co.uk/sport/golf/videos/c1k1nzw7wz7o?at_medium=RSS&at_campaign=rss"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "published",
+      "proposition": {
+        "predicate": "published",
+        "object": "Mon, 20 Jul 2026 07:13:39 GMT"
+      },
+      "time": {
+        "asserted": "2026-07-20T09:48:52.778Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "sports",
+        "citation": "https://www.bbc.co.uk/sport/golf/videos/c1k1nzw7wz7o?at_medium=RSS&at_campaign=rss"
+      },
+      "status": "supported"
+    }
+  ]
+}

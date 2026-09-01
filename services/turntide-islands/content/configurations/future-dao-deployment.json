@@ -1,0 +1,81 @@
+{
+  "type": "TTIFutureDAODeploymentDesiredState",
+  "version": 1,
+  "community": "Turntide Islands",
+  "status": "unadmitted-testnet-first",
+  "statementOfFact": "This is a future-deployment desired state. It asserts no recovered historical EVM DAO, Colony, wallet, contract, token, treasury, asset, balance, or on-chain decision record.",
+  "historicalEvidence": {
+    "registry": "../governance/dao-registry.json",
+    "recoveryStatus": "no-substantiated-turntide-evm-or-colony-identifier"
+  },
+  "governanceFlow": [
+    "proposal",
+    "public-discussion",
+    "published-quorum-rule",
+    "vote",
+    "durable-decision-record",
+    "human-authorized-implementation",
+    "reflection-and-appeal"
+  ],
+  "zelo": {
+    "status": "future-clerical-office",
+    "may": [
+      "validate-and-publish-proposal-shape",
+      "announce-deadlines-and-participation-windows",
+      "calculate-a-transparent-tally-from-human-authorized-input",
+      "draft-a-public-receipt",
+      "surface-pause-and-appeal-status"
+    ],
+    "mustNot": [
+      "create-or-custody-wallets-or-keys",
+      "sign-transactions",
+      "cast-or-delegate-votes",
+      "determine-electorate-or-quorum-policy",
+      "execute-governance-decisions",
+      "resolve-appeals",
+      "upgrade-contracts-or-automation-authority"
+    ]
+  },
+  "admissionGates": {
+    "requiredBeforeTestnet": [
+      "ratified-governance-rule-and-eligible-body",
+      "public-proposal-and-receipt-schema",
+      "chain-and-governance-platform-selection",
+      "custody-signers-threshold-recovery-and-conflict-policy",
+      "human-emergency-pause-and-appeal-officers",
+      "public-testnet-acceptance-criteria"
+    ],
+    "requiredBeforeProduction": [
+      "completed-and-publicly-reviewed-testnet-exercise",
+      "ratified-production-admission",
+      "independent-review-of-authority-and-recovery-paths",
+      "published-exit-and-data-export-path"
+    ]
+  },
+  "unresolvedChoices": {
+    "chain": null,
+    "testnet": null,
+    "governancePlatform": null,
+    "walletCustody": null,
+    "signerThreshold": null,
+    "recoveryAuthority": null,
+    "membershipAndVoteRule": null,
+    "quorumRule": null,
+    "decisionRecordSystem": null
+  },
+  "safety": {
+    "testnetFirst": true,
+    "emergencyPause": "Human officers may pause automation and execution pending a documented review; the pause is not a substitute for an appeal.",
+    "appeal": "A published appeal window and human disposition record are required before a decision is final for production use.",
+    "upgrade": "No upgrade authority may be activated until its human signers, threshold, notice, rollback, and receipt process are ratified.",
+    "exit": "Members must be able to export public decision records and leave the governance system without surrendering their ordinary community access."
+  },
+  "forbiddenUntilAdmitted": [
+    "wallet-or-key-creation",
+    "contract-deployment",
+    "asset-or-token-issuance-or-claim",
+    "treasury-or-balance-claim",
+    "production-voting-or-execution",
+    "claiming-a-Colony-or-other-platform-is-live"
+  ]
+}

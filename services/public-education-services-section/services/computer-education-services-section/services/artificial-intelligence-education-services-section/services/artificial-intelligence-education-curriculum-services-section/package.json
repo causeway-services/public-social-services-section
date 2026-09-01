@@ -1,0 +1,31 @@
+{
+  "name": "@emsenn/artificial-intelligence-curriculum-enterprise",
+  "version": "0.1.7",
+  "type": "module",
+  "exports": {
+    "./curriculum": "./src/curriculum.mjs",
+    "./a2a-delivery-executor": "./src/a2a-delivery-executor.mjs"
+  },
+  "files": [
+    "src/",
+    "content/",
+    "scripts/"
+  ],
+  "scripts": {
+    "check": "node --check src/curriculum.mjs && node --check src/a2a-delivery-executor.mjs && node --check src/local-a2a-membrane.mjs && node --check src/serve-delivery-a2a.mjs && node --check scripts/record-cohort-launch.mjs && node --check scripts/build-ebook.mjs && node --check scripts/record-ebook-launch.mjs && node --check test/curriculum.test.mjs",
+    "test": "node --test test/curriculum.test.mjs",
+    "serve-delivery-a2a": "node src/serve-delivery-a2a.mjs",
+    "record-cohort-launch": "node scripts/record-cohort-launch.mjs",
+    "build-ebook": "node scripts/build-ebook.mjs",
+    "record-ebook-launch": "node scripts/record-ebook-launch.mjs"
+  },
+  "dependencies": {
+    "@red-cup-engineering/a2a-contracted-agent-service": "2.1.5",
+    "@red-cup-engineering/a2a-rmn-part-service": "1.0.6",
+    "@red-cup-engineering/ebook-production-services-section": "0.1.5",
+    "@red-cup-engineering/semantic-content-identify-service": "0.2.7",
+    "@red-cup-engineering/semantic-record-journal-service": "0.1.9",
+    "@red-cup-engineering/witness-journal-document-service": "1.0.1"
+  },
+  "license": "UNLICENSED"
+}

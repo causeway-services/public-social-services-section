@@ -1,0 +1,24 @@
+{
+  "type": "TTIUnionMediaActivityPubTreaty",
+  "version": 1,
+  "status": "awaiting-public-host-and-first-advertiser-activitypub-identity",
+  "customer": "urn:ame:turntide-islands",
+  "carrierProvider": "urn:ame:activitypub-services-section",
+  "carrierContracts": [
+    "activitypub-services-section/signed-delivery/v1",
+    "activitypub-services-section/rmn-link/v1"
+  ],
+  "origin": "https://turntide-islands.561.group/",
+  "identifier": "union-media",
+  "actor": "https://turntide-islands.561.group/actors/union-media",
+  "agentCard": "https://turntide-islands.561.group/.well-known/agent-card.json",
+  "senders": {
+    "urn:ame:youtube-channel-enterprise": {
+      "status": "authentication-ready-awaiting-activitypub-actor-and-agent-card",
+      "actor": null,
+      "agentCard": null
+    }
+  },
+  "admissionRule": "Only a sender with an exact HTTPS actor and Agent Card added by a later TTI treaty revision can reach placement-request admission. EVM authentication alone never invents an ActivityPub identity.",
+  "hostingBlocker": "turntide-islands.561.group has no resolvable public DNS/HTTPS ingress, and TTI has no authority to modify Bare Cedar Fog's public proxy plate without a separately accepted hosting contract."
+}

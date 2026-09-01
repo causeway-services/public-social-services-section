@@ -1,0 +1,69 @@
+{
+  "subject": "sao-tome-and-principe-heads-to-polls-in-tense-presidential-election",
+  "claims": [
+    {
+      "id": "title",
+      "proposition": {
+        "predicate": "title",
+        "object": "São Tomé and Príncipe heads to polls in tense presidential election"
+      },
+      "time": {
+        "asserted": "2026-07-19T15:04:07.991Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "politics",
+        "citation": "https://www.theguardian.com/world/2026/jul/19/sao-tome-and-principe-presidential-election"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "url",
+      "proposition": {
+        "predicate": "url",
+        "object": "https://www.theguardian.com/world/2026/jul/19/sao-tome-and-principe-presidential-election"
+      },
+      "time": {
+        "asserted": "2026-07-19T15:04:07.991Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "politics",
+        "citation": "https://www.theguardian.com/world/2026/jul/19/sao-tome-and-principe-presidential-election"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "summary",
+      "proposition": {
+        "predicate": "summary",
+        "object": "<p>Incumbent Carlos Vila Nova hopes to defeat his former party and secure second term as independent</p><p>Voters in <a href=\"https://www.theguardian.com/world/sao-tome-and-principe\">São Tomé and Príncipe</a> go to the polls for a presidential election on Sunday as one of Africa’s least populous countries seeks to burnish its democratic credentials.</p><p>According to the National Election Commission, about 142,000 people are registered to vote in the tiny African state’s elections, approximately 15% of whom live in the diaspora.</p> <a href=\"https://www.theguardian.com/world/2026/jul/19/sao-tome-and-principe-presidential-election\">Continue reading...</a>"
+      },
+      "time": {
+        "asserted": "2026-07-19T15:04:07.991Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "politics",
+        "citation": "https://www.theguardian.com/world/2026/jul/19/sao-tome-and-principe-presidential-election"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "published",
+      "proposition": {
+        "predicate": "published",
+        "object": "Sun, 19 Jul 2026 04:00:16 GMT"
+      },
+      "time": {
+        "asserted": "2026-07-19T15:04:07.991Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "politics",
+        "citation": "https://www.theguardian.com/world/2026/jul/19/sao-tome-and-principe-presidential-election"
+      },
+      "status": "supported"
+    }
+  ]
+}

@@ -1,0 +1,69 @@
+{
+  "subject": "a-masterpiece-in-every-way-the-odyssey-earns-near-universal-acclaim-as-full-reviews-published",
+  "claims": [
+    {
+      "id": "title",
+      "proposition": {
+        "predicate": "title",
+        "object": "‘A masterpiece in every way’: The Odyssey earns near universal acclaim as full reviews published"
+      },
+      "time": {
+        "asserted": "2026-07-18T04:08:36.538Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "culture",
+        "citation": "https://www.theguardian.com/film/2026/jul/16/the-odyssey-earns-near-universal-acclaim-as-full-reviews-published"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "url",
+      "proposition": {
+        "predicate": "url",
+        "object": "https://www.theguardian.com/film/2026/jul/16/the-odyssey-earns-near-universal-acclaim-as-full-reviews-published"
+      },
+      "time": {
+        "asserted": "2026-07-18T04:08:36.538Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "culture",
+        "citation": "https://www.theguardian.com/film/2026/jul/16/the-odyssey-earns-near-universal-acclaim-as-full-reviews-published"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "summary",
+      "proposition": {
+        "predicate": "summary",
+        "object": "<p>Christopher Nolan’s epic was given five stars by the Guardian, Independent and Telegraph, while the New York Times called it a ‘monumental adaptation’</p><p>Christopher Nolan’s $250m Imax blockbuster version of Homer’s epic poem the Odyssey looks set to be among the director’s best-received of his career, and could be a frontrunner for next year’s best picture Oscar.</p><p>The Guardian’s <a href=\"https://www.theguardian.com/film/2026/jul/15/the-odyssey-review-christopher-nolan-matt-damon\">Peter Bradshaw</a> was among the vast majority of critics who awarded it five stars, calling it a film “with thrilling ambition, boldness, seriousness, generosity and flair. There are some broad-brush moments in the dialogue, yes, but even these are applied with a muscular flourish.”</p> <a href=\"https://www.theguardian.com/film/2026/jul/16/the-odyssey-earns-near-universal-acclaim-as-full-reviews-published\">Continue reading...</a>"
+      },
+      "time": {
+        "asserted": "2026-07-18T04:08:36.538Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "culture",
+        "citation": "https://www.theguardian.com/film/2026/jul/16/the-odyssey-earns-near-universal-acclaim-as-full-reviews-published"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "published",
+      "proposition": {
+        "predicate": "published",
+        "object": "Thu, 16 Jul 2026 17:16:03 GMT"
+      },
+      "time": {
+        "asserted": "2026-07-18T04:08:36.538Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "culture",
+        "citation": "https://www.theguardian.com/film/2026/jul/16/the-odyssey-earns-near-universal-acclaim-as-full-reviews-published"
+      },
+      "status": "supported"
+    }
+  ]
+}

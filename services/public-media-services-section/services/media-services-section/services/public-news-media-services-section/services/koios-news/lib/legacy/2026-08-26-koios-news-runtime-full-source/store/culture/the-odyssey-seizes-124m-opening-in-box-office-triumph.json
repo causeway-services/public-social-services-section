@@ -1,0 +1,69 @@
+{
+  "subject": "the-odyssey-seizes-124m-opening-in-box-office-triumph",
+  "claims": [
+    {
+      "id": "title",
+      "proposition": {
+        "predicate": "title",
+        "object": "‘The Odyssey’ Seizes $124M Opening in Box Office Triumph"
+      },
+      "time": {
+        "asserted": "2026-07-19T15:58:01.697Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "culture",
+        "citation": "https://www.hollywoodreporter.com/movies/movie-news/the-odyssey-box-office-christopher-nolan-opening-success-1236651646/"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "url",
+      "proposition": {
+        "predicate": "url",
+        "object": "https://www.hollywoodreporter.com/movies/movie-news/the-odyssey-box-office-christopher-nolan-opening-success-1236651646/"
+      },
+      "time": {
+        "asserted": "2026-07-19T15:58:01.697Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "culture",
+        "citation": "https://www.hollywoodreporter.com/movies/movie-news/the-odyssey-box-office-christopher-nolan-opening-success-1236651646/"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "summary",
+      "proposition": {
+        "predicate": "summary",
+        "object": "Christopher Nolan's star-packed mythological epic revitalized the summer box office with this year's biggest live-action debut and the acclaimed filmmaker's highest-grossing global launch."
+      },
+      "time": {
+        "asserted": "2026-07-19T15:58:01.697Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "culture",
+        "citation": "https://www.hollywoodreporter.com/movies/movie-news/the-odyssey-box-office-christopher-nolan-opening-success-1236651646/"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "published",
+      "proposition": {
+        "predicate": "published",
+        "object": "Sun, 19 Jul 2026 15:51:43 +0000"
+      },
+      "time": {
+        "asserted": "2026-07-19T15:58:01.697Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "culture",
+        "citation": "https://www.hollywoodreporter.com/movies/movie-news/the-odyssey-box-office-christopher-nolan-opening-success-1236651646/"
+      },
+      "status": "supported"
+    }
+  ]
+}

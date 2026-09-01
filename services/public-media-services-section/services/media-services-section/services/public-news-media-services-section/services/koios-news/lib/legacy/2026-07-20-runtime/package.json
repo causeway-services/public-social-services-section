@@ -1,0 +1,283 @@
+{
+  "name": "@emsenn/koios.news",
+  "version": "0.0.1",
+  "type": "module",
+  "description": "Koios.News — a general news publication with systems-analysis depth: pages, feeds, sitemaps, NewsArticle JSON-LD, ad slots, and accountable first-party attention over its own corpus.",
+  "bin": {
+    "prepare-article50-provenance": "./dist/prepare-article50-provenance.mjs",
+    "settle-issue-pulse": "./dist/issue-pulse.mjs",
+    "operate-keyword-research": "./dist/operate-keyword-research.mjs",
+    "operate-issue": "./dist/operate-issue.mjs",
+    "operate-learning-pulse": "./dist/operate-learning-pulse.mjs",
+    "operate-attention-import": "./dist/operate-attention-import.mjs",
+    "operate-aads-performance-import": "./dist/operate-aads-performance-import.mjs",
+    "operate-search-demand-import": "./dist/operate-search-demand-import.mjs",
+    "operate-repair-pulse": "./dist/operate-repair-pulse.mjs",
+    "operate-correction": "./dist/correction.mjs",
+    "operate-newsroom-repair": "./dist/operate-newsroom-repair.mjs",
+    "solicit-participation": "./dist/venture-participation.mjs",
+    "invoke-participation": "./dist/venture-participation.mjs"
+  },
+  "scripts": {
+    "clean": "rm -rf dist",
+    "prepare:editorial-context": "node scripts/prepare-editorial-pipeline-context.mjs",
+    "check": "pnpm run prepare:editorial-context && tsc --noEmit",
+    "build": "pnpm run prepare:editorial-context && tsc -p tsconfig.build.json",
+    "test": "pnpm run build && node --test test/*.test.mjs",
+    "verify": "pnpm run check && pnpm test",
+    "rebuild": "pnpm run clean && pnpm run build",
+    "serve": "pnpm run build && node dist/server.mjs",
+    "serve:newsroom": "pnpm run build && node dist/newsroom-server.mjs",
+    "serve:cable": "pnpm run build && node dist/cable-server.mjs",
+    "cable:ingest": "pnpm run build && node dist/cable-ingest.mjs",
+    "source:cycle": "pnpm run build && node dist/source-cycle.mjs",
+    "issue:pulse": "pnpm run build && node dist/issue-pulse.mjs",
+    "clockkeeper:contract": "pnpm run build && node dist/contract-clockkeeper.mjs",
+    "assignment:backlog": "pnpm run build && node dist/settle-assignment-backlog.mjs",
+    "newsroom:pulse": "pnpm run build && node dist/operate-issue.mjs",
+    "newsroom:assignment": "pnpm run build && node dist/newsroom-circuit.mjs",
+    "learning:pulse": "pnpm run build && node dist/learning-pulse.mjs",
+    "source:submit": "pnpm run build && node dist/submit-source.mjs",
+    "editorial:judge": "pnpm run build && node dist/editorial-judge.mjs",
+    "editorial:recover": "pnpm run build && node dist/editorial-recover.mjs",
+    "editorial:reproject": "pnpm run build && node dist/editorial-reproject.mjs",
+    "writer:replay": "pnpm run build && node dist/writer-replay.mjs",
+    "draft:repair": "pnpm run build && node dist/draft-repair.mjs",
+    "correction": "pnpm run build && node dist/correction.mjs",
+    "correction:prove": "pnpm run build && node dist/correction-proof.mjs",
+    "editor:repair": "pnpm run build && node dist/settle-editor-repairs.mjs",
+    "discover": "pnpm run build && node dist/discover.mjs",
+    "deploy:doctor": "pnpm run build && node dist/deploy-doctor.mjs",
+    "deploy:plan": "pnpm run build && node dist/deploy-doctor.mjs --plan",
+    "deploy:stage": "pnpm run build && node dist/deploy-doctor.mjs --stage",
+    "deploy:rehearse": "pnpm run build && node dist/deploy-doctor.mjs --rehearse",
+    "deploy:ship": "pnpm run build && node dist/deploy-doctor.mjs --ship",
+    "deploy:remote-check": "pnpm run build && node dist/deploy-doctor.mjs --remote-check",
+    "deploy:self-check": "pnpm run build && node dist/deploy-doctor.mjs --self-check",
+    "deploy:probe": "node scripts/deploy-probe.mjs",
+    "shadow:build": "pnpm run build && node dist/static-shadow.mjs --out .static/koios.news --replace",
+    "provenance:prepare": "pnpm run build && node dist/prepare-article50-provenance.mjs",
+    "shadow:witness-live": "pnpm run build && node dist/live-publication-witness.mjs",
+    "shadow:verify": "pnpm run build && node dist/static-shadow.mjs --verify",
+    "candidate:build": "pnpm run build && node dist/static-shadow.mjs --profile cutover-candidate --out .static/koios.news-candidate --replace",
+    "candidate:verify": "pnpm run build && node dist/static-shadow.mjs --profile cutover-candidate --verify",
+    "candidate:compare-shadow": "pnpm run build && node dist/static-profile-parity.mjs",
+    "shadow:compare-live": "pnpm run build && node dist/shadow-parity.mjs",
+    "shadow:cloudflare-dry-run": "pnpm run build && node dist/cloudflare-static-delivery.mjs",
+    "candidate:deliver-preview": "pnpm run build && node dist/cloudflare-static-delivery.mjs",
+    "candidate:settle-mutable-routes": "pnpm run build && node dist/mutable-route-dispositions.mjs",
+    "candidate:prove-preview": "pnpm run build && node dist/preview-parity.mjs",
+    "ledger:project-provider-usage": "pnpm run build && node dist/project-provider-usage.mjs",
+    "mill": "content-farm",
+    "demand:pull": "pnpm --filter @emsenn/producing-content run build && content-demand-pull --property=sc-domain:koios.news --out=data/records/search-console.json",
+    "desk:enqueue": "pnpm run build && node dist/desk.mjs"
+  },
+  "main": "./dist/index.mjs",
+  "types": "./dist/index.d.mts",
+  "files": [
+    "dist",
+    "README.md",
+    "package.json"
+  ],
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.mts",
+      "import": "./dist/index.mjs"
+    },
+    "./content": {
+      "types": "./dist/content.d.mts",
+      "import": "./dist/content.mjs"
+    },
+    "./server": {
+      "types": "./dist/server.d.mts",
+      "import": "./dist/server.mjs"
+    },
+    "./newsroom": {
+      "types": "./dist/newsroom-site.d.mts",
+      "import": "./dist/newsroom-site.mjs"
+    },
+    "./newsroom/departments": {
+      "types": "./dist/newsroom/departments.d.mts",
+      "import": "./dist/newsroom/departments.mjs"
+    },
+    "./administrating": {
+      "types": "./dist/administrating/index.d.mts",
+      "import": "./dist/administrating/index.mjs"
+    },
+    "./administrating/developing": {
+      "types": "./dist/administrating/developing/index.d.mts",
+      "import": "./dist/administrating/developing/index.mjs"
+    },
+    "./administrating/deploying": {
+      "types": "./dist/administrating/deploying/index.d.mts",
+      "import": "./dist/administrating/deploying/index.mjs"
+    },
+    "./researching": {
+      "types": "./dist/researching/index.d.mts",
+      "import": "./dist/researching/index.mjs"
+    },
+    "./researching/sourcing": {
+      "types": "./dist/researching/sourcing/index.d.mts",
+      "import": "./dist/researching/sourcing/index.mjs"
+    },
+    "./researching/writing": {
+      "types": "./dist/researching/writing/index.d.mts",
+      "import": "./dist/researching/writing/index.mjs"
+    },
+    "./researching/writing/manuscripts": {
+      "types": "./dist/researching/writing/manuscripts.d.mts",
+      "import": "./dist/researching/writing/manuscripts.mjs"
+    },
+    "./researching/writing/assignments": {
+      "types": "./dist/researching/writing/assignments.d.mts",
+      "import": "./dist/researching/writing/assignments.mjs"
+    },
+    "./researching/writing/editing": {
+      "types": "./dist/researching/writing/editing/index.d.mts",
+      "import": "./dist/researching/writing/editing/index.mjs"
+    },
+    "./researching/writing/editing/standards": {
+      "types": "./dist/researching/writing/editing/standards.d.mts",
+      "import": "./dist/researching/writing/editing/standards.mjs"
+    },
+    "./researching/writing/editing/publishing": {
+      "types": "./dist/researching/writing/editing/publishing/index.d.mts",
+      "import": "./dist/researching/writing/editing/publishing/index.mjs"
+    },
+    "./researching/writing/editing/publishing/managing": {
+      "types": "./dist/researching/writing/editing/publishing/managing/index.d.mts",
+      "import": "./dist/researching/writing/editing/publishing/managing/index.mjs"
+    },
+    "./cable": {
+      "types": "./dist/cable-app.d.mts",
+      "import": "./dist/cable-app.mjs"
+    },
+    "./package.json": "./package.json",
+    "./desk": {
+      "types": "./dist/desk.d.mts",
+      "import": "./dist/desk.mjs"
+    }
+  },
+  "dependencies": {
+    "@emsenn/a2a-services-section": "file:../../../../../red-cup-engineering/services/web-services-section/services/a2a-services-section",
+    "@emsenn/c2pa-services-section": "workspace:*",
+    "@emsenn/communicating": "workspace:*",
+    "@emsenn/computing-with-the-web": "workspace:*",
+    "@emsenn/http-server": "workspace:*",
+    "@emsenn/organizing-a-content-farm": "workspace:*",
+    "@emsenn/organizing-a-content-mill": "workspace:*",
+    "@emsenn/organizing-a-newscable": "workspace:*",
+    "@emsenn/organizing-a-newswire": "workspace:*",
+    "@emsenn/producing-content": "workspace:*",
+    "@emsenn/relating": "workspace:*",
+    "@emsenn/rmn-semantic-conformance": "workspace:*",
+    "@emsenn/rwil-rdf-services": "workspace:*"
+  },
+  "devDependencies": {
+    "@types/node": "^22.0.0",
+    "typescript": "^5.8.0",
+    "wrangler": "4.112.0"
+  },
+  "sideEffects": false,
+  "keywords": [
+    "sovereign-state-enterprise"
+  ],
+  "x-agentic-metro-enterprise": {
+    "node-id": "koios.news",
+    "membrane": {
+      "law": "lib/",
+      "lasting-instances": "content/",
+      "append-only-instances": "data/"
+    },
+    "operation-catalog": {
+      "operate-keyword-research": {
+        "contract": "koios.news/keyword-opportunity-research/v1",
+        "accepts": "an admitted Journalism Commissioning Create<KeywordOpportunityResearchOrder> on stdin",
+        "returns": "ActivityStreams Accept<KeywordOpportunityResearchSettlement>|Reject",
+        "economic-role": "Koios Keyword Research sells a non-warranting opportunity brief to Koios Journalism Commissioning through the internal market",
+        "timeoutMs": 120000
+      },
+      "commissioned-journalism": {
+        "contract": "koios.news/commissioned-journalism/v1",
+        "accepts": "one publication-owned assignment descended from an exact keyword-opportunity brief",
+        "returns": "a digest-bound warranted article package or no sale",
+        "economic-role": "Koios Journalism Commissioning sells an editorially admitted article candidate to Koios Publishing and Ad Inventory",
+        "timeoutMs": 1800000
+      },
+      "article-ad-inventory": {
+        "contract": "koios.news/article-ad-inventory/v1",
+        "accepts": "one Cloudflare-released article candidate plus independent public witness",
+        "returns": "a bounded external ad-inventory lot awaiting advertiser or demand-provider receipts",
+        "economic-role": "Koios Publishing and Ad Inventory exposes publicly witnessed placements to outside revenue counterparties without treating readers as the commodity",
+        "timeoutMs": 30000
+      },
+      "settle-issue-pulse": {
+        "contract": "koios.news/publication-issue-pulse/v1",
+        "accepts": "externally authored ActivityStreams Create<NewsroomIssueDemand> on stdin",
+        "returns": "ActivityStreams Accept<IssuePulseSettlement>|Reject",
+        "timeoutMs": 120000
+      },
+      "operate-issue": {
+        "contract": "koios.news/publication-cycle/v1",
+        "accepts": "Clockkeeper delivery of Koios's standing internal publication-service order as ActivityStreams Create<NewsroomIssueDemand> on stdin",
+        "returns": "ActivityStreams Accept<PublicationCycleSettlement>|Question<PublicationCycleSettlement>|Reject<IssuePulseSettlement|PublicationCycleSettlement>",
+        "economic-role": "internal node service sold by Koios publication operations to the Koios market micro-enterprise; reader choice and outside revenue, not Clockkeeper delivery, settle value",
+        "timeoutMs": 1800000
+      },
+      "operate-learning-pulse": {
+        "contract": "koios-news/newsroom-learning-pulse/v1",
+        "accepts": "an admitted Clockkeeper ActivityStreams Create<NewsroomLearningDemand>",
+        "returns": "ActivityStreams Accept<NewsroomLearningSettlement>|Reject",
+        "timeoutMs": 120000
+      },
+      "operate-attention-import": {
+        "contract": "koios-news/attention-import/v1",
+        "accepts": "an admitted Clockkeeper ActivityStreams Create<AttentionImportDemand>",
+        "returns": "ActivityStreams Accept<AttentionImportSettlement>|Reject",
+        "timeoutMs": 120000
+      },
+      "operate-aads-performance-import": {
+        "contract": "koios-news/aads-performance-import/v1",
+        "accepts": "an admitted Clockkeeper ActivityStreams Create<AAdsPerformanceImportDemand>",
+        "returns": "ActivityStreams Accept<AAdsPerformanceImportSettlement>|Reject",
+        "timeoutMs": 120000
+      },
+      "operate-search-demand-import": {
+        "contract": "koios-news/search-demand-import/v1",
+        "accepts": "an admitted Clockkeeper ActivityStreams Create<SearchDemandImportDemand>",
+        "returns": "ActivityStreams Accept<SearchDemandImportSettlement>|Reject with a durable provider obstruction",
+        "timeoutMs": 120000
+      },
+      "operate-repair-pulse": {
+        "contract": "koios-news/newsroom-repair-pulse/v1",
+        "accepts": "an admitted Clockkeeper ActivityStreams Create<NewsroomRepairPulseDemand>",
+        "returns": "ActivityStreams Accept<NewsroomRepairPulseSettlement>|Question|Reject",
+        "timeoutMs": 1800000
+      },
+      "operate-correction": {
+        "contract": "koios.news/correction-publication/v1",
+        "accepts": "an Editor-in-Chief-authorized correction transaction naming exact prior and corrected evidence",
+        "returns": "CorrectionPublicationSettlement released through cloudflare-primary-static-release/v1 or release-obstructed for automatic retry",
+        "timeoutMs": 900000
+      },
+      "operate-newsroom-repair": {
+        "contract": "koios.news/newsroom-repair-replay/v1",
+        "accepts": "one exact terminal Koios assignment id with a supported learning move",
+        "returns": "NewsroomRepairReplaySettlement with provider repair, successor replay, and optional Cloudflare release",
+        "timeoutMs": 1800000
+      },
+      "solicit-participation": {
+        "contract": "koios.news/venture-participation/v1",
+        "accepts": "ActivityStreams Offer<VentureParticipationSolicitation> carrying one exact Leader VentureParticipationIntent",
+        "returns": "ActivityStreams Offer<ExecutableParticipationOffer>|Question|Reject",
+        "timeoutMs": 30000
+      },
+      "invoke-participation": {
+        "contract": "koios.news/venture-participation/v1",
+        "accepts": "ActivityStreams Accept<VentureParticipationContract> with an attenuated provider-local-write capability",
+        "returns": "ActivityStreams Accept<KoiosVentureParticipationResult>|Reject",
+        "timeoutMs": 30000
+      }
+    }
+  }
+}

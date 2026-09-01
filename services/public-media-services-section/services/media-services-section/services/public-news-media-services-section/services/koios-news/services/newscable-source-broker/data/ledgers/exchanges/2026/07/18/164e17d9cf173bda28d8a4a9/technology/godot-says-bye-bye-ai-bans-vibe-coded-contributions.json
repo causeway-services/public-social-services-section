@@ -1,0 +1,69 @@
+{
+  "subject": "godot-says-bye-bye-ai-bans-vibe-coded-contributions",
+  "claims": [
+    {
+      "id": "title",
+      "proposition": {
+        "predicate": "title",
+        "object": "Godot says bye bye AI, bans vibe-coded contributions"
+      },
+      "time": {
+        "asserted": "2026-07-18T08:37:41.516Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "technology",
+        "citation": "https://www.theregister.com/ai-and-ml/2026/07/01/godot-says-bye-bye-ai-bans-vibe-coded-contributions/5265344"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "url",
+      "proposition": {
+        "predicate": "url",
+        "object": "https://www.theregister.com/ai-and-ml/2026/07/01/godot-says-bye-bye-ai-bans-vibe-coded-contributions/5265344"
+      },
+      "time": {
+        "asserted": "2026-07-18T08:37:41.516Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "technology",
+        "citation": "https://www.theregister.com/ai-and-ml/2026/07/01/godot-says-bye-bye-ai-bans-vibe-coded-contributions/5265344"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "summary",
+      "proposition": {
+        "predicate": "summary",
+        "object": "Vibe coders apparently don't understand what their AI servants write - at least that’s what the team behind open-source game engine Godot seems to be implying with a new policy that cracks down on AI-generated contributions. The Godot team announced on Tuesday that they were in the process of rewriting their contribution policy to prohibit almost all use of AI from contributors, citing an overwhelming number of pull requests that have poured in, many of which appear to be AI-generated. Nor, the maintainers suggested, can many heavy AI users be relied on to respond meaningfully to review feedback. “AI cannot take responsibility, and we can’t trust heavy users of AI to understand their code enough to fix it,” the Godot maintainers said in their announcement. Ouch. The maintainers described AI pull requests as “demoralizing” for the Godot team, echoing comments made earlier this year when maintainer Rémi Verschelde said AI pull requests were increasingly draining and demoralizing wastes of time. AI PRs, one game studio that uses Godot noted earlier this year, are largely garbage, come from users who don’t understand what they’re proposing, and are largely “a total shitshow.” The Godot team said that it now recognizes the problem isn’t going away, so it’s time to do something about it. “Accordingly, we are in the process of updating our contribution policies, including adding a stricter policy on AI contributions,” they said. For starters, new contributors (defined as anyone with three or fewer merged pull requests) will be required to get explicit permission from maintainers if they want to submit new features or significant refactoring to Godot's codebase. This, the team said, is a bid to exclude vibe coders and AI agents and nurture a group of contributors who understand the Godot codebase and are willing to communicate with the team to learn more about it. On that note, contribution discussions will be required to remain human-to-human, too: No AI agents or bots clogging up the comms channels, unless they're being used to translate between languages. “We need to ensure that people who choose to review PRs feel their time is well spent,” the Godot maintainers explained. As for AI code itself, any autonomous agent-authored contributions or vibe-coded garbage will continue to result in an auto-ban from the team’s GitHub repo, and the team is extending that ban on AI code to include a prohibition on the use of AI to generate any substantial piece of code. “AI assistance should be limited to menial things (like code completion, regex, or find and replace),” the team explained. “If you do use AI in some capacity to author code, you must disclose it in the PR discussion.” The policy has yet to be formally amended, and the Godot maintainers didn’t say when exactly they’d release the update. Needless to say, vibe coders and AI agents aren’t welcome even now, so don’t push your luck. Vibe coding has shown other signs of falling out of favor lately as horror stories about deleted databases and wiped drives continue to pile up. Just last week, the chairman of IT consulting service Infosys predicted that vibe coding wasn’t something professionals should be worried about as there’s more to writing good software than coding. “Given that AI is a much larger and disruptive technology transition than ever before, the questions are louder and the doubts are more insistent,” Nandan Nilekani said in a speech at the company’s AGM last week. “While we will embrace the best coding tools and improve our productivity, there is much more to do in the software development life cycle.” Context, Nilekani said, is paramount in software development. Based on the vibe-coded disaster that Godot has dealt with, AI doesn’t seem quite capable of grasping that important element. ®"
+      },
+      "time": {
+        "asserted": "2026-07-18T08:37:41.516Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "technology",
+        "citation": "https://www.theregister.com/ai-and-ml/2026/07/01/godot-says-bye-bye-ai-bans-vibe-coded-contributions/5265344"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "published",
+      "proposition": {
+        "predicate": "published",
+        "object": "Wed, 01 Jul 2026 22:29:07 +0200"
+      },
+      "time": {
+        "asserted": "2026-07-18T08:37:41.516Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "technology",
+        "citation": "https://www.theregister.com/ai-and-ml/2026/07/01/godot-says-bye-bye-ai-bans-vibe-coded-contributions/5265344"
+      },
+      "status": "supported"
+    }
+  ]
+}

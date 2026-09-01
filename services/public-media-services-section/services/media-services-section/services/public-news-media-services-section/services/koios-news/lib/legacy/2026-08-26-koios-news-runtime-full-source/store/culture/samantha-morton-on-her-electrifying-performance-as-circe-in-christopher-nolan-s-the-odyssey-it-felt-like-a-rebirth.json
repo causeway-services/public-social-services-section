@@ -1,0 +1,69 @@
+{
+  "subject": "samantha-morton-on-her-electrifying-performance-as-circe-in-christopher-nolan-s-the-odyssey-it-felt-like-a-rebirth",
+  "claims": [
+    {
+      "id": "title",
+      "proposition": {
+        "predicate": "title",
+        "object": "Samantha Morton on Her Electrifying Performance as Circe in Christopher Nolan’s ‘The Odyssey’: ‘It Felt Like a Rebirth’"
+      },
+      "time": {
+        "asserted": "2026-07-19T14:42:05.531Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "culture",
+        "citation": "https://variety.com/2026/film/news/samantha-morton-circe-christopher-nolan-the-odyssey-1236815471/"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "url",
+      "proposition": {
+        "predicate": "url",
+        "object": "https://variety.com/2026/film/news/samantha-morton-circe-christopher-nolan-the-odyssey-1236815471/"
+      },
+      "time": {
+        "asserted": "2026-07-19T14:42:05.531Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "culture",
+        "citation": "https://variety.com/2026/film/news/samantha-morton-circe-christopher-nolan-the-odyssey-1236815471/"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "summary",
+      "proposition": {
+        "predicate": "summary",
+        "object": "Samantha Morton doesn’t have a lot of screen time in “The Odyssey,” but when she shows up about halfway through the action epic, she commandeers the film. In an electrifying sequence that lasts roughly 10 minutes, Morton delivers a searing, richly textured performance as Circe, a sorcerer who transforms Odysseus’ men into pigs. In Homer’s […]"
+      },
+      "time": {
+        "asserted": "2026-07-19T14:42:05.531Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "culture",
+        "citation": "https://variety.com/2026/film/news/samantha-morton-circe-christopher-nolan-the-odyssey-1236815471/"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "published",
+      "proposition": {
+        "predicate": "published",
+        "object": "Sat, 18 Jul 2026 19:29:24 +0000"
+      },
+      "time": {
+        "asserted": "2026-07-19T14:42:05.531Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "culture",
+        "citation": "https://variety.com/2026/film/news/samantha-morton-circe-christopher-nolan-the-odyssey-1236815471/"
+      },
+      "status": "supported"
+    }
+  ]
+}

@@ -1,0 +1,69 @@
+{
+  "subject": "600-000-for-a-presidential-pardon-inside-the-growing-industry-of-clemency-lobbying",
+  "claims": [
+    {
+      "id": "title",
+      "proposition": {
+        "predicate": "title",
+        "object": "$600,000 for a presidential pardon? Inside the growing industry of clemency lobbying"
+      },
+      "time": {
+        "asserted": "2026-07-19T15:04:07.991Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "politics",
+        "citation": "https://www.npr.org/2026/07/19/nx-s1-5896394/600-000-for-a-presidential-pardon-inside-the-growing-industry-of-clemency-lobbying"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "url",
+      "proposition": {
+        "predicate": "url",
+        "object": "https://www.npr.org/2026/07/19/nx-s1-5896394/600-000-for-a-presidential-pardon-inside-the-growing-industry-of-clemency-lobbying"
+      },
+      "time": {
+        "asserted": "2026-07-19T15:04:07.991Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "politics",
+        "citation": "https://www.npr.org/2026/07/19/nx-s1-5896394/600-000-for-a-presidential-pardon-inside-the-growing-industry-of-clemency-lobbying"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "summary",
+      "proposition": {
+        "predicate": "summary",
+        "object": "NPR's Ayesha Rascoe talks with NOTUS reporter Jasmine Wright about the growing lobbying industry to get presidential pardons under the second Trump administration."
+      },
+      "time": {
+        "asserted": "2026-07-19T15:04:07.991Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "politics",
+        "citation": "https://www.npr.org/2026/07/19/nx-s1-5896394/600-000-for-a-presidential-pardon-inside-the-growing-industry-of-clemency-lobbying"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "published",
+      "proposition": {
+        "predicate": "published",
+        "object": "Sun, 19 Jul 2026 08:13:23 -0400"
+      },
+      "time": {
+        "asserted": "2026-07-19T15:04:07.991Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "politics",
+        "citation": "https://www.npr.org/2026/07/19/nx-s1-5896394/600-000-for-a-presidential-pardon-inside-the-growing-industry-of-clemency-lobbying"
+      },
+      "status": "supported"
+    }
+  ]
+}

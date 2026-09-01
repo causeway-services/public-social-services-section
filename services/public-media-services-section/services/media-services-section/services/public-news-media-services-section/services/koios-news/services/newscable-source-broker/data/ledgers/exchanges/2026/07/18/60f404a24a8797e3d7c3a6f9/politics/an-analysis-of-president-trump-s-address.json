@@ -1,0 +1,69 @@
+{
+  "subject": "an-analysis-of-president-trump-s-address",
+  "claims": [
+    {
+      "id": "title",
+      "proposition": {
+        "predicate": "title",
+        "object": "An analysis of President Trump's address"
+      },
+      "time": {
+        "asserted": "2026-07-18T08:15:55.287Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "politics",
+        "citation": "https://www.npr.org/2026/07/16/nx-s1-5896487/an-analysis-of-president-trumps-address"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "url",
+      "proposition": {
+        "predicate": "url",
+        "object": "https://www.npr.org/2026/07/16/nx-s1-5896487/an-analysis-of-president-trumps-address"
+      },
+      "time": {
+        "asserted": "2026-07-18T08:15:55.287Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "politics",
+        "citation": "https://www.npr.org/2026/07/16/nx-s1-5896487/an-analysis-of-president-trumps-address"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "summary",
+      "proposition": {
+        "predicate": "summary",
+        "object": "President Trump gave a primetime address Thursday night in which he spoke about the integrity of U.S. elections — a topic he has spread disinformation about for much of his political career."
+      },
+      "time": {
+        "asserted": "2026-07-18T08:15:55.287Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "politics",
+        "citation": "https://www.npr.org/2026/07/16/nx-s1-5896487/an-analysis-of-president-trumps-address"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "published",
+      "proposition": {
+        "predicate": "published",
+        "object": "Thu, 16 Jul 2026 21:38:04 -0400"
+      },
+      "time": {
+        "asserted": "2026-07-18T08:15:55.287Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "politics",
+        "citation": "https://www.npr.org/2026/07/16/nx-s1-5896487/an-analysis-of-president-trumps-address"
+      },
+      "status": "supported"
+    }
+  ]
+}

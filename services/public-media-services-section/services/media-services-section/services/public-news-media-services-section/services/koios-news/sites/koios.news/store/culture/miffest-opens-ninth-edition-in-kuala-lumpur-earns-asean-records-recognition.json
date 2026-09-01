@@ -1,0 +1,69 @@
+{
+  "subject": "miffest-opens-ninth-edition-in-kuala-lumpur-earns-asean-records-recognition",
+  "claims": [
+    {
+      "id": "title",
+      "proposition": {
+        "predicate": "title",
+        "object": "MIFFest Opens Ninth Edition in Kuala Lumpur, Earns ASEAN Records Recognition"
+      },
+      "time": {
+        "asserted": "2026-07-19T14:42:05.531Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "culture",
+        "citation": "https://variety.com/2026/film/festivals/miffest-ninth-edition-asean-records-recognition-1236815732/"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "url",
+      "proposition": {
+        "predicate": "url",
+        "object": "https://variety.com/2026/film/festivals/miffest-ninth-edition-asean-records-recognition-1236815732/"
+      },
+      "time": {
+        "asserted": "2026-07-19T14:42:05.531Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "culture",
+        "citation": "https://variety.com/2026/film/festivals/miffest-ninth-edition-asean-records-recognition-1236815732/"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "summary",
+      "proposition": {
+        "predicate": "summary",
+        "object": "The ninth Malaysia International Film Festival (MIFFest) opened on July 18 at MyTown Shopping Centre, kicking off an eight-day showcase of international cinema and marking the festival’s official recognition from ASEAN Records. The opening ceremony drew filmmakers, industry leaders and stars to a red carpet ahead of the evening’s program. Joanne Goh, founder and president […]"
+      },
+      "time": {
+        "asserted": "2026-07-19T14:42:05.531Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "culture",
+        "citation": "https://variety.com/2026/film/festivals/miffest-ninth-edition-asean-records-recognition-1236815732/"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "published",
+      "proposition": {
+        "predicate": "published",
+        "object": "Sun, 19 Jul 2026 06:04:05 +0000"
+      },
+      "time": {
+        "asserted": "2026-07-19T14:42:05.531Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "culture",
+        "citation": "https://variety.com/2026/film/festivals/miffest-ninth-edition-asean-records-recognition-1236815732/"
+      },
+      "status": "supported"
+    }
+  ]
+}

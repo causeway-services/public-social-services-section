@@ -1,0 +1,124 @@
+#+SETUPFILE: ./setup.inc
+#+TITLE: Belcaer Gazetteer
+#+EXPORT_FILE_NAME: ../../pub/reference-books/belcaer-gazetteer
+#+LATEX_CLASS: teraum_reference_book
+#+MACRO: document-type gazetteer
+#+INDEX: Belcaer!/Belcaer Gazetteer/
+* DRAFT Belcaer Gazetteer
+{{{document-isdraft}}}
+
+{{{document-hasproject}}}
+** DRAFT Overview
+#+BEGIN_QUOTE
+It's fortunate that mesa is there. Without Belcaer, there wouldn't be
+a notable town for miles. And I'd hate to think of what folk would get
+up to back in those fens if there weren't any sort of guard,
+considering the mischief we've got now.
+#+END_QUOTE
+
+*/Belcaer/* is a small town situated on a limestone mesa overlooking
+the trade road between /Ack/ and /Tayopopopolis/, two distant cities.
+It is in a region known as the /Gloaming/, where miles of freshwater
+marshland give the land a permanent pallour.
+
+There are about 400 residents. Most work in retail or service in town.
+** DRAFT History
+*** DRAFT Founding of Belcaer
+    :PROPERTIES:
+    :CUSTOM_ID: founding-of-belcaer
+    :END:
+#+INDEX: 223bc!"Founding of Belcaer" in /Belcaer Gazetteer/
+The town of Belcaer was founded in 223bc by humans traveling through
+the region, between the /Central Plains/ to the north and /Unseen Sea/
+(actually a desert) to the south. For many decades it was only a
+collection of inns and houses built next to the mesa.
+*** DRAFT Contemporary Belcaer
+    :PROPERTIES:
+    :CUSTOM_ID: contemporary-belcaer
+    :END:
+The prosperity of the Green Delta in recent years has increased how
+many people are traveling through the Gloaming, and Belcaer has begun
+to grow. Unfortunately, the limited size of the mesa on which the town
+is built is requiring some creative construction, like the recently
+constructed /Guildhouse/.
+
+Crime followed prosperity. Not only are there more bandits on the
+road, but an increase amount of smuggling and other crime is occuring
+up in the town.
+** DRAFT Areas
+*** DRAFT Streets
+**** DRAFT High Street
+     :PROPERTIES:
+     :CUSTOM_ID: high-street
+     :END:
+#+INDEX: High Street!High Street in Belcaer!"High Street" in /Belcaer Gazetteer/
+*/High Street/* is Belcaer's main street. It leads from the trade road
+up the northeastern side of the mesa. At the base of the mesa, the
+road is built from piled earth, while as it rises it becomes cut into
+the mesa. At the top, it leads south, and many of the town's stores
+and taverns are built on it.
+
+Near where high street meets the /trade road/, there is an informal
+marketplaces. Here, passing traders make deals with each other, hoping
+to make the most of their journey. A person who *risks* a day shopping
+may find something quite valuable.
+**** DRAFT Trade Road
+     :PROPERTIES:
+     :CUSTOM_ID: trade-road
+     :END:
+#+INDEX: Trade Road!Trade Road in the Gloaming!"Trade Road" in /Belcaer Gazetteer/
+The */trade road/* is a road that cuts roughly north-south through the
+/Gloaming/, between the /Central Plains/ and /Unseen Sea/.
+
+Belcaer is situated next to it, about halfway through the region.
+*** DRAFT Buildings
+**** DRAFT Kerr Stoneworks
+A complex of connected stone buildings near the middle of town, */Kerr
+Stoneworks/* is one of the town's few industries. Here, /Gerdga Kerr/
+handles the mining and export of /limestone/ that she quarries from
+inside the mesa. Recently, the /Red Union/ has been pressuring her to
+export even more limestone.
+**** DRAFT The Guildhouse
+     :PROPERTIES:
+     :CUSTOM_ID: guildhouse
+     :END:
+#+INDEX: Guildhouse!Guildhouse in Belcaer!"The Guildhouse" in /Belcaer Gazetteer/
+The */Guildhouse/* is one of the largest, most recent, and most
+distinct buildings in town. It was constructed in 76pc from pine
+harvested from the region. It juts over the lip of the mesa, supported
+by an intricate latice of timber beams.
+*** DRAFT Landmarks
+** DRAFT Notable Organizations and People
+*** DRAFT Abeth Harbrook
+    :PROPERTIES:
+    :CUSTOM_ID: abeth-harbrook
+    :END:
+#+INDEX: Harbrook, Abeth!"Abeth Harbrook" in /Belcaer Gazetteer/
+*/Abeth Harbrook/* is the senior representative of the /Chandlers
+Guild/ in town. She is not from, nor does she enjoy, the town or
+region.
+** DRAFT Plots
+- The /Red Union/ is pressuring /Gerdga Kerr/ to export more limestone
+  to /Ack/. To do so, she'll have to either mine mesas outside of
+  town, which could be attacked by bandits, or mine under the town,
+  which could cause it to collapse.
+* DRAFT Supplements
+** DRAFT Index
+- Ack :: {{{teraum-ref(ack)}}}
+- Belcaer :: A small town populated by humans in the /Gloaming/. The
+             subject of this {{{document-type}}}.
+- Bark, Idbol :: {{{teraum-define-bark-idbol}}}
+- Central Plains :: {{{teraum-define-central-plains}}}
+- Chandlers Guild :: {{{teraum-define-chandlers-guild}}}
+- Gloaming :: {{{teraum-define-gloaming}}}
+- Green Delta :: {{{teraum-define-green-delta}}}
+- Guildhouse :: A recently-constructed pine building on the eastern
+                edge of Belcaer. See [[#guildhouse]["The Guildhouse"]].
+- Harbrook, Abeth :: The senior representative of the /Chandlers
+     Guild/ in Belcaer. See [[#abeth-harbrook]["Abeth Harbrook"]].
+- High Street :: The main street of Belcaer, which starts at the
+                 /trade road/ and runs south through town. See
+                 [[#high-street]["High Street"]].
+- Tayopopopolis :: {{{teraum-define-tayopopopolis}}}
+- Trade Road :: {{{teraum-define-gloaming-trade-road}}}
+- Unseen Sea :: {{{teraum-define-unseen-sea}}}

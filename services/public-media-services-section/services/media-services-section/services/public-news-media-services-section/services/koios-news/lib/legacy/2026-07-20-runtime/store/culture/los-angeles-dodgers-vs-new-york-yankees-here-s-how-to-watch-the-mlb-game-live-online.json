@@ -1,0 +1,69 @@
+{
+  "subject": "los-angeles-dodgers-vs-new-york-yankees-here-s-how-to-watch-the-mlb-game-live-online",
+  "claims": [
+    {
+      "id": "title",
+      "proposition": {
+        "predicate": "title",
+        "object": "Los Angeles Dodgers vs. New York Yankees: Here’s How to Watch the MLB Game Live Online"
+      },
+      "time": {
+        "asserted": "2026-07-19T20:06:19.825Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "culture",
+        "citation": "https://variety.com/2026/shopping/news/how-to-watch-la-dodgers-vs-ny-yankees-baseball-live-online-free-1236815204/"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "url",
+      "proposition": {
+        "predicate": "url",
+        "object": "https://variety.com/2026/shopping/news/how-to-watch-la-dodgers-vs-ny-yankees-baseball-live-online-free-1236815204/"
+      },
+      "time": {
+        "asserted": "2026-07-19T20:06:19.825Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "culture",
+        "citation": "https://variety.com/2026/shopping/news/how-to-watch-la-dodgers-vs-ny-yankees-baseball-live-online-free-1236815204/"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "summary",
+      "proposition": {
+        "predicate": "summary",
+        "object": "After the MLB All-Star Week, the two of the biggest markets go head-to-head to compete for bragging right of the best city in the league. We’d also see which is the better league, the National League or American League. On Sunday, July 19, and the second game of a doubleheader, the Los Angeles Dodgers takes […]"
+      },
+      "time": {
+        "asserted": "2026-07-19T20:06:19.825Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "culture",
+        "citation": "https://variety.com/2026/shopping/news/how-to-watch-la-dodgers-vs-ny-yankees-baseball-live-online-free-1236815204/"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "published",
+      "proposition": {
+        "predicate": "published",
+        "object": "Sun, 19 Jul 2026 20:00:00 +0000"
+      },
+      "time": {
+        "asserted": "2026-07-19T20:06:19.825Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "culture",
+        "citation": "https://variety.com/2026/shopping/news/how-to-watch-la-dodgers-vs-ny-yankees-baseball-live-online-free-1236815204/"
+      },
+      "status": "supported"
+    }
+  ]
+}

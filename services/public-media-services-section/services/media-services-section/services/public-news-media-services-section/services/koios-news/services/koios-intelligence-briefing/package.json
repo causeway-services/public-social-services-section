@@ -1,0 +1,17 @@
+{
+  "name": "@causeway-services/koios-news-intelligence-briefing",
+  "version": "0.1.0",
+  "type": "module",
+  "description": "Measures topic distribution over the koios.news sourced-claim store and records the named-subscriber intelligence-briefing product line's launch state.",
+  "scripts": {
+    "check": "node --check src/topic-distribution.mjs && node --check src/launch-state-record.mjs && node --check scripts/measure-claim-topic-distribution.mjs && node --check scripts/record-intelligence-briefing-launch-state.mjs && node --check test/topic-distribution.test.mjs",
+    "test": "node --test test/topic-distribution.test.mjs"
+  },
+  "engines": {
+    "node": ">=22"
+  },
+  "dependencies": {
+    "@red-cup-engineering/semantic-record-journal-service": "0.1.9"
+  },
+  "files": ["src/", "scripts/", "test/", "README.md", "package.json"]
+}

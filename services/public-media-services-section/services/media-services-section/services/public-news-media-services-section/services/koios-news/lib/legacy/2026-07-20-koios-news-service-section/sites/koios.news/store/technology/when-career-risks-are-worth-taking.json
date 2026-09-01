@@ -1,0 +1,69 @@
+{
+  "subject": "when-career-risks-are-worth-taking",
+  "claims": [
+    {
+      "id": "title",
+      "proposition": {
+        "predicate": "title",
+        "object": "When Career Risks Are Worth Taking"
+      },
+      "time": {
+        "asserted": "2026-07-18T04:08:20.911Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "technology",
+        "citation": "https://spectrum.ieee.org/career-risks"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "url",
+      "proposition": {
+        "predicate": "url",
+        "object": "https://spectrum.ieee.org/career-risks"
+      },
+      "time": {
+        "asserted": "2026-07-18T04:08:20.911Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "technology",
+        "citation": "https://spectrum.ieee.org/career-risks"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "summary",
+      "proposition": {
+        "predicate": "summary",
+        "object": "This article is crossposted from IEEE Spectrum ’s careers newsletter. Sign up now to get insider tips, expert advice, and practical strategies, written i n partnership with tech career development company Parsity and delivered to your inbox for free! Before we get into this week’s article, I’d love to hear from you. If you have a question about your career or an upcoming decision that you want advice about, you can ask it here . I’ll be reading through your responses and picking questions to answer on a regular basis. Now back to our regularly scheduled program. The Safest Career Move Is Often the Riskiest Software engineers have some of the shortest tenures of any white-collar profession. The average software engineer stays at a company for roughly two years, about half as long as workers in most other knowledge professions. The layoffs of the past few years have certainly highlighted this instability, but it was already there. This isn’t an essay about a broken job market though. Rather, it’s about how to turn that instability to your advantage, which is something I’ve spent the last decade doing on purpose. Playing It Safe Was the Riskiest Option I switched careers into software in my 30s. I had a stable job at a community college, complete with a union and a pension. It was about as secure as a career gets, and I learned to program on the side. Then I did something nearly everyone in my life considered reckless: I quit, leaving the secure job to become a junior developer at 31. My own mother was skeptical. I took the riskier job anyway, for two reasons: It was the work I actually wanted, and I could see potential. My first development job was at a grocery retailer. Good people and a company I liked. But I kept meeting engineers earning twice my salary for the same work. In the San Francisco Bay Area, surrounded by some of the best engineering talent in the world, I realized my skills were stagnating. So I left for a small startup. I learned more in nine months than I had in the previous two years, and my salary doubled. Over the years I’ve come to treat career risk as something to manage deliberately. It falls into two categories. Take Risks With Your Job The first type of risk involves the job itself: Bet on yourself by striving for better roles and opportunities. Job-hopping for money alone isn’t wrong, especially early on. But the returns shrink after the first few hops, and the stress of chasing a slightly bigger paycheck every year will wear you down. There’s another career risk with rewards that compound: Seeking positions to work alongside the strongest engineers. You might struggle to keep up. You might even get laid off. But the skills you absorb working alongside people better than you are the ones that create durable stability. You build marketable expertise, you see how different organizations actually operate, and every project becomes another tool you carry to the next opportunity. Working next to stronger engineers is a proven way to increase your own expertise. If that feels too big, try volunteering for a project you have no idea how to do. The risk is that you fail in front of people. The reward is a new skill and a resume line that opens the next door. Compare that with the “safe” path. You stay at one company, assuming loyalty will be rewarded. It usually isn’t. And when you finally leave, by choice or not, you may find the skills you built are worth little on the open market. You might be the in-house expert in an aging tech stack while employers are hiring for more cutting edge technologies. Suddenly you’re competing against people with half your experience. You could be taking on a risk you didn’t notice. Risk Your Time The second form is risking your time, which means betting on trends. Some trends are non-negotiable. If you’re a software engineer, then cloud services, ReactJS, and AI are mainstream enough that ignoring them actively damages your career. A backend engineer who refuses to learn cloud architecture is volunteering for obsolescence. The real gamble is with the smaller trends: the niche tools you stumble onto and find quietly interesting, with no idea whether they’ll matter. About two and a half years ago, I learned about retrieval-augmented generation (RAG). Almost no one in my circle was talking about vector databases, a central piece of RAG. Today RAG is close to mainstream, and for once, I had the early-adopter advantage. Most of these bets don’t pay off. But when one turns into a major trend, you’re already on the ground floor. Right now I’m making the same bet on voice AI. It isn’t mainstream. It may never be. But if it becomes the next thing, I’m already there, building a foundation. Short-Term Risk, Long-Term Stability Counter-intuitively, job-hopping and betting on trends gave me the thing I was after the whole time: stability. I’ve rarely struggled to find work, because every risky move stacked skills the market actually wanted. If you feel stable and comfortable right now, enjoy it. But ask yourself whether you’re still learning. Because if you’re not, the comfortable choice and the dangerous one may have converged. The goal isn’t to avoid the open market forever. It’s to make sure that when you land on it, you’re not at its mercy. By Brian Jenney P.S. Don’t forget to submit questions about your career or an upcoming decision that you want advice about here ! —Brian What It Means to Be a Mathematician When AI Does the Math Until recently, human mathematicians have been central to creating new proofs, even when the work relies on massive computational resources. AI is now challenging that status quo. Writer Benjamin Skuse surveys the ongoing debate in the field about the role of AI, and the existential questions mathematicians have about their own careers. If AI mathematicians surpass human knowledge, could these researchers become “priests to oracles”? Read more here. Chip R&D Is Accelerating to Keep Pace with AI A new partnership between UCLA and five major semiconductor companies is the latest program aiming to bridge the gap between industry and academia. The US $125 million university-industry hub is meant to strengthen collaboration and speed up the R&D process to help meet AI’s fast-paced hardware demands. Read more here. Why Mentorship Is the Most Underrated Leadership Skill True mentorship is far more than friendly advice. This key leadership skill requires advocacy and honest feedback via lasting relationships, and it can strongly benefit both mentor and mentee. Parul Jain, a product management leader at Deloitte, shares what she learned from serving as a mentor—something she didn’t have for much of her own early career. Read more here."
+      },
+      "time": {
+        "asserted": "2026-07-18T04:08:20.911Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "technology",
+        "citation": "https://spectrum.ieee.org/career-risks"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "published",
+      "proposition": {
+        "predicate": "published",
+        "object": "Wed, 15 Jul 2026 19:52:41 +0000"
+      },
+      "time": {
+        "asserted": "2026-07-18T04:08:20.911Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "technology",
+        "citation": "https://spectrum.ieee.org/career-risks"
+      },
+      "status": "supported"
+    }
+  ]
+}

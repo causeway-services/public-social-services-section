@@ -1,0 +1,69 @@
+{
+  "subject": "national-year-of-reading-should-extend-to-a-decade-inquiry-says",
+  "claims": [
+    {
+      "id": "title",
+      "proposition": {
+        "predicate": "title",
+        "object": "National Year of Reading should extend to a decade, inquiry says"
+      },
+      "time": {
+        "asserted": "2026-07-18T19:52:42.248Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "culture",
+        "citation": "https://www.theguardian.com/books/2026/jul/17/national-year-of-reading-should-extend-to-a-decade-inquiry-says"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "url",
+      "proposition": {
+        "predicate": "url",
+        "object": "https://www.theguardian.com/books/2026/jul/17/national-year-of-reading-should-extend-to-a-decade-inquiry-says"
+      },
+      "time": {
+        "asserted": "2026-07-18T19:52:42.248Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "culture",
+        "citation": "https://www.theguardian.com/books/2026/jul/17/national-year-of-reading-should-extend-to-a-decade-inquiry-says"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "summary",
+      "proposition": {
+        "predicate": "summary",
+        "object": "<p>The education committee also proposed a National Reading Guarantee, ensuring all children have frequent opportunities to enjoy reading</p><p>The National Year of Reading should be extended to a National Decade of Reading, an education committee inquiry into reading for pleasure has concluded.</p><p>The government should also commit to a National Reading Guarantee that would ensure all children have regular opportunities to enjoy reading, the committee argues.</p> <a href=\"https://www.theguardian.com/books/2026/jul/17/national-year-of-reading-should-extend-to-a-decade-inquiry-says\">Continue reading...</a>"
+      },
+      "time": {
+        "asserted": "2026-07-18T19:52:42.248Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "culture",
+        "citation": "https://www.theguardian.com/books/2026/jul/17/national-year-of-reading-should-extend-to-a-decade-inquiry-says"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "published",
+      "proposition": {
+        "predicate": "published",
+        "object": "Thu, 16 Jul 2026 23:01:51 GMT"
+      },
+      "time": {
+        "asserted": "2026-07-18T19:52:42.248Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "culture",
+        "citation": "https://www.theguardian.com/books/2026/jul/17/national-year-of-reading-should-extend-to-a-decade-inquiry-says"
+      },
+      "status": "supported"
+    }
+  ]
+}

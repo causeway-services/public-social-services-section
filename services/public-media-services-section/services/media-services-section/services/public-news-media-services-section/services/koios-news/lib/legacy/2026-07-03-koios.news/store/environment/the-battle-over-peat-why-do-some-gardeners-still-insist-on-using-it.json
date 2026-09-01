@@ -1,0 +1,69 @@
+{
+  "subject": "the-battle-over-peat-why-do-some-gardeners-still-insist-on-using-it",
+  "claims": [
+    {
+      "id": "title",
+      "proposition": {
+        "predicate": "title",
+        "object": "The battle over peat: why do some gardeners still insist on using it?"
+      },
+      "time": {
+        "asserted": "2026-07-18T04:08:15.342Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "environment",
+        "citation": "https://www.theguardian.com/environment/2026/jul/15/peatlands-carbon-horticulture-peat-free-planting"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "url",
+      "proposition": {
+        "predicate": "url",
+        "object": "https://www.theguardian.com/environment/2026/jul/15/peatlands-carbon-horticulture-peat-free-planting"
+      },
+      "time": {
+        "asserted": "2026-07-18T04:08:15.342Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "environment",
+        "citation": "https://www.theguardian.com/environment/2026/jul/15/peatlands-carbon-horticulture-peat-free-planting"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "summary",
+      "proposition": {
+        "predicate": "summary",
+        "object": "<p>Peat bogs are essential to the environment, holding twice as much carbon as all the world’s forests. But in the UK, 80% are damaged, most of what is extracted is used in horticulture – and some campaigners fear the problem is getting worse</p><p>‘I don’t see how I can possibly do my job and eat mushrooms,” says Sally Nex, a campaign advocate for the <a href=\"https://peatfreepartnership.org.uk/\">Peat-Free Partnership</a>. “An awful lot of the food you buy in the supermarket is grown in peat: field mushrooms and little button mushrooms, salads and many brassicas, herbs in pots … all of those have started in peat.”</p><p>I’m taken aback. I’ve bought peat-free compost for years, but I’d never considered “hidden” peat. “I would imagine that most people are buying peat-free compost at the moment – certainly, you only have to go into a garden centre to see the amount of peat-free options you now have,” says Nex. “But you may not realise that an awful lot – probably most – of the plants that are on sale in that garden centre are also grown in peat.”</p> <a href=\"https://www.theguardian.com/environment/2026/jul/15/peatlands-carbon-horticulture-peat-free-planting\">Continue reading...</a>"
+      },
+      "time": {
+        "asserted": "2026-07-18T04:08:15.342Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "environment",
+        "citation": "https://www.theguardian.com/environment/2026/jul/15/peatlands-carbon-horticulture-peat-free-planting"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "published",
+      "proposition": {
+        "predicate": "published",
+        "object": "Wed, 15 Jul 2026 12:00:08 GMT"
+      },
+      "time": {
+        "asserted": "2026-07-18T04:08:15.342Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "environment",
+        "citation": "https://www.theguardian.com/environment/2026/jul/15/peatlands-carbon-horticulture-peat-free-planting"
+      },
+      "status": "supported"
+    }
+  ]
+}

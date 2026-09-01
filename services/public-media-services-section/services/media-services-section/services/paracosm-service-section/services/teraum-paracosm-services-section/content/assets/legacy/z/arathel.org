@@ -1,0 +1,8 @@
+#+title: Arathel
+#+begin_head
+#+ghe_schema: record-0.1.2
+#+author: emsenn
+#+email: emsenn@emsenn.net
+#+date: [2020-12-23 Wed 18:47]
+#+end_head
+

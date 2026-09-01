@@ -1,0 +1,69 @@
+{
+  "subject": "post-your-questions-for-kristin-hersh-of-throwing-muses-and-more",
+  "claims": [
+    {
+      "id": "title",
+      "proposition": {
+        "predicate": "title",
+        "object": "Post your questions for Kristin Hersh, of Throwing Muses and more"
+      },
+      "time": {
+        "asserted": "2026-07-19T15:04:21.677Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "culture",
+        "citation": "https://www.theguardian.com/music/2026/jul/17/post-your-questions-for-kristin-hersh-throwing-muses"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "url",
+      "proposition": {
+        "predicate": "url",
+        "object": "https://www.theguardian.com/music/2026/jul/17/post-your-questions-for-kristin-hersh-throwing-muses"
+      },
+      "time": {
+        "asserted": "2026-07-19T15:04:21.677Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "culture",
+        "citation": "https://www.theguardian.com/music/2026/jul/17/post-your-questions-for-kristin-hersh-throwing-muses"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "summary",
+      "proposition": {
+        "predicate": "summary",
+        "object": "<p>The alt-rock icon is preparing to release her latest solo album Sugar on Blackstone, and will answer your questions about her five-decade career</p><p>As frontwoman of Throwing Muses then an acclaimed solo artist, Kristin Hersh is one of the defining voices of US alt-rock, and as she readies new album Sugar on Blackstone she’ll be joining us to answer your questions.</p><p>Formed in the early 1980s in Rhode Island with Hersh’s stepsister Tanya Donelly and others, Throwing Muses were added to the growing stable at the UK’s 4AD label, and by 1989’s Hunkpapa album were charting in the UK – part of a vibrant wave of college rock and dreampop alongside peers and labelmates such as Pixies and Cocteau Twins.</p> <a href=\"https://www.theguardian.com/music/2026/jul/17/post-your-questions-for-kristin-hersh-throwing-muses\">Continue reading...</a>"
+      },
+      "time": {
+        "asserted": "2026-07-19T15:04:21.677Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "culture",
+        "citation": "https://www.theguardian.com/music/2026/jul/17/post-your-questions-for-kristin-hersh-throwing-muses"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "published",
+      "proposition": {
+        "predicate": "published",
+        "object": "Fri, 17 Jul 2026 11:58:56 GMT"
+      },
+      "time": {
+        "asserted": "2026-07-19T15:04:21.677Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "culture",
+        "citation": "https://www.theguardian.com/music/2026/jul/17/post-your-questions-for-kristin-hersh-throwing-muses"
+      },
+      "status": "supported"
+    }
+  ]
+}

@@ -1,0 +1,69 @@
+{
+  "subject": "james-gunn-says-big-brother-28-s-rick-devens-was-set-for-man-of-tomorrow-cameo-but-had-to-cancel-due-to-cbs-competition",
+  "claims": [
+    {
+      "id": "title",
+      "proposition": {
+        "predicate": "title",
+        "object": "James Gunn Says ‘Big Brother 28’s Rick Devens Was Set For ‘Man Of Tomorrow’ Cameo But “Had To Cancel” Due To CBS Competition"
+      },
+      "time": {
+        "asserted": "2026-07-19T15:04:21.677Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "culture",
+        "citation": "https://deadline.com/2026/07/james-gunn-big-brother-28-rick-devens-superman-cameo-1236997635/"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "url",
+      "proposition": {
+        "predicate": "url",
+        "object": "https://deadline.com/2026/07/james-gunn-big-brother-28-rick-devens-superman-cameo-1236997635/"
+      },
+      "time": {
+        "asserted": "2026-07-19T15:04:21.677Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "culture",
+        "citation": "https://deadline.com/2026/07/james-gunn-big-brother-28-rick-devens-superman-cameo-1236997635/"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "summary",
+      "proposition": {
+        "predicate": "summary",
+        "object": "James Gunn is a fan of Big Brother, and his friend Rick Devens joined the cast of Season 28 of the CBS competition. On Thursday’s eviction episode, Devens gave Gunn a shoutout during the live broadcast after sharing his vote to evict. The DC Studios co-head shared the clip of Devens name-dropping him on live […]"
+      },
+      "time": {
+        "asserted": "2026-07-19T15:04:21.677Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "culture",
+        "citation": "https://deadline.com/2026/07/james-gunn-big-brother-28-rick-devens-superman-cameo-1236997635/"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "published",
+      "proposition": {
+        "predicate": "published",
+        "object": "Sun, 19 Jul 2026 04:03:42 +0000"
+      },
+      "time": {
+        "asserted": "2026-07-19T15:04:21.677Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "culture",
+        "citation": "https://deadline.com/2026/07/james-gunn-big-brother-28-rick-devens-superman-cameo-1236997635/"
+      },
+      "status": "supported"
+    }
+  ]
+}

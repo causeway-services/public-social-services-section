@@ -1,0 +1,69 @@
+{
+  "subject": "anderson-thrashes-joyce-at-world-matchplay",
+  "claims": [
+    {
+      "id": "title",
+      "proposition": {
+        "predicate": "title",
+        "object": "Anderson thrashes Joyce at World Matchplay"
+      },
+      "time": {
+        "asserted": "2026-07-19T23:18:26.490Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "sports",
+        "citation": "https://www.bbc.co.uk/sport/darts/articles/cr59mr5yq3eo?at_medium=RSS&at_campaign=rss"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "url",
+      "proposition": {
+        "predicate": "url",
+        "object": "https://www.bbc.co.uk/sport/darts/articles/cr59mr5yq3eo?at_medium=RSS&at_campaign=rss"
+      },
+      "time": {
+        "asserted": "2026-07-19T23:18:26.490Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "sports",
+        "citation": "https://www.bbc.co.uk/sport/darts/articles/cr59mr5yq3eo?at_medium=RSS&at_campaign=rss"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "summary",
+      "proposition": {
+        "predicate": "summary",
+        "object": "Gary Anderson puts in a stunning performance as he thrashes Ryan Joyce to reach the last-16 of the World Matchplay in Blackpool."
+      },
+      "time": {
+        "asserted": "2026-07-19T23:18:26.490Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "sports",
+        "citation": "https://www.bbc.co.uk/sport/darts/articles/cr59mr5yq3eo?at_medium=RSS&at_campaign=rss"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "published",
+      "proposition": {
+        "predicate": "published",
+        "object": "Sun, 19 Jul 2026 22:48:32 GMT"
+      },
+      "time": {
+        "asserted": "2026-07-19T23:18:26.490Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "sports",
+        "citation": "https://www.bbc.co.uk/sport/darts/articles/cr59mr5yq3eo?at_medium=RSS&at_campaign=rss"
+      },
+      "status": "supported"
+    }
+  ]
+}

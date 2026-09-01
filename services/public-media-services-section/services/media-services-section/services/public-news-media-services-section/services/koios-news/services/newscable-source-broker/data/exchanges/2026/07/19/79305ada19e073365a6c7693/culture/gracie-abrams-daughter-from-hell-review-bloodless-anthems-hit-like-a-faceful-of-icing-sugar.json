@@ -1,0 +1,69 @@
+{
+  "subject": "gracie-abrams-daughter-from-hell-review-bloodless-anthems-hit-like-a-faceful-of-icing-sugar",
+  "claims": [
+    {
+      "id": "title",
+      "proposition": {
+        "predicate": "title",
+        "object": "Gracie Abrams: Daughter from Hell review – bloodless anthems hit like a faceful of icing sugar"
+      },
+      "time": {
+        "asserted": "2026-07-19T15:04:21.677Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "culture",
+        "citation": "https://www.theguardian.com/music/2026/jul/13/gracie-abrams-daughter-from-hell-review"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "url",
+      "proposition": {
+        "predicate": "url",
+        "object": "https://www.theguardian.com/music/2026/jul/13/gracie-abrams-daughter-from-hell-review"
+      },
+      "time": {
+        "asserted": "2026-07-19T15:04:21.677Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "culture",
+        "citation": "https://www.theguardian.com/music/2026/jul/13/gracie-abrams-daughter-from-hell-review"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "summary",
+      "proposition": {
+        "predicate": "summary",
+        "object": "<p><strong>(Interscope)<br></strong>Despite their goth-coded attempts at emotional turbulence, the saccharine songs of Abrams’ third album feel adolescent in their melodrama</p><p>Gracie Abrams’ third album is a full-blown crime scene. Across 16 songs, the US songwriter catalogues slip knots, blades, bullets, knives, more knives, ghosts, cages, drugs, car crashes, blood, burial, flaming tyres, choking, burning houses, sinking ships, drowning, more blood, bloody knees and even more knives. It’s called Daughter from Hell to acknowledge how much the 26-year-old frayed her parents’ nerves as a reckless teen, part of a wider theme about working out when to blame others for her pain, and when to accept responsibility. Clearly, there’s a lot of poetic licence involved in dramatising these mature revelations, but the dissonance between Abrams’ goth-coded emotional turbulence and the music’s insistent, quivering prettiness is the real uncrackable case on this bloodless record.</p><p>In one way, Abrams has had an outsized influence on pop. Her early bedroom songs inspired Olivia Rodrigo to write Drivers License, which kickstarted the former Disney star’s dazzlingly quick and continuing act of self-redefinition. Mostly, though, Abrams is the sum of her influences: you needn’t listen hard to clock Lorde’s vocal harmonies, Phoebe Bridgers’ intimacy or the tightly packed storytelling of Taylor Swift, who had Abrams support on the Eras tour. In Swift she also shares a producer in the National’s Aaron Dessner, a collaborator in Bon Iver (his jump-scare falsetto appears on two songs here, and he plays all over the record), and certainly a sound in Folklore’s pearlescent acoustics, injected with a whisper of stomp-clap vigour. That mix of melodrama and songs sung like secrets means Abrams’ audience skews young: her music carries the sensation of being the only person in the world grappling with huge emotions, as life often feels in adolescence. For anyone older, her music can feel a little starter pack.</p> <a href=\"https://www.theguardian.com/music/2026/jul/13/gracie-abrams-daughter-from-hell-review\">Continue reading...</a>"
+      },
+      "time": {
+        "asserted": "2026-07-19T15:04:21.677Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "culture",
+        "citation": "https://www.theguardian.com/music/2026/jul/13/gracie-abrams-daughter-from-hell-review"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "published",
+      "proposition": {
+        "predicate": "published",
+        "object": "Mon, 13 Jul 2026 13:00:47 GMT"
+      },
+      "time": {
+        "asserted": "2026-07-19T15:04:21.677Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "culture",
+        "citation": "https://www.theguardian.com/music/2026/jul/13/gracie-abrams-daughter-from-hell-review"
+      },
+      "status": "supported"
+    }
+  ]
+}

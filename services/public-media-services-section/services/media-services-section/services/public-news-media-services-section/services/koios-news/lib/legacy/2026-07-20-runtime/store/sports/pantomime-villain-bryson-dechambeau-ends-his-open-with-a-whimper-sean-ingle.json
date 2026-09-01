@@ -1,0 +1,69 @@
+{
+  "subject": "pantomime-villain-bryson-dechambeau-ends-his-open-with-a-whimper-sean-ingle",
+  "claims": [
+    {
+      "id": "title",
+      "proposition": {
+        "predicate": "title",
+        "object": "Pantomime villain Bryson DeChambeau ends his Open with a whimper | Sean Ingle"
+      },
+      "time": {
+        "asserted": "2026-07-20T11:21:26.521Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "sports",
+        "citation": "https://www.theguardian.com/sport/2026/jul/19/pantomime-villain-bryson-dechambeau-ends-his-open-with-a-whimper"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "url",
+      "proposition": {
+        "predicate": "url",
+        "object": "https://www.theguardian.com/sport/2026/jul/19/pantomime-villain-bryson-dechambeau-ends-his-open-with-a-whimper"
+      },
+      "time": {
+        "asserted": "2026-07-20T11:21:26.521Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "sports",
+        "citation": "https://www.theguardian.com/sport/2026/jul/19/pantomime-villain-bryson-dechambeau-ends-his-open-with-a-whimper"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "summary",
+      "proposition": {
+        "predicate": "summary",
+        "object": "<p>R&amp;A can quietly exhale as American’s challenge fizzles out in front of the occasional barb from Royal Birkdale crowd</p><p>Deep into the final round of the Open, and Bryson DeChambeau is almost legless in the last chance saloon. He has slipped to minus five, four off the clubhouse lead, with eight holes to play. Worse still, he has not made birdie all day. But there is a sliver of hope. After all, in 2017, Jordan Spieth made up four shots on the back nine here to take the Claret Jug. History couldn’t repeat itself, could it?</p><p>The loyal band of Brysonites cheer as he steps on to the tricky par-four 11th, and takes out a driver. Yet they, and Royal Birkdale’s infamous rough, are about to turn viciously against him.</p> <a href=\"https://www.theguardian.com/sport/2026/jul/19/pantomime-villain-bryson-dechambeau-ends-his-open-with-a-whimper\">Continue reading...</a>"
+      },
+      "time": {
+        "asserted": "2026-07-20T11:21:26.521Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "sports",
+        "citation": "https://www.theguardian.com/sport/2026/jul/19/pantomime-villain-bryson-dechambeau-ends-his-open-with-a-whimper"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "published",
+      "proposition": {
+        "predicate": "published",
+        "object": "Sun, 19 Jul 2026 19:34:17 GMT"
+      },
+      "time": {
+        "asserted": "2026-07-20T11:21:26.521Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "sports",
+        "citation": "https://www.theguardian.com/sport/2026/jul/19/pantomime-villain-bryson-dechambeau-ends-his-open-with-a-whimper"
+      },
+      "status": "supported"
+    }
+  ]
+}
