@@ -4,13 +4,13 @@
   "type": "module",
   "exports": "./src/curriculum.mjs",
   "scripts": {
-    "check": "node --check src/local-a2a-membrane.mjs && node --check src/curriculum.mjs && node --check src/a2a-delivery-executor.mjs && node --check src/serve-delivery-a2a.mjs && node --check test/curriculum.test.mjs",
+    "check": "node --check src/curriculum.mjs && node --check src/a2a-delivery-executor.mjs && node --check src/serve-delivery-a2a.mjs && node --check test/curriculum.test.mjs",
     "test": "node --test test/curriculum.test.mjs",
     "serve-delivery-a2a": "node src/serve-delivery-a2a.mjs"
   },
   "dependencies": {
     "@red-cup-engineering/a2a-agent-card-discovery-service": "1.0.9",
-    "@red-cup-engineering/a2a-contracted-agent-service": "2.1.1",
+    "@red-cup-engineering/a2a-contracted-agent-service": "2.1.5",
     "@red-cup-engineering/a2a-rmn-part-service": "1.0.4",
     "@red-cup-engineering/a2a-rmn-task-client-service": "1.1.7",
     "@red-cup-engineering/semantic-content-identify-service": "0.2.7",

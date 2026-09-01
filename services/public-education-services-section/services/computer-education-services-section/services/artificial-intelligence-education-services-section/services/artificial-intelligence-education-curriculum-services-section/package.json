@@ -12,7 +12,7 @@
     "scripts/"
   ],
   "scripts": {
-    "check": "node --check src/curriculum.mjs && node --check src/a2a-delivery-executor.mjs && node --check src/local-a2a-membrane.mjs && node --check src/serve-delivery-a2a.mjs && node --check scripts/record-cohort-launch.mjs && node --check scripts/build-ebook.mjs && node --check scripts/record-ebook-launch.mjs && node --check test/curriculum.test.mjs",
+    "check": "node --check src/curriculum.mjs && node --check src/a2a-delivery-executor.mjs && node --check src/serve-delivery-a2a.mjs && node --check scripts/record-cohort-launch.mjs && node --check scripts/build-ebook.mjs && node --check scripts/record-ebook-launch.mjs && node --check test/curriculum.test.mjs",
     "test": "node --test test/curriculum.test.mjs",
     "serve-delivery-a2a": "node src/serve-delivery-a2a.mjs",
     "record-cohort-launch": "node scripts/record-cohort-launch.mjs",

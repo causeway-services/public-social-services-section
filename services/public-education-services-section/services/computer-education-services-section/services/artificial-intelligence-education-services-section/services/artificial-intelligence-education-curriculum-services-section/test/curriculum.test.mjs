@@ -8,7 +8,7 @@ import { EMPTY_WITNESS_ROOT, identifyJsonSemanticContent } from "@red-cup-engine
 import { DurableA2aTaskStore } from "@red-cup-engineering/a2a-contracted-agent-service/durable-task-store";
 import { DurablePushNotificationStore } from "@red-cup-engineering/a2a-contracted-agent-service/durable-push-notifications";
 import { CHANNEL, executeDeliveryRequest } from "../src/a2a-delivery-executor.mjs";
-import { localA2aMembrane } from "../src/local-a2a-membrane.mjs";
+import { createFilesystemContractedAgentSources } from "@red-cup-engineering/a2a-contracted-agent-service/filesystem-state-sources";
 import { ACTOR, CATEGORY, RECORD_OBJECT_KIND, RESEARCH, admitLessonProduct, contentId, deliverLessonProduct, digest, formNextLessonOffer, loadCourse, loadLessonBriefDraft, validateCourse } from "../src/curriculum.mjs";
 const NOW="2026-07-22T02:00:00.000Z",SETTLEMENT="eip155:31337:0x4444444444444444444444444444444444444444";
 function exact(body){return{id:contentId(body),...body};}
@@ -19,7 +19,7 @@ test("AI course is an eight-lesson acyclic research-freshness graph", () => { co
 test("AI delivery supplies the durable task and coordination membrane required by contracted A2A 2.1", async (t) => {
   const root = mkdtempSync(join(tmpdir(), "ai-curriculum-a2a-"));
   t.after(() => rmSync(root, { recursive: true, force: true }));
-  const membrane = localA2aMembrane(root, "delivery");
+  const membrane = createFilesystemContractedAgentSources({ stateRoot: join(root, "a2a-state"), provider: "delivery" });
   const tasks = new DurableA2aTaskStore(membrane.taskSource);
   const pushes = new DurablePushNotificationStore(membrane.coordinationSource);
   await tasks.save({ id: "task-1", contextId: "context-1", status: { state: "TASK_STATE_SUBMITTED" } }, { tenant: "curriculum" });
