@@ -1,10 +1,7 @@
 import assert from "node:assert/strict";
 import { readFileSync } from "node:fs";
 import test from "node:test";
-import { EMPTY_WITNESS_ROOT, identifyJsonSemanticContent } from "@red-cup-engineering/semantic-content-identify-service";
-
-const semanticId = (value) => identifyJsonSemanticContent({ objectKind: "turntide-islands.record", value, witnessRoot: EMPTY_WITNESS_ROOT }).token;
-import { admitUnionMediaBid, admitUnionMediaCreative, admitUnionMediaPlacementRequest, admitUnionMediaResourceSettlement, clearUnionMediaAuctionCycle, deriveUnionMediaLocalNeedsPolicy, evaluateUnionMediaBid, launchUnionMedia, openUnionMediaAuctionCycle, renderUnionMediaPlacement, UNION_MEDIA_BID_INGRESS_CONTRACT, UNION_MEDIA_CONTRACT, UNION_MEDIA_PLACEMENT_INGRESS_CONTRACT } from "../src/union-media-syndication.mjs";
+import { admitUnionMediaBid, admitUnionMediaCreative, admitUnionMediaPlacementRequest, admitUnionMediaResourceSettlement, clearUnionMediaAuctionCycle, deriveUnionMediaLocalNeedsPolicy, evaluateUnionMediaBid, launchUnionMedia, openUnionMediaAuctionCycle, renderUnionMediaPlacement, semanticId, UNION_MEDIA_BID_INGRESS_CONTRACT, UNION_MEDIA_CONTRACT, UNION_MEDIA_PLACEMENT_INGRESS_CONTRACT } from "../src/union-media-syndication.mjs";
 import { verifyMarketCircuit } from "../lib/management/verify-market-circuit.mjs";
 
 const product = JSON.parse(readFileSync(new URL("../content/products/union-media-syndication.json", import.meta.url), "utf8"));
