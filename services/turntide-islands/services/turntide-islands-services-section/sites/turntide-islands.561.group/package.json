@@ -4,7 +4,7 @@
   "type": "module",
   "description": "The public Turntide Islands site, built with VICTOR.",
   "dependencies": {
-    "@red-cup-engineering/victor": "0.1.1"
+    "@red-cup-engineering/victor": "0.1.3"
   },
   "devDependencies": {
     "wrangler": "4.123.0"

@@ -7,10 +7,9 @@ const A2A_CARRIER_KIND = "rsc-quiescent.a2a-json";
 const semanticBytes = (value) => identifyJsonSemanticContent({ objectKind: A2A_CARRIER_KIND, value, witnessRoot: EMPTY_WITNESS_ROOT }).bytes;
 const decodeSemantic = (bytes) => admitJsonSemanticContent({ bytes, objectKind: A2A_CARRIER_KIND }).value;
 import { querySettlementRecords } from "@red-cup-engineering/witness-journal-document-service";
-import { ACTOR, CATEGORY, NODE_ROOT, admittedLessonProducts, contentId, deliverLessonProduct } from "./curriculum.mjs";
+import { ACTOR, CATEGORY, NODE_ROOT, admittedLessonProducts, deliverLessonProduct, exact } from "./curriculum.mjs";
 
 export const CHANNEL = "urn:ame:artificial-intelligence-youtube-channel-enterprise";
-function exact(value) { if (!value || typeof value !== "object") return false; const { id, ...body } = value; return id === contentId(body); }
 export function selectNextLesson(products, completedLessonIds) {
   if (!Array.isArray(products) || !Array.isArray(completedLessonIds) || new Set(completedLessonIds).size !== completedLessonIds.length || completedLessonIds.some((id) => typeof id !== "string")) throw new TypeError("AI curriculum next-product selection requires bounded unique completed lesson identities");
   const completed = new Set(completedLessonIds), rows = products.filter((row) => row?.type === "ArtificialIntelligenceLessonProductAdmission" && row.provider === ACTOR).sort((a, b) => a.sequence - b.sequence || a.id.localeCompare(b.id));
