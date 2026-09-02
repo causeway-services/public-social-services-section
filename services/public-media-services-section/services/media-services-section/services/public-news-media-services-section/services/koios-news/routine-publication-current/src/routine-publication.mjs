@@ -21,6 +21,84 @@ function fsyncDirectory(path) {
   try { fsyncSync(descriptor); }
   finally { closeSync(descriptor); }
 }
+// The tracked corpus is deliberately never mutated by a routine publication
+// (see the receipt's transition.sourceMutated invariant), so a post's own
+// `draft: true` front matter never durably flips. Without a separate durable
+// record of what has already been routine-published, every later candidate's
+// readPosts(work) sees only {corpus draft:false files} union {this one job's
+// flipped draft} and silently drops every previously published post from its
+// freshly regenerated sitemap/feed/homepage/archive, even though that post's
+// individual page keeps being served from stale production-baseline
+// carry-forward. This ledger closes that gap: every successful candidate
+// records its own promoted post here, and every later candidate copies the
+// whole ledger into its own working corpus before building, so discovery
+// surfaces regenerate atomically with every post that has ever gone live.
+function publishedLedgerDir(replayRoot) { return join(resolve(replayRoot), "published"); }
+/**
+ * List every durably recorded previously-published post as `{relative,
+ * path}` entries ready to seed a routine-publication working corpus.
+ *
+ * @param {string} [replayRoot] Absolute replay root; entries are empty when
+ *   omitted or when no post has been recorded there yet.
+ * @returns {readonly {relative: string, path: string}[]}
+ * @throws {Error} When the ledger directory exists but is not a real
+ *   directory, or contains a symlinked entry.
+ */
+export function listPublishedLedgerEntries(replayRoot) {
+  if (typeof replayRoot !== "string" || replayRoot === "") return Object.freeze([]);
+  const dir = publishedLedgerDir(replayRoot);
+  if (!existsSync(dir)) return Object.freeze([]);
+  const stat = lstatSync(dir);
+  if (stat.isSymbolicLink() || !stat.isDirectory()) throw new Error(`published-posts ledger must be a real directory: ${dir}`);
+  return Object.freeze(readdirSync(dir, { withFileTypes: true })
+    .filter((entry) => entry.isFile() && entry.name.endsWith(".md"))
+    .sort(bytewiseNameOrder)
+    .map((entry) => {
+      const path = join(dir, entry.name);
+      if (lstatSync(path).isSymbolicLink()) throw new Error(`published-posts ledger entry must not be a symlink: ${entry.name}`);
+      return Object.freeze({ relative: entry.name, path });
+    }));
+}
+/**
+ * Copy every ledger entry into a working corpus, overwriting whatever the
+ * tracked corpus itself supplied at the same relative path. The tracked
+ * corpus keeps every post at its original, never-mutated `draft: true`
+ * bytes (copyCorpus copies it verbatim); the ledger is the sole durable
+ * record of which of those posts have actually been routine-published and
+ * carries their exact promoted (`draft: false`) projection, so it must win.
+ */
+function mergePublishedLedgerIntoWork({ work, replayRoot }) {
+  const entries = listPublishedLedgerEntries(replayRoot);
+  for (const entry of entries) writeFileSync(join(work, entry.relative), readFileSync(entry.path));
+  return Object.freeze({ priorPublishedCount: entries.length });
+}
+/**
+ * Durably record one successfully formed candidate's own promoted post so
+ * every future routine-publication build includes it. Best-effort: a
+ * candidate that already finished and consumed its one-use authority must
+ * never be turned into a thrown failure by this secondary bookkeeping step,
+ * so every failure mode here is reported, not thrown.
+ *
+ * @param {{replayRoot: string|undefined, slug: string, projectedSource: string}} input
+ * @returns {{recorded: boolean, reason?: string}}
+ */
+export function recordPublishedPost({ replayRoot, slug, projectedSource }) {
+  if (typeof replayRoot !== "string" || replayRoot === "") return Object.freeze({ recorded: false, reason: "no replayRoot" });
+  try {
+    const dir = publishedLedgerDir(replayRoot);
+    mkdirSync(dir, { recursive: true, mode: 0o700 });
+    const path = join(dir, `${slug}.md`);
+    let descriptor;
+    try { descriptor = openSync(path, "wx", 0o600); }
+    catch (error) { if (error?.code === "EEXIST") return Object.freeze({ recorded: false, reason: "already-recorded" }); throw error; }
+    try { writeFileSync(descriptor, projectedSource, "utf8"); fsyncSync(descriptor); }
+    finally { closeSync(descriptor); }
+    fsyncDirectory(dir);
+    return Object.freeze({ recorded: true });
+  } catch (error) {
+    return Object.freeze({ recorded: false, reason: error instanceof Error ? error.message : String(error) });
+  }
+}
 function persistCandidateTree(path) {
   const stat = lstatSync(path);
   if (stat.isSymbolicLink()) throw new Error(`candidate persistence refuses a symlink: ${path}`);
@@ -269,7 +347,23 @@ export function recoverRoutinePublication({ outputDir, replayRoot, persistCandid
   persistCandidate(candidate);
   if (candidate === staging) finalizeCandidate({ target, staging, persistPublishedParent, renameCandidate });
   else persistPublishedParent(dirname(target));
-  return Object.freeze({ disposition: "recovered", outputDir: target, slug: recovery.receipt.slug, consumptionId: recovery.consumptionId, receiptSha256 });
+  // Recovery finalizes an already-consumed candidate; a first attempt that
+  // failed after finalizeCandidate but before recordPublishedPost would
+  // otherwise permanently miss its ledger entry. Reconstruct the exact
+  // projected bytes from the still-unmutated tracked corpus and the
+  // receipt's own bound digests, rather than trusting anything new.
+  let publishedLedger;
+  try {
+    const { sourcePath, sourceSha256, projectedSha256 } = recovery.receipt.provenance;
+    const current = readFileSync(sourcePath, "utf8");
+    if (digest(current) !== sourceSha256) throw new Error(`recovery corpus source changed since candidate formation: ${sourcePath}`);
+    const reconstructed = replaceDraftFlag(current, basename(sourcePath));
+    if (digest(reconstructed) !== projectedSha256) throw new Error(`recovery corpus draft promotion produced unexpected bytes: ${sourcePath}`);
+    publishedLedger = recordPublishedPost({ replayRoot, slug: recovery.receipt.slug, projectedSource: reconstructed });
+  } catch (error) {
+    publishedLedger = Object.freeze({ recorded: false, reason: error instanceof Error ? error.message : String(error) });
+  }
+  return Object.freeze({ disposition: "recovered", outputDir: target, slug: recovery.receipt.slug, consumptionId: recovery.consumptionId, receiptSha256, publishedLedger });
 }
 function normalizeStaticManifest(candidateRoot, projectedDigest) {
   // Bind the deterministic routine projection without exposing its temporary
@@ -318,6 +412,11 @@ export function writeRoutinePublication({ contentDir, draftPath, admissionPath, 
     copyCorpus(admission.corpus, work);
     const projectedPath = join(work, admission.corpus.draftRelative);
     writeFileSync(projectedPath, projected);
+    // Every previously routine-published post lives only in this durable
+    // ledger (the tracked corpus itself is never mutated); seed it into the
+    // working corpus so this candidate's own discovery surfaces regenerate
+    // with every post ever published, not only this one.
+    const publishedLedger = mergePublishedLedgerIntoWork({ work, replayRoot });
     const carrierOutput = join(work, "carrier");
     buildPublication({ contentDir: work, outputDir: carrierOutput, productionBaselineDir });
     const publicOutput = join(staging, "public");
@@ -326,7 +425,7 @@ export function writeRoutinePublication({ contentDir, draftPath, admissionPath, 
     const carrierManifest = readJson(join(publicOutput, "manifest.json"), "static carrier manifest");
     if (JSON.stringify(carrierManifest?.provenance?.productionBaseline) !== JSON.stringify(baseline)) throw new Error("production baseline changed between planning and carrier formation");
     const sealedCarrier = inspectSealedPublicCarrier(publicOutput);
-    const receipt = Object.freeze({ kind: "koios.news.routine-publication-receipt/v1", disposition: "offline-static-candidate", editorialContract: EDITORIAL_CONTRACT, slug: admission.draft.slug, authority: Object.freeze({ kind: "Ed25519", scope: prepared.authority.scope, grantId: prepared.authority.grantId, grantDigest: prepared.authority.grantDigest, issuedAt: prepared.authority.issuedAt, expiresAt: prepared.authority.expiresAt, manuscriptDigest: prepared.authority.manuscriptDigest, assessmentReceiptDigest: prepared.authority.assessmentReceiptDigest ?? null, verifiedAt: prepared.authority.verifiedAt, consumptionId: prepared.authority.consumptionId }), provenance: Object.freeze({ contentDir: admission.corpus.root, corpusSha256: admission.corpus.sha256, projectedCorpusSha256, corpusFileCount: admission.corpus.fileCount, sourcePath: admission.draftPath, sourceSha256: admission.sourceDigest, admissionPath: admission.admissionPath, admissionSha256: admission.admissionDigest, projectedSha256: digest(projected), baseline, transition: Object.freeze({ allowedChanges: Object.freeze(["draft"]), sourceDraft: true, candidateDraft: false, sourceMutated: false }) }), limitations: Object.freeze(["The authenticated editorial grant authorizes only this offline candidate; it is not a Cloudflare release grant or ScheduleDelivery acceptance.", "Candidate formation is offline only and grants no deployment or delivery authority."]), staticCarrier: Object.freeze({ package: "@causeway-services/koios-news-static-delivery-current", output: "public/", manifestSha256: sealedCarrier.manifestSha256, artifactCount: sealedCarrier.artifactCount }) });
+    const receipt = Object.freeze({ kind: "koios.news.routine-publication-receipt/v1", disposition: "offline-static-candidate", editorialContract: EDITORIAL_CONTRACT, slug: admission.draft.slug, authority: Object.freeze({ kind: "Ed25519", scope: prepared.authority.scope, grantId: prepared.authority.grantId, grantDigest: prepared.authority.grantDigest, issuedAt: prepared.authority.issuedAt, expiresAt: prepared.authority.expiresAt, manuscriptDigest: prepared.authority.manuscriptDigest, assessmentReceiptDigest: prepared.authority.assessmentReceiptDigest ?? null, verifiedAt: prepared.authority.verifiedAt, consumptionId: prepared.authority.consumptionId }), provenance: Object.freeze({ contentDir: admission.corpus.root, corpusSha256: admission.corpus.sha256, projectedCorpusSha256, corpusFileCount: admission.corpus.fileCount, sourcePath: admission.draftPath, sourceSha256: admission.sourceDigest, admissionPath: admission.admissionPath, admissionSha256: admission.admissionDigest, projectedSha256: digest(projected), baseline, transition: Object.freeze({ allowedChanges: Object.freeze(["draft"]), sourceDraft: true, candidateDraft: false, sourceMutated: false }), publishedLedger }), limitations: Object.freeze(["The authenticated editorial grant authorizes only this offline candidate; it is not a Cloudflare release grant or ScheduleDelivery acceptance.", "Candidate formation is offline only and grants no deployment or delivery authority."]), staticCarrier: Object.freeze({ package: "@causeway-services/koios-news-static-delivery-current", output: "public/", manifestSha256: sealedCarrier.manifestSha256, artifactCount: sealedCarrier.artifactCount }) });
     const receiptText = `${JSON.stringify(receipt, null, 2)}\n`;
     const receiptSha256 = digest(receiptText);
     writeFileSync(safeCandidatePath(staging, "routine-publication-receipt.json"), receiptText);
@@ -341,7 +440,12 @@ export function writeRoutinePublication({ contentDir, draftPath, admissionPath, 
     // The target becomes visible through its parent directory entry.  Do not
     // report success until that entry is durable as well.
     finalizeCandidate({ target, staging, persistPublishedParent, renameCandidate });
-    return Object.freeze({ disposition: "written", outputDir: target, slug: admission.draft.slug, consumptionId: consumption.consumptionId, receiptSha256, plan });
+    // The candidate is now durably visible and its authority spent; record
+    // this post into the published-posts ledger so every future candidate's
+    // build includes it too. A ledger-write failure here must not turn this
+    // already-successful, already-consumed publication into a thrown error.
+    const ledgerRecord = recordPublishedPost({ replayRoot, slug: admission.draft.slug, projectedSource: projected });
+    return Object.freeze({ disposition: "written", outputDir: target, slug: admission.draft.slug, consumptionId: consumption.consumptionId, receiptSha256, plan, publishedLedger: ledgerRecord });
   } catch (error) {
     // Before consumption the staging tree is disposable. After consumption it
     // is the durable recovery artifact and must survive a publication-finalize

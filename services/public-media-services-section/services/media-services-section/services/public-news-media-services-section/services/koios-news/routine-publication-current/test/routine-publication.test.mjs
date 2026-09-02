@@ -5,7 +5,7 @@ import { tmpdir } from "node:os";
 import { join } from "node:path";
 import test from "node:test";
 
-import { planRoutinePublication, recoverRoutinePublication, writeRoutinePublication } from "../src/routine-publication.mjs";
+import { listPublishedLedgerEntries, planRoutinePublication, recordPublishedPost, recoverRoutinePublication, writeRoutinePublication } from "../src/routine-publication.mjs";
 import { canonicalJson } from "../../services/editorial-publication-authority/src/editorial-publication-authority.mjs";
 
 const digest = (value) => `sha256:${createHash("sha256").update(value).digest("hex")}`;
@@ -234,5 +234,77 @@ test("refuses absent, unsafe, and corrupt baselines before authority consumption
     assert.throws(() => writeRoutinePublication(fixture), /digest mismatch/);
     assert.equal(existsSync(join(fixture.replayRoot, "consumed")), false);
     assert.equal(existsSync(fixture.outputDir), false);
+  } finally { rmSync(fixture.temp, { recursive: true, force: true }); }
+});
+
+/**
+ * Admit a second, independent post into the same fixture corpus, signed by
+ * its own key but recorded in the fixture's shared authority key map, so a
+ * second writeRoutinePublication call can target it without disturbing the
+ * first job's own draft/admission/grant.
+ */
+function admitSecondJob(fixture, { slug, title }) {
+  const bytes = `---\ntitle: ${title}\ndate: 2026-08-30\ndraft: true\nslug: ${slug}\n---\nA second, independently admitted item.\n`;
+  const draftPath = join(fixture.contentDir, `${slug}.md`);
+  writeFileSync(draftPath, bytes);
+  const admissionPath = join(fixture.temp, `${slug}-admission.json`);
+  writeFileSync(admissionPath, `${JSON.stringify(acceptance(bytes, { slug, manuscriptDigest: digest(bytes) }))}\n`);
+  const { privateKey, publicKey } = generateKeyPairSync("ed25519");
+  const issuerKeyId = `routine-authority-key-${slug}`;
+  const unsignedGrant = { expiresAt: "2026-08-31T00:00:00.000Z", grantId: `routine-grant-id-${slug}`, issuedAt: "2026-08-30T00:00:00.000Z", issuerKeyId, kind: "koios.news.editorial-publication-grant/v1", scope: { manuscript: { digest: digest(bytes), slug }, type: "exact-manuscript" } };
+  const signature = sign(null, Buffer.from(canonicalJson(unsignedGrant), "utf8"), privateKey).toString("base64url");
+  const authorityGrantPath = join(fixture.temp, `${slug}-authority-grant.json`);
+  writeFileSync(authorityGrantPath, `${canonicalJson({ ...unsignedGrant, signature })}\n`);
+  const keys = JSON.parse(readFileSync(fixture.authorityKeysPath, "utf8"));
+  keys[issuerKeyId] = publicKey.export({ format: "jwk" }).x;
+  writeFileSync(fixture.authorityKeysPath, `${JSON.stringify(keys)}\n`);
+  return { ...fixture, draftPath, admissionPath, authorityGrantPath, authorityNow: "2026-08-30T12:00:00.000Z", outputDir: join(fixture.temp, `candidate-${slug}`), bytes };
+}
+
+test("regeneration invariant: a later candidate's discovery surfaces include every earlier routine-published post", () => {
+  const fixture = setup();
+  try {
+    const first = writeRoutinePublication(fixture);
+    assert.equal(first.disposition, "written");
+    assert.equal(first.publishedLedger.recorded, true);
+    // The tracked corpus post is still untouched draft: true — publication
+    // state lives only in the durable ledger, never by mutating this file.
+    assert.equal(readFileSync(fixture.draftPath, "utf8"), fixture.bytes);
+    assert.match(readFileSync(fixture.draftPath, "utf8"), /draft: true/);
+
+    const second = admitSecondJob(fixture, { slug: "second-published-item", title: "Second published item" });
+    const result = writeRoutinePublication(second);
+    assert.equal(result.disposition, "written");
+    assert.equal(result.publishedLedger.recorded, true);
+
+    // The second candidate's own build must include BOTH posts in every
+    // discovery surface, atomically with its own release, even though the
+    // first post's corpus source file was never touched.
+    const secondPublic = join(second.outputDir, "public");
+    for (const [file, pattern] of [["index.html", /Exact accepted item/], ["feed.xml", /Exact accepted item/], ["feed.atom", /Exact accepted item/], ["sitemap.xml", /exact-accepted-item/]]) {
+      assert.match(readFileSync(join(secondPublic, file), "utf8"), pattern, `${file} must include the earlier routine-published post`);
+    }
+    assert.equal(existsSync(join(secondPublic, "posts", "exact-accepted-item", "index.html")), true);
+    assert.match(readFileSync(join(secondPublic, "index.html"), "utf8"), /Second published item/);
+
+    // The first candidate's own build (formed before the second post ever
+    // existed) is untouched by the second candidate's ledger write.
+    assert.doesNotMatch(readFileSync(join(fixture.outputDir, "public", "index.html"), "utf8"), /Second published item/);
+
+    const ledgerEntries = listPublishedLedgerEntries(fixture.replayRoot);
+    assert.deepEqual(ledgerEntries.map((entry) => entry.relative), ["exact-accepted-item.md", "second-published-item.md"]);
+  } finally { rmSync(fixture.temp, { recursive: true, force: true }); }
+});
+
+test("recordPublishedPost is idempotent and never throws on a failed durable write", () => {
+  const fixture = setup();
+  try {
+    assert.deepEqual(recordPublishedPost({ replayRoot: undefined, slug: "x", projectedSource: "y" }), { recorded: false, reason: "no replayRoot" });
+    const first = recordPublishedPost({ replayRoot: fixture.replayRoot, slug: "exact-accepted-item", projectedSource: "one\n" });
+    assert.equal(first.recorded, true);
+    const second = recordPublishedPost({ replayRoot: fixture.replayRoot, slug: "exact-accepted-item", projectedSource: "two\n" });
+    assert.equal(second.recorded, false);
+    assert.equal(second.reason, "already-recorded");
+    assert.equal(readFileSync(join(fixture.replayRoot, "published", "exact-accepted-item.md"), "utf8"), "one\n");
   } finally { rmSync(fixture.temp, { recursive: true, force: true }); }
 });
