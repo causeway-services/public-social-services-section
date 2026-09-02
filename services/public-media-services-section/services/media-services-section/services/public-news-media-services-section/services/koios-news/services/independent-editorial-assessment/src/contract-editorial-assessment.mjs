@@ -6,6 +6,7 @@ import { dirname, join, resolve } from "node:path";
 import { fileURLToPath } from "node:url";
 
 import { requestInferenceWorkLot } from "@red-cup-engineering/inference-work-lot-service/client";
+import { isObjectRecord } from "@red-cup-engineering/json-codec-service";
 import { EMPTY_WITNESS_ROOT, identifyJsonSemanticContent } from "@red-cup-engineering/semantic-content-identify-service";
 const semanticId = (value) => identifyJsonSemanticContent({ objectKind: "rsc-quiescent.record", value, witnessRoot: EMPTY_WITNESS_ROOT }).token;
 import { createSettlementStore } from "./record-journal.mjs";
@@ -23,7 +24,6 @@ export function digest(value) { return typeof value === "string" || Buffer.isBuf
   ? `sha256:${createHash("sha256").update(value).digest("hex")}` : semanticId(value); }
 function contentId(value) { return semanticId(value); }
 function equivalent(left, right) { return digest(left) === digest(right); }
-function isRecord(value) { return value !== null && typeof value === "object" && !Array.isArray(value); }
 function validInstant(value) { return /^\d{4}-\d{2}-\d{2}T\d{2}:\d{2}:\d{2}(?:\.\d+)?Z$/u.test(value) && !Number.isNaN(Date.parse(value)); }
 function dataRoot(env = process.env) { return resolve(env["INDEPENDENT_EDITORIAL_ASSESSMENT_DATA_ROOT"] ?? join(ROOT, "data")); }
 function store(env = process.env) { return createSettlementStore({ settlementRoot: dataRoot(env) }); }
@@ -33,13 +33,13 @@ async function append(kind, value, instant, env = process.env) {
 }
 function response(type, source, object, instant) { const body = { actor: ACTOR, type, target: source?.actor ?? "urn:actor:unknown", inReplyTo: source?.id ?? null, object }; return Object.freeze({ "@context": CONTEXT, id: contentId(body), ...body, published: instant }); }
 async function refusal(source, code, reason, instant, details = {}) { const result = response("Reject", source, Object.freeze({ type: "Refusal", code, reason, ...details }), instant); await append("provider.refusal", { code, reason, activityDigest: digest(source ?? null), responseDigest: digest(result) }, instant); return result; }
-function forbidden(value, prefix = "demand") { if (Array.isArray(value)) return value.flatMap((item, index) => forbidden(item, `${prefix}[${index}]`)).at(0); if (!isRecord(value)) return undefined; for (const [key, child] of Object.entries(value)) { if (forbiddenKey(key)) return `${prefix}.${key}`; const nested = forbidden(child, `${prefix}.${key}`); if (nested !== undefined) return nested; } return undefined; }
+function forbidden(value, prefix = "demand") { if (Array.isArray(value)) return value.flatMap((item, index) => forbidden(item, `${prefix}[${index}]`)).at(0); if (!isObjectRecord(value)) return undefined; for (const [key, child] of Object.entries(value)) { if (forbiddenKey(key)) return `${prefix}.${key}`; const nested = forbidden(child, `${prefix}.${key}`); if (nested !== undefined) return nested; } return undefined; }
 function demandFrom(activity) { const sourceActivity = activity?.object?.sourceActivity; const demand = sourceActivity?.object; return sourceActivity?.type === "Create" && demand?.type === "EditorialAssessmentDemand" ? { sourceActivity, demand } : undefined; }
 function validateDemand(demand) {
   const failures = []; const overreach = forbidden(demand); if (overreach !== undefined) failures.push(`customer territory authority is inadmissible at ${overreach}`);
   if (typeof demand?.slug !== "string" || demand.slug.trim() === "") failures.push("slug");
   if (typeof demand?.manuscript?.bytes !== "string" || demand.manuscript.bytes.trim() === "" || demand.manuscript.digest !== digest(demand.manuscript.bytes)) failures.push("manuscript exact bytes and digest");
-  if (!isRecord(demand?.editorialContext?.standards) || !Array.isArray(demand?.editorialContext?.evidence) || demand.editorialContext.digest !== digest({ standards: demand.editorialContext.standards, run: demand.editorialContext.run ?? null, evidence: demand.editorialContext.evidence, pipeline: demand.editorialContext.pipeline ?? [] })) failures.push("editorialContext exact digest");
+  if (!isObjectRecord(demand?.editorialContext?.standards) || !Array.isArray(demand?.editorialContext?.evidence) || demand.editorialContext.digest !== digest({ standards: demand.editorialContext.standards, run: demand.editorialContext.run ?? null, evidence: demand.editorialContext.evidence, pipeline: demand.editorialContext.pipeline ?? [] })) failures.push("editorialContext exact digest");
   for (const field of ["publicationPolicyDigest", "genreLawDigest", "editorialDutyDigest"]) if (typeof demand?.authorities?.[field] !== "string" || !demand.authorities[field].startsWith("ni:///sha-256;")) failures.push(`authorities.${field}`);
   if (!["dry-run", "live"].includes(demand?.executionMode)) failures.push("executionMode");
   for (const key of ["model", "provider", "tier", "child", "childAgentCard", "childAccount", "childLaw", "childModel"]) if (Object.hasOwn(demand ?? {}, key)) failures.push(`downstream inference selection is forbidden at demand.${key}`);
@@ -152,7 +152,7 @@ function validateInvocation(activity) { if (activity?.["@context"] !== CONTEXT |
 function manuscriptBody(bytes) { const match = /^---\r?\n[\s\S]*?\r?\n---\r?\n([\s\S]*)$/u.exec(bytes); return match?.[1]; }
 export function selectionProblems(value, manuscriptBytes) {
   const problems = [];
-  if (!isRecord(value)) return Object.freeze(["selection-not-an-object"]);
+  if (!isObjectRecord(value)) return Object.freeze(["selection-not-an-object"]);
   if (!EDITORIAL_TOOLS.includes(value.tool)) problems.push("unknown-editorial-tool");
   if (!FAILURE_LAYERS.includes(value.failureLayer)) problems.push("unknown-failure-layer");
   if (typeof value.replayFrom !== "string" || value.replayFrom.length === 0) problems.push("replay-from-missing");
@@ -162,7 +162,7 @@ export function selectionProblems(value, manuscriptBytes) {
   if (typeof value.report !== "string" || value.report.length < 500) problems.push("report-too-short");
   const repairTools = Array.isArray(value.repairTools) ? value.repairTools : [];
   for (const [index, repair] of repairTools.entries()) {
-    if (!isRecord(repair) || !EDITORIAL_REPAIR_TOOLS.includes(repair.tool)) { problems.push(`repair-tools[${index}]-unknown`); continue; }
+    if (!isObjectRecord(repair) || !EDITORIAL_REPAIR_TOOLS.includes(repair.tool)) { problems.push(`repair-tools[${index}]-unknown`); continue; }
     if (repair.tool === "replace_exact_body_text" && (typeof repair.before !== "string" || repair.before.length === 0 || typeof repair.after !== "string" || repair.before === repair.after)) problems.push(`repair-tools[${index}]-body-arguments-invalid`);
     if (repair.tool === "repair_editorial_surfaces" && Object.keys(repair).some((key) => key !== "tool")) problems.push(`repair-tools[${index}]-surface-arguments-forbidden`);
   }
@@ -171,7 +171,7 @@ export function selectionProblems(value, manuscriptBytes) {
   if (manuscriptBytes !== undefined) {
     let body = manuscriptBody(manuscriptBytes); if (body === undefined) problems.push("manuscript-body-unreadable");
     else for (const [index, repair] of repairTools.entries()) {
-      if (!isRecord(repair) || repair.tool !== "replace_exact_body_text" || typeof repair.before !== "string" || typeof repair.after !== "string") continue;
+      if (!isObjectRecord(repair) || repair.tool !== "replace_exact_body_text" || typeof repair.before !== "string" || typeof repair.after !== "string") continue;
       const first = body.indexOf(repair.before);
       if (first < 0) problems.push(`repair-tools[${index}]-body-span-absent`);
       else if (body.indexOf(repair.before, first + repair.before.length) >= 0) problems.push(`repair-tools[${index}]-body-span-not-unique`);
@@ -189,7 +189,7 @@ function discardInapplicableExactRepairs(selection, manuscriptBytes) {
   if (body === undefined) return Object.freeze({ selection, discardedProblems: Object.freeze([]) });
   const retained = [], discardedProblems = [];
   for (const [index, repair] of selection.repairTools.entries()) {
-    if (!isRecord(repair) || repair.tool !== "replace_exact_body_text" || typeof repair.before !== "string" || typeof repair.after !== "string") {
+    if (!isObjectRecord(repair) || repair.tool !== "replace_exact_body_text" || typeof repair.before !== "string" || typeof repair.after !== "string") {
       retained.push(repair); continue;
     }
     const first = body.indexOf(repair.before);
