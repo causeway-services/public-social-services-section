@@ -4,6 +4,7 @@ import { lstatSync, readFileSync, realpathSync } from "node:fs";
 import { dirname, join, resolve } from "node:path";
 import { fileURLToPath } from "node:url";
 import { createSemanticRecordJournal } from "@red-cup-engineering/semantic-record-journal-service";
+import { canonical } from "@red-cup-engineering/json-codec-service";
 export const ACTOR = "urn:ame:artificial-intelligence-curriculum-enterprise";
 export const NODE_ROOT = resolve(dirname(fileURLToPath(import.meta.url)), "..");
 export const COURSE_PATH = new URL("../content/curricula/history-and-frontiers-of-machine-learning.v1.json", import.meta.url);
@@ -15,7 +16,6 @@ const WITHHELD = ["research-truth-ownership", "notebook-or-provider-authority", 
 const PRODUCT_WITHHELD = ["youtube-channel-authority", "youtube-credential-custody", "notebooklm-provider-authority", "upload-schedule-or-publication-authority"];
 const REQUIRED_RIGHTS = ["notebooklm-transformation", "public-youtube-release"];
 const ID = /^[a-z0-9]+(?:-[a-z0-9]+)*$/u;
-function canonical(value) { if (Array.isArray(value)) return `[${value.map(canonical).join(",")}]`; if (value && typeof value === "object") return `{${Object.keys(value).sort().filter((key) => value[key] !== undefined).map((key) => `${JSON.stringify(key)}:${canonical(value[key])}`).join(",")}}`; return JSON.stringify(value); }
 export function digest(value) { return `sha256:${createHash("sha256").update(value instanceof Uint8Array ? value : canonical(value)).digest("hex")}`; }
 function semanticJson(value) { if (value instanceof Uint8Array) return { "$bytes": Buffer.from(value).toString("base64url") }; if (Array.isArray(value)) return value.map(semanticJson); if (value && typeof value === "object") return Object.fromEntries(Object.entries(value).map(([key, child]) => [key, semanticJson(child)])); return value; }
 export function contentId(value) { return identifyJsonSemanticContent({ objectKind: "emsweb.artificial-intelligence-curriculum.record", value: semanticJson(value), witnessRoot: EMPTY_WITNESS_ROOT }).token; }

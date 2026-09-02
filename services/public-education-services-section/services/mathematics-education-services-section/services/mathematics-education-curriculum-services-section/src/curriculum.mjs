@@ -3,6 +3,8 @@ import { dirname, join, resolve } from "node:path";
 import { fileURLToPath } from "node:url";
 import { journalRecords, recordJournal } from "./journal.mjs";
 import { EMPTY_WITNESS_ROOT, identifyJsonSemanticContent } from "@red-cup-engineering/semantic-content-identify-service";
+import { canonical } from "@red-cup-engineering/json-codec-service";
+export { canonical };
 
 const semanticId = (objectKind, value) => identifyJsonSemanticContent({ objectKind, value, witnessRoot: EMPTY_WITNESS_ROOT }).token;
 const exactSemanticRecord = (objectKind, value) => {
@@ -19,11 +21,6 @@ const REQUIRED_RIGHTS = ["notebooklm-transformation", "public-youtube-release"];
 const WITHHELD = ["youtube-channel-authority", "youtube-credential-custody", "notebooklm-provider-authority", "playlist-or-course-designation", "upload-schedule-or-publication-authority"];
 const ID = /^[a-z0-9]+(?:-[a-z0-9]+)*$/u;
 
-export function canonical(value) {
-  if (Array.isArray(value)) return `[${value.map(canonical).join(",")}]`;
-  if (value && typeof value === "object") return `{${Object.keys(value).sort().filter((key) => value[key] !== undefined).map((key) => `${JSON.stringify(key)}:${canonical(value[key])}`).join(",")}}`;
-  return JSON.stringify(value);
-}
 export function digest(value) { return semanticId("mathematics-curriculum.semantic-digest", value); }
 export function contentId(objectKind, value) { return semanticId(objectKind, value); }
 export function loadCourse(path = COURSE_PATH) { return JSON.parse(readFileSync(path, "utf8")); }
