@@ -1,0 +1,485 @@
+{
+  "title": "NEWSLETTER_NAME — Issue 001",
+  "dek": "The field's most trusted marker of post-exertional malaise is now honestly contested. Here's what that means, and what we promise to do about it every issue.",
+  "sections": [
+    {
+      "heading": "The Marker That Isn't Settled (And Why That's the Point)",
+      "body-markdown": "We started this because of a pattern one of us kept running into: a person spends months getting sicker after a virus, brings a stack of symptoms to a doctor, and hears some version of \"your labs are normal.\" Not because anyone is lying to them. Because the illness they have — long COVID, ME/CFS, and the wider family of post-infection conditions researchers now group under the umbrella term infection-associated chronic illness — sits at the edge of what medicine currently knows how to measure. That gap between \"you are clearly unwell\" and \"we can prove it on a standard test\" is where a huge amount of unnecessary suffering happens, and it's the gap this newsletter exists to work inside of, honestly.\n\nHonestly is the operative word, and we want to earn it in this first issue rather than just claim it. So instead of opening with a triumphant finding, we're opening with the field's most trusted objective marker of the illness — and telling you it is currently, genuinely contested.\n\nThe marker is called the two-day cardiopulmonary exercise test, or two-day CPET: a maximal exercise test on a stationary bike, repeated 24 hours later. Healthy people, and people with other fatiguing illnesses, reproduce their day-one numbers on day two. People with ME/CFS characteristically don't — their oxygen consumption, heart rate, and workload at peak effort drop the second day, in a way a single test can't show. For years, this has been the closest thing the field has to an objective, physiological signature of post-exertional malaise: proof, on paper, that something measurably different happens in these bodies after exertion, not just a symptom someone is reporting.\n\nHere's what the actual studies say. In 2014, Keller, Pryor, and Giloteaux tested 22 people with ME/CFS on back-to-back days and found real day-two declines — VO₂ at peak down 13.8%, heart rate at peak down 9 beats per minute, workload down 12.5%, and at the ventilatory threshold, VO₂ down 15.8% and workload down 21.3% — though with no healthy comparison group in that particular study. They also found something that matters beyond this one study: a standard functional-impairment classification, applied to just one day's results, misjudged half the participants' actual functional ability. You need the second day to see the real picture.\n\nIn 2013, Snell, Stevens, Davenport, and Van Ness tested 51 women with CFS against 10 sedentary controls and found something similar but sharper: no group difference on day one, then a clear separation on day two, accurate enough to classify who had CFS 95.1% of the time using day-two numbers alone. Two independent teams, a consistent story.\n\nThen, this year, the largest and most recent attempt to replicate it came back negative. Mancini and colleagues tested 58 people with ME/CFS against 25 healthy controls — bigger than either earlier study — and found no significant change in peak oxygen consumption from day one to day two, in either group. Their own words: their data \"do not support using the 2-day CPET protocol to define PEM or disability.\"\n\nSo where does that leave us? Three studies, no consensus. The two that found a decline aren't small or careless; the one that didn't isn't small or careless either — it's larger than both of the earlier ones combined, and it's the most recent. Nobody has run a fourth study, from a different lab, using the exact same protocol, to break the tie. The honest answer, as of today, is that this question is open.\n\nWe know how that lands if you've spent years being told \"we can't find anything wrong with you.\" It can feel like one more door closing. We'd ask you to sit with it a different way instead: this is what a real, unresolved scientific question looks like from the inside, before anyone has smoothed it into a headline. It is not evidence that your illness isn't real. It is evidence that the specific tool built to prove it on paper hasn't finished being built yet — and that anyone telling you the two-day CPET settles the question, in either direction, is currently saying more than the literature supports.\n\nThat is the standard this newsletter is committing to, issue after issue. We are not going to hand you a marker, a mechanism, or a treatment dressed up as more certain than the primary research says it is — not because uncertainty is comfortable, but because false certainty is what got a lot of us dismissed in the first place, and we're not going to oversell hope either. When something is demonstrated, we'll say demonstrated. When it's a live, reasonable hypothesis, we'll say that, and tell you what would need to be true for it to graduate. When two credible groups of scientists are in open disagreement, as they currently are here, we'll show you both sides and let you hold the tension yourself, because that tension is the actual state of the science — not a failure to explain it clearly enough.\n\nThat's the whole premise. Below: five more claims currently circulating in this community, each labeled the same honest way. Read them, argue with us in the comments, and hold us to it next issue.",
+      "sources": [
+        "keller2014",
+        "snell2013",
+        "mancini2026",
+        "choutka2022",
+        "nasem2024longcovid"
+      ]
+    },
+    {
+      "heading": "The Evidence State",
+      "body-markdown": "### \"The two-day exercise test proves post-exertional malaise is real and measurable.\"\n\n**Contested.** Two earlier controlled and uncontrolled studies (Keller 2014, n=22; Snell 2013, n=51 patients + 10 controls) found a genuine day-two decline in exercise capacity. The largest and most recent attempt to replicate it (Mancini 2026, n=58 patients + 25 controls) found no significant change between the two days at all. Neither side has been independently replicated by a different lab under a matched protocol, so this stands as open, not settled.\n\n### \"About half of long COVID is actually ME/CFS.\"\n\n**Demonstrated, sensitive to how ME/CFS is defined.** A 2024 meta-analysis pooling 13 studies and 1,973 long-COVID patients found that 51% (95% CI 42–60%) met formal ME/CFS diagnostic criteria — the current headline \"about half\" estimate, and it holds up as a pooled figure across independent cohorts. But the range underneath it is wide and largely a measurement artifact: individual studies run from 8% to 58% depending on how strict the diagnostic bar is set, and one study found that requiring all three major case definitions at once, in the same patients, dropped the meeting-criteria fraction from mid-range down to 8.4%. Post-exertional malaise is the cardinal symptom driving the overlap; the size of \"half\" moves with the ruler, not just the population.\n\n### \"Microclots are what's causing long COVID.\"\n\n**Contested.** The research group that first described amyloid-like \"microclots\" in long-COVID plasma calls the finding central to the illness. A separate group published a direct critique arguing the clots aren't unique to long COVID, are seen in other inflammatory and aging conditions, and haven't been shown to cause anything rather than just correlate with it. The original group rebutted, and the dispute remains open and unresolved between named scientists — not settled in either direction.\n\n### \"Leftover virus in your body is driving your symptoms.\"\n\n**Contested.** Spike and nucleocapsid viral antigen genuinely persist in blood and gut tissue in a meaningful subset of people for months, sometimes over a year, after infection — that part is demonstrated. But the largest, most rigorous, blinded study to date (Mateu 2026, n=425, with uninfected controls) found that carrying detectable antigen was not associated with symptom burden, in long-COVID patients or in people who'd fully recovered. The authors' own conclusion: current evidence doesn't support using it to guide treatment.\n\n### \"Pacing helps.\"\n\n**Hypothesis.** The one meta-analysis of pacing trials (five small studies) found a large effect on fatigue, leaning toward benefit — but the confidence interval crossed zero and the result fell just short of conventional statistical significance (p = .0998). The authors' own words: they \"cautiously conclude pacing likely exerts some beneficial effects.\" Real, promising signal; not yet proof.",
+      "sources": [
+        "keller2014",
+        "snell2013",
+        "mancini2026",
+        "dehlia2024",
+        "kellpretorius2022",
+        "hunt2024",
+        "kellkhanpretorius2024",
+        "mateu2026",
+        "peluso2024lancetid",
+        "swank2023",
+        "sanalhayes2024"
+      ]
+    },
+    {
+      "heading": "From the Desk",
+      "body-markdown": "**The synthesis paper.** We've drafted — not yet finalized — a 52-citation structured literature review of long-COVID mechanisms: viral and antigen persistence, immune dysregulation (T-cell exhaustion, autoantibodies, complement, the microclot dispute), dysautonomia and POTS, and the ME/CFS overlap. Every finding in it is labeled demonstrated, mechanistic hypothesis, or contested, and every number is traced to its primary source rather than carried forward from an earlier summary. It's the evidence base most of what we publish will draw from — this issue's CPET coverage and pacing entry instead draw from a newer, issue-specific note (below), because the synthesis paper doesn't cover rehabilitation and pacing evidence.\n\n**The ebook.** *Understanding Infection-Associated Chronic Illness* is out, free, as PDF and EPUB: a plain-language walkthrough of what the IACI umbrella term means (and doesn't mean), how long COVID and ME/CFS relate, what the current mechanistic research says, and how to read a research paper's claims critically yourself. Built from the same corpus as the synthesis paper above, for readers who want the fuller picture without the citation density.\n\n**The pacing evidence note.** New this week: a full accounting of what actually backs biometric-guided pacing. It covers the two-day CPET conflict from this issue. It covers two single-cohort findings on heart-rate-variability prediction and biofeedback. It covers the pacing meta-analysis. And it covers the popular resting-heart-rate-plus-15 heuristic — which, it turns out, has no published validating study behind it at all. The note draws the line plainly: a tool built on this evidence can show you your own patterns and flag when today differs from your baseline. It cannot diagnose you. This issue's lead story and the \"Pacing helps\" entry above draw directly from it."
+    },
+    {
+      "heading": "The Promise",
+      "body-markdown": "Every claim in this newsletter carries one of three labels — demonstrated, hypothesis, or contested — and that label is checked against the primary source before we publish, not copied forward from an earlier draft, an earlier newsletter, or our own memory of the finding. Demonstrated means a pooled or well-replicated estimate holds up even when individual studies disagree on the exact number; contested means credible groups' central findings actually point in different directions, not just their precision. When a study is reported at a conference and hasn't cleared peer review yet, we'll say so. When two credible groups disagree, we'll show you both sides rather than pick the more comforting one. When the honest answer is \"we don't know yet,\" that's the answer you'll get.\n\nThat's the whole promise. Thanks for reading issue 001 — we'll see you next time.\n\n— NEWSLETTER_NAME"
+    }
+  ],
+  "references": {
+    "choutka2022": {
+      "id": "choutka2022",
+      "type": "article-journal",
+      "title": "Unexplained post-acute infection syndromes",
+      "author": [
+        {
+          "given": "Jan",
+          "family": "Choutka"
+        },
+        {
+          "given": "Viraj",
+          "family": "Jansari"
+        },
+        {
+          "given": "Mady",
+          "family": "Hornig"
+        },
+        {
+          "given": "Akiko",
+          "family": "Iwasaki"
+        }
+      ],
+      "container-title": "Nature Medicine",
+      "volume": "28",
+      "issue": "5",
+      "page": "911-923",
+      "issued": {
+        "date-parts": [
+          [
+            2022
+          ]
+        ]
+      },
+      "DOI": "10.1038/s41591-022-01810-6",
+      "PMID": "35585196"
+    },
+    "nasem2024longcovid": {
+      "id": "nasem2024longcovid",
+      "type": "report",
+      "title": "A Long COVID Definition: A Chronic, Systemic Disease State with Profound Consequences",
+      "author": [
+        {
+          "literal": "National Academies of Sciences, Engineering, and Medicine"
+        }
+      ],
+      "publisher": "National Academies Press",
+      "issued": {
+        "date-parts": [
+          [
+            2024
+          ]
+        ]
+      },
+      "DOI": "10.17226/27768"
+    },
+    "dehlia2024": {
+      "id": "dehlia2024",
+      "type": "article-journal",
+      "title": "The persistence of myalgic encephalomyelitis/chronic fatigue syndrome (ME/CFS) after SARS-CoV-2 infection: A systematic review and meta-analysis",
+      "author": [
+        {
+          "given": "Ankush",
+          "family": "Dehlia"
+        },
+        {
+          "given": "Mark A.",
+          "family": "Guthridge"
+        }
+      ],
+      "container-title": "Journal of Infection",
+      "volume": "89",
+      "issue": "6",
+      "page": "106297",
+      "issued": {
+        "date-parts": [
+          [
+            2024
+          ]
+        ]
+      },
+      "DOI": "10.1016/j.jinf.2024.106297"
+    },
+    "keller2014": {
+      "id": "keller2014",
+      "type": "article-journal",
+      "title": "Inability of myalgic encephalomyelitis/chronic fatigue syndrome patients to reproduce VO2peak indicates functional impairment",
+      "author": [
+        {
+          "given": "Betsy A.",
+          "family": "Keller"
+        },
+        {
+          "given": "Jared L.",
+          "family": "Pryor"
+        },
+        {
+          "given": "Ludovic",
+          "family": "Giloteaux"
+        }
+      ],
+      "container-title": "Journal of Translational Medicine",
+      "volume": "12",
+      "page": "104",
+      "issued": {
+        "date-parts": [
+          [
+            2014
+          ]
+        ]
+      },
+      "DOI": "10.1186/1479-5876-12-104",
+      "PMID": "24755065"
+    },
+    "snell2013": {
+      "id": "snell2013",
+      "type": "article-journal",
+      "title": "Discriminative validity of metabolic and workload measurements for identifying people with chronic fatigue syndrome",
+      "author": [
+        {
+          "given": "Christopher R.",
+          "family": "Snell"
+        },
+        {
+          "given": "Staci R.",
+          "family": "Stevens"
+        },
+        {
+          "given": "Todd E.",
+          "family": "Davenport"
+        },
+        {
+          "given": "J. Mark",
+          "family": "Van Ness"
+        }
+      ],
+      "container-title": "Physical Therapy",
+      "volume": "93",
+      "issue": "11",
+      "page": "1484-1492",
+      "issued": {
+        "date-parts": [
+          [
+            2013
+          ]
+        ]
+      },
+      "DOI": "10.2522/ptj.20110368",
+      "PMID": "23813081"
+    },
+    "mancini2026": {
+      "id": "mancini2026",
+      "type": "article-journal",
+      "title": "Cardiopulmonary exercise test results do not change over two sequential days in patients with chronic fatigue syndrome",
+      "author": [
+        {
+          "given": "Donna M.",
+          "family": "Mancini"
+        },
+        {
+          "given": "Dominique B.",
+          "family": "Cook"
+        },
+        {
+          "given": "Danielle L.",
+          "family": "Brunjes"
+        },
+        {
+          "literal": "et al."
+        }
+      ],
+      "container-title": "Frontiers in Physiology",
+      "issued": {
+        "date-parts": [
+          [
+            2026
+          ]
+        ]
+      },
+      "DOI": "10.3389/fphys.2026.1816082"
+    },
+    "kellpretorius2022": {
+      "id": "kellpretorius2022",
+      "type": "article-journal",
+      "title": "A central role for amyloid fibrin microclots in long COVID/PASC: origins and therapeutic implications",
+      "author": [
+        {
+          "given": "Douglas B.",
+          "family": "Kell"
+        },
+        {
+          "given": "Gert Jacobus",
+          "family": "Laubscher"
+        },
+        {
+          "given": "Etheresia",
+          "family": "Pretorius"
+        }
+      ],
+      "container-title": "Biochemical Journal",
+      "volume": "479",
+      "issue": "4",
+      "page": "537-559",
+      "issued": {
+        "date-parts": [
+          [
+            2022
+          ]
+        ]
+      },
+      "DOI": "10.1042/BCJ20220016"
+    },
+    "hunt2024": {
+      "id": "hunt2024",
+      "type": "article-journal",
+      "title": "Challenging the current hypothesis that thrombosis is responsible for the post-COVID-19 condition",
+      "author": [
+        {
+          "given": "Beverley J.",
+          "family": "Hunt"
+        },
+        {
+          "given": "Ruth",
+          "family": "Kuehn"
+        },
+        {
+          "given": "Tom",
+          "family": "Fox"
+        },
+        {
+          "given": "Alan",
+          "family": "Carson"
+        },
+        {
+          "given": "Katie",
+          "family": "Scandrett"
+        },
+        {
+          "given": "George Davey",
+          "family": "Smith"
+        },
+        {
+          "given": "Paul",
+          "family": "Garner"
+        }
+      ],
+      "container-title": "Research and Practice in Thrombosis and Haemostasis",
+      "volume": "8",
+      "issue": "4",
+      "page": "102442",
+      "issued": {
+        "date-parts": [
+          [
+            2024
+          ]
+        ]
+      },
+      "DOI": "10.1016/j.rpth.2024.102442",
+      "PMID": "38903154"
+    },
+    "kellkhanpretorius2024": {
+      "id": "kellkhanpretorius2024",
+      "type": "article-journal",
+      "title": "Fibrinaloid microclots in long COVID: assessing the actual evidence properly",
+      "author": [
+        {
+          "given": "Douglas B.",
+          "family": "Kell"
+        },
+        {
+          "given": "M. Asad",
+          "family": "Khan"
+        },
+        {
+          "given": "Etheresia",
+          "family": "Pretorius"
+        }
+      ],
+      "container-title": "Research and Practice in Thrombosis and Haemostasis",
+      "volume": "8",
+      "issue": "7",
+      "page": "102566",
+      "issued": {
+        "date-parts": [
+          [
+            2024
+          ]
+        ]
+      },
+      "DOI": "10.1016/j.rpth.2024.102566",
+      "PMID": "39434957"
+    },
+    "mateu2026": {
+      "id": "mateu2026",
+      "type": "article-journal",
+      "title": "Blinded two-year longitudinal evaluation of SARS-CoV-2 antigenemia in long COVID",
+      "author": [
+        {
+          "given": "Lourdes",
+          "family": "Mateu"
+        },
+        {
+          "given": "Louise L.",
+          "family": "Hansen"
+        },
+        {
+          "given": "João P.",
+          "family": "Carmezim"
+        },
+        {
+          "literal": "et al."
+        }
+      ],
+      "container-title": "Clinical Microbiology and Infection",
+      "volume": "32",
+      "issue": "9",
+      "page": "1487-1494",
+      "issued": {
+        "date-parts": [
+          [
+            2026
+          ]
+        ]
+      },
+      "DOI": "10.1016/j.cmi.2026.06.014"
+    },
+    "peluso2024lancetid": {
+      "id": "peluso2024lancetid",
+      "type": "article-journal",
+      "title": "Plasma-based antigen persistence in the post-acute phase of COVID-19",
+      "author": [
+        {
+          "given": "Michael J.",
+          "family": "Peluso"
+        },
+        {
+          "given": "Zoe N.",
+          "family": "Swank"
+        },
+        {
+          "given": "Sarah A.",
+          "family": "Goldberg"
+        },
+        {
+          "literal": "et al."
+        }
+      ],
+      "container-title": "The Lancet Infectious Diseases",
+      "volume": "24",
+      "issue": "6",
+      "page": "e345-e347",
+      "issued": {
+        "date-parts": [
+          [
+            2024
+          ]
+        ]
+      },
+      "DOI": "10.1016/S1473-3099(24)00211-1",
+      "PMID": "38604216"
+    },
+    "swank2023": {
+      "id": "swank2023",
+      "type": "article-journal",
+      "title": "Persistent Circulating Severe Acute Respiratory Syndrome Coronavirus 2 Spike Is Associated With Post-acute Coronavirus Disease 2019 Sequelae",
+      "author": [
+        {
+          "given": "Zoe",
+          "family": "Swank"
+        },
+        {
+          "given": "Yasmeen",
+          "family": "Senussi"
+        },
+        {
+          "given": "Zachary",
+          "family": "Manickas-Hill"
+        },
+        {
+          "given": "Xu G.",
+          "family": "Yu"
+        },
+        {
+          "given": "Jonathan Z.",
+          "family": "Li"
+        },
+        {
+          "given": "Galit",
+          "family": "Alter"
+        },
+        {
+          "given": "David R.",
+          "family": "Walt"
+        }
+      ],
+      "container-title": "Clinical Infectious Diseases",
+      "volume": "76",
+      "issue": "3",
+      "page": "e487-e490",
+      "issued": {
+        "date-parts": [
+          [
+            2023
+          ]
+        ]
+      },
+      "DOI": "10.1093/cid/ciac722",
+      "PMID": "36052466"
+    },
+    "sanalhayes2024": {
+      "id": "sanalhayes2024",
+      "type": "article-journal",
+      "title": "'Pacing' for management of myalgic encephalomyelitis/chronic fatigue syndrome (ME/CFS): a systematic review and meta-analysis",
+      "author": [
+        {
+          "given": "Nilihan E. M.",
+          "family": "Sanal-Hayes"
+        },
+        {
+          "given": "Marie",
+          "family": "Mclaughlin"
+        },
+        {
+          "given": "Jacqueline L.",
+          "family": "Mair"
+        },
+        {
+          "literal": "et al."
+        }
+      ],
+      "container-title": "Fatigue: Biomedicine, Health & Behavior",
+      "volume": "13",
+      "issue": "1",
+      "issued": {
+        "date-parts": [
+          [
+            2024
+          ]
+        ]
+      },
+      "DOI": "10.1080/21641846.2024.2433390"
+    }
+  }
+}
