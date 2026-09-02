@@ -14,6 +14,50 @@ iYappy is a configured public instance of existing platforms. It owns the brand,
 | Lakota lexical and morphological evidence | [lakota-language-algebra](../../../../../../../science-services-section/services/information-science-services-section/services/communication-science-services-section/services/linguistics-services-section/services/lakota-language-algebra/README.md) | Finite current capability only; no productive grammar or pronunciation grader |
 | Frontier, belief, and maturity work | [Ascent system design](../../../../../../services/personal-services-section/emsenn-services-section/services/emsenn-languages-services-section/services/emsenn-language-learning-services-section/content/text/documents/articles/references/a-system-design-for-language-learning.md) | Mandarin and personal prototypes; not an active public app |
 
+## Multilingual source map
+
+The public program can parameterize a course, adapter, and source policy by
+language. This is a map of source capabilities, not a publication or learner
+readiness assay. The five current fibers live in the canonical [linguistics
+section](../../../../../../../science-services-section/services/information-science-services-section/services/communication-science-services-section/services/linguistics-services-section/README.md), each exports `.`, `./bundle`, and `./tag`, and each uses the language-neutral `@lenticule-science/communicating` engine.
+
+| Language fiber and manifest version | Source capability and current limit |
+| --- | --- |
+| [English 0.1.7](../../../../../../../science-services-section/services/information-science-services-section/services/communication-science-services-section/services/linguistics-services-section/services/english-language-algebra/package.json) | SVO attachment, segmentation, and lexical data; the lexicon and bare regular-verb anchoring remain incomplete. |
+| [Lakota 0.1.4](../../../../../../../science-services-section/services/information-science-services-section/services/communication-science-services-section/services/linguistics-services-section/services/lakota-language-algebra/package.json) | Curated finite stems and SOV attachment; productive person morphology is absent. |
+| [Latin 0.1.4](../../../../../../../science-services-section/services/information-science-services-section/services/communication-science-services-section/services/linguistics-services-section/services/latin-language-algebra/package.json) | Case features and roles support free-order readings. |
+| [Mandarin 0.1.2](../../../../../../../science-services-section/services/information-science-services-section/services/communication-science-services-section/services/linguistics-services-section/services/mandarin-language-algebra/package.json) | Dictionary-based segmentation, classifiers, and curated verbs; tone is not modeled. |
+| [Toki Pona 0.1.4](../../../../../../../science-services-section/services/information-science-services-section/services/communication-science-services-section/services/linguistics-services-section/services/tokipona-language-algebra/package.json) | Isolating morphology, SVO attachment, and structural particles; content words remain on the noun floor, without ordinary verb anchoring. |
+
+The existing [Panini composing app](../../../../../../../science-services-section/services/information-science-services-section/services/communication-science-services-section/services/linguistics-services-section/apps/panini/package.json) takes a fiber name or raw bundle and exposes load, read, settle, judgment, rendering, and receipts over all five fibers. Its public-learning integration has not been assayed. A public iYappy course therefore needs its own per-language source, course, and adapter policy; personal study records do not become public material automatically.
+
+The separate [Lakota corpus](../../../../../../../science-services-section/services/information-science-services-section/services/communication-science-services-section/services/linguistics-services-section/services/lakota-language-corpus/README.md) preserves a manifest, maturity and research records, and 27 finite paradigm rows. Its package still identifies a legacy `@emsenn/communicating`/`@emsenn/relating` runtime, so it is finite corpus evidence rather than a current productive grammar or a public-course readiness claim.
+
+Morgan's personal [languages section](../../../../../../services/personal-services-section/emsenn-services-section/services/emsenn-languages-services-section/README.md) holds English, Latin, Lakota, Mandarin, and a shared method with belief, SRS, frontier, and maturity work. The frontier is currently Mandarin-specific, and its belief adapter reads private personal state; both need parameterization before public reuse. The [Eco-industrialism curriculum](../../content/text/documents/articles/notes/eco-industrialism-curriculum.md) contains only a planned scientific-Latin lesson. French method notes and an Arabic `communicating-in-arabic` lead remain recovery material, as do the [legacy GitHub language packages](../../../../../../../science-services-section/services/information-science-services-section/services/communication-science-services-section/services/linguistics-services-section/content/assets/legacy/github-language-packages/language-parsing/README.md) and the linguistics section's `lib/legacy/` lineage; no additional active fiber was found in this bounded survey.
+
+The related [predicated-computing program](../../../../../../../science-services-section/content/text/documents/articles/notes/2026/09/02/2026-09-02-the-predicated-computing-program.md) treats media in a language as a parameterization over a fiber and a typed translation judgment. Its witnessed-field corpus material is a cross-program asset, not an iYappy learner-course claim.
+
+Current discovery is bounded and repeatable. A fresh instance of the [Bare Cedar
+Fog Markdown vault service](../../../../../../../561-group-services-section/services/561-group-engineering-services-section/services/561-group-computer-engineering-services-section/services/computer-machine-services-section/services/persistent-computer-machine-services-section/services/bare-cedar-fog-services-section/services/bare-cedar-fog-markdown-vault-services-section/README.md) returned current science/public-vault material for English, Lakota, Latin, Mandarin, and Toki Pona with carrier readings disabled and the scope filter applied before candidate caps. Long-running MCP processes need reload; fresh instances supplied this evidence. Unregistered literal keywords now return `path-evidence`, not fabricated semantic proof.
+
+```js
+search_markdown_lightcone({
+  keywords: ["mandarin"], query: "Mandarin", generation: "current",
+  vaultIds: ["science-services", "public-services"],
+  includeCarrierReadings: false, candidateLimit: 100, limit: 12,
+});
+```
+
+The generic typed [MetroPlat path-corpus reader](../../../../../../../engineering-services-section/services/computer-engineering-services-section/services/computer-systems-engineering-services-section/services/agent-computer-system-engineering-services-section/services/multi-agent-computer-system-engineering-services-section/services/multi-agent-computer-platform-engineering-services-section/services/agentic-enterprise-computer-platform-engineering-services-section/apps/metroplat/src/search/path-corpus.mts) streams the existing filesystem primitive. Its updated distribution read the whole repository with the bounded Panini query below: 297,725 files seen, 128 retained and indexed, `truncated: true`, six results, 6.528 seconds, and 112,148 KiB peak RSS; results included the Panini CLI, manifest, and source, plus marked legacy-path leads.
+
+```js
+readPathCorpus(root, {
+  query: "panini", limit: 6, maxFiles: 128, maxBytesPerFile: 4096,
+});
+```
+
+Panini loading of all five fibers was verified, not learning quality. The current JSNode catalog still misses Panini, so a single catalog result cannot establish absence. The ops.561.group OAuth proxy exists, but path-corpus was neither activated in this session's MetroPlat allowlist nor verified through public operations. LAGOON's world-record pusher remains narrow, and a MARSH broker is desired but unimplemented; this section makes no activation or broker-completeness claim.
+
 ## Program frame
 
 The requested meet-then-beat objective spans guided courses (Duolingo), pronunciation feedback (TonePerfect), recall (Anki), reading and learner-imported content (LingQ), conversation (Speak), and Lakota learning (Owóksape). iYappy has no mastery, parity, or unique-capability claim. Its public frame keeps per-modality evidence separate from scheduling; makes source, correction, and variation visible; keeps kin and speaker consent explicit; and treats learning and documentation as a feedback loop. A desired story or text may guide curricula. Typology transfer and source-verified generated practice remain research until validated.
