@@ -84,10 +84,12 @@ koios-intelligence-briefing precedent:
 
 ## Issue 001
 
-`content/issues/001/` exists as a directory in this section and is
-currently empty — no issue carrier has been landed into it yet. Composing
-issue 001 through the newsletter-issue-production package's CLI, from the
-verified IACI corpus named above, is the section's next concrete step.
+`content/issues/001/` carries issue 001: `issue-001.json` (the canonical
+issue carrier) and its three composed renderings (`issue.md`,
+`issue.paste.html`, `issue.feed-item.rss.xml`), drafted from the verified
+IACI corpus named above and repaired against a fidelity review and a
+reader review. The section's next concrete step is issues 002-003, which
+the fence below requires before any subscriber is solicited.
 
 ## The fence (do not cross this)
 

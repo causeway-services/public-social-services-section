@@ -126,8 +126,9 @@ corpus instead. Seated as
 whose own README carries this dimension's full five-custody thread,
 including the verified-today finding that Substack has no official
 publish API and the resulting founder's-hands-only publishing ceremony.
-Issue 001 is scaffolded (`content/issues/001/`, currently empty) but not
-yet composed.
+Issue 001 is composed and landed under `content/issues/001/` — issue
+JSON plus the Markdown, paste-HTML, and feed-item renderings, drafted
+from the verified corpus and repaired against two adversarial reviews.
 
 ## Dimensions and uncertainties (preserved honestly, not resolved here)
 
