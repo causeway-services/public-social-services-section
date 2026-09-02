@@ -98,3 +98,6 @@ deployment architecture memo.
   arc.
 - [Discord/community research commissioned during that campaign](../../../../../science-services-section/services/engineering-science-services-section/services/computer-science-services-section/services/computer-systems-science-services-section/services/web-science-services-section/services/web-platform-science-services-section/services/web2-platform-science-services-section/services/web2-social-platform-science-services-section/services/discord-science-services-section/content/text/documents/articles/notes/turntide-islands/)
   — platform and community study retained in Lenticule Science.
+# Turntide Islands
+
+Turntide Islands retains its public subject work here. Its deployable site carrier is operated by [public publishing](../../../public-publishing-services-section/services/public-computer-publishing-services-section/services/public-system-computer-publishing-section/services/public-web-publishing-services-section/sites/turntide-islands.561.group/README.md).
