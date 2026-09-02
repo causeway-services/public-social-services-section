@@ -1,6 +1,6 @@
 {
   "name": "@causeway-services/turntide-union-media-syndication-service",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "type": "module",
   "description": "Turntide's Union Media contract, admissions, clearing, settlement, and publication capability, independent of the aggregate settlement and Discord application.",
   "exports": {
