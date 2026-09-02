@@ -1,15 +1,14 @@
 #!/usr/bin/env node
-import { fileURLToPath } from "node:url";
 import { agentRmnMessage, extractRmnPart, parseA2aMessage } from "@red-cup-engineering/a2a-rmn-part-service";
+import { isStrictMain, runMain } from "@red-cup-engineering/javascript-file-main-guard-service";
 import { admitJsonSemanticContent, EMPTY_WITNESS_ROOT, identifyJsonSemanticContent } from "@red-cup-engineering/semantic-content-identify-service";
 import { createSemanticRecordJournal } from "@red-cup-engineering/semantic-record-journal-service";
 import { join, resolve } from "node:path";
-import { ACTOR, CATEGORY, NODE_ROOT, contentId, deliverLessonProduct } from "./curriculum.mjs";
+import { ACTOR, CATEGORY, NODE_ROOT, deliverLessonProduct, exact } from "./curriculum.mjs";
 const KIND = "rsc-quiescent.a2a-json";
 const bytes = (value) => identifyJsonSemanticContent({ objectKind: KIND, value, witnessRoot: EMPTY_WITNESS_ROOT }).bytes;
 const decode = (value) => admitJsonSemanticContent({ bytes: value, objectKind: KIND }).value;
 const CHANNEL = "urn:ame:modern-business-youtube-channel-enterprise";
-function exact(value) { if (!value || typeof value !== "object") return false; const { id, ...body } = value; return id === contentId(body); }
 export function selectNextLesson(products, completedLessonIds) {
   if (!Array.isArray(products) || !Array.isArray(completedLessonIds) || new Set(completedLessonIds).size !== completedLessonIds.length || completedLessonIds.some((id) => typeof id !== "string")) throw new TypeError("business curriculum next-product selection requires unique completed lesson identities");
   const completed = new Set(completedLessonIds), rows = products.filter((row) => row?.type === "ModernBusinessLessonProductAdmission" && row.provider === ACTOR).sort((a, b) => a.sequence - b.sequence || a.id.localeCompare(b.id));
@@ -29,4 +28,9 @@ async function main() {
   const result = await executeDeliveryRequest(term[1]);
   process.stdout.write(`${JSON.stringify(agentRmnMessage(bytes(["modern-business-next-lesson-delivery-result", result]), "modern-business-next-lesson-delivery-result.rmn.cbor"))}\n`);
 }
-if (process.argv[1] === fileURLToPath(import.meta.url)) main().catch((error) => { process.stderr.write(`${error.message}\n`); process.exitCode = 2; });
+runMain(main, {
+  moduleUrl: import.meta.url,
+  isEntry: isStrictMain,
+  formatError: (error) => `${error.message}\n`,
+  exitCode: 2,
+});

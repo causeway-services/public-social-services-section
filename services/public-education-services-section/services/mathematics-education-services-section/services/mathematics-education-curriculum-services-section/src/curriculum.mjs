@@ -6,11 +6,10 @@ import { EMPTY_WITNESS_ROOT, identifyJsonSemanticContent } from "@red-cup-engine
 import { canonical } from "@red-cup-engineering/json-codec-service";
 export { canonical };
 
-const semanticId = (objectKind, value) => identifyJsonSemanticContent({ objectKind, value, witnessRoot: EMPTY_WITNESS_ROOT }).token;
 const exactSemanticRecord = (objectKind, value) => {
   if (!value || typeof value !== "object" || Array.isArray(value)) return false;
   const { id, ...body } = value;
-  return id === semanticId(objectKind, body);
+  return id === identifyJsonSemanticContent({ objectKind, value: body, witnessRoot: EMPTY_WITNESS_ROOT }).token;
 };
 
 export const NODE_ROOT = resolve(dirname(fileURLToPath(import.meta.url)), "..");
@@ -21,8 +20,8 @@ const REQUIRED_RIGHTS = ["notebooklm-transformation", "public-youtube-release"];
 const WITHHELD = ["youtube-channel-authority", "youtube-credential-custody", "notebooklm-provider-authority", "playlist-or-course-designation", "upload-schedule-or-publication-authority"];
 const ID = /^[a-z0-9]+(?:-[a-z0-9]+)*$/u;
 
-export function digest(value) { return semanticId("mathematics-curriculum.semantic-digest", value); }
-export function contentId(objectKind, value) { return semanticId(objectKind, value); }
+export function digest(value) { return identifyJsonSemanticContent({ objectKind: "mathematics-curriculum.semantic-digest", value, witnessRoot: EMPTY_WITNESS_ROOT }).token; }
+export function contentId(objectKind, value) { return identifyJsonSemanticContent({ objectKind, value, witnessRoot: EMPTY_WITNESS_ROOT }).token; }
 export function loadCourse(path = COURSE_PATH) { return JSON.parse(readFileSync(path, "utf8")); }
 export function loadLessonBriefDraft({ courseId, lessonId, revision = 1 } = {}) {
   if (!ID.test(courseId ?? "") || !ID.test(lessonId ?? "") || !Number.isInteger(revision) || revision < 1) throw new TypeError("lesson brief lookup requires bounded course, lesson, and revision identities");
@@ -49,7 +48,7 @@ export function validateCourse(course) {
       if (!predecessor || predecessor.sequence >= lesson.sequence) throw new TypeError("course prerequisite graph must be acyclic and point backward");
     }
   }
-  return { courseDigest: semanticId("mathematics-curriculum.course-revision", course), lessonCount: course.lessons.length, competencyCount: competencyIds.length };
+  return { courseDigest: identifyJsonSemanticContent({ objectKind: "mathematics-curriculum.course-revision", value: course, witnessRoot: EMPTY_WITNESS_ROOT }).token, lessonCount: course.lessons.length, competencyCount: competencyIds.length };
 }
 
 export function formNextLessonOffer({ course = loadCourse(), completedLessonIds = [], offeredAt = new Date().toISOString() } = {}) {
@@ -94,7 +93,7 @@ export async function admitLessonBrief({ course = loadCourse(), offer, sourcePac
   if (brief?.type !== "MathematicsLessonBriefDraft" || brief.courseId !== course.courseId || brief.courseRevision !== course.revision || brief.lessonId !== lesson.id) throw new TypeError("lesson brief does not bind the exact course revision and lesson");
   if (!Array.isArray(brief?.learningObjectives) || brief.learningObjectives.length === 0 || !Array.isArray(brief.definitions) || brief.definitions.length === 0) throw new TypeError("lesson brief requires objectives and definitions");
   requireText(brief.notebookPrompt, "notebookPrompt"); requireText(brief.humanFrame, "humanFrame"); requireText(brief.assessment, "assessment");
-  const notebookPromptDigest = semanticId("mathematics-curriculum.notebook-prompt", brief.notebookPrompt), root = resolve(options.dataRoot ?? NODE_ROOT);
+  const notebookPromptDigest = identifyJsonSemanticContent({ objectKind: "mathematics-curriculum.notebook-prompt", value: brief.notebookPrompt, witnessRoot: EMPTY_WITNESS_ROOT }).token, root = resolve(options.dataRoot ?? NODE_ROOT);
   const lessonPrior = journalRecords(root, "mathematics-curriculum.lesson-brief-admission").find((row) => row.courseId === course.courseId && row.courseRevision === course.revision && row.lessonId === lesson.id);
   if (lessonPrior) {
     if (lessonPrior.sourcePacket === sourcePacket.id && lessonPrior.notebookPromptDigest === notebookPromptDigest && canonical(lessonPrior.learningObjectives) === canonical(brief.learningObjectives) && canonical(lessonPrior.definitions) === canonical(brief.definitions)) return lessonPrior;

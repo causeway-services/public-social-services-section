@@ -7,7 +7,7 @@ const root = resolve(import.meta.dirname, '..');
 
 test('the site depends on VICTOR through the registry', async () => {
   const manifest = JSON.parse(await readFile(resolve(root, 'package.json'), 'utf8'));
-  assert.equal(manifest.dependencies['@red-cup-engineering/victor'], '0.1.1');
+  assert.equal(manifest.dependencies['@red-cup-engineering/victor'], '0.1.3');
   assert.doesNotMatch(manifest.dependencies['@red-cup-engineering/victor'], /^file:/);
   assert.doesNotMatch(manifest.dependencies['@red-cup-engineering/victor'], /^workspace:/);
 });

@@ -1,4 +1,4 @@
-import { EMPTY_WITNESS_ROOT, identifyJsonSemanticContent } from "@red-cup-engineering/semantic-content-identify-service";
+import { EMPTY_WITNESS_ROOT, identifyJsonSemanticContent, verifyJsonSemanticRecord } from "@red-cup-engineering/semantic-content-identify-service";
 import { createHash } from "node:crypto";
 import { existsSync, lstatSync, readFileSync, realpathSync } from "node:fs";
 import { dirname, join, resolve } from "node:path";
@@ -26,7 +26,7 @@ export function formNextLessonOffer({ course = loadCourse(), completedLessonIds 
   const object = { type: "ModernBusinessLessonOrderTerms", courseId: course.courseId, courseRevision: course.revision, courseDigest: assay.courseDigest, lesson: structuredClone(lesson), requiredResearchProductTerms: ["product identity", "owner", "source corpus digest", "organization industry scale and jurisdiction", "observed-through and freshness", "descriptive evidence versus prescriptive inference", "uncertainty and counterevidence", "correction identity", "privacy", "NotebookLM transformation and public-release reuse grant", "price and settlement receipt"], price: { status: "unpriced-negotiation-required", settlementProtocol: "x402" }, authorityWithheld: WITHHELD };
   const body = { type: "Offer", actor: ACTOR, object, published: offeredAt }; return { id: contentId(body), ...body };
 }
-function exact(value) { if (!value || typeof value !== "object") return false; const { id, ...body } = value; return id === contentId(body); }
+export function exact(value) { if (!value || typeof value !== "object") return false; const { id, ...body } = value; return verifyJsonSemanticRecord({ objectKind: "emsweb.modern-business-curriculum.record", value: { id, ...semanticJson(body) }, witnessRoot: EMPTY_WITNESS_ROOT }); }
 function researchCanonical(value) { if (value instanceof Uint8Array) return `{"$bytes":${JSON.stringify(Buffer.from(value).toString("base64url"))}}`; if (Array.isArray(value)) return `[${value.map(researchCanonical).join(",")}]`; if (value && typeof value === "object") return `{${Object.keys(value).sort().filter((key) => value[key] !== undefined).map((key) => `${JSON.stringify(key)}:${researchCanonical(value[key])}`).join(",")}}`; return JSON.stringify(value); }
 function exactResearch(value) { if (!value || typeof value !== "object") return false; const { id, ...body } = value; return id === identifyJsonSemanticContent({ objectKind: "emsweb.modern-business-research.record", value: semanticJson(body), witnessRoot: EMPTY_WITNESS_ROOT }).token; }
 function lessonBriefPath({ courseId = "modern-firm-as-operational-system", lessonId, revision = 1 } = {}) { if (!/^[a-z0-9]+(?:-[a-z0-9]+)*$/u.test(courseId ?? "") || !/^[a-z0-9]+(?:-[a-z0-9]+)*$/u.test(lessonId ?? "") || !Number.isInteger(revision) || revision < 1) throw new TypeError("business brief requires bounded identities"); return join(BRIEF_ROOT, courseId, `${lessonId}.v${revision}.json`); }
