@@ -3,8 +3,7 @@
 import { readFile } from "node:fs/promises";
 import { dirname, join, resolve } from "node:path";
 import { fileURLToPath } from "node:url";
-import { EMPTY_WITNESS_ROOT, identifyJsonSemanticContent } from "@red-cup-engineering/semantic-content-identify-service";
-const semanticId = (value) => identifyJsonSemanticContent({ objectKind: "turntide-islands.record", value, witnessRoot: EMPTY_WITNESS_ROOT }).token;
+import { semanticId } from "./semantic-id.mjs";
 import { recordWitnessJournalBatch } from "@red-cup-engineering/witness-journal-document-service";
 import { turntideWitnessJournalBindingFromEnvironment } from "./settlement-witness-journal-binding.mjs";
 import { observeLocalityKnowledgeDiscovery } from "@coesite-operations/turntide-islands-community-operations-service/observe-locality-knowledge-discovery";

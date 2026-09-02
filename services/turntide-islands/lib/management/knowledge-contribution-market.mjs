@@ -1,6 +1,5 @@
-import { EMPTY_WITNESS_ROOT, identifyJsonSemanticContent } from "@red-cup-engineering/semantic-content-identify-service";
 import { isNiUri as isCanonicalSha256NiUri } from "@red-cup-engineering/ni-services-section";
-const semanticId = (value) => identifyJsonSemanticContent({ objectKind: "turntide-islands.record", value, witnessRoot: EMPTY_WITNESS_ROOT }).token;
+import { semanticId } from "./semantic-id.mjs";
 
 export const TERMS_ID = "tti-knowledge-contribution-terms-draft-2026-01";
 const LOCALITY_PRODUCT_ID = "tti-locality-knowledge-answer-2026-01";

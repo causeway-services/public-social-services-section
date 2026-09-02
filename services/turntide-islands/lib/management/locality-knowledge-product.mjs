@@ -1,5 +1,4 @@
-import { EMPTY_WITNESS_ROOT, identifyJsonSemanticContent } from "@red-cup-engineering/semantic-content-identify-service";
-const semanticId = (value) => identifyJsonSemanticContent({ objectKind: "turntide-islands.record", value, witnessRoot: EMPTY_WITNESS_ROOT }).token;
+import { semanticId } from "./semantic-id.mjs";
 
 export const LOCALITY_KNOWLEDGE_PRODUCT_ID = "tti-locality-knowledge-answer-2026-01";
 export const LOCALITY_KNOWLEDGE_CONTRACT = "ni:///sha-256;24VLnw0orCLXDgjUgtuG9PM8y_VldOrBkb4ileAzscI";

@@ -5,7 +5,7 @@ import { mkdtemp, readFile, rm } from "node:fs/promises";
 import os from "node:os";
 import { fileURLToPath, pathToFileURL } from "node:url";
 import { EMPTY_WITNESS_ROOT, identifyJsonSemanticContent } from "@red-cup-engineering/semantic-content-identify-service";
-const semanticId = (value) => identifyJsonSemanticContent({ objectKind: "turntide-islands.record", value, witnessRoot: EMPTY_WITNESS_ROOT }).token;
+import { semanticId } from "./semantic-id.mjs";
 // The Discord platform app's vault-provider-offer module self-addresses every record it mints (and recomputes the
 // solicitation digest it checks a provider offer against) under its own "turntide-islands.discord-platform-record"
 // object kind, not this module's "turntide-islands.record" — so any digest this simulation fabricates to satisfy

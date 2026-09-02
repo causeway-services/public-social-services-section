@@ -5,6 +5,7 @@
   "description": "Turntide's Union Media contract, admissions, clearing, settlement, and publication capability, independent of the aggregate settlement and Discord application.",
   "exports": {
     ".": "./src/union-media-syndication.mjs",
+    "./lib/management/verify-market-circuit.mjs": "./lib/management/verify-market-circuit.mjs",
     "./package.json": "./package.json"
   },
   "files": [
