@@ -36,14 +36,10 @@ Five-custody thread (org-layering.md, 2026-09-01):
   image, OAuth secrets injected from GitHub's own secret store. This
   program's channel, once it has an identity, is a sixth instance of that
   pattern, not a new one.
-- **561-group**: no section yet. The [2026-09-01-0300 goal-stack roadmap](../../../../../../../561-group-services-section/services/561-group-operations-services-section/services/561-group-enterprise-services-section/services/561-group-enterprise-project-management-services-section/data/records/2026-09-01-0300-goal-stack-roadmap.json)'s
-  `first-moneyday-earning-stack` thread names its counterpoint wing as eight
-  built enterprises (institutional-annual-contracts,
-  indigenous-data-governance-consulting, emsenn-one-of-one-artifacts,
-  crowdfunded-cultural-tech-campaign, the paid live cohort,
-  koios-intelligence-briefing, world-hosting, forecasting) — none of them is
-  this program. A ninth counterpoint-wing enterprise entry for this program
-  is a named debt against that roadmap record, not yet written there.
+- **561-group**: [561 Group Medical Services Section](../../../../../../../561-group-services-section/services/561-group-operations-services-section/services/561-group-medical-services-section/README.md)
+  — the Group's own health office and the parent of this program, seated
+  2026-09-02; the [2026-09-02-0140 goal-stack roadmap](../../../../../../../561-group-services-section/services/561-group-operations-services-section/services/561-group-enterprise-services-section/services/561-group-enterprise-project-management-services-section/data/records/2026-09-02-0140-goal-stack-roadmap.json)'s
+  counterpoint wing names this program as its ninth enterprise.
 - **public**: [Health Education Curriculum Services Section](services/health-education-curriculum-services-section/README.md)
   — seated 2026-09-01, owning the ebook line
   (`@emsenn/health-education-curriculum-enterprise`, *Understanding
@@ -61,7 +57,7 @@ second shape for this program: a pacing-support app for the IACI audience,
 built over a biometric-intelligence engineering layer that is separately
 sold as an x402 agent API — the same computed intelligence offered once to a
 human-facing app and again, per call, to paying agents. The precedent for
-this split is already live and deployed: [paid-ephemeris-gateway](../../../../../../../public-computer-services-section/services/public-web-services-section/services/public-web-divination-services-section/services/astrology-services-section/services/astrology-emphemeris-services-section/README.md)
+this split is already live and deployed: [paid-ephemeris-gateway](../../../../../public-computer-services-section/services/public-web-services-section/services/public-web-divination-services-section/services/astrology-services-section/services/astrology-emphemeris-services-section/README.md)
 sells the Ephemeris Tracking Team's product as x402-gated HTTP routes
 (USD 0.04 / USD 0.32 per call, Coinbase Bazaar discovery) while a separate
 face owns the product itself — the pacing dimension proposes the identical
@@ -79,14 +75,15 @@ thread above:
   contested by an unreplicated 2026 non-replication and the HRV-prediction
   and biofeedback evidence is each a single small unreplicated cohort). The
   note also names the incumbent this dimension answers: Visible's
-  PacePoints, whose scoring formula is unpublished. No general
-  biometric-observation record schema yet exists in health-science custody;
-  the nearest carrier is [nutrition-biometric-observation-v1.schema.json](../../../../../../../science-services-section/services/natural-science-services-section/services/biological-science-services-section/services/medical-science-services-section/services/medical-services-section/services/health-services-section/services/nutrition-services-section/lib/schemas/nutrition-biometric-observation-v1.schema.json),
-  nutrition-scoped today (`recordType: "nutrition-biometric-observation"`) —
-  generalizing it, or minting a pacing-scoped sibling, is a named debt, not
-  done here.
+  PacePoints, whose scoring formula is unpublished. The general
+  biometric-observation record schema now exists in health-science custody:
+  [biometric-observation-v1.schema.json](../../../../../../../science-services-section/services/natural-science-services-section/services/biological-science-services-section/services/medical-science-services-section/services/medical-services-section/services/health-services-section/lib/schemas/biometric-observation-v1.schema.json)
+  (`urn:red-cup-science:health:biometric-observation:1.0.0`), with
+  [nutrition-biometric-observation-v1.schema.json](../../../../../../../science-services-section/services/natural-science-services-section/services/biological-science-services-section/services/medical-science-services-section/services/medical-services-section/services/health-services-section/services/nutrition-services-section/lib/schemas/nutrition-biometric-observation-v1.schema.json)
+  now a thin `allOf` profile of it (`recordType: "nutrition-biometric-observation"`,
+  same fields, missingness, consent, and media-retention rules).
 - **engineering**: seated. [`pacing-intelligence-services-section`](../../../../../../../engineering-services-section/services/computer-engineering-services-section/services/computer-systems-engineering-services-section/services/personal-computer-systems-services-section/services/personal-health-computer-systems-engineering-services-section/services/pacing-intelligence-services-section/README.md)
-  is published as `@red-cup-engineering/pacing-intelligence-services-section@0.1.0`,
+  is published as `@red-cup-engineering/pacing-intelligence-services-section@0.1.1`,
   a sibling of
   [`nutrition-practice-system-services-section` and `tai-chi-practice-system-services-section`](../../../../../../../engineering-services-section/services/computer-engineering-services-section/services/computer-systems-engineering-services-section/services/personal-computer-systems-services-section/services/personal-health-computer-systems-engineering-services-section/README.md)
   under personal-health-computer-systems-engineering-services-section — pure
@@ -132,11 +129,12 @@ from the verified corpus and repaired against two adversarial reviews.
 
 ## Dimensions and uncertainties (preserved honestly, not resolved here)
 
-- **Channel identity requires the founder's hands.** Per the bodily-harm
-  autonomy rule, an account signup and its OAuth consent are asks only the
-  founder's own identity can perform — this carrier does not propose which
-  name, handle, or existing property the channel runs under, because that
-  choice has not been made.
+- **Channel identity requires the founder's hands.** The channel is
+  **Body Budget**, a Culvert Health product (decided 2026-09-02;
+  the [561 Group Medical Services Section](../../../../../../../561-group-services-section/services/561-group-operations-services-section/services/561-group-medical-services-section/README.md)
+  carries the division and its naming note). Per the bodily-harm autonomy
+  rule, the account signup and its OAuth consent remain asks only the
+  founder's own identity can perform.
 - **Monetization rail is undecided.** koios-intelligence-briefing's own
   README shows the pattern for reasoning about this once a product shape
   exists (x402 vs. Stripe/Substack-style named billing, chosen by whether
