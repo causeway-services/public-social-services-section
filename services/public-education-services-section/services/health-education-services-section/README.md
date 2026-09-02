@@ -85,13 +85,18 @@ thread above:
   nutrition-scoped today (`recordType: "nutrition-biometric-observation"`) —
   generalizing it, or minting a pacing-scoped sibling, is a named debt, not
   done here.
-- **engineering**: unseated. `pacing-intelligence-services-section` does not
-  exist on disk; it is named here as the future sibling of
+- **engineering**: seated. [`pacing-intelligence-services-section`](../../../../../../../engineering-services-section/services/computer-engineering-services-section/services/computer-systems-engineering-services-section/services/personal-computer-systems-services-section/services/personal-health-computer-systems-engineering-services-section/services/pacing-intelligence-services-section/README.md)
+  is published as `@red-cup-engineering/pacing-intelligence-services-section@0.1.0`,
+  a sibling of
   [`nutrition-practice-system-services-section` and `tai-chi-practice-system-services-section`](../../../../../../../engineering-services-section/services/computer-engineering-services-section/services/computer-systems-engineering-services-section/services/personal-computer-systems-services-section/services/personal-health-computer-systems-engineering-services-section/README.md)
-  under personal-health-computer-systems-engineering-services-section,
-  owning the practitioner-facing pacing app. Its paid gateway — the x402
-  agent-API face, following the paid-ephemeris-gateway shape above — is
-  likewise unseated; no `paid-pacing-gateway`-style package exists yet.
+  under personal-health-computer-systems-engineering-services-section — pure
+  biometric math (rolling baselines, morning deviation, the Workwell
+  heart-rate heuristic, conservative PEM risk flags), no I/O, no diagnosis.
+  The practitioner-facing pacing app itself remains unseated. Its paid
+  gateway — the x402 agent-API face, following the paid-ephemeris-gateway
+  shape above — is seated as
+  [`paid-pacing-intelligence-gateway`](../../../../../../services/public-computer-services-section/services/public-web-services-section/services/public-web-health-services-section/services/pacing-services-section/services/paid-pacing-intelligence-gateway/README.md),
+  consuming the compute package by exact registry pin.
 - **operations**: unfilled debt. No CI/deploy pattern is chosen for either
   the app or the gateway; the GitHub Actions free lane named in the
   production-line's operations thread above is a candidate, unconfirmed.
