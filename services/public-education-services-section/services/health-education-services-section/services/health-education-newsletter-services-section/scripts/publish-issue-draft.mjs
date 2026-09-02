@@ -4,8 +4,7 @@
  * Verify + re-compose an issue directory's three renderings, create a
  * Buttondown DRAFT from the composed Markdown, and record a receipt.
  * No .github lane: this section is not its own repo, so this script is
- * the publish lane. DEBT: both source packages below were unpublished
- * (two `npm view` 404s) — imported by source path, not pinned deps.
+ * the publish lane.
  */
 
 import { existsSync, readFileSync } from "node:fs";
@@ -14,9 +13,8 @@ import { basename, dirname, join, resolve } from "node:path";
 import { fileURLToPath } from "node:url";
 import { parseArgs } from "node:util";
 import { createSemanticRecordJournal } from "@red-cup-engineering/semantic-record-journal-service";
-// DEBT above: source-path imports, not package dependencies -- see module header.
-import { composeIssue } from "../../../../../../../../../../engineering-services-section/services/computer-engineering-services-section/services/computer-data-services-section/services/computer-content-services-section/services/documents-services-section/services/newsletter-issue-production-services-section/scripts/compose-issue.mjs";
-import { createDraftEmail } from "../../../../../../../../../../engineering-services-section/services/computer-engineering-services-section/services/computer-systems-engineering-services-section/services/web-services-section/services/web-platform-services-section/services/web2-platform-services-section/services/buttondown-services-section/src/buttondown.mjs";
+import { composeIssue } from "@red-cup-engineering/newsletter-issue-production-services-section/scripts/compose-issue.mjs";
+import { createDraftEmail } from "@red-cup-engineering/buttondown-services-section";
 
 const HERE = dirname(fileURLToPath(import.meta.url));
 const DEFAULT_DATA_ROOT = resolve(HERE, "..", "data");

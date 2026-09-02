@@ -32,6 +32,19 @@ All six files are landed. `npm run build-ebook` produces both EPUB and
 PDF from them; the build record's `chapterSet.files` lists all six in
 this order and its `chapterSet.count` is 6.
 
+## Citations
+
+All six chapters carry a `references` frontmatter map of CSL-JSON items
+keyed by citation id and cite them inline with `[@id]` markers.
+`scripts/build-ebook.mjs` delegates to ebook-production-services-section's
+`collectReferences` to merge those maps across chapters (deduping an id
+repeated with identical CSL-JSON, throwing if the same id names two
+different works) and passes the merged set to pandoc's `--citeproc` with
+the `book.latex` template's CSL bibliography macros. The current build's
+record reports `referencesCount: 60` with a `References` section landing
+in both `dist/understanding-infection-associated-chronic-illness/understanding-infection-associated-chronic-illness.epub`
+and the sibling `.pdf`.
+
 ## Thread
 
 Five-custody thread (org-layering.md, 2026-09-01):
@@ -48,13 +61,17 @@ Five-custody thread (org-layering.md, 2026-09-01):
   (`medical-science-services-section/content/text/glossary/terms/infection-associated-chronic-illness.md`)
   grounds chapter 01's naming.
 - **engineering**: [Ebook Production Services Section](../../../../../../../../../engineering-services-section/services/computer-engineering-services-section/services/computer-data-services-section/services/computer-content-services-section/services/documents-services-section/services/ebook-production-services-section/README.md)
-  -- owns the pandoc build/cover/record machinery `scripts/build-ebook.mjs`
-  delegates to (wired dependency, pinned `0.1.6`, not a debt). The
+  -- owns the pandoc build/cover/record machinery, including the
+  `collectReferences`/`--citeproc` citation wiring, `scripts/build-ebook.mjs`
+  delegates to (wired dependency, pinned `0.1.7`, not a debt). The
   **scholarly-literature-services-section**'s OpenAlex/PubMed/CrossRef
   retrieval primitive is the tool chapter 05 ("reading the research")
-  teaches readers to use in spirit, but this section does not itself call
-  it -- no code dependency, a named debt if a future edition wants live
-  citation lookups rather than hand-cited sources.
+  teaches readers to use in spirit; its `resolve-doi.mjs` was used by hand
+  to reconcile conflicting duplicate CSL entries against CrossRef when
+  this book's chapters were landed, but this section does not itself call
+  it at build time -- no code dependency, a named debt if a future edition
+  wants live citation lookups wired into the build rather than hand-cited
+  and hand-reconciled sources.
 - **operations**: no dedicated operations package. The pattern the org's
   other public knowledge-product lines use once a channel exists is the
   GitHub Actions free lane (see the AI-curriculum sibling's README for the

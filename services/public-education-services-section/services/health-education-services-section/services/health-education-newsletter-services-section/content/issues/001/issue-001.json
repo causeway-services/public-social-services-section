@@ -1,5 +1,5 @@
 {
-  "title": "NEWSLETTER_NAME — Issue 001",
+  "title": "The Second Day — Issue 001",
   "dek": "The field's most trusted marker of post-exertional malaise is now honestly contested. Here's what that means, and what we promise to do about it every issue.",
   "sections": [
     {
@@ -36,7 +36,7 @@
     },
     {
       "heading": "The Promise",
-      "body-markdown": "Every claim in this newsletter carries one of three labels — demonstrated, hypothesis, or contested — and that label is checked against the primary source before we publish, not copied forward from an earlier draft, an earlier newsletter, or our own memory of the finding. Demonstrated means a pooled or well-replicated estimate holds up even when individual studies disagree on the exact number; contested means credible groups' central findings actually point in different directions, not just their precision. When a study is reported at a conference and hasn't cleared peer review yet, we'll say so. When two credible groups disagree, we'll show you both sides rather than pick the more comforting one. When the honest answer is \"we don't know yet,\" that's the answer you'll get.\n\nThat's the whole promise. Thanks for reading issue 001 — we'll see you next time.\n\n— NEWSLETTER_NAME"
+      "body-markdown": "Every claim in this newsletter carries one of three labels — demonstrated, hypothesis, or contested — and that label is checked against the primary source before we publish, not copied forward from an earlier draft, an earlier newsletter, or our own memory of the finding. Demonstrated means a pooled or well-replicated estimate holds up even when individual studies disagree on the exact number; contested means credible groups' central findings actually point in different directions, not just their precision. When a study is reported at a conference and hasn't cleared peer review yet, we'll say so. When two credible groups disagree, we'll show you both sides rather than pick the more comforting one. When the honest answer is \"we don't know yet,\" that's the answer you'll get.\n\nThat's the whole promise. Thanks for reading issue 001 — we'll see you next time.\n\n— The Second Day"
     }
   ],
   "references": {

@@ -1,0 +1,26 @@
+{
+  "kind": "office",
+  "founded": "2026-09-02",
+  "x-provenance": {
+    "recorded-by": "claude-fable-5-1",
+    "recorded-on": "2026-09-02",
+    "derived-from": "engineering-services-section/services/media-engineering-services-section/services/news-media-engineering-services-section/content/text/documents/articles/specifications/2026-09-02-news-property-specification.md"
+  },
+  "id": "koios-audience-editor",
+  "name": "audience editor",
+  "normative-structure": "Whether Koios.News's stories reach IndexNow, the WebSub hub, the ActivityPub outbox, Bluesky, and the newsletter after each build, and whether the EROEI measure readout — views, engaged time, referrer class, revenue per article against inference cost — is produced and feeds the next pulse's selection, is this office's own answer.",
+  "deontic-profile": {
+    "distribute-a-build": "duty",
+    "produce-measure-readout": "duty",
+    "reprioritize-selection-from-measure": "deontic-power",
+    "resist-vanity-metric-substitution": "deontic-immunity"
+  },
+  "jurisdiction": "koios.news/",
+  "authority-scope": [
+    "koios.news/"
+  ],
+  "theory-basis": [
+    "News Property Specification §6, engineering-services-section/services/media-engineering-services-section/services/news-media-engineering-services-section/content/text/documents/articles/specifications/2026-09-02-news-property-specification.md — an audience editor office owns distribution and the measure readout",
+    "News Property Specification §4, engineering-services-section/services/media-engineering-services-section/services/news-media-engineering-services-section/content/text/documents/articles/specifications/2026-09-02-news-property-specification.md — the distribute and measure commands: IndexNow, WebSub, ActivityPub, Bluesky, newsletter, and the EROEI readout that feeds the next selection"
+  ]
+}

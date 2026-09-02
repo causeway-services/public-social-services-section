@@ -1,0 +1,28 @@
+{
+  "id": "koios-crypto-desk-editor",
+  "name": "Crypto desk editor",
+  "kind": "office",
+  "normative-structure": "Whether Koios.News publishes sourced, imaged, correctable stories for the Crypto section — digital-asset markets, protocols, and regulation — at the section's daily quota with the property's minimum independent-source count met on every story is this desk's own answer. It selects which admitted wire items become assignments, commissions research packets and prose against them on the cheapest admitted inference lane, and never asserts a claim its sources do not carry.",
+  "deontic-profile": {
+    "select-assignments": "duty",
+    "commission-research-packet": "duty",
+    "commission-prose": "duty",
+    "refuse-unsupported-assignment": "deontic-power",
+    "resist-demand-as-warrant": "deontic-immunity"
+  },
+  "reports-to": "koios-editor-in-chief",
+  "jurisdiction": "koios.news/crypto/",
+  "authority-scope": [
+    "koios.news/crypto/"
+  ],
+  "theory-basis": [
+    "News Property Specification §6, engineering-services-section/services/media-engineering-services-section/services/news-media-engineering-services-section/content/text/documents/articles/specifications/2026-09-02-news-property-specification.md — each section is a desk, each desk an office record conformant to office.schema.json with a normative structure, deontic profile, and theory basis, seated by an incumbency",
+    "The Distal Bypass, operations-services-section/content/text/documents/articles/notes/2026/07/16/2026-07-16-the-distal-bypass.md — reader demand selects attention and never supplies factual warrant, so the desk's refuse-unsupported-assignment power and resist-demand-as-warrant immunity are how one desk holds that refusal locally"
+  ],
+  "founded": "2026-09-02",
+  "x-provenance": {
+    "recorded-by": "claude-fable-5-1",
+    "recorded-on": "2026-09-02",
+    "derived-from": "engineering-services-section/services/media-engineering-services-section/services/news-media-engineering-services-section/content/text/documents/articles/specifications/2026-09-02-news-property-specification.md"
+  }
+}

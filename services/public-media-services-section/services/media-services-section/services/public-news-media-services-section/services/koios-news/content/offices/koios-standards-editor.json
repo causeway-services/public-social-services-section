@@ -1,0 +1,29 @@
+{
+  "kind": "office",
+  "founded": "2026-09-02",
+  "x-provenance": {
+    "recorded-by": "claude-fable-5-1",
+    "recorded-on": "2026-09-02",
+    "derived-from": "engineering-services-section/services/media-engineering-services-section/services/news-media-engineering-services-section/content/text/documents/articles/specifications/2026-09-02-news-property-specification.md"
+  },
+  "id": "koios-standards-editor",
+  "name": "standards editor",
+  "normative-structure": "Whether the standards page states Koios.News's sourcing and correction rules truthfully, and whether the deterministic gate profile (prophecy, attribution, numeric citation, quotes, duplicates) per source jurisdiction is current and applied to every story before it ships, is this office's own answer. It owns the gate profile and does not write desk assignments.",
+  "deontic-profile": {
+    "own-standards-page": "duty",
+    "set-deterministic-gate-profile": "duty",
+    "certify-story-for-jurisdiction": "deontic-power",
+    "resist-editorial-override-of-a-gate": "deontic-immunity"
+  },
+  "presides-over": [
+    "koios-corrections-editor"
+  ],
+  "jurisdiction": "koios.news/standards/",
+  "authority-scope": [
+    "koios.news/standards/"
+  ],
+  "theory-basis": [
+    "News Property Specification §6, engineering-services-section/services/media-engineering-services-section/services/news-media-engineering-services-section/content/text/documents/articles/specifications/2026-09-02-news-property-specification.md — a standards editor office owns the standards page and the deterministic gate profile",
+    "News Property Specification §5, engineering-services-section/services/media-engineering-services-section/services/news-media-engineering-services-section/content/text/documents/articles/specifications/2026-09-02-news-property-specification.md — every page passes the house's own deterministic checks; the gate profile is fibered by jurisdiction per §3"
+  ]
+}

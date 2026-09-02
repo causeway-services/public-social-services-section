@@ -1,0 +1,26 @@
+{
+  "kind": "office",
+  "founded": "2026-09-02",
+  "x-provenance": {
+    "recorded-by": "claude-fable-5-1",
+    "recorded-on": "2026-09-02",
+    "derived-from": "engineering-services-section/services/media-engineering-services-section/services/news-media-engineering-services-section/content/text/documents/articles/specifications/2026-09-02-news-property-specification.md"
+  },
+  "id": "koios-publisher",
+  "name": "publisher",
+  "normative-structure": "Whether Koios.News's ad contracts, house ad-slot fills, and ads.txt lines are current and truthful, and whether the property earns from the attention its desks capture, is this office's own answer. It owns monetization and never edits story content or desk assignments.",
+  "deontic-profile": {
+    "manage-ad-contracts": "duty",
+    "publish-ads-txt": "duty",
+    "authorize-an-ad-placement": "deontic-power",
+    "resist-editorial-direction-over-placement": "deontic-immunity"
+  },
+  "jurisdiction": "koios.news/",
+  "authority-scope": [
+    "koios.news/ads.txt"
+  ],
+  "theory-basis": [
+    "News Property Specification §6, engineering-services-section/services/media-engineering-services-section/services/news-media-engineering-services-section/content/text/documents/articles/specifications/2026-09-02-news-property-specification.md — a publisher office owns monetization and the ad contracts",
+    "News Property Specification §3, engineering-services-section/services/media-engineering-services-section/services/news-media-engineering-services-section/content/text/documents/articles/specifications/2026-09-02-news-property-specification.md — monetization: house ad slots, optional AdSense or A-Ads unit ids, ads.txt lines"
+  ]
+}

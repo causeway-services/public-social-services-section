@@ -7,9 +7,10 @@
   "bin": { "koios-news-store-feed-delivery": "./bin/koios-news-store-feed-delivery.mjs" },
   "scripts": {
     "test": "node --test test/*.test.mjs",
-    "check": "node --check bin/koios-news-store-feed-delivery.mjs && node --check src/store-feed-delivery.mjs"
+    "check": "node --check bin/koios-news-store-feed-delivery.mjs && node --check src/store-feed-delivery.mjs && node --check src/claim-rows.mjs && node --check scripts/project-store-claims-into-eavt.mjs && node --check scripts/stratify-store-claims.mjs"
   },
   "dependencies": {
+    "@red-cup-engineering/eavt": "0.5.0",
     "@red-cup-engineering/project-web-feed-artifacts-service": "0.1.0"
   }
 }

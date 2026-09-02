@@ -1,4 +1,4 @@
-# NEWSLETTER_NAME — Issue 001
+# The Second Day — Issue 001
 
 _The field's most trusted marker of post-exertional malaise is now honestly contested. Here's what that means, and what we promise to do about it every issue._
 
@@ -64,7 +64,7 @@ Every claim in this newsletter carries one of three labels — demonstrated, hyp
 
 That's the whole promise. Thanks for reading issue 001 — we'll see you next time.
 
-— NEWSLETTER_NAME
+— The Second Day
 
 ## References
 

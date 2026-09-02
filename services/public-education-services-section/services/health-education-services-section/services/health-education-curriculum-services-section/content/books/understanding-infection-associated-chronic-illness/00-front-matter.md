@@ -64,3 +64,10 @@ advice and does not replace a clinician who knows your case; it exists so
 that the conversation you have with that clinician, or with a study you
 read on your own, starts from an accurate picture of what is and is not
 yet known.
+
+Every chapter cites its sources. A bracketed marker like [@dehlia2024]
+after a sentence points to a specific published study; the full citation
+-- authors, journal, year, and a link you can look up yourself -- is
+collected in the References section at the end of the book. You don't
+need to interrupt your reading to check these, but they are there
+whenever you want to see exactly where a number or claim came from.

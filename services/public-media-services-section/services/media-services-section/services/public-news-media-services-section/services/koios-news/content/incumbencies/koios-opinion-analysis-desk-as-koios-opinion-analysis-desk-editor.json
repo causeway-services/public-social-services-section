@@ -1,0 +1,14 @@
+{
+  "id": "koios-opinion-analysis-desk-as-koios-opinion-analysis-desk-editor",
+  "office": "koios-opinion-analysis-desk-editor",
+  "holder": "koios-opinion-analysis-desk",
+  "recognition": "t",
+  "induction": "t",
+  "from": "2026-09-02",
+  "x-provenance": {
+    "recorded-by": "claude-fable-5-1",
+    "recorded-on": "2026-09-02",
+    "office-source": "engineering-services-section/services/media-engineering-services-section/services/news-media-engineering-services-section/content/text/documents/articles/specifications/2026-09-02-news-property-specification.md",
+    "basis": "News Property Specification §6: one desk editor office per Koios section, seated per the news-property lot L6 corporation build."
+  }
+}

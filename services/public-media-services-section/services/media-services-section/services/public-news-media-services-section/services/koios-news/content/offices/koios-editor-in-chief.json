@@ -1,0 +1,38 @@
+{
+  "kind": "office",
+  "founded": "2026-09-02",
+  "x-provenance": {
+    "recorded-by": "claude-fable-5-1",
+    "recorded-on": "2026-09-02",
+    "derived-from": "engineering-services-section/services/media-engineering-services-section/services/news-media-engineering-services-section/content/text/documents/articles/specifications/2026-09-02-news-property-specification.md"
+  },
+  "id": "koios-editor-in-chief",
+  "name": "editor-in-chief",
+  "normative-structure": "Whether Koios.News's ten desks are presiding over their sections, whether a cross-desk assignment conflict is resolved, and whether the masthead's editorial direction holds together as one publication is this office's own answer. It never runs the correction transaction — that answers to the standards editor alone — and never holds monetization or ad-contract authority, which is the publisher's.",
+  "deontic-profile": {
+    "preside-over-desks": "duty",
+    "arbitrate-cross-desk-assignment-conflict": "duty",
+    "install-desk-editor": "deontic-power",
+    "resist-demand-as-warrant": "deontic-immunity"
+  },
+  "presides-over": [
+    "koios-world-desk-editor",
+    "koios-us-politics-desk-editor",
+    "koios-business-markets-desk-editor",
+    "koios-crypto-desk-editor",
+    "koios-technology-desk-editor",
+    "koios-science-climate-desk-editor",
+    "koios-health-desk-editor",
+    "koios-culture-entertainment-desk-editor",
+    "koios-sport-desk-editor",
+    "koios-opinion-analysis-desk-editor"
+  ],
+  "jurisdiction": "koios.news/",
+  "authority-scope": [
+    "koios.news/"
+  ],
+  "theory-basis": [
+    "News Property Specification §6, engineering-services-section/services/media-engineering-services-section/services/news-media-engineering-services-section/content/text/documents/articles/specifications/2026-09-02-news-property-specification.md — an editor-in-chief office presiding over the desks",
+    "The Distal Bypass, operations-services-section/content/text/documents/articles/notes/2026/07/16/2026-07-16-the-distal-bypass.md — reader demand never supplies factual warrant, an immunity the top editorial office holds as much as any desk"
+  ]
+}

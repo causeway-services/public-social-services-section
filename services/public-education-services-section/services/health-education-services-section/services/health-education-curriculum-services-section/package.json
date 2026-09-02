@@ -11,7 +11,7 @@
     "build-ebook": "node scripts/build-ebook.mjs"
   },
   "dependencies": {
-    "@red-cup-engineering/ebook-production-services-section": "0.1.6"
+    "@red-cup-engineering/ebook-production-services-section": "0.1.7"
   },
   "license": "UNLICENSED"
 }
