@@ -36,7 +36,7 @@ export function listStoreCategories(storeRoot) {
  *   directory (e.g. `sites/koios.news/store/collapse-tech`).
  * @returns {string[]} Absolute or relative claim-file paths, sorted ascending.
  */
-function listCategoryFiles(categoryRoot) {
+export function listCategoryFiles(categoryRoot) {
   return readdirSync(categoryRoot, { withFileTypes: true })
     .filter((entry) => entry.isFile() && entry.name.endsWith(".json"))
     .map((entry) => join(categoryRoot, entry.name))
@@ -50,7 +50,7 @@ function listCategoryFiles(categoryRoot) {
  * @returns {{subject: string, claims: object[]}} The parsed claim file.
  * @throws {Error} When the file cannot be read or is not valid claim JSON.
  */
-function readClaimFile(filePath) {
+export function readClaimFile(filePath) {
   let text;
   try {
     text = readFileSync(filePath, "utf8");

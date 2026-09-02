@@ -4,13 +4,15 @@
   "type": "module",
   "description": "Measures topic distribution over the koios.news sourced-claim store and records the named-subscriber intelligence-briefing product line's launch state.",
   "scripts": {
-    "check": "node --check src/topic-distribution.mjs && node --check src/launch-state-record.mjs && node --check scripts/measure-claim-topic-distribution.mjs && node --check scripts/record-intelligence-briefing-launch-state.mjs && node --check test/topic-distribution.test.mjs",
-    "test": "node --test test/topic-distribution.test.mjs"
+    "check": "node --check src/topic-distribution.mjs && node --check src/launch-state-record.mjs && node --check src/briefing-issue.mjs && node --check scripts/measure-claim-topic-distribution.mjs && node --check scripts/record-intelligence-briefing-launch-state.mjs && node --check scripts/compose-briefing-issue.mjs && node --check scripts/deliver-briefing-draft.mjs && node --check test/topic-distribution.test.mjs && node --check test/briefing-issue.test.mjs && node --check test/compose-briefing-issue.test.mjs && node --check test/deliver-briefing-draft.test.mjs",
+    "test": "node --test test/*.test.mjs"
   },
   "engines": {
     "node": ">=22"
   },
   "dependencies": {
+    "@red-cup-engineering/buttondown-services-section": "0.1.0",
+    "@red-cup-engineering/newsletter-issue-production-services-section": "0.1.0",
     "@red-cup-engineering/semantic-record-journal-service": "0.1.9"
   },
   "files": ["src/", "scripts/", "test/", "README.md", "package.json"]

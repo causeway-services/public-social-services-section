@@ -126,32 +126,86 @@ issue after issue — one issue proves the mechanism works, not that the cadence
 holds. Do not solicit subscribers from this one issue alone; write two or three
 more real issues first and get informal reader reaction before any ask.
 
+## Composing and delivering an issue
+
+`scripts/compose-briefing-issue.mjs` closes this product's delivery
+mechanism. It reads the koios claim store through this package's own
+store readers (`src/topic-distribution.mjs`'s `listStoreCategories`/
+`listCategoryFiles`/`readClaimFile`, wired into `src/briefing-issue.mjs`'s
+`listStoreStories`), selects a dated window of stories (default: the
+seven days ending on the most recent `time.asserted` claim in the store —
+anchored on the store's own data, not wall-clock now(), because the store
+is a dated snapshot, not a live feed), and composes the window into a
+briefing issue through
+`@red-cup-engineering/newsletter-issue-production-services-section`,
+writing `issue.md`, `issue.paste.html`, and `issue.feed-item.rss.xml` to
+`content/text/documents/issues/<since>-to-<until>/`:
+
+```sh
+node scripts/compose-briefing-issue.mjs --category collapse-tech
+# flags: --store --out-dir --since --until --window-days --max-stories
+#        --category --title --dek --link --format
+```
+
+A handful of real claim files carry a `summary` claim whose object is an
+empty string (present, not missing) — real store data-quality variance,
+not a bug. `listStoreStories` skips those files (returned in the
+result's `skipped` array) rather than aborting the whole walk; a file
+that is not valid claim JSON at all still throws.
+
+`scripts/deliver-briefing-draft.mjs` hands one composed issue's rendered
+Markdown to `@red-cup-engineering/buttondown-services-section`'s
+`createDraftEmail` — **draft only, never send**, per the fence above:
+
+```sh
+BUTTONDOWN_API_KEY=... node scripts/deliver-briefing-draft.mjs \
+  content/text/documents/issues/<since>-to-<until>/issue.md "Issue subject line"
+```
+
+No `BUTTONDOWN_API_KEY` exists yet (founder hands — provisioning one is an
+account/API-key action only the founder's identity can perform). The
+script reads the key by environment-variable name only, never stores or
+accepts one as an argument, and refuses cleanly — before touching the
+filesystem or network — when it is unset; `test/deliver-briefing-draft.test.mjs`
+proves that refusal.
+
 ## Machinery reused vs. new
 
 Reused: the koios-news settlement's real claim store (read-only), the
 `services/editorial-admission-receipt` package shape (package.json/src/cli/test
-layout), and `@red-cup-engineering/semantic-record-journal-service` (pinned to
+layout), `@red-cup-engineering/semantic-record-journal-service` (pinned to
 the actual latest registry version, 0.1.9, verified with `npm view` this
-session — not the stale 0.1.6 the root package still pins).
+session — not the stale 0.1.6 the root package still pins),
+`@red-cup-engineering/newsletter-issue-production-services-section` (0.1.0)
+for issue validation/rendering, and
+`@red-cup-engineering/buttondown-services-section` (0.1.0) for the
+create-draft flow.
 
-New: this package itself — the topic-distribution algebra, the two operational
-scripts, the test suite, this README, and the one sample-issue Markdown
-carrier at `content/text/documents/sample-issues/`.
+New: this package itself — the topic-distribution algebra, the
+briefing-issue windowing/composition algebra (`src/briefing-issue.mjs`),
+the operational scripts (measure, record-launch-state,
+compose-briefing-issue, deliver-briefing-draft), the test suite, this
+README, and the one sample-issue Markdown carrier at
+`content/text/documents/sample-issues/`.
 
 ## First-dollar path (HANDS vs. ENGINEERING)
 
 ENGINEERING (delivered by this work): the package, the measurer, the
-launch-state record, the sample issue, this pricing/funnel writeup.
+launch-state record, the sample issue, this pricing/funnel writeup, and
+the delivery mechanism — `compose-briefing-issue.mjs` (claim store to
+rendered issue) and `deliver-briefing-draft.mjs` (rendered issue to a
+Buttondown draft, never a send).
 
-HANDS (a human must do this next, outside any repository): open a named
-monthly-billing account. Recommended rail: **Stripe**, or a newsletter
-platform's built-in billing (Substack/Ghost/Buttondown) if the founder wants
-the masthead and billing in one product — not the org's x402/pseudonymous
+HANDS (a human must do this next, outside any repository): create a
+Buttondown account and API key (`BUTTONDOWN_API_KEY`) — the rail this
+delivery mechanism is wired to — or open a named monthly-billing account
+on another rail (Stripe, Substack, Ghost) if the founder wants a
+different masthead/billing combination; not the org's x402/pseudonymous
 rails. Twenty *named* monthly subscribers who expect a receipt, a renewal, and
 support if a charge fails are a poor fit for x402's agent-to-agent
 micropayment design; they need conventional subscription billing with
-customer-support and dispute handling, which Stripe/Substack/Ghost/Buttondown
-provide and x402 does not.
+customer-support and dispute handling, which
+Stripe/Substack/Ghost/Buttondown provide and x402 does not.
 
 ## Risks, honestly
 

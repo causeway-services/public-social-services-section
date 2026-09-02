@@ -1,0 +1,37 @@
+{
+  "subject": "story-delta",
+  "claims": [
+    {
+      "id": "title",
+      "proposition": { "predicate": "title", "object": "Story Delta: a culture-beat story in the window" },
+      "time": { "asserted": "2026-06-26T09:00:00.000Z" },
+      "force": "alleges",
+      "provenance": { "witness": "culture", "citation": "https://example.test/story-delta" },
+      "status": "supported"
+    },
+    {
+      "id": "url",
+      "proposition": { "predicate": "url", "object": "https://example.test/story-delta" },
+      "time": { "asserted": "2026-06-26T09:00:00.000Z" },
+      "force": "alleges",
+      "provenance": { "witness": "culture", "citation": "https://example.test/story-delta" },
+      "status": "supported"
+    },
+    {
+      "id": "summary",
+      "proposition": { "predicate": "summary", "object": "Fixture summary for story delta, inside the seven-day window." },
+      "time": { "asserted": "2026-06-26T09:00:00.000Z" },
+      "force": "alleges",
+      "provenance": { "witness": "culture", "citation": "https://example.test/story-delta" },
+      "status": "supported"
+    },
+    {
+      "id": "published",
+      "proposition": { "predicate": "published", "object": "Fri, 26 Jun 2026 09:00:00 +0000" },
+      "time": { "asserted": "2026-06-26T09:00:00.000Z" },
+      "force": "alleges",
+      "provenance": { "witness": "culture", "citation": "https://example.test/story-delta" },
+      "status": "supported"
+    }
+  ]
+}

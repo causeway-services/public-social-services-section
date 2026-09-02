@@ -1,0 +1,37 @@
+{
+  "subject": "story-beta",
+  "claims": [
+    {
+      "id": "title",
+      "proposition": { "predicate": "title", "object": "Story Beta: vendor lock-in dispute escalates" },
+      "time": { "asserted": "2026-06-27T09:00:00.000Z" },
+      "force": "alleges",
+      "provenance": { "witness": "collapse-tech", "citation": "https://example.test/story-beta" },
+      "status": "supported"
+    },
+    {
+      "id": "url",
+      "proposition": { "predicate": "url", "object": "https://example.test/story-beta" },
+      "time": { "asserted": "2026-06-27T09:00:00.000Z" },
+      "force": "alleges",
+      "provenance": { "witness": "collapse-tech", "citation": "https://example.test/story-beta" },
+      "status": "supported"
+    },
+    {
+      "id": "summary",
+      "proposition": { "predicate": "summary", "object": "Fixture summary for story beta, inside the seven-day window." },
+      "time": { "asserted": "2026-06-27T09:00:00.000Z" },
+      "force": "alleges",
+      "provenance": { "witness": "collapse-tech", "citation": "https://example.test/story-beta" },
+      "status": "supported"
+    },
+    {
+      "id": "published",
+      "proposition": { "predicate": "published", "object": "Sat, 27 Jun 2026 09:00:00 +0000" },
+      "time": { "asserted": "2026-06-27T09:00:00.000Z" },
+      "force": "alleges",
+      "provenance": { "witness": "collapse-tech", "citation": "https://example.test/story-beta" },
+      "status": "supported"
+    }
+  ]
+}
