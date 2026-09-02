@@ -15,7 +15,7 @@ export const SEARCH_DEMAND_IMPORT_CONTRACT = "koios-news/search-demand-import/v1
 export const SEARCH_DEMAND_IMPORT_CAPABILITY = "urn:capability:koios-news:clockkeeper:cold-red-gate:search-demand-import:v1";
 const ROOT = resolve(dirname(fileURLToPath(import.meta.url)), "..");
 
-function argument(name: string): string | undefined { const index = process.argv.indexOf(name); return index === -1 ? undefined : process.argv[index + 1]; }
+import { argument } from "@red-cup-engineering/parse-javascript-argv-service";
 function object(value: unknown): value is JsonObject { return value !== null && typeof value === "object" && !Array.isArray(value); }
 function response(activity: JsonObject, type: "Accept" | "Reject", payload: JsonObject): JsonObject { return { "@context": CONTEXT, type, actor: PUBLICATION, target: activity["actor"] ?? "urn:actor:unidentified", ...(typeof activity["id"] === "string" ? { inReplyTo: activity["id"] } : {}), object: { type: "SearchDemandImportSettlement", contract: SEARCH_DEMAND_IMPORT_CONTRACT, ...payload } }; }
 function dayOffset(day: string, offset: number): string { return new Date(Date.parse(`${day}T00:00:00.000Z`) + offset * 86_400_000).toISOString().slice(0, 10); }

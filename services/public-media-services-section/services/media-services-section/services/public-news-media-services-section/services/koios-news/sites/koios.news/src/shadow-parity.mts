@@ -11,10 +11,7 @@ import { compareCandidateToLiveSemantics } from "./administrating/deploying/cand
 import { latestLivePublicationWitness } from "./administrating/deploying/live-publication-witness.mts";
 import { appendKoiosAct, latestKoiosAct, type JsonObject, type KoiosLedger } from "./management/ledger.mts";
 
-function argument(name: string): string | undefined {
-  const index = process.argv.indexOf(name);
-  return index === -1 ? undefined : process.argv[index + 1];
-}
+import { argument } from "@red-cup-engineering/parse-javascript-argv-service";
 
 const outputDir = resolve(argument("--out") ?? ".static/koios.news");
 const candidateOutputDir = resolve(argument("--candidate-out") ?? ".static/koios.news-candidate");

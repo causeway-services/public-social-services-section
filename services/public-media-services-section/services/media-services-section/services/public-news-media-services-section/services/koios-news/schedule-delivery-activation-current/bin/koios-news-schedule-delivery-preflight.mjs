@@ -28,7 +28,7 @@ function canonical(value) {
   return JSON.stringify(value);
 }
 function id(value) { return `urn:koios-news:schedule-delivery-preflight:sha256:${createHash("sha256").update(canonical(value)).digest("hex")}`; }
-function argument(name) { const index = process.argv.indexOf(name); return index === -1 ? undefined : process.argv[index + 1]; }
+import { argument } from "@red-cup-engineering/parse-javascript-argv-service";
 function requireString(value, label) { if (typeof value !== "string" || value === "") throw new Error(`${label} is required`); return value; }
 function integer(value, label, min, max) { const number = Number(value); if (!Number.isInteger(number) || number < min || number > max) throw new Error(`${label} must be an integer from ${min} to ${max}`); return number; }
 function instant(value, label) { if (typeof value !== "string" || !Number.isFinite(Date.parse(value))) throw new Error(`${label} must be an ISO instant`); return value; }

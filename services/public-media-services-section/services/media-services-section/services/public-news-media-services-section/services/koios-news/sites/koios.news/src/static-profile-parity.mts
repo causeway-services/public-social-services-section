@@ -9,10 +9,7 @@ import { DEFAULT_DATA_DIR } from "./config.mts";
 import { appendKoiosAct } from "./management/ledger.mts";
 import { DEFAULT_A_ADS_UNITS } from "./theme.mts";
 
-function argument(name: string): string | undefined {
-  const index = process.argv.indexOf(name);
-  return index === -1 ? undefined : process.argv[index + 1];
-}
+import { argument } from "@red-cup-engineering/parse-javascript-argv-service";
 
 const shadowOutputDir = resolve(argument("--shadow-out") ?? ".static/koios.news");
 const candidateOutputDir = resolve(argument("--candidate-out") ?? ".static/koios.news-candidate");

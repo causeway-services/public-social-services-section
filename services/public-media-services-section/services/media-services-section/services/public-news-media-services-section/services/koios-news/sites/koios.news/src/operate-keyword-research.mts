@@ -4,10 +4,7 @@ import { readFileSync } from "node:fs";
 
 import { settleKeywordOpportunityResearchOrder } from "./management/keyword-opportunity-service.mts";
 
-function argument(name: string): string | undefined {
-  const index = process.argv.indexOf(name);
-  return index === -1 ? undefined : process.argv[index + 1];
-}
+import { argument } from "@red-cup-engineering/parse-javascript-argv-service";
 
 const input = JSON.parse(readFileSync(0, "utf8")) as Readonly<Record<string, unknown>>;
 const result = await settleKeywordOpportunityResearchOrder(input, {

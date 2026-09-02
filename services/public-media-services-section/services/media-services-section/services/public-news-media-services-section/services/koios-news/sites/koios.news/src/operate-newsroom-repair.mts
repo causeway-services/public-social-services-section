@@ -2,7 +2,7 @@
 
 import { settleNewsroomRepairReplay } from "./management/newsroom-repair-replay.mts";
 
-function argument(name: string): string | undefined { const index = process.argv.indexOf(name); return index === -1 ? undefined : process.argv[index + 1]; }
+import { argument } from "@red-cup-engineering/parse-javascript-argv-service";
 
 const assignmentId = argument("--assignment-id");
 if (assignmentId === undefined || assignmentId.trim() === "") throw new TypeError("operate-newsroom-repair requires --assignment-id");

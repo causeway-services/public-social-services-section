@@ -8,10 +8,7 @@ import { DEFAULT_DATA_DIR } from "./config.mts";
 import { buildStaticPublication, verifyStaticPublication, type StaticPublicationProfile } from "./administrating/deploying/static-shadow.mts";
 import { latestLivePublicationWitness } from "./administrating/deploying/live-publication-witness.mts";
 
-function argument(name: string): string | undefined {
-  const index = process.argv.indexOf(name);
-  return index === -1 ? undefined : process.argv[index + 1];
-}
+import { argument } from "@red-cup-engineering/parse-javascript-argv-service";
 
 const rawProfile = argument("--profile") ?? "shadow";
 if (rawProfile !== "shadow" && rawProfile !== "cutover-candidate") throw new Error(`unknown static publication profile: ${rawProfile}`);

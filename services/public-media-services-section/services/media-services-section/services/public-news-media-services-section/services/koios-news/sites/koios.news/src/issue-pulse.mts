@@ -3,10 +3,7 @@
 import { readActivityStreamsObjectFromStdin } from "./management/activity-ingress.mts";
 import { settleIssuePulse } from "./management/issue-controller.mts";
 
-function argument(name: string): string | undefined {
-  const index = process.argv.indexOf(name);
-  return index === -1 ? undefined : process.argv[index + 1];
-}
+import { argument } from "@red-cup-engineering/parse-javascript-argv-service";
 
 const now = argument("--now") ?? new Date().toISOString();
 const activity = readActivityStreamsObjectFromStdin();

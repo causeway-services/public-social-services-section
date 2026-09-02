@@ -8,10 +8,7 @@ import { DEFAULT_DATA_DIR } from "./config.mts";
 import { latestLivePublicationWitness } from "./administrating/deploying/live-publication-witness.mts";
 import { appendKoiosAct } from "./management/ledger.mts";
 
-function argument(name: string): string | undefined {
-  const index = process.argv.indexOf(name);
-  return index === -1 ? undefined : process.argv[index + 1];
-}
+import { argument } from "@red-cup-engineering/parse-javascript-argv-service";
 
 const instant = argument("--now");
 const originHost = argument("--origin-host");

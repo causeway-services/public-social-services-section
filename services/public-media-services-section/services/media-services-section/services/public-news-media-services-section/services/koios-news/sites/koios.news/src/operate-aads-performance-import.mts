@@ -14,7 +14,7 @@ const CLOCKKEEPER = "urn:colony:cold-red-gate:clockkeeper";
 export const AADS_PERFORMANCE_IMPORT_CONTRACT = "koios-news/aads-performance-import/v1";
 export const AADS_PERFORMANCE_IMPORT_CAPABILITY = "urn:capability:koios-news:clockkeeper:cold-red-gate:aads-performance-import:v1";
 
-function argument(name: string): string | undefined { const index = process.argv.indexOf(name); return index === -1 ? undefined : process.argv[index + 1]; }
+import { argument } from "@red-cup-engineering/parse-javascript-argv-service";
 function object(value: unknown): value is JsonObject { return value !== null && typeof value === "object" && !Array.isArray(value); }
 function response(activity: JsonObject, type: "Accept" | "Reject", payload: JsonObject): JsonObject { return { "@context": CONTEXT, type, actor: PUBLICATION, target: activity["actor"] ?? "urn:actor:unidentified", ...(typeof activity["id"] === "string" ? { inReplyTo: activity["id"] } : {}), object: { type: "AAdsPerformanceImportSettlement", contract: AADS_PERFORMANCE_IMPORT_CONTRACT, ...payload } }; }
 

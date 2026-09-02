@@ -22,6 +22,9 @@
     "./package.json": "./package.json"
   },
   "sideEffects": false,
+  "dependencies": {
+    "@red-cup-engineering/parse-javascript-argv-service": "0.2.2"
+  },
   "keywords": [
     "sovereign-state-enterprise"
   ]

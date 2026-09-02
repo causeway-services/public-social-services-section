@@ -19,10 +19,7 @@ const REPAIR_PULSE_CAPABILITY = "urn:capability:koios-news:clockkeeper:cold-red-
 const CONTRACT = "ni:///sha-256;MJEOd4w7xWL3i1gomnpUis5sytiyM-D9Od02XMEikg8";
 const RETIREMENT_CONTRACT = "ni:///sha-256;J2MnxVNRVqJWVqED05wgFyYDBZ7_VAMGI_-UPrnFgLw";
 
-function argument(name: string): string | undefined {
-  const index = process.argv.indexOf(name);
-  return index === -1 ? undefined : process.argv[index + 1];
-}
+import { argument } from "@red-cup-engineering/parse-javascript-argv-service";
 
 function object(value: unknown): value is JsonObject {
   return value !== null && typeof value === "object" && !Array.isArray(value);

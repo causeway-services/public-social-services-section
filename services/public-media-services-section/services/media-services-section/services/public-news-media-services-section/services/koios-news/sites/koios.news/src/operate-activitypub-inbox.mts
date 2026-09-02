@@ -2,10 +2,7 @@
 
 import { pullActivityPubInbox, settleNextRetainedActivity } from "./management/activitypub-inbox.mts";
 
-function argument(name: string): string | undefined {
-  const index = process.argv.indexOf(name);
-  return index === -1 ? undefined : process.argv[index + 1];
-}
+import { argument } from "@red-cup-engineering/parse-javascript-argv-service";
 
 const operation = argument("--operation") ?? "pull-and-settle-next";
 const dataDir = argument("--data-dir");

@@ -22,7 +22,7 @@ export const REPAIR_PULSE_CAPABILITY = "urn:capability:koios-news:clockkeeper:co
 export { REPAIR_START_COOLDOWN_MILLISECONDS };
 const CAPACITY_CONSUMING_REPAIR_DISPOSITIONS = new Set(["replay-ready", "release-pending", "released", "published"]);
 
-function argument(name: string): string | undefined { const index = process.argv.indexOf(name); return index === -1 ? undefined : process.argv[index + 1]; }
+import { argument } from "@red-cup-engineering/parse-javascript-argv-service";
 function object(value: unknown): value is JsonObject { return value !== null && typeof value === "object" && !Array.isArray(value); }
 function response(activity: JsonObject, type: "Accept" | "Question" | "Reject", payload: JsonObject): JsonObject { return { "@context": CONTEXT, type, actor: PUBLICATION, target: activity["actor"] ?? "urn:actor:unidentified", ...(typeof activity["id"] === "string" ? { inReplyTo: activity["id"] } : {}), object: { type: "NewsroomRepairPulseSettlement", contract: REPAIR_PULSE_CONTRACT, ...payload } }; }
 

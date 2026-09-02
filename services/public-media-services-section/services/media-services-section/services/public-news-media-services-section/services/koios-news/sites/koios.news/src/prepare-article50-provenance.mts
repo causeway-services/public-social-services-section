@@ -5,10 +5,7 @@ import { DEFAULT_CONTENT_DIR } from "./config.mts";
 import { koiosMasthead, koiosWireItems } from "./index.mts";
 import { prepareArticle50Fingerprint } from "./administrating/deploying/article50-provenance.mts";
 
-function argument(name: string): string | undefined {
-  const index = process.argv.indexOf(name);
-  return index === -1 ? undefined : process.argv[index + 1];
-}
+import { argument } from "@red-cup-engineering/parse-javascript-argv-service";
 
 const slug = argument("--slug");
 if (slug === undefined || !/^[a-z0-9]+(?:-[a-z0-9]+)*$/u.test(slug)) {

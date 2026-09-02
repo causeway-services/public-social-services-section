@@ -12,7 +12,7 @@ import { inspectNavigation } from "./administrating/deploying/origin-portability
 
 const PROVIDER = "urn:ame:resource-brokerage-team";
 
-function argument(name: string): string | undefined { const index = process.argv.indexOf(name); return index === -1 ? undefined : process.argv[index + 1]; }
+import { argument } from "@red-cup-engineering/parse-javascript-argv-service";
 function artifactIdentity(value: Uint8Array | string): string {
   const carrier = typeof value === "string"
     ? { encoding: "utf8", text: value }

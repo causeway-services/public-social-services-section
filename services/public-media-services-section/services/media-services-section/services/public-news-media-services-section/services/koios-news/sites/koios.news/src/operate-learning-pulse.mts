@@ -15,10 +15,7 @@ const PUBLICATION = "https://koios.news/activitypub/actor";
 const CLOCKKEEPER = "urn:colony:cold-red-gate:clockkeeper";
 export const LEARNING_PULSE_CAPABILITY = "urn:capability:koios-news:clockkeeper:cold-red-gate:newsroom-learning-pulse:v1";
 
-function argument(name: string): string | undefined {
-  const index = process.argv.indexOf(name);
-  return index === -1 ? undefined : process.argv[index + 1];
-}
+import { argument } from "@red-cup-engineering/parse-javascript-argv-service";
 
 function object(value: unknown): value is JsonObject {
   return value !== null && typeof value === "object" && !Array.isArray(value);
