@@ -111,6 +111,24 @@ thread above:
   Monetization rail uncertainty named below, unresolved for this program's
   human-facing surfaces generally.
 
+## Newsletter dimension (founder-moved 2026-09-02)
+
+A third shape, beside the video/ebook/article production line and the
+pacing app/API dimension above: a paid, named-subscriber newsletter over
+the program's own verified IACI literature corpus — "we could spin this
+into a substack people would love to pay for." The precedent is the same
+one the pacing dimension's x402 split cites for its own shape:
+[koios-intelligence-briefing](../../../public-media-services-section/services/media-services-section/services/public-news-media-services-section/services/koios-news/services/koios-intelligence-briefing/README.md)
+sells a named-subscriber briefing over the koios claim store; this
+dimension is the identical product shape over this program's literature
+corpus instead. Seated as
+[health-education-newsletter-services-section](services/health-education-newsletter-services-section/README.md),
+whose own README carries this dimension's full five-custody thread,
+including the verified-today finding that Substack has no official
+publish API and the resulting founder's-hands-only publishing ceremony.
+Issue 001 is scaffolded (`content/issues/001/`, currently empty) but not
+yet composed.
+
 ## Dimensions and uncertainties (preserved honestly, not resolved here)
 
 - **Channel identity requires the founder's hands.** Per the bodily-harm
