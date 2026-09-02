@@ -1,0 +1,15 @@
+{
+  "name": "@causeway-services/koios-news-store-feed-delivery-current",
+  "version": "0.1.0",
+  "type": "module",
+  "description": "Projects the koios.news sourced-claim store into RSS, Atom, JSON Feed, and a Google News sitemap.",
+  "engines": { "node": ">=22" },
+  "bin": { "koios-news-store-feed-delivery": "./bin/koios-news-store-feed-delivery.mjs" },
+  "scripts": {
+    "test": "node --test test/*.test.mjs",
+    "check": "node --check bin/koios-news-store-feed-delivery.mjs && node --check src/store-feed-delivery.mjs"
+  },
+  "dependencies": {
+    "@red-cup-engineering/project-web-feed-artifacts-service": "0.1.0"
+  }
+}

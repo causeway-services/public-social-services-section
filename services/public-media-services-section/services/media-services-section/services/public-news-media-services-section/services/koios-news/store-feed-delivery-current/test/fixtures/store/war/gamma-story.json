@@ -1,0 +1,8 @@
+{
+  "subject": "gamma-story",
+  "claims": [
+    { "id": "title", "proposition": { "predicate": "title", "object": "Gamma Story" }, "time": { "asserted": "2026-07-15T04:08:20.911Z" }, "force": "alleges", "provenance": { "witness": "war", "citation": "https://example.com/gamma" }, "status": "supported" },
+    { "id": "url", "proposition": { "predicate": "url", "object": "https://example.com/gamma" }, "time": { "asserted": "2026-07-15T04:08:20.911Z" }, "force": "alleges", "provenance": { "witness": "war", "citation": "https://example.com/gamma" }, "status": "supported" },
+    { "id": "summary", "proposition": { "predicate": "summary", "object": "Gamma summary, no publication date on record." }, "time": { "asserted": "2026-07-15T04:08:20.911Z" }, "force": "alleges", "provenance": { "witness": "war", "citation": "https://example.com/gamma" }, "status": "supported" }
+  ]
+}
