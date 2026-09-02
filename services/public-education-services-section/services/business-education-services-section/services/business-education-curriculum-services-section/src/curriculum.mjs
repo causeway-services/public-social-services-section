@@ -4,6 +4,7 @@ import { existsSync, lstatSync, readFileSync, realpathSync } from "node:fs";
 import { dirname, join, resolve } from "node:path";
 import { fileURLToPath } from "node:url";
 import { createSemanticRecordJournal } from "@red-cup-engineering/semantic-record-journal-service";
+import { jsonByteCarrierValue } from "@red-cup-engineering/json-byte-carrier-service";
 export const ACTOR = "urn:ame:modern-business-curriculum-enterprise";
 export const NODE_ROOT = resolve(dirname(fileURLToPath(import.meta.url)), "..");
 export const COURSE_PATH = new URL("../content/curricula/modern-firm-as-operational-system.v1.json", import.meta.url);
@@ -11,7 +12,7 @@ export const RESEARCH = "urn:ame:modern-business-research-enterprise", CATEGORY 
 const WITHHELD = ["research-truth-or-business-advice-warranty", "notebook-or-provider-authority", "youtube-channel-or-credential-authority", "generation-upload-schedule-publication-or-course-designation"];
 function canonical(value) { if (Array.isArray(value)) return `[${value.map(canonical).join(",")}]`; if (value && typeof value === "object") return `{${Object.keys(value).sort().map((key) => `${JSON.stringify(key)}:${canonical(value[key])}`).join(",")}}`; return JSON.stringify(value); }
 export function digest(value) { return `sha256:${createHash("sha256").update(canonical(value)).digest("hex")}`; }
-function semanticJson(value) { if (value instanceof Uint8Array) return { "$bytes": Buffer.from(value).toString("base64url") }; if (Array.isArray(value)) return value.map(semanticJson); if (value && typeof value === "object") return Object.fromEntries(Object.entries(value).map(([key, child]) => [key, semanticJson(child)])); return value; }
+const semanticJson = jsonByteCarrierValue
 export function contentId(value) { return identifyJsonSemanticContent({ objectKind: "emsweb.modern-business-curriculum.record", value: semanticJson(value), witnessRoot: EMPTY_WITNESS_ROOT }).token; }
 export function loadCourse(path = COURSE_PATH) { return JSON.parse(readFileSync(path, "utf8")); }
 export function validateCourse(course) {

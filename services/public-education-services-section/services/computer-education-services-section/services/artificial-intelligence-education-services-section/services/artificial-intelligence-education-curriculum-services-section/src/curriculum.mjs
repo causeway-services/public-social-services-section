@@ -4,6 +4,7 @@ import { lstatSync, readFileSync, realpathSync } from "node:fs";
 import { dirname, join, resolve } from "node:path";
 import { fileURLToPath } from "node:url";
 import { createSemanticRecordJournal } from "@red-cup-engineering/semantic-record-journal-service";
+import { jsonByteCarrierValue } from "@red-cup-engineering/json-byte-carrier-service";
 import { canonical } from "@red-cup-engineering/json-codec-service";
 export const ACTOR = "urn:ame:artificial-intelligence-curriculum-enterprise";
 export const NODE_ROOT = resolve(dirname(fileURLToPath(import.meta.url)), "..");
@@ -17,7 +18,7 @@ const PRODUCT_WITHHELD = ["youtube-channel-authority", "youtube-credential-custo
 const REQUIRED_RIGHTS = ["notebooklm-transformation", "public-youtube-release"];
 const ID = /^[a-z0-9]+(?:-[a-z0-9]+)*$/u;
 export function digest(value) { return `sha256:${createHash("sha256").update(value instanceof Uint8Array ? value : canonical(value)).digest("hex")}`; }
-function semanticJson(value) { if (value instanceof Uint8Array) return { "$bytes": Buffer.from(value).toString("base64url") }; if (Array.isArray(value)) return value.map(semanticJson); if (value && typeof value === "object") return Object.fromEntries(Object.entries(value).map(([key, child]) => [key, semanticJson(child)])); return value; }
+const semanticJson = jsonByteCarrierValue
 export function contentId(value) { return identifyJsonSemanticContent({ objectKind: "emsweb.artificial-intelligence-curriculum.record", value: semanticJson(value), witnessRoot: EMPTY_WITNESS_ROOT }).token; }
 function researchContentId(value) { return identifyJsonSemanticContent({ objectKind: "emsweb.artificial-intelligence-research.record", value: semanticJson(value), witnessRoot: EMPTY_WITNESS_ROOT }).token; }
 export function loadCourse(path = COURSE_PATH) { return JSON.parse(readFileSync(path, "utf8")); }
