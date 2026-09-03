@@ -1,0 +1,69 @@
+{
+  "subject": "everyone-hates-datacentres-do-we-really-need-them-podcast",
+  "claims": [
+    {
+      "id": "title",
+      "proposition": {
+        "predicate": "title",
+        "object": "Everyone hates datacentres. Do we really need them? – podcast"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "science",
+        "citation": "https://www.theguardian.com/science/audio/2026/aug/27/everyone-hates-datacentres-do-we-really-need-them-podcast"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "url",
+      "proposition": {
+        "predicate": "url",
+        "object": "https://www.theguardian.com/science/audio/2026/aug/27/everyone-hates-datacentres-do-we-really-need-them-podcast"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "science",
+        "citation": "https://www.theguardian.com/science/audio/2026/aug/27/everyone-hates-datacentres-do-we-really-need-them-podcast"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "summary",
+      "proposition": {
+        "predicate": "summary",
+        "object": "<p>AI companies have promised us world-shifting technology. But there’s a cost: loud, unsightly datacentres that drain environmental resources. As the government pushes their rapid growth, can local communities do anything to push back? Madeleine Finlay speaks to the Guardian’s global technology reporter Aisha Down about the backlash to datacentres across the UK and around the world</p><p>For tickets to the Science Weekly live event at the London podcast festival on the future of AI, visit the <a href=\"https://www.kingsplace.co.uk/whats-on/podcast/the-guardian-science-weekly/\">event page at kingsplace.co.uk</a></p><p>Support the Guardian: <a href=\"http://theguardian.com/sciencepod\">theguardian.com/sciencepod</a></p> <a href=\"https://www.theguardian.com/science/audio/2026/aug/27/everyone-hates-datacentres-do-we-really-need-them-podcast\">Continue reading...</a>"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "science",
+        "citation": "https://www.theguardian.com/science/audio/2026/aug/27/everyone-hates-datacentres-do-we-really-need-them-podcast"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "published",
+      "proposition": {
+        "predicate": "published",
+        "object": "Thu, 27 Aug 2026 04:00:05 GMT"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "science",
+        "citation": "https://www.theguardian.com/science/audio/2026/aug/27/everyone-hates-datacentres-do-we-really-need-them-podcast"
+      },
+      "status": "supported"
+    }
+  ]
+}

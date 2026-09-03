@@ -1,0 +1,69 @@
+{
+  "subject": "my-autistic-son-lives-in-fear-of-bailiffs-from-ovo-breaking-into-his-flat",
+  "claims": [
+    {
+      "id": "title",
+      "proposition": {
+        "predicate": "title",
+        "object": "My autistic son lives in fear of bailiffs from Ovo breaking into his flat"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "economy",
+        "citation": "https://www.theguardian.com/money/2026/sep/02/ovo-energy-debt-demands-autistic-son"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "url",
+      "proposition": {
+        "predicate": "url",
+        "object": "https://www.theguardian.com/money/2026/sep/02/ovo-energy-debt-demands-autistic-son"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "economy",
+        "citation": "https://www.theguardian.com/money/2026/sep/02/ovo-energy-debt-demands-autistic-son"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "summary",
+      "proposition": {
+        "predicate": "summary",
+        "object": "<p>He doesn’t have an account with them, but is being bombarded with demands for money and threats of debt collectors</p><p><strong>My autistic son has been bombarded for years by letters to his home from OVO Energy addressed to “The Occupier”, with demands for money and threats of debt collectors. He is supplied by Scottish Gas.</strong></p><p><strong>He was required to let an OVO agent into his flat to “prove” he didn’t have an OVO meter. Neither this, nor countless phone calls, has stopped the demands.</strong></p> <a href=\"https://www.theguardian.com/money/2026/sep/02/ovo-energy-debt-demands-autistic-son\">Continue reading...</a>"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "economy",
+        "citation": "https://www.theguardian.com/money/2026/sep/02/ovo-energy-debt-demands-autistic-son"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "published",
+      "proposition": {
+        "predicate": "published",
+        "object": "Wed, 02 Sep 2026 06:00:25 GMT"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "economy",
+        "citation": "https://www.theguardian.com/money/2026/sep/02/ovo-energy-debt-demands-autistic-son"
+      },
+      "status": "supported"
+    }
+  ]
+}

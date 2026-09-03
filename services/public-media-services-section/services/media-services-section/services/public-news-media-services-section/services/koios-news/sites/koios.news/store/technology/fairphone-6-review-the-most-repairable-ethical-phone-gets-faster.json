@@ -1,0 +1,69 @@
+{
+  "subject": "fairphone-6-review-the-most-repairable-ethical-phone-gets-faster",
+  "claims": [
+    {
+      "id": "title",
+      "proposition": {
+        "predicate": "title",
+        "object": "Fairphone 6+ review: the most repairable, ethical phone gets faster"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "technology",
+        "citation": "https://www.theguardian.com/technology/2026/aug/24/fairphone-6-review-the-most-repairable-ethical-phone-gets-faster"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "url",
+      "proposition": {
+        "predicate": "url",
+        "object": "https://www.theguardian.com/technology/2026/aug/24/fairphone-6-review-the-most-repairable-ethical-phone-gets-faster"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "technology",
+        "citation": "https://www.theguardian.com/technology/2026/aug/24/fairphone-6-review-the-most-repairable-ethical-phone-gets-faster"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "summary",
+      "proposition": {
+        "predicate": "summary",
+        "object": "<p>Dutch sustainable smartphone revamped with new chip and more RAM without sacrificing modular design</p><p>Fairphone’s top Android for 2026 is a little faster with more memory while maintaining full compatibility with its previous phone, including its repairable and ethical chops.</p><p>The Fairphone 6+ continues the Dutch cooperative’s mission to make consumer electronics longer lasting and more sustainable, containing 51% either recycled or ethically sourced materials while being fully repairable at home with just the one screwdriver included in the box.</p> <a href=\"https://www.theguardian.com/technology/2026/aug/24/fairphone-6-review-the-most-repairable-ethical-phone-gets-faster\">Continue reading...</a>"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "technology",
+        "citation": "https://www.theguardian.com/technology/2026/aug/24/fairphone-6-review-the-most-repairable-ethical-phone-gets-faster"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "published",
+      "proposition": {
+        "predicate": "published",
+        "object": "Mon, 24 Aug 2026 06:00:53 GMT"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "technology",
+        "citation": "https://www.theguardian.com/technology/2026/aug/24/fairphone-6-review-the-most-repairable-ethical-phone-gets-faster"
+      },
+      "status": "supported"
+    }
+  ]
+}

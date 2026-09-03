@@ -1,0 +1,69 @@
+{
+  "subject": "i-m-a-neuroscientist-here-s-why-our-brains-need-pop-concerts-bala-subramaniam",
+  "claims": [
+    {
+      "id": "title",
+      "proposition": {
+        "predicate": "title",
+        "object": "I’m a neuroscientist. Here’s why our brains need pop concerts | Bala Subramaniam"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "science",
+        "citation": "https://www.theguardian.com/commentisfree/2026/aug/14/pop-concerts-brain-benefits"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "url",
+      "proposition": {
+        "predicate": "url",
+        "object": "https://www.theguardian.com/commentisfree/2026/aug/14/pop-concerts-brain-benefits"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "science",
+        "citation": "https://www.theguardian.com/commentisfree/2026/aug/14/pop-concerts-brain-benefits"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "summary",
+      "proposition": {
+        "predicate": "summary",
+        "object": "<p>Attending a Nick Jonas show with my kids was an invitation to ‘collective effervescence’. We need these shared experiences now more than ever</p><p>Three years ago, I agreed to accompany my children to a Nick Jonas concert. The appeal of the Jonas Brothers, and in this case only one of them, was unfamiliar territory.</p><p>The concert happened to land on a particularly inconvenient day. As I sprinted out of the hospital, my mind was filled with the “what if’s” and “should haves” about our work that day.</p> <a href=\"https://www.theguardian.com/commentisfree/2026/aug/14/pop-concerts-brain-benefits\">Continue reading...</a>"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "science",
+        "citation": "https://www.theguardian.com/commentisfree/2026/aug/14/pop-concerts-brain-benefits"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "published",
+      "proposition": {
+        "predicate": "published",
+        "object": "Fri, 14 Aug 2026 12:00:26 GMT"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "science",
+        "citation": "https://www.theguardian.com/commentisfree/2026/aug/14/pop-concerts-brain-benefits"
+      },
+      "status": "supported"
+    }
+  ]
+}

@@ -1,0 +1,69 @@
+{
+  "subject": "it-s-not-easy-to-show-my-scars-but-i-am-proud-to-break-the-deadly-silence-around-breast-cancer-i",
+  "claims": [
+    {
+      "id": "title",
+      "proposition": {
+        "predicate": "title",
+        "object": "It’s not easy to show my scars. But I am proud to break the deadly silence around breast cancer in Nigeria | Gloria Chinyere Okwu"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "health",
+        "citation": "https://www.theguardian.com/global-development/2026/sep/02/nigerian-women-breast-cancer-stigma-chemotherapy-nigeria-mortality-rate"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "url",
+      "proposition": {
+        "predicate": "url",
+        "object": "https://www.theguardian.com/global-development/2026/sep/02/nigerian-women-breast-cancer-stigma-chemotherapy-nigeria-mortality-rate"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "health",
+        "citation": "https://www.theguardian.com/global-development/2026/sep/02/nigerian-women-breast-cancer-stigma-chemotherapy-nigeria-mortality-rate"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "summary",
+      "proposition": {
+        "predicate": "summary",
+        "object": "<p>I was told to keep my diagnosis private but I am determined to show the reality of breast cancer and reject the stigma that prevents women seeking treatment</p><p>‘Madam, this looks like breast cancer, and if it is, we will chop off your breast.” That was how the doctor welcomed me into the chaotic world of cancer in 2017 when I was 32 years old. He had his back to me, but kept on talking, peering into the specimen bottle.</p><p>For a moment, I could no longer hear him. I thought of my three children, the university degree I had just bagged and the future I had envisaged. If I was going to die, what was the point of it all? I had invested everything I had to obtain that degree, subjecting my children to days of absence while I spent my nights in the university library.</p> <a href=\"https://www.theguardian.com/global-development/2026/sep/02/nigerian-women-breast-cancer-stigma-chemotherapy-nigeria-mortality-rate\">Continue reading...</a>"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "health",
+        "citation": "https://www.theguardian.com/global-development/2026/sep/02/nigerian-women-breast-cancer-stigma-chemotherapy-nigeria-mortality-rate"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "published",
+      "proposition": {
+        "predicate": "published",
+        "object": "Wed, 02 Sep 2026 05:00:23 GMT"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "health",
+        "citation": "https://www.theguardian.com/global-development/2026/sep/02/nigerian-women-breast-cancer-stigma-chemotherapy-nigeria-mortality-rate"
+      },
+      "status": "supported"
+    }
+  ]
+}

@@ -1,0 +1,69 @@
+{
+  "subject": "don-t-f-with-his-time-inside-curt-cignetti-s-uber-efficient-practice-at-indiana",
+  "claims": [
+    {
+      "id": "title",
+      "proposition": {
+        "predicate": "title",
+        "object": "'Don't F with his time': Inside Curt Cignetti's uber-efficient practice at Indiana"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "sport",
+        "citation": "https://www.espn.com/college-football/story/_/id/49773539/college-football-curt-cignetti-indiana-hoosiers-efficient-practice"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "url",
+      "proposition": {
+        "predicate": "url",
+        "object": "https://www.espn.com/college-football/story/_/id/49773539/college-football-curt-cignetti-indiana-hoosiers-efficient-practice"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "sport",
+        "citation": "https://www.espn.com/college-football/story/_/id/49773539/college-football-curt-cignetti-indiana-hoosiers-efficient-practice"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "summary",
+      "proposition": {
+        "predicate": "summary",
+        "object": "Cignetti and his coaches don't waste a second, finishing an hour sooner than most CFB programs."
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "sport",
+        "citation": "https://www.espn.com/college-football/story/_/id/49773539/college-football-curt-cignetti-indiana-hoosiers-efficient-practice"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "published",
+      "proposition": {
+        "predicate": "published",
+        "object": "Wed, 2 Sep 2026 16:55:34 EST"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "sport",
+        "citation": "https://www.espn.com/college-football/story/_/id/49773539/college-football-curt-cignetti-indiana-hoosiers-efficient-practice"
+      },
+      "status": "supported"
+    }
+  ]
+}

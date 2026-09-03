@@ -1,0 +1,69 @@
+{
+  "subject": "sign-up-for-the-moving-the-goalposts-newsletter-our-free-women-s-football-email",
+  "claims": [
+    {
+      "id": "title",
+      "proposition": {
+        "predicate": "title",
+        "object": "Sign up for the Moving the Goalposts newsletter: our free women’s football email"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "sport",
+        "citation": "https://www.theguardian.com/football/2022/mar/22/sign-up-for-our-new-womens-football-newsletter-moving-the-goalposts"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "url",
+      "proposition": {
+        "predicate": "url",
+        "object": "https://www.theguardian.com/football/2022/mar/22/sign-up-for-our-new-womens-football-newsletter-moving-the-goalposts"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "sport",
+        "citation": "https://www.theguardian.com/football/2022/mar/22/sign-up-for-our-new-womens-football-newsletter-moving-the-goalposts"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "summary",
+      "proposition": {
+        "predicate": "summary",
+        "object": "<p>Get our roundup of women’s football for free twice a week, featuring the insights of experts such as Ada Hegerberg and Magdalena Eriksson</p><p>Join us as we delve deeper into the wonderful world of women’s football in our weekly newsletter. It is informative, entertaining, global, critical – when needed – and, above all, passionate. Written mainly by <a href=\"https://www.theguardian.com/profile/julia-belas-trindade\">Júlia Belas Trindade</a> and <a href=\"https://www.theguardian.com/profile/sophie-downey\">Sophie Downey</a>, expect guest appearances from stars such as Anita Asante, Ada Hegerberg and many more.</p><p>Try our other sports emails: as well as the occasionally funny football email <a href=\"https://www.theguardian.com/info/2016/jan/05/the-fiver-email-sign-up\">The Fiver </a>from Monday to Friday, there are weekly catch-ups for cricket in <a href=\"https://www.theguardian.com/sport/2016/aug/18/sign-up-to-the-spin\">The Spin</a> and rugby union in <a href=\"https://www.theguardian.com/sport/2016/aug/18/sign-up-to-the-breakdown\">The Breakdown</a>, and our seven-day roundup of the best of our sports journalism in <a href=\"https://www.theguardian.com/sport/2017/may/15/the-recap-sign-up-for-the-best-of-the-guardians-sport-coverage\">The Recap</a>.</p><p>Living in Australia? Try the <a href=\"https://www.theguardian.com/info/2015/jun/05/guardian-australia-sport-newsletter-subscribe-by-email\">Guardian Australia’s daily sports newsletter</a></p> <a href=\"https://www.theguardian.com/football/2022/mar/22/sign-up-for-our-new-womens-football-newsletter-moving-the-goalposts\">Continue reading...</a>"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "sport",
+        "citation": "https://www.theguardian.com/football/2022/mar/22/sign-up-for-our-new-womens-football-newsletter-moving-the-goalposts"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "published",
+      "proposition": {
+        "predicate": "published",
+        "object": "Tue, 22 Mar 2022 16:57:35 GMT"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "sport",
+        "citation": "https://www.theguardian.com/football/2022/mar/22/sign-up-for-our-new-womens-football-newsletter-moving-the-goalposts"
+      },
+      "status": "supported"
+    }
+  ]
+}

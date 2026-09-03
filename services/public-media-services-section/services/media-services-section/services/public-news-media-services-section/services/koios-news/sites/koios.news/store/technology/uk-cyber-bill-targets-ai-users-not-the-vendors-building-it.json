@@ -1,0 +1,69 @@
+{
+  "subject": "uk-cyber-bill-targets-ai-users-not-the-vendors-building-it",
+  "claims": [
+    {
+      "id": "title",
+      "proposition": {
+        "predicate": "title",
+        "object": "UK cyber bill targets AI users, not the vendors building it"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "technology",
+        "citation": "https://www.theregister.com/security/2026/09/02/uk-cyber-bill-targets-ai-users-not-the-vendors-building-it/5293738"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "url",
+      "proposition": {
+        "predicate": "url",
+        "object": "https://www.theregister.com/security/2026/09/02/uk-cyber-bill-targets-ai-users-not-the-vendors-building-it/5293738"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "technology",
+        "citation": "https://www.theregister.com/security/2026/09/02/uk-cyber-bill-targets-ai-users-not-the-vendors-building-it/5293738"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "summary",
+      "proposition": {
+        "predicate": "summary",
+        "object": "The UK government has rejected proposals from members of the the House of Lords to bring AI vendors within the scope of the Cyber Security and Resilience (Network and Information Systems) Bill. Cybersecurity minister Baroness Lloyd of Effra argued that regulating AI vendors and frontier model developers through the bill would not prevent hostile actors from misusing their products. Addressing the Grand Committee on Tuesday, she said: \"Bringing providers of AI services, those companies which are at the cutting edge of frontier AI development and their products, into the scope… would not address the harms that can be posed by some AI products and services, or specifically, it would not prevent their misuse by hostile actors.\" The minister said the UK was instead taking \"firm action\" to secure AI through other channels. These include supporting the AI Security Institute (AISI), which works with vendors to test the security of models before their release. Lloyd also pointed to the voluntary AI Cyber Security Code of Practice, which informed the first global AI cybersecurity standard, ETSI EN 304 223. \"This demonstrates our global leadership and commitment to shaping international technical standards which go wider than some of the issues raised in this bill,\" she claimed. Members of the House of Lords - the upper house in UK parliament - offered numerous arguments for bringing AI within the bill's scope. They cited reports of rogue agentic behavior involving Anthropic and OpenAI, as well as Bill Gates' concerns that commercial incentives are pushing AI development forward without adequate safeguards. Lawmakers also questioned whether companies unable to prevent their agents from misbehaving should be trusted to follow voluntary ethical guidelines that they can rewrite at will. \"Have we not learned from countless experiences before in online safety, privacy, and in AI itself that allowing tech companies to set and mark their own homework endangers the public and our national security?\" asked Baroness Kidron, a Crossbench peer and campaigner for online safety and digital rights. Similarly, Lord Tarassenko, a Crossbench peer and veteran AI researcher, pointed to the recent open letter penned by OpenAI warning that there will soon come a time when AI-orchestrated cyberattacks will become too prevalent to handle. Although the letter was criticized for employing alarmist language while carrying the signatures of companies that profit from AI, peers argued that its warning strengthened the case for regulatory intervention. Kidron and Lloyd also clashed after the minister used a hypothetical healthcare organization to illustrate how the bill would require regulated bodies to secure systems containing AI. Kidron asked: \"If I might ask the noble Lady, the Minister, if I've understood what she said, the NHS must protect itself, but the AI that is attacking it has no requirement under the Bill, no duties, no obligations under the Bill to check itself before it's used in these ways.\" Lloyd said the bill was designed to be technology-agnostic and to impose stricter cybersecurity requirements on key organizations, rather than regulate individual technology providers. She nevertheless said the government was willing to continue discussing AI after Kidron predicted that the issue would return during later stages of the bill's passage. The minister rejected several other amendments, including one that would require certain AI vendors to demonstrate that their products could not cross specified red lines, such as evading human oversight or assisting with the development of chemical weapons. She also dismissed a proposal that would give the Secretary of State last-resort powers to order the shutdown of a datacenter or widely deployed AI system during a security or operational emergency. Lloyd said the bill would instead allow the government to direct regulated entities, including datacenter operators but not AI vendors, to take or cease specified actions when their systems presented a qualifying risk. A power station could, for example, be instructed to stop using a particular AI model. \"We believe this is a more proportionate and effective response, as datacenters operate in highly complex ecosystems and AI systems are often distributed across different datacenters and jurisdictions,\" said Baroness Lloyd. \"It's much less desirable to direct multiple datacenters to shut down, and the impact this could have on services that rely on them, than to direct them to cease using an AI model.\" Despite rejecting the amendments, Lloyd said the government remained willing to discuss AI regulation because of the technology's economic significance. The Grand Committee is scheduled to resume discussions of the CSR Bill when it reconvenes on Thursday. The bill's background The CSR Bill was first proposed in the 2024 King's Speech and introduced in Parliament in November 2025. It attracted attention over the £100,000 daily fines initially proposed for in-scope organizations that failed to protect against specific threats. The legislation builds on the existing categories of operators of essential services and relevant digital service providers while extending the regime to organizations including managed service providers, datacenter operators, and designated critical suppliers. Managed service providers were previously due to be brought within scope through the abandoned 2022 update to the NIS regulations. The broad intention of the bill is to update the NIS 2018 regulations and future-proof the UK's critical infrastructure from cyber threats. However, this week's Grand Committee scrutiny is not the first time the bill has been criticized. In January, shadow deputy PM Sir Oliver Dowden called on the government to rethink its exclusion of local and central government from the CSR bill. The UK's Government Cyber Action Plan, launched hours before the former digital secretary's remarks, promised to hold government to the same standards proposed in the CSR Bill. Like the AI Cyber Security Code of Practice, the action plan lacks any legal obligations. ®"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "technology",
+        "citation": "https://www.theregister.com/security/2026/09/02/uk-cyber-bill-targets-ai-users-not-the-vendors-building-it/5293738"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "published",
+      "proposition": {
+        "predicate": "published",
+        "object": "Wed, 02 Sep 2026 11:44:00 +0200"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "technology",
+        "citation": "https://www.theregister.com/security/2026/09/02/uk-cyber-bill-targets-ai-users-not-the-vendors-building-it/5293738"
+      },
+      "status": "supported"
+    }
+  ]
+}

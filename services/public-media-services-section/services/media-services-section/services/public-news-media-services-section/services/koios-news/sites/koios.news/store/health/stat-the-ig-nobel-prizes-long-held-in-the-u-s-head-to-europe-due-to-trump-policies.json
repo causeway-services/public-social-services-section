@@ -1,0 +1,69 @@
+{
+  "subject": "stat-the-ig-nobel-prizes-long-held-in-the-u-s-head-to-europe-due-to-trump-policies",
+  "claims": [
+    {
+      "id": "title",
+      "proposition": {
+        "predicate": "title",
+        "object": "STAT+: The Ig Nobel Prizes, long held in the U.S., head to Europe due to Trump policies"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "health",
+        "citation": "https://www.statnews.com/2026/09/02/ig-nobel-prizes-europe-trump-policies/?utm_campaign=rss"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "url",
+      "proposition": {
+        "predicate": "url",
+        "object": "https://www.statnews.com/2026/09/02/ig-nobel-prizes-europe-trump-policies/?utm_campaign=rss"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "health",
+        "citation": "https://www.statnews.com/2026/09/02/ig-nobel-prizes-europe-trump-policies/?utm_campaign=rss"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "summary",
+      "proposition": {
+        "predicate": "summary",
+        "object": "It usually takes 10 minutes for Marc Abrahams, founder of the Ig Nobel Prizes, to walk from his home in Cambridge, Mass., to the annual award ceremony — a world-renowned spectacle celebrating quirky scientific achievements . But this year, Abrahams’s trip involves an international flight. For the first time since the awards — a satirical version of the Nobel prizes — were created in 1991, the ceremony, which takes place Thursday and draws hundreds of scientists and journalists from around the world, is not being held in Cambridge or Boston. Organizers said they decided to move the event to Zurich, Switzerland , due to concerns that many international participants, including award winners, would not feel comfortable or be able to come to the United States amid the Trump administration’s immigration crackdown and upending of science . Continue to STAT+ to read the full story&hellip;"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "health",
+        "citation": "https://www.statnews.com/2026/09/02/ig-nobel-prizes-europe-trump-policies/?utm_campaign=rss"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "published",
+      "proposition": {
+        "predicate": "published",
+        "object": "Wed, 02 Sep 2026 08:30:00 +0000"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "health",
+        "citation": "https://www.statnews.com/2026/09/02/ig-nobel-prizes-europe-trump-policies/?utm_campaign=rss"
+      },
+      "status": "supported"
+    }
+  ]
+}

@@ -1,0 +1,69 @@
+{
+  "subject": "cities-sweltering-and-the-smell-of-the-middle-ages-has-the-climate-crisis-killed-instagram-s-eur",
+  "claims": [
+    {
+      "id": "title",
+      "proposition": {
+        "predicate": "title",
+        "object": "Cities sweltering and the smell of the middle ages: has the climate crisis killed Instagram’s Euro summer? | Brigid Delaney"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "environment",
+        "citation": "https://www.theguardian.com/environment/commentisfree/2026/sep/01/has-climate-crisis-killed-instagrams-euro-summer"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "url",
+      "proposition": {
+        "predicate": "url",
+        "object": "https://www.theguardian.com/environment/commentisfree/2026/sep/01/has-climate-crisis-killed-instagrams-euro-summer"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "environment",
+        "citation": "https://www.theguardian.com/environment/commentisfree/2026/sep/01/has-climate-crisis-killed-instagrams-euro-summer"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "summary",
+      "proposition": {
+        "predicate": "summary",
+        "object": "<p>Who dreams of having a Euro summer now when staying in an ancient, uncooled building in the Old Town is like trying to sleep in a wood-fired pizza oven?</p><p>This week the Euro summer comes to an end – and so does a certain type of posting on Instagram.</p><p>Waiting at the bus stop in the grey winter dawn, a slanting rain soaking your trouser leg, you can warm yourself by scrolling your feed and seeing pictures of Australians enjoying a Euro summer. There it is again – azure Greek coves, plates of barbecued sardines, the yachts rented by the hour, and selfies on the balcony of some Paris Airbnb, drinking wine in the long, blue night.</p> <a href=\"https://www.theguardian.com/environment/commentisfree/2026/sep/01/has-climate-crisis-killed-instagrams-euro-summer\">Continue reading...</a>"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "environment",
+        "citation": "https://www.theguardian.com/environment/commentisfree/2026/sep/01/has-climate-crisis-killed-instagrams-euro-summer"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "published",
+      "proposition": {
+        "predicate": "published",
+        "object": "Tue, 01 Sep 2026 05:03:17 GMT"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "environment",
+        "citation": "https://www.theguardian.com/environment/commentisfree/2026/sep/01/has-climate-crisis-killed-instagrams-euro-summer"
+      },
+      "status": "supported"
+    }
+  ]
+}

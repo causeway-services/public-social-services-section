@@ -1,0 +1,69 @@
+{
+  "subject": "this-strange-spacetime-crystal-can-suddenly-become-a-black-hole",
+  "claims": [
+    {
+      "id": "title",
+      "proposition": {
+        "predicate": "title",
+        "object": "This strange “spacetime crystal” can suddenly become a black hole"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "science",
+        "citation": "https://www.sciencedaily.com/releases/2026/08/260829035225.htm"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "url",
+      "proposition": {
+        "predicate": "url",
+        "object": "https://www.sciencedaily.com/releases/2026/08/260829035225.htm"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "science",
+        "citation": "https://www.sciencedaily.com/releases/2026/08/260829035225.htm"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "summary",
+      "proposition": {
+        "predicate": "summary",
+        "object": "Physicists have mathematically captured a bizarre “spacetime crystal” that can either dissolve or collapse into a microscopic black hole after only a tiny change in energy. Their breakthrough came from an unusual trick involving infinitely many dimensions, potentially giving researchers a new tool for studying primordial and microscopic black holes."
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "science",
+        "citation": "https://www.sciencedaily.com/releases/2026/08/260829035225.htm"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "published",
+      "proposition": {
+        "predicate": "published",
+        "object": "Sun, 30 Aug 2026 11:05:09 EDT"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "science",
+        "citation": "https://www.sciencedaily.com/releases/2026/08/260829035225.htm"
+      },
+      "status": "supported"
+    }
+  ]
+}

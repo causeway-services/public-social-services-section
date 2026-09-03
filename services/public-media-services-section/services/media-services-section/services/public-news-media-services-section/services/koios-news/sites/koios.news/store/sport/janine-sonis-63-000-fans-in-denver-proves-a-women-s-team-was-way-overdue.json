@@ -1,0 +1,69 @@
+{
+  "subject": "janine-sonis-63-000-fans-in-denver-proves-a-women-s-team-was-way-overdue",
+  "claims": [
+    {
+      "id": "title",
+      "proposition": {
+        "predicate": "title",
+        "object": "Janine Sonis: ‘63,000 fans in Denver proves a women’s team was way overdue’"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "sport",
+        "citation": "https://www.theguardian.com/football/2026/sep/01/janine-sonis-interview-denver-summit-moving-the-goalposts"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "url",
+      "proposition": {
+        "predicate": "url",
+        "object": "https://www.theguardian.com/football/2026/sep/01/janine-sonis-interview-denver-summit-moving-the-goalposts"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "sport",
+        "citation": "https://www.theguardian.com/football/2026/sep/01/janine-sonis-interview-denver-summit-moving-the-goalposts"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "summary",
+      "proposition": {
+        "predicate": "summary",
+        "object": "<p>The Canada and Denver Summit full-back on playing at a packed Mile High Stadium and the impact of Lindsey Heaps</p><p>In the 13th minute of a 6-1 win against Chicago, Janine Sonis ran into the penalty area and stealthily positioned herself behind a line of defenders, before striking a crisp shot into the right corner. It was her ninth goal of the season, the most of any Denver Summit player, and joint-seventh in the NWSL.</p><p>Now playing for her hometown club in their debut season, the NWSL and Canada veteran feels that her happiness is translating on to the field. “I think it’s been a season that I’ve enjoyed myself more than any other season in my career, and I think that that’s showing in the way that I’m playing,” she said.</p><p><em><strong>This is an extract from our free email about women’s football, Moving the Goalposts. To get the full edition, <a href=\"https://www.theguardian.com/football/2022/mar/22/sign-up-for-our-new-womens-football-newsletter-moving-the-goalposts\">visit this page and follow the instructions</a>. Moving the Goalposts is delivered to your inboxes every Tuesday and Thursday</strong></em><strong>.</strong></p><p><em>On Friday 4 September at 1pm Suzanne Wrack will be answering readers’ questions about the new WSL season for Guardian <a href=\"https://www.theguardian.com/community/series/conversations\">Conversations</a>.</em></p> <a href=\"https://www.theguardian.com/football/2026/sep/01/janine-sonis-interview-denver-summit-moving-the-goalposts\">Continue reading...</a>"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "sport",
+        "citation": "https://www.theguardian.com/football/2026/sep/01/janine-sonis-interview-denver-summit-moving-the-goalposts"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "published",
+      "proposition": {
+        "predicate": "published",
+        "object": "Tue, 01 Sep 2026 11:29:56 GMT"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "sport",
+        "citation": "https://www.theguardian.com/football/2026/sep/01/janine-sonis-interview-denver-summit-moving-the-goalposts"
+      },
+      "status": "supported"
+    }
+  ]
+}

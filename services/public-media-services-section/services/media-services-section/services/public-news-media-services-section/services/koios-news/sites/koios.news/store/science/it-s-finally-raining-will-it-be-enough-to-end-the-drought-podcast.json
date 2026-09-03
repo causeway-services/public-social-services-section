@@ -1,0 +1,69 @@
+{
+  "subject": "it-s-finally-raining-will-it-be-enough-to-end-the-drought-podcast",
+  "claims": [
+    {
+      "id": "title",
+      "proposition": {
+        "predicate": "title",
+        "object": "It’s finally raining. Will it be enough to end the drought? – podcast"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "science",
+        "citation": "https://www.theguardian.com/science/audio/2026/aug/20/its-finally-raining-will-it-be-enough-to-end-the-drought-podcast"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "url",
+      "proposition": {
+        "predicate": "url",
+        "object": "https://www.theguardian.com/science/audio/2026/aug/20/its-finally-raining-will-it-be-enough-to-end-the-drought-podcast"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "science",
+        "citation": "https://www.theguardian.com/science/audio/2026/aug/20/its-finally-raining-will-it-be-enough-to-end-the-drought-podcast"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "summary",
+      "proposition": {
+        "predicate": "summary",
+        "object": "<p>After a summer that has seen England and Wales experience the driest July since records began, rain is finally on the horizon. But with reservoirs at ‘exceptionally low’ levels, will there be enough rain to replenish stocks? Madeleine Finlay hears from Dr Anna Murgatroyd, a lecturer in hydrology at Newcastle University, about how much rain we need to see us through next summer, why we’re now at increased risk of floods, and what we can all be doing to take better care of our water supplies</p><p>Support the Guardian: <a href=\"http://theguardian.com/sciencepod\">theguardian.com/sciencepod</a></p> <a href=\"https://www.theguardian.com/science/audio/2026/aug/20/its-finally-raining-will-it-be-enough-to-end-the-drought-podcast\">Continue reading...</a>"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "science",
+        "citation": "https://www.theguardian.com/science/audio/2026/aug/20/its-finally-raining-will-it-be-enough-to-end-the-drought-podcast"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "published",
+      "proposition": {
+        "predicate": "published",
+        "object": "Thu, 20 Aug 2026 04:00:42 GMT"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "science",
+        "citation": "https://www.theguardian.com/science/audio/2026/aug/20/its-finally-raining-will-it-be-enough-to-end-the-drought-podcast"
+      },
+      "status": "supported"
+    }
+  ]
+}

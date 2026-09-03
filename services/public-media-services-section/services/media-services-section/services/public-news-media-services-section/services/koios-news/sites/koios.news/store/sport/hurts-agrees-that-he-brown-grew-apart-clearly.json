@@ -1,0 +1,69 @@
+{
+  "subject": "hurts-agrees-that-he-brown-grew-apart-clearly",
+  "claims": [
+    {
+      "id": "title",
+      "proposition": {
+        "predicate": "title",
+        "object": "Hurts agrees that he, Brown grew apart: 'Clearly'"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "sport",
+        "citation": "https://www.espn.com/nfl/story/_/id/49804039/eagles-hurts-agrees-brown-grew-apart-last-season"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "url",
+      "proposition": {
+        "predicate": "url",
+        "object": "https://www.espn.com/nfl/story/_/id/49804039/eagles-hurts-agrees-brown-grew-apart-last-season"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "sport",
+        "citation": "https://www.espn.com/nfl/story/_/id/49804039/eagles-hurts-agrees-brown-grew-apart-last-season"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "summary",
+      "proposition": {
+        "predicate": "summary",
+        "object": "Eagles quarterback Jalen Hurts confirmed former teammate A.J. Brown's comments that the two had grown apart last season in QB's interview with GQ magazine."
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "sport",
+        "citation": "https://www.espn.com/nfl/story/_/id/49804039/eagles-hurts-agrees-brown-grew-apart-last-season"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "published",
+      "proposition": {
+        "predicate": "published",
+        "object": "Wed, 2 Sep 2026 18:21:05 EST"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "sport",
+        "citation": "https://www.espn.com/nfl/story/_/id/49804039/eagles-hurts-agrees-brown-grew-apart-last-season"
+      },
+      "status": "supported"
+    }
+  ]
+}

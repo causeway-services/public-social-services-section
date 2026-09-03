@@ -1,0 +1,69 @@
+{
+  "subject": "russia-kills-at-least-12-on-sixth-night-of-drone-attacks-on-kyiv",
+  "claims": [
+    {
+      "id": "title",
+      "proposition": {
+        "predicate": "title",
+        "object": "Russia kills at least 12 on sixth night of drone attacks on Kyiv"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "war",
+        "citation": "https://www.theguardian.com/world/2026/sep/01/russia-kills-sixth-night-drone-attacks-ukraine-kyiv"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "url",
+      "proposition": {
+        "predicate": "url",
+        "object": "https://www.theguardian.com/world/2026/sep/01/russia-kills-sixth-night-drone-attacks-ukraine-kyiv"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "war",
+        "citation": "https://www.theguardian.com/world/2026/sep/01/russia-kills-sixth-night-drone-attacks-ukraine-kyiv"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "summary",
+      "proposition": {
+        "predicate": "summary",
+        "object": "<p>Zelenskyy says Moscow is capitalising on shortage of US-made Patriot interceptors to lower morale in capital</p><ul><li><p><a href=\"https://www.theguardian.com/world/live/2026/sep/01/ukraine-russia-strikes-attacks-odesa-zelenskyy-putin-eu-defence-europe-latest-news-updates\">Europe live – latest updates</a></p></li></ul><p>At least 12 people have been killed in and around Kyiv overnight as Ukraine’s capital endured a <a href=\"https://www.theguardian.com/world/2026/aug/31/russia-fires-jet-powered-drones-ukraine\">sixth consecutive night of Russian drone and missile attacks</a> aimed at shattering infrastructure and lowering the morale of the city.</p><p>Eight of the dead were reported killed in Kyiv, including seven at a railway depot on the city’s left bank, and four were killed in Boryspil, to the east of the city, in a wave of strikes at about 2.30am after hours of air alerts.</p> <a href=\"https://www.theguardian.com/world/2026/sep/01/russia-kills-sixth-night-drone-attacks-ukraine-kyiv\">Continue reading...</a>"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "war",
+        "citation": "https://www.theguardian.com/world/2026/sep/01/russia-kills-sixth-night-drone-attacks-ukraine-kyiv"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "published",
+      "proposition": {
+        "predicate": "published",
+        "object": "Tue, 01 Sep 2026 15:06:27 GMT"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "war",
+        "citation": "https://www.theguardian.com/world/2026/sep/01/russia-kills-sixth-night-drone-attacks-ukraine-kyiv"
+      },
+      "status": "supported"
+    }
+  ]
+}

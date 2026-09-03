@@ -1,0 +1,69 @@
+{
+  "subject": "ranking-the-nfl-s-top-100-players-for-this-season-from-myles-garrett-to",
+  "claims": [
+    {
+      "id": "title",
+      "proposition": {
+        "predicate": "title",
+        "object": "Ranking the NFL's top 100 players for this season, from Myles Garrett to ..."
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "sport",
+        "citation": "https://www.espn.com/nfl/story/_/id/49706895/2026-nfl-season-rankings-top-100-players-predictions-stats"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "url",
+      "proposition": {
+        "predicate": "url",
+        "object": "https://www.espn.com/nfl/story/_/id/49706895/2026-nfl-season-rankings-top-100-players-predictions-stats"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "sport",
+        "citation": "https://www.espn.com/nfl/story/_/id/49706895/2026-nfl-season-rankings-top-100-players-predictions-stats"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "summary",
+      "proposition": {
+        "predicate": "summary",
+        "object": "Which defender came in at No. 1? Which team had the most players included?"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "sport",
+        "citation": "https://www.espn.com/nfl/story/_/id/49706895/2026-nfl-season-rankings-top-100-players-predictions-stats"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "published",
+      "proposition": {
+        "predicate": "published",
+        "object": "Wed, 2 Sep 2026 15:09:11 EST"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "sport",
+        "citation": "https://www.espn.com/nfl/story/_/id/49706895/2026-nfl-season-rankings-top-100-players-predictions-stats"
+      },
+      "status": "supported"
+    }
+  ]
+}

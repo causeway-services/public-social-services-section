@@ -1,0 +1,69 @@
+{
+  "subject": "a-pediatrician-is-running-for-senate-can-doctors-change-the-political-debate-over-health-and-sci",
+  "claims": [
+    {
+      "id": "title",
+      "proposition": {
+        "predicate": "title",
+        "object": "A pediatrician is running for Senate. Can doctors change the political debate over health and science?"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "health",
+        "citation": "https://www.theguardian.com/us-news/2026/aug/31/annie-andrews-south-carolina-senate"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "url",
+      "proposition": {
+        "predicate": "url",
+        "object": "https://www.theguardian.com/us-news/2026/aug/31/annie-andrews-south-carolina-senate"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "health",
+        "citation": "https://www.theguardian.com/us-news/2026/aug/31/annie-andrews-south-carolina-senate"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "summary",
+      "proposition": {
+        "predicate": "summary",
+        "object": "<p>After Lindsey Graham’s death, Democrat Annie Andrews finds herself in a closely watched race as she seeks to flip his Republican seat</p><p>Annie Andrews was a dark horse Democrat challenging a five-term Republican in the US Senate when 314 Action, a political action fund devoted to electing scientists and doctors, first backed her.</p><p>Now, after the unexpected death of Senator Lindsey Graham, Andrews finds herself in a closely watched race. Donald Trump persuaded South Carolina voters last week to <a href=\"https://www.theguardian.com/us-news/2026/aug/25/south-carolina-senate-republican-primary-runoff\">select Graham’s sister, Darline</a>, as the new Republican candidate. They will face off in November in an election still heavily favored to keep the seat in Republican hands in the conservative state.</p> <a href=\"https://www.theguardian.com/us-news/2026/aug/31/annie-andrews-south-carolina-senate\">Continue reading...</a>"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "health",
+        "citation": "https://www.theguardian.com/us-news/2026/aug/31/annie-andrews-south-carolina-senate"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "published",
+      "proposition": {
+        "predicate": "published",
+        "object": "Mon, 31 Aug 2026 14:08:12 GMT"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "health",
+        "citation": "https://www.theguardian.com/us-news/2026/aug/31/annie-andrews-south-carolina-senate"
+      },
+      "status": "supported"
+    }
+  ]
+}

@@ -1,0 +1,69 @@
+{
+  "subject": "dahi-black-boy-alternative-review-kendrick-producer-takes-the-spotlight-for-all-star-guitar-cele",
+  "claims": [
+    {
+      "id": "title",
+      "proposition": {
+        "predicate": "title",
+        "object": "Dahi: Black Boy (Alternative) review – Kendrick producer takes the spotlight for all-star guitar celebration"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "entertainment",
+        "citation": "https://www.theguardian.com/music/2026/aug/28/dahi-black-boy-alternative-review"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "url",
+      "proposition": {
+        "predicate": "url",
+        "object": "https://www.theguardian.com/music/2026/aug/28/dahi-black-boy-alternative-review"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "entertainment",
+        "citation": "https://www.theguardian.com/music/2026/aug/28/dahi-black-boy-alternative-review"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "summary",
+      "proposition": {
+        "predicate": "summary",
+        "object": "<p><strong>(ALTER)</strong><br>The Grammy winner unites former clients including Lamar and Ravyn Lenae for a playful, dazzling voyage through the guitar’s diversity, from alt-rock to Afrobeat</p><p>On this long-awaited debut, Grammy-winning hip-hop producer Dahi steps out from the booth and into the spotlight. He’s best known for transforming a dreamy Beach House sample into Kendrick Lamar’s hit Money Trees, alongside chameleonic production work for SZA, Madonna, Drake and many more. Now that Dahi’s got the mic, what does he want to say?</p><p>Blending the brittle 90s British rock he loved as a California teen with the west African grooves his father played in the house, Black Boy (Alternative) celebrates the guitar as a transcendent tool that spans genres and continents. No other album this year will boast such starry guest features – Dahi calls up former clients Lamar, Childish Gambino, Vince Staples and Ravyn Lenae alongside experimentalists such as Moses Sumney, Baby Rose and Fousheé – but it’s testament to the strength of his vision that these distinct voices come together like a bedded-in, playful house band. All trust, no ego.</p> <a href=\"https://www.theguardian.com/music/2026/aug/28/dahi-black-boy-alternative-review\">Continue reading...</a>"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "entertainment",
+        "citation": "https://www.theguardian.com/music/2026/aug/28/dahi-black-boy-alternative-review"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "published",
+      "proposition": {
+        "predicate": "published",
+        "object": "Fri, 28 Aug 2026 08:00:52 GMT"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "entertainment",
+        "citation": "https://www.theguardian.com/music/2026/aug/28/dahi-black-boy-alternative-review"
+      },
+      "status": "supported"
+    }
+  ]
+}

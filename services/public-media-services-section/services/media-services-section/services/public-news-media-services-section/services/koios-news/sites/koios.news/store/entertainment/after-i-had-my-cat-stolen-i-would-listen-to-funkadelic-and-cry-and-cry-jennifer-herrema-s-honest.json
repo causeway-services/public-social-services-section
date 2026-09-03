@@ -1,0 +1,69 @@
+{
+  "subject": "after-i-had-my-cat-stolen-i-would-listen-to-funkadelic-and-cry-and-cry-jennifer-herrema-s-honest",
+  "claims": [
+    {
+      "id": "title",
+      "proposition": {
+        "predicate": "title",
+        "object": "‘After I had my cat stolen, I would listen to Funkadelic and cry and cry’: Jennifer Herrema’s honest playlist"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "entertainment",
+        "citation": "https://www.theguardian.com/music/2026/aug/30/jennifer-herrema-honest-playlist-sugarhill-gang-van-halen-lou-reed-acdc"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "url",
+      "proposition": {
+        "predicate": "url",
+        "object": "https://www.theguardian.com/music/2026/aug/30/jennifer-herrema-honest-playlist-sugarhill-gang-van-halen-lou-reed-acdc"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "entertainment",
+        "citation": "https://www.theguardian.com/music/2026/aug/30/jennifer-herrema-honest-playlist-sugarhill-gang-van-halen-lou-reed-acdc"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "summary",
+      "proposition": {
+        "predicate": "summary",
+        "object": "<p>The Black Bananas singer knows all the words to Rapper’s Delight and relates to AC/DC, but which song reminds her of a heartbreaking theft?</p><p><strong>The first song I fell in love with</strong><br> Van Halen’s Runnin’ With the Devil. I was five or six and I went to visit my cousin Tommy who was much older. He was on a hockey team and we went to see them practise before the game and they had Runnin’ With the Devil on really loud. I was like: “Wait, what’s this?!”</p><p><strong>The song I do at karaoke<br></strong>You Shook Me All Night Long by AC/DC. Me and Brian Johnson – my voice has that thing, you know?</p> <a href=\"https://www.theguardian.com/music/2026/aug/30/jennifer-herrema-honest-playlist-sugarhill-gang-van-halen-lou-reed-acdc\">Continue reading...</a>"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "entertainment",
+        "citation": "https://www.theguardian.com/music/2026/aug/30/jennifer-herrema-honest-playlist-sugarhill-gang-van-halen-lou-reed-acdc"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "published",
+      "proposition": {
+        "predicate": "published",
+        "object": "Sun, 30 Aug 2026 08:00:50 GMT"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "entertainment",
+        "citation": "https://www.theguardian.com/music/2026/aug/30/jennifer-herrema-honest-playlist-sugarhill-gang-van-halen-lou-reed-acdc"
+      },
+      "status": "supported"
+    }
+  ]
+}

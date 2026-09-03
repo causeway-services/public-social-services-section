@@ -1,0 +1,69 @@
+{
+  "subject": "southwest-to-debut-airport-lounges-in-four-cities-with-more-to-come",
+  "claims": [
+    {
+      "id": "title",
+      "proposition": {
+        "predicate": "title",
+        "object": "Southwest to debut airport lounges in four cities, with more to come"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "economy",
+        "citation": "https://www.cnbc.com/2026/09/02/southwest-airport-lounges.html"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "url",
+      "proposition": {
+        "predicate": "url",
+        "object": "https://www.cnbc.com/2026/09/02/southwest-airport-lounges.html"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "economy",
+        "citation": "https://www.cnbc.com/2026/09/02/southwest-airport-lounges.html"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "summary",
+      "proposition": {
+        "predicate": "summary",
+        "object": "The airline is partnering with Chase on the effort, saying it wants to build on that company's Sapphire Reserve Lounge Network."
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "economy",
+        "citation": "https://www.cnbc.com/2026/09/02/southwest-airport-lounges.html"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "published",
+      "proposition": {
+        "predicate": "published",
+        "object": "Wed, 02 Sep 2026 17:14:33 GMT"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "economy",
+        "citation": "https://www.cnbc.com/2026/09/02/southwest-airport-lounges.html"
+      },
+      "status": "supported"
+    }
+  ]
+}

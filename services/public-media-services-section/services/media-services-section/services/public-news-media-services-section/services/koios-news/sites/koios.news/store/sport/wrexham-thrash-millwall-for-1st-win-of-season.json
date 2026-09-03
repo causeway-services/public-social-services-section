@@ -1,0 +1,69 @@
+{
+  "subject": "wrexham-thrash-millwall-for-1st-win-of-season",
+  "claims": [
+    {
+      "id": "title",
+      "proposition": {
+        "predicate": "title",
+        "object": "Wrexham thrash Millwall for 1st win of season"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "sport",
+        "citation": "https://www.espn.com/soccer/report/_/gameId/401880295"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "url",
+      "proposition": {
+        "predicate": "url",
+        "object": "https://www.espn.com/soccer/report/_/gameId/401880295"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "sport",
+        "citation": "https://www.espn.com/soccer/report/_/gameId/401880295"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "summary",
+      "proposition": {
+        "predicate": "summary",
+        "object": "Wrexham got their first win of the Championship season in style as Millwall were swept aside 3-0 at the New Den."
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "sport",
+        "citation": "https://www.espn.com/soccer/report/_/gameId/401880295"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "published",
+      "proposition": {
+        "predicate": "published",
+        "object": "Wed, 2 Sep 2026 18:21:05 EST"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "sport",
+        "citation": "https://www.espn.com/soccer/report/_/gameId/401880295"
+      },
+      "status": "supported"
+    }
+  ]
+}

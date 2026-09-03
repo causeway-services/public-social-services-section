@@ -1,0 +1,69 @@
+{
+  "subject": "german-police-investigating-reported-explosives-at-brandenburg-power-substation-europe-live",
+  "claims": [
+    {
+      "id": "title",
+      "proposition": {
+        "predicate": "title",
+        "object": "German police investigating reported explosives at Brandenburg power substation – Europe live"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "war",
+        "citation": "https://www.theguardian.com/world/live/2026/sep/01/ukraine-russia-strikes-attacks-odesa-zelenskyy-putin-eu-defence-europe-latest-news-updates"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "url",
+      "proposition": {
+        "predicate": "url",
+        "object": "https://www.theguardian.com/world/live/2026/sep/01/ukraine-russia-strikes-attacks-odesa-zelenskyy-putin-eu-defence-europe-latest-news-updates"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "war",
+        "citation": "https://www.theguardian.com/world/live/2026/sep/01/ukraine-russia-strikes-attacks-odesa-zelenskyy-putin-eu-defence-europe-latest-news-updates"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "summary",
+      "proposition": {
+        "predicate": "summary",
+        "object": "<p>Russia believed to be behind hybrid activities in Germany and Europe, minister says</p><p><strong>Over in Brussels, the European Commission is just starting its first midday briefing of the autumn.</strong></p><p>It opens with an announcement that <strong>Commission president Ursula von der Leyen will receive Nato’s Mark Rutte tomorrow.</strong> This comes amid growing scrutiny of Russia’s activities on the eastern flank.</p> <a href=\"https://www.theguardian.com/world/live/2026/sep/01/ukraine-russia-strikes-attacks-odesa-zelenskyy-putin-eu-defence-europe-latest-news-updates\">Continue reading...</a>"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "war",
+        "citation": "https://www.theguardian.com/world/live/2026/sep/01/ukraine-russia-strikes-attacks-odesa-zelenskyy-putin-eu-defence-europe-latest-news-updates"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "published",
+      "proposition": {
+        "predicate": "published",
+        "object": "Tue, 01 Sep 2026 18:02:18 GMT"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "war",
+        "citation": "https://www.theguardian.com/world/live/2026/sep/01/ukraine-russia-strikes-attacks-odesa-zelenskyy-putin-eu-defence-europe-latest-news-updates"
+      },
+      "status": "supported"
+    }
+  ]
+}

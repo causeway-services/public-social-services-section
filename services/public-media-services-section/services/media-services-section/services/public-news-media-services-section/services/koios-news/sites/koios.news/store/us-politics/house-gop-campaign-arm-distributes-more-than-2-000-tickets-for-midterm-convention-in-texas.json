@@ -1,0 +1,69 @@
+{
+  "subject": "house-gop-campaign-arm-distributes-more-than-2-000-tickets-for-midterm-convention-in-texas",
+  "claims": [
+    {
+      "id": "title",
+      "proposition": {
+        "predicate": "title",
+        "object": "House GOP campaign arm distributes more than 2,000 tickets for midterm convention in Texas"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "us-politics",
+        "citation": "https://thehill.com/homenews/campaign/6066614-texas-gop-midterms-convention-dallas/"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "url",
+      "proposition": {
+        "predicate": "url",
+        "object": "https://thehill.com/homenews/campaign/6066614-texas-gop-midterms-convention-dallas/"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "us-politics",
+        "citation": "https://thehill.com/homenews/campaign/6066614-texas-gop-midterms-convention-dallas/"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "summary",
+      "proposition": {
+        "predicate": "summary",
+        "object": "The National Republican Congressional Committee (NRCC) distributed more than 2,000 tickets for next week’s midterm convention in Texas, a source familiar with the event told The Hill on Wednesday. The NRCC said around 100 members and candidates were confirmed, though Politico reported on Wednesday that 45 out of 70 Republican candidates and members who were…"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "us-politics",
+        "citation": "https://thehill.com/homenews/campaign/6066614-texas-gop-midterms-convention-dallas/"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "published",
+      "proposition": {
+        "predicate": "published",
+        "object": "Wed, 02 Sep 2026 17:02:01 +0000"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "us-politics",
+        "citation": "https://thehill.com/homenews/campaign/6066614-texas-gop-midterms-convention-dallas/"
+      },
+      "status": "supported"
+    }
+  ]
+}

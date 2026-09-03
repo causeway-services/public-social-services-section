@@ -1,0 +1,69 @@
+{
+  "subject": "flock-s-rapidly-expanding-ai-surveillance-network-facing-growing-backlash-in-us",
+  "claims": [
+    {
+      "id": "title",
+      "proposition": {
+        "predicate": "title",
+        "object": "Flock's rapidly expanding AI surveillance network facing growing backlash in US"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "world",
+        "citation": "https://www.bbc.co.uk/news/videos/cvgy4ddx1q8o?at_medium=RSS&at_campaign=rss"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "url",
+      "proposition": {
+        "predicate": "url",
+        "object": "https://www.bbc.co.uk/news/videos/cvgy4ddx1q8o?at_medium=RSS&at_campaign=rss"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "world",
+        "citation": "https://www.bbc.co.uk/news/videos/cvgy4ddx1q8o?at_medium=RSS&at_campaign=rss"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "summary",
+      "proposition": {
+        "predicate": "summary",
+        "object": "BBC Verify examines the expanding network of Flock cameras in the US and the backlash against it."
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "world",
+        "citation": "https://www.bbc.co.uk/news/videos/cvgy4ddx1q8o?at_medium=RSS&at_campaign=rss"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "published",
+      "proposition": {
+        "predicate": "published",
+        "object": "Tue, 01 Sep 2026 05:11:23 GMT"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "world",
+        "citation": "https://www.bbc.co.uk/news/videos/cvgy4ddx1q8o?at_medium=RSS&at_campaign=rss"
+      },
+      "status": "supported"
+    }
+  ]
+}

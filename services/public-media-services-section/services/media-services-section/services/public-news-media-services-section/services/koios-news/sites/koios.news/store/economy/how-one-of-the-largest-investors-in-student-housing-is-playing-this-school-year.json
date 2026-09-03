@@ -1,0 +1,69 @@
+{
+  "subject": "how-one-of-the-largest-investors-in-student-housing-is-playing-this-school-year",
+  "claims": [
+    {
+      "id": "title",
+      "proposition": {
+        "predicate": "title",
+        "object": "How one of the largest investors in student housing is playing this school year"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "economy",
+        "citation": "https://www.cnbc.com/2026/09/01/university-student-housing-investor.html"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "url",
+      "proposition": {
+        "predicate": "url",
+        "object": "https://www.cnbc.com/2026/09/01/university-student-housing-investor.html"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "economy",
+        "citation": "https://www.cnbc.com/2026/09/01/university-student-housing-investor.html"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "summary",
+      "proposition": {
+        "predicate": "summary",
+        "object": "Mike Gordon of Harrison Street Asset Management said funding cuts and enrollment trends are making specialization more vital than ever."
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "economy",
+        "citation": "https://www.cnbc.com/2026/09/01/university-student-housing-investor.html"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "published",
+      "proposition": {
+        "predicate": "published",
+        "object": "Tue, 01 Sep 2026 16:36:55 GMT"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "economy",
+        "citation": "https://www.cnbc.com/2026/09/01/university-student-housing-investor.html"
+      },
+      "status": "supported"
+    }
+  ]
+}

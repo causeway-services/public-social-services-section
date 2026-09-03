@@ -1,0 +1,69 @@
+{
+  "subject": "dutch-central-bank-moves-86-tonnes-of-gold-to-uk-from-us-and-canada-citing-geopolitical-unrest",
+  "claims": [
+    {
+      "id": "title",
+      "proposition": {
+        "predicate": "title",
+        "object": "Dutch central bank moves 86 tonnes of gold to UK from US and Canada, citing ‘geopolitical unrest’"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "world",
+        "citation": "https://www.theguardian.com/world/2026/sep/03/netherlands-gold-dutch-central-bank-uk-us-and-canada-geopolitical-unrest"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "url",
+      "proposition": {
+        "predicate": "url",
+        "object": "https://www.theguardian.com/world/2026/sep/03/netherlands-gold-dutch-central-bank-uk-us-and-canada-geopolitical-unrest"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "world",
+        "citation": "https://www.theguardian.com/world/2026/sep/03/netherlands-gold-dutch-central-bank-uk-us-and-canada-geopolitical-unrest"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "summary",
+      "proposition": {
+        "predicate": "summary",
+        "object": "<p>Bank says gold reserves held in London could be traded more easily and the move will allow it to respond more rapidly in a ‘crisis situation’</p><p>The Dutch central bank says it has moved 86 tonnes of its gold reserves out of the US and Canada to London, citing “increasing geopolitical unrest”.</p><p>De Nederlandsche Bank (DNB) said gold reserves held in London could be traded more easily than those held in New York and Ottawa.</p> <a href=\"https://www.theguardian.com/world/2026/sep/03/netherlands-gold-dutch-central-bank-uk-us-and-canada-geopolitical-unrest\">Continue reading...</a>"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "world",
+        "citation": "https://www.theguardian.com/world/2026/sep/03/netherlands-gold-dutch-central-bank-uk-us-and-canada-geopolitical-unrest"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "published",
+      "proposition": {
+        "predicate": "published",
+        "object": "Wed, 02 Sep 2026 23:47:15 GMT"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "world",
+        "citation": "https://www.theguardian.com/world/2026/sep/03/netherlands-gold-dutch-central-bank-uk-us-and-canada-geopolitical-unrest"
+      },
+      "status": "supported"
+    }
+  ]
+}

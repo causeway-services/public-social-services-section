@@ -1,0 +1,69 @@
+{
+  "subject": "9-to-5-she-was-full-on-round-the-clock-dolly-parton-celebrated-by-kd-lang-peggy-seeger-annie-len",
+  "claims": [
+    {
+      "id": "title",
+      "proposition": {
+        "predicate": "title",
+        "object": "‘9 to 5? She was full-on round the clock!’ Dolly Parton celebrated by kd lang, Peggy Seeger, Annie Lennox and more"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "entertainment",
+        "citation": "https://www.theguardian.com/music/2026/aug/26/9-to-5-she-was-full-on-round-the-clock-dolly-parton-celebrated-by-kd-lang-peggy-seeger-annie-lennox-and-more"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "url",
+      "proposition": {
+        "predicate": "url",
+        "object": "https://www.theguardian.com/music/2026/aug/26/9-to-5-she-was-full-on-round-the-clock-dolly-parton-celebrated-by-kd-lang-peggy-seeger-annie-lennox-and-more"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "entertainment",
+        "citation": "https://www.theguardian.com/music/2026/aug/26/9-to-5-she-was-full-on-round-the-clock-dolly-parton-celebrated-by-kd-lang-peggy-seeger-annie-lennox-and-more"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "summary",
+      "proposition": {
+        "predicate": "summary",
+        "object": "<p>Musicians and performers pay tribute to the country legend who managed to be a generational talent, a formidable entrepreneur, a dedicated philanthropist and a truly kind person</p><p><em>Shirley Collins</em><em>, singer-songwriter</em></p> <a href=\"https://www.theguardian.com/music/2026/aug/26/9-to-5-she-was-full-on-round-the-clock-dolly-parton-celebrated-by-kd-lang-peggy-seeger-annie-lennox-and-more\">Continue reading...</a>"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "entertainment",
+        "citation": "https://www.theguardian.com/music/2026/aug/26/9-to-5-she-was-full-on-round-the-clock-dolly-parton-celebrated-by-kd-lang-peggy-seeger-annie-lennox-and-more"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "published",
+      "proposition": {
+        "predicate": "published",
+        "object": "Wed, 26 Aug 2026 16:46:45 GMT"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "entertainment",
+        "citation": "https://www.theguardian.com/music/2026/aug/26/9-to-5-she-was-full-on-round-the-clock-dolly-parton-celebrated-by-kd-lang-peggy-seeger-annie-lennox-and-more"
+      },
+      "status": "supported"
+    }
+  ]
+}

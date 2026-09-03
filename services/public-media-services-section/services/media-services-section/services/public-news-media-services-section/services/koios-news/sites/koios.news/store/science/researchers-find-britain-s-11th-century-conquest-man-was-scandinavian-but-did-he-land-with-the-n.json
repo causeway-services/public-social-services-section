@@ -1,0 +1,69 @@
+{
+  "subject": "researchers-find-britain-s-11th-century-conquest-man-was-scandinavian-but-did-he-land-with-the-n",
+  "claims": [
+    {
+      "id": "title",
+      "proposition": {
+        "predicate": "title",
+        "object": "Researchers find Britain’s 11th-century ‘Conquest Man’ was Scandinavian – but did he land with the Norman army?"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "science",
+        "citation": "https://www.theguardian.com/uk-news/2026/aug/30/11th-century-conquest-man-scandinavian-norman-army"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "url",
+      "proposition": {
+        "predicate": "url",
+        "object": "https://www.theguardian.com/uk-news/2026/aug/30/11th-century-conquest-man-scandinavian-norman-army"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "science",
+        "citation": "https://www.theguardian.com/uk-news/2026/aug/30/11th-century-conquest-man-scandinavian-norman-army"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "summary",
+      "proposition": {
+        "predicate": "summary",
+        "object": "<p>It’s ‘plausible’, though more likely the Humberside resident was one of many immigrants to Viking-controlled Danelaw</p><p>One of the most consequential showdowns in the history of the British Isles, the Battle of Hastings is seen as the foundational event of the Anglo-Saxons’ conquest by their Norman enemy across the Channel.</p><p>But researchers who have put flesh on the bones of one man who lived through the turmoil of the era are learning more about the fighters who may have belonged to neither side.</p> <a href=\"https://www.theguardian.com/uk-news/2026/aug/30/11th-century-conquest-man-scandinavian-norman-army\">Continue reading...</a>"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "science",
+        "citation": "https://www.theguardian.com/uk-news/2026/aug/30/11th-century-conquest-man-scandinavian-norman-army"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "published",
+      "proposition": {
+        "predicate": "published",
+        "object": "Sun, 30 Aug 2026 07:00:49 GMT"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "science",
+        "citation": "https://www.theguardian.com/uk-news/2026/aug/30/11th-century-conquest-man-scandinavian-norman-army"
+      },
+      "status": "supported"
+    }
+  ]
+}

@@ -1,0 +1,69 @@
+{
+  "subject": "nasa-s-swift-shortens-orbital-lifetime-for-the-sake-of-science",
+  "claims": [
+    {
+      "id": "title",
+      "proposition": {
+        "predicate": "title",
+        "object": "NASA's Swift shortens orbital lifetime for the sake of science"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "technology",
+        "citation": "https://www.theregister.com/science/2026/09/02/nasas-swift-shortens-orbital-lifetime-for-the-sake-of-science/5293911"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "url",
+      "proposition": {
+        "predicate": "url",
+        "object": "https://www.theregister.com/science/2026/09/02/nasas-swift-shortens-orbital-lifetime-for-the-sake-of-science/5293911"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "technology",
+        "citation": "https://www.theregister.com/science/2026/09/02/nasas-swift-shortens-orbital-lifetime-for-the-sake-of-science/5293911"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "summary",
+      "proposition": {
+        "predicate": "summary",
+        "object": "NASA's Neil Gehrels Swift Observatory may now be beyond rescue, but the team behind the spacecraft has reactivated its instruments to eke out a final few months of science data before it reenters Earth's atmosphere. The Ultraviolet/Optical and X-ray telescopes were reactivated last week, and the team hopes to return the Burst Alert Telescope to data collection during September. The former two telescopes were turned off in February to minimize drag and buy time for the reboost effort. The latter was halted in April to reduce power consumption and allow Swift's solar arrays to be positioned to further cut down on atmospheric drag. The reboost mission failed after control problems with the Katalyst Space LINK spacecraft ruled out an attempt to capture and rescue the Swift observatory. LINK is currently raising its orbit, and there are plans to begin phasing relative to Swift, but there won't be any grappling. The upshot is that Swift remains set to reenter the Earth's atmosphere in the coming months, perhaps as soon as October. Perhaps a bit later. Whatever the case, mission managers have decided that the potential science return is worth sacrificing a few weeks or months of orbital lifetime. Swift has spent more than two decades studying the cosmos and remains operational, but lacks the capability to boost itself to a higher orbit. Recent solar activity magnified the effects of drag on the spacecraft, and a high-risk rescue mission was launched a few months ago in an effort to prolong Swift's orbital life. According to NASA, switching to low-drag operations kept Swift above the critical 185-mile (300-kilometer) threshold until October; below that altitude, the descent rate would accelerate and rescue would no longer be feasible. \"With the resumption of science observations, the team anticipates Swift will reach that milestone sometime in the next one to two months,\" said NASA. ®"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "technology",
+        "citation": "https://www.theregister.com/science/2026/09/02/nasas-swift-shortens-orbital-lifetime-for-the-sake-of-science/5293911"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "published",
+      "proposition": {
+        "predicate": "published",
+        "object": "Wed, 02 Sep 2026 17:00:00 +0200"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "technology",
+        "citation": "https://www.theregister.com/science/2026/09/02/nasas-swift-shortens-orbital-lifetime-for-the-sake-of-science/5293911"
+      },
+      "status": "supported"
+    }
+  ]
+}

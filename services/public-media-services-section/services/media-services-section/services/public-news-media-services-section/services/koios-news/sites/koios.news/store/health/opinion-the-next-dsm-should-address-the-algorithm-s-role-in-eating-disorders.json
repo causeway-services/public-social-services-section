@@ -1,0 +1,69 @@
+{
+  "subject": "opinion-the-next-dsm-should-address-the-algorithm-s-role-in-eating-disorders",
+  "claims": [
+    {
+      "id": "title",
+      "proposition": {
+        "predicate": "title",
+        "object": "Opinion: The next DSM should address the algorithm’s role in eating disorders"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "health",
+        "citation": "https://www.statnews.com/2026/09/02/dsm-6-eating-disorders-algorithms-social-media-influence-screening/?utm_campaign=rss"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "url",
+      "proposition": {
+        "predicate": "url",
+        "object": "https://www.statnews.com/2026/09/02/dsm-6-eating-disorders-algorithms-social-media-influence-screening/?utm_campaign=rss"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "health",
+        "citation": "https://www.statnews.com/2026/09/02/dsm-6-eating-disorders-algorithms-social-media-influence-screening/?utm_campaign=rss"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "summary",
+      "proposition": {
+        "predicate": "summary",
+        "object": "This fall, clinicians and researchers around the world will gather at conferences to discuss the future of psychiatric care, including the next edition of the Diagnostic and Statistical Manual of Mental Disorders (DSM), expected in 2030. It will be the first revision since 2013, when TikTok didn’t exist and generative AI wasn’t a source of health information. That same year, Facebook retired its old ranking system and moved to a machine learning model built to predict what would keep someone scrolling. The way algorithms now shape how people think about food, their bodies, and themselves would have seemed like science fiction in 2013. Read the rest&hellip;"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "health",
+        "citation": "https://www.statnews.com/2026/09/02/dsm-6-eating-disorders-algorithms-social-media-influence-screening/?utm_campaign=rss"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "published",
+      "proposition": {
+        "predicate": "published",
+        "object": "Wed, 02 Sep 2026 08:30:00 +0000"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "health",
+        "citation": "https://www.statnews.com/2026/09/02/dsm-6-eating-disorders-algorithms-social-media-influence-screening/?utm_campaign=rss"
+      },
+      "status": "supported"
+    }
+  ]
+}

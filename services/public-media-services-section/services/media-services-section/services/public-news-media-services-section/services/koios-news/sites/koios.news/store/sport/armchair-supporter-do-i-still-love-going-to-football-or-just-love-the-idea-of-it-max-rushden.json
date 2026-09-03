@@ -1,0 +1,69 @@
+{
+  "subject": "armchair-supporter-do-i-still-love-going-to-football-or-just-love-the-idea-of-it-max-rushden",
+  "claims": [
+    {
+      "id": "title",
+      "proposition": {
+        "predicate": "title",
+        "object": "‘Armchair supporter’: do I still love going to football or just love the idea of it? | Max Rushden"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "sport",
+        "citation": "https://www.theguardian.com/football/2026/aug/27/cambridge-united-millwall-carabao-cup-max-rushden-football-supporter"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "url",
+      "proposition": {
+        "predicate": "url",
+        "object": "https://www.theguardian.com/football/2026/aug/27/cambridge-united-millwall-carabao-cup-max-rushden-football-supporter"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "sport",
+        "citation": "https://www.theguardian.com/football/2026/aug/27/cambridge-united-millwall-carabao-cup-max-rushden-football-supporter"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "summary",
+      "proposition": {
+        "predicate": "summary",
+        "object": "<p>A welcome return to watch Cambridge brought back a whole lot of memories, nostalgia and contemplation</p><p>On 11 February 1989, Cambridge United beat Hartlepool 6-0. My memories of the game are faint. The internet can’t even tell me who scored – perhaps Laurie Ryan got a couple. I do recall walking past some Hartlepool fans on Coldham’s Common who were peering into a brook. “Looking for a new centre forward?”</p><p>Not a terrible joke from my dad. There was polite laughter at least.</p> <a href=\"https://www.theguardian.com/football/2026/aug/27/cambridge-united-millwall-carabao-cup-max-rushden-football-supporter\">Continue reading...</a>"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "sport",
+        "citation": "https://www.theguardian.com/football/2026/aug/27/cambridge-united-millwall-carabao-cup-max-rushden-football-supporter"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "published",
+      "proposition": {
+        "predicate": "published",
+        "object": "Thu, 27 Aug 2026 13:41:32 GMT"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "sport",
+        "citation": "https://www.theguardian.com/football/2026/aug/27/cambridge-united-millwall-carabao-cup-max-rushden-football-supporter"
+      },
+      "status": "supported"
+    }
+  ]
+}

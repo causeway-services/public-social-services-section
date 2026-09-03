@@ -1,0 +1,69 @@
+{
+  "subject": "burnham-tries-to-calm-bond-market-fears-as-sell-off-threatens-crucial-first-budget",
+  "claims": [
+    {
+      "id": "title",
+      "proposition": {
+        "predicate": "title",
+        "object": "Burnham tries to calm bond market fears as sell-off threatens crucial first budget"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "politics",
+        "citation": "https://www.theguardian.com/business/2026/sep/02/burnham-tries-to-calm-bond-market-fears-as-sell-off-threatens-budget"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "url",
+      "proposition": {
+        "predicate": "url",
+        "object": "https://www.theguardian.com/business/2026/sep/02/burnham-tries-to-calm-bond-market-fears-as-sell-off-threatens-budget"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "politics",
+        "citation": "https://www.theguardian.com/business/2026/sep/02/burnham-tries-to-calm-bond-market-fears-as-sell-off-threatens-budget"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "summary",
+      "proposition": {
+        "predicate": "summary",
+        "object": "<p>Prime minister promises his government will make decisions ‘grounded in fiscal responsibility’</p><p>Andy Burnham moved to calm volatile bond markets on Wednesday as surging borrowing costs threatened to wreck plans for his government’s crucial first budget next month.</p><p>After a days-long sell-off of government bonds – and with the chancellor, John Healey, facing the prospect of sharply reduced spending power, Burnham used his first appearance <a href=\"https://www.theguardian.com/politics/2026/sep/02/andy-burnham-blames-tory-legacy-uk-economy-vulnerable\">at prime minister’s questions</a> to promise decisions would be “grounded in fiscal responsibility”.</p> <a href=\"https://www.theguardian.com/business/2026/sep/02/burnham-tries-to-calm-bond-market-fears-as-sell-off-threatens-budget\">Continue reading...</a>"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "politics",
+        "citation": "https://www.theguardian.com/business/2026/sep/02/burnham-tries-to-calm-bond-market-fears-as-sell-off-threatens-budget"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "published",
+      "proposition": {
+        "predicate": "published",
+        "object": "Wed, 02 Sep 2026 18:28:57 GMT"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "politics",
+        "citation": "https://www.theguardian.com/business/2026/sep/02/burnham-tries-to-calm-bond-market-fears-as-sell-off-threatens-budget"
+      },
+      "status": "supported"
+    }
+  ]
+}

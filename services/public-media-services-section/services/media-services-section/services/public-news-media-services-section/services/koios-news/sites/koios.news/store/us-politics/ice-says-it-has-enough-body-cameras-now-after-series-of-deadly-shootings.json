@@ -1,0 +1,69 @@
+{
+  "subject": "ice-says-it-has-enough-body-cameras-now-after-series-of-deadly-shootings",
+  "claims": [
+    {
+      "id": "title",
+      "proposition": {
+        "predicate": "title",
+        "object": "ICE says it has enough body cameras now, after series of deadly shootings"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "us-politics",
+        "citation": "https://www.npr.org/2026/09/01/g-s1-141408/ice-body-cameras-immigration"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "url",
+      "proposition": {
+        "predicate": "url",
+        "object": "https://www.npr.org/2026/09/01/g-s1-141408/ice-body-cameras-immigration"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "us-politics",
+        "citation": "https://www.npr.org/2026/09/01/g-s1-141408/ice-body-cameras-immigration"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "summary",
+      "proposition": {
+        "predicate": "summary",
+        "object": "Cameras could help alleviate some concerns about ICE transparency and accountability after immigration officers were involved in over two dozen shootings under the Trump administration. (Image credit: Michael M. Santiago)"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "us-politics",
+        "citation": "https://www.npr.org/2026/09/01/g-s1-141408/ice-body-cameras-immigration"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "published",
+      "proposition": {
+        "predicate": "published",
+        "object": "Tue, 01 Sep 2026 13:52:37 -0400"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "us-politics",
+        "citation": "https://www.npr.org/2026/09/01/g-s1-141408/ice-body-cameras-immigration"
+      },
+      "status": "supported"
+    }
+  ]
+}

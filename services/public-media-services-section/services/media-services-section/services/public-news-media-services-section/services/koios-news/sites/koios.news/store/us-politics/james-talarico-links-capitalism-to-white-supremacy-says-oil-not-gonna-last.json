@@ -1,0 +1,69 @@
+{
+  "subject": "james-talarico-links-capitalism-to-white-supremacy-says-oil-not-gonna-last",
+  "claims": [
+    {
+      "id": "title",
+      "proposition": {
+        "predicate": "title",
+        "object": "James Talarico links capitalism to white supremacy, says oil ‘not gonna last’"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "us-politics",
+        "citation": "https://thehill.com/opinion/robbys-radar/6067024-texas-senate-candidate-woke-claims/"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "url",
+      "proposition": {
+        "predicate": "url",
+        "object": "https://thehill.com/opinion/robbys-radar/6067024-texas-senate-candidate-woke-claims/"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "us-politics",
+        "citation": "https://thehill.com/opinion/robbys-radar/6067024-texas-senate-candidate-woke-claims/"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "summary",
+      "proposition": {
+        "predicate": "summary",
+        "object": "James Talarico has to answer for comments he made in 2020 at the height of peak wokeness."
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "us-politics",
+        "citation": "https://thehill.com/opinion/robbys-radar/6067024-texas-senate-candidate-woke-claims/"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "published",
+      "proposition": {
+        "predicate": "published",
+        "object": "Wed, 02 Sep 2026 18:21:21 +0000"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "us-politics",
+        "citation": "https://thehill.com/opinion/robbys-radar/6067024-texas-senate-candidate-woke-claims/"
+      },
+      "status": "supported"
+    }
+  ]
+}

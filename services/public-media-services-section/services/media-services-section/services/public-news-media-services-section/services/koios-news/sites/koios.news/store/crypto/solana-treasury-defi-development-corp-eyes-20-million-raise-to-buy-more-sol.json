@@ -1,0 +1,69 @@
+{
+  "subject": "solana-treasury-defi-development-corp-eyes-20-million-raise-to-buy-more-sol",
+  "claims": [
+    {
+      "id": "title",
+      "proposition": {
+        "predicate": "title",
+        "object": "Solana Treasury DeFi Development Corp Eyes $20 Million Raise to Buy More SOL"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "crypto",
+        "citation": "https://decrypt.co/377068/defi-development-corp-20-million-raise-more-solana"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "url",
+      "proposition": {
+        "predicate": "url",
+        "object": "https://decrypt.co/377068/defi-development-corp-20-million-raise-more-solana"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "crypto",
+        "citation": "https://decrypt.co/377068/defi-development-corp-20-million-raise-more-solana"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "summary",
+      "proposition": {
+        "predicate": "summary",
+        "object": "The publicly traded company recently bought 19,000 SOL, bringing its treasury to more than 2.33 million SOL and SOL equivalents."
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "crypto",
+        "citation": "https://decrypt.co/377068/defi-development-corp-20-million-raise-more-solana"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "published",
+      "proposition": {
+        "predicate": "published",
+        "object": "Tue, 01 Sep 2026 18:03:47 +0000"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "crypto",
+        "citation": "https://decrypt.co/377068/defi-development-corp-20-million-raise-more-solana"
+      },
+      "status": "supported"
+    }
+  ]
+}

@@ -1,0 +1,69 @@
+{
+  "subject": "germany-poised-to-identify-suspect-in-leipzig-drone-attack-on-ukrainian-plane",
+  "claims": [
+    {
+      "id": "title",
+      "proposition": {
+        "predicate": "title",
+        "object": "Germany poised to identify suspect in Leipzig drone attack on Ukrainian plane"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "war",
+        "citation": "https://www.theguardian.com/world/2026/aug/31/germany-leipzig-drone-attack-ukrainian-plane"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "url",
+      "proposition": {
+        "predicate": "url",
+        "object": "https://www.theguardian.com/world/2026/aug/31/germany-leipzig-drone-attack-ukrainian-plane"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "war",
+        "citation": "https://www.theguardian.com/world/2026/aug/31/germany-leipzig-drone-attack-ukrainian-plane"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "summary",
+      "proposition": {
+        "predicate": "summary",
+        "object": "<p>Berlin expected to outline response to incident this month widely speculated to have been coordinated by Russia</p><p>The German government is imminently expected to announce who it believes was behind a suspected <a href=\"https://www.theguardian.com/world/2026/aug/06/leipzig-drone-bomb-found-near-ukrainian-plane-carrying-ammunition\">drone attack on a Ukrainian cargo plane</a> earlier this month and to outline its response to the incident in coordination with its European and Nato partners.</p><p>The chancellor, Friedrich Merz, told the public broadcaster ARD in an interview on Sunday evening: “We are in the process of concluding the investigations; we have reached a broad agreement within the federal government on how we will respond, and we will make this clear in the coming days. It won’t take much longer.”</p> <a href=\"https://www.theguardian.com/world/2026/aug/31/germany-leipzig-drone-attack-ukrainian-plane\">Continue reading...</a>"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "war",
+        "citation": "https://www.theguardian.com/world/2026/aug/31/germany-leipzig-drone-attack-ukrainian-plane"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "published",
+      "proposition": {
+        "predicate": "published",
+        "object": "Mon, 31 Aug 2026 14:14:56 GMT"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "war",
+        "citation": "https://www.theguardian.com/world/2026/aug/31/germany-leipzig-drone-attack-ukrainian-plane"
+      },
+      "status": "supported"
+    }
+  ]
+}

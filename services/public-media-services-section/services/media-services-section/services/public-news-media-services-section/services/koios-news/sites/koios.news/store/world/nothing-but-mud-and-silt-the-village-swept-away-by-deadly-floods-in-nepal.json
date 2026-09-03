@@ -1,0 +1,69 @@
+{
+  "subject": "nothing-but-mud-and-silt-the-village-swept-away-by-deadly-floods-in-nepal",
+  "claims": [
+    {
+      "id": "title",
+      "proposition": {
+        "predicate": "title",
+        "object": "'Nothing but mud and silt' - the village swept away by deadly floods in Nepal"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "world",
+        "citation": "https://www.bbc.co.uk/news/videos/cn0j4k45z32o?at_medium=RSS&at_campaign=rss"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "url",
+      "proposition": {
+        "predicate": "url",
+        "object": "https://www.bbc.co.uk/news/videos/cn0j4k45z32o?at_medium=RSS&at_campaign=rss"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "world",
+        "citation": "https://www.bbc.co.uk/news/videos/cn0j4k45z32o?at_medium=RSS&at_campaign=rss"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "summary",
+      "proposition": {
+        "predicate": "summary",
+        "object": "BBC South Asia correspondent Azadeh Moshiri spoke to a local, who is still waiting for his his wife's body to be retrieved, as rescue efforts continue."
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "world",
+        "citation": "https://www.bbc.co.uk/news/videos/cn0j4k45z32o?at_medium=RSS&at_campaign=rss"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "published",
+      "proposition": {
+        "predicate": "published",
+        "object": "Wed, 02 Sep 2026 15:16:42 GMT"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "world",
+        "citation": "https://www.bbc.co.uk/news/videos/cn0j4k45z32o?at_medium=RSS&at_campaign=rss"
+      },
+      "status": "supported"
+    }
+  ]
+}

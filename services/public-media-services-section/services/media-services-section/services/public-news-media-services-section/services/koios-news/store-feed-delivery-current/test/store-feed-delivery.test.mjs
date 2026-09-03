@@ -89,7 +89,7 @@ test("projectStoreFeedArtifacts emits RSS, Atom, JSON Feed, and a news sitemap o
   assert.equal(result.skippedCount, 2);
   assert.equal(result.newest, "2026-07-18T12:00:00.000Z");
   assert.equal(result.oldest, "2026-07-16T08:00:00.000Z");
-  assert.deepEqual(result.artifacts.map((artifact) => artifact.path), ["feed.xml", "feed.atom", "feed.json", "news-sitemap.xml"]);
+  assert.deepEqual(result.artifacts.map((artifact) => artifact.path), ["feed.xml", "feed.atom", "feed.json", "news-sitemap.xml", "wire.json", "claims/culture/alpha-story-culture.json", "claims/technology/alpha-story.json", "claims/technology/beta-story.json", "claims/war/delta-story.json", "claims/war/gamma-story.json"]);
 
   const rss = result.artifacts.find((artifact) => artifact.path === "feed.xml").body;
   assert.match(rss, /<rss version="2\.0"/);
@@ -107,7 +107,7 @@ test("projectStoreFeedArtifacts emits RSS, Atom, JSON Feed, and a news sitemap o
 
 test("projectStoreFeedArtifacts honors overridden artifact paths", () => {
   const result = projectStoreFeedArtifacts({ storeRoot: fixtures, paths: { rss: "wire/feed.xml", atom: "wire/feed.atom", json: "wire/feed.json", newsSitemap: "wire/news-sitemap.xml" } });
-  assert.deepEqual(result.artifacts.map((artifact) => artifact.path), ["wire/feed.xml", "wire/feed.atom", "wire/feed.json", "wire/news-sitemap.xml"]);
+  assert.deepEqual(result.artifacts.map((artifact) => artifact.path), ["wire/feed.xml", "wire/feed.atom", "wire/feed.json", "wire/news-sitemap.xml", "wire.json", "claims/culture/alpha-story-culture.json", "claims/technology/alpha-story.json", "claims/technology/beta-story.json", "claims/war/delta-story.json", "claims/war/gamma-story.json"]);
 });
 
 test("writeStoreFeedArtifacts writes every artifact to disk under outDir", () => {
@@ -115,7 +115,7 @@ test("writeStoreFeedArtifacts writes every artifact to disk under outDir", () =>
   try {
     const outDir = join(temp, "out");
     const result = writeStoreFeedArtifacts({ storeRoot: fixtures, outDir });
-    assert.equal(result.files.length, 4);
+    assert.equal(result.files.length, 10);
     assert.match(readFileSync(join(outDir, "feed.xml"), "utf8"), /<rss version="2\.0"/);
     assert.match(readFileSync(join(outDir, "news-sitemap.xml"), "utf8"), /example\.com\/alpha/);
   } finally { rmSync(temp, { recursive: true, force: true }); }
@@ -130,7 +130,7 @@ test("the CLI writes artifacts and reports counts as JSON on stdout", () => {
     const result = JSON.parse(stdout);
     assert.equal(result.itemCount, 2);
     assert.equal(result.skippedCount, 2);
-    assert.equal(result.files.length, 4);
+    assert.equal(result.files.length, 10);
     assert.match(readFileSync(join(outDir, "feed.json"), "utf8"), /jsonfeed\.org/);
   } finally { rmSync(temp, { recursive: true, force: true }); }
 });
@@ -141,4 +141,22 @@ test("the CLI refuses an unknown option", () => {
     const bin = join(import.meta.dirname, "..", "bin", "koios-news-store-feed-delivery.mjs");
     assert.throws(() => execFileSync(process.execPath, [bin, "--store", fixtures, "--out", join(temp, "out"), "--bogus", "x"], { encoding: "utf8", stdio: "pipe" }));
   } finally { rmSync(temp, { recursive: true, force: true }); }
+});
+
+test("projects wire.json and verbatim per-article claim objects beside the feeds", () => {
+  const storeRoot = join(import.meta.dirname, "fixtures", "store");
+  const result = projectStoreFeedArtifacts({ storeRoot });
+  const wire = result.artifacts.find((artifact) => artifact.path === "wire.json");
+  assert.ok(wire, "wire.json artifact is present");
+  const parsed = JSON.parse(wire.body);
+  assert.equal(parsed.kind, "koios.news.wire/v1");
+  assert.equal(parsed.itemCount, result.itemCount);
+  for (const item of parsed.items) {
+    assert.ok(item.sources.length >= 1);
+    for (const source of item.sources) {
+      const copy = result.artifacts.find((artifact) => artifact.path === source.claims);
+      assert.ok(copy, `claim copy ${source.claims} is present`);
+      assert.equal(copy.body, readFileSync(join(storeRoot, source.category, `${source.slug}.json`), "utf8"));
+    }
+  }
 });

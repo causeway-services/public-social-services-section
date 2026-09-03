@@ -1,0 +1,69 @@
+{
+  "subject": "top-pentagon-ai-official-sold-millions-in-perplexity-stock-disclosures-show",
+  "claims": [
+    {
+      "id": "title",
+      "proposition": {
+        "predicate": "title",
+        "object": "Top Pentagon AI Official Sold Millions in Perplexity Stock, Disclosures Show"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "crypto",
+        "citation": "https://decrypt.co/377225/pentagon-ai-official-sold-millions-perplexity-stock"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "url",
+      "proposition": {
+        "predicate": "url",
+        "object": "https://decrypt.co/377225/pentagon-ai-official-sold-millions-perplexity-stock"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "crypto",
+        "citation": "https://decrypt.co/377225/pentagon-ai-official-sold-millions-perplexity-stock"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "summary",
+      "proposition": {
+        "predicate": "summary",
+        "object": "Emil Michael's latest financial filings show a summer exit from Perplexity, months after a January sale of xAI stock that reportedly netted him up to $24 million."
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "crypto",
+        "citation": "https://decrypt.co/377225/pentagon-ai-official-sold-millions-perplexity-stock"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "published",
+      "proposition": {
+        "predicate": "published",
+        "object": "Wed, 02 Sep 2026 20:46:04 +0000"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "crypto",
+        "citation": "https://decrypt.co/377225/pentagon-ai-official-sold-millions-perplexity-stock"
+      },
+      "status": "supported"
+    }
+  ]
+}

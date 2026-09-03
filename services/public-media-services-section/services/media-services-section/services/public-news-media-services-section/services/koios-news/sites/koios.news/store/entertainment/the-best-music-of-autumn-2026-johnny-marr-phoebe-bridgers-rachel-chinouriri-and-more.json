@@ -1,0 +1,69 @@
+{
+  "subject": "the-best-music-of-autumn-2026-johnny-marr-phoebe-bridgers-rachel-chinouriri-and-more",
+  "claims": [
+    {
+      "id": "title",
+      "proposition": {
+        "predicate": "title",
+        "object": "The best music of autumn 2026: Johnny Marr, Phoebe Bridgers, Rachel Chinouriri and more"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "entertainment",
+        "citation": "https://www.theguardian.com/culture/ng-interactive/2026/aug/29/best-music-autumn-2026-johnny-marr-phoebe-bridgers"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "url",
+      "proposition": {
+        "predicate": "url",
+        "object": "https://www.theguardian.com/culture/ng-interactive/2026/aug/29/best-music-autumn-2026-johnny-marr-phoebe-bridgers"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "entertainment",
+        "citation": "https://www.theguardian.com/culture/ng-interactive/2026/aug/29/best-music-autumn-2026-johnny-marr-phoebe-bridgers"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "summary",
+      "proposition": {
+        "predicate": "summary",
+        "object": "<p>Irish noisemongers Gilla Band, shadowy producers Two Shell and lovable band the Big Moon have new records, and there are tours from Bob Dylan and Kelela – plus the best of jazz, global and classical <br><br>• <a href=\"https://www.theguardian.com/music/2026/aug/29/at-band-interview-victoria-rose-stone-rosenberg\">‘It’s easier when nobody’s watching’: inside the secretive and sublime freak-folk of @</a><br>• <a href=\"https://www.theguardian.com/culture/series/autumn-arts-preview-2026\">See all of our unmissable autumn arts recommendations here</a></p> <a href=\"https://www.theguardian.com/culture/ng-interactive/2026/aug/29/best-music-autumn-2026-johnny-marr-phoebe-bridgers\">Continue reading...</a>"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "entertainment",
+        "citation": "https://www.theguardian.com/culture/ng-interactive/2026/aug/29/best-music-autumn-2026-johnny-marr-phoebe-bridgers"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "published",
+      "proposition": {
+        "predicate": "published",
+        "object": "Sat, 29 Aug 2026 04:00:17 GMT"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "entertainment",
+        "citation": "https://www.theguardian.com/culture/ng-interactive/2026/aug/29/best-music-autumn-2026-johnny-marr-phoebe-bridgers"
+      },
+      "status": "supported"
+    }
+  ]
+}

@@ -1,0 +1,69 @@
+{
+  "subject": "it-s-sad-to-lose-a-really-nice-person-mourners-flock-to-dollywood-after-death-of-dolly-parton",
+  "claims": [
+    {
+      "id": "title",
+      "proposition": {
+        "predicate": "title",
+        "object": "‘It’s sad to lose a really nice person’: mourners flock to Dollywood after death of Dolly Parton"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "entertainment",
+        "citation": "https://www.theguardian.com/music/2026/aug/27/dolly-parton-dollywood"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "url",
+      "proposition": {
+        "predicate": "url",
+        "object": "https://www.theguardian.com/music/2026/aug/27/dolly-parton-dollywood"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "entertainment",
+        "citation": "https://www.theguardian.com/music/2026/aug/27/dolly-parton-dollywood"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "summary",
+      "proposition": {
+        "predicate": "summary",
+        "object": "<p>A memorial at the park’s entrance held bouquets, and a child asked his mothers why so many people were crying</p><p>Becky Bullard was en route home to Austin, Texas, when she heard the news.</p><p>“As soon as I heard about Dolly, I thought of you,” read a text from a close friend while she waited for her flight home from Albany, New York.</p> <a href=\"https://www.theguardian.com/music/2026/aug/27/dolly-parton-dollywood\">Continue reading...</a>"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "entertainment",
+        "citation": "https://www.theguardian.com/music/2026/aug/27/dolly-parton-dollywood"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "published",
+      "proposition": {
+        "predicate": "published",
+        "object": "Thu, 27 Aug 2026 07:00:08 GMT"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "entertainment",
+        "citation": "https://www.theguardian.com/music/2026/aug/27/dolly-parton-dollywood"
+      },
+      "status": "supported"
+    }
+  ]
+}

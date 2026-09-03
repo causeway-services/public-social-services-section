@@ -1,0 +1,69 @@
+{
+  "subject": "superhuman-ai-tool-spots-heart-disease-in-less-than-2-seconds",
+  "claims": [
+    {
+      "id": "title",
+      "proposition": {
+        "predicate": "title",
+        "object": "‘Superhuman’ AI tool spots heart disease in less than 2 seconds"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "health",
+        "citation": "https://www.theguardian.com/technology/2026/aug/31/superhuman-ai-tool-spots-heart-disease"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "url",
+      "proposition": {
+        "predicate": "url",
+        "object": "https://www.theguardian.com/technology/2026/aug/31/superhuman-ai-tool-spots-heart-disease"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "health",
+        "citation": "https://www.theguardian.com/technology/2026/aug/31/superhuman-ai-tool-spots-heart-disease"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "summary",
+      "proposition": {
+        "predicate": "summary",
+        "object": "<p>Technology trained on millions of routine ECGs could fast-track high-risk patients for treatment</p><p>Doctors have developed a “superhuman” AI tool that can spot heart disease in less than two seconds.</p><p>The groundbreaking technology has been trained on millions of patients and works by extracting more information from a routine electrocardiogram (ECG) than the human eye can typically see.</p> <a href=\"https://www.theguardian.com/technology/2026/aug/31/superhuman-ai-tool-spots-heart-disease\">Continue reading...</a>"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "health",
+        "citation": "https://www.theguardian.com/technology/2026/aug/31/superhuman-ai-tool-spots-heart-disease"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "published",
+      "proposition": {
+        "predicate": "published",
+        "object": "Mon, 31 Aug 2026 16:00:29 GMT"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "health",
+        "citation": "https://www.theguardian.com/technology/2026/aug/31/superhuman-ai-tool-spots-heart-disease"
+      },
+      "status": "supported"
+    }
+  ]
+}

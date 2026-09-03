@@ -1,0 +1,69 @@
+{
+  "subject": "which-extension-eligible-nfl-players-could-be-big-factors-next-offseason",
+  "claims": [
+    {
+      "id": "title",
+      "proposition": {
+        "predicate": "title",
+        "object": "Which extension-eligible NFL players could be big factors next offseason?"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "sport",
+        "citation": "https://www.espn.com/nfl/story/_/id/49797170/nfl-player-extension-trade-free-agency"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "url",
+      "proposition": {
+        "predicate": "url",
+        "object": "https://www.espn.com/nfl/story/_/id/49797170/nfl-player-extension-trade-free-agency"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "sport",
+        "citation": "https://www.espn.com/nfl/story/_/id/49797170/nfl-player-extension-trade-free-agency"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "summary",
+      "proposition": {
+        "predicate": "summary",
+        "object": "From C.J. Stroud to top cornerbacks, we go through players up for extensions who could also be on the move in 2027."
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "sport",
+        "citation": "https://www.espn.com/nfl/story/_/id/49797170/nfl-player-extension-trade-free-agency"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "published",
+      "proposition": {
+        "predicate": "published",
+        "object": "Wed, 2 Sep 2026 15:38:55 EST"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "sport",
+        "citation": "https://www.espn.com/nfl/story/_/id/49797170/nfl-player-extension-trade-free-agency"
+      },
+      "status": "supported"
+    }
+  ]
+}

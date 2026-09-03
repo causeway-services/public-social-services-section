@@ -1,0 +1,69 @@
+{
+  "subject": "scientists-discover-a-massive-heat-anomaly-deep-inside-mars",
+  "claims": [
+    {
+      "id": "title",
+      "proposition": {
+        "predicate": "title",
+        "object": "Scientists discover a massive heat anomaly deep inside Mars"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "science",
+        "citation": "https://www.sciencedaily.com/releases/2026/08/260828082336.htm"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "url",
+      "proposition": {
+        "predicate": "url",
+        "object": "https://www.sciencedaily.com/releases/2026/08/260828082336.htm"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "science",
+        "citation": "https://www.sciencedaily.com/releases/2026/08/260828082336.htm"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "summary",
+      "proposition": {
+        "predicate": "summary",
+        "object": "Mars has a hidden temperature divide, with its southern interior potentially hundreds of degrees hotter than the north and partially molten. The discovery could help explain several long-standing Martian mysteries, including unusual magnetism, seismic behavior, and clues to the planet’s ancient water history."
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "science",
+        "citation": "https://www.sciencedaily.com/releases/2026/08/260828082336.htm"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "published",
+      "proposition": {
+        "predicate": "published",
+        "object": "Sun, 30 Aug 2026 08:27:59 EDT"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "science",
+        "citation": "https://www.sciencedaily.com/releases/2026/08/260828082336.htm"
+      },
+      "status": "supported"
+    }
+  ]
+}

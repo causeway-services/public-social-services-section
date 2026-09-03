@@ -1,0 +1,69 @@
+{
+  "subject": "goodyear-burning-rubber-and-cash-as-turnaround-plan-continues",
+  "claims": [
+    {
+      "id": "title",
+      "proposition": {
+        "predicate": "title",
+        "object": "Goodyear burning rubber and cash as turnaround plan continues"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "economy",
+        "citation": "https://www.cnbc.com/2026/08/29/goodyear-turnaround-cash-debt.html"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "url",
+      "proposition": {
+        "predicate": "url",
+        "object": "https://www.cnbc.com/2026/08/29/goodyear-turnaround-cash-debt.html"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "economy",
+        "citation": "https://www.cnbc.com/2026/08/29/goodyear-turnaround-cash-debt.html"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "summary",
+      "proposition": {
+        "predicate": "summary",
+        "object": "The tire maker has an ongoing turnaround plan as the company tries to restructure its business, refinance and pay down years of debt."
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "economy",
+        "citation": "https://www.cnbc.com/2026/08/29/goodyear-turnaround-cash-debt.html"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "published",
+      "proposition": {
+        "predicate": "published",
+        "object": "Tue, 01 Sep 2026 15:30:43 GMT"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "economy",
+        "citation": "https://www.cnbc.com/2026/08/29/goodyear-turnaround-cash-debt.html"
+      },
+      "status": "supported"
+    }
+  ]
+}

@@ -1,0 +1,69 @@
+{
+  "subject": "tennessee-helped-usher-in-the-nuclear-age-it-wants-to-lead-the-way-again",
+  "claims": [
+    {
+      "id": "title",
+      "proposition": {
+        "predicate": "title",
+        "object": "Tennessee helped usher in the nuclear age. It wants to lead the way again."
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "environment",
+        "citation": "https://grist.org/energy/tennessee-helped-usher-in-the-nuclear-age-it-wants-to-lead-the-way-again/"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "url",
+      "proposition": {
+        "predicate": "url",
+        "object": "https://grist.org/energy/tennessee-helped-usher-in-the-nuclear-age-it-wants-to-lead-the-way-again/"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "environment",
+        "citation": "https://grist.org/energy/tennessee-helped-usher-in-the-nuclear-age-it-wants-to-lead-the-way-again/"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "summary",
+      "proposition": {
+        "predicate": "summary",
+        "object": "Luther “Sunny” Miller is nearly 80, but in his younger days, he worked at Aerojet, a rocket and missile manufacturer located quite literally in his backyard. He can’t prove it, but he worries that his thyroid and bladder problems, and his wife’s kidney disease, can be traced to the plant. Last year, national nuclear supplier BWX Technologies purchased the factory in Jonesborough, Tennessee, and announced plans for a significant expansion. The new facility will convert depleted uranium oxide supplied by the Department of Energy into high-purity depleted uranium. The 10-year, $1.6-billion contract will supply the Y-12 National Security Complex in Oak Ridge, Tennessee, with the material needed to maintain the nation’s nuclear weapons arsenal. Despite the company’s promise to bring 175 permanent jobs to the area, Miller and many neighbors were left irate. “They’re going to turn over the most beautiful parts of Tennessee into a nuclear waste area,” Miller said.&nbsp; But for others, the promise of jobs is what makes a nuclear “ renaissance ” centered around the nearby city of Oak Ridge in East Tennessee so promising. BWXT’s planned buildout is part of what state officials hope will be an economic revival driven by a renewal of the Manhattan Project’s legacy. Billions of dollars are already flowing into a region whose experience and expertise in nuclear energy and weapons development make it especially attractive to the industry.&nbsp; Now Tennessee is among five finalists for a Department of Energy “nuclear lifecycle innovation campus” that could make it the centerpiece of a federal plan to finally deal with what’s left behind after splitting atoms to generate electricity. But the history that makes the Volunteer State so attractive a contender is marked by contamination, illnesses, and accidents, leaving some wary of what a renaissance might bring. Nuclear waste is a logistical and public relations nightmare. Spent fuel, which remains radioactive for millennia, eventually finds its way into secure concrete containers. It remains there indefinitely because there is nowhere else to put it. The federal government has long wanted to build a permanent repository deep underground , but the only serious candidate, Yucca Mountain in Nevada, stalled amid political and public opposition. With the Trump administration hoping to quadruple nuclear energy output, solving this problem is increasingly urgent given that the nation’s 85 interim storage sites already hold more than 86,000 tons of radioactive waste, or just about enough to fill a football field nearly 10 yards deep . The nuclear lifecycle innovation campuses are the latest attempt to address that problem. Rather than foist a site on an unwilling community, the Department of Energy invited states to volunteer as potential hosts. These industrial centers would support far more than waste storage. They would include uranium enrichment and fuel fabrication, reprocessing and recycling of spent fuel, and even energy generation. But federal officials said waste management would anchor the project. In July, Tennessee joined Utah, Oklahoma, Louisiana, and Idaho as the five states selected to continue discussions with DOE. Tennessee’s advantage in that competition dates back more than 80 years to the end of World War II and the dawn of the nuclear age. The federal government chose Oak Ridge, at the time a remote southern Appalachian farming community, as a key site for the Manhattan Project. The town grew to encompass an array of separate sites related to the nuclear weapons development program, including a nuclear reactor. BWXT president of operations Ronald Daily said that the company, and others like it, is building on the region’s history of contributing to national energy security and defense. “Appalachia was key to the U.S. developing a defense power in a time frame like no other because of the industrious nature of the people of Appalachia,” he said. The Y-12 National Security Complex in Oak Ridge, Tennessee, produces materials for nuclear weapons. Jim West/UCG/Universal Images Group via Getty Images Oak Ridge’s rural feel has given way to a concrete sprawl hosting a mismatched array of museums, highway-exit chains, and top-secret facilities. Today, the federally managed Y-12 Security Complex and the laboratory, now a federally funded research institution, remain, sitting alongside private companies of all kinds hoping to get a little shine from the area’s legion of talented engineers. All of it is dotted by verdant public lands. For those at Oak Ridge National Laboratory, this moment is a chance to leverage its expertise for the continued local and national public good. “Part of Oak Ridge’s role is that we have expertise in all parts of that fuel cycle,” said Joe Hoagland, a physical chemist and associate laboratory director of the laboratory’s Fusion and Fission Energy and Science Directorate. “We know how to enrich it. We know how to use it. We know how to store it. We know how to transport it, and we understand the chemistries around how to recycle it.” For many years, Hoagland said, East Tennessee was home to a handful of legacy companies like GE and Westinghouse, which created technologies for traditional utilities. But these days, it looks a lot more like startup culture, he said, because growing demand for electricity “creates an opportunity for others to get in the energy game.” Hopes for local benefit are lofty. In the past 10 years, the Tennessee Department of Economic and Community Development has secured $10 billion in investment to recruit new companies and bring the region 3,000 new jobs, said the agency’s nuclear advisor, Braden Stover. They include companies like BWXT, Orano , and Centrus, which are involved in various aspects of the processes that enrich uranium .&nbsp;&nbsp; Officials said this growing sector could bring tens of thousands of jobs in everything from construction and manufacturing to engineering and research. They also envision an educational pipeline that prepares local residents for many of those positions. “The second graders of today are going to be the ones that actually are coming in to work at these facilities,” Stover said. “We need to get to them and just let them know, Hey, here is what is coming.” BWX Technologies has announced plans to open a high-purity depleted uranium processing plant in Jonesborough, Tennessee. Jesse Barber / Grist But the region’s long industrial and nuclear history has left another legacy, and opposition to the coming nuclear revival is rooted in memories of the harm already done to the people and the landscape of East Tennessee.&nbsp; For some, that harm started with the eviction of 3,000 farmers to make way for the Manhattan Project. Wariness has only grown in the years since as the risks of living alongside the facility and those that support it emerged. Past studies have linked patterns of neurological conditions, cancers, and fatal respiratory ailments to workplace exposures at the now-shuttered K-25 plant that enriched uranium from 1943 until 1985. The federal government continues cleaning up contamination left by decades of nuclear weapons production in Oak Ridge. Nuclear Fuel Services, a uranium processing plant in Erwin and subsidiary of BWXT, has a record of leaks, potentially toxic dust, and groundwater contamination .&nbsp;&nbsp; The mistrust also arises from incidents beyond the nuclear industry. In 2008, 1.1 billion gallons of coal ash spilled at the Kingston Fossil Plant, originally built to power the Oak Ridge war complex . Coal ash cleanup workers were not informed of the hazards they faced or provided with protective equipment. Over the past decade, many workers exposed to the toxic waste have fallen ill, and some have died of rare cancers. Those histories have contributed to skepticism and fear as the Trump administration has streamlined and overhauled radioactive waste storage and siting requirements. Valerie Thomas, who studies nuclear engineering and environmental impacts at the Georgia Institute of Technology, called those changes concerning. “There are two reasons we want nuclear regulations to be very strong. One is, no, you don’t want to have errors,” Thomas said. “The second is if people think the regulations aren’t very strong, they’re not going to want nuclear power and nuclear facilities.” That distrust has already shaped fights over the nuclear industry’s expansion in East Tennessee. In early March, hundreds of residents in Claiborne County packed a town hall to oppose a proposed nuclear graphite facility. Their efforts stopped the proposal in its tracks. This history wasn’t far from the minds of many in Jonesborough, where residents expressed concerns about waste storage and uranium dust. Many filled local county commission meetings to oppose BWXT’s proposal and fought zoning rules that would clear its path. BWXT responded to community questions about the plant’s waste storage plans, but the answers weren’t satisfactory for many local residents. A late March meeting at the Washington County courthouse left many residents angry and hurt. Will Manning, a 42-year-old knifemaker and father, had spent the winter knocking on doors in Jonesborough, urging neighbors to turn out to oppose final zoning approval for the facility. Ultimately, however, the measure passed, clearing a path for the plant. Some residents of Jonesborough, Tennessee, are wary of nuclear and defense industries and oppose efforts to lure them to East Tennessee. Jesse Barber / Grist “I honestly don’t know what was more disgusting, disappointing, depressing: the outcome of the vote or the dog-and pony show they put on and blatant disregard for the strong voice of this community,”&nbsp; Manning later told Grist.&nbsp; Jonesborough residents remain active in a Facebook group created to organize opposition to BWXT, monitoring any news about the nuclear industry’s moves in Tennessee. Some participants have followed local elections closely, vowing to vote out officials who supported the zoning change. As for the DOE’s nuclear lifecycle innovation campus, most of it would likely be located in Oak Ridge, but waste disposal might happen elsewhere, and that location remains undecided. Federal officials familiar with the process told Grist the selection process will include extensive discussions with the communities that might be considered, although they did not say what those conversations might look like. They also said any waste storage decisions would be preceded by years of environmental analysis to rule out locations with fatal flaws like streams, aquifers, or geologic instability. The initial Tennessee project application sought letters of support from officials in adjoining counties, and suggests that campus funding could support infrastructural improvements locally. Sunny Miller concedes East Tennessee needs the jobs a nuclear revival would bring. Many residents are poor, he said, and employers would offer good pay. What troubles him is being asked to weigh those benefits against risks he doesn’t feel he fully understands. “You can’t live on car washes and chicken places alone, that’s a real feeling,” Miller said. “But let me make this decision based on facts.”&nbsp; This piece has been updated to clarify the role and origin of Oak Ridge National Laboratory and Y-12 Security Complex. This story was originally published by Grist with the headline Tennessee helped usher in the nuclear age. It wants to lead the way again. on Aug 24, 2026."
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "environment",
+        "citation": "https://grist.org/energy/tennessee-helped-usher-in-the-nuclear-age-it-wants-to-lead-the-way-again/"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "published",
+      "proposition": {
+        "predicate": "published",
+        "object": "Mon, 24 Aug 2026 08:45:00 +0000"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "environment",
+        "citation": "https://grist.org/energy/tennessee-helped-usher-in-the-nuclear-age-it-wants-to-lead-the-way-again/"
+      },
+      "status": "supported"
+    }
+  ]
+}

@@ -1,0 +1,69 @@
+{
+  "subject": "how-rising-temperatures-likely-contributed-to-nepal-s-deadly-flood",
+  "claims": [
+    {
+      "id": "title",
+      "proposition": {
+        "predicate": "title",
+        "object": "How rising temperatures likely contributed to Nepal’s deadly flood"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "environment",
+        "citation": "https://grist.org/extreme-weather/how-rising-temperatures-likely-contributed-to-nepals-deadly-flood/"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "url",
+      "proposition": {
+        "predicate": "url",
+        "object": "https://grist.org/extreme-weather/how-rising-temperatures-likely-contributed-to-nepals-deadly-flood/"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "environment",
+        "citation": "https://grist.org/extreme-weather/how-rising-temperatures-likely-contributed-to-nepals-deadly-flood/"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "summary",
+      "proposition": {
+        "predicate": "summary",
+        "object": "Roughly 160 people are dead and hundreds more — including dozens of international tourists — are missing after flash floods hit a region on the mountainous border of Nepal and Tibet on Wednesday. Devastating footage posted to social media shows people fleeing a wall of water that washed away buildings and vehicles. Initial analysis of satellite imagery and reports from the Nepalese government indicate that the flooding was likely triggered by a landslide caused after a piece of a glacier fell hundreds of feet. As the region warms, its&nbsp; ice is becoming increasingly unstable , raising the risk of catastrophic flooding. “The glaciers over there are definitely in retreat,” said Joseph Shea, an associate professor of geography at the University of Northern British Columbia. “There’s a lot of glacier mass up there, but we’re seeing thinning, we’re seeing retreating.” Since 2000, the world’s glaciers have lost&nbsp; 5 percent of their ice , with much more drastic impacts in certain regions. Nepal’s glaciers&nbsp; lost nearly a quarter of their area &nbsp;between 1970 and 2010. More than 160 smaller glaciers in the country, research has found, have vanished entirely. Read Next Scientists race to decode data from Europe’s vanishing glaciers Matt Simon A&nbsp; recent study &nbsp;finds that 40 percent of the world’s glacial ice could disappear if the world does not keep warming under 1.5 degrees Celsius. The impacts of warming on glaciers in Nepal can cause cascading effects. Shea pointed out that retreating glaciers can help trigger landslides as they get smaller and can no longer hold back sediment. As these glaciers retreat, many are leaving large, dammed lakes at higher elevations. “If you have a landslide suddenly into a lake, you get an overtopping of the dam, and then the whole thing can collapse catastrophically,” Shea said. Known as glacial lake outburst floods, two of these events hit Nepal last year, and research shows millions are living in harms way around the world. Wednesday’s disaster was more likely due to a glacial collapse that fell into the valley below. Daniel Shugar, a geologist at the University of Calgary in Canada, told The New York Times that satellite imagery suggested that a 2,000-foot-wide piece of ice may have fallen almost 4,000 feet, “[pulverizing] the ice into water” with the force of its fall. And while Shugar emphasized that it was still too early to make conclusive statements about the cause of the floods, he noted to Reuters that snow that was present on the glacier earlier in the week may have melted due to warm temperatures. The collapse and debris flow were so large and forceful, they registered as a magnitude 5.2 seismic event, according the U.S. Geological Survey. Glaciers elsewhere have broken apart with destructive results. That includes the collapse of a Swiss glacier last year that buried a town while on a smaller scale, a&nbsp; glacier collapse in Italy in 2022 &nbsp;killed 11 mountaineers. Both&nbsp; were linked &nbsp;with&nbsp; rising temperatures . There’s a lot of factors in a warming world, Shea said, that can play on each other to destabilize glaciers. “It’s summertime,” he said. “There’s lots of warming, lots of melt happening, lots of water around. There’s also things like alpine permafrost thaws: the ground temperatures warm up, and big blocks and chunks that would have been frozen in place are now suddenly becoming mobile.” This story was originally published by Grist with the headline How rising temperatures likely contributed to Nepal’s deadly flood on Aug 29, 2026."
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "environment",
+        "citation": "https://grist.org/extreme-weather/how-rising-temperatures-likely-contributed-to-nepals-deadly-flood/"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "published",
+      "proposition": {
+        "predicate": "published",
+        "object": "Sat, 29 Aug 2026 13:00:00 +0000"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "environment",
+        "citation": "https://grist.org/extreme-weather/how-rising-temperatures-likely-contributed-to-nepals-deadly-flood/"
+      },
+      "status": "supported"
+    }
+  ]
+}

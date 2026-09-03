@@ -1,0 +1,69 @@
+{
+  "subject": "this-is-what-a-supercar-was-like-a-century-ago",
+  "claims": [
+    {
+      "id": "title",
+      "proposition": {
+        "predicate": "title",
+        "object": "This is what a supercar was like a century ago"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "technology",
+        "citation": "https://arstechnica.com/cars/2026/09/this-is-what-a-supercar-was-like-a-century-ago/"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "url",
+      "proposition": {
+        "predicate": "url",
+        "object": "https://arstechnica.com/cars/2026/09/this-is-what-a-supercar-was-like-a-century-ago/"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "technology",
+        "citation": "https://arstechnica.com/cars/2026/09/this-is-what-a-supercar-was-like-a-century-ago/"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "summary",
+      "proposition": {
+        "predicate": "summary",
+        "object": "Bentley provided flights from Washington, DC, to Monterey, California, and accommodation so Ars could drive the new Supersports and ride in a preproduction Torcal EV, which we wrote about last week. While we were there, we went for a ride in something quite old. Ars does not accept paid editorial content. MONTEREY, Calif.—Elsewhere on these pages , you can find our first track drive of the new Bentley Supersports. Shorn of its hybrid system and stripped back to rear-wheel drive, it's not only the most driver-focused Bentley we can remember, but it's also apparently the lightest car the company has made in 85 years. But you have to go back even further into the Bentley archive to find the first car to wear the Super Sports badge. And since Bentley had done just that, bringing along to Laguna Seca an example from the time, it would have been rude to refuse the offer of a ride. Bentley built 18 Super Sports between 1925 and 1927, taking its standard 3 Litre model and shortening the wheelbase by 9.5 inches (241 mm). Like today's Super Sports, that shaved some mass and made it a more responsive driver's car. But a fast one, too. The radiator was more tapered and thus presented less resistance against the flow of air, although like many cars at the time, the bodywork was a matter of whichever coachbuilder the owner decided upon. Smoky's two-seat bodywork was compact for the time. The lever for the three-speed transmission is just outside the car. Not sure the FIA or NHTSA would let you get away with that today. Credit: Jonathan Gitlin Like today with the Continental GT and the new Supersports, the 3.0 L engine Bentley in the original Super Sports was more special than one you'd find in the standard car, with new pistons, a lighter flywheel, more compression, and different carburetors. Together with its unique gearing, the factory would guarantee a Super Sports that could exceed 100 mph (160 km/h); the millions of Ford Model Ts that took the roads those same years were hard-pushed to break 40 mph (64 km/h). Read full article Comments"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "technology",
+        "citation": "https://arstechnica.com/cars/2026/09/this-is-what-a-supercar-was-like-a-century-ago/"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "published",
+      "proposition": {
+        "predicate": "published",
+        "object": "Tue, 01 Sep 2026 17:34:16 +0000"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "technology",
+        "citation": "https://arstechnica.com/cars/2026/09/this-is-what-a-supercar-was-like-a-century-ago/"
+      },
+      "status": "supported"
+    }
+  ]
+}

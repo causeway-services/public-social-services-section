@@ -1,0 +1,69 @@
+{
+  "subject": "no-wilson-no-plum-what-adjustments-must-team-usa-make",
+  "claims": [
+    {
+      "id": "title",
+      "proposition": {
+        "predicate": "title",
+        "object": "No Wilson? No Plum? What adjustments must Team USA make?"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "sport",
+        "citation": "https://www.espn.com/wnba/story/_/id/49787553/wnba-2026-fiba-world-cup-team-usa-basketball-aja-wilson-kelsey-plum-injury"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "url",
+      "proposition": {
+        "predicate": "url",
+        "object": "https://www.espn.com/wnba/story/_/id/49787553/wnba-2026-fiba-world-cup-team-usa-basketball-aja-wilson-kelsey-plum-injury"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "sport",
+        "citation": "https://www.espn.com/wnba/story/_/id/49787553/wnba-2026-fiba-world-cup-team-usa-basketball-aja-wilson-kelsey-plum-injury"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "summary",
+      "proposition": {
+        "predicate": "summary",
+        "object": "How will the deepest roster in the world make up for A'ja Wilson's absence? And what might be next for Kelsey Plum?"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "sport",
+        "citation": "https://www.espn.com/wnba/story/_/id/49787553/wnba-2026-fiba-world-cup-team-usa-basketball-aja-wilson-kelsey-plum-injury"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "published",
+      "proposition": {
+        "predicate": "published",
+        "object": "Wed, 2 Sep 2026 08:36:38 EST"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "sport",
+        "citation": "https://www.espn.com/wnba/story/_/id/49787553/wnba-2026-fiba-world-cup-team-usa-basketball-aja-wilson-kelsey-plum-injury"
+      },
+      "status": "supported"
+    }
+  ]
+}

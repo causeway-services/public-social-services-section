@@ -1,0 +1,69 @@
+{
+  "subject": "what-does-andy-burnham-s-home-town-think-of-him-as-pm-video",
+  "claims": [
+    {
+      "id": "title",
+      "proposition": {
+        "predicate": "title",
+        "object": "What does Andy Burnham's home town think of him as PM? – video"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "economy",
+        "citation": "https://www.theguardian.com/news/video/2026/sep/01/what-does-andy-burnhams-home-town-think-of-him-as-pm-video"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "url",
+      "proposition": {
+        "predicate": "url",
+        "object": "https://www.theguardian.com/news/video/2026/sep/01/what-does-andy-burnhams-home-town-think-of-him-as-pm-video"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "economy",
+        "citation": "https://www.theguardian.com/news/video/2026/sep/01/what-does-andy-burnhams-home-town-think-of-him-as-pm-video"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "summary",
+      "proposition": {
+        "predicate": "summary",
+        "object": "<p>In the Warrington suburb of Culcheth, people are hopeful about what one of their own can achieve as the first northern prime minister in half a century. The Guardian's Richard Partington, who also grew up in the quiet suburb halfway between Manchester and Liverpool, gets the thoughts of local people on the new prime minister.</p> <a href=\"https://www.theguardian.com/news/video/2026/sep/01/what-does-andy-burnhams-home-town-think-of-him-as-pm-video\">Continue reading...</a>"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "economy",
+        "citation": "https://www.theguardian.com/news/video/2026/sep/01/what-does-andy-burnhams-home-town-think-of-him-as-pm-video"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "published",
+      "proposition": {
+        "predicate": "published",
+        "object": "Tue, 01 Sep 2026 09:59:19 GMT"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "economy",
+        "citation": "https://www.theguardian.com/news/video/2026/sep/01/what-does-andy-burnhams-home-town-think-of-him-as-pm-video"
+      },
+      "status": "supported"
+    }
+  ]
+}

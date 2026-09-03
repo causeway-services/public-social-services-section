@@ -1,0 +1,69 @@
+{
+  "subject": "premier-league-transfer-talking-points-three-things-we-learned-from-the-data",
+  "claims": [
+    {
+      "id": "title",
+      "proposition": {
+        "predicate": "title",
+        "object": "Premier League transfer talking points: three things we learned from the data"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "sport",
+        "citation": "https://www.theguardian.com/football/2026/sep/02/premier-league-transfer-talking-points-three-things-we-learned-from-the-data"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "url",
+      "proposition": {
+        "predicate": "url",
+        "object": "https://www.theguardian.com/football/2026/sep/02/premier-league-transfer-talking-points-three-things-we-learned-from-the-data"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "sport",
+        "citation": "https://www.theguardian.com/football/2026/sep/02/premier-league-transfer-talking-points-three-things-we-learned-from-the-data"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "summary",
+      "proposition": {
+        "predicate": "summary",
+        "object": "<p>After record spending in the transfer market, England’s top clubs have widened the gap to their European counterparts</p><p>Premier League clubs have invested more than £3.4bn in players this summer, an increase of 11.9% on last year. There are three aspects of this enormous spending worthy of closer scrutiny.</p> <a href=\"https://www.theguardian.com/football/2026/sep/02/premier-league-transfer-talking-points-three-things-we-learned-from-the-data\">Continue reading...</a>"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "sport",
+        "citation": "https://www.theguardian.com/football/2026/sep/02/premier-league-transfer-talking-points-three-things-we-learned-from-the-data"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "published",
+      "proposition": {
+        "predicate": "published",
+        "object": "Wed, 02 Sep 2026 15:29:31 GMT"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "sport",
+        "citation": "https://www.theguardian.com/football/2026/sep/02/premier-league-transfer-talking-points-three-things-we-learned-from-the-data"
+      },
+      "status": "supported"
+    }
+  ]
+}

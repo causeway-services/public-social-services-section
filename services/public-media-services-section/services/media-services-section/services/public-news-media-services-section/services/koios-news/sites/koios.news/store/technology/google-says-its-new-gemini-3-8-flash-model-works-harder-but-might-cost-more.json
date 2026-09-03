@@ -1,0 +1,69 @@
+{
+  "subject": "google-says-its-new-gemini-3-8-flash-model-works-harder-but-might-cost-more",
+  "claims": [
+    {
+      "id": "title",
+      "proposition": {
+        "predicate": "title",
+        "object": "Google says its new Gemini 3.8 Flash model ‘works harder’ but might cost more"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "technology",
+        "citation": "https://www.theverge.com/ai-artificial-intelligence/988742/google-gemini-3-8-flash"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "url",
+      "proposition": {
+        "predicate": "url",
+        "object": "https://www.theverge.com/ai-artificial-intelligence/988742/google-gemini-3-8-flash"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "technology",
+        "citation": "https://www.theverge.com/ai-artificial-intelligence/988742/google-gemini-3-8-flash"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "summary",
+      "proposition": {
+        "predicate": "summary",
+        "object": "Google launched Gemini 3.8 Flash , arriving just a few weeks after its predecessor . The company claims the new model \"works harder\" than Gemini 3.7 Flash by performing more reasoning steps on complex tasks and \"calling tools iteratively.\" It has the same introductory pricing as 3.7 Flash, $0.75 per million input tokens and $3.75 per million output tokens, but could still end up costing users more. Google warns that \"the model might use more tokens to maximize performance, especially at higher effort levels.\" Developers can keep using Gemini 3.7 Flash if they want to minimize token usage. Gemini 3.8 Flash's launch was followed by some early … Read the full story at The Verge."
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "technology",
+        "citation": "https://www.theverge.com/ai-artificial-intelligence/988742/google-gemini-3-8-flash"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "published",
+      "proposition": {
+        "predicate": "published",
+        "object": "2026-09-02T16:11:40-04:00"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "technology",
+        "citation": "https://www.theverge.com/ai-artificial-intelligence/988742/google-gemini-3-8-flash"
+      },
+      "status": "supported"
+    }
+  ]
+}

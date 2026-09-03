@@ -1,0 +1,69 @@
+{
+  "subject": "anthropic-ships-claude-fable-5-1-more-than-doubling-its-predecessor-on-key-benchmark",
+  "claims": [
+    {
+      "id": "title",
+      "proposition": {
+        "predicate": "title",
+        "object": "Anthropic Ships Claude Fable 5.1, More Than Doubling Its Predecessor on Key Benchmark"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "crypto",
+        "citation": "https://decrypt.co/377078/anthropic-claude-fable-5-1"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "url",
+      "proposition": {
+        "predicate": "url",
+        "object": "https://decrypt.co/377078/anthropic-claude-fable-5-1"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "crypto",
+        "citation": "https://decrypt.co/377078/anthropic-claude-fable-5-1"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "summary",
+      "proposition": {
+        "predicate": "summary",
+        "object": "Fable 5.1 and its restricted sibling Mythos 5.1 arrive three months after export controls forced Anthropic to pull Fable 5 offline for 18 days"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "crypto",
+        "citation": "https://decrypt.co/377078/anthropic-claude-fable-5-1"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "published",
+      "proposition": {
+        "predicate": "published",
+        "object": "Tue, 01 Sep 2026 19:29:12 +0000"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "crypto",
+        "citation": "https://decrypt.co/377078/anthropic-claude-fable-5-1"
+      },
+      "status": "supported"
+    }
+  ]
+}

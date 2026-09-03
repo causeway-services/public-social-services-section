@@ -1,0 +1,69 @@
+{
+  "subject": "scientists-discover-diamonds-can-generate-electricity",
+  "claims": [
+    {
+      "id": "title",
+      "proposition": {
+        "predicate": "title",
+        "object": "Scientists discover diamonds can generate electricity"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "science",
+        "citation": "https://www.sciencedaily.com/releases/2026/08/260829035223.htm"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "url",
+      "proposition": {
+        "predicate": "url",
+        "object": "https://www.sciencedaily.com/releases/2026/08/260829035223.htm"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "science",
+        "citation": "https://www.sciencedaily.com/releases/2026/08/260829035223.htm"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "summary",
+      "proposition": {
+        "predicate": "summary",
+        "object": "Diamond was thought to be incapable of producing electricity through mechanical deformation, but ultrathin flexible diamond membranes have now shown a strong and repeatable piezoelectric effect. The unexpected discovery could open the door to diamond-powered sensors, tiny energy systems, and self-powered medical implants."
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "science",
+        "citation": "https://www.sciencedaily.com/releases/2026/08/260829035223.htm"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "published",
+      "proposition": {
+        "predicate": "published",
+        "object": "Mon, 31 Aug 2026 00:13:53 EDT"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "science",
+        "citation": "https://www.sciencedaily.com/releases/2026/08/260829035223.htm"
+      },
+      "status": "supported"
+    }
+  ]
+}

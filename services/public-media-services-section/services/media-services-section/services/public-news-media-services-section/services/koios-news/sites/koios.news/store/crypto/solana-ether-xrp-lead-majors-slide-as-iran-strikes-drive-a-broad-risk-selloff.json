@@ -1,0 +1,69 @@
+{
+  "subject": "solana-ether-xrp-lead-majors-slide-as-iran-strikes-drive-a-broad-risk-selloff",
+  "claims": [
+    {
+      "id": "title",
+      "proposition": {
+        "predicate": "title",
+        "object": "Solana, ether, xrp lead majors slide as Iran strikes drive a broad risk selloff"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "crypto",
+        "citation": "https://www.coindesk.com/markets/2026/09/02/solana-ether-xrp-lead-majors-slide-as-iran-strikes-drive-a-broad-risk-selloff"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "url",
+      "proposition": {
+        "predicate": "url",
+        "object": "https://www.coindesk.com/markets/2026/09/02/solana-ether-xrp-lead-majors-slide-as-iran-strikes-drive-a-broad-risk-selloff"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "crypto",
+        "citation": "https://www.coindesk.com/markets/2026/09/02/solana-ether-xrp-lead-majors-slide-as-iran-strikes-drive-a-broad-risk-selloff"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "summary",
+      "proposition": {
+        "predicate": "summary",
+        "object": "Every large-cap token fell over the past 24 hours, and the high-beta majors gave up roughly triple what bitcoin did."
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "crypto",
+        "citation": "https://www.coindesk.com/markets/2026/09/02/solana-ether-xrp-lead-majors-slide-as-iran-strikes-drive-a-broad-risk-selloff"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "published",
+      "proposition": {
+        "predicate": "published",
+        "object": "Wed, 02 Sep 2026 05:01:25 +0000"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "crypto",
+        "citation": "https://www.coindesk.com/markets/2026/09/02/solana-ether-xrp-lead-majors-slide-as-iran-strikes-drive-a-broad-risk-selloff"
+      },
+      "status": "supported"
+    }
+  ]
+}

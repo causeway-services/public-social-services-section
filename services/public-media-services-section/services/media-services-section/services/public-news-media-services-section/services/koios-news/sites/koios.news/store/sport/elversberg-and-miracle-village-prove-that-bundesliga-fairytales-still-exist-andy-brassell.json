@@ -1,0 +1,69 @@
+{
+  "subject": "elversberg-and-miracle-village-prove-that-bundesliga-fairytales-still-exist-andy-brassell",
+  "claims": [
+    {
+      "id": "title",
+      "proposition": {
+        "predicate": "title",
+        "object": "Elversberg and ‘miracle village’ prove that Bundesliga fairytales still exist | Andy Brassell"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "sport",
+        "citation": "https://www.theguardian.com/football/2026/aug/31/elversberg-miracle-village-prove-bundesliga-fairytales-still-exist"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "url",
+      "proposition": {
+        "predicate": "url",
+        "object": "https://www.theguardian.com/football/2026/aug/31/elversberg-miracle-village-prove-bundesliga-fairytales-still-exist"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "sport",
+        "citation": "https://www.theguardian.com/football/2026/aug/31/elversberg-miracle-village-prove-bundesliga-fairytales-still-exist"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "summary",
+      "proposition": {
+        "predicate": "summary",
+        "object": "<p>German football has long insisted there is more to their elite league than a title race. Now they have a story that shows the world that surprise and wonder does live here too</p><p>Friday night was no first day fun for VfB Stuttgart as they got first-hand proof of what the rest of the Bundesliga feared: that Bayern Munich are perhaps mightier than ever. The curtain-raiser, though, didn’t actually set the tone for the the weekend. German football has long insisted there is more to their elite league than a title race, and now they have a story that shows the world that surprise and wonder does indeed live here too.</p><p>Bayer Leverkusen arrived into their opening fixture of the campaign thinking their season might contain greater certainty than the last one, a more tranquil voyage after being blown off course by almost €300m of player sales and the ill-fated appointment of Erik ten Hag. Enter SV Elversberg, Bundesliga first-timers and representatives of – a “miracle village” as Bild put it – Spiesen-Elversberg, a town with a population of just over 13,000, situated 15km north-east of Saarbrücken, 30 minutes’ drive from the French border.</p> <a href=\"https://www.theguardian.com/football/2026/aug/31/elversberg-miracle-village-prove-bundesliga-fairytales-still-exist\">Continue reading...</a>"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "sport",
+        "citation": "https://www.theguardian.com/football/2026/aug/31/elversberg-miracle-village-prove-bundesliga-fairytales-still-exist"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "published",
+      "proposition": {
+        "predicate": "published",
+        "object": "Mon, 31 Aug 2026 11:52:41 GMT"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "sport",
+        "citation": "https://www.theguardian.com/football/2026/aug/31/elversberg-miracle-village-prove-bundesliga-fairytales-still-exist"
+      },
+      "status": "supported"
+    }
+  ]
+}

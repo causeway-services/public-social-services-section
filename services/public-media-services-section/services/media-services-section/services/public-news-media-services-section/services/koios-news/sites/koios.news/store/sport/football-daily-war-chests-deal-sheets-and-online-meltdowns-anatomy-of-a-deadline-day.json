@@ -1,0 +1,69 @@
+{
+  "subject": "football-daily-war-chests-deal-sheets-and-online-meltdowns-anatomy-of-a-deadline-day",
+  "claims": [
+    {
+      "id": "title",
+      "proposition": {
+        "predicate": "title",
+        "object": "Football Daily | War chests, deal sheets and online meltdowns: anatomy of a deadline day"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "sport",
+        "citation": "https://www.theguardian.com/football/2026/sep/02/football-daily-newsletter-anatomy-of-a-deadline-day"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "url",
+      "proposition": {
+        "predicate": "url",
+        "object": "https://www.theguardian.com/football/2026/sep/02/football-daily-newsletter-anatomy-of-a-deadline-day"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "sport",
+        "citation": "https://www.theguardian.com/football/2026/sep/02/football-daily-newsletter-anatomy-of-a-deadline-day"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "summary",
+      "proposition": {
+        "predicate": "summary",
+        "object": "<p><a href=\"https://www.theguardian.com/info/2022/nov/14/football-daily-email-sign-up\"><strong>Sign up now! Sign up now! Sign up now? Sign up now!</strong></a></p><p>Release clauses. War chests. Amortisation. Transfer requests. Surplus to requirements. Online meltdowns. Agents. Gazumping. Buy-back clauses. Options. Add-ons. Personal terms. Soft approaches. Grifters. Clickbait. Lowball bids. In The Knows. Serious bids. Super agents. Hijacked bids. Agreements in principle. Medicals. Undisclosed fees. Part exchanges. Deal sheets. Here we gos! Done deals. Some busker strumming a guitar in the Sky Sports News studio while reminiscing about Deadline Days <em>passim</em> through the medium of song. No really, some busker strumming a guitar in the Sky Sports News studio while etc, and so on. After a near relentless onslaught of media buzzwords, hype and assorted reputable (and thoroughly disreputable) transfer insiders announcing they “understand” things, the summer transfer window <a href=\"https://www.theguardian.com/football/2026/sep/02/premier-league-transfer-window-club-analysis-summer-2026\">is finally shut</a>. But what’s that Football Daily can see pressed up against the glass? The out-of-joint nose of an apoplectic David Moyes.</p><p>If you’d told me back in the golden era of Serie A in the 1990s that it would eventually become a dumping ground for underperforming (or past their best in the case of John Stones) Premier League players, judging by Tuesday’s front page of <a href=\"https://www.frontpages.com/g/2026/09/01/la-gazzetta-dello-sport-103850qhk6tvl.webp\" title=\"https://www.frontpages.com/g/2026/09/01/la-gazzetta-dello-sport-103850qhk6tvl.webp\">La Gazzetta dello Sport</a>, then I wouldn’t have believed you. And if you’d told me in January that Donyell Malen, who scored seven goals in 35 Premier League games for Aston Villa before going on loan to Roma, would already be on 19 goals in 20 Serie A games, I definitely wouldn’t have believed you” – Noble Francis.</p><p>Looks like Argentina have lined up James Maddison to replace Lionel Messi. That is if a street artist in Mumbai (yesterday’s Quote of the Day) can be believed” – Vaughan Wilkinson.</p> <a href=\"https://www.theguardian.com/football/2026/sep/02/football-daily-newsletter-anatomy-of-a-deadline-day\">Continue reading...</a>"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "sport",
+        "citation": "https://www.theguardian.com/football/2026/sep/02/football-daily-newsletter-anatomy-of-a-deadline-day"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "published",
+      "proposition": {
+        "predicate": "published",
+        "object": "Wed, 02 Sep 2026 14:57:37 GMT"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "sport",
+        "citation": "https://www.theguardian.com/football/2026/sep/02/football-daily-newsletter-anatomy-of-a-deadline-day"
+      },
+      "status": "supported"
+    }
+  ]
+}

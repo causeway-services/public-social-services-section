@@ -1,0 +1,69 @@
+{
+  "subject": "israel-seeking-trump-s-support-for-plan-to-expel-palestinians-from-gaza",
+  "claims": [
+    {
+      "id": "title",
+      "proposition": {
+        "predicate": "title",
+        "object": "Israel ‘seeking Trump’s support for plan to expel Palestinians from Gaza’"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "war",
+        "citation": "https://www.theguardian.com/world/2026/sep/02/israel-seeking-trumps-support-for-plan-to-expel-palestinians-from-gaza"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "url",
+      "proposition": {
+        "predicate": "url",
+        "object": "https://www.theguardian.com/world/2026/sep/02/israel-seeking-trumps-support-for-plan-to-expel-palestinians-from-gaza"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "war",
+        "citation": "https://www.theguardian.com/world/2026/sep/02/israel-seeking-trumps-support-for-plan-to-expel-palestinians-from-gaza"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "summary",
+      "proposition": {
+        "predicate": "summary",
+        "object": "<p>Defence minister says he believes US backing could tip regional balance in favour of forced resettlement</p><p>Israel’s defence minister has said his country is seeking Donald Trump’s support to approve plans to expel Palestinians from the Gaza Strip in what has widely been condemned as a potential war crime.</p><p>Israel Katz said there was “no real solution for Gaza in the end without this<br> migration” during a conference hosted by the Israeli news site Ynet and the newspaper Yedioth Ahronoth. He said the Israeli government was “organised and prepared to get them out by sea, by air, by every way possible”.</p> <a href=\"https://www.theguardian.com/world/2026/sep/02/israel-seeking-trumps-support-for-plan-to-expel-palestinians-from-gaza\">Continue reading...</a>"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "war",
+        "citation": "https://www.theguardian.com/world/2026/sep/02/israel-seeking-trumps-support-for-plan-to-expel-palestinians-from-gaza"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "published",
+      "proposition": {
+        "predicate": "published",
+        "object": "Wed, 02 Sep 2026 18:20:36 GMT"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "war",
+        "citation": "https://www.theguardian.com/world/2026/sep/02/israel-seeking-trumps-support-for-plan-to-expel-palestinians-from-gaza"
+      },
+      "status": "supported"
+    }
+  ]
+}

@@ -1,0 +1,69 @@
+{
+  "subject": "tumbler-ridge-mass-shooting-victims-file-30-new-lawsuits-against-openai",
+  "claims": [
+    {
+      "id": "title",
+      "proposition": {
+        "predicate": "title",
+        "object": "Tumbler Ridge mass shooting victims file 30 new lawsuits against OpenAI"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "world",
+        "citation": "https://www.theguardian.com/world/2026/sep/02/openai-lawsuits-tumbler-ridge-mass-shooting"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "url",
+      "proposition": {
+        "predicate": "url",
+        "object": "https://www.theguardian.com/world/2026/sep/02/openai-lawsuits-tumbler-ridge-mass-shooting"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "world",
+        "citation": "https://www.theguardian.com/world/2026/sep/02/openai-lawsuits-tumbler-ridge-mass-shooting"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "summary",
+      "proposition": {
+        "predicate": "summary",
+        "object": "<p>The company says it prioritizes safety, but suits allege its ChatGPT bot induced shooter to carry out attack in Canada</p><p><a href=\"https://www.theguardian.com/technology/openai\">OpenAI</a> faces 30 new lawsuits filed on behalf of victims of the Tumbler Ridge mass shooting.</p><p>The suits, filed on Wednesday, allege the company’s <a href=\"https://www.theguardian.com/technology/chatgpt\">ChatGPT</a> chatbot induced the shooter to carry out the attack in rural Canada in February, in which eight people were killed and dozens more wounded – most of them children.</p> <a href=\"https://www.theguardian.com/world/2026/sep/02/openai-lawsuits-tumbler-ridge-mass-shooting\">Continue reading...</a>"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "world",
+        "citation": "https://www.theguardian.com/world/2026/sep/02/openai-lawsuits-tumbler-ridge-mass-shooting"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "published",
+      "proposition": {
+        "predicate": "published",
+        "object": "Wed, 02 Sep 2026 13:22:57 GMT"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "world",
+        "citation": "https://www.theguardian.com/world/2026/sep/02/openai-lawsuits-tumbler-ridge-mass-shooting"
+      },
+      "status": "supported"
+    }
+  ]
+}

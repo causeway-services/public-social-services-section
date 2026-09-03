@@ -1,0 +1,69 @@
+{
+  "subject": "a-huge-learning-curve-apprentices-on-the-benefits-and-pitfalls-of-vocational-training",
+  "claims": [
+    {
+      "id": "title",
+      "proposition": {
+        "predicate": "title",
+        "object": "‘A huge learning curve’: apprentices on the benefits and pitfalls of vocational training"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "economy",
+        "citation": "https://www.theguardian.com/education/2026/sep/01/apprenticeships-apprentices-young-people-vocational-training"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "url",
+      "proposition": {
+        "predicate": "url",
+        "object": "https://www.theguardian.com/education/2026/sep/01/apprenticeships-apprentices-young-people-vocational-training"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "economy",
+        "citation": "https://www.theguardian.com/education/2026/sep/01/apprenticeships-apprentices-young-people-vocational-training"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "summary",
+      "proposition": {
+        "predicate": "summary",
+        "object": "<p>While many young people have found jobs and built careers, some have struggled to complete their courses</p><p></p><p>The crisis in the youth employment market, with <a href=\"https://www.theguardian.com/society/2026/aug/27/neets-figures-youth-unemployment-april-june\">almost a million young people not in education, employment or training (Neet)</a> across the UK, has placed fresh emphasis on ways of getting employees into the workforce.</p><p>The government hopes to increase focus on technical and vocational learning in England from the age of 14. In parallel, there is an ambition to create thousands more apprenticeships.</p> <a href=\"https://www.theguardian.com/education/2026/sep/01/apprenticeships-apprentices-young-people-vocational-training\">Continue reading...</a>"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "economy",
+        "citation": "https://www.theguardian.com/education/2026/sep/01/apprenticeships-apprentices-young-people-vocational-training"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "published",
+      "proposition": {
+        "predicate": "published",
+        "object": "Tue, 01 Sep 2026 04:00:46 GMT"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "economy",
+        "citation": "https://www.theguardian.com/education/2026/sep/01/apprenticeships-apprentices-young-people-vocational-training"
+      },
+      "status": "supported"
+    }
+  ]
+}

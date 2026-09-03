@@ -1,0 +1,69 @@
+{
+  "subject": "trump-ally-defends-venezuela-oil-deal-amid-gunpoint-diplomacy-criticism",
+  "claims": [
+    {
+      "id": "title",
+      "proposition": {
+        "predicate": "title",
+        "object": "Trump ally defends Venezuela oil deal amid ‘gunpoint diplomacy’ criticism"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "world",
+        "citation": "https://www.theguardian.com/world/2026/sep/02/venezuela-oil-deal-trump-chris-wright"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "url",
+      "proposition": {
+        "predicate": "url",
+        "object": "https://www.theguardian.com/world/2026/sep/02/venezuela-oil-deal-trump-chris-wright"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "world",
+        "citation": "https://www.theguardian.com/world/2026/sep/02/venezuela-oil-deal-trump-chris-wright"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "summary",
+      "proposition": {
+        "predicate": "summary",
+        "object": "<p>Energy secretary Chris Wright denies US seeks to ‘take’ country’s oil, saying deal is transformation of relations</p><p>The US energy secretary, Chris Wright, has denied Washington is seeking to commandeer huge quantities of Venezuelan oil, amid growing criticism of Donald Trump’s <a href=\"https://www.theguardian.com/us-news/2026/sep/01/trump-venezuela-oil-deal\">energy deal</a> with the country’s interim leaders.</p><p>“Absolutely not,” Wright replied when asked by a CNBC journalist if the US was engaged in a “heavy-handed” attempt to “take” Venezuelan oil in violation of the South American country’s constitution.</p> <a href=\"https://www.theguardian.com/world/2026/sep/02/venezuela-oil-deal-trump-chris-wright\">Continue reading...</a>"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "world",
+        "citation": "https://www.theguardian.com/world/2026/sep/02/venezuela-oil-deal-trump-chris-wright"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "published",
+      "proposition": {
+        "predicate": "published",
+        "object": "Wed, 02 Sep 2026 14:44:39 GMT"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "world",
+        "citation": "https://www.theguardian.com/world/2026/sep/02/venezuela-oil-deal-trump-chris-wright"
+      },
+      "status": "supported"
+    }
+  ]
+}

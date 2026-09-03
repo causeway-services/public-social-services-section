@@ -1,0 +1,69 @@
+{
+  "subject": "livestream-shopping-is-gaining-steam-in-the-u-s-thanks-to-apps-like-tiktok-and-whatnot",
+  "claims": [
+    {
+      "id": "title",
+      "proposition": {
+        "predicate": "title",
+        "object": "Livestream shopping is gaining steam in the U.S., thanks to apps like TikTok and Whatnot"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "economy",
+        "citation": "https://www.cnbc.com/2026/09/01/tiktok-whatnot-livestream-shopping.html"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "url",
+      "proposition": {
+        "predicate": "url",
+        "object": "https://www.cnbc.com/2026/09/01/tiktok-whatnot-livestream-shopping.html"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "economy",
+        "citation": "https://www.cnbc.com/2026/09/01/tiktok-whatnot-livestream-shopping.html"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "summary",
+      "proposition": {
+        "predicate": "summary",
+        "object": "Whatnot and TikTok are tapping into its potential livestream shopping in the U.S. after a decade of massive success in China."
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "economy",
+        "citation": "https://www.cnbc.com/2026/09/01/tiktok-whatnot-livestream-shopping.html"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "published",
+      "proposition": {
+        "predicate": "published",
+        "object": "Tue, 01 Sep 2026 13:40:48 GMT"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "economy",
+        "citation": "https://www.cnbc.com/2026/09/01/tiktok-whatnot-livestream-shopping.html"
+      },
+      "status": "supported"
+    }
+  ]
+}

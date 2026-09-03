@@ -1,0 +1,69 @@
+{
+  "subject": "anthropic-admits-security-failures-behind-claude-hacking-incidents",
+  "claims": [
+    {
+      "id": "title",
+      "proposition": {
+        "predicate": "title",
+        "object": "Anthropic Admits Security Failures Behind Claude Hacking Incidents"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "crypto",
+        "citation": "https://decrypt.co/377232/anthropic-security-claude-ai-hacks"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "url",
+      "proposition": {
+        "predicate": "url",
+        "object": "https://decrypt.co/377232/anthropic-security-claude-ai-hacks"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "crypto",
+        "citation": "https://decrypt.co/377232/anthropic-security-claude-ai-hacks"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "summary",
+      "proposition": {
+        "predicate": "summary",
+        "object": "After Claude models accessed real systems during cyber tests, Anthropic tightened its safeguards and warned that flawed training can encourage dangerous behavior."
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "crypto",
+        "citation": "https://decrypt.co/377232/anthropic-security-claude-ai-hacks"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "published",
+      "proposition": {
+        "predicate": "published",
+        "object": "Wed, 02 Sep 2026 23:46:04 +0000"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "crypto",
+        "citation": "https://decrypt.co/377232/anthropic-security-claude-ai-hacks"
+      },
+      "status": "supported"
+    }
+  ]
+}

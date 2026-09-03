@@ -1,0 +1,69 @@
+{
+  "subject": "explainer-how-the-super-el-nin-o-will-reshape-the-world-s-weather",
+  "claims": [
+    {
+      "id": "title",
+      "proposition": {
+        "predicate": "title",
+        "object": "Explainer: How the ‘super El Niño’ will reshape the world’s weather"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "environment",
+        "citation": "https://interactive.carbonbrief.org/el-nino-explainer/index.html"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "url",
+      "proposition": {
+        "predicate": "url",
+        "object": "https://interactive.carbonbrief.org/el-nino-explainer/index.html"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "environment",
+        "citation": "https://interactive.carbonbrief.org/el-nino-explainer/index.html"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "summary",
+      "proposition": {
+        "predicate": "summary",
+        "object": "The world is currently experiencing what is&nbsp; expected &nbsp;to become the strongest El Niño on record – dubbed a “ super El Niño ” by many. El Niño is the warm phase of a recurring climate pattern in the tropical Pacific that releases heat from the ocean into the atmosphere. This temporarily raises global temperatures and reshapes rainfall and extreme weather around the world – impacting the lives of billions of people. The current El Niño event began in June and is expected to last into 2027. El Niño is part of a wider climate pattern called the El Niño-Southern Oscillation (ENSO) cycle. The ENSO cycle also has a cool phase, known as La Niña, as well as a “neutral” phase. El Niño and La Niña events typically last between nine and 12 months, but can go on longer. Below, Carbon Brief explains how the ENSO cycle works, its impacts on extreme weather and global temperatures and why this El Niño event is projected to be the most intense since records began. The post Explainer: How the ‘super El Niño’ will reshape the world’s weather appeared first on Carbon Brief ."
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "environment",
+        "citation": "https://interactive.carbonbrief.org/el-nino-explainer/index.html"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "published",
+      "proposition": {
+        "predicate": "published",
+        "object": "Tue, 18 Aug 2026 12:58:53 +0000"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "environment",
+        "citation": "https://interactive.carbonbrief.org/el-nino-explainer/index.html"
+      },
+      "status": "supported"
+    }
+  ]
+}

@@ -1,0 +1,69 @@
+{
+  "subject": "the-trump-epa-is-a-toothless-friend-of-polluting-industries-analysis-shows",
+  "claims": [
+    {
+      "id": "title",
+      "proposition": {
+        "predicate": "title",
+        "object": "The Trump EPA Is a Toothless Friend of Polluting Industries, Analysis Shows"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "environment",
+        "citation": "https://insideclimatenews.org/news/01092026/trump-epa-clean-air-water-retreat/"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "url",
+      "proposition": {
+        "predicate": "url",
+        "object": "https://insideclimatenews.org/news/01092026/trump-epa-clean-air-water-retreat/"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "environment",
+        "citation": "https://insideclimatenews.org/news/01092026/trump-epa-clean-air-water-retreat/"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "summary",
+      "proposition": {
+        "predicate": "summary",
+        "object": "The EPA’s retreat from its role guarding clean air and water will have lasting effects on public health, critics fear. By Peter Aldhous By its own account, the U.S. Environmental Protection Agency is doing a fantastic job. In a March report on its performance in the last fiscal year, the agency boasted that it had concluded 2,127 civil enforcement cases, “the highest in nine years.”"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "environment",
+        "citation": "https://insideclimatenews.org/news/01092026/trump-epa-clean-air-water-retreat/"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "published",
+      "proposition": {
+        "predicate": "published",
+        "object": "Tue, 01 Sep 2026 09:00:00 +0000"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "environment",
+        "citation": "https://insideclimatenews.org/news/01092026/trump-epa-clean-air-water-retreat/"
+      },
+      "status": "supported"
+    }
+  ]
+}

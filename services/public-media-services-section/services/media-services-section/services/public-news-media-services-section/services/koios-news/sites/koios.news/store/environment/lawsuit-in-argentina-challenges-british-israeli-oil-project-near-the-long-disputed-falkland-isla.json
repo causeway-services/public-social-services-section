@@ -1,0 +1,69 @@
+{
+  "subject": "lawsuit-in-argentina-challenges-british-israeli-oil-project-near-the-long-disputed-falkland-isla",
+  "claims": [
+    {
+      "id": "title",
+      "proposition": {
+        "predicate": "title",
+        "object": "Lawsuit in Argentina Challenges British-Israeli Oil Project Near the Long-Disputed Falkland Islands"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "environment",
+        "citation": "https://insideclimatenews.org/news/02092026/argentina-challenges-british-israeli-oil-project-near-disputed-falkland-islands/"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "url",
+      "proposition": {
+        "predicate": "url",
+        "object": "https://insideclimatenews.org/news/02092026/argentina-challenges-british-israeli-oil-project-near-disputed-falkland-islands/"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "environment",
+        "citation": "https://insideclimatenews.org/news/02092026/argentina-challenges-british-israeli-oil-project-near-disputed-falkland-islands/"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "summary",
+      "proposition": {
+        "predicate": "summary",
+        "object": "The complaint alleges the oil operations pose severe risks to Atlantic and Antarctic ecosystems while unlawfully exploiting Argentine resources. By Katie Surma A proposed offshore oil project near the Falkland Islands threatens sensitive marine ecosystems—and Argentina’s sovereignty—and must be halted, an Argentine environmental group and a veterans’ organization alleged in a new lawsuit .&nbsp;"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "environment",
+        "citation": "https://insideclimatenews.org/news/02092026/argentina-challenges-british-israeli-oil-project-near-disputed-falkland-islands/"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "published",
+      "proposition": {
+        "predicate": "published",
+        "object": "Wed, 02 Sep 2026 09:00:00 +0000"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "environment",
+        "citation": "https://insideclimatenews.org/news/02092026/argentina-challenges-british-israeli-oil-project-near-disputed-falkland-islands/"
+      },
+      "status": "supported"
+    }
+  ]
+}

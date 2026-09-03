@@ -1,0 +1,69 @@
+{
+  "subject": "uber-to-cut-3-300-corporate-jobs-in-management-overhaul",
+  "claims": [
+    {
+      "id": "title",
+      "proposition": {
+        "predicate": "title",
+        "object": "Uber to cut 3,300 corporate jobs in management overhaul"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "economy",
+        "citation": "https://www.theguardian.com/technology/2026/sep/02/uber-to-cut-3300-corporate-jobs-in-management-overhaul"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "url",
+      "proposition": {
+        "predicate": "url",
+        "object": "https://www.theguardian.com/technology/2026/sep/02/uber-to-cut-3300-corporate-jobs-in-management-overhaul"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "economy",
+        "citation": "https://www.theguardian.com/technology/2026/sep/02/uber-to-cut-3300-corporate-jobs-in-management-overhaul"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "summary",
+      "proposition": {
+        "predicate": "summary",
+        "object": "<p>Company says it is slashing 10% of its workforce to make operations ‘simpler and faster’ </p><p>• <a href=\"https://www.theguardian.com/technology/2026/sep/02/uber-drivers-europe-legal-action-ai-algorithm\">Uber drivers launch European class action over ‘soulless’ and ‘scary’ AI algorithm</a></p><p>Uber plans to cut its global workforce by about 10% as part of a major restructuring, slashing about 3,300 corporate jobs.</p><p>The boss of the US-based ride-hailing app, Dara Khosrowshahi, told staff Wednesday that the changes would create a “simpler and faster” business by cutting layers of management and merging teams. Uber also plans to ask more employees to work in the office.</p> <a href=\"https://www.theguardian.com/technology/2026/sep/02/uber-to-cut-3300-corporate-jobs-in-management-overhaul\">Continue reading...</a>"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "economy",
+        "citation": "https://www.theguardian.com/technology/2026/sep/02/uber-to-cut-3300-corporate-jobs-in-management-overhaul"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "published",
+      "proposition": {
+        "predicate": "published",
+        "object": "Wed, 02 Sep 2026 16:45:02 GMT"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "economy",
+        "citation": "https://www.theguardian.com/technology/2026/sep/02/uber-to-cut-3300-corporate-jobs-in-management-overhaul"
+      },
+      "status": "supported"
+    }
+  ]
+}

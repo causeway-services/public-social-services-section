@@ -1,0 +1,69 @@
+{
+  "subject": "which-footballer-has-had-the-most-glittering-club-career-the-knowledge",
+  "claims": [
+    {
+      "id": "title",
+      "proposition": {
+        "predicate": "title",
+        "object": "Which footballer has had the most glittering club career? | The Knowledge"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "sport",
+        "citation": "https://www.theguardian.com/football/2026/sep/02/which-footballer-has-had-the-most-trophy-laden-club-career"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "url",
+      "proposition": {
+        "predicate": "url",
+        "object": "https://www.theguardian.com/football/2026/sep/02/which-footballer-has-had-the-most-trophy-laden-club-career"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "sport",
+        "citation": "https://www.theguardian.com/football/2026/sep/02/which-footballer-has-had-the-most-trophy-laden-club-career"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "summary",
+      "proposition": {
+        "predicate": "summary",
+        "object": "<p>Plus: brothers playing in England’s top four tiers, shirt-hogging sponsors, and goalkeepers sent off upfield</p><ul><li><p><a href=\"mailto:knowledge@theguardian.com\"><strong>Mail us</strong></a><strong> with your all of your questions and answers</strong></p></li></ul><p><strong>“Marquinhos won his 40th trophy in club football when Paris Saint-Germain beat Aston Villa in the Super Cup,”</strong> notes Paul Gage. <strong>“Has any player won more?”</strong></p><p>The short answer is no: here’s Pete Tomlin with the breakdown. “I calculate that Marquinhos has actually won 41 trophies – one Copa Libertadores, 11 Ligue 1 titles, eight Coupes de France, six Coupes de la Ligue, 10 Trophées des Champions, two Champions Leagues, two Super Cups and one Intercontinental Cup.” Not a bad haul. “This puts him at No 1 in the list of club trophies won by a player. Just behind is Lionel Messi with 40 (10 La Ligas, 7 Copas Del Rey, 7 Supercopas de España, four Champions Leagues, three Super Cups, three Club World Cups, two Ligue 1 titles, one Trophées des Champions, one MLS Cup, one Supporters Shield and one Leagues Cup).</p> <a href=\"https://www.theguardian.com/football/2026/sep/02/which-footballer-has-had-the-most-trophy-laden-club-career\">Continue reading...</a>"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "sport",
+        "citation": "https://www.theguardian.com/football/2026/sep/02/which-footballer-has-had-the-most-trophy-laden-club-career"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "published",
+      "proposition": {
+        "predicate": "published",
+        "object": "Wed, 02 Sep 2026 07:00:26 GMT"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "sport",
+        "citation": "https://www.theguardian.com/football/2026/sep/02/which-footballer-has-had-the-most-trophy-laden-club-career"
+      },
+      "status": "supported"
+    }
+  ]
+}

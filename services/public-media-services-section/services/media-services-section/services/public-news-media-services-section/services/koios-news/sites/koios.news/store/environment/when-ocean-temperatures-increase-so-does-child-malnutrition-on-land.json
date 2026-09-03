@@ -1,0 +1,69 @@
+{
+  "subject": "when-ocean-temperatures-increase-so-does-child-malnutrition-on-land",
+  "claims": [
+    {
+      "id": "title",
+      "proposition": {
+        "predicate": "title",
+        "object": "When ocean temperatures increase, so does child malnutrition on land"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "environment",
+        "citation": "https://grist.org/food-and-agriculture/when-ocean-temperatures-increase-so-does-child-malnutrition-on-land/"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "url",
+      "proposition": {
+        "predicate": "url",
+        "object": "https://grist.org/food-and-agriculture/when-ocean-temperatures-increase-so-does-child-malnutrition-on-land/"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "environment",
+        "citation": "https://grist.org/food-and-agriculture/when-ocean-temperatures-increase-so-does-child-malnutrition-on-land/"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "summary",
+      "proposition": {
+        "predicate": "summary",
+        "object": "In 2024, an interdisciplinary team of social and marine scientists set out to examine whether the prevalence of marine heat waves —&nbsp;prolonged rises in ocean temperatures that are becoming more frequent and more intense because of climate change — has any impact on child and maternal health outcomes. “I was very ready to find nothing,” said Clark Gray, a human geographer and professor at the University of North Carolina at Chapel Hill, who led the research. The researchers published their report this month, which revealed some distressing results. The team discovered that for every standard deviation increase in the number of marine heat waves in a 24-month period — or roughly three more marine heat waves than normal — child mortality increases by 5.4 percent. Child wasting and child stunting, which can result from malnutrition, also increased —&nbsp;by 6.5 and 8.8 percent respectively.&nbsp; The ways in which marine heat waves might influence extreme weather on land are still being studied. This study, published in the Proceedings of the National Academy of Sciences, is not without its limitations. The authors specifically looked at health data from low- and middle-income countries. The data analysis also only demonstrates a correlation between marine heat waves and health; the authors are still not sure why or how child malnutrition and mortality spikes when oceans warm.&nbsp; For example, marine heat waves have been shown to disrupt oceanic food chains . It’s possible that these warm-water events are causing vital fish or shellfish populations to die off. However, the authors pointed out that other mechanisms —&nbsp;such as terrestrial heatwaves or the spread of mosquito-borne infectious diseases —&nbsp;cannot be ruled out as other drivers.&nbsp;&nbsp; Katy Seto, an associate professor of environmental studies at the University of California, Santa Cruz, called the research important nevertheless. She noted that high-level findings such as these create an opportunity for refining future research. “It is definitely like a first pass at understanding for whom this could be a big problem and what the solutions might be,” she said.&nbsp; Moreover, the report’s findings are consistent with existing research on the relationship between global warming and human health. “I’ve been doing research on the social impact of climate for a while, and I’m continuously surprised by how consistently negative the warming effect on health is,” Gray said. “It really shows up pretty much everywhere on every outcome.” Read Next El Niño is here, and it’s already scrambling fisheries throughout the Pacific Joseph Winters One of the ways that Gray and the other study authors attempted to narrow their analysis was to group countries by whether they’re more or less dependent on small-scale fishing. “We do see that the negative effects are concentrated in the countries that depend on small-scale fishing, which is what you would expect,” said Gray. Industrial fishing operations are more likely to have the technology to evade heat waves; their fishing boats, for example, could move further out away from the shore.&nbsp; But that distinction still does not illuminate why, exactly, these health declines happen in more vulnerable coastal regions.&nbsp; It is not the case, for example, that all countries relying on small-scale fishing necessarily depend on those catches for their own diets, said Seto.&nbsp; Those harvests could still be traded locally or regionally —&nbsp;meaning that maybe marine heat waves contribute to loss of income, driving malnutrition in a more roundabout way.&nbsp; Oceans absorb the majority of the planet’s excess energy , but scientists are still working to understand the full range of impacts on marine systems. Marine heat waves, which are complex, three-dimensional events, have not gotten as much attention as, say, sea-surface temperature rises or ocean acidification, said Seto. Still, this study comes at a time when ocean temperatures are the highest in recorded history, so some conclusions can be drawn. Marine heat waves are “very bad in this current moment,” said Gray, and in the broader context of global warming, they “are going to get worse.”&nbsp; This story was originally published by Grist with the headline When ocean temperatures increase, so does child malnutrition on land on Aug 31, 2026."
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "environment",
+        "citation": "https://grist.org/food-and-agriculture/when-ocean-temperatures-increase-so-does-child-malnutrition-on-land/"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "published",
+      "proposition": {
+        "predicate": "published",
+        "object": "Mon, 31 Aug 2026 08:45:00 +0000"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "environment",
+        "citation": "https://grist.org/food-and-agriculture/when-ocean-temperatures-increase-so-does-child-malnutrition-on-land/"
+      },
+      "status": "supported"
+    }
+  ]
+}

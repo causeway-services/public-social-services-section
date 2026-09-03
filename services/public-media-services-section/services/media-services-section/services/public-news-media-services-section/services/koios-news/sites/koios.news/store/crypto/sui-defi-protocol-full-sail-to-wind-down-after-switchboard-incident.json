@@ -1,0 +1,69 @@
+{
+  "subject": "sui-defi-protocol-full-sail-to-wind-down-after-switchboard-incident",
+  "claims": [
+    {
+      "id": "title",
+      "proposition": {
+        "predicate": "title",
+        "object": "Sui DeFi protocol Full Sail to wind down after Switchboard incident"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "crypto",
+        "citation": "https://cointelegraph.com/news/full-sail-sui-wind-down-switchboard-incident?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "url",
+      "proposition": {
+        "predicate": "url",
+        "object": "https://cointelegraph.com/news/full-sail-sui-wind-down-switchboard-incident?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "crypto",
+        "citation": "https://cointelegraph.com/news/full-sail-sui-wind-down-switchboard-incident?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "summary",
+      "proposition": {
+        "predicate": "summary",
+        "object": "Full Sail is shutting down after an attacker removed about $91,000 from three vaults during a security incident linked to oracle provider Switchboard."
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "crypto",
+        "citation": "https://cointelegraph.com/news/full-sail-sui-wind-down-switchboard-incident?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "published",
+      "proposition": {
+        "predicate": "published",
+        "object": "Wed, 02 Sep 2026 13:40:03 +0000"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "crypto",
+        "citation": "https://cointelegraph.com/news/full-sail-sui-wind-down-switchboard-incident?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
+      },
+      "status": "supported"
+    }
+  ]
+}

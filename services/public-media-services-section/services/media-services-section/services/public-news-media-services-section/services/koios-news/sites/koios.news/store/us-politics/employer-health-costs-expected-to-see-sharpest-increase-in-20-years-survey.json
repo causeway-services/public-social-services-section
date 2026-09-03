@@ -1,0 +1,69 @@
+{
+  "subject": "employer-health-costs-expected-to-see-sharpest-increase-in-20-years-survey",
+  "claims": [
+    {
+      "id": "title",
+      "proposition": {
+        "predicate": "title",
+        "object": "Employer health costs expected to see sharpest increase in 20 years: Survey"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "us-politics",
+        "citation": "https://thehill.com/policy/healthcare/6066452-employer-health-costs-spike-2027/"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "url",
+      "proposition": {
+        "predicate": "url",
+        "object": "https://thehill.com/policy/healthcare/6066452-employer-health-costs-spike-2027/"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "us-politics",
+        "citation": "https://thehill.com/policy/healthcare/6066452-employer-health-costs-spike-2027/"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "summary",
+      "proposition": {
+        "predicate": "summary",
+        "object": "The cost of employer health benefits is projected to jump by the highest degree in more than 20 years next year, according to new projections released this week. Estimates released by the financial consulting firm Mercer project that annual employer health benefit costs will go up by 8.2 percent in 2027 because of ongoing cost…"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "us-politics",
+        "citation": "https://thehill.com/policy/healthcare/6066452-employer-health-costs-spike-2027/"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "published",
+      "proposition": {
+        "predicate": "published",
+        "object": "Wed, 02 Sep 2026 17:09:47 +0000"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "us-politics",
+        "citation": "https://thehill.com/policy/healthcare/6066452-employer-health-costs-spike-2027/"
+      },
+      "status": "supported"
+    }
+  ]
+}

@@ -1,0 +1,69 @@
+{
+  "subject": "analysis-weaker-ev-targets-could-cost-uk-consumers-3bn-a-year-by-2030",
+  "claims": [
+    {
+      "id": "title",
+      "proposition": {
+        "predicate": "title",
+        "object": "Analysis: Weaker EV targets could cost UK consumers £3bn a year by 2030"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "environment",
+        "citation": "https://www.carbonbrief.org/analysis-weaker-ev-targets-could-cost-uk-consumers-3bn-a-year-by-2030"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "url",
+      "proposition": {
+        "predicate": "url",
+        "object": "https://www.carbonbrief.org/analysis-weaker-ev-targets-could-cost-uk-consumers-3bn-a-year-by-2030"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "environment",
+        "citation": "https://www.carbonbrief.org/analysis-weaker-ev-targets-could-cost-uk-consumers-3bn-a-year-by-2030"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "summary",
+      "proposition": {
+        "predicate": "summary",
+        "object": "Print article Share An upcoming UK government consultation on weakening targets for electric vehicles (EVs) could cost consumers as much as £3bn a year by 2030, according to Carbon Brief analysis. It could require the UK to import an extra 17m barrels of oil in 2030, raising expected net imports by 8%, as well as adding 2.5% to national emissions that year, the analysis shows. After years of fierce lobbying by parts of the car industry –&nbsp;and despite the significant savings on offer for EV drivers&nbsp;–&nbsp; media reports suggest that EV targets could be “ watered down ”. Under current rules, battery EVs&nbsp;–&nbsp;BEVs, those which run only on electricity&nbsp;– must make up a rising share of new car sales in the UK. This policy, known as the “ zero-emission vehicles ” (ZEV) mandate, was introduced by the previous Conservative government and sets a goal for 33% BEV sales in 2026, rising to 80% in 2030. (Carmakers are able to use “ flexibilities ” to help meet their targets, which reduces the effective target under the ZEV mandate to an estimated 25% of sales in 2026.) Now, the government under new Labour prime minister Andy Burnham is reported to be considering a cut in the BEV target for 2030 to just 50% of new car sales, alongside options for 60% or 70%. Carbon Brief understands that a consultation on weakening the ZEV mandate is being reviewed by the prime minister’s office in Number 10, ahead of being formally released. If the mandate is weakened to 50% by 2030&nbsp;– and if carmakers make more use of “flexibilities”&nbsp;– there could be up to 3m fewer BEVs on UK roads by 2030, according to the NGO T&E . Previous Carbon Brief analysis found that BEVs are around £1,100 cheaper to run per year than a petrol car, thanks to far lower fuel costs. Overall, BEVs are more than £1,000 per year cheaper to own than either petrol cars or plug-in hybrids (PHEVs, which can run on petrol or electricity). This is according to analysis of the “total cost of ownership” by the Energy and Climate Intelligence Unit (ECIU), including purchase price, fuel costs, insurance and proposed pay-per-mile charges . In total, Carbon Brief analysis shows that UK drivers could be hit with an extra £3bn in annual ownership costs by 2030, if the ZEV mandate is weakened, as shown below. A weaker ZEV mandate could “put billions of pounds of committed investments at risk”, reports BusinessGreen , including in the EV charging network and battery supply chains. Industry group Energy UK says that the mandate is “working in the way it was designed to work” and that it is the “single biggest driver of emissions reductions” in government climate plans . However, Carbon Brief analysis shows that a weaker ZEV mandate could result in an extra 7.4m tonnes of carbon dioxide emissions (MtCO2) in 2030. This would add the equivalent of 2.5% to national emissions in 2030, under the UK’s international climate goal for that year. In addition, a weaker ZEV mandate could result in the UK needing to import an extra 17m barrels of oil in 2030, equivalent to 8% of projected net imports that year. Energy UK says that shifting to EVs will help to reduce household energy bills “for everyone”. This is not only through direct cost-of-ownership savings for EV drivers, but also by spreading the costs of upgrading the electricity system across a wider user base. Car industry group the Society of Motor Manufacturers and Traders claims that its members are spending “blilions…on discounts, finance incentives and marketing support” and that “natural” EV demand is below the level required to meet the current ZEV mandate. Its claims are disputed . related Factcheck: 10 flaws in the Conservative report on ‘cheap power’ 20.08.2026 Renewables Q&A: What is ‘long-duration energy storage’ – and why does the UK need it? 19.08.2026 Electricity Q&A: Does the world need ‘carbon capture and storage’ to reach net-zero? 03.08.2026 Technology UK withdraws millions in funding from world’s second-largest rainforest in Congo 15.07.2026 Nature The post Analysis: Weaker EV targets could cost UK consumers £3bn a year by 2030 appeared first on Carbon Brief ."
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "environment",
+        "citation": "https://www.carbonbrief.org/analysis-weaker-ev-targets-could-cost-uk-consumers-3bn-a-year-by-2030"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "published",
+      "proposition": {
+        "predicate": "published",
+        "object": "Wed, 12 Aug 2026 14:50:39 +0000"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "environment",
+        "citation": "https://www.carbonbrief.org/analysis-weaker-ev-targets-could-cost-uk-consumers-3bn-a-year-by-2030"
+      },
+      "status": "supported"
+    }
+  ]
+}

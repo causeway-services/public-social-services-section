@@ -1,0 +1,11 @@
+{
+  "kind": "koios.news.wire/v1",
+  "itemCount": 2,
+  "skippedCount": 0,
+  "newest": "2026-09-02T08:00:00.000Z",
+  "oldest": "2026-09-01T09:00:00.000Z",
+  "items": [
+    { "url": "https://sport.example.org/beta", "title": "Beta match <report>", "summary": "A summary.", "published": "2026-09-02T08:00:00.000Z", "tags": ["sport"], "sources": [{ "category": "sport", "slug": "beta-match", "witness": "sport", "claimCount": 4, "claims": "claims/sport/beta-match.json" }] },
+    { "url": "https://example.com/alpha", "title": "Alpha story", "published": "2026-09-01T09:00:00.000Z", "tags": ["technology"], "sources": [{ "category": "technology", "slug": "alpha-story", "witness": "technology", "claimCount": 3, "claims": "claims/technology/alpha-story.json" }] }
+  ]
+}

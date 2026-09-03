@@ -1,0 +1,69 @@
+{
+  "subject": "trump-attempts-to-combat-high-gas-prices-as-affordability-crisis-looms-over-midterms",
+  "claims": [
+    {
+      "id": "title",
+      "proposition": {
+        "predicate": "title",
+        "object": "Trump attempts to combat high gas prices as affordability crisis looms over midterms"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "us-politics",
+        "citation": "https://www.npr.org/2026/09/02/nx-s1-5951976/trump-attempts-to-combat-high-gas-prices-as-affordability-crisis-looms-over-midterms"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "url",
+      "proposition": {
+        "predicate": "url",
+        "object": "https://www.npr.org/2026/09/02/nx-s1-5951976/trump-attempts-to-combat-high-gas-prices-as-affordability-crisis-looms-over-midterms"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "us-politics",
+        "citation": "https://www.npr.org/2026/09/02/nx-s1-5951976/trump-attempts-to-combat-high-gas-prices-as-affordability-crisis-looms-over-midterms"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "summary",
+      "proposition": {
+        "predicate": "summary",
+        "object": "President Trump seems to be pulling out all the stops to mitigate high gas prices ahead of the midterms."
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "us-politics",
+        "citation": "https://www.npr.org/2026/09/02/nx-s1-5951976/trump-attempts-to-combat-high-gas-prices-as-affordability-crisis-looms-over-midterms"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "published",
+      "proposition": {
+        "predicate": "published",
+        "object": "Wed, 02 Sep 2026 04:42:26 -0400"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "us-politics",
+        "citation": "https://www.npr.org/2026/09/02/nx-s1-5951976/trump-attempts-to-combat-high-gas-prices-as-affordability-crisis-looms-over-midterms"
+      },
+      "status": "supported"
+    }
+  ]
+}

@@ -1,0 +1,69 @@
+{
+  "subject": "fiorentina-s-serie-a-renaissance-feels-a-way-off-after-chastening-centenary-nicky-bandini",
+  "claims": [
+    {
+      "id": "title",
+      "proposition": {
+        "predicate": "title",
+        "object": "Fiorentina’s Serie A renaissance feels a way off after chastening centenary | Nicky Bandini"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "sport",
+        "citation": "https://www.theguardian.com/football/2026/aug/31/fiorentina-serie-a-renaissance-chastening-centenary-frosinone"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "url",
+      "proposition": {
+        "predicate": "url",
+        "object": "https://www.theguardian.com/football/2026/aug/31/fiorentina-serie-a-renaissance-chastening-centenary-frosinone"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "sport",
+        "citation": "https://www.theguardian.com/football/2026/aug/31/fiorentina-serie-a-renaissance-chastening-centenary-frosinone"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "summary",
+      "proposition": {
+        "predicate": "summary",
+        "object": "<p>The home game against Frosinone seemed a perfect way to celebrate their landmark. It did not work out that way</p><p>Fiorentina’s 100th birthday party had been going for four days, starting with a fan procession through the historic centre of Florence on Wednesday night and extending to their home game against Frosinone on Saturday afternoon. The club was founded on 29 August 1926, but a decades-old discrepancy in the reporting of that date has led supporters to celebrate traditionally on the 26th.</p><p>This time they started a few hours earlier, gathering in their thousands beneath the marble façade of the Basilica of Santa Maria Novella on the evening of 25 August and building to a firework show beside the river Arno at midnight. The club’s president, Giuseppe Commisso, stopped by to give a speech. At least one former player, Borja Valero, was among the crowd.</p> <a href=\"https://www.theguardian.com/football/2026/aug/31/fiorentina-serie-a-renaissance-chastening-centenary-frosinone\">Continue reading...</a>"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "sport",
+        "citation": "https://www.theguardian.com/football/2026/aug/31/fiorentina-serie-a-renaissance-chastening-centenary-frosinone"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "published",
+      "proposition": {
+        "predicate": "published",
+        "object": "Mon, 31 Aug 2026 13:27:14 GMT"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "sport",
+        "citation": "https://www.theguardian.com/football/2026/aug/31/fiorentina-serie-a-renaissance-chastening-centenary-frosinone"
+      },
+      "status": "supported"
+    }
+  ]
+}

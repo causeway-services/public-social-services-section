@@ -1,0 +1,69 @@
+{
+  "subject": "farewell-keir-starmer-a-terrible-politician-whom-we-desperately-wanted-to-be-something-more-zoe",
+  "claims": [
+    {
+      "id": "title",
+      "proposition": {
+        "predicate": "title",
+        "object": "Farewell Keir Starmer, a terrible politician whom we desperately wanted to be something more | Zoe Williams"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "politics",
+        "citation": "https://www.theguardian.com/commentisfree/2026/sep/02/farewell-keir-starmer-politician-u-turn-prime-minister-mp"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "url",
+      "proposition": {
+        "predicate": "url",
+        "object": "https://www.theguardian.com/commentisfree/2026/sep/02/farewell-keir-starmer-politician-u-turn-prime-minister-mp"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "politics",
+        "citation": "https://www.theguardian.com/commentisfree/2026/sep/02/farewell-keir-starmer-politician-u-turn-prime-minister-mp"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "summary",
+      "proposition": {
+        "predicate": "summary",
+        "object": "<p>‘U-turn’ doesn’t do justice to the myriad ways he found to break a pledge. Now the former PM is resigning as an MP, why did I have such high hopes?</p><p>Keir Starmer exits the British political stage as he entered it: doing the exact opposite of the thing he said he was going to do. It’s only 10 weeks since he <a href=\"https://www.theguardian.com/politics/2026/jun/24/keir-starmer-to-stay-labour-mp\">pledged to remain</a> as MP for Holborn and St Pancras until the next election, despite stepping down as prime minister. That’s plainly the decent course of action: a dedicated Labour man wouldn’t want to force a byelection. Even if it’s a slam dunk for the party, it inevitably draws focus and resources from more important matters. Someone who takes the business of representing constituents even a 10th as seriously as all MPs say they do would feel that the honour of those votes should be repaid.</p><p>It’s a pretty boring life for an ex-PM turned backbencher. You have to keep your counsel as a large amount of blame is tacitly shovelled your way, while keeping your opinions to yourself. But that second requirement was the one thing Starmer was really good at. Once it transpired that the opinions he said out loud were open to endless revision and denial, I was never able to figure out what the real ones were.</p><p>Zoe Williams is a Guardian columnist</p> <a href=\"https://www.theguardian.com/commentisfree/2026/sep/02/farewell-keir-starmer-politician-u-turn-prime-minister-mp\">Continue reading...</a>"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "politics",
+        "citation": "https://www.theguardian.com/commentisfree/2026/sep/02/farewell-keir-starmer-politician-u-turn-prime-minister-mp"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "published",
+      "proposition": {
+        "predicate": "published",
+        "object": "Wed, 02 Sep 2026 14:02:26 GMT"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "politics",
+        "citation": "https://www.theguardian.com/commentisfree/2026/sep/02/farewell-keir-starmer-politician-u-turn-prime-minister-mp"
+      },
+      "status": "supported"
+    }
+  ]
+}

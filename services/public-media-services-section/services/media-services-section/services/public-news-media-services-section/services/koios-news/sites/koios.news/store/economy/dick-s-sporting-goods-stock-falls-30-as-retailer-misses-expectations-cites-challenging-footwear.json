@@ -1,0 +1,69 @@
+{
+  "subject": "dick-s-sporting-goods-stock-falls-30-as-retailer-misses-expectations-cites-challenging-footwear",
+  "claims": [
+    {
+      "id": "title",
+      "proposition": {
+        "predicate": "title",
+        "object": "Dick's Sporting Goods stock falls 30% as retailer misses expectations, cites 'challenging' footwear market"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "economy",
+        "citation": "https://www.cnbc.com/2026/08/25/dicks-sporting-goods-dks-earnings-q2-2026.html"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "url",
+      "proposition": {
+        "predicate": "url",
+        "object": "https://www.cnbc.com/2026/08/25/dicks-sporting-goods-dks-earnings-q2-2026.html"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "economy",
+        "citation": "https://www.cnbc.com/2026/08/25/dicks-sporting-goods-dks-earnings-q2-2026.html"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "summary",
+      "proposition": {
+        "predicate": "summary",
+        "object": "Dick's Sporting Goods reported fiscal second-quarter earnings on Tuesday that missed Wall Street expectations amid what it called a \"challenging\" environment."
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "economy",
+        "citation": "https://www.cnbc.com/2026/08/25/dicks-sporting-goods-dks-earnings-q2-2026.html"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "published",
+      "proposition": {
+        "predicate": "published",
+        "object": "Tue, 25 Aug 2026 20:38:59 GMT"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "economy",
+        "citation": "https://www.cnbc.com/2026/08/25/dicks-sporting-goods-dks-earnings-q2-2026.html"
+      },
+      "status": "supported"
+    }
+  ]
+}

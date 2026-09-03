@@ -1,0 +1,69 @@
+{
+  "subject": "there-s-no-place-to-go-providers-see-more-abortions-later-in-pregnancy-as-bans-spread-in-us",
+  "claims": [
+    {
+      "id": "title",
+      "proposition": {
+        "predicate": "title",
+        "object": "‘There’s no place to go’: providers see more abortions later in pregnancy as bans spread in US"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "us-politics",
+        "citation": "https://www.theguardian.com/world/2026/aug/30/abortion-bans-later-procedures"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "url",
+      "proposition": {
+        "predicate": "url",
+        "object": "https://www.theguardian.com/world/2026/aug/30/abortion-bans-later-procedures"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "us-politics",
+        "citation": "https://www.theguardian.com/world/2026/aug/30/abortion-bans-later-procedures"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "summary",
+      "proposition": {
+        "predicate": "summary",
+        "object": "<p>Patients are showing up ‘later and sicker’ for abortion care as more US states adopt bans and significant restrictions</p><p>Providers are seeing more patients in need of abortions later in pregnancy as abortion bans and restrictions proliferate in US states, all while access to insurance falls.</p><p>Those bans and restrictions have also meant that later abortion care access has grown over the past decade in a handful of haven states and cities.</p> <a href=\"https://www.theguardian.com/world/2026/aug/30/abortion-bans-later-procedures\">Continue reading...</a>"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "us-politics",
+        "citation": "https://www.theguardian.com/world/2026/aug/30/abortion-bans-later-procedures"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "published",
+      "proposition": {
+        "predicate": "published",
+        "object": "Sun, 30 Aug 2026 14:00:58 GMT"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "us-politics",
+        "citation": "https://www.theguardian.com/world/2026/aug/30/abortion-bans-later-procedures"
+      },
+      "status": "supported"
+    }
+  ]
+}

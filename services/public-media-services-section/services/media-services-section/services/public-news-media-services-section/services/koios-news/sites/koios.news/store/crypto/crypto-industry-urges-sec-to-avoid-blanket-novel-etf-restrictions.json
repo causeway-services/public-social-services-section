@@ -1,0 +1,69 @@
+{
+  "subject": "crypto-industry-urges-sec-to-avoid-blanket-novel-etf-restrictions",
+  "claims": [
+    {
+      "id": "title",
+      "proposition": {
+        "predicate": "title",
+        "object": "Crypto industry urges SEC to avoid blanket novel ETF restrictions"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "crypto",
+        "citation": "https://cointelegraph.com/news/crypto-industry-sec-novel-etf-restrictions?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "url",
+      "proposition": {
+        "predicate": "url",
+        "object": "https://cointelegraph.com/news/crypto-industry-sec-novel-etf-restrictions?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "crypto",
+        "citation": "https://cointelegraph.com/news/crypto-industry-sec-novel-etf-restrictions?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "summary",
+      "proposition": {
+        "predicate": "summary",
+        "object": "Grayscale, a16z, and the CCI asked the SEC to preserve existing classification rules and avoid treating novel exchange-traded products as a single category, while proposing different routes to clearer and faster reviews."
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "crypto",
+        "citation": "https://cointelegraph.com/news/crypto-industry-sec-novel-etf-restrictions?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "published",
+      "proposition": {
+        "predicate": "published",
+        "object": "Wed, 02 Sep 2026 09:48:49 +0000"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "crypto",
+        "citation": "https://cointelegraph.com/news/crypto-industry-sec-novel-etf-restrictions?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
+      },
+      "status": "supported"
+    }
+  ]
+}

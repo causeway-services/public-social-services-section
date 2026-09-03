@@ -1,0 +1,69 @@
+{
+  "subject": "bonnie-tyler-totally-eclipsed-her-power-ballad-peers-and-created-an-astonishingly-wide-variety-o",
+  "claims": [
+    {
+      "id": "title",
+      "proposition": {
+        "predicate": "title",
+        "object": "Bonnie Tyler totally eclipsed her power-ballad peers, and created an astonishingly wide variety of pop"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "entertainment",
+        "citation": "https://www.theguardian.com/music/2026/jul/09/bonnie-tyler-totally-eclipsed-her-power-ballad-peers"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "url",
+      "proposition": {
+        "predicate": "url",
+        "object": "https://www.theguardian.com/music/2026/jul/09/bonnie-tyler-totally-eclipsed-her-power-ballad-peers"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "entertainment",
+        "citation": "https://www.theguardian.com/music/2026/jul/09/bonnie-tyler-totally-eclipsed-her-power-ballad-peers"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "summary",
+      "proposition": {
+        "predicate": "summary",
+        "object": "<p>After hopping between country, disco and soft rock, Tyler found her groove with Jim Steinman-penned epics, shining through even the most overblown backing tracks</p><p>• <a href=\"https://www.theguardian.com/music/2026/jul/09/bonnie-tyler-80s-pop-legend-known-for-total-eclipse-of-the-heart-and-more-dies-aged-75\">News: Bonnie Tyler, 80s pop legend known for Total Eclipse of the Heart and more, dies aged 75</a><br>• <a href=\"https://www.theguardian.com/music/gallery/2026/jul/09/swansea-bonnie-tyler-total-eclipse-of-the-heart-a-life-in-pictures\">From Swansea clubs to worldwide fame: Bonnie Tyler – a life in pictures</a></p><p>Bonnie Tyler had a peculiar career: two bursts of global success that seemed to have almost nothing to do with each other beyond the name that appeared on the records. Her first big British hits, 1976’s Lost in France and 1977’s It’s a Heartache, were superior examples of what writer Pete Paphides subsequently dubbed “medium wave pop”, the largely forgotten stuff that actually filled the charts and Radio One’s playlists at a time when reductive rock histories would have you believe the entire nation was gripped by punk. They were a little bit soft rock, a little bit country, a little reminiscent of reliable mid-70s hitmakers Smokie, and so catchy that no one seemed to notice that somewhere between their respective releases, Tyler’s voice had changed dramatically: possessed of a rather sweet tone on <a href=\"https://www.youtube.com/watch?v=gK-SVR86ThY\">Lost in France</a>, an operation to remove nodules on her vocal cords had caused her to develop a striking Rod Stewart-like huskiness by the time of <a href=\"https://www.youtube.com/watch?v=bEOl38y8Nj8\">It’s a Heartache</a>.</p><p>It looked like It’s a Heartache would turn Tyler into a huge star: it sold 6m copies, and the accompanying album made the Top 3 on the US country chart. But said success proved difficult to sustain, compounded by the fact that her record label seemed bizarrely unsure what to do with her. Get her to cover Tom Petty and the Heartbreakers, as on Louisiana Rain? Aim her squarely at the easy listening market via a version of Sometimes When We Touch? Encourage her to go disco, as on the fabulously camp (The World is Full of) Married Men?</p> <a href=\"https://www.theguardian.com/music/2026/jul/09/bonnie-tyler-totally-eclipsed-her-power-ballad-peers\">Continue reading...</a>"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "entertainment",
+        "citation": "https://www.theguardian.com/music/2026/jul/09/bonnie-tyler-totally-eclipsed-her-power-ballad-peers"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "published",
+      "proposition": {
+        "predicate": "published",
+        "object": "Thu, 09 Jul 2026 09:38:31 GMT"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "entertainment",
+        "citation": "https://www.theguardian.com/music/2026/jul/09/bonnie-tyler-totally-eclipsed-her-power-ballad-peers"
+      },
+      "status": "supported"
+    }
+  ]
+}

@@ -1,0 +1,69 @@
+{
+  "subject": "andy-burnham-pays-tribute-after-keir-starmer-says-he-is-stepping-down-as-mp-video",
+  "claims": [
+    {
+      "id": "title",
+      "proposition": {
+        "predicate": "title",
+        "object": "Andy Burnham pays tribute after Keir Starmer says he is stepping down as MP – video"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "economy",
+        "citation": "https://www.theguardian.com/politics/video/2026/sep/01/andy-burnham-pays-tribute-commons-keir-starmer-stepping-down-mp-video"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "url",
+      "proposition": {
+        "predicate": "url",
+        "object": "https://www.theguardian.com/politics/video/2026/sep/01/andy-burnham-pays-tribute-commons-keir-starmer-stepping-down-mp-video"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "economy",
+        "citation": "https://www.theguardian.com/politics/video/2026/sep/01/andy-burnham-pays-tribute-commons-keir-starmer-stepping-down-mp-video"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "summary",
+      "proposition": {
+        "predicate": "summary",
+        "object": "<p>In his first address to the House of Commons as prime minister, Andy Burnham paid tribute to his predecessor, Keir Starmer, who announced he was standing down as MP for Holborn and St Pancras. The Labour leader praised the former PM for his achievements, saying Starmer took the party 'from one of its worst defeats to its best victories'</p><p></p><ul><li><p><a href=\"https://www.theguardian.com/politics/2026/sep/01/keir-starmer-to-stand-down-as-mp\">Keir Starmer to stand down as MP to focus on world affairs</a></p></li></ul> <a href=\"https://www.theguardian.com/politics/video/2026/sep/01/andy-burnham-pays-tribute-commons-keir-starmer-stepping-down-mp-video\">Continue reading...</a>"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "economy",
+        "citation": "https://www.theguardian.com/politics/video/2026/sep/01/andy-burnham-pays-tribute-commons-keir-starmer-stepping-down-mp-video"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "published",
+      "proposition": {
+        "predicate": "published",
+        "object": "Tue, 01 Sep 2026 15:48:22 GMT"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "economy",
+        "citation": "https://www.theguardian.com/politics/video/2026/sep/01/andy-burnham-pays-tribute-commons-keir-starmer-stepping-down-mp-video"
+      },
+      "status": "supported"
+    }
+  ]
+}

@@ -1,0 +1,69 @@
+{
+  "subject": "britain-is-ok-with-public-ownership-but-only-by-foreign-powers-why",
+  "claims": [
+    {
+      "id": "title",
+      "proposition": {
+        "predicate": "title",
+        "object": "Britain is OK with public ownership, but only by foreign powers. Why?"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "economy",
+        "citation": "https://www.theguardian.com/business/2026/sep/02/britain-public-ownership-energy-transition-foreign-powers-arthur-downing"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "url",
+      "proposition": {
+        "predicate": "url",
+        "object": "https://www.theguardian.com/business/2026/sep/02/britain-public-ownership-energy-transition-foreign-powers-arthur-downing"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "economy",
+        "citation": "https://www.theguardian.com/business/2026/sep/02/britain-public-ownership-energy-transition-foreign-powers-arthur-downing"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "summary",
+      "proposition": {
+        "predicate": "summary",
+        "object": "<p>Arthur Downing, author of Power and the People: A History of British Energy, says all-encompassing rapid transition will need a mutualised system</p><p>Have you ever wondered why it is that most houses in the UK are reliant on gas boilers? Not what’s stopping more people from replacing them with heat pumps, but instead why and how the gas boiler became so ubiquitous in the first place?</p><p>Arthur Downing, the author of the <a href=\"https://guardianbookshop.com/power-and-the-people-9781836741008/\">new book</a> Power and the People: A History of British Energy, can tell you exactly why. “We only have boilers in our houses because of a state-owned enterprise that went into everybody’s home and installed natural gas-suitable appliances at no direct cost,” he says. The nationalised gas industry of the 1940s to the 1980s, which oversaw this huge project, was for three decades one of the “most dynamic, innovative, efficient industries in Britain”, Downing says. Yet few of us would use these terms to describe it as such now.</p> <a href=\"https://www.theguardian.com/business/2026/sep/02/britain-public-ownership-energy-transition-foreign-powers-arthur-downing\">Continue reading...</a>"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "economy",
+        "citation": "https://www.theguardian.com/business/2026/sep/02/britain-public-ownership-energy-transition-foreign-powers-arthur-downing"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "published",
+      "proposition": {
+        "predicate": "published",
+        "object": "Wed, 02 Sep 2026 07:00:26 GMT"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "economy",
+        "citation": "https://www.theguardian.com/business/2026/sep/02/britain-public-ownership-energy-transition-foreign-powers-arthur-downing"
+      },
+      "status": "supported"
+    }
+  ]
+}

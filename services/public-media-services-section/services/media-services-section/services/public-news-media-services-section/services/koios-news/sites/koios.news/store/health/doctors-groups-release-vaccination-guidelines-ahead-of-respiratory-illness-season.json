@@ -1,0 +1,69 @@
+{
+  "subject": "doctors-groups-release-vaccination-guidelines-ahead-of-respiratory-illness-season",
+  "claims": [
+    {
+      "id": "title",
+      "proposition": {
+        "predicate": "title",
+        "object": "Doctors groups release vaccination guidelines ahead of respiratory illness season"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "health",
+        "citation": "https://www.statnews.com/2026/09/02/vaccine-integrity-project-fall-winter-guidelines-rsv-covid-flu-shots/?utm_campaign=rss"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "url",
+      "proposition": {
+        "predicate": "url",
+        "object": "https://www.statnews.com/2026/09/02/vaccine-integrity-project-fall-winter-guidelines-rsv-covid-flu-shots/?utm_campaign=rss"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "health",
+        "citation": "https://www.statnews.com/2026/09/02/vaccine-integrity-project-fall-winter-guidelines-rsv-covid-flu-shots/?utm_campaign=rss"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "summary",
+      "proposition": {
+        "predicate": "summary",
+        "object": "Professional organizations representing pediatricians, family physicians, obstetricians, and other medical professionals jointly released guidelines Wednesday for who should get vaccines aimed at staving off influenza, Covid-19, and respiratory syncytial virus, or RSV, this coming winter. The combined effort, undertaken in conjunction with the University of Minnesota’s Vaccine Integrity Project , has two goals: to help medical professionals guide their patients, and to help individuals plan to get the vaccinations that should help them either evade these ailments, or minimize their risks of severe illness if they do become infected. Read the rest&hellip;"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "health",
+        "citation": "https://www.statnews.com/2026/09/02/vaccine-integrity-project-fall-winter-guidelines-rsv-covid-flu-shots/?utm_campaign=rss"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "published",
+      "proposition": {
+        "predicate": "published",
+        "object": "Wed, 02 Sep 2026 14:00:00 +0000"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "health",
+        "citation": "https://www.statnews.com/2026/09/02/vaccine-integrity-project-fall-winter-guidelines-rsv-covid-flu-shots/?utm_campaign=rss"
+      },
+      "status": "supported"
+    }
+  ]
+}

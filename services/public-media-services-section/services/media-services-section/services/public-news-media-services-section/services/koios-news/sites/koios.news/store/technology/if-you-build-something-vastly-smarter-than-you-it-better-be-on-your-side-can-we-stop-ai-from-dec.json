@@ -1,0 +1,69 @@
+{
+  "subject": "if-you-build-something-vastly-smarter-than-you-it-better-be-on-your-side-can-we-stop-ai-from-dec",
+  "claims": [
+    {
+      "id": "title",
+      "proposition": {
+        "predicate": "title",
+        "object": "‘If you build something vastly smarter than you, it better be on your side’: can we stop AI from deceiving us?"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "technology",
+        "citation": "https://www.theguardian.com/news/2026/sep/01/if-you-build-something-vastly-smarter-than-you-it-better-be-on-your-side-can-we-stop-ai-from-deceiving-us"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "url",
+      "proposition": {
+        "predicate": "url",
+        "object": "https://www.theguardian.com/news/2026/sep/01/if-you-build-something-vastly-smarter-than-you-it-better-be-on-your-side-can-we-stop-ai-from-deceiving-us"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "technology",
+        "citation": "https://www.theguardian.com/news/2026/sep/01/if-you-build-something-vastly-smarter-than-you-it-better-be-on-your-side-can-we-stop-ai-from-deceiving-us"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "summary",
+      "proposition": {
+        "predicate": "summary",
+        "object": "<p>We are used to the idea that our fellow humans might intentionally mislead or manipulate us, but the idea that machines can now do the same is deeply unsettling. Researchers are racing to find solutions before it’s too late</p><ul><li><p><strong>The summer issue of the Long Read magazine is out now. </strong><a href=\"https://guardianbookshop.com/guardian-long-read-vol-4-9781919464312/?utm_source=theguardian&amp;utm_medium=onplatform&amp;utm_campaign=longreadvol4&amp;utm_content=in-article\"><strong>Click here</strong></a><strong> to order</strong></p></li></ul><p>In November 2023 – a lifetime ago in the field of artificial intelligence – some of the most powerful people in the world descended on Bletchley Park, the wartime codebreaking hub in Buckinghamshire, to <a href=\"https://www.theguardian.com/technology/2023/nov/01/elon-musk-calls-ai-one-of-the-biggest-threats-to-humanity-at-summit\">talk about AI safety</a>. In attendance were the then US vice-president, Kamala Harris, the AI bosses Sam Altman and Dario Amodei, delegations from 28 countries, two of the three so-called “godfathers” of AI, and Elon Musk.</p><p>The first iteration of ChatGPT had been released only a year earlier, and there was already plenty of evidence that AI models could be used for ill, from spreading misinformation to generating deepfakes. A presentation at the summit, however, highlighted a different issue: what if the biggest problem wasn’t to come from people misusing the technology, but from AI’s own behaviour?</p> <a href=\"https://www.theguardian.com/news/2026/sep/01/if-you-build-something-vastly-smarter-than-you-it-better-be-on-your-side-can-we-stop-ai-from-deceiving-us\">Continue reading...</a>"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "technology",
+        "citation": "https://www.theguardian.com/news/2026/sep/01/if-you-build-something-vastly-smarter-than-you-it-better-be-on-your-side-can-we-stop-ai-from-deceiving-us"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "published",
+      "proposition": {
+        "predicate": "published",
+        "object": "Tue, 01 Sep 2026 04:00:44 GMT"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "technology",
+        "citation": "https://www.theguardian.com/news/2026/sep/01/if-you-build-something-vastly-smarter-than-you-it-better-be-on-your-side-can-we-stop-ai-from-deceiving-us"
+      },
+      "status": "supported"
+    }
+  ]
+}

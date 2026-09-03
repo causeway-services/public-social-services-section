@@ -1,0 +1,69 @@
+{
+  "subject": "rise-of-chicken-shop-date-highlights-how-youtube-turned-the-tables-on-tv",
+  "claims": [
+    {
+      "id": "title",
+      "proposition": {
+        "predicate": "title",
+        "object": "Rise of Chicken Shop Date highlights how YouTube turned the tables on TV"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "technology",
+        "citation": "https://www.theguardian.com/technology/2026/aug/31/amelia-dimoldenberg-chicken-shop-date-youtube-tv"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "url",
+      "proposition": {
+        "predicate": "url",
+        "object": "https://www.theguardian.com/technology/2026/aug/31/amelia-dimoldenberg-chicken-shop-date-youtube-tv"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "technology",
+        "citation": "https://www.theguardian.com/technology/2026/aug/31/amelia-dimoldenberg-chicken-shop-date-youtube-tv"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "summary",
+      "proposition": {
+        "predicate": "summary",
+        "object": "<p>Amelia Dimoldenberg says publicists ignored her interview show for years but she can now be picky over A-list guests</p><p>Just a decade ago, <a href=\"https://www.theguardian.com/profile/amelia-dimoldenberg\">Amelia Dimoldenberg</a> found it impossible to drum up any mainstream celebrities to come on her mock date YouTube show, in which she chats awkwardly with guests over chicken and chips.</p><p>Even persuading a local actor connected with her London youth club to come on took years of prodding. Managers of A-listers with movies or albums to push instead battled to claim a spot on the hallowed cushions of the primetime TV chatshow sofa.</p> <a href=\"https://www.theguardian.com/technology/2026/aug/31/amelia-dimoldenberg-chicken-shop-date-youtube-tv\">Continue reading...</a>"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "technology",
+        "citation": "https://www.theguardian.com/technology/2026/aug/31/amelia-dimoldenberg-chicken-shop-date-youtube-tv"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "published",
+      "proposition": {
+        "predicate": "published",
+        "object": "Mon, 31 Aug 2026 12:00:25 GMT"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "technology",
+        "citation": "https://www.theguardian.com/technology/2026/aug/31/amelia-dimoldenberg-chicken-shop-date-youtube-tv"
+      },
+      "status": "supported"
+    }
+  ]
+}

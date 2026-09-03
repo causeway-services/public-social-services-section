@@ -1,0 +1,69 @@
+{
+  "subject": "firelight-raises-8-million-expands-beyond-xrp-as-it-aims-to-make-defi-less-scary-for-fintechs",
+  "claims": [
+    {
+      "id": "title",
+      "proposition": {
+        "predicate": "title",
+        "object": "Firelight raises $8 million, expands beyond XRP as it aims to make DeFi less scary for fintechs"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "crypto",
+        "citation": "https://www.coindesk.com/business/2026/08/31/firelight-raises-usd8-million-expands-beyond-xrp-as-it-aims-to-make-defi-less-scary-for-fintechs"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "url",
+      "proposition": {
+        "predicate": "url",
+        "object": "https://www.coindesk.com/business/2026/08/31/firelight-raises-usd8-million-expands-beyond-xrp-as-it-aims-to-make-defi-less-scary-for-fintechs"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "crypto",
+        "citation": "https://www.coindesk.com/business/2026/08/31/firelight-raises-usd8-million-expands-beyond-xrp-as-it-aims-to-make-defi-less-scary-for-fintechs"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "summary",
+      "proposition": {
+        "predicate": "summary",
+        "object": "The protocol aims to give fintechs and investors a faster way to recover losses from DeFi hacks, while letting XRP, bitcoin and XLM holders earn yield by backing that protection."
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "crypto",
+        "citation": "https://www.coindesk.com/business/2026/08/31/firelight-raises-usd8-million-expands-beyond-xrp-as-it-aims-to-make-defi-less-scary-for-fintechs"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "published",
+      "proposition": {
+        "predicate": "published",
+        "object": "Tue, 01 Sep 2026 13:56:44 +0000"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "crypto",
+        "citation": "https://www.coindesk.com/business/2026/08/31/firelight-raises-usd8-million-expands-beyond-xrp-as-it-aims-to-make-defi-less-scary-for-fintechs"
+      },
+      "status": "supported"
+    }
+  ]
+}

@@ -1,0 +1,69 @@
+{
+  "subject": "hong-kong-pro-democracy-activist-joshua-wong-pleads-guilty-in-second-national-security-case",
+  "claims": [
+    {
+      "id": "title",
+      "proposition": {
+        "predicate": "title",
+        "object": "Hong Kong pro-democracy activist Joshua Wong pleads guilty in second national security case"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "world",
+        "citation": "https://www.theguardian.com/world/2026/sep/02/hong-kong-pro-democracy-activist-joshua-wong-pleads-guilty-collusion-china"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "url",
+      "proposition": {
+        "predicate": "url",
+        "object": "https://www.theguardian.com/world/2026/sep/02/hong-kong-pro-democracy-activist-joshua-wong-pleads-guilty-collusion-china"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "world",
+        "citation": "https://www.theguardian.com/world/2026/sep/02/hong-kong-pro-democracy-activist-joshua-wong-pleads-guilty-collusion-china"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "summary",
+      "proposition": {
+        "predicate": "summary",
+        "object": "<p>Wong, 29, is accused of urging foreign powers to impose sanctions, blockades and other hostile measures against China </p><p><a href=\"https://www.theguardian.com/profile/joshua-wong\">Joshua Wong</a>, one of Hong Kong’s most prominent pro-democracy activists, pleaded guilty on Wednesday to conspiring to seek foreign sanctions against Hong Kong and China, a national security charge that carries a maximum life sentence.</p><p>Prosecutors have accused Wong, 29, of working with the exiled Hong Kong activist <a href=\"https://www.theguardian.com/profile/nathan-law\">Nathan Law</a> to urge foreign powers to impose sanctions, blockades or other hostile measures against China.</p> <a href=\"https://www.theguardian.com/world/2026/sep/02/hong-kong-pro-democracy-activist-joshua-wong-pleads-guilty-collusion-china\">Continue reading...</a>"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "world",
+        "citation": "https://www.theguardian.com/world/2026/sep/02/hong-kong-pro-democracy-activist-joshua-wong-pleads-guilty-collusion-china"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "published",
+      "proposition": {
+        "predicate": "published",
+        "object": "Wed, 02 Sep 2026 04:57:27 GMT"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "world",
+        "citation": "https://www.theguardian.com/world/2026/sep/02/hong-kong-pro-democracy-activist-joshua-wong-pleads-guilty-collusion-china"
+      },
+      "status": "supported"
+    }
+  ]
+}

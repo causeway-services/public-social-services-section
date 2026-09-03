@@ -1,0 +1,69 @@
+{
+  "subject": "get-up-get-breakfast-noise-the-teen-going-viral-for-enduring-all-400-of-merzbow-s-ear-splitting",
+  "claims": [
+    {
+      "id": "title",
+      "proposition": {
+        "predicate": "title",
+        "object": "‘Get up, get breakfast, noise’: the teen going viral for enduring all 400 of Merzbow’s ear-splitting albums"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "entertainment",
+        "citation": "https://www.theguardian.com/music/2026/sep/01/merzbow-noise-artist-sam-andrews-teen-listening-marathon"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "url",
+      "proposition": {
+        "predicate": "url",
+        "object": "https://www.theguardian.com/music/2026/sep/01/merzbow-noise-artist-sam-andrews-teen-listening-marathon"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "entertainment",
+        "citation": "https://www.theguardian.com/music/2026/sep/01/merzbow-noise-artist-sam-andrews-teen-listening-marathon"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "summary",
+      "proposition": {
+        "predicate": "summary",
+        "object": "<p>The infamous Japanese noise artist has a vast and forbidding catalogue that commands a cult fandom. Sam Andrews, 18, is vlogging his way through the lot – and taking a stand for deep listening</p><p>An <a href=\"https://www.instagram.com/p/DbxWG2bOKAs/\">Instagram Reel</a> that looks like an 80s coming-of-age movie pops up on your feed. It’s four teenage boys in an American-style basement – comfy sofas, guitars, ping pong table – jeering and laughing. But they aren’t secretly drinking beer or planning on sneaking out. They’re brandishing a vinyl copy of <a href=\"https://open.spotify.com/album/2jp9y9hNZTVeQkEDr0pCLI?si=E0u7NIcwQ5G0UzRyprFfHw\">Pulse Demon</a>, the most popular album from the cult Japanese noise artist Merzbow, and subjecting themselves to its brutally harsh sound in full, for fun. “I think this is the Book of Revelation: The Soundtrack,” one guy blurts out, a vague look of fear in his eyes.</p><p>Merzbow, real name Masami Akita, is the world’s most renowned noise artist. Since 1979, Akita has released more than 400 recordings, which range from a <a href=\"https://youtube.com/playlist?list=OLAK5uy_nkUURX9w5vcrxNld8MnZv7u8oct1Yprfc&amp;si=s5bbSeqZjoYCgms8\">10-hour long album</a> misleadingly titled Merzbient (it’s anything but ambient) to a <a href=\"https://www.youtube.com/watch?v=_t7GoGt7Tn8\">free-noise supergroup</a> called Flying Testicle. Since February, Sam Andrews, the video’s 18-year-old creator, has been attempting to listen to every one, and is documenting his progress online each day. “I think of my day in album-size chunks,” he says, laughing. “It’s like, get up at seven, get breakfast and then headphones in: noise.”</p> <a href=\"https://www.theguardian.com/music/2026/sep/01/merzbow-noise-artist-sam-andrews-teen-listening-marathon\">Continue reading...</a>"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "entertainment",
+        "citation": "https://www.theguardian.com/music/2026/sep/01/merzbow-noise-artist-sam-andrews-teen-listening-marathon"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "published",
+      "proposition": {
+        "predicate": "published",
+        "object": "Tue, 01 Sep 2026 13:00:59 GMT"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "entertainment",
+        "citation": "https://www.theguardian.com/music/2026/sep/01/merzbow-noise-artist-sam-andrews-teen-listening-marathon"
+      },
+      "status": "supported"
+    }
+  ]
+}

@@ -1,0 +1,69 @@
+{
+  "subject": "offshoots-of-cancelled-truenas-core-upgrade-to-freebsd-15",
+  "claims": [
+    {
+      "id": "title",
+      "proposition": {
+        "predicate": "title",
+        "object": "Offshoots of cancelled TrueNAS Core upgrade to FreeBSD 15"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "technology",
+        "citation": "https://www.theregister.com/storage/2026/09/02/offshoots-of-cancelled-truenas-core-upgrade-to-freebsd-15/5293725"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "url",
+      "proposition": {
+        "predicate": "url",
+        "object": "https://www.theregister.com/storage/2026/09/02/offshoots-of-cancelled-truenas-core-upgrade-to-freebsd-15/5293725"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "technology",
+        "citation": "https://www.theregister.com/storage/2026/09/02/offshoots-of-cancelled-truenas-core-upgrade-to-freebsd-15/5293725"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "summary",
+      "proposition": {
+        "predicate": "summary",
+        "object": "Good news if you want to keep your NAS boxes on FreeBSD – two new contenders just stepped up, with updated forks of the cancelled TrueNAS Core. FreeBSD has a strong reputation as a stable server OS, and integrates highly reliable ZFS filesystem right into its kernel. The snag is that Linux is rather more widespread, meaning more people know their way around a Linux box – but Linux knowledge doesn’t transfer well over to FreeBSD. The Reg FOSS desk just found out about two different new dedicated NAS OS based on FreeBSD – and saliently, based on the current FreeBSD 15 codebase, which was released in December 2025, with version 15.1 arriving in June. FreeCORE-15.0-U1 appeared on August 27th. It’s the first update for FreeCore 15.0, which appeared just a week earlier. The FreeCORE project website describes it as “TrueNAS® CORE — continued”, and says: “FreeCORE carries the TrueNAS CORE 13.3 system forward as an independently maintained operating system on FreeBSD. “15.0-U1 is stable. TrueNAS CORE 13.3 systems upgrade straight to 15.0 in place, then continue on the project’s update train.” The reason that anyone needed to come along and carry the TrueNAS Core system forward is that developer and vendor iXsystems cancelled its FreeBSD-based NAS OS in 2024. This followed two years after it introduced its new TrueNAS SCALE NAS OS, which is based on Debian Linux. To Register sister site Blocks&Files, the company explained no one was being marooned by the change. Some TrueNAS Core users – and this vulture is one of them – were less than delighted by the change. OpenZFS works fine on Linux, and it’s regularly updated, but it must be loaded as a module: license restrictions mean it cannot be built into the Linux kernel. Significantly, this means that the ZFS Adaptive Replacement Cache must remain separate from Linux’s Page Cache. This is not ideal if the server is memory-constrained, and this vulture’s two TrueNAS Core boxes only have 8 GB of memory each. A year after the end of TrueNAS Core, we reported on a new project fork called zVault, which took the existing FreeBSD 13.3-based TrueNAS code and removed any parts that belonged to iXsystems. Unfortunately, zVault didn’t get much further than that. By later in the year, users were warning on GitHub BEWARE RUNNING ZVAULT – complete with block caps – and the project maintainers have gone silent. The planned upgrades to a FreeBSD 14 base never emerged. Now, FreeCORE has appeared, to pick up the slack. It’s already migrated the TrueNAS Core web UI and other code over to the base of FreeBSD 15, plus all the latest security fixes. The HackerNews discussion of the new product also turned up another new alternative: BSDnas. This appeared just days before the first release of FreeCORE: the project status page is dated 19th August 2026. Its project history tells a similar story: it’s the original TrueNAS Core 13.3 code, cleaned of iXsystems dependencies and moved to the basis of FreeBSD 15. Despite the much newer codebase, the reported memory usage seems modest: it will boot in 2 GB of RAM, and function usably with 4 GB. For contrast, the TrueNAS SCALE docs recommend at least 8 GB RAM – although they do mention “in TrueNAS 13”, which suggests the docs may be rather dated. The TrueNAS Guide website suggests 16 GB as the entry-level “floor” for the current release. The Register asked the FreeCORE project if it had any connection with the older zVault or contemporary BSDnas projects. The developer replied, telling us: \"I am not affilated with ZVault nor BSDnas, and not XigmaNAS either. This is an entirely independent fork.\" They told us that it's a solo project that they have been working on since January. They had a FreeBSD 15.0 build by April, and they made around 50 test builds before the release. For completeness, and for those who’d like a more tried-and-tested tool with more history, we would be remiss if we did not mention XigmaNAS. Previously called NAS4Free, this was forked from an older version of FreeNAS after iXsystems acquired it. Its Wikipedia page says XigmaNAS was forked from FreeNAS 8 back in 2011. The latest version on the Sourceforge download page is based on FreeBSD 14, and was last updated in October 2025. The original creators of FreeNAS went on to build the Debian Linux-based Open Media Vault. The latest version is 8.5.7, released just last weekend. We have an older version running on a testbed server here, and for the record, it seems quite content in just 6 GB of memory. ®"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "technology",
+        "citation": "https://www.theregister.com/storage/2026/09/02/offshoots-of-cancelled-truenas-core-upgrade-to-freebsd-15/5293725"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "published",
+      "proposition": {
+        "predicate": "published",
+        "object": "Wed, 02 Sep 2026 15:49:00 +0200"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "technology",
+        "citation": "https://www.theregister.com/storage/2026/09/02/offshoots-of-cancelled-truenas-core-upgrade-to-freebsd-15/5293725"
+      },
+      "status": "supported"
+    }
+  ]
+}

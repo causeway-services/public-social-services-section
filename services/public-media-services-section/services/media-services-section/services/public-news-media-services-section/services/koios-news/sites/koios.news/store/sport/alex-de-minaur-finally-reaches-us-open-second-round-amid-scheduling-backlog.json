@@ -1,0 +1,69 @@
+{
+  "subject": "alex-de-minaur-finally-reaches-us-open-second-round-amid-scheduling-backlog",
+  "claims": [
+    {
+      "id": "title",
+      "proposition": {
+        "predicate": "title",
+        "object": "Alex de Minaur finally reaches US Open second round amid scheduling backlog"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "sport",
+        "citation": "https://www.theguardian.com/sport/2026/sep/03/alex-de-minaur-us-open-first-round-andrea-guerrieri"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "url",
+      "proposition": {
+        "predicate": "url",
+        "object": "https://www.theguardian.com/sport/2026/sep/03/alex-de-minaur-us-open-first-round-andrea-guerrieri"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "sport",
+        "citation": "https://www.theguardian.com/sport/2026/sep/03/alex-de-minaur-us-open-first-round-andrea-guerrieri"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "summary",
+      "proposition": {
+        "predicate": "summary",
+        "object": "<ul><li><p>Australia’s No 1 beats Andrea Guerrieri 6-2, 6-2, 6-4 after delays</p></li><li><p>Taylah Preston and Daria Kasatkina bow out after first-round defeats</p></li></ul><p>After having his tournament opener against Andrea Guerrieri postponed until day four, Alex de Minaur had to endure another two-hour rain delay before putting away the Italian qualifier in straight sets.</p><p>The world No 7 advanced with a 6-2, 6-2, 6-4 victory to set up a second-round clash with Dutchman Botic van de Zandschulp.</p> <a href=\"https://www.theguardian.com/sport/2026/sep/03/alex-de-minaur-us-open-first-round-andrea-guerrieri\">Continue reading...</a>"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "sport",
+        "citation": "https://www.theguardian.com/sport/2026/sep/03/alex-de-minaur-us-open-first-round-andrea-guerrieri"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "published",
+      "proposition": {
+        "predicate": "published",
+        "object": "Wed, 02 Sep 2026 23:10:31 GMT"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "sport",
+        "citation": "https://www.theguardian.com/sport/2026/sep/03/alex-de-minaur-us-open-first-round-andrea-guerrieri"
+      },
+      "status": "supported"
+    }
+  ]
+}

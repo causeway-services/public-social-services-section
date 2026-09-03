@@ -3,6 +3,31 @@
 This runbook describes the current packages, not the tombstoned customer
 aggregate. Passing a check proves only the boundary named by that check.
 
+## Known production state on 2026-09-02
+
+- `https://koios.news/` serves Worker version `f04addbf-cddf-415a-b2ee-2f13362f5374`
+  of `koios-news-primary` (route `koios.news/*`), built by
+  `scripts/build-public-site.mjs` over the observed 482-artifact live
+  baseline: 5,101 sealed artifacts, 22 published posts, ten desks under
+  `/wire/<desk>`, 2,153 wire items from 21 claim-store categories (46 source
+  outlets) projected to `/wire/feed.xml|feed.atom|feed.json|news-sitemap.xml`
+  and `/wire/index.json`, and every claim object served byte-identical at
+  `/claims/<category>/<slug>.json` with a ledger page at
+  `/claims/<category>/<slug>/`. The site now ships a stylesheet
+  (`/assets/site.css`) and an external house-ad loader
+  (`/assets/house-ad.js`); its CSP is `script-src 'self'; style-src 'self';
+  connect-src 'self' <house ad server>`, so the ad slot actually renders.
+  Every prior live artifact path is retained. Rollback:
+  `wrangler rollback 2282fff3-c4a7-452c-8dbb-3cab9aa2778c --name koios-news-primary`.
+- The wire is acquired by
+  `services/newscable-source-broker/scripts/acquire-wires-into-store.mjs
+  --wires config/public-wires.json --store sites/koios.news/store`; it only
+  adds store files it has not seen and never rewrites one.
+- Build the current candidate with
+  `node scripts/build-public-site.mjs --out <dir>/public --production-baseline
+  <observed live public mirror>`; the baseline is the live site mirrored file
+  by file and verified against the live `manifest.json`.
+
 ## Known production state on 2026-08-29
 
 - `https://koios.news/`, `feed.xml`, `sitemap.xml`, `operations.json`, and

@@ -1,0 +1,69 @@
+{
+  "subject": "saudi-arabia-condemns-deadly-iranian-attack-on-tanker-in-strait-of-hormuz",
+  "claims": [
+    {
+      "id": "title",
+      "proposition": {
+        "predicate": "title",
+        "object": "Saudi Arabia condemns deadly Iranian attack on tanker in Strait of Hormuz"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "world",
+        "citation": "https://www.aljazeera.com/news/2026/9/2/saudi-arabia-condemns-deadly-iranian-attack-on-tanker-in-strait-of-hormuz?traffic_source=rss"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "url",
+      "proposition": {
+        "predicate": "url",
+        "object": "https://www.aljazeera.com/news/2026/9/2/saudi-arabia-condemns-deadly-iranian-attack-on-tanker-in-strait-of-hormuz?traffic_source=rss"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "world",
+        "citation": "https://www.aljazeera.com/news/2026/9/2/saudi-arabia-condemns-deadly-iranian-attack-on-tanker-in-strait-of-hormuz?traffic_source=rss"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "summary",
+      "proposition": {
+        "predicate": "summary",
+        "object": "Regional neighbours condemn attack this week that killed two crew members from the Philippines."
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "world",
+        "citation": "https://www.aljazeera.com/news/2026/9/2/saudi-arabia-condemns-deadly-iranian-attack-on-tanker-in-strait-of-hormuz?traffic_source=rss"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "published",
+      "proposition": {
+        "predicate": "published",
+        "object": "Wed, 02 Sep 2026 19:16:36 +0000"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "world",
+        "citation": "https://www.aljazeera.com/news/2026/9/2/saudi-arabia-condemns-deadly-iranian-attack-on-tanker-in-strait-of-hormuz?traffic_source=rss"
+      },
+      "status": "supported"
+    }
+  ]
+}

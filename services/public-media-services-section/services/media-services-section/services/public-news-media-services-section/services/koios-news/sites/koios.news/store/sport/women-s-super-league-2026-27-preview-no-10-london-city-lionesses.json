@@ -1,0 +1,69 @@
+{
+  "subject": "women-s-super-league-2026-27-preview-no-10-london-city-lionesses",
+  "claims": [
+    {
+      "id": "title",
+      "proposition": {
+        "predicate": "title",
+        "object": "Women’s Super League 2026-27 preview No 10: London City Lionesses"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "sport",
+        "citation": "https://www.theguardian.com/football/2026/aug/31/womens-super-league-2026-27-preview-no-10-london-city-lionesses"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "url",
+      "proposition": {
+        "predicate": "url",
+        "object": "https://www.theguardian.com/football/2026/aug/31/womens-super-league-2026-27-preview-no-10-london-city-lionesses"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "sport",
+        "citation": "https://www.theguardian.com/football/2026/aug/31/womens-super-league-2026-27-preview-no-10-london-city-lionesses"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "summary",
+      "proposition": {
+        "predicate": "summary",
+        "object": "<p>Ballon d’Or winner Putellas leads influx of superstar names at independent club aiming to bridge gap to very best</p><p><strong>Guardian writers’ predicted position: </strong>4th (NB: this is not necessarily Suzanne Wrack’s prediction but the average of our writers’ tips)</p><p><strong>Last season’s position: </strong>6th</p> <a href=\"https://www.theguardian.com/football/2026/aug/31/womens-super-league-2026-27-preview-no-10-london-city-lionesses\">Continue reading...</a>"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "sport",
+        "citation": "https://www.theguardian.com/football/2026/aug/31/womens-super-league-2026-27-preview-no-10-london-city-lionesses"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "published",
+      "proposition": {
+        "predicate": "published",
+        "object": "Sun, 30 Aug 2026 23:01:08 GMT"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "sport",
+        "citation": "https://www.theguardian.com/football/2026/aug/31/womens-super-league-2026-27-preview-no-10-london-city-lionesses"
+      },
+      "status": "supported"
+    }
+  ]
+}

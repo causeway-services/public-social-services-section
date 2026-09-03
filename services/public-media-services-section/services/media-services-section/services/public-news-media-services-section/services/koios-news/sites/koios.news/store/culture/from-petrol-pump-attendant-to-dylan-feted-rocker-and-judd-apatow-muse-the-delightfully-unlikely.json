@@ -1,0 +1,69 @@
+{
+  "subject": "from-petrol-pump-attendant-to-dylan-feted-rocker-and-judd-apatow-muse-the-delightfully-unlikely",
+  "claims": [
+    {
+      "id": "title",
+      "proposition": {
+        "predicate": "title",
+        "object": "From petrol pump attendant to Dylan-feted rocker and Judd Apatow muse: the delightfully unlikely life of Graham Parker"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "culture",
+        "citation": "https://www.theguardian.com/music/2026/sep/02/pop-rocker-graham-parker-interview"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "url",
+      "proposition": {
+        "predicate": "url",
+        "object": "https://www.theguardian.com/music/2026/sep/02/pop-rocker-graham-parker-interview"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "culture",
+        "citation": "https://www.theguardian.com/music/2026/sep/02/pop-rocker-graham-parker-interview"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "summary",
+      "proposition": {
+        "predicate": "summary",
+        "object": "<p>Fifty years ago Parker was hailed as rock’s next big thing, but he picked a different path: cult records, a Hollywood diversion, an aversion to stardom. Ahead of a UK tour, he looks back at his strange trajectory</p><p>To say Graham Parker enjoyed a swift rise to fame is an understatement. He played his first live show with his most famous backing band, the Rumour, in October 1975, at the Newlands Tavern, a pub in Nunhead, south-east London. By the start of the following year, he had a record deal and was in the studio recording his debut album, Howlin’ Wind. The buzz around him was such that the sessions were interrupted by the arrival of a succession of stars – Thin Lizzy’s Phil Lynott among them – intrigued to hear what the fuss was about: a petrol pump attendant from Surrey who sang like Van Morrison and had written a set of smart, sharp, literate songs in between filling up cars.</p><p>The record arrived in April 1976 to vast critical excitement, a lot of it occasioned by the album’s closing track, the reggae-influenced, attitude-laden Don’t Ask Me Questions. After Howlin’ Wind came out, followed in October by Heat Treatment, things ratcheted up another notch. Parker turned up in Australia to discover the media waiting for him and a press conference arranged in the airport: they had taken the amount of music press coverage Parker was receiving to mean he was “as big as Bruce Springsteen, which was insane”. Low down on a festival bill topped by Bob Dylan, he found himself backstage collared by the headline act, eager to tell Parker how much he loved his work. There also exists a photo of Parker in Los Angeles, with, of all people, Michael Jackson, but their meeting was apparently less successful. “I said to him: ‘Michael, great to meet you, I did a version of [Jackson 5 hit] I Want You Back recently.’ And he just sort of said: ‘Ooh.’ So that,” he laughs, “was the full extent of my conversation with Michael Jackson.”</p> <a href=\"https://www.theguardian.com/music/2026/sep/02/pop-rocker-graham-parker-interview\">Continue reading...</a>"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "culture",
+        "citation": "https://www.theguardian.com/music/2026/sep/02/pop-rocker-graham-parker-interview"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "published",
+      "proposition": {
+        "predicate": "published",
+        "object": "Wed, 02 Sep 2026 14:00:26 GMT"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "culture",
+        "citation": "https://www.theguardian.com/music/2026/sep/02/pop-rocker-graham-parker-interview"
+      },
+      "status": "supported"
+    }
+  ]
+}

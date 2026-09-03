@@ -1,0 +1,69 @@
+{
+  "subject": "championship-roundup-wrexham-rout-millwall-to-seal-first-league-victory",
+  "claims": [
+    {
+      "id": "title",
+      "proposition": {
+        "predicate": "title",
+        "object": "Championship roundup: Wrexham rout Millwall to seal first league victory"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "sport",
+        "citation": "https://www.theguardian.com/football/2026/sep/02/championship-roundup-wrexham-millwall-qpr-cardiff-burnley-miiddlesbrough"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "url",
+      "proposition": {
+        "predicate": "url",
+        "object": "https://www.theguardian.com/football/2026/sep/02/championship-roundup-wrexham-millwall-qpr-cardiff-burnley-miiddlesbrough"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "sport",
+        "citation": "https://www.theguardian.com/football/2026/sep/02/championship-roundup-wrexham-millwall-qpr-cardiff-burnley-miiddlesbrough"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "summary",
+      "proposition": {
+        "predicate": "summary",
+        "object": "<ul><li><p>Kieffer Moore and Jacques Ekomié score in 3-0 win</p></li><li><p>QPR beat Cardiff; Middlesbrough draw at Burnley</p></li></ul><p><strong>Wrexham</strong> powered to their first Championship win this season with a ruthless 3-0 rout of injury-plagued <strong>Millwall</strong> on Wednesday.</p><p>The Welsh side had drawn with Cardiff and Watford before losing at home to Birmingham prior to this match. But they bounced back in emphatic fashion in south London to kickstart their bid for promotion to the Premier League after narrowly missing out on the playoffs last term.</p> <a href=\"https://www.theguardian.com/football/2026/sep/02/championship-roundup-wrexham-millwall-qpr-cardiff-burnley-miiddlesbrough\">Continue reading...</a>"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "sport",
+        "citation": "https://www.theguardian.com/football/2026/sep/02/championship-roundup-wrexham-millwall-qpr-cardiff-burnley-miiddlesbrough"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "published",
+      "proposition": {
+        "predicate": "published",
+        "object": "Wed, 02 Sep 2026 22:10:36 GMT"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "sport",
+        "citation": "https://www.theguardian.com/football/2026/sep/02/championship-roundup-wrexham-millwall-qpr-cardiff-burnley-miiddlesbrough"
+      },
+      "status": "supported"
+    }
+  ]
+}

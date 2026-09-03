@@ -1,0 +1,69 @@
+{
+  "subject": "it-s-the-story-of-what-happens-when-the-music-stops-bringing-tormented-jazz-legend-bill-evans-to",
+  "claims": [
+    {
+      "id": "title",
+      "proposition": {
+        "predicate": "title",
+        "object": "‘It’s the story of what happens when the music stops’: bringing tormented jazz legend Bill Evans to life"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "entertainment",
+        "citation": "https://www.theguardian.com/film/2026/aug/28/tormented-jazz-legend-bill-evans-grant-gee"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "url",
+      "proposition": {
+        "predicate": "url",
+        "object": "https://www.theguardian.com/film/2026/aug/28/tormented-jazz-legend-bill-evans-grant-gee"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "entertainment",
+        "citation": "https://www.theguardian.com/film/2026/aug/28/tormented-jazz-legend-bill-evans-grant-gee"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "summary",
+      "proposition": {
+        "predicate": "summary",
+        "object": "<p>Having directed documentaries about David Bowie, Radiohead and Joy Division, Grant Gee takes on a biopic of the turbulent and tragic American pianist </p><p>In 1997, Grant Gee directed the video for <a href=\"https://www.youtube.com/watch?v=u5CVsCnxyXg\">Radiohead’s single No Surprises</a>, a four-minute film that featured Thom Yorke miming the song inside a water-filled diver’s helmet, apparently almost drowning in the process. In the three decades since that promo, Gee has made a host of diverse feature-length films about artists: Radiohead, David Bowie, Joy Division, the Turkish Nobel laureate <a href=\"https://www.theguardian.com/books/2025/jan/11/orhan-pamuk-i-have-some-fame-so-i-can-say-things-others-cannot\">Orhan Pamuk</a>, the émigré German novelist <a href=\"https://www.theguardian.com/books/2022/jun/22/where-to-start-with-wg-sebald\">WG Sebald</a>. They are often impressionistic, dreamlike explorations of art, memory, place and the strange pressures put upon artistic lives.</p><p>“It’s a narrative form I’ve used again and again,” says Gee. “A character begins in one condition; a crisis slowly develops; the viewer watches that crisis in a forensic yet empathetic way; the crisis passes; the person returns to something like the original state, but transformed. Someone comes very close to drowning, but doesn’t drown. What does that do to them?”</p> <a href=\"https://www.theguardian.com/film/2026/aug/28/tormented-jazz-legend-bill-evans-grant-gee\">Continue reading...</a>"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "entertainment",
+        "citation": "https://www.theguardian.com/film/2026/aug/28/tormented-jazz-legend-bill-evans-grant-gee"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "published",
+      "proposition": {
+        "predicate": "published",
+        "object": "Fri, 28 Aug 2026 07:00:51 GMT"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "entertainment",
+        "citation": "https://www.theguardian.com/film/2026/aug/28/tormented-jazz-legend-bill-evans-grant-gee"
+      },
+      "status": "supported"
+    }
+  ]
+}

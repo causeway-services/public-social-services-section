@@ -1,0 +1,69 @@
+{
+  "subject": "dyson-launches-420-toothbrush-that-films-live-cleaning-footage-inside-your-mouth",
+  "claims": [
+    {
+      "id": "title",
+      "proposition": {
+        "predicate": "title",
+        "object": "Dyson launches £420 toothbrush that films ‘live cleaning footage’ inside your mouth"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "technology",
+        "citation": "https://www.theguardian.com/technology/2026/sep/01/dyson-toothbrush-camera-films-live-footage-inside-mouth"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "url",
+      "proposition": {
+        "predicate": "url",
+        "object": "https://www.theguardian.com/technology/2026/sep/01/dyson-toothbrush-camera-films-live-footage-inside-mouth"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "technology",
+        "citation": "https://www.theguardian.com/technology/2026/sep/01/dyson-toothbrush-camera-films-live-footage-inside-mouth"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "summary",
+      "proposition": {
+        "predicate": "summary",
+        "object": "<p>James Dyson says ‘complete dental system’ will also include toothpaste and mouth rinse that each cost £8.50</p><p>It is the live stream you never wanted to see but may find impossible to resist: rolling footage beamed live from inside your mouth while you are cleaning your teeth.</p><p>Dyson, the home appliance maker that made its name inventing bagless vacuums and bladeless fans, has turned its attention to oral hygiene with a £420 all-singing, all-dancing toothbrush that can clean, floss and even spray tiny jets of mouthwash.</p> <a href=\"https://www.theguardian.com/technology/2026/sep/01/dyson-toothbrush-camera-films-live-footage-inside-mouth\">Continue reading...</a>"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "technology",
+        "citation": "https://www.theguardian.com/technology/2026/sep/01/dyson-toothbrush-camera-films-live-footage-inside-mouth"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "published",
+      "proposition": {
+        "predicate": "published",
+        "object": "Tue, 01 Sep 2026 14:39:38 GMT"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "technology",
+        "citation": "https://www.theguardian.com/technology/2026/sep/01/dyson-toothbrush-camera-films-live-footage-inside-mouth"
+      },
+      "status": "supported"
+    }
+  ]
+}

@@ -1,0 +1,69 @@
+{
+  "subject": "betrayal-by-luke-harding-review-could-donald-trump-be-a-russian-asset",
+  "claims": [
+    {
+      "id": "title",
+      "proposition": {
+        "predicate": "title",
+        "object": "Betrayal by Luke Harding review – could Donald Trump be a Russian asset?"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "culture",
+        "citation": "https://www.theguardian.com/books/2026/aug/24/betrayal-by-luke-harding-review-is-donald-trump-a-russian-asset"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "url",
+      "proposition": {
+        "predicate": "url",
+        "object": "https://www.theguardian.com/books/2026/aug/24/betrayal-by-luke-harding-review-is-donald-trump-a-russian-asset"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "culture",
+        "citation": "https://www.theguardian.com/books/2026/aug/24/betrayal-by-luke-harding-review-is-donald-trump-a-russian-asset"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "summary",
+      "proposition": {
+        "predicate": "summary",
+        "object": "<p>A Guardian correspondent’s sobering account of the US betrayal of Ukraine – and the possible reasons behind it</p><p>American presidents have struggled to get the measure of Vladimir Putin. When George W Bush met him in 2001, he reported that he had “looked the man in the eye”, got a “sense of his soul” and found him “trustworthy”. Barack Obama thought Putin was making a mistake with his interventions in Ukraine and Syria, but&nbsp;didn’t do much about it. Joe Biden backed Ukraine’s resistance to the Russian invasion, yet his fear that Putin would reach for the nuclear button if backed into a corner made him risk averse. He worried about the impact of the sort of long-range strikes against Russian territory that Kyiv is now launching on a daily basis.</p><p>This caution frustrated Ukrainians to the point that they looked forward to Donald Trump shaking things up after he won re-election. Be careful what you wish for: the returning president thought his rapport with Putin would be enough to get Russia to&nbsp;sign up to an immediate ceasefire. In Trump’s head it was President Zelenskyy, fighting a war he was bound to lose, who was the problem.</p> <a href=\"https://www.theguardian.com/books/2026/aug/24/betrayal-by-luke-harding-review-is-donald-trump-a-russian-asset\">Continue reading...</a>"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "culture",
+        "citation": "https://www.theguardian.com/books/2026/aug/24/betrayal-by-luke-harding-review-is-donald-trump-a-russian-asset"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "published",
+      "proposition": {
+        "predicate": "published",
+        "object": "Mon, 24 Aug 2026 08:00:56 GMT"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "culture",
+        "citation": "https://www.theguardian.com/books/2026/aug/24/betrayal-by-luke-harding-review-is-donald-trump-a-russian-asset"
+      },
+      "status": "supported"
+    }
+  ]
+}

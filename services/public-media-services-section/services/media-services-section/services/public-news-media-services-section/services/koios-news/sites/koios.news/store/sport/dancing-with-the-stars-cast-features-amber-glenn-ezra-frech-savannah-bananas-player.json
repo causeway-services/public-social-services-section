@@ -1,0 +1,69 @@
+{
+  "subject": "dancing-with-the-stars-cast-features-amber-glenn-ezra-frech-savannah-bananas-player",
+  "claims": [
+    {
+      "id": "title",
+      "proposition": {
+        "predicate": "title",
+        "object": "'Dancing With The Stars' cast features Amber Glenn, Ezra Frech, Savannah Bananas player"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "sport",
+        "citation": "https://www.espn.com/olympics/story/_/id/49804369/dancing-stars-dwts-season-35-amber-glenn-ezra-frech-jackson-olson-savannah-bananas"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "url",
+      "proposition": {
+        "predicate": "url",
+        "object": "https://www.espn.com/olympics/story/_/id/49804369/dancing-stars-dwts-season-35-amber-glenn-ezra-frech-jackson-olson-savannah-bananas"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "sport",
+        "citation": "https://www.espn.com/olympics/story/_/id/49804369/dancing-stars-dwts-season-35-amber-glenn-ezra-frech-jackson-olson-savannah-bananas"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "summary",
+      "proposition": {
+        "predicate": "summary",
+        "object": "Athletes have had an excellent track record in \"Dancing With The Stars\" competitions, winning 12 of the past seasons."
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "sport",
+        "citation": "https://www.espn.com/olympics/story/_/id/49804369/dancing-stars-dwts-season-35-amber-glenn-ezra-frech-jackson-olson-savannah-bananas"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "published",
+      "proposition": {
+        "predicate": "published",
+        "object": "Wed, 2 Sep 2026 14:29:49 EST"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "sport",
+        "citation": "https://www.espn.com/olympics/story/_/id/49804369/dancing-stars-dwts-season-35-amber-glenn-ezra-frech-jackson-olson-savannah-bananas"
+      },
+      "status": "supported"
+    }
+  ]
+}

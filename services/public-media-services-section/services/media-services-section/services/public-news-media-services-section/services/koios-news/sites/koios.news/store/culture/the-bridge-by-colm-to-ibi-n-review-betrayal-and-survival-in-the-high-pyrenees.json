@@ -1,0 +1,69 @@
+{
+  "subject": "the-bridge-by-colm-to-ibi-n-review-betrayal-and-survival-in-the-high-pyrenees",
+  "claims": [
+    {
+      "id": "title",
+      "proposition": {
+        "predicate": "title",
+        "object": "The Bridge by Colm Tóibín review – betrayal and survival in the High Pyrenees"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "culture",
+        "citation": "https://www.theguardian.com/books/2026/sep/02/the-bridge-by-colm-toibin-review-betrayal-and-survival-in-the-high-pyrenees"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "url",
+      "proposition": {
+        "predicate": "url",
+        "object": "https://www.theguardian.com/books/2026/sep/02/the-bridge-by-colm-toibin-review-betrayal-and-survival-in-the-high-pyrenees"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "culture",
+        "citation": "https://www.theguardian.com/books/2026/sep/02/the-bridge-by-colm-toibin-review-betrayal-and-survival-in-the-high-pyrenees"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "summary",
+      "proposition": {
+        "predicate": "summary",
+        "object": "<p>Deep sorrow mingles with illicit desire in this potent novella, the follow-up to a 2006 story about an isolated family in the Catalan mountains</p><p>Twenty years ago, Colm Tóibín published a steadily desolating novella set in the high villages of the Catalan Pyrenees. A woman walks out of her house and her life, starts along the mountain road and disappears in the snow. Her son Miquel, failing to find her body, waits through the dark months for the thaw. A Long Winter, which appeared in a standalone volume and then as the final story in the 2006 collection Mothers and Sons, followed Miquel through dramatically extreme circumstances and patient endurance. It was told with the most restrained prose ever likely to be employed for a son’s view of vultures circling a corpse.</p><p>Now, in The Bridge, a single year has passed in Miquel’s life and he is&nbsp;eking out an existence with his hurtful, unyielding father. The sheep are grazing their high summer pastures; a side hustle smuggling contraband brings in a little much-needed cash. In the bare conditions of the lonely farm, any warmth of feeling is a kind of contraband smuggled in by&nbsp;night; love between men is doubly illicit. The grave tenderness that grows&nbsp;between Miquel and his father’s maltreated servant Manolo gives The&nbsp;Bridge its emotional centre. These young men salve the emptiness with a few quiet words and touches. We sense their youthful beauty and resilience, their suppleness in a place of fixity.</p> <a href=\"https://www.theguardian.com/books/2026/sep/02/the-bridge-by-colm-toibin-review-betrayal-and-survival-in-the-high-pyrenees\">Continue reading...</a>"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "culture",
+        "citation": "https://www.theguardian.com/books/2026/sep/02/the-bridge-by-colm-toibin-review-betrayal-and-survival-in-the-high-pyrenees"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "published",
+      "proposition": {
+        "predicate": "published",
+        "object": "Wed, 02 Sep 2026 06:00:24 GMT"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "culture",
+        "citation": "https://www.theguardian.com/books/2026/sep/02/the-bridge-by-colm-toibin-review-betrayal-and-survival-in-the-high-pyrenees"
+      },
+      "status": "supported"
+    }
+  ]
+}

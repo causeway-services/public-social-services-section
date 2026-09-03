@@ -1,0 +1,69 @@
+{
+  "subject": "avatar-aang-the-last-airbender-review-engaging-tv-to-movie-adventure",
+  "claims": [
+    {
+      "id": "title",
+      "proposition": {
+        "predicate": "title",
+        "object": "Avatar Aang: The Last Airbender review – engaging TV-to-movie adventure"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "entertainment",
+        "citation": "https://www.theguardian.com/film/2026/jul/22/avatar-aang-the-last-airbender-review-paramount"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "url",
+      "proposition": {
+        "predicate": "url",
+        "object": "https://www.theguardian.com/film/2026/jul/22/avatar-aang-the-last-airbender-review-paramount"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "entertainment",
+        "citation": "https://www.theguardian.com/film/2026/jul/22/avatar-aang-the-last-airbender-review-paramount"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "summary",
+      "proposition": {
+        "predicate": "summary",
+        "object": "<p>A feature-length continuation of the much-loved animated series provides enough for fans as well as the uninitiated</p><p>Avatar just can’t catch a break at the movies. Not the blue-cat-people franchise that makes at least a billion dollars each time, mind you – though that mega-successful series is part of what vexes big-screen versions of Avatar: The Last Airbender, a Nickelodeon animated series that predates the release of the similar-named, different-premised James Cameron film. Following the anime-inspired, fan-beloved show’s three-season run on cable, the material was adapted into a live-action feature, The Last Airbender, by no less than M Night Shyamalan, released six months after Cameron’s megahit. The Last Airbender was a decent-sized hit, but loathed by fans and critics alike – even today’s crop of Shyamalan boosters can’t find much positive to say about it – and failed to kickstart the hoped-for live-action film series. (Netflix has since made an unrelated live-action adaptation as <a href=\"https://www.theguardian.com/tv-and-radio/2024/feb/22/avatar-the-last-airbender-review-a-sparkling-return-for-one-of-the-greatest-fantasy-series-of-all-time\">a TV show</a>.)</p><p>More recently, Paramount announced that an animated sequel film, Avatar Aang: The Last Airbender, following the characters years after the events of the series, would arrive in movie theaters – only to delay the release and eventually backtrack its theatrical status, turning it into a direct-to-streaming movie. The film was then leaked online, well ahead of its debut. Now it’s getting a token two-city theatrical release, simultaneously with its debut on Paramount+, to make sure it qualifies for this year’s Oscars. Given the franchise’s cinematic luck so far, the film-makers may not need to clear shelf space quite yet.</p> <a href=\"https://www.theguardian.com/film/2026/jul/22/avatar-aang-the-last-airbender-review-paramount\">Continue reading...</a>"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "entertainment",
+        "citation": "https://www.theguardian.com/film/2026/jul/22/avatar-aang-the-last-airbender-review-paramount"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "published",
+      "proposition": {
+        "predicate": "published",
+        "object": "Wed, 22 Jul 2026 11:00:13 GMT"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "entertainment",
+        "citation": "https://www.theguardian.com/film/2026/jul/22/avatar-aang-the-last-airbender-review-paramount"
+      },
+      "status": "supported"
+    }
+  ]
+}

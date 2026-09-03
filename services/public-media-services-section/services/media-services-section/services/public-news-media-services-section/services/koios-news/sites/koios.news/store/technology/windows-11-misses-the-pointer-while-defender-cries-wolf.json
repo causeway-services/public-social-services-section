@@ -1,0 +1,69 @@
+{
+  "subject": "windows-11-misses-the-pointer-while-defender-cries-wolf",
+  "claims": [
+    {
+      "id": "title",
+      "proposition": {
+        "predicate": "title",
+        "object": "Windows 11 misses the pointer while Defender cries wolf"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "technology",
+        "citation": "https://www.theregister.com/os-platforms/2026/09/01/windows-11-misses-the-pointer-while-defender-cries-wolf/5293602"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "url",
+      "proposition": {
+        "predicate": "url",
+        "object": "https://www.theregister.com/os-platforms/2026/09/01/windows-11-misses-the-pointer-while-defender-cries-wolf/5293602"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "technology",
+        "citation": "https://www.theregister.com/os-platforms/2026/09/01/windows-11-misses-the-pointer-while-defender-cries-wolf/5293602"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "summary",
+      "proposition": {
+        "predicate": "summary",
+        "object": "Microsoft ended the summer with two more Windows annoyances: Defender falsely warning that it is disabled, and reports that an August 27 update is wiping users' mouse cursor customizations. The company added both problems to its Windows release health dashboard on August 28. Microsoft has confirmed the Defender notification bug, while it is still investigating whether the Windows 11 update caused the cursor problems. Reports of the cursor issues appeared after the update was released. Microsoft described the reported symptoms as \"appearance regressions and intermittent animation changes\" but has not yet determined whether its update is responsible. \"Some reports mention that high-DPI mouse cursors are replaced with larger, white cursors, and custom cursor animations reverting to standard settings. Attempts to restore the previous cursor customization are reported to be unsuccessful.\" Some users reported that uninstalling the update restored their cursor settings, although Microsoft has not listed this as an official workaround. The August 27 update includes welcome changes such as a movable taskbar and the option to remove web and Microsoft Store suggestions from local Windows Search results. A borked mouse pointer may nevertheless be too high a price for affected users. More alarming is a separate problem that causes Windows to claim Microsoft Defender Antivirus is switched off when it is functioning normally. Microsoft confirmed that the false notifications began appearing after recent Defender updates. \"After installing the latest updates for Microsoft Defender Antivirus, notifications might appear stating that 'Microsoft Defender Antivirus is turned off,' even though the antivirus is functioning correctly and all settings show it as active,\" the company wrote. \"These notifications can appear when Windows starts and intermittently afterward. They persist even if notification settings are turned off.\" So, not only is it displaying the wrong information, it is doing so even after the user asks it to keep quiet. The problem can affect any version of Windows or Windows Server running the latest Defender updates, and there is currently no workaround. Microsoft offered affected users little beyond a promise of another update: \"We are working to release a resolution in a future Microsoft Defender Antivirus update and will provide more information when it is available.\" ®"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "technology",
+        "citation": "https://www.theregister.com/os-platforms/2026/09/01/windows-11-misses-the-pointer-while-defender-cries-wolf/5293602"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "published",
+      "proposition": {
+        "predicate": "published",
+        "object": "Tue, 01 Sep 2026 13:15:00 +0200"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "technology",
+        "citation": "https://www.theregister.com/os-platforms/2026/09/01/windows-11-misses-the-pointer-while-defender-cries-wolf/5293602"
+      },
+      "status": "supported"
+    }
+  ]
+}

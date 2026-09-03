@@ -1,0 +1,69 @@
+{
+  "subject": "ancient-egyptian-princesses-were-buried-with-weapons-their-bones-reveal-why",
+  "claims": [
+    {
+      "id": "title",
+      "proposition": {
+        "predicate": "title",
+        "object": "Ancient Egyptian princesses were buried with weapons. Their bones reveal why"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "science",
+        "citation": "https://www.sciencedaily.com/releases/2026/08/260828082348.htm"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "url",
+      "proposition": {
+        "predicate": "url",
+        "object": "https://www.sciencedaily.com/releases/2026/08/260828082348.htm"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "science",
+        "citation": "https://www.sciencedaily.com/releases/2026/08/260828082348.htm"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "summary",
+      "proposition": {
+        "predicate": "summary",
+        "object": "Weapons buried with ancient Egyptian princesses may have been more than ceremonial decorations. Researchers studying royal mummies from Dahshur found bone changes consistent with years of archery and other strenuous weapon use. Several women also showed evidence of healed injuries, suggesting surprisingly active lifestyles that may have included hunting or military training."
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "science",
+        "citation": "https://www.sciencedaily.com/releases/2026/08/260828082348.htm"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "published",
+      "proposition": {
+        "predicate": "published",
+        "object": "Sun, 30 Aug 2026 05:30:18 EDT"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "science",
+        "citation": "https://www.sciencedaily.com/releases/2026/08/260828082348.htm"
+      },
+      "status": "supported"
+    }
+  ]
+}

@@ -1,0 +1,69 @@
+{
+  "subject": "sec-proposes-broad-update-to-decades-old-transfer-agent-rules-with-blockchain-nod",
+  "claims": [
+    {
+      "id": "title",
+      "proposition": {
+        "predicate": "title",
+        "object": "SEC proposes broad update to decades-old transfer agent rules with blockchain nod"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "crypto",
+        "citation": "https://cointelegraph.com/news/sec-proposes-transfer-agent-overhaul-as-securities-move-onchain?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "url",
+      "proposition": {
+        "predicate": "url",
+        "object": "https://cointelegraph.com/news/sec-proposes-transfer-agent-overhaul-as-securities-move-onchain?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "crypto",
+        "citation": "https://cointelegraph.com/news/sec-proposes-transfer-agent-overhaul-as-securities-move-onchain?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "summary",
+      "proposition": {
+        "predicate": "summary",
+        "object": "The proposal would modernize rules largely unchanged since the 1980s, addressing blockchain-based recordkeeping, tokenized securities and increasingly automated market infrastructure."
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "crypto",
+        "citation": "https://cointelegraph.com/news/sec-proposes-transfer-agent-overhaul-as-securities-move-onchain?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "published",
+      "proposition": {
+        "predicate": "published",
+        "object": "Tue, 01 Sep 2026 17:52:51 +0000"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "crypto",
+        "citation": "https://cointelegraph.com/news/sec-proposes-transfer-agent-overhaul-as-securities-move-onchain?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
+      },
+      "status": "supported"
+    }
+  ]
+}

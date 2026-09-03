@@ -1,0 +1,69 @@
+{
+  "subject": "children-as-young-as-six-going-to-a-e-in-mental-health-crisis",
+  "claims": [
+    {
+      "id": "title",
+      "proposition": {
+        "predicate": "title",
+        "object": "Children as young as six going to A&E in mental health crisis"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "health",
+        "citation": "https://www.bbc.co.uk/news/articles/cn5d2r0zqvdo?at_medium=RSS&at_campaign=rss"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "url",
+      "proposition": {
+        "predicate": "url",
+        "object": "https://www.bbc.co.uk/news/articles/cn5d2r0zqvdo?at_medium=RSS&at_campaign=rss"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "health",
+        "citation": "https://www.bbc.co.uk/news/articles/cn5d2r0zqvdo?at_medium=RSS&at_campaign=rss"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "summary",
+      "proposition": {
+        "predicate": "summary",
+        "object": "NHS emergency departments are seeing more cases of self-harm, eating disorders and emotional distress in young people."
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "health",
+        "citation": "https://www.bbc.co.uk/news/articles/cn5d2r0zqvdo?at_medium=RSS&at_campaign=rss"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "published",
+      "proposition": {
+        "predicate": "published",
+        "object": "Wed, 02 Sep 2026 12:21:27 GMT"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "health",
+        "citation": "https://www.bbc.co.uk/news/articles/cn5d2r0zqvdo?at_medium=RSS&at_campaign=rss"
+      },
+      "status": "supported"
+    }
+  ]
+}

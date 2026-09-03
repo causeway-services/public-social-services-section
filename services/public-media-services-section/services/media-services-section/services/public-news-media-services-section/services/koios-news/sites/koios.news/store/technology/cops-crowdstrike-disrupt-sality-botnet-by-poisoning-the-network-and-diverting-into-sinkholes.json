@@ -1,0 +1,69 @@
+{
+  "subject": "cops-crowdstrike-disrupt-sality-botnet-by-poisoning-the-network-and-diverting-into-sinkholes",
+  "claims": [
+    {
+      "id": "title",
+      "proposition": {
+        "predicate": "title",
+        "object": "Cops, CrowdStrike disrupt Sality botnet by poisoning the network and diverting into sinkholes"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "technology",
+        "citation": "https://www.theregister.com/cyber-crime/2026/09/02/cops-crowdstrike-disrupt-sality-botnet-by-poisoning-the-network-and-diverting-into-sinkholes/5293795"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "url",
+      "proposition": {
+        "predicate": "url",
+        "object": "https://www.theregister.com/cyber-crime/2026/09/02/cops-crowdstrike-disrupt-sality-botnet-by-poisoning-the-network-and-diverting-into-sinkholes/5293795"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "technology",
+        "citation": "https://www.theregister.com/cyber-crime/2026/09/02/cops-crowdstrike-disrupt-sality-botnet-by-poisoning-the-network-and-diverting-into-sinkholes/5293795"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "summary",
+      "proposition": {
+        "predicate": "summary",
+        "object": "International law enforcement agencies, working with CrowdStrike and Shadowserver Foundation, have disrupted Sality, a 23-year-old peer-to-peer botnet used to deliver malware to more than 15,000 machines worldwide. The botnet has operated since 2003 and distributed all types of malicious code to victims, spanning credential theft, spam distribution, proxy services, network exploitation, and distributed denial-of-service (DDoS) attacks. For the past eight years, Sality’s primary payload has been EggJagger, a tool that monitors clipboards for cryptocurrency wallet addresses, then silently replaces them with attacker-controlled addresses. When a victim copies a bitcoin or ethereum address to make a payment, the malware redirects funds into the criminals’ wallets. CrowdStrike estimates Sality's operator stole at least $150,000 in cryptocurrency using EggJagger alone. On Monday, CrowdStrike's Counter Adversary Operations team, working with international law enforcement agencies and industry partners, disrupted Sality by executing a peer-to-peer sinkhole operation. This operation isolated infected machines, which broke the criminal operator’s ability to communicate with devices on its network. Once isolated, the bots can no longer receive payload download instructions or direct payload transfers, effectively breaking the botnet. “In practice, the operation targeted the data structure at the heart of every bot's network awareness: its peer list,” CrowdStrike Counter Adversary Operations team said in a technical writeup about the takedown. Each Sality bot maintains a list of known super peers – publicly reachable infected machines that form the backbone of the P2P network. Every 40 minutes, the bots check to see if their peers are still online. Peers that fail to respond are purged from the network. The counterattack took advantage of this by removing legitimate super peers in each bot’s peer list, continually isolating more infected machines in the network, and inserting purpose-built sinkhole entries into peer lists. That approach gave police and cyber operatives visibility into the operation’s progress and helped them notify victims. In addition to the sinkhole operation, the US Justice Department, FBI, and Department of Defense Office of Inspector General’s Defense Criminal Investigative Service seized Sality-linked domains in the US. Meanwhile, international law enforcement in Bulgaria, Hungary, and Romania took action against additional Sality-linked domains hosted in Europe. Meanwhile, the Shadowserver Foundation is working with internet service providers and Computer Security Incident Response Teams (CSIRTs) to identify infections and aid in victim notification and remediation.®"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "technology",
+        "citation": "https://www.theregister.com/cyber-crime/2026/09/02/cops-crowdstrike-disrupt-sality-botnet-by-poisoning-the-network-and-diverting-into-sinkholes/5293795"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "published",
+      "proposition": {
+        "predicate": "published",
+        "object": "Wed, 02 Sep 2026 01:54:07 +0200"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "technology",
+        "citation": "https://www.theregister.com/cyber-crime/2026/09/02/cops-crowdstrike-disrupt-sality-botnet-by-poisoning-the-network-and-diverting-into-sinkholes/5293795"
+      },
+      "status": "supported"
+    }
+  ]
+}

@@ -1,0 +1,69 @@
+{
+  "subject": "richarlison-could-still-leave-tottenham-as-trabzonspor-weigh-up-bid-for-striker",
+  "claims": [
+    {
+      "id": "title",
+      "proposition": {
+        "predicate": "title",
+        "object": "Richarlison could still leave Tottenham as Trabzonspor weigh up bid for striker"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "sport",
+        "citation": "https://www.theguardian.com/football/2026/sep/02/richarlison-could-still-leave-tottenham-as-trabzonspor-weigh-up-bid-for-striker"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "url",
+      "proposition": {
+        "predicate": "url",
+        "object": "https://www.theguardian.com/football/2026/sep/02/richarlison-could-still-leave-tottenham-as-trabzonspor-weigh-up-bid-for-striker"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "sport",
+        "citation": "https://www.theguardian.com/football/2026/sep/02/richarlison-could-still-leave-tottenham-as-trabzonspor-weigh-up-bid-for-striker"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "summary",
+      "proposition": {
+        "predicate": "summary",
+        "object": "<ul><li><p>Turkish transfer window closes on Friday night</p></li><li><p>Brazilian refused a return to Everton on Tuesday</p></li></ul><p>Richarlison is the subject of firm interest from Trabzonspor and could move there from Tottenham before the closure of the transfer window in Turkey on Friday night.</p><p>The striker has asked to leave, according to the Spurs manager, Roberto De Zerbi, who did not stand in the way of two of his other players who did so before the deadline in England on Tuesday night: Kevin Danso and Pape Sarr. They were allowed to join Sunderland and Juventus respectively on loans with purchase clauses.</p> <a href=\"https://www.theguardian.com/football/2026/sep/02/richarlison-could-still-leave-tottenham-as-trabzonspor-weigh-up-bid-for-striker\">Continue reading...</a>"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "sport",
+        "citation": "https://www.theguardian.com/football/2026/sep/02/richarlison-could-still-leave-tottenham-as-trabzonspor-weigh-up-bid-for-striker"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "published",
+      "proposition": {
+        "predicate": "published",
+        "object": "Wed, 02 Sep 2026 17:11:00 GMT"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "sport",
+        "citation": "https://www.theguardian.com/football/2026/sep/02/richarlison-could-still-leave-tottenham-as-trabzonspor-weigh-up-bid-for-striker"
+      },
+      "status": "supported"
+    }
+  ]
+}

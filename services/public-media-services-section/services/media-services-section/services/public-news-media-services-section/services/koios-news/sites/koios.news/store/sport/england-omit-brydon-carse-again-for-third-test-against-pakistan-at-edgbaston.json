@@ -1,0 +1,69 @@
+{
+  "subject": "england-omit-brydon-carse-again-for-third-test-against-pakistan-at-edgbaston",
+  "claims": [
+    {
+      "id": "title",
+      "proposition": {
+        "predicate": "title",
+        "object": "England omit Brydon Carse again for third Test against Pakistan at Edgbaston"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "sport",
+        "citation": "https://www.theguardian.com/sport/2026/sep/02/england-drop-fast-bowler-brydon-carse-for-third-test-against-pakistan-at-edgbaston"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "url",
+      "proposition": {
+        "predicate": "url",
+        "object": "https://www.theguardian.com/sport/2026/sep/02/england-drop-fast-bowler-brydon-carse-for-third-test-against-pakistan-at-edgbaston"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "sport",
+        "citation": "https://www.theguardian.com/sport/2026/sep/02/england-drop-fast-bowler-brydon-carse-for-third-test-against-pakistan-at-edgbaston"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "summary",
+      "proposition": {
+        "predicate": "summary",
+        "object": "<ul><li><p>Carse also missed second Test after incident in Derby bar</p></li><li><p>Matthew Fisher absence is only change from Lord’s squad</p></li></ul><p>Brydon Carse has been left out of England’s squad for the final Test of the summer, against Pakistan at Edgbaston next week, with police still investigating allegations of an assault connected with the <a href=\"https://www.theguardian.com/sport/2026/aug/23/brydon-carse-handcuffed-by-police-outside-nightclub-prompting-ecb-investigation\">late-night incident at a Derby bar last month</a> that led to the Durham seamer being briefly arrested and placed in handcuffs. The Cricket Regulator is also investigating the incident.</p><p>As a result of the allegations, and with investigations ongoing, Carse was dropped from the squad for last week’s second Test. The 31-year-old had been in the squad for the first game, but not named in the XI. Sonny Baker, who replaced him for the second Test but also did not play, remains in a squad that has changed only by the absence of Matthew Fisher. Alongside Baker, the other squad members who were not in the team at Lord’s are Shoaib Bashir, Sam Cook and Ollie Pope.</p> <a href=\"https://www.theguardian.com/sport/2026/sep/02/england-drop-fast-bowler-brydon-carse-for-third-test-against-pakistan-at-edgbaston\">Continue reading...</a>"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "sport",
+        "citation": "https://www.theguardian.com/sport/2026/sep/02/england-drop-fast-bowler-brydon-carse-for-third-test-against-pakistan-at-edgbaston"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "published",
+      "proposition": {
+        "predicate": "published",
+        "object": "Wed, 02 Sep 2026 17:56:55 GMT"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "sport",
+        "citation": "https://www.theguardian.com/sport/2026/sep/02/england-drop-fast-bowler-brydon-carse-for-third-test-against-pakistan-at-edgbaston"
+      },
+      "status": "supported"
+    }
+  ]
+}

@@ -1,0 +1,69 @@
+{
+  "subject": "zuck-s-muse-to-spark-joy-with-open-weights-release-soon",
+  "claims": [
+    {
+      "id": "title",
+      "proposition": {
+        "predicate": "title",
+        "object": "Zuck's Muse to Spark joy with open weights release 'soon'"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "technology",
+        "citation": "https://www.theregister.com/ai-and-ml/2026/09/02/zucks-muse-to-spark-joy-with-open-weights-release-soon/5294093"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "url",
+      "proposition": {
+        "predicate": "url",
+        "object": "https://www.theregister.com/ai-and-ml/2026/09/02/zucks-muse-to-spark-joy-with-open-weights-release-soon/5294093"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "technology",
+        "citation": "https://www.theregister.com/ai-and-ml/2026/09/02/zucks-muse-to-spark-joy-with-open-weights-release-soon/5294093"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "summary",
+      "proposition": {
+        "predicate": "summary",
+        "object": "Meta will release an open weights version of its flagship AI model Muse Spark \"soon,\" CEO Mark Zuckerberg promised in an X post on Wednesday. In the meantime, Muse Spark 1.3 — the smarter, less yappy, and more efficient version of the model — is now live on the Facebook parent's API service and Muse Code CLI. Since releasing Muse Spark in April, Meta has released several refinements in order to keep pressure on the competition and convince investors its rampant capex isn't for naught. Version 1.3 brings several notable refinements, particularly for those using the model with AI agents and code assistants, which is welcome news considering OpenClaw 2.0 also dropped this week. According to Meta, the model should hold up better in \"long-horizon\" workloads and be a bit more realistic about what it can and can't do, rather than burning tokens repeatedly stumbling down dead-end paths. In particular, Meta says the model should seek human counsel more frequently when the correct path isn't clear. \"Muse Spark 1.3 asks clarifying questions when prompts are ambiguous, invokes help from the user when stuck, and confirms before taking consequential actions,\" the Social Network explained in a blog post. These improvements also have the benefit of cutting down on the number of turns and tokens required to complete a task, which should make an already relatively affordable frontier model even less expensive to use. Compared to Muse 1.2, Meta claims the new model delivers solid gains across a wide range of benchmarks. Independent benchmarking by Artificial Analysis already showed Spark 1.2 to be quite competitive, delivering performance on par with GPT 5.6 Terra and Z.AI's GLM 5.3 Flash. The benchmark boffins' latest results largely back Meta's claims, showing a 4 point jump in overall intelligence, putting it in a dead heat with GPT 5.6 Sol, Claude Opus 5, and Grok 4.6 High. But if that's too steep for you and you don't mind lower rate limits or letting Meta rifle through your prompts for training data, its contributor tier offers steep discounts, down to $0.002 (cached input), $0.10 (input), and $0.20 (output) per million tokens. ®"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "technology",
+        "citation": "https://www.theregister.com/ai-and-ml/2026/09/02/zucks-muse-to-spark-joy-with-open-weights-release-soon/5294093"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "published",
+      "proposition": {
+        "predicate": "published",
+        "object": "Thu, 03 Sep 2026 00:31:10 +0200"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "technology",
+        "citation": "https://www.theregister.com/ai-and-ml/2026/09/02/zucks-muse-to-spark-joy-with-open-weights-release-soon/5294093"
+      },
+      "status": "supported"
+    }
+  ]
+}

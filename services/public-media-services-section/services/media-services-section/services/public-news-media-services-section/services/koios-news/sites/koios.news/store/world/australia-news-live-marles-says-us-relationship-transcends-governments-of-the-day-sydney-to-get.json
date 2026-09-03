@@ -1,0 +1,69 @@
+{
+  "subject": "australia-news-live-marles-says-us-relationship-transcends-governments-of-the-day-sydney-to-get",
+  "claims": [
+    {
+      "id": "title",
+      "proposition": {
+        "predicate": "title",
+        "object": "Australia news live: Marles says US relationship ‘transcends governments of the day’; Sydney to get new ferry stop"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "world",
+        "citation": "https://www.theguardian.com/australia-news/live/2026/sep/03/anthony-albanese-one-nation-jim-chalmers-labor-liberal-angus-taylor-tobacco-plan-ntwnfb"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "url",
+      "proposition": {
+        "predicate": "url",
+        "object": "https://www.theguardian.com/australia-news/live/2026/sep/03/anthony-albanese-one-nation-jim-chalmers-labor-liberal-angus-taylor-tobacco-plan-ntwnfb"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "world",
+        "citation": "https://www.theguardian.com/australia-news/live/2026/sep/03/anthony-albanese-one-nation-jim-chalmers-labor-liberal-angus-taylor-tobacco-plan-ntwnfb"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "summary",
+      "proposition": {
+        "predicate": "summary",
+        "object": "<p>Meanwhile investors fret that soaring oil prices will reignite inflationary pressures. Follow the day’s news live.</p><ul><li><p>Get our <a href=\"https://www.theguardian.com/email-newsletters?CMP=cvau_sfl\">breaking news email</a>, <a href=\"https://app.adjust.com/w4u7jx3\">free app</a> or <a href=\"https://www.theguardian.com/australia-news/series/full-story?CMP=cvau_sfl\">daily news podcast</a></p></li></ul><p><strong>Shadow treasurer says tobacco plans would bring in extra billions and stop people buying from the ‘black market’</strong></p><p><strong>Tim Wilson,</strong> the shadow treasurer, said the tobacco proposal would bring in an extra $2bn a year as it would stop people “buying products from the black market”.</p><p><strong>We’ve been looking at this policy for a long time</strong>, but what we’ve been looking at is how do you break it down for the different parts of the market so that we can actually break the illegal tobacco trade? …</p><p>We’ve got a government, we’ve got a One Nation position which is focused solely on tax cuts. What we’re looking at is how do we stop the black market, both with enforcement and with reduction in the excise, so that we actually get the outcome Australians want.</p> <a href=\"https://www.theguardian.com/australia-news/live/2026/sep/03/anthony-albanese-one-nation-jim-chalmers-labor-liberal-angus-taylor-tobacco-plan-ntwnfb\">Continue reading...</a>"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "world",
+        "citation": "https://www.theguardian.com/australia-news/live/2026/sep/03/anthony-albanese-one-nation-jim-chalmers-labor-liberal-angus-taylor-tobacco-plan-ntwnfb"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "published",
+      "proposition": {
+        "predicate": "published",
+        "object": "Thu, 03 Sep 2026 00:18:11 GMT"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "world",
+        "citation": "https://www.theguardian.com/australia-news/live/2026/sep/03/anthony-albanese-one-nation-jim-chalmers-labor-liberal-angus-taylor-tobacco-plan-ntwnfb"
+      },
+      "status": "supported"
+    }
+  ]
+}

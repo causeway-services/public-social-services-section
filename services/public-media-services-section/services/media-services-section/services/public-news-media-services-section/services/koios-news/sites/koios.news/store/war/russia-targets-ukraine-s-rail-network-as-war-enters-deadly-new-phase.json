@@ -1,0 +1,69 @@
+{
+  "subject": "russia-targets-ukraine-s-rail-network-as-war-enters-deadly-new-phase",
+  "claims": [
+    {
+      "id": "title",
+      "proposition": {
+        "predicate": "title",
+        "object": "Russia targets Ukraine’s rail network as war enters deadly new phase"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "war",
+        "citation": "https://www.theguardian.com/world/2026/sep/01/russia-targets-ukraines-rail-network-as-war-enters-deadly-new-phase"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "url",
+      "proposition": {
+        "predicate": "url",
+        "object": "https://www.theguardian.com/world/2026/sep/01/russia-targets-ukraines-rail-network-as-war-enters-deadly-new-phase"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "war",
+        "citation": "https://www.theguardian.com/world/2026/sep/01/russia-targets-ukraines-rail-network-as-war-enters-deadly-new-phase"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "summary",
+      "proposition": {
+        "predicate": "summary",
+        "object": "<p>Six employees killed on Tuesday after Moscow escalates attacks on infrastructure and Ukrainian capital</p><p>Russia has opened a deadly new phase in its war against Ukraine by deliberately targeting the country’s railway network, with six employees killed on Tuesday in the latest strikes on Kyiv.</p><p>Ukraine’s state-owned railway company, Ukrzaliznytsia, <a href=\"https://www.pravda.com.ua/news/2026/09/01/8051257/\">said its workers died</a> when a ballistic missile plunged into a locomotive depot. The Russians hit other railway facilities, it added, during a massive bombardment of Kyiv and the Kyiv region. <a href=\"https://www.theguardian.com/world/2026/sep/01/russia-kills-sixth-night-drone-attacks-ukraine-kyiv\">At least 12 people died</a>, with a dozen wounded, including three children.</p> <a href=\"https://www.theguardian.com/world/2026/sep/01/russia-targets-ukraines-rail-network-as-war-enters-deadly-new-phase\">Continue reading...</a>"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "war",
+        "citation": "https://www.theguardian.com/world/2026/sep/01/russia-targets-ukraines-rail-network-as-war-enters-deadly-new-phase"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "published",
+      "proposition": {
+        "predicate": "published",
+        "object": "Tue, 01 Sep 2026 17:23:15 GMT"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "war",
+        "citation": "https://www.theguardian.com/world/2026/sep/01/russia-targets-ukraines-rail-network-as-war-enters-deadly-new-phase"
+      },
+      "status": "supported"
+    }
+  ]
+}

@@ -1,0 +1,69 @@
+{
+  "subject": "uss-abraham-lincoln-arrives-at-thai-port-after-gruelling-270-days-at-sea",
+  "claims": [
+    {
+      "id": "title",
+      "proposition": {
+        "predicate": "title",
+        "object": "USS Abraham Lincoln arrives at Thai port after gruelling 270 days at sea"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "world",
+        "citation": "https://www.theguardian.com/world/2026/sep/02/uss-abraham-lincoln-arrives-thailand-after-270-days-at-sea"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "url",
+      "proposition": {
+        "predicate": "url",
+        "object": "https://www.theguardian.com/world/2026/sep/02/uss-abraham-lincoln-arrives-thailand-after-270-days-at-sea"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "world",
+        "citation": "https://www.theguardian.com/world/2026/sep/02/uss-abraham-lincoln-arrives-thailand-after-270-days-at-sea"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "summary",
+      "proposition": {
+        "predicate": "summary",
+        "object": "<p>Ship has been plagued by reports of deteriorating living conditions and poor mental health because of lengthy deployment</p><p>The USS Abraham Lincoln, a US aircraft carrier at the centre of a row over conditions on board after months at sea as part of Donald Trump’s war against Iran, has arrived off a Thai port.</p><p>Reports of <a href=\"https://www.theguardian.com/us-news/2026/aug/17/trump-uss-abraham-lincoln-strait-of-hormuz\">deteriorating living conditions</a> and poor mental health on the vessel, including <a href=\"https://www.theguardian.com/us-news/2026/aug/12/uss-abraham-lincoln-overboard-extended-deployment\">attempted suicides</a>, have made headlines around the world, provoking criticism of the president’s actions in the Middle East.</p> <a href=\"https://www.theguardian.com/world/2026/sep/02/uss-abraham-lincoln-arrives-thailand-after-270-days-at-sea\">Continue reading...</a>"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "world",
+        "citation": "https://www.theguardian.com/world/2026/sep/02/uss-abraham-lincoln-arrives-thailand-after-270-days-at-sea"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "published",
+      "proposition": {
+        "predicate": "published",
+        "object": "Wed, 02 Sep 2026 03:59:56 GMT"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "world",
+        "citation": "https://www.theguardian.com/world/2026/sep/02/uss-abraham-lincoln-arrives-thailand-after-270-days-at-sea"
+      },
+      "status": "supported"
+    }
+  ]
+}

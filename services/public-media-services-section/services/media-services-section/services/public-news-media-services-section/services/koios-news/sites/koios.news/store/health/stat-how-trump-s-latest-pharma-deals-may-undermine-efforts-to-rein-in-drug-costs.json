@@ -1,0 +1,69 @@
+{
+  "subject": "stat-how-trump-s-latest-pharma-deals-may-undermine-efforts-to-rein-in-drug-costs",
+  "claims": [
+    {
+      "id": "title",
+      "proposition": {
+        "predicate": "title",
+        "object": "STAT+: How Trump’s latest pharma deals may undermine efforts to rein in drug costs"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "health",
+        "citation": "https://www.statnews.com/2026/09/02/trump-most-favored-nation-drug-pricing-industry-analysts-skeptical/?utm_campaign=rss"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "url",
+      "proposition": {
+        "predicate": "url",
+        "object": "https://www.statnews.com/2026/09/02/trump-most-favored-nation-drug-pricing-industry-analysts-skeptical/?utm_campaign=rss"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "health",
+        "citation": "https://www.statnews.com/2026/09/02/trump-most-favored-nation-drug-pricing-industry-analysts-skeptical/?utm_campaign=rss"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "summary",
+      "proposition": {
+        "predicate": "summary",
+        "object": "WASHINGTON — The White House announced more drug pricing deals on Monday, this time with midsize biotechnology companies. In doing so, President Trump once again grabbed headlines on a topic he believes will benefit Republicans in the midterm elections. But the voluntary deals might not amount to much, at least not immediately, according to analysts. That’s because they chiefly apply to Medicaid , which by law gets the lowest prices of any U.S. payer, while exempting companies from mandatory price reductions in Medicare. The idea behind the agreements, called most-favored nation, or MFN, is that the United States should pay prices comparable to peer nations. Continue to STAT+ to read the full story&hellip;"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "health",
+        "citation": "https://www.statnews.com/2026/09/02/trump-most-favored-nation-drug-pricing-industry-analysts-skeptical/?utm_campaign=rss"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "published",
+      "proposition": {
+        "predicate": "published",
+        "object": "Wed, 02 Sep 2026 08:30:00 +0000"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "health",
+        "citation": "https://www.statnews.com/2026/09/02/trump-most-favored-nation-drug-pricing-industry-analysts-skeptical/?utm_campaign=rss"
+      },
+      "status": "supported"
+    }
+  ]
+}

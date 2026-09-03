@@ -1,0 +1,69 @@
+{
+  "subject": "as-public-fury-mounts-texas-pulls-the-plug-on-flock-surveillance-funding",
+  "claims": [
+    {
+      "id": "title",
+      "proposition": {
+        "predicate": "title",
+        "object": "As Public Fury Mounts, Texas Pulls the Plug on Flock Surveillance Funding"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "crypto",
+        "citation": "https://decrypt.co/376999/texas-bans-flock-surveillance-funding"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "url",
+      "proposition": {
+        "predicate": "url",
+        "object": "https://decrypt.co/376999/texas-bans-flock-surveillance-funding"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "crypto",
+        "citation": "https://decrypt.co/376999/texas-bans-flock-surveillance-funding"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "summary",
+      "proposition": {
+        "predicate": "summary",
+        "object": "Gov. Greg Abbott ordered state agencies to stop paying for the AI-powered license-plate readers as privacy concerns and officer-misuse scandals mount across Texas."
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "crypto",
+        "citation": "https://decrypt.co/376999/texas-bans-flock-surveillance-funding"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "published",
+      "proposition": {
+        "predicate": "published",
+        "object": "Mon, 31 Aug 2026 21:46:04 +0000"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "crypto",
+        "citation": "https://decrypt.co/376999/texas-bans-flock-surveillance-funding"
+      },
+      "status": "supported"
+    }
+  ]
+}

@@ -1,0 +1,69 @@
+{
+  "subject": "clippers-docked-five-first-round-draft-picks-and-fined-30m-over-kawhi-leonard-scandal",
+  "claims": [
+    {
+      "id": "title",
+      "proposition": {
+        "predicate": "title",
+        "object": "Clippers docked five first-round draft picks and fined $30m over Kawhi Leonard scandal"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "sport",
+        "citation": "https://www.theguardian.com/sport/2026/sep/02/la-clippers-kawhi-leonard-fine-salary-cap-nba"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "url",
+      "proposition": {
+        "predicate": "url",
+        "object": "https://www.theguardian.com/sport/2026/sep/02/la-clippers-kawhi-leonard-fine-salary-cap-nba"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "sport",
+        "citation": "https://www.theguardian.com/sport/2026/sep/02/la-clippers-kawhi-leonard-fine-salary-cap-nba"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "summary",
+      "proposition": {
+        "predicate": "summary",
+        "object": "<ul><li><p>Team circumvented salary cap rules to sign star</p></li><li><p>Owner Steve Ballmer lands one-year ban</p></li></ul><p>The NBA has handed down one of the biggest punishments in the history of the league to the Los Angeles Clippers after finding that the franchise <a href=\"https://www.theguardian.com/sport/2025/sep/03/clippers-deny-claims-star-forward-kawhi-leonard-was-paid-28m-for-job-that-didnt-exist\">circumvented salary cap rules</a> when it courted Kawhi Leonard as a free agent.</p><p>The league has stripped the team of five first-round draft picks, giving the team no natural pick in the draft from 2029 through 2033.</p> <a href=\"https://www.theguardian.com/sport/2026/sep/02/la-clippers-kawhi-leonard-fine-salary-cap-nba\">Continue reading...</a>"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "sport",
+        "citation": "https://www.theguardian.com/sport/2026/sep/02/la-clippers-kawhi-leonard-fine-salary-cap-nba"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "published",
+      "proposition": {
+        "predicate": "published",
+        "object": "Wed, 02 Sep 2026 20:52:28 GMT"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "sport",
+        "citation": "https://www.theguardian.com/sport/2026/sep/02/la-clippers-kawhi-leonard-fine-salary-cap-nba"
+      },
+      "status": "supported"
+    }
+  ]
+}

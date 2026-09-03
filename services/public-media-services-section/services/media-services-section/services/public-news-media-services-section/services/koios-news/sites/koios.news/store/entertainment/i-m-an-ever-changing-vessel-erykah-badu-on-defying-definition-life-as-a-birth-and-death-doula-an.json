@@ -1,0 +1,69 @@
+{
+  "subject": "i-m-an-ever-changing-vessel-erykah-badu-on-defying-definition-life-as-a-birth-and-death-doula-an",
+  "claims": [
+    {
+      "id": "title",
+      "proposition": {
+        "predicate": "title",
+        "object": "‘I’m an ever-changing vessel’: Erykah Badu on defying definition, life as a birth and death doula and her first album in 11 years"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "entertainment",
+        "citation": "https://www.theguardian.com/music/2026/aug/28/erykah-badu-before-the-world-blows-interview"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "url",
+      "proposition": {
+        "predicate": "url",
+        "object": "https://www.theguardian.com/music/2026/aug/28/erykah-badu-before-the-world-blows-interview"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "entertainment",
+        "citation": "https://www.theguardian.com/music/2026/aug/28/erykah-badu-before-the-world-blows-interview"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "summary",
+      "proposition": {
+        "predicate": "summary",
+        "object": "<p>Why do the Texan innovator’s records take so long to make? ‘It’s important to gather the data,’ she says: the death, dating and dopamine behind her exquisite comeback alongside the Alchemist</p><p>Erykah Badu needs the lights down <em>low</em>. The singer, producer, actor and registered doula shuffles into a private room at London’s Soho hotel and quietly asks for some changes to the atmosphere: lights dimmed, soft seat. A green juice would be great.</p><p>As it turns out, Badu was out last night with Dave Chappelle, sitting with the comedian at a grand piano and playing songs into the wee hours. She looks mischievous when she thinks about the impromptu party, but declines to go into detail about what, exactly, went on. Instead, the 55-year-old smiles at me, eyes wide, her gold teeth glinting in the low light: “Oh yes,” she says slowly and quietly, like some kind of mysterious warlock. “It <em>was </em>a late one …”</p> <a href=\"https://www.theguardian.com/music/2026/aug/28/erykah-badu-before-the-world-blows-interview\">Continue reading...</a>"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "entertainment",
+        "citation": "https://www.theguardian.com/music/2026/aug/28/erykah-badu-before-the-world-blows-interview"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "published",
+      "proposition": {
+        "predicate": "published",
+        "object": "Fri, 28 Aug 2026 04:00:49 GMT"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "entertainment",
+        "citation": "https://www.theguardian.com/music/2026/aug/28/erykah-badu-before-the-world-blows-interview"
+      },
+      "status": "supported"
+    }
+  ]
+}

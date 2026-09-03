@@ -1,0 +1,69 @@
+{
+  "subject": "i-feel-like-i-m-grieving-staff-on-the-devastating-fallout-of-widespread-layoffs-at-xbox",
+  "claims": [
+    {
+      "id": "title",
+      "proposition": {
+        "predicate": "title",
+        "object": "‘I feel like I’m grieving’: staff on the devastating fallout of widespread layoffs at Xbox"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "technology",
+        "citation": "https://www.theguardian.com/games/2026/sep/01/xbox-layoffs-microsoft"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "url",
+      "proposition": {
+        "predicate": "url",
+        "object": "https://www.theguardian.com/games/2026/sep/01/xbox-layoffs-microsoft"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "technology",
+        "citation": "https://www.theguardian.com/games/2026/sep/01/xbox-layoffs-microsoft"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "summary",
+      "proposition": {
+        "predicate": "summary",
+        "object": "<p>Last month, Microsoft’s gaming division told its workforce it was cutting 3,200 jobs, which some say will have big ramifications for game development – as well as taking a huge personal toll</p><p>On the morning of 6 July, an email went out from Asha Sharma, the chief executive of Xbox, to all of the division’s employees around the world. Under the headline “<a href=\"https://news.xbox.com/en-us/2026/07/06/resetting-xbox/\">Resetting Xbox</a>”, it announced the most significant restructuring in the history of Microsoft’s console business: 3,200 staff would be laid off throughout the financial year to 2027, and 1,600 of those roles would be eliminated immediately.</p><p>An hour later, at studios throughout company, the Teams meeting invites started arriving. “It was a virtual call with our studio manager,” says Anne Barrett, who was laid off from Bethesda Game Studios Austin. “All of our cameras and microphones were turned off so we weren’t able to say anything or react to anything. We were just brought in, told the news and it was like: ‘You guys are going to lose access to your Slack channel.’ So you saw a flurry of goodbye messages before everything was just shut off.”</p> <a href=\"https://www.theguardian.com/games/2026/sep/01/xbox-layoffs-microsoft\">Continue reading...</a>"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "technology",
+        "citation": "https://www.theguardian.com/games/2026/sep/01/xbox-layoffs-microsoft"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "published",
+      "proposition": {
+        "predicate": "published",
+        "object": "Tue, 01 Sep 2026 09:00:04 GMT"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "technology",
+        "citation": "https://www.theguardian.com/games/2026/sep/01/xbox-layoffs-microsoft"
+      },
+      "status": "supported"
+    }
+  ]
+}

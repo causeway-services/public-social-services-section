@@ -1,0 +1,69 @@
+{
+  "subject": "football-connects-communities-but-can-pull-them-apart-if-governed-carelessly-cath-bishop",
+  "claims": [
+    {
+      "id": "title",
+      "proposition": {
+        "predicate": "title",
+        "object": "Football connects communities but can pull them apart if governed carelessly | Cath Bishop"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "sport",
+        "citation": "https://www.theguardian.com/sport/2026/sep/02/football-connects-communities-but-can-pull-them-apart-if-governed-carelessly"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "url",
+      "proposition": {
+        "predicate": "url",
+        "object": "https://www.theguardian.com/sport/2026/sep/02/football-connects-communities-but-can-pull-them-apart-if-governed-carelessly"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "sport",
+        "citation": "https://www.theguardian.com/sport/2026/sep/02/football-connects-communities-but-can-pull-them-apart-if-governed-carelessly"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "summary",
+      "proposition": {
+        "predicate": "summary",
+        "object": "<p>Sport is a space to help youngsters to develop character, resilience and confidence, but we need stronger leadership and safer environments to make this happen</p><p>The fight for the soul of football isn’t just happening in the offices of Uefa and Fifa, it’s taking place on pitches much closer to home. At the weekend games of football for 750 children aged five to six in Scotland <a href=\"https://www.bbc.co.uk/news/articles/cj06j84jjj5o\">were cancelled</a> because of severe behavioural issues within the ironically named “Fun 4s” programme. Seventy-two red cards were handed out in the first week of the season. Accounts describe adults displaying aggression, intimidation and head-butting as if it’s the “wild west”.</p><p>This isn’t just a Scottish problem. Contacts I speak to in different roles around football confirm and almost accept that “youth football is atrocious”. This should be sounding major alarm bells, for the consequences go way beyond the pitch. The existing disciplinary systems and PR campaigns are not nearly enough to address and change the situation.</p> <a href=\"https://www.theguardian.com/sport/2026/sep/02/football-connects-communities-but-can-pull-them-apart-if-governed-carelessly\">Continue reading...</a>"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "sport",
+        "citation": "https://www.theguardian.com/sport/2026/sep/02/football-connects-communities-but-can-pull-them-apart-if-governed-carelessly"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "published",
+      "proposition": {
+        "predicate": "published",
+        "object": "Wed, 02 Sep 2026 07:00:26 GMT"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "sport",
+        "citation": "https://www.theguardian.com/sport/2026/sep/02/football-connects-communities-but-can-pull-them-apart-if-governed-carelessly"
+      },
+      "status": "supported"
+    }
+  ]
+}

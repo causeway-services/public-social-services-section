@@ -1,0 +1,69 @@
+{
+  "subject": "from-milk-to-sausage-rolls-how-vending-machines-could-help-tackle-uk-food-deserts",
+  "claims": [
+    {
+      "id": "title",
+      "proposition": {
+        "predicate": "title",
+        "object": "From milk to sausage rolls: how vending machines could help tackle UK ‘food deserts’"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "economy",
+        "citation": "https://www.theguardian.com/business/2026/sep/01/rural-vending-machines-uk-dairy-farmer"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "url",
+      "proposition": {
+        "predicate": "url",
+        "object": "https://www.theguardian.com/business/2026/sep/01/rural-vending-machines-uk-dairy-farmer"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "economy",
+        "citation": "https://www.theguardian.com/business/2026/sep/01/rural-vending-machines-uk-dairy-farmer"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "summary",
+      "proposition": {
+        "predicate": "summary",
+        "object": "<p>Selling direct to public helps squeezed farmers control prices and improves access to food in rural areas</p><p>Fizzy drinks, packets of crisps and bars of chocolate: for decades, vending machines were known as a place to grab a quick snack.</p><p>Now one family of farmers is trying to change that by bringing vending machines offering fresh milk and local produce – including scotch eggs, sausage rolls and brownies – to villages and other rural locations.</p> <a href=\"https://www.theguardian.com/business/2026/sep/01/rural-vending-machines-uk-dairy-farmer\">Continue reading...</a>"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "economy",
+        "citation": "https://www.theguardian.com/business/2026/sep/01/rural-vending-machines-uk-dairy-farmer"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "published",
+      "proposition": {
+        "predicate": "published",
+        "object": "Tue, 01 Sep 2026 09:00:03 GMT"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "economy",
+        "citation": "https://www.theguardian.com/business/2026/sep/01/rural-vending-machines-uk-dairy-farmer"
+      },
+      "status": "supported"
+    }
+  ]
+}

@@ -1,0 +1,69 @@
+{
+  "subject": "bessent-partly-blames-ukraine-for-energy-shock-pushing-up-prices",
+  "claims": [
+    {
+      "id": "title",
+      "proposition": {
+        "predicate": "title",
+        "object": "Bessent partly blames Ukraine for ‘energy shock’ pushing up prices"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "us-politics",
+        "citation": "https://thehill.com/policy/energy-environment/6066550-bessent-blames-ukraine-energy-shock/"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "url",
+      "proposition": {
+        "predicate": "url",
+        "object": "https://thehill.com/policy/energy-environment/6066550-bessent-blames-ukraine-energy-shock/"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "us-politics",
+        "citation": "https://thehill.com/policy/energy-environment/6066550-bessent-blames-ukraine-energy-shock/"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "summary",
+      "proposition": {
+        "predicate": "summary",
+        "object": "Treasury Secretary Scott Bessent on Wednesday partially blamed Ukraine for the “energy shock” caused by the Iran war and Russia’s 4 1/2-year war with the Eastern European country. Bessent appeared on “Fox & Friends” with co-host Brian Kilmeade and said the Trump administration’s trade war with Canada will have “virtually no impact on American prices.”…"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "us-politics",
+        "citation": "https://thehill.com/policy/energy-environment/6066550-bessent-blames-ukraine-energy-shock/"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "published",
+      "proposition": {
+        "predicate": "published",
+        "object": "Wed, 02 Sep 2026 17:43:00 +0000"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "us-politics",
+        "citation": "https://thehill.com/policy/energy-environment/6066550-bessent-blames-ukraine-energy-shock/"
+      },
+      "status": "supported"
+    }
+  ]
+}

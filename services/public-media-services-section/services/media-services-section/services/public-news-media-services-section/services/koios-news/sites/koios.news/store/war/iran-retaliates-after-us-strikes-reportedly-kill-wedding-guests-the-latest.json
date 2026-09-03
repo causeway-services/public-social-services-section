@@ -1,0 +1,69 @@
+{
+  "subject": "iran-retaliates-after-us-strikes-reportedly-kill-wedding-guests-the-latest",
+  "claims": [
+    {
+      "id": "title",
+      "proposition": {
+        "predicate": "title",
+        "object": "Iran retaliates after US strikes reportedly kill wedding guests - The Latest"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "war",
+        "citation": "https://www.theguardian.com/news/video/2026/sep/02/iran-retaliates-after-us-strikes-reportedly-kill-wedding-guests-the-latest"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "url",
+      "proposition": {
+        "predicate": "url",
+        "object": "https://www.theguardian.com/news/video/2026/sep/02/iran-retaliates-after-us-strikes-reportedly-kill-wedding-guests-the-latest"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "war",
+        "citation": "https://www.theguardian.com/news/video/2026/sep/02/iran-retaliates-after-us-strikes-reportedly-kill-wedding-guests-the-latest"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "summary",
+      "proposition": {
+        "predicate": "summary",
+        "object": "<p>Iran has accused the US of a ‘war crime’ after a missile blast killed at least four people, including a young child, and injured 68 at a wedding at a private house in southern Iran. A month-long uneasy truce between the US and Iran appears to have collapsed again, after US strikes on Saturday on Larak Island in the Strait of Hormuz. Iran has responded by launching drones and missiles on US bases across the Middle East, including the Gulf States. Lucy Hough speaks to Middle East correspondent Will Christou <strong>– </strong><a href=\"https://www.youtube.com/@todayinfocuspodcast\"><strong>watch on YouTube</strong></a></p> <a href=\"https://www.theguardian.com/news/video/2026/sep/02/iran-retaliates-after-us-strikes-reportedly-kill-wedding-guests-the-latest\">Continue reading...</a>"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "war",
+        "citation": "https://www.theguardian.com/news/video/2026/sep/02/iran-retaliates-after-us-strikes-reportedly-kill-wedding-guests-the-latest"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "published",
+      "proposition": {
+        "predicate": "published",
+        "object": "Wed, 02 Sep 2026 16:23:07 GMT"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "war",
+        "citation": "https://www.theguardian.com/news/video/2026/sep/02/iran-retaliates-after-us-strikes-reportedly-kill-wedding-guests-the-latest"
+      },
+      "status": "supported"
+    }
+  ]
+}

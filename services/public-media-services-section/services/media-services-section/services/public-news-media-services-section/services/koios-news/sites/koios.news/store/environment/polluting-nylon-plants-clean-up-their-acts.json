@@ -1,0 +1,69 @@
+{
+  "subject": "polluting-nylon-plants-clean-up-their-acts",
+  "claims": [
+    {
+      "id": "title",
+      "proposition": {
+        "predicate": "title",
+        "object": "Polluting Nylon Plants Clean Up Their Acts"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "environment",
+        "citation": "https://insideclimatenews.org/news/02092026/impact-methane-reporting/"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "url",
+      "proposition": {
+        "predicate": "url",
+        "object": "https://insideclimatenews.org/news/02092026/impact-methane-reporting/"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "environment",
+        "citation": "https://insideclimatenews.org/news/02092026/impact-methane-reporting/"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "summary",
+      "proposition": {
+        "predicate": "summary",
+        "object": "By Phil McKenna, Investigative Reporter Many of our impact case studies cover ongoing stories that Inside Climate News continues to actively cover. The impact reflected here is current as of publication and may be updated as the situation develops."
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "environment",
+        "citation": "https://insideclimatenews.org/news/02092026/impact-methane-reporting/"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "published",
+      "proposition": {
+        "predicate": "published",
+        "object": "Wed, 02 Sep 2026 04:01:00 +0000"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "environment",
+        "citation": "https://insideclimatenews.org/news/02092026/impact-methane-reporting/"
+      },
+      "status": "supported"
+    }
+  ]
+}

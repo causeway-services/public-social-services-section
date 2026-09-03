@@ -1,0 +1,69 @@
+{
+  "subject": "furious-creator-liz-meriwether-on-the-season-1-finale-funny-fbi-agents-and-farting-babies",
+  "claims": [
+    {
+      "id": "title",
+      "proposition": {
+        "predicate": "title",
+        "object": "‘Furious’ Creator Liz Meriwether on the Season 1 Finale, Funny FBI Agents, and Farting Babies"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "entertainment",
+        "citation": "https://www.rollingstone.com/tv-movies/tv-movie-features/furious-creator-liz-meriwether-season-1-finale-interview-1235618666/"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "url",
+      "proposition": {
+        "predicate": "url",
+        "object": "https://www.rollingstone.com/tv-movies/tv-movie-features/furious-creator-liz-meriwether-season-1-finale-interview-1235618666/"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "entertainment",
+        "citation": "https://www.rollingstone.com/tv-movies/tv-movie-features/furious-creator-liz-meriwether-season-1-finale-interview-1235618666/"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "summary",
+      "proposition": {
+        "predicate": "summary",
+        "object": "The showrunner takes us inside the making of her acclaimed crime procedural-thriller and the challenges of writing about abuse and trauma. Plus: What’s in store for Season Two"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "entertainment",
+        "citation": "https://www.rollingstone.com/tv-movies/tv-movie-features/furious-creator-liz-meriwether-season-1-finale-interview-1235618666/"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "published",
+      "proposition": {
+        "predicate": "published",
+        "object": "Wed, 02 Sep 2026 20:11:50 +0000"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "entertainment",
+        "citation": "https://www.rollingstone.com/tv-movies/tv-movie-features/furious-creator-liz-meriwether-season-1-finale-interview-1235618666/"
+      },
+      "status": "supported"
+    }
+  ]
+}

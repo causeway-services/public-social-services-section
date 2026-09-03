@@ -1,0 +1,69 @@
+{
+  "subject": "overcooked-why-robotic-pizza-makers-are-failing",
+  "claims": [
+    {
+      "id": "title",
+      "proposition": {
+        "predicate": "title",
+        "object": "Overcooked? Why robotic pizza makers are failing"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "economy",
+        "citation": "https://www.bbc.co.uk/news/articles/czxq0wgkkdjo?at_medium=RSS&at_campaign=rss"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "url",
+      "proposition": {
+        "predicate": "url",
+        "object": "https://www.bbc.co.uk/news/articles/czxq0wgkkdjo?at_medium=RSS&at_campaign=rss"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "economy",
+        "citation": "https://www.bbc.co.uk/news/articles/czxq0wgkkdjo?at_medium=RSS&at_campaign=rss"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "summary",
+      "proposition": {
+        "predicate": "summary",
+        "object": "A string of failures has sapped confidence that robots will take over production at pizza restaurants."
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "economy",
+        "citation": "https://www.bbc.co.uk/news/articles/czxq0wgkkdjo?at_medium=RSS&at_campaign=rss"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "published",
+      "proposition": {
+        "predicate": "published",
+        "object": "Thu, 27 Aug 2026 23:16:02 GMT"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "economy",
+        "citation": "https://www.bbc.co.uk/news/articles/czxq0wgkkdjo?at_medium=RSS&at_campaign=rss"
+      },
+      "status": "supported"
+    }
+  ]
+}

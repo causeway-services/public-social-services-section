@@ -1,0 +1,69 @@
+{
+  "subject": "oasis-auteurs-and-seven-hours-of-bertolucci-12-unmissable-movies-at-the-venice-film-festival",
+  "claims": [
+    {
+      "id": "title",
+      "proposition": {
+        "predicate": "title",
+        "object": "Oasis, auteurs and seven hours of Bertolucci: 12 unmissable movies at the Venice film festival"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "culture",
+        "citation": "https://www.theguardian.com/film/2026/sep/02/venice-film-festival-12-unmissable-movies"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "url",
+      "proposition": {
+        "predicate": "url",
+        "object": "https://www.theguardian.com/film/2026/sep/02/venice-film-festival-12-unmissable-movies"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "culture",
+        "citation": "https://www.theguardian.com/film/2026/sep/02/venice-film-festival-12-unmissable-movies"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "summary",
+      "proposition": {
+        "predicate": "summary",
+        "object": "<p>A backstage peek at the reunion tour and a new film from Burning director Lee Chang-dong are among this year’s most anticipated – plus offerings from Danny Boyle, Luca Guadagnino, Martin McDonagh and more</p><p>Danny Boyle’s movie, adapted by James Graham from <a href=\"https://www.theguardian.com/media/2017/jun/28/ink-review-when-idea-of-a-mission-to-inform-was-burned-by-the-sun\">his own play</a>, is a primal scene of modern Britain and its agonies over class, culture and empire. Rupert Murdoch buys the Sun newspaper in 1969 and turns it into a raucous circulation powerhouse of sexist smut and Tory politics, while gloating over the timid British establishment who winced at the colonial Australian press baron. Guy Pearce plays Murdoch and Jack O’Connell plays editor Larry Lamb.</p> <a href=\"https://www.theguardian.com/film/2026/sep/02/venice-film-festival-12-unmissable-movies\">Continue reading...</a>"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "culture",
+        "citation": "https://www.theguardian.com/film/2026/sep/02/venice-film-festival-12-unmissable-movies"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "published",
+      "proposition": {
+        "predicate": "published",
+        "object": "Wed, 02 Sep 2026 07:00:26 GMT"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "culture",
+        "citation": "https://www.theguardian.com/film/2026/sep/02/venice-film-festival-12-unmissable-movies"
+      },
+      "status": "supported"
+    }
+  ]
+}

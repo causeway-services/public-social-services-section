@@ -1,0 +1,69 @@
+{
+  "subject": "ain-t-nobody-better-chaka-khan-s-20-best-songs-ranked",
+  "claims": [
+    {
+      "id": "title",
+      "proposition": {
+        "predicate": "title",
+        "object": "Ain’t nobody better: Chaka Khan’s 20 best songs – ranked!"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "entertainment",
+        "citation": "https://www.theguardian.com/culture/2026/aug/27/aint-nobody-better-chaka-khan-20-best-songs-ranked"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "url",
+      "proposition": {
+        "predicate": "url",
+        "object": "https://www.theguardian.com/culture/2026/aug/27/aint-nobody-better-chaka-khan-20-best-songs-ranked"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "entertainment",
+        "citation": "https://www.theguardian.com/culture/2026/aug/27/aint-nobody-better-chaka-khan-20-best-songs-ranked"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "summary",
+      "proposition": {
+        "predicate": "summary",
+        "object": "<p>Ahead of the release of her 13th solo album, the fantastically titled Chakzilla, we rank the best of a sublime catalogue of funk, slow jams and tears-on-the-dancefloor disco</p><p>Chaka Khan had harsh words for the “assholes” at her then record company, Warner Bros, who she felt under-promoted 1992’s The Woman I Am, her first album in four years. Listening to Love You All My Lifetime’s cocktail of funk and contemporary R&amp;B, you wonder if she didn’t have a point. There’s no obvious reason why it wasn’t huge hit.</p> <a href=\"https://www.theguardian.com/culture/2026/aug/27/aint-nobody-better-chaka-khan-20-best-songs-ranked\">Continue reading...</a>"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "entertainment",
+        "citation": "https://www.theguardian.com/culture/2026/aug/27/aint-nobody-better-chaka-khan-20-best-songs-ranked"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "published",
+      "proposition": {
+        "predicate": "published",
+        "object": "Thu, 27 Aug 2026 12:00:13 GMT"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "entertainment",
+        "citation": "https://www.theguardian.com/culture/2026/aug/27/aint-nobody-better-chaka-khan-20-best-songs-ranked"
+      },
+      "status": "supported"
+    }
+  ]
+}

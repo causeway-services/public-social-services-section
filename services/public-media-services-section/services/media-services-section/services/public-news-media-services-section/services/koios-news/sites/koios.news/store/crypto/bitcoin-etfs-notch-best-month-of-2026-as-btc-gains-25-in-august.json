@@ -1,0 +1,69 @@
+{
+  "subject": "bitcoin-etfs-notch-best-month-of-2026-as-btc-gains-25-in-august",
+  "claims": [
+    {
+      "id": "title",
+      "proposition": {
+        "predicate": "title",
+        "object": "Bitcoin ETFs notch best month of 2026 as BTC gains 25% in August"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "crypto",
+        "citation": "https://cointelegraph.com/markets/bitcoin-etf-best-month-2026-btc-up-25-august?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "url",
+      "proposition": {
+        "predicate": "url",
+        "object": "https://cointelegraph.com/markets/bitcoin-etf-best-month-2026-btc-up-25-august?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "crypto",
+        "citation": "https://cointelegraph.com/markets/bitcoin-etf-best-month-2026-btc-up-25-august?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "summary",
+      "proposition": {
+        "predicate": "summary",
+        "object": "US spot Bitcoin ETFs reduced their year-to-date net outflows by 66% as Bitcoin gained about 25% in August, while Ether ETFs turned positive YTD at $732 million and XRP ETFs reached $502 million."
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "crypto",
+        "citation": "https://cointelegraph.com/markets/bitcoin-etf-best-month-2026-btc-up-25-august?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "published",
+      "proposition": {
+        "predicate": "published",
+        "object": "Wed, 02 Sep 2026 07:59:43 +0000"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "crypto",
+        "citation": "https://cointelegraph.com/markets/bitcoin-etf-best-month-2026-btc-up-25-august?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
+      },
+      "status": "supported"
+    }
+  ]
+}

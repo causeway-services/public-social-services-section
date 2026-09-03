@@ -1,0 +1,69 @@
+{
+  "subject": "dogs-may-hold-surprising-clues-to-human-longevity",
+  "claims": [
+    {
+      "id": "title",
+      "proposition": {
+        "predicate": "title",
+        "object": "Dogs may hold surprising clues to human longevity"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "science",
+        "citation": "https://www.sciencedaily.com/releases/2026/08/260828082341.htm"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "url",
+      "proposition": {
+        "predicate": "url",
+        "object": "https://www.sciencedaily.com/releases/2026/08/260828082341.htm"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "science",
+        "citation": "https://www.sciencedaily.com/releases/2026/08/260828082341.htm"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "summary",
+      "proposition": {
+        "predicate": "summary",
+        "object": "Dogs and humans may have more in common when it comes to aging than scientists realized. Researchers with the Dog Aging Project found that patterns of small molecules in dogs’ blood were linked to longer or shorter lifespans in remarkably similar ways to those seen in people. These metabolic “fingerprints” could offer clues about the biological processes that drive aging, including metabolism, inflammation, and cellular stress."
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "science",
+        "citation": "https://www.sciencedaily.com/releases/2026/08/260828082341.htm"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "published",
+      "proposition": {
+        "predicate": "published",
+        "object": "Sat, 29 Aug 2026 08:47:55 EDT"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "science",
+        "citation": "https://www.sciencedaily.com/releases/2026/08/260828082341.htm"
+      },
+      "status": "supported"
+    }
+  ]
+}

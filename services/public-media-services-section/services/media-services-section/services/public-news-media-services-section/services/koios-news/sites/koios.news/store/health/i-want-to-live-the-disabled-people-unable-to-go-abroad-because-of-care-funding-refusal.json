@@ -1,0 +1,69 @@
+{
+  "subject": "i-want-to-live-the-disabled-people-unable-to-go-abroad-because-of-care-funding-refusal",
+  "claims": [
+    {
+      "id": "title",
+      "proposition": {
+        "predicate": "title",
+        "object": "‘I want to live’: the disabled people unable to go abroad because of care funding refusal"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "health",
+        "citation": "https://www.theguardian.com/world/2026/sep/02/i-want-to-live-the-disabled-people-unable-to-go-abroad-because-of-care-funding-refusal"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "url",
+      "proposition": {
+        "predicate": "url",
+        "object": "https://www.theguardian.com/world/2026/sep/02/i-want-to-live-the-disabled-people-unable-to-go-abroad-because-of-care-funding-refusal"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "health",
+        "citation": "https://www.theguardian.com/world/2026/sep/02/i-want-to-live-the-disabled-people-unable-to-go-abroad-because-of-care-funding-refusal"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "summary",
+      "proposition": {
+        "predicate": "summary",
+        "object": "<p>Campaigners say care users face a postcode lottery for support overseas – despite no extra cost to taxpayer</p><p>Disabled people are being blocked from travelling abroad by NHS care boards and local councils that refuse to let them use their care funding outside the UK, the Guardian has learned.</p><p>Campaigners warn of a “postcode lottery” in England where the right of a disabled person to travel overseas depends on where they live or the whim of local officials – even when there is no extra cost to the taxpayer.</p> <a href=\"https://www.theguardian.com/world/2026/sep/02/i-want-to-live-the-disabled-people-unable-to-go-abroad-because-of-care-funding-refusal\">Continue reading...</a>"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "health",
+        "citation": "https://www.theguardian.com/world/2026/sep/02/i-want-to-live-the-disabled-people-unable-to-go-abroad-because-of-care-funding-refusal"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "published",
+      "proposition": {
+        "predicate": "published",
+        "object": "Wed, 02 Sep 2026 05:00:24 GMT"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "health",
+        "citation": "https://www.theguardian.com/world/2026/sep/02/i-want-to-live-the-disabled-people-unable-to-go-abroad-because-of-care-funding-refusal"
+      },
+      "status": "supported"
+    }
+  ]
+}

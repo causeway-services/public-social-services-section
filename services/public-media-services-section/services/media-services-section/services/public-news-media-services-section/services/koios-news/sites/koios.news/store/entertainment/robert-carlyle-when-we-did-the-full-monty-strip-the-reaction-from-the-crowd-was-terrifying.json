@@ -1,0 +1,69 @@
+{
+  "subject": "robert-carlyle-when-we-did-the-full-monty-strip-the-reaction-from-the-crowd-was-terrifying",
+  "claims": [
+    {
+      "id": "title",
+      "proposition": {
+        "predicate": "title",
+        "object": "Robert Carlyle: ‘When we did The Full Monty strip, the reaction from the crowd was terrifying’"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "entertainment",
+        "citation": "https://www.theguardian.com/film/2026/aug/27/robert-carlyle-interview-full-monty-strip"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "url",
+      "proposition": {
+        "predicate": "url",
+        "object": "https://www.theguardian.com/film/2026/aug/27/robert-carlyle-interview-full-monty-strip"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "entertainment",
+        "citation": "https://www.theguardian.com/film/2026/aug/27/robert-carlyle-interview-full-monty-strip"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "summary",
+      "proposition": {
+        "predicate": "summary",
+        "object": "<p>The actor on which star he’d devour first on a lifeboat, why he prefers pigeons to dogs and how Trainspotting put the Scottish accent on the map</p><p><strong>You’re stranded on a lifeboat with </strong><strong>Ewan McGregor</strong><strong>, </strong><strong>Ewen Bremner</strong><strong>, </strong><strong>Jonny Lee Miller</strong><strong>, </strong><strong>Kevin McKidd</strong><strong>, </strong><strong>Peter Mullan</strong><strong>, </strong><strong>James Cosmo</strong><strong>, </strong><strong>Keith Allen</strong><strong> and </strong><strong>Irvine Welsh</strong><strong>. Who do you eat first?<a href=\"https://profile.theguardian.com/user/id/11212056\"> </a></strong><em><a href=\"https://profile.theguardian.com/user/id/11212056\">DarkAnaemicI77</a><br></em>I suppose you have to think about who’s the healthiest and has looked after their body best. I reckon Ewan would be a wee bit too chewy, and Irvine a wee bit pickled. I’ll go for Kevin McKidd because he’s been out in LA for 20 years, eating good food.</p><p><strong>Did you really not like </strong><strong>Zippy</strong><strong> the </strong><strong>West Highland </strong><strong>terrier</strong><strong> who played </strong><strong>Wee Jock</strong><strong> in </strong><strong>Hamish Macbeth</strong><strong>? </strong><em><a href=\"https://profile.theguardian.com/user/id/16104543\">Campbell97</a></em></p> <a href=\"https://www.theguardian.com/film/2026/aug/27/robert-carlyle-interview-full-monty-strip\">Continue reading...</a>"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "entertainment",
+        "citation": "https://www.theguardian.com/film/2026/aug/27/robert-carlyle-interview-full-monty-strip"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "published",
+      "proposition": {
+        "predicate": "published",
+        "object": "Thu, 27 Aug 2026 14:00:16 GMT"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "entertainment",
+        "citation": "https://www.theguardian.com/film/2026/aug/27/robert-carlyle-interview-full-monty-strip"
+      },
+      "status": "supported"
+    }
+  ]
+}

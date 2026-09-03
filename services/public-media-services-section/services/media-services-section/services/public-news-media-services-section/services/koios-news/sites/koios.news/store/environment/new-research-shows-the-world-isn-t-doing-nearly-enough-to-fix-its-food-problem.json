@@ -1,0 +1,69 @@
+{
+  "subject": "new-research-shows-the-world-isn-t-doing-nearly-enough-to-fix-its-food-problem",
+  "claims": [
+    {
+      "id": "title",
+      "proposition": {
+        "predicate": "title",
+        "object": "New research shows the world isn’t doing nearly enough to fix its food problem"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "environment",
+        "citation": "https://grist.org/food-and-agriculture/new-research-shows-the-world-isnt-doing-nearly-enough-to-fix-its-food-problem/"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "url",
+      "proposition": {
+        "predicate": "url",
+        "object": "https://grist.org/food-and-agriculture/new-research-shows-the-world-isnt-doing-nearly-enough-to-fix-its-food-problem/"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "environment",
+        "citation": "https://grist.org/food-and-agriculture/new-research-shows-the-world-isnt-doing-nearly-enough-to-fix-its-food-problem/"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "summary",
+      "proposition": {
+        "predicate": "summary",
+        "object": "A new report finds that across the globe, progress toward developing more sustainable, resilient food systems is not advancing fast enough to meet internationally agreed upon deadlines. The research builds on previous studies tracking a number of goals, including some established a decade ago by United Nations member countries, like eliminating hunger and poverty. The deadline to reach these targets, known as Sustainable Development Goals, or SDGs, is 2030. The paper also considers net-zero emissions goals set by the Paris Agreement. For the majority of these goals, researchers involved in this study say it is now virtually impossible to reach the 2030 deadline. The report, led by the Food Systems Countdown Initiative, differs from the group’s earlier work by measuring progress at both the global and regional level. Alongside their paper, which was published in Nature Food earlier this month, the authors launched an interactive dashboard that showcases how nearly every country in the world is advancing (or not) on about 50 metrics. These include things like the cost of a healthy diet, fruit and vegetable availability, agricultural yields, greenhouse gas emissions from growing food, and more. For certain environmental and climate-related metrics, this food systems report card feels especially dire. For example, the authors looked at how much greenhouse gas emissions from agri-food systems have gone up or down in recent years. In order to do this, the team calculated gross emissions from agri-food systems as a percentage of each country’s average historical emissions. They found that globally, change in agri-food emissions is trending in an undesirable direction — that is, up. Emissions from agricultural production present a significant challenge on the road to reducing global warming, as they make up about a third of manmade greenhouse gas emissions , according to the U.N. Food and Agricultural Organization. According to the paper, in order to reach net-zero agri-food emissions by 2030, every region in the world would have to increase its progress by about 70 percent every year over the next four years. That kind of movement “is absolutely not going to happen,” said Bianca Carducci, an independent nutrition scientist and lead author of the paper. “Most countries probably shift about 5 percent per year on some indicators. ” While potentially unflattering or discouraging, this data point should be viewed within a wider context, said Carducci. The 70 percent figure represents the movement that every region of the world (i.e., the Americas, Oceania) would have to undertake. At the country level, there may be some that are actually doing well and decreasing greenhouse gas emissions from agricultural production. Regardless of whether you look at the regional or country level, progress must be viewed holistically, Carducci added. There could be one country that is very close to reaching a certain target, but also stagnating in its efforts.&nbsp; This wrinkle in the paper’s analysis reveals something tricky about the nature of measuring progress in the first place. “It’s not a binary,” said Michael Puma, a professor at Columbia University’s Climate School who was not involved in the report. “It’s not as simple as success or failure by 2030.” Read Next The world is getting too hot to feed itself Ayurella Horn-Muller One&nbsp; feature of the report that could help illuminate what success would entail is a web of interactions between all metrics surveyed. (The researchers are planning a webinar next month to help the public better understand all its datasets.) Changes in greenhouse gas emissions, for example, are influenced by cropland change, yields, agricultural water withdrawals, fisheries, and more. It’s also affected by civil society participation, the researchers found. These can all be effective entry points to reducing emissions from our food systems, said Carducci.&nbsp; In some ways, deadlines like the ambitious ones associated with SDGs can obfuscate opportunities for improvement. When the authors looked at 2050 as an alternate deadline for achieving SDGs, they found that regions across the world are more on track to meet a majority of their nutrition and environmental goals.&nbsp; This shouldn’t be a reason to slow down, though, Carducci said. Regional and global leaders “shouldn’t just throw in the towel and say, ‘OK, we’re not going to make it [by 2030] so we don’t really need to do anything for the next four years.’” Using deadlines at all to spur action can be tricky, argued Puma. Overly ambitious cutoffs can incentivize quick fixes that don’t hold up in the long run. He cautioned that the focus should be less on the date by which progress should be completed and more on how we get there.&nbsp; “It’s really about designing realistic pathways,” he said — as well as building in accountability measures.&nbsp; toolTips('.classtoolTips7',' A powerful greenhouse gas that accounts for about 11% of global emissions, methane is the primary component of natural gas and is emitted into the atmosphere by landfills, oil and natural gas systems, agricultural activities, coal mining, and wastewater treatment, among other pathways. Over a 20-year period, it is roughly 84 times more potent than carbon dioxide at trapping heat in the atmosphere. '); This story was originally published by Grist with the headline New research shows the world isn’t doing nearly enough to fix its food problem on Aug 28, 2026."
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "environment",
+        "citation": "https://grist.org/food-and-agriculture/new-research-shows-the-world-isnt-doing-nearly-enough-to-fix-its-food-problem/"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "published",
+      "proposition": {
+        "predicate": "published",
+        "object": "Fri, 28 Aug 2026 08:00:00 +0000"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "environment",
+        "citation": "https://grist.org/food-and-agriculture/new-research-shows-the-world-isnt-doing-nearly-enough-to-fix-its-food-problem/"
+      },
+      "status": "supported"
+    }
+  ]
+}

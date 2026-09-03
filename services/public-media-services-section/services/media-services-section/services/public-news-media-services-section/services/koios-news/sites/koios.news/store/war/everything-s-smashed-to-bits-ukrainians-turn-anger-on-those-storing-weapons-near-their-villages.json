@@ -1,0 +1,69 @@
+{
+  "subject": "everything-s-smashed-to-bits-ukrainians-turn-anger-on-those-storing-weapons-near-their-villages",
+  "claims": [
+    {
+      "id": "title",
+      "proposition": {
+        "predicate": "title",
+        "object": "‘Everything’s smashed to bits’: Ukrainians turn anger on those storing weapons near their villages"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "war",
+        "citation": "https://www.theguardian.com/world/2026/aug/31/ukraine-anger-weapons-storage-russian-bombing-myla"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "url",
+      "proposition": {
+        "predicate": "url",
+        "object": "https://www.theguardian.com/world/2026/aug/31/ukraine-anger-weapons-storage-russian-bombing-myla"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "war",
+        "citation": "https://www.theguardian.com/world/2026/aug/31/ukraine-anger-weapons-storage-russian-bombing-myla"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "summary",
+      "proposition": {
+        "predicate": "summary",
+        "object": "<p>As Russia hits another ammunition warehouse, killing at least 38, locals put blame on poorly placed depots</p><p>It is a day and a half since a Russian jet-powered drone <a href=\"https://www.theguardian.com/world/2026/aug/29/russian-strike-warehouse-near-kyiv-kills-at-least-37\">smashed into an ammunition dump in Myla</a>, a village 15 miles outside central Kyiv. Volodymyr, 61, a security guard, leads visitors from his family’s badly damaged home, its roof blown off, back windows shattered, through the garden towards the impact site 300 metres away.</p><p>The garden, like so many in Ukraine’s villages and suburbs, is a sizeable allotment. But today the greenhouse is shattered, a vegetable patch is blackened and crisp underfoot. Several metres of grapevine have been destroyed. Even so, Volodymyr finds two surviving bunches to hand to the Guardian.</p> <a href=\"https://www.theguardian.com/world/2026/aug/31/ukraine-anger-weapons-storage-russian-bombing-myla\">Continue reading...</a>"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "war",
+        "citation": "https://www.theguardian.com/world/2026/aug/31/ukraine-anger-weapons-storage-russian-bombing-myla"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "published",
+      "proposition": {
+        "predicate": "published",
+        "object": "Mon, 31 Aug 2026 04:00:17 GMT"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "war",
+        "citation": "https://www.theguardian.com/world/2026/aug/31/ukraine-anger-weapons-storage-russian-bombing-myla"
+      },
+      "status": "supported"
+    }
+  ]
+}

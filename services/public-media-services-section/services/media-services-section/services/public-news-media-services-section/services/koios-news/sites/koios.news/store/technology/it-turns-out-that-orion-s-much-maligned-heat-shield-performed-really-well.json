@@ -1,0 +1,69 @@
+{
+  "subject": "it-turns-out-that-orion-s-much-maligned-heat-shield-performed-really-well",
+  "claims": [
+    {
+      "id": "title",
+      "proposition": {
+        "predicate": "title",
+        "object": "It turns out that Orion's much-maligned heat shield performed really well"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "technology",
+        "citation": "https://arstechnica.com/space/2026/09/it-turns-out-that-orions-much-maligned-heat-shield-performed-really-well/"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "url",
+      "proposition": {
+        "predicate": "url",
+        "object": "https://arstechnica.com/space/2026/09/it-turns-out-that-orions-much-maligned-heat-shield-performed-really-well/"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "technology",
+        "citation": "https://arstechnica.com/space/2026/09/it-turns-out-that-orions-much-maligned-heat-shield-performed-really-well/"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "summary",
+      "proposition": {
+        "predicate": "summary",
+        "object": "Perhaps the biggest question going into the Artemis II mission this spring was how the heat shield at the base of the spacecraft would perform during reentry through Earth's atmosphere. The ablative heat shield, designed to char upon reentry while keeping the crew safe, had experienced unexpected losses of large chunks during a test flight in late 2022. After much deliberation, and not without controversy , NASA decided to fly the Artemis II heat shield as is but modify the spacecraft's reentry trajectory. Obviously, the heat shield worked. The crew of Artemis II, led by commander Reid Wiseman, safely splashed down in the Pacific Ocean after a triumphant trip around the Moon. Afterward, they and other NASA officials offered general comments, saying the heat shield looked good. Read full article Comments"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "technology",
+        "citation": "https://arstechnica.com/space/2026/09/it-turns-out-that-orions-much-maligned-heat-shield-performed-really-well/"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "published",
+      "proposition": {
+        "predicate": "published",
+        "object": "Tue, 01 Sep 2026 14:46:28 +0000"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "technology",
+        "citation": "https://arstechnica.com/space/2026/09/it-turns-out-that-orions-much-maligned-heat-shield-performed-really-well/"
+      },
+      "status": "supported"
+    }
+  ]
+}

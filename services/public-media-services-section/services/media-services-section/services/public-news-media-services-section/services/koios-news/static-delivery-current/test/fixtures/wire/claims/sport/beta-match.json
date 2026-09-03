@@ -1,0 +1,9 @@
+{
+  "subject": "beta-match",
+  "claims": [
+    { "id": "title", "proposition": { "predicate": "title", "object": "Beta match <report>" }, "time": { "asserted": "2026-09-02T10:00:00.000Z" }, "force": "alleges", "provenance": { "witness": "sport", "citation": "https://sport.example.org/beta" }, "status": "supported" },
+    { "id": "url", "proposition": { "predicate": "url", "object": "https://sport.example.org/beta" }, "time": { "asserted": "2026-09-02T10:00:00.000Z" }, "force": "alleges", "provenance": { "witness": "sport", "citation": "https://sport.example.org/beta" }, "status": "supported" },
+    { "id": "summary", "proposition": { "predicate": "summary", "object": "A summary." }, "time": { "asserted": "2026-09-02T10:00:00.000Z" }, "force": "alleges", "provenance": { "witness": "sport", "citation": "https://sport.example.org/beta" }, "status": "supported" },
+    { "id": "published", "proposition": { "predicate": "published", "object": "2026-09-02T08:00:00.000Z" }, "time": { "asserted": "2026-09-02T10:00:00.000Z" }, "force": "alleges", "provenance": { "witness": "sport", "citation": "https://sport.example.org/beta" }, "status": "supported" }
+  ]
+}

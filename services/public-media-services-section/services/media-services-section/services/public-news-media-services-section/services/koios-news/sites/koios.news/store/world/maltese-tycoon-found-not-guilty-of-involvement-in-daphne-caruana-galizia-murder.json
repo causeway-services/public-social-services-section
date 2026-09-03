@@ -1,0 +1,69 @@
+{
+  "subject": "maltese-tycoon-found-not-guilty-of-involvement-in-daphne-caruana-galizia-murder",
+  "claims": [
+    {
+      "id": "title",
+      "proposition": {
+        "predicate": "title",
+        "object": "Maltese tycoon found not guilty of involvement in Daphne Caruana Galizia murder"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "world",
+        "citation": "https://www.theguardian.com/world/2026/sep/02/maltese-tycoon-yorgen-fenech-daphne-caruana-galizia-killing-not-guilty"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "url",
+      "proposition": {
+        "predicate": "url",
+        "object": "https://www.theguardian.com/world/2026/sep/02/maltese-tycoon-yorgen-fenech-daphne-caruana-galizia-killing-not-guilty"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "world",
+        "citation": "https://www.theguardian.com/world/2026/sep/02/maltese-tycoon-yorgen-fenech-daphne-caruana-galizia-killing-not-guilty"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "summary",
+      "proposition": {
+        "predicate": "summary",
+        "object": "<p>Yorgen Fenech cleared on both charges he faced over 2017 killing of journalist that prompted global outrage</p><p>One of Malta’s richest men has been found not guilty of involvement in the murder of the anti-corruption journalist Daphne Caruana Galizia.</p><p>The verdict, which is expected to be appealed against by the prosecution, came as a blow not only to the victim’s family, but to the politicians and campaigners who regard the case as a landmark action in the fight to protect press freedom in Europe.</p> <a href=\"https://www.theguardian.com/world/2026/sep/02/maltese-tycoon-yorgen-fenech-daphne-caruana-galizia-killing-not-guilty\">Continue reading...</a>"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "world",
+        "citation": "https://www.theguardian.com/world/2026/sep/02/maltese-tycoon-yorgen-fenech-daphne-caruana-galizia-killing-not-guilty"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "published",
+      "proposition": {
+        "predicate": "published",
+        "object": "Wed, 02 Sep 2026 19:26:32 GMT"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "world",
+        "citation": "https://www.theguardian.com/world/2026/sep/02/maltese-tycoon-yorgen-fenech-daphne-caruana-galizia-killing-not-guilty"
+      },
+      "status": "supported"
+    }
+  ]
+}

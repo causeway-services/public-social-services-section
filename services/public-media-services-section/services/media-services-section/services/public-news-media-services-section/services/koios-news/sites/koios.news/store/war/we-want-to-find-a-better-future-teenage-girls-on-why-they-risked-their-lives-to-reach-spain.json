@@ -1,0 +1,69 @@
+{
+  "subject": "we-want-to-find-a-better-future-teenage-girls-on-why-they-risked-their-lives-to-reach-spain",
+  "claims": [
+    {
+      "id": "title",
+      "proposition": {
+        "predicate": "title",
+        "object": "‘We want to find a better future’: teenage girls on why they risked their lives to reach Spain"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "war",
+        "citation": "https://www.theguardian.com/global-development/ng-interactive/2026/aug/31/we-want-to-find-a-better-future-teenage-girls-on-why-they-risked-their-lives-to-reach-spain"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "url",
+      "proposition": {
+        "predicate": "url",
+        "object": "https://www.theguardian.com/global-development/ng-interactive/2026/aug/31/we-want-to-find-a-better-future-teenage-girls-on-why-they-risked-their-lives-to-reach-spain"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "war",
+        "citation": "https://www.theguardian.com/global-development/ng-interactive/2026/aug/31/we-want-to-find-a-better-future-teenage-girls-on-why-they-risked-their-lives-to-reach-spain"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "summary",
+      "proposition": {
+        "predicate": "summary",
+        "object": "<p>More than two dozen teenagers stuck in the Spanish territory of Ceuta shared their reasons for joining the treacherous mass crossing in July</p><p>For Fatin, one of the teenage girls now living in limbo in a makeshift camp in the Spanish city of Ceuta, the decision to leave her home in Morocco began to form when she had to give up school.</p><p>She wanted to continue studying, she says, but at home she was expected to take responsibility for the housework instead. As classes and learning gave way to domestic chores, the future she had imagined for herself began to feel increasingly distant.</p> <a href=\"https://www.theguardian.com/global-development/ng-interactive/2026/aug/31/we-want-to-find-a-better-future-teenage-girls-on-why-they-risked-their-lives-to-reach-spain\">Continue reading...</a>"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "war",
+        "citation": "https://www.theguardian.com/global-development/ng-interactive/2026/aug/31/we-want-to-find-a-better-future-teenage-girls-on-why-they-risked-their-lives-to-reach-spain"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "published",
+      "proposition": {
+        "predicate": "published",
+        "object": "Mon, 31 Aug 2026 05:00:15 GMT"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "war",
+        "citation": "https://www.theguardian.com/global-development/ng-interactive/2026/aug/31/we-want-to-find-a-better-future-teenage-girls-on-why-they-risked-their-lives-to-reach-spain"
+      },
+      "status": "supported"
+    }
+  ]
+}

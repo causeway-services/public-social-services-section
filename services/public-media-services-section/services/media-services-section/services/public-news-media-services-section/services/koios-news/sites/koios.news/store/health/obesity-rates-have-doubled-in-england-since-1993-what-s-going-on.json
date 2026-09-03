@@ -1,0 +1,69 @@
+{
+  "subject": "obesity-rates-have-doubled-in-england-since-1993-what-s-going-on",
+  "claims": [
+    {
+      "id": "title",
+      "proposition": {
+        "predicate": "title",
+        "object": "Obesity rates have doubled in England since 1993 - what's going on?"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "health",
+        "citation": "https://www.bbc.co.uk/news/articles/cd0xyl3yp2jo?at_medium=RSS&at_campaign=rss"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "url",
+      "proposition": {
+        "predicate": "url",
+        "object": "https://www.bbc.co.uk/news/articles/cd0xyl3yp2jo?at_medium=RSS&at_campaign=rss"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "health",
+        "citation": "https://www.bbc.co.uk/news/articles/cd0xyl3yp2jo?at_medium=RSS&at_campaign=rss"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "summary",
+      "proposition": {
+        "predicate": "summary",
+        "object": "Around seven million more adults are living with obesity than would have been if obesity rates had stayed the same as 1993."
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "health",
+        "citation": "https://www.bbc.co.uk/news/articles/cd0xyl3yp2jo?at_medium=RSS&at_campaign=rss"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "published",
+      "proposition": {
+        "predicate": "published",
+        "object": "Fri, 07 Aug 2026 18:38:46 GMT"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "health",
+        "citation": "https://www.bbc.co.uk/news/articles/cd0xyl3yp2jo?at_medium=RSS&at_campaign=rss"
+      },
+      "status": "supported"
+    }
+  ]
+}

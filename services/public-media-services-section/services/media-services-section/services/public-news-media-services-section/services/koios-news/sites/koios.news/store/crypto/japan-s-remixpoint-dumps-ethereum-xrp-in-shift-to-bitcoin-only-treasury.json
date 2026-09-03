@@ -1,0 +1,69 @@
+{
+  "subject": "japan-s-remixpoint-dumps-ethereum-xrp-in-shift-to-bitcoin-only-treasury",
+  "claims": [
+    {
+      "id": "title",
+      "proposition": {
+        "predicate": "title",
+        "object": "Japan’s Remixpoint Dumps Ethereum, XRP in Shift to Bitcoin-Only Treasury"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "crypto",
+        "citation": "https://decrypt.co/377228/remixpoint-xrp-ethereum-bitcoin-only"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "url",
+      "proposition": {
+        "predicate": "url",
+        "object": "https://decrypt.co/377228/remixpoint-xrp-ethereum-bitcoin-only"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "crypto",
+        "citation": "https://decrypt.co/377228/remixpoint-xrp-ethereum-bitcoin-only"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "summary",
+      "proposition": {
+        "predicate": "summary",
+        "object": "The Japanese company booked a ¥117.8 million profit after selling its ETH, SOL, XRP and DOGE, leaving roughly 1,506 BTC as its only cryptocurrency holding."
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "crypto",
+        "citation": "https://decrypt.co/377228/remixpoint-xrp-ethereum-bitcoin-only"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "published",
+      "proposition": {
+        "predicate": "published",
+        "object": "Wed, 02 Sep 2026 21:31:05 +0000"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "crypto",
+        "citation": "https://decrypt.co/377228/remixpoint-xrp-ethereum-bitcoin-only"
+      },
+      "status": "supported"
+    }
+  ]
+}

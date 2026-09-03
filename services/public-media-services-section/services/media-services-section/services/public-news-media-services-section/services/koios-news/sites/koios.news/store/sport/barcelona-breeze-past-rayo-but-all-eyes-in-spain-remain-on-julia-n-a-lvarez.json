@@ -1,0 +1,69 @@
+{
+  "subject": "barcelona-breeze-past-rayo-but-all-eyes-in-spain-remain-on-julia-n-a-lvarez",
+  "claims": [
+    {
+      "id": "title",
+      "proposition": {
+        "predicate": "title",
+        "object": "Barcelona breeze past Rayo but all eyes in Spain remain on Julián Álvarez"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "sport",
+        "citation": "https://www.theguardian.com/football/2026/sep/01/barcelona-la-liga-rayo-vallecano-atletico-julian-alvarez"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "url",
+      "proposition": {
+        "predicate": "url",
+        "object": "https://www.theguardian.com/football/2026/sep/01/barcelona-la-liga-rayo-vallecano-atletico-julian-alvarez"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "sport",
+        "citation": "https://www.theguardian.com/football/2026/sep/01/barcelona-la-liga-rayo-vallecano-atletico-julian-alvarez"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "summary",
+      "proposition": {
+        "predicate": "summary",
+        "object": "<p>Hansi Flick is very happy to welcome Gabriel Jesus to Barcelona – but Julián Álvarez remains the ultimate prize</p><p>If Raphinha has any misgivings about playing as a makeshift No 9 for Barcelona, he is doing a good job of hiding it. Julián Álvarez would have been proud of the Brazilian’s two neat finishes that inspired the Spanish champions to a 5-2 victory against Rayo Vallecano on Monday night, 24 hours before the transfer deadline. Lamine Yamal scored two wonderful goals of his own in a performance that reassured everyone he is back to his best. Add Anthony Gordon to the mix – impressive again in his link-up play – and you have a fluid, fearsome front three.</p><p>Yet after the departures of Ferran Torres, Robert Lewandowski and Marcus Rashford this summer, there is no doubt Barcelona not only still want a centre-forward but require one – at least one. Hansi Flick was very happy to see Gabriel Jesus, an £8.6m arrival from Arsenal, in the stands. “He’s a top striker,” the coach said. But Atlético Madrid’s Álvarez is the ultimate prize.</p> <a href=\"https://www.theguardian.com/football/2026/sep/01/barcelona-la-liga-rayo-vallecano-atletico-julian-alvarez\">Continue reading...</a>"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "sport",
+        "citation": "https://www.theguardian.com/football/2026/sep/01/barcelona-la-liga-rayo-vallecano-atletico-julian-alvarez"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "published",
+      "proposition": {
+        "predicate": "published",
+        "object": "Tue, 01 Sep 2026 09:42:25 GMT"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "sport",
+        "citation": "https://www.theguardian.com/football/2026/sep/01/barcelona-la-liga-rayo-vallecano-atletico-julian-alvarez"
+      },
+      "status": "supported"
+    }
+  ]
+}

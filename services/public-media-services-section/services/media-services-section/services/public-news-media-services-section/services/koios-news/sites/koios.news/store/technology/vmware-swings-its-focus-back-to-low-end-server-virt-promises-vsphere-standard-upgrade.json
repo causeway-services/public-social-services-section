@@ -1,0 +1,69 @@
+{
+  "subject": "vmware-swings-its-focus-back-to-low-end-server-virt-promises-vsphere-standard-upgrade",
+  "claims": [
+    {
+      "id": "title",
+      "proposition": {
+        "predicate": "title",
+        "object": "VMware swings its focus back to low-end server virt, promises vSphere Standard upgrade"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "technology",
+        "citation": "https://www.theregister.com/virtualization/2026/09/02/vmware-swings-its-focus-back-to-low-end-server-virt-promises-vsphere-standard-upgrade/5294083"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "url",
+      "proposition": {
+        "predicate": "url",
+        "object": "https://www.theregister.com/virtualization/2026/09/02/vmware-swings-its-focus-back-to-low-end-server-virt-promises-vsphere-standard-upgrade/5294083"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "technology",
+        "citation": "https://www.theregister.com/virtualization/2026/09/02/vmware-swings-its-focus-back-to-low-end-server-virt-promises-vsphere-standard-upgrade/5294083"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "summary",
+      "proposition": {
+        "predicate": "summary",
+        "object": "EXCLUSIVE What's old is new again as VMware will soon release an updated version of vSphere Standard, the low-end server virtualization bundle that it hasn’t significantly changed for years and has scarcely promoted since its 2023 acquisition by Broadcom. VMware’s hero product for the last three years has been the Cloud Foundation (VCF) private cloud bundle. vSphere Standard and another low-end suite called vSphere Enterprise Plus remained on VMware’s list of products, but the website mentioning the products devotes a handful of words to each. The Register has often heard VMware, and its partners, would not issue subscription renewal quotes for the low-end products or only offer quotes that suggested adopting VCF instead. VCF is more powerful than standalone vSphere but more complex and costly – and also overkill for basic server virtualization. We’ve also heard that Broadcom sold another smaller bundle – vSphere Foundation – almost exclusively to customers that also acquired VCF but needed something smaller than VCF for some sites. Speaking to The Register at the VMware Explore conference on Wednesday, Paul Turner, chief product officer for VMware’s Cloud Foundation Division, said that the Broadcom business unit has changed the incentives that saw salespeople steer customers toward VCF. “We corrected this,” Turner said, adding that VMware has sometimes had “too big a focus on VCF.” VMware’s last major release of vSphere Standard came in 2022 with version 8. In 2025, VMware delivered version 9 of vSphere along with VCF 9 – but didn’t release a new cut of vSphere Standard. Turner said that decision was taken because VMware chose to focus on improving the security of VCF. Ram Velaga, president of Broadcom’s Infrastructure Software Group, told The Register VMware decided to focus on VCF because it wanted to shift the prevailing narrative that public clouds are the natural home for workloads, and instead argue that private clouds are more cost effective and easier to operate. Bringing a new low-end server virtualization offering to market at that time may have confused customers, he told The Register. “People could get distracted,” he said, suggesting that VMware could have prompted questions about the extent of its commitment to private clouds. Velaga said vSphere Standard is suited to users who operate around 128 cores. Turner mentioned memory tiering as a possible feature of the product. As it happened, Turner and Velaga’s remarks came on the same day that Proxmox, the provider of an open-source virtualization and containerization platform, announced it had opened a North American office and started to offer 24x7 support for the first time. The Austria-based company previously only supported its wares during local business hours. The Register often hears vSphere users mention Proxmox as an ideal replacement for low-end server virtualization. Turner said the new vSphere Standard will be a better and more resilient offering than Proxmox and pointed to the introduction of 24x7 support as a sign of Proxmox’s maturity being well behind that of VMware and its partners. He also said that more details about the new vSphere Standard will likely emerge as VMware takes its Explore conference to Germany, in mid-October. Among the facts he said will emerge soon are how VMware will bring vSphere Standard to market, an item of interest as the Broadcom business unit dropped the majority of its channel partners. Earlier this week, The Register predicted VMware would not make a pitch to its many low-end users at the Explore conference. The imminent release of a vSphere Standard upgrade was not made on stage at the event, but during one-to-one interviews – so perhaps we were technically correct! Turner thinks another of our assertions, that VMware was not interested in lower-end users, was incorrect. We leave it to readers to make their own judgment about the level of interest in small customers VMware displayed by spending three years focusing on VCF. Low-end VMware users will likely be relieved and intrigued by news of a vSphere Standard revival. Few VMware users wanted to quit the product, which has a deserved reputation for working brilliantly. Yet many felt the need to acquire VCF, and the cost of that package, meant it was necessary to consider VMware alternatives. VMware’s competitors saw that thinking as an opportunity: HPE, for example, even made its low-end virtualization bundle free for a year. Such offers will soon be less potent, because an upgrade is always easier than a migration. ®"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "technology",
+        "citation": "https://www.theregister.com/virtualization/2026/09/02/vmware-swings-its-focus-back-to-low-end-server-virt-promises-vsphere-standard-upgrade/5294083"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "published",
+      "proposition": {
+        "predicate": "published",
+        "object": "Wed, 02 Sep 2026 23:49:26 +0200"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "technology",
+        "citation": "https://www.theregister.com/virtualization/2026/09/02/vmware-swings-its-focus-back-to-low-end-server-virt-promises-vsphere-standard-upgrade/5294083"
+      },
+      "status": "supported"
+    }
+  ]
+}

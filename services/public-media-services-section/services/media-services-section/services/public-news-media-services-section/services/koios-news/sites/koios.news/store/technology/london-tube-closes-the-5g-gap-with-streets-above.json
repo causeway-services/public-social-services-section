@@ -1,0 +1,69 @@
+{
+  "subject": "london-tube-closes-the-5g-gap-with-streets-above",
+  "claims": [
+    {
+      "id": "title",
+      "proposition": {
+        "predicate": "title",
+        "object": "London Tube closes the 5G gap with streets above"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "technology",
+        "citation": "https://www.theregister.com/networks/2026/09/02/london-tube-closes-the-5g-gap-with-streets-above/5293878"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "url",
+      "proposition": {
+        "predicate": "url",
+        "object": "https://www.theregister.com/networks/2026/09/02/london-tube-closes-the-5g-gap-with-streets-above/5293878"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "technology",
+        "citation": "https://www.theregister.com/networks/2026/09/02/london-tube-closes-the-5g-gap-with-streets-above/5293878"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "summary",
+      "proposition": {
+        "predicate": "summary",
+        "object": "Mobile coverage on parts of London's Underground now rivals the streets above for 5G availability and signal strength, according to analysis by network intelligence biz Ookla. Cellular support has been rolling out across the Tube since Mayor Sadiq Khan promised in 2021 to connect all stations and tunnels by the end of 2024. That deadline was missed. About 60 percent of below-ground stations now have coverage, with the entire network expected to be connected by the end of this year. Where service is available, however, Ookla found that 5G availability and signal strength compare favorably with citywide above-ground figures, largely because the infrastructure was built to support 5G from the outset. Ookla based its analysis on more than 50 million background signal scans collected across Greater London between March 25 and April 30. It found that 19.8 percent of below-ground scans connected over 5G, compared with 16.5 percent across the city above ground. Median 4G signal strength was -96 dBm on below-ground platforms, compared with -98 dBm at street level across the city. Readings closer to zero indicate a stronger signal. Ookla also detected 5G at the deepest platforms it measured. Where available below ground, the median 5G signal was -93 dBm, stronger than the citywide above-ground median of -98 dBm. But perhaps we shouldn't be too surprised, as a separate study last year found that London came bottom of the table in a test of 5G services across Europe, which looked at service availability, download and upload speeds, latency and streaming performance. There is an important caveat. The above-ground figures represent a London-wide average rather than a comparison with the streets directly over each station. In a like-for-like comparison of the same small areas, street-level 4G remained stronger by 2 to 3 dB and 5G availability led by a few percentage points. \"On the raw numbers, the Tube is ahead, with almost 20 percent of below-ground connections on 5G versus around 16.5 percent above ground citywide. But this comparison flatters the Tube, because it runs beneath central London, where the surface network is among the strongest in the country outdoors,\" said Ookla lead industry analyst Luke Kehoe. \"Measured like for like against the streets directly above, the surface leads by a few percentage points on 5G. The Tube has therefore drawn roughly level in the parts of it which have been connected, which, given the challenge of retrofitting connectivity through old Victorian tunnels, is rather remarkable.\" Ookla measured coverage and signal strength rather than download speeds, latency, call stability, or network capacity, so the findings do not provide a complete comparison of users' experience above and below ground. Cellular coverage on the Underground is provided by Boldyn Networks, which was known as BAI Communications when the agreement was signed. It operates as a neutral host, supporting the four major UK mobile brands on one shared network. Vodafone and Three have merged but continue to operate under separate brands for now. The infrastructure also supports the Emergency Services Network (ESN), the 4G system intended to replace Airwave for police, fire, and ambulance communications. According to Ookla, the underground infrastructure includes two runs of coaxial cable installed at train window height through the tunnels, providing redundancy. Distributed antenna systems at stations connect to nine \"base station hotels\" around the city, where the mobile operators collocate their equipment. Boldyn aims to recover its investment through operator access fees, revenue from a citywide fiber backbone run through the Tube infrastructure, and a planned deployment of up to 3,400 small cell sites on Transport for London street-level assets. ®"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "technology",
+        "citation": "https://www.theregister.com/networks/2026/09/02/london-tube-closes-the-5g-gap-with-streets-above/5293878"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "published",
+      "proposition": {
+        "predicate": "published",
+        "object": "Wed, 02 Sep 2026 13:19:30 +0200"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "technology",
+        "citation": "https://www.theregister.com/networks/2026/09/02/london-tube-closes-the-5g-gap-with-streets-above/5293878"
+      },
+      "status": "supported"
+    }
+  ]
+}

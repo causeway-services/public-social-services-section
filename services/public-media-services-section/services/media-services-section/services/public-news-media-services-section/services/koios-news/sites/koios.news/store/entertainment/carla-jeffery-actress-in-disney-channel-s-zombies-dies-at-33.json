@@ -1,0 +1,69 @@
+{
+  "subject": "carla-jeffery-actress-in-disney-channel-s-zombies-dies-at-33",
+  "claims": [
+    {
+      "id": "title",
+      "proposition": {
+        "predicate": "title",
+        "object": "Carla Jeffery, Actress in Disney Channel’s ‘Zombies,’ Dies at 33"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "entertainment",
+        "citation": "https://variety.com/2026/tv/news/carla-jeffery-dead-disney-channel-zombies-1236849763/"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "url",
+      "proposition": {
+        "predicate": "url",
+        "object": "https://variety.com/2026/tv/news/carla-jeffery-dead-disney-channel-zombies-1236849763/"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "entertainment",
+        "citation": "https://variety.com/2026/tv/news/carla-jeffery-dead-disney-channel-zombies-1236849763/"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "summary",
+      "proposition": {
+        "predicate": "summary",
+        "object": "Carla Jeffery, who played the cheerleader Bree in the Disney Channel’s 2018 movie “Zombies” and several spin-offs, died Sept. 1. She was 33. Her management company, Alexanders Talent, posted about her death on Instagram, but did not give a cause of death. “Our hearts are broken as we mourn the loss of our beloved Carla […]"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "entertainment",
+        "citation": "https://variety.com/2026/tv/news/carla-jeffery-dead-disney-channel-zombies-1236849763/"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "published",
+      "proposition": {
+        "predicate": "published",
+        "object": "Wed, 02 Sep 2026 22:06:54 +0000"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "entertainment",
+        "citation": "https://variety.com/2026/tv/news/carla-jeffery-dead-disney-channel-zombies-1236849763/"
+      },
+      "status": "supported"
+    }
+  ]
+}

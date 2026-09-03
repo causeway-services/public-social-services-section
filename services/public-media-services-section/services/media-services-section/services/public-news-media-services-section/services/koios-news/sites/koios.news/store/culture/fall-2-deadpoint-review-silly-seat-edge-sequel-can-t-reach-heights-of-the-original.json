@@ -1,0 +1,69 @@
+{
+  "subject": "fall-2-deadpoint-review-silly-seat-edge-sequel-can-t-reach-heights-of-the-original",
+  "claims": [
+    {
+      "id": "title",
+      "proposition": {
+        "predicate": "title",
+        "object": "Fall 2: Deadpoint review – silly seat-edge sequel can’t reach heights of the original"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "culture",
+        "citation": "https://www.theguardian.com/film/2026/sep/02/fall-2-deadpoint-movie-review"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "url",
+      "proposition": {
+        "predicate": "url",
+        "object": "https://www.theguardian.com/film/2026/sep/02/fall-2-deadpoint-movie-review"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "culture",
+        "citation": "https://www.theguardian.com/film/2026/sep/02/fall-2-deadpoint-movie-review"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "summary",
+      "proposition": {
+        "predicate": "summary",
+        "object": "<p>There are just about enough hand-over-mouth moments to please thrill-seekers in this B-movie follow-up but eyerolls soon prevail</p><p>There was plenty of silliness but also plenty of suspense in 2022’s modestly successful don’t-look-down thriller <a href=\"https://www.theguardian.com/film/2022/aug/10/fall-review-wildly-effective-survival-thriller-delivers-seat-edge-suspense\">Fall</a>, a surprisingly well-made micro-budget marvel that ultimately found its audience on Netflix. While certain elements, such as the no-name leads and increasingly hokey script, might have made it seem like yet another churned out low-rent original for the streamer, it boasted more genuine thrills than we’ve come to expect there or really anywhere during this quantity over quality time for genre movies.</p><p>A sequel was financially inevitable (the original cost just $3m) but narratively questionable, given that the self-contained survival tale did not lend itself to the elasticity of a franchise. So here we are with Fall 2: Deadpoint, a palm-sweating formula regurgitated with only moderately jolting results. The first film saw two young women trying to get over the loss of a loved one by, naturally, climbing up an abandoned TV tower. So now the sequel has two young women trying to get over the loss of a loved one (who died in the first film) by, naturally, attempting a sky-high plank walk on the side of a mountain in Thailand. History then repeats itself when chaos strikes, this time courtesy of a rockslide, and our heroines have something more than grief to worry about.</p> <a href=\"https://www.theguardian.com/film/2026/sep/02/fall-2-deadpoint-movie-review\">Continue reading...</a>"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "culture",
+        "citation": "https://www.theguardian.com/film/2026/sep/02/fall-2-deadpoint-movie-review"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "published",
+      "proposition": {
+        "predicate": "published",
+        "object": "Wed, 02 Sep 2026 14:00:26 GMT"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "culture",
+        "citation": "https://www.theguardian.com/film/2026/sep/02/fall-2-deadpoint-movie-review"
+      },
+      "status": "supported"
+    }
+  ]
+}

@@ -1,0 +1,69 @@
+{
+  "subject": "uk-goes-shopping-for-homegrown-ai-with-100m-procurement-scheme",
+  "claims": [
+    {
+      "id": "title",
+      "proposition": {
+        "predicate": "title",
+        "object": "UK goes shopping for homegrown AI with £100M procurement scheme"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "technology",
+        "citation": "https://www.theregister.com/ai-and-ml/2026/09/02/uk-goes-shopping-for-homegrown-ai-with-100m-procurement-scheme/5293680"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "url",
+      "proposition": {
+        "predicate": "url",
+        "object": "https://www.theregister.com/ai-and-ml/2026/09/02/uk-goes-shopping-for-homegrown-ai-with-100m-procurement-scheme/5293680"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "technology",
+        "citation": "https://www.theregister.com/ai-and-ml/2026/09/02/uk-goes-shopping-for-homegrown-ai-with-100m-procurement-scheme/5293680"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "summary",
+      "proposition": {
+        "predicate": "summary",
+        "object": "The British government has opened the first competitions under a £100 million procurement scheme intended to give domestic AI startups a route into public sector contracts. Chancellor John Healey announced the initiative at a G20 finance ministers meeting in North Carolina. It invites companies to develop technology addressing challenges including NHS productivity, national security, cyber resilience, and the efficiency of public AI infrastructure. The government says the scheme will help \"strategically important\" British AI companies get started, scale up, and \"win globally,\" ensuring that Britain captures more of the economic and technological benefits of artificial intelligence. The R&D Procurement Scheme forms part of Sovereign AI, the government initiative that also operates a separate £500 million venture fund investing directly in promising British AI startups. The first four competitions cover NHS productivity, defense, computing efficiency, and the security and resilience of AI agents. For the NHS challenge, companies will develop systems to automate workflows, coordinate care, and support decision-making across health services. The Ministry of Defence challenge seeks technology that can securely connect data and frontier AI capabilities across defense systems. The computing challenge, led by the Department for Business, Innovation, Science and Trade and ARIA's Scaling Inference Lab, will support technologies that make AI infrastructure more efficient. The fourth competition, run with the National Cyber Security Centre (NCSC), concerns technologies for understanding, managing, and mitigating the risks posed by increasingly capable AI agents. Successful firms will work with government departments to develop demonstrator-stage technologies with the potential to scale across the public sector and beyond, the government says. \"Every year the British state spends billions procuring products and solutions tackling some of the most important challenges facing society – from health, to our national defence,\" said AI Minister Kanishka Narayan. \"This first-of-its-kind scheme will open up these opportunities to the British AI innovators whose ideas could make the biggest difference, backing their businesses to grow here, and go on to win globally.\" The procurement push comes as separate research suggests that AI is now used by every UK government department, up from 81 percent a year ago. But the study, conducted by Mattison Public Relations, found that only 30 percent of those departments have issued a general instruction to staff to use AI to improve productivity or service quality. That suggests the presence of AI tools does not necessarily translate into widespread adoption. Nor does the research identify which systems departments counted as AI use – whether, for example, asking ChatGPT a question qualified. The proportion of departments with a formal AI strategy now stands at 63 percent, while a further 13 percent plan to create one. The research authors argue that such strategies are vital to ensuring organizations develop their use of AI in a coordinated way. Mattison says that where departments have set targets for savings through AI, the goals are relatively modest and progress is difficult to track. HM Treasury, for example, aims to deliver budget savings of approximately 1.5 percent. Last year, Parliament was told that plans to save £45 billion through the application of AI in the public sector lacked clarity and were based on broad-brush assumptions. Also last year, a government department trial of Microsoft's M365 Copilot found no discernible overall productivity gain. The tool accelerated some tasks but slowed others because of poor quality output. ®"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "technology",
+        "citation": "https://www.theregister.com/ai-and-ml/2026/09/02/uk-goes-shopping-for-homegrown-ai-with-100m-procurement-scheme/5293680"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "published",
+      "proposition": {
+        "predicate": "published",
+        "object": "Wed, 02 Sep 2026 12:51:00 +0200"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "technology",
+        "citation": "https://www.theregister.com/ai-and-ml/2026/09/02/uk-goes-shopping-for-homegrown-ai-with-100m-procurement-scheme/5293680"
+      },
+      "status": "supported"
+    }
+  ]
+}

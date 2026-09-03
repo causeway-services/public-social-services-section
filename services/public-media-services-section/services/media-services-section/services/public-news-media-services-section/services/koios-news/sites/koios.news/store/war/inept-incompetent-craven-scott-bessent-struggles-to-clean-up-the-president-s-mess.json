@@ -1,0 +1,69 @@
+{
+  "subject": "inept-incompetent-craven-scott-bessent-struggles-to-clean-up-the-president-s-mess",
+  "claims": [
+    {
+      "id": "title",
+      "proposition": {
+        "predicate": "title",
+        "object": "‘Inept, incompetent, craven’: Scott Bessent struggles to clean up the president’s mess"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "war",
+        "citation": "https://www.theguardian.com/business/2026/aug/29/scott-bessant-us-economy-donald-trump"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "url",
+      "proposition": {
+        "predicate": "url",
+        "object": "https://www.theguardian.com/business/2026/aug/29/scott-bessant-us-economy-donald-trump"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "war",
+        "citation": "https://www.theguardian.com/business/2026/aug/29/scott-bessant-us-economy-donald-trump"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "summary",
+      "proposition": {
+        "predicate": "summary",
+        "object": "<p>There’s little optimism about treasury secretary’s ability to handle Trump’s tariffs, Iran sanctions and colossal US debt</p><p>History remembers <a href=\"https://www.archives.gov/education/lessons/d-day\">Gen Dwight Eisenhower</a>, the supreme commander of the allied forces in Europe during the second world war, for his role in the D-day invasion of Normandy. Whether Scott Bessent will achieve similar posterity as the face of the “economic D-day” in <a href=\"https://www.theguardian.com/world/iran\">Iran</a> remains to be seen.</p><p>The US treasury secretary, already trying to manage a $40tn national debt pile, this week took charge of <a href=\"https://www.theguardian.com/us-news/donaldtrump\">Donald Trump</a>’s effort to <a href=\"https://www.nytimes.com/2026/08/24/us/politics/trump-bessent-iran-economic-d-day.html\">reverse-engineer</a> his war of choice. Whereas the US would typically take on an adversary with diplomacy, sanctions and military force, in that order, the US president started with a six-month bombing campaign and now hopes that economic isolation can finish the job.</p> <a href=\"https://www.theguardian.com/business/2026/aug/29/scott-bessant-us-economy-donald-trump\">Continue reading...</a>"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "war",
+        "citation": "https://www.theguardian.com/business/2026/aug/29/scott-bessant-us-economy-donald-trump"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "published",
+      "proposition": {
+        "predicate": "published",
+        "object": "Sat, 29 Aug 2026 12:00:27 GMT"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "war",
+        "citation": "https://www.theguardian.com/business/2026/aug/29/scott-bessant-us-economy-donald-trump"
+      },
+      "status": "supported"
+    }
+  ]
+}

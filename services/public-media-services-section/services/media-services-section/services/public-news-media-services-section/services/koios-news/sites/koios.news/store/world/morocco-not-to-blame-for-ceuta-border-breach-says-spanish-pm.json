@@ -1,0 +1,69 @@
+{
+  "subject": "morocco-not-to-blame-for-ceuta-border-breach-says-spanish-pm",
+  "claims": [
+    {
+      "id": "title",
+      "proposition": {
+        "predicate": "title",
+        "object": "Morocco not to blame for Ceuta border breach, says Spanish PM"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "world",
+        "citation": "https://www.theguardian.com/world/2026/aug/31/morocco-ceuta-border-breach-spanish-pm-migration-pedro-sanchez"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "url",
+      "proposition": {
+        "predicate": "url",
+        "object": "https://www.theguardian.com/world/2026/aug/31/morocco-ceuta-border-breach-spanish-pm-migration-pedro-sanchez"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "world",
+        "citation": "https://www.theguardian.com/world/2026/aug/31/morocco-ceuta-border-breach-spanish-pm-migration-pedro-sanchez"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "summary",
+      "proposition": {
+        "predicate": "summary",
+        "object": "<p>Pedro Sánchez says two countries cooperating and accuses Israel and Russia of spreading fake news about migration</p><p>Spain’s prime minister, Pedro Sánchez, has said there is no evidence to suggest the Moroccan government was behind last month’s <a href=\"https://www.theguardian.com/world/2026/jul/31/ceuta-spain-morocco-border-deaths\">massive border crossing into Ceuta</a> but accused Israel and Russia of spreading disinformation.</p><p>As many as <a href=\"https://elpais.com/espana/2026-08-07/las-ong-de-marruecos-elevan-a-141-la-cifra-de-muertos-a-ambos-lados-de-la-frontera-de-ceuta.html\">141 people are thought to have died</a> trying to enter the Spanish enclave at the end of July. The influx of about 70,000 men, women and children unleashed a political crisis, a humanitarian emergency and <a href=\"https://www.theguardian.com/commentisfree/2026/aug/12/ceuta-showed-just-how-easy-it-is-to-divide-europe\">reignited tensions within the EU over immigration</a>.</p> <a href=\"https://www.theguardian.com/world/2026/aug/31/morocco-ceuta-border-breach-spanish-pm-migration-pedro-sanchez\">Continue reading...</a>"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "world",
+        "citation": "https://www.theguardian.com/world/2026/aug/31/morocco-ceuta-border-breach-spanish-pm-migration-pedro-sanchez"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "published",
+      "proposition": {
+        "predicate": "published",
+        "object": "Mon, 31 Aug 2026 10:21:56 GMT"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "world",
+        "citation": "https://www.theguardian.com/world/2026/aug/31/morocco-ceuta-border-breach-spanish-pm-migration-pedro-sanchez"
+      },
+      "status": "supported"
+    }
+  ]
+}

@@ -1,0 +1,69 @@
+{
+  "subject": "spending-deal-comes-with-a-bonus-blocking-political-control-of-grants",
+  "claims": [
+    {
+      "id": "title",
+      "proposition": {
+        "predicate": "title",
+        "object": "Spending deal comes with a bonus: Blocking political control of grants"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "technology",
+        "citation": "https://arstechnica.com/science/2026/09/budget-deal-puts-political-control-of-grants-on-hold-until-december/"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "url",
+      "proposition": {
+        "predicate": "url",
+        "object": "https://arstechnica.com/science/2026/09/budget-deal-puts-political-control-of-grants-on-hold-until-december/"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "technology",
+        "citation": "https://arstechnica.com/science/2026/09/budget-deal-puts-political-control-of-grants-on-hold-until-december/"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "summary",
+      "proposition": {
+        "predicate": "summary",
+        "object": "On Tuesday, the House of Representatives passed a stopgap measure that would continue funding the US government through early December. While the measure still requires the signature of President Trump, it's widely expected that he will act to avoid a government shutdown immediately before the midterm elections. This is a normal part of how the US government has operated in recent years, as it's often difficult to build the political support needed to pass a full year's budget in advance. In fact, dissent within the House's Republican caucus prevented them from agreeing on their own measure to keep the government open; instead, the House simply adopted a version of the spending bill that had previously passed the Senate. From the perspective of scientists and their supporters, that adoption turned out to be a very good thing. Because the Senate's budget bill, passed in early August , contains a provision that blocks the Office of Management and Budget (OMB) from implementing new rules that would give political appointees full control over what science is funded and allow them to cancel any grant at any time. The proposed rule has been widely decried as catastrophic for science, and it faced widespread opposition from scientific and health-focused organizations. Read full article Comments"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "technology",
+        "citation": "https://arstechnica.com/science/2026/09/budget-deal-puts-political-control-of-grants-on-hold-until-december/"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "published",
+      "proposition": {
+        "predicate": "published",
+        "object": "Wed, 02 Sep 2026 21:20:03 +0000"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "technology",
+        "citation": "https://arstechnica.com/science/2026/09/budget-deal-puts-political-control-of-grants-on-hold-until-december/"
+      },
+      "status": "supported"
+    }
+  ]
+}

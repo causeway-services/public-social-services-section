@@ -1,0 +1,69 @@
+{
+  "subject": "what-is-red-september-bitcoin-s-curse-and-why-wall-street-has-the-same-one",
+  "claims": [
+    {
+      "id": "title",
+      "proposition": {
+        "predicate": "title",
+        "object": "What Is 'Red September'? Bitcoin's Curse, and Why Wall Street Has the Same One"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "crypto",
+        "citation": "https://decrypt.co/377100/what-is-red-september-bitcoin-curse"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "url",
+      "proposition": {
+        "predicate": "url",
+        "object": "https://decrypt.co/377100/what-is-red-september-bitcoin-curse"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "crypto",
+        "citation": "https://decrypt.co/377100/what-is-red-september-bitcoin-curse"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "summary",
+      "proposition": {
+        "predicate": "summary",
+        "object": "Bitcoin has lost ground in eight of the last 13 Septembers. The stock market's had the same problem since 1928. Here's the case for the curse, what broke it last year, and what's coming in the next round."
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "crypto",
+        "citation": "https://decrypt.co/377100/what-is-red-september-bitcoin-curse"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "published",
+      "proposition": {
+        "predicate": "published",
+        "object": "Tue, 01 Sep 2026 20:31:05 +0000"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "crypto",
+        "citation": "https://decrypt.co/377100/what-is-red-september-bitcoin-curse"
+      },
+      "status": "supported"
+    }
+  ]
+}

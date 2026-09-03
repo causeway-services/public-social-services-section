@@ -1,14 +1,15 @@
 import { createHash } from "node:crypto";
 import { existsSync, lstatSync, mkdirSync, readFileSync, readdirSync, renameSync, rmSync, statSync, writeFileSync } from "node:fs";
 import { dirname, join, relative, resolve, sep } from "node:path";
+import { HOUSE_AD_JS, SITE_CSS, STANDING_PAGES } from "./site-chrome.mjs";
+import { coverage, deskContents, parseClaimFile, readDesks, readWire } from "./wire.mjs";
 
 const MARKER = ".koios-static-delivery-current";
 const ORIGIN = "https://koios.news";
-// House ad server (@red-cup-engineering/advertising-services-section), v0
-// unlisted workers.dev route. The footer slot fetches its creative
-// client-side so build output stays byte-deterministic regardless of
-// which creative is later served.
-const HOUSE_AD_SERVER = "https://house-ads-server.morgan-sennhauser.workers.dev";
+// Desks admitted for the current build; set once per buildPublication so
+// every page's chrome carries the same navigation.
+let siteDesks = [];
+const HOUSE_AD_ORIGIN = "https://house-ads-server.morgan-sennhauser.workers.dev";
 const ISO_DAY = /^\d{4}-\d{2}-\d{2}$/u;
 const SLUG = /^[a-z0-9]+(?:-[a-z0-9]+)*$/u;
 const EXCLUDED_ARTIFACTS = new Set(["hit", "views.json", "healthz", "newsroom", "cable", "mcp", "operators", "private"]);
@@ -124,18 +125,70 @@ function layout(title, description, body, canonicalPath = "/", jsonLd, social = 
     `<meta name="twitter:title" content="${escapeHtml(title)}">`,
     `<meta name="twitter:description" content="${escapeHtml(description)}">`,
   ].join("\n");
-  return `<!doctype html>\n<html lang="en">\n<head>\n<meta charset="utf-8">\n<meta name="viewport" content="width=device-width, initial-scale=1">\n<title>${escapeHtml(title)}</title>\n<meta name="description" content="${escapeHtml(description)}">\n<link rel="canonical" href="${canonical(canonicalPath)}">\n<link rel="alternate" type="application/rss+xml" href="/feed.xml" title="Koios.News RSS">\n<link rel="alternate" type="application/atom+xml" href="/feed.atom" title="Koios.News Atom">\n<link rel="alternate" type="application/feed+json" href="/feed.json" title="Koios.News JSON Feed">\n${socialMeta}${structuredData}\n</head>\n<body>\n<header><a href="/">Koios.News</a><nav aria-label="Primary"><a href="/topics">Topics</a> <a href="/tags">Tags</a> <a href="/archive">Archive</a> <a href="/about">About</a> <a href="/standards">Standards</a> <a href="/corrections">Corrections</a> <a href="/privacy">Privacy</a></nav></header>\n<main>\n${body}\n</main>\n<footer><a href="/topics">Topics</a> · <a href="/tags">Tags</a> · <a href="/archive">Archive</a> · <a href="/feed.xml">RSS</a> · <a href="/feed.atom">Atom</a> · <a href="/feed.json">JSON Feed</a> · <a href="/sitemap.xml">Sitemap</a> · <a href="/newswire-audit.json">Editorial audit</a><div id="house-ad-footer" data-slot="footer" data-property="koios-news"></div></footer>\n<script>(function(){var s="footer",p="koios-news",el=document.getElementById("house-ad-footer"),base="${HOUSE_AD_SERVER}";fetch(base+"/ad?slot="+s+"&property="+p).then(function(r){return r.ok?r.json():null;}).then(function(d){if(!d||!d.creative||!el)return;var a=document.createElement("a");a.href=base+"/click?slot="+s+"&property="+p+"&creative="+encodeURIComponent(d.creative.id);a.rel="sponsored noopener noreferrer";a.textContent=d.creative.title+" — "+d.creative.body;el.appendChild(a);}).catch(function(){});})();</script>\n</body>\n</html>\n`;
+  const deskNav = siteDesks.map((desk) => `<a href="/wire/${desk.slug}"${canonicalPath === `/wire/${desk.slug}` ? ' aria-current="page"' : ""}>${escapeHtml(desk.title)}</a>`).join("");
+  const wireLinks = siteDesks.length === 0 ? "" : `<h3>The wire</h3><ul><li><a href="/wire/">All desks</a></li><li><a href="/wire/feed.xml">Wire RSS</a> · <a href="/wire/feed.atom">Atom</a> · <a href="/wire/feed.json">JSON Feed</a></li><li><a href="/wire/coverage">Coverage map</a></li></ul>`;
+  const claimLinks = siteDesks.length === 0 ? "" : `<li><a href="/claims/">Claim store</a> · <a href="/claims/index.json">index.json</a></li><li><a href="/wire/index.json">wire/index.json</a></li>`;
+  return `<!doctype html>\n<html lang="en">\n<head>\n<meta charset="utf-8">\n<meta name="viewport" content="width=device-width, initial-scale=1">\n<title>${escapeHtml(title)}</title>\n<meta name="description" content="${escapeHtml(description)}">\n<link rel="canonical" href="${canonical(canonicalPath)}">\n<link rel="stylesheet" href="/assets/site.css">\n<link rel="alternate" type="application/rss+xml" href="/feed.xml" title="Koios.News RSS">\n<link rel="alternate" type="application/atom+xml" href="/feed.atom" title="Koios.News Atom">\n<link rel="alternate" type="application/feed+json" href="/feed.json" title="Koios.News JSON Feed">\n${socialMeta}${structuredData}\n</head>\n<body>\n<header class="masthead"><div class="wrap"><div class="brand"><a class="title" href="/">Koios.News</a><span class="tagline">General news with systems-analysis depth.</span></div><nav class="desks" aria-label="Desks"><a href="/"${canonicalPath === "/" ? ' aria-current="page"' : ""}>Front page</a>${deskNav}</nav><nav class="utility" aria-label="Site"><a href="/topics">Topics</a><a href="/tags">Tags</a><a href="/archive">Archive</a><a href="/about">About</a><a href="/standards">Standards</a><a href="/corrections">Corrections</a><a href="/privacy">Privacy</a></nav></div></header>\n<main class="wrap">\n${body}\n</main>\n<footer class="colophon"><div class="wrap"><div class="cols"><div><h3>Koios reporting</h3><ul><li><a href="/feed.xml">RSS</a> · <a href="/feed.atom">Atom</a> · <a href="/feed.json">JSON Feed</a></li><li><a href="/sitemap.xml">Sitemap</a> · <a href="/news-sitemap.xml">News sitemap</a></li><li><a href="/newswire-audit.json">Editorial audit</a> · <a href="/manifest.json">Publication manifest</a></li></ul></div><div>${wireLinks}</div><div><h3>Machine readers</h3><ul>${claimLinks}<li><a href="/topics.json">topics.json</a> · <a href="/tags.json">tags.json</a> · <a href="/archive.json">archive.json</a></li><li>Every article: schema.org NewsArticle + h-entry</li></ul></div><div><h3>Koios.News</h3><ul><li>Published by the 561 Group. No outside funding, no reader tracking.</li><li><a href="/about">About</a> · <a href="/standards">Standards</a> · <a href="/privacy">Privacy</a></li></ul></div></div><div id="house-ad-footer" data-slot="footer" data-property="koios-news"></div></div></footer>\n<script src="/assets/house-ad.js" defer></script>\n</body>\n</html>\n`;
 }
 function postPage(post) {
   const url = canonical(`/posts/${post.slug}`);
   const taxonomy = [...post.categories.map((title) => `<a rel="tag" href="/topics/${taxonomySlug(title)}">${escapeHtml(title)}</a>`), ...post.tags.map((title) => `<a rel="tag" href="/tags/${taxonomySlug(title)}">${escapeHtml(title)}</a>`)].join(", ");
   const rights = post.license === undefined ? "" : `<aside><h2>Rights and republication</h2><p>This article is published under ${post.licenseUrl === undefined ? escapeHtml(post.license) : `<a rel="license" href="${escapeHtml(post.licenseUrl)}">${escapeHtml(post.license)}</a>`}.${post.syndicationRights === undefined ? "" : ` ${escapeHtml(post.syndicationRights)}`}</p></aside>`;
-  const article = `<article class="h-entry"><h1 class="p-name">${escapeHtml(post.title)}</h1><p><time class="dt-published" datetime="${post.date}T00:00:00Z">${post.date}</time> · ${escapeHtml(post.author)}</p><p class="p-summary">${escapeHtml(post.description)}</p>${taxonomy === "" ? "" : `<p>Topics: ${taxonomy}</p>`}<div class="e-content">${markdown(post.body)}</div><p><a class="u-url" href="/posts/${post.slug}">Permalink</a></p>${rights}</article>`;
+  const article = `<article class="h-entry" id="article">${post.categories[0] === undefined ? "" : `<p class="kicker">${escapeHtml(post.categories[0])}</p>`}<h1 class="p-name">${escapeHtml(post.title)}</h1><p class="meta"><time class="dt-published" datetime="${post.date}T00:00:00Z">${post.date}</time> · <a class="p-author h-card" href="/about">${escapeHtml(post.author)}</a></p><p class="p-summary lede">${escapeHtml(post.description)}</p><div class="e-content">${markdown(post.body)}</div>${taxonomy === "" ? "" : `<p class="tags">${taxonomy}</p>`}<p class="meta"><a class="u-url" href="/posts/${post.slug}">Permalink</a> · Source digest in the <a href="/newswire-audit.json">editorial audit</a></p>${rights}</article>`;
   return layout(`${post.title} — Koios.News`, post.description, article, `/posts/${post.slug}`, { "@context": "https://schema.org", "@type": "NewsArticle", headline: post.title, datePublished: `${post.date}T00:00:00Z`, dateModified: `${post.date}T00:00:00Z`, author: { "@type": "Person", name: post.author }, description: post.description, mainEntityOfPage: url, url, publisher: { "@type": "Organization", name: "Koios.News", url: ORIGIN }, ...(post.categories[0] === undefined ? {} : { articleSection: post.categories[0] }), ...(post.keywords.length === 0 ? {} : { keywords: post.keywords }), ...(post.licenseUrl === undefined ? {} : { license: post.licenseUrl }) }, { type: "article", publishedTime: `${post.date}T00:00:00Z`, ...(post.categories[0] === undefined ? {} : { section: post.categories[0] }) });
 }
-function homePage(posts) {
-  const entries = posts.map((post) => `<article class="h-entry"><h2 class="p-name"><a class="u-url" href="/posts/${post.slug}">${escapeHtml(post.title)}</a></h2><p><time class="dt-published" datetime="${post.date}T00:00:00Z">${post.date}</time> · ${escapeHtml(post.author)}</p><p class="p-summary">${escapeHtml(post.description)}</p></article>`).join("\n");
-  return layout("Koios.News", "General news with systems-analysis depth.", `<h1>Koios.News</h1>\n${entries || "<p>No published posts.</p>"}`, "/", { "@context": "https://schema.org", "@type": "NewsMediaOrganization", name: "Koios.News", url: ORIGIN });
+function postCard(post, heading = "h2") {
+  return `<article class="h-entry">${post.categories[0] === undefined ? "" : `<p class="kicker">${escapeHtml(post.categories[0])}</p>`}<${heading} class="p-name"><a class="u-url" href="/posts/${post.slug}">${escapeHtml(post.title)}</a></${heading}><p class="meta"><time class="dt-published" datetime="${post.date}T00:00:00Z">${post.date}</time> · ${escapeHtml(post.author)}</p><p class="p-summary">${escapeHtml(post.description)}</p></article>`;
+}
+const brief = (text) => text.length <= 240 ? text : `${text.slice(0, 239).replace(/\s+\S*$/u, "")}…`;
+function wireItemHtml(item) {
+  const ledger = item.sources[0];
+  return `<li class="h-entry"><a class="headline p-name u-url" href="${escapeHtml(item.url)}" rel="noopener noreferrer">${escapeHtml(item.title)}</a>${item.summary === undefined ? "" : `<p class="summary p-summary">${escapeHtml(brief(item.summary))}</p>`}<p class="provenance"><span class="p-publication">${escapeHtml(item.host)}</span> · <time class="dt-published" datetime="${escapeHtml(item.published)}">${item.day}</time> · <a href="/claims/${ledger.category}/${ledger.slug}/">claims</a>${item.tags.map((tag) => ` · <a href="/wire/coverage#${escapeHtml(tag)}" class="p-category">${escapeHtml(tag)}</a>`).join("")}</p></li>`;
+}
+function homePage(posts, desks, wireItems) {
+  const [lead, ...rest] = posts;
+  const reporting = lead === undefined ? "<p>No published posts.</p>" : `<div class="lead">${postCard(lead)}</div>${rest.slice(0, 8).map((post) => postCard(post, "h3")).join("\n")}`;
+  const deskBlocks = desks.map((desk) => desk.items.length === 0 ? "" : `<section><div class="section-head"><h2><a href="/wire/${desk.slug}">${escapeHtml(desk.title)}</a></h2><a class="more" href="/wire/${desk.slug}">All ${desk.items.length} →</a></div><ul class="wire-list">${desk.items.slice(0, 5).map(wireItemHtml).join("")}</ul></section>`).join("\n");
+  const stats = desks.length === 0 ? "" : `<div class="stats"><div><strong>${posts.length}</strong>Koios articles</div><div><strong>${wireItems.length}</strong>sourced wire items</div><div><strong>${desks.filter((desk) => desk.items.length > 0).length}</strong>desks</div><div><strong>${new Set(wireItems.map((item) => item.host)).size}</strong>source outlets</div></div>`;
+  const body = desks.length === 0 ? `<h1>Koios.News</h1>\n${reporting}` : `<h1 class="visually-hidden" hidden>Koios.News</h1>${stats}<div class="front"><div><div class="section-head"><h2>Koios reporting</h2><a class="more" href="/archive">Archive →</a></div>${reporting}</div><aside class="panel" style="border-top:0;margin-top:0"><h2>How to read this site</h2><p><strong>Koios reporting</strong> is written under the masthead byline from named sources, gated and audited. <strong>The wire</strong> is what named outlets published, recorded as attributed claims you can <a href="/claims/">inspect as data</a>.</p><p><a href="/standards">Standards</a> · <a href="/about">About</a> · <a href="/wire/coverage">Coverage map</a></p></aside></div>${deskBlocks}`;
+  return layout("Koios.News", "General news with systems-analysis depth.", body, "/", { "@context": "https://schema.org", "@type": "NewsMediaOrganization", name: "Koios.News", url: ORIGIN, parentOrganization: { "@type": "Organization", name: "561 Group" } });
+}
+function wireIndexPage(desks, wireItems) {
+  const body = `<h1>The wire</h1><p class="lede">What named outlets published, filed by desk. Koios asserts nothing here beyond "this source published this"; every item links to its source and to its claims as data.</p><div class="grid">${desks.map((desk) => `<section><div class="section-head"><h2><a href="/wire/${desk.slug}">${escapeHtml(desk.title)}</a></h2><a class="more" href="/wire/${desk.slug}">${desk.items.length} items</a></div><p class="meta">${escapeHtml(desk.description)}</p><ul class="wire-list">${desk.items.slice(0, 4).map(wireItemHtml).join("")}</ul></section>`).join("")}</div>`;
+  return layout("The wire — Koios.News", "Attributed headlines from named sources, filed by desk.", body, "/wire/");
+}
+function deskPage(desk) {
+  const posts = desk.posts.length === 0 ? "" : `<div class="section-head"><h2>Koios reporting</h2></div>${desk.posts.map((post) => postCard(post, "h3")).join("\n")}`;
+  const body = `<p class="kicker">Desk</p><h1>${escapeHtml(desk.title)}</h1><p class="lede">${escapeHtml(desk.description)}</p>${posts}<div class="section-head"><h2>From the wire</h2><span class="meta">${desk.items.length} items · ${desk.categories.map((category) => escapeHtml(category)).join(", ")}</span></div><ul class="wire-list">${desk.items.map(wireItemHtml).join("") || "<li>Nothing filed yet.</li>"}</ul>`;
+  return layout(`${desk.title} — Koios.News`, desk.description || `${desk.title} desk of Koios.News.`, body, `/wire/${desk.slug}`, { "@context": "https://schema.org", "@type": "CollectionPage", name: desk.title, url: canonical(`/wire/${desk.slug}`), isPartOf: { "@type": "WebSite", name: "Koios.News", url: ORIGIN } });
+}
+function deskJson(desk) {
+  return `${JSON.stringify({ kind: "koios.news.desk/v1", slug: desk.slug, title: desk.title, description: desk.description, categories: desk.categories, url: canonical(`/wire/${desk.slug}`), posts: desk.posts.map((post) => ({ slug: post.slug, title: post.title, url: canonical(`/posts/${post.slug}`), published: post.date })), items: desk.items.map((item) => ({ url: item.url, title: item.title, ...(item.summary === undefined ? {} : { summary: item.summary }), published: item.published, source: item.host, tags: item.tags, claims: item.sources.map((source) => canonical(`/claims/${source.category}/${source.slug}.json`)) })) }, null, 2)}\n`;
+}
+function claimLedgerPage(category, slug, claimFile, item) {
+  const rows = claimFile.claims.map((claim) => {
+    const predicate = String(claim?.proposition?.predicate ?? claim?.id ?? "");
+    const object = claim?.proposition?.object;
+    const citation = claim?.provenance?.citation;
+    const value = typeof object === "string" && /^https?:\/\//u.test(object) ? `<a href="${escapeHtml(object)}" rel="noopener noreferrer">${escapeHtml(object)}</a>` : escapeHtml(typeof object === "string" ? object : JSON.stringify(object));
+    return `<tr><th scope="row">${escapeHtml(predicate)}</th><td class="value">${value}</td><td>${escapeHtml(String(claim?.force ?? ""))}</td><td>${escapeHtml(String(claim?.status ?? ""))}</td><td>${escapeHtml(String(claim?.provenance?.witness ?? ""))}</td><td>${typeof citation === "string" ? `<a href="${escapeHtml(citation)}" rel="noopener noreferrer">source</a>` : ""}</td><td><time datetime="${escapeHtml(String(claim?.time?.asserted ?? ""))}">${escapeHtml(String(claim?.time?.asserted ?? "").slice(0, 10))}</time></td></tr>`;
+  }).join("");
+  const title = item?.title ?? claimFile.subject;
+  const jsonLd = { "@context": "https://schema.org", "@type": "ItemList", name: `Claims recorded about: ${title}`, url: canonical(`/claims/${category}/${slug}/`), itemListElement: claimFile.claims.map((claim, index) => ({ "@type": "ListItem", position: index + 1, item: { "@type": "Claim", text: `${String(claim?.proposition?.predicate ?? "")}: ${typeof claim?.proposition?.object === "string" ? claim.proposition.object : JSON.stringify(claim?.proposition?.object)}`, ...(typeof claim?.provenance?.citation === "string" ? { citation: claim.provenance.citation } : {}), ...(typeof claim?.time?.asserted === "string" ? { datePublished: claim.time.asserted } : {}), claimInterpreter: { "@type": "Organization", name: "Koios.News", url: ORIGIN } } })) };
+  const body = `<p class="kicker">Claim ledger · ${escapeHtml(category)}</p><h1>${escapeHtml(title)}</h1><p class="lede">Every claim Koios.News recorded about this item, each with its force, status, witness, and citation. Koios asserts only that the named source published this; the source's own claims remain the source's.</p>${item === undefined ? "" : `<p class="meta">Source: <a href="${escapeHtml(item.url)}" rel="noopener noreferrer">${escapeHtml(item.host)}</a> · Published <time datetime="${escapeHtml(item.published)}">${item.day}</time> · Desks: ${item.tags.map((tag) => escapeHtml(tag)).join(", ")}</p>`}<div class="scroll"><table class="ledger"><thead><tr><th>Predicate</th><th>Object</th><th>Force</th><th>Status</th><th>Witness</th><th>Citation</th><th>Asserted</th></tr></thead><tbody>${rows}</tbody></table></div><p class="meta">Machine-readable: <a href="/claims/${category}/${slug}.json">${category}/${slug}.json</a> (byte-identical to the store) · <a href="/claims/index.json">claim store index</a></p>`;
+  return layout(`Claims: ${title} — Koios.News`, `${claimFile.claims.length} recorded claims about "${title}" with witness and citation.`, body, `/claims/${category}/${slug}/`, jsonLd);
+}
+function claimsIndexPage(categoryCounts, itemCount) {
+  const body = `<h1>The claim store</h1><p class="lede">Koios.News stores news as individually addressable claims. Each wire item is one JSON object of attributed claims (title, url, summary, published) with force, status, witness, and citation, served byte-identical to the newsroom's own store.</p><div class="stats"><div><strong>${itemCount}</strong>items</div><div><strong>${categoryCounts.length}</strong>categories</div></div><h2>Categories</h2><ul class="wire-list">${categoryCounts.map((entry) => `<li><strong>${escapeHtml(entry.name)}</strong> · ${entry.count} claim objects · <a href="/claims/${escapeHtml(entry.name)}/">browse</a></li>`).join("")}</ul><h2>Reading it by machine</h2><p><a href="/claims/index.json">index.json</a> lists every claim object; <a href="/wire/index.json">wire/index.json</a> carries the merged wire with a <code>claims</code> path per item; each object lives at <code>/claims/&lt;category&gt;/&lt;slug&gt;.json</code> with a human ledger at <code>/claims/&lt;category&gt;/&lt;slug&gt;/</code>. Claims carry <code>force</code> (today always <code>alleges</code>) and <code>status</code> (today always <code>supported</code>) so that stratified, settled, and contested states can be published as they are derived.</p>`;
+  return layout("Claim store — Koios.News", "Every wire item as attributed, citable claims.", body, "/claims/");
+}
+function claimCategoryPage(category, entries) {
+  const body = `<p class="kicker">Claim store</p><h1>${escapeHtml(category)}</h1><p class="meta">${entries.length} claim objects</p><ul class="wire-list">${entries.map((entry) => `<li><a class="headline" href="/claims/${category}/${entry.slug}/">${escapeHtml(entry.title)}</a><p class="provenance">${escapeHtml(entry.day)} · <a href="/claims/${category}/${entry.slug}.json">json</a></p></li>`).join("")}</ul>`;
+  return layout(`Claims: ${category} — Koios.News`, `Claim objects filed under ${category}.`, body, `/claims/${category}/`);
+}
+function coveragePage(map) {
+  const body = `<h1>Coverage map</h1><p class="lede">Where the wire comes from, counted from the claim store. A count is how many items Koios recorded from that outlet or under that category; it is not a reliability score.</p><div class="stats"><div><strong>${map.itemCount}</strong>items</div><div><strong>${map.hosts.length}</strong>outlets</div><div><strong>${map.categories.length}</strong>categories</div></div><div class="grid"><section><h2>By outlet</h2><div class="scroll"><table class="ledger"><thead><tr><th>Outlet</th><th>Items</th></tr></thead><tbody>${map.hosts.map((entry) => `<tr><td>${escapeHtml(entry.name)}</td><td>${entry.count}</td></tr>`).join("")}</tbody></table></div></section><section><h2>By category</h2><div class="scroll"><table class="ledger"><thead><tr><th>Category</th><th>Items</th></tr></thead><tbody>${map.categories.map((entry) => `<tr id="${escapeHtml(entry.name)}"><td><a href="/claims/${escapeHtml(entry.name)}/">${escapeHtml(entry.name)}</a></td><td>${entry.count}</td></tr>`).join("")}</tbody></table></div></section></div><p class="meta">Data: <a href="/wire/coverage.json">coverage.json</a></p>`;
+  return layout("Coverage map — Koios.News", "Wire items counted by outlet and category.", body, "/wire/coverage");
 }
 function rss(posts) {
   const items = posts.map((post) => `<item><title>${escapeXml(post.title)}</title><link>${canonical(`/posts/${post.slug}`)}</link><guid isPermaLink="true">${canonical(`/posts/${post.slug}`)}</guid><pubDate>${new Date(`${post.date}T00:00:00Z`).toUTCString()}</pubDate><description>${escapeXml(post.description)}</description><author>${escapeXml(post.author)}</author>${[...post.categories, ...post.tags].map((term) => `<category>${escapeXml(term)}</category>`).join("")}</item>`).join("");
@@ -172,9 +225,9 @@ function archive(posts) {
   }
   return [...years.entries()].map(([year, months]) => Object.freeze({ year, months: Object.freeze([...months.entries()].map(([month, entries]) => Object.freeze({ month, posts: Object.freeze([...entries].sort((left, right) => bytewise(right.date, left.date) || bytewise(left.slug, right.slug))) })).sort((left, right) => bytewise(right.month, left.month))) })).sort((left, right) => bytewise(right.year, left.year));
 }
-function sitemap(posts, tags, topics, archives) {
+function sitemap(posts, tags, topics, archives, extraPaths = []) {
   const dated = new Map(posts.map((post) => [`/posts/${post.slug}`, post.date]));
-  const paths = ["/", "/about", "/privacy", "/standards", "/corrections", "/tags", "/topics", "/archive", ...posts.map((post) => `/posts/${post.slug}`), ...tags.map((tag) => `/tags/${tag.slug}`), ...topics.map((topic) => `/topics/${topic.slug}`), ...archives.flatMap((year) => [`/archive/${year.year}`, ...year.months.map((month) => `/archive/${year.year}/${month.month}`)])];
+  const paths = ["/", "/about", "/privacy", "/standards", "/corrections", "/tags", "/topics", "/archive", ...posts.map((post) => `/posts/${post.slug}`), ...tags.map((tag) => `/tags/${tag.slug}`), ...topics.map((topic) => `/topics/${topic.slug}`), ...archives.flatMap((year) => [`/archive/${year.year}`, ...year.months.map((month) => `/archive/${year.year}/${month.month}`)]), ...extraPaths];
   const urls = paths.map((path) => `<url><loc>${canonical(path)}</loc>${dated.has(path) ? `<lastmod>${dated.get(path)}</lastmod>` : ""}</url>`).join("");
   return `<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">${urls}</urlset>\n`;
 }
@@ -221,14 +274,8 @@ function archiveJson(entries) {
   return `${JSON.stringify({ kind: "koios.news.static-archive/v1", years: entries.map((year) => ({ year: year.year, months: year.months.map((month) => ({ month: month.month, posts: month.posts.map((post) => ({ slug: post.slug, title: post.title, url: canonical(`/posts/${post.slug}`), published: post.date })) })) })) }, null, 2)}\n`;
 }
 function staticPage(path) {
-  const pages = {
-    "/about": ["About Koios.News", "Koios.News is an independent public-interest news publication. We identify source limits, corrections, and material use of AI in reporting."],
-    "/standards": ["Editorial standards", "We seek accurate, attributable reporting; distinguish evidence from analysis; correct material errors promptly; and retain publication provenance where available."],
-    "/corrections": ["Corrections", "Material corrections are recorded with the affected article. To report a possible error, use the publication contact recorded with the applicable article."],
-    "/privacy": ["Privacy", "This static carrier does not send a first-party view beacon and does not expose an aggregate attention route. It does not retain reader identifiers. Accountable attention remains suspended."],
-  };
-  const [title, text] = pages[path];
-  return layout(title, text, `<h1>${escapeHtml(title)}</h1><p>${escapeHtml(text)}</p>`, path);
+  const page = STANDING_PAGES[path];
+  return layout(`${page.title} — Koios.News`, page.description, page.body, path);
 }
 function audit(posts) {
   return { kind: "koios.news.static-editorial-audit/v1", generatedFrom: "front-matter-only", provenance: { carrier: "@causeway-services/koios-news-static-delivery-current", canonicalOrigin: ORIGIN, inputOrder: "filename lexical; public order: date descending then slug", generatedAt: "deterministic-from-input" }, posts: posts.map((post) => ({ slug: post.slug, url: canonical(`/posts/${post.slug}`), published: post.date, sourceSha256: post.sourceDigest, status: "published-front-matter-draft-false", categories: post.categories })) };
@@ -358,22 +405,58 @@ function prepareOutput(outputDir, replace) {
   return { target, staging };
 }
 
-export function buildPublication({ contentDir, outputDir, operationsPath, productionBaselineDir, replace = false, legacyRedirects = {} }) {
+export function buildPublication({ contentDir, outputDir, operationsPath, productionBaselineDir, wireDir, desksPath, replace = false, legacyRedirects = {} }) {
   if (typeof contentDir !== "string" || typeof outputDir !== "string") throw new Error("contentDir and outputDir are required");
+  if ((wireDir === undefined) !== (desksPath === undefined)) throw new Error("wireDir and desksPath are supplied together or not at all");
   const posts = readPosts(resolve(contentDir));
+  const wire = wireDir === undefined ? null : readWire(resolve(wireDir));
+  siteDesks = desksPath === undefined ? [] : deskContents(readDesks(resolve(desksPath)), wire.items, posts, taxonomySlug);
   const { target, staging } = prepareOutput(outputDir, replace);
   const baseline = productionBaselineDir === undefined ? null : seedProductionBaseline({ baselineDir: productionBaselineDir, staging });
   const operationsArtifact = operations(operationsPath, posts);
   const tags = taxonomy(posts, "tags");
   const topics = taxonomy(posts, "categories");
   const archives = archive(posts);
-  const files = new Map([[MARKER, "koios.news static-delivery-current v1\n"], ["index.html", homePage(posts)], ["feed.xml", rss(posts)], ["feed.atom", atom(posts)], ["feed.json", jsonFeed(posts)], ["sitemap.xml", sitemap(posts, tags, topics, archives)], ["news-sitemap.xml", newsSitemap(posts)], ["robots.txt", `User-agent: *\nAllow: /\nSitemap: ${canonical("/sitemap.xml")}\nSitemap: ${canonical("/news-sitemap.xml")}\n`], ["404.html", layout("Not found", "The requested public page does not exist.", '<h1>Not found</h1><p>The requested public page does not exist. <a href="/">Return to Koios.News</a>.</p>', "/")], ["_headers", "/*\n  Content-Security-Policy: default-src 'self'; base-uri 'self'; frame-ancestors 'none'\n  Referrer-Policy: no-referrer\n  X-Content-Type-Options: nosniff\n  X-Frame-Options: DENY\n\n/feed.atom\n  Content-Type: application/atom+xml; charset=utf-8\n/feed.json\n  Content-Type: application/feed+json; charset=utf-8\n"], ["newswire-audit.json", `${JSON.stringify(audit(posts), null, 2)}\n`], ["operations.json", operationsArtifact.contents], ["tags/index.html", taxonomyIndexPage("tag", tags)], ["tags.json", taxonomyJson("tag", tags)], ["topics/index.html", taxonomyIndexPage("topic", topics)], ["topics.json", taxonomyJson("topic", topics)], ["archive/index.html", archiveIndexPage(archives)], ["archive.json", archiveJson(archives)]]);
+  const wirePaths = [];
+  const files = new Map([[MARKER, "koios.news static-delivery-current v1\n"], ["index.html", homePage(posts, siteDesks, wire === null ? [] : wire.items)], ["assets/site.css", SITE_CSS], ["assets/house-ad.js", HOUSE_AD_JS], ["feed.xml", rss(posts)], ["feed.atom", atom(posts)], ["feed.json", jsonFeed(posts)], ["sitemap.xml", sitemap(posts, tags, topics, archives)], ["news-sitemap.xml", newsSitemap(posts)], ["robots.txt", `User-agent: *\nAllow: /\nSitemap: ${canonical("/sitemap.xml")}\nSitemap: ${canonical("/news-sitemap.xml")}\n`], ["404.html", layout("Not found", "The requested public page does not exist.", '<h1>Not found</h1><p>The requested public page does not exist. <a href="/">Return to Koios.News</a>.</p>', "/")], ["_headers", `/*\n  Content-Security-Policy: default-src 'self'; script-src 'self'; style-src 'self'; img-src 'self' data:; connect-src 'self' ${HOUSE_AD_ORIGIN}; base-uri 'self'; form-action 'self'; frame-ancestors 'none'\n  Referrer-Policy: no-referrer\n  X-Content-Type-Options: nosniff\n  X-Frame-Options: DENY\n\n/feed.atom\n  Content-Type: application/atom+xml; charset=utf-8\n/feed.json\n  Content-Type: application/feed+json; charset=utf-8\n/wire/feed.atom\n  Content-Type: application/atom+xml; charset=utf-8\n/wire/feed.json\n  Content-Type: application/feed+json; charset=utf-8\n`], ["newswire-audit.json", `${JSON.stringify(audit(posts), null, 2)}\n`], ["operations.json", operationsArtifact.contents], ["tags/index.html", taxonomyIndexPage("tag", tags)], ["tags.json", taxonomyJson("tag", tags)], ["topics/index.html", taxonomyIndexPage("topic", topics)], ["topics.json", taxonomyJson("topic", topics)], ["archive/index.html", archiveIndexPage(archives)], ["archive.json", archiveJson(archives)]]);
   for (const entry of tags) { files.set(join("tags", entry.slug, "index.html"), taxonomyPage("tag", entry)); files.set(join("tags", `${entry.slug}.json`), taxonomyEntryJson("tag", entry)); }
   for (const entry of topics) { files.set(join("topics", entry.slug, "index.html"), taxonomyPage("topic", entry)); files.set(join("topics", `${entry.slug}.json`), taxonomyEntryJson("topic", entry)); }
   for (const year of archives) { files.set(join("archive", year.year, "index.html"), archiveYearPage(year)); for (const month of year.months) files.set(join("archive", year.year, month.month, "index.html"), archiveMonthPage(year, month)); }
   for (const path of ["/about", "/privacy", "/standards", "/corrections"]) files.set(join(path.slice(1), "index.html"), staticPage(path));
   for (const post of posts) files.set(join("posts", post.slug, "index.html"), postPage(post));
-  const publicRoutes = new Set(["/", "/about", "/privacy", "/standards", "/corrections", "/tags", "/topics", "/archive", ...posts.map((post) => `/posts/${post.slug}`), ...tags.map((entry) => `/tags/${entry.slug}`), ...topics.map((entry) => `/topics/${entry.slug}`), ...archives.flatMap((year) => [`/archive/${year.year}`, ...year.months.map((month) => `/archive/${year.year}/${month.month}`)])]);
+  if (wire !== null) {
+    const itemBySource = new Map();
+    for (const item of wire.items) for (const source of item.sources) itemBySource.set(`${source.category}/${source.slug}`, item);
+    const byCategory = new Map();
+    for (const [file, bytes] of wire.files) {
+      const claimMatch = /^claims\/([a-z0-9-]+)\/([a-z0-9-]+)\.json$/u.exec(file);
+      if (claimMatch) {
+        const [, category, slug] = claimMatch;
+        const claimFile = parseClaimFile(bytes, file);
+        const item = itemBySource.get(`${category}/${slug}`);
+        files.set(join("claims", category, `${slug}.json`), bytes);
+        files.set(join("claims", category, slug, "index.html"), claimLedgerPage(category, slug, claimFile, item));
+        wirePaths.push(`/claims/${category}/${slug}`);
+        const entries = byCategory.get(category) ?? [];
+        entries.push({ slug, title: item?.title ?? claimFile.subject, day: item?.day ?? "", published: item?.published ?? "" });
+        byCategory.set(category, entries);
+      } else if (file === "wire.json") files.set(join("wire", "index.json"), bytes);
+      else if (["feed.xml", "feed.atom", "feed.json", "news-sitemap.xml"].includes(file)) files.set(join("wire", file), bytes);
+      else throw new Error(`wire directory contains an unrecognized artifact: ${file}`);
+    }
+    const categoryCounts = [...byCategory.entries()].sort(([left], [right]) => bytewise(left, right)).map(([name, entries]) => ({ name, count: entries.length }));
+    files.set(join("claims", "index.html"), claimsIndexPage(categoryCounts, wire.items.length));
+    files.set(join("claims", "index.json"), `${JSON.stringify({ kind: "koios.news.claim-store-index/v1", itemCount: wire.items.length, categories: categoryCounts.map((entry) => ({ category: entry.name, count: entry.count, url: canonical(`/claims/${entry.name}/`) })), objects: [...byCategory.entries()].sort(([left], [right]) => bytewise(left, right)).flatMap(([category, entries]) => [...entries].sort((left, right) => bytewise(right.published, left.published) || bytewise(left.slug, right.slug)).map((entry) => ({ category, slug: entry.slug, title: entry.title, published: entry.published, json: canonical(`/claims/${category}/${entry.slug}.json`), ledger: canonical(`/claims/${category}/${entry.slug}/`) }))) }, null, 2)}\n`);
+    for (const [category, entries] of byCategory) { files.set(join("claims", category, "index.html"), claimCategoryPage(category, [...entries].sort((left, right) => bytewise(right.published, left.published) || bytewise(left.slug, right.slug)))); wirePaths.push(`/claims/${category}`); }
+    files.set(join("wire", "index.html"), wireIndexPage(siteDesks, wire.items));
+    const map = coverage(wire.items);
+    files.set(join("wire", "coverage", "index.html"), coveragePage(map));
+    files.set(join("wire", "coverage.json"), `${JSON.stringify({ kind: "koios.news.wire-coverage/v1", ...map }, null, 2)}\n`);
+    for (const desk of siteDesks) { files.set(join("wire", desk.slug, "index.html"), deskPage(desk)); files.set(join("wire", `${desk.slug}.json`), deskJson(desk)); }
+    wirePaths.push("/wire", "/wire/coverage", "/claims", ...siteDesks.map((desk) => `/wire/${desk.slug}`));
+    files.set("sitemap.xml", sitemap(posts, tags, topics, archives, wirePaths.sort(bytewise)));
+  }
+  const publicRoutes = new Set(["/", "/about", "/privacy", "/standards", "/corrections", "/tags", "/topics", "/archive", ...wirePaths, ...posts.map((post) => `/posts/${post.slug}`), ...tags.map((entry) => `/tags/${entry.slug}`), ...topics.map((entry) => `/topics/${entry.slug}`), ...archives.flatMap((year) => [`/archive/${year.year}`, ...year.months.map((month) => `/archive/${year.year}/${month.month}`)])]);
   for (const [legacyPath, target] of Object.entries(legacyRedirects)) {
     const route = legacyPath.replace(/\/+$/u, "") || "/";
     if (route === "/" || !route.startsWith("/") || !publicRoutes.has(target)) throw new Error(`legacy redirect must be a non-root internal path to a public route: ${legacyPath}`);
@@ -381,7 +464,7 @@ export function buildPublication({ contentDir, outputDir, operationsPath, produc
   }
   for (const [file, contents] of [...files].sort(([left], [right]) => bytewise(left, right))) safeWrite(staging, file, contents);
   const artifacts = stagedArtifacts(staging);
-  const manifest = { kind: "koios.news.static-publication-manifest/v1", provenance: { carrier: "@causeway-services/koios-news-static-delivery-current", canonicalOrigin: ORIGIN, operationsInput: operationsArtifact.provenance, ...(baseline === null ? {} : { productionBaseline: baseline }), generatedAt: "deterministic-from-input" }, policy: { indexing: "production-indexable", attention: "suspended", mutableRoutes: "excluded", renderer: "node-builtins-only" }, exclusions: ["/hit", "/views.json", "/healthz", "/newsroom", "/cable", "/mcp", "/operators", "/private"], legacyRouteCount: Object.keys(legacyRedirects).length, limitations: ["Legacy paths are canonical HTML continuation pages; actual HTTP 3xx redirects need separately admitted host rules.", "It does not reproduce mutable attention/view routes, advertisements, fingerprints, deployment, DNS, or cutover authority.", "The generated audit proves the exact source bytes read by this carrier; it is not a substitute for the retained editorial-gate ledger."], publishedPostCount: posts.length, artifacts };
+  const manifest = { kind: "koios.news.static-publication-manifest/v1", provenance: { carrier: "@causeway-services/koios-news-static-delivery-current", canonicalOrigin: ORIGIN, operationsInput: operationsArtifact.provenance, ...(baseline === null ? {} : { productionBaseline: baseline }), generatedAt: "deterministic-from-input" }, policy: { indexing: "production-indexable", attention: "suspended", mutableRoutes: "excluded", renderer: "node-builtins-only", wire: wire === null ? "absent" : "store-feed-delivery-projection" }, exclusions: ["/hit", "/views.json", "/healthz", "/newsroom", "/cable", "/mcp", "/operators", "/private"], legacyRouteCount: Object.keys(legacyRedirects).length, limitations: ["Legacy paths are canonical HTML continuation pages; actual HTTP 3xx redirects need separately admitted host rules.", "It does not reproduce mutable attention/view routes, advertisements, fingerprints, deployment, DNS, or cutover authority.", "The generated audit proves the exact source bytes read by this carrier; it is not a substitute for the retained editorial-gate ledger."], publishedPostCount: posts.length, artifacts };
   const manifestText = `${JSON.stringify(manifest, null, 2)}\n`;
   safeWrite(staging, "manifest.json", manifestText);
   rmSync(join(staging, MARKER));

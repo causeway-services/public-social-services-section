@@ -1,0 +1,69 @@
+{
+  "subject": "michigan-invests-7-5m-to-find-out-if-it-s-sitting-on-a-clean-energy-gold-mine",
+  "claims": [
+    {
+      "id": "title",
+      "proposition": {
+        "predicate": "title",
+        "object": "Michigan invests $7.5M to find out if it’s sitting on a clean energy gold mine"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "environment",
+        "citation": "https://grist.org/energy/michigan-invests-7-5m-to-find-out-if-its-sitting-on-a-clean-energy-gold-mine/"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "url",
+      "proposition": {
+        "predicate": "url",
+        "object": "https://grist.org/energy/michigan-invests-7-5m-to-find-out-if-its-sitting-on-a-clean-energy-gold-mine/"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "environment",
+        "citation": "https://grist.org/energy/michigan-invests-7-5m-to-find-out-if-its-sitting-on-a-clean-energy-gold-mine/"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "summary",
+      "proposition": {
+        "predicate": "summary",
+        "object": "Michigan is investing $7.5 million to research geologic hydrogen — a clean energy source buried beneath the state that experts say could help power a transition away from fossil fuels. That’s because when hydrogen fuel burns, the only byproduct is water. There are no greenhouse gases or other harmful air pollutants emitted, unlike fossil fuels. If used as a fuel or in fuel cells, a large store of hydrogen could help clean up the state’s high-emissions industries, such as trucking and steel as well as cement manufacturing, said Kevin Mehren, director of the Michigan Infrastructure Office. Energy production, including at natural gas plants, and transportation are the top sources of greenhouse gas emissions in both Michigan and the country at large. Geologic hydrogen “is a major decarbonization tool, I think one of the strongest that we have come across,” Mehren said. “It has massive potential across all aspects of our economy, just to fill gaps and provide a new energy source for us.” A 2025 study from the U.S. Geological Survey mapped out areas around the country with a lot of potential for buried hydrogen, with Michigan on the higher end. The study prompted Governor Gretchen Whitmer in January to direct state resources into more research, from which the recent funding announcement stemmed. Companies in Kansas, Nebraska, and Iowa — states also highlighted in the USGS survey — are currently drilling for geologic hydrogen , according to Sandia National Laboratories. Mehren hopes this potential can translate into a new industry in Michigan, depending on what further research reveals. “The goal here really is to determine: Is it there? Can we access it? And can this be the tool that we hope it is?” he said. A portion of this initial funding will support research in the areas that researchers think might store a lot of natural hydrogen, like around Michigan’s lower peninsula. The state sits on top of what’s called the Midcontinent Rift. It’s where the North American continent started splitting apart more than 1 billion years ago, then stopped. That created the Michigan Basin, a geologic formation that left younger, newer rocks in the middle of the state and deeper, older material — places where hydrogen might have formed — closer to the basin’s edges, including near urban areas like Detroit and Traverse City. Existing infrastructure for drilling in the region might also make it a good spot for research, said Brian Ellis, an associate professor at the University of Michigan and co-director of MI Hydrogen, the school’s hydrogen research program. Wells for oil and natural gas drilling already dot northern Michigan, and the region is home to some of the most productive gas fields in the state. The existing equipment can also be used to search for geologic hydrogen. Read Next What’s geologic hydrogen? What to know about the clean energy source buried under Michigan. Vivian La “We haven’t typically been looking for hydrogen in the past when we’ve drilled these wells,” Ellis said. “So there’s opportunity to potentially data-mine information that we already have and see if there’s hydrogen.” Ellis hopes that some of the initial state money can also attract federal funding in the future. The U.S. Department of Energy set aside about $20 million in 2024 for projects related to geologic hydrogen through its Advanced Research Projects Agency–Energy program , and national laboratories have conducted early research in the growing field. “That’s the kind of thing the federal government should be supporting. Those high-risk, high-reward opportunities where we really grow our knowledge base,” he said. Despite the Trump administration’s hostility toward clean energy, experts said they’re optimistic this research matches federal priorities. President Trump has pushed for more domestic oil and gas production by expanding drilling and rolling back environmental regulations. Mehren noted how geologic hydrogen might be a uniquely bipartisan issue. “You are ostensibly drilling — ‘drill, baby, drill’ is the catchphrase they use — for zero-emission energy,” he said. “It’s a domestic resource, but you are providing a new clean resource that could be an economic driver, decarbonize industry, [and] help fight climate change.” toolTips('.classtoolTips3','Carbon dioxide, methane, nitrous oxide, and other gases that prevent heat from escaping Earth’s atmosphere. Together, they act as a blanket to keep the planet at a liveable temperature in what is known as the “greenhouse effect.” Too many of these gases, however, can cause excessive warming, disrupting fragile climates and ecosystems.'); toolTips('.classtoolTips4','The process of reducing the emission of carbon dioxide and other greenhouse gases that drive climate change, most often by deprioritizing the use of fossil fuels like oil and gas in favor of renewable sources of energy.'); This story was originally published by Grist with the headline Michigan invests $7.5M to find out if it’s sitting on a clean energy gold mine on Sep 2, 2026."
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "environment",
+        "citation": "https://grist.org/energy/michigan-invests-7-5m-to-find-out-if-its-sitting-on-a-clean-energy-gold-mine/"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "published",
+      "proposition": {
+        "predicate": "published",
+        "object": "Wed, 02 Sep 2026 08:15:00 +0000"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "environment",
+        "citation": "https://grist.org/energy/michigan-invests-7-5m-to-find-out-if-its-sitting-on-a-clean-energy-gold-mine/"
+      },
+      "status": "supported"
+    }
+  ]
+}

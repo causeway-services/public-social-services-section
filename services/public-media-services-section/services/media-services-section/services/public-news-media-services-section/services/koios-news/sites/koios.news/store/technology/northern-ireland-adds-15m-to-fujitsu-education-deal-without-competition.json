@@ -1,0 +1,69 @@
+{
+  "subject": "northern-ireland-adds-15m-to-fujitsu-education-deal-without-competition",
+  "claims": [
+    {
+      "id": "title",
+      "proposition": {
+        "predicate": "title",
+        "object": "Northern Ireland adds £15M to Fujitsu education deal without competition"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "technology",
+        "citation": "https://www.theregister.com/public-sector/2026/09/02/northern-ireland-adds-15m-to-fujitsu-education-deal-without-competition/5293648"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "url",
+      "proposition": {
+        "predicate": "url",
+        "object": "https://www.theregister.com/public-sector/2026/09/02/northern-ireland-adds-15m-to-fujitsu-education-deal-without-competition/5293648"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "technology",
+        "citation": "https://www.theregister.com/public-sector/2026/09/02/northern-ireland-adds-15m-to-fujitsu-education-deal-without-competition/5293648"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "summary",
+      "proposition": {
+        "predicate": "summary",
+        "object": "Northern Ireland's Education Authority plans to add £15 million to Fujitsu's EA One contract without a new competition, taking its ceiling to £55.4 million. The authority intends to exercise five one-year extension options already built into the deal, keeping the Japanese supplier in place until March 31, 2032. The current term is due to expire in March 2027. Public sector awards to Fujitsu have attracted scrutiny since the supplier acknowledged its role in the Post Office Horizon scandal. The company has voluntarily stopped bidding for contracts with new UK government customers until the public inquiry reports, although it continues to pursue extensions and procurements already in progress. According to an official notice, the Education Authority intends to add £15 million to the contract ceiling to \"cover the continued service provision\" during the five-year extension while it replaces the customized Oracle-based finance, HR, and payroll system. \"Replacing the current EA One system will require a significant lead in time to manage its design, procurement, implementation and for the replacement solution to become business as usual,\" the notice said. The authority has begun the EnAble Programme to replace EA One and is working toward implementing its successor in 2032. It argued that EA One has been extensively customized and that changing suppliers before a replacement is ready would cause significant technical disruption, inconvenience, and duplication of costs. The authority also said the current service continues to meet its contractual performance targets. \"The extension provides continuity of service and certainty for EA during a period where significant resource and focus will be on the programme of work to replace and transition to the new solution,\" the notice said. The latest notice values the contract at £40.4 million before the new extension and £55.4 million afterward. It describes the original published value as £30 million, making the additional £15 million exactly 50 percent of that amount. The initial 2015 award was reported at around £20 million, and a 2021 modification added £9.2 million. At the time, the authority cited functionality changes, complex data migration, and delays caused by COVID-19 lockdowns. The modification covered the \"supply of a broad range of computer and related services, information technology consultancy services and the supply of computer hardware, software and associated products,\" the authority said. Fujitsu inherited responsibility for Horizon after acquiring ICL, the British technology company that developed the Post Office's electronic point-of-sale and accounting system. Between 1999 and 2015, the Post Office prosecuted 700 subpostmasters in cases where Horizon evidence may have featured, while other bodies brought almost 300 more cases. Hundreds were wrongfully convicted, devastating lives in the process. Fujitsu has apologized for its role and voluntarily agreed not to bid for contracts with new UK government customers until the statutory inquiry reports. The undertaking still allows it to negotiate extensions with existing customers, including Northern Ireland's Education Authority. Fujitsu also continued bidding for a £125 million contract with Northern Ireland's Department of Finance, which it won in April 2025. That procurement had begun before the company made its voluntary undertaking. ®"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "technology",
+        "citation": "https://www.theregister.com/public-sector/2026/09/02/northern-ireland-adds-15m-to-fujitsu-education-deal-without-competition/5293648"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "published",
+      "proposition": {
+        "predicate": "published",
+        "object": "Wed, 02 Sep 2026 12:17:00 +0200"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "technology",
+        "citation": "https://www.theregister.com/public-sector/2026/09/02/northern-ireland-adds-15m-to-fujitsu-education-deal-without-competition/5293648"
+      },
+      "status": "supported"
+    }
+  ]
+}

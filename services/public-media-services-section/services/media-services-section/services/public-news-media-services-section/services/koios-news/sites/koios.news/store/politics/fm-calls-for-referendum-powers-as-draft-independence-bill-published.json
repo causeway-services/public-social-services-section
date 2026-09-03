@@ -1,0 +1,69 @@
+{
+  "subject": "fm-calls-for-referendum-powers-as-draft-independence-bill-published",
+  "claims": [
+    {
+      "id": "title",
+      "proposition": {
+        "predicate": "title",
+        "object": "FM calls for referendum powers as draft independence bill published"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "politics",
+        "citation": "https://www.bbc.co.uk/news/articles/c4gqz58eql6o?at_medium=RSS&at_campaign=rss"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "url",
+      "proposition": {
+        "predicate": "url",
+        "object": "https://www.bbc.co.uk/news/articles/c4gqz58eql6o?at_medium=RSS&at_campaign=rss"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "politics",
+        "citation": "https://www.bbc.co.uk/news/articles/c4gqz58eql6o?at_medium=RSS&at_campaign=rss"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "summary",
+      "proposition": {
+        "predicate": "summary",
+        "object": "The draft bill would be introduced into Parliament if the Scottish government secured the necessary powers from the UK government."
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "politics",
+        "citation": "https://www.bbc.co.uk/news/articles/c4gqz58eql6o?at_medium=RSS&at_campaign=rss"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "published",
+      "proposition": {
+        "predicate": "published",
+        "object": "Fri, 28 Aug 2026 16:10:39 GMT"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "politics",
+        "citation": "https://www.bbc.co.uk/news/articles/c4gqz58eql6o?at_medium=RSS&at_campaign=rss"
+      },
+      "status": "supported"
+    }
+  ]
+}

@@ -1,0 +1,69 @@
+{
+  "subject": "rubio-downplays-russian-aid-to-iran-amid-war-nothing-impeding-us-objectives",
+  "claims": [
+    {
+      "id": "title",
+      "proposition": {
+        "predicate": "title",
+        "object": "Rubio downplays Russian aid to Iran amid war: ‘Nothing’ impeding US objectives"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "us-politics",
+        "citation": "https://thehill.com/homenews/administration/6067346-rubio-downplays-russian-iran-aid/"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "url",
+      "proposition": {
+        "predicate": "url",
+        "object": "https://thehill.com/homenews/administration/6067346-rubio-downplays-russian-iran-aid/"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "us-politics",
+        "citation": "https://thehill.com/homenews/administration/6067346-rubio-downplays-russian-iran-aid/"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "summary",
+      "proposition": {
+        "predicate": "summary",
+        "object": "Secretary of State Marco Rubio on Wednesday downplayed a New York Times report about Russian aid going to Iran, saying that “noting” has impeded U.S. objectives against Iran. “Obviously, Russia has their own hands full with Ukraine and that effort there,” Rubio told Fox News’s Brian Kilmeade in an interview. “But I’ve said this before…"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "us-politics",
+        "citation": "https://thehill.com/homenews/administration/6067346-rubio-downplays-russian-iran-aid/"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "published",
+      "proposition": {
+        "predicate": "published",
+        "object": "Wed, 02 Sep 2026 21:04:47 +0000"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "us-politics",
+        "citation": "https://thehill.com/homenews/administration/6067346-rubio-downplays-russian-iran-aid/"
+      },
+      "status": "supported"
+    }
+  ]
+}

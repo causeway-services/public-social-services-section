@@ -1,0 +1,69 @@
+{
+  "subject": "usda-reportedly-shelves-cyclospora-research-amid-relocations-and-fund-cuts",
+  "claims": [
+    {
+      "id": "title",
+      "proposition": {
+        "predicate": "title",
+        "object": "USDA reportedly shelves cyclospora research amid relocations and fund cuts"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "science",
+        "citation": "https://www.theguardian.com/us-news/2026/aug/30/usda-cyclospora-research-projects-shelved"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "url",
+      "proposition": {
+        "predicate": "url",
+        "object": "https://www.theguardian.com/us-news/2026/aug/30/usda-cyclospora-research-projects-shelved"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "science",
+        "citation": "https://www.theguardian.com/us-news/2026/aug/30/usda-cyclospora-research-projects-shelved"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "summary",
+      "proposition": {
+        "predicate": "summary",
+        "object": "<p>Trump officials shuttering three projects on foodborne parasite, two defunded by Congress, Politico reports</p><p>The <a href=\"https://www.theguardian.com/us-news/trump-administration\">Trump administration</a> is shuttering ⁠two of the three US Department of Agriculture research projects studying <a href=\"https://www.theguardian.com/us-news/cyclosporiasis-outbreak--us-\">cyclospora</a> after the foodborne parasite has ⁠sickened tens of thousands of Americans during the summer, Politico <a href=\"https://www.politico.com/news/2026/08/30/usda-cyclospora-research-projects-01055989\">reported</a> on Sunday.</p><p>The two projects were defunded by <a href=\"https://www.theguardian.com/us-news/us-congress\">Congress</a> earlier in the year, while the third is ⁠due to be moved in coming months from Maryland to Iowa as part of a broader USDA reorganization, according to the ⁠report.</p> <a href=\"https://www.theguardian.com/us-news/2026/aug/30/usda-cyclospora-research-projects-shelved\">Continue reading...</a>"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "science",
+        "citation": "https://www.theguardian.com/us-news/2026/aug/30/usda-cyclospora-research-projects-shelved"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "published",
+      "proposition": {
+        "predicate": "published",
+        "object": "Sun, 30 Aug 2026 21:10:56 GMT"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "science",
+        "citation": "https://www.theguardian.com/us-news/2026/aug/30/usda-cyclospora-research-projects-shelved"
+      },
+      "status": "supported"
+    }
+  ]
+}

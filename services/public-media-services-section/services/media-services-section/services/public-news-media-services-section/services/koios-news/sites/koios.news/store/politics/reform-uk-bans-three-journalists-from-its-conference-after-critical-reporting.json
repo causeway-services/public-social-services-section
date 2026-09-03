@@ -1,0 +1,69 @@
+{
+  "subject": "reform-uk-bans-three-journalists-from-its-conference-after-critical-reporting",
+  "claims": [
+    {
+      "id": "title",
+      "proposition": {
+        "predicate": "title",
+        "object": "Reform UK bans three journalists from its conference after critical reporting"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "politics",
+        "citation": "https://www.theguardian.com/politics/2026/sep/02/reform-uk-conference-journalist-ban"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "url",
+      "proposition": {
+        "predicate": "url",
+        "object": "https://www.theguardian.com/politics/2026/sep/02/reform-uk-conference-journalist-ban"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "politics",
+        "citation": "https://www.theguardian.com/politics/2026/sep/02/reform-uk-conference-journalist-ban"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "summary",
+      "proposition": {
+        "predicate": "summary",
+        "object": "<p>Guardian City editor Anna Isaac among those who had credentials to cover event declined</p><p>Reform UK has banned at least three journalists from its annual conference who have reported critically on the party and Nigel Farage.</p><p>The Guardian’s City editor, Anna Isaac, the investigative reporter Peter Geoghegan and the broadcaster and biographer Michael Crick were told this week that their credentials to cover the event, which begins on Thursday, had been declined.</p> <a href=\"https://www.theguardian.com/politics/2026/sep/02/reform-uk-conference-journalist-ban\">Continue reading...</a>"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "politics",
+        "citation": "https://www.theguardian.com/politics/2026/sep/02/reform-uk-conference-journalist-ban"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "published",
+      "proposition": {
+        "predicate": "published",
+        "object": "Wed, 02 Sep 2026 17:07:14 GMT"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "politics",
+        "citation": "https://www.theguardian.com/politics/2026/sep/02/reform-uk-conference-journalist-ban"
+      },
+      "status": "supported"
+    }
+  ]
+}

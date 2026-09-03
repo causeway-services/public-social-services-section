@@ -1,0 +1,69 @@
+{
+  "subject": "bp-seeks-to-end-years-of-boardroom-turmoil-with-appointment-of-new-chair",
+  "claims": [
+    {
+      "id": "title",
+      "proposition": {
+        "predicate": "title",
+        "object": "BP seeks to end years of boardroom turmoil with appointment of new chair"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "economy",
+        "citation": "https://www.theguardian.com/business/2026/sep/02/bp-appoints-new-chair-after-ousting-of-albert-manifold-in-may"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "url",
+      "proposition": {
+        "predicate": "url",
+        "object": "https://www.theguardian.com/business/2026/sep/02/bp-appoints-new-chair-after-ousting-of-albert-manifold-in-may"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "economy",
+        "citation": "https://www.theguardian.com/business/2026/sep/02/bp-appoints-new-chair-after-ousting-of-albert-manifold-in-may"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "summary",
+      "proposition": {
+        "predicate": "summary",
+        "object": "<p>Ian Tyler, already in role on an interim basis, is tasked with shifting strategy to refocus on fossil fuel extraction</p><p>BP has appointed a new chair after a months-long search triggered by the controversial <a href=\"https://www.theguardian.com/business/2026/may/26/bp-chair-albert-manifold-ian-tyler\">ousting of Albert Manifold</a>, seeking to draw a line under years of boardroom turmoil at the UK oil and gas company.</p><p>Ian Tyler, who has served as the interim chair and has sat on the BP board as a non-executive director since April 2025, will assume the role on a permanent basis immediately.</p> <a href=\"https://www.theguardian.com/business/2026/sep/02/bp-appoints-new-chair-after-ousting-of-albert-manifold-in-may\">Continue reading...</a>"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "economy",
+        "citation": "https://www.theguardian.com/business/2026/sep/02/bp-appoints-new-chair-after-ousting-of-albert-manifold-in-may"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "published",
+      "proposition": {
+        "predicate": "published",
+        "object": "Wed, 02 Sep 2026 14:58:36 GMT"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "economy",
+        "citation": "https://www.theguardian.com/business/2026/sep/02/bp-appoints-new-chair-after-ousting-of-albert-manifold-in-may"
+      },
+      "status": "supported"
+    }
+  ]
+}

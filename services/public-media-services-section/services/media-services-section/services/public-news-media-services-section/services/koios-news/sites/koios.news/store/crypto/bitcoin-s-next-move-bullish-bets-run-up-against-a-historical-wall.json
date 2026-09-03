@@ -1,0 +1,69 @@
+{
+  "subject": "bitcoin-s-next-move-bullish-bets-run-up-against-a-historical-wall",
+  "claims": [
+    {
+      "id": "title",
+      "proposition": {
+        "predicate": "title",
+        "object": "Bitcoin's Next Move: Bullish Bets Run Up Against a Historical Wall"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "crypto",
+        "citation": "https://decrypt.co/377052/bitcoins-next-move-bullish-bets-run-up-against-a-historical-wall"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "url",
+      "proposition": {
+        "predicate": "url",
+        "object": "https://decrypt.co/377052/bitcoins-next-move-bullish-bets-run-up-against-a-historical-wall"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "crypto",
+        "citation": "https://decrypt.co/377052/bitcoins-next-move-bullish-bets-run-up-against-a-historical-wall"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "summary",
+      "proposition": {
+        "predicate": "summary",
+        "object": "Bitcoin just had one its best months in years amid a price rally that broke the crypto winter pattern. But the charts tell a complicated story."
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "crypto",
+        "citation": "https://decrypt.co/377052/bitcoins-next-move-bullish-bets-run-up-against-a-historical-wall"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "published",
+      "proposition": {
+        "predicate": "published",
+        "object": "Tue, 01 Sep 2026 18:22:09 +0000"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "crypto",
+        "citation": "https://decrypt.co/377052/bitcoins-next-move-bullish-bets-run-up-against-a-historical-wall"
+      },
+      "status": "supported"
+    }
+  ]
+}

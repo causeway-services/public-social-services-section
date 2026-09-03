@@ -1,0 +1,69 @@
+{
+  "subject": "lindsay-clancy-can-t-handle-another-trial-her-lawyer-says",
+  "claims": [
+    {
+      "id": "title",
+      "proposition": {
+        "predicate": "title",
+        "object": "Lindsay Clancy can’t handle another trial, her lawyer says"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "us-politics",
+        "citation": "https://thehill.com/homenews/6067026-lindsay-clancy-trial-lawyer/"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "url",
+      "proposition": {
+        "predicate": "url",
+        "object": "https://thehill.com/homenews/6067026-lindsay-clancy-trial-lawyer/"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "us-politics",
+        "citation": "https://thehill.com/homenews/6067026-lindsay-clancy-trial-lawyer/"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "summary",
+      "proposition": {
+        "predicate": "summary",
+        "object": "On Tuesday, the jury in Clancy's trial told the court they were deadlocked, raising the possibility the case could end with a hung jury."
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "us-politics",
+        "citation": "https://thehill.com/homenews/6067026-lindsay-clancy-trial-lawyer/"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "published",
+      "proposition": {
+        "predicate": "published",
+        "object": "Wed, 02 Sep 2026 21:20:08 +0000"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "us-politics",
+        "citation": "https://thehill.com/homenews/6067026-lindsay-clancy-trial-lawyer/"
+      },
+      "status": "supported"
+    }
+  ]
+}

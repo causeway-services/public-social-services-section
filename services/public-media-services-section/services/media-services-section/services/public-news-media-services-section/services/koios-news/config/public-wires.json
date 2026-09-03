@@ -1,0 +1,74 @@
+{
+  "kind": "koios.news.public-wires/v1",
+  "description": "Syndication wires acquired into the koios.news claim store, one store category per wire. Sources are public RSS/Atom feeds; only headline, link, summary, and publication time are recorded, each as an attributed claim.",
+  "wires": [
+    { "name": "world", "sources": [
+      { "adapter": "rss", "url": "https://feeds.bbci.co.uk/news/world/rss.xml", "max": 40 },
+      { "adapter": "rss", "url": "https://www.theguardian.com/world/rss", "max": 40 },
+      { "adapter": "rss", "url": "https://www.aljazeera.com/xml/rss/all.xml", "max": 40 }
+    ] },
+    { "name": "us-politics", "sources": [
+      { "adapter": "rss", "url": "https://feeds.npr.org/1014/rss.xml", "max": 40 },
+      { "adapter": "rss", "url": "https://www.theguardian.com/us-news/us-politics/rss", "max": 40 },
+      { "adapter": "rss", "url": "https://thehill.com/feed/", "max": 40 }
+    ] },
+    { "name": "politics", "sources": [
+      { "adapter": "rss", "url": "https://www.theguardian.com/politics/rss", "max": 40 },
+      { "adapter": "rss", "url": "https://feeds.bbci.co.uk/news/politics/rss.xml", "max": 40 }
+    ] },
+    { "name": "economy", "sources": [
+      { "adapter": "rss", "url": "https://www.theguardian.com/uk/business/rss", "max": 40 },
+      { "adapter": "rss", "url": "https://feeds.bbci.co.uk/news/business/rss.xml", "max": 40 },
+      { "adapter": "rss", "url": "https://www.cnbc.com/id/10001147/device/rss/rss.html", "max": 40 }
+    ] },
+    { "name": "crypto", "sources": [
+      { "adapter": "rss", "url": "https://www.coindesk.com/arc/outboundfeeds/rss/", "max": 40 },
+      { "adapter": "rss", "url": "https://cointelegraph.com/rss", "max": 40 },
+      { "adapter": "rss", "url": "https://decrypt.co/feed", "max": 40 }
+    ] },
+    { "name": "technology", "sources": [
+      { "adapter": "rss", "url": "https://www.theverge.com/rss/index.xml", "max": 40 },
+      { "adapter": "rss", "url": "https://feeds.arstechnica.com/arstechnica/index", "max": 40 },
+      { "adapter": "rss", "url": "https://www.theguardian.com/uk/technology/rss", "max": 40 },
+      { "adapter": "rss", "url": "https://www.theregister.com/headlines.atom", "max": 40 }
+    ] },
+    { "name": "science", "sources": [
+      { "adapter": "rss", "url": "https://www.theguardian.com/science/rss", "max": 40 },
+      { "adapter": "rss", "url": "https://feeds.bbci.co.uk/news/science_and_environment/rss.xml", "max": 40 },
+      { "adapter": "rss", "url": "https://www.sciencedaily.com/rss/top/science.xml", "max": 40 }
+    ] },
+    { "name": "environment", "sources": [
+      { "adapter": "rss", "url": "https://www.theguardian.com/environment/climate-crisis/rss", "max": 40 },
+      { "adapter": "rss", "url": "https://insideclimatenews.org/feed/", "max": 40 },
+      { "adapter": "rss", "url": "https://grist.org/feed/", "max": 40 },
+      { "adapter": "rss", "url": "https://www.carbonbrief.org/feed/", "max": 40 }
+    ] },
+    { "name": "health", "sources": [
+      { "adapter": "rss", "url": "https://www.theguardian.com/society/health/rss", "max": 40 },
+      { "adapter": "rss", "url": "https://feeds.bbci.co.uk/news/health/rss.xml", "max": 40 },
+      { "adapter": "rss", "url": "https://www.statnews.com/feed/", "max": 40 }
+    ] },
+    { "name": "entertainment", "sources": [
+      { "adapter": "rss", "url": "https://variety.com/feed/", "max": 40 },
+      { "adapter": "rss", "url": "https://www.hollywoodreporter.com/feed/", "max": 40 },
+      { "adapter": "rss", "url": "https://www.rollingstone.com/feed/", "max": 40 },
+      { "adapter": "rss", "url": "https://www.theguardian.com/film/rss", "max": 40 },
+      { "adapter": "rss", "url": "https://www.theguardian.com/music/rss", "max": 40 },
+      { "adapter": "rss", "url": "https://feeds.bbci.co.uk/news/entertainment_and_arts/rss.xml", "max": 40 }
+    ] },
+    { "name": "culture", "sources": [
+      { "adapter": "rss", "url": "https://www.theguardian.com/culture/rss", "max": 40 },
+      { "adapter": "rss", "url": "https://www.theguardian.com/books/rss", "max": 40 }
+    ] },
+    { "name": "sport", "sources": [
+      { "adapter": "rss", "url": "https://www.theguardian.com/sport/rss", "max": 40 },
+      { "adapter": "rss", "url": "https://feeds.bbci.co.uk/sport/rss.xml", "max": 40 },
+      { "adapter": "rss", "url": "https://www.espn.com/espn/rss/news", "max": 40 },
+      { "adapter": "rss", "url": "https://www.theguardian.com/football/rss", "max": 40 }
+    ] },
+    { "name": "war", "sources": [
+      { "adapter": "rss", "url": "https://www.theguardian.com/world/ukraine/rss", "max": 40 },
+      { "adapter": "rss", "url": "https://www.theguardian.com/world/middleeast/rss", "max": 40 }
+    ] }
+  ]
+}

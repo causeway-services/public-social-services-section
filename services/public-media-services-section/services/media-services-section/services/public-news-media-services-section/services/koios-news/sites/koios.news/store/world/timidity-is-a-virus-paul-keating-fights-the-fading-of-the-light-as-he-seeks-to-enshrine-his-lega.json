@@ -1,0 +1,69 @@
+{
+  "subject": "timidity-is-a-virus-paul-keating-fights-the-fading-of-the-light-as-he-seeks-to-enshrine-his-lega",
+  "claims": [
+    {
+      "id": "title",
+      "proposition": {
+        "predicate": "title",
+        "object": "‘Timidity is a virus’: Paul Keating fights the fading of the light as he seeks to enshrine his legacy"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "world",
+        "citation": "https://www.theguardian.com/australia-news/2026/sep/02/timidity-is-a-virus-paul-keating-fights-the-fading-of-the-light-as-he-seeks-to-enshrine-his-legacy"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "url",
+      "proposition": {
+        "predicate": "url",
+        "object": "https://www.theguardian.com/australia-news/2026/sep/02/timidity-is-a-virus-paul-keating-fights-the-fading-of-the-light-as-he-seeks-to-enshrine-his-legacy"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "world",
+        "citation": "https://www.theguardian.com/australia-news/2026/sep/02/timidity-is-a-virus-paul-keating-fights-the-fading-of-the-light-as-he-seeks-to-enshrine-his-legacy"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "summary",
+      "proposition": {
+        "predicate": "summary",
+        "object": "<p>As a major new biography of the former prime minister goes on sale, he talks about meeting the Queen, Trump’s aims, and why his big vision will never fade</p><ul><li><p><a href=\"https://www.theguardian.com/australia-news/live/2026/sep/03/anthony-albanese-one-nation-jim-chalmers-labor-liberal-angus-taylor-tobacco-plan-ntwnfb\">Follow our Australia news live blog for latest updates</a></p></li><li><p>Get our <a href=\"https://www.theguardian.com/email-newsletters?CMP=cvau_sfl\">breaking news email</a>, <a href=\"https://app.adjust.com/w4u7jx3\">free app</a> or <a href=\"https://www.theguardian.com/australia-news/series/full-story?CMP=cvau_sfl\">daily news podcast</a></p></li></ul><p>Queen Elizabeth II met Paul Keating “alone, to her credit” in what the prime minister was informed was her great-great-grandmother Queen Victoria’s favourite room at Balmoral Castle.</p><p>“And I took some pleasure in explaining the furniture to her,” Keating recalls, an old elan breaking through.</p> <a href=\"https://www.theguardian.com/australia-news/2026/sep/02/timidity-is-a-virus-paul-keating-fights-the-fading-of-the-light-as-he-seeks-to-enshrine-his-legacy\">Continue reading...</a>"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "world",
+        "citation": "https://www.theguardian.com/australia-news/2026/sep/02/timidity-is-a-virus-paul-keating-fights-the-fading-of-the-light-as-he-seeks-to-enshrine-his-legacy"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "published",
+      "proposition": {
+        "predicate": "published",
+        "object": "Wed, 02 Sep 2026 13:24:50 GMT"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "world",
+        "citation": "https://www.theguardian.com/australia-news/2026/sep/02/timidity-is-a-virus-paul-keating-fights-the-fading-of-the-light-as-he-seeks-to-enshrine-his-legacy"
+      },
+      "status": "supported"
+    }
+  ]
+}

@@ -1,0 +1,69 @@
+{
+  "subject": "bugatti-ceo-mate-rimac-says-the-future-of-supercars-is-old-school-combustion-engines",
+  "claims": [
+    {
+      "id": "title",
+      "proposition": {
+        "predicate": "title",
+        "object": "Bugatti CEO Mate Rimac says the future of supercars is old-school combustion engines"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "economy",
+        "citation": "https://www.cnbc.com/2026/08/25/bugatti-ceo-mate-rimac-supercars-gas-engines.html"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "url",
+      "proposition": {
+        "predicate": "url",
+        "object": "https://www.cnbc.com/2026/08/25/bugatti-ceo-mate-rimac-supercars-gas-engines.html"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "economy",
+        "citation": "https://www.cnbc.com/2026/08/25/bugatti-ceo-mate-rimac-supercars-gas-engines.html"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "summary",
+      "proposition": {
+        "predicate": "summary",
+        "object": "Bugatti CEO Mate Rimac told CNBC he thinks high-end sports cars will continue to have combustion engines \"for a very long time\" even with the rise of EVs."
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "economy",
+        "citation": "https://www.cnbc.com/2026/08/25/bugatti-ceo-mate-rimac-supercars-gas-engines.html"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "published",
+      "proposition": {
+        "predicate": "published",
+        "object": "Tue, 25 Aug 2026 11:30:01 GMT"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "economy",
+        "citation": "https://www.cnbc.com/2026/08/25/bugatti-ceo-mate-rimac-supercars-gas-engines.html"
+      },
+      "status": "supported"
+    }
+  ]
+}

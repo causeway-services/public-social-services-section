@@ -1,0 +1,69 @@
+{
+  "subject": "uk-houses-near-top-state-secondary-schools-cost-40-000-more-research-reveals",
+  "claims": [
+    {
+      "id": "title",
+      "proposition": {
+        "predicate": "title",
+        "object": "UK houses near top state secondary schools cost £40,000 more, research reveals"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "economy",
+        "citation": "https://www.theguardian.com/money/2026/sep/01/uk-houses-near-top-state-secondary-schools-cost-40000-more"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "url",
+      "proposition": {
+        "predicate": "url",
+        "object": "https://www.theguardian.com/money/2026/sep/01/uk-houses-near-top-state-secondary-schools-cost-40000-more"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "economy",
+        "citation": "https://www.theguardian.com/money/2026/sep/01/uk-houses-near-top-state-secondary-schools-cost-40000-more"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "summary",
+      "proposition": {
+        "predicate": "summary",
+        "object": "<p>Premium of nearly 10% paid by housebuyers comparable with cost of a cheaper private school over seven years</p><p>A house near a top state secondary school costs an extra £40,000 on average, according to research that reveals education premiums that rank alongside some private school fees.</p><p>The average property in a postcode district that includes a top 50 state secondary commands a price tag of £415,791, compared with £375,217 across the wider local authority areas in which those schools are located, a UK-wide analysis by the estate agent Yopa found.</p> <a href=\"https://www.theguardian.com/money/2026/sep/01/uk-houses-near-top-state-secondary-schools-cost-40000-more\">Continue reading...</a>"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "economy",
+        "citation": "https://www.theguardian.com/money/2026/sep/01/uk-houses-near-top-state-secondary-schools-cost-40000-more"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "published",
+      "proposition": {
+        "predicate": "published",
+        "object": "Mon, 31 Aug 2026 23:01:37 GMT"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "economy",
+        "citation": "https://www.theguardian.com/money/2026/sep/01/uk-houses-near-top-state-secondary-schools-cost-40000-more"
+      },
+      "status": "supported"
+    }
+  ]
+}

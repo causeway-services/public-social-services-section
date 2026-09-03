@@ -1,0 +1,69 @@
+{
+  "subject": "i-want-your-sex-review-vampy-olivia-wilde-almost-saves-gregg-araki-s-tame-dom-sub-romp",
+  "claims": [
+    {
+      "id": "title",
+      "proposition": {
+        "predicate": "title",
+        "object": "I Want Your Sex review – vampy Olivia Wilde almost saves Gregg Araki’s tame dom-sub romp"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "entertainment",
+        "citation": "https://www.theguardian.com/film/2026/jan/24/i-want-your-sex-review-gregg-araki"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "url",
+      "proposition": {
+        "predicate": "url",
+        "object": "https://www.theguardian.com/film/2026/jan/24/i-want-your-sex-review-gregg-araki"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "entertainment",
+        "citation": "https://www.theguardian.com/film/2026/jan/24/i-want-your-sex-review-gregg-araki"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "summary",
+      "proposition": {
+        "predicate": "summary",
+        "object": "<p>As a provocative artist using sex to wield power, the actor is electric but the writer-director’s return to his campy, dayglo roots is largely underwhelming</p><p>While Sundance is traditionally focused on the importance of looking to the future of American film, a lineup filled with more first-timers than any other major festival, this year has been all about looking back. There are misty eyes over the loss of founder Robert Redford along with host state Utah and also for the many films that have premiered here over the years. Alongside more retrospective screenings than one usually expects, even the new films have a touch of old Sundance to them.</p><p>On opening day, Rachel Lambert’s small-town drama <a href=\"https://www.theguardian.com/film/2026/jan/23/carousel-review-chris-pine-and-jenny-slate-are-lost-in-static-romance-drama\">Carousel</a> conjured up memories of quiet character-driven indies of the late 90s and early 00s and then, on a Friday full of packed-out premieres, I Want Your Sex took us back to the era’s more in-your-face acts of provocation, made by renegade outsiders who would have otherwise struggled to find a place in the industry. It’s the new film from Gregg Araki, a film-maker who was at the forefront of this particular wave, one of Sundance’s most loved enfants terribles. He’s premiered most of his films here, from “heterosexual movie” The Doom Generation to magnum opus Mysterious Skin to all-time stoner comedy Smiley Face to 2014’s misbegotten drama White Bird in a Blizzard, his last film until now.</p><p>I Want Your Sex screened at the Sundance film festival and is out in the US on 31 July and in the UK on 28 August.</p> <a href=\"https://www.theguardian.com/film/2026/jan/24/i-want-your-sex-review-gregg-araki\">Continue reading...</a>"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "entertainment",
+        "citation": "https://www.theguardian.com/film/2026/jan/24/i-want-your-sex-review-gregg-araki"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "published",
+      "proposition": {
+        "predicate": "published",
+        "object": "Sat, 24 Jan 2026 16:15:34 GMT"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "entertainment",
+        "citation": "https://www.theguardian.com/film/2026/jan/24/i-want-your-sex-review-gregg-araki"
+      },
+      "status": "supported"
+    }
+  ]
+}

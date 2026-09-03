@@ -1,0 +1,69 @@
+{
+  "subject": "stat-pharmalittle-we-re-reading-about-novartis-and-bristol-pausing-cell-therapy-trials-a-480k-ca",
+  "claims": [
+    {
+      "id": "title",
+      "proposition": {
+        "predicate": "title",
+        "object": "STAT+: Pharmalittle: We’re reading about Novartis and Bristol pausing cell therapy trials, a $480K cancer drug, and more"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "health",
+        "citation": "https://www.statnews.com/pharmalot/2026/09/01/novartis-bristol-trials-paused-pancreatic-cancer-drug-price-pharmalittle-newsletter/?utm_campaign=rss"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "url",
+      "proposition": {
+        "predicate": "url",
+        "object": "https://www.statnews.com/pharmalot/2026/09/01/novartis-bristol-trials-paused-pancreatic-cancer-drug-price-pharmalittle-newsletter/?utm_campaign=rss"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "health",
+        "citation": "https://www.statnews.com/pharmalot/2026/09/01/novartis-bristol-trials-paused-pancreatic-cancer-drug-price-pharmalittle-newsletter/?utm_campaign=rss"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "summary",
+      "proposition": {
+        "predicate": "summary",
+        "object": "Hello there from STAT’s London outpost, with Andrew Joseph here filling in for Mr. Pharmalot for a couple of days. The calendar may say September, but just remember, a combination of stubbornness, denial, and determination can keep the summer feeling alive for yet a few more weeks. One thing certainly not on summer break is the headlines. To them we go … President Trump has announced the next round of pricing deals with drugmakers, with nine companies joining the 17 that reached agreements with the administration previously , STAT tells us. The new companies striking deals — Alcon, Astellas, BeOne, BridgeBio, CSL, Sun Pharma, Kyowa Kirin, Teva, and UCB — made pledges similar to those made by larger drugmakers before them: to sell new medications to U.S. patients at prices comparable to the lowest prices in peer countries, to offer their drugs to state Medicaid programs at “most-favored nation” prices, and, in some instances, to bolster domestic manufacturing and contribute to the U.S. medical stockpiles. The details of the new deals, however, have not been publicly released, and it’s not clear what broad effect these agreements will have on drug costs and accessibility. Novartis and Bristol Myers Squibb have paused multiple trials evaluating their respective cell therapy programs against autoimmune conditions after observing inflammatory side effects in testing , BioPharma Dive reports. The holds came as three patients in Novartis trials of the CAR-T rap-cel died from a dangerous immune system reaction, Endpoints adds. Bristol Myers has also voluntarily paused enrollment in autoimmune trials evaluating its own CAR-T treatment zola-cel. One possible explanation is that both rap-cel and zola-cel are being developed with technology that’s meant to speed up production compared to earlier CAR-T products. Continue to STAT+ to read the full story&hellip;"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "health",
+        "citation": "https://www.statnews.com/pharmalot/2026/09/01/novartis-bristol-trials-paused-pancreatic-cancer-drug-price-pharmalittle-newsletter/?utm_campaign=rss"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "published",
+      "proposition": {
+        "predicate": "published",
+        "object": "Tue, 01 Sep 2026 13:21:06 +0000"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "health",
+        "citation": "https://www.statnews.com/pharmalot/2026/09/01/novartis-bristol-trials-paused-pancreatic-cancer-drug-price-pharmalittle-newsletter/?utm_campaign=rss"
+      },
+      "status": "supported"
+    }
+  ]
+}

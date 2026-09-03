@@ -1,0 +1,69 @@
+{
+  "subject": "us-companies-are-on-the-cusp-of-big-climate-solutions-thank-the-government",
+  "claims": [
+    {
+      "id": "title",
+      "proposition": {
+        "predicate": "title",
+        "object": "US companies are on the cusp of big climate solutions. Thank the government."
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "environment",
+        "citation": "https://grist.org/energy/department-of-energy-arpa-e-climate-technology/"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "url",
+      "proposition": {
+        "predicate": "url",
+        "object": "https://grist.org/energy/department-of-energy-arpa-e-climate-technology/"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "environment",
+        "citation": "https://grist.org/energy/department-of-energy-arpa-e-climate-technology/"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "summary",
+      "proposition": {
+        "predicate": "summary",
+        "object": "The United States has never been one of the most ambitious countries when it comes to tackling climate change, but it has long maintained a program that funds innovative clean energy technology. This program is known as the Advanced Research Projects Agency–Energy, or ARPA-E, and over the past 15 years it has doled out more than $4 billion to universities and startups that are trying to change the way we produce energy. It’s very hard to raise money for this kind of moon shot technology, which can take years or even decades to scale up large enough to generate a profit. A huge number of emergent technologies never attract the funding to cross this “valley of death” between experiment and big business. The purpose of the Department of Energy’s ARPA-E, which was modeled on a similar program run by the U.S. military, was to help energy inventors span this gap and develop the climate technologies of the future. A landmark report from the National Academies of Science, requested by Congress and released last week, has found that this high-risk, high-reward program is working: ARPA-E’s $4 billion investment has led to more than $20 billion in additional funding and more than 1,400 patents. Projects that received ARPA-E money were much more likely to get patents and additional investment than projects that were denied. The report also found that around 40 percent of ARPA-E grants led to a “crowding in” effect: After a startup proves that a new technology is feasible, other companies jump in and try to replicate it.&nbsp; “We’re trying to enable very talented people who could be doing other things to spend their lives trying to do incredibly risky things that, probabilistically speaking, will not deliver a profit in time to benefit them,” said Chris Bataille, a fellow at the Columbia University Center on Global Energy Policy and an expert on the development of clean energy technology who was not involved in the report. The report committee, which consisted of more than a dozen scientists and energy experts, recommended that Congress significantly expand ARPA-E’s funding. It also found that the program should shift its focus from renewables and electric vehicles toward a harder set of energy problems — a shift for which the Trump administration has signaled its partial support. ARPA-E began in 2009, and many of its early grants focused on improving solar panels and lithium -ion batteries , which weren’t yet ready to compete with traditional energy sources on a large scale. (A different Department of Energy program offered early support to Tesla.) The technologies have since gotten hundreds of times cheaper thanks to China’s massive investment in manufacturing overcapacity. Among the report’s most notable findings is that ARPA-E doesn’t need to focus on this renewable tech anymore. This finding echoes some climate experts’ claim that solar no longer needs tax subsidies like those in the Inflation Reduction Act passed during Joe Biden’s presidency.&nbsp; But solar and wind only work when the sun is shining and the wind is blowing, and most of the country’s grid still relies on coal and gas plants that can run at all hours of the day. This is especially true for factories and data centers, which need large and constant infusions of electricity in order to stay online. It’s here that ARPA-E’s investments are really starting to bear fruit. Many of the program’s more recent grantees have been companies trying to solve the problem of “clean firm” power available around the clock. The most notable is Fervo , a company that uses super-deep wells to convert the ambient geothermal heat of the Earth into electricity. The company received ARPA-E support as early as 2019 and went public this year on the heels of a few successful demonstration projects. It’s now inking deals with Google to power data centers in Nevada. Other success stories include Form Energy , which develops iron-air batteries that can store large amounts of clean energy for multiple days at a time, and X-energy , which builds small-scale nuclear reactors. Read Next China’s solar industry is losing money. The country is doubling down anyway. Austin Corona Given this success, the report authors argue that ARPA-E should now shift its investment to the hardest climate problems, the ones where solutions could still be decades away. Potential opportunity areas include nuclear fusion, which in theory would provide almost limitless clean energy if it ever panned out. There’s also “seasonal energy storage,” or batteries that could store solar and wind energy for long winter months when those resources aren’t as available in a given location. Perhaps most significant for the climate would be carbon-free methods for producing steel and cement, which each account for around 8 percent of global emissions. “You need this sort of constant innovation to move us off the fossil fuel pathway, right? Because we’re very firmly entrenched on it,” said Bataille. “We’re talking about projects that will likely be profitable, but they’re just not valued unless the government values them. There’s probably one-one-hundredth of the necessary money going into those.”&nbsp;&nbsp; President Donald Trump tried to defund ARPA-E in his first term by withholding funds appropriated by Congress. So far, during his second term, the administration has attempted to wipe billions of dollars in Biden-era climate grants. Trump’s budget request to Congress this year called for shrinking ARPA-E by almost 50 percent , but the Department of Energy is still handing out new grants for experimental tech like long-duration energy storage, fusion reactors, and mining for critical minerals like lithium. In a statement to Grist, the department said that ARPA-E is “advancing President Trump’s agenda to restore American energy dominance” by “backing breakthrough, high-risk technologies.” The proposed funding cut, on the other hand, “demonstrates fiscal discipline and a commitment to an efficient and effective federal government.” Even though Trump hasn’t destroyed the program itself, his policies have hindered the growth of the clean tech field that ARPA-E helped to advance. A case in point is Natron Energy, a company that received ARPA-E grant funding to develop experimental sodium-ion batteries. The company announced in 2024 that it would build a $1.4 billion plant in Rocky Mount, North Carolina, but Trump’s reelection dampened private sector interest in electric vehicles, and the company failed to secure investors for its factory. The company shut down last year. toolTips('.classtoolTips1',' A type of rechargeable battery that functions by shifting lithium ions between two charged metal components, the anode and cathode , and is commonly used to power EVs and consumer electronics. '); toolTips('.classtoolTips8',' A lightweight, silvery-white alkali metal with properties that allow it to store large amounts of energy. Lithium is a key component of many batteries, including those that store renewable energy and power electric vehicles. '); This story was originally published by Grist with the headline US companies are on the cusp of big climate solutions. Thank the government. on Aug 25, 2026."
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "environment",
+        "citation": "https://grist.org/energy/department-of-energy-arpa-e-climate-technology/"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "published",
+      "proposition": {
+        "predicate": "published",
+        "object": "Tue, 25 Aug 2026 08:45:00 +0000"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "environment",
+        "citation": "https://grist.org/energy/department-of-energy-arpa-e-climate-technology/"
+      },
+      "status": "supported"
+    }
+  ]
+}

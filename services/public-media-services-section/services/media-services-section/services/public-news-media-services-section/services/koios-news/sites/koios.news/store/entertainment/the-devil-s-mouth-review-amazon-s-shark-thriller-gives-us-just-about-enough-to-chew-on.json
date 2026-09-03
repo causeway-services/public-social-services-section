@@ -1,0 +1,69 @@
+{
+  "subject": "the-devil-s-mouth-review-amazon-s-shark-thriller-gives-us-just-about-enough-to-chew-on",
+  "claims": [
+    {
+      "id": "title",
+      "proposition": {
+        "predicate": "title",
+        "object": "The Devil’s Mouth review – Amazon’s shark thriller gives us just about enough to chew on"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "entertainment",
+        "citation": "https://www.theguardian.com/film/2026/jul/29/the-devils-mouth-review-amazon-shark-thriller"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "url",
+      "proposition": {
+        "predicate": "url",
+        "object": "https://www.theguardian.com/film/2026/jul/29/the-devils-mouth-review-amazon-shark-thriller"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "entertainment",
+        "citation": "https://www.theguardian.com/film/2026/jul/29/the-devils-mouth-review-amazon-shark-thriller"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "summary",
+      "proposition": {
+        "predicate": "summary",
+        "object": "<p>A group of holidaying friends get trapped in a cave system with a bull shark in a solidly entertaining B-movie lifted by a toxic central friendship</p><p>We’ve officially reached <a href=\"https://www.theguardian.com/film/2026/jul/28/shark-week-movies\">maximum shark movie this year</a>, with about six released so far and even more on the way and so the drop of yet another one, in the middle of Shark Week, raises a number of questions: is it in any way essential? Will anyone ever come close to matching what Steven Spielberg achieved with Jaws or, more realistically, Renny Harlin with Deep Blue Sea? How junky are the shark effects? And most importantly, at least for those of us watching the majority of them, is it more of the same or is there an attempt to do something even slightly new with the swim, stalk, slash formula?</p><p>Trying something a little different is in itself extremely hit-and-miss because while I appreciated last year’s unusually striking <a href=\"https://www.youtube.com/watch?v=WR2btzjmmuc\">Dangerous Animals</a> for smartly inserting a serial killer into the mix, the addition of a hurricane to this year’s Netflix one-star dud <a href=\"https://www.theguardian.com/film/2026/apr/10/thrash-review-netflix-shark-thriller-sinks\">Thrash</a> meant that the film was both a terrible shark horror <em>and</em> a terrible disaster thriller. In recent months, we’ve seen Harlin return to the subgenre with <a href=\"https://www.theguardian.com/film/2026/jul/14/deep-water-review-aaron-eckhart\">Deep Water</a> weaving in a plane crash and this week’s Antonio Banderas-starring <a href=\"https://www.youtube.com/watch?v=18wdUGRPUY4\">Above &amp; Below</a> adding a drug cartel which makes the week’s other shark movie, Amazon’s gen Z-led offering The Devil’s Mouth, seem somewhat quaint in comparison. The special ingredient here is something a little less grandiose, but more potentially intriguing: a toxic friendship. It’s a movie that asks the rare question: what if you finally came to terms with how awful your best friend is just as a bull shark starts picking you off?</p> <a href=\"https://www.theguardian.com/film/2026/jul/29/the-devils-mouth-review-amazon-shark-thriller\">Continue reading...</a>"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "entertainment",
+        "citation": "https://www.theguardian.com/film/2026/jul/29/the-devils-mouth-review-amazon-shark-thriller"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "published",
+      "proposition": {
+        "predicate": "published",
+        "object": "Wed, 29 Jul 2026 07:00:26 GMT"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "entertainment",
+        "citation": "https://www.theguardian.com/film/2026/jul/29/the-devils-mouth-review-amazon-shark-thriller"
+      },
+      "status": "supported"
+    }
+  ]
+}

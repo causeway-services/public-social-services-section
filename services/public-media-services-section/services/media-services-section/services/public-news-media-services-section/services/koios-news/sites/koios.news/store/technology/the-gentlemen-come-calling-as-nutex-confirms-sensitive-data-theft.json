@@ -1,0 +1,69 @@
+{
+  "subject": "the-gentlemen-come-calling-as-nutex-confirms-sensitive-data-theft",
+  "claims": [
+    {
+      "id": "title",
+      "proposition": {
+        "predicate": "title",
+        "object": "The Gentlemen come calling as Nutex confirms sensitive data theft"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "technology",
+        "citation": "https://www.theregister.com/cyber-crime/2026/09/01/the-gentlemen-come-calling-as-nutex-confirms-sensitive-data-theft/5293642"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "url",
+      "proposition": {
+        "predicate": "url",
+        "object": "https://www.theregister.com/cyber-crime/2026/09/01/the-gentlemen-come-calling-as-nutex-confirms-sensitive-data-theft/5293642"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "technology",
+        "citation": "https://www.theregister.com/cyber-crime/2026/09/01/the-gentlemen-come-calling-as-nutex-confirms-sensitive-data-theft/5293642"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "summary",
+      "proposition": {
+        "predicate": "summary",
+        "object": "US hospital operator Nutex Health says attackers stole private or confidential patient, employee, provider, business, and financial information during the cyberattack it disclosed last week. In an updated filing submitted to the Securities and Exchange Commission (SEC) on Monday, Nutex also said an unauthorized third party had threatened to publish the stolen information. Nutex initially disclosed the intrusion on August 24 under Item 8.01 of Form 8-K, the catch-all category for \"Other Events.\" Although it already believed some private or confidential information had been exfiltrated, it had not determined whether the stolen material included patient, employee, provider, business, financial, or intellectual property data. The company has now reported the incident under Item 1.05, the section reserved for material cybersecurity incidents, as its investigation continues to determine precisely what was taken and who was affected. Nutex did not identify the intruders. However, The Gentlemen ransomware-as-a-service (RaaS) operation added the company to its leak site on Monday and claimed responsibility for the attack. The gang offered no evidence or details to substantiate its claim. Naming victims on a leak site and threatening to publish their data is a standard pressure tactic in double-extortion attacks. Nutex's hospital division now operates 28 facilities across 12 states. A proposed class action was filed against the company on August 27 on behalf of people whose personally identifiable information or protected health information was allegedly accessed or acquired during the intrusion. Nutex said it could not predict the litigation's outcome and had not identified any material impact on its operations or financial reporting systems. The Gentlemen emerged in mid-2025, reportedly after former Qilin affiliates fell out with that gang's leadership and launched a rival RaaS operation. Researchers describe it as a primarily Russian-speaking operation whose victims are generally located outside the Commonwealth of Independent States. In May, Microsoft detailed a self-propagating encryptor used by the gang's affiliates. The malware combines multiple lateral-movement techniques, Microsoft warned, \"increasing the likelihood of widespread impact once initial access is achieved.\" ®"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "technology",
+        "citation": "https://www.theregister.com/cyber-crime/2026/09/01/the-gentlemen-come-calling-as-nutex-confirms-sensitive-data-theft/5293642"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "published",
+      "proposition": {
+        "predicate": "published",
+        "object": "Tue, 01 Sep 2026 14:45:00 +0200"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "technology",
+        "citation": "https://www.theregister.com/cyber-crime/2026/09/01/the-gentlemen-come-calling-as-nutex-confirms-sensitive-data-theft/5293642"
+      },
+      "status": "supported"
+    }
+  ]
+}

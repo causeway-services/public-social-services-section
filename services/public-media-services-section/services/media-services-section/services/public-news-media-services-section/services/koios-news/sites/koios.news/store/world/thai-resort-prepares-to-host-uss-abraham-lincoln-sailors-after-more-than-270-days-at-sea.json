@@ -1,0 +1,69 @@
+{
+  "subject": "thai-resort-prepares-to-host-uss-abraham-lincoln-sailors-after-more-than-270-days-at-sea",
+  "claims": [
+    {
+      "id": "title",
+      "proposition": {
+        "predicate": "title",
+        "object": "Thai resort prepares to host USS Abraham Lincoln sailors after more than 270 days at sea"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "world",
+        "citation": "https://www.theguardian.com/world/2026/sep/01/thailand-pattaya-uss-abraham-lincoln-sailors-marines"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "url",
+      "proposition": {
+        "predicate": "url",
+        "object": "https://www.theguardian.com/world/2026/sep/01/thailand-pattaya-uss-abraham-lincoln-sailors-marines"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "world",
+        "citation": "https://www.theguardian.com/world/2026/sep/01/thailand-pattaya-uss-abraham-lincoln-sailors-marines"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "summary",
+      "proposition": {
+        "predicate": "summary",
+        "object": "<p>Security stepped up in Pattaya before arrival of thousands of sailors and marines whose deployment was extended due to US war in Iran</p><p>Authorities in the Thai resort city of Pattaya have stepped up security as they prepare to welcome thousands of sailors and marines from the USS Abraham Lincoln who have spent <a href=\"https://www.theguardian.com/us-news/2026/aug/12/uss-abraham-lincoln-overboard-extended-deployment\">more than 270 consecutive days at sea</a>.</p><p>“About 600 officials will provide security and other necessary assistance,” the provincial governor, Narit Niramaiwong, told AFP.</p> <a href=\"https://www.theguardian.com/world/2026/sep/01/thailand-pattaya-uss-abraham-lincoln-sailors-marines\">Continue reading...</a>"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "world",
+        "citation": "https://www.theguardian.com/world/2026/sep/01/thailand-pattaya-uss-abraham-lincoln-sailors-marines"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "published",
+      "proposition": {
+        "predicate": "published",
+        "object": "Tue, 01 Sep 2026 08:30:51 GMT"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "world",
+        "citation": "https://www.theguardian.com/world/2026/sep/01/thailand-pattaya-uss-abraham-lincoln-sailors-marines"
+      },
+      "status": "supported"
+    }
+  ]
+}

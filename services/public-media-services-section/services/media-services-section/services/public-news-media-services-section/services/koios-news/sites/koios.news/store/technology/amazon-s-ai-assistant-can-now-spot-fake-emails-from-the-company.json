@@ -1,0 +1,69 @@
+{
+  "subject": "amazon-s-ai-assistant-can-now-spot-fake-emails-from-the-company",
+  "claims": [
+    {
+      "id": "title",
+      "proposition": {
+        "predicate": "title",
+        "object": "Amazon’s AI assistant can now spot fake emails from the company"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "technology",
+        "citation": "https://www.theverge.com/tech/988518/amazon-alexa-for-shopping-verify-emails"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "url",
+      "proposition": {
+        "predicate": "url",
+        "object": "https://www.theverge.com/tech/988518/amazon-alexa-for-shopping-verify-emails"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "technology",
+        "citation": "https://www.theverge.com/tech/988518/amazon-alexa-for-shopping-verify-emails"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "summary",
+      "proposition": {
+        "predicate": "summary",
+        "object": "Amazon is trying to combat impersonation scams with a new feature that allows you to use its AI assistant to determine whether an email, text message, or phone call actually came from the company. With the update, you can ask Alexa for Shopping about a message you received, and it will use AI to compare it \"against a record of every message Amazon has sent,\" while also analyzing its contents, formatting, and the sender. As noted by Amazon, the assistant will only confirm that a message is real if it's \"completely certain.\" An example shared by Amazon shows a customer asking, \"Did Amazon just text me an OTP from 98626? Message came around 4: … Read the full story at The Verge."
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "technology",
+        "citation": "https://www.theverge.com/tech/988518/amazon-alexa-for-shopping-verify-emails"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "published",
+      "proposition": {
+        "predicate": "published",
+        "object": "2026-09-02T13:52:56-04:00"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "technology",
+        "citation": "https://www.theverge.com/tech/988518/amazon-alexa-for-shopping-verify-emails"
+      },
+      "status": "supported"
+    }
+  ]
+}

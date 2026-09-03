@@ -1,0 +1,69 @@
+{
+  "subject": "nike-s-second-nfl-rivalries-collection-adds-8-new-teams-to-its-roster",
+  "claims": [
+    {
+      "id": "title",
+      "proposition": {
+        "predicate": "title",
+        "object": "Nike’s Second NFL Rivalries Collection Adds 8 New Teams to Its Roster"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "entertainment",
+        "citation": "https://www.rollingstone.com/product-recommendations/lifestyle/shop-nike-rivalries-nfl-collection-september-2026-1235619200/"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "url",
+      "proposition": {
+        "predicate": "url",
+        "object": "https://www.rollingstone.com/product-recommendations/lifestyle/shop-nike-rivalries-nfl-collection-september-2026-1235619200/"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "entertainment",
+        "citation": "https://www.rollingstone.com/product-recommendations/lifestyle/shop-nike-rivalries-nfl-collection-september-2026-1235619200/"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "summary",
+      "proposition": {
+        "predicate": "summary",
+        "object": "The Bears, Colts, Jaguars and five other NFL franchises are getting their own special-edition Nike gear, including Air Max sneakers, jerseys, and hats"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "entertainment",
+        "citation": "https://www.rollingstone.com/product-recommendations/lifestyle/shop-nike-rivalries-nfl-collection-september-2026-1235619200/"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "published",
+      "proposition": {
+        "predicate": "published",
+        "object": "Wed, 02 Sep 2026 20:35:58 +0000"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "entertainment",
+        "citation": "https://www.rollingstone.com/product-recommendations/lifestyle/shop-nike-rivalries-nfl-collection-september-2026-1235619200/"
+      },
+      "status": "supported"
+    }
+  ]
+}

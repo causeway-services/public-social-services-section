@@ -1,5 +1,5 @@
 import { existsSync, mkdirSync, readFileSync, readdirSync, statSync, writeFileSync } from "node:fs";
-import { dirname, join } from "node:path";
+import { basename, dirname, join } from "node:path";
 import { projectWebFeedArtifacts } from "@red-cup-engineering/project-web-feed-artifacts-service";
 
 const HOME_PAGE_URL = "https://koios.news";
@@ -11,6 +11,8 @@ const PUBLICATION_NAME = "Koios.News";
 // used the same two-day window off the newest admitted item.
 const NEWS_SITEMAP_WINDOW_MS = 2 * 24 * 60 * 60 * 1000;
 const NEWS_SITEMAP_MAX_URLS = 1000;
+// RSS/Atom/JSON Feed carry the newest items only; wire.json carries the whole store.
+const FEED_MAX_ITEMS = 200;
 // XML 1.0 cannot represent these C0 controls.
 const XML_INVALID_CONTROL = /[\u0000-\u0008\u000b\u000c\u000e-\u001f\u007f]/u;
 
@@ -79,6 +81,7 @@ export function readStoreArticle({ category, path }) {
   const url = firstClaimValue(parsed.claims, "url");
   const summary = firstClaimValue(parsed.claims, "summary");
   const publishedRaw = firstClaimValue(parsed.claims, "published");
+  const witness = parsed.claims.map((claim) => claim?.provenance?.witness).find((value) => typeof value === "string" && value.trim() !== "");
   if (typeof title !== "string" || title.trim() === "") throw new Error(`${path}: title claim is required`);
   if (typeof url !== "string" || !/^https?:\/\//u.test(url)) throw new Error(`${path}: url claim must be an absolute http(s) URL`);
   for (const [field, value] of [["title", title], ["summary", summary]]) {
@@ -91,6 +94,9 @@ export function readStoreArticle({ category, path }) {
     title: title.trim(),
     summary: typeof summary === "string" && summary.trim() !== "" ? summary.trim() : undefined,
     publishedRaw: typeof publishedRaw === "string" && publishedRaw.trim() !== "" ? publishedRaw.trim() : undefined,
+    witness: witness === undefined ? undefined : witness.trim(),
+    slug: basename(path, ".json"),
+    claimCount: parsed.claims.length,
   });
 }
 
@@ -120,10 +126,11 @@ export function readStoreFeedItems(storeRoot) {
     }
     const existing = byUrl.get(article.url);
     if (existing === undefined) {
-      byUrl.set(article.url, { id: article.url, url: article.url, title: article.title, summary: article.summary, published, tags: new Set([article.category]) });
+      byUrl.set(article.url, { id: article.url, url: article.url, title: article.title, summary: article.summary, published, tags: new Set([article.category]), sources: [{ category: article.category, slug: article.slug, witness: article.witness, claimCount: article.claimCount }] });
       continue;
     }
     existing.tags.add(article.category);
+    existing.sources.push({ category: article.category, slug: article.slug, witness: article.witness, claimCount: article.claimCount });
     if (bytewise(published, existing.published) > 0) {
       existing.published = published;
       existing.title = article.title;
@@ -131,7 +138,7 @@ export function readStoreFeedItems(storeRoot) {
     }
   }
   const items = [...byUrl.values()]
-    .map((item) => Object.freeze({ ...item, tags: Object.freeze([...item.tags].sort()) }))
+    .map((item) => Object.freeze({ ...item, tags: Object.freeze([...item.tags].sort()), sources: Object.freeze([...item.sources].sort((left, right) => bytewise(left.category, right.category) || bytewise(left.slug, right.slug))) }))
     .sort((left, right) => bytewise(right.published, left.published) || bytewise(left.url, right.url));
   return Object.freeze({ items: Object.freeze(items), skipped: Object.freeze(skipped) });
 }
@@ -171,7 +178,7 @@ export function newsSitemapXml(items) {
 export function projectStoreFeedArtifacts({ storeRoot, paths = {} }) {
   const { items, skipped } = readStoreFeedItems(storeRoot);
   const channel = { title: CHANNEL_TITLE, homePageUrl: HOME_PAGE_URL, description: CHANNEL_DESCRIPTION, language: LANGUAGE };
-  const feedItems = items.map(({ id, url, title, summary, published, tags }) => ({
+  const feedItems = items.slice(0, FEED_MAX_ITEMS).map(({ id, url, title, summary, published, tags }) => ({
     id, url, title, published,
     ...(summary === undefined ? {} : { summary }),
     ...(tags.length === 0 ? {} : { tags }),
@@ -187,8 +194,16 @@ export function projectStoreFeedArtifacts({ storeRoot, paths = {} }) {
     mediaType: "application/xml; charset=utf-8",
     source: "feed:news-sitemap",
   });
+  const wireArtifact = Object.freeze({
+    path: paths.wire ?? "wire.json",
+    body: `${JSON.stringify({ kind: "koios.news.wire/v1", itemCount: items.length, skippedCount: skipped.length, newest: items[0]?.published, oldest: items.at(-1)?.published, items: items.map((item) => ({ url: item.url, title: item.title, ...(item.summary === undefined ? {} : { summary: item.summary }), published: item.published, tags: item.tags, sources: item.sources.map((source) => ({ category: source.category, slug: source.slug, ...(source.witness === undefined ? {} : { witness: source.witness }), claimCount: source.claimCount, claims: `claims/${source.category}/${source.slug}.json` })) })) }, null, 2)}\n`,
+    mediaType: "application/json; charset=utf-8",
+    source: "store:wire",
+  });
+  // The store itself, exposed verbatim: one claim object per article, byte-identical to disk.
+  const claimArtifacts = listStoreClaimFiles(storeRoot).map((entry) => Object.freeze({ path: `claims/${entry.category}/${basename(entry.path)}`, body: readFileSync(entry.path, "utf8"), mediaType: "application/json; charset=utf-8", source: "store:claims" }));
   return Object.freeze({
-    artifacts: Object.freeze([...feedArtifacts.artifacts, newsSitemapArtifact]),
+    artifacts: Object.freeze([...feedArtifacts.artifacts, newsSitemapArtifact, wireArtifact, ...claimArtifacts]),
     itemCount: items.length,
     skippedCount: skipped.length,
     skipped,

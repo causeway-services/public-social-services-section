@@ -1,0 +1,69 @@
+{
+  "subject": "researchers-fear-safety-disaster-ahead-of-openai-s-astra-release",
+  "claims": [
+    {
+      "id": "title",
+      "proposition": {
+        "predicate": "title",
+        "object": "Researchers fear safety disaster ahead of OpenAI’s Astra release"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "technology",
+        "citation": "https://www.theverge.com/ai-artificial-intelligence/988334/openai-astra-ai-monitoring-safety"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "url",
+      "proposition": {
+        "predicate": "url",
+        "object": "https://www.theverge.com/ai-artificial-intelligence/988334/openai-astra-ai-monitoring-safety"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "technology",
+        "citation": "https://www.theverge.com/ai-artificial-intelligence/988334/openai-astra-ai-monitoring-safety"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "summary",
+      "proposition": {
+        "predicate": "summary",
+        "object": "OpenAI is on the cusp of releasing its most powerful AI model yet, Astra, following weeks of delays to shore up safety protocols after its agents attacked real targets during testing. As details about the model trickle out, researchers are warning it \"may be the single worst development for AI security/safety to date.\" Shortly after OpenAI said on Tuesday that it had delayed Astra's release to work on safety issues, The Information reported that Astra shows far less of its \"thinking\" than other frontier AI models, sparking concern it could be dangerously hard to monitor. Most top AI systems today are built using a technology known as a tra … Read the full story at The Verge."
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "technology",
+        "citation": "https://www.theverge.com/ai-artificial-intelligence/988334/openai-astra-ai-monitoring-safety"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "published",
+      "proposition": {
+        "predicate": "published",
+        "object": "2026-09-02T12:40:50-04:00"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "technology",
+        "citation": "https://www.theverge.com/ai-artificial-intelligence/988334/openai-astra-ai-monitoring-safety"
+      },
+      "status": "supported"
+    }
+  ]
+}

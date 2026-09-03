@@ -1,0 +1,69 @@
+{
+  "subject": "trump-under-pressure-to-contain-iran-fighting-as-midterms-near",
+  "claims": [
+    {
+      "id": "title",
+      "proposition": {
+        "predicate": "title",
+        "object": "Trump under pressure to contain Iran fighting as midterms near"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "us-politics",
+        "citation": "https://thehill.com/policy/defense/6067742-trump-iran-strikes-escalation-midterms/"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "url",
+      "proposition": {
+        "predicate": "url",
+        "object": "https://thehill.com/policy/defense/6067742-trump-iran-strikes-escalation-midterms/"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "us-politics",
+        "citation": "https://thehill.com/policy/defense/6067742-trump-iran-strikes-escalation-midterms/"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "summary",
+      "proposition": {
+        "predicate": "summary",
+        "object": "President Trump is under pressure to avoid an escalatory spiral after launching the largest wave of strikes on Iran in weeks, with the U.S. military strained and the midterm elections rapidly approaching. Trump on Wednesday downplayed the Iran war’s negative impact on Republican candidates. The president’s approval rating has reached a record low — 33…"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "us-politics",
+        "citation": "https://thehill.com/policy/defense/6067742-trump-iran-strikes-escalation-midterms/"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "published",
+      "proposition": {
+        "predicate": "published",
+        "object": "Wed, 02 Sep 2026 22:32:32 +0000"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "us-politics",
+        "citation": "https://thehill.com/policy/defense/6067742-trump-iran-strikes-escalation-midterms/"
+      },
+      "status": "supported"
+    }
+  ]
+}

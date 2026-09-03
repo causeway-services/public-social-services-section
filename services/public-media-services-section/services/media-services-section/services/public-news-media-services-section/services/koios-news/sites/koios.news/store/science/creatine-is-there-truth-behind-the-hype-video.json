@@ -1,0 +1,69 @@
+{
+  "subject": "creatine-is-there-truth-behind-the-hype-video",
+  "claims": [
+    {
+      "id": "title",
+      "proposition": {
+        "predicate": "title",
+        "object": "Creatine: is there truth behind the hype? – video"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "science",
+        "citation": "https://www.theguardian.com/science/video/2026/aug/25/creatine-is-there-truth-behind-the-hype-video"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "url",
+      "proposition": {
+        "predicate": "url",
+        "object": "https://www.theguardian.com/science/video/2026/aug/25/creatine-is-there-truth-behind-the-hype-video"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "science",
+        "citation": "https://www.theguardian.com/science/video/2026/aug/25/creatine-is-there-truth-behind-the-hype-video"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "summary",
+      "proposition": {
+        "predicate": "summary",
+        "object": "<p><strong>Creatine has become the go-to supplement for anyone wanting to give their fitness a boost and build muscle. It’s even made it out of the gym, with influencers touting its cognitive benefits. But what’s the science behind creatine, and does the evidence stack up? Madeleine Finlay hears from science editor Ian Sample and Dr Justin Roberts, professor of nutritional physiology at Anglia Ruskin University</strong></p> <a href=\"https://www.theguardian.com/science/video/2026/aug/25/creatine-is-there-truth-behind-the-hype-video\">Continue reading...</a>"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "science",
+        "citation": "https://www.theguardian.com/science/video/2026/aug/25/creatine-is-there-truth-behind-the-hype-video"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "published",
+      "proposition": {
+        "predicate": "published",
+        "object": "Tue, 25 Aug 2026 11:31:45 GMT"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "science",
+        "citation": "https://www.theguardian.com/science/video/2026/aug/25/creatine-is-there-truth-behind-the-hype-video"
+      },
+      "status": "supported"
+    }
+  ]
+}

@@ -1,0 +1,69 @@
+{
+  "subject": "what-to-expect-from-serena-and-venus-williams-in-us-open-doubles",
+  "claims": [
+    {
+      "id": "title",
+      "proposition": {
+        "predicate": "title",
+        "object": "What to expect from Serena and Venus Williams in US Open doubles"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "sport",
+        "citation": "https://www.espn.com/tennis/story/_/id/49804902/us-open-2026-venus-williams-serena-williams"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "url",
+      "proposition": {
+        "predicate": "url",
+        "object": "https://www.espn.com/tennis/story/_/id/49804902/us-open-2026-venus-williams-serena-williams"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "sport",
+        "citation": "https://www.espn.com/tennis/story/_/id/49804902/us-open-2026-venus-williams-serena-williams"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "summary",
+      "proposition": {
+        "predicate": "summary",
+        "object": "For the first time in four years, Serena and Venus Williams will play doubles together later this week at the US Open. How will it go? We break it down."
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "sport",
+        "citation": "https://www.espn.com/tennis/story/_/id/49804902/us-open-2026-venus-williams-serena-williams"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "published",
+      "proposition": {
+        "predicate": "published",
+        "object": "Wed, 2 Sep 2026 18:14:50 EST"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "sport",
+        "citation": "https://www.espn.com/tennis/story/_/id/49804902/us-open-2026-venus-williams-serena-williams"
+      },
+      "status": "supported"
+    }
+  ]
+}

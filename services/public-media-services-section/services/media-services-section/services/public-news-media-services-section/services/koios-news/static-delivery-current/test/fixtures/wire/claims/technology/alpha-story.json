@@ -1,0 +1,8 @@
+{
+  "subject": "alpha-story",
+  "claims": [
+    { "id": "title", "proposition": { "predicate": "title", "object": "Alpha story" }, "time": { "asserted": "2026-09-01T10:00:00.000Z" }, "force": "alleges", "provenance": { "witness": "technology", "citation": "https://example.com/alpha" }, "status": "supported" },
+    { "id": "url", "proposition": { "predicate": "url", "object": "https://example.com/alpha" }, "time": { "asserted": "2026-09-01T10:00:00.000Z" }, "force": "alleges", "provenance": { "witness": "technology", "citation": "https://example.com/alpha" }, "status": "supported" },
+    { "id": "published", "proposition": { "predicate": "published", "object": "2026-09-01T09:00:00.000Z" }, "time": { "asserted": "2026-09-01T10:00:00.000Z" }, "force": "alleges", "provenance": { "witness": "technology", "citation": "https://example.com/alpha" }, "status": "supported" }
+  ]
+}

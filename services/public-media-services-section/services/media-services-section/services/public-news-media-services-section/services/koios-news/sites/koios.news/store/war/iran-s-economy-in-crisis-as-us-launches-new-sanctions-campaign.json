@@ -1,0 +1,69 @@
+{
+  "subject": "iran-s-economy-in-crisis-as-us-launches-new-sanctions-campaign",
+  "claims": [
+    {
+      "id": "title",
+      "proposition": {
+        "predicate": "title",
+        "object": "Iran’s economy in crisis as US launches new sanctions campaign"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "war",
+        "citation": "https://www.theguardian.com/world/2026/aug/31/iran-economy-crisis-usa-launches-sanctions-inflation-trump"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "url",
+      "proposition": {
+        "predicate": "url",
+        "object": "https://www.theguardian.com/world/2026/aug/31/iran-economy-crisis-usa-launches-sanctions-inflation-trump"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "war",
+        "citation": "https://www.theguardian.com/world/2026/aug/31/iran-economy-crisis-usa-launches-sanctions-inflation-trump"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "summary",
+      "proposition": {
+        "predicate": "summary",
+        "object": "<p>Trump’s Operation Economic Outcast is expected to push many Iranians into deeper poverty as food inflation soars</p><p>For many Iranians, the new US sanctions campaign, called Operation Economic Outcast, seems superfluous given the grim economic situation in their country.</p><p>Iranians are facing runaway food inflation, closed petrol stations and a seemingly never-ending depreciation of the nation’s currency caused by a lack of foreign exchange reserves.</p> <a href=\"https://www.theguardian.com/world/2026/aug/31/iran-economy-crisis-usa-launches-sanctions-inflation-trump\">Continue reading...</a>"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "war",
+        "citation": "https://www.theguardian.com/world/2026/aug/31/iran-economy-crisis-usa-launches-sanctions-inflation-trump"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "published",
+      "proposition": {
+        "predicate": "published",
+        "object": "Mon, 31 Aug 2026 13:00:26 GMT"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "war",
+        "citation": "https://www.theguardian.com/world/2026/aug/31/iran-economy-crisis-usa-launches-sanctions-inflation-trump"
+      },
+      "status": "supported"
+    }
+  ]
+}

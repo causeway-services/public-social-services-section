@@ -1,7 +1,7 @@
 ---
 title: "England's flood alerts do not mean its drought is ending"
 date: 2026-08-30
-draft: true
+draft: false
 author: "Nik Koios"
 description: "England issued flood alerts while 71% of its land remained in drought. The rain arrived faster than the water system could recover."
 summary: "Flooding during drought is not a contradiction. England issued more than 40 flood alerts on August 27 while 71% of its land remained in drought, reservoirs stayed depleted, and water restrictions covered roughly 30 million people. Intense rain can cross the surface without repairing a long water deficit."

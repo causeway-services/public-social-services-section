@@ -1,0 +1,69 @@
+{
+  "subject": "the-extraordinary-untold-story-of-freddie-mercury-mary-austin-on-her-best-friend-and-love-of-her",
+  "claims": [
+    {
+      "id": "title",
+      "proposition": {
+        "predicate": "title",
+        "object": "The extraordinary untold story of Freddie Mercury: Mary Austin on her best friend – and love of her life"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "entertainment",
+        "citation": "https://www.theguardian.com/music/2026/sep/01/freddie-mercury-lover-mary-austin-interview"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "url",
+      "proposition": {
+        "predicate": "url",
+        "object": "https://www.theguardian.com/music/2026/sep/01/freddie-mercury-lover-mary-austin-interview"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "entertainment",
+        "citation": "https://www.theguardian.com/music/2026/sep/01/freddie-mercury-lover-mary-austin-interview"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "summary",
+      "proposition": {
+        "predicate": "summary",
+        "object": "<p>He was Queen’s flamboyant frontman. She was his shy girlfriend, dreaming of marriage until they both realised he preferred men. Thirty-five years after his death, in the week he would have turned 80, Mary Austin talks about their unbreakable bond</p><p>There were four silver trunks in Mary Austin’s attic that she packed in the mid-1980s and hadn’t opened since. It was too painful. Almost 40 years on, in 2022, she opened one. It was crammed with lyrics from songs written by Freddie Mercury – Don’t Stop Me Now, Killer Queen, We Are the Champions and, of course, Bohemian Rhapsody. She shut the case. It was still too painful.</p><p>“To say I was overwhelmed is an understatement,” she says. “I couldn’t look at the lyrics. I felt as I did when I originally packed them – that they were his personal belongings and I was being offered an opportunity to delve into them, and I couldn’t do that.” Eventually she asked her two sons to sift through the treasures on her behalf.</p> <a href=\"https://www.theguardian.com/music/2026/sep/01/freddie-mercury-lover-mary-austin-interview\">Continue reading...</a>"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "entertainment",
+        "citation": "https://www.theguardian.com/music/2026/sep/01/freddie-mercury-lover-mary-austin-interview"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "published",
+      "proposition": {
+        "predicate": "published",
+        "object": "Tue, 01 Sep 2026 04:00:46 GMT"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "entertainment",
+        "citation": "https://www.theguardian.com/music/2026/sep/01/freddie-mercury-lover-mary-austin-interview"
+      },
+      "status": "supported"
+    }
+  ]
+}

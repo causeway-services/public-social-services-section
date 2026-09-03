@@ -1,0 +1,69 @@
+{
+  "subject": "samsung-galaxy-z-fold-8-review-your-passport-to-a-folding-phone-future",
+  "claims": [
+    {
+      "id": "title",
+      "proposition": {
+        "predicate": "title",
+        "object": "Samsung Galaxy Z Fold 8 review: your passport to a folding phone future"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "technology",
+        "citation": "https://www.theguardian.com/technology/2026/aug/10/samsung-galaxy-z-fold-8-review-folding-phone"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "url",
+      "proposition": {
+        "predicate": "url",
+        "object": "https://www.theguardian.com/technology/2026/aug/10/samsung-galaxy-z-fold-8-review-folding-phone"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "technology",
+        "citation": "https://www.theguardian.com/technology/2026/aug/10/samsung-galaxy-z-fold-8-review-folding-phone"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "summary",
+      "proposition": {
+        "predicate": "summary",
+        "object": "<p>Novel squat Android opens to an iPad-like screen for video or multitasking, with plenty of power and battery life</p><p>Samsung’s latest folding phone breaks the mould with a squat, passport-like shape reminiscent of the Blackberry, which opens up to become a tablet similar to an iPad mini. It is certainly a better shape for a tablet than other designs, but is a short and wide phone when closed a compromise too far?</p><p>The Galaxy Z Fold 8 is an entirely new variant in Samsung’s foldable family for this year launched alongside the Z Fold 8 Ultra with a more familiar candy bar shape. Both folders are extremely expensive, with the Fold 8 starting at £1,699 (€1,999/$1,899.99/A$2,699) and the Fold 8 Ultra at £1,899 (€2,199/$2,099.99/A$2,999), with <a href=\"https://www.theguardian.com/business/2026/may/06/ramageddon-cheap-phones-laptops-macbooks-ps5s-ai-chips\">RAMageddon</a> driving up prices even at the top of the market.</p> <a href=\"https://www.theguardian.com/technology/2026/aug/10/samsung-galaxy-z-fold-8-review-folding-phone\">Continue reading...</a>"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "technology",
+        "citation": "https://www.theguardian.com/technology/2026/aug/10/samsung-galaxy-z-fold-8-review-folding-phone"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "published",
+      "proposition": {
+        "predicate": "published",
+        "object": "Mon, 10 Aug 2026 06:00:37 GMT"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "technology",
+        "citation": "https://www.theguardian.com/technology/2026/aug/10/samsung-galaxy-z-fold-8-review-folding-phone"
+      },
+      "status": "supported"
+    }
+  ]
+}

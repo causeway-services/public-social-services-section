@@ -1,0 +1,69 @@
+{
+  "subject": "israeli-pm-says-israel-is-working-to-overthrow-iran-s-government",
+  "claims": [
+    {
+      "id": "title",
+      "proposition": {
+        "predicate": "title",
+        "object": "Israeli PM says Israel is working to overthrow Iran’s government"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "world",
+        "citation": "https://www.aljazeera.com/video/newsfeed/2026/9/2/israeli-pm-says-israel-is-working-to-overthrow-irans-government?traffic_source=rss"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "url",
+      "proposition": {
+        "predicate": "url",
+        "object": "https://www.aljazeera.com/video/newsfeed/2026/9/2/israeli-pm-says-israel-is-working-to-overthrow-irans-government?traffic_source=rss"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "world",
+        "citation": "https://www.aljazeera.com/video/newsfeed/2026/9/2/israeli-pm-says-israel-is-working-to-overthrow-irans-government?traffic_source=rss"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "summary",
+      "proposition": {
+        "predicate": "summary",
+        "object": "Israeli Prime Minister Benjamin Netanyahu said on Wednesday that his country is working to overthrow Iran’s government."
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "world",
+        "citation": "https://www.aljazeera.com/video/newsfeed/2026/9/2/israeli-pm-says-israel-is-working-to-overthrow-irans-government?traffic_source=rss"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "published",
+      "proposition": {
+        "predicate": "published",
+        "object": "Wed, 02 Sep 2026 21:23:55 +0000"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "world",
+        "citation": "https://www.aljazeera.com/video/newsfeed/2026/9/2/israeli-pm-says-israel-is-working-to-overthrow-irans-government?traffic_source=rss"
+      },
+      "status": "supported"
+    }
+  ]
+}

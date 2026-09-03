@@ -1,0 +1,69 @@
+{
+  "subject": "us-court-rules-google-will-not-have-to-sell-ad-exchange-after-losing-antitrust-case",
+  "claims": [
+    {
+      "id": "title",
+      "proposition": {
+        "predicate": "title",
+        "object": "US court rules Google will not have to sell ad exchange after losing antitrust case"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "technology",
+        "citation": "https://arstechnica.com/gadgets/2026/09/us-court-rules-google-will-not-have-to-sell-ad-exchange-after-losing-antitrust-case/"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "url",
+      "proposition": {
+        "predicate": "url",
+        "object": "https://arstechnica.com/gadgets/2026/09/us-court-rules-google-will-not-have-to-sell-ad-exchange-after-losing-antitrust-case/"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "technology",
+        "citation": "https://arstechnica.com/gadgets/2026/09/us-court-rules-google-will-not-have-to-sell-ad-exchange-after-losing-antitrust-case/"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "summary",
+      "proposition": {
+        "predicate": "summary",
+        "object": "A US federal judge has sided with Google, ruling that the company will not have to sell its online advertising exchange (previously known as AdX). The US Department of Justice (DOJ) sought this remedy in the long-running ad tech antitrust trial, which Google lost in 2025 . However, the remedies imposed upon Google for that loss are shaping up to be minimal. In this case, the DOJ and a coalition of states sought to prove that Google leveraged its immense market power in online display ads to reduce the reach of competitors. Government lawyers argued that Google had \"rigged\" ad auctions to give itself an advantage. While the court agreed that Google illegally locked publishers into using its exchange, it did not agree that Google had broken the law when it came to the tools used by advertisers. Despite the mixed ruling, the DOJ argued during the remedy phase that forcing Google to sell its ad exchange, which facilitates connections between ad buyers and sellers, was the best way to level the playing field. But that won't happen. While the ad exchange represents a relatively small part of Google's revenue, forcing the company to sell may have sent ripple effects through the rest of its ad business. It would also have been a powerful message to Big Tech firms, which have successfully knocked back a recent wave of antitrust cases. Read full article Comments"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "technology",
+        "citation": "https://arstechnica.com/gadgets/2026/09/us-court-rules-google-will-not-have-to-sell-ad-exchange-after-losing-antitrust-case/"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "published",
+      "proposition": {
+        "predicate": "published",
+        "object": "Wed, 02 Sep 2026 16:30:11 +0000"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "technology",
+        "citation": "https://arstechnica.com/gadgets/2026/09/us-court-rules-google-will-not-have-to-sell-ad-exchange-after-losing-antitrust-case/"
+      },
+      "status": "supported"
+    }
+  ]
+}

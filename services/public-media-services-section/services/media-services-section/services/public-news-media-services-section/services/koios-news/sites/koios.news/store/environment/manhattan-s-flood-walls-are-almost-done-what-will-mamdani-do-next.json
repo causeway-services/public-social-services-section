@@ -1,0 +1,69 @@
+{
+  "subject": "manhattan-s-flood-walls-are-almost-done-what-will-mamdani-do-next",
+  "claims": [
+    {
+      "id": "title",
+      "proposition": {
+        "predicate": "title",
+        "object": "Manhattan’s flood walls are almost done. What will Mamdani do next?"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "environment",
+        "citation": "https://grist.org/politics/new-york-zohran-mamdani-sea-level-rise/"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "url",
+      "proposition": {
+        "predicate": "url",
+        "object": "https://grist.org/politics/new-york-zohran-mamdani-sea-level-rise/"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "environment",
+        "citation": "https://grist.org/politics/new-york-zohran-mamdani-sea-level-rise/"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "summary",
+      "proposition": {
+        "predicate": "summary",
+        "object": "New York City has more than 500 miles of coastline. The city’s coastal zone is home to around 1 million people as well as billions of dollars of residential and commercial property, and no two miles of the waterfront are quite the same. The marshy areas of southern Queens, the housing projects in waterfront Brooklyn, and the towers of Manhattan’s Financial District are all vulnerable during high tides and major storm events, and each of these areas is vulnerable in a different way. The city learned these lessons the hard way in 2012 when Superstorm Sandy sent almost 14 feet of storm surge up New York Harbor and flooded thousands of structures across the five boroughs. In the aftermath of the disaster, the city embarked on one of the most ambitious climate adaptation efforts in U.S. history. Leaders spent billions of dollars to elevate and armor the lower reaches of Manhattan with flood gates and berms, rebuild the destroyed beaches in Queens, and buy out homes in the low-lying neighborhoods of Staten Island.&nbsp; Each stage of this effort faced delay and controversy, but the post-Sandy effort is now almost complete. The elevated East River Park in Manhattan is now partly open to sunbathers and tennis players. Farther down the island, construction crews are installing rolling-track flood walls that will be deployed during major storm surge events. These flood defenses will be operational by the 2027 hurricane season, but Mayor Zohran Mamdani is already laying the groundwork for what comes next.&nbsp; Last month, the mayor announced a major expansion of the Bureau of Coastal Resilience, promising to add almost 70 new staff members to a unit that had been on a shoestring budget under prior mayor Eric Adams. The first members of this new team will deploy the flood gates and clear the coastal zone in the run-up to big storm events. “There was this huge investment of over a billion dollars to build these gates, and once you build it, you have to maintain it,” said Lisa Garcia, the new commissioner for the Department of Environmental Protection, which will oversee the flood system. (Garcia was the director of Grist’s climate solutions lab from 2019 to 2021 and later worked as a regional administrator in the Environmental Protection Agency.) The new bulkhead at the rebuilt East River Park in Manhattan, with the Williamsburg Bridge in the background. New York City has been working to elevate the waterfront park since Superstorm Sandy flooded thousands of homes on the Lower East Side in 2012. Jake Bittle / Grist But managing the gates is the easy part. The harder task for Mamdani will be to decide what the city’s next big flood protection effort should be. The stakes of this decision are higher than almost anywhere else in the United States, or for any other climate adaptation in New York. While heat waves, smoke, and flash floods all pose big risks to the city, sea level rise and storm surge have the potential to wipe out huge sections of the city’s most populous areas and cripple its economy.&nbsp; “I don’t think that there’s anyone who is saying we can protect all 520 miles of coastline,” said Garcia. “So part of it is this… What lessons can we take to other boroughs or to other communities?”&nbsp; Mamdani will have to make some big decisions about where and how to spend the city’s limited capital budget. Is it better to fund marsh restoration in outer Queens, or a coastal park in Harlem, or a bulkhead in the waterfront of Brooklyn? If you want to do all of those things, which of them do you do first? These decisions are fraught with political and economic risks. When Norfolk, Virginia, another coastal city, created its master resilience plan , city officials made the controversial decision not to build flood protections for areas that were at high risk of flooding but didn’t have the high-value property that would justify the enormous expense. Under its plan, Norfolk would instead help those residents of the “yellow zones” live with rising waters or relocate elsewhere. In other coastal areas like California and North Carolina , efforts to promote “managed retreat” from vulnerable areas have met forceful blowback from residents who want structural protections.&nbsp; For its part, New York City says it’s still in the early phases of planning for future protections. Mamdani won the mayoral election last year by assembling a coalition that spanned the lower-income neighborhoods of the outer boroughs, and he took office promising to make life more affordable for the city’s lower and middle classes. The Department of Environmental Protection said it plans to start its master plan (which Garcia wants to analyze both stormwater flooding and coastal risk) next year, with a goal of finishing by 2031. It’s too early, then, to say how Mamdani’s governing philosophy will affect the city’s approach to the risks of climate change.&nbsp; New flood walls under construction beneath an elevated highway in downtown Manhattan. New York City mayor Zohran Mamdani announced last month that he plans to hire dozens more city staffers to manage this new flood wall system and others under construction around the city. Jake Bittle / Grist There is no shortage of underserved areas that need flood protection. Perhaps the most glaring example is the western edge of Coney Island, which faces routine “backdoor” flooding during heavy rain as the ocean rushes up through creeks and out of the drainage system. This flooding often makes it impossible for children to walk to school. Even though Coney Island was one of the neighborhoods hit hardest by Sandy in 2012, the city still hasn’t built new flood defenses there. “After Sandy, neighborhoods in Manhattan had millions and millions of dollars invested,” said Pamela Pettyjohn, the founder of the Coney Island Beautification Project, a neighborhood group that advocates for flood protection and quality-of-life improvements. “There hasn’t been any investment at all in Coney Island other than development — a lot of new development, new buildings, but nothing for the infrastructure.” The city government is now holding meetings with Coney Island residents to decide how to reduce flood risk along local creeks. In other areas, architects and planners have sketched out possible defenses for which there is no available money. In East Harlem, for instance, the city worked with architecture firm One Architecture to design a plan that would drain stormwater that pools in low-lying streets and elevate the esplanades along the river. The plan has been around for almost a decade, but the city has not been able to raise the money to build it. In other cases, flood defense efforts have fallen through due to budget constraints. The city pivoted its proposed flood adaptation project in the Hunts Point neighborhood of the Bronx to a cheaper project that will provide off-grid backup power to the area’s critical food depot, said Amy Chester, the director of Rebuild by Design, the organization that led the post-Sandy adaptation effort. “We can plan for it, but it’s all about priorities,” said Chester. The other problem is that people often disagree about how a given area should defend against flooding, and about what counts as sufficient investment. Garcia has said that in some cases a flood gate or bulwark may be the best scenario, while in other cases home buyouts or nature-based living shorelines may work better.&nbsp; Read Next A new type of levee is taking root in Northern California Charlotte Burks City officials have already encountered pushback over at least one project. The city broke ground late last year on a project in the Brooklyn neighborhood of Red Hook, which was also hit hard by Sandy. The effort will elevate streets and install new bulkheads along the water, but residents and activists say it’s inadequate: it is only designed to protect against “10-year storms” that have a 1-in-10 chance of happening in a given year, not the much larger “100-year storms” that the Lower Manhattan projects will protect against. The city has said that local topography and privately owned waterfront land make a Manhattan-esque barrier impossible. The issue of flood risk has also come up farther north in the gentrified neighborhood of Greenpoint. In that area, a real estate developer is proposing to build a large new apartment complex that will contain more than 1,300 homes. The new towers will have steel bulkheads that the developer says will protect them from flooding, but some activists have protested that the bulkheads will push water onto nearby areas. These two controversies highlight the extent to which the city’s current flood defenses are a patchwork of individual neighborhood projects. That approach will lead to conflict over each investment and over where the city chooses to invest, says Matthijs Bouw, an architect with the firm One Architecture who helped conceive the flood barrier project that now surrounds lower Manhattan and who has also envisioned flood protections in East Harlem and other areas. “You can’t build this stuff in isolation; you need to find a way to make sure that you align whatever you design with the way the city changes over time,” he said. In theory, planners could come up with a comprehensive process for deciding where and how to spend its money, but there are tough choices involved in such a process. Lower Manhattan was an easy place to start after Sandy, since it was home to both the all-important cluster of downtown skyscrapers and a dense neighborhood of vulnerable public housing. Figuring out where to go next is harder. This story was originally published by Grist with the headline Manhattan’s flood walls are almost done. What will Mamdani do next? on Aug 31, 2026."
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "environment",
+        "citation": "https://grist.org/politics/new-york-zohran-mamdani-sea-level-rise/"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "published",
+      "proposition": {
+        "predicate": "published",
+        "object": "Mon, 31 Aug 2026 08:30:00 +0000"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "environment",
+        "citation": "https://grist.org/politics/new-york-zohran-mamdani-sea-level-rise/"
+      },
+      "status": "supported"
+    }
+  ]
+}

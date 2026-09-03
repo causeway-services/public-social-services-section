@@ -1,0 +1,69 @@
+{
+  "subject": "messy-clever-and-can-barely-conceal-its-rage-is-furious-the-most-outstanding-tv-show-of-the-year",
+  "claims": [
+    {
+      "id": "title",
+      "proposition": {
+        "predicate": "title",
+        "object": "Messy, clever and can barely conceal its rage: is Furious the most outstanding TV show of the year?"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "culture",
+        "citation": "https://www.theguardian.com/tv-and-radio/2026/sep/02/furious-disney-the-most-outstanding-tv-show-of-the-year"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "url",
+      "proposition": {
+        "predicate": "url",
+        "object": "https://www.theguardian.com/tv-and-radio/2026/sep/02/furious-disney-the-most-outstanding-tv-show-of-the-year"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "culture",
+        "citation": "https://www.theguardian.com/tv-and-radio/2026/sep/02/furious-disney-the-most-outstanding-tv-show-of-the-year"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "summary",
+      "proposition": {
+        "predicate": "summary",
+        "object": "<p>The story of a serial killer taking revenge on the rich predatory men who abused her just earned a fantastic finale. With career-defining acting, daring Epstein parallels and super dark comedy, it’s a total must-watch</p><p>You could easily watch the first few minutes of Furious without knowing that it would turn out to be so special. It opens with a scene of pure horror: it’s Halloween night and a real monster is hiding among the pretend ones. A woman we come to know as Catherine Grace (an astonishingly good Lola Petticrew) is inside a man’s house, wearing a creepy kitten mask. The man is in bad shape, crawling on the floor, gasping for air and begging for his life. Catherine is alternately chirpy and tender with him, but eventually, she loses her patience with his pleading. She takes a syringe filled with fentanyl out of a pencil case decorated with sparkly stickers and jewels and finishes the job.</p><p>So far, so creepy crime drama, but Furious is already hiding in plain sight, because the monster is not who we think it is. What looks as if it will be a cat-and-mouse story, in which a tenacious FBI agent hunts a twisted serial killer, quickly rips up any expectations. We learn that Catherine was trafficked into sex work as a teenager, and is now making her way through a kill list of predatory and powerful men. Her life has been shaped by a conspiracy of abuse, violence, neglect and indifference. She has decided to take matters into her own broken hands.</p> <a href=\"https://www.theguardian.com/tv-and-radio/2026/sep/02/furious-disney-the-most-outstanding-tv-show-of-the-year\">Continue reading...</a>"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "culture",
+        "citation": "https://www.theguardian.com/tv-and-radio/2026/sep/02/furious-disney-the-most-outstanding-tv-show-of-the-year"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "published",
+      "proposition": {
+        "predicate": "published",
+        "object": "Wed, 02 Sep 2026 14:17:56 GMT"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "culture",
+        "citation": "https://www.theguardian.com/tv-and-radio/2026/sep/02/furious-disney-the-most-outstanding-tv-show-of-the-year"
+      },
+      "status": "supported"
+    }
+  ]
+}

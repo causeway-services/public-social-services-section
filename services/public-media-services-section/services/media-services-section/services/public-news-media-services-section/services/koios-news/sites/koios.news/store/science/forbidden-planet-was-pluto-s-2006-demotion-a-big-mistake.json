@@ -1,0 +1,69 @@
+{
+  "subject": "forbidden-planet-was-pluto-s-2006-demotion-a-big-mistake",
+  "claims": [
+    {
+      "id": "title",
+      "proposition": {
+        "predicate": "title",
+        "object": "Forbidden planet: was Pluto’s 2006 demotion a big mistake?"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "science",
+        "citation": "https://www.theguardian.com/science/2026/aug/31/forbidden-planet-was-plutos-2006-demotion-a-big-mistake"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "url",
+      "proposition": {
+        "predicate": "url",
+        "object": "https://www.theguardian.com/science/2026/aug/31/forbidden-planet-was-plutos-2006-demotion-a-big-mistake"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "science",
+        "citation": "https://www.theguardian.com/science/2026/aug/31/forbidden-planet-was-plutos-2006-demotion-a-big-mistake"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "summary",
+      "proposition": {
+        "predicate": "summary",
+        "object": "<p>Since it was stripped of planetary status, Pluto’s defenders have been fighting the decision – and they’re only getting more passionate</p><p>Twenty years ago, Pluto got demoted. After a vote by the International Astronomical Union (IAU) in August 2006, Pluto was relegated from major planet to dwarf planet status. Our solar system dropped from nine planets to eight. At the time, many scientists were unhappy with the decision. Two decades on, the debate is, if anything, even more polarised.</p><p>“The definition of a planet they created, you can’t use it at all,” says Philip Metzger, the director of the Stephen W Hawking Centre for Microgravity Research and Education at the University of Central Florida. “It makes the definition of a planet completely non-useful in science.”</p> <a href=\"https://www.theguardian.com/science/2026/aug/31/forbidden-planet-was-plutos-2006-demotion-a-big-mistake\">Continue reading...</a>"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "science",
+        "citation": "https://www.theguardian.com/science/2026/aug/31/forbidden-planet-was-plutos-2006-demotion-a-big-mistake"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "published",
+      "proposition": {
+        "predicate": "published",
+        "object": "Mon, 31 Aug 2026 04:00:16 GMT"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "science",
+        "citation": "https://www.theguardian.com/science/2026/aug/31/forbidden-planet-was-plutos-2006-demotion-a-big-mistake"
+      },
+      "status": "supported"
+    }
+  ]
+}

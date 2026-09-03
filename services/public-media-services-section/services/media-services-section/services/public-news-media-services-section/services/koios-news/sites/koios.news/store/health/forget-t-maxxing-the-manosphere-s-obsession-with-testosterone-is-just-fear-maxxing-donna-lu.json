@@ -1,0 +1,69 @@
+{
+  "subject": "forget-t-maxxing-the-manosphere-s-obsession-with-testosterone-is-just-fear-maxxing-donna-lu",
+  "claims": [
+    {
+      "id": "title",
+      "proposition": {
+        "predicate": "title",
+        "object": "Forget T-maxxing – the manosphere’s obsession with testosterone is just fear-maxxing | Donna Lu"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "health",
+        "citation": "https://www.theguardian.com/commentisfree/2026/sep/02/testosterone-masculinity-manosphere-t-maxxing-online-influencers-ntwnfb"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "url",
+      "proposition": {
+        "predicate": "url",
+        "object": "https://www.theguardian.com/commentisfree/2026/sep/02/testosterone-masculinity-manosphere-t-maxxing-online-influencers-ntwnfb"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "health",
+        "citation": "https://www.theguardian.com/commentisfree/2026/sep/02/testosterone-masculinity-manosphere-t-maxxing-online-influencers-ntwnfb"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "summary",
+      "proposition": {
+        "predicate": "summary",
+        "object": "<p>Testosterone replacement therapy comes with serious and potentially irreversible health risks including infertility and early heart disease</p><ul><li><p>Read more in the <a href=\"https://www.theguardian.com/commentisfree/series/antiviral\">Antiviral series</a></p></li></ul><p>Are you tired? Feeling flat and irritable? Finding it difficult to concentrate? Maybe you’re experiencing the seemingly ubiquitous symptoms of <a href=\"https://www.theguardian.com/books/2025/sep/21/how-modern-life-makes-us-sick-and-what-to-do-about-it\">modern life</a>. Or, if you’re a man, you may have been told by countless uncredentialed online influencers that you’re probably suffering from “low T”.</p><p>For decades, testosterone has been marketed to men as a means to maximise virility. But in recent years, social media has fuelled the “T-maxxing” trend, in which men are encouraged to maximise their testosterone levels through either natural or artificial means.</p> <a href=\"https://www.theguardian.com/commentisfree/2026/sep/02/testosterone-masculinity-manosphere-t-maxxing-online-influencers-ntwnfb\">Continue reading...</a>"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "health",
+        "citation": "https://www.theguardian.com/commentisfree/2026/sep/02/testosterone-masculinity-manosphere-t-maxxing-online-influencers-ntwnfb"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "published",
+      "proposition": {
+        "predicate": "published",
+        "object": "Tue, 01 Sep 2026 15:00:03 GMT"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "health",
+        "citation": "https://www.theguardian.com/commentisfree/2026/sep/02/testosterone-masculinity-manosphere-t-maxxing-online-influencers-ntwnfb"
+      },
+      "status": "supported"
+    }
+  ]
+}

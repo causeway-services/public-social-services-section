@@ -1,0 +1,69 @@
+{
+  "subject": "specieswatch-deciduous-trees-are-marching-north-and-ousting-evergreens",
+  "claims": [
+    {
+      "id": "title",
+      "proposition": {
+        "predicate": "title",
+        "object": "Specieswatch: Deciduous trees are marching north and ousting evergreens"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "environment",
+        "citation": "https://www.theguardian.com/environment/2026/sep/02/specieswatch-deciduous-trees-evergreens-climate"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "url",
+      "proposition": {
+        "predicate": "url",
+        "object": "https://www.theguardian.com/environment/2026/sep/02/specieswatch-deciduous-trees-evergreens-climate"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "environment",
+        "citation": "https://www.theguardian.com/environment/2026/sep/02/specieswatch-deciduous-trees-evergreens-climate"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "summary",
+      "proposition": {
+        "predicate": "summary",
+        "object": "<p>Northern landscapes could soon look different, as wildfires and storms disturb boreal forests</p><p>A warmer world is making high latitude forests more deciduous and less evergreen, research shows. Global heating has increased the likelihood of extreme events such as wildfires and storms and this warmer and less stable environment is favouring deciduous trees over evergreens.</p><p>Boreal forest stretches for miles and miles across high northern latitudes, covering huge swathes of Canada, Russia, Alaska and Scandinavia. It makes up nearly a third of global forest area and is mainly made up of evergreen trees such as spruce and fir. But this landscape could change.</p> <a href=\"https://www.theguardian.com/environment/2026/sep/02/specieswatch-deciduous-trees-evergreens-climate\">Continue reading...</a>"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "environment",
+        "citation": "https://www.theguardian.com/environment/2026/sep/02/specieswatch-deciduous-trees-evergreens-climate"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "published",
+      "proposition": {
+        "predicate": "published",
+        "object": "Wed, 02 Sep 2026 05:00:23 GMT"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "environment",
+        "citation": "https://www.theguardian.com/environment/2026/sep/02/specieswatch-deciduous-trees-evergreens-climate"
+      },
+      "status": "supported"
+    }
+  ]
+}

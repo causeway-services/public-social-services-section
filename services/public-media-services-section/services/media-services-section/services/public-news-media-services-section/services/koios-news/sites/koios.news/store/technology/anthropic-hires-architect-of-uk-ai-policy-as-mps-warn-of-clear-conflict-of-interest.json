@@ -1,0 +1,69 @@
+{
+  "subject": "anthropic-hires-architect-of-uk-ai-policy-as-mps-warn-of-clear-conflict-of-interest",
+  "claims": [
+    {
+      "id": "title",
+      "proposition": {
+        "predicate": "title",
+        "object": "Anthropic hires architect of UK AI policy as MPs warn of 'clear conflict of interest'"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "technology",
+        "citation": "https://www.theregister.com/public-sector/2026/09/02/anthropic-hires-architect-of-uk-ai-policy-as-mps-warn-of-clear-conflict-of-interest/5293903"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "url",
+      "proposition": {
+        "predicate": "url",
+        "object": "https://www.theregister.com/public-sector/2026/09/02/anthropic-hires-architect-of-uk-ai-policy-as-mps-warn-of-clear-conflict-of-interest/5293903"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "technology",
+        "citation": "https://www.theregister.com/public-sector/2026/09/02/anthropic-hires-architect-of-uk-ai-policy-as-mps-warn-of-clear-conflict-of-interest/5293903"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "summary",
+      "proposition": {
+        "predicate": "summary",
+        "object": "UK Parliament's science and technology committee has asked the government to explain how it will avoid conflicts of interest after Anthropic recruited Matt Clifford, chair of blue-sky research agency ARIA. Clifford said he was joining the US AI poster child as managing director of international affairs, \"leading the company's work with governments outside North America.\" He was commissioned to write the \"AI Opportunities Action Plan\" in July 2024. The government published it in January 2025, adopted all 50 recommendations, and appointed Clifford as its AI Opportunities Adviser. Clifford also chairs the Advanced Research and Invention Agency (ARIA), the high-risk, high-reward research body modeled on the US agency DARPA. He said he would retain that position and his role at UK venture capital and seed funding company Entrepreneurs First, but would be \"stepping back from everything else.\" Dame Chi Onwurah MP, chair of the House of Commons Science, Innovation and Technology Committee, said Clifford had made a significant contribution to UK AI policy. \"While it is a matter of some concern that he is taking his knowledge, experience and government contacts to a leading global AI company, this is entirely within the rules, and we would not want to discourage movement between the public and private sectors,\" she said in a statement. \"However, his intention to remain as Chair of ARIA, which invests taxpayer money in cutting-edge research – much of it AI-related or AI-enabled – creates a clear conflict of interest. The committee looks forward to the AI Minister setting out robust safeguards and clear boundaries to ensure confidence in ARIA's independence.\" Following Andy Burnham's appointment as Prime Minister, Kanishka Narayan became Minister for Artificial Intelligence, a Cabinet-attending role spanning the Cabinet Office and Department for Business, Innovation, Science and Trade. Clifford was appointed chair of ARIA in 2022. He reportedly plans to recuse himself from matters involving Anthropic at the agency. In a post on X, Clifford said he had spent the past few years working on some of the major questions AI poses for governments and countries. \"It's clear that the decisions that will shape AI's impact shouldn't be made by any one actor – it will take industry, governments and civil society working together. People everywhere want real agency over how this technology is built and used in their societies, and they should have it. Anthropic takes that seriously, which is why I'm joining. I'll be based in London and working with governments across Europe, Asia-Pacific, and beyond.\" ®"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "technology",
+        "citation": "https://www.theregister.com/public-sector/2026/09/02/anthropic-hires-architect-of-uk-ai-policy-as-mps-warn-of-clear-conflict-of-interest/5293903"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "published",
+      "proposition": {
+        "predicate": "published",
+        "object": "Wed, 02 Sep 2026 15:15:00 +0200"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "technology",
+        "citation": "https://www.theregister.com/public-sector/2026/09/02/anthropic-hires-architect-of-uk-ai-policy-as-mps-warn-of-clear-conflict-of-interest/5293903"
+      },
+      "status": "supported"
+    }
+  ]
+}

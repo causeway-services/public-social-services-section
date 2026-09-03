@@ -1,0 +1,69 @@
+{
+  "subject": "ai-assisted-mushroom-hunting-is-a-recipe-for-a-bad-trip",
+  "claims": [
+    {
+      "id": "title",
+      "proposition": {
+        "predicate": "title",
+        "object": "AI-assisted mushroom hunting is a recipe for a bad trip"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "technology",
+        "citation": "https://www.theregister.com/offbeat/2026/09/02/ai-assisted-mushroom-hunting-is-a-recipe-for-a-bad-trip/5294060"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "url",
+      "proposition": {
+        "predicate": "url",
+        "object": "https://www.theregister.com/offbeat/2026/09/02/ai-assisted-mushroom-hunting-is-a-recipe-for-a-bad-trip/5294060"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "technology",
+        "citation": "https://www.theregister.com/offbeat/2026/09/02/ai-assisted-mushroom-hunting-is-a-recipe-for-a-bad-trip/5294060"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "summary",
+      "proposition": {
+        "predicate": "summary",
+        "object": "If you see a mushroom in the forest and you're wondering if it's safe to eat or poisonous, don't ask an AI. Polish software engineer Piotr Migdał, a founding engineer at AI analytics and cost analysis firm Quesma, explained in a Wednesday blog post why trusting the mushroom insights of leading AI models is a dubious, potentially life-threatening idea in an experiment he ran. Armed with a dataset of Danish mushrooms and additional information about safe and deadly species in Poland and abroad, he tested everything from ChatGPT to Qwen to see which gave the most reliable advice. It likely won’t surprise you to learn that none of them are worth trusting with your life. A total of 55 mushroom species were included in the safe and deadly datasets, which he compared against the Danish library by running 1,040 photos through 16 models, using 20 photos per species where available and topping up rarer species from the validation set. Each model was asked to identify the most likely species, and four other contenders, from each photograph. Even the best performing model - Gemini-3.8-flash - was only correct with its first guess 65 percent of the time. It managed to correctly identify species in its top five guesses 85 percent of the time, but if you’re simply asking the model what a mushroom is and giving it a single chance, there’s a 35 percent chance it’s going to get it wrong. Qwen3.8-27b performed worst by far, correct on the first guess 13 percent of the time, and somewhere in its five guesses 24 percent of the time. As for what sort of mistakes the models make, most were harmless, Migdał said, but when the models got it wrong, boy did they get it wrong. “The dangerous ones are not random,” Migdał noted. “A deadly webcap was called a chanterelle - the same mistake that kills foragers.” The aptly named death cap mushroom was mistaken for edible 16 percent of the time, the fool’s funnel 48 percent of the time, and the fatal dapperling, often mistaken for its similar looking but safe relatives, 31 percent of the time, among others. False negatives were also noted, but there’s no harm in leaving a tasty mushroom uneaten. As for which models made the potentially deadly misidentifications, Qwen3.8-27b led the pack there too, calling poisonous mushrooms edible 36 percent of the time, with Qwen3.8-flash following close behind at 30 percent. Meta’s Muse-spark-1.2 led with just an eight percent false positive rate, but Migdał said that’s an anomaly due to the fact that the model simply declined to guess - the right move in a situation where a bad decision could be deadly for a user. \"I am surprised that the top generalist off-the-shelf models were able to identify most cases. Still, in this case, most is not enough, as errors could have dire consequences,\" Migdał told us in an email. \"A single photo is often not enough to identify a species - errors are expected.\" Mushroom hunting isn’t for the faint of heart As someone who’s grown up foraging for mushrooms (it’s a popular pastime in Migdał’s Poland, and my Polish heritage has led to my family preserving the tradition in the US), I’m well versed in the fact that even well-trained humans have a tough time telling some species apart from their dangerous look-alikes. Migdał isn't a forager himself, he explained - he'd rather accompany his friends and trust their judgment. \"I do love eating mushrooms, especially fried with nothing but butter and salt,\" he told The Register. \"But I only join people whom I trust to know what they are doing.\" That’s a big part of the reason common sense prevails in mushroom hunting: There are plenty of delicious fungi that don’t have imitators, so seek those if you’re not sure. If you trust your knowledge of mushrooms a bit more, it’s generally pretty easy to tell most safe species from their dangerous counterparts, as there are some obvious signs if you know what you’re looking at and have experience. It’s also worth noting that death from mushroom foraging is quite rare, as some of the most deadly species out there lack lookalikes among edible varieties. You’re far more likely to end up hallucinating or with a very upset stomach if you make a mistake, but don’t take that as a license to go mushrooming if you don’t know what you’re looking at. Most of all, “do not eat a mushroom because AI told you it is safe,” Migdał warns again in his writeup. “AI slop … might be annoying, but it is fixable with a few prompts, or a manual edit,” he adds. “It is much better than having to prompt ‘Do I need a liver transplant?’” Migdał's dataset is available for anyone who'd like to tweak it to see how it performs in their locality. We're guessing it won't be any more confidence inspiring than the results from Poland. ®"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "technology",
+        "citation": "https://www.theregister.com/offbeat/2026/09/02/ai-assisted-mushroom-hunting-is-a-recipe-for-a-bad-trip/5294060"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "published",
+      "proposition": {
+        "predicate": "published",
+        "object": "Wed, 02 Sep 2026 22:34:41 +0200"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "technology",
+        "citation": "https://www.theregister.com/offbeat/2026/09/02/ai-assisted-mushroom-hunting-is-a-recipe-for-a-bad-trip/5294060"
+      },
+      "status": "supported"
+    }
+  ]
+}

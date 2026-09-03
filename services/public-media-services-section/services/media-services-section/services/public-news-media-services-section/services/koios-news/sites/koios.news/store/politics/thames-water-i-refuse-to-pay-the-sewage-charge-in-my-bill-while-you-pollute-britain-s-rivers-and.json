@@ -1,0 +1,69 @@
+{
+  "subject": "thames-water-i-refuse-to-pay-the-sewage-charge-in-my-bill-while-you-pollute-britain-s-rivers-and",
+  "claims": [
+    {
+      "id": "title",
+      "proposition": {
+        "predicate": "title",
+        "object": "Thames Water, I refuse to pay the sewage charge in my bill while you pollute Britain’s rivers and coastlines | Jenny Jones"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "politics",
+        "citation": "https://www.theguardian.com/commentisfree/2026/sep/02/thames-water-sewage-charge-bill-pollute-britain-river-coastline"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "url",
+      "proposition": {
+        "predicate": "url",
+        "object": "https://www.theguardian.com/commentisfree/2026/sep/02/thames-water-sewage-charge-bill-pollute-britain-river-coastline"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "politics",
+        "citation": "https://www.theguardian.com/commentisfree/2026/sep/02/thames-water-sewage-charge-bill-pollute-britain-river-coastline"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "summary",
+      "proposition": {
+        "predicate": "summary",
+        "object": "<p>I will calmly read all the threatening letters and await the court case against me. But I will take a stand even if our government won’t</p><p>I can’t even remember when I decided to stop paying the sewage element of my Thames Water bill. It might have been after reading this headline from the Guardian in July 2025: “<a href=\"https://www.theguardian.com/business/2025/jul/18/serious-pollution-incidents-englands-water-companies-data\">Serious pollution incidents by English water companies rose 60% last year</a>,” with the subheading: “Environment Agency records 75 serious incidents among total of 2,800, with Thames Water being worst offender.”</p><p>Living in London means that my supplier is Thames Water, which makes a profit out of pollution. I decided that if the government wouldn’t act, I could at least do my part and not pay for this travesty.</p><p>Jenny Jones is a Green party peer</p> <a href=\"https://www.theguardian.com/commentisfree/2026/sep/02/thames-water-sewage-charge-bill-pollute-britain-river-coastline\">Continue reading...</a>"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "politics",
+        "citation": "https://www.theguardian.com/commentisfree/2026/sep/02/thames-water-sewage-charge-bill-pollute-britain-river-coastline"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "published",
+      "proposition": {
+        "predicate": "published",
+        "object": "Wed, 02 Sep 2026 10:00:21 GMT"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "politics",
+        "citation": "https://www.theguardian.com/commentisfree/2026/sep/02/thames-water-sewage-charge-bill-pollute-britain-river-coastline"
+      },
+      "status": "supported"
+    }
+  ]
+}

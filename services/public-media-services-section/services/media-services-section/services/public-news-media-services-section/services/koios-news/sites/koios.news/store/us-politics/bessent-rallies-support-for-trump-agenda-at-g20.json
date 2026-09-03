@@ -1,0 +1,69 @@
+{
+  "subject": "bessent-rallies-support-for-trump-agenda-at-g20",
+  "claims": [
+    {
+      "id": "title",
+      "proposition": {
+        "predicate": "title",
+        "object": "Bessent rallies support for Trump agenda at G20"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "us-politics",
+        "citation": "https://thehill.com/newsletters/business-economy/6067771-bessent-trump-agenda-g20-finance/"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "url",
+      "proposition": {
+        "predicate": "url",
+        "object": "https://thehill.com/newsletters/business-economy/6067771-bessent-trump-agenda-g20-finance/"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "us-politics",
+        "citation": "https://thehill.com/newsletters/business-economy/6067771-bessent-trump-agenda-g20-finance/"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "summary",
+      "proposition": {
+        "predicate": "summary",
+        "object": "Welcome to The Hill’s Business & Economy newsletter {beacon} Business & Economy Business & Economy The Big Story Bessent rallies support for Trump agenda at G20 Treasury Secretary Scott Bessent hosted economic officials from around the world in Asheville, N.C., this week, seeking to rally support for the Trump administration’s financial agenda regarding Iran…"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "us-politics",
+        "citation": "https://thehill.com/newsletters/business-economy/6067771-bessent-trump-agenda-g20-finance/"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "published",
+      "proposition": {
+        "predicate": "published",
+        "object": "Wed, 02 Sep 2026 22:42:46 +0000"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "us-politics",
+        "citation": "https://thehill.com/newsletters/business-economy/6067771-bessent-trump-agenda-g20-finance/"
+      },
+      "status": "supported"
+    }
+  ]
+}

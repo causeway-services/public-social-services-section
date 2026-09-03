@@ -1,0 +1,69 @@
+{
+  "subject": "sennheiser-momentum-5-headphones-review-great-sound-meets-exceptional-battery-life",
+  "claims": [
+    {
+      "id": "title",
+      "proposition": {
+        "predicate": "title",
+        "object": "Sennheiser Momentum 5 headphones review: great sound meets exceptional battery life"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "technology",
+        "citation": "https://www.theguardian.com/technology/2026/jul/06/sennheiser-momentum-5-headphones-review"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "url",
+      "proposition": {
+        "predicate": "url",
+        "object": "https://www.theguardian.com/technology/2026/jul/06/sennheiser-momentum-5-headphones-review"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "technology",
+        "citation": "https://www.theguardian.com/technology/2026/jul/06/sennheiser-momentum-5-headphones-review"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "summary",
+      "proposition": {
+        "predicate": "summary",
+        "object": "<p>Premium Bluetooth noise-cancelling cans combine comfort with extensive connectivity and a user-replaceable battery</p><p>Sennheiser’s latest Momentum Bluetooth headphones build on the German audio specialist’s renowned sound quality with improved noise cancelling, exceptional comfort and a user-replaceable battery to keep pace with rivals.</p><p>The Momentum 5s cost £330 (€400/$400/A$749) and directly replace their <a href=\"https://www.theguardian.com/technology/2022/aug/22/sennheiser-momentum-4-review-tremendous-noise-cancelling-headphones-bluetooth-battery\">three-year-old predecessors</a>, facing strong competition from Bose, Sony and Sonos.</p> <a href=\"https://www.theguardian.com/technology/2026/jul/06/sennheiser-momentum-5-headphones-review\">Continue reading...</a>"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "technology",
+        "citation": "https://www.theguardian.com/technology/2026/jul/06/sennheiser-momentum-5-headphones-review"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "published",
+      "proposition": {
+        "predicate": "published",
+        "object": "Mon, 06 Jul 2026 06:00:03 GMT"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "technology",
+        "citation": "https://www.theguardian.com/technology/2026/jul/06/sennheiser-momentum-5-headphones-review"
+      },
+      "status": "supported"
+    }
+  ]
+}

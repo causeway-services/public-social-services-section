@@ -1,0 +1,69 @@
+{
+  "subject": "saylor-urges-msci-to-drop-discriminatory-rule-that-would-delete-strategy",
+  "claims": [
+    {
+      "id": "title",
+      "proposition": {
+        "predicate": "title",
+        "object": "Saylor Urges MSCI to Drop 'Discriminatory' Rule That Would Delete Strategy"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "crypto",
+        "citation": "https://decrypt.co/377010/saylor-urges-msci-to-drop-discriminatory-rule-that-would-delete-strategy"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "url",
+      "proposition": {
+        "predicate": "url",
+        "object": "https://decrypt.co/377010/saylor-urges-msci-to-drop-discriminatory-rule-that-would-delete-strategy"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "crypto",
+        "citation": "https://decrypt.co/377010/saylor-urges-msci-to-drop-discriminatory-rule-that-would-delete-strategy"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "summary",
+      "proposition": {
+        "predicate": "summary",
+        "object": "The proposed screen would cut three companies from MSCI's global indexes in November, with Strategy the largest by some distance."
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "crypto",
+        "citation": "https://decrypt.co/377010/saylor-urges-msci-to-drop-discriminatory-rule-that-would-delete-strategy"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "published",
+      "proposition": {
+        "predicate": "published",
+        "object": "Tue, 01 Sep 2026 11:28:45 +0000"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "crypto",
+        "citation": "https://decrypt.co/377010/saylor-urges-msci-to-drop-discriminatory-rule-that-would-delete-strategy"
+      },
+      "status": "supported"
+    }
+  ]
+}

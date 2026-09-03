@@ -1,0 +1,69 @@
+{
+  "subject": "todd-haynes-and-wallace-shawn-among-signatories-of-letter-backing-mark-ruffalo-amid-antisemitism",
+  "claims": [
+    {
+      "id": "title",
+      "proposition": {
+        "predicate": "title",
+        "object": "Todd Haynes and Wallace Shawn among signatories of letter backing Mark Ruffalo amid antisemitism charge"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "entertainment",
+        "citation": "https://www.theguardian.com/film/2026/sep/01/jewish-artist-support-mark-ruffalo-antisemitism"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "url",
+      "proposition": {
+        "predicate": "url",
+        "object": "https://www.theguardian.com/film/2026/sep/01/jewish-artist-support-mark-ruffalo-antisemitism"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "entertainment",
+        "citation": "https://www.theguardian.com/film/2026/sep/01/jewish-artist-support-mark-ruffalo-antisemitism"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "summary",
+      "proposition": {
+        "predicate": "summary",
+        "object": "<p>More than 170 Jewish artists, also including Joel Coen, Hannah Einbinder and Miranda July, have supported the actor after he criticized Paramount</p><p>A collective of more than 170 prominent Jewish artists and academics – including <a href=\"https://www.theguardian.com/film/2023/nov/09/every-great-actor-gets-really-scared-todd-haynes-on-heath-ledger-julianne-moore-and-cate-blanchett\">Todd Haynes</a>, <a href=\"https://www.theguardian.com/film/2021/dec/03/a-post-menopausal-macbeth-joel-coen-on-tackling-shakespeare-with-frances-mcdormand\">Joel Coen</a>, <a href=\"https://www.theguardian.com/film/article/2024/may/12/i-was-in-a-kind-of-ecstatic-freefall-artist-miranda-july-on-writing-the-book-that-could-change-your-life\">Miranda July</a>, <a href=\"https://www.theguardian.com/film/2026/jul/31/i-was-born-without-self-esteem-hannah-einbinder-on-hacks-her-buzzy-queer-horror-and-being-hollywoods-most-outspoken-star\">Hannah Einbinder</a>, <a href=\"https://www.theguardian.com/stage/ng-interactive/2026/may/18/wallace-shawn-interview\">Wallace Shawn</a> and <a href=\"https://www.theguardian.com/profile/naomiklein\">Naomi Klein</a><strong> </strong>– have signed an open letter supporting <a href=\"https://www.theguardian.com/film/mark-ruffalo\">Mark Ruffalo</a>.</p><p>The actor had been <a href=\"https://www.theguardian.com/film/2026/aug/24/mark-ruffalo-fires-back-paramount-oracle-accused-antisemitic-tropes-israel\">accused</a> of invoking antisemitic tropes after he criticized Paramount Skydance, the media company owned by David Ellison, a Donald Trump ally. Ruffalo had spoken out about the <a href=\"https://www.theguardian.com/media/2026/jul/17/paramount-warner-bros-merger\">$111bn merger</a> with Warner Bros Discovery (WBD).</p> <a href=\"https://www.theguardian.com/film/2026/sep/01/jewish-artist-support-mark-ruffalo-antisemitism\">Continue reading...</a>"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "entertainment",
+        "citation": "https://www.theguardian.com/film/2026/sep/01/jewish-artist-support-mark-ruffalo-antisemitism"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "published",
+      "proposition": {
+        "predicate": "published",
+        "object": "Tue, 01 Sep 2026 18:42:05 GMT"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "entertainment",
+        "citation": "https://www.theguardian.com/film/2026/sep/01/jewish-artist-support-mark-ruffalo-antisemitism"
+      },
+      "status": "supported"
+    }
+  ]
+}

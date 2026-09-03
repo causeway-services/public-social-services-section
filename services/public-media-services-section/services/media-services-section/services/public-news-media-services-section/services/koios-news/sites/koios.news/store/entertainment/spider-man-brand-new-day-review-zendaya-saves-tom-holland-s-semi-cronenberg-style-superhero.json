@@ -1,0 +1,69 @@
+{
+  "subject": "spider-man-brand-new-day-review-zendaya-saves-tom-holland-s-semi-cronenberg-style-superhero",
+  "claims": [
+    {
+      "id": "title",
+      "proposition": {
+        "predicate": "title",
+        "object": "Spider-Man: Brand New Day review – Zendaya saves Tom Holland’s semi-Cronenberg-style superhero"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "entertainment",
+        "citation": "https://www.theguardian.com/film/2026/jul/28/spider-man-brand-new-day-review-zendaya-saves-tom-hollands-semi-cronenberg-style-superhero"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "url",
+      "proposition": {
+        "predicate": "url",
+        "object": "https://www.theguardian.com/film/2026/jul/28/spider-man-brand-new-day-review-zendaya-saves-tom-hollands-semi-cronenberg-style-superhero"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "entertainment",
+        "citation": "https://www.theguardian.com/film/2026/jul/28/spider-man-brand-new-day-review-zendaya-saves-tom-hollands-semi-cronenberg-style-superhero"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "summary",
+      "proposition": {
+        "predicate": "summary",
+        "object": "<p>Now 30, Holland is back as the vexed webslinger in a sometimes shocking, occasionally sluggish new instalment opposite his Odyssey castmate</p><p>Just a few weeks ago, <a href=\"https://www.theguardian.com/film/2026/jul/27/tom-holland-says-some-of-his-films-are-shit-and-people-shouldnt-see-them\">Tom Holland</a> was telling us that his role as Telemachus in Christopher Nolan’s Odyssey was his “last chance to play a boy”. Well, Holland is back as the supposedly scrappy, gawky, arachnid young superhero Spider-Man. Not Spider-Boy admittedly, and these days Holland is actually a chunkier and more stacked Spidey than previously, flexing some pretty serious biceps. He is maturing in the role. But is the role maturing with him?</p><p>The point is that this film is a reset. At the end of the last movie <a href=\"https://www.theguardian.com/film/2021/dec/18/spider-man-no-way-home-review-more-is-more\">Spider-Man: No Way Home</a>, courtesy of Dr Strange’s colossal psychic powers – which might have come in handy in this episode incidentally, part of the narrative-universe inconsistency that you just have to overlook – Peter Parker was able to erase everyone’s knowledge that he is, in fact, Spider-Man, and that included his goofy best friend Ned Leeds (Jacob Batalon) and more to the point, the love of his life MJ (Zendaya).</p> <a href=\"https://www.theguardian.com/film/2026/jul/28/spider-man-brand-new-day-review-zendaya-saves-tom-hollands-semi-cronenberg-style-superhero\">Continue reading...</a>"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "entertainment",
+        "citation": "https://www.theguardian.com/film/2026/jul/28/spider-man-brand-new-day-review-zendaya-saves-tom-hollands-semi-cronenberg-style-superhero"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "published",
+      "proposition": {
+        "predicate": "published",
+        "object": "Tue, 28 Jul 2026 13:11:59 GMT"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "entertainment",
+        "citation": "https://www.theguardian.com/film/2026/jul/28/spider-man-brand-new-day-review-zendaya-saves-tom-hollands-semi-cronenberg-style-superhero"
+      },
+      "status": "supported"
+    }
+  ]
+}

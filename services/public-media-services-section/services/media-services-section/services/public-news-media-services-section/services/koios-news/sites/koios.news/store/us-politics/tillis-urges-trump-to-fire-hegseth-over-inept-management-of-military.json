@@ -1,0 +1,69 @@
+{
+  "subject": "tillis-urges-trump-to-fire-hegseth-over-inept-management-of-military",
+  "claims": [
+    {
+      "id": "title",
+      "proposition": {
+        "predicate": "title",
+        "object": "Tillis urges Trump to fire Hegseth over ‘inept management’ of military"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "us-politics",
+        "citation": "https://thehill.com/homenews/senate/6066871-tillis-trump-fire-hegseth/"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "url",
+      "proposition": {
+        "predicate": "url",
+        "object": "https://thehill.com/homenews/senate/6066871-tillis-trump-fire-hegseth/"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "us-politics",
+        "citation": "https://thehill.com/homenews/senate/6066871-tillis-trump-fire-hegseth/"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "summary",
+      "proposition": {
+        "predicate": "summary",
+        "object": "Sen. Thom Tillis (R-N.C.), a former member of the Senate Armed Services Committee, is calling on President Trump to fire Secretary of Defense Pete Hegseth over what he called Hegseth’s “inept management” of the military. Tillis stepped up his criticism of Hegseth’s leadership after Army Secretary Dan Driscoll announced his resignation after repeatedly clashing with…"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "us-politics",
+        "citation": "https://thehill.com/homenews/senate/6066871-tillis-trump-fire-hegseth/"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "published",
+      "proposition": {
+        "predicate": "published",
+        "object": "Wed, 02 Sep 2026 17:43:47 +0000"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "us-politics",
+        "citation": "https://thehill.com/homenews/senate/6066871-tillis-trump-fire-hegseth/"
+      },
+      "status": "supported"
+    }
+  ]
+}

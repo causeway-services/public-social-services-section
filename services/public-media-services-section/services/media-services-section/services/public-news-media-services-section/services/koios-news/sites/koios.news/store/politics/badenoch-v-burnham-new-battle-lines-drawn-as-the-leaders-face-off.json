@@ -1,0 +1,69 @@
+{
+  "subject": "badenoch-v-burnham-new-battle-lines-drawn-as-the-leaders-face-off",
+  "claims": [
+    {
+      "id": "title",
+      "proposition": {
+        "predicate": "title",
+        "object": "Badenoch v Burnham: new battle lines drawn as the leaders face off"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "politics",
+        "citation": "https://www.theguardian.com/politics/2026/sep/02/conservative-reshuffle-is-a-response-to-shifting-political-tides"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "url",
+      "proposition": {
+        "predicate": "url",
+        "object": "https://www.theguardian.com/politics/2026/sep/02/conservative-reshuffle-is-a-response-to-shifting-political-tides"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "politics",
+        "citation": "https://www.theguardian.com/politics/2026/sep/02/conservative-reshuffle-is-a-response-to-shifting-political-tides"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "summary",
+      "proposition": {
+        "predicate": "summary",
+        "object": "<p>Badenoch, now flanked at PMQs by a mix of centrists and rightwing hawks, may be rethinking the gloves-off style used against Starmer</p><p>When Kemi Badenoch steps up to the dispatch box for prime minister’s questions on Wednesday, she will face a very different opponent. And while all eyes will be on Andy Burnham’s first PMQs, those in the Conservative ranks will be watching their own leader’s performance just as closely.</p><p>Badenoch attempted to get out of the traps quickly this week, <a href=\"https://www.theguardian.com/politics/2026/aug/31/conservative-reshuffle-whos-who-in-kemi-badenochs-top-team\">instigating a reshuffle of her frontbench</a> like a conscientious head girl refilling her pencil case for the start of term. Out went the unassuming shadow chancellor, Mel Stride, replaced by the Thatcherite Andrew Griffith. He will lead a new economic unit alongside the City minister, Richard Fuller, and Claire Coutinho, who will replace Griffith as shadow business secretary and act as his deputy after her parental leave.</p> <a href=\"https://www.theguardian.com/politics/2026/sep/02/conservative-reshuffle-is-a-response-to-shifting-political-tides\">Continue reading...</a>"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "politics",
+        "citation": "https://www.theguardian.com/politics/2026/sep/02/conservative-reshuffle-is-a-response-to-shifting-political-tides"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "published",
+      "proposition": {
+        "predicate": "published",
+        "object": "Wed, 02 Sep 2026 06:00:25 GMT"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "politics",
+        "citation": "https://www.theguardian.com/politics/2026/sep/02/conservative-reshuffle-is-a-response-to-shifting-political-tides"
+      },
+      "status": "supported"
+    }
+  ]
+}

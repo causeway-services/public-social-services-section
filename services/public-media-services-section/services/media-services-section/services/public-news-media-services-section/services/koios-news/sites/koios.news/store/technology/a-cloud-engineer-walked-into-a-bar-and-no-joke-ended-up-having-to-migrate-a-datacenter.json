@@ -1,0 +1,69 @@
+{
+  "subject": "a-cloud-engineer-walked-into-a-bar-and-no-joke-ended-up-having-to-migrate-a-datacenter",
+  "claims": [
+    {
+      "id": "title",
+      "proposition": {
+        "predicate": "title",
+        "object": "A cloud engineer walked into a bar and – no joke – ended up having to migrate a datacenter"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "technology",
+        "citation": "https://www.theregister.com/virtualization/2026/09/02/a-cloud-engineer-walked-into-a-bar-and-no-joke-ended-up-having-to-migrate-a-datacenter/5293835"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "url",
+      "proposition": {
+        "predicate": "url",
+        "object": "https://www.theregister.com/virtualization/2026/09/02/a-cloud-engineer-walked-into-a-bar-and-no-joke-ended-up-having-to-migrate-a-datacenter/5293835"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "technology",
+        "citation": "https://www.theregister.com/virtualization/2026/09/02/a-cloud-engineer-walked-into-a-bar-and-no-joke-ended-up-having-to-migrate-a-datacenter/5293835"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "summary",
+      "proposition": {
+        "predicate": "summary",
+        "object": "Visiting a second bar on the same night can often be a dangerous move. When Dave Bradley did it, he ended up having to move a datacenter, on a two-week deadline, without extra budget. Bradley is a senior cloud engineer at healthcare services company Vizient and visited a bar while winding down after an off-site company meeting. After enjoying a decent stint of merriment with colleagues from the company’s tech team, Bradley decided to call it a night - but on his way out, he spotted his boss in a second watering hole, conversing with other even more senior execs. He decided to stop in and stayed a while before the second group decided their night was over. As Bradley walked out, one of the senior suits asked, “Could we shut down the Chicago datacenter in two weeks and get everything moved down to Dallas?” Bradley’s reaction was “What?” Then his boss intervened and asked if it was possible. Helped by some top shelf liquor, Bradley and a colleague from the networking team started to brainstorm the project. Management didn’t hold Bradley to the two-week timeframe, but settled on a demanding six-to-seven-month target. Speaking at the VMware Explore conference on Monday, Bradley said Vizient used Pure Storage (now Everpure) arrays and had 10Gbps links between the two datacenters. Replicating data between arrays was the obvious move, and the company had sufficient bandwidth to make it happen. Of course it wasn’t that easy. The two datacenters had different IP addressing schemes, and the company didn’t have enough hardware to support all workloads during the downtime that a physical hardware migration would cause. Magic tricks In one meeting, Bradley says execs told him “Just make it work. You guys are good. So we got to be magicians.” In another meeting, Bradley decided to own the name. Asked for details of the project, he replied, “Just trust the magicians.” He’s now known around the office as “The magician.” One trick he and the team used to solve the hardware issue was consolidating workloads onto a subset of the servers and storage arrays that Vizient ran in its Chicago datacenter. That process freed up some hardware, which the company shipped to Dallas so they would be in place to receive workloads during the migration. Bradley came to Vizient after a merger, and in his previous role had built a full disaster recovery rig on VMware Site Recovery Manager (SRM), Virtzilla’s tool that makes it possible to shift workloads between two sites that both run the vStack. Vizient still had licenses to use it, so he put it to work because it can remap IP addresses to the local scheme during migrations. That those licenses were paid for was very helpful, because the migration budget was minimal. More big nights By now, Bradley’s team worked alongside the networking team and others across the company’s IT. Together they planned a three-night migration push, each devoted to a different part of the company’s infrastructure. The first night saw them shift Vizient’s development environment, which comprised about 70 VMs and three VLANs. Bradley said he and his team created orchestrations that saw workloads shut down in Chicago, before new VLANs spun up in Dallas ready to run the apps once they landed. “We built in a couple check spots where it would pause so we could verify things were right,” he said. “Our network guys would move the VLAN from Chicago, bring it up down in Dallas, and we would click the button to bring it back up.” It worked and Bradley said he was pleased, but shocked. Management then threw a spanner in the works by acquiring a company and deciding its workloads also needed to move to Dallas. Thankfully, that company was a tenant of the same Chicago office building and datacenter as Vizient, had only 50 VMs, and was in the midst of a project that meant they were ready to move. Bradley still had unused hardware on hand and literally moved an array into the acquired company’s offices, copied relevant data, brought it back to Vizient and added it to the migration plan. During this phase of the operation Bradley learned that turning off a Pure array involves pulling out its power cord, a method he had to confirm by checking with support! Night two also went well and saw the company’s test environment move without issue. It's always DNS Next came the attempt to move the 50 VMs from the recently acquired company, during which Bradley said: “Bad stuff happens.” The aphorism “It’s always DNS” proved accurate and the migration team learned that SRM can glitch when asked to move a server that hosts both DNS and Active Directory, and the DNS goes down. “So in the middle of it, we had to figure out what was going on,” Bradley said. The company’s network team figured out that they would need to leave some workloads in Chicago until a later date. Bradley described the final push to move the company’s production environment as “The most anticlimactic end to a project I ever had.” The job took three-and-a-half hours and all plans worked as intended. The final move resulted in about two hours of downtime, and the others produced about an hour each. “Most of the business never realized it happened because it went so well,” Bradley said. He thinks the project went so well because his approach to tech work complemented those of colleagues – some are detail-oriented, others more likely to just attack a problem. Together they found a balanced approach to the problems the project presented. Bradley offered three takeaways from his experience. One was that transport can be a bottleneck: courier company Federal Express would not issue insurance to allow a single shipment of hardware between Chicago and Dallas, because the value of the equipment exceeded its policy limits. Vizient therefore needed to make multiple shipments of storage arrays and servers. Happily, the company’s datacenter is close to a Chicago airport, so arranging multiple shipments was not complicated. The second learning was that DNS is always a problem. “Sometimes, projects happen after three or four cocktails,” was the third note of caution he mentioned in his talk. Maybe that’s something to remember if you ever think about going into a second bar! ®"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "technology",
+        "citation": "https://www.theregister.com/virtualization/2026/09/02/a-cloud-engineer-walked-into-a-bar-and-no-joke-ended-up-having-to-migrate-a-datacenter/5293835"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "published",
+      "proposition": {
+        "predicate": "published",
+        "object": "Wed, 02 Sep 2026 14:00:00 +0200"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "technology",
+        "citation": "https://www.theregister.com/virtualization/2026/09/02/a-cloud-engineer-walked-into-a-bar-and-no-joke-ended-up-having-to-migrate-a-datacenter/5293835"
+      },
+      "status": "supported"
+    }
+  ]
+}

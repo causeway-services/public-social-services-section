@@ -1,0 +1,69 @@
+{
+  "subject": "newsom-schiff-back-trump-s-push-for-federal-film-tax-credit",
+  "claims": [
+    {
+      "id": "title",
+      "proposition": {
+        "predicate": "title",
+        "object": "Newsom, Schiff back Trump’s push for federal film tax credit"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "us-politics",
+        "citation": "https://thehill.com/homenews/state-watch/6067488-newsom-schiff-trump-film-tax/"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "url",
+      "proposition": {
+        "predicate": "url",
+        "object": "https://thehill.com/homenews/state-watch/6067488-newsom-schiff-trump-film-tax/"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "us-politics",
+        "citation": "https://thehill.com/homenews/state-watch/6067488-newsom-schiff-trump-film-tax/"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "summary",
+      "proposition": {
+        "predicate": "summary",
+        "object": "Two California Democrats, Gov. Gavin Newsom and Sen. Adam Schiff, supported President Trump’s call this week to introduce a federal tax incentive for film and TV production in the U.S. On Monday, the president urged lawmakers in a Truth Social post to pass legislation to help move production back to Hollywood after rising U.S. production…"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "us-politics",
+        "citation": "https://thehill.com/homenews/state-watch/6067488-newsom-schiff-trump-film-tax/"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "published",
+      "proposition": {
+        "predicate": "published",
+        "object": "Wed, 02 Sep 2026 21:00:42 +0000"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "us-politics",
+        "citation": "https://thehill.com/homenews/state-watch/6067488-newsom-schiff-trump-film-tax/"
+      },
+      "status": "supported"
+    }
+  ]
+}

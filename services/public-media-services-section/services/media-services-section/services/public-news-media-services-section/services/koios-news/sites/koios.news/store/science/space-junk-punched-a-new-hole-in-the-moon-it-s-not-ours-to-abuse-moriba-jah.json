@@ -1,0 +1,69 @@
+{
+  "subject": "space-junk-punched-a-new-hole-in-the-moon-it-s-not-ours-to-abuse-moriba-jah",
+  "claims": [
+    {
+      "id": "title",
+      "proposition": {
+        "predicate": "title",
+        "object": "Space junk punched a new hole in the moon. It’s not ours to abuse | Moriba Jah"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "science",
+        "citation": "https://www.theguardian.com/commentisfree/2026/aug/31/space-junk-moon-hole"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "url",
+      "proposition": {
+        "predicate": "url",
+        "object": "https://www.theguardian.com/commentisfree/2026/aug/31/space-junk-moon-hole"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "science",
+        "citation": "https://www.theguardian.com/commentisfree/2026/aug/31/space-junk-moon-hole"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "summary",
+      "proposition": {
+        "predicate": "summary",
+        "object": "<p>The space industry treats the sky as a place to dump what it no longer wants. We must develop a new model of accountability</p><p>On 5 August, a piece of a derelict SpaceX rocket <a href=\"https://www.scientificamerican.com/article/nasa-images-reveal-60-foot-wide-crater-on-moon-left-by-spacex-rocket/\">traveling at 5,400 miles an hour</a> met with the moon and punched a fresh hole into it <a href=\"https://www.space.com/astronomy/moon/a-spacex-rocket-slammed-into-the-moon-this-month-and-a-nasa-spacecraft-has-spotted-its-lunar-grave-photos\">near Einstein Crater</a>. Astronomers were thrilled. The European Southern Observatory <a href=\"https://www.theguardian.com/science/2026/aug/06/spacex-rocket-crash-into-moon-impact\">caught sodium and lithium</a> flaring in the debris plume and called it a bonus. The media <a href=\"https://economictimes.indiatimes.com/news/international/global-trends/spacex-rocket-crashes-into-moon-plume-erupts-leaving-a-hole-on-lunar-surface-elon-musk-shares-impact-video-watch/articleshow/132981129.cms\">called it</a> a light show. Nobody was physically hurt, so nobody is responsible, and within a week the story was gone.</p><p>I have spent 20 years tracking the junk humanity leaves behind in space for a living, and I want to tell you plainly what that crater actually is: a receipt. It’s what you get when an entire industry treats the sky, and now the moon, as a place to dump what it no longer wants, and calls the dumping “normal operations” or “space exploration”.</p> <a href=\"https://www.theguardian.com/commentisfree/2026/aug/31/space-junk-moon-hole\">Continue reading...</a>"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "science",
+        "citation": "https://www.theguardian.com/commentisfree/2026/aug/31/space-junk-moon-hole"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "published",
+      "proposition": {
+        "predicate": "published",
+        "object": "Mon, 31 Aug 2026 10:00:24 GMT"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "science",
+        "citation": "https://www.theguardian.com/commentisfree/2026/aug/31/space-junk-moon-hole"
+      },
+      "status": "supported"
+    }
+  ]
+}

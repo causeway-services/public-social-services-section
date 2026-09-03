@@ -1,0 +1,69 @@
+{
+  "subject": "ukraine-war-briefing-russia-planning-massive-strikes-on-power-plants-days-after-its-deadliest-at",
+  "claims": [
+    {
+      "id": "title",
+      "proposition": {
+        "predicate": "title",
+        "object": "Ukraine war briefing: Russia planning ‘massive strikes’ on power plants days after its deadliest attack of the year"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "war",
+        "citation": "https://www.theguardian.com/world/2026/aug/31/ukraine-war-briefing-russia-planning-massive-strikes-on-power-plants-days-after-its-deadliest-attack-of-the-year"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "url",
+      "proposition": {
+        "predicate": "url",
+        "object": "https://www.theguardian.com/world/2026/aug/31/ukraine-war-briefing-russia-planning-massive-strikes-on-power-plants-days-after-its-deadliest-attack-of-the-year"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "war",
+        "citation": "https://www.theguardian.com/world/2026/aug/31/ukraine-war-briefing-russia-planning-massive-strikes-on-power-plants-days-after-its-deadliest-attack-of-the-year"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "summary",
+      "proposition": {
+        "predicate": "summary",
+        "object": "<p>Russia’s defence ministry preparing attacks on Ukraine’s energy infrastructure as death toll from warehouse strike rises to 38. What we know on day 1,650</p><p><strong>Russia’s defence ministry says it is gearing up for large-scale attacks on Ukraine’s energy infrastructure in a tit-for-tat response to strikes by Kyiv. </strong>“Russian forces have begun preparations for massive strikes against facilities in Ukraine’s energy sector in response to the ongoing attacks by the Kyiv regime on civilian infrastructure and on Russia’s oil and energy complex,” it said on Telegram on Sunday. Last winter, Moscow repeatedly hit Ukrainian power plants, devastating the country’s energy sector and plunging millions of people into cold and darkness in sub-zero temperatures.</p><p><strong>In comes as the death toll from a <a href=\"https://www.theguardian.com/world/2026/aug/29/russian-strike-warehouse-near-kyiv-kills-at-least-37\">Russian strike on a warehouse</a> west of Kyiv rose to 38</strong>, <strong>with four people still missing</strong>, <strong>making it the deadliest attack of the year</strong>, Ukraine’s president, Volodymyr Zelenskyy, said on Sunday. The Friday night strike on the warehouse, which Ukrainian officials said was storing ammunition, sparked massive explosions and fires that swept through dozens of nearby homes and buildings in the village of Myla.</p><p><strong>Russian strikes on Kyiv on Saturday killed a 2-year-old girl and injured 12 others, the capital’s mayor, Vitali Klitschko, said.</strong> In the village of Bilbasovka in eastern Ukraine, a 13-year-old and an adult died after Russian troops dropped bombs on private houses on Sunday, according to local official Vadim Lyakh.</p><p><strong>Meanwhile, a ⁠missile attack killed two ⁠people and ⁠injured another ​16 in the Russian ⁠city of Belgorod, close ⁠to the ​border ‌with</strong> ‌<strong>Ukraine</strong>, on ‌Sunday evening, the acting governor, Alexander Shuvayev, said on ‌Telegram. He said two ​people were killed after Ukraine hit ⁠a commercial facility, ​with the ​attack ​also causing ​fires ‌in ​seven ​warehouses in the city. Another ⁠person ⁠was ​killed ⁠in a Ukrainian ​attack ‌on ‌a mine ‌in the Russian-controlled ‌part of the Luhansk ​region ⁠in ​eastern Ukraine, ​the ​region’s Russian-installed ​governor, ‌Leonid ​Pasechnik, ​said.</p><p><strong>Ukraine wants ⁠to bring forward part of ⁠a European ⁠Union ​loan earmarked for next year ⁠to help cover a $27bn budget ⁠deficit this year,</strong> ​said its defence ‌minister, Yevhenii Khmara. In comments to ‌reporters released on Sunday, he added that Kyiv’s war plan must be ‌clear to Ukraine’s partners, as well ​as across the military chain of command.</p><p><strong>Khmara also said ⁠Ukraine has tested ​four ​potential interceptors to ​shoot down the ​jet-powered ‌drones ​Russia ​is increasingly firing at Ukraine</strong>. Swarms of the high-speed drones have plagued the capital Kyiv for four consecutive days, killing residents, damaging homes and warehouses and upending daily life.</p><p><strong>Ukraine ⁠is preparing for further talks ⁠with ⁠representatives of ​the US president, Donald Trump, Zelenskyy said on ⁠Sunday.</strong> “There will ​be ‌more details ‌tomorrow. We ‌will do everything we can so that war does not remain ‌the only option for ​how events unfold further. It is important that ⁠America shares ​many of our ​views on ​the situation,” ​he ‌said ​in ​a televised statement.</p><p><strong>A Nato official said on Sunday Russia is stepping up hybrid ⁠acts in Europe, but that at this time the alliance sees no imminent threat ⁠of attack. </strong>“Even as ⁠the ​Russians are facing very substantial resistance from Ukraine, they are stepping up attacks on Ukraine ⁠as well as hybrid acts in Europe,” the official said. “As always, Nato remains vigilant and alert to ⁠the variety of threats we face. At this time, we ​see no imminent threat ‌of attack,” the official ‌said, adding: “We continue to stand with Ukraine. And Nato continues ‌to work around the clock to keep our one billion people safe.”</p> <a href=\"https://www.theguardian.com/world/2026/aug/31/ukraine-war-briefing-russia-planning-massive-strikes-on-power-plants-days-after-its-deadliest-attack-of-the-year\">Continue reading...</a>"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "war",
+        "citation": "https://www.theguardian.com/world/2026/aug/31/ukraine-war-briefing-russia-planning-massive-strikes-on-power-plants-days-after-its-deadliest-attack-of-the-year"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "published",
+      "proposition": {
+        "predicate": "published",
+        "object": "Mon, 31 Aug 2026 02:21:29 GMT"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "war",
+        "citation": "https://www.theguardian.com/world/2026/aug/31/ukraine-war-briefing-russia-planning-massive-strikes-on-power-plants-days-after-its-deadliest-attack-of-the-year"
+      },
+      "status": "supported"
+    }
+  ]
+}

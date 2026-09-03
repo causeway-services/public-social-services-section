@@ -1,0 +1,69 @@
+{
+  "subject": "new-android-drop-adds-remembered-items-in-find-hub-makes-anti-nausea-dots-official",
+  "claims": [
+    {
+      "id": "title",
+      "proposition": {
+        "predicate": "title",
+        "object": "New Android Drop adds remembered items in Find Hub, makes anti-nausea dots official"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "technology",
+        "citation": "https://arstechnica.com/gadgets/2026/09/latest-android-drop-connects-gemini-to-find-hub-adds-keep-notes-and-themes-to-messages/"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "url",
+      "proposition": {
+        "predicate": "url",
+        "object": "https://arstechnica.com/gadgets/2026/09/latest-android-drop-connects-gemini-to-find-hub-adds-keep-notes-and-themes-to-messages/"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "technology",
+        "citation": "https://arstechnica.com/gadgets/2026/09/latest-android-drop-connects-gemini-to-find-hub-adds-keep-notes-and-themes-to-messages/"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "summary",
+      "proposition": {
+        "predicate": "summary",
+        "object": "Let's be frank: Some of Google's recent Android feature Drops have been duds, offering little more than an expansion of Gemini summaries and chat functions. The new September Drop does have some Gemini flavor, but there are non-AI goodies, too. Your messaging threads are getting prettier and more useful, and those nifty Motion Assist dots that began appearing last week are rolling out widely. And even the Gemini expansion is not without utility. Since this is an Android Drop rather than a Pixel Drop, these features are coming to a wider range of devices. The OS version does matter, though. If you're on Android 16 or higher, you can now tell Gemini to log the location of items that don't have a tracker tag attached. Just tell the AI where you put something, and include a photo if you like. Remembered items in Find Hub Remembered items in Find Hub This information will be logged in Find Hub, which has thus far been used for locating phones, earbuds, and tracker tags. You can ask Gemini to recall that information or simply check Find Hub yourself the next time you forget where you put that item. Read full article Comments"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "technology",
+        "citation": "https://arstechnica.com/gadgets/2026/09/latest-android-drop-connects-gemini-to-find-hub-adds-keep-notes-and-themes-to-messages/"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "published",
+      "proposition": {
+        "predicate": "published",
+        "object": "Tue, 01 Sep 2026 18:00:02 +0000"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "technology",
+        "citation": "https://arstechnica.com/gadgets/2026/09/latest-android-drop-connects-gemini-to-find-hub-adds-keep-notes-and-themes-to-messages/"
+      },
+      "status": "supported"
+    }
+  ]
+}

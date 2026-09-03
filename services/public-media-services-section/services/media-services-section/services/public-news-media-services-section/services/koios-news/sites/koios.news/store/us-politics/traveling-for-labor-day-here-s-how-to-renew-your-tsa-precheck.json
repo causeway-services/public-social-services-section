@@ -1,0 +1,69 @@
+{
+  "subject": "traveling-for-labor-day-here-s-how-to-renew-your-tsa-precheck",
+  "claims": [
+    {
+      "id": "title",
+      "proposition": {
+        "predicate": "title",
+        "object": "Traveling for Labor Day? Here’s how to renew your TSA PreCheck"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "us-politics",
+        "citation": "https://thehill.com/policy/transportation/6066067-labor-day-travels-tsa-precheck-renewal/"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "url",
+      "proposition": {
+        "predicate": "url",
+        "object": "https://thehill.com/policy/transportation/6066067-labor-day-travels-tsa-precheck-renewal/"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "us-politics",
+        "citation": "https://thehill.com/policy/transportation/6066067-labor-day-travels-tsa-precheck-renewal/"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "summary",
+      "proposition": {
+        "predicate": "summary",
+        "object": "If you think it's nearly time to renew your TSA PreCheck, here's how to do it."
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "us-politics",
+        "citation": "https://thehill.com/policy/transportation/6066067-labor-day-travels-tsa-precheck-renewal/"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "published",
+      "proposition": {
+        "predicate": "published",
+        "object": "Wed, 02 Sep 2026 18:57:38 +0000"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "us-politics",
+        "citation": "https://thehill.com/policy/transportation/6066067-labor-day-travels-tsa-precheck-renewal/"
+      },
+      "status": "supported"
+    }
+  ]
+}

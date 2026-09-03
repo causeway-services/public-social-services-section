@@ -114,14 +114,13 @@ against each incumbent's measured surface: Guardian, Reuters, AP, and BBC
 all expose schema.org `NewsArticle`/`Article` JSON-LD at the **article**
 level (headline, author, datePublished) — none expose structured data at
 the **claim** level with a citation attached to each individual assertion.
-No counterexample was found this session. **The structural fact holds; the
-receiver-visible outcome does not yet exist** — the store is real and
-populated (1,195 files, 4,770 claims per the `koios-intelligence-briefing`
-README's 2026-08-31 measurement) but is not reachable through any public
-endpoint: `/claims` and `/api/claims` both returned 404 live this session,
-and no route exposing `store/` was found in `sites/koios.news/src/index.mts`
-or `surface.mts`. **This is the closest-to-shipping BEAT wedge**: it needs
-exposure, not invention.
+No counterexample was found this session. **The structural fact holds and the
+receiver-visible outcome is deployed**: since the 2026-09-02 release every
+store file is served byte-identical at `/claims/<category>/<slug>.json` with a
+rendered ledger page at `/claims/<category>/<slug>/`, indexed by
+`/claims/index.json` and `/wire/index.json` (2,153 items across 21
+categories at release). Acceptance assay: fetch one claim object from
+`https://koios.news/claims/...` and resolve its `provenance.citation`.
 
 **Hypothesis 2 — citation-verified synthesis via the public editorial audit.**
 *Because `/newswire-audit.json` publishes a per-article `sourceSha256` and
@@ -156,15 +155,13 @@ shipped capability.
 
 ## 6. The receiver-visible wedge
 
-The smallest gap closure that both completes a real handoff and makes the
-strongest BEAT hypothesis (per-claim provenance) more testable: **expose the
-existing `store/<category>/<slug>.json` claim files as a public, read-only
-`GET /claims/{slug}` (or `/api/claims`) endpoint**, reusing the store and the
-`provenance.witness`/`provenance.citation` fields exactly as they already
-exist on disk — no new data model, no new editorial process, just a route.
-Acceptance assay: an outside agent can `GET` one claim object from a live
-URL and independently resolve its `provenance.citation` link. This is the
-single roadmap item this dossier hands forward; the cheaper, no-engineering
-MEET gaps (funding/ownership disclosure on `/about`, AI-use disclosure
-parity between `/about` and `/standards`) are equally real but are prose
-fixes, not the competitive wedge.
+The wedge shipped on 2026-09-02: the store is exposed read-only under
+`/claims/`, the desks under `/wire/<desk>` carry ten sections (world,
+politics, business, crypto, technology, science, health, culture, sport,
+opinion), and the funding/ownership and AI-use disclosures now stand on
+`/about` and `/standards`. Still open from the MEET table: a public style
+guide, a liveblog format, a free newsletter, and reader-facing data
+journalism beyond the coverage map at `/wire/coverage`. The next wedge is
+stratifying the store's uniform `alleges`/`supported` claims into derived
+asserted/saturated/settled strata so a reader can see a contested claim as
+contested.

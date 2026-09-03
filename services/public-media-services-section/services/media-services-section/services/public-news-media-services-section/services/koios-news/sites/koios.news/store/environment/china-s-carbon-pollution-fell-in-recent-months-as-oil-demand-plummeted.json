@@ -1,0 +1,69 @@
+{
+  "subject": "china-s-carbon-pollution-fell-in-recent-months-as-oil-demand-plummeted",
+  "claims": [
+    {
+      "id": "title",
+      "proposition": {
+        "predicate": "title",
+        "object": "China’s Carbon Pollution Fell in Recent Months as Oil Demand Plummeted"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "environment",
+        "citation": "https://insideclimatenews.org/news/02092026/china-oil-consumption-declines/"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "url",
+      "proposition": {
+        "predicate": "url",
+        "object": "https://insideclimatenews.org/news/02092026/china-oil-consumption-declines/"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "environment",
+        "citation": "https://insideclimatenews.org/news/02092026/china-oil-consumption-declines/"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "summary",
+      "proposition": {
+        "predicate": "summary",
+        "object": "The world’s second-largest oil consumer cut its use by 9 percent as the Iran war crimped supply. The drop could accelerate China’s pivot away from the fossil fuel. By Nicholas Kusnetz China’s carbon pollution fell modestly in recent months after the country’s consumers and industries sharply cut their use of oil, according to a new analysis. With oil and gas markets still in turmoil due to war in the Middle East, the trend could translate into a full-year decline for China’s carbon dioxide emissions."
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "environment",
+        "citation": "https://insideclimatenews.org/news/02092026/china-oil-consumption-declines/"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "published",
+      "proposition": {
+        "predicate": "published",
+        "object": "Wed, 02 Sep 2026 23:01:00 +0000"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "environment",
+        "citation": "https://insideclimatenews.org/news/02092026/china-oil-consumption-declines/"
+      },
+      "status": "supported"
+    }
+  ]
+}

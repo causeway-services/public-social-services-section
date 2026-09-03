@@ -1,0 +1,69 @@
+{
+  "subject": "star-wars-zero-company-review-joyfully-absurd-heroics-with-a-tight-knit-team-of-misfits",
+  "claims": [
+    {
+      "id": "title",
+      "proposition": {
+        "predicate": "title",
+        "object": "Star Wars Zero Company review – joyfully absurd heroics with a tight-knit team of misfits"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "technology",
+        "citation": "https://www.theguardian.com/games/2026/sep/02/star-wars-zero-company-review-joyfully-absurd-heroics-with-a-tight-knit-team-of-misfits"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "url",
+      "proposition": {
+        "predicate": "url",
+        "object": "https://www.theguardian.com/games/2026/sep/02/star-wars-zero-company-review-joyfully-absurd-heroics-with-a-tight-knit-team-of-misfits"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "technology",
+        "citation": "https://www.theguardian.com/games/2026/sep/02/star-wars-zero-company-review-joyfully-absurd-heroics-with-a-tight-knit-team-of-misfits"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "summary",
+      "proposition": {
+        "predicate": "summary",
+        "object": "<p><strong>PlayStation 5, Xbox Series S/X, PC; Bit Reactor<br></strong>Split priorities between scripted and emergent story moments hamper an otherwise brilliant Star Wars-themed successor to XCOM</p><p>Even if you’re unfamiliar with the term “emergent storytelling”, you’ve likely experienced some of the unscripted tales that can bubble up out of a game’s systems. Perhaps you’ve led a scheming dynasty in Crusader Kings, or watched a favourite hero succumb to madness in <a href=\"https://www.theguardian.com/technology/2016/jan/27/darkest-dungeon-review-darkly-innovative-fantasy-genre\">Darkest Dungeon</a>. Maybe you’ve surrendered yourself to the infinite yarn-spinner that is <a href=\"https://www.theguardian.com/games/2022/dec/06/dwarf-fortress-review-a-grand-chronicle-of-inevitable-disaster\">Dwarf Fortress</a> – or read about it from the mid-00s forums where users helped popularise the term “Let’s Play” by <a href=\"https://en.wikipedia.org/wiki/Boatmurdered\">chronicling their games</a> in descriptive posts. Or perhaps you’ve played Firaxis’ <a href=\"https://www.theguardian.com/technology/2012/nov/11/xcom-enemy-unknown-xbox-ps3\">XCOM</a>, the alien invasion tactics hit that several key members of Zero Company studio Bit Reactor had a hand in.</p><p>Zero Company hinges on a concept as simple as it is perfect: take the complementary class abilities, tough dice rolls, and permanent character deaths of XCOM, and house them in a sci-fi setting known for spaghetti western blaster duels, last stands and heroic sacrifices. As creative director Greg Foertsch <a href=\"https://www.pcgamer.com/games/strategy/star-wars-zero-company-devs-said-there-were-some-fights-about-its-story-centric-squadmates-suffering-permadeath-but-accepting-that-star-wars-is-about-loss-made-the-game-stronger/\">puts it</a>, “Star Wars is about loss.” Which losses you end up mourning in Zero Company depends on you.</p> <a href=\"https://www.theguardian.com/games/2026/sep/02/star-wars-zero-company-review-joyfully-absurd-heroics-with-a-tight-knit-team-of-misfits\">Continue reading...</a>"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "technology",
+        "citation": "https://www.theguardian.com/games/2026/sep/02/star-wars-zero-company-review-joyfully-absurd-heroics-with-a-tight-knit-team-of-misfits"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "published",
+      "proposition": {
+        "predicate": "published",
+        "object": "Wed, 02 Sep 2026 09:00:28 GMT"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "technology",
+        "citation": "https://www.theguardian.com/games/2026/sep/02/star-wars-zero-company-review-joyfully-absurd-heroics-with-a-tight-knit-team-of-misfits"
+      },
+      "status": "supported"
+    }
+  ]
+}

@@ -1,0 +1,69 @@
+{
+  "subject": "david-harbour-has-blown-tony-stark-s-cover-in-avengers-doomsday-it-might-just-be-what-marvel-nee",
+  "claims": [
+    {
+      "id": "title",
+      "proposition": {
+        "predicate": "title",
+        "object": "David Harbour has blown Tony Stark’s cover in Avengers: Doomsday. It might just be what Marvel needs"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "entertainment",
+        "citation": "https://www.theguardian.com/film/2026/aug/21/avengers-doomsday-robert-downey-jr-tony-stark-david-harbour-marvel"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "url",
+      "proposition": {
+        "predicate": "url",
+        "object": "https://www.theguardian.com/film/2026/aug/21/avengers-doomsday-robert-downey-jr-tony-stark-david-harbour-marvel"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "entertainment",
+        "citation": "https://www.theguardian.com/film/2026/aug/21/avengers-doomsday-robert-downey-jr-tony-stark-david-harbour-marvel"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "summary",
+      "proposition": {
+        "predicate": "summary",
+        "object": "<p>The actor, who plays Red Guardian in the film, made a cryptic comment to Variety that raised more Robert Downey Jr-shaped questions than answers. But was it a clanger, or expert trolling? </p><p>Nobody knows exactly what solemn blood oaths Marvel uses to prevent spoilers. But we do know that Andrew Garfield spent most of the run-up to 2021’s Spider-Man: No Way Home – in which he would eventually turn up as one of two secret Spideys – <a href=\"https://www.motionpictures.org/2022/01/how-andrew-garfield-kept-his-spider-man-no-way-home-secret-mostly-hidden/\">behaving as if Kevin Feige was standing behind him, holding up a giant card saying: YOU HAVE NEVER MET TOBEY MAGUIRE</a>. So we can imagine it’s pretty full on. Why, then, has Avengers: Doomsday star David Harbour this week <a href=\"https://www.ign.com/articles/did-david-harbour-just-drop-a-massive-avengers-doomsday-spoiler\">apparently blurted out the biggest Marvel secret</a> since Ben Kingsley’s Mandarin in Iron Man 3?</p><p>Invited by Variety magazine to offer up a line from Doomsday “completely out of context”, Harbour thought for a moment, adopted the Russian accent of his Red Guardian character and <a href=\"https://variety.com/2026/tv/awards/david-harbour-dtf-st-louis-asl-avengers-doomsday-warcraft-1236838350/\">came out with</a>: “You … are Tony Stark.” Which is quite a thing to say about a film whose entire marketing campaign so far has depended on us accepting that Iron Man remains dead, and that the actor who used to play him, Robert Downey Jr, is playing Victor von Doom instead.</p> <a href=\"https://www.theguardian.com/film/2026/aug/21/avengers-doomsday-robert-downey-jr-tony-stark-david-harbour-marvel\">Continue reading...</a>"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "entertainment",
+        "citation": "https://www.theguardian.com/film/2026/aug/21/avengers-doomsday-robert-downey-jr-tony-stark-david-harbour-marvel"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "published",
+      "proposition": {
+        "predicate": "published",
+        "object": "Fri, 21 Aug 2026 15:37:53 GMT"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "entertainment",
+        "citation": "https://www.theguardian.com/film/2026/aug/21/avengers-doomsday-robert-downey-jr-tony-stark-david-harbour-marvel"
+      },
+      "status": "supported"
+    }
+  ]
+}

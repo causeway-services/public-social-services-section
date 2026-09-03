@@ -1,0 +1,69 @@
+{
+  "subject": "the-waterboys-review-steve-earle-joins-a-gloriously-unruly-return-to-fisherman-s-blues",
+  "claims": [
+    {
+      "id": "title",
+      "proposition": {
+        "predicate": "title",
+        "object": "The Waterboys review – Steve Earle joins a gloriously unruly return to Fisherman’s Blues"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "entertainment",
+        "citation": "https://www.theguardian.com/music/2026/aug/30/the-waterboys-review-ovo-hydro-glasgow"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "url",
+      "proposition": {
+        "predicate": "url",
+        "object": "https://www.theguardian.com/music/2026/aug/30/the-waterboys-review-ovo-hydro-glasgow"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "entertainment",
+        "citation": "https://www.theguardian.com/music/2026/aug/30/the-waterboys-review-ovo-hydro-glasgow"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "summary",
+      "proposition": {
+        "predicate": "summary",
+        "object": "<p><strong>OVO Hydro, Glasgow<br></strong>The Nashville singer-songwriter is among the guests joining Mike Scott for a sprawling, exuberant revue that finds new life in the Waterboys’ rootsy past</p><p>This is strange. A Waterboys gig, but something else, too: the first night of the Fisherman’s Blues Revue. Which is what, exactly? Inspired by the Rolling Thunder Revue, the wild tour in which Bob Dylan performed alongside a troupe of guest stars, Mike Scott’s version is a way of digging into the rootsy music he and his band were making in the mid-1980s, some of which emerged on the classic Fisherman’s Blues. The aim of this show is not a faithful play-through of that album, which Scott has said he would find dull, but a “reigniting” of its spirit.</p><p>The fire is lit with an opening half-hour of favourites: A Girl Called Johnny is notable for the legs-akimbo keytar heroics of Brother Paul Brown. Scott gives him a shout-out and promises “a few other miscreants and villains yet to join us”. Chief among them is Steve Earle, who takes the stage after the interval. Ursine and magnetic, the mandolin looks like a toy in his hands as he sings Copperhead Road and others from his songbook. It feels, for a while, like a Steve Earle set dropped into a Waterboys gig, rather than a blending of the two. The wonderful exception is And a Bang on the Ear, Scott’s fond chronicle of lost loves.<br><br> Reworked as a duet, Earle contributes new verses that seem to refer to his own romances: “Sandy was just 18 when I took her for my wife/I believed we’d be together all the seasons of my life”. It works beautifully. Not everything does. The show is too long, pushing three hours including the interval, and the room is too big. The Stolen Child, that shivery setting of a Yeats poem, is not heard to advantage in an arena. Yet there is an exuberance and intensity in the performances, especially the playing of fiddler Steve Wickham – veteran of Fisherman’s Blues – which threatens to tip over into transcendence. A closing Will the Circle Be Unbroken sends the audience out into the night having experienced something better than nostalgia: artists weaving a new tapestry from the bright threads of their past.<br><br> • At the <a href=\"https://mikescottwaterboys.com/\">3Arena, Dublin</a>, 5 September and the <a href=\"https://mikescottwaterboys.com/\">O2, London</a>, 12 September</p> <a href=\"https://www.theguardian.com/music/2026/aug/30/the-waterboys-review-ovo-hydro-glasgow\">Continue reading...</a>"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "entertainment",
+        "citation": "https://www.theguardian.com/music/2026/aug/30/the-waterboys-review-ovo-hydro-glasgow"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "published",
+      "proposition": {
+        "predicate": "published",
+        "object": "Sun, 30 Aug 2026 11:10:02 GMT"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "entertainment",
+        "citation": "https://www.theguardian.com/music/2026/aug/30/the-waterboys-review-ovo-hydro-glasgow"
+      },
+      "status": "supported"
+    }
+  ]
+}

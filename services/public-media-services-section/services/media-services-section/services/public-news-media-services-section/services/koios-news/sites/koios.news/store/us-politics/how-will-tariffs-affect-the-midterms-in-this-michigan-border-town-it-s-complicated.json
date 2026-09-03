@@ -1,0 +1,69 @@
+{
+  "subject": "how-will-tariffs-affect-the-midterms-in-this-michigan-border-town-it-s-complicated",
+  "claims": [
+    {
+      "id": "title",
+      "proposition": {
+        "predicate": "title",
+        "object": "How will tariffs affect the midterms? In this Michigan border town, it's complicated"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "us-politics",
+        "citation": "https://www.npr.org/2026/09/02/nx-s1-5947963/tariffs-tariffs-voters-michigan-upper-peninsula-trump"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "url",
+      "proposition": {
+        "predicate": "url",
+        "object": "https://www.npr.org/2026/09/02/nx-s1-5947963/tariffs-tariffs-voters-michigan-upper-peninsula-trump"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "us-politics",
+        "citation": "https://www.npr.org/2026/09/02/nx-s1-5947963/tariffs-tariffs-voters-michigan-upper-peninsula-trump"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "summary",
+      "proposition": {
+        "predicate": "summary",
+        "object": "The recent trade war between the U.S. and Canada has both economic and political implications for Michigan, given it's the state's top trade partner. (Image credit: Education Images/Universal Images Group via Getty Images)"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "us-politics",
+        "citation": "https://www.npr.org/2026/09/02/nx-s1-5947963/tariffs-tariffs-voters-michigan-upper-peninsula-trump"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "published",
+      "proposition": {
+        "predicate": "published",
+        "object": "Wed, 02 Sep 2026 05:00:00 -0400"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "us-politics",
+        "citation": "https://www.npr.org/2026/09/02/nx-s1-5947963/tariffs-tariffs-voters-michigan-upper-peninsula-trump"
+      },
+      "status": "supported"
+    }
+  ]
+}

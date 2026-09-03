@@ -1,0 +1,69 @@
+{
+  "subject": "art-spiegelman-the-us-needs-a-counter-revolution",
+  "claims": [
+    {
+      "id": "title",
+      "proposition": {
+        "predicate": "title",
+        "object": "Art Spiegelman: ‘The US needs a counter-revolution’"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "culture",
+        "citation": "https://www.theguardian.com/books/ng-interactive/2026/aug/15/art-spiegelman-the-us-needs-a-counter-revolution"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "url",
+      "proposition": {
+        "predicate": "url",
+        "object": "https://www.theguardian.com/books/ng-interactive/2026/aug/15/art-spiegelman-the-us-needs-a-counter-revolution"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "culture",
+        "citation": "https://www.theguardian.com/books/ng-interactive/2026/aug/15/art-spiegelman-the-us-needs-a-counter-revolution"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "summary",
+      "proposition": {
+        "predicate": "summary",
+        "object": "<p>More than four decades after his Holocaust story Maus transformed the graphic novel genre, Art Spiegelman discusses Trump, the shadow of 9/11 and the rise of fascism in America</p><p>When the cartoonist Art Spiegelman began dating his future wife, Françoise Mouly, in the mid 70s, she would tell him not to worry about walking her home, because even the New York muggers didn’t bother venturing to where she lived in Soho. He moved in with her quite suddenly not long after, when his apartment in Greenwich Village burned down. His landlord, who lived on the ground floor, was a hoarder – once, when he came to collect Spiegelman’s rent, a cockroach crawled up from under his shirt collar – and eventually his accumulated junk caught alight.</p><p>This feels like a quintessential New York story, but then much of Spiegelman’s life does, or at least fits with the kind of stories we like to tell ourselves about the city. The Soho apartment Spiegelman and Mouly have lived in for five decades is worth millions now and is surrounded by high-end designers; his studio, down the road, is above a branch of Tiffany’s. “It’s just kind of an embarrassment, I mean Tiffany’s is not my class,” says Spiegelman, who refers to these flash new arrivals, dismissively, as “very fancy airport mall stores”.</p> <a href=\"https://www.theguardian.com/books/ng-interactive/2026/aug/15/art-spiegelman-the-us-needs-a-counter-revolution\">Continue reading...</a>"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "culture",
+        "citation": "https://www.theguardian.com/books/ng-interactive/2026/aug/15/art-spiegelman-the-us-needs-a-counter-revolution"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "published",
+      "proposition": {
+        "predicate": "published",
+        "object": "Sat, 15 Aug 2026 08:00:50 GMT"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "culture",
+        "citation": "https://www.theguardian.com/books/ng-interactive/2026/aug/15/art-spiegelman-the-us-needs-a-counter-revolution"
+      },
+      "status": "supported"
+    }
+  ]
+}

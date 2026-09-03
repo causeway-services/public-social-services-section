@@ -1,0 +1,69 @@
+{
+  "subject": "sadiq-khan-fined-over-untaxed-car-falsely-registered-in-his-name",
+  "claims": [
+    {
+      "id": "title",
+      "proposition": {
+        "predicate": "title",
+        "object": "Sadiq Khan fined over untaxed car falsely registered in his name"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "economy",
+        "citation": "https://www.theguardian.com/politics/2026/sep/02/sadiq-khan-fined-fast-track-court-untaxed-car-city-hall-says-he-doesnt-own"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "url",
+      "proposition": {
+        "predicate": "url",
+        "object": "https://www.theguardian.com/politics/2026/sep/02/sadiq-khan-fined-fast-track-court-untaxed-car-city-hall-says-he-doesnt-own"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "economy",
+        "citation": "https://www.theguardian.com/politics/2026/sep/02/sadiq-khan-fined-fast-track-court-untaxed-car-city-hall-says-he-doesnt-own"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "summary",
+      "proposition": {
+        "predicate": "summary",
+        "object": "<p>London mayor’s office says he is ‘victim of a scam’ after conviction under fast-track system where magistrates can decide outcomes in seconds</p><p>Sadiq Khan’s office has revealed he was the victim of a scam that led to him being fined for failing to tax a car that did not belong to him.</p><p>The London mayor was found guilty last month under a system of “conveyor-belt justice”, in which magistrates decide on hundreds of cases a day, sometimes spending less than a minute on each.</p> <a href=\"https://www.theguardian.com/politics/2026/sep/02/sadiq-khan-fined-fast-track-court-untaxed-car-city-hall-says-he-doesnt-own\">Continue reading...</a>"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "economy",
+        "citation": "https://www.theguardian.com/politics/2026/sep/02/sadiq-khan-fined-fast-track-court-untaxed-car-city-hall-says-he-doesnt-own"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "published",
+      "proposition": {
+        "predicate": "published",
+        "object": "Wed, 02 Sep 2026 17:08:08 GMT"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "economy",
+        "citation": "https://www.theguardian.com/politics/2026/sep/02/sadiq-khan-fined-fast-track-court-untaxed-car-city-hall-says-he-doesnt-own"
+      },
+      "status": "supported"
+    }
+  ]
+}

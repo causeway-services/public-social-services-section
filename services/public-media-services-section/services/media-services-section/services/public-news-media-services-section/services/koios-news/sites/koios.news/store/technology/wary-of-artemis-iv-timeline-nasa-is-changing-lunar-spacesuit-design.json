@@ -1,0 +1,69 @@
+{
+  "subject": "wary-of-artemis-iv-timeline-nasa-is-changing-lunar-spacesuit-design",
+  "claims": [
+    {
+      "id": "title",
+      "proposition": {
+        "predicate": "title",
+        "object": "Wary of Artemis IV timeline, NASA is changing lunar spacesuit design"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "technology",
+        "citation": "https://arstechnica.com/space/2026/09/wary-of-artemis-iv-timeline-nasa-is-changing-lunar-spacesuit-design/"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "url",
+      "proposition": {
+        "predicate": "url",
+        "object": "https://arstechnica.com/space/2026/09/wary-of-artemis-iv-timeline-nasa-is-changing-lunar-spacesuit-design/"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "technology",
+        "citation": "https://arstechnica.com/space/2026/09/wary-of-artemis-iv-timeline-nasa-is-changing-lunar-spacesuit-design/"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "summary",
+      "proposition": {
+        "predicate": "summary",
+        "object": "NASA has decided to use a simpler spacesuit for its initial missions to the lunar surface, Ars has learned. The agency announced the decision during an internal meeting this week as it seeks to accelerate its program to land humans at the south pole of the Moon as early as 2028. At the direction of Artemis Program Manager Jeremy Parsons, NASA will work with Axiom Space to develop a \"Sortie Suit\" variant of the planned spacesuit for the lunar surface. Sources said the Sortie Suit will be used for the initial landing missions flown on landers developed both by SpaceX and Blue Origin. Among the goals of the initiative are to lower the mass of the spacesuit, reduce its complexity, and simplify interfaces between the spacesuits and lunar landers. Read full article Comments"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "technology",
+        "citation": "https://arstechnica.com/space/2026/09/wary-of-artemis-iv-timeline-nasa-is-changing-lunar-spacesuit-design/"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "published",
+      "proposition": {
+        "predicate": "published",
+        "object": "Wed, 02 Sep 2026 19:37:08 +0000"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "technology",
+        "citation": "https://arstechnica.com/space/2026/09/wary-of-artemis-iv-timeline-nasa-is-changing-lunar-spacesuit-design/"
+      },
+      "status": "supported"
+    }
+  ]
+}

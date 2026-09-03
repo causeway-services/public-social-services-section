@@ -1,0 +1,69 @@
+{
+  "subject": "stan-kroenke-agrees-to-buy-mlb-s-angels-valuing-team-and-regional-network-at-4-billion",
+  "claims": [
+    {
+      "id": "title",
+      "proposition": {
+        "predicate": "title",
+        "object": "Stan Kroenke agrees to buy MLB's Angels, valuing team and regional network at $4 billion"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "economy",
+        "citation": "https://www.cnbc.com/2026/09/01/stan-kroenke-controlling-stake-los-angeles-angels.html"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "url",
+      "proposition": {
+        "predicate": "url",
+        "object": "https://www.cnbc.com/2026/09/01/stan-kroenke-controlling-stake-los-angeles-angels.html"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "economy",
+        "citation": "https://www.cnbc.com/2026/09/01/stan-kroenke-controlling-stake-los-angeles-angels.html"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "summary",
+      "proposition": {
+        "predicate": "summary",
+        "object": "Kroenke Sports and Entertainment was valued at more than $26 billion in CNBC's most recent list of the world's most valuable sports empires."
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "economy",
+        "citation": "https://www.cnbc.com/2026/09/01/stan-kroenke-controlling-stake-los-angeles-angels.html"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "published",
+      "proposition": {
+        "predicate": "published",
+        "object": "Tue, 01 Sep 2026 21:40:30 GMT"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "economy",
+        "citation": "https://www.cnbc.com/2026/09/01/stan-kroenke-controlling-stake-los-angeles-angels.html"
+      },
+      "status": "supported"
+    }
+  ]
+}

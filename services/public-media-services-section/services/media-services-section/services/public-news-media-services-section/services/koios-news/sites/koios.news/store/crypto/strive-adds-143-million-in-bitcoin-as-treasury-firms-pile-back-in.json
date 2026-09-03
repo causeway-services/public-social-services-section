@@ -1,0 +1,69 @@
+{
+  "subject": "strive-adds-143-million-in-bitcoin-as-treasury-firms-pile-back-in",
+  "claims": [
+    {
+      "id": "title",
+      "proposition": {
+        "predicate": "title",
+        "object": "Strive Adds $143 Million in Bitcoin as Treasury Firms Pile Back In"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "crypto",
+        "citation": "https://decrypt.co/376992/strive-adds-143-million-bitcoin"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "url",
+      "proposition": {
+        "predicate": "url",
+        "object": "https://decrypt.co/376992/strive-adds-143-million-bitcoin"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "crypto",
+        "citation": "https://decrypt.co/376992/strive-adds-143-million-bitcoin"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "summary",
+      "proposition": {
+        "predicate": "summary",
+        "object": "The Nasdaq-listed asset manager paid an average of $79,431 per coin, lifting its total stash to 23,156 BTC amid a wave of renewed treasury buying."
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "crypto",
+        "citation": "https://decrypt.co/376992/strive-adds-143-million-bitcoin"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "published",
+      "proposition": {
+        "predicate": "published",
+        "object": "Mon, 31 Aug 2026 21:01:05 +0000"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "crypto",
+        "citation": "https://decrypt.co/376992/strive-adds-143-million-bitcoin"
+      },
+      "status": "supported"
+    }
+  ]
+}

@@ -1,0 +1,69 @@
+{
+  "subject": "49ers-star-de-bosa-takes-big-step-toward-return",
+  "claims": [
+    {
+      "id": "title",
+      "proposition": {
+        "predicate": "title",
+        "object": "49ers star DE Bosa takes big step toward return"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "sport",
+        "citation": "https://www.espn.com/nfl/story/_/id/49806533/49ers-nick-bosa-practices-fully-first-acl-injury"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "url",
+      "proposition": {
+        "predicate": "url",
+        "object": "https://www.espn.com/nfl/story/_/id/49806533/49ers-nick-bosa-practices-fully-first-acl-injury"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "sport",
+        "citation": "https://www.espn.com/nfl/story/_/id/49806533/49ers-nick-bosa-practices-fully-first-acl-injury"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "summary",
+      "proposition": {
+        "predicate": "summary",
+        "object": "49ers defensive end Nick Bosa took a big step toward returning to play Wednesday when he participated in a full practice for the first time since tearing his right anterior cruciate ligament in Week 3 of last season."
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "sport",
+        "citation": "https://www.espn.com/nfl/story/_/id/49806533/49ers-nick-bosa-practices-fully-first-acl-injury"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "published",
+      "proposition": {
+        "predicate": "published",
+        "object": "Wed, 2 Sep 2026 18:21:05 EST"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "sport",
+        "citation": "https://www.espn.com/nfl/story/_/id/49806533/49ers-nick-bosa-practices-fully-first-acl-injury"
+      },
+      "status": "supported"
+    }
+  ]
+}

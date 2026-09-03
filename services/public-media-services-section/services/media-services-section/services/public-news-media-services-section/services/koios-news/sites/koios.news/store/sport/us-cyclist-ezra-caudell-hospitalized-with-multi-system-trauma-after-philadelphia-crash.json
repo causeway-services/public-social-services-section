@@ -1,0 +1,69 @@
+{
+  "subject": "us-cyclist-ezra-caudell-hospitalized-with-multi-system-trauma-after-philadelphia-crash",
+  "claims": [
+    {
+      "id": "title",
+      "proposition": {
+        "predicate": "title",
+        "object": "US cyclist Ezra Caudell hospitalized with ‘multi-system trauma’ after Philadelphia crash"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "sport",
+        "citation": "https://www.theguardian.com/sport/2026/sep/02/ezra-caudell-philadelphia-cycling-classic-crash"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "url",
+      "proposition": {
+        "predicate": "url",
+        "object": "https://www.theguardian.com/sport/2026/sep/02/ezra-caudell-philadelphia-cycling-classic-crash"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "sport",
+        "citation": "https://www.theguardian.com/sport/2026/sep/02/ezra-caudell-philadelphia-cycling-classic-crash"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "summary",
+      "proposition": {
+        "predicate": "summary",
+        "object": "<ul><li><p>19-year-old remains hospitalized after Sunday crash</p></li><li><p>Caudell receiving care for ‘multi-system trauma’</p></li><li><p>Lotto-Intermarché yet to update on Milan Menten</p></li></ul><p>American cyclist Ezra Caudell remains hospitalized with “multi-system trauma” after being seriously injured in a crash during Sunday’s <a href=\"https://www.theguardian.com/sport/2026/aug/27/can-the-philly-classic-ignite-another-golden-age-of-us-road-cycling\">Philadelphia Cycling Classic</a>, his team said on Tuesday.</p><p>The 19-year-old Modern Adventure Pro Cycling rider was involved in a collision with Belgium’s Milan Menten of Lotto-Intermarché early in the men’s race. Caudell was knocked unconscious in the crash and both riders were taken to local hospitals for treatment, according <a href=\"https://www.inquirer.com/sports/live/philly-cycling-classic-2026-route-live-updates-20260830.html/card-3aabb50a-5808-4542-8b97-049df695de5f\">to the Philadelphia Inquirer</a>.</p> <a href=\"https://www.theguardian.com/sport/2026/sep/02/ezra-caudell-philadelphia-cycling-classic-crash\">Continue reading...</a>"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "sport",
+        "citation": "https://www.theguardian.com/sport/2026/sep/02/ezra-caudell-philadelphia-cycling-classic-crash"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "published",
+      "proposition": {
+        "predicate": "published",
+        "object": "Wed, 02 Sep 2026 17:50:21 GMT"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "sport",
+        "citation": "https://www.theguardian.com/sport/2026/sep/02/ezra-caudell-philadelphia-cycling-classic-crash"
+      },
+      "status": "supported"
+    }
+  ]
+}

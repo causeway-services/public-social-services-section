@@ -1,0 +1,69 @@
+{
+  "subject": "opinion-diabetes-association-ceo-what-an-independent-review-says-happened-at-the-ada-s-controver",
+  "claims": [
+    {
+      "id": "title",
+      "proposition": {
+        "predicate": "title",
+        "object": "Opinion: Diabetes association CEO: What an independent review says happened at the ADA’s controversial June conference"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "health",
+        "citation": "https://www.statnews.com/2026/09/01/american-diabetes-association-june-conference-independent-review/?utm_campaign=rss"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "url",
+      "proposition": {
+        "predicate": "url",
+        "object": "https://www.statnews.com/2026/09/01/american-diabetes-association-june-conference-independent-review/?utm_campaign=rss"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "health",
+        "citation": "https://www.statnews.com/2026/09/01/american-diabetes-association-june-conference-independent-review/?utm_campaign=rss"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "summary",
+      "proposition": {
+        "predicate": "summary",
+        "object": "On June 5, at the American Diabetes Association’s Scientific Sessions in New Orleans, several attendees were removed after repeated disruptions. I apologized soon after — to the individuals directly involved and to the broader diabetes community — for the distress that day caused, and I meant it. I also promised a full accounting by independent reviewers of what happened. That review, conducted by five independent volunteer investigators, is now complete . I believe its findings deserve to be heard directly, rather than filtered through three months of competing narratives. Read the rest&hellip;"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "health",
+        "citation": "https://www.statnews.com/2026/09/01/american-diabetes-association-june-conference-independent-review/?utm_campaign=rss"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "published",
+      "proposition": {
+        "predicate": "published",
+        "object": "Tue, 01 Sep 2026 23:00:00 +0000"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "health",
+        "citation": "https://www.statnews.com/2026/09/01/american-diabetes-association-june-conference-independent-review/?utm_campaign=rss"
+      },
+      "status": "supported"
+    }
+  ]
+}

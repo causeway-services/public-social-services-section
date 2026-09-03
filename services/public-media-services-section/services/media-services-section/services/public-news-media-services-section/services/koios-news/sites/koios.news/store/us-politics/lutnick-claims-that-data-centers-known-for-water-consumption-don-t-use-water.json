@@ -1,0 +1,69 @@
+{
+  "subject": "lutnick-claims-that-data-centers-known-for-water-consumption-don-t-use-water",
+  "claims": [
+    {
+      "id": "title",
+      "proposition": {
+        "predicate": "title",
+        "object": "Lutnick claims that data centers, known for water consumption, ‘don’t use water’"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "us-politics",
+        "citation": "https://thehill.com/policy/energy-environment/6067549-lutnick-ai-data-centers-water/"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "url",
+      "proposition": {
+        "predicate": "url",
+        "object": "https://thehill.com/policy/energy-environment/6067549-lutnick-ai-data-centers-water/"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "us-politics",
+        "citation": "https://thehill.com/policy/energy-environment/6067549-lutnick-ai-data-centers-water/"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "summary",
+      "proposition": {
+        "predicate": "summary",
+        "object": "Commerce Secretary Howard Lutnick claimed Wednesday that data centers “don’t use water” despite the facilities’ significant water usage raising concerns for communities that may host them. In an interview with CNBC, Lutnick said, “One of my favorite things is when people talk about data centers using water. The No. 1 product in America that uses…"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "us-politics",
+        "citation": "https://thehill.com/policy/energy-environment/6067549-lutnick-ai-data-centers-water/"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "published",
+      "proposition": {
+        "predicate": "published",
+        "object": "Wed, 02 Sep 2026 21:15:19 +0000"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "us-politics",
+        "citation": "https://thehill.com/policy/energy-environment/6067549-lutnick-ai-data-centers-water/"
+      },
+      "status": "supported"
+    }
+  ]
+}

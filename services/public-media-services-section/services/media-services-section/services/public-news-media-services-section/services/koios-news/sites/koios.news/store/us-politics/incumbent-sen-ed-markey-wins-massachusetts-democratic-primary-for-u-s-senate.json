@@ -1,0 +1,69 @@
+{
+  "subject": "incumbent-sen-ed-markey-wins-massachusetts-democratic-primary-for-u-s-senate",
+  "claims": [
+    {
+      "id": "title",
+      "proposition": {
+        "predicate": "title",
+        "object": "Incumbent Sen. Ed Markey wins Massachusetts' Democratic primary for U.S. Senate"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "us-politics",
+        "citation": "https://www.npr.org/2026/09/01/nx-s1-5953111/ed-markey-wins-massachusetts-democratic-primary-us-senate-seth-moulton"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "url",
+      "proposition": {
+        "predicate": "url",
+        "object": "https://www.npr.org/2026/09/01/nx-s1-5953111/ed-markey-wins-massachusetts-democratic-primary-us-senate-seth-moulton"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "us-politics",
+        "citation": "https://www.npr.org/2026/09/01/nx-s1-5953111/ed-markey-wins-massachusetts-democratic-primary-us-senate-seth-moulton"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "summary",
+      "proposition": {
+        "predicate": "summary",
+        "object": "Bucking a push for younger leadership this election season, Sen. Ed Markey, 80, won the Democratic nomination against Rep. Seth Moulton, 47, who said that his party needed new leaders. (Image credit: Andrew Harnik)"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "us-politics",
+        "citation": "https://www.npr.org/2026/09/01/nx-s1-5953111/ed-markey-wins-massachusetts-democratic-primary-us-senate-seth-moulton"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "published",
+      "proposition": {
+        "predicate": "published",
+        "object": "Tue, 01 Sep 2026 20:38:46 -0400"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "us-politics",
+        "citation": "https://www.npr.org/2026/09/01/nx-s1-5953111/ed-markey-wins-massachusetts-democratic-primary-us-senate-seth-moulton"
+      },
+      "status": "supported"
+    }
+  ]
+}

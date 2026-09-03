@@ -1,0 +1,69 @@
+{
+  "subject": "artemis-ii-astronauts-receive-nation-s-highest-space-honor-for-their-successful-moonshot",
+  "claims": [
+    {
+      "id": "title",
+      "proposition": {
+        "predicate": "title",
+        "object": "Artemis II astronauts receive nation's highest space honor for their successful moonshot"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "science",
+        "citation": "https://www.theguardian.com/science/2026/aug/29/artemis-ii-astronauts-congressional-space-medal-of-honor"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "url",
+      "proposition": {
+        "predicate": "url",
+        "object": "https://www.theguardian.com/science/2026/aug/29/artemis-ii-astronauts-congressional-space-medal-of-honor"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "science",
+        "citation": "https://www.theguardian.com/science/2026/aug/29/artemis-ii-astronauts-congressional-space-medal-of-honor"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "summary",
+      "proposition": {
+        "predicate": "summary",
+        "object": "<p>Reid Wiseman, Victor Glover, Christina Koch and Jeremy Hansen receive Congressional Space Medal of Honor</p><p>The <a href=\"https://www.theguardian.com/science/artemis-ii\">Artemis II</a> astronauts who flew around the moon in April received the US’s highest space honor on Friday.</p><p><a href=\"https://www.theguardian.com/us-news/donaldtrump\">Donald Trump</a> presented the Congressional Space Medal of Honor to the three Americans and one Canadian whose lunar flyby for the US space agency Nasa set a new distance record for humanity.</p> <a href=\"https://www.theguardian.com/science/2026/aug/29/artemis-ii-astronauts-congressional-space-medal-of-honor\">Continue reading...</a>"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "science",
+        "citation": "https://www.theguardian.com/science/2026/aug/29/artemis-ii-astronauts-congressional-space-medal-of-honor"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "published",
+      "proposition": {
+        "predicate": "published",
+        "object": "Sat, 29 Aug 2026 16:03:37 GMT"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "science",
+        "citation": "https://www.theguardian.com/science/2026/aug/29/artemis-ii-astronauts-congressional-space-medal-of-honor"
+      },
+      "status": "supported"
+    }
+  ]
+}

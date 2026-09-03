@@ -1,0 +1,69 @@
+{
+  "subject": "war-of-words-my-language-lessons-in-ukraine-podcast",
+  "claims": [
+    {
+      "id": "title",
+      "proposition": {
+        "predicate": "title",
+        "object": "War of words: my language lessons in Ukraine – podcast"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "war",
+        "citation": "https://www.theguardian.com/news/audio/2026/sep/01/war-of-words-my-language-lessons-in-ukraine-podcast"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "url",
+      "proposition": {
+        "predicate": "url",
+        "object": "https://www.theguardian.com/news/audio/2026/sep/01/war-of-words-my-language-lessons-in-ukraine-podcast"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "war",
+        "citation": "https://www.theguardian.com/news/audio/2026/sep/01/war-of-words-my-language-lessons-in-ukraine-podcast"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "summary",
+      "proposition": {
+        "predicate": "summary",
+        "object": "<p>The Guardian’s chief culture writer Charlotte Higgins on why she was inspired to learn Ukrainian and what it taught her about its people</p><p>For <strong>Charlotte Higgins,</strong> the Guardian’s chief culture writer, visiting Ukraine and meeting the artists, novelists and poets under fire changed her life. “It was even before I went home that I decided I needed to learn some Ukrainian,” she tells <strong>Helen Pidd</strong>.</p><p>Back in London, she began having weekly lessons with <strong>Olha Makar</strong>, who was living in the far west of Ukraine and squeezed in teaching between helping displaced teenagers.</p><p><a href=\"https://guardianbookshop.com/ukrainian-lessons-9781787335974/\"><em>Ukrainian Lessons: Art in a Time of War by Charlotte Higgins</em></a><em>, is published by Jonathan Cape. To support the Guardian, order your copy at </em><a href=\"https://guardianbookshop.com/ukrainian-lessons-9781787335974/\"><em>guardianbookshop.com</em></a></p><p><em>On Wednesday 30 September, </em><a href=\"https://www.theguardian.com/guardian-live-events/2026/feb/24/ukrainian-lessons-art-in-a-time-of-war-with-charlotte-higgins-and-guests\"><em>join Charlotte Higgins</em></a><em> and our panel of acclaimed Ukrainian writers to reflect on the profound connections between war, art and life. With Olia Hercules, Sasha Dovzhyk and Olesya Khromeychuk. Book tickets </em><a href=\"https://www.theguardian.com/guardian-live-events/2026/feb/24/ukrainian-lessons-art-in-a-time-of-war-with-charlotte-higgins-and-guests\"><em>here</em></a><em>.</em></p> <a href=\"https://www.theguardian.com/news/audio/2026/sep/01/war-of-words-my-language-lessons-in-ukraine-podcast\">Continue reading...</a>"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "war",
+        "citation": "https://www.theguardian.com/news/audio/2026/sep/01/war-of-words-my-language-lessons-in-ukraine-podcast"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "published",
+      "proposition": {
+        "predicate": "published",
+        "object": "Tue, 01 Sep 2026 02:00:41 GMT"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "war",
+        "citation": "https://www.theguardian.com/news/audio/2026/sep/01/war-of-words-my-language-lessons-in-ukraine-podcast"
+      },
+      "status": "supported"
+    }
+  ]
+}

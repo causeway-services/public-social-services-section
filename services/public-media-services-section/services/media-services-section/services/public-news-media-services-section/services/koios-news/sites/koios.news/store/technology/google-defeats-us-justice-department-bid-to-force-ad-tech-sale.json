@@ -1,0 +1,69 @@
+{
+  "subject": "google-defeats-us-justice-department-bid-to-force-ad-tech-sale",
+  "claims": [
+    {
+      "id": "title",
+      "proposition": {
+        "predicate": "title",
+        "object": "Google defeats US justice department bid to force ad tech sale"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "technology",
+        "citation": "https://www.theguardian.com/technology/2026/sep/02/google-defeats-justice-department-bid-ad-tech-sale"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "url",
+      "proposition": {
+        "predicate": "url",
+        "object": "https://www.theguardian.com/technology/2026/sep/02/google-defeats-justice-department-bid-ad-tech-sale"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "technology",
+        "citation": "https://www.theguardian.com/technology/2026/sep/02/google-defeats-justice-department-bid-ad-tech-sale"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "summary",
+      "proposition": {
+        "predicate": "summary",
+        "object": "<p>Judge declines to make Google sell AdX in win for firm against US antitrust enforcers’ attempts to break up big tech</p><p>Alphabet’s Google escaped a breakup of its advertising technology business on Wednesday, when a judge in Virginia ⁠rejected US antitrust enforcers’ attempt to force a sale of Google’s online advertising exchange.</p><p>While the ad exchange is a small part of Google’s business, the ruling is the second powerful ⁠symbolic victory against the US Department ⁠of Justice in ​its efforts to force Google to sell assets to address illegal monopolies.</p> <a href=\"https://www.theguardian.com/technology/2026/sep/02/google-defeats-justice-department-bid-ad-tech-sale\">Continue reading...</a>"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "technology",
+        "citation": "https://www.theguardian.com/technology/2026/sep/02/google-defeats-justice-department-bid-ad-tech-sale"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "published",
+      "proposition": {
+        "predicate": "published",
+        "object": "Wed, 02 Sep 2026 18:37:20 GMT"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "technology",
+        "citation": "https://www.theguardian.com/technology/2026/sep/02/google-defeats-justice-department-bid-ad-tech-sale"
+      },
+      "status": "supported"
+    }
+  ]
+}

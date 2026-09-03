@@ -1,0 +1,69 @@
+{
+  "subject": "the-mountains-are-changing-what-the-floods-tell-us-about-the-future-of-india-s-himalayas",
+  "claims": [
+    {
+      "id": "title",
+      "proposition": {
+        "predicate": "title",
+        "object": "‘The mountains are changing’: What the floods tell us about the future of India’s Himalayas"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "world",
+        "citation": "https://www.theguardian.com/world/2026/aug/31/this-is-india-what-the-nepal-tibet-floods-tell-us-about-the-future-of-indias-himalayas"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "url",
+      "proposition": {
+        "predicate": "url",
+        "object": "https://www.theguardian.com/world/2026/aug/31/this-is-india-what-the-nepal-tibet-floods-tell-us-about-the-future-of-indias-himalayas"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "world",
+        "citation": "https://www.theguardian.com/world/2026/aug/31/this-is-india-what-the-nepal-tibet-floods-tell-us-about-the-future-of-indias-himalayas"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "summary",
+      "proposition": {
+        "predicate": "summary",
+        "object": "<p>As families await news of missing loved ones, the disaster is a stark reminder of how the climate crisis is creating a fast-growing threat. Plus, the town considered India’s ‘Jurassic Park’</p><p><strong>• </strong><a href=\"https://www.theguardian.com/world/2026/jul/30/sign-up-for-this-is-india-our-free-weekly-newsletter-on-life-in-the-subcontinent\"><strong>Don’t get This is India delivered to your inbox? Sign up here</strong></a></p><p>It has been hard not to despair while watching the ruinous floods <a href=\"https://www.theguardian.com/world/2026/aug/29/nepal-flood-missing-kathmandu-hospital\">swallow parts of Nepal</a>, and harder, still knowing that the agony compounds each passing day for dozens of Indian families whose members remain unaccounted for.</p><p>Social media is awash with desperate pleas, photos and details of the young and old, men and women, from Mumbai to Kolkata, posted by families searching for traces of life. The <a href=\"https://www.theguardian.com/world/ng-interactive/2026/aug/28/the-flood-took-everything-i-have-survivors-grieve-for-relatives-and-homes-swept-away-in-nepal\">disaster unfolded</a> when a melting glacier slammed into the valley below, unleashing a deadly cascade of rock and ice down the Bhote Kashi River, which flows from Tibet into Nepal.</p> <a href=\"https://www.theguardian.com/world/2026/aug/31/this-is-india-what-the-nepal-tibet-floods-tell-us-about-the-future-of-indias-himalayas\">Continue reading...</a>"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "world",
+        "citation": "https://www.theguardian.com/world/2026/aug/31/this-is-india-what-the-nepal-tibet-floods-tell-us-about-the-future-of-indias-himalayas"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "published",
+      "proposition": {
+        "predicate": "published",
+        "object": "Tue, 01 Sep 2026 06:30:46 GMT"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "world",
+        "citation": "https://www.theguardian.com/world/2026/aug/31/this-is-india-what-the-nepal-tibet-floods-tell-us-about-the-future-of-indias-himalayas"
+      },
+      "status": "supported"
+    }
+  ]
+}

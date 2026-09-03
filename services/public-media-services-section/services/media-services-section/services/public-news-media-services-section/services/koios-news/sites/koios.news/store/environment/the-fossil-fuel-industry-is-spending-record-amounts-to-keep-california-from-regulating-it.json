@@ -1,0 +1,69 @@
+{
+  "subject": "the-fossil-fuel-industry-is-spending-record-amounts-to-keep-california-from-regulating-it",
+  "claims": [
+    {
+      "id": "title",
+      "proposition": {
+        "predicate": "title",
+        "object": "The fossil fuel industry is spending record amounts to keep California from regulating it"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "environment",
+        "citation": "https://grist.org/politics/fossil-fuel-companies-spent-record-amounts-california-legislation/"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "url",
+      "proposition": {
+        "predicate": "url",
+        "object": "https://grist.org/politics/fossil-fuel-companies-spent-record-amounts-california-legislation/"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "environment",
+        "citation": "https://grist.org/politics/fossil-fuel-companies-spent-record-amounts-california-legislation/"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "summary",
+      "proposition": {
+        "predicate": "summary",
+        "object": "The fossil fuel industry isn’t just raking in record profits amid the war with Iran. In California, it’s also spending big to oppose climate and worker-safety legislation. According to analyses by a coalition of environmental groups called the Last Chance Alliance, oil and gas companies spent more than $17 million on California lobbying during the first half of 2026. That includes $10.3 million during the first quarter — a new record for the sector — and another $6.8 million during Q2. Much of the spending was directed against legislation proposing new costs and liabilities for the fossil fuel industry,&nbsp;like a state bill that would make companies pay for rebuilding following climate-intensified natural disasters. But other bills targeted were more milquetoast, seeking to clarify existing workplace-safety laws and ensure more thorough reporting of cleanup costs when oil companies want to decommission projects. Faraz Rizvi, campaign and policy director for the nonprofit Asian Pacific Environmental Network —&nbsp;a member of the Last Chance Alliance — criticized companies for “aggressively lobbying” against straightforward measures to protect communities and boost transparency. “They’re not actors that have consumers’ or communities’ interests at heart,” he told Grist. Last Chance Alliance pulled the data from mandatory reporting to the California secretary of state. The top spenders in the oil-and-gas lobbying category included the Western States Petroleum Association, which spent $4.3 million over the first half of the year; Chevron, whose spending amounted to $3.7 million; and Phillips 66, an oil refiner that spent just over half a million dollars. Much of the money went to consultants and alleged “front groups” that present themselves as grassroots operations but are funded by the fossil fuel industry , like Californians for Energy Independence. One big target of the sector’s lobbying was California’s cap-and-invest program , which requires companies to pay for a finite —&nbsp;and declining —&nbsp;number of emissions permits each year. The program covers roughly 80 percent of California’s economy and is considered critical to achieving the state’s climate targets, including carbon neutrality by 2045 . Earlier this year, oil and gas interests successfully lobbied regulators to green-light a mechanism that could make a vast pool of free pollution permits available to fossil fuel companies. If finalized, the plan could deprive the state of billions in funding that would have otherwise gone toward public transit and housing. The change is currently facing a legal challenge from environmental groups and objections from some Democratic lawmakers. The sector also fought a bill, currently awaiting passage by the state Senate, to extend California’s Displaced Oil and Gas Workers Fund . Established under a 2022 law, the $30 million fund distributes grants to help oil and gas industry workers transition to new careers. According to one estimate, the fund has already helped 600 people find new lines of work, and supporters have been discussing the potential for new forms of support, including wage replacement during transition periods and financial support during apprenticeships.&nbsp; Other pending bills that oil companies lobbied against propose creating a task force on safe staffing guidelines for oil refineries; preventing fossil fuel companies from abandoning methane -leaking oil wells ; and adding new safety and public comment requirements for offshore oil pipelines. One bill would force companies to submit formal retirement plans before they shutter their oil refineries. The bill follows the closure of a Phillips 66 refinery in L.A. County that environmental groups claim was poorly handled .&nbsp; A number of the targeted bills have been defeated, giving the oil and gas industry a series of wins. These include SB 1245 , which sought to stabilize California’s gas supply, and SB 982 , which addressed California’s home insurance crisis . The latter bill would have allowed the state attorney general to sue fossil fuel companies for damages following climate-related disasters like wildfires. It was meant to help pay for skyrocketing property insurance, disaster mitigation, and other expenses that are currently straining the state’s insurer of last resort . Oil and gas lobbying also helped to defeat a bill that would have made it harder for fossil fuel companies to abandon methane-leaking oil wells. There are more than 100,000 of these wells in California, and companies are often able to evade responsibility for plugging them. Read Next As climate lawsuits advance, the oil industry enters ‘panic mode’ Kate Yoder Hollin Kretzmann, deputy political director at the Center for Biological Diversity Action Fund, said it’s been a generally disappointing year for Golden State climate policy. “This legislative session was just a huge missed opportunity for California. We didn’t get to show what the world’s fourth-largest economy could accomplish when it comes to protecting our economy, protecting our health.” The lobbying is a particularly bad look, he added, given the oil and gas industry’s recent earnings. Late last month, Chevron reported $12 billion in net profits during the second quarter, nearly five times as much as it earned during the same period in 2025. Exxon Mobil made $14.5 billion, more than double its second-quarter earnings from last year. These profits have been driven by oil supply disruptions linked to the U.S.-Israel war against Iran, particularly the monthslong closure of the Strait of Hormuz. Supply shortages and higher oil prices have benefited oil producers that don’t depend on the strait to export products, as well as companies with oil refineries in the West. Still, Chevron CEO Mike Wirth has said threats to oil supplies are straining his company. “Every day that goes by, the situation gets more difficult,” he told CNBC in late July . His company has also blamed California energy policies for high gasoline prices, deflecting accusations of price gouging. Chevron, Phillips 66, and Californians for Energy Independence did not respond to Grist’s requests for comment. A spokesperson for the Western States Petroleum Association declined to comment. Ryan Schleeter, communications director for the nonprofit The Climate Center, said curtailing Big Oil’s influence over the California Legislature should be a priority moving forward. He suggested starting with the reduction of public subsidies —&nbsp;including from the cap-and-invest program’s free allocations , but also from tax loopholes that allow companies to report only a fraction of their global earnings to the state. “We’re essentially subsidizing their profit margins,” he told Grist.&nbsp; Kretzmann said more measures are needed to limit both the number of lobbyists visiting Sacramento and the amount of money they’re allowed to spend; otherwise, legislators and environmental advocates will keep running into the same problem year after year. “It gets to the heart of why our policies in California don’t reflect the will of the people,” he said. “I don’t have an easy solution, but we need our legislators to listen to the public … rather than oil industry lobbyists.” toolTips('.classtoolTips7',' A powerful greenhouse gas that accounts for about 11% of global emissions, methane is the primary component of natural gas and is emitted into the atmosphere by landfills, oil and natural gas systems, agricultural activities, coal mining, and wastewater treatment, among other pathways. Over a 20-year period, it is roughly 84 times more potent than carbon dioxide at trapping heat in the atmosphere. '); This story was originally published by Grist with the headline The fossil fuel industry is spending record amounts to keep California from regulating it on Aug 27, 2026."
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "environment",
+        "citation": "https://grist.org/politics/fossil-fuel-companies-spent-record-amounts-california-legislation/"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "published",
+      "proposition": {
+        "predicate": "published",
+        "object": "Thu, 27 Aug 2026 08:15:00 +0000"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "environment",
+        "citation": "https://grist.org/politics/fossil-fuel-companies-spent-record-amounts-california-legislation/"
+      },
+      "status": "supported"
+    }
+  ]
+}

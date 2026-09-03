@@ -1,0 +1,69 @@
+{
+  "subject": "somerset-dominate-glamorgan-yorkshire-struggle-against-surrey-county-cricket-day-one-as-it-happe",
+  "claims": [
+    {
+      "id": "title",
+      "proposition": {
+        "predicate": "title",
+        "object": "Somerset dominate Glamorgan; Yorkshire struggle against Surrey: county cricket, day one – as it happened"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "sport",
+        "citation": "https://www.theguardian.com/sport/live/2026/sep/02/somerset-v-glamorgan-notts-v-leicestershire-and-more-county-cricket-day-one-live"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "url",
+      "proposition": {
+        "predicate": "url",
+        "object": "https://www.theguardian.com/sport/live/2026/sep/02/somerset-v-glamorgan-notts-v-leicestershire-and-more-county-cricket-day-one-live"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "sport",
+        "citation": "https://www.theguardian.com/sport/live/2026/sep/02/somerset-v-glamorgan-notts-v-leicestershire-and-more-county-cricket-day-one-live"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "summary",
+      "proposition": {
+        "predicate": "summary",
+        "object": "<p>Hampshire make U-turn over Scott Kuggeleijn signing after fan backlash as Warwickshire add to their troubles</p><p><strong>Kent’s start is on the crunchy</strong> side of autumn. Compton (8) and Crawley (6) both gone. Kent 18-2.</p><p><strong>Rain at The Oval too,</strong> where my daughter is looking after my nephews and a couple of their friends. If you see an auburn haired young woman looking harassed, placate her with a mini roll. Auqib Nabi is Surrey’s latest recruit.</p> <a href=\"https://www.theguardian.com/sport/live/2026/sep/02/somerset-v-glamorgan-notts-v-leicestershire-and-more-county-cricket-day-one-live\">Continue reading...</a>"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "sport",
+        "citation": "https://www.theguardian.com/sport/live/2026/sep/02/somerset-v-glamorgan-notts-v-leicestershire-and-more-county-cricket-day-one-live"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "published",
+      "proposition": {
+        "predicate": "published",
+        "object": "Wed, 02 Sep 2026 19:43:40 GMT"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "sport",
+        "citation": "https://www.theguardian.com/sport/live/2026/sep/02/somerset-v-glamorgan-notts-v-leicestershire-and-more-county-cricket-day-one-live"
+      },
+      "status": "supported"
+    }
+  ]
+}

@@ -1,0 +1,69 @@
+{
+  "subject": "can-you-tell-if-your-beef-is-a-product-of-america",
+  "claims": [
+    {
+      "id": "title",
+      "proposition": {
+        "predicate": "title",
+        "object": "Can you tell if your beef is a product of America?"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "us-politics",
+        "citation": "https://thehill.com/business/6066321-can-you-tell-if-your-beef-is-a-product-of-america/"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "url",
+      "proposition": {
+        "predicate": "url",
+        "object": "https://thehill.com/business/6066321-can-you-tell-if-your-beef-is-a-product-of-america/"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "us-politics",
+        "citation": "https://thehill.com/business/6066321-can-you-tell-if-your-beef-is-a-product-of-america/"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "summary",
+      "proposition": {
+        "predicate": "summary",
+        "object": "The U.S. is allowing more imported beef into the food supply in an effort to lower prices."
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "us-politics",
+        "citation": "https://thehill.com/business/6066321-can-you-tell-if-your-beef-is-a-product-of-america/"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "published",
+      "proposition": {
+        "predicate": "published",
+        "object": "Wed, 02 Sep 2026 19:33:10 +0000"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "us-politics",
+        "citation": "https://thehill.com/business/6066321-can-you-tell-if-your-beef-is-a-product-of-america/"
+      },
+      "status": "supported"
+    }
+  ]
+}

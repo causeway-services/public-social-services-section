@@ -1,0 +1,69 @@
+{
+  "subject": "i-ve-tested-dozens-of-items-to-perfect-my-work-from-home-setup-these-13-make-all-the-difference",
+  "claims": [
+    {
+      "id": "title",
+      "proposition": {
+        "predicate": "title",
+        "object": "I've tested dozens of items to perfect my work-from-home setup. These 13 make all the difference"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "technology",
+        "citation": "https://www.theguardian.com/thefilter-us/2026/aug/31/best-work-from-home-office-setup-upgrades"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "url",
+      "proposition": {
+        "predicate": "url",
+        "object": "https://www.theguardian.com/thefilter-us/2026/aug/31/best-work-from-home-office-setup-upgrades"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "technology",
+        "citation": "https://www.theguardian.com/thefilter-us/2026/aug/31/best-work-from-home-office-setup-upgrades"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "summary",
+      "proposition": {
+        "predicate": "summary",
+        "object": "<p>Build a home office you’ll actually enjoying working from with tried-and-true upgrades – from inexpensive speakers to a stand that can turn an iPad into a second monitor</p><ul><li><p><a href=\"https://www.theguardian.com/thefilter-us/2026/apr/24/best-wireless-earbuds\">The best wireless earbuds in the US – tested</a></p></li><li><p><a href=\"https://www.theguardian.com/global/2025/sep/09/sign-up-to-the-filter-us-our-newsletter-guide-to-buying-fewer-better-products\">Sign up for the Filter US newsletter, your weekly guide to buying fewer, better things</a></p></li></ul><p>If you <a href=\"https://www.theguardian.com/business/working-from-home\">work from home</a>, even just a few days a week, you need more than a laptop perched on a sticky kitchen table. A dedicated desk setup allows you to step away from distractions, plop in your office chair and get to work.</p><p>It also creates a vital <a href=\"https://www.theguardian.com/lifeandstyle/2025/dec/19/the-perfect-way-to-switch-off-from-work-how-to-detach-and-de-stress\">separation</a> between your personal and professional life. After spending my initial work-from-home days on a living room couch, I quickly realized the importance of creating a separate space, and I have spent seven years refining it. As a tech writer, I have <a href=\"https://www.theguardian.com/thefilter-us/2025/oct/20/best-travel-gadgets\">tested dozens of products</a> for my desk setup, and have found some to be totally invaluable. Here are the tried-and-true upgrades that will make working from home easier, more comfortable and even more productive.</p> <a href=\"https://www.theguardian.com/thefilter-us/2026/aug/31/best-work-from-home-office-setup-upgrades\">Continue reading...</a>"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "technology",
+        "citation": "https://www.theguardian.com/thefilter-us/2026/aug/31/best-work-from-home-office-setup-upgrades"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "published",
+      "proposition": {
+        "predicate": "published",
+        "object": "Mon, 31 Aug 2026 14:15:27 GMT"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "technology",
+        "citation": "https://www.theguardian.com/thefilter-us/2026/aug/31/best-work-from-home-office-setup-upgrades"
+      },
+      "status": "supported"
+    }
+  ]
+}

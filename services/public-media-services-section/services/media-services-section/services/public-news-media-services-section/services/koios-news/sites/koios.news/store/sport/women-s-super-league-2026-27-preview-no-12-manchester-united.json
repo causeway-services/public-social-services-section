@@ -1,0 +1,69 @@
+{
+  "subject": "women-s-super-league-2026-27-preview-no-12-manchester-united",
+  "claims": [
+    {
+      "id": "title",
+      "proposition": {
+        "predicate": "title",
+        "object": "Women’s Super League 2026-27 preview No 12: Manchester United"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "sport",
+        "citation": "https://www.theguardian.com/football/2026/sep/02/womens-super-league-preview-manchester-united"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "url",
+      "proposition": {
+        "predicate": "url",
+        "object": "https://www.theguardian.com/football/2026/sep/02/womens-super-league-preview-manchester-united"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "sport",
+        "citation": "https://www.theguardian.com/football/2026/sep/02/womens-super-league-preview-manchester-united"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "summary",
+      "proposition": {
+        "predicate": "summary",
+        "object": "<p>The departure of Marc Skinner and senior squad members leaves the new manager Eva Olid to guide United into a new era</p><p><strong>Guardian writers’ predicted position: </strong>7th (NB: this is not necessarily Tom Garry’s prediction but the average of our writers’ tips)</p><p><strong>Last season’s position: </strong>4th</p> <a href=\"https://www.theguardian.com/football/2026/sep/02/womens-super-league-preview-manchester-united\">Continue reading...</a>"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "sport",
+        "citation": "https://www.theguardian.com/football/2026/sep/02/womens-super-league-preview-manchester-united"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "published",
+      "proposition": {
+        "predicate": "published",
+        "object": "Tue, 01 Sep 2026 23:01:15 GMT"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "sport",
+        "citation": "https://www.theguardian.com/football/2026/sep/02/womens-super-league-preview-manchester-united"
+      },
+      "status": "supported"
+    }
+  ]
+}

@@ -1,0 +1,69 @@
+{
+  "subject": "microsoft-devs-rejoice-union-types-coming-to-c-in-november",
+  "claims": [
+    {
+      "id": "title",
+      "proposition": {
+        "predicate": "title",
+        "object": "Microsoft devs rejoice: Union types coming to C# in November"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "technology",
+        "citation": "https://www.theregister.com/devops/2026/09/02/microsoft-devs-rejoice-union-types-coming-to-c-in-november/5294056"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "url",
+      "proposition": {
+        "predicate": "url",
+        "object": "https://www.theregister.com/devops/2026/09/02/microsoft-devs-rejoice-union-types-coming-to-c-in-november/5294056"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "technology",
+        "citation": "https://www.theregister.com/devops/2026/09/02/microsoft-devs-rejoice-union-types-coming-to-c-in-november/5294056"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "summary",
+      "proposition": {
+        "predicate": "summary",
+        "object": "Microsoft is set to launch the next iteration of C# this November. Redmond recently unveiled a preview of C# 15 that introduces tighter restrictions on data types alongside enhanced memory safety protections. Perhaps the most frequently requested feature that arrives with this release is union types. Union types are not new to programming. Python, Scala and TypeScript all recognize the concept. But with C#, “This is how unions should be,” boasted C# lead designer Mads Torgersen in an introductory talk earlier this year. In a nutshell, union types provide a way to categorize different custom data types into a single entity. The union keyword can unite a collection of custom data types (“Dog,” “Cat,” and “Bird”) as a single umbrella type, such as “Pet.” The union keyword gives the compiler a definitive list of “pets,” which can’t be expanded. “Unions enable designs that traditional hierarchies can’t express, composing any combination of existing types into a single, compiler-verified contract,” explained the Microsoft documentation. Upsides for developers include better pattern matching, the ability to write custom functions for union types, protection against rogue data types, stronger abstractions, and less writing of boilerplate error code. In his talk, Torgersen, along with Microsoft principal engineer Dustin Campbell, demonstrated how a union could consolidate two different records for designating the success or failure of an input stream over a network. They presented two separate record types: one indicating success using an integer, the other a standard text error message. By grouping them using the union keyword, they created a single switch expression to parse the results. Without this shortcut, they would have had to add an error message to their switch statement to handle unknown input, create a wrapper (which would have used more memory and probably would have been buggier), or deploy a third-party library to parse the results. While allowable data types are restricted in unions, another new C# 15 feature, closed hierarchies, brings similar control to inherited derived types. The base class uses the closed keyword to limit direct inheritance strictly to derived types defined within the same assembly. Closed hierarchies will block third-party subtypes from being compiled, which would otherwise probably spawn errors. Expanding the danger zone C# is also expanding the scope of defining operations designated by the dev as unsafe. Originally, a code block tagged with \"unsafe\" just alerted the compiler that it interacts with memory in potentially unsavory ways. Now, the keyword’s scope has been expanded to “inform callers that they have obligations that must be discharged to maintain safety,” wrote Microsoft Product Manager Richard Lander in a blog post earlier this year The expanded scope will give the compiler the ability to flag unsafe operations. The effort follows the lead of Rust and Swift, where the keyword is ruled by “stricter, propagation-oriented semantics,” Lander wrote. Other new C# 15 features include “collection expression arguments,” which allow the developer to pass parameters—such as capacities or comparers—directly to the underlying collection's constructor within the collection expression syntax, using the with keyword. Developers can now declare indexers in an extension block, as well as add labels to break and continue statements for greater control through nested loops. It's noteworthy that C# still persists even as Redmond's priorities have shifted from selling Windows and Office licenses to selling cloud subscriptions and packing its AI Copilot assistant into every corner. Originally created by Anders Hejlsberg, Microsoft first released it in 2002 as an alternative to Java that could run on the company’s then-new .Net platform for Windows. C# would go on to pioneer new capabilities for programming languages, such as the async synchronization capabilities, as well as the LINQ interface for querying databases and other data sources. Fast forward more than 20 years, and Microsoft is still updating the language on the regular. To test C# 15, download a preview of .NET 11. ®"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "technology",
+        "citation": "https://www.theregister.com/devops/2026/09/02/microsoft-devs-rejoice-union-types-coming-to-c-in-november/5294056"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "published",
+      "proposition": {
+        "predicate": "published",
+        "object": "Wed, 02 Sep 2026 22:37:35 +0200"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "technology",
+        "citation": "https://www.theregister.com/devops/2026/09/02/microsoft-devs-rejoice-union-types-coming-to-c-in-november/5294056"
+      },
+      "status": "supported"
+    }
+  ]
+}

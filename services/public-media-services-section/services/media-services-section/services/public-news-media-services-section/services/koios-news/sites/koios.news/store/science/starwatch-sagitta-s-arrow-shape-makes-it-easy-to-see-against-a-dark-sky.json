@@ -1,0 +1,69 @@
+{
+  "subject": "starwatch-sagitta-s-arrow-shape-makes-it-easy-to-see-against-a-dark-sky",
+  "claims": [
+    {
+      "id": "title",
+      "proposition": {
+        "predicate": "title",
+        "object": "Starwatch: Sagitta’s arrow shape makes it easy to see against a dark sky"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "science",
+        "citation": "https://www.theguardian.com/science/2026/aug/31/starwatch-sagittas-arrow-shape-makes-it-easy-to-see-against-a-dark-sky"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "url",
+      "proposition": {
+        "predicate": "url",
+        "object": "https://www.theguardian.com/science/2026/aug/31/starwatch-sagittas-arrow-shape-makes-it-easy-to-see-against-a-dark-sky"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "science",
+        "citation": "https://www.theguardian.com/science/2026/aug/31/starwatch-sagittas-arrow-shape-makes-it-easy-to-see-against-a-dark-sky"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "summary",
+      "proposition": {
+        "predicate": "summary",
+        "object": "<p>The third-smallest constellation can be found partway along one of the imaginary lines of the summer triangle</p><p>We are on the hunt for another small, northern summer constellation this week: Sagitta, the arrow. Although it consists of just a handful of faint stars, Sagitta’s distinctive shape (it really does look like an arrow) makes it easy to identify against a dark sky.</p><p>The chart shows the view looking up towards the zenith while facing south from London at 22.30 BST on Monday.</p> <a href=\"https://www.theguardian.com/science/2026/aug/31/starwatch-sagittas-arrow-shape-makes-it-easy-to-see-against-a-dark-sky\">Continue reading...</a>"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "science",
+        "citation": "https://www.theguardian.com/science/2026/aug/31/starwatch-sagittas-arrow-shape-makes-it-easy-to-see-against-a-dark-sky"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "published",
+      "proposition": {
+        "predicate": "published",
+        "object": "Mon, 31 Aug 2026 05:00:16 GMT"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "science",
+        "citation": "https://www.theguardian.com/science/2026/aug/31/starwatch-sagittas-arrow-shape-makes-it-easy-to-see-against-a-dark-sky"
+      },
+      "status": "supported"
+    }
+  ]
+}

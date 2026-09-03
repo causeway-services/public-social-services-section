@@ -1,0 +1,69 @@
+{
+  "subject": "without-new-landers-or-rovers-it-s-helicopters-or-bust-for-nasa-s-mars-program",
+  "claims": [
+    {
+      "id": "title",
+      "proposition": {
+        "predicate": "title",
+        "object": "Without new landers or rovers, it's helicopters or bust for NASA's Mars program"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "technology",
+        "citation": "https://arstechnica.com/space/2026/09/without-new-landers-or-rovers-its-helicopters-or-bust-for-nasas-mars-program/"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "url",
+      "proposition": {
+        "predicate": "url",
+        "object": "https://arstechnica.com/space/2026/09/without-new-landers-or-rovers-its-helicopters-or-bust-for-nasas-mars-program/"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "technology",
+        "citation": "https://arstechnica.com/space/2026/09/without-new-landers-or-rovers-its-helicopters-or-bust-for-nasas-mars-program/"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "summary",
+      "proposition": {
+        "predicate": "summary",
+        "object": "For the first time in more than 30 years, NASA has no firm plans to send any new landers or rovers to Mars. Instead, the agency's near-term focus at the red planet is on aerial drones, a pioneering mode of exploration that didn't seem realistic until a few years ago. The first real use of drones for science at Mars will come with the SkyFall mission, a fleet of three helicopters set for launch as soon as late 2028. SkyFall's helicopters will ride to the red planet with NASA's Space Reactor-1 \"Freedom\" mission , which has the primary objective of demonstrating nuclear electric propulsion in deep space. The launch schedule is aggressive for SR-1 Freedom and SkyFall, projects that didn't even exist in NASA's portfolio six months ago. NASA's plan for the SR-1 Freedom mission, estimated to cost $2.1 billion, calls for repurposing the core module of the canceled Gateway lunar space station into a testbed for nuclear electric propulsion. SkyFall will build on NASA's success with the Ingenuity helicopter, an experimental vehicle that became the first rotorcraft to fly on another world in 2021. Read full article Comments"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "technology",
+        "citation": "https://arstechnica.com/space/2026/09/without-new-landers-or-rovers-its-helicopters-or-bust-for-nasas-mars-program/"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "published",
+      "proposition": {
+        "predicate": "published",
+        "object": "Tue, 01 Sep 2026 11:00:35 +0000"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "technology",
+        "citation": "https://arstechnica.com/space/2026/09/without-new-landers-or-rovers-its-helicopters-or-bust-for-nasas-mars-program/"
+      },
+      "status": "supported"
+    }
+  ]
+}

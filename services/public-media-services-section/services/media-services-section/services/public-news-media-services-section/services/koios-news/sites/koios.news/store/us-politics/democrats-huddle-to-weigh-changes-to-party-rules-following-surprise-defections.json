@@ -1,0 +1,69 @@
+{
+  "subject": "democrats-huddle-to-weigh-changes-to-party-rules-following-surprise-defections",
+  "claims": [
+    {
+      "id": "title",
+      "proposition": {
+        "predicate": "title",
+        "object": "Democrats huddle to weigh changes to party rules following surprise defections"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "us-politics",
+        "citation": "https://thehill.com/homenews/house/6066756-democrats-rules-changes-jeffries-golden-perez/"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "url",
+      "proposition": {
+        "predicate": "url",
+        "object": "https://thehill.com/homenews/house/6066756-democrats-rules-changes-jeffries-golden-perez/"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "us-politics",
+        "citation": "https://thehill.com/homenews/house/6066756-democrats-rules-changes-jeffries-golden-perez/"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "summary",
+      "proposition": {
+        "predicate": "summary",
+        "object": "House Democrats huddled Wednesday morning to weigh potential changes to internal party rules after a pair of centrist lawmakers crossed the aisle a day earlier to help Republican leaders advance a series of GOP messaging bills that were on track to fail. The defections by Democratic Reps. Jared Golden (Maine) and Marie Gluesenkamp Perez (Wash.)…"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "us-politics",
+        "citation": "https://thehill.com/homenews/house/6066756-democrats-rules-changes-jeffries-golden-perez/"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "published",
+      "proposition": {
+        "predicate": "published",
+        "object": "Wed, 02 Sep 2026 17:33:23 +0000"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "us-politics",
+        "citation": "https://thehill.com/homenews/house/6066756-democrats-rules-changes-jeffries-golden-perez/"
+      },
+      "status": "supported"
+    }
+  ]
+}

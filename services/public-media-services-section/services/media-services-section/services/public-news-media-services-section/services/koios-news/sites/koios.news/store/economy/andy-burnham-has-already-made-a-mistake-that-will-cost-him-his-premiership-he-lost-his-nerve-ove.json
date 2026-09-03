@@ -1,0 +1,69 @@
+{
+  "subject": "andy-burnham-has-already-made-a-mistake-that-will-cost-him-his-premiership-he-lost-his-nerve-ove",
+  "claims": [
+    {
+      "id": "title",
+      "proposition": {
+        "predicate": "title",
+        "object": "Andy Burnham has already made a mistake that will cost him his premiership: he lost his nerve over political donations | George Monbiot"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "economy",
+        "citation": "https://www.theguardian.com/commentisfree/2026/sep/02/andy-burnham-mistake-political-donations-wealthy-britain"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "url",
+      "proposition": {
+        "predicate": "url",
+        "object": "https://www.theguardian.com/commentisfree/2026/sep/02/andy-burnham-mistake-political-donations-wealthy-britain"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "economy",
+        "citation": "https://www.theguardian.com/commentisfree/2026/sep/02/andy-burnham-mistake-political-donations-wealthy-britain"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "summary",
+      "proposition": {
+        "predicate": "summary",
+        "object": "<p>Being subservient to the interests of the wealthy now means that his hands are tied, and he will be unable to tackle Britain’s most pressing issues</p><p>Damn the electorate. They’re <a href=\"https://www.ft.com/content/0cb0f4c5-c324-4626-9b5d-cec7726264b7\">so impatient</a>. No sooner do they get a new leader than they want another one. Those ingrates are <em>already</em> starting to grumble about Andy Burnham. Maybe the country is <a href=\"https://www.politico.eu/article/why-running-britain-hard-no-matter-who-does-it/\">becoming ungovernable</a>. Perhaps <a href=\"https://inews.co.uk/opinion/how-britains-next-leader-can-end-the-omnicrisis-4422933\">it’s social media</a>. Or a consumerist culture, always picking the next shiny thing. Perhaps we’re <a href=\"https://www.bbc.co.uk/news/articles/cqjpe7q0j1xo\">addicted to drama</a>. As we’re on our sixth prime minister in 10 years, and as similar levels of discontent surface in many other countries, these claims are recited across the media. What’s wrong with us?</p><p>Yet our disgruntlement is entirely rational. We give up so quickly on our prime ministers because they give up so quickly on us. Though it may involve different issues, it is always the same betrayal: the public interest is sacrificed for the sake of a tiny number of immensely wealthy people. And it tends to happen almost immediately.</p><p>George Monbiot is a Guardian columnist</p> <a href=\"https://www.theguardian.com/commentisfree/2026/sep/02/andy-burnham-mistake-political-donations-wealthy-britain\">Continue reading...</a>"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "economy",
+        "citation": "https://www.theguardian.com/commentisfree/2026/sep/02/andy-burnham-mistake-political-donations-wealthy-britain"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "published",
+      "proposition": {
+        "predicate": "published",
+        "object": "Wed, 02 Sep 2026 05:00:23 GMT"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "economy",
+        "citation": "https://www.theguardian.com/commentisfree/2026/sep/02/andy-burnham-mistake-political-donations-wealthy-britain"
+      },
+      "status": "supported"
+    }
+  ]
+}

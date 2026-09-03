@@ -1,0 +1,69 @@
+{
+  "subject": "george-clooney-challenges-authoritarians-in-powerful-speech-in-venice-stories-are-always-dangero",
+  "claims": [
+    {
+      "id": "title",
+      "proposition": {
+        "predicate": "title",
+        "object": "George Clooney Challenges Authoritarians in Powerful Speech in Venice: “Stories Are Always Dangerous to People Who Peddle in Fear”"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "entertainment",
+        "citation": "https://www.hollywoodreporter.com/movies/movie-news/george-clooney-venice-golden-lion-lifetime-achievement-1236687918/"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "url",
+      "proposition": {
+        "predicate": "url",
+        "object": "https://www.hollywoodreporter.com/movies/movie-news/george-clooney-venice-golden-lion-lifetime-achievement-1236687918/"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "entertainment",
+        "citation": "https://www.hollywoodreporter.com/movies/movie-news/george-clooney-venice-golden-lion-lifetime-achievement-1236687918/"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "summary",
+      "proposition": {
+        "predicate": "summary",
+        "object": "Laura Dern presented the Hollywood star with Venice’s career honor during Wednesday’s opening ceremony with a little help from his famous friends like Brad Pitt, Adam Sandler and Steven Soderbergh."
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "entertainment",
+        "citation": "https://www.hollywoodreporter.com/movies/movie-news/george-clooney-venice-golden-lion-lifetime-achievement-1236687918/"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "published",
+      "proposition": {
+        "predicate": "published",
+        "object": "Wed, 02 Sep 2026 18:40:13 +0000"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "entertainment",
+        "citation": "https://www.hollywoodreporter.com/movies/movie-news/george-clooney-venice-golden-lion-lifetime-achievement-1236687918/"
+      },
+      "status": "supported"
+    }
+  ]
+}

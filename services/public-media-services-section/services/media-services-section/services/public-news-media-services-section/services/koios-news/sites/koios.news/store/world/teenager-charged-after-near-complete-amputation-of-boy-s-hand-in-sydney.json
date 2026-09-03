@@ -1,0 +1,69 @@
+{
+  "subject": "teenager-charged-after-near-complete-amputation-of-boy-s-hand-in-sydney",
+  "claims": [
+    {
+      "id": "title",
+      "proposition": {
+        "predicate": "title",
+        "object": "Teenager charged after ‘near-complete amputation’ of boy’s hand in Sydney"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "world",
+        "citation": "https://www.theguardian.com/australia-news/2026/sep/03/teenager-charged-after-near-complete-amputation-of-boys-hand-in-sydney-ntwnfb"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "url",
+      "proposition": {
+        "predicate": "url",
+        "object": "https://www.theguardian.com/australia-news/2026/sep/03/teenager-charged-after-near-complete-amputation-of-boys-hand-in-sydney-ntwnfb"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "world",
+        "citation": "https://www.theguardian.com/australia-news/2026/sep/03/teenager-charged-after-near-complete-amputation-of-boys-hand-in-sydney-ntwnfb"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "summary",
+      "proposition": {
+        "predicate": "summary",
+        "object": "<p>NSW police called to Redfern on Wednesday night found a 17-year-old with a partially severed hand</p><ul><li><p><a href=\"https://www.theguardian.com/australia-news/live/2026/sep/03/anthony-albanese-one-nation-jim-chalmers-labor-liberal-angus-taylor-tobacco-plan-ntwnfb\">Follow our Australia news live blog for latest updates</a></p></li><li><p>Get our <a href=\"https://www.theguardian.com/email-newsletters?CMP=cvau_sfl\">breaking news email</a>, <a href=\"https://app.adjust.com/w4u7jx3\">free app</a> or <a href=\"https://www.theguardian.com/australia-news/series/full-story?CMP=cvau_sfl\">daily news podcast</a></p></li></ul><p>A teenage boy will face court today after a “near-complete amputation” of a boy’s hand during an alleged assault in Sydney on Wednesday night.</p><p>New South Wales police were called to Redfern about 6pm last night and found a 17-year-old with a partially severed hand.</p> <a href=\"https://www.theguardian.com/australia-news/2026/sep/03/teenager-charged-after-near-complete-amputation-of-boys-hand-in-sydney-ntwnfb\">Continue reading...</a>"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "world",
+        "citation": "https://www.theguardian.com/australia-news/2026/sep/03/teenager-charged-after-near-complete-amputation-of-boys-hand-in-sydney-ntwnfb"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "published",
+      "proposition": {
+        "predicate": "published",
+        "object": "Thu, 03 Sep 2026 00:08:43 GMT"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "world",
+        "citation": "https://www.theguardian.com/australia-news/2026/sep/03/teenager-charged-after-near-complete-amputation-of-boys-hand-in-sydney-ntwnfb"
+      },
+      "status": "supported"
+    }
+  ]
+}

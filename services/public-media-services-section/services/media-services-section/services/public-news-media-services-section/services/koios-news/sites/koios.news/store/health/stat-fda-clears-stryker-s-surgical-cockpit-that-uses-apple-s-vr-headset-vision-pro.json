@@ -1,0 +1,69 @@
+{
+  "subject": "stat-fda-clears-stryker-s-surgical-cockpit-that-uses-apple-s-vr-headset-vision-pro",
+  "claims": [
+    {
+      "id": "title",
+      "proposition": {
+        "predicate": "title",
+        "object": "STAT+: FDA clears Stryker’s ‘surgical cockpit’ that uses Apple’s VR headset, Vision Pro"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "health",
+        "citation": "https://www.statnews.com/2026/09/01/fda-stryker-surgical-cockpit-apple-vr-headset-health-tech/?utm_campaign=rss"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "url",
+      "proposition": {
+        "predicate": "url",
+        "object": "https://www.statnews.com/2026/09/01/fda-stryker-surgical-cockpit-apple-vr-headset-health-tech/?utm_campaign=rss"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "health",
+        "citation": "https://www.statnews.com/2026/09/01/fda-stryker-surgical-cockpit-apple-vr-headset-health-tech/?utm_campaign=rss"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "summary",
+      "proposition": {
+        "predicate": "summary",
+        "object": "Y ou’re reading the web edition of STAT’s Health Tech newsletter, our guide to how technology is transforming the life sciences. Sign up to get it delivered in your inbox every Tuesday and Thursday. Good morning health tech readers! Happy September! Are you ready to get busy or are you waiting until after Labor Day? Continue to STAT+ to read the full story&hellip;"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "health",
+        "citation": "https://www.statnews.com/2026/09/01/fda-stryker-surgical-cockpit-apple-vr-headset-health-tech/?utm_campaign=rss"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "published",
+      "proposition": {
+        "predicate": "published",
+        "object": "Tue, 01 Sep 2026 13:10:20 +0000"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "health",
+        "citation": "https://www.statnews.com/2026/09/01/fda-stryker-surgical-cockpit-apple-vr-headset-health-tech/?utm_campaign=rss"
+      },
+      "status": "supported"
+    }
+  ]
+}

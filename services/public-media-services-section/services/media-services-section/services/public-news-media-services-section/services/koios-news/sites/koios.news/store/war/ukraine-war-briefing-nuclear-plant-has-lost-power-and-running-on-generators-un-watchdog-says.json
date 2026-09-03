@@ -1,0 +1,69 @@
+{
+  "subject": "ukraine-war-briefing-nuclear-plant-has-lost-power-and-running-on-generators-un-watchdog-says",
+  "claims": [
+    {
+      "id": "title",
+      "proposition": {
+        "predicate": "title",
+        "object": "Ukraine war briefing: Nuclear plant has lost power and running on generators, UN watchdog says"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "war",
+        "citation": "https://www.theguardian.com/world/2026/aug/30/ukraine-war-briefing-nuclear-plant-lost-power"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "url",
+      "proposition": {
+        "predicate": "url",
+        "object": "https://www.theguardian.com/world/2026/aug/30/ukraine-war-briefing-nuclear-plant-lost-power"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "war",
+        "citation": "https://www.theguardian.com/world/2026/aug/30/ukraine-war-briefing-nuclear-plant-lost-power"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "summary",
+      "proposition": {
+        "predicate": "summary",
+        "object": "<p>Russian-occupied Zaporizhzhia plant has 10-day diesel supply on site; Kyiv investigates deadly attack on warehouse. What we know on day 1,649</p><p><strong>The Zaporizhzhia nuclear power plant in Ukraine has been without off-site power for more than a week</strong> and is now relying on emergency diesel generators, the UN’s nuclear watchdog says. The plant, which needs power to keep its six non-operating reactors cool, has only a 10-day diesel supply on site, the International Atomic Energy Agency (IAEA) said on Saturday.</p><p><strong>“The availability of diesel fuel is of paramount importance whenever a nuclear power plant loses off-site power,</strong>” said agency director general Rafael Grossi. “The current situation once again shows why reliable external power and secure supply routes are indispensable for nuclear safety and security.” The plant had been supplied with diesel on Thursday and Friday from another off-site location, the IAEA added.</p><p>Zaporizhzhia lost its regular power supply “following military activity on the northern side of the Dnipro River”, the statement said. The IAEA said it was trying to negotiate a local ceasefire to allow repairs to electrical lines. The plant, in southern Ukraine, was seized by the Russian army in March 2022 and its six reactors have been shut down since that year.</p><p><strong>Germany is reportedly preparing to blame Russia for an attempted <a href=\"https://www.theguardian.com/world/2026/aug/06/leipzig-drone-bomb-found-near-ukrainian-plane-carrying-ammunition\">drone attack at Leipzig airport</a> and impose sanctions on Russian entities</strong>. Friedrich Merz’s government is expected to announce the “extensive” measures in the next week, <a href=\"https://www.politico.eu/article/friedrich-merz-berlin-sanctions-russia-vladimir-putin-leipzig-attach-ascalate/\">Politico reports</a>, potentially alongside a new EU sanctions package.</p><p><strong>Ukrainian prosecutors have opened an investigation into why munitions were stored so close to homes</strong> after a deadly Russian attack on a warehouse storing “explosive objects” near Kyiv’s western suburbs. At least 37 people were killed in the attack on the warehouse in Myla on Friday, making it the war’s deadliest attack this year, Donna Ferguson <a href=\"https://www.theguardian.com/world/2026/aug/29/russian-strike-warehouse-near-kyiv-kills-at-least-37\">reports</a>.</p><p><strong>The attack damaged at least 50 residential buildings, including a care home for elderly and disabled people</strong>, and sparked a huge fire and explosions in the Bucha district of the Kyiv region. The regional governor, Tymur Tkachenko, said a further 42 people, including four children, had been injured in the strike.</p><p><strong>The warehouse was a depot owned by the Ukrainian military and stored shells, drones and other munitions</strong>, <a href=\"https://www.theguardian.com/world/volodymyr-zelenskiy\">Volodymyr Zelenskyy</a> said in a video address. “The first impact was on a place where ammunition was being stored that absolutely should not have been there – a depot of the defence forces. [There was] detonation of shells, mines, other munitions and drones on a significant scale,” the Ukrainian president said.</p><p><strong>Finland’s president </strong><strong>said he did not believe Russia would risk an attack against a ⁠Nato country</strong>, with Alexander Stubb<strong> </strong>telling the Bild newspaper that it would “make no sense” to test the resolve of the alliance. “I simply see neither evidence nor facts to support it,” ​he told Bild, adding that he ‌did not believe that Russia “would ever want to attack Nato, the world’s most powerful military ‌alliance”.</p><p>Stubb, whose country joined Nato in 2023, said the alliance had to be prepared for any scenario but he did not believe Moscow was in a position to go to war with Nato. “It makes no sense ​for any power in the world to test the resolve of this alliance.”</p> <a href=\"https://www.theguardian.com/world/2026/aug/30/ukraine-war-briefing-nuclear-plant-lost-power\">Continue reading...</a>"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "war",
+        "citation": "https://www.theguardian.com/world/2026/aug/30/ukraine-war-briefing-nuclear-plant-lost-power"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "published",
+      "proposition": {
+        "predicate": "published",
+        "object": "Sun, 30 Aug 2026 01:07:09 GMT"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "war",
+        "citation": "https://www.theguardian.com/world/2026/aug/30/ukraine-war-briefing-nuclear-plant-lost-power"
+      },
+      "status": "supported"
+    }
+  ]
+}

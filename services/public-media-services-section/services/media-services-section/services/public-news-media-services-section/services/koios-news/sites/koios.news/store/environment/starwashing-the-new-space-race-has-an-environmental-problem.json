@@ -1,0 +1,69 @@
+{
+  "subject": "starwashing-the-new-space-race-has-an-environmental-problem",
+  "claims": [
+    {
+      "id": "title",
+      "proposition": {
+        "predicate": "title",
+        "object": "‘Starwashing’: The new space race has an environmental problem"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "environment",
+        "citation": "https://grist.org/technology/starwashing-space-race-environment-spacex/"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "url",
+      "proposition": {
+        "predicate": "url",
+        "object": "https://grist.org/technology/starwashing-space-race-environment-spacex/"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "environment",
+        "citation": "https://grist.org/technology/starwashing-space-race-environment-spacex/"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "summary",
+      "proposition": {
+        "predicate": "summary",
+        "object": "As artificial intelligence devours more land and electricity, a new breed of tech companies promises that outer space holds the solutions to our problems on Earth. If data centers are so hard to find a place for down here, why not put them hundreds of miles above the planet instead? Since power demand surges in the evening, why not send tens of thousands of mirrors into orbit to shine sunlight down on demand, powering solar farms after sunset?&nbsp; These ideas might sound far-fetched, but they are real proposals from Elon Musk, Jeff Bezos, and start-ups in the space industry. As private industry drives the new “space race,” now launching more rockets than countries do, even the cosmos is starting to feel a bit crowded. A growing amount of so-called “space junk” has led to concerns that all the metal could collide, creating a destructive layer of debris that anything launching into orbit would have to contend with. Earlier this month, part of a discarded SpaceX rocket unintentionally slammed into the moon at 5,400 miles per hour, blasting a new crater . As Musk’s SpaceX, Bezos’ Blue Origin, and other companies expand into space, they risk causing more problems for Earth in the process: air pollution, climate effects, and light pollution. The practice of downplaying these negative consequences while trumpeting the message that space operations can make life better on Earth has a new name: “starwashing,” a term the space researcher Melissa E. Yingling helped popularize in an article published in The Conversation earlier this month.&nbsp; It’s a play on the term “ greenwashing ,” used to critique companies that highlight small sustainable investments to divert attention from the pollution their businesses cause. Space companies are appealing to a sense of “cosmic wonder” and making promises to benefit humankind, along with promoting their environmental bona fides, Yingling wrote. For example, Blue Origin says its mission is “to restore and sustain Earth” as it sends rockets and lunar landers up into space, touting reusable rockets, cleaner-burning fuel, and the development of carbon-neutral technologies. Reflect Orbital, the California start-up behind the plan to send 50,000 space mirrors into orbit to provide sunlight on demand, promises “abundant energy” and “a healthier planet.” All the emphasis these companies place on technological progress is a distraction from dealing with the climate crisis, said Gregers Andersen, a postdoctoral researcher at the University of Southern Denmark who has written a forthcoming book about Silicon Valley overpromising tech solutions to climate change. “The problem is, of course, that it takes attention away from actually solving the problems that are here on Earth,” he said. “And I think that’s also what’s meant by the term of ‘starwashing.’” Whether or not the term catches on, experts say that companies’ optimistic marketing does obscure real environmental risks. Magali Delmas, a professor of management at UCLA’s Institute of the Environment and Sustainability, thinks of the “new frontier” of space as something akin to the Gold Rush. “They were only seeing the positive — they were not seeing the negative impact on the environment of mining,” she said. “This optimism [about space] is really downplaying some of the challenges.” The growing space industry could wind up polluting the layers of atmosphere in ways that scientists are just beginning to understand, altering Earth’s climate. Rocket engines release soot into the stratosphere, where it can damage the ozone layer that protects us from ultraviolet radiation. They also release water vapor, which absorbs heat radiated from Earth and amplifies the warming caused by greenhouse gases . Research has found that as satellites disintegrate, they could alter the chemistry of the upper atmosphere, releasing aluminum oxide dust that can lead to warming, the scattering of sunlight, and changes in atmospheric circulation. Beyond changes to the atmosphere, space expansion has other environmental effects, including the loss of dark sky as satellites reflect sunlight and damage to wildlife habitats around launch sites. That’s not to mention the enormous greenhouse gas emissions involved in building and launching satellites. Delmas said that some of the companies’ promises are worth considering, and can’t be easily dismissed as greenwashing or starwashing: “Some of it’s actually true — there are these new technologies that are developed that can be just amazing.” There have been some environmental benefits from going up into space: Methane -detecting satellites have uncovered leaks from oil and gas operations in recent years that dramatically exceeded what had been reported, important information for reining in emissions of the powerful greenhouse gas. Astronauts have been shocked by how fragile and delicate Earth’s atmosphere looks from space, and this so-called “overview effect” has turned a surprising number of them into climate advocates . Read Next Data centers gobble Earth’s resources. What if we took them to space instead? Sophie Hurwitz Andersen, however, warned against falling for tech moguls’ narratives of “progress.” He thinks they’re trying to manipulate the public into being optimistic about the future, even as scientists show we’re headed toward an even hotter, more disaster-ridden world. He has a different vision of what should be considered “progress” — not establishing colonies in space, where people would live limited lives, but ensuring that humans can thrive on Earth long-term.&nbsp; “I think the common human project should be to create a sustainable civilization within the planetary boundaries,” Andersen said. “And I think the narratives that they are presenting are just basically derailing us from that mission.” toolTips('.classtoolTips3','Carbon dioxide, methane, nitrous oxide, and other gases that prevent heat from escaping Earth’s atmosphere. Together, they act as a blanket to keep the planet at a liveable temperature in what is known as the “greenhouse effect.” Too many of these gases, however, can cause excessive warming, disrupting fragile climates and ecosystems.'); toolTips('.classtoolTips7',' A powerful greenhouse gas that accounts for about 11% of global emissions, methane is the primary component of natural gas and is emitted into the atmosphere by landfills, oil and natural gas systems, agricultural activities, coal mining, and wastewater treatment, among other pathways. Over a 20-year period, it is roughly 84 times more potent than carbon dioxide at trapping heat in the atmosphere. '); This story was originally published by Grist with the headline ‘Starwashing’: The new space race has an environmental problem on Aug 27, 2026."
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "environment",
+        "citation": "https://grist.org/technology/starwashing-space-race-environment-spacex/"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "published",
+      "proposition": {
+        "predicate": "published",
+        "object": "Thu, 27 Aug 2026 08:45:00 +0000"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "environment",
+        "citation": "https://grist.org/technology/starwashing-space-race-environment-spacex/"
+      },
+      "status": "supported"
+    }
+  ]
+}

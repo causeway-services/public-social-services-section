@@ -1,0 +1,69 @@
+{
+  "subject": "carr-manning-top-packed-heisman-odds-boards",
+  "claims": [
+    {
+      "id": "title",
+      "proposition": {
+        "predicate": "title",
+        "object": "Carr, Manning top packed Heisman odds boards"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "sport",
+        "citation": "https://www.espn.com/college-football/story/_/id/49804905/cj-carr-arch-manning-lead-congested-heisman-oddsboards"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "url",
+      "proposition": {
+        "predicate": "url",
+        "object": "https://www.espn.com/college-football/story/_/id/49804905/cj-carr-arch-manning-lead-congested-heisman-oddsboards"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "sport",
+        "citation": "https://www.espn.com/college-football/story/_/id/49804905/cj-carr-arch-manning-lead-congested-heisman-oddsboards"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "summary",
+      "proposition": {
+        "predicate": "summary",
+        "object": "Notre Dame quarterback CJ Carr and Texas quarterback Arch Manning are the favorites to win the Heisman Trophy, but the odds at sportsbooks suggest it's a wide-open race."
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "sport",
+        "citation": "https://www.espn.com/college-football/story/_/id/49804905/cj-carr-arch-manning-lead-congested-heisman-oddsboards"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "published",
+      "proposition": {
+        "predicate": "published",
+        "object": "Wed, 2 Sep 2026 18:21:05 EST"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "sport",
+        "citation": "https://www.espn.com/college-football/story/_/id/49804905/cj-carr-arch-manning-lead-congested-heisman-oddsboards"
+      },
+      "status": "supported"
+    }
+  ]
+}

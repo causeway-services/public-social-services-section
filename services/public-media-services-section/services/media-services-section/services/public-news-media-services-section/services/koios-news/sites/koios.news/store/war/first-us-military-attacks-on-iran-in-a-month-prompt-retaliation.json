@@ -1,0 +1,69 @@
+{
+  "subject": "first-us-military-attacks-on-iran-in-a-month-prompt-retaliation",
+  "claims": [
+    {
+      "id": "title",
+      "proposition": {
+        "predicate": "title",
+        "object": "First US military attacks on Iran in a month prompt retaliation"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "war",
+        "citation": "https://www.theguardian.com/world/2026/aug/30/us-strikes-iranian-launchers-on-larak-island-amid-strait-of-hormuz-tensions"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "url",
+      "proposition": {
+        "predicate": "url",
+        "object": "https://www.theguardian.com/world/2026/aug/30/us-strikes-iranian-launchers-on-larak-island-amid-strait-of-hormuz-tensions"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "war",
+        "citation": "https://www.theguardian.com/world/2026/aug/30/us-strikes-iranian-launchers-on-larak-island-amid-strait-of-hormuz-tensions"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "summary",
+      "proposition": {
+        "predicate": "summary",
+        "object": "<p>US attacks Iranian rocket launchers on island in strait of Hormuz and Tehran targets US bases in Jordan and UAE</p><p>The US has reverted to military attacks on Iran for the first time in a month, firing missiles and drones at Iranian rocket launchers on an island in the strait of Hormuz, prompting the Iranian military to attack US military bases in Jordan and the United Arab Emirates.</p><p>US Central Command said it acted late on Sunday after it detected the Iranians planning to fire fresh mines into the strait. Last week Donald Trump claimed the US navy had cleared the strait of mines for the first time since the conflict started on 28 February, a claim the Iranians rejected as lies.</p> <a href=\"https://www.theguardian.com/world/2026/aug/30/us-strikes-iranian-launchers-on-larak-island-amid-strait-of-hormuz-tensions\">Continue reading...</a>"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "war",
+        "citation": "https://www.theguardian.com/world/2026/aug/30/us-strikes-iranian-launchers-on-larak-island-amid-strait-of-hormuz-tensions"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "published",
+      "proposition": {
+        "predicate": "published",
+        "object": "Mon, 31 Aug 2026 09:37:19 GMT"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "war",
+        "citation": "https://www.theguardian.com/world/2026/aug/30/us-strikes-iranian-launchers-on-larak-island-amid-strait-of-hormuz-tensions"
+      },
+      "status": "supported"
+    }
+  ]
+}

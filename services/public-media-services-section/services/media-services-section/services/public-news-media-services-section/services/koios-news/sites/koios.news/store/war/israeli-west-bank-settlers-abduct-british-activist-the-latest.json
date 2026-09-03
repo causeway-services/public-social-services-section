@@ -1,0 +1,69 @@
+{
+  "subject": "israeli-west-bank-settlers-abduct-british-activist-the-latest",
+  "claims": [
+    {
+      "id": "title",
+      "proposition": {
+        "predicate": "title",
+        "object": "Israeli West Bank settlers abduct British activist - The Latest"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "war",
+        "citation": "https://www.theguardian.com/world/audio/2026/sep/01/british-activist-abducted-by-west-bank-settlers-and-deported-by-israel-the-latest"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "url",
+      "proposition": {
+        "predicate": "url",
+        "object": "https://www.theguardian.com/world/audio/2026/sep/01/british-activist-abducted-by-west-bank-settlers-and-deported-by-israel-the-latest"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "war",
+        "citation": "https://www.theguardian.com/world/audio/2026/sep/01/british-activist-abducted-by-west-bank-settlers-and-deported-by-israel-the-latest"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "summary",
+      "proposition": {
+        "predicate": "summary",
+        "object": "<p>A British activist who was forcibly abducted by Israeli settlers in the occupied West Bank has been deported to the UK. The treatment of 22-year-old Finn Joughin comes after a surge of settler violence against Palestinian people in the West Bank that has been widely condemned internationally and also by many prominent figures within Israel. Lucy Hough speaks to the Guardian’s chief Middle East correspondent, Emma Graham-Harrison –<strong> </strong><a href=\"https://www.youtube.com/@todayinfocuspodcast\"><strong>watch on YouTube</strong></a></p> <a href=\"https://www.theguardian.com/world/audio/2026/sep/01/british-activist-abducted-by-west-bank-settlers-and-deported-by-israel-the-latest\">Continue reading...</a>"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "war",
+        "citation": "https://www.theguardian.com/world/audio/2026/sep/01/british-activist-abducted-by-west-bank-settlers-and-deported-by-israel-the-latest"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "published",
+      "proposition": {
+        "predicate": "published",
+        "object": "Tue, 01 Sep 2026 16:37:57 GMT"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "war",
+        "citation": "https://www.theguardian.com/world/audio/2026/sep/01/british-activist-abducted-by-west-bank-settlers-and-deported-by-israel-the-latest"
+      },
+      "status": "supported"
+    }
+  ]
+}

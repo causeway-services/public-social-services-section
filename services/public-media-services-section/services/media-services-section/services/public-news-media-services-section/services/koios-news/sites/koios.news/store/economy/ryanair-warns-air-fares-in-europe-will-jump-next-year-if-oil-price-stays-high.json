@@ -1,0 +1,69 @@
+{
+  "subject": "ryanair-warns-air-fares-in-europe-will-jump-next-year-if-oil-price-stays-high",
+  "claims": [
+    {
+      "id": "title",
+      "proposition": {
+        "predicate": "title",
+        "object": "Ryanair warns air fares in Europe will jump next year if oil price stays high"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "economy",
+        "citation": "https://www.theguardian.com/business/2026/sep/02/ryanair-warns-air-fares-europe-jump-next-year-oil-price-stays-high"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "url",
+      "proposition": {
+        "predicate": "url",
+        "object": "https://www.theguardian.com/business/2026/sep/02/ryanair-warns-air-fares-europe-jump-next-year-oil-price-stays-high"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "economy",
+        "citation": "https://www.theguardian.com/business/2026/sep/02/ryanair-warns-air-fares-europe-jump-next-year-oil-price-stays-high"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "summary",
+      "proposition": {
+        "predicate": "summary",
+        "object": "<p>Budget carrier says airlines could go bust as it cuts passenger targets to reduce exposure to ‘unhedged winter oil’</p><p>Ryanair has warned that air fares in Europe will jump next year if the oil price remains high and that some airlines could go bust.</p><p>The Irish budget carrier has cut its passenger target for the year to 31 March, down from 216 million customers to 214 million, to help reduce its exposure to “unhedged winter oil” during the unprofitable off season, with jet fuel currently trading at $140 (£104) a barrel.</p> <a href=\"https://www.theguardian.com/business/2026/sep/02/ryanair-warns-air-fares-europe-jump-next-year-oil-price-stays-high\">Continue reading...</a>"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "economy",
+        "citation": "https://www.theguardian.com/business/2026/sep/02/ryanair-warns-air-fares-europe-jump-next-year-oil-price-stays-high"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "published",
+      "proposition": {
+        "predicate": "published",
+        "object": "Wed, 02 Sep 2026 08:58:04 GMT"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "economy",
+        "citation": "https://www.theguardian.com/business/2026/sep/02/ryanair-warns-air-fares-europe-jump-next-year-oil-price-stays-high"
+      },
+      "status": "supported"
+    }
+  ]
+}

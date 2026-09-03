@@ -1,0 +1,69 @@
+{
+  "subject": "olivia-rodrigo-is-standing-up-for-the-vulnerable-i-wish-taylor-swift-would-do-the-same-arwa-mahd",
+  "claims": [
+    {
+      "id": "title",
+      "proposition": {
+        "predicate": "title",
+        "object": "Olivia Rodrigo is standing up for the vulnerable. I wish Taylor Swift would do the same | Arwa Mahdawi"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "us-politics",
+        "citation": "https://www.theguardian.com/commentisfree/2026/sep/01/olivia-rodrigo-is-standing-up-for-the-vulnerable-i-wish-taylor-swift-would-do-the-same"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "url",
+      "proposition": {
+        "predicate": "url",
+        "object": "https://www.theguardian.com/commentisfree/2026/sep/01/olivia-rodrigo-is-standing-up-for-the-vulnerable-i-wish-taylor-swift-would-do-the-same"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "us-politics",
+        "citation": "https://www.theguardian.com/commentisfree/2026/sep/01/olivia-rodrigo-is-standing-up-for-the-vulnerable-i-wish-taylor-swift-would-do-the-same"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "summary",
+      "proposition": {
+        "predicate": "summary",
+        "object": "<p>This weekend, Rodrigo raised millions for charities that benefit women and girls, and she has previously been vocal about Gaza and ICE. With free speech increasingly under threat, her peers should take note</p><p>Donald Trump, the 80-year-old president of the United States, spent his weekend whining <a href=\"https://www.theguardian.com/commentisfree/2026/aug/29/lake-america-trump-approval-ratings\">about a lake</a> and posting memes of <a href=\"https://www.the-independent.com/news/world/americas/us-politics/trump-lake-america-ontario-ducks-ai-video-b3041554.html\">Donald’s Ducks</a>. While he was busy with his ducks, Olivia Rodrigo, a 23-year-old pop star, spent <em>her</em> weekend trying to Make America Somewhat Decent Again. On Saturday, Rodrigo hosted the inaugural <a href=\"https://www.theguardian.com/music/2026/aug/30/daisy-chain-fields-festival-review-olivia-rodrigo\">Daisy Chain Fields festival</a>, bringing together female artists to raise money for women-focused non-profits which have had their <a href=\"https://www.theguardian.com/us-news/2025/dec/31/planned-parenthood-medicaid-funding-ends\">funding</a> <a href=\"https://www.politico.com/newsletters/politico-influence/2025/10/03/layoffs-at-top-womens-legal-group-00593930\">slashed</a> by the Trump administration. The festival raised $10m (£7.4m) which <a href=\"https://www.theguardian.com/us-news/melinda-french-gates\">Melinda French Gates</a> matched, bringing the total to $20m.</p><p>In a perfect world a singer holding a benefit concert for feminist charities wouldn’t be radical stuff. But we don’t live in a perfect world, do we? We live in hell. Trump has successfully bullied US institutions into doing his bidding. <a href=\"https://www.washingtonpost.com/education/2026/08/25/why-colleges-are-cutting-black-studies-departments-majors-classes/\">Universities have defunded</a> diversity, equity and inclusion programmes, many <a href=\"https://www.theguardian.com/media/2025/sep/18/court-of-king-trump-media-barons-bowing-president-protect-deals\">media outlets</a> have kowtowed to the US’s self-styled king and tech CEOs have <a href=\"https://www.theguardian.com/technology/2026/jan/20/trump-tech-alliance-datacenters-social-media\">jumped into</a> bed with him. Women’s rights are going <a href=\"https://news.un.org/en/story/2026/03/1167081\">backwards globally</a> and our civil liberties are under attack.</p> <a href=\"https://www.theguardian.com/commentisfree/2026/sep/01/olivia-rodrigo-is-standing-up-for-the-vulnerable-i-wish-taylor-swift-would-do-the-same\">Continue reading...</a>"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "us-politics",
+        "citation": "https://www.theguardian.com/commentisfree/2026/sep/01/olivia-rodrigo-is-standing-up-for-the-vulnerable-i-wish-taylor-swift-would-do-the-same"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "published",
+      "proposition": {
+        "predicate": "published",
+        "object": "Tue, 01 Sep 2026 15:21:43 GMT"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "us-politics",
+        "citation": "https://www.theguardian.com/commentisfree/2026/sep/01/olivia-rodrigo-is-standing-up-for-the-vulnerable-i-wish-taylor-swift-would-do-the-same"
+      },
+      "status": "supported"
+    }
+  ]
+}

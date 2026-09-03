@@ -1,0 +1,69 @@
+{
+  "subject": "assisted-dying-palliative-care-and-patient-choice-letters",
+  "claims": [
+    {
+      "id": "title",
+      "proposition": {
+        "predicate": "title",
+        "object": "Assisted dying, palliative care and patient choice | Letters"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "health",
+        "citation": "https://www.theguardian.com/society/2026/sep/01/assisted-dying-palliative-care-and-patient-choice"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "url",
+      "proposition": {
+        "predicate": "url",
+        "object": "https://www.theguardian.com/society/2026/sep/01/assisted-dying-palliative-care-and-patient-choice"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "health",
+        "citation": "https://www.theguardian.com/society/2026/sep/01/assisted-dying-palliative-care-and-patient-choice"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "summary",
+      "proposition": {
+        "predicate": "summary",
+        "object": "<p>Readers respond to an article by Dr Zubir Ahmed, who argued that better palliative care should be prioritised before assisted dying is legalised</p><p>I work as a renal physician, including on a transplant ward, so I will have had many of the same experiences as Zubir Ahmed, but I do not share his opinion about assisted dying (<a href=\"https://www.theguardian.com/commentisfree/2026/aug/25/assisted-dying-palliative-care-england-wales\">As&nbsp;a doctor, I say this: before we even consider assisted dying, fix how we care for the most vulnerable, 26&nbsp;August</a>).</p><p>It is universally agreed that patients with capacity should be able to make decisions about their treatment. Their decision is the one that matters if they have the ability to use and understand the relevant information and can communicate any decision they make. The doctor needs to explain possible options and their likely outcomes in as fair and balanced a manner as possible.</p> <a href=\"https://www.theguardian.com/society/2026/sep/01/assisted-dying-palliative-care-and-patient-choice\">Continue reading...</a>"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "health",
+        "citation": "https://www.theguardian.com/society/2026/sep/01/assisted-dying-palliative-care-and-patient-choice"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "published",
+      "proposition": {
+        "predicate": "published",
+        "object": "Tue, 01 Sep 2026 16:44:04 GMT"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "health",
+        "citation": "https://www.theguardian.com/society/2026/sep/01/assisted-dying-palliative-care-and-patient-choice"
+      },
+      "status": "supported"
+    }
+  ]
+}

@@ -1,0 +1,69 @@
+{
+  "subject": "ukrainian-film-maker-criticises-eu-after-it-cuts-venice-biennale-funding-over-russia-controversy",
+  "claims": [
+    {
+      "id": "title",
+      "proposition": {
+        "predicate": "title",
+        "object": "Ukrainian film-maker criticises EU after it cuts Venice Biennale funding over Russia controversy"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "entertainment",
+        "citation": "https://www.theguardian.com/film/2026/sep/02/ukrainian-film-maker-sergei-loznitsa-criticises-eu-cuts-venice-biennale-funding-russia-controversy"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "url",
+      "proposition": {
+        "predicate": "url",
+        "object": "https://www.theguardian.com/film/2026/sep/02/ukrainian-film-maker-sergei-loznitsa-criticises-eu-cuts-venice-biennale-funding-russia-controversy"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "entertainment",
+        "citation": "https://www.theguardian.com/film/2026/sep/02/ukrainian-film-maker-sergei-loznitsa-criticises-eu-cuts-venice-biennale-funding-russia-controversy"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "summary",
+      "proposition": {
+        "predicate": "summary",
+        "object": "<p>Sergei Loznitsa likens removal of €2m grant to ‘a punishment in kindergarten’ on eve of Venice film festival</p><p>One of Ukraine’s most acclaimed film-makers has criticised the European Commission’s decision to cut off funds to the Venice Biennale over the opening of Russia’s pavilion, likening it to “a punishment in kindergarten”.</p><p>The <a href=\"https://www.theguardian.com/artanddesign/2026/may/05/venice-biennale-protests-resignations-russia-israel\">Biennale drew heavy criticism this spring</a> when it allowed Russia to use its pavilion for the first time since 2022, despite the ongoing full-scale invasion of Ukraine.</p> <a href=\"https://www.theguardian.com/film/2026/sep/02/ukrainian-film-maker-sergei-loznitsa-criticises-eu-cuts-venice-biennale-funding-russia-controversy\">Continue reading...</a>"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "entertainment",
+        "citation": "https://www.theguardian.com/film/2026/sep/02/ukrainian-film-maker-sergei-loznitsa-criticises-eu-cuts-venice-biennale-funding-russia-controversy"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "published",
+      "proposition": {
+        "predicate": "published",
+        "object": "Wed, 02 Sep 2026 06:00:25 GMT"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "entertainment",
+        "citation": "https://www.theguardian.com/film/2026/sep/02/ukrainian-film-maker-sergei-loznitsa-criticises-eu-cuts-venice-biennale-funding-russia-controversy"
+      },
+      "status": "supported"
+    }
+  ]
+}

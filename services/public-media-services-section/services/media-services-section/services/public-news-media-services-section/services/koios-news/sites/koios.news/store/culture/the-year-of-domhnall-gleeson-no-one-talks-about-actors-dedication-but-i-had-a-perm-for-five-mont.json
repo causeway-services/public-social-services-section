@@ -1,0 +1,69 @@
+{
+  "subject": "the-year-of-domhnall-gleeson-no-one-talks-about-actors-dedication-but-i-had-a-perm-for-five-mont",
+  "claims": [
+    {
+      "id": "title",
+      "proposition": {
+        "predicate": "title",
+        "object": "The year of Domhnall Gleeson: ‘No one talks about actors’ dedication. But I had a perm for five months!’"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "culture",
+        "citation": "https://www.theguardian.com/film/2026/sep/02/the-year-of-domhnall-gleeson-no-one-talks-about-actors-dedication-but-i-had-a-perm-for-five-months"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "url",
+      "proposition": {
+        "predicate": "url",
+        "object": "https://www.theguardian.com/film/2026/sep/02/the-year-of-domhnall-gleeson-no-one-talks-about-actors-dedication-but-i-had-a-perm-for-five-months"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "culture",
+        "citation": "https://www.theguardian.com/film/2026/sep/02/the-year-of-domhnall-gleeson-no-one-talks-about-actors-dedication-but-i-had-a-perm-for-five-months"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "summary",
+      "proposition": {
+        "predicate": "summary",
+        "object": "<p>He started in the Harry Potter films and has since become ubiquitous, playing every type of character: romcom leads, evil villains, comical idiots. He even starred in a Taylor Swift video. So how does he stay so under the radar?</p><p>Domhnall Gleeson has got so much new stuff coming up, someone recently joked that this was the “summer of Domhnall”. Now the phrase is all over the internet, and Gleeson is mortified: “The worry is that somebody will say this to me now thinking that I believe it.” He doesn’t know where it came from – possibly his co-star Gayle Rankin on his new movie The Incomer. “It’s certainly not something I’m trying to push … but it would be great if it could be the headline.”</p><p>He’s in a good mood when we meet at a London hotel on a hot afternoon. You could say he’s good at interviews – charming, funny, garrulous, the perfect chatshow guest. He could just be <em>acting</em>, admittedly, but he seems to be a genuinely good-natured, grounded sort of guy.</p> <a href=\"https://www.theguardian.com/film/2026/sep/02/the-year-of-domhnall-gleeson-no-one-talks-about-actors-dedication-but-i-had-a-perm-for-five-months\">Continue reading...</a>"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "culture",
+        "citation": "https://www.theguardian.com/film/2026/sep/02/the-year-of-domhnall-gleeson-no-one-talks-about-actors-dedication-but-i-had-a-perm-for-five-months"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "published",
+      "proposition": {
+        "predicate": "published",
+        "object": "Wed, 02 Sep 2026 04:00:23 GMT"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "culture",
+        "citation": "https://www.theguardian.com/film/2026/sep/02/the-year-of-domhnall-gleeson-no-one-talks-about-actors-dedication-but-i-had-a-perm-for-five-months"
+      },
+      "status": "supported"
+    }
+  ]
+}

@@ -1,0 +1,69 @@
+{
+  "subject": "trump-s-threat-against-an-nbc-journalist-is-an-attack-on-reality-margaret-sullivan",
+  "claims": [
+    {
+      "id": "title",
+      "proposition": {
+        "predicate": "title",
+        "object": "Trump’s threat against an NBC journalist is an attack on reality | Margaret Sullivan"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "us-politics",
+        "citation": "https://www.theguardian.com/commentisfree/2026/sep/02/trump-nbc-fcc-kristin-welker"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "url",
+      "proposition": {
+        "predicate": "url",
+        "object": "https://www.theguardian.com/commentisfree/2026/sep/02/trump-nbc-fcc-kristin-welker"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "us-politics",
+        "citation": "https://www.theguardian.com/commentisfree/2026/sep/02/trump-nbc-fcc-kristin-welker"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "summary",
+      "proposition": {
+        "predicate": "summary",
+        "object": "<p>The president’s call for the FCC to scrutinize Kristen Welker’s innocuous remarks is a sign of desperation</p><p>With his approval ratings tanking, the crucial midterm elections looming, and his war with Iran turning into a quagmire, Donald Trump has entered full freak-out mode.</p><p>It’s not hard to tell. Just look at what happened this week when he lashed out at Kristen Welker, the well-respected host of NBC’s Meet the Press, and one of the best-known journalists in the nation.</p> <a href=\"https://www.theguardian.com/commentisfree/2026/sep/02/trump-nbc-fcc-kristin-welker\">Continue reading...</a>"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "us-politics",
+        "citation": "https://www.theguardian.com/commentisfree/2026/sep/02/trump-nbc-fcc-kristin-welker"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "published",
+      "proposition": {
+        "predicate": "published",
+        "object": "Wed, 02 Sep 2026 11:00:22 GMT"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "us-politics",
+        "citation": "https://www.theguardian.com/commentisfree/2026/sep/02/trump-nbc-fcc-kristin-welker"
+      },
+      "status": "supported"
+    }
+  ]
+}

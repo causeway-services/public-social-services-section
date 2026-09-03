@@ -1,0 +1,69 @@
+{
+  "subject": "mma-divisional-rankings-upset-ko-boosts-song-yadong-at-bantamweight",
+  "claims": [
+    {
+      "id": "title",
+      "proposition": {
+        "predicate": "title",
+        "object": "MMA divisional rankings: Upset KO boosts Song Yadong at bantamweight"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "sport",
+        "citation": "https://www.espn.com/mma/story/_/id/21807736/mma-divisional-rankings-ufc-pfl-rankings-weight-class"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "url",
+      "proposition": {
+        "predicate": "url",
+        "object": "https://www.espn.com/mma/story/_/id/21807736/mma-divisional-rankings-ufc-pfl-rankings-weight-class"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "sport",
+        "citation": "https://www.espn.com/mma/story/_/id/21807736/mma-divisional-rankings-ufc-pfl-rankings-weight-class"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "summary",
+      "proposition": {
+        "predicate": "summary",
+        "object": "Here's a look at every weight class to determine the best of the best in UFC, PFL and beyond."
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "sport",
+        "citation": "https://www.espn.com/mma/story/_/id/21807736/mma-divisional-rankings-ufc-pfl-rankings-weight-class"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "published",
+      "proposition": {
+        "predicate": "published",
+        "object": "Tue, 1 Sep 2026 20:29:47 EST"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "sport",
+        "citation": "https://www.espn.com/mma/story/_/id/21807736/mma-divisional-rankings-ufc-pfl-rankings-weight-class"
+      },
+      "status": "supported"
+    }
+  ]
+}

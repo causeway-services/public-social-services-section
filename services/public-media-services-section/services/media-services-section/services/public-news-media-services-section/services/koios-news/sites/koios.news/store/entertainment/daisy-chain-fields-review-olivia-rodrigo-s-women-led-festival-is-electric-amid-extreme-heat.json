@@ -1,0 +1,69 @@
+{
+  "subject": "daisy-chain-fields-review-olivia-rodrigo-s-women-led-festival-is-electric-amid-extreme-heat",
+  "claims": [
+    {
+      "id": "title",
+      "proposition": {
+        "predicate": "title",
+        "object": "Daisy Chain Fields review – Olivia Rodrigo’s women-led festival is electric amid extreme heat"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "entertainment",
+        "citation": "https://www.theguardian.com/music/2026/aug/30/daisy-chain-fields-festival-review-olivia-rodrigo"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "url",
+      "proposition": {
+        "predicate": "url",
+        "object": "https://www.theguardian.com/music/2026/aug/30/daisy-chain-fields-festival-review-olivia-rodrigo"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "entertainment",
+        "citation": "https://www.theguardian.com/music/2026/aug/30/daisy-chain-fields-festival-review-olivia-rodrigo"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "summary",
+      "proposition": {
+        "predicate": "summary",
+        "object": "<p><strong>Great Park, Irvine, California<br></strong>Performances from Rodrigo, Stevie Nicks, Chappell Roan and Sarah McLachlan raise $20m for charity yet are marred by poor planning for heatwave</p><p>Shortly after singing the closing notes of her indie pop gem LES Artistes on Saturday afternoon, <a href=\"https://www.theguardian.com/music/santogold\">Santigold</a> gazes out at the sweat-laced crowd at the <a href=\"https://www.theguardian.com/music/2026/aug/27/olivia-rodrigo-daisy-chain-fields-preview-chappell-roan-interview-eli-shirley-manson\">Daisy Chain Fields</a> festival – a benefit concert hosted by <a href=\"https://www.theguardian.com/music/olivia-rodrigo\">Olivia Rodrigo</a> for charities focused on women and girls – in disbelief. “I can’t believe she pulled this shit off!” Santigold cries into the microphone, beaming.</p><p>The inaugural festival, Great Park in Irvine, California, has drawn in 45,000 people to see artists as varied as the legendary punk agitators <a href=\"https://www.theguardian.com/music/2019/jun/09/bikini-kill-riot-grrrl-were-back-its-intense\">Bikini Kill</a>, kicky pop phenom <a href=\"https://www.theguardian.com/music/chappell-roan\">Chappell Roan</a> and kinetic superstar rapper <a href=\"https://www.theguardian.com/music/doechii\">Doechii</a>, all of whom agreed to perform free of charge; Rodrigo herself closes out the night with a career-spanning setlist and starry guest appearances. The festival raised $10m to be distributed evenly among 10 non-profits, including Baby2Baby, which distributes supplies to children and parents in need, and the National Women’s Law Center. Later that night, <a href=\"https://www.theguardian.com/us-news/melinda-french-gates\">Melinda French Gates</a> joins Rodrigo on stage and matches the fundraising, bringing the donated total to $20m.</p> <a href=\"https://www.theguardian.com/music/2026/aug/30/daisy-chain-fields-festival-review-olivia-rodrigo\">Continue reading...</a>"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "entertainment",
+        "citation": "https://www.theguardian.com/music/2026/aug/30/daisy-chain-fields-festival-review-olivia-rodrigo"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "published",
+      "proposition": {
+        "predicate": "published",
+        "object": "Sun, 30 Aug 2026 20:45:54 GMT"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "entertainment",
+        "citation": "https://www.theguardian.com/music/2026/aug/30/daisy-chain-fields-festival-review-olivia-rodrigo"
+      },
+      "status": "supported"
+    }
+  ]
+}

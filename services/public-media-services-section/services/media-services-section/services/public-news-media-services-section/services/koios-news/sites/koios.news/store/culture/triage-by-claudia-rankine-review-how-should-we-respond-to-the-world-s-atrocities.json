@@ -1,0 +1,69 @@
+{
+  "subject": "triage-by-claudia-rankine-review-how-should-we-respond-to-the-world-s-atrocities",
+  "claims": [
+    {
+      "id": "title",
+      "proposition": {
+        "predicate": "title",
+        "object": "Triage by Claudia Rankine review – how should we respond to the world’s atrocities?"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "culture",
+        "citation": "https://www.theguardian.com/books/2026/aug/25/triage-by-claudia-rankine-review-how-should-we-respond-to-the-worlds-atrocities"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "url",
+      "proposition": {
+        "predicate": "url",
+        "object": "https://www.theguardian.com/books/2026/aug/25/triage-by-claudia-rankine-review-how-should-we-respond-to-the-worlds-atrocities"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "culture",
+        "citation": "https://www.theguardian.com/books/2026/aug/25/triage-by-claudia-rankine-review-how-should-we-respond-to-the-worlds-atrocities"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "summary",
+      "proposition": {
+        "predicate": "summary",
+        "object": "<p>The American poet and essayist weaves memoir, fiction, criticism and lyrical lament into a tale of friendship in an age of existential crisis</p><p>“Any resemblance to actual persons, living or dead, or&nbsp;actual events is purely coincidental,” writes the multi-award winning Jamaican-American poet, essayist and playwright Claudia Rankine in the disclaimer to her latest work. “Unless it isn’t.” The pretzel-logic of this statement, its assertive ambiguity, sets the tone for a book that&nbsp;digs directly into the question of what we are to do with the idea of truth, when the world we live in is asking us “to hold, visually and emotionally, realities we do not yet have a viable system of language for”. In Triage, Rankine borrows from her&nbsp;personal history and from a&nbsp;world&nbsp;whose landscape now encompasses “the rise of fascism, the implementation through deportations of the Great Replacement theory, the starvation of devastated populations subjected to war and climate change”, and uses the material she gathers to&nbsp;pose a simple question. When faced&nbsp;with realities such as these, what&nbsp;do you do? Do you stand, or do&nbsp;you fall?</p><p>The book begins with a friendship. Two young people – our narrator, and&nbsp;another she refers to only as “the&nbsp;theorist” – meet in college in the late 20th century, and are drawn to each other. They’re passionate; they’re&nbsp;idealistic; they’re committed to the activism of the time (“shantytowns were built on campus to protest apartheid South Africa”) and steeped&nbsp;in the texts and authors and&nbsp;philosophical conceits of the humanities. Over time, they develop a&nbsp;game. “When we spied each other during the day,” the narrator explains, “we had to collapse.”</p> <a href=\"https://www.theguardian.com/books/2026/aug/25/triage-by-claudia-rankine-review-how-should-we-respond-to-the-worlds-atrocities\">Continue reading...</a>"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "culture",
+        "citation": "https://www.theguardian.com/books/2026/aug/25/triage-by-claudia-rankine-review-how-should-we-respond-to-the-worlds-atrocities"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "published",
+      "proposition": {
+        "predicate": "published",
+        "object": "Tue, 25 Aug 2026 08:00:51 GMT"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "culture",
+        "citation": "https://www.theguardian.com/books/2026/aug/25/triage-by-claudia-rankine-review-how-should-we-respond-to-the-worlds-atrocities"
+      },
+      "status": "supported"
+    }
+  ]
+}

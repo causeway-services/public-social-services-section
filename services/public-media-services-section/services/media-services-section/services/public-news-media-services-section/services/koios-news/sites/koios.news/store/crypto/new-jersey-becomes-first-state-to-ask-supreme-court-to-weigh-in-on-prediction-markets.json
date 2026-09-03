@@ -1,0 +1,69 @@
+{
+  "subject": "new-jersey-becomes-first-state-to-ask-supreme-court-to-weigh-in-on-prediction-markets",
+  "claims": [
+    {
+      "id": "title",
+      "proposition": {
+        "predicate": "title",
+        "object": "New Jersey becomes first state to ask Supreme Court to weigh in on prediction markets"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "crypto",
+        "citation": "https://www.coindesk.com/policy/2026/09/02/new-jersey-becomes-first-state-to-ask-supreme-court-to-weigh-in-on-prediction-markets"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "url",
+      "proposition": {
+        "predicate": "url",
+        "object": "https://www.coindesk.com/policy/2026/09/02/new-jersey-becomes-first-state-to-ask-supreme-court-to-weigh-in-on-prediction-markets"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "crypto",
+        "citation": "https://www.coindesk.com/policy/2026/09/02/new-jersey-becomes-first-state-to-ask-supreme-court-to-weigh-in-on-prediction-markets"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "summary",
+      "proposition": {
+        "predicate": "summary",
+        "object": "After multiple appeals courts ruled differently about whether states can crack down on prediction markets' sports products, New Jersey asked SCOTUS to step in."
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "crypto",
+        "citation": "https://www.coindesk.com/policy/2026/09/02/new-jersey-becomes-first-state-to-ask-supreme-court-to-weigh-in-on-prediction-markets"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "published",
+      "proposition": {
+        "predicate": "published",
+        "object": "Wed, 02 Sep 2026 17:23:48 +0000"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "crypto",
+        "citation": "https://www.coindesk.com/policy/2026/09/02/new-jersey-becomes-first-state-to-ask-supreme-court-to-weigh-in-on-prediction-markets"
+      },
+      "status": "supported"
+    }
+  ]
+}

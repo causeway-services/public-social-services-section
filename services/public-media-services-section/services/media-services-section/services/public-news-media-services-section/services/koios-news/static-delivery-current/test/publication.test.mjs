@@ -268,13 +268,59 @@ test("carries a house ad footer slot on home and article pages, contextual-only 
     const article = readFileSync(join(output, "posts", "first-post", "index.html"), "utf8");
     for (const html of [home, article]) {
       assert.match(html, /<div id="house-ad-footer" data-slot="footer" data-property="koios-news"><\/div>/);
-      assert.match(html, /base="https:\/\/house-ads-server\.morgan-sennhauser\.workers\.dev"/);
-      assert.match(html, /fetch\(base\+"\/ad\?slot="/);
-      assert.match(html, /base\+"\/click\?slot="/);
+      assert.match(html, /<script src="\/assets\/house-ad.js" defer><\/script>/);
+      assert.doesNotMatch(html, /<script>/);
+      assert.match(readFileSync(join(output, "assets", "house-ad.js"), "utf8"), /fetch\(base\+"\/ad\?slot="/);
+      assert.match(readFileSync(join(output, "assets", "house-ad.js"), "utf8"), /base\+"\/click\?slot="/);
       assert.doesNotMatch(html, /document\.cookie/);
     }
     // Build output stays byte-deterministic: the slot only fetches its
     // creative client-side, never at build time.
     assert.equal(readFileSync(join(output, "index.html"), "utf8"), home);
+  } finally { rmSync(temp, { recursive: true, force: true }); }
+});
+
+test("renders desks, the wire, and per-article claim ledgers from a store-feed projection", () => {
+  const temp = mkdtempSync(join(tmpdir(), "koios-static-test-"));
+  try {
+    const output = join(temp, "site");
+    const wireDir = join(import.meta.dirname, "fixtures", "wire");
+    const desksPath = join(import.meta.dirname, "fixtures", "desks.json");
+    assert.throws(() => buildPublication({ contentDir: fixtures, outputDir: output, wireDir }), /supplied together/);
+    const result = buildPublication({ contentDir: fixtures, outputDir: output, wireDir, desksPath });
+    assert.equal(result.publishedPostCount, 2);
+    const home = readFileSync(join(output, "index.html"), "utf8");
+    assert.match(home, /<link rel="stylesheet" href="\/assets\/site.css">/);
+    assert.match(home, /href="\/wire\/sport"/);
+    assert.match(home, /Beta match &lt;report&gt;/);
+    assert.doesNotMatch(home, /<script>/);
+    assert.match(home, /<script src="\/assets\/house-ad.js" defer><\/script>/);
+    assert.ok(existsSync(join(output, "assets", "site.css")));
+    assert.match(readFileSync(join(output, "assets", "house-ad.js"), "utf8"), /base="https:\/\/house-ads-server\.morgan-sennhauser\.workers\.dev"/);
+    const headers = readFileSync(join(output, "_headers"), "utf8");
+    assert.match(headers, /script-src 'self'; style-src 'self'/);
+    assert.match(headers, /connect-src 'self' https:\/\/house-ads-server\.morgan-sennhauser\.workers\.dev/);
+    const desk = readFileSync(join(output, "wire", "sport", "index.html"), "utf8");
+    assert.match(desk, /aria-current="page"/);
+    assert.match(desk, /href="\/claims\/sport\/beta-match\/"/);
+    assert.match(readFileSync(join(output, "wire", "health", "index.html"), "utf8"), /Nothing filed yet/);
+    const ledger = readFileSync(join(output, "claims", "sport", "beta-match", "index.html"), "utf8");
+    assert.match(ledger, /"@type":"Claim"/);
+    assert.match(ledger, /https:\/\/sport.example.org\/beta/);
+    assert.equal(readFileSync(join(output, "claims", "sport", "beta-match.json"), "utf8"), readFileSync(join(wireDir, "claims", "sport", "beta-match.json"), "utf8"));
+    assert.equal(readFileSync(join(output, "wire", "index.json"), "utf8"), readFileSync(join(wireDir, "wire.json"), "utf8"));
+    assert.equal(readFileSync(join(output, "wire", "feed.xml"), "utf8"), readFileSync(join(wireDir, "feed.xml"), "utf8"));
+    const index = JSON.parse(readFileSync(join(output, "claims", "index.json"), "utf8"));
+    assert.equal(index.itemCount, 2);
+    assert.deepEqual(index.categories.map((entry) => entry.category), ["sport", "technology"]);
+    const sitemap = readFileSync(join(output, "sitemap.xml"), "utf8");
+    assert.match(sitemap, /https:\/\/koios.news\/wire\/sport/);
+    assert.match(sitemap, /https:\/\/koios.news\/claims\/technology\/alpha-story/);
+    const coverageMap = JSON.parse(readFileSync(join(output, "wire", "coverage.json"), "utf8"));
+    assert.deepEqual(coverageMap.hosts.map((entry) => entry.name), ["example.com", "sport.example.org"]);
+    const first = readFileSync(join(output, "manifest.json"), "utf8");
+    rmSync(output, { recursive: true });
+    buildPublication({ contentDir: fixtures, outputDir: output, wireDir, desksPath });
+    assert.equal(readFileSync(join(output, "manifest.json"), "utf8"), first, "wire build is deterministic");
   } finally { rmSync(temp, { recursive: true, force: true }); }
 });

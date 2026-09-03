@@ -1,0 +1,69 @@
+{
+  "subject": "the-raygun-documentary-ducks-a-big-question-about-the-olympic-fame-of-a-dorky-white-academic",
+  "claims": [
+    {
+      "id": "title",
+      "proposition": {
+        "predicate": "title",
+        "object": "The Raygun documentary ducks a big question about the Olympic fame of a ‘dorky white academic’"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "sport",
+        "citation": "https://www.theguardian.com/sport/2026/sep/01/raygun-netflix-documentary-breaking-badly-review-olympics"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "url",
+      "proposition": {
+        "predicate": "url",
+        "object": "https://www.theguardian.com/sport/2026/sep/01/raygun-netflix-documentary-breaking-badly-review-olympics"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "sport",
+        "citation": "https://www.theguardian.com/sport/2026/sep/01/raygun-netflix-documentary-breaking-badly-review-olympics"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "summary",
+      "proposition": {
+        "predicate": "summary",
+        "object": "<p>Untold Raygun: Breaking Badly finds warmth and humor in Rachael Gunn’s ordeal, but never fully reckons with what her notoriety meant for breaking</p><p>Early in Netflix’s new documentary, Untold Raygun: Breaking Badly, Australian B-girl Rachael Gunn, recounts a session she had with her sports psychologist prior to the 2024 Paris Olympics.</p><p>“Right before the Olympics, I went to my therapist, panicked,” she says. Her therapist asked her what was the worst thing that could happen. And she said, “The whole world could laugh at me.” Her therapist responded: “Do you think that’s reasonable?” Cue Gunn’s hysterical laughter.</p> <a href=\"https://www.theguardian.com/sport/2026/sep/01/raygun-netflix-documentary-breaking-badly-review-olympics\">Continue reading...</a>"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "sport",
+        "citation": "https://www.theguardian.com/sport/2026/sep/01/raygun-netflix-documentary-breaking-badly-review-olympics"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "published",
+      "proposition": {
+        "predicate": "published",
+        "object": "Tue, 01 Sep 2026 16:00:07 GMT"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "sport",
+        "citation": "https://www.theguardian.com/sport/2026/sep/01/raygun-netflix-documentary-breaking-badly-review-olympics"
+      },
+      "status": "supported"
+    }
+  ]
+}

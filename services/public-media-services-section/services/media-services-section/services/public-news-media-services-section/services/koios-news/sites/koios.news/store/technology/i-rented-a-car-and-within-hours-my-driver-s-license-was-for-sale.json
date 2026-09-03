@@ -1,0 +1,69 @@
+{
+  "subject": "i-rented-a-car-and-within-hours-my-driver-s-license-was-for-sale",
+  "claims": [
+    {
+      "id": "title",
+      "proposition": {
+        "predicate": "title",
+        "object": "I rented a car, and within hours, my driver's license was for sale"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "technology",
+        "citation": "https://arstechnica.com/security/2026/09/my-drivers-license-is-one-of-153-million-for-sale-on-a-new-dark-website/"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "url",
+      "proposition": {
+        "predicate": "url",
+        "object": "https://arstechnica.com/security/2026/09/my-drivers-license-is-one-of-153-million-for-sale-on-a-new-dark-website/"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "technology",
+        "citation": "https://arstechnica.com/security/2026/09/my-drivers-license-is-one-of-153-million-for-sale-on-a-new-dark-website/"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "summary",
+      "proposition": {
+        "predicate": "summary",
+        "object": "Not long ago, I rented an SUV from a well-known car rental company. Within hours of an employee scanning my driver's license, a high-resolution scan of my ID was available for sale on the dark web. An exposé published Tuesday by KrebsOnSecurity reports that my license was one of more than 153 million that were available through Nexus, the name of the new ID theft service. Like other driver's licenses available there—including some belonging to journalist Brian Krebs, his mother, an FBI assistant director, and several security researchers—my license was purported to include multiple image files showing both the front and back of the ID. Besides a basic image scan, the files also captured the images in the infrared and ultraviolet spectrums. Presumably, the additional formats may allow cloned-based counterfeit IDs to pass hologram tests. Growing by the day Besides advertising the availability of driver's licenses, Nexus offered to sell a bevy of other forms of ID. They included: Read full article Comments"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "technology",
+        "citation": "https://arstechnica.com/security/2026/09/my-drivers-license-is-one-of-153-million-for-sale-on-a-new-dark-website/"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "published",
+      "proposition": {
+        "predicate": "published",
+        "object": "Wed, 02 Sep 2026 20:32:02 +0000"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "technology",
+        "citation": "https://arstechnica.com/security/2026/09/my-drivers-license-is-one-of-153-million-for-sale-on-a-new-dark-website/"
+      },
+      "status": "supported"
+    }
+  ]
+}

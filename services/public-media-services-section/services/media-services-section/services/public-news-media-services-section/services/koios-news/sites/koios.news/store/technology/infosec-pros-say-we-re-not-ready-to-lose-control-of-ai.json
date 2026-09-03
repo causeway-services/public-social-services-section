@@ -1,0 +1,69 @@
+{
+  "subject": "infosec-pros-say-we-re-not-ready-to-lose-control-of-ai",
+  "claims": [
+    {
+      "id": "title",
+      "proposition": {
+        "predicate": "title",
+        "object": "Infosec pros say we're not ready to lose control of AI"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "technology",
+        "citation": "https://www.theregister.com/ai-and-ml/2026/09/02/infosec-pros-say-were-not-ready-to-lose-control-of-ai/5294001"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "url",
+      "proposition": {
+        "predicate": "url",
+        "object": "https://www.theregister.com/ai-and-ml/2026/09/02/infosec-pros-say-were-not-ready-to-lose-control-of-ai/5294001"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "technology",
+        "citation": "https://www.theregister.com/ai-and-ml/2026/09/02/infosec-pros-say-were-not-ready-to-lose-control-of-ai/5294001"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "summary",
+      "proposition": {
+        "predicate": "summary",
+        "object": "A recent survey shows national security pros believe there’s a one in ten chance humans lose control of AI in the next decade, and few believe we’re even watching for the right warning signs, much less preparing properly. The Institute for Security and Technology (IST), together with the Future of Life Institute (FLI), surveyed 111 current and former civilian officials, military officers, and academic or technical experts for a look into AI and the future of national security. Ninety-three percent of respondents said that they had directly engaged in AI policy, risk, and strategy as part of their careers, so these folks are perhaps more attuned to the risks than your average white hat. When asked whether they think AI will escape human control in the next decade, the median response placed the odds at 33 percent, with 87 percent of respondents estimating the odds of such a disaster at 10 percent or higher. According to a press release published alongside the report, a number of respondents commented that they’ve had to revise their position on that risk in recent months. Leading frontier labs OpenAI and Anthropic have both admitted that their own AI models acted outside their intended scope, broke free of supposedly sandboxed environments, escaped to the internet, and hacked into outside organizations in recent months. In OpenAI’s case, its rogue agents even started communicating among themselves and taking steps to avoid human detection. This increasing unpredictability is becoming a big concern for national security pros. Most respondents to the survey believe artificial general intelligence will emerge by 2032 (63 percent), and 80 percent believe AGI will be reality by 2035, with automated super intelligence likely to arrive five years after that. There's no commonly agreed-upon definition for these terms, and the survey didn't try to define them, although some describe AGI as AI capable of reasoning through tasks across domains it's not specifically trained on. Whatever the terminology, smarter AI poses more risk of unpredictability, and 40 percent of those surveyed believe there’s a chance rogue digital minds could cause a global catastrophe that could kill at least 10 million people by 2050. It’s a slim chance, mind you – that 40 percent think there’s just a five percent chance of such a catastrophe. A further 25 percent put that risk in the double-digit range (higher than 10 percent). An unacceptable risk Whether you think these predictions are far-fetched or understated, there’s one big takeaway from the IST/FLI report that merits consideration: Most don’t think the US is doing enough to detect and contain these risks. Sixty-one percent of respondents said that the probability of an AI catastrophe was “at or above the threshold they would set for pushing to continue to maintain US leadership in AI,” IST said in its press release. Mariami Tkeshelashvili, IST’s director for AI security policy and lead investigator for the report, told us that the experts her report surveyed don’t necessarily agree on how much risk is tolerable, but the fact most think it’s excessive means something needs to be done. “This implies the more pressing question isn't how much risk we should tolerate, but rather which specific actions should never be taken, no matter the probability of harm,” Tkeshelashvili told us in an email. Unfortunately, most respondents don’t believe there are institutional mechanisms in place “to act on a loss of control warning sign,” the study states. Respondents also don’t think anyone could “detect, intervene, and restore safe behavior if an agentic system exceeded its limits.” In other words, if more capable AIs go rogue, and those models have access to government systems, we’re going to have a hard time stopping them. “Candidly, we didn’t anticipate the findings to be this stark,” IST CEO Philip Reiner told The Register in an email. “The level of concern about potential risks – and yet the implicit understanding that regulation and mandated guardrails are unlikely in the near term at the necessary levels – points to an immediate need for policy action.” Reiner also hypothesized the time for policy action may have already passed. He explained that all of the findings in the survey point to what he terms a “second failure” in AI, meaning that it’s not that experts are misjudging what AI can do, but whether institutions are organized properly to manage it. “As of now, they are not,” Reiner opined, pointing to recent occurrences at OpenAI and Anthropic, as well as respondent opinions that the constraints they’re currently facing when it comes to governing AI are less technical, and more institutional. “What we hope this triggers isn't one policy, but a serious look at institutional readiness,” Reiner said. He wants the feds to evaluate whether the have the technical expertise to evaluate AI systems independent of the AI industry, what thresholds or warnings should (or could) trigger action, and what they can do now “rather than after an incident forces the issue.” Reiner told us he’s glad that the results of the survey gave such clear signals on national security experts’ AI concerns, and that the report is just the first step in getting officials to take action before it’s too late. “IST is undertaking numerous efforts to engage with both industry and government officials to update them on the outcomes, as well as speak with them about the implications,” Reiner explained. Whether that action will happen anytime soon is debatable – US midterm elections are coming up in a few months, meaning nothing substantial is likely to get done before November, especially on such a contentious issue as AI regulation. Frontier labs and the models they create, meanwhile, will keep improving. ®"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "technology",
+        "citation": "https://www.theregister.com/ai-and-ml/2026/09/02/infosec-pros-say-were-not-ready-to-lose-control-of-ai/5294001"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "published",
+      "proposition": {
+        "predicate": "published",
+        "object": "Wed, 02 Sep 2026 19:56:49 +0200"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "technology",
+        "citation": "https://www.theregister.com/ai-and-ml/2026/09/02/infosec-pros-say-were-not-ready-to-lose-control-of-ai/5294001"
+      },
+      "status": "supported"
+    }
+  ]
+}

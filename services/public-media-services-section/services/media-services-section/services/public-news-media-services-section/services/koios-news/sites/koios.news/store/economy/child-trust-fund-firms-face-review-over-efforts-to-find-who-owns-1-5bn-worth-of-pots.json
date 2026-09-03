@@ -1,0 +1,69 @@
+{
+  "subject": "child-trust-fund-firms-face-review-over-efforts-to-find-who-owns-1-5bn-worth-of-pots",
+  "claims": [
+    {
+      "id": "title",
+      "proposition": {
+        "predicate": "title",
+        "object": "Child trust fund firms face review over efforts to find who owns £1.5bn worth of pots"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "economy",
+        "citation": "https://www.theguardian.com/money/2026/sep/01/child-trust-fund-firms-face-review-over-efforts-to-find-who-owns-15bn-worth-of-pots"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "url",
+      "proposition": {
+        "predicate": "url",
+        "object": "https://www.theguardian.com/money/2026/sep/01/child-trust-fund-firms-face-review-over-efforts-to-find-who-owns-15bn-worth-of-pots"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "economy",
+        "citation": "https://www.theguardian.com/money/2026/sep/01/child-trust-fund-firms-face-review-over-efforts-to-find-who-owns-15bn-worth-of-pots"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "summary",
+      "proposition": {
+        "predicate": "summary",
+        "object": "<p>Exclusive: FCA pressures firms to do more to sort 760,000 accounts as watchdog urges families to use free tracking service</p><p>Child trust fund providers are being put under the spotlight to check they are treating savers fairly and doing all they can to reunite young people with lost accounts.</p><p>The Financial Conduct Authority (FCA) said about 760,000 accounts worth an average of £2,000 were yet to be claimed – more than £1.5bn in total – as it launched a review of the market.</p> <a href=\"https://www.theguardian.com/money/2026/sep/01/child-trust-fund-firms-face-review-over-efforts-to-find-who-owns-15bn-worth-of-pots\">Continue reading...</a>"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "economy",
+        "citation": "https://www.theguardian.com/money/2026/sep/01/child-trust-fund-firms-face-review-over-efforts-to-find-who-owns-15bn-worth-of-pots"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "published",
+      "proposition": {
+        "predicate": "published",
+        "object": "Tue, 01 Sep 2026 04:00:45 GMT"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "economy",
+        "citation": "https://www.theguardian.com/money/2026/sep/01/child-trust-fund-firms-face-review-over-efforts-to-find-who-owns-15bn-worth-of-pots"
+      },
+      "status": "supported"
+    }
+  ]
+}

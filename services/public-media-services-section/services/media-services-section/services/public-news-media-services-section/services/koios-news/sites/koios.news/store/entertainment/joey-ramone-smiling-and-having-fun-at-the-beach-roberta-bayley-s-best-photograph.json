@@ -1,0 +1,69 @@
+{
+  "subject": "joey-ramone-smiling-and-having-fun-at-the-beach-roberta-bayley-s-best-photograph",
+  "claims": [
+    {
+      "id": "title",
+      "proposition": {
+        "predicate": "title",
+        "object": "Joey Ramone smiling! And having fun! At the beach! Roberta Bayley’s best photograph"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "entertainment",
+        "citation": "https://www.theguardian.com/artanddesign/2026/sep/02/joey-ramone-smiling-roberta-bayley-my-best-shot-surf"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "url",
+      "proposition": {
+        "predicate": "url",
+        "object": "https://www.theguardian.com/artanddesign/2026/sep/02/joey-ramone-smiling-roberta-bayley-my-best-shot-surf"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "entertainment",
+        "citation": "https://www.theguardian.com/artanddesign/2026/sep/02/joey-ramone-smiling-roberta-bayley-my-best-shot-surf"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "summary",
+      "proposition": {
+        "predicate": "summary",
+        "object": "<p>‘Joey didn’t surf. And he didn’t like this photo. He said, “You made my legs look thin.” Like it was my fault he had skinny legs’</p><p>The first band I ever saw were the Beatles, on 19 August 1964 at the Cow Palace Arena near San Francisco. I was 13. I remember every 29 minutes of it: 17,000 screaming girls making a deafening din and thousands of flashbulbs going off at once, lighting up the entire stadium. I’d been a Beatlemaniac since seeing a clip of them at the London Palladium on the Jack Paar show, then live on the Ed Sullivan show. I bought magazines with them in and wondered what kind of person took the photographs. So my first forays into photography were taking photographs of photographs of the Beatles with the primitive family Kodak.</p><p>When I was 15 I took a very basic photography class, but later, after three years of college, I dropped out, sold my Nikon and went to England. I started dating Ian Dury, then after we broke up, a friend gave me a one-way ticket to New York where I started going out with <a href=\"https://www.theguardian.com/music/2009/nov/26/richard-hell-destiny-street-repaired\">Richard Hell</a>, whose band Television <a href=\"https://www.theguardian.com/music/2026/feb/26/cbgb-club-history-omfug-new-york-city-soundtrack-blondie-bowie-iggy-ramones-patti\">played CBGBs</a> every Sunday night. Richard and I split up on good terms, and he asked me to take pictures of him. My first was the famous <a href=\"https://www.instagram.com/p/DaS7hQXqdc0/\">fake blood photo of the Heartbreakers</a>, the band he formed with Johnny Thunders and Jerry Nolan from the New York Dolls. Richard suggested captioning the poster “Catch them while they’re still alive” because they had a nefarious reputation.</p> <a href=\"https://www.theguardian.com/artanddesign/2026/sep/02/joey-ramone-smiling-roberta-bayley-my-best-shot-surf\">Continue reading...</a>"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "entertainment",
+        "citation": "https://www.theguardian.com/artanddesign/2026/sep/02/joey-ramone-smiling-roberta-bayley-my-best-shot-surf"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "published",
+      "proposition": {
+        "predicate": "published",
+        "object": "Wed, 02 Sep 2026 13:46:16 GMT"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "entertainment",
+        "citation": "https://www.theguardian.com/artanddesign/2026/sep/02/joey-ramone-smiling-roberta-bayley-my-best-shot-surf"
+      },
+      "status": "supported"
+    }
+  ]
+}

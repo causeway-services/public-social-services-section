@@ -1,0 +1,69 @@
+{
+  "subject": "hotel-cipriani-books-chic-new-guest-dior-spa",
+  "claims": [
+    {
+      "id": "title",
+      "proposition": {
+        "predicate": "title",
+        "object": "Hotel Cipriani Books Chic New Guest: Dior Spa"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "entertainment",
+        "citation": "https://www.hollywoodreporter.com/lifestyle/style/hotel-cipriani-venice-italy-dior-spa-treatments-menu-1236678305/"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "url",
+      "proposition": {
+        "predicate": "url",
+        "object": "https://www.hollywoodreporter.com/lifestyle/style/hotel-cipriani-venice-italy-dior-spa-treatments-menu-1236678305/"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "entertainment",
+        "citation": "https://www.hollywoodreporter.com/lifestyle/style/hotel-cipriani-venice-italy-dior-spa-treatments-menu-1236678305/"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "summary",
+      "proposition": {
+        "predicate": "summary",
+        "object": "The Venice Film Festival grind got you down? Never fear, Dior is there with a new wellness hideaway."
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "entertainment",
+        "citation": "https://www.hollywoodreporter.com/lifestyle/style/hotel-cipriani-venice-italy-dior-spa-treatments-menu-1236678305/"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "published",
+      "proposition": {
+        "predicate": "published",
+        "object": "Wed, 02 Sep 2026 20:48:11 +0000"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "entertainment",
+        "citation": "https://www.hollywoodreporter.com/lifestyle/style/hotel-cipriani-venice-italy-dior-spa-treatments-menu-1236678305/"
+      },
+      "status": "supported"
+    }
+  ]
+}

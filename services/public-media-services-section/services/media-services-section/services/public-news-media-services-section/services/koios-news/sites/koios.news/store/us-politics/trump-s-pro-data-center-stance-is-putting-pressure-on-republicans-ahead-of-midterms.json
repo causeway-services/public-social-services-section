@@ -1,0 +1,69 @@
+{
+  "subject": "trump-s-pro-data-center-stance-is-putting-pressure-on-republicans-ahead-of-midterms",
+  "claims": [
+    {
+      "id": "title",
+      "proposition": {
+        "predicate": "title",
+        "object": "Trump's pro-data center stance is putting pressure on Republicans ahead of midterms"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "us-politics",
+        "citation": "https://www.npr.org/2026/09/01/nx-s1-5950441/trumps-pro-data-center-stance-is-putting-pressure-on-republicans-ahead-of-midterms"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "url",
+      "proposition": {
+        "predicate": "url",
+        "object": "https://www.npr.org/2026/09/01/nx-s1-5950441/trumps-pro-data-center-stance-is-putting-pressure-on-republicans-ahead-of-midterms"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "us-politics",
+        "citation": "https://www.npr.org/2026/09/01/nx-s1-5950441/trumps-pro-data-center-stance-is-putting-pressure-on-republicans-ahead-of-midterms"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "summary",
+      "proposition": {
+        "predicate": "summary",
+        "object": "Trump's pro-data center stance is out of step with voters. Republicans are trying to navigate the issue but it's putting them at odds with the president's AI agenda."
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "us-politics",
+        "citation": "https://www.npr.org/2026/09/01/nx-s1-5950441/trumps-pro-data-center-stance-is-putting-pressure-on-republicans-ahead-of-midterms"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "published",
+      "proposition": {
+        "predicate": "published",
+        "object": "Tue, 01 Sep 2026 16:22:34 -0400"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "us-politics",
+        "citation": "https://www.npr.org/2026/09/01/nx-s1-5950441/trumps-pro-data-center-stance-is-putting-pressure-on-republicans-ahead-of-midterms"
+      },
+      "status": "supported"
+    }
+  ]
+}

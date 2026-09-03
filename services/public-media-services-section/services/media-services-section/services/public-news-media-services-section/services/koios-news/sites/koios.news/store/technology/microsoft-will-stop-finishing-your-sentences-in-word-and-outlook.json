@@ -1,0 +1,69 @@
+{
+  "subject": "microsoft-will-stop-finishing-your-sentences-in-word-and-outlook",
+  "claims": [
+    {
+      "id": "title",
+      "proposition": {
+        "predicate": "title",
+        "object": "Microsoft will stop finishing your sentences in Word and Outlook"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "technology",
+        "citation": "https://www.theregister.com/ai-and-ml/2026/09/02/microsoft-will-stop-finishing-your-sentences-in-word-and-outlook/5293860"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "url",
+      "proposition": {
+        "predicate": "url",
+        "object": "https://www.theregister.com/ai-and-ml/2026/09/02/microsoft-will-stop-finishing-your-sentences-in-word-and-outlook/5293860"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "technology",
+        "citation": "https://www.theregister.com/ai-and-ml/2026/09/02/microsoft-will-stop-finishing-your-sentences-in-word-and-outlook/5293860"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "summary",
+      "proposition": {
+        "predicate": "summary",
+        "object": "Microsoft is switching off text predictions by default in Word and Outlook after acknowledging that unwanted suggestions can interrupt rather than assist some users. The change is coming to Word for Windows, the web, iOS, and Android, as well as classic Outlook for Windows and Outlook for Mac. The feature will remain available but will no longer be enabled by default. Introduced several years ago, the feature is the computing equivalent of Microsoft peering over users' shoulders and suggesting what they might type next. Depending on the user and their workflow, it can be a boon, an irritation, or simply something to ignore. The irksome part was that it was turned on by default. According to Microsoft, \"text predictions helps you write documents and emails more efficiently by suggesting words and phrases as you type. While some people find these suggestions useful, others prefer to write without predictive text. This update gives you more flexibility, allowing you to customize your editing experience and create a workflow that best suits your needs. \"This update helps ensure that predictive text remains available for people who find it helpful, while reducing unwanted interruptions for those who prefer to write without suggestions appearing automatically.\" The Windows behemoth did not explain whether the change will disable text predictions for users who have already enabled them or apply only to new installations and profiles. Users who want the suggestions will still be able to switch them on through the applications' settings. Microsoft is not the only company to suggest text as users type. Google, for example, introduced Smart Compose in Gmail in 2018. Microsoft did not say whether telemetry or user feedback prompted the reversal, but it has elected to make the feature opt-in rather than opt-out. It is a small change, but perhaps a sign that Microsoft is listening to customers who would rather decide for themselves whether AI belongs in their workflow. ®"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "technology",
+        "citation": "https://www.theregister.com/ai-and-ml/2026/09/02/microsoft-will-stop-finishing-your-sentences-in-word-and-outlook/5293860"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "published",
+      "proposition": {
+        "predicate": "published",
+        "object": "Wed, 02 Sep 2026 17:31:00 +0200"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "technology",
+        "citation": "https://www.theregister.com/ai-and-ml/2026/09/02/microsoft-will-stop-finishing-your-sentences-in-word-and-outlook/5293860"
+      },
+      "status": "supported"
+    }
+  ]
+}

@@ -1,0 +1,69 @@
+{
+  "subject": "next-gen-ai-networks-may-hinge-on-the-telephone-switchboard-s-return",
+  "claims": [
+    {
+      "id": "title",
+      "proposition": {
+        "predicate": "title",
+        "object": "Next-gen AI networks may hinge on the telephone switchboard's return"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "technology",
+        "citation": "https://www.theregister.com/networks/2026/09/02/nvidia-joins-investment-into-ipronics-to-build-out-optical-circuit-switching-ocs-tech/5293764"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "url",
+      "proposition": {
+        "predicate": "url",
+        "object": "https://www.theregister.com/networks/2026/09/02/nvidia-joins-investment-into-ipronics-to-build-out-optical-circuit-switching-ocs-tech/5293764"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "technology",
+        "citation": "https://www.theregister.com/networks/2026/09/02/nvidia-joins-investment-into-ipronics-to-build-out-optical-circuit-switching-ocs-tech/5293764"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "summary",
+      "proposition": {
+        "predicate": "summary",
+        "object": "If you thought 72 GPUs per rack was dense, next-generation designs from Nvidia and others will cram hundreds or even thousands of accelerators into a single massive system. But for any of that to happen, they're going to need a lot of optics and technology that's reminiscent of the old-fashioned telephone switchboard. This reality has fueled a flurry of investment in everything from photonics startups to established optical equipment and fiber manufacturing. In March, Nvidia invested $6 billion ($2 billion apiece) in Coherent, Lumentum, and Marvell to advance their optics tech. Some of these investments went to support optical circuit switching (OCS) technology. On Wednesday, Nvidia joined Maverick Silicon and Light Street Capital to spend another $125 million to support the development of iPronics' second-generation OCS tech. Why switch packets when you can switch light? Optical circuit switches are switches only in the literal sense. Unlike a Broadcom Tomahawk or Marvell Teralynx ASIC, an OCS appliance can't switch packets. The opto-electrical appliances are the modern equivalent of a telephone switchboard. But rather than human operators manually patching together two telephone lines, a high-speed actuator built using microscopic mirrors, piezoelectric actuators, LCDs, or other technologies reconfigures the network in the literal blink of an eye. OCS isn't particularly common in modern GPU deployments, but they have been used in AI clusters for quite a while. Specifically, Google has used OCSes in its TPU clusters for years now. Traditionally, Google's TPU pods have employed 2D and 3D torus topologies where accelerators communicate in a great big mesh, rather than relying on packet switched fabrics to connect them all together. The trade-off with mesh networks is potentially higher chip-to-chip latency and rigidity. On their own, they're not exactly the most flexible topologies out there. If you want to add, remove, or swap a dead accelerator, someone or something has to reconfigure the network. That something, in Google's case, is optical circuit switching. Traffic from Google's TPU clusters is transmitted optically through OCS appliances, which allows the Chocolate Factory to do things like change the pod size on demand or virtually hot-swap failed accelerators. Optical circuit switching is arguably the reason why Google is able to operate some of the largest single compute domains in the industry. Its network architecture isn't limited to packet switch radix. Smoothing over OCS' rougher edges Existing OCS appliances aren't perfect, however. Many use micro-electromechanical systems (MEMS) devices to adjust which components are connected by moving microscopic mirrors. This approach works, but it's not what you would call fast. Reconfiguration times of about 100 ms are commonly quoted. OCS appliances also tend to be quite large, in part because of the mechanisms involved, but also because of the connectors used. Photonics startup iPronics aims to address several of these shortfalls with what it calls a \"second-gen\" OCS that ditches MEMS and LCD-based systems for a silicon photonics-based design with no moving parts. The company claims its tech can achieve sub-ms reconfiguration times, which opens up the possibility of mid-workload topology changes by hiding the latency during compute cycles. iPronics says that it's also able to achieve higher densities than \"first-gen\" OCS designs. The iPronics One, for instance, supports 32 ports per chip. We're told the company is now working to bring 72- and 144-port chips to market. Because these chips are built using silicon photonics, they can be crammed into much smaller spaces too. iPronics wagers that using multi-chips and high-density connectors, it'll be able to pack up to 720 port pairs into a single rack unit. For reference, existing high radix OCS switches, like Coherent's 300 port appliances, typically require eight or more rack units. Where OCS fits into the broader AI network Even with sub-millisecond latencies, OCS works best in environments where network paths don't change that often. This is quite different from the approach used by most modern rack systems, like Nvidia's NVL72 or AMD's Helios, which prioritize single-hop all-to-all connectivity and extreme path diversity. But the two aren't mutually exclusive. iPronics isn't ready to talk about the specific topologies its customers are employing. But there are several potential use cases, including hybrid environments melding meshes with switched fabrics. As you may recall, when Nvidia unveiled its first rack-scale compute platform in 2024, CEO Jensen Huang described the 72-GPU system as one enormous accelerator. It achieves this using 18 ultrafast NVLink Switch chips connected in an all-to-all network that enables any one GPU to be just a single hop from the next. You'd think this wouldn't mesh that well with OCS, but it could work using switched fabrics over copper inside the rack and an OCS-based mesh for rack-to-rack communications. The more likely use case, however, will be keeping the massive LPU clusters Nvidia is now peddling from becoming unruly. As we've previously discussed, for every trillion parameters, Nvidia needs eight LPX racks totaling more than 2,000 accelerators. Because these chips largely employ pipeline parallelism, data is processed one chip at a time, meaning they're already good candidates for OCS-orchestrated mesh topologies, and would make resizing clusters for different models a lot easier for neoclouds like Nebius. We're going to need a denser fiber attach Stitching all those systems together is going to require a lot of fiber, and it just so happens another startup, Mixx Technologies, this week revealed a new connector capable of terminating tens of thousands of fibers to a single rack. This is achieved using what Mixx calls its SxC connector, which comprises 64 fibers, whereas MPO typically tops out at between eight and 24. Using its SxC connector, it estimates it can pack 384 64-fiber ports into a single OCP rack unit, enough for 614 TB/s of aggregate bandwidth assuming 400 Gbps SerDes. ®"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "technology",
+        "citation": "https://www.theregister.com/networks/2026/09/02/nvidia-joins-investment-into-ipronics-to-build-out-optical-circuit-switching-ocs-tech/5293764"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "published",
+      "proposition": {
+        "predicate": "published",
+        "object": "Wed, 02 Sep 2026 15:00:00 +0200"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "technology",
+        "citation": "https://www.theregister.com/networks/2026/09/02/nvidia-joins-investment-into-ipronics-to-build-out-optical-circuit-switching-ocs-tech/5293764"
+      },
+      "status": "supported"
+    }
+  ]
+}

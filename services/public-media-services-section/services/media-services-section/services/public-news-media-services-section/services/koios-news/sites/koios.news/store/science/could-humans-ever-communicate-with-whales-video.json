@@ -1,0 +1,69 @@
+{
+  "subject": "could-humans-ever-communicate-with-whales-video",
+  "claims": [
+    {
+      "id": "title",
+      "proposition": {
+        "predicate": "title",
+        "object": "Could humans ever communicate with whales? - video"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "science",
+        "citation": "https://www.theguardian.com/science/video/2026/sep/01/could-humans-ever-communicate-with-whales-video"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "url",
+      "proposition": {
+        "predicate": "url",
+        "object": "https://www.theguardian.com/science/video/2026/sep/01/could-humans-ever-communicate-with-whales-video"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "science",
+        "citation": "https://www.theguardian.com/science/video/2026/sep/01/could-humans-ever-communicate-with-whales-video"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "summary",
+      "proposition": {
+        "predicate": "summary",
+        "object": "<p><strong>Ever since the earliest known recording of </strong><a href=\"https://www.theguardian.com/environment/2026/mar/16/oldest-known-whale-song-recording-ocean-sounds\"><strong>whale song was made in 1949</strong></a><strong>, researchers have been captivated by the wails, rumbles, clicks, grunts and squeals of their communication. As technology improves, scientists are decoding the intricate patterns that make different species’ vocalisations distinctive. Madeleine Finlay hears from Emma Bryce, a journalist who has spent months investigating human efforts to understand whale song. She explains how this knowledge could help us better protect whales from human-made harms.</strong></p><p></p><p><strong>Credits:</strong></p><p><strong>1. Valeria Vergara/Raincoast Conservation Foundation</strong></p><p><strong>2. Footage courtesy of Raincoast Conservation Foundation - Obtained for research under SARA permit XMMS 4 2026</strong></p><p><strong>3. Video by Amanda Cotton/Project CETI</strong></p><p><strong>4. Footage courtesy of Valeria Vergara and GREMM. Obtained for research under SARA permits QUE-MM02-2016 and QUE-LEP-001-2018</strong></p><p><strong>5. Project CETI</strong></p><p><strong>6. Project CETI</strong></p> <a href=\"https://www.theguardian.com/science/video/2026/sep/01/could-humans-ever-communicate-with-whales-video\">Continue reading...</a>"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "science",
+        "citation": "https://www.theguardian.com/science/video/2026/sep/01/could-humans-ever-communicate-with-whales-video"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "published",
+      "proposition": {
+        "predicate": "published",
+        "object": "Tue, 01 Sep 2026 13:22:59 GMT"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "science",
+        "citation": "https://www.theguardian.com/science/video/2026/sep/01/could-humans-ever-communicate-with-whales-video"
+      },
+      "status": "supported"
+    }
+  ]
+}
