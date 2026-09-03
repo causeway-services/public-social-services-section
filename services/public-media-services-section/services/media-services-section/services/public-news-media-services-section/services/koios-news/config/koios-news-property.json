@@ -1,0 +1,58 @@
+{
+  "name": "Koios.News",
+  "origin": "https://koios.news",
+  "tagline": "General news with systems-analysis depth.",
+  "language": "en",
+  "locale": "en_US",
+  "timezone": "America/Los_Angeles",
+  "masthead": {
+    "officesDir": "content/offices",
+    "incumbenciesDir": "content/incumbencies",
+    "charactersDir": "content/characters"
+  },
+  "sections": [
+    { "slug": "world", "title": "World", "wires": ["world-1", "world-2", "world-3", "war-1", "war-2"], "quotaPerDay": 3, "minimumIndependentSources": 2, "genre": "news" },
+    { "slug": "us-politics", "title": "US Politics", "wires": ["us-politics-1", "us-politics-2", "us-politics-3", "politics-1", "politics-2"], "quotaPerDay": 3, "minimumIndependentSources": 2, "genre": "news" },
+    { "slug": "business-markets", "title": "Business & Markets", "wires": ["economy-1", "economy-2", "economy-3"], "quotaPerDay": 3, "minimumIndependentSources": 2, "genre": "news" },
+    { "slug": "crypto", "title": "Crypto", "wires": ["crypto-1", "crypto-2", "crypto-3"], "quotaPerDay": 3, "minimumIndependentSources": 2, "genre": "news" },
+    { "slug": "technology", "title": "Technology", "wires": ["technology-1", "technology-2", "technology-3", "technology-4"], "quotaPerDay": 3, "minimumIndependentSources": 2, "genre": "news" },
+    { "slug": "science-climate", "title": "Science & Climate", "wires": ["science-1", "science-2", "science-3", "environment-1", "environment-2", "environment-3", "environment-4"], "quotaPerDay": 3, "minimumIndependentSources": 2, "genre": "news" },
+    { "slug": "health", "title": "Health", "wires": ["health-1", "health-2", "health-3"], "quotaPerDay": 3, "minimumIndependentSources": 2, "genre": "news" },
+    { "slug": "culture-entertainment", "title": "Culture & Entertainment", "wires": ["entertainment-1", "entertainment-2", "entertainment-3", "entertainment-4", "entertainment-5", "entertainment-6", "culture-1", "culture-2"], "quotaPerDay": 3, "minimumIndependentSources": 2, "genre": "news" },
+    { "slug": "sport", "title": "Sport", "wires": ["sport-1", "sport-2", "sport-3", "sport-4"], "quotaPerDay": 3, "minimumIndependentSources": 2, "genre": "news" },
+    { "slug": "opinion-analysis", "title": "Opinion & Analysis", "wires": ["koios-news-site", "emsenn-substack"], "quotaPerDay": 2, "minimumIndependentSources": 1, "genre": "opinion" }
+  ],
+  "theme": {
+    "measure": "40rem"
+  },
+  "images": {
+    "heroPolicy": "generate",
+    "defaultOgImage": "/assets/og/default.png",
+    "creditRule": "Credit the generating provider unless a source image is licensed otherwise."
+  },
+  "distribution": {
+    "indexNow": { "key": null },
+    "websubHub": "https://pubsubhubbub.appspot.com/",
+    "activityPubActor": "https://koios.news/actor",
+    "blueskyHandle": "koios.news",
+    "newsletter": { "formAction": "https://buttondown.email/api/emails/embed-subscribe/koios-news" },
+    "googleNewsSitemap": true
+  },
+  "monetization": {
+    "houseAds": { "server": "https://house-ads-server.morgan-sennhauser.workers.dev", "slots": ["header", "inArticle", "footer"] },
+    "adsTxt": []
+  },
+  "cadence": {
+    "pulseIntervalMinutes": 60,
+    "dailyArticleTarget": 20,
+    "freeLaneOnly": true,
+    "frontierBudgetUsdPerDay": 0
+  },
+  "jurisdictions": {
+    "publicationJurisdiction": "US"
+  },
+  "deploy": {
+    "cloudflareWorkerName": "koios-news-preview",
+    "route": "koios.news/*"
+  }
+}

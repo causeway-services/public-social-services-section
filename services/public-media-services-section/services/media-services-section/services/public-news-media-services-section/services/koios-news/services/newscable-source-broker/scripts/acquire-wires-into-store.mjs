@@ -8,6 +8,7 @@
 import { existsSync, mkdirSync, readFileSync, writeFileSync } from "node:fs";
 import { join } from "node:path";
 import { acquireSyndicationSource } from "../src/syndication.mjs";
+import { isDirectEntrypoint, processEntrypointArgument } from "@red-cup-engineering/metroplat/integrations/process";
 
 function usage() {
   return "Usage: acquire-wires-into-store --wires <wires.json> --store <store-root> [--now <ISO-8601>]\n";
@@ -54,7 +55,7 @@ export async function acquireWiresIntoStore({ wires, storeRoot, now = new Date()
   return report;
 }
 
-if (import.meta.url === `file://${process.argv[1]}`) {
+if (isDirectEntrypoint(import.meta.url, processEntrypointArgument())) {
   const argv = process.argv.slice(2);
   if (argv.includes("--help")) { process.stdout.write(usage()); process.exit(0); }
   const value = (flag) => { const index = argv.indexOf(flag); return index < 0 ? undefined : argv[index + 1]; };

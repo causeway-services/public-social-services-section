@@ -1,6 +1,6 @@
 {
   "name": "@causeway-services/activitypub-retained-inbox-provider",
-  "version": "0.0.3",
+  "version": "0.1.0",
   "type": "module",
   "exports": {
     ".": "./src/retained-inbox.mjs",
