@@ -1,0 +1,19 @@
+{
+  "id": "urn:ame:pace-yourself-youtube-channel-enterprise",
+  "title": "PACE Yourself",
+  "youtubeChannelId": "UC3M3DheHyXSdrK12c3cpojQ",
+  "timezone": "America/Chicago",
+  "cadence": { "releaseWeekdays": ["Monday", "Wednesday", "Friday"], "releaseHourUtc": 15 },
+  "corpus": {
+    "literatureLedger": "/home/emsenn/info/lib/emsenn/services/561-group/services/public-services-section/services/public-social-services-section/services/public-education-services-section/services/health-education-services-section/services/health-education-curriculum-services-section/content/curricula/pace-yourself.v1.json",
+    "carriers": []
+  },
+  "presentation": { "backgroundColor": "0x202020", "foregroundColor": "&H00FFFFFF", "fontSize": 44, "width": 1280, "height": 720 },
+  "voice": { "narration": "flite" },
+  "secrets": {
+    "oauthClientIdName": "YOUTUBE_OAUTH_CLIENT_ID",
+    "oauthClientSecretName": "YOUTUBE_OAUTH_CLIENT_SECRET",
+    "refreshTokenName": "PACE_YOURSELF_YOUTUBE_OAUTH_REFRESH_TOKEN"
+  },
+  "inference": { "route": "inference-dispatch" }
+}
