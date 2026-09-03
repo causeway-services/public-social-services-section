@@ -43,8 +43,13 @@ Five-custody thread (org-layering.md, 2026-09-01):
 - **public**: [Health Education Curriculum Services Section](services/health-education-curriculum-services-section/README.md)
   — seated 2026-09-01, owning the ebook line
   (`@emsenn/health-education-curriculum-enterprise`, *Understanding
-  Infection-Associated Chronic Illness*); the future channel and article
-  lines remain unseated.
+  Infection-Associated Chronic Illness*); the article line remains
+  unseated, and the channel is now PACE Yourself (see "Dimensions and
+  uncertainties" below). The ebook line now holds two books —
+  *Understanding Infection-Associated Chronic Illness* and *PACE
+  Yourself*, in production — plus the
+  [`pace-yourself.v1.json`](services/health-education-curriculum-services-section/content/curricula/pace-yourself.v1.json)
+  program curriculum.
 
 theory-base: the medical-science-services-section thread above; this
 carrier adds no science of its own; it only names where the science already
@@ -129,12 +134,14 @@ from the verified corpus and repaired against two adversarial reviews.
 
 ## Dimensions and uncertainties (preserved honestly, not resolved here)
 
-- **Channel identity requires the founder's hands.** The channel is
-  **Body Budget**, a Culvert Health product (decided 2026-09-02;
-  the [561 Group Medical Services Section](../../../../../../../561-group-services-section/services/561-group-operations-services-section/services/561-group-medical-services-section/README.md)
-  carries the division and its naming note). Per the bodily-harm autonomy
-  rule, the account signup and its OAuth consent remain asks only the
-  founder's own identity can perform.
+- **Channel identity required the founder's hands, and now exists.** The
+  channel is **PACE Yourself** ([@PACE-Yourself](https://www.youtube.com/channel/UC3M3DheHyXSdrK12c3cpojQ)),
+  a Culvert Health product; Body Budget was the name scanned and ruled
+  first but proved unavailable on YouTube, so the founder created the
+  channel as PACE Yourself instead (2026-09-02; the
+  [561 Group Medical Services Section](../../../../../../../561-group-services-section/services/561-group-operations-services-section/services/561-group-medical-services-section/README.md)
+  carries the division and its naming note). OAuth consent, which only
+  the founder's own identity can perform, remains pending.
 - **Monetization rail is undecided.** koios-intelligence-briefing's own
   README shows the pattern for reasoning about this once a product shape
   exists (x402 vs. Stripe/Substack-style named billing, chosen by whether
