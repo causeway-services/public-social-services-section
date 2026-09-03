@@ -14,6 +14,7 @@
     "README.md",
     "content",
     "src",
+    "scripts",
     "package.json"
   ],
   "bin": {
@@ -23,7 +24,7 @@
   "scripts": {
     "serve": "node src/server.mjs",
     "smoke:public": "node bin/smoke-public.mjs",
-    "check": "node --check src/retained-inbox.mjs && node --check src/server.mjs && node --check src/public-smoke.mjs && node --check bin/smoke-public.mjs && node --check test/provider.test.mjs && node --check test/deployment.test.mjs && node --check test/public-smoke.test.mjs",
+    "check": "node --check src/retained-inbox.mjs && node --check src/server.mjs && node --check src/public-smoke.mjs && node --check bin/smoke-public.mjs && node --check scripts/admit-set-of-inbox-arrivals.mjs && node --check test/provider.test.mjs && node --check test/deployment.test.mjs && node --check test/public-smoke.test.mjs && node --check test/admit-set-of-inbox-arrivals.test.mjs",
     "test": "node --test test/*.test.mjs"
   },
   "dependencies": {
