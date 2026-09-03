@@ -7,7 +7,7 @@ Illness* (`content/books/understanding-infection-associated-chronic-illness/`,
 `scripts/build-ebook.mjs`), delegating pandoc/build-record assembly to
 [`@red-cup-engineering/ebook-production-services-section`](../../../../../../../../../engineering-services-section/services/computer-engineering-services-section/services/computer-data-services-section/services/computer-content-services-section/services/documents-services-section/services/ebook-production-services-section/README.md)
 the same way the sibling
-[artificial-intelligence-curriculum-enterprise](../../../computer-education-services-section/services/artificial-intelligence-education-services-section/services/artificial-intelligence-curriculum-enterprise/README.md)
+[artificial-intelligence-education-curriculum-services-section](../../../computer-education-services-section/services/artificial-intelligence-education-services-section/services/artificial-intelligence-education-curriculum-services-section/README.md)
 does for *The Agent Operator's Handbook*.
 
 ## Chapter order
