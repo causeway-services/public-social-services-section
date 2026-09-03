@@ -12,7 +12,7 @@ test("the retired aggregate refuses execution in favor of package-local contract
 
 test("the retired package exposes no historical execution surface", () => {
   const packageJson = JSON.parse(readFileSync(new URL("../package.json", import.meta.url)));
-  assert.deepEqual(Object.keys(packageJson.scripts).sort(), ["check", "test", "verify"]);
+  assert.deepEqual(Object.keys(packageJson.scripts).sort(), ["check", "test"]);
   assert.deepEqual(Object.keys(packageJson.exports).sort(), [".", "./package.json", "./tombstone"]);
   assert.equal(packageJson.dependencies, undefined);
   const result = spawnSync(process.execPath, [fileURLToPath(new URL("../src/tombstone.mjs", import.meta.url))], { encoding: "utf8" });
