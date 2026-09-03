@@ -4,7 +4,7 @@ After=network.target
 
 [Service]
 Type=simple
-WorkingDirectory=/home/emsenn/info/lib/emsenn/services/561-group/services/public-services-section/services/public-social-services-section/services/public-education-services-section/services/computer-education-services-section/services/artificial-intelligence-education-services-section/services/artificial-intelligence-education-curriculum-services-section
+WorkingDirectory=/home/emsenn/info/lib/emsenn/services/561-group/services/public-services-section/services/public-social-services-section/services/public-education-services-section/services/computer-education-services-section/services/artificial-intelligence-education-services-section/services/artificial-intelligence-curriculum-enterprise
 ExecStart=/home/emsenn/.config/nvm/versions/node/v24.13.1/bin/node src/serve-delivery-a2a.mjs
 Environment=ARTIFICIAL_INTELLIGENCE_CURRICULUM_DATA_ROOT=/home/emsenn/info/lib/emsenn/services/561-group/services/public-services-section/services/public-social-services-section/services/public-education-services-section/services/computer-education-services-section/services/artificial-intelligence-education-services-section/services/artificial-intelligence-education-curriculum-services-section/data
 Restart=on-failure

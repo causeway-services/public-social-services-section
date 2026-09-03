@@ -22,7 +22,7 @@
   "dependencies": {
     "@red-cup-engineering/a2a-contracted-agent-service": "2.1.5",
     "@red-cup-engineering/a2a-rmn-part-service": "1.0.6",
-    "@red-cup-engineering/ebook-production-services-section": "0.1.5",
+    "@red-cup-engineering/ebook-production-services-section": "0.2.1",
     "@red-cup-engineering/json-byte-carrier-service": "0.1.2",
     "@red-cup-engineering/json-codec-service": "0.1.13",
     "@red-cup-engineering/semantic-content-identify-service": "0.2.10",
