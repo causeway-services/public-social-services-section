@@ -1,1 +1,0 @@
-{"version":3,"file":"security.mjs","sourceRoot":"","sources":["../../../src/server/edge/security.mts"],"names":[],"mappings":"AACA,OAAO,EAAE,oBAAoB,EAAE,MAAM,aAAa,CAAC;AAInD,MAAM,UAAU,eAAe,CAAC,SAA2C,IAAI;IAC7E,OAAO,CAAC,GAAG,EAAE,EAAE;QACb,oBAAoB,CAAC,GAAG,CAAC,GAAG,EAAE,MAAM,CAAC,CAAC;IACxC,CAAC,CAAC;AACJ,CAAC;AAED,MAAM,CAAC,MAAM,MAAM,GAAG,eAAe,CAAC"}

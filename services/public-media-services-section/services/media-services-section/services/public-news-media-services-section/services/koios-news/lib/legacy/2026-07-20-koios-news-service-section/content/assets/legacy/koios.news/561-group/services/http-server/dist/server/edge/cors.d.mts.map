@@ -1,1 +1,0 @@
-{"version":3,"file":"cors.d.mts","sourceRoot":"","sources":["../../../src/server/edge/cors.mts"],"names":[],"mappings":"AAAA,OAAO,KAAK,EAAE,WAAW,EAAE,UAAU,EAAE,MAAM,cAAc,CAAC;AAG5D,MAAM,MAAM,qBAAqB,GAAG,WAAW,GAAG;IAChD,SAAS,CAAC,EAAE,OAAO,CAAC;IACpB,oBAAoB,CAAC,EAAE,MAAM,CAAC;CAC/B,CAAC;AAEF,wBAAgB,IAAI,CAAC,OAAO,GAAE,qBAA0B,GAAG,UAAU,CAapE"}
