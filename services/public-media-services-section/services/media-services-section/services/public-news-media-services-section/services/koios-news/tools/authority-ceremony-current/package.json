@@ -3,8 +3,12 @@
   "version": "0.1.0",
   "type": "module",
   "description": "Offline, verifier-backed preparation of Koios authority artifacts without private-key handling.",
-  "engines": { "node": ">=22.18" },
-  "bin": { "koios-news-authority-ceremony": "./bin/koios-news-authority-ceremony.mjs" },
+  "engines": {
+    "node": ">=22.18"
+  },
+  "bin": {
+    "koios-news-authority-ceremony": "./bin/koios-news-authority-ceremony.mjs"
+  },
   "scripts": {
     "check": "node --check src/authority-ceremony.mjs && node --check bin/koios-news-authority-ceremony.mjs",
     "test": "node --test test/*.test.mjs"
