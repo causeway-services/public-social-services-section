@@ -15,5 +15,11 @@
     "@red-cup-engineering/newsletter-issue-production-services-section": "0.1.0",
     "@red-cup-engineering/semantic-record-journal-service": "0.1.9"
   },
-  "files": ["src/", "scripts/", "test/", "README.md", "package.json"]
+  "files": [
+    "src/",
+    "scripts/",
+    "test/",
+    "README.md",
+    "package.json"
+  ]
 }
