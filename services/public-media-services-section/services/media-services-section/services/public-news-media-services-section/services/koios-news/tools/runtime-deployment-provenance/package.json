@@ -5,5 +5,8 @@
   "scripts": {
     "check": "node --check bin/koios-runtime-provenance.mjs && node --check test/provenance.test.mjs",
     "test": "node --test test/*.test.mjs"
+  },
+  "dependencies": {
+    "@red-cup-engineering/canonical-json-service": "0.2.1"
   }
 }

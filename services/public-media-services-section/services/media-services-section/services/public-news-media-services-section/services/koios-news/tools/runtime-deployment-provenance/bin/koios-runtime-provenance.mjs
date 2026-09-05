@@ -3,9 +3,10 @@ import { createHash } from "node:crypto";
 import { execFileSync } from "node:child_process";
 import { existsSync, lstatSync, mkdirSync, openSync, readFileSync, writeFileSync, closeSync } from "node:fs";
 import { dirname, isAbsolute, join, relative, resolve } from "node:path";
+import { canonicalJson as canonical } from "@red-cup-engineering/canonical-json-service";
 
 const sha256 = (bytes) => `sha256:${createHash("sha256").update(bytes).digest("hex")}`;
-const canonical = (value) => Array.isArray(value) ? `[${value.map(canonical).join(",")}]` : value && typeof value === "object" ? `{${Object.keys(value).sort().map((key) => `${JSON.stringify(key)}:${canonical(value[key])}`).join(",")}}` : JSON.stringify(value);
+
 const args = Object.fromEntries(process.argv.slice(3).flatMap((value, index, all) => value.startsWith("--") ? [[value.slice(2), all[index + 1]]] : []));
 function required(name) { const value = args[name]; if (typeof value !== "string" || value === "") throw new Error(`--${name} is required`); return value; }
 function absoluteFile(path, label) { if (!isAbsolute(path) || !existsSync(path) || !lstatSync(path).isFile() || lstatSync(path).isSymbolicLink()) throw new Error(`${label} must be an existing absolute regular file`); return resolve(path); }

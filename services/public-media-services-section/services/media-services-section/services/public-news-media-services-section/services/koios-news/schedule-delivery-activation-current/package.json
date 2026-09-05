@@ -6,6 +6,7 @@
     "koios-news-schedule-delivery-preflight": "./bin/koios-news-schedule-delivery-preflight.mjs"
   },
   "dependencies": {
+    "@red-cup-engineering/canonical-json-service": "0.2.1",
     "@red-cup-engineering/parse-javascript-argv-service": "0.2.2"
   },
   "scripts": {

@@ -6,6 +6,7 @@ import { fileURLToPath } from "node:url";
 import { semanticId } from "./semantic-id.mjs";
 import { recordWitnessJournalBatch } from "@red-cup-engineering/witness-journal-document-service";
 import { turntideWitnessJournalBindingFromEnvironment } from "./settlement-witness-journal-binding.mjs";
+import { canonicalJson as canonical } from "@red-cup-engineering/canonical-json-service";
 
 const TTI_ROOT = resolve(dirname(fileURLToPath(import.meta.url)), "../..");
 const DEFAULT_PRODUCT = join(TTI_ROOT, "content/products/founding-knowledge-vault.json");
@@ -69,7 +70,7 @@ export function foundingChannelMessages(product) {
   };
 }
 
-function canonical(value) { if (Array.isArray(value)) return `[${value.map(canonical).join(",")}]`; if (value && typeof value === "object") return `{${Object.keys(value).sort().map((key) => `${JSON.stringify(key)}:${canonical(value[key])}`).join(",")}}`; return JSON.stringify(value); }
+
 async function api(token, method, route, body) {
   const response = await fetch(`${API}${route}`, { method, headers: { authorization: `Bot ${token}`, "content-type": "application/json", "user-agent": "@causeway-services/turntide-islands-settlement venture operator" }, body: body === undefined ? undefined : JSON.stringify(body) });
   if (response.status === 429) { const retry = await response.json().catch(() => ({ retry_after: 1 })); await new Promise((done) => setTimeout(done, Math.ceil((retry.retry_after ?? 1) * 1000))); return api(token, method, route, body); }

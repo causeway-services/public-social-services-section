@@ -22,13 +22,10 @@ const TARGET_BINDING = Object.freeze({
 const DELIVERY_CAPABILITY = "urn:capability:koios-news:cold-red-gate:routine-publication:v1";
 const EFFECTS = Object.freeze(["provider-local-append-only-schedule", "provider-local-occurrence-reservation", "exact-advertised-target-operation-invocation"]);
 
-function canonical(value) {
-  if (Array.isArray(value)) return `[${value.map(canonical).join(",")}]`;
-  if (value !== null && typeof value === "object") return `{${Object.keys(value).sort().map((key) => `${JSON.stringify(key)}:${canonical(value[key])}`).join(",")}}`;
-  return JSON.stringify(value);
-}
+
 function id(value) { return `urn:koios-news:schedule-delivery-preflight:sha256:${createHash("sha256").update(canonical(value)).digest("hex")}`; }
 import { argument } from "@red-cup-engineering/parse-javascript-argv-service";
+import { canonicalJson as canonical } from "@red-cup-engineering/canonical-json-service";
 function requireString(value, label) { if (typeof value !== "string" || value === "") throw new Error(`${label} is required`); return value; }
 function integer(value, label, min, max) { const number = Number(value); if (!Number.isInteger(number) || number < min || number > max) throw new Error(`${label} must be an integer from ${min} to ${max}`); return number; }
 function instant(value, label) { if (typeof value !== "string" || !Number.isFinite(Date.parse(value))) throw new Error(`${label} must be an ISO instant`); return value; }
