@@ -5,12 +5,13 @@ import { dirname, join, resolve } from "node:path";
 import { fileURLToPath } from "node:url";
 import { createSemanticRecordJournal } from "@red-cup-engineering/semantic-record-journal-service";
 import { jsonByteCarrierValue } from "@red-cup-engineering/json-byte-carrier-service";
+import { canonicalJson as canonical } from "@red-cup-engineering/canonical-json-service";
 export const ACTOR = "urn:ame:modern-business-curriculum-enterprise";
 export const NODE_ROOT = resolve(dirname(fileURLToPath(import.meta.url)), "..");
 export const COURSE_PATH = new URL("../content/curricula/modern-firm-as-operational-system.v1.json", import.meta.url);
 export const RESEARCH = "urn:ame:modern-business-research-enterprise", CATEGORY = "modern-business-curriculum.lesson-product-admission", BRIEF_ROOT = join(NODE_ROOT, "content/lesson-briefs");
 const WITHHELD = ["research-truth-or-business-advice-warranty", "notebook-or-provider-authority", "youtube-channel-or-credential-authority", "generation-upload-schedule-publication-or-course-designation"];
-function canonical(value) { if (Array.isArray(value)) return `[${value.map(canonical).join(",")}]`; if (value && typeof value === "object") return `{${Object.keys(value).sort().map((key) => `${JSON.stringify(key)}:${canonical(value[key])}`).join(",")}}`; return JSON.stringify(value); }
+
 export function digest(value) { return `sha256:${createHash("sha256").update(canonical(value)).digest("hex")}`; }
 const semanticJson = jsonByteCarrierValue
 export function contentId(value) { return identifyJsonSemanticContent({ objectKind: "emsweb.modern-business-curriculum.record", value: semanticJson(value), witnessRoot: EMPTY_WITNESS_ROOT }).token; }
