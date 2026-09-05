@@ -1,0 +1,23 @@
+{
+  "name": "@emsenn/health-education-newsletter-enterprise",
+  "version": "0.1.0",
+  "type": "module",
+  "description": "Publication lane for the health-education named-subscriber newsletter: verifies and re-composes one issue directory's renderings, creates a Buttondown draft, and records a publication receipt.",
+  "files": [
+    "content/",
+    "scripts/"
+  ],
+  "scripts": {
+    "check": "node --check scripts/publish-issue-draft.mjs && node --check test/publish-issue-draft.test.mjs",
+    "test": "node --test test/publish-issue-draft.test.mjs"
+  },
+  "engines": {
+    "node": ">=22.18"
+  },
+  "dependencies": {
+    "@red-cup-engineering/buttondown-services-section": "0.1.0",
+    "@red-cup-engineering/newsletter-issue-production-services-section": "0.1.0",
+    "@red-cup-engineering/semantic-record-journal-service": "0.1.9"
+  },
+  "license": "UNLICENSED"
+}

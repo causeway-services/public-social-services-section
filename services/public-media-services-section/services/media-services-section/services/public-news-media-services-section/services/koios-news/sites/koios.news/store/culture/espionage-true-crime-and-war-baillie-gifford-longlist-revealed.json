@@ -1,0 +1,69 @@
+{
+  "subject": "espionage-true-crime-and-war-baillie-gifford-longlist-revealed",
+  "claims": [
+    {
+      "id": "title",
+      "proposition": {
+        "predicate": "title",
+        "object": "Espionage, true crime and war: Baillie Gifford longlist revealed"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "culture",
+        "citation": "https://www.theguardian.com/books/2026/sep/03/espionage-true-and-war-baillie-gifford-longlist-revealed"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "url",
+      "proposition": {
+        "predicate": "url",
+        "object": "https://www.theguardian.com/books/2026/sep/03/espionage-true-and-war-baillie-gifford-longlist-revealed"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "culture",
+        "citation": "https://www.theguardian.com/books/2026/sep/03/espionage-true-and-war-baillie-gifford-longlist-revealed"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "summary",
+      "proposition": {
+        "predicate": "summary",
+        "object": "<p>Patrick Radden Keefe, Ben Macintyre and the Guardian’s Charlotte Higgins are among the 13 authors selected for the nonfiction award</p><p>The Guardian’s chief culture writer Charlotte Higgins joins American investigative journalist Patrick Radden Keefe and bestselling historian Ben Macintyre on this year’s Baillie Gifford prize longlist.</p><p>Higgins’ book, <a href=\"https://www.theguardian.com/books/2026/aug/18/ukrainian-lessons-by-charlotte-higgins-review-when-art-and-war-collide\">Ukrainian Lessons: Art in a Time of War</a>, examines the role of culture in Ukraine’s resistance to Russia’s invasion, drawing on multiple reporting trips to Ukraine. Keefe, who won the prize in 2021 with Empire of Pain, is listed again for <a href=\"https://www.theguardian.com/books/2026/apr/07/london-falling-by-patrick-radden-keefe-review-a-compulsive-tale-of-money-lies-and-avoidable-tragedy\">London Falling</a>, which tells the story of Zac Brettler, a teenager who fell from a luxury London apartment after having posed as the son of a wealthy Russian oligarch. Macintyre’s Redwood: The Untold Story of the Cold War’s Most Extraordinary Spy, tells the story of a KGB double agent cultivated by MI6 in revolutionary Tehran.</p> <a href=\"https://www.theguardian.com/books/2026/sep/03/espionage-true-and-war-baillie-gifford-longlist-revealed\">Continue reading...</a>"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "culture",
+        "citation": "https://www.theguardian.com/books/2026/sep/03/espionage-true-and-war-baillie-gifford-longlist-revealed"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "published",
+      "proposition": {
+        "predicate": "published",
+        "object": "Wed, 02 Sep 2026 23:01:37 GMT"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "culture",
+        "citation": "https://www.theguardian.com/books/2026/sep/03/espionage-true-and-war-baillie-gifford-longlist-revealed"
+      },
+      "status": "supported"
+    }
+  ]
+}

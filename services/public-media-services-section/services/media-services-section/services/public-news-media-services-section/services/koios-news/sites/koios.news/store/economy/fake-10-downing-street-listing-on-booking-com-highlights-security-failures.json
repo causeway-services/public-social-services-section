@@ -1,0 +1,69 @@
+{
+  "subject": "fake-10-downing-street-listing-on-booking-com-highlights-security-failures",
+  "claims": [
+    {
+      "id": "title",
+      "proposition": {
+        "predicate": "title",
+        "object": "Fake 10 Downing Street listing on Booking.com highlights security failures"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "economy",
+        "citation": "https://www.theguardian.com/money/2026/sep/02/fake-10-downing-street-listing-booking-com-highlights-security-failures"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "url",
+      "proposition": {
+        "predicate": "url",
+        "object": "https://www.theguardian.com/money/2026/sep/02/fake-10-downing-street-listing-booking-com-highlights-security-failures"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "economy",
+        "citation": "https://www.theguardian.com/money/2026/sep/02/fake-10-downing-street-listing-booking-com-highlights-security-failures"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "summary",
+      "proposition": {
+        "predicate": "summary",
+        "object": "<p>Consumer watchdog Which? set up and accepted payment for fake listing for ‘1 bed apartment in heart of London’</p><p>Successive politicians have clawed their way past colleagues over the years to call the residence home. Yet in an offer that probably seemed too good to be true, the property site Booking.com has been accused of “systemic security failures” after it was able to set up and accept payment for a fake listing for 10 Downing Street.</p><p>A property listed as a “1 bedroom apartment in the heart of London” – with the exact address and a picture of the prime minister’s home – was listed on 18 June by researchers from the consumer watchdog Which?.</p> <a href=\"https://www.theguardian.com/money/2026/sep/02/fake-10-downing-street-listing-booking-com-highlights-security-failures\">Continue reading...</a>"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "economy",
+        "citation": "https://www.theguardian.com/money/2026/sep/02/fake-10-downing-street-listing-booking-com-highlights-security-failures"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "published",
+      "proposition": {
+        "predicate": "published",
+        "object": "Wed, 02 Sep 2026 07:45:12 GMT"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "economy",
+        "citation": "https://www.theguardian.com/money/2026/sep/02/fake-10-downing-street-listing-booking-com-highlights-security-failures"
+      },
+      "status": "supported"
+    }
+  ]
+}

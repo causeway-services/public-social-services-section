@@ -1,0 +1,22 @@
+{
+  "type": "TTIDiscordReactionSystemConfiguration",
+  "version": 1,
+  "guildId": "1184863861065658419",
+  "administratorAuthorIds": ["681333902740160598"],
+  "selectors": [
+    { "purpose": "entry", "channelId": "1184864166142558349", "messageId": "1184869680033321001" },
+    { "purpose": "channel-visas", "channelId": "1346508996667768853", "messageId": "1346509165798887538" }
+  ],
+  "roleNames": ["visitor", "islander", "doer", "governance-observer", "techie", "econie", "carl-bot", "Zelo", "PluralKit"],
+  "channelNames": ["dock", "channel-visas", "praxis-penisula", "governance-action", "governance-proposals", "governance-discussion", "governance-questions", "silicon-sandbar", "economy-estuary"],
+  "integrationNames": ["carl-bot", "Zelo", "PluralKit"],
+  "mappings": [
+    { "messagePurpose": "channel-visas", "emoji": { "name": "⚒️" }, "roleName": "doer", "channelNames": ["praxis-penisula"], "ownerIntegrationName": "carl-bot", "evidence": ["administrator-message-text", "role-channel-overwrite", "carl-bot-installation-timeline"] },
+    { "messagePurpose": "channel-visas", "emoji": { "name": "✊" }, "roleName": "governance-observer", "channelNames": ["governance-action", "governance-proposals", "governance-discussion", "governance-questions"], "ownerIntegrationName": "carl-bot", "evidence": ["administrator-message-text", "role-channel-overwrite", "carl-bot-installation-timeline"] },
+    { "messagePurpose": "channel-visas", "emoji": { "name": "💻" }, "roleName": "techie", "channelNames": ["silicon-sandbar"], "ownerIntegrationName": "carl-bot", "evidence": ["administrator-message-text", "role-channel-overwrite", "carl-bot-installation-timeline"] },
+    { "messagePurpose": "channel-visas", "emoji": { "name": "💹" }, "roleName": "econie", "channelNames": ["economy-estuary"], "ownerIntegrationName": "carl-bot", "evidence": ["administrator-message-text", "role-channel-overwrite", "carl-bot-installation-timeline"] }
+  ],
+  "unresolved": [
+    { "messagePurpose": "entry", "emoji": { "name": "🏝️" }, "question": "Which role does the established entry reaction grant?", "candidateRoleNames": ["visitor", "islander"], "evidence": ["administrator-message-text", "channel-permission-overwrite"] }
+  ]
+}

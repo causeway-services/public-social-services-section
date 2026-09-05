@@ -1,0 +1,69 @@
+{
+  "subject": "72-hours-review-kevin-hart-drags-down-netflix-midlife-crisis-comedy",
+  "claims": [
+    {
+      "id": "title",
+      "proposition": {
+        "predicate": "title",
+        "object": "72 Hours review – Kevin Hart drags down Netflix midlife crisis comedy"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "entertainment",
+        "citation": "https://www.theguardian.com/film/2026/jul/24/72-hours-movie-review-kevin-hart"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "url",
+      "proposition": {
+        "predicate": "url",
+        "object": "https://www.theguardian.com/film/2026/jul/24/72-hours-movie-review-kevin-hart"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "entertainment",
+        "citation": "https://www.theguardian.com/film/2026/jul/24/72-hours-movie-review-kevin-hart"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "summary",
+      "proposition": {
+        "predicate": "summary",
+        "object": "<p>The overexposed actor falls flat in another disappointing vehicle that fails to make the most of its neat bachelor-party-with-a-twist concept</p><p>72 Hours is Kevin Hart’s midlife crisis comedy. He stars as Joe, a 40-year-old New York marketing executive whose once-reliable Midas touch has worn off. He’s no longer the office’s go-to translator of youth culture, yet he remains on the verge of a promotion – the final hurdle standing between him and happily-ever-after with his longtime girlfriend (Teyana Taylor), a doctor weighing an opportunity that could pull her away from the life they’ve built together in the city.</p><p>All the while, crude texts and memes flood his phone from a random group chat populated by a pack of twentysomething guys planning a bachelor party in Miami – an annoyance that quickly becomes his ticket back to relevance. Joe not only drops everything to join these perfect strangers for the weekend; he upgrades the whole affair, picks up the tab and supplies the booze in hopes of harvesting content for his struggling campaign. It would be a fine set-up if it weren’t such an obvious metaphor for Hart’s own showbiz career.</p> <a href=\"https://www.theguardian.com/film/2026/jul/24/72-hours-movie-review-kevin-hart\">Continue reading...</a>"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "entertainment",
+        "citation": "https://www.theguardian.com/film/2026/jul/24/72-hours-movie-review-kevin-hart"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "published",
+      "proposition": {
+        "predicate": "published",
+        "object": "Fri, 24 Jul 2026 01:00:00 GMT"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "entertainment",
+        "citation": "https://www.theguardian.com/film/2026/jul/24/72-hours-movie-review-kevin-hart"
+      },
+      "status": "supported"
+    }
+  ]
+}

@@ -1,0 +1,777 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<!-- 2019-05-23 Thu 22:57 -->
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Develop <a href="file:///home/emsenn/org/src/teraum/index.html"><i>Teraum</i></a> </title>
+<meta name="generator" content="Org mode">
+<meta name="author" content="emsenn">
+<style>
+body {
+position: relative;
+background-color: #eee;
+color: #444;
+font-family: serif;
+margin: 0 auto;
+padding-bottom: 6rem;
+min-height: 100%;
+font-size: 1.2em;
+}
+header, h1 {
+font-family: sans-serif;
+text-align: center;
+width: 100%;
+overflow: hidden;
+font-family: sans-serif;
+}
+.title { font-size: 3.2rem; }
+.subtitle { font-size: 2.2rem; }
+main, #content {
+width: 75vw;
+max-width: 40em;
+margin: 0 0 0 2em;
+line-height: 1.6;
+margin-bottom: 8rem;
+}
+footer, #postamble {
+padding: 1em 0;
+position: absolute;
+right: 0;
+bottom: 0;
+left: 0;
+}
+section {
+border-bottom: 0.1em solid #444;
+margin-bottom: 1em;
+}
+blockquote {
+padding: 0.5rem;
+border-left: 0.1em solid #444;
+}
+table {
+border-collapse: collapse;
+border-spacing: 0;
+empty-cells: show;
+border: 0.1em solid #444;
+}
+thead { font-family: sans-serif; }
+td {
+padding: 0 0.3em;
+border: 0.01em solid #444;
+}
+img {
+max-width: 80vw;
+vertical-align: middle;
+}
+h2, h3, h4, h5, h6, h7, h8, h9, h10 {
+font-family: sans-serif;
+margin: 0.5em;
+}
+h2, h3 {
+text-align: center;
+}
+a {
+text-decoration: none;
+color: #3ac;
+display: inline;
+position: relative;
+border-bottom: 0.1rem dotted;
+line-height: 1.2;
+transition: border 0.3s;
+}
+a:hover {
+color: #5ce;
+outline-style: none;
+border-bottom: 0.1rem solid;
+}
+a:visited { color: #b8c; }
+a:visited:hover { color: #dae; }
+a:focus {
+outline-style: none;
+border-bottom: 0.1rem solid;
+}
+dt { font-weight: bold; }
+::selection { background-color: #777; color: #eee; }
+a::selection { background-color: #ccc; }
+pre, .src {
+padding: 0.5em;
+border: 0.1em solid #444;
+white-space: pre-wrap;
+overflow-x: scroll;
+text-overflow: clip;
+}
+</style>
+<style>body{background-color:#eeedec;color:#431;}a{color:#752;}a:hover{color:#973;}a:visited{color:#452;}a:visited:hover{color:#674;}.todo{background-color:#ddd;color:#333;font-family:serif;font-size:0.6rem;float:right;}</style>
+<script type="text/javascript">
+/*
+@licstart  The following is the entire license notice for the
+JavaScript code in this tag.
+
+Copyright (C) 2012-2019 Free Software Foundation, Inc.
+
+The JavaScript code in this tag is free software: you can
+redistribute it and/or modify it under the terms of the GNU
+General Public License (GNU GPL) as published by the Free Software
+Foundation, either version 3 of the License, or (at your option)
+any later version.  The code is distributed WITHOUT ANY WARRANTY;
+without even the implied warranty of MERCHANTABILITY or FITNESS
+FOR A PARTICULAR PURPOSE.  See the GNU GPL for more details.
+
+As additional permission under GNU GPL version 3 section 7, you
+may distribute non-source (e.g., minimized or compacted) forms of
+that code without the copy of the GNU GPL normally required by
+section 4, provided you include this license notice and a URL
+through which recipients can access the Corresponding Source.
+
+
+@licend  The above is the entire license notice
+for the JavaScript code in this tag.
+*/
+<!--/*--><![CDATA[/*><!--*/
+ function CodeHighlightOn(elem, id)
+ {
+   var target = document.getElementById(id);
+   if(null != target) {
+     elem.cacheClassElem = elem.className;
+     elem.cacheClassTarget = target.className;
+     target.className = "code-highlighted";
+     elem.className   = "code-highlighted";
+   }
+ }
+ function CodeHighlightOff(elem, id)
+ {
+   var target = document.getElementById(id);
+   if(elem.cacheClassElem)
+     elem.className = elem.cacheClassElem;
+   if(elem.cacheClassTarget)
+     target.className = elem.cacheClassTarget;
+ }
+/*]]>*///-->
+</script>
+</head>
+<body>
+<div id="content">
+<h1 class="title">Develop <a href="file:///home/emsenn/org/src/teraum/index.html"><i>Teraum</i></a> </h1>
+<p>
+:COOKIE<sub>DATA</sub>: recursive
+</p>
+<ul class="org-ul">
+<li>State "PLANNING"   from              <span class="timestamp-wrapper"><span class="timestamp">[2019-05-18 Sat 13:54]</span></span></li>
+</ul>
+<table>
+<caption class="t-above"><span class="table-number">Table 1:</span> Clock summary at <span class="timestamp-wrapper"><span class="timestamp">[2019-05-23 Thu 22:55]</span></span></caption>
+
+<colgroup>
+<col  class="org-left">
+
+<col  class="org-left">
+
+<col  class="org-left">
+
+<col  class="org-right">
+
+<col  class="org-right">
+
+<col  class="org-right">
+
+<col  class="org-right">
+</colgroup>
+<thead>
+<tr>
+<th scope="col" class="org-left">Headline</th>
+<th scope="col" class="org-left">Time</th>
+<th scope="col" class="org-left">&#xa0;</th>
+<th scope="col" class="org-right">&#xa0;</th>
+<th scope="col" class="org-right">&#xa0;</th>
+<th scope="col" class="org-right">&#xa0;</th>
+<th scope="col" class="org-right">%</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="org-left"><b>Total time</b></td>
+<td class="org-left"><b>14:50</b></td>
+<td class="org-left">&#xa0;</td>
+<td class="org-right">&#xa0;</td>
+<td class="org-right">&#xa0;</td>
+<td class="org-right">&#xa0;</td>
+<td class="org-right">100.0</td>
+</tr>
+</tbody>
+<tbody>
+<tr>
+<td class="org-left">&ensp;&ensp;&ensp;&ensp;Develop <a href="file:///home/emsenn/org/src/teraum/index.html"><i>Teraum</i></a> [2%]</td>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">&#xa0;</td>
+<td class="org-right">14:50</td>
+<td class="org-right">&#xa0;</td>
+<td class="org-right">&#xa0;</td>
+<td class="org-right">100.0</td>
+</tr>
+
+<tr>
+<td class="org-left">&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;General development</td>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">&#xa0;</td>
+<td class="org-right">&#xa0;</td>
+<td class="org-right">9:12</td>
+<td class="org-right">&#xa0;</td>
+<td class="org-right">62.0</td>
+</tr>
+
+<tr>
+<td class="org-left">&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;Write contemporary adventures [11%]</td>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">&#xa0;</td>
+<td class="org-right">&#xa0;</td>
+<td class="org-right">3:08</td>
+<td class="org-right">&#xa0;</td>
+<td class="org-right">21.1</td>
+</tr>
+
+<tr>
+<td class="org-left">&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;Release <a href="file:///home/emsenn/org/src/teraum/adventures/crown-of-idbol-bark.html">"The Crown of Idbol Bark"</a> [16%]</td>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">&#xa0;</td>
+<td class="org-right">&#xa0;</td>
+<td class="org-right">&#xa0;</td>
+<td class="org-right">3:08</td>
+<td class="org-right">21.1</td>
+</tr>
+
+<tr>
+<td class="org-left">&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;Write reference books [0%]</td>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">&#xa0;</td>
+<td class="org-right">&#xa0;</td>
+<td class="org-right">2:30</td>
+<td class="org-right">&#xa0;</td>
+<td class="org-right">16.9</td>
+</tr>
+
+<tr>
+<td class="org-left">&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;Release <a href="file:///home/emsenn/org/projects/teraum/src/reference-books/atlas-of-ack.html"><i>Atlas of Ack</i></a></td>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">&#xa0;</td>
+<td class="org-right">&#xa0;</td>
+<td class="org-right">&#xa0;</td>
+<td class="org-right">0:17</td>
+<td class="org-right">1.9</td>
+</tr>
+
+<tr>
+<td class="org-left">&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;Release <a href="file:///home/emsenn/org/projects/teraum/src/reference-books/belcaer-gazetteer.html"><i>Belcaer Gazetteer</i></a></td>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">&#xa0;</td>
+<td class="org-right">&#xa0;</td>
+<td class="org-right">&#xa0;</td>
+<td class="org-right">1:53</td>
+<td class="org-right">12.7</td>
+</tr>
+
+<tr>
+<td class="org-left">&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;Release <a href="file:///home/emsenn/org/projects/teraum/src/reference-books/bellybrush-gazetteer.html"><i>Bellybrush Gazetteer</i></a></td>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">&#xa0;</td>
+<td class="org-right">&#xa0;</td>
+<td class="org-right">&#xa0;</td>
+<td class="org-right">0:20</td>
+<td class="org-right">2.2</td>
+</tr>
+</tbody>
+</table>
+<section id="outline-container-org4bbb37f" class="outline-2">
+<h2 id="org4bbb37f">General development</h2>
+<div class="outline-text-2" id="text-org4bbb37f">
+<p>
+<span class="timestamp-wrapper">
+<span class="timestamp-kwd">CLOCK:</span> <span class="timestamp">[2019-05-23 Thu 22:32]--[2019-05-23 Thu 22:33] </span> <span class="timestamp">(0:01)</span>
+</span>
+</p>
+<p>
+<span class="timestamp-wrapper">
+<span class="timestamp-kwd">CLOCK:</span> <span class="timestamp">[2019-05-23 Thu 19:53]--[2019-05-23 Thu 20:44] </span> <span class="timestamp">(0:51)</span>
+</span>
+</p>
+<p>
+<span class="timestamp-wrapper">
+<span class="timestamp-kwd">CLOCK:</span> <span class="timestamp">[2019-05-23 Thu 11:50]--[2019-05-23 Thu 19:52] </span> <span class="timestamp">(8:02)</span>
+</span>
+</p>
+<p>
+<span class="timestamp-wrapper">
+<span class="timestamp-kwd">CLOCK:</span> <span class="timestamp">[2019-05-22 Wed 16:10]--[2019-05-22 Wed 16:28] </span> <span class="timestamp">(0:18)</span>
+</span>
+</p>
+</div>
+</section>
+<section id="outline-container-org9fef0f3" class="outline-2">
+<h2 id="org9fef0f3">Write contemporary adventures </h2>
+<div class="outline-text-2" id="text-org9fef0f3">
+</div>
+<div id="outline-container-org75df8a6" class="outline-3">
+<h3 id="org75df8a6"><span class="todo PLANNING">PLANNING</span> Release <a href="file:///home/emsenn/org/src/teraum/adventures/crown-of-idbol-bark.html">"The Crown of Idbol Bark"</a> </h3>
+<div class="outline-text-3" id="text-org75df8a6">
+<p>
+<span class="timestamp-wrapper">
+<span class="timestamp-kwd">CLOCK:</span> <span class="timestamp">[2019-05-18 Sat 14:00]--[2019-05-18 Sat 14:05] </span> <span class="timestamp">(0:05)</span>
+</span>
+</p>
+<ul class="org-ul">
+<li>State "PLANNING"   from              <span class="timestamp-wrapper"><span class="timestamp">[2019-05-18 Sat 13:59]</span></span></li>
+</ul>
+</div>
+<div id="outline-container-org3e6d4a1" class="outline-4">
+<h4 id="org3e6d4a1"><span class="todo PLANNING">PLANNING</span> Format for release as PDF</h4>
+<div class="outline-text-4" id="text-org3e6d4a1">
+<ul class="org-ul">
+<li>State "PLANNING"   from              <span class="timestamp-wrapper"><span class="timestamp">[2019-05-18 Sat 14:04]</span></span></li>
+</ul>
+</div>
+<div id="outline-container-org5874845" class="outline-5">
+<h5 id="org5874845"><span class="todo PLANNING">PLANNING</span> Revise based on playtest feedback</h5>
+<div class="outline-text-5" id="text-org5874845">
+<ul class="org-ul">
+<li>State "PLANNING"   from              <span class="timestamp-wrapper"><span class="timestamp">[2019-05-18 Sat 14:04]</span></span></li>
+</ul>
+</div>
+<div id="outline-container-orgf831f6f" class="outline-6">
+<h6 id="orgf831f6f"><span class="todo PLANNING">PLANNING</span> Release for public playtesting</h6>
+<div class="outline-text-6" id="text-orgf831f6f">
+<ul class="org-ul">
+<li>State "PLANNING"   from              <span class="timestamp-wrapper"><span class="timestamp">[2019-05-18 Sat 14:04]</span></span></li>
+</ul>
+</div>
+<div id="outline-container-org8ec1a6d" class="outline-7">
+<h7 id="org8ec1a6d"><span class="todo PLANNING">PLANNING</span> Run private playtests </h7>
+<div class="outline-text-7" id="text-org8ec1a6d">
+<ul class="org-ul">
+<li>State "PLANNING"   from              <span class="timestamp-wrapper"><span class="timestamp">[2019-05-18 Sat 14:03]</span></span></li>
+</ul>
+<ul class="org-ul">
+<li class="off"><code>[&#xa0;]</code> First playtest</li>
+<li class="off"><code>[&#xa0;]</code> Second playtest</li>
+</ul>
+</div>
+<div id="outline-container-org3f8ad1a" class="outline-8">
+<h8 id="org3f8ad1a"><span class="done STOPPED">STOPPED</span> Incorporate <i>Brave Old World</i> lingo.</h8>
+<div class="outline-text-8" id="text-org3f8ad1a">
+<p><span class="timestamp-wrapper"><span class="timestamp-kwd">CLOSED:</span> <span class="timestamp">[2019-05-18 Sat 14:10]</span></span></p>
+<ul class="org-ul">
+<li>State "STOPPED"    from "PLANNING"   <span class="timestamp-wrapper"><span class="timestamp">[2019-05-18 Sat 14:10] </span></span> <br>
+Dependent on [BROKEN LINK: develop-brave-old-world]</li>
+<li>State "PLANNING"   from              <span class="timestamp-wrapper"><span class="timestamp">[2019-05-18 Sat 14:10]</span></span></li>
+</ul>
+</div>
+<div id="outline-container-orga094090" class="outline-9">
+<h9 id="orga094090"><span class="todo READY">READY</span> Draft the adventure </h9>
+<div class="outline-text-9" id="text-orga094090">
+<p>
+<span class="timestamp-wrapper">
+<span class="timestamp-kwd">CLOCK:</span> <span class="timestamp">[2019-05-18 Sat 22:16]--[2019-05-18 Sat 22:53] </span> <span class="timestamp">(0:37)</span>
+</span>
+</p>
+<p>
+<span class="timestamp-wrapper">
+<span class="timestamp-kwd">CLOCK:</span> <span class="timestamp">[2019-05-18 Sat 20:26]--[2019-05-18 Sat 20:54] </span> <span class="timestamp">(0:28)</span>
+</span>
+</p>
+<p>
+<span class="timestamp-wrapper">
+<span class="timestamp-kwd">CLOCK:</span> <span class="timestamp">[2019-05-18 Sat 16:52]--[2019-05-18 Sat 16:53] </span> <span class="timestamp">(0:01)</span>
+</span>
+</p>
+<p>
+<span class="timestamp-wrapper">
+<span class="timestamp-kwd">CLOCK:</span> <span class="timestamp">[2019-05-18 Sat 15:28]--[2019-05-18 Sat 16:47] </span> <span class="timestamp">(1:19)</span>
+</span>
+</p>
+<p>
+<span class="timestamp-wrapper">
+<span class="timestamp-kwd">CLOCK:</span> <span class="timestamp">[2019-05-18 Sat 14:05]--[2019-05-18 Sat 14:43] </span> <span class="timestamp">(0:38)</span>
+</span>
+</p>
+<ul class="org-ul">
+<li>State "READY"      from "PLANNING"   <span class="timestamp-wrapper"><span class="timestamp">[2019-05-18 Sat 14:01]</span></span></li>
+<li>State "PLANNING"   from              <span class="timestamp-wrapper"><span class="timestamp">[2019-05-18 Sat 14:01]</span></span></li>
+</ul>
+<ul class="org-ul">
+<li class="trans"><code>[-]</code> Write Stages
+<ul class="org-ul">
+<li class="on"><code>[X]</code> Write <a href="file:///home/emsenn/org/src/teraum/adventures/crown-of-idbol-bark.html#exposition">Exposition</a></li>
+<li class="on"><code>[X]</code> Write <a href="file:///home/emsenn/org/src/teraum/adventures/crown-of-idbol-bark.html#stage-one">Stage One</a></li>
+<li class="off"><code>[&#xa0;]</code> Write <a href="file:///home/emsenn/org/src/teraum/adventures/crown-of-idbol-bark.html#stage-two">Stage Two</a></li>
+<li class="off"><code>[&#xa0;]</code> Write <a href="file:///home/emsenn/org/src/teraum/adventures/crown-of-idbol-bark.html#stage-three">Stage Three</a></li>
+<li class="off"><code>[&#xa0;]</code> Write <a href="file:///home/emsenn/org/src/teraum/adventures/crown-of-idbol-bark.html#stage-four">Stage Four</a></li>
+<li class="off"><code>[&#xa0;]</code> Write <a href="file:///home/emsenn/org/src/teraum/adventures/crown-of-idbol-bark.html#stage-five">Stage Five</a></li>
+<li class="off"><code>[&#xa0;]</code> Write <a href="file:///home/emsenn/org/src/teraum/adventures/crown-of-idbol-bark.html#epilogue">Epilogue</a></li>
+</ul></li>
+<li class="trans"><code>[-]</code> Create Maps
+<ul class="org-ul">
+<li class="off"><code>[&#xa0;]</code> Create <a href="file:///home/emsenn/org/src/teraum/assets/belcaer-map.jpg">map of Belcaer</a></li>
+<li class="on"><code>[X]</code> Create <a href="file:///home/emsenn/org/src/teraum/assets/jacobs-folly-map.jpg">map of Jacob's Folly</a></li>
+<li class="off"><code>[&#xa0;]</code> Create <a href="file:///home/emsenn/org/src/teraum/assets/western-gloaming-map.jpg">map of the western Gloaming</a></li>
+</ul></li>
+<li class="off"><code>[&#xa0;]</code> Create or update entries in reference books
+<ul class="org-ul">
+<li class="off"><code>[&#xa0;]</code> Belcaer in
+<ul class="org-ul">
+<li class="off"><code>[&#xa0;]</code> <a href="file:///home/emsenn/org/projects/teraum/src/reference-books/geography-and-settlements-of-the-gloaming.html"><i>Geography and Settlements of the Gloaming</i></a></li>
+<li class="off"><code>[&#xa0;]</code> <a href="file:///home/emsenn/org/projects/teraum/src/reference-books/belcaer-gazetteer.html"><i>Belcaer Gazetteer</i></a></li>
+</ul></li>
+<li class="off"><code>[&#xa0;]</code> Chandlers Guild in <a href="file:///home/emsenn/org/src/teraum/reference-books/human-culture-and-physiology.html"><i>Human Culture and Physiology</i></a></li>
+<li class="off"><code>[&#xa0;]</code> The Collapse in <a href="file:///home/emsenn/org/src/teraum/reference-books/history-of-the-collapse.html"><i>The History of the Collapse</i></a></li>
+<li class="off"><code>[&#xa0;]</code> The Gloaming in
+<ul class="org-ul">
+<li class="off"><code>[&#xa0;]</code> <a href="file:///home/emsenn/org/src/teraum/reference-books/geography-and-settlements-of-the-gloaming.html"><i>Geography and Settlements of the Gloaming</i></a></li>
+<li class="off"><code>[&#xa0;]</code> <a href="file:///home/emsenn/org/src/teraum/reference-books/atlas-of-teraum.html"><i>Atlas of Teraum</i></a></li>
+</ul></li>
+<li class="off"><code>[&#xa0;]</code> Goblins in
+<ul class="org-ul">
+<li class="off"><code>[&#xa0;]</code> <a href="file:///home/emsenn/org/src/teraum/reference-books/goblin-culture-and-physiology.html"><i>Goblin Culture and Physiology</i></a></li>
+<li class="off"><code>[&#xa0;]</code> <a href="file:///home/emsenn/org/src/teraum/reference-books/geography-and-settlements-of-the-gloaming.html"><i>Geography and Settlements of the Gloaming</i></a></li>
+</ul></li>
+<li class="off"><code>[&#xa0;]</code> Green Delta in
+<ul class="org-ul">
+<li class="off"><code>[&#xa0;]</code> <a href="file:///home/emsenn/org/src/teraum/reference-books/atlas-of-the-green-delta.html"><i>Atlas of the Green Delta</i></a></li>
+<li class="off"><code>[&#xa0;]</code> <a href="file:///home/emsenn/org/src/teraum/reference-books/atlas-of-teraum.html"><i>Atlas of Teraum</i></a></li>
+</ul></li>
+<li class="off"><code>[&#xa0;]</code> Guildhouse in <a href="file:///home/emsenn/org/src/teraum/reference-books/belcaer-gazetteer.html"><i>Belcaer Gazetteer</i></a></li>
+<li class="off"><code>[&#xa0;]</code> Harbrook, Abeth in <a href="file:///home/emsenn/org/src/teraum/reference-books/belcaer-gazetteer.html"><i>Belcaer Gazetteer</i></a></li>
+<li class="off"><code>[&#xa0;]</code> Jacob's Folly in <a href="file:///home/emsenn/org/src/teraum/reference-books/geography-and-settlements-of-the-gloaming.html"><i>Geography and Settlements of the Gloaming</i></a></li>
+<li class="off"><code>[&#xa0;]</code> Unseen Sea in
+<ul class="org-ul">
+<li class="off"><code>[&#xa0;]</code> <a href="file:///home/emsenn/org/src/teraum/reference-books/atlas-of-teraum.html"><i>Atlas of Teraum</i></a></li>
+<li class="off"><code>[&#xa0;]</code> <a href="file:///home/emsenn/org/src/teraum/reference-books/atlas-of-the-unseen-sea.html"><i>Atlas of the Unseen Sea</i></a></li>
+</ul></li>
+</ul></li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div id="outline-container-org71bd930" class="outline-3">
+<h3 id="org71bd930"><span class="todo PLANNING">PLANNING</span> Release <a href="file:///home/emsenn/org/projects/teraum/src/adventures/celson-estate.html"><i>The Celson Estate</i></a></h3>
+<div class="outline-text-3" id="text-org71bd930">
+<ul class="org-ul">
+<li>State "PLANNING"   from              <span class="timestamp-wrapper"><span class="timestamp">[2019-05-23 Thu 12:25]</span></span></li>
+</ul>
+</div>
+<div id="outline-container-orgf0e9737" class="outline-4">
+<h4 id="orgf0e9737"><span class="todo PLANNING">PLANNING</span> Write <a href="file:///home/emsenn/org/projects/teraum/src/adventures/celson-estate.html"><i>The Celson Estate</i></a></h4>
+<div class="outline-text-4" id="text-orgf0e9737">
+<ul class="org-ul">
+<li>State "PLANNING"   from              <span class="timestamp-wrapper"><span class="timestamp">[2019-05-23 Thu 12:25]</span></span></li>
+</ul>
+</div>
+</div>
+</div>
+</section>
+<section id="outline-container-orgbf6e233" class="outline-2">
+<h2 id="orgbf6e233">Write reference books </h2>
+<div class="outline-text-2" id="text-orgbf6e233">
+</div>
+<div id="outline-container-orgb7c15b5" class="outline-3">
+<h3 id="orgb7c15b5"><span class="todo PLANNING">PLANNING</span> Release <a href="file:///home/emsenn/org/projects/teraum/src/reference-books/astar-ward-gazetteer.html"><i>Astar Ward Gazetteer</i></a></h3>
+<div class="outline-text-3" id="text-orgb7c15b5">
+</div>
+<div id="outline-container-orgedab129" class="outline-4">
+<h4 id="orgedab129"><span class="todo PLANNING">PLANNING</span> Write <a href="file:///home/emsenn/org/projects/teraum/src/reference-books/astar-ward-gazetteer.html"><i>Astar Ward Gazetteer</i></a></h4>
+<div class="outline-text-4" id="text-orgedab129">
+<ul class="org-ul">
+<li>State "PLANNING"   from              <span class="timestamp-wrapper"><span class="timestamp">[2019-05-23 Thu 11:46]</span></span></li>
+<li>State "PLANNING"   from              <span class="timestamp-wrapper"><span class="timestamp">[2019-05-23 Thu 11:40]</span></span></li>
+<li>State "PLANNING"   from              <span class="timestamp-wrapper"><span class="timestamp">[2019-05-23 Thu 11:40]</span></span></li>
+</ul>
+</div>
+</div>
+</div>
+<div id="outline-container-org3418049" class="outline-3">
+<h3 id="org3418049"><span class="todo PLANNING">PLANNING</span> Release <a href="file:///home/emsenn/org/projects/teraum/src/reference-books/atlas-of-ack.html"><i>Atlas of Ack</i></a></h3>
+<div class="outline-text-3" id="text-org3418049">
+<ul class="org-ul">
+<li>State "PLANNING"   from              <span class="timestamp-wrapper"><span class="timestamp">[2019-05-22 Wed 16:44]</span></span></li>
+</ul>
+</div>
+<div id="outline-container-org5065ee8" class="outline-4">
+<h4 id="org5065ee8"><span class="todo READY">READY</span> Write  <a href="file:///home/emsenn/org/projects/teraum/src/reference-books/atlas-of-ack.html"><i>Atlas of Ack</i></a></h4>
+<div class="outline-text-4" id="text-org5065ee8">
+<ul class="org-ul">
+<li>State "READY"      from "PLANNING"   <span class="timestamp-wrapper"><span class="timestamp">[2019-05-22 Wed 16:44]</span></span></li>
+<li>State "PLANNING"   from              <span class="timestamp-wrapper"><span class="timestamp">[2019-05-22 Wed 16:44]</span></span></li>
+</ul>
+<p>
+<span class="timestamp-wrapper">
+<span class="timestamp-kwd">CLOCK:</span> <span class="timestamp">[2019-05-22 Wed 16:28]--[2019-05-22 Wed 16:45] </span> <span class="timestamp">(0:17)</span>
+</span>
+</p>
+</div>
+</div>
+</div>
+<div id="outline-container-orgafba611" class="outline-3">
+<h3 id="orgafba611"><span class="todo PLANNING">PLANNING</span> Release <a href="file:///home/emsenn/org/projects/teraum/src/reference-books/belcaer-gazetteer.html"><i>Belcaer Gazetteer</i></a></h3>
+<div class="outline-text-3" id="text-orgafba611">
+</div>
+<div id="outline-container-org01b82ef" class="outline-4">
+<h4 id="org01b82ef"><span class="todo READY">READY</span> Write <a href="file:///home/emsenn/org/projects/teraum/src/reference-books/belcaer-gazetteer.html"><i>Belcaer Gazetteer</i></a></h4>
+<div class="outline-text-4" id="text-org01b82ef">
+<p>
+<span class="timestamp-wrapper">
+<span class="timestamp-kwd">CLOCK:</span> <span class="timestamp">[2019-05-22 Wed 18:05]--[2019-05-22 Wed 19:19] </span> <span class="timestamp">(1:14)</span>
+</span>
+</p>
+<p>
+<span class="timestamp-wrapper">
+<span class="timestamp-kwd">CLOCK:</span> <span class="timestamp">[2019-05-22 Wed 16:45]--[2019-05-22 Wed 17:24] </span> <span class="timestamp">(0:39)</span>
+</span>
+</p>
+<ul class="org-ul">
+<li>State "READY"      from "PLANNING"   <span class="timestamp-wrapper"><span class="timestamp">[2019-05-22 Wed 16:45]</span></span></li>
+<li>State "PLANNING"   from              <span class="timestamp-wrapper"><span class="timestamp">[2019-05-22 Wed 16:45]</span></span></li>
+</ul>
+</div>
+</div>
+</div>
+
+<div id="outline-container-org11e9fe1" class="outline-3">
+<h3 id="org11e9fe1"><span class="todo PLANNING">PLANNING</span> Release <a href="file:///home/emsenn/org/projects/teraum/src/reference-books/bellybrush-gazetteer.html"><i>Bellybrush Gazetteer</i></a></h3>
+<div class="outline-text-3" id="text-org11e9fe1">
+</div>
+<div id="outline-container-orgdbcab85" class="outline-4">
+<h4 id="orgdbcab85"><span class="todo PLANNING">PLANNING</span> Write <a href="file:///home/emsenn/org/projects/teraum/src/reference-books/bellybrush-gazetteer.html"><i>Bellybrush Gazetteer</i></a></h4>
+<div class="outline-text-4" id="text-orgdbcab85">
+<ul class="org-ul">
+<li>State "PLANNING"   from "READY"      <span class="timestamp-wrapper"><span class="timestamp">[2019-05-23 Thu 22:33]</span></span></li>
+<li>State "READY"      from "PLANNING"   <span class="timestamp-wrapper"><span class="timestamp">[2019-05-22 Wed 16:45]</span></span></li>
+<li>State "PLANNING"   from              <span class="timestamp-wrapper"><span class="timestamp">[2019-05-22 Wed 16:45]</span></span></li>
+</ul>
+</div>
+<div id="outline-container-org86e5b8b" class="outline-5">
+<h5 id="org86e5b8b"><span class="todo READY">READY</span> Outline <a href="file:///home/emsenn/org/projects/teraum/src/reference-books/bellybrush-gazetteer.html"><i>Bellybrush Gazetteer</i></a></h5>
+<div class="outline-text-5" id="text-org86e5b8b">
+<p>
+<span class="timestamp-wrapper">
+<span class="timestamp-kwd">CLOCK:</span> <span class="timestamp">[2019-05-23 Thu 22:33]--[2019-05-23 Thu 22:53] </span> <span class="timestamp">(0:20)</span>
+</span>
+</p>
+<ul class="org-ul">
+<li>State "READY"      from "PLANNING"   <span class="timestamp-wrapper"><span class="timestamp">[2019-05-23 Thu 22:33]</span></span></li>
+<li>State "PLANNING"   from              <span class="timestamp-wrapper"><span class="timestamp">[2019-05-23 Thu 22:33]</span></span></li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+<div id="outline-container-org7313474" class="outline-3">
+<h3 id="org7313474"><span class="todo PLANNING">PLANNING</span> Release <a href="file:///home/emsenn/org/projects/teraum/src/reference-books/catalog-of-magic-items.html"><i>Catalog of Magic Items</i></a></h3>
+<div class="outline-text-3" id="text-org7313474">
+<ul class="org-ul">
+<li>State "PLANNING"   from              <span class="timestamp-wrapper"><span class="timestamp">[2019-05-23 Thu 11:40]</span></span></li>
+</ul>
+</div>
+<div id="outline-container-org129b387" class="outline-4">
+<h4 id="org129b387"><span class="todo PLANNING">PLANNING</span> Write <a href="file:///home/emsenn/org/projects/teraum/src/reference-books/catalog-of-magic-items.html"><i>Catalog of Magic Items</i></a></h4>
+<div class="outline-text-4" id="text-org129b387">
+<ul class="org-ul">
+<li>State "PLANNING"   from              <span class="timestamp-wrapper"><span class="timestamp">[2019-05-23 Thu 11:40]</span></span></li>
+</ul>
+</div>
+</div>
+</div>
+<div id="outline-container-orgcc31bc0" class="outline-3">
+<h3 id="orgcc31bc0"><span class="todo PLANNING">PLANNING</span> Release <a href="file:///home/emsenn/org/projects/teraum/src/reference-books/catalog-of-mundane-things.html"><i>Catalog of Mundane Things</i></a></h3>
+<div class="outline-text-3" id="text-orgcc31bc0">
+<ul class="org-ul">
+<li>State "PLANNING"   from              <span class="timestamp-wrapper"><span class="timestamp">[2019-05-23 Thu 11:40]</span></span></li>
+</ul>
+</div>
+<div id="outline-container-orgfa44f74" class="outline-4">
+<h4 id="orgfa44f74"><span class="todo PLANNING">PLANNING</span> Write <a href="file:///home/emsenn/org/projects/teraum/src/reference-books/catalog-of-mundane-things.html"><i>Catalog of Mundane Things</i></a></h4>
+<div class="outline-text-4" id="text-orgfa44f74">
+<ul class="org-ul">
+<li>State "PLANNING"   from              <span class="timestamp-wrapper"><span class="timestamp">[2019-05-23 Thu 11:40]</span></span></li>
+</ul>
+</div>
+</div>
+</div>
+<div id="outline-container-orgf8ea495" class="outline-3">
+<h3 id="orgf8ea495"><span class="todo PLANNING">PLANNING</span> Release <a href="file:///home/emsenn/org/projects/teraum/src/reference-books/ellon-county-gazetteer.html"><i>Ellon County Gazetteer</i></a></h3>
+<div class="outline-text-3" id="text-orgf8ea495">
+<ul class="org-ul">
+<li>State "PLANNING"   from              <span class="timestamp-wrapper"><span class="timestamp">[2019-05-23 Thu 13:39]</span></span></li>
+</ul>
+</div>
+<div id="outline-container-org323e01c" class="outline-4">
+<h4 id="org323e01c"><span class="todo PLANNING">PLANNING</span> Write <a href="file:///home/emsenn/org/projects/teraum/src/reference-books/ellon-county-gazetteer.html"><i>Ellon County Gazetteer</i></a></h4>
+<div class="outline-text-4" id="text-org323e01c">
+<ul class="org-ul">
+<li>State "PLANNING"   from              <span class="timestamp-wrapper"><span class="timestamp">[2019-05-23 Thu 13:39]</span></span></li>
+</ul>
+</div>
+</div>
+</div>
+<div id="outline-container-org6eab693" class="outline-3">
+<h3 id="org6eab693"><span class="todo PLANNING">PLANNING</span> Release <a href="file:///home/emsenn/org/projects/teraum/src/reference-books/geography-and-settlements-of-the-central-plains.html"><i>Geography and Settlements of the Central Plains</i></a></h3>
+<div class="outline-text-3" id="text-org6eab693">
+<ul class="org-ul">
+<li>State "PLANNING"   from              <span class="timestamp-wrapper"><span class="timestamp">[2019-05-23 Thu 11:40]</span></span></li>
+</ul>
+</div>
+<div id="outline-container-org6af4ce8" class="outline-4">
+<h4 id="org6af4ce8"><span class="todo PLANNING">PLANNING</span> Write <a href="file:///home/emsenn/org/projects/teraum/src/reference-books/geography-and-settlements-of-the-central-plains.html"><i>Geography and Settlements of the Central Plains</i></a></h4>
+<div class="outline-text-4" id="text-org6af4ce8">
+<ul class="org-ul">
+<li>State "PLANNING"   from              <span class="timestamp-wrapper"><span class="timestamp">[2019-05-23 Thu 11:40]</span></span></li>
+</ul>
+</div>
+</div>
+</div>
+<div id="outline-container-orge358104" class="outline-3">
+<h3 id="orge358104"><span class="todo PLANNING">PLANNING</span> Release <a href="file:///home/emsenn/org/projects/teraum/src/reference-books/geography-and-settlements-of-the-gloaming.html"><i>Geography and Settlements of the Gloaming</i></a></h3>
+<div class="outline-text-3" id="text-orge358104">
+<ul class="org-ul">
+<li>State "PLANNING"   from              <span class="timestamp-wrapper"><span class="timestamp">[2019-05-23 Thu 11:40]</span></span></li>
+</ul>
+</div>
+<div id="outline-container-orga8f27da" class="outline-4">
+<h4 id="orga8f27da"><span class="todo PLANNING">PLANNING</span> Write <a href="file:///home/emsenn/org/projects/teraum/src/reference-books/geography-and-settlements-of-the-gloaming.html"><i>Geography and Settlements of the Gloaming</i></a></h4>
+<div class="outline-text-4" id="text-orga8f27da">
+<ul class="org-ul">
+<li>State "PLANNING"   from              <span class="timestamp-wrapper"><span class="timestamp">[2019-05-23 Thu 11:40]</span></span></li>
+</ul>
+</div>
+</div>
+<div id="outline-container-orgae00867" class="outline-4">
+<h4 id="orgae00867"><span class="todo PLANNING">PLANNING</span> Write <a href="file:///home/emsenn/org/projects/teraum/src/reference-books/geography-and-settlements-of-the-green-delta.html"><i>Geography and Settlements of the Green Delta</i></a></h4>
+<div class="outline-text-4" id="text-orgae00867">
+<ul class="org-ul">
+<li>State "PLANNING"   from              <span class="timestamp-wrapper"><span class="timestamp">[2019-05-23 Thu 11:40]</span></span></li>
+</ul>
+</div>
+</div>
+</div>
+<div id="outline-container-orgdc6d54b" class="outline-3">
+<h3 id="orgdc6d54b"><span class="todo PLANNING">PLANNING</span> Release <a href="file:///home/emsenn/org/projects/teraum/src/reference-books/geography-and-settlements-of-the-green-delta.html"><i>Geography and Settlements of the Green Delta</i></a></h3>
+<div class="outline-text-3" id="text-orgdc6d54b">
+<ul class="org-ul">
+<li>State "PLANNING"   from              <span class="timestamp-wrapper"><span class="timestamp">[2019-05-23 Thu 11:40]</span></span></li>
+</ul>
+</div>
+<div id="outline-container-org185cebd" class="outline-4">
+<h4 id="org185cebd"><span class="todo PLANNING">PLANNING</span> Write <a href="file:///home/emsenn/org/projects/teraum/src/reference-books/geography-and-settlements-of-the-green-delta.html"><i>Geography and Settlements of the Green Delta</i></a></h4>
+<div class="outline-text-4" id="text-org185cebd">
+<ul class="org-ul">
+<li>State "PLANNING"   from              <span class="timestamp-wrapper"><span class="timestamp">[2019-05-23 Thu 11:40]</span></span></li>
+</ul>
+</div>
+</div>
+</div>
+<div id="outline-container-orged403e6" class="outline-3">
+<h3 id="orged403e6"><span class="todo PLANNING">PLANNING</span> Release <a href="file:///home/emsenn/org/projects/teraum/src/reference-books/geography-and-settlements-of-the-unseen-sea.html"><i>Geography and Settlements of the Unseen Sea</i></a></h3>
+<div class="outline-text-3" id="text-orged403e6">
+<ul class="org-ul">
+<li>State "PLANNING"   from              <span class="timestamp-wrapper"><span class="timestamp">[2019-05-23 Thu 11:40]</span></span></li>
+</ul>
+</div>
+<div id="outline-container-org2de5a8d" class="outline-4">
+<h4 id="org2de5a8d"><span class="todo PLANNING">PLANNING</span> Write <a href="file:///home/emsenn/org/projects/teraum/src/reference-books/geography-and-settlements-of-the-unseen-sea.html"><i>Geography and Settlements of the Unseen Sea</i></a></h4>
+<div class="outline-text-4" id="text-org2de5a8d">
+<ul class="org-ul">
+<li>State "PLANNING"   from              <span class="timestamp-wrapper"><span class="timestamp">[2019-05-23 Thu 11:40]</span></span></li>
+</ul>
+</div>
+</div>
+<div id="outline-container-orgc68a8c3" class="outline-4">
+<h4 id="orgc68a8c3"><span class="todo PLANNING">PLANNING</span> Write <a href="file:///home/emsenn/org/projects/teraum/src/reference-books/history-of-the-reconstruction-era.html"><i>History of the Reconstruction Era</i></a></h4>
+<div class="outline-text-4" id="text-orgc68a8c3">
+<ul class="org-ul">
+<li>State "PLANNING"   from              <span class="timestamp-wrapper"><span class="timestamp">[2019-05-23 Thu 11:40]</span></span></li>
+</ul>
+</div>
+<div id="outline-container-orgddf6f89" class="outline-5">
+<h5 id="orgddf6f89"><span class="todo PLANNING">PLANNING</span> Write <a href="file:///home/emsenn/org/projects/teraum/src/reference-books/human-culture-and-physiology.html"><i>Human Culture and Physiology</i></a></h5>
+<div class="outline-text-5" id="text-orgddf6f89">
+<ul class="org-ul">
+<li>State "PLANNING"   from              <span class="timestamp-wrapper"><span class="timestamp">[2019-05-23 Thu 11:40]</span></span></li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+<div id="outline-container-orgeab3c94" class="outline-3">
+<h3 id="orgeab3c94"><span class="todo PLANNING">PLANNING</span> Release <a href="file:///home/emsenn/org/projects/teraum/src/reference-books/geography-and-settlements-of-the-widewoods.html"><i>Geography and Settlements of the Widewoods</i></a></h3>
+<div class="outline-text-3" id="text-orgeab3c94">
+<ul class="org-ul">
+<li>State "PLANNING"   from              <span class="timestamp-wrapper"><span class="timestamp">[2019-05-23 Thu 12:18]</span></span></li>
+</ul>
+</div>
+<div id="outline-container-org02f05d6" class="outline-4">
+<h4 id="org02f05d6"><span class="todo PLANNING">PLANNING</span> Write <a href="file:///home/emsenn/org/projects/teraum/src/reference-books/geography-and-settlements-of-the-widewoods.html"><i>Geography and Settlements of the Widewoods</i></a></h4>
+</div>
+</div>
+<div id="outline-container-org4dd6209" class="outline-3">
+<h3 id="org4dd6209"><span class="todo PLANNING">PLANNING</span> Release <a href="file:///home/emsenn/org/projects/teraum/src/reference-books/helmets-dent-gazetteer.html"><i>Helmet's Dent Gazetteer</i></a></h3>
+<div class="outline-text-3" id="text-org4dd6209">
+<ul class="org-ul">
+<li>State "PLANNING"   from              <span class="timestamp-wrapper"><span class="timestamp">[2019-05-23 Thu 13:34]</span></span></li>
+</ul>
+</div>
+<div id="outline-container-org1d137d2" class="outline-4">
+<h4 id="org1d137d2"><span class="todo PLANNING">PLANNING</span> Write <a href="file:///home/emsenn/org/projects/teraum/src/reference-books/helmets-dent-gazetteer.html"><i>Helmet's Dent Gazetteer</i></a></h4>
+</div>
+</div>
+<div id="outline-container-org0cb3ef7" class="outline-3">
+<h3 id="org0cb3ef7"><span class="todo PLANNING">PLANNING</span> Release <a href="file:///home/emsenn/org/projects/teraum/src/reference-books/magic-creatures-of-teraum.html"><i>Magic Creatures of Teraum</i></a></h3>
+<div class="outline-text-3" id="text-org0cb3ef7">
+<ul class="org-ul">
+<li>State "PLANNING"   from              <span class="timestamp-wrapper"><span class="timestamp">[2019-05-23 Thu 11:40]</span></span></li>
+</ul>
+</div>
+<div id="outline-container-orgfd07ffb" class="outline-4">
+<h4 id="orgfd07ffb"><span class="todo PLANNING">PLANNING</span> Write <a href="file:///home/emsenn/org/projects/teraum/src/reference-books/magic-creatures-of-teraum.html"><i>Magic Creatures of Teraum</i></a></h4>
+<div class="outline-text-4" id="text-orgfd07ffb">
+<ul class="org-ul">
+<li>State "PLANNING"   from              <span class="timestamp-wrapper"><span class="timestamp">[2019-05-23 Thu 11:40]</span></span></li>
+</ul>
+</div>
+</div>
+</div>
+<div id="outline-container-org7664e79" class="outline-3">
+<h3 id="org7664e79"><span class="todo PLANNING">PLANNING</span> Release <a href="file:///home/emsenn/org/projects/teraum/src/reference-books/timeline.html"><i>Timeline</i></a></h3>
+<div class="outline-text-3" id="text-org7664e79">
+<ul class="org-ul">
+<li>State "PLANNING"   from              <span class="timestamp-wrapper"><span class="timestamp">[2019-05-23 Thu 11:40]</span></span></li>
+</ul>
+</div>
+<div id="outline-container-orgcc211a9" class="outline-4">
+<h4 id="orgcc211a9"><span class="todo PLANNING">PLANNING</span> Write <a href="file:///home/emsenn/org/projects/teraum/src/reference-books/timeline.html"><i>Timeline</i></a></h4>
+<div class="outline-text-4" id="text-orgcc211a9">
+<ul class="org-ul">
+<li>State "PLANNING"   from              <span class="timestamp-wrapper"><span class="timestamp">[2019-05-23 Thu 11:40]</span></span></li>
+</ul>
+</div>
+</div>
+</div>
+<div id="outline-container-org8337238" class="outline-3">
+<h3 id="org8337238"><span class="todo PLANNING">PLANNING</span> Release <a href="file:///home/emsenn/org/projects/teraum/src/reference-books/writing-teraum.html"><i>Writing Teraum</i></a></h3>
+<div class="outline-text-3" id="text-org8337238">
+</div>
+<div id="outline-container-org6db8c24" class="outline-4">
+<h4 id="org6db8c24"><span class="todo PLANNING">PLANNING</span> Write <a href="file:///home/emsenn/org/projects/teraum/src/reference-books/writing-teraum.html"><i>Writing Teraum</i></a></h4>
+</div>
+</div>
+</section>
+</div>
+<div id="postamble" class="status">
+<p class="author">Author: emsenn</p>
+<p class="email">Email: <a href="mailto:emsenn">emsenn</a></p>
+<p class="date">Created: 2019-05-23 Thu 22:57</p>
+<p class="validation"><a href="http://validator.w3.org/check?uri=referer">Validate</a></p>
+</div>
+</body>
+</html>

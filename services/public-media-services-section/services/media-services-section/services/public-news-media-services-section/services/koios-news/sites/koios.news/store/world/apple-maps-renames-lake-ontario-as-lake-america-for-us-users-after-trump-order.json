@@ -1,0 +1,69 @@
+{
+  "subject": "apple-maps-renames-lake-ontario-as-lake-america-for-us-users-after-trump-order",
+  "claims": [
+    {
+      "id": "title",
+      "proposition": {
+        "predicate": "title",
+        "object": "Apple Maps renames Lake Ontario as ‘Lake America’ for US users after Trump order"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "world",
+        "citation": "https://www.theguardian.com/technology/2026/sep/02/apple-maps-renames-lake-ontario-lake-america"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "url",
+      "proposition": {
+        "predicate": "url",
+        "object": "https://www.theguardian.com/technology/2026/sep/02/apple-maps-renames-lake-ontario-lake-america"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "world",
+        "citation": "https://www.theguardian.com/technology/2026/sep/02/apple-maps-renames-lake-ontario-lake-america"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "summary",
+      "proposition": {
+        "predicate": "summary",
+        "object": "<p>Tech company submits to controversial Trump order to rename body of water amid US trade spat with Canada</p><p>Apple has renamed Lake Ontario as “Lake America” for US users of its Maps app, after an <a href=\"https://www.theguardian.com/us-news/2026/aug/27/trump-renames-lake-ontario-america\">executive order</a> from Donald Trump to change the name of the Great Lake amid his trade spat with Canada.</p><p>The Apple Maps app now displays the controversial new name for the lake, which sits between New York state and the Canadian province of Ontario, for users in the US. Apple users outside the country will still see the Lake Ontario name.</p> <a href=\"https://www.theguardian.com/technology/2026/sep/02/apple-maps-renames-lake-ontario-lake-america\">Continue reading...</a>"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "world",
+        "citation": "https://www.theguardian.com/technology/2026/sep/02/apple-maps-renames-lake-ontario-lake-america"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "published",
+      "proposition": {
+        "predicate": "published",
+        "object": "Wed, 02 Sep 2026 21:15:12 GMT"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "world",
+        "citation": "https://www.theguardian.com/technology/2026/sep/02/apple-maps-renames-lake-ontario-lake-america"
+      },
+      "status": "supported"
+    }
+  ]
+}

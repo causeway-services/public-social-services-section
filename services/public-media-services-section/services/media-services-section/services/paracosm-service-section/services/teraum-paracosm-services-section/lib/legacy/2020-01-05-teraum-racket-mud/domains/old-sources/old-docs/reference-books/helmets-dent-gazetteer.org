@@ -1,0 +1,18 @@
+#+SETUPFILE: ./setup.inc
+#+TITLE: Helmet's Dent Gazetteer
+#+EXPORT_FILE_NAME: ../../pub/reference-books/helmets-dent-gazetteer
+* DRAFT Introduction
+{{{document-isdraft}}}
+
+{{{document-hasproject}}}
+* DRAFT Helmet's Dent Gazetteer
+** DRAFT Notable Organizations and People
+*** DRAFT Nash Celson
+    :PROPERTIES:
+    :CUSTOM_ID: nash-celson
+    :END:
+*/Nash Celson/* is a con artist living in the town.
+* DRAFT Supplements
+** Index
+- Helmet's Dent ::
+- Celson, Nash ::

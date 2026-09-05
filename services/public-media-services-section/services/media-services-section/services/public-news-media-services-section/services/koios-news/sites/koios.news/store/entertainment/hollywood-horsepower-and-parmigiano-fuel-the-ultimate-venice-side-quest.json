@@ -1,0 +1,69 @@
+{
+  "subject": "hollywood-horsepower-and-parmigiano-fuel-the-ultimate-venice-side-quest",
+  "claims": [
+    {
+      "id": "title",
+      "proposition": {
+        "predicate": "title",
+        "object": "Hollywood, Horsepower and Parmigiano Fuel the Ultimate Venice Side Quest"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "entertainment",
+        "citation": "https://www.hollywoodreporter.com/lifestyle/lifestyle-news/venice-side-quest-trips-hollywood-cars-parmigiano-1236685631/"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "url",
+      "proposition": {
+        "predicate": "url",
+        "object": "https://www.hollywoodreporter.com/lifestyle/lifestyle-news/venice-side-quest-trips-hollywood-cars-parmigiano-1236685631/"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "entertainment",
+        "citation": "https://www.hollywoodreporter.com/lifestyle/lifestyle-news/venice-side-quest-trips-hollywood-cars-parmigiano-1236685631/"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "summary",
+      "proposition": {
+        "predicate": "summary",
+        "object": "Ninety minutes from Venice, the locations behind Ferrari, Lamborghini and Maserati: The Brothers intersect with Chef Massimo Bottura, aged balsamic, cheese and Lambrusco."
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "entertainment",
+        "citation": "https://www.hollywoodreporter.com/lifestyle/lifestyle-news/venice-side-quest-trips-hollywood-cars-parmigiano-1236685631/"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "published",
+      "proposition": {
+        "predicate": "published",
+        "object": "Wed, 02 Sep 2026 18:59:00 +0000"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "entertainment",
+        "citation": "https://www.hollywoodreporter.com/lifestyle/lifestyle-news/venice-side-quest-trips-hollywood-cars-parmigiano-1236685631/"
+      },
+      "status": "supported"
+    }
+  ]
+}

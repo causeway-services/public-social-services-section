@@ -1,0 +1,69 @@
+{
+  "subject": "private-equity-keeps-picking-off-london-listed-firms-and-westminster-barely-notices-nils-pratley",
+  "claims": [
+    {
+      "id": "title",
+      "proposition": {
+        "predicate": "title",
+        "object": "Private equity keeps picking off London-listed firms – and Westminster barely notices | Nils Pratley"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "economy",
+        "citation": "https://www.theguardian.com/business/nils-pratley-on-finance/2026/sep/01/bodycote-private-equity-london-takeover-spree-politicians-ignore"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "url",
+      "proposition": {
+        "predicate": "url",
+        "object": "https://www.theguardian.com/business/nils-pratley-on-finance/2026/sep/01/bodycote-private-equity-london-takeover-spree-politicians-ignore"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "economy",
+        "citation": "https://www.theguardian.com/business/nils-pratley-on-finance/2026/sep/01/bodycote-private-equity-london-takeover-spree-politicians-ignore"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "summary",
+      "proposition": {
+        "predicate": "summary",
+        "object": "<p>Bodycote is the latest FTSE 250 industrial company set to fall to an overseas bidder, despite the government’s talk of ‘reindustrialising’</p><p>The UK is in the business of “reindustrialising”, says the prime minister. If we are, an increasing portion of the activity will be under foreign ownership. Tuesday brought yet another overseas private equity swoop on a FTSE 250 industrial firm.</p><p>This time it’s the Macclesfield-based Bodycote, which describes itself as “the world’s largest service provider of heat treatment and specialist metallurgical technologies” – think, for example, processes and coatings to toughen jet engine blades. <a href=\"https://www.theguardian.com/business/2026/sep/01/london-stock-exchange-to-lose-three-more-firms-after-takeover-offers\">The buyer is the US buyout firm Veritas for £1.65bn</a> or 940p a share, or £1.85bn including debt. Unless, that is, the rival bidder, CVC, a European private equity firm, comes back for another bite, which the market clearly thinks is a possibility because Bodycote’s shares closed at 955p.</p> <a href=\"https://www.theguardian.com/business/nils-pratley-on-finance/2026/sep/01/bodycote-private-equity-london-takeover-spree-politicians-ignore\">Continue reading...</a>"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "economy",
+        "citation": "https://www.theguardian.com/business/nils-pratley-on-finance/2026/sep/01/bodycote-private-equity-london-takeover-spree-politicians-ignore"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "published",
+      "proposition": {
+        "predicate": "published",
+        "object": "Tue, 01 Sep 2026 16:56:59 GMT"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "economy",
+        "citation": "https://www.theguardian.com/business/nils-pratley-on-finance/2026/sep/01/bodycote-private-equity-london-takeover-spree-politicians-ignore"
+      },
+      "status": "supported"
+    }
+  ]
+}

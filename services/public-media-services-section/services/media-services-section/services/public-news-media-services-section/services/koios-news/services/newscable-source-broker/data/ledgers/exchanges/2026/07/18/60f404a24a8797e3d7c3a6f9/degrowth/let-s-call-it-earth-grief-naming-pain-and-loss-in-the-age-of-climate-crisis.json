@@ -1,0 +1,69 @@
+{
+  "subject": "let-s-call-it-earth-grief-naming-pain-and-loss-in-the-age-of-climate-crisis",
+  "claims": [
+    {
+      "id": "title",
+      "proposition": {
+        "predicate": "title",
+        "object": "‘Let’s call it earth grief’: Naming pain and loss in the age of climate crisis"
+      },
+      "time": {
+        "asserted": "2026-07-18T08:15:59.494Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "degrowth",
+        "citation": "https://www.resilience.org/stories/2026-07-10/lets-call-it-earth-grief-naming-pain-and-loss-in-the-age-of-climate-crisis/"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "url",
+      "proposition": {
+        "predicate": "url",
+        "object": "https://www.resilience.org/stories/2026-07-10/lets-call-it-earth-grief-naming-pain-and-loss-in-the-age-of-climate-crisis/"
+      },
+      "time": {
+        "asserted": "2026-07-18T08:15:59.494Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "degrowth",
+        "citation": "https://www.resilience.org/stories/2026-07-10/lets-call-it-earth-grief-naming-pain-and-loss-in-the-age-of-climate-crisis/"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "summary",
+      "proposition": {
+        "predicate": "summary",
+        "object": "For decades, climate professionals and the informed public have been living with the disturbing knowledge of what is coming. Now, as the impacts of climate predictions begin to come true, we live with the devastating reality of what is happening, and we feel it deeply. This sorrow deserves a name."
+      },
+      "time": {
+        "asserted": "2026-07-18T08:15:59.494Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "degrowth",
+        "citation": "https://www.resilience.org/stories/2026-07-10/lets-call-it-earth-grief-naming-pain-and-loss-in-the-age-of-climate-crisis/"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "published",
+      "proposition": {
+        "predicate": "published",
+        "object": "Fri, 10 Jul 2026 08:00:43 +0000"
+      },
+      "time": {
+        "asserted": "2026-07-18T08:15:59.494Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "degrowth",
+        "citation": "https://www.resilience.org/stories/2026-07-10/lets-call-it-earth-grief-naming-pain-and-loss-in-the-age-of-climate-crisis/"
+      },
+      "status": "supported"
+    }
+  ]
+}

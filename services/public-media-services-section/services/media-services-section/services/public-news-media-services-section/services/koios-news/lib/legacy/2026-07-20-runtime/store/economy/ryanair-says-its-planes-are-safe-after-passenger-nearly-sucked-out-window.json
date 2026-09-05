@@ -1,0 +1,69 @@
+{
+  "subject": "ryanair-says-its-planes-are-safe-after-passenger-nearly-sucked-out-window",
+  "claims": [
+    {
+      "id": "title",
+      "proposition": {
+        "predicate": "title",
+        "object": "Ryanair says its planes are safe after passenger nearly sucked out window"
+      },
+      "time": {
+        "asserted": "2026-07-20T10:18:45.791Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "economy",
+        "citation": "https://www.theguardian.com/business/2026/jul/20/ryanair-says-planes-safe-passenger-nearly-sucked-out-window"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "url",
+      "proposition": {
+        "predicate": "url",
+        "object": "https://www.theguardian.com/business/2026/jul/20/ryanair-says-planes-safe-passenger-nearly-sucked-out-window"
+      },
+      "time": {
+        "asserted": "2026-07-20T10:18:45.791Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "economy",
+        "citation": "https://www.theguardian.com/business/2026/jul/20/ryanair-says-planes-safe-passenger-nearly-sucked-out-window"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "summary",
+      "proposition": {
+        "predicate": "summary",
+        "object": "<p>Airline adds that it has been in touch with family and reports strong summer bookings after profit slump</p><ul><li><p><a href=\"https://www.theguardian.com/business/live/2026/jul/20/oil-price-rises-us-iran-strikes-ryanair-lower-fares-summer-economy-latest-news-updates\"><strong>Business live – latest updates</strong></a></p></li></ul><p>Ryanair has moved to reassure travellers that its planes are safe after a passenger was saved from being <a href=\"https://www.theguardian.com/business/2026/jul/10/ryanair-passenger-almost-sucked-out-of-shattered-window-during-flight\">sucked out of a window mid-flight</a> and said it has been in touch with his family.</p><p>This month, Ljubisa Karović was sucked out headfirst after an engine failure resulted in parts smashing an acrylic window during a flight from Thessaloniki in Greece to Memmingen near Munich in Germany.</p> <a href=\"https://www.theguardian.com/business/2026/jul/20/ryanair-says-planes-safe-passenger-nearly-sucked-out-window\">Continue reading...</a>"
+      },
+      "time": {
+        "asserted": "2026-07-20T10:18:45.791Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "economy",
+        "citation": "https://www.theguardian.com/business/2026/jul/20/ryanair-says-planes-safe-passenger-nearly-sucked-out-window"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "published",
+      "proposition": {
+        "predicate": "published",
+        "object": "Mon, 20 Jul 2026 09:52:47 GMT"
+      },
+      "time": {
+        "asserted": "2026-07-20T10:18:45.791Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "economy",
+        "citation": "https://www.theguardian.com/business/2026/jul/20/ryanair-says-planes-safe-passenger-nearly-sucked-out-window"
+      },
+      "status": "supported"
+    }
+  ]
+}

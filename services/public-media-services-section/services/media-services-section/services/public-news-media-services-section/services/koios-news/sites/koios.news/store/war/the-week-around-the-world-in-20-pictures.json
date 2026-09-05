@@ -1,0 +1,69 @@
+{
+  "subject": "the-week-around-the-world-in-20-pictures",
+  "claims": [
+    {
+      "id": "title",
+      "proposition": {
+        "predicate": "title",
+        "object": "The week around the world in 20 pictures"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "war",
+        "citation": "https://www.theguardian.com/artanddesign/gallery/2026/aug/28/the-week-around-the-world-in-20-pictures"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "url",
+      "proposition": {
+        "predicate": "url",
+        "object": "https://www.theguardian.com/artanddesign/gallery/2026/aug/28/the-week-around-the-world-in-20-pictures"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "war",
+        "citation": "https://www.theguardian.com/artanddesign/gallery/2026/aug/28/the-week-around-the-world-in-20-pictures"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "summary",
+      "proposition": {
+        "predicate": "summary",
+        "object": "<p>The Nepal-Tibet flood disaster, Russian strikes in Kyiv, Israeli settlers in the West Bank and tributes to Dolly Parton – <a href=\"https://www.instagram.com/theguardian20photos/?hl=en-gb\">the past seven days as captured by the world’s leading photojournalists</a></p> <a href=\"https://www.theguardian.com/artanddesign/gallery/2026/aug/28/the-week-around-the-world-in-20-pictures\">Continue reading...</a>"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "war",
+        "citation": "https://www.theguardian.com/artanddesign/gallery/2026/aug/28/the-week-around-the-world-in-20-pictures"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "published",
+      "proposition": {
+        "predicate": "published",
+        "object": "Fri, 28 Aug 2026 18:06:28 GMT"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "war",
+        "citation": "https://www.theguardian.com/artanddesign/gallery/2026/aug/28/the-week-around-the-world-in-20-pictures"
+      },
+      "status": "supported"
+    }
+  ]
+}

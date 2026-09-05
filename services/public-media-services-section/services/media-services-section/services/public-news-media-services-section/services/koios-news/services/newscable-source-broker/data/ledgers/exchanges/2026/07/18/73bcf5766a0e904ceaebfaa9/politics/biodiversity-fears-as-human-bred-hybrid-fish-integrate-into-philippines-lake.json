@@ -1,0 +1,69 @@
+{
+  "subject": "biodiversity-fears-as-human-bred-hybrid-fish-integrate-into-philippines-lake",
+  "claims": [
+    {
+      "id": "title",
+      "proposition": {
+        "predicate": "title",
+        "object": "Biodiversity fears as human-bred hybrid fish integrate into Philippines lake"
+      },
+      "time": {
+        "asserted": "2026-07-18T07:51:40.689Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "politics",
+        "citation": "https://www.theguardian.com/environment/2026/jul/17/biodiversity-fears-flowerhorn-cichlids-philippines-lake"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "url",
+      "proposition": {
+        "predicate": "url",
+        "object": "https://www.theguardian.com/environment/2026/jul/17/biodiversity-fears-flowerhorn-cichlids-philippines-lake"
+      },
+      "time": {
+        "asserted": "2026-07-18T07:51:40.689Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "politics",
+        "citation": "https://www.theguardian.com/environment/2026/jul/17/biodiversity-fears-flowerhorn-cichlids-philippines-lake"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "summary",
+      "proposition": {
+        "predicate": "summary",
+        "object": "<p>Escaped flowerhorn cichlids are causing concern for native species and about parasites capable of infecting humans</p><p>Escaped ornamental aquarium fish have integrated into a local ecosystem in the Philippines, but scientists say they may be threatening the native biodiversity of the lake.</p><p>Flowerhorn cichlids – human-bred hybrid fish prized for their bright-gold colour and prominent head humps – are believed to have escaped from breeding facilities into Lake Sampaloc, which sits in a volcanic crater, during a typhoon.</p> <a href=\"https://www.theguardian.com/environment/2026/jul/17/biodiversity-fears-flowerhorn-cichlids-philippines-lake\">Continue reading...</a>"
+      },
+      "time": {
+        "asserted": "2026-07-18T07:51:40.689Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "politics",
+        "citation": "https://www.theguardian.com/environment/2026/jul/17/biodiversity-fears-flowerhorn-cichlids-philippines-lake"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "published",
+      "proposition": {
+        "predicate": "published",
+        "object": "Fri, 17 Jul 2026 14:00:31 GMT"
+      },
+      "time": {
+        "asserted": "2026-07-18T07:51:40.689Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "politics",
+        "citation": "https://www.theguardian.com/environment/2026/jul/17/biodiversity-fears-flowerhorn-cichlids-philippines-lake"
+      },
+      "status": "supported"
+    }
+  ]
+}

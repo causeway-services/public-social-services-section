@@ -1,0 +1,69 @@
+{
+  "subject": "uk-government-does-not-know-what-datacentres-are-being-used-for-foi-request-shows",
+  "claims": [
+    {
+      "id": "title",
+      "proposition": {
+        "predicate": "title",
+        "object": "UK government does not know what datacentres are being used for, FoI request shows"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "environment",
+        "citation": "https://www.theguardian.com/uk-news/2026/sep/02/uk-datacentres-ai-boom-foi-environment"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "url",
+      "proposition": {
+        "predicate": "url",
+        "object": "https://www.theguardian.com/uk-news/2026/sep/02/uk-datacentres-ai-boom-foi-environment"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "environment",
+        "citation": "https://www.theguardian.com/uk-news/2026/sep/02/uk-datacentres-ai-boom-foi-environment"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "summary",
+      "proposition": {
+        "predicate": "summary",
+        "object": "<p>Lack of information raises fears over environmental impact of the AI boom</p><p>The UK government does not know what the country’s datacentres are being used for despite fears over the growing environmental impact of the AI boom.</p><p>When asked in a freedom of information (FoI) request who was using the largest sites and what for, the Department for Science, Innovation and Technology said it did “not hold the requested information”. The ministry <a href=\"https://www.theguardian.com/politics/2026/jul/18/burnham-plan-to-scrap-technology-department-triggers-backlash\">has since been dissolved</a>.</p> <a href=\"https://www.theguardian.com/uk-news/2026/sep/02/uk-datacentres-ai-boom-foi-environment\">Continue reading...</a>"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "environment",
+        "citation": "https://www.theguardian.com/uk-news/2026/sep/02/uk-datacentres-ai-boom-foi-environment"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "published",
+      "proposition": {
+        "predicate": "published",
+        "object": "Wed, 02 Sep 2026 13:44:54 GMT"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "environment",
+        "citation": "https://www.theguardian.com/uk-news/2026/sep/02/uk-datacentres-ai-boom-foi-environment"
+      },
+      "status": "supported"
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+#+SETUPFILE: ./setup.inc
+#+TITLE: Geography and Settlements of the New World
+#+EXPORT_FILE_NAME: ../../pub/geography-and-settlements-of-the-new-world
+#+INDEX: New World!/Geography and Settlements of the New World/
+#+TOC: headlines 2
+* Introduction
+{{{document-isdraft}}}
+
+{{{document-hasproject}}}
+* Geography and Settlements of the New World
+** History
+*** Discovery by Humans
+    :PROPERTIES:
+    :CUSTOM_ID: discovery-by-humans
+    :END:
+In 72bc, /human/ explorers from the city of /Ack/ reached the /New
+World/, arriving in the /Optic Islands/ before moving to the northern
+part of /Halfling Country/.
+** Areas
+*** Optic Islands
+#+INDEX: Optic Islands!"Optic Islands" in /Geography and Settlements of the New World/
+*** Halfling Country
+#+INDEX: Halfling Country!"Halfling Country" in the /Geography and Settlements of Halfing Country/
+*** Elflands
+** Settlements
+** Landmarks
+** Notable Organizations and People
+* Supplements
+** Index
+- New World ::
+- Optic Islands ::
+- Halfling Country ::
+- Elflands ::

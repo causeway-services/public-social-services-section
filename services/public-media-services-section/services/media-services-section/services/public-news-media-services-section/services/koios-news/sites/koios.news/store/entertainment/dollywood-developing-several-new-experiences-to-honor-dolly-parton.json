@@ -1,0 +1,69 @@
+{
+  "subject": "dollywood-developing-several-new-experiences-to-honor-dolly-parton",
+  "claims": [
+    {
+      "id": "title",
+      "proposition": {
+        "predicate": "title",
+        "object": "Dollywood Developing ‘Several New Experiences’ to Honor Dolly Parton"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "entertainment",
+        "citation": "https://www.rollingstone.com/music/music-news/dolly-parton-new-dollywood-parks-exhibits-memorial-honor-1235620073/"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "url",
+      "proposition": {
+        "predicate": "url",
+        "object": "https://www.rollingstone.com/music/music-news/dolly-parton-new-dollywood-parks-exhibits-memorial-honor-1235620073/"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "entertainment",
+        "citation": "https://www.rollingstone.com/music/music-news/dolly-parton-new-dollywood-parks-exhibits-memorial-honor-1235620073/"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "summary",
+      "proposition": {
+        "predicate": "summary",
+        "object": "Dollywood Parks & Resorts will reflect on the life and legacy of its founder in the wake of her death"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "entertainment",
+        "citation": "https://www.rollingstone.com/music/music-news/dolly-parton-new-dollywood-parks-exhibits-memorial-honor-1235620073/"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "published",
+      "proposition": {
+        "predicate": "published",
+        "object": "Wed, 02 Sep 2026 20:12:17 +0000"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "entertainment",
+        "citation": "https://www.rollingstone.com/music/music-news/dolly-parton-new-dollywood-parks-exhibits-memorial-honor-1235620073/"
+      },
+      "status": "supported"
+    }
+  ]
+}

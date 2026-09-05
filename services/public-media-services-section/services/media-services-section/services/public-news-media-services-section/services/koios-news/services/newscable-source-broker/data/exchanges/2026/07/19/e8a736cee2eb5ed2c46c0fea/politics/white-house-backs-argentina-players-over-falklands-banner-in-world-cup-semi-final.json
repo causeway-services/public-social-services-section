@@ -1,0 +1,69 @@
+{
+  "subject": "white-house-backs-argentina-players-over-falklands-banner-in-world-cup-semi-final",
+  "claims": [
+    {
+      "id": "title",
+      "proposition": {
+        "predicate": "title",
+        "object": "White House backs Argentina players over Falklands banner in World Cup semi-final"
+      },
+      "time": {
+        "asserted": "2026-07-19T14:41:50.560Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "politics",
+        "citation": "https://www.theguardian.com/football/2026/jul/18/white-house-backs-argentina-team-falklands-banner-world-cup-semi-final"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "url",
+      "proposition": {
+        "predicate": "url",
+        "object": "https://www.theguardian.com/football/2026/jul/18/white-house-backs-argentina-team-falklands-banner-world-cup-semi-final"
+      },
+      "time": {
+        "asserted": "2026-07-19T14:41:50.560Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "politics",
+        "citation": "https://www.theguardian.com/football/2026/jul/18/white-house-backs-argentina-team-falklands-banner-world-cup-semi-final"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "summary",
+      "proposition": {
+        "predicate": "summary",
+        "object": "<p>White House Fifa taskforce chief defends Argentina footballers, saying US believes in free speech</p><p>The White House has backed Argentina’s footballers who <a href=\"https://www.theguardian.com/football/2026/jul/15/malvinas-is-argentinian-world-cup-holders-celebrate-win-over-england-with-banner\">displayed a banner</a> supporting their country’s claim to the Falkland Islands after their World Cup semi-final victory against England.</p><p>After <a href=\"https://www.theguardian.com/football/2026/jul/15/england-argentina-world-cup-semi-final-match-report\">Argentina’s 2-1 win</a> in a fractious match in Atlanta on Wednesday, some players held up a banner that said: “<em>Las Malvinas son Argentinas</em>” – using the country’s term for the South Atlantic islands.</p> <a href=\"https://www.theguardian.com/football/2026/jul/18/white-house-backs-argentina-team-falklands-banner-world-cup-semi-final\">Continue reading...</a>"
+      },
+      "time": {
+        "asserted": "2026-07-19T14:41:50.560Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "politics",
+        "citation": "https://www.theguardian.com/football/2026/jul/18/white-house-backs-argentina-team-falklands-banner-world-cup-semi-final"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "published",
+      "proposition": {
+        "predicate": "published",
+        "object": "Sat, 18 Jul 2026 10:54:07 GMT"
+      },
+      "time": {
+        "asserted": "2026-07-19T14:41:50.560Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "politics",
+        "citation": "https://www.theguardian.com/football/2026/jul/18/white-house-backs-argentina-team-falklands-banner-world-cup-semi-final"
+      },
+      "status": "supported"
+    }
+  ]
+}

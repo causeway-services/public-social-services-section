@@ -1,0 +1,16 @@
+{
+  "kind": "koios.news.public-desks/v1",
+  "description": "Reader-facing desks of koios.news. Each desk is a parameterization: which claim-store categories (wires) and which bylined-post categories it collects. The collapse frame is the house voice of the opinion desk and a tag across the others.",
+  "desks": [
+    { "slug": "world", "title": "World", "description": "International news and conflict, as attributed claims from the named sources.", "categories": ["world", "war"] },
+    { "slug": "politics", "title": "Politics", "description": "US and UK politics, government, and policy.", "categories": ["us-politics", "politics", "collapse-politics"] },
+    { "slug": "business", "title": "Business & Markets", "description": "Economy, markets, public finance, and the firms that move them.", "categories": ["economy", "collapse-finance"] },
+    { "slug": "crypto", "title": "Crypto", "description": "Digital assets, exchanges, protocols, and their regulation.", "categories": ["crypto", "blockchain", "daytrading"] },
+    { "slug": "technology", "title": "Technology", "description": "Computing, AI, infrastructure, and the industry building them.", "categories": ["technology", "collapse-tech"] },
+    { "slug": "science", "title": "Science & Climate", "description": "Research, environment, and the climate system.", "categories": ["science", "environment", "collapse-climate", "climate-breakdown"] },
+    { "slug": "health", "title": "Health", "description": "Medicine, public health, and health policy.", "categories": ["health"] },
+    { "slug": "culture", "title": "Culture & Entertainment", "description": "Film, music, television, books, celebrity, and the arts.", "categories": ["entertainment", "culture"] },
+    { "slug": "sport", "title": "Sport", "description": "Football, US sports, and the wider sporting world.", "categories": ["sport"] },
+    { "slug": "opinion", "title": "Opinion & Analysis", "description": "Koios's own systems-analysis voice: collapse, degrowth, decolonization, and what the predictive models cannot see.", "categories": ["degrowth", "decolonization", "collapse-degrowth", "collapse-decolonization", "newsroom"] }
+  ]
+}

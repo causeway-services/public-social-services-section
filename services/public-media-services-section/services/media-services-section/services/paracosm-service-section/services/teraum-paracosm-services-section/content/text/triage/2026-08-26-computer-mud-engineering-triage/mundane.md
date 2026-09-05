@@ -1,0 +1,25 @@
+#+title: mundane
+#+begin_head
+#+ghe_schema: term-0.1.3
+#+author: emsenn
+#+email: emsenn@emsenn.net
+#+date: [2020-12-25 Fri 20:33]
+#+roam_tags: Teraum term
+#+end_head
+
+#+name: definition
+*/[[file:mundane.org][mundane]]/* is a term I haven't defined yet. Try checking the [[#record-history][record's history]] for more information.
+#+toc: headlines 2
+* Introduction
+* mundane
+* Supplements
+** Record history
+   :PROPERTIES:
+   :CUSTOM_ID: record-history
+   :END:
+   :LOGBOOK:
+   - Note taken on [2020-12-25 Fri 20:33] \\
+      Created from [[file:~/org/s/p/d/2020-07-15.org][[2020-07-15 Wed 19:47]​]]
+
+      
+   :END:

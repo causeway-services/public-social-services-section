@@ -1,0 +1,69 @@
+{
+  "subject": "where-to-watch-france-vs-england-world-cup-third-place-playoff-online",
+  "claims": [
+    {
+      "id": "title",
+      "proposition": {
+        "predicate": "title",
+        "object": "Where to Watch France vs. England World Cup Third-Place Playoff Online"
+      },
+      "time": {
+        "asserted": "2026-07-19T14:42:05.531Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "culture",
+        "citation": "https://www.hollywoodreporter.com/tv/tv-news/watch-france-england-world-cup-2026-match-live-stream-free-1236650793/"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "url",
+      "proposition": {
+        "predicate": "url",
+        "object": "https://www.hollywoodreporter.com/tv/tv-news/watch-france-england-world-cup-2026-match-live-stream-free-1236650793/"
+      },
+      "time": {
+        "asserted": "2026-07-19T14:42:05.531Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "culture",
+        "citation": "https://www.hollywoodreporter.com/tv/tv-news/watch-france-england-world-cup-2026-match-live-stream-free-1236650793/"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "summary",
+      "proposition": {
+        "predicate": "summary",
+        "object": "The July 18 match will determine who takes home the bronze ahead of Sunday's final."
+      },
+      "time": {
+        "asserted": "2026-07-19T14:42:05.531Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "culture",
+        "citation": "https://www.hollywoodreporter.com/tv/tv-news/watch-france-england-world-cup-2026-match-live-stream-free-1236650793/"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "published",
+      "proposition": {
+        "predicate": "published",
+        "object": "Sat, 18 Jul 2026 16:00:00 +0000"
+      },
+      "time": {
+        "asserted": "2026-07-19T14:42:05.531Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "culture",
+        "citation": "https://www.hollywoodreporter.com/tv/tv-news/watch-france-england-world-cup-2026-match-live-stream-free-1236650793/"
+      },
+      "status": "supported"
+    }
+  ]
+}

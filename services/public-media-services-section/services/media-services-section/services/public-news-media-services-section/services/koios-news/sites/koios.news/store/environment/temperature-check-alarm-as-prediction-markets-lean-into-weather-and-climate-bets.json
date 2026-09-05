@@ -1,0 +1,69 @@
+{
+  "subject": "temperature-check-alarm-as-prediction-markets-lean-into-weather-and-climate-bets",
+  "claims": [
+    {
+      "id": "title",
+      "proposition": {
+        "predicate": "title",
+        "object": "Temperature check: alarm as prediction markets lean into weather and climate bets"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "environment",
+        "citation": "https://www.theguardian.com/us-news/2026/sep/02/weather-betting-kalshi-polymarket"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "url",
+      "proposition": {
+        "predicate": "url",
+        "object": "https://www.theguardian.com/us-news/2026/sep/02/weather-betting-kalshi-polymarket"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "environment",
+        "citation": "https://www.theguardian.com/us-news/2026/sep/02/weather-betting-kalshi-polymarket"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "summary",
+      "proposition": {
+        "predicate": "summary",
+        "object": "<p>Climate experts warn that US Kalshi and Polymarket users are ‘gamifying disasters’ as they bet on events like heatwaves and daily temperatures</p><p>Online prediction markets, saturated by money staked on sport, crypto and politics, have now set their sights on a promising new area of growth: betting on the future livability of the planet itself.</p><p>The rise of gamified predictions on the unfolding climate crisis, and shorter-term weather forecasts, has been underscored by <a href=\"https://news.kalshi.com/p/kalshi-weather-company-partnership\">a new deal</a> that allows Kalshi, a leading online financial exchange, to access data from the Weather Company, owner of the Weather Channel, to verify weather-related betting outcomes.</p> <a href=\"https://www.theguardian.com/us-news/2026/sep/02/weather-betting-kalshi-polymarket\">Continue reading...</a>"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "environment",
+        "citation": "https://www.theguardian.com/us-news/2026/sep/02/weather-betting-kalshi-polymarket"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "published",
+      "proposition": {
+        "predicate": "published",
+        "object": "Wed, 02 Sep 2026 15:00:28 GMT"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "environment",
+        "citation": "https://www.theguardian.com/us-news/2026/sep/02/weather-betting-kalshi-polymarket"
+      },
+      "status": "supported"
+    }
+  ]
+}

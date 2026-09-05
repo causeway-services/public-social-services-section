@@ -1,0 +1,69 @@
+{
+  "subject": "marcus-rashford-s-manchester-united-return-feels-like-a-marriage-of-convenience-will-unwin",
+  "claims": [
+    {
+      "id": "title",
+      "proposition": {
+        "predicate": "title",
+        "object": "Marcus Rashford’s Manchester United return feels like a marriage of convenience | Will Unwin"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "sport",
+        "citation": "https://www.theguardian.com/football/2026/aug/30/marcus-rashford-manchester-united-return-old-trafford"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "url",
+      "proposition": {
+        "predicate": "url",
+        "object": "https://www.theguardian.com/football/2026/aug/30/marcus-rashford-manchester-united-return-old-trafford"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "sport",
+        "citation": "https://www.theguardian.com/football/2026/aug/30/marcus-rashford-manchester-united-return-old-trafford"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "summary",
+      "proposition": {
+        "predicate": "summary",
+        "object": "<p>A lack of offers and problems in finding a replacement may be behind the move, but that does not mean it cannot work</p><p>The first chant of the match was for Marcus&nbsp;Rashford, Manchester United’s returning rogue son, the one banished for 18&nbsp;months, first to the Midlands and then Catalonia. Every football fan loves an academy product who has risen up the ranks, from scrawny child to getting 76,000 off their seats. Rashford is one of these, living out the dream of everyone inside Old Trafford and they are willing to forgive but want something in return.</p><p>Not since 7 December 2024 has Rashford been seen in red at Old Trafford. Then it was as a substitute forlornly trying to turn things around in an eventual 3-2 defeat by Nottingham Forest. His relationship with Ruben Amorim was already deteriorating, the second head coach to have become irritated with Rashford. After loans with Aston Villa and Barcelona, everyone is surprised to see him back; it feels like a marriage of convenience because of a lack of offers and securing a replacement was deemed complex.</p> <a href=\"https://www.theguardian.com/football/2026/aug/30/marcus-rashford-manchester-united-return-old-trafford\">Continue reading...</a>"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "sport",
+        "citation": "https://www.theguardian.com/football/2026/aug/30/marcus-rashford-manchester-united-return-old-trafford"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "published",
+      "proposition": {
+        "predicate": "published",
+        "object": "Sun, 30 Aug 2026 19:45:41 GMT"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "sport",
+        "citation": "https://www.theguardian.com/football/2026/aug/30/marcus-rashford-manchester-united-return-old-trafford"
+      },
+      "status": "supported"
+    }
+  ]
+}

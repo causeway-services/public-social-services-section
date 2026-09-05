@@ -1,0 +1,69 @@
+{
+  "subject": "connecting-ai-agents-to-outside-services-explodes-the-risk-radius",
+  "claims": [
+    {
+      "id": "title",
+      "proposition": {
+        "predicate": "title",
+        "object": "Connecting AI agents to outside services explodes the risk radius"
+      },
+      "time": {
+        "asserted": "2026-07-19T20:06:12.720Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "technology",
+        "citation": "https://www.theregister.com/ai-and-ml/2026/07/19/connecting-ai-agents-to-outside-services-explodes-the-risk-radius/5274640"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "url",
+      "proposition": {
+        "predicate": "url",
+        "object": "https://www.theregister.com/ai-and-ml/2026/07/19/connecting-ai-agents-to-outside-services-explodes-the-risk-radius/5274640"
+      },
+      "time": {
+        "asserted": "2026-07-19T20:06:12.720Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "technology",
+        "citation": "https://www.theregister.com/ai-and-ml/2026/07/19/connecting-ai-agents-to-outside-services-explodes-the-risk-radius/5274640"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "summary",
+      "proposition": {
+        "predicate": "summary",
+        "object": "Avoiding the \"lethal trifecta\" – access to private data, exposure to untrusted content, and an external communication path – is difficult enough when working with AI agents. But the use of connectors – integrations with third-party services like Gmail or Slack – expands the scope of concern in a way that makes it exceedingly difficult to reason about defensive due diligence. PromptArmor, an AI security biz, recently looked at how OpenAI's ChatGPT and Anthropic's Claude work with connectors. The results are not reassuring. Shankar Krishnan, co-founder of PromptArmor, told The Register in an email that enterprise adoption of connectors and the rate of change among connectors helped focus concern on the connector ecosystem. Connectors share some of the risks of MCP servers, upon which connectors are based. \"For connectors, the risks are mostly about the type of tools, what they can do, where the data is going, and what is being done with the data,\" said Krishnan. Introduced about a year ago, connectors (for Claude or ChatGPT) have been going through a lot of changes recently. According to PromptArmor, 931 of 2,517 connectors (37 percent) changed over the six-week period from mid-May to the end of June. So any security assumptions based on declared capabilities may no longer be valid. PromptArmor found that 1,686 new tools were added to connectors that were already live, creating new ways for AI models to operate on user data and interact with third-party services. It also found that 1,127 tool descriptions were rewritten, potentially changing how and when an AI model decides to invoke a tool. And there are a variety of other changes, all of which potentially could raise data security concerns or invalidate governance assumptions. PromptArmor cited the Dropbox connector as an example, noting that at the start of the study it exposed eight tools and by the end of the study that number had risen to 24. It went from having three write-capable tools to 10, and from zero potentially destructive tools to four. Permission scopes changed and injected instructions for the model were added. If that weren't enough to worry about, connectors can behave like intrusive websites that run dozens of tracking scripts: connectors commonly send data to additional AI services. PromptArmor evaluated all 7,517 tools used by 487 Claude connectors and found that 189 of the connectors, or about 2 in 5, are likely to call additional AI services. \"As an example, if your Claude agent activates Zoom's connector tool to search meetings with natural language, and passes in a query containing sensitive data, Zoom AI may send that data to any of its ten AI subprocessors in order to generate a response from one of eight different model families it uses,\" the security company said. \"The issue is that most teams approving connectors are evaluating and considering the connector – unaware that the vendor is calling more AI services, adding new subprocessors and terms,\" explained Krishnan. \"So someone concerned about AI risks who has evaluated Claude may not be aware of AI services that the connector is calling externally.\" Anthropic's connector documentation acknowledges that its security controls don't necessarily cover third-party data processing. \"Connected services process data on their own infrastructure, under their own terms, which may be located outside the United States,\" the AI biz explains. \"Settings that control where Claude's inference runs, like the US-only inference setting on Enterprise plans, don't change where third-party services operate.\" Krishnan said that connectors vastly expand the risk surface for attacks. \"Bringing agents new sensitive data, new untrusted data, and new sensitive actions to take, the blast radius of an attack explodes,\" he said. \"We recently highlighted a risk in Codex where even with one connector – email – the combination of sensitive and untrusted data enables exfiltration of legal and financial communications.\" ®"
+      },
+      "time": {
+        "asserted": "2026-07-19T20:06:12.720Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "technology",
+        "citation": "https://www.theregister.com/ai-and-ml/2026/07/19/connecting-ai-agents-to-outside-services-explodes-the-risk-radius/5274640"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "published",
+      "proposition": {
+        "predicate": "published",
+        "object": "Sun, 19 Jul 2026 18:05:00 +0200"
+      },
+      "time": {
+        "asserted": "2026-07-19T20:06:12.720Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "technology",
+        "citation": "https://www.theregister.com/ai-and-ml/2026/07/19/connecting-ai-agents-to-outside-services-explodes-the-risk-radius/5274640"
+      },
+      "status": "supported"
+    }
+  ]
+}

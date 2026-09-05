@@ -1,0 +1,15 @@
+#+SETUPFILE: ./setup.inc
+#+TITLE: Geography and Settlements of Bonnet County
+#+EXPORT_FILE_NAME: ../../pub/geography-and-settlements-of-bonnet-county
+#+INDEX: New World!/Geography and Settlements of Bonnet County/
+#+TOC: headlines 2
+* Introduction
+{{{document-isdraft}}}
+
+{{{document-hasproject}}}
+* Geography and Settlements of Bonnet County
+** History
+** Areas
+* Supplements
+** Index
+- Bonnet County ::

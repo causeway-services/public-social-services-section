@@ -1,0 +1,69 @@
+{
+  "subject": "yayoi-kusama-a-life-in-pictures",
+  "claims": [
+    {
+      "id": "title",
+      "proposition": {
+        "predicate": "title",
+        "object": "Yayoi Kusama – a life in pictures"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "culture",
+        "citation": "https://www.theguardian.com/artanddesign/gallery/2026/aug/27/yayoi-kusama-gallery-life-in-pictures"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "url",
+      "proposition": {
+        "predicate": "url",
+        "object": "https://www.theguardian.com/artanddesign/gallery/2026/aug/27/yayoi-kusama-gallery-life-in-pictures"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "culture",
+        "citation": "https://www.theguardian.com/artanddesign/gallery/2026/aug/27/yayoi-kusama-gallery-life-in-pictures"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "summary",
+      "proposition": {
+        "predicate": "summary",
+        "object": "<p>The Japanese avant-garde artist, who was known for her giant polka dot artworks and mirrored infinity room installations, has died aged 97</p><ul><li><p><a href=\"https://www.theguardian.com/artanddesign/2026/aug/27/yayoi-kusama-dies-aged-97-artist-dead\">Yayoi Kusama, Japanese artist who became a global superstar, dies aged 97</a></p></li></ul> <a href=\"https://www.theguardian.com/artanddesign/gallery/2026/aug/27/yayoi-kusama-gallery-life-in-pictures\">Continue reading...</a>"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "culture",
+        "citation": "https://www.theguardian.com/artanddesign/gallery/2026/aug/27/yayoi-kusama-gallery-life-in-pictures"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "published",
+      "proposition": {
+        "predicate": "published",
+        "object": "Thu, 27 Aug 2026 03:59:27 GMT"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "culture",
+        "citation": "https://www.theguardian.com/artanddesign/gallery/2026/aug/27/yayoi-kusama-gallery-life-in-pictures"
+      },
+      "status": "supported"
+    }
+  ]
+}

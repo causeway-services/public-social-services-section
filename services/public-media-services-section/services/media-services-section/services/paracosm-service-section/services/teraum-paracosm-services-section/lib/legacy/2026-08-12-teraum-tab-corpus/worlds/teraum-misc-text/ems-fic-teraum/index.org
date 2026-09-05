@@ -1,0 +1,143 @@
+#+title: Teraum
+
+#+name: definition
+*/Teraum/* is a tragically funny fantasy world.
+
+I'm currently rewriting a lot of it, so please ignore the lack of content in this space!
+
+* Rules for Writing :noexport:
+
+** Cops don't get to be characters
+Don't name them, they're just an assemblage of faceless things.
+* Fanfics :noexport:
+
+** Malcolm in the Middle
+- Real premise :: Chaotic suburban family sitcom
+- Teraum premise :: Chaotic family living in suburban Bellybrush
+*** Season 1
+
+**** Episode 1
+
+***** Real episode
+Malcolm gets nominated and tested for placement in a special class. (spot the errors in the image, malcolm nails them all) [this would be a good worldbuilding trick: "the shadow from the oceanic pump is going the wrong way"]
+
+***** Spinoff
+
+* Map :noexport:
+
+** Eastlands
+** Westlands
+*** Green Delta
+**** Ack
+***** Brass Ward
+****** Twisted Alembic
+* Gags :noexport:
+* Tidbits :noexport:
+** schools
+at first, children worked at places like laundromats
+with magic innovations, they had more free time
+union offered classes in reading, riting, rithmetic (to make them more able to participate in bureaucracy
+** in the harbor a merchant vessel named shackleton sits without a hint of irony
+** werewolves
+when a widower or widow is alone on a homestead after the depature of their spouse, badwolves[fn:: legit just, wolves that don't act like wolves, they'll attack things that aren't prey, they're cleverer, etc.] will start to congregate around it until the next full moon, when they'll enter the house (somehow) and then the widower/widow joins their pack.
+** universities
+universities are where folk who excel at the three r's in school get sent to learn how to be an analyst or clerk
+** in the early days of collapse most everyone works for the union, but as things fall apart, they start awarding service contracts to other firms, leading to a faux fragmentation, since everyone uses the same bureaucratic structure
+** smelling fizzy blood after smoking a certain herb, indication of sinus wear, skip a day rock processing
+** robogoat
+person displaced from city due to resource scarcity ends up in savannah
+
+"why don't you farm?"
+  "itd use up all our water to grow one cabbage"
+"hmm"
+
+person takes a long-ass time, eating yogurt for breakfast each morning, to design a machine thta only requires more fuel than their whole village uses in a week to run, but can wander the prairie looking for fermentable grasses and bushes and harvest them, and then ferment them in a container it has, and then we can use the resultant protein-rich organism cluster as food!
+
+  "thats a goat"
+"what?"
+  "youre describing a goat.
+  "we have one of those. its where your yogurt comes from."
+"well... more goats?"
+  "not enough grass"
+"more grass?"
+  "not enough water"
+"more water?"
+  "not enough soil."
+"more soil?"
+  "more soil"
+
+person gets taken to help tend to the orchards, which provide shade and help, over generations, btrap more of the water that comes in from the seasonal hurricanes.
+** lily the bead sorter
+lily sits at home, sorting through the beaded clothes scrapped by community members. folk bring her by what they can, and help bring the beads to the town center.
+** kids at the exchange
+kid1: i can't believe our mom forced us to help here
+kid2: something about helping the poor being good for our more's
+kid3: morals
+kid2: yea those
+kid1: hey, you have this shirt
+kid2: hey, i do!
+kid3: except this one is nicer
+kid2: hey, it is!
+kids: are we poor?
+kid2: *swaps shirts*
+kid1: what are you doing? that's stealing
+kid2: no. now, two poor people get a new shirt, instead of just one.
+** ledgerton (leisureton) (debton)
+well into energy scarcity, there's a town focused on providing luxury experiences where an overseer keeps a ledger of everything people use, points, gotta work to pay off the points. folk are always growing how much they're in debt, but being more in debt also privileges you, so you're inclined to keep trying to pay off the debt rather than leave.
+
+combo of negan's sanctuary in the walking dead and... any frontier town lol
+
+like, you show up under the pretense that you get a few days pampering and work a week to pay it off, but, you always are more in debt, until eventually you're part of the staff, unless you bring in more folk, etc.
+** first grass cutting of the year is extra-sweet and precious
+** as the magic got extracted, the gods got quieter until they vanished
+as folk learn to see magic in other things, the gods come back
+
+it starts at the old chauntean monastery, where stanley and holden curate the Central Marben Material Exchange[fn:: aka scrap exchange] 
+** those with money lived in a time-lagged bubble
+as collapse unfolded, they were seen as more and more anachronistic by the adapting population
+** musings on bureaucracy/recordkeeping
+
+X wondered if the abundance of bureaucrats, relative to bureaucracy, was a quirk of living when they did, or if it was going to become a habitual consequence of how they'd evolved: like nose-picking being the inevitable, if unsavory, consequence of having evolved dextrous digits slightly smaller than nose hose.
+** this is the place
+a lot of the folk who first adapt keep trying to find "the place" to adapt in, before coming ot learn there is no place, just, each place is a Place.
+** colonial comfort inhibits love
+** airships
+it wasn't that folk didn't know about the other continent, its just that trying to sail there didnt work, the winds always pushed you back, or the rowers mutinied. only fueled motors got the job done - there were air currents that could get you across, but were so slow without good motors.
+** bottle collectors
+folk collected glass bottles, even before plastic ones became popular.
+
+I had some idea for why that was important, but at the moment I can't remember. Having a knowledge of glass bottle strengths and weaknesses would help rekindle glass-bottle making, and the recycling of melted down plastics?
+** goblins and elves and things?
+if they lived, it was so long ago they are part of the fossils, and died before humans came to be - at least, in the modern history. (human history is likely much longer than what folk say - most folk say it's 12k years long, other folk say it's 200k)
+* Tales from Teraum :noexport:
+** #13: Less Than One :noexport:
+*/In which an accountant does their job./*
+
+(Tieran calculates the MEROI of Union extraction sites, and one day, discovers, it is below 1: the Union is spending more to extract energy than it's getting out, across its sites.)
+
+Tieran Hornfester's beard was fifteen years old today. They knew that so precisely because they had started growing it when the promotion to their current position had been finalized, and today, as they sat down at their desk, they found a small squashboard box wrapped in copper-coloured paper sitting on it. Inside the box was a small brass nameplate, which declared in a blocky font: "Tieran Hornfest, Senior MEROI Analist"
+
+The "Senior" was new, as was "Analyst" being misspelled. Tieran wasn't entirely sure why they needed a new nameplate anyway. For several years, they'd been the /only/ MEROI analyst, after public concern about the problem had faded, and other analysts had been moved to figure out the EROI of specific extractions. The presumed obsolesence of Tieran's department led others to question why Tieran even bothered doing the work. They'd jokingly ask in the hallways, "How's the MEROI looking?," and walk on before Tieran could even respond: "down another two-hundredths a point, same as yesterday."
+
+But that had been the answer, consistently, for nearly a year. Every day, Tieran looked at a collection of reports that had collected on his desk overnight. Each report was the accounting for daily operations at one of the many extraction sites the Union bureaucratized. It summed up the cost of running the site, and the value of the energy extracted, and divided them. This got what the analysts called an "Energy Return on Investment." It reduced the gains of an extraction site down to a single number: for a unit of energy put in, how many units of energy came out?
+
+The EROI for an extraction site was different every day, and it was Teiran's job to find the average value of that number, between reports: the mean EROI, or MEROI. At one point, there had been more MEROI Analysts, and it was Tieran's job just to figure out the MEROI for one region. But, other Analysts had retired, or been moved to other departments, until it was just Tieran. At this point, they weren't even sure who to deliver the daily MEROI report to. 
+
+Most other analysts were part of a chain. They received reports, and they generated reports, which they delivered elsewhere. But Tieran's elsewhere had been lost somewhere in the bureaucracy. On most days it didn't matter. But Tieran had to tell /someone/ about today's MEROI.
+
+Tieran reflected on the chain they were a part of. The reports that came to Tieran's desk were collated by clerks elsewhere in the Red Ward, copied from originals by a different set of clerks, produced off originals created by another set of clerks, working the Central Receiver that rose up out of the Ward. Those clerks were transcribing messages blinked in from extraction sites around the world, where they were being transmitted by clerks living at those sites.
+
+At the site, work was being done, food was being eaten, with clerks and analysts managing the whole thing, but all of that was rather incidental. That work, that consumption, had been carefully planned by analysts back in the Red Ward, working just a few buildings away from Tieran.
+
+Those analysts were tasked with looking at parcels of land, figuring out what the EROI would be if an extraction site were set up there. How much would it take to shore up the road, build the camp, feed the workers, and so on? And then, how much would they be able to extract the first year? The first five? Depending on the source, a site might only last five years, but some, like the filter-dams built in the foothills of the Worldkeepers, had been operating for decades. Their EROI was only a few points above even, but that was okay, since it didn't take much to maintain them. Other sites, like the Oceanic pumps, that pushed deep into the layers of biolitter held against the stone basin of the Ocean, churning up a slurry of decomposed organisms and industrial solvents to be pumped to the shore for processing and refinement, would only last for a decade before the Ocean floor was nothing but foreign contaminations eating away at the stone underneath. But in that decade, the pump would pull as much magic out of the world as a dozen filter-dams could in a century, and without much more effort.
+
+Different sites, different reports, different numbers, but the same system between them all, and at that scale, after so many years of doing it, the analysts had gotten pretty good at their particular sort of analysis. And Tieran could see how it all led to them, sitting at their desk, figuring out the mean energy return on investment. But they couldn't see where it was meant to go from there.
+
+That kind of analysis had become the open secret that determined the course of the society Tieran was living in. After camps were built, merchants moved closer. More housing was built. Soon, an extraction site was a village. Even before the camps were built, there was a frontier of explorers, land-surveyors, thaumologists[fn:: GNU Terry Pratchett], and the usual assembly of grifters and opportunists that congregate in such frontiers.
+
+No one really discussed how the Union's bureaucratic approach to... life... had become the reason most of them were alive, because there wasn't any space for anything different: with any part and parcel of the land able to be claimed as a resource, everyone knew that anything that didn't belong to the Union, was only free due to temporal circumstance.
+
+There had been some concerns, when Tieran was a child, about what would happen when humans reached the edges of the world, and there wasn't any more to take from the land. At the time, those 
+** #14: Placement
+Set during the early years of bureaucraticization, Kettel, an 11 year old girl living with her 2 brothers (one a year older, one two years younger) (four year older sister away working to pay Union debt), is quized for placement in a Homeschool (boarding school), and passes. Kettel likes her friends and living in town tho and doesn't want to leave, so tries to resist, criticises the Homeschool program, but Kettel's reasoning is dismissed as childish and naive, not congruent with "adult logic", aka bureaucratic Union logic. [reference to ideas of late liberalism, where families and communities enforce the logic of the state, regardless of state violence.]
+

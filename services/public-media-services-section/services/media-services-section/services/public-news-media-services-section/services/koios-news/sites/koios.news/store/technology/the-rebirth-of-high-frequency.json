@@ -1,0 +1,69 @@
+{
+  "subject": "the-rebirth-of-high-frequency",
+  "claims": [
+    {
+      "id": "title",
+      "proposition": {
+        "predicate": "title",
+        "object": "The Rebirth of High Frequency"
+      },
+      "time": {
+        "asserted": "2026-07-18T04:08:20.911Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "technology",
+        "citation": "https://content.knowledgehub.wiley.com/the-rebirth-of-high-frequency/"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "url",
+      "proposition": {
+        "predicate": "url",
+        "object": "https://content.knowledgehub.wiley.com/the-rebirth-of-high-frequency/"
+      },
+      "time": {
+        "asserted": "2026-07-18T04:08:20.911Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "technology",
+        "citation": "https://content.knowledgehub.wiley.com/the-rebirth-of-high-frequency/"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "summary",
+      "proposition": {
+        "predicate": "summary",
+        "object": "An examination of how satellite vulnerabilities, modern wideband waveforms, and automatic link establishment are driving renewed military and government investment in HF communications. What Attendees will Learn Why HF (High Frequency) declined — and what has changed — How satellites overtook HF for global communications from the 1970s onward, and why growing awareness of satellite vulnerabilities to anti-satellite weapons, jamming, solar storms, and coverage gaps is reviving interest in skywave propagation as a resilient alternative. How the ionosphere enables and limits global HF communication — Understand the roles of the D, E, and F ionospheric layers in refracting and absorbing signals, the concepts of maximum usable frequency (MUF) and lowest usable frequency (LUF), and how sunspot number, solar flux index, and A/K geomagnetic indices are used to quantify and predict propagation conditions. How automatic link establishment transforms HF operability — Trace the evolution from proprietary first-generation ALE through interoperable second- and third-generation standards to fourth-generation wideband ALE, which automates frequency selection, link setup, and adaptation to changing channel conditions — removing the dependency on highly skilled operators. How wideband HF is closing the throughput. Download this free whitepaper now!"
+      },
+      "time": {
+        "asserted": "2026-07-18T04:08:20.911Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "technology",
+        "citation": "https://content.knowledgehub.wiley.com/the-rebirth-of-high-frequency/"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "published",
+      "proposition": {
+        "predicate": "published",
+        "object": "Thu, 09 Jul 2026 10:00:03 +0000"
+      },
+      "time": {
+        "asserted": "2026-07-18T04:08:20.911Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "technology",
+        "citation": "https://content.knowledgehub.wiley.com/the-rebirth-of-high-frequency/"
+      },
+      "status": "supported"
+    }
+  ]
+}

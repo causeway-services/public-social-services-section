@@ -1,0 +1,69 @@
+{
+  "subject": "spain-wins-the-2026-world-cup-1-0-punishing-argentina-with-a-barrage-of-20-shots-on-goal",
+  "claims": [
+    {
+      "id": "title",
+      "proposition": {
+        "predicate": "title",
+        "object": "Spain Wins The 2026 World Cup 1-0, Punishing Argentina With A Barrage Of 20 Shots On Goal"
+      },
+      "time": {
+        "asserted": "2026-07-20T01:13:55.454Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "culture",
+        "citation": "https://deadline.com/2026/07/spain-wins-2026-world-cup-argentina-1236998074/"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "url",
+      "proposition": {
+        "predicate": "url",
+        "object": "https://deadline.com/2026/07/spain-wins-2026-world-cup-argentina-1236998074/"
+      },
+      "time": {
+        "asserted": "2026-07-20T01:13:55.454Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "culture",
+        "citation": "https://deadline.com/2026/07/spain-wins-2026-world-cup-argentina-1236998074/"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "summary",
+      "proposition": {
+        "predicate": "summary",
+        "object": "One senior NBCUniversal Telemundo exec predicted the 2026 World Cup Final could be a game for the ages, but it wasn’t quite on par with, say, Argentina-England in 1986. In fact, if there was a “Hand of God” in this one, it belonged to Argentina’s keeper, Emiliano “Dibu” Martínez, who was playing with a broken […]"
+      },
+      "time": {
+        "asserted": "2026-07-20T01:13:55.454Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "culture",
+        "citation": "https://deadline.com/2026/07/spain-wins-2026-world-cup-argentina-1236998074/"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "published",
+      "proposition": {
+        "predicate": "published",
+        "object": "Sun, 19 Jul 2026 22:02:43 +0000"
+      },
+      "time": {
+        "asserted": "2026-07-20T01:13:55.454Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "culture",
+        "citation": "https://deadline.com/2026/07/spain-wins-2026-world-cup-argentina-1236998074/"
+      },
+      "status": "supported"
+    }
+  ]
+}

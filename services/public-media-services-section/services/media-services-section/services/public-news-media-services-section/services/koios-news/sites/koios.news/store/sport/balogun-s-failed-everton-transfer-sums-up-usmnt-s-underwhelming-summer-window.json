@@ -1,0 +1,69 @@
+{
+  "subject": "balogun-s-failed-everton-transfer-sums-up-usmnt-s-underwhelming-summer-window",
+  "claims": [
+    {
+      "id": "title",
+      "proposition": {
+        "predicate": "title",
+        "object": "Balogun's failed Everton transfer sums up USMNT's underwhelming summer window"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "sport",
+        "citation": "https://www.espn.com/soccer/story/_/id/49789601/folarin-balogun-deadline-day-everton-usmnt-summer-transfer-window-gio-reyna"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "url",
+      "proposition": {
+        "predicate": "url",
+        "object": "https://www.espn.com/soccer/story/_/id/49789601/folarin-balogun-deadline-day-everton-usmnt-summer-transfer-window-gio-reyna"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "sport",
+        "citation": "https://www.espn.com/soccer/story/_/id/49789601/folarin-balogun-deadline-day-everton-usmnt-summer-transfer-window-gio-reyna"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "summary",
+      "proposition": {
+        "predicate": "summary",
+        "object": "Folarin Balogun's move to Everton collapsed on deadline day, while Strasbourg might be Gio Reyna's last-chance saloon. Jeff Carlisle looks at the USMNT's most noteworthy summer transfers."
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "sport",
+        "citation": "https://www.espn.com/soccer/story/_/id/49789601/folarin-balogun-deadline-day-everton-usmnt-summer-transfer-window-gio-reyna"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "published",
+      "proposition": {
+        "predicate": "published",
+        "object": "Wed, 2 Sep 2026 11:40:16 EST"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "sport",
+        "citation": "https://www.espn.com/soccer/story/_/id/49789601/folarin-balogun-deadline-day-everton-usmnt-summer-transfer-window-gio-reyna"
+      },
+      "status": "supported"
+    }
+  ]
+}

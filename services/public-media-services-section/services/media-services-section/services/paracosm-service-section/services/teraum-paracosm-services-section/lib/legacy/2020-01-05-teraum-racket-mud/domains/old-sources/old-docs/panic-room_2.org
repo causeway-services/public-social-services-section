@@ -1,0 +1,122 @@
+#+SETUPFILE: ./setup.inc
+#+TITLE: Panic Room
+#+EXPORT_FILE_NAME: ../../pub/adventures/panic-room
+#+MACRO: document-type adventure
+#+MACRO: adventure-inwhich the party seeks to unlock a door
+#+MACRO: adventure-length two to four hours
+#+MACRO: adventure-question What's in the attic?
+#+MACRO: adventure-year 80pc
+#+TOC: headlines 2 local
+* DRAFT Introduction
+  :PROPERTIES:
+  :CUSTOM_ID: introduction
+  :END:
+{{{document-isdraft}}}
+
+{{{adventure-brief}}}
+
+{{{adventure-written-for-bow}}}
+
+The geography of /Arathel County/, wooded and cut with streams, makes
+it easy for people to keep their privacy. One such private person was
+/Lorrestar Beyn/, a /human/ who lived in the region during the /Magic
+Revolution/.
+
+In his large manor, he maintained a vast library of writing about
+/magic/, until the /Collapse/ occurred, and all /magic/ disappeared
+from the world.
+
+Eight decades have passed since then. Nestled back in the woods,
+/Lorrestar's manor/ sits. Locals spread rumors that it is haunted;
+that a strange beast lives in the manor's attic; that no one who
+visits is ever seen again.
+
+So, there must be something good inside, right?
+
+*/{{{adventure-question}}}/*
+
+{{{adventure-era(Reconstruction Era)}}}
+{{{teraum-reconstruction-era-definition}}}
+
+{{{teraum-readmore}}}
+
+#+TOC: headlines 3 local
+* DRAFT Panic Room
+{{{adventure-narrator-warning}}}
+#+TOC: headlines 2 local
+** DRAFT Exposition
+  :PROPERTIES:
+  :CUSTOM_ID: exposition
+  :END:
+*/Lorrestar Beyn/* was known for his love of books. From bad romance
+novels to unique spellbooks, he sought to collect them all in his
+/manor/. When the /Collapse/ caused /magic/ to break, it caused
+many of the spellbooks to cast themselves. /Lorrestar/ and his
+assistant /Jelf/ were able to hide inside a pocket dimension that
+/Lorrestar/ had foresight to build.
+
+However, with /magic/ effects filling the house, they were unable to
+leave. After several decades, /Jelf/, tired of /Lorrestar/, killed
+him.
+
+There is a device in the /manor's/ foyer, which
+
+Before beginning the session, your party should know...
+*** DRAFT Settings
+   :PROPERTIES:
+   :CUSTOM_ID: settings
+   :END:
+- */Arathel County:/* A wooded region cut with creeks and rivers.
+- */manor, Lorrestar's:/* A large house built by a wizard, abandoned
+  nearly a century ago.
+*** DRAFT Cast
+   :PROPERTIES:
+   :CUSTOM_ID: cast
+   :END:
+- */Jelf:/* a /magic/-using /human/ who has been stuck inside the
+  /panic room/ since the /Collapse/.
+- */Lorrestar Beyn/*: a /magic/-using human who built the /manor/.
+  Killed by /Jelf/ several decades ago.
+** DRAFT The Plot
+  :PROPERTIES:
+  :CUSTOM_ID: the-plot
+  :END:
+#+TOC: headlines 1 local
+** DRAFT Epilogue
+  :PROPERTIES:
+  :CUSTOM_ID: epilogue
+  :END:
+* DRAFT Supplements
+#+TOC: headlines local 1
+** DRAFT Character Templates
+   :PROPERTIES:
+   :CUSTOM_ID: character-templates
+   :END:
+- {{{adventure-character-template-chandlers-guild-investigator}}} They're
+  here because the Guild is upset with /Abeth Harbrook/ for not solving
+  the problem already.
+  - How do they feel about Ms. Harbrook's performance?
+- {{{adventure-character-template-local-rancher}}} They're here
+  because /King Bark/'s associates stole their favorite horse.
+  - What was their horse's name?
+- {{{adventure-character-template-academic}}}
+  {{{adventure-character-template-academic-default-motive}}}
+    - How can they exploit the mystery of /King Brag's/ identity?
+** DRAFT Index
+   :PROPERTIES:
+   :CUSTOM_ID: dictionary
+   :END:
+- adventure :: A prepared story that a /narrator/ can guide the
+               /party/ through. See [[#abridged-rules]["Abridged Rules"]].
+- adventurer :: A member of the /party/, a character in the
+                /adventure/ that is controlled by a player. See
+                [[#abridged-rules]["Abridged Rules"]].
+- narrator :: The player responsible for starting and guiding an
+              /adventure/. See [[#abridged-rules]["Abridged Rules"]].
+- party :: The group of /adventurers/ going through a story. See
+           [[#abridged-rules]["Abridged Rules"]].
+** DRAFT Abridged Rules
+   :PROPERTIES:
+   :CUSTOM_ID: abridged-rules
+   :END:
+#+INCLUDE: "../../../../src/brave-old-world/index.org::#abridged-rules" :only-contents t

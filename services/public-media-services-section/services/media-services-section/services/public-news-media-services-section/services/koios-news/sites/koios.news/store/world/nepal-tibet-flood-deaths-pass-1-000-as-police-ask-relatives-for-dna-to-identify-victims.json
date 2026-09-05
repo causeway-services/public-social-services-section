@@ -1,0 +1,69 @@
+{
+  "subject": "nepal-tibet-flood-deaths-pass-1-000-as-police-ask-relatives-for-dna-to-identify-victims",
+  "claims": [
+    {
+      "id": "title",
+      "proposition": {
+        "predicate": "title",
+        "object": "Nepal-Tibet flood deaths pass 1,000 as police ask relatives for DNA to identify victims"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "world",
+        "citation": "https://www.theguardian.com/world/2026/sep/01/nepal-tibet-flood-deaths-police-relatives-dna-identification"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "url",
+      "proposition": {
+        "predicate": "url",
+        "object": "https://www.theguardian.com/world/2026/sep/01/nepal-tibet-flood-deaths-police-relatives-dna-identification"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "world",
+        "citation": "https://www.theguardian.com/world/2026/sep/01/nepal-tibet-flood-deaths-police-relatives-dna-identification"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "summary",
+      "proposition": {
+        "predicate": "summary",
+        "object": "<p>Relatives of missing tourists asked for blood samples and photos, as efforts continue to rescue trapped hydropower workers</p><ul><li><p><a href=\"https://www.theguardian.com/world/live/2026/sep/01/nepal-tibet-floods-death-toll-rescue-hydropower-tunnels-china-latest-updates\">Nepal-Tibet floods – latest updates</a></p></li><li><p><a href=\"https://www.theguardian.com/world/2026/aug/27/nepal-tibet-flash-flood-visual-guide-why-how-flooding-happened-floods-cause-reason-explained\">Visual guide: How the Nepal-Tibet flash flood unfolded</a></p></li></ul><p>Nepali rescuers have built temporary bridges to reach remote areas and dug through the ruins of hydropower projects in the Himalayas to rescue hundreds of trapped workers, as the death toll passed 1,000 nearly ⁠a week after devastating ​floods left a trail of destruction across the country’s towns and valleys.</p><p>About 600 people remain stuck in several devastated hydropower stations that have become the focus of rescue efforts. The prime ⁠minister, Balendra Shah, said more than 11,000 people had been rescued across the affected region, and power and communication lines had been restored in some areas.</p> <a href=\"https://www.theguardian.com/world/2026/sep/01/nepal-tibet-flood-deaths-police-relatives-dna-identification\">Continue reading...</a>"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "world",
+        "citation": "https://www.theguardian.com/world/2026/sep/01/nepal-tibet-flood-deaths-police-relatives-dna-identification"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "published",
+      "proposition": {
+        "predicate": "published",
+        "object": "Tue, 01 Sep 2026 17:32:40 GMT"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "world",
+        "citation": "https://www.theguardian.com/world/2026/sep/01/nepal-tibet-flood-deaths-police-relatives-dna-identification"
+      },
+      "status": "supported"
+    }
+  ]
+}

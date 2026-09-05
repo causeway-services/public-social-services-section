@@ -1,0 +1,69 @@
+{
+  "subject": "brain-implant-helps-paralysed-man-to-feed-himself-and-drink-from-cup",
+  "claims": [
+    {
+      "id": "title",
+      "proposition": {
+        "predicate": "title",
+        "object": "Brain implant helps paralysed man to feed himself and drink from cup"
+      },
+      "time": {
+        "asserted": "2026-07-18T08:09:59.493Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "technology",
+        "citation": "https://www.theguardian.com/science/2026/jul/16/neural-bypass-brain-implant-paralysed-man-feed-himself-drink-from-cup"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "url",
+      "proposition": {
+        "predicate": "url",
+        "object": "https://www.theguardian.com/science/2026/jul/16/neural-bypass-brain-implant-paralysed-man-feed-himself-drink-from-cup"
+      },
+      "time": {
+        "asserted": "2026-07-18T08:09:59.493Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "technology",
+        "citation": "https://www.theguardian.com/science/2026/jul/16/neural-bypass-brain-implant-paralysed-man-feed-himself-drink-from-cup"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "summary",
+      "proposition": {
+        "predicate": "summary",
+        "object": "<p>Keith Thomas can move arms and hands, and feel sensation of touch after ‘double neural bypass’ and months of training</p><p>A man who was paralysed from the chest down in a swimming accident six years ago has been able to feed himself and drink from a cup thanks to a brain implant that bypasses his spinal cord injury.</p><p>Keith Thomas of Massapequa, New York, could not lift his arms off his wheelchair when he agreed to trial the technology in 2021, but after surgery to implant electrodes in his brain and many months of training, he was able to move the limbs again.</p> <a href=\"https://www.theguardian.com/science/2026/jul/16/neural-bypass-brain-implant-paralysed-man-feed-himself-drink-from-cup\">Continue reading...</a>"
+      },
+      "time": {
+        "asserted": "2026-07-18T08:09:59.493Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "technology",
+        "citation": "https://www.theguardian.com/science/2026/jul/16/neural-bypass-brain-implant-paralysed-man-feed-himself-drink-from-cup"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "published",
+      "proposition": {
+        "predicate": "published",
+        "object": "Thu, 16 Jul 2026 15:00:41 GMT"
+      },
+      "time": {
+        "asserted": "2026-07-18T08:09:59.493Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "technology",
+        "citation": "https://www.theguardian.com/science/2026/jul/16/neural-bypass-brain-implant-paralysed-man-feed-himself-drink-from-cup"
+      },
+      "status": "supported"
+    }
+  ]
+}

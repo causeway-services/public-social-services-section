@@ -1,0 +1,69 @@
+{
+  "subject": "us-and-iran-exchange-more-airstrikes-fuelling-fears-of-wider-return-to-hostilities",
+  "claims": [
+    {
+      "id": "title",
+      "proposition": {
+        "predicate": "title",
+        "object": "US and Iran exchange more airstrikes, fuelling fears of wider return to hostilities"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "war",
+        "citation": "https://www.theguardian.com/world/2026/sep/01/us-iran-airstrikes-launch"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "url",
+      "proposition": {
+        "predicate": "url",
+        "object": "https://www.theguardian.com/world/2026/sep/01/us-iran-airstrikes-launch"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "war",
+        "citation": "https://www.theguardian.com/world/2026/sep/01/us-iran-airstrikes-launch"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "summary",
+      "proposition": {
+        "predicate": "summary",
+        "object": "<p>Attacks on Iran’s Revolutionary Guard and reprisals against US bases in Middle East quash hopes that flare-up last weekend was limited in nature</p><p>The US has launched new airstrikes on Iranian targets, prompting counter strikes by Tehran targeting American interests in Bahrain, Kuwait, Jordan and Iraq, and fuelling concerns about a ⁠wider renewal of hostilities.</p><p>The US Marine Corps base Camp Titin in Jordan was targeted for an “intense ballistic missile attack”, Iran’s Revolutionary Guards (IRGC) said early on Wednesday, according to Iranian news outlet Tasnim.</p> <a href=\"https://www.theguardian.com/world/2026/sep/01/us-iran-airstrikes-launch\">Continue reading...</a>"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "war",
+        "citation": "https://www.theguardian.com/world/2026/sep/01/us-iran-airstrikes-launch"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "published",
+      "proposition": {
+        "predicate": "published",
+        "object": "Wed, 02 Sep 2026 01:06:08 GMT"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "war",
+        "citation": "https://www.theguardian.com/world/2026/sep/01/us-iran-airstrikes-launch"
+      },
+      "status": "supported"
+    }
+  ]
+}

@@ -1,0 +1,69 @@
+{
+  "type": "MultiAgentOperatingDisciplineCourseRevision",
+  "courseId": "multi-agent-operating-discipline-for-teams",
+  "revision": 1,
+  "title": "Multi-Agent Operating Discipline for Teams",
+  "promise": "Enable a technically literate engineering lead or solo operator who already runs a flat-rate agentic coding subscription to dispatch, steer, and recover more than one AI coding agent at a time without the failure modes that cost other teams redone work, silently overwritten files, and false 'done' claims.",
+  "audience": "engineering leads, solo technical founders, and developers already paying for Claude Code, Codex, or a comparable agentic coding tool who run more than one agent at a time",
+  "format": "live, synchronous, cohort-taught; 10-20 seats",
+  "competencies": [
+    { "id": "brief-writing", "description": "Write a complete agent brief that states the requested outcome, exact scope, the permitted operation, and what 'done' measures, so a subagent with no memory of the conversation cannot go astray." },
+    { "id": "fan-out-judgment", "description": "Recognize the fan-out anti-pattern and decide when splitting work across several agents changes the answer versus wasting tokens and time for no gain." },
+    { "id": "steering-and-recovery", "description": "Steer a running agent mid-flight and recover an interrupted commission without redoing finished work or starting a second writer that collides with a still-running peer." },
+    { "id": "receipts-as-memory", "description": "Use dated receipts and lifecycle journaling as inter-session memory so the next session, or the next agent, does not have to re-derive what a prior one already established." },
+    { "id": "multi-session-coordination", "description": "Coordinate two or more concurrent agent sessions sharing one working tree without silent collisions, using division-by-message and path manifests rather than luck." }
+  ],
+  "lessons": [
+    {
+      "id": "the-complete-brief",
+      "sequence": 1,
+      "title": "The Complete Brief: What a Subagent Must Be Told",
+      "prerequisites": [],
+      "competencies": ["brief-writing"],
+      "durationMinutes": 90,
+      "deliverables": ["a reusable brief template", "a live brief written against the participant's own real backlog item"],
+      "freshnessDays": 180
+    },
+    {
+      "id": "the-fan-out-anti-pattern",
+      "sequence": 2,
+      "title": "The Fan-Out Anti-Pattern",
+      "prerequisites": ["the-complete-brief"],
+      "competencies": ["fan-out-judgment"],
+      "durationMinutes": 90,
+      "deliverables": ["a fan-out decision checklist", "a worked before/after split of a broad task the participant brought in"],
+      "freshnessDays": 180
+    },
+    {
+      "id": "steering-and-recovering-agents",
+      "sequence": 3,
+      "title": "Steering, Interrupting, and Recovering a Running Agent",
+      "prerequisites": ["the-complete-brief"],
+      "competencies": ["steering-and-recovery"],
+      "durationMinutes": 90,
+      "deliverables": ["a recovery runbook for an interrupted commission", "a live steering exercise against a real running agent"],
+      "freshnessDays": 180
+    },
+    {
+      "id": "receipts-as-inter-session-memory",
+      "sequence": 4,
+      "title": "Receipts and Lifecycle Journaling as Inter-Session Memory",
+      "prerequisites": ["the-complete-brief"],
+      "competencies": ["receipts-as-memory"],
+      "durationMinutes": 90,
+      "deliverables": ["a minimal dated-receipt convention the participant can adopt this week", "a worked example distinguishing a receipt from a transcript"],
+      "freshnessDays": 180
+    },
+    {
+      "id": "collision-to-coordination-case-study",
+      "sequence": 5,
+      "title": "Case Study: From Collision to Coordination — Two Concurrent Sessions, One Checkout",
+      "prerequisites": ["the-fan-out-anti-pattern", "steering-and-recovering-agents", "receipts-as-inter-session-memory"],
+      "competencies": ["multi-session-coordination"],
+      "durationMinutes": 120,
+      "deliverables": ["a walked-through real incident timeline", "a coordination protocol (path manifests, division-by-message) the participant's team can adopt"],
+      "freshnessDays": 30
+    }
+  ],
+  "correctionPolicy": "append a new course revision; never edit admitted lesson truth in place"
+}

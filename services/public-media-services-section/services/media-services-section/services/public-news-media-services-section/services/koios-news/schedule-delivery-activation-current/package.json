@@ -1,0 +1,21 @@
+{
+  "name": "@causeway-services/koios-news-schedule-delivery-activation-current",
+  "version": "0.0.1",
+  "type": "module",
+  "bin": {
+    "koios-news-schedule-delivery-preflight": "./bin/koios-news-schedule-delivery-preflight.mjs"
+  },
+  "dependencies": {
+    "@red-cup-engineering/parse-javascript-argv-service": "0.2.2"
+  },
+  "scripts": {
+    "check": "node --check bin/koios-news-schedule-delivery-preflight.mjs",
+    "test": "node --test test/*.test.mjs"
+  },
+  "files": [
+    "bin/",
+    "test/",
+    "README.md",
+    "package.json"
+  ]
+}

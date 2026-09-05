@@ -1,0 +1,69 @@
+{
+  "subject": "robbie-williams-tom-cruise-and-jennifer-hudson-among-stars-at-world-cup-closing-ceremony",
+  "claims": [
+    {
+      "id": "title",
+      "proposition": {
+        "predicate": "title",
+        "object": "Robbie Williams, Tom Cruise and Jennifer Hudson among stars at World Cup closing ceremony"
+      },
+      "time": {
+        "asserted": "2026-07-19T20:06:20.506Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "sports",
+        "citation": "https://www.bbc.co.uk/news/articles/clyxjl0wkl7o?at_medium=RSS&at_campaign=rss"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "url",
+      "proposition": {
+        "predicate": "url",
+        "object": "https://www.bbc.co.uk/news/articles/clyxjl0wkl7o?at_medium=RSS&at_campaign=rss"
+      },
+      "time": {
+        "asserted": "2026-07-19T20:06:20.506Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "sports",
+        "citation": "https://www.bbc.co.uk/news/articles/clyxjl0wkl7o?at_medium=RSS&at_campaign=rss"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "summary",
+      "proposition": {
+        "predicate": "summary",
+        "object": "The celebrity line-up will continue at half-time with performances by Madonna, Justin Bieber, Shakira and BTS."
+      },
+      "time": {
+        "asserted": "2026-07-19T20:06:20.506Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "sports",
+        "citation": "https://www.bbc.co.uk/news/articles/clyxjl0wkl7o?at_medium=RSS&at_campaign=rss"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "published",
+      "proposition": {
+        "predicate": "published",
+        "object": "Sun, 19 Jul 2026 19:59:36 GMT"
+      },
+      "time": {
+        "asserted": "2026-07-19T20:06:20.506Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "sports",
+        "citation": "https://www.bbc.co.uk/news/articles/clyxjl0wkl7o?at_medium=RSS&at_campaign=rss"
+      },
+      "status": "supported"
+    }
+  ]
+}

@@ -1,0 +1,44 @@
+{
+  "kind": "koios.service-contract-proposal",
+  "id": "cloudflare-static-publication",
+  "customer": "urn:ame:koios-news",
+  "provider": "urn:ame:resource-brokerage-team",
+  "upstreamProvider": "cloudflare",
+  "providerContract": "cloudflare-static-delivery",
+  "service": "profile-aware static publication delivery",
+  "profiles": {
+    "shadow-preview": {
+      "artifact": "non-authoritative-shadow",
+      "effects": ["upload immutable public GET artifacts", "serve at exact preview hostname", "preserve artifact noindex response and robots policy"],
+      "excluded": ["advertising impressions", "primary delivery authority", "DNS mutation"]
+    },
+    "candidate-preview": {
+      "artifact": "non-authoritative-cutover-candidate",
+      "effects": ["upload exact candidate body bytes", "serve at exact preview hostname", "apply a separately digested preview-only noindex header overlay"],
+      "excluded": ["changing candidate response bodies", "removing preview noindex", "primary delivery authority", "DNS mutation"]
+    },
+    "authorized-cutover": {
+      "artifact": "non-authoritative-cutover-candidate promoted only by the accepted act",
+      "effects": ["bind koios.news to the exact candidate body manifest and production delivery-policy digest", "remove only the preview noindex overlay", "retain the last accepted Cloudflare deployment as rollback state"],
+      "excluded": ["unbounded Workers", "newsroom execution", "content or ledger mutation", "creating or retaining a VPS public origin"]
+    }
+  },
+  "alwaysExcluded": ["credentials in repository or ledger", "POST /hit without a separate accountable-attention contract", "public newsroom cable MCP or operator authority"],
+  "invocationMustBind": ["profile", "artifact manifest digest", "live-publication-witness digest", "delivery-policy digest", "Cloudflare account grant", "Worker name", "hostname", "effect set", "expiry"],
+  "acceptance": ["provider offer matches the requested profile and exact effects", "successful provider receipt", "local-artifact-to-preview body-byte parity", "expected preview overlay headers", "prior-Cloudflare-to-candidate public semantic parity", "advertising privacy security correction and structured-data parity", "digest-bound mutable-route dispositions", "Cloudflare rollback rehearsal", "explicit digest-bound cutover act"],
+  "dryRun": {
+    "operation": "pnpm run shadow:cloudflare-dry-run -- --now <explicit UTC instant> --hostname <exact intended preview hostname or explicit .invalid rehearsal target> --expires-at <explicit UTC instant within one hour>",
+    "proves": ["provider discovery and ActivityStreams solicitation operate", "pinned provider packaging parses", "assets are enumerated", "upload envelope is buildable", "no provider mutation occurs"],
+    "doesNotProve": ["account or project authority", "preview delivery", "runtime headers", "DNS", "rollback"]
+  },
+  "livePreviewGrantFormation": {
+    "solicitation": "node dist/cloudflare-static-delivery.mjs --artifact .static/koios.news-candidate --execution-mode live-preview --now <explicit UTC instant> --expires-at <within one hour> --hostname <exact preview hostname> --account-id <exact account> --worker-name <exact Worker> --solicit-only",
+    "result": "Koios records and emits an InvocationResourceGrantDemand containing the provider's exact offer, invocation identifier, bindings, effects, and an explicitly proposed grant body.",
+    "authority": "The proposed body is not a grant. The Leader Movement Team must author the InvocationResourceGrant response; Koios then supplies that exact response with --resource-grant on a later invocation.",
+    "credentialHandling": "CLOUDFLARE_API_TOKEN is injected out of band only into the provider invocation, either from the inherited environment, a raw --credential-file, or an exact named assignment in --credential-env-file. Either file must be regular and mode 0600 or stricter. The client reads it only after validating the exact LMT grant; its path, variable name, and bytes are never placed in the demand, grant, contract, repository, or ledger.",
+    "effectsBeforeGrant": ["solicit provider offer", "record resource-grant demand"],
+    "effectsRefusedBeforeGrant": ["read Cloudflare credential", "contact Cloudflare", "upload artifact", "create preview"]
+  },
+  "currentStatus": "Cloudflare Worker koios-news-primary is the sole public authority for koios.news; Cold Red Gate supplies persistent operations only and is excluded as an origin mirror fallback or rollback target",
+  "refusalIsProgress": "Koios can form and invoke the provider contract without impersonating it. Every effect beyond credential-free packaging remains unavailable until the provider advertises it and the Leader Movement Team grants the exact resource capability."
+}

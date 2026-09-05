@@ -1,0 +1,69 @@
+{
+  "subject": "social-darwinists-to-tech-bros-tracing-the-long-fight-against-equality-in-us",
+  "claims": [
+    {
+      "id": "title",
+      "proposition": {
+        "predicate": "title",
+        "object": "Social Darwinists to tech bros: tracing the long fight against equality in US"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "culture",
+        "citation": "https://www.theguardian.com/books/2026/jul/21/kim-phillips-fein-country-of-lords"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "url",
+      "proposition": {
+        "predicate": "url",
+        "object": "https://www.theguardian.com/books/2026/jul/21/kim-phillips-fein-country-of-lords"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "culture",
+        "citation": "https://www.theguardian.com/books/2026/jul/21/kim-phillips-fein-country-of-lords"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "summary",
+      "proposition": {
+        "predicate": "summary",
+        "object": "<p>Historian Kim Phillips-Fein’s book Country of Lords looks back at the many men who have tried to fight against egalitarianism, from John Adams to Peter Thiel</p><p>The historian Kim Phillips-Fein’s new book is published amid celebrations of the <a href=\"https://www.theguardian.com/us-news/series/america-at-250\">250th anniversary</a> of the declaration of independence and its truth “self-evident, that all men are created equal”. Country of Lords, however, is a history of Neo-Aristocrats, Social Darwinists, Tech Utopians, and the Long Fight <em>Against</em> Equality in America.</p><p>Concise and hard-hitting, the book arrives at a time of glaring social and <a href=\"https://www.theguardian.com/us-news/2026/jun/26/billionaires-wealth-soars-as-workers-struggle\">economic</a> <a href=\"https://www.theguardian.com/us-news/2026/jun/21/us-inequality-plutocracy\">inequality</a>, Phillips-Fein seeing <a href=\"https://www.theguardian.com/technology/elon-musk\">Elon Musk</a> “<a href=\"https://www.theguardian.com/commentisfree/2026/jun/17/is-it-bad-that-elon-musk-has-a-trillion-dollars-yes-and-heres-why\">emerging as a trillionaire</a> very much on people’s minds, with a deep level of discomfort, both fear and anger about what this portends”.</p> <a href=\"https://www.theguardian.com/books/2026/jul/21/kim-phillips-fein-country-of-lords\">Continue reading...</a>"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "culture",
+        "citation": "https://www.theguardian.com/books/2026/jul/21/kim-phillips-fein-country-of-lords"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "published",
+      "proposition": {
+        "predicate": "published",
+        "object": "Tue, 21 Jul 2026 10:00:43 GMT"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "culture",
+        "citation": "https://www.theguardian.com/books/2026/jul/21/kim-phillips-fein-country-of-lords"
+      },
+      "status": "supported"
+    }
+  ]
+}

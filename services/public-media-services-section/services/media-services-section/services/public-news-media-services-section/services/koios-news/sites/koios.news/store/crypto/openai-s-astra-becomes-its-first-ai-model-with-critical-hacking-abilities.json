@@ -1,0 +1,69 @@
+{
+  "subject": "openai-s-astra-becomes-its-first-ai-model-with-critical-hacking-abilities",
+  "claims": [
+    {
+      "id": "title",
+      "proposition": {
+        "predicate": "title",
+        "object": "OpenAI's Astra Becomes Its First AI Model With 'Critical' Hacking Abilities"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "crypto",
+        "citation": "https://decrypt.co/377180/openai-astra-first-ai-model-critical-hacking"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "url",
+      "proposition": {
+        "predicate": "url",
+        "object": "https://decrypt.co/377180/openai-astra-first-ai-model-critical-hacking"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "crypto",
+        "citation": "https://decrypt.co/377180/openai-astra-first-ai-model-critical-hacking"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "summary",
+      "proposition": {
+        "predicate": "summary",
+        "object": "The unreleased model can find zero-day vulnerabilities and chain them into working exploits without a human walking it through each step, and access to that capability is starting with a small group of testers."
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "crypto",
+        "citation": "https://decrypt.co/377180/openai-astra-first-ai-model-critical-hacking"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "published",
+      "proposition": {
+        "predicate": "published",
+        "object": "Wed, 02 Sep 2026 16:43:53 +0000"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "crypto",
+        "citation": "https://decrypt.co/377180/openai-astra-first-ai-model-critical-hacking"
+      },
+      "status": "supported"
+    }
+  ]
+}

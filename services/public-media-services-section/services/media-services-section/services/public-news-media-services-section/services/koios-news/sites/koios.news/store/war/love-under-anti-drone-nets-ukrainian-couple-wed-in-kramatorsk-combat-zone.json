@@ -1,0 +1,69 @@
+{
+  "subject": "love-under-anti-drone-nets-ukrainian-couple-wed-in-kramatorsk-combat-zone",
+  "claims": [
+    {
+      "id": "title",
+      "proposition": {
+        "predicate": "title",
+        "object": "Love under anti-drone nets: Ukrainian couple wed in Kramatorsk combat zone"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "war",
+        "citation": "https://www.theguardian.com/world/2026/aug/29/ukraine-war-family-wedding-eastern-frontline-russia"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "url",
+      "proposition": {
+        "predicate": "url",
+        "object": "https://www.theguardian.com/world/2026/aug/29/ukraine-war-family-wedding-eastern-frontline-russia"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "war",
+        "citation": "https://www.theguardian.com/world/2026/aug/29/ukraine-war-family-wedding-eastern-frontline-russia"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "summary",
+      "proposition": {
+        "predicate": "summary",
+        "object": "<p>‘At a time when Russia is trying to spread gloom and darkness … it is important to create something beautiful,’ says combat medic Tetiana as she weds army captain Oleksandr</p><p>In the bright early afternoon sun of Kramatorsk’s central and now ironically named Peace Square, Tetiana, in her bridal dress, and Oleksandr, in his military uniform, are holding up their phones at the ready. It is a public holiday, 35 years since Ukraine’s declaration of independence, and a popular day for a wedding, though the open-air location is not obviously ideal.</p><p>Three days earlier, Kramatorsk, perhaps Vladimir Putin’s principal target, was formally designated part of the combat zone, the front inching towards the city as Russia closes in on the parts of the Donetsk region it does not control. It is quiet at 2pm though; the ceremony brief. There are no guests other than the Guardian team.</p><p>Tetiana and Oleksandr pose for a wedding photo on Mount Karachun, near Sloviansk, the scene of fierce fighting in 2014.</p> <a href=\"https://www.theguardian.com/world/2026/aug/29/ukraine-war-family-wedding-eastern-frontline-russia\">Continue reading...</a>"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "war",
+        "citation": "https://www.theguardian.com/world/2026/aug/29/ukraine-war-family-wedding-eastern-frontline-russia"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "published",
+      "proposition": {
+        "predicate": "published",
+        "object": "Sat, 29 Aug 2026 06:00:20 GMT"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "war",
+        "citation": "https://www.theguardian.com/world/2026/aug/29/ukraine-war-family-wedding-eastern-frontline-russia"
+      },
+      "status": "supported"
+    }
+  ]
+}

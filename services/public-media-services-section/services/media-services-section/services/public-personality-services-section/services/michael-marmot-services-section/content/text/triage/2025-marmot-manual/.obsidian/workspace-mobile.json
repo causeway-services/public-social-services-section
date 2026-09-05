@@ -1,0 +1,220 @@
+{
+  "main": {
+    "id": "4f9452617037bffa",
+    "type": "split",
+    "children": [
+      {
+        "id": "563e04b4a5bd7bab",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "0e246fdb262260b0",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Content/Long Form/Blockchain/Preventing Fraud in Blockchain Games.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Preventing Fraud in Blockchain Games"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "8ca852cd7f2e61a8",
+    "type": "mobile-drawer",
+    "children": [
+      {
+        "id": "cdbaa9684746d9be",
+        "type": "leaf",
+        "state": {
+          "type": "file-explorer",
+          "state": {
+            "sortOrder": "alphabetical",
+            "autoReveal": false
+          },
+          "icon": "lucide-folder-closed",
+          "title": "Files"
+        }
+      },
+      {
+        "id": "f25ddff321543b9a",
+        "type": "leaf",
+        "state": {
+          "type": "search",
+          "state": {
+            "query": "few weeks",
+            "matchingCase": false,
+            "explainSearch": false,
+            "collapseAll": false,
+            "extraContext": false,
+            "sortOrder": "alphabetical"
+          },
+          "icon": "lucide-search",
+          "title": "Search"
+        }
+      },
+      {
+        "id": "4a0b0b40fd846387",
+        "type": "leaf",
+        "state": {
+          "type": "tag",
+          "state": {
+            "sortOrder": "frequency",
+            "useHierarchy": true
+          },
+          "icon": "lucide-tags",
+          "title": "Tags"
+        }
+      },
+      {
+        "id": "86e2c40a7e05e05d",
+        "type": "leaf",
+        "state": {
+          "type": "bookmarks",
+          "state": {},
+          "icon": "lucide-bookmark",
+          "title": "Bookmarks"
+        }
+      },
+      {
+        "id": "dec9f84e0579f59e",
+        "type": "leaf",
+        "state": {
+          "type": "all-properties",
+          "state": {
+            "sortOrder": "frequency",
+            "showSearch": false,
+            "searchQuery": ""
+          },
+          "icon": "lucide-archive",
+          "title": "All properties"
+        }
+      }
+    ],
+    "currentTab": 0
+  },
+  "right": {
+    "id": "39bcbb6555cea97a",
+    "type": "mobile-drawer",
+    "children": [
+      {
+        "id": "9f63b61509e673d8",
+        "type": "leaf",
+        "state": {
+          "type": "backlink",
+          "state": {
+            "file": "HINDEX.md",
+            "collapseAll": false,
+            "extraContext": false,
+            "sortOrder": "alphabetical",
+            "showSearch": false,
+            "searchQuery": "",
+            "backlinkCollapsed": false,
+            "unlinkedCollapsed": true
+          },
+          "icon": "links-coming-in",
+          "title": "Backlinks"
+        }
+      },
+      {
+        "id": "c03e9bb166a8c8c5",
+        "type": "leaf",
+        "state": {
+          "type": "outgoing-link",
+          "state": {
+            "file": "Projects/Untitled/Untitled.md",
+            "linksCollapsed": false,
+            "unlinkedCollapsed": true
+          },
+          "icon": "links-going-out",
+          "title": "Outgoing links"
+        }
+      },
+      {
+        "id": "6d655f8391168a5b",
+        "type": "leaf",
+        "state": {
+          "type": "outline",
+          "state": {
+            "file": "Projects/Untitled/Untitled.md"
+          },
+          "icon": "lucide-list",
+          "title": "Outline"
+        }
+      },
+      {
+        "id": "5a69d8b03be5439d",
+        "type": "leaf",
+        "state": {
+          "type": "file-properties",
+          "state": {
+            "file": "HINDEX.md"
+          },
+          "icon": "lucide-info",
+          "title": "File properties"
+        }
+      }
+    ],
+    "currentTab": 3
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "audio-recorder:Start/stop recording": false,
+      "templater-obsidian:Templater": false
+    }
+  },
+  "active": "0e246fdb262260b0",
+  "lastOpenFiles": [
+    "Projects/HAL/HLDSHBD.md",
+    "Projects/HAL/Hive Auto Ledger (HAL).md",
+    "Untitled 3.md",
+    "Projects/HAL/HAL Token Overview.md",
+    "HINDEX.md",
+    "Untitled 2.md",
+    "Hive Post Blurbs.md",
+    "Hive Creators Without Capital, Look At HSBI.md",
+    "I Won a Sponsorship into HSBI.md",
+    "FALL Idle Game.md",
+    "Content/Long Form/Hive/Hive Income Staking Plan.md",
+    "Content/Long Form/Hive/Hive Engagement Routine.md",
+    "Hive Hashtagging.md",
+    "Content/Long Form/Substack/This Land Is Not Ours.md",
+    "Stabilizing Hive Conversion to HBD to Increase Market Appeal.md",
+    "Planning Statement.md",
+    "561 Fiat Investment Strategy Proposal (JOKE).md",
+    "Content/Long Form/Hive/Strategizing My Hive Posting Schedule.md",
+    "Splinterlands Strategy.md",
+    "Untitled 1.md",
+    "Seasonal Portfolio Management.md",
+    "Content/Long Form/Hive/My Favorite Follows.md",
+    "Content/Long Form/Hive/My Hive delegations.md",
+    "Untitled.md",
+    "Content/Long Form/Hive/When Equity is an Asset and Assets aren't Equity.md",
+    "Content/Long Form/Hive/Projects and Tokens",
+    "Content/Long Form/Hive/Projects and Tokens/LeoFinance.md",
+    "Content/Long Form/Substack",
+    "Content/Long Form/Finance",
+    "Content/Long Form/Weather",
+    "Content/Long Form/Ag",
+    "Content/Long Form/Blockchain",
+    "Content/Long Form/Hive",
+    "Projects/@michael561@HIVE/Hivecyclopedia",
+    "Content/Books",
+    "Projects/emsenn's Letters to the Web",
+    "Pasted image 20241210110959.png",
+    "Images/corn-brain.png"
+  ]
+}

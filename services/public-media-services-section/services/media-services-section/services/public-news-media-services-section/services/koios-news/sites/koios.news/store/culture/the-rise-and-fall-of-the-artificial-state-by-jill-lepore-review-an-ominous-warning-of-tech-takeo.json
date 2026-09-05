@@ -1,0 +1,69 @@
+{
+  "subject": "the-rise-and-fall-of-the-artificial-state-by-jill-lepore-review-an-ominous-warning-of-tech-takeo",
+  "claims": [
+    {
+      "id": "title",
+      "proposition": {
+        "predicate": "title",
+        "object": "The Rise and Fall of the Artificial State by Jill Lepore review – an ominous warning of tech takeover"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "culture",
+        "citation": "https://www.theguardian.com/books/2026/aug/19/the-rise-and-fall-of-the-artificial-state-by-jill-lepore-review-an-ominous-warning-of-tech-takeover"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "url",
+      "proposition": {
+        "predicate": "url",
+        "object": "https://www.theguardian.com/books/2026/aug/19/the-rise-and-fall-of-the-artificial-state-by-jill-lepore-review-an-ominous-warning-of-tech-takeover"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "culture",
+        "citation": "https://www.theguardian.com/books/2026/aug/19/the-rise-and-fall-of-the-artificial-state-by-jill-lepore-review-an-ominous-warning-of-tech-takeover"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "summary",
+      "proposition": {
+        "predicate": "summary",
+        "object": "<p>A historian charts the emergence of a democracy-crushing dystopia that is – in some ways – already with us</p><p>Pulitzer prize-winning US historian Jill Lepore’s new book addresses the threat posed to&nbsp;liberal democracy by artificial intelligence. According to Lepore, the extraordinary power of private tech companies led by men whose priorities may not align with the wellbeing of the Earth or its inhabitants is set to destroy civilisation as we know it.</p><p>Lepore’s concept of the Artificial State is capacious. It includes both a fantasy desired by a select few and a&nbsp;reality that is already with us. The&nbsp;fantasy is of an&nbsp;atomised society in which an elite can transcend biological&nbsp;and planetary restrictions, “abandoning constitutional democracy, the liberal nation-state, and even humanity itself for rule by automation, government by machine, and replacement by artificial intelligence”. The reality is that of public discourse having shifted to privately owned platforms on which&nbsp;monetised attention is valued above all&nbsp;else.</p> <a href=\"https://www.theguardian.com/books/2026/aug/19/the-rise-and-fall-of-the-artificial-state-by-jill-lepore-review-an-ominous-warning-of-tech-takeover\">Continue reading...</a>"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "culture",
+        "citation": "https://www.theguardian.com/books/2026/aug/19/the-rise-and-fall-of-the-artificial-state-by-jill-lepore-review-an-ominous-warning-of-tech-takeover"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "published",
+      "proposition": {
+        "predicate": "published",
+        "object": "Wed, 19 Aug 2026 08:00:09 GMT"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "culture",
+        "citation": "https://www.theguardian.com/books/2026/aug/19/the-rise-and-fall-of-the-artificial-state-by-jill-lepore-review-an-ominous-warning-of-tech-takeover"
+      },
+      "status": "supported"
+    }
+  ]
+}

@@ -1,0 +1,69 @@
+{
+  "subject": "inflation-cools-to-3-5-in-june-in-relief-brought-by-brief-us-iran-peace-deal",
+  "claims": [
+    {
+      "id": "title",
+      "proposition": {
+        "predicate": "title",
+        "object": "Inflation cools to 3.5% in June in relief brought by brief US-Iran peace deal"
+      },
+      "time": {
+        "asserted": "2026-07-18T04:08:17.794Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "economy",
+        "citation": "https://www.theguardian.com/business/2026/jul/14/june-cpi-report-inflation-cools-iran-deal"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "url",
+      "proposition": {
+        "predicate": "url",
+        "object": "https://www.theguardian.com/business/2026/jul/14/june-cpi-report-inflation-cools-iran-deal"
+      },
+      "time": {
+        "asserted": "2026-07-18T04:08:17.794Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "economy",
+        "citation": "https://www.theguardian.com/business/2026/jul/14/june-cpi-report-inflation-cools-iran-deal"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "summary",
+      "proposition": {
+        "predicate": "summary",
+        "object": "<p>Recent strikes have sent oil prices climbing again, with average gas price per gallon up by $0.70 compared with 2025</p><p>Inflation cooled to an annual rate of 3.5% in June as the brief US-Iran ceasefire, which has since ended, brought energy prices down, according to new data from the Bureau of Labor Statistics.</p><p>The consumer price index (CPI), which measures a basket of goods and services, has been elevated since the start of the war, largely because of higher energy prices. After mostly staying under 3% since mid-2024, CPI reached a three-year high of 4.2% in May – up from 2.4% in February. Month-over-month, CPI fell 0.8% in June, the largest one-month decrease since April 2020.</p> <a href=\"https://www.theguardian.com/business/2026/jul/14/june-cpi-report-inflation-cools-iran-deal\">Continue reading...</a>"
+      },
+      "time": {
+        "asserted": "2026-07-18T04:08:17.794Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "economy",
+        "citation": "https://www.theguardian.com/business/2026/jul/14/june-cpi-report-inflation-cools-iran-deal"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "published",
+      "proposition": {
+        "predicate": "published",
+        "object": "Tue, 14 Jul 2026 16:56:56 GMT"
+      },
+      "time": {
+        "asserted": "2026-07-18T04:08:17.794Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "economy",
+        "citation": "https://www.theguardian.com/business/2026/jul/14/june-cpi-report-inflation-cools-iran-deal"
+      },
+      "status": "supported"
+    }
+  ]
+}

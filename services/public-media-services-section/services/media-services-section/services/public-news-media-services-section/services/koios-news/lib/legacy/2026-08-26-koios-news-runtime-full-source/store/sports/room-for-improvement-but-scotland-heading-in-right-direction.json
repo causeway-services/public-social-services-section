@@ -1,0 +1,69 @@
+{
+  "subject": "room-for-improvement-but-scotland-heading-in-right-direction",
+  "claims": [
+    {
+      "id": "title",
+      "proposition": {
+        "predicate": "title",
+        "object": "Room for improvement but Scotland heading in right direction"
+      },
+      "time": {
+        "asserted": "2026-07-19T15:58:02.610Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "sports",
+        "citation": "https://www.bbc.co.uk/sport/rugby-union/articles/cd0xg22xmr2o?at_medium=RSS&at_campaign=rss"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "url",
+      "proposition": {
+        "predicate": "url",
+        "object": "https://www.bbc.co.uk/sport/rugby-union/articles/cd0xg22xmr2o?at_medium=RSS&at_campaign=rss"
+      },
+      "time": {
+        "asserted": "2026-07-19T15:58:02.610Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "sports",
+        "citation": "https://www.bbc.co.uk/sport/rugby-union/articles/cd0xg22xmr2o?at_medium=RSS&at_campaign=rss"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "summary",
+      "proposition": {
+        "predicate": "summary",
+        "object": "After wins against Argentina and Fiji and a loss against South Africa, Tom English reviews a productive summer for Scotland in the Nations Championship."
+      },
+      "time": {
+        "asserted": "2026-07-19T15:58:02.610Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "sports",
+        "citation": "https://www.bbc.co.uk/sport/rugby-union/articles/cd0xg22xmr2o?at_medium=RSS&at_campaign=rss"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "published",
+      "proposition": {
+        "predicate": "published",
+        "object": "Sun, 19 Jul 2026 13:30:09 GMT"
+      },
+      "time": {
+        "asserted": "2026-07-19T15:58:02.610Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "sports",
+        "citation": "https://www.bbc.co.uk/sport/rugby-union/articles/cd0xg22xmr2o?at_medium=RSS&at_campaign=rss"
+      },
+      "status": "supported"
+    }
+  ]
+}

@@ -1,0 +1,69 @@
+{
+  "subject": "walsh-caps-champions-league-progress-for-chelsea-despite-real-sociedad-grind",
+  "claims": [
+    {
+      "id": "title",
+      "proposition": {
+        "predicate": "title",
+        "object": "Walsh caps Champions League progress for Chelsea despite Real Sociedad grind"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "sport",
+        "citation": "https://www.theguardian.com/football/2026/sep/02/walsh-caps-champions-league-progress-for-chelsea-despite-real-sociedad-grind"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "url",
+      "proposition": {
+        "predicate": "url",
+        "object": "https://www.theguardian.com/football/2026/sep/02/walsh-caps-champions-league-progress-for-chelsea-despite-real-sociedad-grind"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "sport",
+        "citation": "https://www.theguardian.com/football/2026/sep/02/walsh-caps-champions-league-progress-for-chelsea-despite-real-sociedad-grind"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "summary",
+      "proposition": {
+        "predicate": "summary",
+        "object": "<ul><li><p>Real Sociedad 0-1 Chelsea (agg 2-6)</p></li><li><p>Keira Walsh scores at corner to settle tie</p></li></ul><p>Chelsea ensured there will be three Women’s Super League teams in the league phase of the Champions League as Keira Walsh’s second-half strike against Real Sociedad extended their three-goal margin from the first leg of the third-round qualifier.</p><p>The <a href=\"https://www.theguardian.com/football/2026/aug/26/chelsea-real-sociedad-womens-champions-league-match-report\">5-2 win</a> against the Spanish side in Chelsea’s first game at Wimbledon’s Cherry Red Records stadium gave Sonia Bompastor’s side a commanding lead in the tie, after a rusty start had forced them to come from a goal down. It wasn’t a particularly pretty performance, though, and that continued into the second leg against <em>La Real</em>, who will now drop into the Europa League.</p><p><em>On Friday 4 September at 1pm Suzanne Wrack will be answering readers’ questions about the new WSL season for Guardian <a href=\"https://www.theguardian.com/community/series/conversations\">Conversations</a></em></p> <a href=\"https://www.theguardian.com/football/2026/sep/02/walsh-caps-champions-league-progress-for-chelsea-despite-real-sociedad-grind\">Continue reading...</a>"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "sport",
+        "citation": "https://www.theguardian.com/football/2026/sep/02/walsh-caps-champions-league-progress-for-chelsea-despite-real-sociedad-grind"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "published",
+      "proposition": {
+        "predicate": "published",
+        "object": "Wed, 02 Sep 2026 19:54:27 GMT"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "sport",
+        "citation": "https://www.theguardian.com/football/2026/sep/02/walsh-caps-champions-league-progress-for-chelsea-despite-real-sociedad-grind"
+      },
+      "status": "supported"
+    }
+  ]
+}

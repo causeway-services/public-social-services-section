@@ -1,0 +1,69 @@
+{
+  "subject": "popular-downtown-chicago-bridge-stuck-in-up-position-due-to-heat",
+  "claims": [
+    {
+      "id": "title",
+      "proposition": {
+        "predicate": "title",
+        "object": "Popular downtown Chicago bridge stuck in up position due to heat"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "us-politics",
+        "citation": "https://thehill.com/homenews/state-watch/6067113-popular-downtown-chicago-bridge-stuck-in-up-position-due-to-heat/"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "url",
+      "proposition": {
+        "predicate": "url",
+        "object": "https://thehill.com/homenews/state-watch/6067113-popular-downtown-chicago-bridge-stuck-in-up-position-due-to-heat/"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "us-politics",
+        "citation": "https://thehill.com/homenews/state-watch/6067113-popular-downtown-chicago-bridge-stuck-in-up-position-due-to-heat/"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "summary",
+      "proposition": {
+        "predicate": "summary",
+        "object": "Crews even tried spraying the bridge with water in an apparent attempt to cool it down."
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "us-politics",
+        "citation": "https://thehill.com/homenews/state-watch/6067113-popular-downtown-chicago-bridge-stuck-in-up-position-due-to-heat/"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "published",
+      "proposition": {
+        "predicate": "published",
+        "object": "Wed, 02 Sep 2026 21:16:31 +0000"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "us-politics",
+        "citation": "https://thehill.com/homenews/state-watch/6067113-popular-downtown-chicago-bridge-stuck-in-up-position-due-to-heat/"
+      },
+      "status": "supported"
+    }
+  ]
+}

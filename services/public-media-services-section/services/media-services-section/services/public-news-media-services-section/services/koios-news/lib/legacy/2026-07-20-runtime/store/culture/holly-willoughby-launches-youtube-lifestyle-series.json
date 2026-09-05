@@ -1,0 +1,69 @@
+{
+  "subject": "holly-willoughby-launches-youtube-lifestyle-series",
+  "claims": [
+    {
+      "id": "title",
+      "proposition": {
+        "predicate": "title",
+        "object": "Holly Willoughby Launches YouTube Lifestyle Series"
+      },
+      "time": {
+        "asserted": "2026-07-20T09:48:52.265Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "culture",
+        "citation": "https://deadline.com/2026/07/holly-willoughby-lifestyle-youtube-series-together-1236996703/"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "url",
+      "proposition": {
+        "predicate": "url",
+        "object": "https://deadline.com/2026/07/holly-willoughby-lifestyle-youtube-series-together-1236996703/"
+      },
+      "time": {
+        "asserted": "2026-07-20T09:48:52.265Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "culture",
+        "citation": "https://deadline.com/2026/07/holly-willoughby-lifestyle-youtube-series-together-1236996703/"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "summary",
+      "proposition": {
+        "predicate": "summary",
+        "object": "EXCLUSIVE: Holly Willoughby is setting up shop on YouTube. The top British presenter is launching Holly Willoughby Together, a lifestyle series for YouTube and social that counts Stanley Tucci, Katherine Ryan, Joanne McNally, Emma Bunton and Nicole Appleton in its first tranche of guests. She will also speak to campaigners like Ellen Roome, who is […]"
+      },
+      "time": {
+        "asserted": "2026-07-20T09:48:52.265Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "culture",
+        "citation": "https://deadline.com/2026/07/holly-willoughby-lifestyle-youtube-series-together-1236996703/"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "published",
+      "proposition": {
+        "predicate": "published",
+        "object": "Mon, 20 Jul 2026 07:00:00 +0000"
+      },
+      "time": {
+        "asserted": "2026-07-20T09:48:52.265Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "culture",
+        "citation": "https://deadline.com/2026/07/holly-willoughby-lifestyle-youtube-series-together-1236996703/"
+      },
+      "status": "supported"
+    }
+  ]
+}

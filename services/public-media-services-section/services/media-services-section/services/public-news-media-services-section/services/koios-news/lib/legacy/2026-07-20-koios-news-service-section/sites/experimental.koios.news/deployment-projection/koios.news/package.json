@@ -1,0 +1,12 @@
+{
+  "name": "@emsenn/koios.news",
+  "version": "0.0.0",
+  "type": "module",
+  "main": "./dist/server.mjs",
+  "scripts": {
+    "start": "node dist/server.mjs"
+  },
+  "dependencies": {
+    "@emsenn/infography": "workspace:*"
+  }
+}

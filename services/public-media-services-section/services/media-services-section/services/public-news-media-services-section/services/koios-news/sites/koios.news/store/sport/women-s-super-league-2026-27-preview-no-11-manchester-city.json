@@ -1,0 +1,69 @@
+{
+  "subject": "women-s-super-league-2026-27-preview-no-11-manchester-city",
+  "claims": [
+    {
+      "id": "title",
+      "proposition": {
+        "predicate": "title",
+        "object": "Women’s Super League 2026-27 preview No 11: Manchester City"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "sport",
+        "citation": "https://www.theguardian.com/football/2026/sep/01/womens-super-league-preview-manchester-city"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "url",
+      "proposition": {
+        "predicate": "url",
+        "object": "https://www.theguardian.com/football/2026/sep/01/womens-super-league-preview-manchester-city"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "sport",
+        "citation": "https://www.theguardian.com/football/2026/sep/01/womens-super-league-preview-manchester-city"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "summary",
+      "proposition": {
+        "predicate": "summary",
+        "object": "<p>Beth Mead and Niamh Charles are notable additions to the champions’ squad that looks just as strong as last season</p><p><strong>Guardian writers’ predicted position: </strong>1st (NB: this is not necessarily Tom Garry’s prediction but the average of our writers’ tips)</p><p><strong>Last season’s position: </strong>1st</p> <a href=\"https://www.theguardian.com/football/2026/sep/01/womens-super-league-preview-manchester-city\">Continue reading...</a>"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "sport",
+        "citation": "https://www.theguardian.com/football/2026/sep/01/womens-super-league-preview-manchester-city"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "published",
+      "proposition": {
+        "predicate": "published",
+        "object": "Mon, 31 Aug 2026 23:01:38 GMT"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "sport",
+        "citation": "https://www.theguardian.com/football/2026/sep/01/womens-super-league-preview-manchester-city"
+      },
+      "status": "supported"
+    }
+  ]
+}

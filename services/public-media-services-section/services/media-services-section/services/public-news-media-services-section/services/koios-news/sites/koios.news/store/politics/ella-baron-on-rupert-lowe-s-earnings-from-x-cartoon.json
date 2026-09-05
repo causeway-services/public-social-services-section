@@ -1,0 +1,69 @@
+{
+  "subject": "ella-baron-on-rupert-lowe-s-earnings-from-x-cartoon",
+  "claims": [
+    {
+      "id": "title",
+      "proposition": {
+        "predicate": "title",
+        "object": "Ella Baron on Rupert Lowe’s earnings from X – cartoon"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "politics",
+        "citation": "https://www.theguardian.com/commentisfree/picture/2026/aug/25/ella-baron-rupert-lowe-earnings-from-x-restore-britain-social-media-cartoon"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "url",
+      "proposition": {
+        "predicate": "url",
+        "object": "https://www.theguardian.com/commentisfree/picture/2026/aug/25/ella-baron-rupert-lowe-earnings-from-x-restore-britain-social-media-cartoon"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "politics",
+        "citation": "https://www.theguardian.com/commentisfree/picture/2026/aug/25/ella-baron-rupert-lowe-earnings-from-x-restore-britain-social-media-cartoon"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "summary",
+      "proposition": {
+        "predicate": "summary",
+        "object": "<p></p> <a href=\"https://www.theguardian.com/commentisfree/picture/2026/aug/25/ella-baron-rupert-lowe-earnings-from-x-restore-britain-social-media-cartoon\">Continue reading...</a>"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "politics",
+        "citation": "https://www.theguardian.com/commentisfree/picture/2026/aug/25/ella-baron-rupert-lowe-earnings-from-x-restore-britain-social-media-cartoon"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "published",
+      "proposition": {
+        "predicate": "published",
+        "object": "Tue, 25 Aug 2026 17:24:23 GMT"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "politics",
+        "citation": "https://www.theguardian.com/commentisfree/picture/2026/aug/25/ella-baron-rupert-lowe-earnings-from-x-restore-britain-social-media-cartoon"
+      },
+      "status": "supported"
+    }
+  ]
+}

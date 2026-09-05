@@ -1,0 +1,69 @@
+{
+  "subject": "a-useful-ghost-review-exhilarating-black-comedy-summons-ghosts-of-thai-past-via-a-haunted-hoover",
+  "claims": [
+    {
+      "id": "title",
+      "proposition": {
+        "predicate": "title",
+        "object": "A Useful Ghost review – exhilarating black comedy summons ghosts of Thai past via a haunted hoover"
+      },
+      "time": {
+        "asserted": "2026-07-20T09:48:52.265Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "culture",
+        "citation": "https://www.theguardian.com/film/2026/jul/20/a-useful-ghost-review-exhilarating-black-comedy-pits-thai-politics-against-a-haunted-hoover"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "url",
+      "proposition": {
+        "predicate": "url",
+        "object": "https://www.theguardian.com/film/2026/jul/20/a-useful-ghost-review-exhilarating-black-comedy-pits-thai-politics-against-a-haunted-hoover"
+      },
+      "time": {
+        "asserted": "2026-07-20T09:48:52.265Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "culture",
+        "citation": "https://www.theguardian.com/film/2026/jul/20/a-useful-ghost-review-exhilarating-black-comedy-pits-thai-politics-against-a-haunted-hoover"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "summary",
+      "proposition": {
+        "predicate": "summary",
+        "object": "<p>Ratchapoom Boonbunchachoke’s stylish and unique movie features an unquiet spirit that inhabits a vacuum cleaner, before political interests intervene</p><p>Here is a stylish and exhilaratingly confident debut from 39-year-old Thai film-maker Ratchapoom Boonbunchachoke, which won the <a href=\"https://variety.com/2025/film/awards/thailand-a-useful-ghost-oscar-entry-1236493859/\">critics’ week grand prize at Cannes last year</a>. It is a supernatural black-comic fantasy of national grief executed with passion and panache, about the ghosts who have refused their afterlife confinement <a href=\"https://www.theguardian.com/music/2018/may/30/thailand-punks-against-junta-repression-military-political\">after the country’s succeeding catastrophes</a>: the bloody results of a military crackdown in 2010, coup d’etats in 2006 and 2014, and before them, the 1976 Thammasat University demonstrations, along with loved ones that went to an unquiet grave of their own.</p><p>A Useful Ghost is heartfelt and elegant in its compositional flair; dreamlike tableaux are crisply juxtaposed in the edit and the whole effect is disquieting, erotic and terribly sad. It’s in some ways a humorous twist on the serious spiritual realities laid out in the movies of Thai master Joe Weerasethakul, like <a href=\"https://www.theguardian.com/film/2010/nov/18/uncle-boonmee-who-can-recall-his-past-lives-review\">Uncle Boonmee Who Can Recall His Past Lives</a> and <a href=\"https://www.theguardian.com/film/2015/may/18/cemetery-of-splendour-review-apichatpong-weerasethakul\">Cemetery of Splendour</a>. And you might also sense the spectral shimmer of western films like Ghost and Truly, Madly, Deeply.</p> <a href=\"https://www.theguardian.com/film/2026/jul/20/a-useful-ghost-review-exhilarating-black-comedy-pits-thai-politics-against-a-haunted-hoover\">Continue reading...</a>"
+      },
+      "time": {
+        "asserted": "2026-07-20T09:48:52.265Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "culture",
+        "citation": "https://www.theguardian.com/film/2026/jul/20/a-useful-ghost-review-exhilarating-black-comedy-pits-thai-politics-against-a-haunted-hoover"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "published",
+      "proposition": {
+        "predicate": "published",
+        "object": "Mon, 20 Jul 2026 08:00:50 GMT"
+      },
+      "time": {
+        "asserted": "2026-07-20T09:48:52.265Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "culture",
+        "citation": "https://www.theguardian.com/film/2026/jul/20/a-useful-ghost-review-exhilarating-black-comedy-pits-thai-politics-against-a-haunted-hoover"
+      },
+      "status": "supported"
+    }
+  ]
+}

@@ -1,0 +1,69 @@
+{
+  "subject": "sec-investigating-daktronics-in-kawhi-leonard-case",
+  "claims": [
+    {
+      "id": "title",
+      "proposition": {
+        "predicate": "title",
+        "object": "SEC investigating Daktronics in Kawhi Leonard case"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "us-politics",
+        "citation": "https://thehill.com/policy/sports-gaming/6067088-sec-nba-daktronics-kawhi-leonard-los-angeles-clippers/"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "url",
+      "proposition": {
+        "predicate": "url",
+        "object": "https://thehill.com/policy/sports-gaming/6067088-sec-nba-daktronics-kawhi-leonard-los-angeles-clippers/"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "us-politics",
+        "citation": "https://thehill.com/policy/sports-gaming/6067088-sec-nba-daktronics-kawhi-leonard-los-angeles-clippers/"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "summary",
+      "proposition": {
+        "predicate": "summary",
+        "object": "The federal government and the NBA are investigating video display and scoreboard manufacturer Daktronics in connection with a scandal involving the Los Angeles Clippers in which the club allegedly circumvented the league’s salary cap to sign star player Kawhi Leonard. During Daktronics’s first-quarter earnings call, chief financial officer Howard Atkins confirmed the company had received requests…"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "us-politics",
+        "citation": "https://thehill.com/policy/sports-gaming/6067088-sec-nba-daktronics-kawhi-leonard-los-angeles-clippers/"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "published",
+      "proposition": {
+        "predicate": "published",
+        "object": "Wed, 02 Sep 2026 19:12:52 +0000"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "us-politics",
+        "citation": "https://thehill.com/policy/sports-gaming/6067088-sec-nba-daktronics-kawhi-leonard-los-angeles-clippers/"
+      },
+      "status": "supported"
+    }
+  ]
+}

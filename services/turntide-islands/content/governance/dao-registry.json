@@ -1,0 +1,84 @@
+{
+  "type": "TTIDAORegistry",
+  "version": 1,
+  "status": "historically-described-public-identifiers-unresolved",
+  "observedAt": "2026-08-29T22:06:05Z",
+  "community": "Turntide Islands",
+  "historicalClaims": [
+    {
+      "claim": "Turntide Islands was described by its administrator as a digital government with a TTIDAO token and treasury.",
+      "source": "https://discord.com/channels/1184863861065658419/1346511343573926010/1349035085420167188",
+      "sourceDate": "2025-03-11",
+      "evidenceStatus": "administrator-authored-historical-description"
+    },
+    {
+      "claim": "A separate fund was described as routing a portion of its fees to the Turntide Islands treasury while fund ownership remained distinct from governance.",
+      "source": "https://discord.com/channels/1184863861065658419/1346511343573926010/1349035085420167188",
+      "sourceDate": "2025-03-11",
+      "evidenceStatus": "administrator-authored-historical-description"
+    },
+    {
+      "claim": "Hive was proposed as an immutable and transparent record for governance decisions.",
+      "source": "https://discord.com/channels/1184863861065658419/1346511343573926010/1346529747450204190",
+      "sourceDate": "2025-03-04",
+      "evidenceStatus": "historical-proposal-ratification-unverified"
+    },
+    {
+      "claim": "The current welcome model describes Turntide Islands as a DAO using polycentric participatory consensus.",
+      "source": "content/texts/documents/articles/notes/2026-08-29-established-community-model-and-big-plans.md",
+      "evidenceStatus": "administrator-supplied-community-description"
+    }
+  ],
+  "verifiedPublicIdentifiers": {
+    "colonyNetwork": null,
+    "colonyId": null,
+    "colonyAddress": null,
+    "tokenChainId": null,
+    "tokenAddress": null,
+    "tokenSymbol": null,
+    "treasuryAddresses": [],
+    "fundAddresses": [],
+    "hiveAccount": null,
+    "governanceContracts": []
+  },
+  "credentialSafeInvestigation": {
+    "result": "no-substantiated-turntide-evm-or-colony-identifier",
+    "walletMaterialLocations": {
+      "localEnvironment": "present-and-inspected-without-disclosing-secrets",
+      "coldRedGateRuntime": "no-evm-wallet-material-found"
+    },
+    "derivationScope": [
+      "m/44'/60'/0'/0/{0..19}",
+      "m/44'/60'/{0..19}'/0/0"
+    ],
+    "networksChecked": [
+      "Ethereum",
+      "Gnosis",
+      "Base",
+      "Arbitrum",
+      "Optimism",
+      "Polygon"
+    ],
+    "findings": [
+      "No derived candidate had Ethereum or Gnosis transaction activity.",
+      "One derived account had Base activity and one Arbitrum transaction.",
+      "The active account was excluded as the TTI DAO candidate after all 198 Base transaction receipts and the name and symbol metadata of all 96 contracts appearing in their logs showed no TTIDAO, Turntide, Colony, or TTI treasury fee-routing evidence.",
+      "Explorer token inventories on all checked networks showed no TTIDAO, Turntide, or Colony-labelled asset.",
+      "Public web search found no indexed TTIDAO token or Turntide Colony identifier."
+    ],
+    "privacyBoundary": [
+      "No private key, mnemonic, token, RPC secret, or credential value was printed, retained, or committed.",
+      "Unrelated credential-derived public addresses are not published in the Turntide Islands public registry.",
+      "No transaction, signature, approval, deployment, or external mutation was performed."
+    ]
+  },
+  "unresolvedEvidenceRequests": [
+    "Historic TTIDAO token contract address or deployment transaction",
+    "Historic treasury address",
+    "Historic fee-contributing fund address or transaction",
+    "Colony network and organization name, domain, address, or creation transaction",
+    "Hive account proposed or used for governance receipts",
+    "A ratified decision or implementation receipt connecting any of those identifiers to Turntide Islands"
+  ],
+  "operatingBoundary": "Turntide Islands may accurately describe its historical DAO model and present governance intent, but software must not claim a verified live Colony, token, treasury, fund, balance, or on-chain decision system until this registry contains public identifiers and reproducible evidence."
+}

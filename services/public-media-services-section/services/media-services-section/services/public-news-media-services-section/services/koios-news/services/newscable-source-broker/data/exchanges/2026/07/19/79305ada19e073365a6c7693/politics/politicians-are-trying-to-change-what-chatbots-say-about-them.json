@@ -1,0 +1,69 @@
+{
+  "subject": "politicians-are-trying-to-change-what-chatbots-say-about-them",
+  "claims": [
+    {
+      "id": "title",
+      "proposition": {
+        "predicate": "title",
+        "object": "Politicians Are Trying to Change What Chatbots Say About Them"
+      },
+      "time": {
+        "asserted": "2026-07-19T15:04:07.991Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "politics",
+        "citation": "https://www.nytimes.com/2026/07/19/us/politics/chatbots-political-campaigns.html"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "url",
+      "proposition": {
+        "predicate": "url",
+        "object": "https://www.nytimes.com/2026/07/19/us/politics/chatbots-political-campaigns.html"
+      },
+      "time": {
+        "asserted": "2026-07-19T15:04:07.991Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "politics",
+        "citation": "https://www.nytimes.com/2026/07/19/us/politics/chatbots-political-campaigns.html"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "summary",
+      "proposition": {
+        "predicate": "summary",
+        "object": "Political campaigns have something new to worry about these days: unflattering or incomplete information produced by A.I. programs when voters ask questions about candidates."
+      },
+      "time": {
+        "asserted": "2026-07-19T15:04:07.991Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "politics",
+        "citation": "https://www.nytimes.com/2026/07/19/us/politics/chatbots-political-campaigns.html"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "published",
+      "proposition": {
+        "predicate": "published",
+        "object": "Sun, 19 Jul 2026 12:57:10 +0000"
+      },
+      "time": {
+        "asserted": "2026-07-19T15:04:07.991Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "politics",
+        "citation": "https://www.nytimes.com/2026/07/19/us/politics/chatbots-political-campaigns.html"
+      },
+      "status": "supported"
+    }
+  ]
+}

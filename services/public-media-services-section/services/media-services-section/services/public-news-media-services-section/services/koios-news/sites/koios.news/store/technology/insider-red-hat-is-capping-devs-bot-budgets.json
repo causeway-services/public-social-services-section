@@ -1,0 +1,69 @@
+{
+  "subject": "insider-red-hat-is-capping-devs-bot-budgets",
+  "claims": [
+    {
+      "id": "title",
+      "proposition": {
+        "predicate": "title",
+        "object": "Insider: Red Hat is capping devs' bot budgets"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "technology",
+        "citation": "https://www.theregister.com/ai-and-ml/2026/09/01/insider-red-hat-is-capping-devs-bot-budgets/5292620"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "url",
+      "proposition": {
+        "predicate": "url",
+        "object": "https://www.theregister.com/ai-and-ml/2026/09/01/insider-red-hat-is-capping-devs-bot-budgets/5292620"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "technology",
+        "citation": "https://www.theregister.com/ai-and-ml/2026/09/01/insider-red-hat-is-capping-devs-bot-budgets/5292620"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "summary",
+      "proposition": {
+        "predicate": "summary",
+        "object": "EXCLUSIVE The Register has seen information that IBM’s Linux subsidiary is moderating its previously gung-ho AI stance by imposing limits on token spend. The Reg FOSS desk received a tip-off this week from a well placed company insider that a new edict has been sent down from Red Hat management to its legions of hard-working FOSS developers. The R&D department is capping developers' use of tokens: from now on, they'll need to keep it to a maximum of $300 per calendar month, and no more. There was also a rider, to the effect that sharing token allowances with other developers is prohibited. If somehow you manage not to use your whole budget (what are you, some kind of Luddite?), then no sneakily trying to give it to your more bot-obsessed co-workers. The contrast between the bot evangelism that we reported upon back in March is striking. It’s almost as if the optimism of “Chris & Ashesh” that LLM use would supercharge open source was unfounded. Or perhaps it cost more than IBM-owned Red Hat calculated. We have no data on what Big Purple was spending on its bot-tokens before this. Reports across the industry vary widely. For instance, while warning that costs could exceed developers’ salaries, DevOps.com cited Gartner research: “Nearly one-quarter of technology leaders are already spending between $200 and $500 per developer each month on AI coding tokens. About 6 percent report spending more than $2,000 per developer monthly.” The Register approached Gartner for comment, but it was unable to immediately respond with comment. We have also asked Red Hat if it had anything to say about this, but so far, with no response at all. Some developers on Reddit report spending from $1,000 a month to several thousand a month. Even at the end of last year, Enso Dynamics claimed $1,000 per dev per month would soon be the baseline… and that was before luminaries such as Linux kernel czar Greg Kroah Hartman started talking about the new and improved quality of AI coding assistants in early 2026, which was soon confirmed by cURL’s Daniel Stenberg and others. No wonder there’s now a market for an AI coding tools ROI calculator – and to put that in context, a year ago, Glyph Lefkowitz showed how extremely hard this is to estimate in The Futzing Fraction. ®"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "technology",
+        "citation": "https://www.theregister.com/ai-and-ml/2026/09/01/insider-red-hat-is-capping-devs-bot-budgets/5292620"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "published",
+      "proposition": {
+        "predicate": "published",
+        "object": "Tue, 01 Sep 2026 12:45:00 +0200"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "technology",
+        "citation": "https://www.theregister.com/ai-and-ml/2026/09/01/insider-red-hat-is-capping-devs-bot-budgets/5292620"
+      },
+      "status": "supported"
+    }
+  ]
+}

@@ -1,0 +1,69 @@
+{
+  "subject": "how-taylor-farms-became-integral-to-america-s-food-supply-system",
+  "claims": [
+    {
+      "id": "title",
+      "proposition": {
+        "predicate": "title",
+        "object": "How Taylor Farms became integral to America's food supply system"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "economy",
+        "citation": "https://www.cnbc.com/2026/08/28/how-taylor-farms-became-integral-to-americas-food-supply-system.html"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "url",
+      "proposition": {
+        "predicate": "url",
+        "object": "https://www.cnbc.com/2026/08/28/how-taylor-farms-became-integral-to-americas-food-supply-system.html"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "economy",
+        "citation": "https://www.cnbc.com/2026/08/28/how-taylor-farms-became-integral-to-americas-food-supply-system.html"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "summary",
+      "proposition": {
+        "predicate": "summary",
+        "object": "Taylor Farms and other suppliers have become larger and more integral to the U.S. food system, complicating foodborne illnesses such as cyclosporiasis."
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "economy",
+        "citation": "https://www.cnbc.com/2026/08/28/how-taylor-farms-became-integral-to-americas-food-supply-system.html"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "published",
+      "proposition": {
+        "predicate": "published",
+        "object": "Fri, 28 Aug 2026 13:17:52 GMT"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "economy",
+        "citation": "https://www.cnbc.com/2026/08/28/how-taylor-farms-became-integral-to-americas-food-supply-system.html"
+      },
+      "status": "supported"
+    }
+  ]
+}

@@ -1,0 +1,69 @@
+{
+  "subject": "us-launches-1-coin-featuring-trump-s-face-what-to-know",
+  "claims": [
+    {
+      "id": "title",
+      "proposition": {
+        "predicate": "title",
+        "object": "US launches $1 coin featuring Trump’s face: What to know"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "world",
+        "citation": "https://www.aljazeera.com/news/2026/9/2/what-you-need-to-know-us-launches-coin-featuring-trumps-face?traffic_source=rss"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "url",
+      "proposition": {
+        "predicate": "url",
+        "object": "https://www.aljazeera.com/news/2026/9/2/what-you-need-to-know-us-launches-coin-featuring-trumps-face?traffic_source=rss"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "world",
+        "citation": "https://www.aljazeera.com/news/2026/9/2/what-you-need-to-know-us-launches-coin-featuring-trumps-face?traffic_source=rss"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "summary",
+      "proposition": {
+        "predicate": "summary",
+        "object": "The coin marks the first time in nearly 200 years that a living person has been featured on the country's currency."
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "world",
+        "citation": "https://www.aljazeera.com/news/2026/9/2/what-you-need-to-know-us-launches-coin-featuring-trumps-face?traffic_source=rss"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "published",
+      "proposition": {
+        "predicate": "published",
+        "object": "Wed, 02 Sep 2026 20:11:14 +0000"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "world",
+        "citation": "https://www.aljazeera.com/news/2026/9/2/what-you-need-to-know-us-launches-coin-featuring-trumps-face?traffic_source=rss"
+      },
+      "status": "supported"
+    }
+  ]
+}

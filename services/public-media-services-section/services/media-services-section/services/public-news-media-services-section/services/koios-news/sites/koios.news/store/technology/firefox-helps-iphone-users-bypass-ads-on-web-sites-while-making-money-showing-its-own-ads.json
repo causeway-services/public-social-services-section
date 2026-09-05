@@ -1,0 +1,69 @@
+{
+  "subject": "firefox-helps-iphone-users-bypass-ads-on-web-sites-while-making-money-showing-its-own-ads",
+  "claims": [
+    {
+      "id": "title",
+      "proposition": {
+        "predicate": "title",
+        "object": "Firefox helps iPhone users bypass ads on web sites while making money showing its own ads"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "technology",
+        "citation": "https://www.theregister.com/security/2026/09/01/firefox-helps-iphone-users-bypass-ads-on-web-sites-while-making-money-showing-its-own-ads/5293747"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "url",
+      "proposition": {
+        "predicate": "url",
+        "object": "https://www.theregister.com/security/2026/09/01/firefox-helps-iphone-users-bypass-ads-on-web-sites-while-making-money-showing-its-own-ads/5293747"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "technology",
+        "citation": "https://www.theregister.com/security/2026/09/01/firefox-helps-iphone-users-bypass-ads-on-web-sites-while-making-money-showing-its-own-ads/5293747"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "summary",
+      "proposition": {
+        "predicate": "summary",
+        "object": "After several weeks of anticipation, Mozilla has started rolling out ad blocking to the iOS version of its popular browser, but you can still expect to see ads on Mozilla's own pages, including the new tab page. The org officially rolled out the new native ad blocking feature for iOS Firefox on Tuesday, moving it out of the experimental phase, while explaining that it had to rethink its desire to give users control over their web experience on iOS due to differences in architecture between it and other OSes. “Firefox already supports a strong ecosystem of ad-blocking and privacy extensions,” Mozilla explained. iOS works differently, though, as Apple forces all web browsers on iOS to use its own WebKit to render sites instead of their own preferred back end. “Bringing ad blocking to Firefox on iOS,” therefore, “meant building it directly into the browser,” Mozilla explained. Implementing ad blocking in the iOS version of Firefox meant incorporating Apple’s own WebKit Content Blockers. According to Apple’s introduction on the topic, it specifically doesn’t want app extensions to be used to block web content because of how they operate. “App extensions … are essentially little sandboxed applications that are launched on demand to extend some specific piece of functionality,” Apple notes. “JavaScript-based content blocking extensions … have significant performance drawbacks.” Apple complains that traditional ad blockers use too much energy, increase page load time, and eat up memory, all of which it wants to protect iOS users from. Apple describes WebKit Content Blocking as “describing content blocking rules in a structured format ahead-of-time, declaratively.” Apple Web Content Blockers instead live in bytecode format that executes for each resource request, modifying requests or injecting CSS changes as needed while pages are loaded. For Mozilla, that basically means dropping the EasyList filter, originally designed for the classic Adblock blocker, into a JSON file and passing it to WebKit. Easy peasy. Ad blocking in Firefox for iOS is off by default. Turning it on, if it’s available for you – it’s rolling out gradually – is as easy as opening the in-app settings menu, tapping on Browsing, and toggling the Ad Blocker field on. Mozilla told The Register in an email that it doesn't have a timeline for general release to all Firefox users on iOS, which it said will largely depend on how well the initial rollout goes. You also have to turn Remote Improvements on, as the feature allows Mozilla to push fixes and feature changes to Firefox between full releases. Toggling that on has traditionally meant you also had to allow Mozilla to collect browser telemetry, but that was changed in February when Firefox 148 was released and the two features have officially been decoupled. Once on, iOS Firefox Adblocking will take care of ad-related trackers, ads from third-party advertising networks, third-party ads served by websites, and popups/overlays. What it won’t do, however, is take care of ads on search result pages or sponsored content on Firefox’s home or new tab page – after all, you wouldn’t want Mozilla to lose those precious ad bucks, would you? Firefox iOS ad blocking also won’t eliminate ads served directly by websites, and the company warns that it still might not work in all places, which is pretty common for ad blockers. For Firefox users who want browser consistency across platforms, it’s likely a welcomed announcement, though it begs the question whether Mozilla is considering integrating its own ad blocking technology in the desktop or Android versions of its browser. Fortunately for those making ad-blocking extensions, and those who love them, Mozilla says it has no plans to expand built-in adblocking outside iOS. \"We value that ecosystem and will continue to support it,\" Mozilla told us. ®"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "technology",
+        "citation": "https://www.theregister.com/security/2026/09/01/firefox-helps-iphone-users-bypass-ads-on-web-sites-while-making-money-showing-its-own-ads/5293747"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "published",
+      "proposition": {
+        "predicate": "published",
+        "object": "Tue, 01 Sep 2026 22:17:31 +0200"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "technology",
+        "citation": "https://www.theregister.com/security/2026/09/01/firefox-helps-iphone-users-bypass-ads-on-web-sites-while-making-money-showing-its-own-ads/5293747"
+      },
+      "status": "supported"
+    }
+  ]
+}

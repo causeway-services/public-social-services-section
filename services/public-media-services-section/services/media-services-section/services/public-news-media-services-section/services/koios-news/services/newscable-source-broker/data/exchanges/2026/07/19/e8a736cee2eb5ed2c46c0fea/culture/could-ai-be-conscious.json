@@ -1,0 +1,69 @@
+{
+  "subject": "could-ai-be-conscious",
+  "claims": [
+    {
+      "id": "title",
+      "proposition": {
+        "predicate": "title",
+        "object": "Could AI be conscious?"
+      },
+      "time": {
+        "asserted": "2026-07-19T14:42:05.531Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "culture",
+        "citation": "https://www.theguardian.com/technology/2026/jul/19/could-ai-be-conscious"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "url",
+      "proposition": {
+        "predicate": "url",
+        "object": "https://www.theguardian.com/technology/2026/jul/19/could-ai-be-conscious"
+      },
+      "time": {
+        "asserted": "2026-07-19T14:42:05.531Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "culture",
+        "citation": "https://www.theguardian.com/technology/2026/jul/19/could-ai-be-conscious"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "summary",
+      "proposition": {
+        "predicate": "summary",
+        "object": "<p>Experts believe it’s at least possible. We urgently need a plan to navigate the ethical implications</p><p>In January, the AI company Anthropic published a <a href=\"https://www.anthropic.com/constitution\">new constitution</a> for Claude, its most advanced large language model (LLM), which contained the comment: “We are caught in a difficult position where we neither want&nbsp;to&nbsp;overstate the likelihood of Claude’s moral patienthood nor dismiss it out of hand.” A month later, Anthropic’s CEO Dario Amodei went on a podcast and said his company couldn’t rule out the possibility that Claude was conscious. Philosopher David Chalmers, who coined the phrase “the hard problem of consciousness”, has said there is a significant chance of conscious LLMs within a decade. And what about Claude itself? When asked during testing to estimate the probability that it&nbsp;is a <em>moral patient</em>, meaning that its wellbeing matters&nbsp;in its own right, it gave numbers ranging from 5% to 40% and stressed how uncertain it was.</p><p>Modern AI systems are extraordinarily complex, and they are advancing fast. In terms of structural complexity and computational scale, by some measures a few are already in the range of a mouse brain, and at recent growth rates, they could reach the range of a human brain within five to 10 years.</p> <a href=\"https://www.theguardian.com/technology/2026/jul/19/could-ai-be-conscious\">Continue reading...</a>"
+      },
+      "time": {
+        "asserted": "2026-07-19T14:42:05.531Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "culture",
+        "citation": "https://www.theguardian.com/technology/2026/jul/19/could-ai-be-conscious"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "published",
+      "proposition": {
+        "predicate": "published",
+        "object": "Sun, 19 Jul 2026 11:00:25 GMT"
+      },
+      "time": {
+        "asserted": "2026-07-19T14:42:05.531Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "culture",
+        "citation": "https://www.theguardian.com/technology/2026/jul/19/could-ai-be-conscious"
+      },
+      "status": "supported"
+    }
+  ]
+}

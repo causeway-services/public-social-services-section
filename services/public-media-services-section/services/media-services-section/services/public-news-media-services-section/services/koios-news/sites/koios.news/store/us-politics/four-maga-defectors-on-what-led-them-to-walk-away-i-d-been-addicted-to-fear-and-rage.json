@@ -1,0 +1,69 @@
+{
+  "subject": "four-maga-defectors-on-what-led-them-to-walk-away-i-d-been-addicted-to-fear-and-rage",
+  "claims": [
+    {
+      "id": "title",
+      "proposition": {
+        "predicate": "title",
+        "object": "Four Maga defectors on what led them to walk away: ‘I’d been addicted to fear and rage’"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "us-politics",
+        "citation": "https://www.theguardian.com/us-news/2026/sep/01/former-maga-supporters-trump"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "url",
+      "proposition": {
+        "predicate": "url",
+        "object": "https://www.theguardian.com/us-news/2026/sep/01/former-maga-supporters-trump"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "us-politics",
+        "citation": "https://www.theguardian.com/us-news/2026/sep/01/former-maga-supporters-trump"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "summary",
+      "proposition": {
+        "predicate": "summary",
+        "object": "<p>Ex-Maga supporters unpack their role in bolstering Trump’s platform and share what brought them to the Leaving Maga non-profit support network</p><ul><li><p><a href=\"https://www.theguardian.com/us-news/2026/sep/01/leaving-maga-support-group\">Life after Maga: the group offering an ‘exit ramp’ for rightwingers questioning Trumpism</a></p></li></ul><p>Since <a href=\"https://www.theguardian.com/us-news/donaldtrump\">Donald Trump</a>’s first presidential campaign a decade ago, “Make America Great Again” (Maga) has evolved from a slogan into an identity, one that claims to center conservative, “America first” values and relies on lies and conspiracy theories to stay afloat. And while Maga has survived impeachments, indictments and a lost election, some devotees are walking away – and doing so loudly.</p><p>Rich Logis, a former Trump campaign volunteer, left Maga in 2022, publishing a public apology to help others see that it was OK to challenge the movement. The overwhelming response led him to found the non-profit <a href=\"https://leavingmaga.org/\">Leaving Maga</a>, a network of support groups and meetups for people to unpack their role in bolstering Trump’s platform. Logis said he doesn’t persuade people to leave; he just gives them a place to land when they do. The group’s billboard campaign, now running in 27 states, is built around a simple message: “Having doubts? You are not alone.”</p> <a href=\"https://www.theguardian.com/us-news/2026/sep/01/former-maga-supporters-trump\">Continue reading...</a>"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "us-politics",
+        "citation": "https://www.theguardian.com/us-news/2026/sep/01/former-maga-supporters-trump"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "published",
+      "proposition": {
+        "predicate": "published",
+        "object": "Tue, 01 Sep 2026 14:00:01 GMT"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "us-politics",
+        "citation": "https://www.theguardian.com/us-news/2026/sep/01/former-maga-supporters-trump"
+      },
+      "status": "supported"
+    }
+  ]
+}

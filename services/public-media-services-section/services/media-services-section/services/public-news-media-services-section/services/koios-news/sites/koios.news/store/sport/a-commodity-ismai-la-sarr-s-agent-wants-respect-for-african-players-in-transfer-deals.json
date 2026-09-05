@@ -1,0 +1,69 @@
+{
+  "subject": "a-commodity-ismai-la-sarr-s-agent-wants-respect-for-african-players-in-transfer-deals",
+  "claims": [
+    {
+      "id": "title",
+      "proposition": {
+        "predicate": "title",
+        "object": "‘A commodity’: Ismaïla Sarr’s agent wants respect for African players in transfer deals"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "sport",
+        "citation": "https://www.theguardian.com/football/2026/sep/02/a-commodity-ismaila-sarrs-agent-wants-respect-for-african-players-in-transfer-deals"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "url",
+      "proposition": {
+        "predicate": "url",
+        "object": "https://www.theguardian.com/football/2026/sep/02/a-commodity-ismaila-sarrs-agent-wants-respect-for-african-players-in-transfer-deals"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "sport",
+        "citation": "https://www.theguardian.com/football/2026/sep/02/a-commodity-ismaila-sarrs-agent-wants-respect-for-african-players-in-transfer-deals"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "summary",
+      "proposition": {
+        "predicate": "summary",
+        "object": "<ul><li><p>Diomansy Kamara says players must ‘be heard’</p></li><li><p>Monaco defend halting Lamine Camara’s Chelsea move</p></li></ul><p>Ismaïla Sarr’s agent has claimed some African players are treated like “a commodity” after Crystal Palace turned down Liverpool’s approach for the Senegal forward and Lamine Camara’s move from Monaco to Chelsea broke down on deadline day.</p><p>Palace are understood to have rejected a bid from Liverpool for Sarr last week and insisted last season’s top scorer was not for sale. The 28-year-old, who missed the opening two matches against Everton and Manchester City after the manager, Pierre Sage, said he had picked up an injury, subsequently deleted all references to the Conference League winners from his social media accounts and is thought to have been disappointed by Palace’s stance.</p> <a href=\"https://www.theguardian.com/football/2026/sep/02/a-commodity-ismaila-sarrs-agent-wants-respect-for-african-players-in-transfer-deals\">Continue reading...</a>"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "sport",
+        "citation": "https://www.theguardian.com/football/2026/sep/02/a-commodity-ismaila-sarrs-agent-wants-respect-for-african-players-in-transfer-deals"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "published",
+      "proposition": {
+        "predicate": "published",
+        "object": "Wed, 02 Sep 2026 19:29:01 GMT"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "sport",
+        "citation": "https://www.theguardian.com/football/2026/sep/02/a-commodity-ismaila-sarrs-agent-wants-respect-for-african-players-in-transfer-deals"
+      },
+      "status": "supported"
+    }
+  ]
+}

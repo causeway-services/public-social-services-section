@@ -1,0 +1,69 @@
+{
+  "subject": "why-pronatalism-won-t-reverse-birth-rate-decline",
+  "claims": [
+    {
+      "id": "title",
+      "proposition": {
+        "predicate": "title",
+        "object": "Why pronatalism won’t reverse birth-rate decline"
+      },
+      "time": {
+        "asserted": "2026-07-18T08:10:03.256Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "degrowth",
+        "citation": "https://www.resilience.org/stories/2026-07-13/why-pronatalism-wont-reverse-birth-rate-decline/"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "url",
+      "proposition": {
+        "predicate": "url",
+        "object": "https://www.resilience.org/stories/2026-07-13/why-pronatalism-wont-reverse-birth-rate-decline/"
+      },
+      "time": {
+        "asserted": "2026-07-18T08:10:03.256Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "degrowth",
+        "citation": "https://www.resilience.org/stories/2026-07-13/why-pronatalism-wont-reverse-birth-rate-decline/"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "summary",
+      "proposition": {
+        "predicate": "summary",
+        "object": "Slower growth — and ultimately zero growth — is good for people and the planet, but not for those in power, who for millennia relied on women's reproductive labor to produce more workers, consumers, and taxpayers. Today’s Trump-era and even progressive pronatalist policies try to reverse the trend, but there's a reason why they won't work."
+      },
+      "time": {
+        "asserted": "2026-07-18T08:10:03.256Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "degrowth",
+        "citation": "https://www.resilience.org/stories/2026-07-13/why-pronatalism-wont-reverse-birth-rate-decline/"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "published",
+      "proposition": {
+        "predicate": "published",
+        "object": "Mon, 13 Jul 2026 08:00:17 +0000"
+      },
+      "time": {
+        "asserted": "2026-07-18T08:10:03.256Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "degrowth",
+        "citation": "https://www.resilience.org/stories/2026-07-13/why-pronatalism-wont-reverse-birth-rate-decline/"
+      },
+      "status": "supported"
+    }
+  ]
+}

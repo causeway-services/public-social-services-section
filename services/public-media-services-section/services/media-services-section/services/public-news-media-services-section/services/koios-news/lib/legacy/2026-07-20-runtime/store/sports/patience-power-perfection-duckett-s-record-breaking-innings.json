@@ -1,0 +1,69 @@
+{
+  "subject": "patience-power-perfection-duckett-s-record-breaking-innings",
+  "claims": [
+    {
+      "id": "title",
+      "proposition": {
+        "predicate": "title",
+        "object": "Patience, power, perfection - Duckett's record-breaking innings"
+      },
+      "time": {
+        "asserted": "2026-07-19T15:58:02.610Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "sports",
+        "citation": "https://www.bbc.co.uk/sport/cricket/videos/cj9dnek1m2do?at_medium=RSS&at_campaign=rss"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "url",
+      "proposition": {
+        "predicate": "url",
+        "object": "https://www.bbc.co.uk/sport/cricket/videos/cj9dnek1m2do?at_medium=RSS&at_campaign=rss"
+      },
+      "time": {
+        "asserted": "2026-07-19T15:58:02.610Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "sports",
+        "citation": "https://www.bbc.co.uk/sport/cricket/videos/cj9dnek1m2do?at_medium=RSS&at_campaign=rss"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "summary",
+      "proposition": {
+        "predicate": "summary",
+        "object": "Ben Duckett rewrites the record books as he scores 141 in the third and final One Day International against India, the highest score by any men's batter in an ODI at Lord's, beating the previous record of 138, set by Sir Viv Richards in 1975."
+      },
+      "time": {
+        "asserted": "2026-07-19T15:58:02.610Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "sports",
+        "citation": "https://www.bbc.co.uk/sport/cricket/videos/cj9dnek1m2do?at_medium=RSS&at_campaign=rss"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "published",
+      "proposition": {
+        "predicate": "published",
+        "object": "Sun, 19 Jul 2026 14:09:46 GMT"
+      },
+      "time": {
+        "asserted": "2026-07-19T15:58:02.610Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "sports",
+        "citation": "https://www.bbc.co.uk/sport/cricket/videos/cj9dnek1m2do?at_medium=RSS&at_campaign=rss"
+      },
+      "status": "supported"
+    }
+  ]
+}

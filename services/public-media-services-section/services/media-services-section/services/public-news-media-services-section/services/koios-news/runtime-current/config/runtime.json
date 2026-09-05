@@ -1,0 +1,39 @@
+{
+  "version": 1,
+  "executionMode": "dry-run",
+  "customer": "urn:ame:koios-news-runtime-current",
+  "providers": {
+    "sourceDiscovery": {
+      "packageRoot": "../../services/web-source-acquisition",
+      "source": "src/contract-public-source-discovery.mjs",
+      "bin": "invoke-source-discovery",
+      "exportName": "invokePublicSourceDiscovery",
+      "contract": "ni:///sha-256;HvRXU-_xnG2uF51yLa-UjPE2aq3CfoepqSU1R93_viU",
+      "operation": "discover corroborating public sources"
+    },
+    "sourceAcquisition": {
+      "packageRoot": "../../services/web-source-acquisition",
+      "source": "src/contract-public-web-source.mjs",
+      "bin": "invoke-service",
+      "exportName": "invokePublicWebSources",
+      "contract": "ni:///sha-256;4dWqNk8UGBJyC5esUN5GdXNRq35iPDmbSIby-F-Xk8E",
+      "operation": "retrieve bounded public source text"
+    },
+    "editorialAssessment": {
+      "packageRoot": "../../services/independent-editorial-assessment",
+      "source": "src/contract-editorial-assessment.mjs",
+      "bin": "invoke-service",
+      "exportName": "invokeEditorialAssessment",
+      "actor": "urn:ame:independent-editorial-assessment",
+      "operation": "assess a bounded manuscript"
+    },
+    "proseContribution": {
+      "packageRoot": "../../services/newswire-editorial-production",
+      "source": "src/contract-prose-contribution.mjs",
+      "bin": "invoke-service",
+      "exportName": "invokeProseContribution",
+      "actor": "urn:ame:newswire-editorial-production",
+      "operation": "obtain one RMN prose contribution"
+    }
+  }
+}

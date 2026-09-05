@@ -1,0 +1,69 @@
+{
+  "subject": "andy-burnham-becomes-u-k-prime-minister-succeeding-keir-starmer",
+  "claims": [
+    {
+      "id": "title",
+      "proposition": {
+        "predicate": "title",
+        "object": "Andy Burnham Becomes U.K. Prime Minister, Succeeding Keir Starmer"
+      },
+      "time": {
+        "asserted": "2026-07-20T11:47:43.772Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "culture",
+        "citation": "https://variety.com/2026/politics/news/andy-burnham-becomes-uk-prime-minister-1236816392/"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "url",
+      "proposition": {
+        "predicate": "url",
+        "object": "https://variety.com/2026/politics/news/andy-burnham-becomes-uk-prime-minister-1236816392/"
+      },
+      "time": {
+        "asserted": "2026-07-20T11:47:43.772Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "culture",
+        "citation": "https://variety.com/2026/politics/news/andy-burnham-becomes-uk-prime-minister-1236816392/"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "summary",
+      "proposition": {
+        "predicate": "summary",
+        "object": "Andy Burnham became Prime Minister of the United Kingdom on Monday, taking over from Keir Starmer in a handover choreographed around a visit to Buckingham Palace, where Starmer formally resigned and King Charles III then invited Burnham to form a government. Before heading to the Palace, Starmer delivered a farewell address outside 10 Downing Street, […]"
+      },
+      "time": {
+        "asserted": "2026-07-20T11:47:43.772Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "culture",
+        "citation": "https://variety.com/2026/politics/news/andy-burnham-becomes-uk-prime-minister-1236816392/"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "published",
+      "proposition": {
+        "predicate": "published",
+        "object": "Mon, 20 Jul 2026 11:24:43 +0000"
+      },
+      "time": {
+        "asserted": "2026-07-20T11:47:43.772Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "culture",
+        "citation": "https://variety.com/2026/politics/news/andy-burnham-becomes-uk-prime-minister-1236816392/"
+      },
+      "status": "supported"
+    }
+  ]
+}

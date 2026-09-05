@@ -1,0 +1,69 @@
+{
+  "subject": "one-size-doesn-t-fit-all-the-many-faces-of-africa-s-foreign-fighters",
+  "claims": [
+    {
+      "id": "title",
+      "proposition": {
+        "predicate": "title",
+        "object": "One Size Doesn’t Fit All: The Many Faces of Africa’s Foreign Fighters"
+      },
+      "time": {
+        "asserted": "2026-07-18T08:16:35.704Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "war",
+        "citation": "https://warontherocks.com/one-size-doesnt-fit-all-the-many-faces-of-africas-foreign-fighters/"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "url",
+      "proposition": {
+        "predicate": "url",
+        "object": "https://warontherocks.com/one-size-doesnt-fit-all-the-many-faces-of-africas-foreign-fighters/"
+      },
+      "time": {
+        "asserted": "2026-07-18T08:16:35.704Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "war",
+        "citation": "https://warontherocks.com/one-size-doesnt-fit-all-the-many-faces-of-africas-foreign-fighters/"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "summary",
+      "proposition": {
+        "predicate": "summary",
+        "object": "In 2020, Austin Doctor wrote, “The Looming Influx of Foreign Fighters in Sub-Saharan Africa,” in which he predicted the region would see an influx of foreign fighters to aid Islamist extremist groups. Six years later, we asked Austin to revisit his arguments.Image: African Union Mission in Somalia (Photo by Abukar Albadri)In your 2020 article, you forecasted an influx of foreign fighters into sub-Saharan Africa within a year. Six years later, how has that forecast held up? Did the anticipated surge materialize on the scale you expected? Why or why not?There are far more foreign terrorist fighters, who hail from a The post One Size Doesn’t Fit All: The Many Faces of Africa’s Foreign Fighters appeared first on War on the Rocks ."
+      },
+      "time": {
+        "asserted": "2026-07-18T08:16:35.704Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "war",
+        "citation": "https://warontherocks.com/one-size-doesnt-fit-all-the-many-faces-of-africas-foreign-fighters/"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "published",
+      "proposition": {
+        "predicate": "published",
+        "object": "Wed, 15 Jul 2026 17:30:26 +0000"
+      },
+      "time": {
+        "asserted": "2026-07-18T08:16:35.704Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "war",
+        "citation": "https://warontherocks.com/one-size-doesnt-fit-all-the-many-faces-of-africas-foreign-fighters/"
+      },
+      "status": "supported"
+    }
+  ]
+}

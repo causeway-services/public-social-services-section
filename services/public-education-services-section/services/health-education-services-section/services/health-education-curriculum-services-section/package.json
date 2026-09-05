@@ -1,0 +1,17 @@
+{
+  "name": "@emsenn/health-education-curriculum-enterprise",
+  "version": "0.1.0",
+  "type": "module",
+  "files": [
+    "content/",
+    "scripts/"
+  ],
+  "scripts": {
+    "check": "node --check scripts/build-ebook.mjs",
+    "build-ebook": "node scripts/build-ebook.mjs"
+  },
+  "dependencies": {
+    "@red-cup-engineering/ebook-production-services-section": "0.3.2"
+  },
+  "license": "UNLICENSED"
+}

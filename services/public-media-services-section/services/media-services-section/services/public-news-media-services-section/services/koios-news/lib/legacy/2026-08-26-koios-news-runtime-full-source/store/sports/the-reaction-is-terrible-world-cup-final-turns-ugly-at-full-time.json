@@ -1,0 +1,69 @@
+{
+  "subject": "the-reaction-is-terrible-world-cup-final-turns-ugly-at-full-time",
+  "claims": [
+    {
+      "id": "title",
+      "proposition": {
+        "predicate": "title",
+        "object": "'The reaction is terrible' - World Cup final turns ugly at full-time"
+      },
+      "time": {
+        "asserted": "2026-07-20T00:28:28.927Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "sports",
+        "citation": "https://www.bbc.co.uk/sport/football/videos/c5yrxql8wd3o?at_medium=RSS&at_campaign=rss"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "url",
+      "proposition": {
+        "predicate": "url",
+        "object": "https://www.bbc.co.uk/sport/football/videos/c5yrxql8wd3o?at_medium=RSS&at_campaign=rss"
+      },
+      "time": {
+        "asserted": "2026-07-20T00:28:28.927Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "sports",
+        "citation": "https://www.bbc.co.uk/sport/football/videos/c5yrxql8wd3o?at_medium=RSS&at_campaign=rss"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "summary",
+      "proposition": {
+        "predicate": "summary",
+        "object": "The frustration of some Argentina players boils over at the end of the 2026 World Cup final, after the 2022 winners are beaten by Spain in extra time."
+      },
+      "time": {
+        "asserted": "2026-07-20T00:28:28.927Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "sports",
+        "citation": "https://www.bbc.co.uk/sport/football/videos/c5yrxql8wd3o?at_medium=RSS&at_campaign=rss"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "published",
+      "proposition": {
+        "predicate": "published",
+        "object": "Mon, 20 Jul 2026 00:22:33 GMT"
+      },
+      "time": {
+        "asserted": "2026-07-20T00:28:28.927Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "sports",
+        "citation": "https://www.bbc.co.uk/sport/football/videos/c5yrxql8wd3o?at_medium=RSS&at_campaign=rss"
+      },
+      "status": "supported"
+    }
+  ]
+}

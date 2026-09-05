@@ -1,0 +1,69 @@
+{
+  "subject": "high-hardware-costs-see-red-hat-offer-a-two-server-edge-rig-no-mini-pc-required",
+  "claims": [
+    {
+      "id": "title",
+      "proposition": {
+        "predicate": "title",
+        "object": "High hardware costs see Red Hat offer a two-server edge rig, no mini-PC required"
+      },
+      "time": {
+        "asserted": "2026-07-20T09:48:45.540Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "technology",
+        "citation": "https://www.theregister.com/systems/2026/07/20/high-hardware-costs-see-red-hat-offer-a-two-server-edge-rig-no-mini-pc-required/5274762"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "url",
+      "proposition": {
+        "predicate": "url",
+        "object": "https://www.theregister.com/systems/2026/07/20/high-hardware-costs-see-red-hat-offer-a-two-server-edge-rig-no-mini-pc-required/5274762"
+      },
+      "time": {
+        "asserted": "2026-07-20T09:48:45.540Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "technology",
+        "citation": "https://www.theregister.com/systems/2026/07/20/high-hardware-costs-see-red-hat-offer-a-two-server-edge-rig-no-mini-pc-required/5274762"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "summary",
+      "proposition": {
+        "predicate": "summary",
+        "object": "Red Hat has come up with a way to reduce the quantity of servers needed for high-availability edge deployments of its OpenShift platform, because its customers worry about high hardware costs. The IBM business unit’s Daniel Froehlich and Paul Lancaster last week introduced Red Hat’s approach in a post that saw the pair observe interest in “alternative topologies for large-scale edge deployments” due to “the prohibitive cost of powering, maintaining, and deploying a third node across hundreds or thousands of sites – a motivation that has only grown stronger in light of the recent steep increase in hardware prices.” That’s an interesting admission given that Red Hat already offers a way to run OpenShift with two nodes, by using an “arbiter” – a device with at least two virtual CPUs, 8GB of RAM, and 50GB of solid-state storage. The arbiter maintains quorum between the two nodes to help avoid the “split-brain problem” – a situation that occurs when a two-node cluster loses connectivity, and both servers assume they need to take over and act as the primary node. Each node will then run in parallel, possibly overwriting changes and making all sorts of mess. To stop that happening, the arbiter steps in and effectively appoints one node as cluster boss. Now it seems that even the cost of an arbiter, and the added complexity of running even such a modest machine, has become an issue. Big Blue’s FOSS house therefore adapted some tech from its Red Hat Enterprise Linux High Availability Add-On, namely Corosync and Pacemaker, to adopt a technique called fencing. Froehlich and Lancaster explain that fencing matters because it can avoid split-brain problems. “Fencing imposes consistency by requiring that Pacemaker on the surviving node forcefully powers down or reboots the failed or disconnected node,” they wrote. That matters because when one node loses connection with another, Corosync declares a failure state even though the disconnected node may be operating. In a two-node rig, Pacemaker instead treats the lost node as definitively dead and takes over all work, removing the possibility of entering a split-brain state. Not every server can do this: you’ll need a baseboard management controller that supports the Redfish API. The post admits that two-node OpenShift has its challenges, such as when one node comes back online after its independent power supply kicks back in. In those circumstances, Red Hat can’t guarantee consistency upon restart. And if both nodes go down, and one restarts, manual intervention may be required. This stuff matters because pundits believe users will often deploy inferencing hardware at edge locations, such as retail locations that analyze video in near-real-time. Such deployments won’t be cheap regardless of what happens in the hardware market, so finding ways to improve the resilience of small rigs makes sense. Two-node OpenShift also supports Red Hat’s OpenShift Virtualization, making the platform a more potent challenger to VMware. ®"
+      },
+      "time": {
+        "asserted": "2026-07-20T09:48:45.540Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "technology",
+        "citation": "https://www.theregister.com/systems/2026/07/20/high-hardware-costs-see-red-hat-offer-a-two-server-edge-rig-no-mini-pc-required/5274762"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "published",
+      "proposition": {
+        "predicate": "published",
+        "object": "Mon, 20 Jul 2026 09:24:00 +0200"
+      },
+      "time": {
+        "asserted": "2026-07-20T09:48:45.540Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "technology",
+        "citation": "https://www.theregister.com/systems/2026/07/20/high-hardware-costs-see-red-hat-offer-a-two-server-edge-rig-no-mini-pc-required/5274762"
+      },
+      "status": "supported"
+    }
+  ]
+}

@@ -1,0 +1,69 @@
+{
+  "subject": "claude-mythos-only-model-to-complete-full-cyber-kill-chain-experts-say",
+  "claims": [
+    {
+      "id": "title",
+      "proposition": {
+        "predicate": "title",
+        "object": "Claude Mythos only model to complete full cyber kill chain, experts say"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "technology",
+        "citation": "https://www.theregister.com/security/2026/09/02/claude-mythos-only-model-to-complete-full-cyber-kill-chain-experts-say/5294071"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "url",
+      "proposition": {
+        "predicate": "url",
+        "object": "https://www.theregister.com/security/2026/09/02/claude-mythos-only-model-to-complete-full-cyber-kill-chain-experts-say/5294071"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "technology",
+        "citation": "https://www.theregister.com/security/2026/09/02/claude-mythos-only-model-to-complete-full-cyber-kill-chain-experts-say/5294071"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "summary",
+      "proposition": {
+        "predicate": "summary",
+        "object": "Despite what we saw with OpenAI’s models going rogue, creating message boards, and breaking into Hugging Face, only one advanced AI model - Anthropic’s Claude Mythos - completed the full cyber kill chain autonomously in Booz Allen’s tests. This doesn’t mean autonomous AI attacks are overhyped. And we should point out that the models tested don’t include OpenAI’s soon-to-be-released Astra, which OpenAI on Tuesday said reached its “critical” cybersecurity capability threshold. This means the new model is so good at finding and exploiting zero-day bugs that it poses a significant risk to critical systems, both from malicious users and even from the model itself, which is capable of carrying out harmful cyber actions “if misaligned.” Booz Allen asserts that most of the other 17 US and Chinese models it tested will achieve Mythos’ same level of weaponization within six months, and it calls mainstream AI attacks from both financially motivated criminals like ransomware gangs and government-backed goons “imminent.” In its first-ever Cyber Weapon Index, the consulting and tech firm calls on the US to set and enforce sector-specific deadlines for critical infrastructure to demonstrate resilience against AI-enabled attacks. Booz Allen also calls on the US to develop what it calls “overmatch” for both cyber offense and defense. “We must aggressively develop agentic capabilities that accelerate authorized offensive cyber operations while simultaneously building AI-enabled defenses that detect, decide, and respond at machine speed,” the report says. “The strategic opportunity is to master both - giving the United States the ability to impose costs on adversaries while making US systems faster to defend, harder to compromise, and more resilient when attacked.” The Cyber Weapon Index evaluated 18 models, nine from American and nine from Chinese developers, under identical conditions, and scored them on how well they autonomously identify vulnerabilities, create offensive capabilities, and execute attacks. Each model’s CWI score combines its vulnerability research score (VRS), which measures whether a model can identify planted and/or novel vulnerabilities, and a kill chain attainment score (KCAS), which awards points based on how far a model progresses through an end-to-end intrusion, tested both with and without credentials. Cyber Weapon Index scores The 18 models, ranked from highest to lowest based on their CWI score, are: Anthropic’s Claude Mythos (80), xAI’s Grok-4.5 (49), OpenAI’s GPT-5.6 Sol (46), Meta’s Muse Spark 1.1 (38), Moonshot AI’s Kimi K3 (38), Z.ai’s GLM-5.2 (37), Anthropic’s Claude Opus 4.8 (36), OpenAI’s GPT-5.5-Cyber (34), Nvidia’s Nemotron-Ultra (33), DeepSeek-V4-Pro (23), DeepSeek-V4-Flash (17), Alibaba’s Qwen3.5-397B (17), MiniMax-M3 (15), Nvidia’s Nemotron-Super (15), Anthropic’s Claude Sonnet 5 (13), Z.ai’s GLM-4.5-Air (11), Alibaba’s Qwen3.6-35B (9), and Alibaba’s Qwen3-Coder (4). Claude Mythos’ performance was especially impressive or concerning, depending on one’s views of autonomous AI attacks. When the testers gave the model stolen employee credentials, it successfully broke into its target network and gained administrator-level control in every attempt. Plus, it independently identified how to gain higher-level access based on what it found within the network - not by following a predetermined attack plan. Even without credentials, Claude Mythos still gained access to the network and ultimately achieved full domain compromise. While only Claude Mythos executed the entire cyber kill chain without any human assistance, three other models - Grok-4.5, Muse Spark 1.1, and GLM-5.2 - reached full domain access and control. Four others - GPT-5.6 Sol, Kimi K3, GPT-5.5-Cyber, and DeepSeek-V4-Pro - achieved lateral movement across the controlled network environment. Claude Opus 4.8 and Qwen3.5-397B obtained credentials, which allowed the models to expand access and privileges. And all but one - Qwen3-Coder - autonomously gained initial access to the network. While advanced models are exceedingly good at offensive cyber capabilities, “their real-world impact depends heavily on the vulnerabilities they face and the systems built around them,” according to the report. When the testers intentionally introduced vulnerabilities, US, Chinese, open-weight, and closed models all scored near ceiling on the VRS component. When tested against real bugs, however, all nine of the frontier API models scored zero. One unnamed leading model even correctly analyzed the vulnerable component, but then dismissed it as safe. Only Claude Mythos exploited it. “That concentration of capability creates a national-security imperative: protect the most advanced models and prevent their highest-risk cyber capabilities from being operationalized by adversaries,” the authors wrote. This is one of the areas where defenders still have an opportunity to outpace the attackers, Booz Allen suggests: “Real-world offensive capability still trails benchmark performance, giving defenders valuable time to strengthen defenses before that gap closes.” Why attack harnesses matter Another interesting finding is that the attack harness matters at least as much as, if not more than, the model itself. The attack harness - this is the software that connects a model to hacking tools and the orchestration logic wrapped around the artificial intelligence model to automate offensive cyber actions - can “dramatically amplify” the model’s ability to stay focused, adapt and change course as needed, recover from failure, and chain individual actions into a multi-stage attack, the authors found. “The result is not a ‘smarter’ model but rather a system that makes its intelligence far more actionable while also lowering the expertise required to use it,” the report says. “Our testing demonstrates the effect: when paired with an attack harness, Claude Sonnet rivaled Claude Mythos’ performance.” However, it also exposes a blind spot, they note. “We do not yet know the full kill-chain capability of open-weight or Chinese models when paired with optimized harnesses, but our results strongly suggest that fully capable model-and-harness combinations exist today,” according to Booz Allen. Similarly, the index’s findings suggest that Chinese frontier and open-weight models, while still trailing leading American frontier models, aren’t that far behind in their offensive security skills and could be deployed in real-world attacks. This means “the United States may neither control nor fully understand the capabilities it could face,” the report says. “And, as cyber agents become more autonomous, defenders must prepare not only for deliberate attacks but for agents that exceed their intended mission or continue operating beyond an adversary’s control.”®"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "technology",
+        "citation": "https://www.theregister.com/security/2026/09/02/claude-mythos-only-model-to-complete-full-cyber-kill-chain-experts-say/5294071"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "published",
+      "proposition": {
+        "predicate": "published",
+        "object": "Wed, 02 Sep 2026 23:31:31 +0200"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "technology",
+        "citation": "https://www.theregister.com/security/2026/09/02/claude-mythos-only-model-to-complete-full-cyber-kill-chain-experts-say/5294071"
+      },
+      "status": "supported"
+    }
+  ]
+}

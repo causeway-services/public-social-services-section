@@ -1,0 +1,69 @@
+{
+  "subject": "russia-losing-6-000-more-troops-in-ukraine-each-month-than-it-can-recruit",
+  "claims": [
+    {
+      "id": "title",
+      "proposition": {
+        "predicate": "title",
+        "object": "Russia ‘losing 6,000 more troops in Ukraine each month than it can recruit’"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "war",
+        "citation": "https://www.theguardian.com/world/2026/aug/28/russia-losing-6000-more-troops-than-it-can-recruit-each-month-in-ukraine-says-west"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "url",
+      "proposition": {
+        "predicate": "url",
+        "object": "https://www.theguardian.com/world/2026/aug/28/russia-losing-6000-more-troops-than-it-can-recruit-each-month-in-ukraine-says-west"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "war",
+        "citation": "https://www.theguardian.com/world/2026/aug/28/russia-losing-6000-more-troops-than-it-can-recruit-each-month-in-ukraine-says-west"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "summary",
+      "proposition": {
+        "predicate": "summary",
+        "object": "<p>Moscow recruits an estimated 1,000 people a day but western officials say it cannot keep up with casualty level</p><p>Russia is losing about 6,000 more troops in Ukraine each month than it can recruit, western officials have said.</p><p>While Russia is still acquiring new battlefield recruits at speed, with an estimated rate of 1,000 a day, in the last two months even this has not been sufficient to replace those killed or injured.</p> <a href=\"https://www.theguardian.com/world/2026/aug/28/russia-losing-6000-more-troops-than-it-can-recruit-each-month-in-ukraine-says-west\">Continue reading...</a>"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "war",
+        "citation": "https://www.theguardian.com/world/2026/aug/28/russia-losing-6000-more-troops-than-it-can-recruit-each-month-in-ukraine-says-west"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "published",
+      "proposition": {
+        "predicate": "published",
+        "object": "Fri, 28 Aug 2026 17:05:02 GMT"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "war",
+        "citation": "https://www.theguardian.com/world/2026/aug/28/russia-losing-6000-more-troops-than-it-can-recruit-each-month-in-ukraine-says-west"
+      },
+      "status": "supported"
+    }
+  ]
+}

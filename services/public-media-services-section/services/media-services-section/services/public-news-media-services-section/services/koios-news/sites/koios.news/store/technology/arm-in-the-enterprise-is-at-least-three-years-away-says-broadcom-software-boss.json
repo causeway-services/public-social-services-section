@@ -1,0 +1,69 @@
+{
+  "subject": "arm-in-the-enterprise-is-at-least-three-years-away-says-broadcom-software-boss",
+  "claims": [
+    {
+      "id": "title",
+      "proposition": {
+        "predicate": "title",
+        "object": "Arm in the enterprise is at least three years away, says Broadcom software boss"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "technology",
+        "citation": "https://www.theregister.com/virtualization/2026/09/02/arm-in-the-enterprise-is-at-least-three-years-away-says-broadcom-software-boss/5293804"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "url",
+      "proposition": {
+        "predicate": "url",
+        "object": "https://www.theregister.com/virtualization/2026/09/02/arm-in-the-enterprise-is-at-least-three-years-away-says-broadcom-software-boss/5293804"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "technology",
+        "citation": "https://www.theregister.com/virtualization/2026/09/02/arm-in-the-enterprise-is-at-least-three-years-away-says-broadcom-software-boss/5293804"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "summary",
+      "proposition": {
+        "predicate": "summary",
+        "object": "Arm servers won’t have significant market share in the enterprise for at least three to five years, according to Ram Velaga, the recently installed leader of Broadcom’s software business. That’s unwelcome news for hardware vendors contemplating Arm servers, because buyers will be less interested in the devices if they can’t manage them with the tools they already use. VMware remains the most commonly deployed enterprise server virtualization supplier, so its users won’t be able to embrace Arm servers anytime soon without Arm boxes becoming a silo – a scenario few will embrace. Velaga previously led Broadcom’s networking silicon group and became president of Broadcom’s enterprise software division on January 1, putting him in charge of the former VMware, Symantec, and CA business units. Speaking at VMware’s Explore conference in Las Vegas on Tuesday, Velaga said the virtualization pioneer’s mission won’t change on his watch. “We will be the abstraction layer, for CPU and GPU, regardless of instruction set,” he said. VMware currently virtualizes servers, storage, and networks, but only on x86 servers. The Broadcom business unit has gone a little wider with GPUs, supporting Nvidia, AMD, and Intel. Another device VMware works with is the SmartNIC/Data Processing Unit – network cards that pack a processor so they can handle networking chores to save the CPU the trouble. The processor in many SmartNICs uses the Arm architecture, so VMware created a version of its hypervisor to run in SmartNICs as part of its distributed services engine, which runs workloads like firewalls and intrusion detection tools on the devices. While VMware worked on that project, it also inched toward creating a hypervisor for Arm servers, and recently delivered a preview of that tech. In his remarks during his conference-opening plenary on Monday, Velaga suggested Arm is likely to become part of the enterprise IT scene. But during a Q&A session on Tuesday he shared his view that it will be a few years before Arm servers have significant market share in the enterprise, and that VMware therefore doesn’t need to port its hypervisor in a hurry. Velaga added his view that VMware customers have zero interest in processors built on RISC-V, the permissively licensed instruction set that some pundits believe could do to processor design what Linux did to proprietary operating systems. VMware’s mission to abstract everything means it will address RISC-V if it makes sense to do so in future, but for now the business unit isn’t touching it. Velaga also outlined how Broadcom software spends its research and development budget and said around 60 percent of its $5 billion annual spend goes towards keeping VMware’s current products up to date. The remainder goes toward developing new products such as the \"AI factory\" announced yesterday. AI is hot. Arm servers are not. It’s therefore not hard to see where VMware will spend its R&D dollars in coming years. ®"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "technology",
+        "citation": "https://www.theregister.com/virtualization/2026/09/02/arm-in-the-enterprise-is-at-least-three-years-away-says-broadcom-software-boss/5293804"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "published",
+      "proposition": {
+        "predicate": "published",
+        "object": "Wed, 02 Sep 2026 08:11:00 +0200"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "technology",
+        "citation": "https://www.theregister.com/virtualization/2026/09/02/arm-in-the-enterprise-is-at-least-three-years-away-says-broadcom-software-boss/5293804"
+      },
+      "status": "supported"
+    }
+  ]
+}

@@ -1,0 +1,69 @@
+{
+  "subject": "uganda-calls-for-travel-restrictions-to-be-lifted-after-last-ebola-patient-discharged",
+  "claims": [
+    {
+      "id": "title",
+      "proposition": {
+        "predicate": "title",
+        "object": "Uganda calls for travel restrictions to be lifted after last Ebola patient discharged"
+      },
+      "time": {
+        "asserted": "2026-07-18T08:15:55.287Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "politics",
+        "citation": "https://www.theguardian.com/global-development/2026/jul/16/uganda-travel-restrictions-last-ebola-patient-discharged"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "url",
+      "proposition": {
+        "predicate": "url",
+        "object": "https://www.theguardian.com/global-development/2026/jul/16/uganda-travel-restrictions-last-ebola-patient-discharged"
+      },
+      "time": {
+        "asserted": "2026-07-18T08:15:55.287Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "politics",
+        "citation": "https://www.theguardian.com/global-development/2026/jul/16/uganda-travel-restrictions-last-ebola-patient-discharged"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "summary",
+      "proposition": {
+        "predicate": "summary",
+        "object": "<p>Country begins 42-day countdown to outbreak being declared officially over, as numbers continue to rise in neighbouring Democratic Republic of the Congo</p><p>Uganda has started lobbying countries to lift Ebola-related travel restrictions after discharging its last confirmed Ebola patient from hospital.</p><p>The discharge of a Congolese national from the Mulago national referral hospital’s isolation centre in Kampala on Thursday triggered the start of a 42-day countdown required by the World Health Organization before Uganda can officially be declared Ebola-free, provided no new infections are detected.</p> <a href=\"https://www.theguardian.com/global-development/2026/jul/16/uganda-travel-restrictions-last-ebola-patient-discharged\">Continue reading...</a>"
+      },
+      "time": {
+        "asserted": "2026-07-18T08:15:55.287Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "politics",
+        "citation": "https://www.theguardian.com/global-development/2026/jul/16/uganda-travel-restrictions-last-ebola-patient-discharged"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "published",
+      "proposition": {
+        "predicate": "published",
+        "object": "Thu, 16 Jul 2026 11:33:27 GMT"
+      },
+      "time": {
+        "asserted": "2026-07-18T08:15:55.287Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "politics",
+        "citation": "https://www.theguardian.com/global-development/2026/jul/16/uganda-travel-restrictions-last-ebola-patient-discharged"
+      },
+      "status": "supported"
+    }
+  ]
+}

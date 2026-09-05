@@ -1,0 +1,69 @@
+{
+  "subject": "google-fixing-android-lock-screen-bug-that-lets-gemini-send-sms-without-a-pin",
+  "claims": [
+    {
+      "id": "title",
+      "proposition": {
+        "predicate": "title",
+        "object": "Google fixing Android lock screen bug that lets Gemini send SMS without a PIN"
+      },
+      "time": {
+        "asserted": "2026-07-18T04:08:20.911Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "technology",
+        "citation": "https://www.theregister.com/security/2026/07/17/google-fixing-android-lock-screen-bug-that-lets-gemini-send-sms-without-a-pin/5273027"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "url",
+      "proposition": {
+        "predicate": "url",
+        "object": "https://www.theregister.com/security/2026/07/17/google-fixing-android-lock-screen-bug-that-lets-gemini-send-sms-without-a-pin/5273027"
+      },
+      "time": {
+        "asserted": "2026-07-18T04:08:20.911Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "technology",
+        "citation": "https://www.theregister.com/security/2026/07/17/google-fixing-android-lock-screen-bug-that-lets-gemini-send-sms-without-a-pin/5273027"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "summary",
+      "proposition": {
+        "predicate": "summary",
+        "object": "Picture this. Someone gets hold of your Android phone and, despite not knowing your PIN, they can use Gemini from the lock screen to send SMS or WhatsApp messages as you. This is a real bug and Google says a fix is coming as soon as this week. Since May, The Register has received multiple reports of users bypassing device authentication on Android 16 devices that enable Gemini access from the lock screen. These are distinct from the similar Gemini-based Android lock screen bypass bugs that have made the rounds since September 2025. One of the bugs reported to us allowed unauthenticated users with physical access to an Android device to enable functionality such as phone, texts, and WhatsApp via Gemini on the lock screen using a specific multi-touch gesture. When device owners revoke Gemini’s access to certain apps, like Messages, and someone later tries to send an SMS via Gemini on the lock screen, the chatbot will prompt the user to open the relevant app. Selecting \"Continue\" prompts the user to enter the correct PIN to access messages. However, when “Continue” is pressed simultaneously with Gemini’s “Add attachment” button, the device will then allow unauthenticated users to send that SMS via Gemini, without needing to enter a PIN. From there, users can enable Gemini’s access to other apps, which were previously disconnected from Gemini in the user’s Settings, by invoking the relevant prompt. For example, to allow Gemini access to WhatsApp, users can enter “@WhatsApp” in the Gemini text window. No PIN needed. You can then check this has worked by going back into user Settings, after entering a correct PIN, and it will show that WhatsApp is connected to Gemini without completing the expected authentication step. Exploiting the flaw requires physical access to a device. In most circumstances, we steer clear of giving this type of vulnerability too much airtime since it is often difficult to pull off in real-world scenarios. If Windows, for example, had a make-me-admin bug that required the attacker, for whatever reason, to have physical access to the keyboard connected to the Windows machine, then the owner of said machine has bigger problems than the vulnerability itself. However, given the state of phone theft crime, especially in the UK, and the potential to send convincing SMS messages as part of fake kidnapping scams, to name one possibility, we think this one deserves some attention. A Google spokesperson told us this is a known bug and it has already implemented a fix that was scheduled for a full deployment this week. They also said the bug is not Pixel-specific, after some claimed that they could not reproduce it on Samsung devices, but fell short of specifying which manufacturers, models, or versions are vulnerable. ®"
+      },
+      "time": {
+        "asserted": "2026-07-18T04:08:20.911Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "technology",
+        "citation": "https://www.theregister.com/security/2026/07/17/google-fixing-android-lock-screen-bug-that-lets-gemini-send-sms-without-a-pin/5273027"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "published",
+      "proposition": {
+        "predicate": "published",
+        "object": "Fri, 17 Jul 2026 11:15:00 +0200"
+      },
+      "time": {
+        "asserted": "2026-07-18T04:08:20.911Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "technology",
+        "citation": "https://www.theregister.com/security/2026/07/17/google-fixing-android-lock-screen-bug-that-lets-gemini-send-sms-without-a-pin/5273027"
+      },
+      "status": "supported"
+    }
+  ]
+}

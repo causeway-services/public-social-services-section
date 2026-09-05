@@ -1,0 +1,69 @@
+{
+  "subject": "after-fixing-its-engine-problems-rolls-royce-is-turning-to-its-next-big-challenge",
+  "claims": [
+    {
+      "id": "title",
+      "proposition": {
+        "predicate": "title",
+        "object": "After fixing its engine problems, Rolls-Royce is turning to its next big challenge"
+      },
+      "time": {
+        "asserted": "2026-07-19T14:41:48.886Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "economy",
+        "citation": "https://www.theguardian.com/business/2026/jul/19/rolls-royce-fixed-engine-problems-support-uk-narrowbody"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "url",
+      "proposition": {
+        "predicate": "url",
+        "object": "https://www.theguardian.com/business/2026/jul/19/rolls-royce-fixed-engine-problems-support-uk-narrowbody"
+      },
+      "time": {
+        "asserted": "2026-07-19T14:41:48.886Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "economy",
+        "citation": "https://www.theguardian.com/business/2026/jul/19/rolls-royce-fixed-engine-problems-support-uk-narrowbody"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "summary",
+      "proposition": {
+        "predicate": "summary",
+        "object": "<p>The aerospace giant is seeking UK government support for its re-entry into the huge narrowbody jet market</p><p>In a 100-year-old hangar at Rolls-Royce’s factory in Derby, aircraft engines lie on their noses as technicians strip them down after a couple of years circling the world.</p><p>Cranes lift and flip the engines, before engineers separate different modules to be cleaned, treated in acid baths if necessary, repaired or replaced. The acrid smell of kerosene signals the part of the factory where engineers handle the metre-diameter core of the engine, in which fuel and air combine at high pressure to drive the turbines and propel 200-tonne planes through the air.</p> <a href=\"https://www.theguardian.com/business/2026/jul/19/rolls-royce-fixed-engine-problems-support-uk-narrowbody\">Continue reading...</a>"
+      },
+      "time": {
+        "asserted": "2026-07-19T14:41:48.886Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "economy",
+        "citation": "https://www.theguardian.com/business/2026/jul/19/rolls-royce-fixed-engine-problems-support-uk-narrowbody"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "published",
+      "proposition": {
+        "predicate": "published",
+        "object": "Sun, 19 Jul 2026 11:00:26 GMT"
+      },
+      "time": {
+        "asserted": "2026-07-19T14:41:48.886Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "economy",
+        "citation": "https://www.theguardian.com/business/2026/jul/19/rolls-royce-fixed-engine-problems-support-uk-narrowbody"
+      },
+      "status": "supported"
+    }
+  ]
+}

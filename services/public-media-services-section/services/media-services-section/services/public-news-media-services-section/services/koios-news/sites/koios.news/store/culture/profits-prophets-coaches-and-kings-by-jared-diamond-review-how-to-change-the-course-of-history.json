@@ -1,0 +1,69 @@
+{
+  "subject": "profits-prophets-coaches-and-kings-by-jared-diamond-review-how-to-change-the-course-of-history",
+  "claims": [
+    {
+      "id": "title",
+      "proposition": {
+        "predicate": "title",
+        "object": "Profits, Prophets, Coaches and Kings by Jared Diamond review – how to change the course of history"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "culture",
+        "citation": "https://www.theguardian.com/books/2026/sep/02/profits-prophets-coaches-and-kings-by-jared-diamond-review-how-to-change-the-course-of-history"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "url",
+      "proposition": {
+        "predicate": "url",
+        "object": "https://www.theguardian.com/books/2026/sep/02/profits-prophets-coaches-and-kings-by-jared-diamond-review-how-to-change-the-course-of-history"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "culture",
+        "citation": "https://www.theguardian.com/books/2026/sep/02/profits-prophets-coaches-and-kings-by-jared-diamond-review-how-to-change-the-course-of-history"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "summary",
+      "proposition": {
+        "predicate": "summary",
+        "object": "<p>The author of Guns, Germs and Steel falters in this flawed study of whether individuals really make a difference</p><p>Early in this book, Jared Diamond proudly introduces “what I term ‘the Hamlet test’”, which helps decide whether prominent individuals really make a difference, or whether others might have done just as well. Among William Shakespeare’s contemporaries on the Elizabethan stage, he explains, were “Ben Jonson, Christopher Marlowe and John Webster. But not even their best plays remotely approach in quality Hamlet and Shakespeare’s other masterpieces.” It follows, for Diamond, that Shakespeare was indeed “uniquely talented”: “We can be confident that no Elizabethan other than Shakespeare could have written a masterpiece like Hamlet if Shakespeare hadn’t done so.”</p><p>One obvious problem with this is that Marlowe was stabbed to death in a&nbsp;pub in Deptford in 1593 at the age of&nbsp;29, having already written the absolute bangers Doctor Faustus and Tamburlaine, as well as – so it is now thought – co-writing the Henry VI trilogy with the up-and-coming Shakespeare. Shakespeare himself did&nbsp;not begin to compose his major tragedies, including Hamlet, until he was a decade older. So we can’t rule out the possibility that, had Marlowe lived another 10 years, he would have matched or even exceeded his colleague’s genius. Scholars widely agree that Hamlet and Shakespeare’s other masterpieces were possible only thanks to the outsized influence of Marlowe.</p> <a href=\"https://www.theguardian.com/books/2026/sep/02/profits-prophets-coaches-and-kings-by-jared-diamond-review-how-to-change-the-course-of-history\">Continue reading...</a>"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "culture",
+        "citation": "https://www.theguardian.com/books/2026/sep/02/profits-prophets-coaches-and-kings-by-jared-diamond-review-how-to-change-the-course-of-history"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "published",
+      "proposition": {
+        "predicate": "published",
+        "object": "Wed, 02 Sep 2026 08:00:27 GMT"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "culture",
+        "citation": "https://www.theguardian.com/books/2026/sep/02/profits-prophets-coaches-and-kings-by-jared-diamond-review-how-to-change-the-course-of-history"
+      },
+      "status": "supported"
+    }
+  ]
+}

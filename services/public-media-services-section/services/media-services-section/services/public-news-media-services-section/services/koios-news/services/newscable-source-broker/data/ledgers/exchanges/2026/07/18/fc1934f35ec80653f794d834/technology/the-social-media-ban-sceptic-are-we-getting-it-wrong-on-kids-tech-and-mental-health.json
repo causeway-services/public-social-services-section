@@ -1,0 +1,69 @@
+{
+  "subject": "the-social-media-ban-sceptic-are-we-getting-it-wrong-on-kids-tech-and-mental-health",
+  "claims": [
+    {
+      "id": "title",
+      "proposition": {
+        "predicate": "title",
+        "object": "The social media ban sceptic: are we getting it wrong on kids, tech and mental health?"
+      },
+      "time": {
+        "asserted": "2026-07-18T07:55:43.768Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "technology",
+        "citation": "https://www.theguardian.com/society/2026/jul/16/psychologist-candice-odgers-kids-tech-mental-health-social-media-bans"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "url",
+      "proposition": {
+        "predicate": "url",
+        "object": "https://www.theguardian.com/society/2026/jul/16/psychologist-candice-odgers-kids-tech-mental-health-social-media-bans"
+      },
+      "time": {
+        "asserted": "2026-07-18T07:55:43.768Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "technology",
+        "citation": "https://www.theguardian.com/society/2026/jul/16/psychologist-candice-odgers-kids-tech-mental-health-social-media-bans"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "summary",
+      "proposition": {
+        "predicate": "summary",
+        "object": "<p>Psychologist Candice Odgers has studied adolescent mental health for 25 years. She fears the current debate around smartphones obscures some of the biggest issues facing teenagers – from the impact of Covid to the health of their adult caregivers</p><p>The quickest way to make being online safer for children and teens would be to kick all adult men off the internet, the Canadian psychologist Candice Odgers believes. Men are the biggest perpetrators of sextortion and most likely to spread misinformation, she says.</p><p>Odgers is not recommending this as a policy for governments to adopt: “That would be crazy, right? It would be unfair.” But she is on a drive to puncture the prevailing narrative that the best way to address online harms is a social media ban for teenagers.</p> <a href=\"https://www.theguardian.com/society/2026/jul/16/psychologist-candice-odgers-kids-tech-mental-health-social-media-bans\">Continue reading...</a>"
+      },
+      "time": {
+        "asserted": "2026-07-18T07:55:43.768Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "technology",
+        "citation": "https://www.theguardian.com/society/2026/jul/16/psychologist-candice-odgers-kids-tech-mental-health-social-media-bans"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "published",
+      "proposition": {
+        "predicate": "published",
+        "object": "Thu, 16 Jul 2026 06:50:29 GMT"
+      },
+      "time": {
+        "asserted": "2026-07-18T07:55:43.768Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "technology",
+        "citation": "https://www.theguardian.com/society/2026/jul/16/psychologist-candice-odgers-kids-tech-mental-health-social-media-bans"
+      },
+      "status": "supported"
+    }
+  ]
+}

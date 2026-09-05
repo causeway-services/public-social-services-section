@@ -1,0 +1,69 @@
+{
+  "subject": "cindy-burbank-nebraska-s-democratic-senate-nominee-files-to-withdraw-from-race",
+  "claims": [
+    {
+      "id": "title",
+      "proposition": {
+        "predicate": "title",
+        "object": "Cindy Burbank, Nebraska’s Democratic Senate Nominee, Files to Withdraw From Race"
+      },
+      "time": {
+        "asserted": "2026-07-19T15:04:07.991Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "politics",
+        "citation": "https://www.nytimes.com/2026/07/18/us/politics/nebraska-senate-race-democrat-withdraw.html"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "url",
+      "proposition": {
+        "predicate": "url",
+        "object": "https://www.nytimes.com/2026/07/18/us/politics/nebraska-senate-race-democrat-withdraw.html"
+      },
+      "time": {
+        "asserted": "2026-07-19T15:04:07.991Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "politics",
+        "citation": "https://www.nytimes.com/2026/07/18/us/politics/nebraska-senate-race-democrat-withdraw.html"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "summary",
+      "proposition": {
+        "predicate": "summary",
+        "object": "The move by Cindy Burbank could clear a path for Dan Osborn, an independent candidate backed by her party’s leadership. But Republicans have cried foul, and her effort could face obstacles."
+      },
+      "time": {
+        "asserted": "2026-07-19T15:04:07.991Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "politics",
+        "citation": "https://www.nytimes.com/2026/07/18/us/politics/nebraska-senate-race-democrat-withdraw.html"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "published",
+      "proposition": {
+        "predicate": "published",
+        "object": "Sat, 18 Jul 2026 20:57:47 +0000"
+      },
+      "time": {
+        "asserted": "2026-07-19T15:04:07.991Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "politics",
+        "citation": "https://www.nytimes.com/2026/07/18/us/politics/nebraska-senate-race-democrat-withdraw.html"
+      },
+      "status": "supported"
+    }
+  ]
+}

@@ -1,0 +1,69 @@
+{
+  "subject": "ofcom-launches-investigation-into-married-at-first-sight-uk-after-seeing-advance-copy-of-channel-4-review",
+  "claims": [
+    {
+      "id": "title",
+      "proposition": {
+        "predicate": "title",
+        "object": "Ofcom Launches Investigation Into ‘Married At First Sight UK’ After Seeing “Advance Copy” Of Channel 4 Review"
+      },
+      "time": {
+        "asserted": "2026-07-20T10:18:52.888Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "culture",
+        "citation": "https://deadline.com/2026/07/ofcom-launches-married-at-first-sight-uk-investigation-1236998250/"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "url",
+      "proposition": {
+        "predicate": "url",
+        "object": "https://deadline.com/2026/07/ofcom-launches-married-at-first-sight-uk-investigation-1236998250/"
+      },
+      "time": {
+        "asserted": "2026-07-20T10:18:52.888Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "culture",
+        "citation": "https://deadline.com/2026/07/ofcom-launches-married-at-first-sight-uk-investigation-1236998250/"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "summary",
+      "proposition": {
+        "predicate": "summary",
+        "object": "UK regulator Ofcom has launched an investigation into under-fire Channel 4 series Married at First Sight UK. The regulator’s group director of broadcast previously told British lawmakers Ofcom would examine an “advance copy” of Channel 4’s review into welfare on the show and “urgently” consider “whether “any regulatory action is necessary.” Ofcom has clearly decided […]"
+      },
+      "time": {
+        "asserted": "2026-07-20T10:18:52.888Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "culture",
+        "citation": "https://deadline.com/2026/07/ofcom-launches-married-at-first-sight-uk-investigation-1236998250/"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "published",
+      "proposition": {
+        "predicate": "published",
+        "object": "Mon, 20 Jul 2026 09:51:04 +0000"
+      },
+      "time": {
+        "asserted": "2026-07-20T10:18:52.888Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "culture",
+        "citation": "https://deadline.com/2026/07/ofcom-launches-married-at-first-sight-uk-investigation-1236998250/"
+      },
+      "status": "supported"
+    }
+  ]
+}

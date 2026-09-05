@@ -1,0 +1,278 @@
+:PROPERTIES:
+:ID:       b03ea1c6-0b30-41db-9387-75a8e21f7a2c
+:END:
+#+title: qtMUD
+#+date: [2025-08-19 Tue 07:38]
+qtMUD
+Introduction
+qtMUD
+Supplements
+Introduction
+This game engine is a work-in-progress: it is considered incomplete and there are plans to add or change information contained in it. Pay special attention to text flagged DEV, DRAFT, EDIT, REVIEW, TEST, or TK.
+
+qtMUD is a basic MUD engine implemented in Crystal. A MUD is a multi-user dimension whose primary rendering is usually text, not videographic.
+
+qtMUD is focused on being a non-programmer's introduction to not software development through the friendly lens of building an online computer game.
+
+qtMUD is currently in early alpha: in the early planning stages.
+
+This game engine was written by me, emsenn, and is released for the benefit of the public under the terms included in the "License" supplement. It was made possible with financial contributions from humans like you. If you would like to offer corrections or opinions about this game engine, please send an email to my public inbox or, if appropriate, my personal email. If you're viewing this online, you're encouraged to download a local copy.
+
+This game engine is implemented using the literate programming paradigm. The "software" being presented is included as sections of code, within a longer piece of prose which explains the code's purpose and usage. For a more complete explanation of my implementation of the paradigm, see "Literate Programming" in my Style Manual.
+
+qtMUD
+MUDs are a form of multiplayer computer game where players receive verbose text descriptions of their environments and the activity around them, and interact by inputting commands for what they wish to do, like survey planet or fight dragon.
+
+By focusing on documentation and tutorials, qtMUD aims to be the non-programmer's introduction to creating and running a MUD.
+
+NOTE: qtMUD is just the core server for running a MUD, and is meant to be used with a MUD library, like Fyreside.
+
+Operations
+Install
+Configure
+Test
+Specification
+Source
+Operations
+Install
+Configure
+Test
+Install
+Install from Org-mode
+Install from Org-mode
+Prepare Build Environment
+rm -r ./build/qtmud/
+mkdir -p ./build/qtmud/{spec,src}
+Configure
+name: qtmud
+description: A MUD engine; run text-based online role-playing games.
+version: 0.1.0
+
+authors:
+  - emsenn <emsenn@emsenn.net>
+
+crystal: 0.28.0
+
+license: MIT
+Test
+Test All
+Test All
+cd ./build/qtmud
+crystal spec --no-color > test_results.tmp
+cat test_results.tmp
+rm test_results.tmp
+F
+
+Failures:
+
+  1) Qtmud works
+     Failure/Error: false.should eq(true)
+
+       Expected: true
+            got: false
+
+     # spec/qtmud_spec.cr:8
+
+Finished in 75 microseconds
+1 examples, 1 failures, 0 errors, 0 pending
+
+Failed examples:
+
+crystal spec spec/qtmud_spec.cr:7 # Qtmud works
+qtMUD Specification
+require "spec"
+require "../src/qtmud"
+
+describe Qtmud do
+  # TODO: Write tests
+
+  it "works" do
+    false.should eq(true)
+  end
+end
+qtMUD Source
+# TODO: Write documentation for `Qtmud`
+module Qtmud
+  VERSION = "0.1.0"
+
+  # TODO: Put your code here
+end
+Supplements
+Content Listing
+Contribute
+Dictionary
+Essays
+License
+Content Listing
+Table of Contents
+Introduction
+qtMUD
+Operations
+Install
+Install from Org-mode
+Prepare Build Environment
+Configure
+Test
+Test All
+Specification
+Source
+Supplements
+Content Listing
+Contribute
+Dictionary
+Essays
+Developer Logs
+emsenn
+#1: Coming Back to qtMUD, Spring 2019
+DONE #2: Bootstrapping a Crystal Project with Org-mode
+DRAFT #3
+License
+Contribute
+This game engine was made possible with contributions from humans like you. Thank you! I currently accept contributions through the following platforms:
+
+One-time through…
+Paypal
+Ko-fi
+Recurring through…
+Liberapay
+If there is another service through which you'd like to contribute, please send an email. Please note that in accordance with my personal directives #003 and #018, I release all useful information I create for free, so financial contributions do not entitle you to access to any "exclusive content."
+
+Dictionary
+dimension
+The "game world"
+MUD
+A multi-user dimension, or dungeon. A more historic term for MMORPG, MUDs were some of the earliest multiplayer computer games. Wikipedia has a comprehensive article on the topic.
+MUD library
+Also called a mudlib, the MUD library is a collection of information about a MUD's dimension and the features required to make use of that information. For qtMUD, a MUD library is a Python module that qtMUD uses to supplement its subscriptions and services.
+MUD client
+A piece of software used to interact with a MUD server.
+MUD server
+A piece of software which "runs" a MUD: it accepts and outputs information about MUD's dimension.
+Essays
+Developer Logs
+Developer Logs
+emsenn
+emsenn
+#1: Coming Back to qtMUD, Spring 2019
+DONE #2: Bootstrapping a Crystal Project with Org-mode
+DRAFT #3
+#1: Coming Back to qtMUD, Spring 2019
+NOTE: This essay was written as a development log, which means that, among other issues, code blocks and examples may be incomplete, missing, or wrong.
+
+It's been a while since I've touched my MUD engine: two and a half years, I think.
+
+In the meantime, I haven't done any computer programming, but I feel like I've learned a lot about computer programming. One thing I've learned is that there exists a way of writing software called literate programming, which is a way of writing a piece of software by writing documentation for people first, with chunks of code embedded in. (Most code has some documentation inside it, but with lots living in another place.) Check out "Literate programming" on Wikipedia for more information.
+
+This seemed like it would be useful thing for qtMUD, which I intend to "be the non-programmer's introduction to creating and running a MUD."
+
+Since implementing the paradigm for the project would require a rewrite, I figured I would use the opportunity to take stock of the rest of my implementation - down to the language I was using. Python has, I think, never been in practice what I hoped it would be in theory, especially when it comes to being easy for non-developers to work with. (Without ending up in "dependency hell.")
+
+I'm not interested in explaining, right now, why I made the choice, because I feel it would invite unwanted bickering, but I've decided to use Crystal as qtMUD's main programming language. Crystal is a compiled object-oriented statically-typed programming language - different in a lot of ways from Python, but I feel it's quite similar in the ways that matter. Ahh, nope, I said I wouldn't explain it.
+
+Moving on.
+
+It might sound like re-implementing a game engine, even one for something a simple as a MUD, is a big undertaking. Luckily, I've never made it very far in implementing my vision for qtMUD, so what I have isn't that well-developed.
+
+Right now, qtMUD establishes a few features and ways of doing things - enough that I was able to make a functional multiplayer persistent card game with it. Here's a brief rundown:
+
+qtMUD has services, subscriptions, and things. When the game is running, it ticks every service, and parses any events that were subscribed to be executed that tick. The game world is made up of things, which have qualities that represent their in-game attributes, such as a room's contents or a player-character's experience.
+
+If you're familiar with game engines, you'll recognize most of that as pretty standard, even if I don't use the common terminology. So there's no confusion, though, I'm going to break that down into a bit more detail, by talking about how the engine starts and runs, and what happens when a player logs in.
+
+When the Admin starts their qtMUD server, it goes through three stages: loading, starting, and running.
+
+When the server is loading, it looks what optional features are set to be enabled, what MUD libraries to load, and what services to load.
+
+qtMUD is meant to let you just use what you need, so a lot of basic features are "optional," like colored text output (useless if you're converting your engine's output to audio, for example, and at least in Python, required a dependency.)
+
+MUD libraries are collections of new features, usually representing complete game worlds. For example, Fyreside was a test MUD library I wrote for the Python qtMUD.
+
+Services are what some programmers might call "daemons," they're persistent objects that handle persistent engine information. The talker - the thing that handles in-game communication between players - is one service. The socket server that users connect to is another.
+
+After the MUD engine has looked at all those, it begins the process of loading them:
+
+For each MUD library,
+add its services to the list it has already prepared
+and add its enabled optional features to the list it has already prepared.
+Once that's done, it tries to load each service:
+Most services have subscribers, which are functions that will be triggered when a matching event is scheduled. (More on that shortly.) These subscribers are added to a list.
+Some services have their own tick function, which is added to a list. (More on that shortly, as well.)
+Services often have their own variables and stuff to configure; that's usually done at this point, too.
+Once the services are loaded, the enabled optional services are. What this means depends on the service, but it might mean replacing a subscription with a different one.
+So, at the end of the loading process, the MUD engine has a list of services that need to be ticked, and a list of subscribers that will trigger when a relevant event is scheduled. Past this point, the optional features aren't dealt with anymore.
+
+The next step of the engine's get-going process is to start, which sends a call to services that will tick. This often does different things - in the case of the MUD socket service, it binds the ports and sets up the server.
+
+The final step of the process is to run, which does two things:
+
+It maintains the game tick, which is a loop that, over and over until its told to stop, calls the tick() function in every loaded service, and calls every subscription for which there is an event scheduled. Subscriptions are functions that "happen" the tick after an event related to them are scheduled. For example, a user sending a message through the talker service causes an event to be scheduled, that says basically, "for everyone listening to that channel, show them the message." The next tick, everyone gets shown the message.
+The game engine ticks until it's told to stop, at which point it shutdowns the services and exits.
+
+From a user perspective, when you connect to the socket server with a MUD client, the game asks you some questions to suss out if you have an existing user account, and creates a new thing, a collection of qualities and their states. For example, all user things have an account ID quality.
+
+The qualities of a thing define how different services and events will affect it. Some things are very simple, like a basic user account, but on a server with a large MUD library loaded, user accounts might have dozens of qualities.
+
+Developers of MUD libraries will mostly fall into two tiers: those who create content for the library, creating new things with sets of qualities, like a collection of Room things that make up a small village, and those who make new types of things, new qualities, and the services and subscriptions that rely on them.
+
+But that division is meant to occur because of one's interests, not necessarily technical difficulty.
+
+Knowing that background, I'll explain what stuff the qtMUD engine had as implemented in Python:
+
+a MUD socket service that was how users could connect
+a Talker service that let users talk to each other, or showed server messages to all users.
+a "colored output" optional feature.
+a Client thing with qualities relating to the MUD socket service and Talker service.
+There might have been other features, but that's what I can remember offhand, and what was well-tested.
+
+Which honestly, shouldn't be that hard to reimplement in any language. What's going to be trickier is organizing it in a way that makes more sense for a literate programming paradigm.
+
+DONE #2: Bootstrapping a Crystal Project with Org-mode
+NOTE: This essay was written as a development log, which means that, among other issues, code blocks and examples may be incomplete, missing, or wrong.
+
+Last time I wrote about how I was planning to re-write qtMUD from Python3 to Crystal, and then I explained how the engine had worked. I pointedly didn't explain why I'm switching to Crystal, specifically, and I also glossed over the fact I don't really know Crystal. At all. And I haven't really touched a programming language in 3 years, since the last time I tinkered with qtMUD.
+
+After I wrote that devlog, I went off and read the Crystal Reference, pretty much from beginning to end. I skimmed past stuff that I could tell might be useful down the line, but wouldn't be necessary to get started, because it was nothing I used in Python, even though I knew the features existed.
+
+I'm pretty sure I want to design qtMUD to work as what Crystal calls a shard, or "package of Crystal code made to be shared-with and used-by other projects." See "Writing Shards" in Crystal Reference for more information.
+
+That documentation says I need a working installation of Crystal, which I have, a working installation of Git, which I have, and a GitHub account, which I have but would prefer not to use - I've been preferring Drew DeVault's Sourcehut set of services, so would want to use a repo hosted at git.sr.ht/~emsenn.
+
+The instructions, past the requirements, begin with creating a project. Crystal has a command for initializing one, but since I'm doing this program literately, I'm going to instead create sections in my main qtMUD document (probably what this devlog entry is a part of,) and write source code blocks to be tangled out - extracted.
+
+Here's what I know I need:
+
+shard.yml, which defines the project for when I'm ready to distribute it. It is in the "Configure" subsection of the "Operations" section.
+src/qtmud.cr, which will be the implementation of qtMUD in the Crystal programming language. It is in the "qtMUD Source" section.
+spec/qtmud_spec.cr, which will be the specification of qtMUD, against which the implementation is written, and is also written in Crystal. It is in the "qtMUD Specification" section.
+There's two other sections I've made to accompany those:
+
+"Install from Org-mode", under "Install" in the "Operations" section. It has a shell script for deleting the currently build directory and remaking the layout. Simple, but effective. Then I run org-babel-tangle to re-tangle the source code.
+"Test All", under "Test", also under "Operations". This is another shell script, that runs crystal spec (and runs it through a temporary file, because just running the command didn't get me the output in my Org-mode file. Hacky, but effective.
+This gives me a development flow that could definitely be better if I was better at Org-mode, but:
+
+Run (Ctrl-c, Ctrl-c in Emacs) the script in "Install from Org-mode" to delete the old version and make the necessary new directories.
+Do org-babel-tangle in Emacs anywhere in the qtMUD file.
+Run the script in "Test All".
+This lets me know what specifications, if any, I've failed to implement.
+
+Which gives me a pretty good base for starting to write the specifications and assertions! (Turns out I don't need Git installed or a GitHub account yet, at all.)
+
+DRAFT #3
+NOTE: This essay was written as a development log, which means that, among other issues, code blocks and examples may be incomplete, missing, or wrong.
+
+Last time I wrote about bootstrapping a Crystal project with Org-mode, which got me to the point where I'm ready to start laying out the engine specifications I laid out in my first devlog.
+
+License
+Copyright 2019 emsenn
+
+Permission is hereby granted, free of charge, to any person obtaining a copy of this document and associated media files (the "Document"), to deal in the Doftware without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Doftware, and to permit persons to whom the Doftware is furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+
+The Document is provided "as is," without warranty of any kind, express or implied, including but not limited to the warranties of merchantability, fitness for a particular purpose, or noninfringement. In no event shall the authors or copyright holders be liable for any claim, damages or other liability, whether in an action of contract, tort, or otherwise, arising from, out of or in connection with the Document or the use or other dealings in the Document.
+
+Author: emsenn
+
+Created: 2019-05-11 Sat 19:53
+
+Validate

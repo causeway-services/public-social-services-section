@@ -1,0 +1,69 @@
+{
+  "subject": "the-best-recent-crime-and-thrillers-review-roundup",
+  "claims": [
+    {
+      "id": "title",
+      "proposition": {
+        "predicate": "title",
+        "object": "The best recent crime and thrillers – review roundup"
+      },
+      "time": {
+        "asserted": "2026-07-18T19:52:42.248Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "culture",
+        "citation": "https://www.theguardian.com/books/2026/jul/17/the-best-recent-and-thrillers-review-roundup"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "url",
+      "proposition": {
+        "predicate": "url",
+        "object": "https://www.theguardian.com/books/2026/jul/17/the-best-recent-and-thrillers-review-roundup"
+      },
+      "time": {
+        "asserted": "2026-07-18T19:52:42.248Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "culture",
+        "citation": "https://www.theguardian.com/books/2026/jul/17/the-best-recent-and-thrillers-review-roundup"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "summary",
+      "proposition": {
+        "predicate": "summary",
+        "object": "<p>The Runner by Scarlett Thomas; The Madman by Henning Mankell; Everything She Didn’t Say by Jane Casey; The Spy and the Snake by MJ Robotham; Murder at the End of the World by Akane Araki</p><p><strong><a href=\"https://guardianbookshop.com/the-runner-9781398537033?utm_source=editoriallink&amp;utm_medium=merch&amp;utm_campaign=article\">The Runner</a> by Scarlett Thomas (Scribner, £16.99)</strong><strong><br></strong>Part thriller, part romantic suspense, Thomas’s latest novel begins in Cyprus, where 34-year-old Jay is literally on the run from someone who wants to kill him. Jay (not his real name) is well used to evading hitmen: the attempts on his life began at university, when a Japanese man arrived at his flat with a samurai sword. People have been trying to murder him ever since, the contract on his life traded like a commodity, in bitcoin. Now his only apparent ally is the mysterious Ellie, although – given his track record – it’s quite possible that she’s trying to off him, too. Just before the reader’s sense of intrigue turns to irritated bafflement, the action rewinds to Jay’s childhood in Kent, and the reasons slowly become clear in this quirky, exciting tale that takes in exorcism, dictators, high finance, con artists and marathons along the way.</p><p><strong><a href=\"https://guardianbookshop.com/the-madman-9781035430949?utm_source=editoriallink&amp;utm_medium=merch&amp;utm_campaign=article\">The Madman</a> by Henning Mankell, translated by George Goulding and Sarah de Senarclens</strong><strong> (</strong><strong>Mountain Leopard</strong><strong>, £25)</strong><strong><br></strong>Written in the 1970s and published in English for the first time, The Madman is set in a Swedish town in the late 1940s. The country’s wartime neutrality-on-paper continues to divide: the town’s pro-Nazis want the past forgotten, but the communist sympathisers, bitter about having been interned, want a reckoning. When a letter to this effect appears in the local paper, those accused, including the director of the town’s sawmill, claim that newcomer Bertil Kras has been stirring resentment for political ends. When the sawmill burns down, Kras is blamed for that, too, and the disintegration of the life he has tried to make provokes an existential crisis. An older Mankell might have been more concise, but the slow build towards inevitable disaster makes for true emotional depth, and the theme of othering, isolating and penalising people for their opinions remain horribly topical.</p> <a href=\"https://www.theguardian.com/books/2026/jul/17/the-best-recent-and-thrillers-review-roundup\">Continue reading...</a>"
+      },
+      "time": {
+        "asserted": "2026-07-18T19:52:42.248Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "culture",
+        "citation": "https://www.theguardian.com/books/2026/jul/17/the-best-recent-and-thrillers-review-roundup"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "published",
+      "proposition": {
+        "predicate": "published",
+        "object": "Fri, 17 Jul 2026 11:00:06 GMT"
+      },
+      "time": {
+        "asserted": "2026-07-18T19:52:42.248Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "culture",
+        "citation": "https://www.theguardian.com/books/2026/jul/17/the-best-recent-and-thrillers-review-roundup"
+      },
+      "status": "supported"
+    }
+  ]
+}

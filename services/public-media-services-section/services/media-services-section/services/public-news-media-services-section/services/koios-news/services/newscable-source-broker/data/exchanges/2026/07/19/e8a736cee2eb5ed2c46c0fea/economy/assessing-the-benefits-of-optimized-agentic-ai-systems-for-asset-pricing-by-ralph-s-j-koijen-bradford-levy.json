@@ -1,0 +1,53 @@
+{
+  "subject": "assessing-the-benefits-of-optimized-agentic-ai-systems-for-asset-pricing-by-ralph-s-j-koijen-bradford-levy",
+  "claims": [
+    {
+      "id": "title",
+      "proposition": {
+        "predicate": "title",
+        "object": "Assessing the Benefits of Optimized Agentic AI Systems for Asset Pricing -- by Ralph S. J. Koijen, Bradford Levy"
+      },
+      "time": {
+        "asserted": "2026-07-19T14:41:48.886Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "economy",
+        "citation": "https://www.nber.org/papers/w35431#fromrss"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "url",
+      "proposition": {
+        "predicate": "url",
+        "object": "https://www.nber.org/papers/w35431#fromrss"
+      },
+      "time": {
+        "asserted": "2026-07-19T14:41:48.886Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "economy",
+        "citation": "https://www.nber.org/papers/w35431#fromrss"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "summary",
+      "proposition": {
+        "predicate": "summary",
+        "object": "Evaluating optimized AI systems for asset pricing is fundamentally difficult for two reasons. First, models are trained on all data, implying that any backtest or analysis using historical data suffers from look-ahead bias. In addition, markets are reflexive — as investors adopt AI, prices adjust — which may erode the very patterns the AI system was trained to exploit. We introduce a real-time, out-of-sample benchmark designed to sidestep both problems. The benchmark measures how well AI systems can explain contemporaneous stock returns around earnings announcements using only information available at announcement time, including the text of the announcement itself. Applying this benchmark to a range of agentic AI systems — which extract structured signals from earnings call transcripts and optimize over those signals — we find that the best-optimized systems more than double the explained variation in returns relative to standard benchmarks (R2 increasing from 8% to close to 20%). We show that AI-based optimization can deliver efficiency gains relative to traditional machine learning methods while also improving interpretability as our approach produces human-readable economic mechanisms that explain price movements. These learned rules can be compared to the drivers of realized returns in existing asset pricing models to identify missing sources of variation in a data-driven, self-evolving way that integrates empirical learning with economic structure. We release an SDK for researchers to improve on our results. Saturating this benchmark would represent fundamental progress in understanding how capital markets process firm-level information."
+      },
+      "time": {
+        "asserted": "2026-07-19T14:41:48.886Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "economy",
+        "citation": "https://www.nber.org/papers/w35431#fromrss"
+      },
+      "status": "supported"
+    }
+  ]
+}

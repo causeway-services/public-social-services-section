@@ -1,0 +1,69 @@
+{
+  "subject": "trump-s-ridiculous-bullying-of-canada-is-backfiring-robert-reich",
+  "claims": [
+    {
+      "id": "title",
+      "proposition": {
+        "predicate": "title",
+        "object": "Trump’s ridiculous bullying of Canada is backfiring | Robert Reich"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "economy",
+        "citation": "https://www.theguardian.com/commentisfree/2026/sep/02/trump-canada-tariffs-trade-war-backfiring"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "url",
+      "proposition": {
+        "predicate": "url",
+        "object": "https://www.theguardian.com/commentisfree/2026/sep/02/trump-canada-tariffs-trade-war-backfiring"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "economy",
+        "citation": "https://www.theguardian.com/commentisfree/2026/sep/02/trump-canada-tariffs-trade-war-backfiring"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "summary",
+      "proposition": {
+        "predicate": "summary",
+        "object": "<p>The US president’s need to assert dominance is igniting patriotism abroad and a backlash at home</p><p>What do bullies do when someone stands up to their bullying and punches them in the face? They look for someone weaker to bully who won’t punch back.</p><p>Presumably that’s why <a href=\"https://www.theguardian.com/us-news/donaldtrump\">Donald Trump</a> has now taken on <a href=\"https://www.theguardian.com/world/canada\">Canada</a>, after <a href=\"https://www.theguardian.com/world/us-israel-war-on-iran\">Iran</a> punched back so hard in the cage match the US president began more than six months ago as to leave him humiliated and baffled.</p> <a href=\"https://www.theguardian.com/commentisfree/2026/sep/02/trump-canada-tariffs-trade-war-backfiring\">Continue reading...</a>"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "economy",
+        "citation": "https://www.theguardian.com/commentisfree/2026/sep/02/trump-canada-tariffs-trade-war-backfiring"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "published",
+      "proposition": {
+        "predicate": "published",
+        "object": "Wed, 02 Sep 2026 12:00:24 GMT"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "economy",
+        "citation": "https://www.theguardian.com/commentisfree/2026/sep/02/trump-canada-tariffs-trade-war-backfiring"
+      },
+      "status": "supported"
+    }
+  ]
+}

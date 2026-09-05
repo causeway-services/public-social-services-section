@@ -1,0 +1,69 @@
+{
+  "subject": "christopher-nolan-says-it-will-be-at-least-three-years-until-he-makes-another-movie-after-the-odyssey-pushed-the-limits-of-my-own-stamina",
+  "claims": [
+    {
+      "id": "title",
+      "proposition": {
+        "predicate": "title",
+        "object": "Christopher Nolan Says It Will Be ‘At Least’ Three Years Until He Makes Another Movie After ‘The Odyssey’ Pushed the ‘Limits of My Own Stamina’"
+      },
+      "time": {
+        "asserted": "2026-07-19T15:04:21.677Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "culture",
+        "citation": "https://variety.com/2026/film/news/christopher-nolan-three-years-another-movie-the-odyssey-1236815625/"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "url",
+      "proposition": {
+        "predicate": "url",
+        "object": "https://variety.com/2026/film/news/christopher-nolan-three-years-another-movie-the-odyssey-1236815625/"
+      },
+      "time": {
+        "asserted": "2026-07-19T15:04:21.677Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "culture",
+        "citation": "https://variety.com/2026/film/news/christopher-nolan-three-years-another-movie-the-odyssey-1236815625/"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "summary",
+      "proposition": {
+        "predicate": "summary",
+        "object": "Christopher Nolan recently told “Today” that after giving it his all for “The Odyssey,” it will be “at least” three years until he makes another movie. “I definitely hit the limits of my own stamina and everybody’s stamina, I think,” Nolan said. “I mean, it’s ‘The Odyssey,’ of course it should be difficult. We’re not […]"
+      },
+      "time": {
+        "asserted": "2026-07-19T15:04:21.677Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "culture",
+        "citation": "https://variety.com/2026/film/news/christopher-nolan-three-years-another-movie-the-odyssey-1236815625/"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "published",
+      "proposition": {
+        "predicate": "published",
+        "object": "Sat, 18 Jul 2026 23:08:03 +0000"
+      },
+      "time": {
+        "asserted": "2026-07-19T15:04:21.677Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "culture",
+        "citation": "https://variety.com/2026/film/news/christopher-nolan-three-years-another-movie-the-odyssey-1236815625/"
+      },
+      "status": "supported"
+    }
+  ]
+}

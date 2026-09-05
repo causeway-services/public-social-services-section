@@ -1,0 +1,69 @@
+{
+  "subject": "life-of-m-by-rachel-cusk-review-is-this-story-of-a-film-star-based-on-natalie-portman",
+  "claims": [
+    {
+      "id": "title",
+      "proposition": {
+        "predicate": "title",
+        "object": "Life of M by Rachel Cusk review – is this story of a film star based on Natalie Portman?"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "culture",
+        "citation": "https://www.theguardian.com/books/2026/aug/21/life-of-m-by-rachel-cusk-review-is-this-story-of-a-film-star-based-on-natalie-portman"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "url",
+      "proposition": {
+        "predicate": "url",
+        "object": "https://www.theguardian.com/books/2026/aug/21/life-of-m-by-rachel-cusk-review-is-this-story-of-a-film-star-based-on-natalie-portman"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "culture",
+        "citation": "https://www.theguardian.com/books/2026/aug/21/life-of-m-by-rachel-cusk-review-is-this-story-of-a-film-star-based-on-natalie-portman"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "summary",
+      "proposition": {
+        "predicate": "summary",
+        "object": "<p>A teasing tale of the friendship between a writer and an actor explores the fallout from fame, and the blurring between pretence and reality</p><p>M<strong> </strong>is a celebrated film actor. A&nbsp;star since childhood, now the face of a major fashion brand, she has been famous all her life. That her career closely resembles Natalie Portman’s has been gleefully seized upon by the press, something Rachel Cusk must surely have anticipated: in the novel, M’s first film has its sex scenes cut at her mother’s insistence, as happened with Portman’s 1994 debut Leon, while her ballerina movie is recognisably Black Swan. M is also, in the words of the nameless and genderless narrator of Life of M, “a good sport”. When the narrator suggests writing M’s autobiography, M likes the idea. “Would you just make it up?” she asks.</p><p>A celebrity autobiography is seldom the work of the celebrity herself. And yet any suggestion that the narrator will serve as a kind of ghostwriter to M is dispensed with in a few pages. The pair meet for coffee at a luxury hotel and, after the narrator’s partner falls suddenly and seriously ill, for lunch in a restaurant. The lunch is unsatisfactory, an attempt at intimacy that the narrator acknowledges afterwards to have been a mistake. Though M is determined to live as normal a life as possible (“her personal task is to become real, or rather to acquire some reality”), the narrator is uncomfortably aware of their own falseness with M: “It was as if I was acting, while M came across as authentic and real. It was as if she was the only one good enough at acting to attain reality.” After that the two of them do not see one another again “for a long time”.</p> <a href=\"https://www.theguardian.com/books/2026/aug/21/life-of-m-by-rachel-cusk-review-is-this-story-of-a-film-star-based-on-natalie-portman\">Continue reading...</a>"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "culture",
+        "citation": "https://www.theguardian.com/books/2026/aug/21/life-of-m-by-rachel-cusk-review-is-this-story-of-a-film-star-based-on-natalie-portman"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "published",
+      "proposition": {
+        "predicate": "published",
+        "object": "Fri, 21 Aug 2026 06:00:27 GMT"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "culture",
+        "citation": "https://www.theguardian.com/books/2026/aug/21/life-of-m-by-rachel-cusk-review-is-this-story-of-a-film-star-based-on-natalie-portman"
+      },
+      "status": "supported"
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+#+SETUPFILE: ./setup.inc
+#+TITLE: Geography and Settlements of the Worldkeep
+#+EXPORT_FILE_NAME: ../../pub/reference-books/geography-and-settlements-of-the-worldkeep
+#+INDEX: Worldkeep!/Geography and Settlements of the Worldkeep/
+#+TOC: headlines 2
+* DRAFT Introduction
+{{{document-isdraft}}}
+
+{{{document-hasproject}}}
+* DRAFT Geography and Settlements of the Worldkeep
+* DRAFT Supplements
+** DRAFT Index
+- Worldkeep ::

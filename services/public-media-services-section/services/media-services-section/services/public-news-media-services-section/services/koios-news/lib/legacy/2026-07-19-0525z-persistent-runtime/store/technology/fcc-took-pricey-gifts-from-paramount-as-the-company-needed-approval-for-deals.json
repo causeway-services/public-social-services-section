@@ -1,0 +1,69 @@
+{
+  "subject": "fcc-took-pricey-gifts-from-paramount-as-the-company-needed-approval-for-deals",
+  "claims": [
+    {
+      "id": "title",
+      "proposition": {
+        "predicate": "title",
+        "object": "FCC took pricey gifts from Paramount as the company needed approval for deals"
+      },
+      "time": {
+        "asserted": "2026-07-19T02:19:57.968Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "technology",
+        "citation": "https://arstechnica.com/tech-policy/2026/07/fcc-took-pricey-gifts-from-paramount-as-the-company-needed-approval-for-deals/"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "url",
+      "proposition": {
+        "predicate": "url",
+        "object": "https://arstechnica.com/tech-policy/2026/07/fcc-took-pricey-gifts-from-paramount-as-the-company-needed-approval-for-deals/"
+      },
+      "time": {
+        "asserted": "2026-07-19T02:19:57.968Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "technology",
+        "citation": "https://arstechnica.com/tech-policy/2026/07/fcc-took-pricey-gifts-from-paramount-as-the-company-needed-approval-for-deals/"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "summary",
+      "proposition": {
+        "predicate": "summary",
+        "object": "The rich and famous who filed into the Kennedy Center’s opera house in December were there to enjoy one of the nation’s most exclusive celebrations of the performing arts: the center’s annual honors gala. The black-tie event, hosted by President Donald Trump, prioritized tickets to people who donated more than $75,000 to the center. This year, it feted Hollywood icon Sylvester Stallone, the legendary glam rock band Kiss and the Grammy Award-winning disco pioneer Gloria Gaynor. Among the attendees that evening were two lower-profile government officials whose regulatory decisions had been crucial to the future of the gala’s broadcast sponsor, CBS, and its parent company, Paramount. Read full article Comments"
+      },
+      "time": {
+        "asserted": "2026-07-19T02:19:57.968Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "technology",
+        "citation": "https://arstechnica.com/tech-policy/2026/07/fcc-took-pricey-gifts-from-paramount-as-the-company-needed-approval-for-deals/"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "published",
+      "proposition": {
+        "predicate": "published",
+        "object": "Fri, 17 Jul 2026 11:15:55 +0000"
+      },
+      "time": {
+        "asserted": "2026-07-19T02:19:57.968Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "technology",
+        "citation": "https://arstechnica.com/tech-policy/2026/07/fcc-took-pricey-gifts-from-paramount-as-the-company-needed-approval-for-deals/"
+      },
+      "status": "supported"
+    }
+  ]
+}

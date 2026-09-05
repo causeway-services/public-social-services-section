@@ -1,0 +1,69 @@
+{
+  "subject": "takeaways-from-trump-s-primetime-speech-and-at-least-2-dead-in-major-texas-flooding",
+  "claims": [
+    {
+      "id": "title",
+      "proposition": {
+        "predicate": "title",
+        "object": "Takeaways from Trump's primetime speech. And, at least 2 dead in major Texas flooding"
+      },
+      "time": {
+        "asserted": "2026-07-18T04:08:20.053Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "politics",
+        "citation": "https://www.npr.org/2026/07/17/g-s1-134162/up-first-newsletter-trump-speech-illegal-voting-texas-flooding-wildfires-air-quality"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "url",
+      "proposition": {
+        "predicate": "url",
+        "object": "https://www.npr.org/2026/07/17/g-s1-134162/up-first-newsletter-trump-speech-illegal-voting-texas-flooding-wildfires-air-quality"
+      },
+      "time": {
+        "asserted": "2026-07-18T04:08:20.053Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "politics",
+        "citation": "https://www.npr.org/2026/07/17/g-s1-134162/up-first-newsletter-trump-speech-illegal-voting-texas-flooding-wildfires-air-quality"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "summary",
+      "proposition": {
+        "predicate": "summary",
+        "object": "President Trump gave a primetime speech raising claims of voting vulnerabilities but offered no new evidence. And, at least 2 people have died in major flooding in Texas. (Image credit: Saul Loeb)"
+      },
+      "time": {
+        "asserted": "2026-07-18T04:08:20.053Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "politics",
+        "citation": "https://www.npr.org/2026/07/17/g-s1-134162/up-first-newsletter-trump-speech-illegal-voting-texas-flooding-wildfires-air-quality"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "published",
+      "proposition": {
+        "predicate": "published",
+        "object": "Fri, 17 Jul 2026 07:27:01 -0400"
+      },
+      "time": {
+        "asserted": "2026-07-18T04:08:20.053Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "politics",
+        "citation": "https://www.npr.org/2026/07/17/g-s1-134162/up-first-newsletter-trump-speech-illegal-voting-texas-flooding-wildfires-air-quality"
+      },
+      "status": "supported"
+    }
+  ]
+}

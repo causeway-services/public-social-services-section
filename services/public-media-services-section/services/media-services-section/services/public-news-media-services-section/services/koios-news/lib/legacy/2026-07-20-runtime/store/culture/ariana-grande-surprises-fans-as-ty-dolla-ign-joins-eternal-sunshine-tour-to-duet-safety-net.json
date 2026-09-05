@@ -1,0 +1,69 @@
+{
+  "subject": "ariana-grande-surprises-fans-as-ty-dolla-ign-joins-eternal-sunshine-tour-to-duet-safety-net",
+  "claims": [
+    {
+      "id": "title",
+      "proposition": {
+        "predicate": "title",
+        "object": "Ariana Grande Surprises Fans as Ty Dolla $ign Joins Eternal Sunshine Tour to Duet ‘Safety Net’"
+      },
+      "time": {
+        "asserted": "2026-07-19T14:42:05.531Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "culture",
+        "citation": "https://www.rollingstone.com/music/music-news/ariana-grande-ty-dolla-sign-eternal-sunshine-tour-1235595509/"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "url",
+      "proposition": {
+        "predicate": "url",
+        "object": "https://www.rollingstone.com/music/music-news/ariana-grande-ty-dolla-sign-eternal-sunshine-tour-1235595509/"
+      },
+      "time": {
+        "asserted": "2026-07-19T14:42:05.531Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "culture",
+        "citation": "https://www.rollingstone.com/music/music-news/ariana-grande-ty-dolla-sign-eternal-sunshine-tour-1235595509/"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "summary",
+      "proposition": {
+        "predicate": "summary",
+        "object": "Grande invited Ty to the stage during her Brooklyn residency on Thursday"
+      },
+      "time": {
+        "asserted": "2026-07-19T14:42:05.531Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "culture",
+        "citation": "https://www.rollingstone.com/music/music-news/ariana-grande-ty-dolla-sign-eternal-sunshine-tour-1235595509/"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "published",
+      "proposition": {
+        "predicate": "published",
+        "object": "Sat, 18 Jul 2026 01:20:31 +0000"
+      },
+      "time": {
+        "asserted": "2026-07-19T14:42:05.531Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "culture",
+        "citation": "https://www.rollingstone.com/music/music-news/ariana-grande-ty-dolla-sign-eternal-sunshine-tour-1235595509/"
+      },
+      "status": "supported"
+    }
+  ]
+}

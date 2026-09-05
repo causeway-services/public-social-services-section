@@ -1,0 +1,69 @@
+{
+  "subject": "shania-twain-little-miss-twain-review-rootsy-revival-strays-from-the-dirt-track-to-the-middle-of-the-road",
+  "claims": [
+    {
+      "id": "title",
+      "proposition": {
+        "predicate": "title",
+        "object": "Shania Twain: Little Miss Twain review – rootsy revival strays from the dirt track to the middle of the road"
+      },
+      "time": {
+        "asserted": "2026-07-20T09:48:52.265Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "culture",
+        "citation": "https://www.theguardian.com/music/2026/jul/20/shania-twain-little-miss-twain-review"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "url",
+      "proposition": {
+        "predicate": "url",
+        "object": "https://www.theguardian.com/music/2026/jul/20/shania-twain-little-miss-twain-review"
+      },
+      "time": {
+        "asserted": "2026-07-20T09:48:52.265Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "culture",
+        "citation": "https://www.theguardian.com/music/2026/jul/20/shania-twain-little-miss-twain-review"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "summary",
+      "proposition": {
+        "predicate": "summary",
+        "object": "<p><strong>(Republic Nashville)</strong><br>The country legend’s seventh album revisits her troubled early life but plays it safe with zany humour and fluffy songs about young love</p><p>‘When I was a kid, I started on stages just like this,” Shania Twain told the 200 fans <a href=\"https://www.theguardian.com/music/2026/jun/07/shania-twain-gig-turns-london-pub-into-saloon\">sardined into a London pub back in June</a>, trailing her seventh album Little Miss Twain. A reintroduction to the Canadian country legend, the record mines memories from her Ontario childhood for hints of the arena-filling star she would soon become.</p><p>Over wistful Mellotron and pedal steel, the title track marvels at little Eilleen, as she was called back then, escaping the rural north and making it big in Nashville. Yet, somehow, it all feels inevitable – as if Twain’s career was conjured into being by the conviction of her mother, who drove her to those tiny bars in a beaten-up Chevy. And yes, from the vantage point of 2026, it’s difficult to imagine it going any other way. Twain’s icon status is certified by five Grammys and the way her free-spirited hits have become karaoke classics – not to mention the fact that her 1997 album Come on Over remains the highest-selling studio album by any female artist in history.</p> <a href=\"https://www.theguardian.com/music/2026/jul/20/shania-twain-little-miss-twain-review\">Continue reading...</a>"
+      },
+      "time": {
+        "asserted": "2026-07-20T09:48:52.265Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "culture",
+        "citation": "https://www.theguardian.com/music/2026/jul/20/shania-twain-little-miss-twain-review"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "published",
+      "proposition": {
+        "predicate": "published",
+        "object": "Mon, 20 Jul 2026 07:16:16 GMT"
+      },
+      "time": {
+        "asserted": "2026-07-20T09:48:52.265Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "culture",
+        "citation": "https://www.theguardian.com/music/2026/jul/20/shania-twain-little-miss-twain-review"
+      },
+      "status": "supported"
+    }
+  ]
+}

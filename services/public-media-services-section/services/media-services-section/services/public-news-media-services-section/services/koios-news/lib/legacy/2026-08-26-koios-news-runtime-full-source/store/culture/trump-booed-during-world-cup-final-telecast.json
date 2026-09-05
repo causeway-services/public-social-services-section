@@ -1,0 +1,69 @@
+{
+  "subject": "trump-booed-during-world-cup-final-telecast",
+  "claims": [
+    {
+      "id": "title",
+      "proposition": {
+        "predicate": "title",
+        "object": "Trump Booed During World Cup Final Telecast"
+      },
+      "time": {
+        "asserted": "2026-07-20T01:13:55.454Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "culture",
+        "citation": "https://deadline.com/2026/07/trump-booed-world-cup-final-game-1236998161/"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "url",
+      "proposition": {
+        "predicate": "url",
+        "object": "https://deadline.com/2026/07/trump-booed-world-cup-final-game-1236998161/"
+      },
+      "time": {
+        "asserted": "2026-07-20T01:13:55.454Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "culture",
+        "citation": "https://deadline.com/2026/07/trump-booed-world-cup-final-game-1236998161/"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "summary",
+      "proposition": {
+        "predicate": "summary",
+        "object": "The crowd at today’s World Cup Final cheered wildly for Jennifer Hudson’s otherworldly rendition of “The Star Spangled Banner.” But when Fox cut from Hudson to a shot of President Donald Trump in his box, the cheers turned to boos. Fox stayed with the shot of Trump for just a few seconds before cutting to […]"
+      },
+      "time": {
+        "asserted": "2026-07-20T01:13:55.454Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "culture",
+        "citation": "https://deadline.com/2026/07/trump-booed-world-cup-final-game-1236998161/"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "published",
+      "proposition": {
+        "predicate": "published",
+        "object": "Mon, 20 Jul 2026 00:42:45 +0000"
+      },
+      "time": {
+        "asserted": "2026-07-20T01:13:55.454Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "culture",
+        "citation": "https://deadline.com/2026/07/trump-booed-world-cup-final-game-1236998161/"
+      },
+      "status": "supported"
+    }
+  ]
+}

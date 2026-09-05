@@ -1,0 +1,69 @@
+{
+  "subject": "musk-s-xai-sues-user-who-allegedly-used-grok-to-create-child-sexual-abuse-material",
+  "claims": [
+    {
+      "id": "title",
+      "proposition": {
+        "predicate": "title",
+        "object": "Musk’s xAI sues user who allegedly used Grok to create child sexual abuse material"
+      },
+      "time": {
+        "asserted": "2026-07-18T08:37:41.516Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "technology",
+        "citation": "https://www.theguardian.com/technology/2026/jul/16/elon-musk-xai-sue-user-grok-csam"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "url",
+      "proposition": {
+        "predicate": "url",
+        "object": "https://www.theguardian.com/technology/2026/jul/16/elon-musk-xai-sue-user-grok-csam"
+      },
+      "time": {
+        "asserted": "2026-07-18T08:37:41.516Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "technology",
+        "citation": "https://www.theguardian.com/technology/2026/jul/16/elon-musk-xai-sue-user-grok-csam"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "summary",
+      "proposition": {
+        "predicate": "summary",
+        "object": "<p>Case is one of first brought by an AI company against a user ⁠for allegedly using a tool to generate child abuse material</p><p>Elon Musk’s artificial-intelligence startup xAI has sued a South Carolina man arrested ⁠earlier this year on charges of sexually exploiting minors, alleging he misused the company’s AI system Grok to ⁠create child sexual abuse ⁠material.</p><p>xAI ​alleged in the lawsuit, filed in federal court in Texas on Tuesday, that Terry Harwood violated the company’s ⁠terms of service. The case is one of the first brought by an AI company against one of its users ⁠for allegedly using an AI system to generate child sexual abuse material.</p> <a href=\"https://www.theguardian.com/technology/2026/jul/16/elon-musk-xai-sue-user-grok-csam\">Continue reading...</a>"
+      },
+      "time": {
+        "asserted": "2026-07-18T08:37:41.516Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "technology",
+        "citation": "https://www.theguardian.com/technology/2026/jul/16/elon-musk-xai-sue-user-grok-csam"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "published",
+      "proposition": {
+        "predicate": "published",
+        "object": "Thu, 16 Jul 2026 15:19:27 GMT"
+      },
+      "time": {
+        "asserted": "2026-07-18T08:37:41.516Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "technology",
+        "citation": "https://www.theguardian.com/technology/2026/jul/16/elon-musk-xai-sue-user-grok-csam"
+      },
+      "status": "supported"
+    }
+  ]
+}

@@ -1,0 +1,69 @@
+{
+  "subject": "justice-department-orders-us-states-to-expand-how-they-report-undocumented-immigrants",
+  "claims": [
+    {
+      "id": "title",
+      "proposition": {
+        "predicate": "title",
+        "object": "Justice department orders US states to expand how they report undocumented immigrants"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "us-politics",
+        "citation": "https://www.theguardian.com/us-news/2026/sep/02/justice-department-undocumented-immigrants-reports"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "url",
+      "proposition": {
+        "predicate": "url",
+        "object": "https://www.theguardian.com/us-news/2026/sep/02/justice-department-undocumented-immigrants-reports"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "us-politics",
+        "citation": "https://www.theguardian.com/us-news/2026/sep/02/justice-department-undocumented-immigrants-reports"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "summary",
+      "proposition": {
+        "predicate": "summary",
+        "object": "<p>New DoJ opinion says entire state government has duty to report, not just agencies responsible for welfare programs</p><p>The US Department of Justice has ordered states to expand how they report undocumented immigrants to the federal government, according to a legal opinion from Tuesday that reverses a policy that has been in place for nearly 30 years.</p><p>Under <a href=\"https://www.justice.gov/olc/media/1459981/dl\">the new opinion</a>, issued by the department’s office of legal counsel, any state that takes federal money through support schemes for low-income Americans, including<strong> </strong>Temporary Assistance for Needy Families (TANF) or Supplemental Security Income (SSI)<strong>,</strong> must now report undocumented immigrants across its entire state government, not just through the specific welfare office that runs the program.</p> <a href=\"https://www.theguardian.com/us-news/2026/sep/02/justice-department-undocumented-immigrants-reports\">Continue reading...</a>"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "us-politics",
+        "citation": "https://www.theguardian.com/us-news/2026/sep/02/justice-department-undocumented-immigrants-reports"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "published",
+      "proposition": {
+        "predicate": "published",
+        "object": "Wed, 02 Sep 2026 20:02:39 GMT"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "us-politics",
+        "citation": "https://www.theguardian.com/us-news/2026/sep/02/justice-department-undocumented-immigrants-reports"
+      },
+      "status": "supported"
+    }
+  ]
+}

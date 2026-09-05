@@ -1,0 +1,69 @@
+{
+  "subject": "architect-of-uk-s-ai-strategy-joins-anthropic-amid-conflict-of-interest-warning",
+  "claims": [
+    {
+      "id": "title",
+      "proposition": {
+        "predicate": "title",
+        "object": "Architect of UK’s AI strategy joins Anthropic amid conflict of interest warning"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "economy",
+        "citation": "https://www.theguardian.com/technology/2026/sep/02/architect-of-uks-ai-strategy-joins-anthropic"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "url",
+      "proposition": {
+        "predicate": "url",
+        "object": "https://www.theguardian.com/technology/2026/sep/02/architect-of-uks-ai-strategy-joins-anthropic"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "economy",
+        "citation": "https://www.theguardian.com/technology/2026/sep/02/architect-of-uks-ai-strategy-joins-anthropic"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "summary",
+      "proposition": {
+        "predicate": "summary",
+        "object": "<p>Matt Clifford will stay as chair of government funding body for tech projects alongside his senior role at US firm</p><p>The architect of the UK government’s AI strategy has joined the US startup Anthropic in a senior role a year after stepping down from his Downing Street post.</p><p>Matt Clifford, a successful tech investor, was appointed as AI opportunities adviser by Keir Starmer last year but resigned from the unpaid role six months later for personal reasons.</p> <a href=\"https://www.theguardian.com/technology/2026/sep/02/architect-of-uks-ai-strategy-joins-anthropic\">Continue reading...</a>"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "economy",
+        "citation": "https://www.theguardian.com/technology/2026/sep/02/architect-of-uks-ai-strategy-joins-anthropic"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "published",
+      "proposition": {
+        "predicate": "published",
+        "object": "Wed, 02 Sep 2026 14:29:43 GMT"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "economy",
+        "citation": "https://www.theguardian.com/technology/2026/sep/02/architect-of-uks-ai-strategy-joins-anthropic"
+      },
+      "status": "supported"
+    }
+  ]
+}

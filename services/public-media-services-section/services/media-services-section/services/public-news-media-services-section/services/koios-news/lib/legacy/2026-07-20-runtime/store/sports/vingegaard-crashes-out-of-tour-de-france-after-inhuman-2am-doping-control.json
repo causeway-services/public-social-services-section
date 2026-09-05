@@ -1,0 +1,69 @@
+{
+  "subject": "vingegaard-crashes-out-of-tour-de-france-after-inhuman-2am-doping-control",
+  "claims": [
+    {
+      "id": "title",
+      "proposition": {
+        "predicate": "title",
+        "object": "Vingegaard crashes out of Tour de France after ‘inhuman’ 2am doping control"
+      },
+      "time": {
+        "asserted": "2026-07-19T23:18:26.490Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "sports",
+        "citation": "https://www.theguardian.com/sport/2026/jul/19/jonas-vingegaard-crashes-out-tour-de-france-remco-evenepoel-wins-stage-15"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "url",
+      "proposition": {
+        "predicate": "url",
+        "object": "https://www.theguardian.com/sport/2026/jul/19/jonas-vingegaard-crashes-out-tour-de-france-remco-evenepoel-wins-stage-15"
+      },
+      "time": {
+        "asserted": "2026-07-19T23:18:26.490Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "sports",
+        "citation": "https://www.theguardian.com/sport/2026/jul/19/jonas-vingegaard-crashes-out-tour-de-france-remco-evenepoel-wins-stage-15"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "summary",
+      "proposition": {
+        "predicate": "summary",
+        "object": "<ul><li><p>Dane was woken by doping control at 2am on day of stage</p></li><li><p>Remco Evenepoel outsprints Pogacar to claim victory</p></li></ul><p>Jonas Vingegaard crashed out of the Tour de France on the first Alpine stage on Sunday, only hours after being woken up in the early hours to undergo doping controls. He will have collarbone surgery in the next few days.</p><p>The double Tour winner, who also <a href=\"https://www.theguardian.com/sport/2026/jun/01/vingegaard-joins-select-club-of-champions-but-still-in-pogacars-shadow-for-tour-de-france\">won the Giro d’Italia this year</a>, climbed gingerly into a race ambulance, his right arm in a sling, after falling as the main peloton exited a roundabout in Bonneville.</p> <a href=\"https://www.theguardian.com/sport/2026/jul/19/jonas-vingegaard-crashes-out-tour-de-france-remco-evenepoel-wins-stage-15\">Continue reading...</a>"
+      },
+      "time": {
+        "asserted": "2026-07-19T23:18:26.490Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "sports",
+        "citation": "https://www.theguardian.com/sport/2026/jul/19/jonas-vingegaard-crashes-out-tour-de-france-remco-evenepoel-wins-stage-15"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "published",
+      "proposition": {
+        "predicate": "published",
+        "object": "Sun, 19 Jul 2026 16:15:06 GMT"
+      },
+      "time": {
+        "asserted": "2026-07-19T23:18:26.490Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "sports",
+        "citation": "https://www.theguardian.com/sport/2026/jul/19/jonas-vingegaard-crashes-out-tour-de-france-remco-evenepoel-wins-stage-15"
+      },
+      "status": "supported"
+    }
+  ]
+}

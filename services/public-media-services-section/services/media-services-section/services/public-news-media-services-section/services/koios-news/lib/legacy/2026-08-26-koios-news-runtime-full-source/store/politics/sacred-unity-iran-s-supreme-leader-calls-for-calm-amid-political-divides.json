@@ -1,0 +1,69 @@
+{
+  "subject": "sacred-unity-iran-s-supreme-leader-calls-for-calm-amid-political-divides",
+  "claims": [
+    {
+      "id": "title",
+      "proposition": {
+        "predicate": "title",
+        "object": "‘Sacred unity’: Iran’s supreme leader calls for calm amid political divides"
+      },
+      "time": {
+        "asserted": "2026-07-19T20:06:12.565Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "politics",
+        "citation": "https://www.aljazeera.com/news/2026/7/19/sacred-unity-irans-supreme-leader-calls-for-calm-amid-political-divides?traffic_source=rss"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "url",
+      "proposition": {
+        "predicate": "url",
+        "object": "https://www.aljazeera.com/news/2026/7/19/sacred-unity-irans-supreme-leader-calls-for-calm-amid-political-divides?traffic_source=rss"
+      },
+      "time": {
+        "asserted": "2026-07-19T20:06:12.565Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "politics",
+        "citation": "https://www.aljazeera.com/news/2026/7/19/sacred-unity-irans-supreme-leader-calls-for-calm-amid-political-divides?traffic_source=rss"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "summary",
+      "proposition": {
+        "predicate": "summary",
+        "object": "Decree comes after hardline backers of the Iranian government accused officials of treason for signing an MoU with US."
+      },
+      "time": {
+        "asserted": "2026-07-19T20:06:12.565Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "politics",
+        "citation": "https://www.aljazeera.com/news/2026/7/19/sacred-unity-irans-supreme-leader-calls-for-calm-amid-political-divides?traffic_source=rss"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "published",
+      "proposition": {
+        "predicate": "published",
+        "object": "Sun, 19 Jul 2026 18:29:47 +0000"
+      },
+      "time": {
+        "asserted": "2026-07-19T20:06:12.565Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "politics",
+        "citation": "https://www.aljazeera.com/news/2026/7/19/sacred-unity-irans-supreme-leader-calls-for-calm-amid-political-divides?traffic_source=rss"
+      },
+      "status": "supported"
+    }
+  ]
+}

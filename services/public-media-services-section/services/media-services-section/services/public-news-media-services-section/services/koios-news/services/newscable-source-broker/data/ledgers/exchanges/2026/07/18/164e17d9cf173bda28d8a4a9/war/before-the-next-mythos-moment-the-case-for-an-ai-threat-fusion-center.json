@@ -1,0 +1,69 @@
+{
+  "subject": "before-the-next-mythos-moment-the-case-for-an-ai-threat-fusion-center",
+  "claims": [
+    {
+      "id": "title",
+      "proposition": {
+        "predicate": "title",
+        "object": "Before the Next Mythos Moment: The Case for an AI Threat Fusion Center"
+      },
+      "time": {
+        "asserted": "2026-07-18T08:37:50.759Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "war",
+        "citation": "https://warontherocks.com/before-the-next-mythos-moment-the-case-for-an-ai-threat-fusion-center/"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "url",
+      "proposition": {
+        "predicate": "url",
+        "object": "https://warontherocks.com/before-the-next-mythos-moment-the-case-for-an-ai-threat-fusion-center/"
+      },
+      "time": {
+        "asserted": "2026-07-18T08:37:50.759Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "war",
+        "citation": "https://warontherocks.com/before-the-next-mythos-moment-the-case-for-an-ai-threat-fusion-center/"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "summary",
+      "proposition": {
+        "predicate": "summary",
+        "object": "Earlier this spring, Claude’s developers found the cyber potential of Anthropic’s model, Mythos 5, hazardous enough to pump the brakes on model release, creating the Project Glasswing collaboration to give cyber defenders the upper hand through controlled access to the model. Despite these efforts, the U.S. government stepped in on June 12, 2026, and forced Anthropic to take down Mythos and its safeguarded form, Fable 5 — an action the company disputed, calling the trigger a narrow, nonuniversal jailbreak. A lack of standard processes, complex legal terrain, and information-sharing obstacles resulted in a “pickup game” where, absent a shared factual The post Before the Next Mythos Moment: The Case for an AI Threat Fusion Center appeared first on War on the Rocks ."
+      },
+      "time": {
+        "asserted": "2026-07-18T08:37:50.759Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "war",
+        "citation": "https://warontherocks.com/before-the-next-mythos-moment-the-case-for-an-ai-threat-fusion-center/"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "published",
+      "proposition": {
+        "predicate": "published",
+        "object": "Wed, 15 Jul 2026 07:30:14 +0000"
+      },
+      "time": {
+        "asserted": "2026-07-18T08:37:50.759Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "war",
+        "citation": "https://warontherocks.com/before-the-next-mythos-moment-the-case-for-an-ai-threat-fusion-center/"
+      },
+      "status": "supported"
+    }
+  ]
+}

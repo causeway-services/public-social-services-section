@@ -1,0 +1,69 @@
+{
+  "subject": "microsoft-update-disarms-outlook-and-teams-on-arm-pcs",
+  "claims": [
+    {
+      "id": "title",
+      "proposition": {
+        "predicate": "title",
+        "object": "Microsoft update disarms Outlook and Teams on Arm PCs"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "technology",
+        "citation": "https://www.theregister.com/os-platforms/2026/09/02/microsoft-update-disarms-outlook-and-teams-on-arm-pcs/5293849"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "url",
+      "proposition": {
+        "predicate": "url",
+        "object": "https://www.theregister.com/os-platforms/2026/09/02/microsoft-update-disarms-outlook-and-teams-on-arm-pcs/5293849"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "technology",
+        "citation": "https://www.theregister.com/os-platforms/2026/09/02/microsoft-update-disarms-outlook-and-teams-on-arm-pcs/5293849"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "summary",
+      "proposition": {
+        "predicate": "summary",
+        "object": "Not keen on the new Outlook? You're not alone. Microsoft's August security update has stopped it and Teams from launching reliably on some Arm-based devices, including Surface hardware. Microsoft acknowledged the problem on September 1 and added it to the Windows release health dashboard. \"After installing Windows security updates released on or after August 11, 2026 (KB5121003), Microsoft Teams and the new Outlook for Windows might fail to launch or might close unexpectedly on ARM-based devices, such as Surface Pro 11 and Surface Laptop 7,\" the advisory reads. \"Classic Outlook, Word, Excel, and other applications are not known to be affected. This issue is most likely to occur on new or freshly imaged PCs that have not yet installed any Microsoft Store updates.\" Microsoft has not explained the cause, but says affected users can mitigate the problem by installing version 1.0.19.0 or later of the Auto Super Resolution Package through Microsoft Store. The package normally \"enables Copilot+ PCs to use AI to make supported games play more smoothly with enhanced details,\" according to Microsoft. Apparently it is useful for getting the new Outlook and Teams to launch too. Microsoft also confirmed that a separate problem introduced by its August 27 preview update causes custom mouse pointers to revert to Windows defaults. The company wrote: \"Our investigation indicates that this issue is caused by code components used in non-English Windows installations. In impacted locales, these settings will fail to load, causing a default to be used instead. \"Attempting to manually restore the settings values is not successful, as the issue prevents loading these settings regardless of their value.\" The cursor problem is limited to Windows 11 24H2 and 25H2. The Arm-related Outlook and Teams failure also affects that rarest of beasts, Windows 11 26H1, which requires specific silicon such as Qualcomm's Snapdragon X2. The glitches sit awkwardly beside the \"commitment to quality\" trumpeted by Windows boss Pavan Davuluri earlier this year. Adding a movable taskbar is all very well, but not shipping updates that break applications or reset users' settings might be considered more fundamental. ®"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "technology",
+        "citation": "https://www.theregister.com/os-platforms/2026/09/02/microsoft-update-disarms-outlook-and-teams-on-arm-pcs/5293849"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "published",
+      "proposition": {
+        "predicate": "published",
+        "object": "Wed, 02 Sep 2026 14:30:00 +0200"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "technology",
+        "citation": "https://www.theregister.com/os-platforms/2026/09/02/microsoft-update-disarms-outlook-and-teams-on-arm-pcs/5293849"
+      },
+      "status": "supported"
+    }
+  ]
+}

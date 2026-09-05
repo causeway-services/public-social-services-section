@@ -1,0 +1,69 @@
+{
+  "subject": "cuban-artist-and-dissident-exiled-from-country-after-5-years-in-prison-arrives-in-us",
+  "claims": [
+    {
+      "id": "title",
+      "proposition": {
+        "predicate": "title",
+        "object": "Cuban artist and dissident exiled from country after 5 years in prison arrives in US"
+      },
+      "time": {
+        "asserted": "2026-07-19T15:04:07.991Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "politics",
+        "citation": "https://www.npr.org/2026/07/19/nx-s1-5899494/cuban-artist-exile-us"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "url",
+      "proposition": {
+        "predicate": "url",
+        "object": "https://www.npr.org/2026/07/19/nx-s1-5899494/cuban-artist-exile-us"
+      },
+      "time": {
+        "asserted": "2026-07-19T15:04:07.991Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "politics",
+        "citation": "https://www.npr.org/2026/07/19/nx-s1-5899494/cuban-artist-exile-us"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "summary",
+      "proposition": {
+        "predicate": "summary",
+        "object": "A famous Cuban dissident artist and musician, Luis Manuel Otero Alcántara, arrived in Miami on Saturday after being released from a five-year prison sentence on the condition that he leave his country. (Image credit: David Santiago)"
+      },
+      "time": {
+        "asserted": "2026-07-19T15:04:07.991Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "politics",
+        "citation": "https://www.npr.org/2026/07/19/nx-s1-5899494/cuban-artist-exile-us"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "published",
+      "proposition": {
+        "predicate": "published",
+        "object": "Sun, 19 Jul 2026 03:27:59 -0400"
+      },
+      "time": {
+        "asserted": "2026-07-19T15:04:07.991Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "politics",
+        "citation": "https://www.npr.org/2026/07/19/nx-s1-5899494/cuban-artist-exile-us"
+      },
+      "status": "supported"
+    }
+  ]
+}

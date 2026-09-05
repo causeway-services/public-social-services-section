@@ -1,0 +1,69 @@
+{
+  "subject": "the-odyssey-conquers-264m-around-the-world-best-ever-for-christopher-nolan-ahead-of-dark-knight-rises-global-b-o-sunday-update",
+  "claims": [
+    {
+      "id": "title",
+      "proposition": {
+        "predicate": "title",
+        "object": "‘The Odyssey’ Conquers $264M+ Around The World, Best Ever For Christopher Nolan Ahead Of ‘Dark Knight Rises’ – Global B.O. Sunday Update"
+      },
+      "time": {
+        "asserted": "2026-07-19T15:58:01.697Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "culture",
+        "citation": "https://deadline.com/2026/07/box-office-global-the-odyssey-1236996979/"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "url",
+      "proposition": {
+        "predicate": "url",
+        "object": "https://deadline.com/2026/07/box-office-global-the-odyssey-1236996979/"
+      },
+      "time": {
+        "asserted": "2026-07-19T15:58:01.697Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "culture",
+        "citation": "https://deadline.com/2026/07/box-office-global-the-odyssey-1236996979/"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "summary",
+      "proposition": {
+        "predicate": "summary",
+        "object": "SUNDAY AM: Odysseus’ boatload of cash from his global voyage just got bigger with Universal’s Christopher Nolan epic The Odyssey raking in $264.1M worldwide, again a record start for the director ahead of Dark Knight Rises ($249M WW). The foreign start of $139.6M is also the director’s biggest international opening ever ahead of Oppenheimer and […]"
+      },
+      "time": {
+        "asserted": "2026-07-19T15:58:01.697Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "culture",
+        "citation": "https://deadline.com/2026/07/box-office-global-the-odyssey-1236996979/"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "published",
+      "proposition": {
+        "predicate": "published",
+        "object": "Sun, 19 Jul 2026 15:39:00 +0000"
+      },
+      "time": {
+        "asserted": "2026-07-19T15:58:01.697Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "culture",
+        "citation": "https://deadline.com/2026/07/box-office-global-the-odyssey-1236996979/"
+      },
+      "status": "supported"
+    }
+  ]
+}

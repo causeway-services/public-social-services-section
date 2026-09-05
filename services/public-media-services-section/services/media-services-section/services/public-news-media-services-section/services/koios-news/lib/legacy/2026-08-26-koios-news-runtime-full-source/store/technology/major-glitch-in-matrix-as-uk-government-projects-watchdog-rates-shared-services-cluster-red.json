@@ -1,0 +1,69 @@
+{
+  "subject": "major-glitch-in-matrix-as-uk-government-projects-watchdog-rates-shared-services-cluster-red",
+  "claims": [
+    {
+      "id": "title",
+      "proposition": {
+        "predicate": "title",
+        "object": "Major glitch in Matrix as UK government projects watchdog rates shared services cluster red"
+      },
+      "time": {
+        "asserted": "2026-07-20T10:18:46.458Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "technology",
+        "citation": "https://www.theregister.com/public-sector/2026/07/20/major-glitch-in-matrix-as-uk-government-projects-watchdog-rates-shared-services-cluster-red/5274368"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "url",
+      "proposition": {
+        "predicate": "url",
+        "object": "https://www.theregister.com/public-sector/2026/07/20/major-glitch-in-matrix-as-uk-government-projects-watchdog-rates-shared-services-cluster-red/5274368"
+      },
+      "time": {
+        "asserted": "2026-07-20T10:18:46.458Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "technology",
+        "citation": "https://www.theregister.com/public-sector/2026/07/20/major-glitch-in-matrix-as-uk-government-projects-watchdog-rates-shared-services-cluster-red/5274368"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "summary",
+      "proposition": {
+        "predicate": "summary",
+        "object": "The UK government has admitted that two major planks of its multibillion-pound shared services strategy are in serious trouble. Matrix, a project that involves moving nine government departments to shared ERP and HR systems, has been rated red by the National Infrastructure and Service Transformation Authority (NISTA), which monitors the planning and delivery of major government projects. This rating means the project has \"major issues\" with its schedule, budget, quality, or delivery of benefits, and the problems \"do not appear to be manageable or resolvable\" at this stage. Matrix is just one of five clusters the government is betting will save £4.3 billion by migrating a total of 17 departments and 300 arms'-length bodies onto shared tech platforms. The NISTA report for fiscal 2025-26 says the rating reflects \"a number of material issues\" identified during project planning. In 2024, Matrix awarded Workday a contract for SaaS finance and HR software and Cognizant a system integration deal with a combined value of £144.3 million. Matrix was scheduled to begin going live in May 2026, but experienced delays. In March, the Matrix Programme Board met \"to consider the case for re-baselining the programme, including the development of a rectification plan and the consideration of several planning scenarios.\" \"Replanning is intended to establish a more realistic, credible, and achievable forward plan in response to ongoing delivery challenges. Current emerging analysis indicates a delay of 3-6 months, which would move the Phase 1 user go‑live to late 2026,\" the NISTA report says. Although \"system issues have now been resolved,\" the \"single biggest risk to this is departments being unable to find functional subject matter expert capacity to undertake the high level of testing they have identified as being required, given their low risk appetite.\" The Department for Science, Innovation and Technology (DSIT) is leading Matrix. It is joined by the Cabinet Office, Department for Energy Security and Net Zero, Department for Culture, Media and Sport, Department for Business and Trade, Attorney General's Office, and the Department of Health and Social Care. His Majesty's Treasury (HMT) and the Department for Education have delayed their decisions to join Matrix despite the Cabinet Office saying they had \"unconditionally bought into joining shared services at the outset\" and their \"participation in shared services is not optional.\" MPs said last week that their reluctance to join could undermine the project. The Treasury, for example, already uses relatively modern Oracle Fusion SaaS to run its HR and finance functions. NISTA also rated the Unity shared services project as red, although it said progress had improved. Unity concerns His Majesty's Revenue & Customs – Britain's tax collection agency – and two other departments moving to a cloud-based SAP ERP system. A spokesperson at DSIT told The Register: \"Delivery challenges were found in the Matrix Program after a planned review. We have decided to replan the program to make sure we have a realistic and achievable delivery schedule, while continuing work to modernize shared services across government.\" Officials said the department's program team is developing the next iteration of the business case for HMT and Cabinet Office approval later this year. It is due to set out a timetable for the next wave of departments and arm's-length bodies to onboard to the new system and service, including HMT. DSIT remains committed to the program and expects it to offer £1.67 in benefits for every £1 invested. ®"
+      },
+      "time": {
+        "asserted": "2026-07-20T10:18:46.458Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "technology",
+        "citation": "https://www.theregister.com/public-sector/2026/07/20/major-glitch-in-matrix-as-uk-government-projects-watchdog-rates-shared-services-cluster-red/5274368"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "published",
+      "proposition": {
+        "predicate": "published",
+        "object": "Mon, 20 Jul 2026 12:00:00 +0200"
+      },
+      "time": {
+        "asserted": "2026-07-20T10:18:46.458Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "technology",
+        "citation": "https://www.theregister.com/public-sector/2026/07/20/major-glitch-in-matrix-as-uk-government-projects-watchdog-rates-shared-services-cluster-red/5274368"
+      },
+      "status": "supported"
+    }
+  ]
+}

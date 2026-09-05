@@ -1,0 +1,69 @@
+{
+  "subject": "republican-strategist-on-the-hurdles-the-gop-faces-to-pass-reconciliation-bill",
+  "claims": [
+    {
+      "id": "title",
+      "proposition": {
+        "predicate": "title",
+        "object": "Republican strategist on the hurdles the GOP faces to pass reconciliation bill"
+      },
+      "time": {
+        "asserted": "2026-07-20T09:48:45.426Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "politics",
+        "citation": "https://www.npr.org/2026/07/20/nx-s1-5899842/republican-strategist-on-the-hurdles-the-gop-faces-to-pass-reconciliation-bill"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "url",
+      "proposition": {
+        "predicate": "url",
+        "object": "https://www.npr.org/2026/07/20/nx-s1-5899842/republican-strategist-on-the-hurdles-the-gop-faces-to-pass-reconciliation-bill"
+      },
+      "time": {
+        "asserted": "2026-07-20T09:48:45.426Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "politics",
+        "citation": "https://www.npr.org/2026/07/20/nx-s1-5899842/republican-strategist-on-the-hurdles-the-gop-faces-to-pass-reconciliation-bill"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "summary",
+      "proposition": {
+        "predicate": "summary",
+        "object": "NPR's Leila Fadel speaks with Republican strategist Rob Burgess about Republican efforts to move forward with a $95 billion party-line budget reconciliation bill."
+      },
+      "time": {
+        "asserted": "2026-07-20T09:48:45.426Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "politics",
+        "citation": "https://www.npr.org/2026/07/20/nx-s1-5899842/republican-strategist-on-the-hurdles-the-gop-faces-to-pass-reconciliation-bill"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "published",
+      "proposition": {
+        "predicate": "published",
+        "object": "Mon, 20 Jul 2026 04:42:12 -0400"
+      },
+      "time": {
+        "asserted": "2026-07-20T09:48:45.426Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "politics",
+        "citation": "https://www.npr.org/2026/07/20/nx-s1-5899842/republican-strategist-on-the-hurdles-the-gop-faces-to-pass-reconciliation-bill"
+      },
+      "status": "supported"
+    }
+  ]
+}

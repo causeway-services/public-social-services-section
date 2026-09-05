@@ -1,0 +1,69 @@
+{
+  "subject": "leaving-to-survive-staying-to-resist-persecution-and-exile-in-el-salvador",
+  "claims": [
+    {
+      "id": "title",
+      "proposition": {
+        "predicate": "title",
+        "object": "Leaving to survive, staying to resist: Persecution and exile in El Salvador"
+      },
+      "time": {
+        "asserted": "2026-07-19T02:20:00.056Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "decolonization",
+        "citation": "https://www.opendemocracy.net/en/el-salvador-nayib-bukele-journalists-human-rights-defenders-persecution-exile/"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "url",
+      "proposition": {
+        "predicate": "url",
+        "object": "https://www.opendemocracy.net/en/el-salvador-nayib-bukele-journalists-human-rights-defenders-persecution-exile/"
+      },
+      "time": {
+        "asserted": "2026-07-19T02:20:00.056Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "decolonization",
+        "citation": "https://www.opendemocracy.net/en/el-salvador-nayib-bukele-journalists-human-rights-defenders-persecution-exile/"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "summary",
+      "proposition": {
+        "predicate": "summary",
+        "object": "“The best-case scenario is that the state captures me,” says Ángel Flores, the regional coordinator of the Indigenous Movement for the Articulation of the Struggles of the Ancestral Peoples (MILPA), one of the most vocal organisations against state mega-projects in El Salvador. It would not be the first time MILPA’s members had been detained under El Salvador’s state of emergency , which has suspended constitutional rights and allowed police to arrest people without a judicial warrant. President Nayib Bukele’s government initially introduced the measure in 2022 after a spike in gang-related homicides. At the time, it was supposed to last 30 days, but last month entered its fourth year, having been extended dozens of times. In this article, some of the hundreds of journalists and defenders of human and land rights have told us how their lives have changed since the state of emergency was introduced. Some remain in El Salvador, defiant in their resistance despite fearing for their and their families’ lives amid state-led persecution. Others have been forced to flee the country, fearing detention, being disappeared, or even death."
+      },
+      "time": {
+        "asserted": "2026-07-19T02:20:00.056Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "decolonization",
+        "citation": "https://www.opendemocracy.net/en/el-salvador-nayib-bukele-journalists-human-rights-defenders-persecution-exile/"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "published",
+      "proposition": {
+        "predicate": "published",
+        "object": "Fri, 17 Apr 2026 13:53:40 GMT"
+      },
+      "time": {
+        "asserted": "2026-07-19T02:20:00.056Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "decolonization",
+        "citation": "https://www.opendemocracy.net/en/el-salvador-nayib-bukele-journalists-human-rights-defenders-persecution-exile/"
+      },
+      "status": "supported"
+    }
+  ]
+}

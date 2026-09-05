@@ -1,0 +1,69 @@
+{
+  "subject": "tiktok-facing-uk-investigation-amid-fears-over-age-checks-and-harm-to-children",
+  "claims": [
+    {
+      "id": "title",
+      "proposition": {
+        "predicate": "title",
+        "object": "TikTok facing UK investigation amid fears over age checks and harm to children"
+      },
+      "time": {
+        "asserted": "2026-07-18T07:51:41.287Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "technology",
+        "citation": "https://www.theguardian.com/technology/2026/jul/16/tiktok-uk-investigation-ofcom-child-protection-self-harm-suicide"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "url",
+      "proposition": {
+        "predicate": "url",
+        "object": "https://www.theguardian.com/technology/2026/jul/16/tiktok-uk-investigation-ofcom-child-protection-self-harm-suicide"
+      },
+      "time": {
+        "asserted": "2026-07-18T07:51:41.287Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "technology",
+        "citation": "https://www.theguardian.com/technology/2026/jul/16/tiktok-uk-investigation-ofcom-child-protection-self-harm-suicide"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "summary",
+      "proposition": {
+        "predicate": "summary",
+        "object": "<p>Ofcom concerned TikTok’s age verification is ineffective, leaving some exposed to posts on suicide, self-harm and pornography</p><p>TikTok is under formal investigation over concerns it has failed to protect children from harmful content, the UK’s online regulator, Ofcom, has announced.</p><p>The social media platform’s approach to checking the ages of users has sparked “particular concerns” at the watchdog, almost a year after measures to protect children from the worst of online content came into effect under <a href=\"https://www.theguardian.com/world/2025/jul/24/thursday-briefing-everything-you-need-to-know-about-the-new-internet-safety-rules\">the Online Safety Act.</a></p> <a href=\"https://www.theguardian.com/technology/2026/jul/16/tiktok-uk-investigation-ofcom-child-protection-self-harm-suicide\">Continue reading...</a>"
+      },
+      "time": {
+        "asserted": "2026-07-18T07:51:41.287Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "technology",
+        "citation": "https://www.theguardian.com/technology/2026/jul/16/tiktok-uk-investigation-ofcom-child-protection-self-harm-suicide"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "published",
+      "proposition": {
+        "predicate": "published",
+        "object": "Thu, 16 Jul 2026 13:02:10 GMT"
+      },
+      "time": {
+        "asserted": "2026-07-18T07:51:41.287Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "technology",
+        "citation": "https://www.theguardian.com/technology/2026/jul/16/tiktok-uk-investigation-ofcom-child-protection-self-harm-suicide"
+      },
+      "status": "supported"
+    }
+  ]
+}

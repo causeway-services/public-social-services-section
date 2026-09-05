@@ -1,0 +1,69 @@
+{
+  "subject": "manhattan-da-s-office-returns-three-antiquities-to-mexico",
+  "claims": [
+    {
+      "id": "title",
+      "proposition": {
+        "predicate": "title",
+        "object": "Manhattan DA’s Office Returns Three Antiquities to Mexico"
+      },
+      "time": {
+        "asserted": "2026-07-18T07:51:51.266Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "culture",
+        "citation": "https://hyperallergic.com/manhattan-das-office-returns-three-antiquities-to-mexico/"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "url",
+      "proposition": {
+        "predicate": "url",
+        "object": "https://hyperallergic.com/manhattan-das-office-returns-three-antiquities-to-mexico/"
+      },
+      "time": {
+        "asserted": "2026-07-18T07:51:51.266Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "culture",
+        "citation": "https://hyperallergic.com/manhattan-das-office-returns-three-antiquities-to-mexico/"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "summary",
+      "proposition": {
+        "predicate": "summary",
+        "object": "Nayarit artist(s) created this standing male figure around 100–400 CE. (image courtesy the Metropolitan Museum of Art ) A 1,600-year-old sculpture previously held by the Metropolitan Museum of Art is being repatriated to Mexico, the Manhattan District Attorney’s office announced on Wednesday, July 15. The DA's office seized three archeological objects, which include a ceramic Nayarit sculpture (c. 100–400 CE) formerly held in The Met's collection, following new information obtained from the Antiquities Trafficking Unit's ongoing investigations. The other repatriated objects are a Xochipala Bowl (c. 1200–900 BCE) seized from New York's Merrin Gallery in 2025 and an obsidian stone core (c. 1000–1500 CE) used to make Aztec blades. The latter was formerly under the possession of trafficker Eugene Alexander, who was convicted in 2025 for his role in New York's illicit antiquities trade. The three antiquities possess a collective value of more than $160,000, according to the DA's statement, which noted that it has now returned 52 antiquities to Mexico totaling a value of over $13 million. Recent seizures of objects from The Met have brought the total valuation of looted artifacts surrendered by the museum to $95 million, as reported earlier this month. In a Hyperallergic piece last week, art crime scholar Erin L. Thompson revealed that The Met had repatriated a Roman bust to the Republic of Turkey in February — one of many artifacts in US museums acquired via Phoenix Ancient Art, whose co-founder was convicted on charges related to antiquities trafficking. The repatriation of the three Nayarit objects was marked by a ceremony in which Consul General Marcos Bucio represented the government of Mexico and emphasized the country's commitment to defending their cultural sovereignty. “This Nayarit figure is far more than an archaeological object: It is a powerful testimony to the creativity, identity, and collective memory of the peoples of ancient Mexico,” Bucio said in a statement. The Met Director and CEO Max Hollein expressed his gratitude to \"the experts and authorities whose work helped clarify the provenance of this object\" in a press release. In 2023, The Met instituted their own provenance research team , which has since doubled in size and now regularly works with investigators from the DA's Antiquities Trafficking Unit. \"We believe that the trafficking networks we have identified are responsible for other pieces looted throughout Mexico,\" DA Bragg stated in a separate press release . \"And our work continues.\""
+      },
+      "time": {
+        "asserted": "2026-07-18T07:51:51.266Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "culture",
+        "citation": "https://hyperallergic.com/manhattan-das-office-returns-three-antiquities-to-mexico/"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "published",
+      "proposition": {
+        "predicate": "published",
+        "object": "Thu, 16 Jul 2026 21:15:18 GMT"
+      },
+      "time": {
+        "asserted": "2026-07-18T07:51:51.266Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "culture",
+        "citation": "https://hyperallergic.com/manhattan-das-office-returns-three-antiquities-to-mexico/"
+      },
+      "status": "supported"
+    }
+  ]
+}

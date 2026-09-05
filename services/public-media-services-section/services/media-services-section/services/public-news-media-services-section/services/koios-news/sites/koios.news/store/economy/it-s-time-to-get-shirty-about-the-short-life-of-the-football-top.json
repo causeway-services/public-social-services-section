@@ -1,0 +1,69 @@
+{
+  "subject": "it-s-time-to-get-shirty-about-the-short-life-of-the-football-top",
+  "claims": [
+    {
+      "id": "title",
+      "proposition": {
+        "predicate": "title",
+        "object": "It’s time to get shirty about the short life of the football top"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "economy",
+        "citation": "https://www.theguardian.com/sport/2026/aug/31/get-shirty-about-short-life-of-football-top-the-hotspot"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "url",
+      "proposition": {
+        "predicate": "url",
+        "object": "https://www.theguardian.com/sport/2026/aug/31/get-shirty-about-short-life-of-football-top-the-hotspot"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "economy",
+        "citation": "https://www.theguardian.com/sport/2026/aug/31/get-shirty-about-short-life-of-football-top-the-hotspot"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "summary",
+      "proposition": {
+        "predicate": "summary",
+        "object": "<p>With millions of club shirts going to waste every season, a radical recycling rethink is needed</p><p>When Joanna Czutkowna buried a Manchester United jersey, a cotton T-shirt and a wool-cotton jumper in her Lancashire farm and dug it up a year later, the video went viral. The T-shirt had disappeared, apart from the seams (sewn with polyester thread), the jumper was 80% gone, but the United shirt remained – grubby but indestructible. (Insert joke here)</p><p>The big reveal was not a surprise, certainly not to Czutkowna, who has worked in textiles and sustainability for 20 years, but it was a reminder: a football jersey is not just for Christmas, or even the next hundred Christmases.</p> <a href=\"https://www.theguardian.com/sport/2026/aug/31/get-shirty-about-short-life-of-football-top-the-hotspot\">Continue reading...</a>"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "economy",
+        "citation": "https://www.theguardian.com/sport/2026/aug/31/get-shirty-about-short-life-of-football-top-the-hotspot"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "published",
+      "proposition": {
+        "predicate": "published",
+        "object": "Mon, 31 Aug 2026 10:00:23 GMT"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "economy",
+        "citation": "https://www.theguardian.com/sport/2026/aug/31/get-shirty-about-short-life-of-football-top-the-hotspot"
+      },
+      "status": "supported"
+    }
+  ]
+}

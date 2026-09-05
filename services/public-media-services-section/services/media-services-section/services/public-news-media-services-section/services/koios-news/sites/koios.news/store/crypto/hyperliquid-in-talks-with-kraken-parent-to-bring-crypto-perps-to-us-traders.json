@@ -1,0 +1,69 @@
+{
+  "subject": "hyperliquid-in-talks-with-kraken-parent-to-bring-crypto-perps-to-us-traders",
+  "claims": [
+    {
+      "id": "title",
+      "proposition": {
+        "predicate": "title",
+        "object": "Hyperliquid in Talks With Kraken Parent to Bring Crypto Perps to US Traders"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "crypto",
+        "citation": "https://decrypt.co/376963/hyperliquid-crypto-perps-us-kraken-parent"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "url",
+      "proposition": {
+        "predicate": "url",
+        "object": "https://decrypt.co/376963/hyperliquid-crypto-perps-us-kraken-parent"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "crypto",
+        "citation": "https://decrypt.co/376963/hyperliquid-crypto-perps-us-kraken-parent"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "summary",
+      "proposition": {
+        "predicate": "summary",
+        "object": "A deal would route the decentralized exchange's perpetual futures through Payward's US-regulated Bitnomial, marking Hyperliquid's first US entry—weeks after Trump said his administration was working to bring it onshore."
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "crypto",
+        "citation": "https://decrypt.co/376963/hyperliquid-crypto-perps-us-kraken-parent"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "published",
+      "proposition": {
+        "predicate": "published",
+        "object": "Mon, 31 Aug 2026 17:54:15 +0000"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "crypto",
+        "citation": "https://decrypt.co/376963/hyperliquid-crypto-perps-us-kraken-parent"
+      },
+      "status": "supported"
+    }
+  ]
+}

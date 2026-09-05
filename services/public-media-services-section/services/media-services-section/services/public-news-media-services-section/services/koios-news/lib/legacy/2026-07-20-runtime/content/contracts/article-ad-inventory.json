@@ -1,0 +1,30 @@
+{
+  "kind": "external-publication-product-contract",
+  "id": "koios.news/article-ad-inventory/v1",
+  "owner": "koios.news",
+  "seller": "urn:micro-enterprise:koios.news:publishing-and-ad-inventory",
+  "buyers": [
+    "advertisers",
+    "authorized programmatic ad-demand providers"
+  ],
+  "product": "bounded display-ad inventory on one publicly witnessed Koios article",
+  "formation": "a lot exists only after Cloudflare release and an independent public witness bind the exact article and static manifest",
+  "currentDemandProvider": "aads.com",
+  "settlement": {
+    "outsideRevenueOnly": true,
+    "priceSource": "the exact accepted advertiser or demand-provider offer",
+    "receiptRequired": true,
+    "unknownRevenueIsNotZero": true
+  },
+  "readerBoundary": {
+    "readerIsNotTheCommodity": true,
+    "storedReaderIdentifiers": false,
+    "inventoryUnit": "a declared page placement and its aggregate served impressions"
+  },
+  "prohibitions": [
+    "no inventory is sold before the article is publicly witnessed",
+    "an impression, affiliate fill, internal credit, or forecast is not cash revenue",
+    "advertising demand never supplies journalistic warrant",
+    "no price or advertiser acceptance is invented by Koios"
+  ]
+}

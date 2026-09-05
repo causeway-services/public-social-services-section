@@ -1,0 +1,69 @@
+{
+  "subject": "china-s-falling-emissions-amid-iran-war-spark-hope-of-decarbonisation-watershed",
+  "claims": [
+    {
+      "id": "title",
+      "proposition": {
+        "predicate": "title",
+        "object": "China’s falling emissions amid Iran war spark hope of decarbonisation watershed"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "environment",
+        "citation": "https://www.theguardian.com/environment/2026/sep/03/china-co2-emissions-iran-war"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "url",
+      "proposition": {
+        "predicate": "url",
+        "object": "https://www.theguardian.com/environment/2026/sep/03/china-co2-emissions-iran-war"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "environment",
+        "citation": "https://www.theguardian.com/environment/2026/sep/03/china-co2-emissions-iran-war"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "summary",
+      "proposition": {
+        "predicate": "summary",
+        "object": "<p>Oil consumption plummets and EV sales soar as analysts say demand may not fully return even if crude price falls</p><p>China’s carbon dioxide emissions fell by 1% after the outbreak of the US-Israeli war on Iran, thanks to a sharp reduction in oil consumption and a steady rise in the use of electric vehicles and public transport, analysis shows.</p><p><a href=\"https://www.carbonbrief.org/analysis-chinas-co2-emissions-fall-in-q2-2026-due-to-plummeting-oil-use\">The report</a> reveals the role of clean energy in cushioning the price shocks caused by the <a href=\"https://www.theguardian.com/world/strait-of-hormuz\">strait of Hormuz</a> crisis to the world’s biggest oil importer. It also reinforces hopes that China, which is the world’s biggest greenhouse gas emitter, may be nearing a turning point in decarbonising its economy.</p> <a href=\"https://www.theguardian.com/environment/2026/sep/03/china-co2-emissions-iran-war\">Continue reading...</a>"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "environment",
+        "citation": "https://www.theguardian.com/environment/2026/sep/03/china-co2-emissions-iran-war"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "published",
+      "proposition": {
+        "predicate": "published",
+        "object": "Wed, 02 Sep 2026 23:01:37 GMT"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "environment",
+        "citation": "https://www.theguardian.com/environment/2026/sep/03/china-co2-emissions-iran-war"
+      },
+      "status": "supported"
+    }
+  ]
+}

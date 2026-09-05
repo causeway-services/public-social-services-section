@@ -1,0 +1,69 @@
+{
+  "subject": "is-russia-s-rival-to-starlink-failing-here-s-what-we-know",
+  "claims": [
+    {
+      "id": "title",
+      "proposition": {
+        "predicate": "title",
+        "object": "Is Russia's rival to Starlink failing? Here's what we know."
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "technology",
+        "citation": "https://arstechnica.com/space/2026/09/rassvet-russias-rival-to-starlink-is-getting-off-to-a-slow-start/"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "url",
+      "proposition": {
+        "predicate": "url",
+        "object": "https://arstechnica.com/space/2026/09/rassvet-russias-rival-to-starlink-is-getting-off-to-a-slow-start/"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "technology",
+        "citation": "https://arstechnica.com/space/2026/09/rassvet-russias-rival-to-starlink-is-getting-off-to-a-slow-start/"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "summary",
+      "proposition": {
+        "predicate": "summary",
+        "object": "Russia's attempt to replicate SpaceX's Starlink satellite network seems to be moving as slowly as the front lines in eastern Ukraine. The Rassvet program, often billed as Russia's answer to Starlink, started launching its first operational satellites earlier this year. Two launches, one in March and a second in July, have delivered 32 Rassvet satellites to low-Earth orbit, some 10 percent of the roughly 300 Rassvet spacecraft Russia aims to put into orbit by the end of next year to provide connectivity for military and civilian users. The company in charge of Rassvet, Bureau 1440, wants to deploy 924 satellites by 2035. But none of the 32 satellites launched so far have reached the 500-mile (800-kilometer) orbit they were designed to operate in. The rockets that launched the first two batches of Rassvets released the satellites much closer to Earth, and the satellites were expected to use their own plasma engines to raise their orbits over the next few months. Read full article Comments"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "technology",
+        "citation": "https://arstechnica.com/space/2026/09/rassvet-russias-rival-to-starlink-is-getting-off-to-a-slow-start/"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "published",
+      "proposition": {
+        "predicate": "published",
+        "object": "Wed, 02 Sep 2026 11:15:23 +0000"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "technology",
+        "citation": "https://arstechnica.com/space/2026/09/rassvet-russias-rival-to-starlink-is-getting-off-to-a-slow-start/"
+      },
+      "status": "supported"
+    }
+  ]
+}

@@ -1,0 +1,69 @@
+{
+  "subject": "women-s-divisional-rankings-cameron-beat-mayer-to-earn-two-titles-and-a-top-ranking",
+  "claims": [
+    {
+      "id": "title",
+      "proposition": {
+        "predicate": "title",
+        "object": "Women's divisional rankings: Cameron beat Mayer to earn two titles and a top ranking"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "sport",
+        "citation": "https://www.espn.com/boxing/story/_/id/32533891/boxing-rankings-espn-top-5-women-every-boxing-division"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "url",
+      "proposition": {
+        "predicate": "url",
+        "object": "https://www.espn.com/boxing/story/_/id/32533891/boxing-rankings-espn-top-5-women-every-boxing-division"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "sport",
+        "citation": "https://www.espn.com/boxing/story/_/id/32533891/boxing-rankings-espn-top-5-women-every-boxing-division"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "summary",
+      "proposition": {
+        "predicate": "summary",
+        "object": "Junior middleweight has a new top fighter following Chantelle Cameron's title win over Mikaela Mayer. Here are the latest ESPN divisional rankings."
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "sport",
+        "citation": "https://www.espn.com/boxing/story/_/id/32533891/boxing-rankings-espn-top-5-women-every-boxing-division"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "published",
+      "proposition": {
+        "predicate": "published",
+        "object": "Tue, 1 Sep 2026 20:29:34 EST"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "sport",
+        "citation": "https://www.espn.com/boxing/story/_/id/32533891/boxing-rankings-espn-top-5-women-every-boxing-division"
+      },
+      "status": "supported"
+    }
+  ]
+}

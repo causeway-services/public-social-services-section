@@ -1,0 +1,69 @@
+{
+  "subject": "anthropic-promises-zero-data-retention-but-customers-must-check-it-worked",
+  "claims": [
+    {
+      "id": "title",
+      "proposition": {
+        "predicate": "title",
+        "object": "Anthropic promises zero data retention – but customers must check it worked"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "technology",
+        "citation": "https://www.theregister.com/ai-and-ml/2026/09/02/anthropic-promises-zero-data-retention-but-customers-must-check-it-worked/5293789"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "url",
+      "proposition": {
+        "predicate": "url",
+        "object": "https://www.theregister.com/ai-and-ml/2026/09/02/anthropic-promises-zero-data-retention-but-customers-must-check-it-worked/5293789"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "technology",
+        "citation": "https://www.theregister.com/ai-and-ml/2026/09/02/anthropic-promises-zero-data-retention-but-customers-must-check-it-worked/5293789"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "summary",
+      "proposition": {
+        "predicate": "summary",
+        "object": "Anthropic will provide zero data retention to enterprise customers who have been promised the perk, subject to approval, when using the company's Fable model. With the arrival of new versions of its high-end models, Fable 5.1 and Mythos 5.1, the Claudefather has announced a service called Enterprise Frontier Safeguards (EFS) that combines the privacy of not storing customer data with model abuse detection. Under the new deal, enterprises do not receive zero data retention (ZDR) agreements automatically — they must apply for them. Thirty-day retention of inputs and outputs is the norm for commercial customers using the API unless other arrangements have been made. Earlier this year, Anthropic said it would temporarily keep the inputs (prompts) and outputs of covered models (Fable and Mythos) in order to review the material for safety violations, even when customers have ZDR agreements. The upstart's concern was that these models are capable of hacking companies – something both Anthropic and rival OpenAI have experienced – and enabling other harmful activities. Having seen \"substantial evidence of attempted misuse of AI models\" over the past few months, Anthropic says it has been necessary to store data for short periods in order to correlate events over time across accounts. This non-zero amount of data retention, the company says, is not about training on enterprise data, which the biz insists it doesn't do. Even with that assurance, corporate customers weren't happy. \"The enterprises we worked with generally understood the safety and security value of data retention, but many – especially in regulated industries – found it difficult to use models with data retention,\" Anthropic said. OpenAI appears to have considered similar sentiments; last month it unveiled Private Safety Processing, a way to check if customers' interactions with models represent a risk without violating ZDR commitments. Having been shown that non-zero data retention is a competitive disadvantage with large corporate customers, and perhaps concerned that its safety requirements further disadvantage Fable in a market already reluctant to pay a premium, Anthropic plans to release EFS this fall. \"EFS works by storing data in cloud infrastructure controlled by the customer, not Anthropic,\" the AI biz explained. It works by shifting safety work to enterprise customers. As Anthropic puts it, \"When monitoring detects a pattern that needs attention, those signals are sent directly to customers so they can review what the automated systems detected.\" So what may be a compliance win for users of Fable comes with a cost – handling monitoring chores that might otherwise have been carried out by Anthropic personnel. Mythos remains under Anthropic's earlier policy. Anthropic will offer EFS for Claude Code, Claude Enterprise, the Claude Platform, Amazon Bedrock, Claude Platform on AWS, Google’s Agent Platform, and Microsoft Foundry, by invitation. Consumer plans – Claude Free, Pro, and Max on the web, desktop, and mobile, plus Claude.ai and Claude Code – continue under the company's previous data retention plan. ®"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "technology",
+        "citation": "https://www.theregister.com/ai-and-ml/2026/09/02/anthropic-promises-zero-data-retention-but-customers-must-check-it-worked/5293789"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "published",
+      "proposition": {
+        "predicate": "published",
+        "object": "Wed, 02 Sep 2026 01:37:46 +0200"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "technology",
+        "citation": "https://www.theregister.com/ai-and-ml/2026/09/02/anthropic-promises-zero-data-retention-but-customers-must-check-it-worked/5293789"
+      },
+      "status": "supported"
+    }
+  ]
+}

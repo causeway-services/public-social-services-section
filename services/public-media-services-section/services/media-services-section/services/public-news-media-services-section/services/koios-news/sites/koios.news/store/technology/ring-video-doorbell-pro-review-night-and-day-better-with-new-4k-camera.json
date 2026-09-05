@@ -1,0 +1,69 @@
+{
+  "subject": "ring-video-doorbell-pro-review-night-and-day-better-with-new-4k-camera",
+  "claims": [
+    {
+      "id": "title",
+      "proposition": {
+        "predicate": "title",
+        "object": "Ring Video Doorbell Pro review: night and day better with new 4K camera"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "technology",
+        "citation": "https://www.theguardian.com/technology/2026/jun/29/ring-video-doorbell-pro-review"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "url",
+      "proposition": {
+        "predicate": "url",
+        "object": "https://www.theguardian.com/technology/2026/jun/29/ring-video-doorbell-pro-review"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "technology",
+        "citation": "https://www.theguardian.com/technology/2026/jun/29/ring-video-doorbell-pro-review"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "summary",
+      "proposition": {
+        "predicate": "summary",
+        "object": "<p>Camera, wifi and design updates bring welcome upgrades to Ring’s top model in wired or battery flavour</p><p>Ring’s recent revamp of its popular video doorbells with a more modern design is led by the top-of-the-line Video Doorbell Pro 3, which gains much-needed upgrades with a 4K camera and better wifi plus new interesting AI features.</p><p>The new doorbells are sleeker but keep the unmistakable two-tone Ring colour scheme, button, logo and ringtone. Battery models start at £80 or equivalent, with the top model costing £219.99 (€249.99/$249.99/A$329.99) with either a battery or wired, which is roughly in line with the competition.</p> <a href=\"https://www.theguardian.com/technology/2026/jun/29/ring-video-doorbell-pro-review\">Continue reading...</a>"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "technology",
+        "citation": "https://www.theguardian.com/technology/2026/jun/29/ring-video-doorbell-pro-review"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "published",
+      "proposition": {
+        "predicate": "published",
+        "object": "Mon, 29 Jun 2026 06:00:31 GMT"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "technology",
+        "citation": "https://www.theguardian.com/technology/2026/jun/29/ring-video-doorbell-pro-review"
+      },
+      "status": "supported"
+    }
+  ]
+}

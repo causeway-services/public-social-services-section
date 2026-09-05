@@ -1,0 +1,17 @@
+{
+  "kind": "provider-authored-service-contract",
+  "id": "newscable-source-broker/source-bundle-service/v1",
+  "provider": "newscable-source-broker",
+  "service": "fetch declared syndication sources and offer immutable claim-state bundles",
+  "admission": "ActivityStreams Offer<ServiceSolicitation> addressed to the provider, followed by Accept<ServiceContract> carrying the exact provider offer",
+  "preconditions": [
+    "the demand names one or more wires with admitted syndication adapter configurations",
+    "the customer accepts the zero-price offer and its exact demand digest"
+  ],
+  "postconditions": [
+    "the provider returns bundle values and canonical digests from its own exchange store",
+    "the provider never writes the customer's corpus",
+    "the customer independently validates and admits or refuses every returned bundle"
+  ],
+  "price": { "amount": 0, "currency": "USD", "settlement": "provider receipt" }
+}

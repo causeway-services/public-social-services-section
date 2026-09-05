@@ -1,0 +1,69 @@
+{
+  "subject": "goldman-sachs-bofa-among-21-banks-planning-joint-dollar-stablecoin-launch",
+  "claims": [
+    {
+      "id": "title",
+      "proposition": {
+        "predicate": "title",
+        "object": "Goldman Sachs, BofA Among 21 Banks Planning Joint Dollar Stablecoin Launch"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "crypto",
+        "citation": "https://decrypt.co/377216/goldman-sachs-bofa-banks-stablecoin"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "url",
+      "proposition": {
+        "predicate": "url",
+        "object": "https://decrypt.co/377216/goldman-sachs-bofa-banks-stablecoin"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "crypto",
+        "citation": "https://decrypt.co/377216/goldman-sachs-bofa-banks-stablecoin"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "summary",
+      "proposition": {
+        "predicate": "summary",
+        "object": "The bank-led consortium wants a U.S. dollar token live by the first half of 2027, with a euro version queued up next."
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "crypto",
+        "citation": "https://decrypt.co/377216/goldman-sachs-bofa-banks-stablecoin"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "published",
+      "proposition": {
+        "predicate": "published",
+        "object": "Wed, 02 Sep 2026 20:01:04 +0000"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "crypto",
+        "citation": "https://decrypt.co/377216/goldman-sachs-bofa-banks-stablecoin"
+      },
+      "status": "supported"
+    }
+  ]
+}

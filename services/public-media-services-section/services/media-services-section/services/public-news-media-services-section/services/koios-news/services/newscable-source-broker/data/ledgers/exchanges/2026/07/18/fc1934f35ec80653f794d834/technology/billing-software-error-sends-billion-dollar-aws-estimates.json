@@ -1,0 +1,69 @@
+{
+  "subject": "billing-software-error-sends-billion-dollar-aws-estimates",
+  "claims": [
+    {
+      "id": "title",
+      "proposition": {
+        "predicate": "title",
+        "object": "Billing software error sends billion-dollar AWS estimates"
+      },
+      "time": {
+        "asserted": "2026-07-18T07:55:43.768Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "technology",
+        "citation": "https://www.theregister.com/off-prem/2026/07/17/billing-software-error-sends-billion-dollar-aws-estimates/5274521"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "url",
+      "proposition": {
+        "predicate": "url",
+        "object": "https://www.theregister.com/off-prem/2026/07/17/billing-software-error-sends-billion-dollar-aws-estimates/5274521"
+      },
+      "time": {
+        "asserted": "2026-07-18T07:55:43.768Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "technology",
+        "citation": "https://www.theregister.com/off-prem/2026/07/17/billing-software-error-sends-billion-dollar-aws-estimates/5274521"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "summary",
+      "proposition": {
+        "predicate": "summary",
+        "object": "Your AWS billing estimate might look just a little inflated right now. If you woke up to find an email from Amazon Web Services this morning telling you that you’d gone over your billing threshold by a few hundred million dollars, don’t panic: Something’s gone wrong in the AWS Billing Console, the company admitted. An open issue on the AWS Health Dashboard (archived copy at the time of writing) popped up at 1:33 am Pacific time on Friday informing users that Cost Explorer was “reflecting inaccurate estimated billing data.” As of writing, the issue is still unresolved despite AWS trying several different things to get it fixed. The company apparently identified the root cause within an hour and a half of beginning its investigation, only describing it as “an issue with unit pricing within the estimated billing computation subsystem.” AWS followed up by pausing estimated bill updates, saying customers would continue to see the inflated figures already displayed, but that those estimates would not increase further. “The displayed billing estimates do not reflect actual usage and charges,” AWS explained, noting that customers don’t need to take any action, like, we imagine, flooding the help portal with tickets telling them what they already know, for instance. “Once the issue has been mitigated, we expect full resolution to take multiple hours as we work through recomputing the estimated billing data,” AWS added. After we first published this article, Amazon updated the issue page to indicate that it had identified the root cause and mitigated the underlying issue. The company says that it's begun backfilling data in the Cost Management Console to correct billing numbers, and that all customers should see corrected amounts by Saturday, July 18 at noon pacific time. We owe HOW much? Users took to Reddit and Hacker News this morning to report they’d received overage emails for massive amounts - we weren’t exaggerating with that hundreds of millions opening line. If anything, it was an understatement. Screenshots posted in the Reddit thread showed one user whose AWS charges totaled just $0.19 last month receiving an estimated bill of nearly $2.5 billion. Others in the thread claimed to have received estimated monthly charges ranging from $126,000 to as much as $2.5 trillion. Hacker News users similarly reported estimates in the billions. Amazon said the figures shown in customers' accounts were inaccurate estimates rather than actual charges. As for when users might see their billing portal reflect an accurate number, that could take a while. AWS declined to explain the issue aside from pointing us to the dashboard page linked above. We'll be keeping an eye on this developing story and update it as we learn more. ® Updated at 1903 to show that Amazon has updated its issue page with a resolution."
+      },
+      "time": {
+        "asserted": "2026-07-18T07:55:43.768Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "technology",
+        "citation": "https://www.theregister.com/off-prem/2026/07/17/billing-software-error-sends-billion-dollar-aws-estimates/5274521"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "published",
+      "proposition": {
+        "predicate": "published",
+        "object": "Fri, 17 Jul 2026 18:37:39 +0200"
+      },
+      "time": {
+        "asserted": "2026-07-18T07:55:43.768Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "technology",
+        "citation": "https://www.theregister.com/off-prem/2026/07/17/billing-software-error-sends-billion-dollar-aws-estimates/5274521"
+      },
+      "status": "supported"
+    }
+  ]
+}

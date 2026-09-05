@@ -1,0 +1,69 @@
+{
+  "subject": "turning-point-generation-9-11-review-nothing-about-that-day-has-lost-its-power-to-shock-or-harro",
+  "claims": [
+    {
+      "id": "title",
+      "proposition": {
+        "predicate": "title",
+        "object": "Turning Point: Generation 9/11 review – nothing about that day has lost its power to shock or harrow the soul"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "culture",
+        "citation": "https://www.theguardian.com/tv-and-radio/2026/sep/02/turning-point-generation-911-review-netflix"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "url",
+      "proposition": {
+        "predicate": "url",
+        "object": "https://www.theguardian.com/tv-and-radio/2026/sep/02/turning-point-generation-911-review-netflix"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "culture",
+        "citation": "https://www.theguardian.com/tv-and-radio/2026/sep/02/turning-point-generation-911-review-netflix"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "summary",
+      "proposition": {
+        "predicate": "summary",
+        "object": "<p>The attacks changed the world as we know it – and now, 25 years on, this heartbreaking Netflix film shares 9/11 recordings and memories from the bereaved that stop time in its tracks</p><p>It is 25 years since two planes, sent by Osama bin Laden as the head of the terrorist organisation al-Qaida, flew into the North and South Towers that comprised the World Trade Center, killing almost 3,000 people and changing the world as we know it.</p><p>I’m old enough to remember the day itself – I was a trainee lawyer in London and we watched the news unfold on a conference room television – which means I am also old enough to remember the world before it. But a quarter of a century on, it is taught in schools as a historical event. Can you believe it? No, because if you experience such a convulsive moment – even at the distance of being a television viewer in a different country – time bends around it and normal chronology becomes meaningless ever after. But that is only our perspective.</p> <a href=\"https://www.theguardian.com/tv-and-radio/2026/sep/02/turning-point-generation-911-review-netflix\">Continue reading...</a>"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "culture",
+        "citation": "https://www.theguardian.com/tv-and-radio/2026/sep/02/turning-point-generation-911-review-netflix"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "published",
+      "proposition": {
+        "predicate": "published",
+        "object": "Wed, 02 Sep 2026 07:00:25 GMT"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "culture",
+        "citation": "https://www.theguardian.com/tv-and-radio/2026/sep/02/turning-point-generation-911-review-netflix"
+      },
+      "status": "supported"
+    }
+  ]
+}

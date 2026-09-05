@@ -1,0 +1,69 @@
+{
+  "subject": "out-of-sight-review-mountain-idyll-on-the-swiss-border-is-a-gilded-cage-for-distressed-asylum-seekers",
+  "claims": [
+    {
+      "id": "title",
+      "proposition": {
+        "predicate": "title",
+        "object": "Out of Sight review – mountain idyll on the Swiss border is a gilded cage for distressed asylum seekers"
+      },
+      "time": {
+        "asserted": "2026-07-20T10:18:52.888Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "culture",
+        "citation": "https://www.theguardian.com/film/2026/jul/20/out-of-sight-review-asylum-seekers-alps"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "url",
+      "proposition": {
+        "predicate": "url",
+        "object": "https://www.theguardian.com/film/2026/jul/20/out-of-sight-review-asylum-seekers-alps"
+      },
+      "time": {
+        "asserted": "2026-07-20T10:18:52.888Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "culture",
+        "citation": "https://www.theguardian.com/film/2026/jul/20/out-of-sight-review-asylum-seekers-alps"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "summary",
+      "proposition": {
+        "predicate": "summary",
+        "object": "<p>Young men share their heartbreaking experiences of an Alpine ‘deportation camp’ in Lisa Polster’s impactful, gentle documentary</p><p>Located on the Swiss-Austrian border, the Bürglkopf mountain is a picture-perfect Alpine landscape, with its verdant fields and scenic trails. The tranquil idyll is a popular holiday spot, with thousands of tourists each year. Some visitors, however, are less welcome than others. Nestled among the lush forest on the mountaintop is a so-called deportation camp, where asylum seekers are held for months, even years. In Lisa Polster’s impactful documentary, one of our first glimpses of the facility and its surroundings is through the window of a moving car. The tightly composed shot suggests the secrecy that enshrouds this place, described by its inhabitants as a prison rather than a shelter.</p><p>Through interviews with current residents, Polster’s film weaves a sobering tapestry of experiences – in spite of the centre’s resistance to the documentary project. Many asylum seekers speak of poor living conditions, lack of access to legal support, and the impossibility of social integration due to the camp’s remote location. Their legal limbo, caused by excessive delays in application processing, leads to further psychological distress. In one heartbreaking scene, a detainee looks wistfully at the cattle herds that graze nearby, envious of their freedom of movement. With strict curfew hours and few recreational activities on offer, time at the Bürglkopf camp stretches on seemingly infinitely.</p> <a href=\"https://www.theguardian.com/film/2026/jul/20/out-of-sight-review-asylum-seekers-alps\">Continue reading...</a>"
+      },
+      "time": {
+        "asserted": "2026-07-20T10:18:52.888Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "culture",
+        "citation": "https://www.theguardian.com/film/2026/jul/20/out-of-sight-review-asylum-seekers-alps"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "published",
+      "proposition": {
+        "predicate": "published",
+        "object": "Mon, 20 Jul 2026 10:00:53 GMT"
+      },
+      "time": {
+        "asserted": "2026-07-20T10:18:52.888Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "culture",
+        "citation": "https://www.theguardian.com/film/2026/jul/20/out-of-sight-review-asylum-seekers-alps"
+      },
+      "status": "supported"
+    }
+  ]
+}

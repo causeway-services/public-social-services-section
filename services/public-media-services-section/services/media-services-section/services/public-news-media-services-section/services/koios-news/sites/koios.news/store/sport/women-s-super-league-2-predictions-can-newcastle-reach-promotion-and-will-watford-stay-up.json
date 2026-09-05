@@ -1,0 +1,69 @@
+{
+  "subject": "women-s-super-league-2-predictions-can-newcastle-reach-promotion-and-will-watford-stay-up",
+  "claims": [
+    {
+      "id": "title",
+      "proposition": {
+        "predicate": "title",
+        "object": "Women’s Super League 2 predictions: can Newcastle reach promotion and will Watford stay up?"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "sport",
+        "citation": "https://www.theguardian.com/football/2026/sep/02/womens-super-league-2-predictions-can-newcastle-united-promotion-watford-relegation"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "url",
+      "proposition": {
+        "predicate": "url",
+        "object": "https://www.theguardian.com/football/2026/sep/02/womens-super-league-2-predictions-can-newcastle-united-promotion-watford-relegation"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "sport",
+        "citation": "https://www.theguardian.com/football/2026/sep/02/womens-super-league-2-predictions-can-newcastle-united-promotion-watford-relegation"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "summary",
+      "proposition": {
+        "predicate": "summary",
+        "object": "<p>As the 12 teams start their campaigns, we look at each side’s chances of going up and who will occupy the relegation places</p><p>The Women’s Super League 2 season, which gets under way on Friday when Watford host Burnley, comes with a tweaked format and the introduction of a new fixture. After the expansion of the WSL this summer, only the WSL2 champions are guaranteed promotion and the teams finishing second and third will contest a new, pre-qualifying match to determine who will face the WSL’s second-bottom side in the end-of-season promotion/relegation playoff decider. But which of the 12 sides have the best chances of going up. and who may occupy the relegation places?</p> <a href=\"https://www.theguardian.com/football/2026/sep/02/womens-super-league-2-predictions-can-newcastle-united-promotion-watford-relegation\">Continue reading...</a>"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "sport",
+        "citation": "https://www.theguardian.com/football/2026/sep/02/womens-super-league-2-predictions-can-newcastle-united-promotion-watford-relegation"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "published",
+      "proposition": {
+        "predicate": "published",
+        "object": "Wed, 02 Sep 2026 12:00:24 GMT"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "sport",
+        "citation": "https://www.theguardian.com/football/2026/sep/02/womens-super-league-2-predictions-can-newcastle-united-promotion-watford-relegation"
+      },
+      "status": "supported"
+    }
+  ]
+}

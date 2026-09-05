@@ -1,0 +1,69 @@
+{
+  "subject": "burnham-s-bumpy-ride-ahead-pm-s-in-tray-full-of-dilemmas-as-parliament-returns",
+  "claims": [
+    {
+      "id": "title",
+      "proposition": {
+        "predicate": "title",
+        "object": "Burnham’s bumpy ride ahead: PM’s in-tray full of dilemmas as parliament returns"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "economy",
+        "citation": "https://www.theguardian.com/politics/2026/aug/31/andy-burnham-in-tray-parliament-return"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "url",
+      "proposition": {
+        "predicate": "url",
+        "object": "https://www.theguardian.com/politics/2026/aug/31/andy-burnham-in-tray-parliament-return"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "economy",
+        "citation": "https://www.theguardian.com/politics/2026/aug/31/andy-burnham-in-tray-parliament-return"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "summary",
+      "proposition": {
+        "predicate": "summary",
+        "object": "<p>Labour leader faces tough decisions on issues such as North Sea drilling, electoral reform and defence spending</p><p></p><p>After a relatively cheery summer in which he announced a range of eye-catching cost of living policies, Andy Burnham may find his return to parliament this week to be a rude awakening.</p><p>While the new prime minister has enjoyed some success in the polls, he is faced with many of the same problems that stymied Keir Starmer and has some difficult and unpopular <a href=\"https://www.theguardian.com/politics/2026/aug/24/andy-burnham-challenges-budget-welfare-migration-prisons-mps-commons\">choices to make</a>.</p> <a href=\"https://www.theguardian.com/politics/2026/aug/31/andy-burnham-in-tray-parliament-return\">Continue reading...</a>"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "economy",
+        "citation": "https://www.theguardian.com/politics/2026/aug/31/andy-burnham-in-tray-parliament-return"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "published",
+      "proposition": {
+        "predicate": "published",
+        "object": "Mon, 31 Aug 2026 15:00:28 GMT"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "economy",
+        "citation": "https://www.theguardian.com/politics/2026/aug/31/andy-burnham-in-tray-parliament-return"
+      },
+      "status": "supported"
+    }
+  ]
+}

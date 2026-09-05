@@ -1,0 +1,69 @@
+{
+  "subject": "we-noticed-a-login-from-a-new-device-the-message-from-fraudsters-targeting-your-x-account",
+  "claims": [
+    {
+      "id": "title",
+      "proposition": {
+        "predicate": "title",
+        "object": "‘We noticed a login from a new device’: the message from fraudsters targeting your X account"
+      },
+      "time": {
+        "asserted": "2026-07-19T14:41:48.886Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "economy",
+        "citation": "https://www.theguardian.com/money/2026/jul/19/x-scams-login-new-device-message-account-crypto-phishing"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "url",
+      "proposition": {
+        "predicate": "url",
+        "object": "https://www.theguardian.com/money/2026/jul/19/x-scams-login-new-device-message-account-crypto-phishing"
+      },
+      "time": {
+        "asserted": "2026-07-19T14:41:48.886Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "economy",
+        "citation": "https://www.theguardian.com/money/2026/jul/19/x-scams-login-new-device-message-account-crypto-phishing"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "summary",
+      "proposition": {
+        "predicate": "summary",
+        "object": "<p>They are out to steal your password to commit further fraud such as crypto scams or phishing attacks</p><p>You have had an X account for years, since it was known as Twitter. When an email arrives about a new login from a location nowhere near where you live, alarm bells begin to ring.</p><p>“We noticed a login to your account from a new device. Was this you?” the email asks.</p> <a href=\"https://www.theguardian.com/money/2026/jul/19/x-scams-login-new-device-message-account-crypto-phishing\">Continue reading...</a>"
+      },
+      "time": {
+        "asserted": "2026-07-19T14:41:48.886Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "economy",
+        "citation": "https://www.theguardian.com/money/2026/jul/19/x-scams-login-new-device-message-account-crypto-phishing"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "published",
+      "proposition": {
+        "predicate": "published",
+        "object": "Sun, 19 Jul 2026 06:00:18 GMT"
+      },
+      "time": {
+        "asserted": "2026-07-19T14:41:48.886Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "economy",
+        "citation": "https://www.theguardian.com/money/2026/jul/19/x-scams-login-new-device-message-account-crypto-phishing"
+      },
+      "status": "supported"
+    }
+  ]
+}

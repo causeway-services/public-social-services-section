@@ -1,0 +1,69 @@
+{
+  "subject": "ukraine-war-briefing-russian-sky-full-of-our-drones-and-not-safe-zelenskyy-warns-airlines",
+  "claims": [
+    {
+      "id": "title",
+      "proposition": {
+        "predicate": "title",
+        "object": "Ukraine war briefing: Russian sky full of our drones and not safe, Zelenskyy warns airlines"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "war",
+        "citation": "https://www.theguardian.com/world/2026/sep/02/ukraine-war-briefing-russian-sky-full-of-our-drones-and-not-safe-zelenskyy-warns-airlines"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "url",
+      "proposition": {
+        "predicate": "url",
+        "object": "https://www.theguardian.com/world/2026/sep/02/ukraine-war-briefing-russian-sky-full-of-our-drones-and-not-safe-zelenskyy-warns-airlines"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "war",
+        "citation": "https://www.theguardian.com/world/2026/sep/02/ukraine-war-briefing-russian-sky-full-of-our-drones-and-not-safe-zelenskyy-warns-airlines"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "summary",
+      "proposition": {
+        "predicate": "summary",
+        "object": "<p>Germany accuses Russia over Leipzig airport attack, citing solid evidence; Russian economy in risky ‘berserk mode’ says Putin development tsar. What we know on day 1,652</p> <a href=\"https://www.theguardian.com/world/2026/sep/02/ukraine-war-briefing-russian-sky-full-of-our-drones-and-not-safe-zelenskyy-warns-airlines\">Continue reading...</a>"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "war",
+        "citation": "https://www.theguardian.com/world/2026/sep/02/ukraine-war-briefing-russian-sky-full-of-our-drones-and-not-safe-zelenskyy-warns-airlines"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "published",
+      "proposition": {
+        "predicate": "published",
+        "object": "Wed, 02 Sep 2026 00:35:17 GMT"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "war",
+        "citation": "https://www.theguardian.com/world/2026/sep/02/ukraine-war-briefing-russian-sky-full-of-our-drones-and-not-safe-zelenskyy-warns-airlines"
+      },
+      "status": "supported"
+    }
+  ]
+}

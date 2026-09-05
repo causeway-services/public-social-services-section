@@ -1,0 +1,69 @@
+{
+  "subject": "scottish-premiership-dura-n-inspires-celtic-to-convincing-victory-after-dalglish-ovation",
+  "claims": [
+    {
+      "id": "title",
+      "proposition": {
+        "predicate": "title",
+        "object": "Scottish Premiership: Durán inspires Celtic to convincing victory after Dalglish ovation"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "sport",
+        "citation": "https://www.theguardian.com/football/2026/sep/02/scottish-premiership-celtic-aberdeen-kenny-dalglish-rangers-falkirk"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "url",
+      "proposition": {
+        "predicate": "url",
+        "object": "https://www.theguardian.com/football/2026/sep/02/scottish-premiership-celtic-aberdeen-kenny-dalglish-rangers-falkirk"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "sport",
+        "citation": "https://www.theguardian.com/football/2026/sep/02/scottish-premiership-celtic-aberdeen-kenny-dalglish-rangers-falkirk"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "summary",
+      "proposition": {
+        "predicate": "summary",
+        "object": "<ul><li><p>Colombian opens scoring in 3-0 win against Aberdeen</p></li><li><p>Falkirk 1-2 Rangers; Kilmarnock 0-1 St Mirren</p></li></ul><p>The <strong>Celtic</strong> striker Camilo Durán inspired the Scottish champions’ 3-0 win over <strong>Aberdeen</strong>, while <strong>Rangers</strong> snatched a 2-1 victory against <strong>Falkirk</strong> on Wednesday.</p><p>Durán has scored six goals in five matches for Martin O’Neill’s side after his latest eye-catching contribution at Parkhead. The Colombian netted in the 14th minute with the latest in his series of spectacular strikes since joining from Qarabag in the close-season. Durán collected Benjamin Nygren’s pass and unleashed a long-range drive that cannoned in off the crossbar.</p> <a href=\"https://www.theguardian.com/football/2026/sep/02/scottish-premiership-celtic-aberdeen-kenny-dalglish-rangers-falkirk\">Continue reading...</a>"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "sport",
+        "citation": "https://www.theguardian.com/football/2026/sep/02/scottish-premiership-celtic-aberdeen-kenny-dalglish-rangers-falkirk"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "published",
+      "proposition": {
+        "predicate": "published",
+        "object": "Wed, 02 Sep 2026 22:09:35 GMT"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "sport",
+        "citation": "https://www.theguardian.com/football/2026/sep/02/scottish-premiership-celtic-aberdeen-kenny-dalglish-rangers-falkirk"
+      },
+      "status": "supported"
+    }
+  ]
+}

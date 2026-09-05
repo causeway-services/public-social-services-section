@@ -1,0 +1,27 @@
+{
+  "kind": "office",
+  "founded": "2026-09-02",
+  "x-provenance": {
+    "recorded-by": "claude-fable-5-1",
+    "recorded-on": "2026-09-02",
+    "derived-from": "engineering-services-section/services/media-engineering-services-section/services/news-media-engineering-services-section/content/text/documents/articles/specifications/2026-09-02-news-property-specification.md"
+  },
+  "id": "koios-corrections-editor",
+  "name": "corrections editor",
+  "normative-structure": "Whether a published Koios.News error is corrected — the correction transaction run, the affected article's claim ledger updated, and a correction notice attached — is this office's own answer. It reports to the standards editor and never to the editor-in-chief, so a desk's editorial interest can never suppress or delay a correction.",
+  "deontic-profile": {
+    "run-correction-transaction": "duty",
+    "attach-correction-notice": "duty",
+    "issue-a-correction": "deontic-power",
+    "resist-editor-in-chief-override": "deontic-immunity"
+  },
+  "reports-to": "koios-standards-editor",
+  "jurisdiction": "koios.news/corrections/",
+  "authority-scope": [
+    "koios.news/corrections/"
+  ],
+  "theory-basis": [
+    "News Property Specification §6, engineering-services-section/services/media-engineering-services-section/services/news-media-engineering-services-section/content/text/documents/articles/specifications/2026-09-02-news-property-specification.md — a corrections editor office owns the correction transaction and does not route through the top editor",
+    "The Distal Bypass, operations-services-section/content/text/documents/articles/notes/2026/07/16/2026-07-16-the-distal-bypass.md — every erasure is priced; the corrections editor's immunity against editor-in-chief override is how that pricing stays real rather than discretionary"
+  ]
+}

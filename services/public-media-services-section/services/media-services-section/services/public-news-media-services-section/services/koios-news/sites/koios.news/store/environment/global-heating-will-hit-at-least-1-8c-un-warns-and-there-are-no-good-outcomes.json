@@ -1,0 +1,69 @@
+{
+  "subject": "global-heating-will-hit-at-least-1-8c-un-warns-and-there-are-no-good-outcomes",
+  "claims": [
+    {
+      "id": "title",
+      "proposition": {
+        "predicate": "title",
+        "object": "Global heating will hit at least 1.8C, UN warns, and there are ‘no good outcomes’"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "environment",
+        "citation": "https://www.theguardian.com/environment/2026/sep/02/global-heating-warming-1-8c-best-case-scenario-un-united-nations-environment-programme-report"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "url",
+      "proposition": {
+        "predicate": "url",
+        "object": "https://www.theguardian.com/environment/2026/sep/02/global-heating-warming-1-8c-best-case-scenario-un-united-nations-environment-programme-report"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "environment",
+        "citation": "https://www.theguardian.com/environment/2026/sep/02/global-heating-warming-1-8c-best-case-scenario-un-united-nations-environment-programme-report"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "summary",
+      "proposition": {
+        "predicate": "summary",
+        "object": "<p>But scientists say the world could get back to 1.5C through deep, rapid emissions cuts and removing carbon from the atmosphere</p><p>Global heating will reach at least 1.8C under even the most optimistic future, well beyond the Paris agreement goal of 1.5C, according to a UN report that warns every fraction of temperature rise intensifies destructive extreme weather, glacier melt, ecosystem loss, and island and coastal city submersion.</p><p>The report by the Nairobi-based UN Environment Programme confirmed overshooting the 1.5C goal inscribed in the landmark Paris agreement of 2015 was now “unavoidable” and, despite some progress in addressing the human-caused climate crisis driven by burning fossil fuels, likely in the next few years.</p> <a href=\"https://www.theguardian.com/environment/2026/sep/02/global-heating-warming-1-8c-best-case-scenario-un-united-nations-environment-programme-report\">Continue reading...</a>"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "environment",
+        "citation": "https://www.theguardian.com/environment/2026/sep/02/global-heating-warming-1-8c-best-case-scenario-un-united-nations-environment-programme-report"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "published",
+      "proposition": {
+        "predicate": "published",
+        "object": "Wed, 02 Sep 2026 04:00:22 GMT"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "environment",
+        "citation": "https://www.theguardian.com/environment/2026/sep/02/global-heating-warming-1-8c-best-case-scenario-un-united-nations-environment-programme-report"
+      },
+      "status": "supported"
+    }
+  ]
+}

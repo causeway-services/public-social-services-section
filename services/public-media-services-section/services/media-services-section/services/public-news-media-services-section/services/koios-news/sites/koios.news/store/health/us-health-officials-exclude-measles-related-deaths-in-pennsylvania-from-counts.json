@@ -1,0 +1,69 @@
+{
+  "subject": "us-health-officials-exclude-measles-related-deaths-in-pennsylvania-from-counts",
+  "claims": [
+    {
+      "id": "title",
+      "proposition": {
+        "predicate": "title",
+        "object": "US health officials exclude measles-related deaths in Pennsylvania from counts"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "health",
+        "citation": "https://www.theguardian.com/us-news/2026/aug/31/measles-deaths-pennsylvania-excluded"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "url",
+      "proposition": {
+        "predicate": "url",
+        "object": "https://www.theguardian.com/us-news/2026/aug/31/measles-deaths-pennsylvania-excluded"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "health",
+        "citation": "https://www.theguardian.com/us-news/2026/aug/31/measles-deaths-pennsylvania-excluded"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "summary",
+      "proposition": {
+        "predicate": "summary",
+        "object": "<p>RFK Jr, the health secretary, has suggested the deaths were ‘fabricated’ while the CDC claimed it was reviewing them</p><p>Top US health officials and government agencies are currently not including the two recent measles-associated deaths in Pennsylvania in their counts.</p><p>“This is highly unusual,” said Debra Houry, former chief medical officer of the US Centers for Disease Control and Prevention (CDC). She noted that this did not happen with the three deaths reported from measles in Texas and New Mexico last year.</p> <a href=\"https://www.theguardian.com/us-news/2026/aug/31/measles-deaths-pennsylvania-excluded\">Continue reading...</a>"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "health",
+        "citation": "https://www.theguardian.com/us-news/2026/aug/31/measles-deaths-pennsylvania-excluded"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "published",
+      "proposition": {
+        "predicate": "published",
+        "object": "Mon, 31 Aug 2026 20:06:01 GMT"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "health",
+        "citation": "https://www.theguardian.com/us-news/2026/aug/31/measles-deaths-pennsylvania-excluded"
+      },
+      "status": "supported"
+    }
+  ]
+}

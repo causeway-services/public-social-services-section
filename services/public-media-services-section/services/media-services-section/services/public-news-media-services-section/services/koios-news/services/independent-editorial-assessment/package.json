@@ -1,0 +1,29 @@
+{
+  "name": "@causeway-services/independent-editorial-assessment",
+  "version": "0.1.5",
+  "type": "module",
+  "description": "Separately hireable independent editorial assessment returning a validated bounded tool selection and prose grounds.",
+  "bin": {
+    "solicit-service": "./src/contract-editorial-assessment.mjs",
+    "invoke-service": "./src/contract-editorial-assessment.mjs"
+  },
+  "scripts": {
+    "check": "node --check src/*.mjs && node --check test/*.test.mjs",
+    "test": "node --test test/contract-editorial-assessment.test.mjs"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "@red-cup-engineering/inference-work-lot-service": "4.2.7",
+    "@red-cup-engineering/json-codec-service": "0.1.11",
+    "@red-cup-engineering/parse-javascript-argv-service": "0.2.2",
+    "@red-cup-engineering/semantic-content-identify-service": "0.2.7",
+    "@red-cup-engineering/semantic-record-journal-service": "0.1.6"
+  },
+  "files": [
+    "src/",
+    "test/",
+    "package.json"
+  ]
+}

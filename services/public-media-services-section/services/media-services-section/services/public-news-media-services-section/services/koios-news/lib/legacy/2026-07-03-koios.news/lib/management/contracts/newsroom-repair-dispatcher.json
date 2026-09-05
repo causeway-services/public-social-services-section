@@ -1,0 +1,22 @@
+{
+  "id": "koios.news/newsroom-repair-replay/v2",
+  "kind": "koios.management-contract",
+  "customer": "urn:ame:koios-news",
+  "softwareProvider": "urn:ame:software-development-services-section",
+  "softwareProduct": "urn:sha256:5a1453cf59c05c8ac79d0dbc3f104cafe10afb63319857a9dbbc3b925948c1db",
+  "inferenceProvider": "urn:ame:inference-work-lot-service",
+  "inferenceContract": "ni:///sha-256;RpgVNZ3vpJICt4SgQ1BqQwCJj82YSO-5q5Nx7Y_CpVQ",
+  "precondition": "A terminal Koios learning reading proposes repair-draft or replay-writer and Koios can form a content-addressed RepairContext containing the exact manuscript, editor report, witnessed research packet, assignment, and operating instructions.",
+  "service": "Retain the exact completed repair product through Koios's hired RWIL/RDF provider, apply only the admitted bounded revision, preserve the existing assignment identity, revalidate its prior refusal without deleting history, and replay independent editorial admission from that retained product.",
+  "postcondition": "The same assignment reaches another independent newsroom settlement and, only if admitted, the separate Cloudflare release contract; otherwise the retained product and a typed refusal or obstruction remain available for bounded resumption without recursive full-pipeline purchase.",
+  "invariants": [
+    "Cold Red Gate never serves public Koios bytes",
+    "a historical refusal is never deleted or rewritten; an exact repair-product witness changes only the current assignment projection",
+    "newsroom repair never creates a recursive :repair: successor assignment",
+    "an identical stage-product request never reinvokes its producer",
+    "provider prose never directly serializes Koios state",
+    "search demand attention and revenue never supply factual warrant",
+    "an inference-market settlement is advisory candidate evidence and is not customer acceptance",
+    "Cloudflare release remains a separate provider contract"
+  ]
+}

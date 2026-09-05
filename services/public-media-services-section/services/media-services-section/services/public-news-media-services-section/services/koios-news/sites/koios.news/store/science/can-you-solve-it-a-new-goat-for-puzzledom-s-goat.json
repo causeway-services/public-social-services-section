@@ -1,0 +1,69 @@
+{
+  "subject": "can-you-solve-it-a-new-goat-for-puzzledom-s-goat",
+  "claims": [
+    {
+      "id": "title",
+      "proposition": {
+        "predicate": "title",
+        "object": "Can you solve it? A new goat for puzzledom’s GOAT"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "science",
+        "citation": "https://www.theguardian.com/science/2026/aug/17/can-you-solve-it-a-new-goat-for-puzzledoms-goat"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "url",
+      "proposition": {
+        "predicate": "url",
+        "object": "https://www.theguardian.com/science/2026/aug/17/can-you-solve-it-a-new-goat-for-puzzledoms-goat"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "science",
+        "citation": "https://www.theguardian.com/science/2026/aug/17/can-you-solve-it-a-new-goat-for-puzzledoms-goat"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "summary",
+      "proposition": {
+        "predicate": "summary",
+        "object": "<p>Take this puzzle by the horns</p><p>Today’s puzzle is a new twist on The Monty Hall problem, arguably the greatest maths puzzle of all time.</p><p>(According to Gemini, who trawled the internet for me, it is the most discussed and debated recreational maths puzzle of all time.)</p> <a href=\"https://www.theguardian.com/science/2026/aug/17/can-you-solve-it-a-new-goat-for-puzzledoms-goat\">Continue reading...</a>"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "science",
+        "citation": "https://www.theguardian.com/science/2026/aug/17/can-you-solve-it-a-new-goat-for-puzzledoms-goat"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "published",
+      "proposition": {
+        "predicate": "published",
+        "object": "Mon, 17 Aug 2026 06:10:46 GMT"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "science",
+        "citation": "https://www.theguardian.com/science/2026/aug/17/can-you-solve-it-a-new-goat-for-puzzledoms-goat"
+      },
+      "status": "supported"
+    }
+  ]
+}

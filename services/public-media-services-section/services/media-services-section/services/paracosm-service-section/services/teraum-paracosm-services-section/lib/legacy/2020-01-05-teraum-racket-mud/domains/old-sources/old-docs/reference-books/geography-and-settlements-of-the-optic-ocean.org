@@ -1,0 +1,20 @@
+#+SETUPFILE: ./setup.inc
+#+TITLE: Geography and Settlements of the Optic Ocean
+#+EXPORT_FILE_NAME: ../../pub/reference-books/geography-and-settlements-of-the-optic-ocean
+#+INDEX: Optic Ocean!/Geography and Settlements of the Optic Ocean/
+#+TOC: headlines 2
+* Introduction
+{{{document-isdraft}}}
+
+{{{document-hasproject}}}
+* Geography and Settlements of the Optic Ocean
+** Notable Vessels
+*** The /One Route/
+A slow-traveling cargo vessel, the misleadingly-named */One Route/*
+sails up and down the coasts of the /New/ and /Old Worlds/.
+* Supplements
+** Index
+- Optic Ocean ::
+- One Route ::
+- New World ::
+- Old World ::

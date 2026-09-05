@@ -1,0 +1,69 @@
+{
+  "subject": "free-cholesterol-tests-on-the-nhs-are-great-but-here-s-the-five-point-health-mot-i-d-really-like",
+  "claims": [
+    {
+      "id": "title",
+      "proposition": {
+        "predicate": "title",
+        "object": "Free cholesterol tests on the NHS are great – but here’s the five-point health MOT I’d really like to see | Devi Sridhar"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "health",
+        "citation": "https://www.theguardian.com/commentisfree/2026/sep/02/nhs-free-cholesterol-tests-health-symptom"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "url",
+      "proposition": {
+        "predicate": "url",
+        "object": "https://www.theguardian.com/commentisfree/2026/sep/02/nhs-free-cholesterol-tests-health-symptom"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "health",
+        "citation": "https://www.theguardian.com/commentisfree/2026/sep/02/nhs-free-cholesterol-tests-health-symptom"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "summary",
+      "proposition": {
+        "predicate": "summary",
+        "object": "<p>You could be walking around symptom-free and not know you’re pre-diabetic, living with hypertension or at a high risk of a heart attack</p><ul><li><p>Prof Devi Sridhar is chair of global public health at the University of Edinburgh</p></li></ul><p>“An ounce of prevention is worth a pound of cure,” Benjamin Franklin’s adage goes. Yet that simple prescription has been hard to follow in the current NHS. As has been frequently <a href=\"https://www.kingsfund.org.uk/insight-and-analysis/blogs/some-is-not-a-number-soon-is-not-a-time\">highlighted</a>, one of the biggest challenges for the health system is not just how much we spend per capita, but where and when it is spent. In England, there has been an ongoing shift within the NHS budget <a href=\"https://www.kingsfund.org.uk/insight-and-analysis/long-reads/national-policy-makers-make-care-closer-to-home-reality?\">towards acute hospital care</a> – treating people in hospitals, often after they are already quite ill – while funding for primary care such as GPs has fallen.</p><p>The consequence is that the NHS is increasingly paying for serious and expensive disease treatment, rather than investing upstream to prevent disease in the first place. We spend heavily on dealing with heart attacks, strokes and other life-threatening conditions, rather than identifying those who are at higher risk and intervening earlier to reduce their chances of getting ill.</p><p>Prof Devi Sridhar is chair of global public health at the University of Edinburgh</p> <a href=\"https://www.theguardian.com/commentisfree/2026/sep/02/nhs-free-cholesterol-tests-health-symptom\">Continue reading...</a>"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "health",
+        "citation": "https://www.theguardian.com/commentisfree/2026/sep/02/nhs-free-cholesterol-tests-health-symptom"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "published",
+      "proposition": {
+        "predicate": "published",
+        "object": "Wed, 02 Sep 2026 07:00:25 GMT"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "health",
+        "citation": "https://www.theguardian.com/commentisfree/2026/sep/02/nhs-free-cholesterol-tests-health-symptom"
+      },
+      "status": "supported"
+    }
+  ]
+}

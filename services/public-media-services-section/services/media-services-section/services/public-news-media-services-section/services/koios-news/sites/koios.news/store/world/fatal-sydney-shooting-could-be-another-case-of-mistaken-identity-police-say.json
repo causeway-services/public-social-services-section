@@ -1,0 +1,69 @@
+{
+  "subject": "fatal-sydney-shooting-could-be-another-case-of-mistaken-identity-police-say",
+  "claims": [
+    {
+      "id": "title",
+      "proposition": {
+        "predicate": "title",
+        "object": "Fatal Sydney shooting could be another case of mistaken identity, police say"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "world",
+        "citation": "https://www.theguardian.com/australia-news/2026/sep/02/sydney-fatal-shooting-merrylands-west-possible-mistaken-identity-police-say-ntwnfb"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "url",
+      "proposition": {
+        "predicate": "url",
+        "object": "https://www.theguardian.com/australia-news/2026/sep/02/sydney-fatal-shooting-merrylands-west-possible-mistaken-identity-police-say-ntwnfb"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "world",
+        "citation": "https://www.theguardian.com/australia-news/2026/sep/02/sydney-fatal-shooting-merrylands-west-possible-mistaken-identity-police-say-ntwnfb"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "summary",
+      "proposition": {
+        "predicate": "summary",
+        "object": "<p>A man shot dead in Merrylands West was not known to police, in a case with similarities to Tuesday’s killing in Campbelltown</p><ul><li><p>Get our <a href=\"https://www.theguardian.com/email-newsletters?CMP=cvau_sfl\">breaking news email</a>, <a href=\"https://app.adjust.com/w4u7jx3\">free app</a> or <a href=\"https://www.theguardian.com/australia-news/series/full-story?CMP=cvau_sfl\">daily news podcast</a></p></li></ul><p>New South Wales police are investigating the shooting death of a man in Sydney’s west as a potential case of mistaken identity, marking the second fatal shooting incident in as many days.</p><p>Emergency services responded to reports of a shooting at a home in Merrylands West at about 3.15pm on Wednesday, where a man believed to be in his 30s sustained a gunshot wound.</p> <a href=\"https://www.theguardian.com/australia-news/2026/sep/02/sydney-fatal-shooting-merrylands-west-possible-mistaken-identity-police-say-ntwnfb\">Continue reading...</a>"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "world",
+        "citation": "https://www.theguardian.com/australia-news/2026/sep/02/sydney-fatal-shooting-merrylands-west-possible-mistaken-identity-police-say-ntwnfb"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "published",
+      "proposition": {
+        "predicate": "published",
+        "object": "Wed, 02 Sep 2026 10:32:16 GMT"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "world",
+        "citation": "https://www.theguardian.com/australia-news/2026/sep/02/sydney-fatal-shooting-merrylands-west-possible-mistaken-identity-police-say-ntwnfb"
+      },
+      "status": "supported"
+    }
+  ]
+}

@@ -1,0 +1,69 @@
+{
+  "subject": "trump-claims-the-country-s-voting-systems-are-vulnerable-in-primetime-address",
+  "claims": [
+    {
+      "id": "title",
+      "proposition": {
+        "predicate": "title",
+        "object": "Trump claims the country's voting systems are vulnerable in primetime address"
+      },
+      "time": {
+        "asserted": "2026-07-18T07:55:42.726Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "politics",
+        "citation": "https://www.npr.org/2026/07/17/nx-s1-5896426/trump-claims-the-countrys-voting-systems-are-vulnerable-in-primetime-address"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "url",
+      "proposition": {
+        "predicate": "url",
+        "object": "https://www.npr.org/2026/07/17/nx-s1-5896426/trump-claims-the-countrys-voting-systems-are-vulnerable-in-primetime-address"
+      },
+      "time": {
+        "asserted": "2026-07-18T07:55:42.726Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "politics",
+        "citation": "https://www.npr.org/2026/07/17/nx-s1-5896426/trump-claims-the-countrys-voting-systems-are-vulnerable-in-primetime-address"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "summary",
+      "proposition": {
+        "predicate": "summary",
+        "object": "In a primetime address Thursday night, President Trump raised familiar claims about election integrity just months ahead of a midterm election, where Republicans are expected to take losses."
+      },
+      "time": {
+        "asserted": "2026-07-18T07:55:42.726Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "politics",
+        "citation": "https://www.npr.org/2026/07/17/nx-s1-5896426/trump-claims-the-countrys-voting-systems-are-vulnerable-in-primetime-address"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "published",
+      "proposition": {
+        "predicate": "published",
+        "object": "Fri, 17 Jul 2026 04:42:53 -0400"
+      },
+      "time": {
+        "asserted": "2026-07-18T07:55:42.726Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "politics",
+        "citation": "https://www.npr.org/2026/07/17/nx-s1-5896426/trump-claims-the-countrys-voting-systems-are-vulnerable-in-primetime-address"
+      },
+      "status": "supported"
+    }
+  ]
+}

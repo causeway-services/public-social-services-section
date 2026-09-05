@@ -1,0 +1,69 @@
+{
+  "subject": "donald-trump-booed-at-world-cup-final",
+  "claims": [
+    {
+      "id": "title",
+      "proposition": {
+        "predicate": "title",
+        "object": "Donald Trump Booed at World Cup Final"
+      },
+      "time": {
+        "asserted": "2026-07-20T00:18:29.089Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "culture",
+        "citation": "https://www.hollywoodreporter.com/news/general-news/donald-trump-booed-world-cup-final-1236651867/"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "url",
+      "proposition": {
+        "predicate": "url",
+        "object": "https://www.hollywoodreporter.com/news/general-news/donald-trump-booed-world-cup-final-1236651867/"
+      },
+      "time": {
+        "asserted": "2026-07-20T00:18:29.089Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "culture",
+        "citation": "https://www.hollywoodreporter.com/news/general-news/donald-trump-booed-world-cup-final-1236651867/"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "summary",
+      "proposition": {
+        "predicate": "summary",
+        "object": "As the president walked out onto the field for the presentation of the awards with FIFA chief Gianni Infantino, boos could be heard coming from the crowd."
+      },
+      "time": {
+        "asserted": "2026-07-20T00:18:29.089Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "culture",
+        "citation": "https://www.hollywoodreporter.com/news/general-news/donald-trump-booed-world-cup-final-1236651867/"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "published",
+      "proposition": {
+        "predicate": "published",
+        "object": "Sun, 19 Jul 2026 23:55:54 +0000"
+      },
+      "time": {
+        "asserted": "2026-07-20T00:18:29.089Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "culture",
+        "citation": "https://www.hollywoodreporter.com/news/general-news/donald-trump-booed-world-cup-final-1236651867/"
+      },
+      "status": "supported"
+    }
+  ]
+}

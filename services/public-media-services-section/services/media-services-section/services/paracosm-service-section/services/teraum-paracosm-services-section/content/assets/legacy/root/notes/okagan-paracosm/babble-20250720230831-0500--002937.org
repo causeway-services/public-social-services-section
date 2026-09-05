@@ -1,0 +1,25 @@
+:PROPERTIES:
+:ID:       44630da5-814e-43e7-b236-31678b3e4b22
+:instantiates: [[id:d542e8d2-3512-47a0-adbb-4a393e161ecb][babble]]
+:author:   [[id:40cbaad9-af3c-4573-b356-ae116687e483][emsenn]]
+:public:   true
+:date-created: [2025-07-20 Sun 23:08]
+:END:
+#+title: On connecting Teraum to the Okagan paracosm
+#+date: [2025-07-20 Sun 23:08]
+
+I'm having a [[id:0fc2df67-d2c8-4123-b471-f7e396e7c9b4][conversation with Microsoft Copilot]] on [[id:b59c6255-b760-4a18-9ee2-f548c2e9c11a][my Omnibook]], about [[id:7f527251-b5fc-4546-9fc7-8b6af33451e0][Teraum]], and it babbled a lot of nonsense but led me to idea that [[id:d285843e-e8fb-45c3-ae11-d230ccba4869][stories of Teraum]] (including the [[id:2353a6d2-6203-4abb-b940-a196a421eae2][RPG sessions]]/[[id:d0ec5fe4-12ac-4123-96f9-643d7497f32a][campaigns]]) should encourage [[id:31eeb2c2-7bdf-4be8-9050-3b595513d6f1][genre]] as [[id:7bf1813a-d868-4765-a561-75aff0d9517a][ontological method]] for [[id:eae61057-0067-4917-9a57-c0afa63e219c][interpreting narrative]], which informs... I guess i'd call it [[id:66ba90a4-fb92-4e4a-af55-4cde1dc03e48][karmic orientation]], which informs how well things will go for that character ("well" being relative to their [[id:72c801ce-6f54-42f5-b146-d17e847c9fbb][karma]].)
+
+I hadn't thought about it but i guess I just, use a [[id:fedf1f94-33bc-4381-9170-ea09b009494a][karmic system]] for Teraum, but I should really give that some more detailed thought.
+
+I guess my thinking is going this way on this because I was re-reading about the Chiliad Mystery, in [[id:d318e803-09f7-43b9-b1bb-0139dbbde9aa][Grand Theft Auto V]], and learned that lots of people have come to interpret it through Buddhist logics.
+
+But, it motivates me to want to write something about what makes a person in Teraum "good" - which of course would require answering whether Teraum is in the same world, truly, as [[id:399f7c4a-0572-46e8-9d3a-21fcb02989c4][The Okaga]], and if so, what that would mean for [[id:87b75e38-7814-45a8-ba28-b9fd59a93d1f][Teraumian magic]]?
+
+Thinking about it, it's feasible that the [[id:cfde7034-2cff-4b30-9de6-6b577c862d55][Worldkeep]] and the species it contains are all from across the [[id:38998b76-a160-4607-885c-09a5b29f9095][Okagan paracosm]].
+
+I do like that idea, and it give a reason for why Teraum is visited by the Okaga but isn't aware of the Cosmopolitan community: the Okaga is there to interact primarily with the Worldkeep (from their perspective, a Biological Resources Satellite, or whatever). There's anthropological research done at the same time, but Teraum's biosphere is basically treated as waste processing for the leaks that are assumed to be inevitable from any facility as big as the Worldkeep.
+
+This introduces a cool opportunity for conspiracy stuff in-world, as the Confederacy may wish to clandestinely influence Teraumani land-use to keep things biotic. I don't think this would be in any way responsible for Teraum's [[id:daba11da-e445-4227-9087-108c5ef3bc3e][The Rupture]], since that would be so recent, on a Galactic timeline - if the Okaga is arriving at Teraum in [[id:17e96264-c2d1-4885-9670-a6f651d268b0][Spring, 82pR]] years after the Collapse, then the last time they were at Teraum was probably [[id:1d11e616-32f0-405e-92f0-3e966bf473c9][400bR]] to [[id:fdb9899b-3d55-4e68-bc8b-a0e6bb85f1fb][150bR]] - sometime during the days of small human city-states warring in the [[id:c1b76d38-d7e8-494f-84d3-9916c04f48c8][Green Delta]] and [[id:5ccc63d5-eab8-48bf-aba4-038a5781a610][Ack]] starting to form as a trade city.
+
+Which makes me think I should sketch out other parts of the world and its history during those times, but honestly I'm impressed with how much I remember about the setting that I can start working on the worldbuilding so quickly as i have tonight.

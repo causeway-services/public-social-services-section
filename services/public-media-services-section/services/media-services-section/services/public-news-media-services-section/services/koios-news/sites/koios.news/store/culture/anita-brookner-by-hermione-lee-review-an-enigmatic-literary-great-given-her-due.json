@@ -1,0 +1,69 @@
+{
+  "subject": "anita-brookner-by-hermione-lee-review-an-enigmatic-literary-great-given-her-due",
+  "claims": [
+    {
+      "id": "title",
+      "proposition": {
+        "predicate": "title",
+        "object": "Anita Brookner by Hermione Lee review – an enigmatic literary great given her due"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "culture",
+        "citation": "https://www.theguardian.com/books/2026/sep/01/anita-brookner-by-hermione-lee-review-an-enigmatic-literary-great-given-her-due"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "url",
+      "proposition": {
+        "predicate": "url",
+        "object": "https://www.theguardian.com/books/2026/sep/01/anita-brookner-by-hermione-lee-review-an-enigmatic-literary-great-given-her-due"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "culture",
+        "citation": "https://www.theguardian.com/books/2026/sep/01/anita-brookner-by-hermione-lee-review-an-enigmatic-literary-great-given-her-due"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "summary",
+      "proposition": {
+        "predicate": "summary",
+        "object": "<p>This exhaustive biography of the Booker winner brings her properly out of the shadows for the first time</p><p>‘Dr Weiss, at forty, knew that her&nbsp;life had been ruined by literature.” The first fictional sentence Anita Brookner ever published, aged 53, in A Start in Life, certainly set a tone. If people have heard of Brookner today, Hermione Lee says, they imagine a lonely, cardiganed woman yearning for an absent lover. “This,” says Lee (an emeritus English professor at the University of Oxford), “won’t do.”</p><p>The cardiganed image confuses the author with her protagonists. Of 24 novels written across 30 years, only the first four – A Start in Life, Providence, Look at Me and Hotel du Lac – are about a single woman pining for love. There is certainly a “Brooknerian” style, characterised by elegance, restraint and melancholia, but her fiction engaged with our emotional lives broadly, examining family, exile, home, trauma, ageing and much more.</p> <a href=\"https://www.theguardian.com/books/2026/sep/01/anita-brookner-by-hermione-lee-review-an-enigmatic-literary-great-given-her-due\">Continue reading...</a>"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "culture",
+        "citation": "https://www.theguardian.com/books/2026/sep/01/anita-brookner-by-hermione-lee-review-an-enigmatic-literary-great-given-her-due"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "published",
+      "proposition": {
+        "predicate": "published",
+        "object": "Tue, 01 Sep 2026 06:00:48 GMT"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "culture",
+        "citation": "https://www.theguardian.com/books/2026/sep/01/anita-brookner-by-hermione-lee-review-an-enigmatic-literary-great-given-her-due"
+      },
+      "status": "supported"
+    }
+  ]
+}

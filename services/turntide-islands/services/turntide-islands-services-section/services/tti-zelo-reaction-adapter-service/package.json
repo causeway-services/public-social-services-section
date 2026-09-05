@@ -1,0 +1,12 @@
+{
+  "name": "@causeway-services/tti-zelo-reaction-adapter-service",
+  "version": "0.1.0",
+  "type": "module",
+  "description": "Public Turntide Islands reaction-system evidence adapter for Zelo shadow proposals.",
+  "scripts": {
+    "test": "node --test test/*.test.mjs"
+  },
+  "engines": {
+    "node": ">=22.18"
+  }
+}

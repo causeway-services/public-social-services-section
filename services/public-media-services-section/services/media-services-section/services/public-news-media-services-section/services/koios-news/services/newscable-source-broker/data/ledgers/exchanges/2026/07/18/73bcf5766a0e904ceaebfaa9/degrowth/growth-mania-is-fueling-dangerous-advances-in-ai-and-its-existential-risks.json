@@ -1,0 +1,69 @@
+{
+  "subject": "growth-mania-is-fueling-dangerous-advances-in-ai-and-its-existential-risks",
+  "claims": [
+    {
+      "id": "title",
+      "proposition": {
+        "predicate": "title",
+        "object": "Growth mania is fueling dangerous advances in AI – and its existential risks"
+      },
+      "time": {
+        "asserted": "2026-07-18T07:51:44.480Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "degrowth",
+        "citation": "https://www.resilience.org/stories/2026-07-09/growth-mania-is-fueling-dangerous-advances-in-ai-and-its-existential-risks/"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "url",
+      "proposition": {
+        "predicate": "url",
+        "object": "https://www.resilience.org/stories/2026-07-09/growth-mania-is-fueling-dangerous-advances-in-ai-and-its-existential-risks/"
+      },
+      "time": {
+        "asserted": "2026-07-18T07:51:44.480Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "degrowth",
+        "citation": "https://www.resilience.org/stories/2026-07-09/growth-mania-is-fueling-dangerous-advances-in-ai-and-its-existential-risks/"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "summary",
+      "proposition": {
+        "predicate": "summary",
+        "object": "AI risk represents the apex of growth mania, where a few tech elites gamble with humanity’s future. They take these risks without our consent and without our interests in mind. The result could be humanity being replaced as Earth’s most intelligent species by a silicon-based successor."
+      },
+      "time": {
+        "asserted": "2026-07-18T07:51:44.480Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "degrowth",
+        "citation": "https://www.resilience.org/stories/2026-07-09/growth-mania-is-fueling-dangerous-advances-in-ai-and-its-existential-risks/"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "published",
+      "proposition": {
+        "predicate": "published",
+        "object": "Thu, 09 Jul 2026 08:00:55 +0000"
+      },
+      "time": {
+        "asserted": "2026-07-18T07:51:44.480Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "degrowth",
+        "citation": "https://www.resilience.org/stories/2026-07-09/growth-mania-is-fueling-dangerous-advances-in-ai-and-its-existential-risks/"
+      },
+      "status": "supported"
+    }
+  ]
+}

@@ -1,0 +1,69 @@
+{
+  "subject": "it-always-comes-around-fans-react-to-conviction-in-tupac-shakur-s-murder-30-years-later",
+  "claims": [
+    {
+      "id": "title",
+      "proposition": {
+        "predicate": "title",
+        "object": "‘It always comes around’: fans react to conviction in Tupac Shakur’s murder 30 years later"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "culture",
+        "citation": "https://www.theguardian.com/us-news/2026/sep/02/tupac-shakur-murder-conviction-fan-reaction"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "url",
+      "proposition": {
+        "predicate": "url",
+        "object": "https://www.theguardian.com/us-news/2026/sep/02/tupac-shakur-murder-conviction-fan-reaction"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "culture",
+        "citation": "https://www.theguardian.com/us-news/2026/sep/02/tupac-shakur-murder-conviction-fan-reaction"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "summary",
+      "proposition": {
+        "predicate": "summary",
+        "object": "<p>Rapper’s supporters reflect on ‘astonishing’ events leading to Duane Davis being found guilty over 1996 fatal shooting</p><p>A <a href=\"https://www.theguardian.com/music/2026/aug/31/tupac-shakur-killing-duane-keith-davis\">criminal conviction</a> this week in the murder of <a href=\"https://www.theguardian.com/music/2pac\">Tupac Shakur</a>, the first since the rapper was gunned down in 1996, sent shock waves through his sea of fans who have waited <a href=\"https://www.theguardian.com/music/2026/aug/15/tupac-shakur-duane-davis-murder-trial\">three decades</a> for answers.</p><p>Duane “Keffe D” Davis, a former <a href=\"https://www.theguardian.com/us-news/california\">California</a> gang leader, was <a href=\"https://www.theguardian.com/music/2026/aug/31/tupac-shakur-killing-duane-keith-davis\">found guilty</a> of murder on Monday for the role he played in orchestrating the fatal shooting of Shakur.</p> <a href=\"https://www.theguardian.com/us-news/2026/sep/02/tupac-shakur-murder-conviction-fan-reaction\">Continue reading...</a>"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "culture",
+        "citation": "https://www.theguardian.com/us-news/2026/sep/02/tupac-shakur-murder-conviction-fan-reaction"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "published",
+      "proposition": {
+        "predicate": "published",
+        "object": "Wed, 02 Sep 2026 11:59:39 GMT"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "culture",
+        "citation": "https://www.theguardian.com/us-news/2026/sep/02/tupac-shakur-murder-conviction-fan-reaction"
+      },
+      "status": "supported"
+    }
+  ]
+}

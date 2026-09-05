@@ -1,0 +1,69 @@
+{
+  "subject": "the-opposite-of-damsels-in-distress-how-tv-fell-in-love-with-female-gangsters",
+  "claims": [
+    {
+      "id": "title",
+      "proposition": {
+        "predicate": "title",
+        "object": "The opposite of ‘damsels in distress’: how TV fell in love with female gangsters"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "culture",
+        "citation": "https://www.theguardian.com/tv-and-radio/2026/sep/02/female-gangsters-crime-tv-the-gentlemen"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "url",
+      "proposition": {
+        "predicate": "url",
+        "object": "https://www.theguardian.com/tv-and-radio/2026/sep/02/female-gangsters-crime-tv-the-gentlemen"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "culture",
+        "citation": "https://www.theguardian.com/tv-and-radio/2026/sep/02/female-gangsters-crime-tv-the-gentlemen"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "summary",
+      "proposition": {
+        "predicate": "summary",
+        "object": "<p>The ruthless female characters of The Gentlemen, Beef and Peaky Blinders bring new depth to the evil matriarch stereotype</p><p>Television loves a gangster story – and <a href=\"https://www.theguardian.com/tv-and-radio/2026/aug/21/meghan-duchess-of-sussex-guy-ritchie-the-gentlemen\">apparently</a> so does the Duchess of Sussex. This week, Netflix’s <a href=\"https://www.theguardian.com/tv-and-radio/2024/mar/07/the-gentlemen-review-a-daft-guy-ritchie-story-spattered-with-blood\">The Gentlemen</a> – <a href=\"https://www.theguardian.com/film/guy-ritchie\">Guy Ritchie</a>’s latest addition to the gangster canon, which stars Theo James as a distractingly handsome aristocrat who becomes embroiled in the world of organized crime – returns for its second season. And in August, the show hit the headlines after <a href=\"https://www.theguardian.com/film/2026/aug/22/meghan-markles-casting-in-the-gentlemen-reportedly-withdrawn-after-uk-backlash\">rumors</a> that Meghan was reportedly in early talks to join its third season when she and Prince Harry made their highly unexpected <a href=\"https://www.theguardian.com/uk-news/2026/aug/26/duke-duchess-sussex-back-in-uk-prince-harry-meghan\">return</a> to the UK.</p><p>At first, Meghan’s potential role seemed like a random pivot for the former Suits star, who now seems far more at home <a href=\"https://www.theguardian.com/wellness/2025/jan/03/meghan-markle-netflix-show\">holding a jar</a> of her Montecito-made jam than brandishing a gun. But really, these <a href=\"https://www.theguardian.com/film/2026/aug/22/meghan-markles-casting-in-the-gentlemen-reportedly-withdrawn-after-uk-backlash\">casting rumours</a> are indicative of a wider shift in the traditionally machismo-fueled gangster genre, where it’s now more common to see women stealing the spotlight – and calling the shots.</p> <a href=\"https://www.theguardian.com/tv-and-radio/2026/sep/02/female-gangsters-crime-tv-the-gentlemen\">Continue reading...</a>"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "culture",
+        "citation": "https://www.theguardian.com/tv-and-radio/2026/sep/02/female-gangsters-crime-tv-the-gentlemen"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "published",
+      "proposition": {
+        "predicate": "published",
+        "object": "Wed, 02 Sep 2026 09:00:29 GMT"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "culture",
+        "citation": "https://www.theguardian.com/tv-and-radio/2026/sep/02/female-gangsters-crime-tv-the-gentlemen"
+      },
+      "status": "supported"
+    }
+  ]
+}

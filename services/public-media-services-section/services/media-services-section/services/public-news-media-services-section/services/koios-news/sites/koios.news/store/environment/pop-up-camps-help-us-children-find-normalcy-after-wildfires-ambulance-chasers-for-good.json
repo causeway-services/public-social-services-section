@@ -1,0 +1,69 @@
+{
+  "subject": "pop-up-camps-help-us-children-find-normalcy-after-wildfires-ambulance-chasers-for-good",
+  "claims": [
+    {
+      "id": "title",
+      "proposition": {
+        "predicate": "title",
+        "object": "Pop-up camps help US children find normalcy after wildfires: ‘ambulance chasers for good’"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "environment",
+        "citation": "https://www.theguardian.com/us-news/2026/sep/02/project-camp-spokane-wildfire-recovery"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "url",
+      "proposition": {
+        "predicate": "url",
+        "object": "https://www.theguardian.com/us-news/2026/sep/02/project-camp-spokane-wildfire-recovery"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "environment",
+        "citation": "https://www.theguardian.com/us-news/2026/sep/02/project-camp-spokane-wildfire-recovery"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "summary",
+      "proposition": {
+        "predicate": "summary",
+        "object": "<p>Providers like Project:Camp offer emergency education and care to families in Washington state as climate change brings more destructive weather</p><p>One week after evacuating from the wildfires that devastated parts of this eastern Washington city, Mareesha Backman handed over her youngest son to a stranger and took her first deep breath of relief.</p><p>Spokane public schools was hosting what has become a growing part of disaster response: a day camp for children of survivors. Backman showed up that first day feeling “stunned”, she said: hot, poorly showered and underslept. Thanks to the camp’s volunteers, she was able to go to a doctor’s appointment, run errands and simply sit in the air-conditioned quiet of a friend’s home.</p> <a href=\"https://www.theguardian.com/us-news/2026/sep/02/project-camp-spokane-wildfire-recovery\">Continue reading...</a>"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "environment",
+        "citation": "https://www.theguardian.com/us-news/2026/sep/02/project-camp-spokane-wildfire-recovery"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "published",
+      "proposition": {
+        "predicate": "published",
+        "object": "Wed, 02 Sep 2026 14:00:26 GMT"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "environment",
+        "citation": "https://www.theguardian.com/us-news/2026/sep/02/project-camp-spokane-wildfire-recovery"
+      },
+      "status": "supported"
+    }
+  ]
+}

@@ -1,0 +1,69 @@
+{
+  "subject": "jack-o-connell-s-ruthless-tabloid-editor-in-ink-fires-up-venice-as-danny-boyle-drama-earns-warm",
+  "claims": [
+    {
+      "id": "title",
+      "proposition": {
+        "predicate": "title",
+        "object": "Jack O’Connell’s Ruthless Tabloid Editor in ‘Ink’ Fires Up Venice as Danny Boyle Drama Earns Warm 4-Minute Ovation"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "entertainment",
+        "citation": "https://variety.com/2026/film/festivals/jack-oconnell-danny-boyle-ink-venice-premiere-1236836393/"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "url",
+      "proposition": {
+        "predicate": "url",
+        "object": "https://variety.com/2026/film/festivals/jack-oconnell-danny-boyle-ink-venice-premiere-1236836393/"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "entertainment",
+        "citation": "https://variety.com/2026/film/festivals/jack-oconnell-danny-boyle-ink-venice-premiere-1236836393/"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "summary",
+      "proposition": {
+        "predicate": "summary",
+        "object": "Venice Film Festival kicked off on Wednesday night with the splashy premiere of “Ink,” an explosive drama from director Danny Boyle about the rise of Rupert Murdoch’s tabloid empire. The film, which stars Jack O’Connell as The Sun editor Larry Lamb and Guy Pearce as media mogul Rupert Murdoch, was met with a short-but-sweet standing […]"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "entertainment",
+        "citation": "https://variety.com/2026/film/festivals/jack-oconnell-danny-boyle-ink-venice-premiere-1236836393/"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "published",
+      "proposition": {
+        "predicate": "published",
+        "object": "Wed, 02 Sep 2026 20:21:28 +0000"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "entertainment",
+        "citation": "https://variety.com/2026/film/festivals/jack-oconnell-danny-boyle-ink-venice-premiere-1236836393/"
+      },
+      "status": "supported"
+    }
+  ]
+}

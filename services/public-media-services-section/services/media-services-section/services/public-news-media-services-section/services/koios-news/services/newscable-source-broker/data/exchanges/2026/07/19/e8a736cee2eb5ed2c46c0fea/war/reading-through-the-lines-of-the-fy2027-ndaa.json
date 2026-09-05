@@ -1,0 +1,69 @@
+{
+  "subject": "reading-through-the-lines-of-the-fy2027-ndaa",
+  "claims": [
+    {
+      "id": "title",
+      "proposition": {
+        "predicate": "title",
+        "object": "Reading through the Lines of the FY2027 NDAA"
+      },
+      "time": {
+        "asserted": "2026-07-19T14:42:01.529Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "war",
+        "citation": "https://warontherocks.com/cogs-of-war/reading-through-the-lines-of-the-fy2027-ndaa/"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "url",
+      "proposition": {
+        "predicate": "url",
+        "object": "https://warontherocks.com/cogs-of-war/reading-through-the-lines-of-the-fy2027-ndaa/"
+      },
+      "time": {
+        "asserted": "2026-07-19T14:42:01.529Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "war",
+        "citation": "https://warontherocks.com/cogs-of-war/reading-through-the-lines-of-the-fy2027-ndaa/"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "summary",
+      "proposition": {
+        "predicate": "summary",
+        "object": "The relationship between Congress and the Pentagon over the past year has been marked by public disagreements and frustrations over lawmakers’ concerns about the Iran War, and by what some lawmakers view as politically motivated firings of top military leaders. In many ways, the House and Senate versions of the Fiscal Year 2027 National Defense Authorization Act reflect lawmakers’ efforts to check the Pentagon’s policy power.Innovation efforts are generally a bright spot in these political battles. While the reforms proposed this year across the chambers were more modest than last year’s transformational SPEED and FoRGED Acts, lawmakers continue to advance The post Reading through the Lines of the FY2027 NDAA appeared first on War on the Rocks ."
+      },
+      "time": {
+        "asserted": "2026-07-19T14:42:01.529Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "war",
+        "citation": "https://warontherocks.com/cogs-of-war/reading-through-the-lines-of-the-fy2027-ndaa/"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "published",
+      "proposition": {
+        "predicate": "published",
+        "object": "Thu, 16 Jul 2026 08:00:11 +0000"
+      },
+      "time": {
+        "asserted": "2026-07-19T14:42:01.529Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "war",
+        "citation": "https://warontherocks.com/cogs-of-war/reading-through-the-lines-of-the-fy2027-ndaa/"
+      },
+      "status": "supported"
+    }
+  ]
+}

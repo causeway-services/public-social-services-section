@@ -1,0 +1,69 @@
+{
+  "subject": "john-oliver-on-redistricting-putting-a-thumb-on-the-scale-of-who-gets-elected",
+  "claims": [
+    {
+      "id": "title",
+      "proposition": {
+        "predicate": "title",
+        "object": "John Oliver on redistricting: ‘putting a thumb on the scale of who gets elected’"
+      },
+      "time": {
+        "asserted": "2026-07-19T15:04:21.677Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "culture",
+        "citation": "https://www.theguardian.com/tv-and-radio/2026/jun/29/john-oliver-redistricting-gerrymandering-louisiana"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "url",
+      "proposition": {
+        "predicate": "url",
+        "object": "https://www.theguardian.com/tv-and-radio/2026/jun/29/john-oliver-redistricting-gerrymandering-louisiana"
+      },
+      "time": {
+        "asserted": "2026-07-19T15:04:21.677Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "culture",
+        "citation": "https://www.theguardian.com/tv-and-radio/2026/jun/29/john-oliver-redistricting-gerrymandering-louisiana"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "summary",
+      "proposition": {
+        "predicate": "summary",
+        "object": "<p>The host discussed recent limits to the Voting Rights Act and Trump’s efforts to dissolve majority Black districts</p><p>On Sunday night’s episode of his HBO show, <a href=\"https://www.theguardian.com/tv-and-radio/john-oliver\">John Oliver</a> focused on the fight over redistricting that has been “raging” across the US as the midterms approach later this year.</p><p>In Texas, Republicans currently hold 25 out of 38 congressional seats and proposed redistricting could see that number rise to 30. California has voted in favor of Proposition 50, redrawing districts in a way that could cost Republicans five seats next year, while redistricting is also set to happen in Missouri and Louisiana.</p> <a href=\"https://www.theguardian.com/tv-and-radio/2026/jun/29/john-oliver-redistricting-gerrymandering-louisiana\">Continue reading...</a>"
+      },
+      "time": {
+        "asserted": "2026-07-19T15:04:21.677Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "culture",
+        "citation": "https://www.theguardian.com/tv-and-radio/2026/jun/29/john-oliver-redistricting-gerrymandering-louisiana"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "published",
+      "proposition": {
+        "predicate": "published",
+        "object": "Mon, 29 Jun 2026 15:39:03 GMT"
+      },
+      "time": {
+        "asserted": "2026-07-19T15:04:21.677Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "culture",
+        "citation": "https://www.theguardian.com/tv-and-radio/2026/jun/29/john-oliver-redistricting-gerrymandering-louisiana"
+      },
+      "status": "supported"
+    }
+  ]
+}

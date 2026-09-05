@@ -1,0 +1,53 @@
+{
+  "schema": "corpus-normalization/legacy-disposition/v1",
+  "recordedAt": "2026-08-19",
+  "family": "@emsenn/independent-editorial-assessment",
+  "owner": "public-news-media-services-section",
+  "ownerEvidence": {
+    "candidatePackage": "@emsenn/independent-editorial-assessment@0.1.0",
+    "activeKoiosProvider": "@causeway-services/independent-editorial-assessment@0.1.5",
+    "consequence": "The @emsenn family belongs in the Public News Media legacy library; the Koios-contained witness remains in its cohesive Koios snapshot."
+  },
+  "comparisonWitness": {
+    "path": "services/koios-news/lib/legacy/2026-07-20-koios-news-service-section/services/independent-editorial-assessment",
+    "treeSha256": "72100f6b4811b416cfb0796fb7af6517890151c6c9f0cd9b4fc3e914aaba6cde",
+    "disposition": "retained-in-place-as-cohesive-koios-history"
+  },
+  "dispositions": [
+    {
+      "source": "lib/emsenn/services/561-group/lib/legacy/2026-08-17-vps-services/.carrier-backups/20260719T0536Z/independent-editorial-assessment",
+      "destination": "lib/legacy/2026-07-19-independent-editorial-assessment-pre-v2",
+      "sourceTreeSha256": "31c8bf9fb1e225a3f5408db3f5aa4ff9fe31d735be8d6b36cabe9d3e4f702940",
+      "finalTreeSha256": "31c8bf9fb1e225a3f5408db3f5aa4ff9fe31d735be8d6b36cabe9d3e4f702940",
+      "disposition": "retained-distinct-state",
+      "dateEvidence": "20260719T0536Z carrier ancestry and append-only 2026-07-19 event evidence"
+    },
+    {
+      "source": "lib/emsenn/services/561-group/lib/legacy/2026-08-17-vps-services/.incoming/editorial-assessment-v2.tgz",
+      "destination": "lib/legacy/2026-07-19-independent-editorial-assessment-v2",
+      "carrierSha256": "a30fe001617393cb2cdcdb0d1247820211a299be35c00e776975274f1bd39ae8",
+      "sourceTreeSha256": "2258e9f8592de0d5d5db1aef36c6e75855f5c357f532797f969713c10b5d3897",
+      "finalTreeSha256": "2258e9f8592de0d5d5db1aef36c6e75855f5c357f532797f969713c10b5d3897",
+      "disposition": "unpacked-and-retained-distinct-state",
+      "dateEvidence": "carrier mtime and all tar members: 2026-07-19"
+    },
+    {
+      "source": "lib/emsenn/services/561-group/lib/legacy/2026-08-17-vps-services/independent-editorial-assessment",
+      "destination": "lib/legacy/2026-07-20-independent-editorial-assessment-rwil",
+      "sourceTreeSha256": "41cb0f5295e85c2c0cc2de30377bdd68bca658781d8ccbb5c96b0ce20b3dbb4b",
+      "finalTreeSha256": "2d37461275016b25304b3711a001ebbbad16400cec814cc0ddf5953dfba96756",
+      "disposition": "retained-distinct-state-with-form-normalization",
+      "dateEvidence": "source files and append-only evidence dated 2026-07-20",
+      "normalization": "Moved the nonidentical .deploy-tmp implementation to content/assets/legacy/deployment-temporary so it remains preserved without process-directory topology."
+    }
+  ],
+  "retiredAfterCoverage": [
+    "lib/emsenn/services/561-group/lib/legacy/2026-08-17-vps-services/.incoming/editorial-assessment-v2.tgz"
+  ],
+  "verification": {
+    "byteManifests": "all three destination trees snapshot and verify",
+    "syntax": "node --check for the two small states; npm run check for the RWIL state",
+    "legacyValidator": { "errors": 0, "sharedPayloadReviewWarnings": 3 },
+    "oldAddressReferences": 0
+  }
+}

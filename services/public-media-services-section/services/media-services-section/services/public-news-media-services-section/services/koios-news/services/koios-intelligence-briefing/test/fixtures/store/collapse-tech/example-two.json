@@ -1,0 +1,21 @@
+{
+  "subject": "example-two",
+  "claims": [
+    {
+      "id": "title",
+      "proposition": { "predicate": "title", "object": "Example Two" },
+      "time": { "asserted": "2026-06-20T00:00:00.000Z" },
+      "force": "alleges",
+      "provenance": { "witness": "collapse-tech", "citation": "https://example.test/two" },
+      "status": "supported"
+    },
+    {
+      "id": "url",
+      "proposition": { "predicate": "url", "object": "https://example.test/two" },
+      "time": { "asserted": "2026-06-20T00:00:00.000Z" },
+      "force": "alleges",
+      "provenance": { "witness": "collapse-tech", "citation": "https://example.test/two" },
+      "status": "supported"
+    }
+  ]
+}

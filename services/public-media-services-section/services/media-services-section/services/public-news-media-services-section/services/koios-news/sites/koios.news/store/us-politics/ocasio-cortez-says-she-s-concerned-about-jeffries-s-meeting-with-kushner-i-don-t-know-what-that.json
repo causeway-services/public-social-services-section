@@ -1,0 +1,69 @@
+{
+  "subject": "ocasio-cortez-says-she-s-concerned-about-jeffries-s-meeting-with-kushner-i-don-t-know-what-that",
+  "claims": [
+    {
+      "id": "title",
+      "proposition": {
+        "predicate": "title",
+        "object": "Ocasio-Cortez says she’s concerned about Jeffries’s meeting with Kushner: ‘I don’t know what that was about’"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "us-politics",
+        "citation": "https://thehill.com/homenews/house/6067762-aoc-criticizes-jeffries-kushner-meeting/"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "url",
+      "proposition": {
+        "predicate": "url",
+        "object": "https://thehill.com/homenews/house/6067762-aoc-criticizes-jeffries-kushner-meeting/"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "us-politics",
+        "citation": "https://thehill.com/homenews/house/6067762-aoc-criticizes-jeffries-kushner-meeting/"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "summary",
+      "proposition": {
+        "predicate": "summary",
+        "object": "Rep. Alexandria Ocasio-Cortez (D-N.Y.) voiced her concern over a meeting between House Minority Leader Hakeem Jeffries (D-N.Y.) and Jared Kushner, President Trump’s son-in-law. While walking near the Capitol, Ocasio-Cortez was asked if she was “concerned with” Jeffries’s meeting with Kushner. “Yeah,” she said before laughing. “I don’t know what that was about.” The New York…"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "us-politics",
+        "citation": "https://thehill.com/homenews/house/6067762-aoc-criticizes-jeffries-kushner-meeting/"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "published",
+      "proposition": {
+        "predicate": "published",
+        "object": "Wed, 02 Sep 2026 22:39:51 +0000"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "us-politics",
+        "citation": "https://thehill.com/homenews/house/6067762-aoc-criticizes-jeffries-kushner-meeting/"
+      },
+      "status": "supported"
+    }
+  ]
+}

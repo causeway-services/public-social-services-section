@@ -1,0 +1,69 @@
+{
+  "subject": "how-trump-and-his-administration-have-mired-the-us-in-multiple-crises",
+  "claims": [
+    {
+      "id": "title",
+      "proposition": {
+        "predicate": "title",
+        "object": "How Trump and his administration have mired the US in multiple crises"
+      },
+      "time": {
+        "asserted": "2026-07-19T15:04:04.072Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "environment",
+        "citation": "https://www.theguardian.com/us-news/2026/jul/19/how-trump-and-his-administration-have-mired-the-us-in-multiple-crises"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "url",
+      "proposition": {
+        "predicate": "url",
+        "object": "https://www.theguardian.com/us-news/2026/jul/19/how-trump-and-his-administration-have-mired-the-us-in-multiple-crises"
+      },
+      "time": {
+        "asserted": "2026-07-19T15:04:04.072Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "environment",
+        "citation": "https://www.theguardian.com/us-news/2026/jul/19/how-trump-and-his-administration-have-mired-the-us-in-multiple-crises"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "summary",
+      "proposition": {
+        "predicate": "summary",
+        "object": "<p>From manufactured election insecurity to an outbreak of ‘explosive’ diarrhea, Americans are bearing the brunt of harmful policies</p><p>Between widespread cuts to vital government agencies, various disease and illness outbreaks, and new environmental disaster vulnerabilities, the United States is facing a convergence of crises with widespread repercussions.</p><p>Yet the Trump administration has hamstrung the federal government from addressing these crises – and in some cases is actively fanning them. Over the past year, the administration has moved to <a href=\"https://www.theguardian.com/us-news/2025/jun/10/trump-fires-usaid-overseas-employees\">shrink the federal workforce</a>, roll back <a href=\"https://www.npr.org/2026/07/11/nx-s1-5890025/trump-administration-imperiled-wildlife\">environmental protections</a> and policies intended to fight the <a href=\"https://www.pbs.org/newshour/show/trump-rolls-back-landmark-policy-regulating-greenhouse-emissions\">climate crisis</a>, reduced <a href=\"https://www.nytimes.com/2026/05/29/us/politics/trump-university-research-funding.html\">funding</a> for <a href=\"https://www.nytimes.com/interactive/2025/12/02/upshot/trump-science-funding-cuts.html\">scientific research</a> and is seeking to advance legislation that would impose new voting restrictions.</p> <a href=\"https://www.theguardian.com/us-news/2026/jul/19/how-trump-and-his-administration-have-mired-the-us-in-multiple-crises\">Continue reading...</a>"
+      },
+      "time": {
+        "asserted": "2026-07-19T15:04:04.072Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "environment",
+        "citation": "https://www.theguardian.com/us-news/2026/jul/19/how-trump-and-his-administration-have-mired-the-us-in-multiple-crises"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "published",
+      "proposition": {
+        "predicate": "published",
+        "object": "Sun, 19 Jul 2026 11:00:25 GMT"
+      },
+      "time": {
+        "asserted": "2026-07-19T15:04:04.072Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "environment",
+        "citation": "https://www.theguardian.com/us-news/2026/jul/19/how-trump-and-his-administration-have-mired-the-us-in-multiple-crises"
+      },
+      "status": "supported"
+    }
+  ]
+}

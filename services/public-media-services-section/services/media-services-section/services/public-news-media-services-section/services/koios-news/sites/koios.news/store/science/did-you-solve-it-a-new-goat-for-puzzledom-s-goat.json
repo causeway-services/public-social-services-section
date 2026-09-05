@@ -1,0 +1,69 @@
+{
+  "subject": "did-you-solve-it-a-new-goat-for-puzzledom-s-goat",
+  "claims": [
+    {
+      "id": "title",
+      "proposition": {
+        "predicate": "title",
+        "object": "Did you solve it? A new goat for puzzledom’s GOAT"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "science",
+        "citation": "https://www.theguardian.com/science/2026/aug/17/did-you-solve-it-a-new-goat-for-puzzledoms-goat"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "url",
+      "proposition": {
+        "predicate": "url",
+        "object": "https://www.theguardian.com/science/2026/aug/17/did-you-solve-it-a-new-goat-for-puzzledoms-goat"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "science",
+        "citation": "https://www.theguardian.com/science/2026/aug/17/did-you-solve-it-a-new-goat-for-puzzledoms-goat"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "summary",
+      "proposition": {
+        "predicate": "summary",
+        "object": "<p>The solution to today’s puzzle</p><p>Earlier today I set you a new twist on the Monty Hall problem, which is (according to AI) the most discussed recreational maths puzzle in history.</p><p>The standard Monty Hall problem is as follows:</p> <a href=\"https://www.theguardian.com/science/2026/aug/17/did-you-solve-it-a-new-goat-for-puzzledoms-goat\">Continue reading...</a>"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "science",
+        "citation": "https://www.theguardian.com/science/2026/aug/17/did-you-solve-it-a-new-goat-for-puzzledoms-goat"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "published",
+      "proposition": {
+        "predicate": "published",
+        "object": "Mon, 17 Aug 2026 16:00:01 GMT"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "science",
+        "citation": "https://www.theguardian.com/science/2026/aug/17/did-you-solve-it-a-new-goat-for-puzzledoms-goat"
+      },
+      "status": "supported"
+    }
+  ]
+}

@@ -1,0 +1,69 @@
+{
+  "subject": "clippers-docked-five-first-round-picks-fined-30m",
+  "claims": [
+    {
+      "id": "title",
+      "proposition": {
+        "predicate": "title",
+        "object": "Clippers docked five first-round picks, fined $30M"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "sport",
+        "citation": "https://www.espn.com/nba/story/_/id/49806356/nba-announces-punishments-clippers-kawhi-probe"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "url",
+      "proposition": {
+        "predicate": "url",
+        "object": "https://www.espn.com/nba/story/_/id/49806356/nba-announces-punishments-clippers-kawhi-probe"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "sport",
+        "citation": "https://www.espn.com/nba/story/_/id/49806356/nba-announces-punishments-clippers-kawhi-probe"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "summary",
+      "proposition": {
+        "predicate": "summary",
+        "object": "As a result of the investigation into the team's signing of Kawhi Leonard, the NBA docked the Clippers 5 1st-round picks, fined them $30M and suspended owner Steve Ballmer for 1 year. The Clippers plan to challenge the findings \"through every avenue.\""
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "sport",
+        "citation": "https://www.espn.com/nba/story/_/id/49806356/nba-announces-punishments-clippers-kawhi-probe"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "published",
+      "proposition": {
+        "predicate": "published",
+        "object": "Wed, 2 Sep 2026 19:06:30 EST"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "sport",
+        "citation": "https://www.espn.com/nba/story/_/id/49806356/nba-announces-punishments-clippers-kawhi-probe"
+      },
+      "status": "supported"
+    }
+  ]
+}

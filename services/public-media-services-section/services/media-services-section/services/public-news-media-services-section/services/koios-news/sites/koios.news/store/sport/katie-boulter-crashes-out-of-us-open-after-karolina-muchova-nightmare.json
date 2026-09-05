@@ -1,0 +1,69 @@
+{
+  "subject": "katie-boulter-crashes-out-of-us-open-after-karolina-muchova-nightmare",
+  "claims": [
+    {
+      "id": "title",
+      "proposition": {
+        "predicate": "title",
+        "object": "Katie Boulter crashes out of US Open after Karolina Muchova nightmare"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "sport",
+        "citation": "https://www.theguardian.com/sport/2026/sep/02/katie-boulter-us-open-second-round-karolina-muchova-tennis"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "url",
+      "proposition": {
+        "predicate": "url",
+        "object": "https://www.theguardian.com/sport/2026/sep/02/katie-boulter-us-open-second-round-karolina-muchova-tennis"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "sport",
+        "citation": "https://www.theguardian.com/sport/2026/sep/02/katie-boulter-us-open-second-round-karolina-muchova-tennis"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "summary",
+      "proposition": {
+        "predicate": "summary",
+        "object": "<ul><li><p>British No 1 outclassed 6-1, 6-0 in second round</p></li><li><p>Francesca Jones claims big win over Magda Linette</p></li></ul><p>With the grounds of the Billie Jean King National Tennis Centre at a standstill in the middle of a furious downpour and all eyes on the only two stadium courts under retractable roofs, there was nowhere for Katie Boulter to hide as her grand slam season came to a bitter end with an excruciating 6-1, 6-0 beating by the seventh seed, Karolina Muchova, in the second round of the US Open.</p><p>Boulter and Muchova had initially been scheduled to compete on Court 17 after the men’s first round match between the rising star Rafael Jodar and Yunchaokete Bu, but as heavy rain suspended play Boulter and Muchova were quickly moved to Louis Armstrong Stadium. She was completely outclassed by a sublime Muchova, who employed her usual brand of silky shotmaking and all-court tennis.</p> <a href=\"https://www.theguardian.com/sport/2026/sep/02/katie-boulter-us-open-second-round-karolina-muchova-tennis\">Continue reading...</a>"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "sport",
+        "citation": "https://www.theguardian.com/sport/2026/sep/02/katie-boulter-us-open-second-round-karolina-muchova-tennis"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "published",
+      "proposition": {
+        "predicate": "published",
+        "object": "Wed, 02 Sep 2026 21:20:33 GMT"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "sport",
+        "citation": "https://www.theguardian.com/sport/2026/sep/02/katie-boulter-us-open-second-round-karolina-muchova-tennis"
+      },
+      "status": "supported"
+    }
+  ]
+}

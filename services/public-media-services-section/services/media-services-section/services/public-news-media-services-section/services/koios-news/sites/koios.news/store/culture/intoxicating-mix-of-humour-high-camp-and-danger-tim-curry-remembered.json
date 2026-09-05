@@ -1,0 +1,69 @@
+{
+  "subject": "intoxicating-mix-of-humour-high-camp-and-danger-tim-curry-remembered",
+  "claims": [
+    {
+      "id": "title",
+      "proposition": {
+        "predicate": "title",
+        "object": "‘Intoxicating mix of humour, high camp and danger’: Tim Curry remembered"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "culture",
+        "citation": "https://www.theguardian.com/film/2026/sep/02/tim-curry-memories-film-rocky-horror-stephen-king-it"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "url",
+      "proposition": {
+        "predicate": "url",
+        "object": "https://www.theguardian.com/film/2026/sep/02/tim-curry-memories-film-rocky-horror-stephen-king-it"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "culture",
+        "citation": "https://www.theguardian.com/film/2026/sep/02/tim-curry-memories-film-rocky-horror-stephen-king-it"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "summary",
+      "proposition": {
+        "predicate": "summary",
+        "object": "<p>Guardian readers share memories of actor best known for roles in The Rocky Horror Show and Stephen King’s It</p><p>I first saw him in the 1978 series Will Shakespeare, where he played Shakespeare alongside Nicholas Clay. Two very classy actors who, whatever the value of the programme, made me want to know more about the man and his work. Tim Curry always had a glorious glint in his eye which drew you in as if you were the only person who understood. <strong>Margaret Carradus, Lancaster </strong></p> <a href=\"https://www.theguardian.com/film/2026/sep/02/tim-curry-memories-film-rocky-horror-stephen-king-it\">Continue reading...</a>"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "culture",
+        "citation": "https://www.theguardian.com/film/2026/sep/02/tim-curry-memories-film-rocky-horror-stephen-king-it"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "published",
+      "proposition": {
+        "predicate": "published",
+        "object": "Wed, 02 Sep 2026 14:27:09 GMT"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "culture",
+        "citation": "https://www.theguardian.com/film/2026/sep/02/tim-curry-memories-film-rocky-horror-stephen-king-it"
+      },
+      "status": "supported"
+    }
+  ]
+}

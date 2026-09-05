@@ -1,0 +1,69 @@
+{
+  "subject": "with-gemini-3-8-flash-google-reminds-everyone-it-s-still-in-the-race",
+  "claims": [
+    {
+      "id": "title",
+      "proposition": {
+        "predicate": "title",
+        "object": "With Gemini 3.8 Flash, Google reminds everyone it's still in the race"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "technology",
+        "citation": "https://www.theregister.com/ai-and-ml/2026/09/02/with-gemini-38-flash-google-reminds-everyone-its-still-in-the-race/5294049"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "url",
+      "proposition": {
+        "predicate": "url",
+        "object": "https://www.theregister.com/ai-and-ml/2026/09/02/with-gemini-38-flash-google-reminds-everyone-its-still-in-the-race/5294049"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "technology",
+        "citation": "https://www.theregister.com/ai-and-ml/2026/09/02/with-gemini-38-flash-google-reminds-everyone-its-still-in-the-race/5294049"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "summary",
+      "proposition": {
+        "predicate": "summary",
+        "object": "Google on Wednesday announced the release of Gemini 3.8 Flash in an attempt to reclaim its reputation as a top-tier model maker in the process. The company's commitment to the frontier model race has been in doubt since at least early August when Google DeepMind CEO Demis Hassabis stepped down to become chairman of the AI research biz and Koray Kavukcuoglu took over leadership under a less exalted title, SVP. Google CEO Sundar Pichai's reassurances weren't particularly convincing in light of the company's failure to release Gemini 3.5 Pro in June as promised. Nor were they helped by the modest benchmark metrics of Gemini 3.5 Flash, which, while speedy and cost-efficient, have been overshadowed in terms of intelligence scores by open-weight models from Chinese AI companies over the past few months. But Google has been iterating rapidly. Gemini 3.8 Flash is its fourth Flash model in as many months and it has improved enough to be considered alongside the highest scoring models in terms of intelligence while also being performant and relatively affordable – at least until its introductory price ($0.75/M input tokens, $3.75/M output tokens) doubles in the new year. \"Gemini 3.8 Flash delivers substantial gains from 3.7 Flash, often approaching the performance of higher-cost frontier models,\" said Tulsee Doshi, Google senior director of product management, and Raluca Ada Popa, Gemini Security Lead at Google DeepMind, in a blog post. \"On DeepSWE v1.1 (Long-Horizon Software Engineering) 3.8 Flash outperforms most larger frontier models in autonomously solving complex engineering problems end to end, only at a fraction of the cost.\" Gemini 3.8 Flash, set to high reasoning, scores 59 on the Artificial Analysis Intelligence Index, an increase of three points from its predecessor. That puts it level with GPT-5.6 Sol (extra high, 59) and Grok 4.6 (medium, 59). From there, current intelligence rankings, based on nine benchmarks, are: GLM-5.3 (max, 60), Kimi K3 (max, 60), Grok 4.6 (high, 61), GPT-5.6 Sol (max, 61), Claude Opus 5 (max, 63), and Claude Fable 5.1 (max, 66). At $0.58 per Intelligence Index task, Gemini 3.8 Flash is \"the cheapest model at its level of intelligence,\" according to Artificial Analysis. As a point of comparison, Anthropic's latest general usage flagship model, Fable 5.1, costs about 6x more – $3.76 per Intelligence Index task. Gemini 3.8 Flash costs about 40 percent more per task than its similarly priced predecessor because it tends to output more tokens and to execute more turns when acting as an agent. \"3.8 Flash works harder,\" explain Doshi and Popa. \"On complex tasks, it exhibits greater diligence – executing extra reasoning steps, and calling tools iteratively. At times, the model might use more tokens to maximize performance, especially at higher effort levels.\" The two Googlers also note that Gemini 3.8 Flash shows improvements in benchmarks relevant to enterprise knowledge work, like Vals Finance Agent V2, Harvey's Legal Agent Benchmark, and HLE-Verified. Gemini 3.8 Flash is available for developers through Google Antigravity, the Gemini API in Google AI Studio and Android Studio, and interface design service Stitch. Enterprises can use Gemini Enterprise. Consumers with Google AI Pro and Ultra subscriptions can access the model via the Gemini app, AI Mode in Google Search, and Gemini in Google Sheets. Google has also launched the Fairwind Program to provide governments, critical infrastructure organizations, and software maintainers with access to Gemini 3.8 Flash Cyber, a version of the model tuned for software vulnerability hunting and remediation. ®"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "technology",
+        "citation": "https://www.theregister.com/ai-and-ml/2026/09/02/with-gemini-38-flash-google-reminds-everyone-its-still-in-the-race/5294049"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "published",
+      "proposition": {
+        "predicate": "published",
+        "object": "Wed, 02 Sep 2026 21:59:26 +0200"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "technology",
+        "citation": "https://www.theregister.com/ai-and-ml/2026/09/02/with-gemini-38-flash-google-reminds-everyone-its-still-in-the-race/5294049"
+      },
+      "status": "supported"
+    }
+  ]
+}

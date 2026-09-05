@@ -1,0 +1,69 @@
+{
+  "subject": "france-orders-country-s-internet-service-providers-to-block-polymarket",
+  "claims": [
+    {
+      "id": "title",
+      "proposition": {
+        "predicate": "title",
+        "object": "France orders country's internet service providers to block Polymarket"
+      },
+      "time": {
+        "asserted": "2026-07-19T15:04:06.303Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "economy",
+        "citation": "https://www.coindesk.com/policy/2026/07/18/france-orders-country-s-internet-service-providers-to-block-polymarket"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "url",
+      "proposition": {
+        "predicate": "url",
+        "object": "https://www.coindesk.com/policy/2026/07/18/france-orders-country-s-internet-service-providers-to-block-polymarket"
+      },
+      "time": {
+        "asserted": "2026-07-19T15:04:06.303Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "economy",
+        "citation": "https://www.coindesk.com/policy/2026/07/18/france-orders-country-s-internet-service-providers-to-block-polymarket"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "summary",
+      "proposition": {
+        "predicate": "summary",
+        "object": "The regulator cited concerns over addictive mechanics, a lack of self-exclusion tools, and a high volume of French users bypassing previous financial restrictions."
+      },
+      "time": {
+        "asserted": "2026-07-19T15:04:06.303Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "economy",
+        "citation": "https://www.coindesk.com/policy/2026/07/18/france-orders-country-s-internet-service-providers-to-block-polymarket"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "published",
+      "proposition": {
+        "predicate": "published",
+        "object": "Sat, 18 Jul 2026 21:52:18 +0000"
+      },
+      "time": {
+        "asserted": "2026-07-19T15:04:06.303Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "economy",
+        "citation": "https://www.coindesk.com/policy/2026/07/18/france-orders-country-s-internet-service-providers-to-block-polymarket"
+      },
+      "status": "supported"
+    }
+  ]
+}

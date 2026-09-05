@@ -1,0 +1,69 @@
+{
+  "subject": "wessex-water-chief-pockets-above-inflation-pay-rise-despite-bonus-ban-over-sewage-spills",
+  "claims": [
+    {
+      "id": "title",
+      "proposition": {
+        "predicate": "title",
+        "object": "Wessex Water chief pockets above-inflation pay rise despite bonus ban over sewage spills"
+      },
+      "time": {
+        "asserted": "2026-07-19T02:19:57.230Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "economy",
+        "citation": "https://www.theguardian.com/business/2026/jul/18/wessex-water-chief-pay-rise-bonus-ban"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "url",
+      "proposition": {
+        "predicate": "url",
+        "object": "https://www.theguardian.com/business/2026/jul/18/wessex-water-chief-pay-rise-bonus-ban"
+      },
+      "time": {
+        "asserted": "2026-07-19T02:19:57.230Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "economy",
+        "citation": "https://www.theguardian.com/business/2026/jul/18/wessex-water-chief-pay-rise-bonus-ban"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "summary",
+      "proposition": {
+        "predicate": "summary",
+        "object": "<p>CEO’s pay packet surges to £791,000 as union says public ‘sick of obscene pay’ and bosses ‘feathering own nests’</p><p>Wessex Water awarded its chief executive an above-inflation pay increase even as the company was banned from paying bonuses because of sewage spills, it has emerged.</p><p>Ruth Jefferson received a 14% base salary increase in October, from £590,000 to £670,000, before other benefits, according to accounts published this month. It was far above the 3.5% given to workers, and put her pay at 18 times that of the company’s median employee.</p> <a href=\"https://www.theguardian.com/business/2026/jul/18/wessex-water-chief-pay-rise-bonus-ban\">Continue reading...</a>"
+      },
+      "time": {
+        "asserted": "2026-07-19T02:19:57.230Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "economy",
+        "citation": "https://www.theguardian.com/business/2026/jul/18/wessex-water-chief-pay-rise-bonus-ban"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "published",
+      "proposition": {
+        "predicate": "published",
+        "object": "Sat, 18 Jul 2026 07:00:51 GMT"
+      },
+      "time": {
+        "asserted": "2026-07-19T02:19:57.230Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "economy",
+        "citation": "https://www.theguardian.com/business/2026/jul/18/wessex-water-chief-pay-rise-bonus-ban"
+      },
+      "status": "supported"
+    }
+  ]
+}

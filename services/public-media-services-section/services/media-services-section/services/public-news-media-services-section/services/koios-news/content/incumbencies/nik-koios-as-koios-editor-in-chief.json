@@ -1,0 +1,14 @@
+{
+  "id": "nik-koios-as-koios-editor-in-chief",
+  "office": "koios-editor-in-chief",
+  "holder": "nik-koios",
+  "recognition": "t",
+  "induction": "t",
+  "from": "2026-09-02",
+  "x-provenance": {
+    "recorded-by": "claude-fable-5-1",
+    "recorded-on": "2026-09-02",
+    "office-source": "engineering-services-section/services/media-engineering-services-section/services/news-media-engineering-services-section/content/text/documents/articles/specifications/2026-09-02-news-property-specification.md",
+    "basis": "News Property Specification §6 seats the editor-in-chief office; the holder is the pre-existing Koios editorial persona (nik-koios.md), an artificial person credited across koios.news as Editor-in-Chief since February 2025, now given a conformant character record so the incumbency can seat it."
+  }
+}

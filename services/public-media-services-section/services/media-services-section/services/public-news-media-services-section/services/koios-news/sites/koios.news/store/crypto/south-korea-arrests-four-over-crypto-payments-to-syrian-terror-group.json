@@ -1,0 +1,69 @@
+{
+  "subject": "south-korea-arrests-four-over-crypto-payments-to-syrian-terror-group",
+  "claims": [
+    {
+      "id": "title",
+      "proposition": {
+        "predicate": "title",
+        "object": "South Korea Arrests Four Over Crypto Payments to Syrian Terror Group"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "crypto",
+        "citation": "https://decrypt.co/377015/south-korea-arrests-four-over-crypto-payments-to-syrian-terror-group"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "url",
+      "proposition": {
+        "predicate": "url",
+        "object": "https://decrypt.co/377015/south-korea-arrests-four-over-crypto-payments-to-syrian-terror-group"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "crypto",
+        "citation": "https://decrypt.co/377015/south-korea-arrests-four-over-crypto-payments-to-syrian-terror-group"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "summary",
+      "proposition": {
+        "predicate": "summary",
+        "object": "Police say the ringleader also took crypto from the group and sent back 11 used cars and two excavators, a first for Korean investigators."
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "crypto",
+        "citation": "https://decrypt.co/377015/south-korea-arrests-four-over-crypto-payments-to-syrian-terror-group"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "published",
+      "proposition": {
+        "predicate": "published",
+        "object": "Tue, 01 Sep 2026 12:16:24 +0000"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "crypto",
+        "citation": "https://decrypt.co/377015/south-korea-arrests-four-over-crypto-payments-to-syrian-terror-group"
+      },
+      "status": "supported"
+    }
+  ]
+}

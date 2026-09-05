@@ -1,0 +1,69 @@
+{
+  "subject": "andy-burnham-targets-migrant-crisis-ahead-of-macron-s-visit-to-no-10",
+  "claims": [
+    {
+      "id": "title",
+      "proposition": {
+        "predicate": "title",
+        "object": "Andy Burnham targets migrant crisis ahead of Macron’s visit to No 10"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "world",
+        "citation": "https://www.theguardian.com/politics/2026/sep/02/andy-burnham-migrant-crisis-macron-downing-street"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "url",
+      "proposition": {
+        "predicate": "url",
+        "object": "https://www.theguardian.com/politics/2026/sep/02/andy-burnham-migrant-crisis-macron-downing-street"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "world",
+        "citation": "https://www.theguardian.com/politics/2026/sep/02/andy-burnham-migrant-crisis-macron-downing-street"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "summary",
+      "proposition": {
+        "predicate": "summary",
+        "object": "<p>PM will aim to centre talks with French president on key foreign policy issues such as Iran, smuggling gangs and EU relations</p><p>Andy Burnham will begin the process of courting European leaders when he welcomes Emmanuel Macron as the first foreign head of state to visit him in Downing Street.</p><p>The prime minister will meet the French president at No 10 on Thursday as he looks to make inroads on a number of foreign policy objectives, including curbing irregular migration and sealing a new deal with the EU.</p> <a href=\"https://www.theguardian.com/politics/2026/sep/02/andy-burnham-migrant-crisis-macron-downing-street\">Continue reading...</a>"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "world",
+        "citation": "https://www.theguardian.com/politics/2026/sep/02/andy-burnham-migrant-crisis-macron-downing-street"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "published",
+      "proposition": {
+        "predicate": "published",
+        "object": "Wed, 02 Sep 2026 21:30:35 GMT"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "world",
+        "citation": "https://www.theguardian.com/politics/2026/sep/02/andy-burnham-migrant-crisis-macron-downing-street"
+      },
+      "status": "supported"
+    }
+  ]
+}

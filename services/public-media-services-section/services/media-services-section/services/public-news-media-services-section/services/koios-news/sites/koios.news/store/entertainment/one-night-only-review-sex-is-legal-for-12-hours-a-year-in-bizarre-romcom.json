@@ -1,0 +1,69 @@
+{
+  "subject": "one-night-only-review-sex-is-legal-for-12-hours-a-year-in-bizarre-romcom",
+  "claims": [
+    {
+      "id": "title",
+      "proposition": {
+        "predicate": "title",
+        "object": "One Night Only review – sex is legal for 12 hours a year in bizarre romcom"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "entertainment",
+        "citation": "https://www.theguardian.com/film/2026/aug/05/one-night-only-movie-review"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "url",
+      "proposition": {
+        "predicate": "url",
+        "object": "https://www.theguardian.com/film/2026/aug/05/one-night-only-movie-review"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "entertainment",
+        "citation": "https://www.theguardian.com/film/2026/aug/05/one-night-only-movie-review"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "summary",
+      "proposition": {
+        "predicate": "summary",
+        "object": "<p>‘What if The Purge was for premarital sex?’ is the odd, gimmicky elevator pitch for this slickly made yet ungainly oddity that can’t quite get past the grimness of its conceit</p><p>Going into a romcom, there are always the same questions. Will there be genuine chemistry? Will the rom and the com be equal in parts? And, for the last decade and change, will this be the one that finally resurrects a genre long past its prime? But for Universal’s glossy late summer offering <a href=\"https://www.theguardian.com/film/2026/apr/30/the-purge-but-for-sex-one-night-only-trailer\">One Night Only</a>, notably the first wide-releasing romcom <a href=\"https://www.theguardian.com/film/2026/apr/09/you-me-tuscany-romcom-review\">since April</a>, there are more probing questions than usual. The film is the ungainly result of a four-cocktails-in elevator pitch which imagines a world where single people are only legally allowed to have sex on one night of the year, an idea that has seen it been referred to as “Sex Purge”.</p><p>On paper, it’s the set-up for a grim <a href=\"https://www.theguardian.com/tv-and-radio/the-handmaids-tale\">Handmaid’s Tale</a>-adjacent horror of a totalitarian state insisting extreme control over the body, but instead it’s used as the backdrop for a sunny meet-cute, screams of protest drowned out by a zippy Top 40 soundtrack. One sits down wondering not just if boy will end up with girl but also how the government would be able to enforce such tyranny and what horrifying punishments lay in store for those willing to pick personal freedom over state-mandated abstinence. If it sounds like far too much for a breezy summer romp to take on, then that’s because it most definitely is, an overstuffed yet undercooked soufflé that can’t quite, ahem, rise to the occasion …</p> <a href=\"https://www.theguardian.com/film/2026/aug/05/one-night-only-movie-review\">Continue reading...</a>"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "entertainment",
+        "citation": "https://www.theguardian.com/film/2026/aug/05/one-night-only-movie-review"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "published",
+      "proposition": {
+        "predicate": "published",
+        "object": "Wed, 05 Aug 2026 16:00:22 GMT"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "entertainment",
+        "citation": "https://www.theguardian.com/film/2026/aug/05/one-night-only-movie-review"
+      },
+      "status": "supported"
+    }
+  ]
+}

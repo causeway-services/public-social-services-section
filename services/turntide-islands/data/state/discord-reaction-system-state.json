@@ -1,0 +1,616 @@
+{
+  "type": "TTIDiscordReactionSystemState",
+  "version": 1,
+  "observedAt": "2026-08-29T23:14:31.709Z",
+  "completeness": "complete",
+  "source": {
+    "kind": "discord-rest-read-only",
+    "apiVersion": 10,
+    "methods": [
+      "GET"
+    ],
+    "endpoints": [
+      "/guilds/1184863861065658419",
+      "/guilds/1184863861065658419/channels",
+      "/guilds/1184863861065658419/roles",
+      "/guilds/1184863861065658419/integrations",
+      "/users/@me",
+      "/channels/1184864166142558349/messages/1184869680033321001",
+      "/channels/1346508996667768853/messages/1346509165798887538"
+    ],
+    "excludes": [
+      "reaction-users",
+      "members",
+      "message-history",
+      "ordinary-message-content",
+      "tokens",
+      "writes"
+    ],
+    "limitations": []
+  },
+  "guild": {
+    "id": "1184863861065658419",
+    "name": "Turntide Islands",
+    "ownerId": "681333902740160598"
+  },
+  "currentBot": {
+    "id": "1346540684810915973",
+    "username": "Zelo",
+    "bot": true
+  },
+  "integrations": [
+    {
+      "id": "1346503695034224660",
+      "name": "carl-bot",
+      "type": "discord",
+      "enabled": true,
+      "applicationId": "235148962103951360",
+      "botId": "235148962103951360",
+      "botUsername": "Carl-bot",
+      "installedAt": "2025-03-04T15:24:57.725Z"
+    },
+    {
+      "id": "1543363757529366548",
+      "name": "PluralKit",
+      "type": "discord",
+      "enabled": true,
+      "applicationId": "466378653216014359",
+      "botId": "466378653216014359",
+      "botUsername": "PluralKit",
+      "installedAt": "2026-08-29T20:56:34.107Z"
+    },
+    {
+      "id": "1346544912379678811",
+      "name": "Zelo",
+      "type": "discord",
+      "enabled": true,
+      "applicationId": "1346540684810915973",
+      "botId": "1346540684810915973",
+      "botUsername": "Zelo",
+      "installedAt": "2025-03-04T18:08:44.706Z"
+    }
+  ],
+  "roles": [
+    {
+      "id": "1543363758150385696",
+      "name": "PluralKit",
+      "managed": true,
+      "position": 1,
+      "permissions": "536995904",
+      "botId": "466378653216014359"
+    },
+    {
+      "id": "1346544912379678815",
+      "name": "Zelo",
+      "managed": true,
+      "position": 15,
+      "permissions": "8864262743130111",
+      "botId": "1346540684810915973"
+    },
+    {
+      "id": "1346503695034224663",
+      "name": "carl-bot",
+      "managed": true,
+      "position": 17,
+      "permissions": "2213805119",
+      "botId": "235148962103951360"
+    },
+    {
+      "id": "1346510849904480307",
+      "name": "techie",
+      "managed": false,
+      "position": 19,
+      "permissions": "0",
+      "botId": null
+    },
+    {
+      "id": "1346510818958643301",
+      "name": "governance-observer",
+      "managed": false,
+      "position": 20,
+      "permissions": "0",
+      "botId": null
+    },
+    {
+      "id": "1346510930036527114",
+      "name": "econie",
+      "managed": false,
+      "position": 21,
+      "permissions": "0",
+      "botId": null
+    },
+    {
+      "id": "1346510772297273345",
+      "name": "doer",
+      "managed": false,
+      "position": 22,
+      "permissions": "0",
+      "botId": null
+    },
+    {
+      "id": "1346505118467756062",
+      "name": "visitor",
+      "managed": false,
+      "position": 23,
+      "permissions": "3072",
+      "botId": null
+    },
+    {
+      "id": "1184867019988947065",
+      "name": "islander",
+      "managed": false,
+      "position": 24,
+      "permissions": "18720822927367",
+      "botId": null
+    }
+  ],
+  "channels": [
+    {
+      "id": "1346508996667768853",
+      "name": "channel-visas",
+      "type": 0,
+      "parentId": "1184863981115031582",
+      "topic": null,
+      "permissionOverwrites": [
+        {
+          "targetType": "role",
+          "targetId": "1184863861065658419",
+          "allow": "0",
+          "deny": "1024"
+        },
+        {
+          "targetType": "role",
+          "targetId": "1184867019988947065",
+          "allow": "1024",
+          "deny": "0"
+        },
+        {
+          "targetType": "role",
+          "targetId": "1346505118467756062",
+          "allow": "1024",
+          "deny": "0"
+        }
+      ]
+    },
+    {
+      "id": "1184864166142558349",
+      "name": "dock",
+      "type": 0,
+      "parentId": "1184863981115031582",
+      "topic": "Welcome to Turntide Islands. Complete Discord onboarding here to open your selected community channels.",
+      "permissionOverwrites": [
+        {
+          "targetType": "role",
+          "targetId": "1184863861065658419",
+          "allow": "68608",
+          "deny": "0"
+        },
+        {
+          "targetType": "role",
+          "targetId": "1184867019988947065",
+          "allow": "68608",
+          "deny": "0"
+        },
+        {
+          "targetType": "role",
+          "targetId": "1346504579604545566",
+          "allow": "0",
+          "deny": "274877909056"
+        },
+        {
+          "targetType": "role",
+          "targetId": "1346505118467756062",
+          "allow": "0",
+          "deny": "0"
+        }
+      ]
+    },
+    {
+      "id": "1346507970070052944",
+      "name": "economy-estuary",
+      "type": 0,
+      "parentId": "1304191468834918541",
+      "topic": null,
+      "permissionOverwrites": [
+        {
+          "targetType": "role",
+          "targetId": "1184863861065658419",
+          "allow": "0",
+          "deny": "1024"
+        },
+        {
+          "targetType": "role",
+          "targetId": "1346510930036527114",
+          "allow": "3072",
+          "deny": "0"
+        }
+      ]
+    },
+    {
+      "id": "1346511556493578250",
+      "name": "governance-action",
+      "type": 0,
+      "parentId": "1346490989346558052",
+      "topic": null,
+      "permissionOverwrites": [
+        {
+          "targetType": "role",
+          "targetId": "1184863861065658419",
+          "allow": "0",
+          "deny": "1024"
+        },
+        {
+          "targetType": "role",
+          "targetId": "1346510818958643301",
+          "allow": "1024",
+          "deny": "2048"
+        },
+        {
+          "targetType": "role",
+          "targetId": "1346512207558742098",
+          "allow": "1024",
+          "deny": "0"
+        }
+      ]
+    },
+    {
+      "id": "1346511343573926010",
+      "name": "governance-discussion",
+      "type": 0,
+      "parentId": "1346490989346558052",
+      "topic": null,
+      "permissionOverwrites": [
+        {
+          "targetType": "role",
+          "targetId": "1184863861065658419",
+          "allow": "0",
+          "deny": "1049600"
+        },
+        {
+          "targetType": "role",
+          "targetId": "1346510818958643301",
+          "allow": "1024",
+          "deny": "2048"
+        },
+        {
+          "targetType": "role",
+          "targetId": "1346512207558742098",
+          "allow": "3072",
+          "deny": "0"
+        }
+      ]
+    },
+    {
+      "id": "1346513158243618877",
+      "name": "governance-proposals",
+      "type": 0,
+      "parentId": "1346490989346558052",
+      "topic": null,
+      "permissionOverwrites": [
+        {
+          "targetType": "role",
+          "targetId": "1184863861065658419",
+          "allow": "0",
+          "deny": "1024"
+        },
+        {
+          "targetType": "role",
+          "targetId": "1346510818958643301",
+          "allow": "1024",
+          "deny": "2048"
+        },
+        {
+          "targetType": "role",
+          "targetId": "1346512207558742098",
+          "allow": "3072",
+          "deny": "0"
+        }
+      ]
+    },
+    {
+      "id": "1346511840603279433",
+      "name": "governance-questions",
+      "type": 0,
+      "parentId": "1346490989346558052",
+      "topic": null,
+      "permissionOverwrites": [
+        {
+          "targetType": "role",
+          "targetId": "1184863861065658419",
+          "allow": "0",
+          "deny": "1049600"
+        },
+        {
+          "targetType": "role",
+          "targetId": "1346510818958643301",
+          "allow": "3072",
+          "deny": "0"
+        },
+        {
+          "targetType": "role",
+          "targetId": "1346512207558742098",
+          "allow": "3072",
+          "deny": "0"
+        }
+      ]
+    },
+    {
+      "id": "1346508058603421778",
+      "name": "praxis-penisula",
+      "type": 0,
+      "parentId": "1304191468834918541",
+      "topic": null,
+      "permissionOverwrites": [
+        {
+          "targetType": "role",
+          "targetId": "1184863861065658419",
+          "allow": "0",
+          "deny": "1024"
+        },
+        {
+          "targetType": "role",
+          "targetId": "1346510772297273345",
+          "allow": "3072",
+          "deny": "0"
+        }
+      ]
+    },
+    {
+      "id": "1264035560624881674",
+      "name": "silicon-sandbar",
+      "type": 0,
+      "parentId": "1304191468834918541",
+      "topic": "A place to talk about things that happen with and within digital tech.",
+      "permissionOverwrites": [
+        {
+          "targetType": "role",
+          "targetId": "1184863861065658419",
+          "allow": "0",
+          "deny": "1049600"
+        },
+        {
+          "targetType": "role",
+          "targetId": "1346504579604545566",
+          "allow": "0",
+          "deny": "274877909056"
+        },
+        {
+          "targetType": "role",
+          "targetId": "1346510849904480307",
+          "allow": "3072",
+          "deny": "0"
+        }
+      ]
+    }
+  ],
+  "administrativeMessages": [
+    {
+      "purpose": "entry",
+      "id": "1184869680033321001",
+      "channelId": "1184864166142558349",
+      "createdAt": "2023-12-14T14:49:05.534000+00:00",
+      "editedAt": "2025-03-04T15:23:56.375000+00:00",
+      "pinned": false,
+      "author": {
+        "id": "681333902740160598",
+        "username": "emsenn",
+        "kind": "administrator"
+      },
+      "applicationId": null,
+      "webhookId": null,
+      "flags": 0,
+      "content": "***Turntide Islands***\n\n**Turntide Islands** is a virtual space focused on responding, not reacting, to climate weirding.\n\nPeople gather here to share knowledge and build practices and communities that are grounded in an honest acceptance of the compound crises that affect us, from climate weirding to catabolic collapse.\n\nMembers are expected to engage with care and curiosity, treating others with respect. No spam, scams, or doxxing. Violation of Discord's Terms of Service will result in a mute.\n\nTurntide Islands exists as a decentralized autonomous organization (DAO) using polycentric participatory consensus. Proposals are discussed openly, quorum-based votes determine outcomes, and all governance actions are permanently recorded on-chain for accountability. Each topical area follows the same discussion → quorum vote → recorded decision structure, allowing decentralized yet organized decision-making across the community. (In the future, participation may be recognized with tokens that influence governance weight, ensuring active contributors have a meaningful say.)\n\nTurntide Islands is administrated by emsenn, who documents and implements all governance decisions. (In the future, an automation may handle these technical actions.)\n\nTo join Turntide Islands, use the invite link to enter the Discord server and click the 🏝️ emoji below the welcome message. Once verified, you can explore and join topical communities by selecting the corresponding emojis.",
+      "contentWithheld": false,
+      "components": [],
+      "embeds": [],
+      "reactions": [
+        {
+          "emoji": {
+            "id": null,
+            "name": "🏝️",
+            "animated": false
+          },
+          "count": 6,
+          "countDetail": {
+            "normal": 6,
+            "burst": 0
+          }
+        }
+      ]
+    },
+    {
+      "purpose": "channel-visas",
+      "id": "1346509165798887538",
+      "channelId": "1346508996667768853",
+      "createdAt": "2025-03-04T15:46:42.057000+00:00",
+      "editedAt": "2025-03-04T15:52:54.573000+00:00",
+      "pinned": false,
+      "author": {
+        "id": "681333902740160598",
+        "username": "emsenn",
+        "kind": "administrator"
+      },
+      "applicationId": null,
+      "webhookId": null,
+      "flags": 0,
+      "content": "Use this channel to pick which other channels you want to be a part of. *Meta!*\n\nEach emoji stands for a different topic: click it, you'll get given a role, and be able to see the matching channel.\n\nSome channels have their own rules and guidelines - make sure to check the pinned messages when you join, and anytime there's something new in them.\n\nAnyway, here's the list of channels you can join at the start:\n\n⚒️  :  Do you like to do stuff? Craft, garden? `#praxis-penisula` is definitely one to join.\n✊: Want to watch how the Islands govern themselves? We've got a set of channels where you can watch things go from idea to decision.\n💻 : Into computers? `#silicon-sandbar` is a good anchorpoint, but we've got a ton of specialized channels about digital stuff!\n💹 : Economics is another kind of tech we've got some channels for, starting with `#economy-estuary`.",
+      "contentWithheld": false,
+      "components": [],
+      "embeds": [],
+      "reactions": [
+        {
+          "emoji": {
+            "id": null,
+            "name": "⚒️",
+            "animated": false
+          },
+          "count": 7,
+          "countDetail": {
+            "normal": 7,
+            "burst": 0
+          }
+        },
+        {
+          "emoji": {
+            "id": null,
+            "name": "✊",
+            "animated": false
+          },
+          "count": 8,
+          "countDetail": {
+            "normal": 8,
+            "burst": 0
+          }
+        },
+        {
+          "emoji": {
+            "id": null,
+            "name": "💹",
+            "animated": false
+          },
+          "count": 6,
+          "countDetail": {
+            "normal": 6,
+            "burst": 0
+          }
+        },
+        {
+          "emoji": {
+            "id": null,
+            "name": "💻",
+            "animated": false
+          },
+          "count": 7,
+          "countDetail": {
+            "normal": 7,
+            "burst": 0
+          }
+        }
+      ]
+    }
+  ],
+  "reactionMappings": [
+    {
+      "messageId": "1346509165798887538",
+      "emoji": {
+        "id": null,
+        "name": "⚒️"
+      },
+      "grantRoleId": "1346510772297273345",
+      "targetChannelIds": [
+        "1346508058603421778"
+      ],
+      "automationOwner": {
+        "integrationId": "1346503695034224660",
+        "applicationId": "235148962103951360",
+        "botId": "235148962103951360",
+        "confidence": "inferred"
+      },
+      "confidence": "inferred",
+      "evidence": [
+        "administrator-message-text",
+        "role-channel-overwrite",
+        "carl-bot-installation-timeline"
+      ],
+      "missingEvidence": [],
+      "unresolved": false
+    },
+    {
+      "messageId": "1346509165798887538",
+      "emoji": {
+        "id": null,
+        "name": "✊"
+      },
+      "grantRoleId": "1346510818958643301",
+      "targetChannelIds": [
+        "1346511556493578250",
+        "1346513158243618877",
+        "1346511343573926010",
+        "1346511840603279433"
+      ],
+      "automationOwner": {
+        "integrationId": "1346503695034224660",
+        "applicationId": "235148962103951360",
+        "botId": "235148962103951360",
+        "confidence": "inferred"
+      },
+      "confidence": "inferred",
+      "evidence": [
+        "administrator-message-text",
+        "role-channel-overwrite",
+        "carl-bot-installation-timeline"
+      ],
+      "missingEvidence": [],
+      "unresolved": false
+    },
+    {
+      "messageId": "1346509165798887538",
+      "emoji": {
+        "id": null,
+        "name": "💻"
+      },
+      "grantRoleId": "1346510849904480307",
+      "targetChannelIds": [
+        "1264035560624881674"
+      ],
+      "automationOwner": {
+        "integrationId": "1346503695034224660",
+        "applicationId": "235148962103951360",
+        "botId": "235148962103951360",
+        "confidence": "inferred"
+      },
+      "confidence": "inferred",
+      "evidence": [
+        "administrator-message-text",
+        "role-channel-overwrite",
+        "carl-bot-installation-timeline"
+      ],
+      "missingEvidence": [],
+      "unresolved": false
+    },
+    {
+      "messageId": "1346509165798887538",
+      "emoji": {
+        "id": null,
+        "name": "💹"
+      },
+      "grantRoleId": "1346510930036527114",
+      "targetChannelIds": [
+        "1346507970070052944"
+      ],
+      "automationOwner": {
+        "integrationId": "1346503695034224660",
+        "applicationId": "235148962103951360",
+        "botId": "235148962103951360",
+        "confidence": "inferred"
+      },
+      "confidence": "inferred",
+      "evidence": [
+        "administrator-message-text",
+        "role-channel-overwrite",
+        "carl-bot-installation-timeline"
+      ],
+      "missingEvidence": [],
+      "unresolved": false
+    }
+  ],
+  "unresolved": [
+    {
+      "messageId": "1184869680033321001",
+      "emoji": {
+        "id": null,
+        "name": "🏝️"
+      },
+      "question": "Which role does the established entry reaction grant?",
+      "candidateRoleIds": [
+        "1346505118467756062",
+        "1184867019988947065"
+      ],
+      "confidence": "unresolved",
+      "evidence": [
+        "administrator-message-text",
+        "channel-permission-overwrite"
+      ]
+    }
+  ]
+}

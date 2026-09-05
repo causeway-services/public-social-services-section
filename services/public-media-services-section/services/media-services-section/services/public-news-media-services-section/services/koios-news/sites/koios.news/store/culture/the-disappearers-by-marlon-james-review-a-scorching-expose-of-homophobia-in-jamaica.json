@@ -1,0 +1,69 @@
+{
+  "subject": "the-disappearers-by-marlon-james-review-a-scorching-expose-of-homophobia-in-jamaica",
+  "claims": [
+    {
+      "id": "title",
+      "proposition": {
+        "predicate": "title",
+        "object": "The Disappearers by Marlon James review – a scorching exposé of homophobia in Jamaica"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "culture",
+        "citation": "https://www.theguardian.com/books/2026/aug/24/the-disappearers-by-marlon-james-review-a-scorching-expose-of-homophobia-in-jamaica"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "url",
+      "proposition": {
+        "predicate": "url",
+        "object": "https://www.theguardian.com/books/2026/aug/24/the-disappearers-by-marlon-james-review-a-scorching-expose-of-homophobia-in-jamaica"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "culture",
+        "citation": "https://www.theguardian.com/books/2026/aug/24/the-disappearers-by-marlon-james-review-a-scorching-expose-of-homophobia-in-jamaica"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "summary",
+      "proposition": {
+        "predicate": "summary",
+        "object": "<p>This Booker-listed epic set in Aids-era Kingston is a triumph – bitter, bawdy and ravishingly queer</p><p>“A sense of sweep,” replied Marlon James, when asked what moves him most in literature. “Sweep isn’t just about external journeys, but internal as well. It can be over years and decades, or across land and sea.” If that explanation is still hazy, pick up his mighty new novel,&nbsp;which is longlisted for this year’s Booker prize and is tirelessly – sometimes exhaustingly – grand and peripatetic. Mounting a grisly exposé of Jamaican homophobia, this polyphonic 640-page doorstopper is an emotionally bruising narrative that roves “uptown, downtown, ghetto and gully” through Aids-era Kingston with sidetrack excursions to 1950s England and a closing leap to 2000s United States.</p><p>The novel’s defining event is a gruesome mob attack on eight queer men who have clandestinely come together to work on bringing John Herbert’s 1967 gay prison play, Fortune and Men’s Eyes, to the stage. The&nbsp;goal, in the words of director Havelock Titus, is to shatter “the whole fragile myth of Jamaican male sexuality”. “Because prison,” he explains, “is the ultimate male institution and yet masculine sexualities that could never happen outside in the normal world flourish in there all the time.”</p> <a href=\"https://www.theguardian.com/books/2026/aug/24/the-disappearers-by-marlon-james-review-a-scorching-expose-of-homophobia-in-jamaica\">Continue reading...</a>"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "culture",
+        "citation": "https://www.theguardian.com/books/2026/aug/24/the-disappearers-by-marlon-james-review-a-scorching-expose-of-homophobia-in-jamaica"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "published",
+      "proposition": {
+        "predicate": "published",
+        "object": "Mon, 24 Aug 2026 06:00:54 GMT"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "culture",
+        "citation": "https://www.theguardian.com/books/2026/aug/24/the-disappearers-by-marlon-james-review-a-scorching-expose-of-homophobia-in-jamaica"
+      },
+      "status": "supported"
+    }
+  ]
+}

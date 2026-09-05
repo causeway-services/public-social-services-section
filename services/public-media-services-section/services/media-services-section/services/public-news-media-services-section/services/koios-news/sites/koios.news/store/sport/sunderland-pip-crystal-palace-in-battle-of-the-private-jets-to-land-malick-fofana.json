@@ -1,0 +1,69 @@
+{
+  "subject": "sunderland-pip-crystal-palace-in-battle-of-the-private-jets-to-land-malick-fofana",
+  "claims": [
+    {
+      "id": "title",
+      "proposition": {
+        "predicate": "title",
+        "object": "Sunderland pip Crystal Palace in battle of the private jets to land Malick Fofana"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "sport",
+        "citation": "https://www.theguardian.com/football/2026/sep/01/sunderland-pip-crystal-palace-in-battle-of-the-private-jets-to-land-malick-fofana"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "url",
+      "proposition": {
+        "predicate": "url",
+        "object": "https://www.theguardian.com/football/2026/sep/01/sunderland-pip-crystal-palace-in-battle-of-the-private-jets-to-land-malick-fofana"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "sport",
+        "citation": "https://www.theguardian.com/football/2026/sep/01/sunderland-pip-crystal-palace-in-battle-of-the-private-jets-to-land-malick-fofana"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "summary",
+      "proposition": {
+        "predicate": "summary",
+        "object": "<ul><li><p>Both clubs send planes to France to acquire Lyon winger</p></li><li><p>Sunderland submit deal sheet for £31m transfer </p></li></ul><p>Sunderland and Crystal Palace were involved in an extraordinary deadline-day tug of war that concluded with Malick Fofana agreeing to swap Lyon for the Stadium of Light in a club-record £31m move.</p><p>On Tuesday morning it had seemed that the 21-year-old Belgium winger was heading for Sunderland on a five-year contract, but then Pierre Sage led an attempt to hijack the deal. Palace’s manager coached Fofana at Lyon and forged a strong bond with a player he was keen to bring to Selhurst Park. After speaking to Sage on the phone, Fofana seemed to have changed his mind and decided he wanted to reunite with his old boss in south London. Sunderland, though, refused to surrender.</p> <a href=\"https://www.theguardian.com/football/2026/sep/01/sunderland-pip-crystal-palace-in-battle-of-the-private-jets-to-land-malick-fofana\">Continue reading...</a>"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "sport",
+        "citation": "https://www.theguardian.com/football/2026/sep/01/sunderland-pip-crystal-palace-in-battle-of-the-private-jets-to-land-malick-fofana"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "published",
+      "proposition": {
+        "predicate": "published",
+        "object": "Tue, 01 Sep 2026 22:15:29 GMT"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "sport",
+        "citation": "https://www.theguardian.com/football/2026/sep/01/sunderland-pip-crystal-palace-in-battle-of-the-private-jets-to-land-malick-fofana"
+      },
+      "status": "supported"
+    }
+  ]
+}

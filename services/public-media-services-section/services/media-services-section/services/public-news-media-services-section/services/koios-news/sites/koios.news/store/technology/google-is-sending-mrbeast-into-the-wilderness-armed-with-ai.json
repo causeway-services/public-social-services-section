@@ -1,0 +1,69 @@
+{
+  "subject": "google-is-sending-mrbeast-into-the-wilderness-armed-with-ai",
+  "claims": [
+    {
+      "id": "title",
+      "proposition": {
+        "predicate": "title",
+        "object": "Google is sending MrBeast into the wilderness, armed with AI"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "technology",
+        "citation": "https://www.theverge.com/tech/988355/mrbeast-google-partnership-gemini-fitbit"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "url",
+      "proposition": {
+        "predicate": "url",
+        "object": "https://www.theverge.com/tech/988355/mrbeast-google-partnership-gemini-fitbit"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "technology",
+        "citation": "https://www.theverge.com/tech/988355/mrbeast-google-partnership-gemini-fitbit"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "summary",
+      "proposition": {
+        "predicate": "summary",
+        "object": "MrBeast will feature Gemini, Google Health, and the Fitbit Air in upcoming videos as part of a multi-year partnership with Google . The deal will kick off with a video featuring Jimmy \"MrBeast\" Donaldson turning to Gemini for wilderness survival advice: First up on September 5 is a new MrBeast video following Jimmy and his crew as they attempt to survive some of the most extreme and treacherous climates on Earth. Teams will race to navigate three of the planet's most unforgiving landscapes - the jungle, the desert, and the Arctic - using Gemini to help them identify dangers, survive brutal weather changes, and stay one step ahead. Google … Read the full story at The Verge."
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "technology",
+        "citation": "https://www.theverge.com/tech/988355/mrbeast-google-partnership-gemini-fitbit"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "published",
+      "proposition": {
+        "predicate": "published",
+        "object": "2026-09-02T11:47:03-04:00"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "technology",
+        "citation": "https://www.theverge.com/tech/988355/mrbeast-google-partnership-gemini-fitbit"
+      },
+      "status": "supported"
+    }
+  ]
+}

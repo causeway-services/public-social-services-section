@@ -1,0 +1,69 @@
+{
+  "subject": "designing-cities-for-a-hotter-future",
+  "claims": [
+    {
+      "id": "title",
+      "proposition": {
+        "predicate": "title",
+        "object": "Designing cities for a hotter future"
+      },
+      "time": {
+        "asserted": "2026-07-19T15:45:20.218Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "politics",
+        "citation": "https://www.aljazeera.com/video/talk-to-al-jazeera/2026/7/19/designing-cities-for-a-hotter-future?traffic_source=rss"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "url",
+      "proposition": {
+        "predicate": "url",
+        "object": "https://www.aljazeera.com/video/talk-to-al-jazeera/2026/7/19/designing-cities-for-a-hotter-future?traffic_source=rss"
+      },
+      "time": {
+        "asserted": "2026-07-19T15:45:20.218Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "politics",
+        "citation": "https://www.aljazeera.com/video/talk-to-al-jazeera/2026/7/19/designing-cities-for-a-hotter-future?traffic_source=rss"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "summary",
+      "proposition": {
+        "predicate": "summary",
+        "object": "Climate advocate Mina Hasman’s vision of designing cities that behave like forests and buildings that act like trees."
+      },
+      "time": {
+        "asserted": "2026-07-19T15:45:20.218Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "politics",
+        "citation": "https://www.aljazeera.com/video/talk-to-al-jazeera/2026/7/19/designing-cities-for-a-hotter-future?traffic_source=rss"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "published",
+      "proposition": {
+        "predicate": "published",
+        "object": "Sun, 19 Jul 2026 15:25:01 +0000"
+      },
+      "time": {
+        "asserted": "2026-07-19T15:45:20.218Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "politics",
+        "citation": "https://www.aljazeera.com/video/talk-to-al-jazeera/2026/7/19/designing-cities-for-a-hotter-future?traffic_source=rss"
+      },
+      "status": "supported"
+    }
+  ]
+}

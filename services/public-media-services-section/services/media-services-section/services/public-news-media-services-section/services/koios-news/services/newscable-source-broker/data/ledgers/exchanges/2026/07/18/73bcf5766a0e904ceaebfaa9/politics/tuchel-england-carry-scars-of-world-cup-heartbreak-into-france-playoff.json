@@ -1,0 +1,69 @@
+{
+  "subject": "tuchel-england-carry-scars-of-world-cup-heartbreak-into-france-playoff",
+  "claims": [
+    {
+      "id": "title",
+      "proposition": {
+        "predicate": "title",
+        "object": "Tuchel: England carry ‘scars’ of World Cup heartbreak into France playoff"
+      },
+      "time": {
+        "asserted": "2026-07-18T07:51:40.689Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "politics",
+        "citation": "https://www.aljazeera.com/news/2026/7/18/england-france-fifa-world-cup-third-place-playoff-tuchel-france?traffic_source=rss"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "url",
+      "proposition": {
+        "predicate": "url",
+        "object": "https://www.aljazeera.com/news/2026/7/18/england-france-fifa-world-cup-third-place-playoff-tuchel-france?traffic_source=rss"
+      },
+      "time": {
+        "asserted": "2026-07-18T07:51:40.689Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "politics",
+        "citation": "https://www.aljazeera.com/news/2026/7/18/england-france-fifa-world-cup-third-place-playoff-tuchel-france?traffic_source=rss"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "summary",
+      "proposition": {
+        "predicate": "summary",
+        "object": "England coach Thomas Tuchel says his side carry the pain of defeat into third-place playoff against France."
+      },
+      "time": {
+        "asserted": "2026-07-18T07:51:40.689Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "politics",
+        "citation": "https://www.aljazeera.com/news/2026/7/18/england-france-fifa-world-cup-third-place-playoff-tuchel-france?traffic_source=rss"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "published",
+      "proposition": {
+        "predicate": "published",
+        "object": "Sat, 18 Jul 2026 05:00:57 +0000"
+      },
+      "time": {
+        "asserted": "2026-07-18T07:51:40.689Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "politics",
+        "citation": "https://www.aljazeera.com/news/2026/7/18/england-france-fifa-world-cup-third-place-playoff-tuchel-france?traffic_source=rss"
+      },
+      "status": "supported"
+    }
+  ]
+}

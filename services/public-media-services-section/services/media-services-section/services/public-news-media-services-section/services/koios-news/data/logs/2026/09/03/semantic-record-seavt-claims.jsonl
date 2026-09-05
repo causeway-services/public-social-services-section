@@ -1,0 +1,13 @@
+{"a":"journal:category","e":"record.f3805806666cae40199b8a54e2086e705ab84f895ebd3541f3e946fed1b3b29a","t":"2026-09-03T00:49:00Z","v":"category:5b032a3551a09a57ff122cfa3da96e3be2aa86606d8805dd6a44d5d243d44719"}
+{"a":"journal:content","e":"record.f3805806666cae40199b8a54e2086e705ab84f895ebd3541f3e946fed1b3b29a","t":"2026-09-03T00:49:00Z","v":"content.f3805806666cae40199b8a54e2086e705ab84f895ebd3541f3e946fed1b3b29a"}
+{"a":"predicate.e220d4d06cb9cefa9cd5320f256e286fb0b401c2ab63ed762a8dfdb2500c5b41","e":"subject.6397b3b4c200b6b9a471e109bb5229ad6ba657da21f4b5f53a5b649db747a675","t":"2026-09-03T00:49:00Z","v":"object.af1f56e094d8fa0b0fcf22fdaee59f19251e5aa7aeb50b4705ddc45390aaddd1"}
+{"a":"charge:support","e":"record.f3805806666cae40199b8a54e2086e705ab84f895ebd3541f3e946fed1b3b29a","t":"2026-09-03T00:49:00Z","v":"evidence.present"}
+{"a":"journal:category","e":"record.9315b69ce1cd5159b35825ff19b6d738e061577708e9a3e68c9c4ce70bf8e9c7","t":"2026-09-03T05:02:04.938Z","v":"category:a5d47a4311d759db69e576d9eedd6a02fcfd9cd214129fa8492ee1e9c7343def"}
+{"a":"journal:content","e":"record.9315b69ce1cd5159b35825ff19b6d738e061577708e9a3e68c9c4ce70bf8e9c7","t":"2026-09-03T05:02:04.938Z","v":"content.9315b69ce1cd5159b35825ff19b6d738e061577708e9a3e68c9c4ce70bf8e9c7"}
+{"a":"charge:support","e":"record.9315b69ce1cd5159b35825ff19b6d738e061577708e9a3e68c9c4ce70bf8e9c7","t":"2026-09-03T05:02:04.938Z","v":"evidence.present"}
+{"a":"journal:category","e":"record.ac59672ae3b0c769c00d33df8da50a876e977fb514d8b449be2d813524d8e15d","t":"2026-09-03T18:40:50.563Z","v":"category:a5d47a4311d759db69e576d9eedd6a02fcfd9cd214129fa8492ee1e9c7343def"}
+{"a":"journal:content","e":"record.ac59672ae3b0c769c00d33df8da50a876e977fb514d8b449be2d813524d8e15d","t":"2026-09-03T18:40:50.563Z","v":"content.ac59672ae3b0c769c00d33df8da50a876e977fb514d8b449be2d813524d8e15d"}
+{"a":"charge:support","e":"record.ac59672ae3b0c769c00d33df8da50a876e977fb514d8b449be2d813524d8e15d","t":"2026-09-03T18:40:50.563Z","v":"evidence.present"}
+{"a":"journal:category","e":"record.42cc6bbb4378e9aa91ffb3d81720c60ced646159394c419890a25e39aaa8600e","t":"2026-09-03T18:45:58.775Z","v":"category:85a1b4ac772fecab20dbffaa73e63a4362612033a5058bd8308ffbf34b2d4ee9"}
+{"a":"journal:content","e":"record.42cc6bbb4378e9aa91ffb3d81720c60ced646159394c419890a25e39aaa8600e","t":"2026-09-03T18:45:58.775Z","v":"content.42cc6bbb4378e9aa91ffb3d81720c60ced646159394c419890a25e39aaa8600e"}
+{"a":"charge:support","e":"record.42cc6bbb4378e9aa91ffb3d81720c60ced646159394c419890a25e39aaa8600e","t":"2026-09-03T18:45:58.775Z","v":"evidence.present"}

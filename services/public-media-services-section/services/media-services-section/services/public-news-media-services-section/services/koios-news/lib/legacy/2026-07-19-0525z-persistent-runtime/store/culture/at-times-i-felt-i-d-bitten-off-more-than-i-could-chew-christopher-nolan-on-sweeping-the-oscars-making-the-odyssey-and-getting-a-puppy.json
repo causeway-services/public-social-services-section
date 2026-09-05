@@ -1,0 +1,69 @@
+{
+  "subject": "at-times-i-felt-i-d-bitten-off-more-than-i-could-chew-christopher-nolan-on-sweeping-the-oscars-making-the-odyssey-and-getting-a-puppy",
+  "claims": [
+    {
+      "id": "title",
+      "proposition": {
+        "predicate": "title",
+        "object": "‘At times I felt I’d bitten off more than I could chew’: Christopher Nolan on sweeping the Oscars, making The Odyssey – and getting a puppy"
+      },
+      "time": {
+        "asserted": "2026-07-19T02:20:03.765Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "culture",
+        "citation": "https://www.theguardian.com/film/ng-interactive/2026/jul/17/christopher-nolan-interview-oscars-the-odyssey"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "url",
+      "proposition": {
+        "predicate": "url",
+        "object": "https://www.theguardian.com/film/ng-interactive/2026/jul/17/christopher-nolan-interview-oscars-the-odyssey"
+      },
+      "time": {
+        "asserted": "2026-07-19T02:20:03.765Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "culture",
+        "citation": "https://www.theguardian.com/film/ng-interactive/2026/jul/17/christopher-nolan-interview-oscars-the-odyssey"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "summary",
+      "proposition": {
+        "predicate": "summary",
+        "object": "<p>How do you follow Oppenheimer? By spending $250m bringing Homer’s epic poem to the big screen in Imax. Today’s most powerful director talks big swings, trauma-bonding and the healing powers of chocolate labrador Charlie</p><p>‘I’m in that moment of sheer terror,”<strong> </strong>says Christopher Nolan, sitting in a suite at the Corinthia hotel in London, in a slightly rumpled suit, next to a pot of tea. Outside, crowds jostle, hoping to catch a glimpse of one of the stars within – Matt Damon, Tom Holland, Lupita Nyong’o. It is the day before the world premiere of Nolan’s latest film, an adaptation of Homer’s epic poem the Odyssey, and the last day of waiting before audiences decide whether the biggest gamble of Nolan’s career has paid off. The film, which reportedly cost $250m (£185m), doesn’t just need an audience to show up. It needs the entire moviegoing world to do so.</p><p>“It never gets any easier, because<strong> </strong>I make films for audiences and the audience tells me what it likes,” he says. “They finish the film. I don’t have anything to hide behind. I can’t just be like: ‘Oh, people don’t get it.’ Those aren’t the films I make.<strong> </strong>What does the audience make of it? Do they turn up? Do they like it if they do turn up?</p> <a href=\"https://www.theguardian.com/film/ng-interactive/2026/jul/17/christopher-nolan-interview-oscars-the-odyssey\">Continue reading...</a>"
+      },
+      "time": {
+        "asserted": "2026-07-19T02:20:03.765Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "culture",
+        "citation": "https://www.theguardian.com/film/ng-interactive/2026/jul/17/christopher-nolan-interview-oscars-the-odyssey"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "published",
+      "proposition": {
+        "predicate": "published",
+        "object": "Fri, 17 Jul 2026 07:00:02 GMT"
+      },
+      "time": {
+        "asserted": "2026-07-19T02:20:03.765Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "culture",
+        "citation": "https://www.theguardian.com/film/ng-interactive/2026/jul/17/christopher-nolan-interview-oscars-the-odyssey"
+      },
+      "status": "supported"
+    }
+  ]
+}

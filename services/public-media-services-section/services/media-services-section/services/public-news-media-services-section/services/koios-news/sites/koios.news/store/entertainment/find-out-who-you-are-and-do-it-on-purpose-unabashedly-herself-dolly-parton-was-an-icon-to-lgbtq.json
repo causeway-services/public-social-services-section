@@ -1,0 +1,69 @@
+{
+  "subject": "find-out-who-you-are-and-do-it-on-purpose-unabashedly-herself-dolly-parton-was-an-icon-to-lgbtq",
+  "claims": [
+    {
+      "id": "title",
+      "proposition": {
+        "predicate": "title",
+        "object": "‘Find out who you are, and do it on purpose’: unabashedly herself, Dolly Parton was an icon to LGBTQ fans"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "entertainment",
+        "citation": "https://www.theguardian.com/music/2026/aug/26/dolly-parton-lgbtq-fans"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "url",
+      "proposition": {
+        "predicate": "url",
+        "object": "https://www.theguardian.com/music/2026/aug/26/dolly-parton-lgbtq-fans"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "entertainment",
+        "citation": "https://www.theguardian.com/music/2026/aug/26/dolly-parton-lgbtq-fans"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "summary",
+      "proposition": {
+        "predicate": "summary",
+        "object": "<p>Parton’s gift lay in uniting everyone from God-fearing country fans to queer devotees. The way she saw me when I met her made me feel like a flower turning towards the sun</p><p>• <a href=\"https://www.theguardian.com/music/2026/aug/25/dolly-parton-country-music-career\">Alexis Petridis on Dolly Parton’s peerless career that turned country music cliches inside out</a><br>•<a href=\"https://www.theguardian.com/music/gallery/2026/aug/25/dolly-parton-life-in-pictures\">Dolly Parton – a life in pictures</a><br>• <a href=\"https://www.theguardian.com/us-news/live/2026/aug/25/dolly-parton-dead-age-80-live\">Country music legend Dolly Parton dies aged 80 – latest updates</a><br>•<a href=\"https://www.theguardian.com/music/2026/aug/25/share-your-tributes-and-memories-of-dolly-parton\">Share your tributes and memories of Dolly Parton</a></p><p>In a crowded field, perhaps the gayest thing about me is that I didn’t spend my teenage gap year pilgrimaging to India or Thailand in search of myself. Instead, I hitch-hiked to Dollywood, Dolly Parton’s theme park in Tennessee. Even at 19, I suspected that the answers to life’s most pressing questions could be found at the feet of the Dolly Lama.</p><p>I was right. I completed the last leg of my journey with a florist who was running deliveries up the mountain. One of his customers was a former school friend of Dolly’s, and I took the opportunity to breathlessly enquire whether her classmates had always known that Parton would become a huge star. “We didn’t, but she did,” she drawled. Exquisite.<br><br> This shining example of self-belief powered me through my early career in magazine writing, until I struck gold four years later when I was flown to Nashville to interview Dolly about her most recent album. Entering her private rehearsal space, my head was 100% buzzing static and 0% functioning brain. My sense of impostor syndrome was undimmed when Dolly appeared wearing what looked like three stacked wigs and a pair of fishnet cutoff leggings, assumed an incredulous expression and wheezed: “Are you my interviewer? But you’re a <em>baaaby</em>!” before gripping my waist in her hot pink taloned hands.</p> <a href=\"https://www.theguardian.com/music/2026/aug/26/dolly-parton-lgbtq-fans\">Continue reading...</a>"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "entertainment",
+        "citation": "https://www.theguardian.com/music/2026/aug/26/dolly-parton-lgbtq-fans"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "published",
+      "proposition": {
+        "predicate": "published",
+        "object": "Wed, 26 Aug 2026 13:40:06 GMT"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "entertainment",
+        "citation": "https://www.theguardian.com/music/2026/aug/26/dolly-parton-lgbtq-fans"
+      },
+      "status": "supported"
+    }
+  ]
+}

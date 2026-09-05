@@ -1,0 +1,69 @@
+{
+  "subject": "andrew-motion-wilfred-owen-became-a-kind-of-sacred-text-for-me",
+  "claims": [
+    {
+      "id": "title",
+      "proposition": {
+        "predicate": "title",
+        "object": "Andrew Motion: ‘Wilfred Owen became a kind of sacred text for me’"
+      },
+      "time": {
+        "asserted": "2026-07-18T08:37:53.578Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "culture",
+        "citation": "https://www.theguardian.com/books/2026/jul/17/andrew-motion-wilfred-owen-became-a-kind-of-sacred-text-for-me"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "url",
+      "proposition": {
+        "predicate": "url",
+        "object": "https://www.theguardian.com/books/2026/jul/17/andrew-motion-wilfred-owen-became-a-kind-of-sacred-text-for-me"
+      },
+      "time": {
+        "asserted": "2026-07-18T08:37:53.578Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "culture",
+        "citation": "https://www.theguardian.com/books/2026/jul/17/andrew-motion-wilfred-owen-became-a-kind-of-sacred-text-for-me"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "summary",
+      "proposition": {
+        "predicate": "summary",
+        "object": "<p>The former poet laureate on growing up with Lawrence Durrell, rereading Henry James and getting to grips with the genius of Alexander Pope</p><p><strong>My earliest reading&nbsp;memory</strong><br> My parents were country people who thought that looking after or chasing animals was more fun than reading: my father used to say that he’d read half a book in his life (The Lonely Skier by Hammond Innes), and while my mother got through three or four novels a year, she didn’t expect me to do anything equivalent. But I do remember enjoying something my grandmother gave me – My Father’s Dragon by&nbsp;Ruth Stiles Gannett. I&nbsp;must have been seven&nbsp;or so, and thought&nbsp;it was amusing&nbsp;and ingenious.</p><p><strong>The books that changed me as a teenager</strong><br> At my first school, I somehow got my hands on White Eagles Over Serbia by Lawrence Durrell, which my parents thought was unsuitably violent. I never finished it, but enjoyed carrying it around as proof of how grown-up I was. Then, at my secondary school, my history teacher read us some Wilfred Owen (we were studying the first world war), and the poetry-lights in my mind immediately flickered on. When I subsequently bought Owen’s Collected Poems it became a kind of sacred text for me (it still is).</p> <a href=\"https://www.theguardian.com/books/2026/jul/17/andrew-motion-wilfred-owen-became-a-kind-of-sacred-text-for-me\">Continue reading...</a>"
+      },
+      "time": {
+        "asserted": "2026-07-18T08:37:53.578Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "culture",
+        "citation": "https://www.theguardian.com/books/2026/jul/17/andrew-motion-wilfred-owen-became-a-kind-of-sacred-text-for-me"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "published",
+      "proposition": {
+        "predicate": "published",
+        "object": "Fri, 17 Jul 2026 09:00:05 GMT"
+      },
+      "time": {
+        "asserted": "2026-07-18T08:37:53.578Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "culture",
+        "citation": "https://www.theguardian.com/books/2026/jul/17/andrew-motion-wilfred-owen-became-a-kind-of-sacred-text-for-me"
+      },
+      "status": "supported"
+    }
+  ]
+}

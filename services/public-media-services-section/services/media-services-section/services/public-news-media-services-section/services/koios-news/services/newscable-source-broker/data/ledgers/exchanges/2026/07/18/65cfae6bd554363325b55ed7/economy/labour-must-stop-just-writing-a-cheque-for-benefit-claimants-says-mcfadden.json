@@ -1,0 +1,69 @@
+{
+  "subject": "labour-must-stop-just-writing-a-cheque-for-benefit-claimants-says-mcfadden",
+  "claims": [
+    {
+      "id": "title",
+      "proposition": {
+        "predicate": "title",
+        "object": "Labour must stop just writing a cheque for benefit claimants, says McFadden"
+      },
+      "time": {
+        "asserted": "2026-07-18T07:49:51.643Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "economy",
+        "citation": "https://www.theguardian.com/society/2026/jul/15/labour-stop-writing-cheque-benefit-claimants-pat-mcfadden-welfare-reform"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "url",
+      "proposition": {
+        "predicate": "url",
+        "object": "https://www.theguardian.com/society/2026/jul/15/labour-stop-writing-cheque-benefit-claimants-pat-mcfadden-welfare-reform"
+      },
+      "time": {
+        "asserted": "2026-07-18T07:49:51.643Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "economy",
+        "citation": "https://www.theguardian.com/society/2026/jul/15/labour-stop-writing-cheque-benefit-claimants-pat-mcfadden-welfare-reform"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "summary",
+      "proposition": {
+        "predicate": "summary",
+        "object": "<p>Exclusive: Work and pensions secretary signals possible reform to welfare as ministers await key reviews</p><p>Labour must stop “simply writing a cheque” for health and disability benefit claimants and will provide more job support instead, the work and pensions secretary has said.</p><p>Pat McFadden said the government was preparing to launch a renewed effort at welfare reform with a focus on encouraging more people with health conditions to get into work and off benefits.</p> <a href=\"https://www.theguardian.com/society/2026/jul/15/labour-stop-writing-cheque-benefit-claimants-pat-mcfadden-welfare-reform\">Continue reading...</a>"
+      },
+      "time": {
+        "asserted": "2026-07-18T07:49:51.643Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "economy",
+        "citation": "https://www.theguardian.com/society/2026/jul/15/labour-stop-writing-cheque-benefit-claimants-pat-mcfadden-welfare-reform"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "published",
+      "proposition": {
+        "predicate": "published",
+        "object": "Wed, 15 Jul 2026 05:00:46 GMT"
+      },
+      "time": {
+        "asserted": "2026-07-18T07:49:51.643Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "economy",
+        "citation": "https://www.theguardian.com/society/2026/jul/15/labour-stop-writing-cheque-benefit-claimants-pat-mcfadden-welfare-reform"
+      },
+      "status": "supported"
+    }
+  ]
+}

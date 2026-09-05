@@ -1,0 +1,24 @@
+{
+  "kind": "koios.duty",
+  "id": "delivering-static-publication",
+  "office": "publication-operations",
+  "precondition": "The current content snapshot is readable and every admitted public manuscript has cleared Koios publication law or has an exact predecessor-publication witness under controlled-migration law.",
+  "move": "Use Koios's one application renderer to project a selected static publication profile, exclude mutable and private routes, bind every artifact by digest, preserve the app security policy, verify the profile's advertising privacy attention and indexing carriers, compare the shadow and candidate route-by-route, and settle a candidate-bound disposition for each excluded route without claiming to mutate the still-authoritative VPS.",
+  "profiles": {
+    "shadow": "Advertising and telemetry are suspended; robots and response headers forbid indexing; this is the only profile admissible to a public preview before cutover.",
+    "cutover-candidate": "Production A-Ads and crawl semantics are present; telemetry remains suspended; the artifact stays local and non-authoritative until delivery evidence and an explicit cutover act bind its exact digest."
+  },
+  "postcondition": "Deterministic Cloudflare-compatible shadow and production-shaped candidate artifacts exist with recomputable manifests and only classified intentional differences; every excluded route has an observed and digest-bound candidate disposition; neither artifact nor disposition confers upload DNS or cutover authority.",
+  "refusals": [
+    "non-public article reached projection",
+    "mutable route admitted",
+    "privacy text differs from actual request behavior",
+    "advertising carrier differs from declared provider policy",
+    "security header weakened or omitted",
+    "unexpected profile delta",
+    "non-deterministic manifest",
+    "missing provider resource grant",
+    "preview or live parity failure",
+    "rollback absent"
+  ]
+}

@@ -1,0 +1,69 @@
+{
+  "subject": "the-blood-bank-and-the-logistics-of-wartime-medicine",
+  "claims": [
+    {
+      "id": "title",
+      "proposition": {
+        "predicate": "title",
+        "object": "The Blood Bank and the Logistics of Wartime Medicine"
+      },
+      "time": {
+        "asserted": "2026-07-18T07:50:02.954Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "war",
+        "citation": "https://warontherocks.com/cogs-of-war/the-blood-bank-and-the-logistics-of-wartime-medicine/"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "url",
+      "proposition": {
+        "predicate": "url",
+        "object": "https://warontherocks.com/cogs-of-war/the-blood-bank-and-the-logistics-of-wartime-medicine/"
+      },
+      "time": {
+        "asserted": "2026-07-18T07:50:02.954Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "war",
+        "citation": "https://warontherocks.com/cogs-of-war/the-blood-bank-and-the-logistics-of-wartime-medicine/"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "summary",
+      "proposition": {
+        "predicate": "summary",
+        "object": "Before the twentieth century gave armies antibiotics, the leading killer of American soldiers in wartime was neither enemy fire nor shrapnel. Two-thirds of the roughly 620,000 deaths in the U.S. Civil War came from diseases like typhoid and dysentery. Spread through contaminated water and crowded camps, they were eventually controlled through inoculation and field sanitation rather than the antibiotics that would not arrive until the following generation. Later in World War I, American forces lost more men to disease than to combat: 63,000 to 51,000.By 1940, military medicine had largely closed that gap. Vaccines, sterile surgical technique, sulfa drugs, and The post The Blood Bank and the Logistics of Wartime Medicine appeared first on War on the Rocks ."
+      },
+      "time": {
+        "asserted": "2026-07-18T07:50:02.954Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "war",
+        "citation": "https://warontherocks.com/cogs-of-war/the-blood-bank-and-the-logistics-of-wartime-medicine/"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "published",
+      "proposition": {
+        "predicate": "published",
+        "object": "Fri, 17 Jul 2026 08:00:21 +0000"
+      },
+      "time": {
+        "asserted": "2026-07-18T07:50:02.954Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "war",
+        "citation": "https://warontherocks.com/cogs-of-war/the-blood-bank-and-the-logistics-of-wartime-medicine/"
+      },
+      "status": "supported"
+    }
+  ]
+}

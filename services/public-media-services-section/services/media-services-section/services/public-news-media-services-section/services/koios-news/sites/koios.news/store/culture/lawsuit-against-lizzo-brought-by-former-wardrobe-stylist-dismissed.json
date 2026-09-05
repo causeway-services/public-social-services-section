@@ -1,0 +1,69 @@
+{
+  "subject": "lawsuit-against-lizzo-brought-by-former-wardrobe-stylist-dismissed",
+  "claims": [
+    {
+      "id": "title",
+      "proposition": {
+        "predicate": "title",
+        "object": "Lawsuit against Lizzo brought by former wardrobe stylist dismissed"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "culture",
+        "citation": "https://www.theguardian.com/music/2026/sep/01/lizzo-lawsuit-dismissed"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "url",
+      "proposition": {
+        "predicate": "url",
+        "object": "https://www.theguardian.com/music/2026/sep/01/lizzo-lawsuit-dismissed"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "culture",
+        "citation": "https://www.theguardian.com/music/2026/sep/01/lizzo-lawsuit-dismissed"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "summary",
+      "proposition": {
+        "predicate": "summary",
+        "object": "<p>The star has denied allegations of bullying and harassment in the workplace in a suit that has now been thrown out</p><p>A federal judge on Tuesday dismissed the remaining claims in a <a href=\"https://www.theguardian.com/music/2023/sep/21/lizzo-new-lawsuit-former-employee-bullying-sexual-harassment\">well-publicized lawsuit</a> against <a href=\"https://www.theguardian.com/music/lizzo\">Lizzo</a>’s production company, declaring that the case brought by her former wardrobe stylist could not proceed.</p><p>The ruling by US district judge Fernando L Aenlle-Rocha comes nearly two years after he dismissed Lizzo as an individual defendant from the case brought by Asha Daniels against the About Damn Time singer and her production company, Big Grrrl Big Touring, Inc. Daniels first filed her lawsuit in September 2023, alleging that she was subject to bullying as well as sexual and racial harassment in an “unsafe, sexually charged workplace culture”.</p> <a href=\"https://www.theguardian.com/music/2026/sep/01/lizzo-lawsuit-dismissed\">Continue reading...</a>"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "culture",
+        "citation": "https://www.theguardian.com/music/2026/sep/01/lizzo-lawsuit-dismissed"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "published",
+      "proposition": {
+        "predicate": "published",
+        "object": "Tue, 01 Sep 2026 19:33:22 GMT"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "culture",
+        "citation": "https://www.theguardian.com/music/2026/sep/01/lizzo-lawsuit-dismissed"
+      },
+      "status": "supported"
+    }
+  ]
+}

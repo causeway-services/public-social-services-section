@@ -1,0 +1,21 @@
+#+SETUPFILE: ./setup.inc
+#+TITLE: Geography and Settlements of Oru County
+#+EXPORT_FILE_NAME: ../../pub/reference-books/geography-and-settlements-of-oru-county
+* Introduction
+{{{document-isdraft}}}
+
+{{{document-hasproject}}}
+* Geography and Settlements of Oru County
+** Notable Organizations and People
+*** The Last Baron
+    :PROPERTIES:
+    :CUSTOM_ID: last-baron
+    :END:
+#+INDEX: Last Baron, the!"The Last Baron" in /Geography and Settlements of Oru County/
+The */Last Baron/* is the last member of /House Ellon/. He is
+somewhere in the county.
+* Supplements
+** Index
+- Oru County ::
+- House Ellon ::
+- Last Baron, the ::

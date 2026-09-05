@@ -1,0 +1,69 @@
+{
+  "subject": "ryan-fox-crowned-open-champion-as-heavyweights-wilt-under-pressure",
+  "claims": [
+    {
+      "id": "title",
+      "proposition": {
+        "predicate": "title",
+        "object": "Ryan Fox crowned Open champion as heavyweights wilt under pressure"
+      },
+      "time": {
+        "asserted": "2026-07-19T20:06:20.506Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "sports",
+        "citation": "https://www.theguardian.com/sport/2026/jul/19/open-championship-final-round-ryan-fox-tommy-fleetwood-scottie-scheffler-rory-mcilroy-golf"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "url",
+      "proposition": {
+        "predicate": "url",
+        "object": "https://www.theguardian.com/sport/2026/jul/19/open-championship-final-round-ryan-fox-tommy-fleetwood-scottie-scheffler-rory-mcilroy-golf"
+      },
+      "time": {
+        "asserted": "2026-07-19T20:06:20.506Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "sports",
+        "citation": "https://www.theguardian.com/sport/2026/jul/19/open-championship-final-round-ryan-fox-tommy-fleetwood-scottie-scheffler-rory-mcilroy-golf"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "summary",
+      "proposition": {
+        "predicate": "summary",
+        "object": "<ul><li><p>USA’s Cameron Young falls short by a single shot</p></li><li><p>Rory McIlroy hints at DeChambeau joining Irish Open</p></li></ul><p>What a way to enhance a family dynasty. Ryan Fox, son of a New Zealand rugby legend and grandson of one of the country’s cricket captains, is the Open champion. Three generations, three sports, one Claret Jug. Fox displayed the fortitude of Grant, his old man, to snatch victory from Cameron Young on such a dramatic Open Championship Sunday.</p><p>Fox took to the 18th tee level with Young at nine under par. The American had finished more than two hours earlier, his total looking ever-more promising as others took it in turn to wilt under the heat of Royal Birkdale. Fox laughed in the face of adversity. He crashed a drive 330 yards down the fairway, flicked an iron to 11ft and holed out for a birdie three. This will trigger quite the party, including in his homeland. This Open needed something to switch the conversation from <a href=\"https://www.theguardian.com/sport/2026/jul/17/bryson-dechambeau-the-open-participation-in-doubt-two-stroke-penalty-golf\">Bryson DeChambeau and a rules breach</a>. In Fox, the tournament found a bold and deserving champion.</p> <a href=\"https://www.theguardian.com/sport/2026/jul/19/open-championship-final-round-ryan-fox-tommy-fleetwood-scottie-scheffler-rory-mcilroy-golf\">Continue reading...</a>"
+      },
+      "time": {
+        "asserted": "2026-07-19T20:06:20.506Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "sports",
+        "citation": "https://www.theguardian.com/sport/2026/jul/19/open-championship-final-round-ryan-fox-tommy-fleetwood-scottie-scheffler-rory-mcilroy-golf"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "published",
+      "proposition": {
+        "predicate": "published",
+        "object": "Sun, 19 Jul 2026 18:57:40 GMT"
+      },
+      "time": {
+        "asserted": "2026-07-19T20:06:20.506Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "sports",
+        "citation": "https://www.theguardian.com/sport/2026/jul/19/open-championship-final-round-ryan-fox-tommy-fleetwood-scottie-scheffler-rory-mcilroy-golf"
+      },
+      "status": "supported"
+    }
+  ]
+}

@@ -1,0 +1,69 @@
+{
+  "subject": "here-are-some-of-rei-s-best-labor-day-sale-deals",
+  "claims": [
+    {
+      "id": "title",
+      "proposition": {
+        "predicate": "title",
+        "object": "Here are some of REI’s best Labor Day sale deals"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "technology",
+        "citation": "https://www.theverge.com/gadgets/988398/rei-labor-day-sale-deal-2026"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "url",
+      "proposition": {
+        "predicate": "url",
+        "object": "https://www.theverge.com/gadgets/988398/rei-labor-day-sale-deal-2026"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "technology",
+        "citation": "https://www.theverge.com/gadgets/988398/rei-labor-day-sale-deal-2026"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "summary",
+      "proposition": {
+        "predicate": "summary",
+        "object": "The discounted Garmin InReach 3 Mini can help you stay in touch when you’re out in the wilderness. | Image: Garmin Summer is winding down, but REI’s Labor Day sale is here to help save you some bucks on gear that’ll let you get the most out of your upcoming outdoor expeditions. There are many, many discounts, from men’s and women’s clothing and REI Co-op gear to equipment for camping and hiking and more. The sale runs through September 7th, 2026. In case you weren’t aware, REI members can take an extra 20 percent off a single outlet item with the coupon code LABORDAY26 . A lifetime membership is only $30 , and there are a number of items available where the discount covers that upfront cost. If you’re open to suggestions on what to check out during the sale, I’d like to call particular attention to Darn Tough socks while they’re 25 percent off. These are some of my favorite socks for cycling and working out, thanks to their supportive fit and variety of color options. Notably, they feature a lifetime warranty for both normal wear and inadvertent damage. You can ship them back to Darn Tough, or bring them to a partnered retailer, for a credit or replacement. That said, these socks live up to their name, and they rarely develop holes through normal use. Here are a few other deals we’ve featured before on The Verge that we are confident outdoorsy types will enjoy. Garmin InReach Mini 3 Plus The Mini 3 Plus is identical to the standard model in that it allows you to stay connected while off the grid; however, it also features an audible siren and the ability to send photos and voice messages, in addition to standard texts. Where to Buy: $499.99 $449.99 at REI REI Siesta Hooded 20 Sleeping Bag The Siesta prioritizes comfort with a roomy rectangular shape that gives you space to stretch out. The synthetic sleeping bag features an insulated hood — one that’s spacious enough to accommodate a real pillow — along with multiple zipper configurations so you can vent your feet or fully unzip it into a quilt-like blanket. Where to Buy: $149 $111.69 at REI (medium) $159 $119.19 at REI (long) JBL Charge 6 The Charge 6 is a robust, IP68-rated portable speaker with up to 28 hours of battery life and support for lossless audio over USB-C. Like the JBL Flip 7, it can also analyze your audio to deliver clearer, louder sound and reduce distortion at higher volumes. Where to Buy: $199.95 $149.99 at REI MSR PocketRocket 2 Stove The PocketRocket 2 is a single-burner canister stove that can boil water in as little as three and a half minutes. It’s lightweight, foldable, and compatible with most isobutane-propane fuel canisters, making it a great pick for backpackers looking to shed weight. Where to Buy: $59.95 $44.89 at REI JetBoil MiniMo Cooking System JetBoil’s cooking systems aren’t for ultra-light backpackers; however, the MiniMo is incredibly straightforward to use, comes with a 1-liter pot, and heats water in as little as two minutes, making it suitable for everything from freeze-dried meals to a well-deserved cup of cocoa. Where to Buy: $179.99 $107.93 at REI Zippo HeatBank 6 Pro Rechargeable Hand Warmer Zippo’s rechargeable, IP57-rated hand warmer offers three heat settings and up to six hours of runtime. It can also serve as a 24-lumen flashlight or a 5,200 mAh power bank in a pinch, though, unlike most warmers, it’s only sold as a single unit. Where to Buy: $59.95 $34.93 at REI Half Dome 2 Tent (with footprint) REI’s inexpensive, three-season tent is easy to set up and offers plenty of space for two people, with built-in pockets for stowing gear and large roll-up doors. It’s certainly not the lightest offering you can buy, but at this price, it’s an easy recommendation for first-time backpackers and anyone looking for a solid tent for car camping. Where to Buy: $329 $246.69 at REI Kelty Low Loveseat The Kelty Low Loveseat is a sturdy, low-profile camp chair built for two. It features a steel frame, a padded seat, and extra-large cup holders for your drinks or gear. It also includes a padded roll-tote storage bag, making it easy to transport when it’s folded down. Where to Buy: $149.95 $112.39 at REI"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "technology",
+        "citation": "https://www.theverge.com/gadgets/988398/rei-labor-day-sale-deal-2026"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "published",
+      "proposition": {
+        "predicate": "published",
+        "object": "2026-09-02T14:56:59-04:00"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "technology",
+        "citation": "https://www.theverge.com/gadgets/988398/rei-labor-day-sale-deal-2026"
+      },
+      "status": "supported"
+    }
+  ]
+}

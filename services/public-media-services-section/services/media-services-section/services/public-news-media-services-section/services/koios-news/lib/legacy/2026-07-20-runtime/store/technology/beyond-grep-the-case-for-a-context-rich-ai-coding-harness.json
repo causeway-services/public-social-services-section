@@ -1,0 +1,69 @@
+{
+  "subject": "beyond-grep-the-case-for-a-context-rich-ai-coding-harness",
+  "claims": [
+    {
+      "id": "title",
+      "proposition": {
+        "predicate": "title",
+        "object": "Beyond grep: The case for a context-rich AI coding harness"
+      },
+      "time": {
+        "asserted": "2026-07-20T11:47:37.046Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "technology",
+        "citation": "https://arstechnica.com/ai/2026/07/beyond-grep-the-case-for-a-context-rich-ai-coding-harness/"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "url",
+      "proposition": {
+        "predicate": "url",
+        "object": "https://arstechnica.com/ai/2026/07/beyond-grep-the-case-for-a-context-rich-ai-coding-harness/"
+      },
+      "time": {
+        "asserted": "2026-07-20T11:47:37.046Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "technology",
+        "citation": "https://arstechnica.com/ai/2026/07/beyond-grep-the-case-for-a-context-rich-ai-coding-harness/"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "summary",
+      "proposition": {
+        "predicate": "summary",
+        "object": "There are a lot of AI coding applications out there, and as impressive as large language models and the agents they enable have become, many of the most recent developments in AI-assisted development have been in the software that manages those models, not just the models themselves. Earlier this summer, I spoke with the head of product for Claude Code, Anthropic's Cat Wu, about that company's approach to building that software. Read full article Comments"
+      },
+      "time": {
+        "asserted": "2026-07-20T11:47:37.046Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "technology",
+        "citation": "https://arstechnica.com/ai/2026/07/beyond-grep-the-case-for-a-context-rich-ai-coding-harness/"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "published",
+      "proposition": {
+        "predicate": "published",
+        "object": "Mon, 20 Jul 2026 11:20:10 +0000"
+      },
+      "time": {
+        "asserted": "2026-07-20T11:47:37.046Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "technology",
+        "citation": "https://arstechnica.com/ai/2026/07/beyond-grep-the-case-for-a-context-rich-ai-coding-harness/"
+      },
+      "status": "supported"
+    }
+  ]
+}

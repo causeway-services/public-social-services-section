@@ -1,0 +1,69 @@
+{
+  "subject": "trump-blasts-sanctuary-states-but-many-still-aid-deportations",
+  "claims": [
+    {
+      "id": "title",
+      "proposition": {
+        "predicate": "title",
+        "object": "Trump Blasts ‘Sanctuary’ States, but Many Still Aid Deportations"
+      },
+      "time": {
+        "asserted": "2026-07-19T14:41:50.560Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "politics",
+        "citation": "https://www.nytimes.com/2026/07/19/us/politics/sanctuary-states-deportation-aid.html"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "url",
+      "proposition": {
+        "predicate": "url",
+        "object": "https://www.nytimes.com/2026/07/19/us/politics/sanctuary-states-deportation-aid.html"
+      },
+      "time": {
+        "asserted": "2026-07-19T14:41:50.560Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "politics",
+        "citation": "https://www.nytimes.com/2026/07/19/us/politics/sanctuary-states-deportation-aid.html"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "summary",
+      "proposition": {
+        "predicate": "summary",
+        "object": "A New York Times review of 18 states targeted by the Trump administration for their “sanctuary” policies found that all cooperate significantly with immigration authorities in cases involving violent crimes."
+      },
+      "time": {
+        "asserted": "2026-07-19T14:41:50.560Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "politics",
+        "citation": "https://www.nytimes.com/2026/07/19/us/politics/sanctuary-states-deportation-aid.html"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "published",
+      "proposition": {
+        "predicate": "published",
+        "object": "Sun, 19 Jul 2026 09:00:24 +0000"
+      },
+      "time": {
+        "asserted": "2026-07-19T14:41:50.560Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "politics",
+        "citation": "https://www.nytimes.com/2026/07/19/us/politics/sanctuary-states-deportation-aid.html"
+      },
+      "status": "supported"
+    }
+  ]
+}

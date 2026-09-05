@@ -1,0 +1,69 @@
+{
+  "subject": "dozens-missing-after-passenger-ferry-sinks-off-coast-of-guyana",
+  "claims": [
+    {
+      "id": "title",
+      "proposition": {
+        "predicate": "title",
+        "object": "Dozens missing after passenger ferry sinks off coast of Guyana"
+      },
+      "time": {
+        "asserted": "2026-07-19T20:06:12.565Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "politics",
+        "citation": "https://www.theguardian.com/world/2026/jul/19/dozens-missing-after-passenger-ferry-sinks-off-coast-of-guyana"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "url",
+      "proposition": {
+        "predicate": "url",
+        "object": "https://www.theguardian.com/world/2026/jul/19/dozens-missing-after-passenger-ferry-sinks-off-coast-of-guyana"
+      },
+      "time": {
+        "asserted": "2026-07-19T20:06:12.565Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "politics",
+        "citation": "https://www.theguardian.com/world/2026/jul/19/dozens-missing-after-passenger-ferry-sinks-off-coast-of-guyana"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "summary",
+      "proposition": {
+        "predicate": "summary",
+        "object": "<p>Emergency response has rescued 67 people, including 15 children, from one of the country’s worst maritime disasters</p><p>A ferry carrying 116 passengers and crew sank ⁠off the coast of Guyana in South America ⁠late Saturday, with 67 ⁠people, ​including 15 children, rescued so far, according to Guyana ⁠authorities.</p><p>A massive search-and-rescue operation continues for dozens of missing passengers in what has been described by officials as one of the country’s worst maritime disasters.</p> <a href=\"https://www.theguardian.com/world/2026/jul/19/dozens-missing-after-passenger-ferry-sinks-off-coast-of-guyana\">Continue reading...</a>"
+      },
+      "time": {
+        "asserted": "2026-07-19T20:06:12.565Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "politics",
+        "citation": "https://www.theguardian.com/world/2026/jul/19/dozens-missing-after-passenger-ferry-sinks-off-coast-of-guyana"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "published",
+      "proposition": {
+        "predicate": "published",
+        "object": "Sun, 19 Jul 2026 19:39:58 GMT"
+      },
+      "time": {
+        "asserted": "2026-07-19T20:06:12.565Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "politics",
+        "citation": "https://www.theguardian.com/world/2026/jul/19/dozens-missing-after-passenger-ferry-sinks-off-coast-of-guyana"
+      },
+      "status": "supported"
+    }
+  ]
+}

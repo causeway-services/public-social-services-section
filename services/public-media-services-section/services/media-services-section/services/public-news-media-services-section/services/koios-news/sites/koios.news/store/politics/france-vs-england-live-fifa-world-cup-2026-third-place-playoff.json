@@ -1,0 +1,69 @@
+{
+  "subject": "france-vs-england-live-fifa-world-cup-2026-third-place-playoff",
+  "claims": [
+    {
+      "id": "title",
+      "proposition": {
+        "predicate": "title",
+        "object": "France vs England LIVE: FIFA World Cup 2026 third-place playoff"
+      },
+      "time": {
+        "asserted": "2026-07-18T19:52:24.428Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "politics",
+        "citation": "https://www.aljazeera.com/sports/liveblog/2026/7/18/france-vs-england-live-fifa-world-cup-2026-third-place-playoff?traffic_source=rss"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "url",
+      "proposition": {
+        "predicate": "url",
+        "object": "https://www.aljazeera.com/sports/liveblog/2026/7/18/france-vs-england-live-fifa-world-cup-2026-third-place-playoff?traffic_source=rss"
+      },
+      "time": {
+        "asserted": "2026-07-18T19:52:24.428Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "politics",
+        "citation": "https://www.aljazeera.com/sports/liveblog/2026/7/18/france-vs-england-live-fifa-world-cup-2026-third-place-playoff?traffic_source=rss"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "summary",
+      "proposition": {
+        "predicate": "summary",
+        "object": "Live coverage and text updates from our commentary stream of the Bronze Final as Mbappe's France play Kane's England."
+      },
+      "time": {
+        "asserted": "2026-07-18T19:52:24.428Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "politics",
+        "citation": "https://www.aljazeera.com/sports/liveblog/2026/7/18/france-vs-england-live-fifa-world-cup-2026-third-place-playoff?traffic_source=rss"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "published",
+      "proposition": {
+        "predicate": "published",
+        "object": "Sat, 18 Jul 2026 17:46:20 +0000"
+      },
+      "time": {
+        "asserted": "2026-07-18T19:52:24.428Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "politics",
+        "citation": "https://www.aljazeera.com/sports/liveblog/2026/7/18/france-vs-england-live-fifa-world-cup-2026-third-place-playoff?traffic_source=rss"
+      },
+      "status": "supported"
+    }
+  ]
+}

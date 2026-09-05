@@ -1,0 +1,33 @@
+# koios-news-newsroom.service - internal Koios.News newsroom cockpit
+# (newsroom.koios.news, port 18803).
+#
+# Install as the emsenn user on the VPS:
+#   ~/.config/systemd/user/koios-news-newsroom.service
+#
+# The shared key is required. Put it in:
+#   ~/.config/koios/newsroom.env
+# as:
+#   KOIOS_NEWSROOM_KEY=replace-with-shared-key
+
+[Unit]
+Description=Koios.News newsroom cockpit (newsroom.koios.news)
+After=network-online.target
+Wants=network-online.target
+
+[Service]
+Type=simple
+WorkingDirectory=/home/emsenn/info/sites/koios.news/.deploy/current
+Environment=NODE_ENV=production
+Environment=PATH=/home/emsenn/.nvm/versions/node/v24.16.0/bin:/usr/local/bin:/usr/bin:/bin
+Environment=KOIOS_NEWSROOM_HOST=127.0.0.1
+Environment=KOIOS_NEWSROOM_PORT=18803
+Environment=PORT=18803
+Environment=BASE_URL=https://newsroom.koios.news/
+Environment=KOIOS_NEWS_CONFIG=/home/emsenn/info/sites/koios.news/koios.news.config.json
+EnvironmentFile=%h/.config/koios/newsroom.env
+ExecStart=/usr/bin/env node dist/newsroom-server.mjs
+Restart=on-failure
+RestartSec=2
+
+[Install]
+WantedBy=default.target

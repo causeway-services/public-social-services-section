@@ -1,0 +1,69 @@
+{
+  "subject": "iran-accuses-us-of-war-crime-after-missile-blast-kills-four-people-at-wedding",
+  "claims": [
+    {
+      "id": "title",
+      "proposition": {
+        "predicate": "title",
+        "object": "Iran accuses US of ‘war crime’ after missile blast kills four people at wedding"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "war",
+        "citation": "https://www.theguardian.com/world/2026/sep/02/iran-us-missile-blast-wedding"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "url",
+      "proposition": {
+        "predicate": "url",
+        "object": "https://www.theguardian.com/world/2026/sep/02/iran-us-missile-blast-wedding"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "war",
+        "citation": "https://www.theguardian.com/world/2026/sep/02/iran-us-missile-blast-wedding"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "summary",
+      "proposition": {
+        "predicate": "summary",
+        "object": "<p>Blast also injures 68 guests at the wedding in southern Iran, prompting fears of escalation in hostilities </p><p>Iran has accused the US of a war crime after a missile blast killed at least four people and injured 68 who were attending a wedding at a private home in a coastal city of southern Iran, as the fresh exchange of strikes <a href=\"https://www.theguardian.com/world/2026/sep/01/us-iran-airstrikes-launch\">prompted fears of a wider renewal of hostilities.</a></p><p>Iranian media said that the wedding ceremony was being held in a home in the city of Kuhestak, Hormozgan province, late on Tuesday when a US missile struck, with shrapnel and debris from the strike killing and injuring people.</p> <a href=\"https://www.theguardian.com/world/2026/sep/02/iran-us-missile-blast-wedding\">Continue reading...</a>"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "war",
+        "citation": "https://www.theguardian.com/world/2026/sep/02/iran-us-missile-blast-wedding"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "published",
+      "proposition": {
+        "predicate": "published",
+        "object": "Wed, 02 Sep 2026 15:19:04 GMT"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "war",
+        "citation": "https://www.theguardian.com/world/2026/sep/02/iran-us-missile-blast-wedding"
+      },
+      "status": "supported"
+    }
+  ]
+}

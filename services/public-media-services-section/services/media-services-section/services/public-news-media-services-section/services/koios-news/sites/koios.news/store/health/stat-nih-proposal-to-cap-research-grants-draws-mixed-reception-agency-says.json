@@ -1,0 +1,69 @@
+{
+  "subject": "stat-nih-proposal-to-cap-research-grants-draws-mixed-reception-agency-says",
+  "claims": [
+    {
+      "id": "title",
+      "proposition": {
+        "predicate": "title",
+        "object": "STAT+: NIH proposal to cap research grants draws mixed reception, agency says"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "health",
+        "citation": "https://www.statnews.com/2026/09/01/nih-grant-cap-proposal-researcher-feedback/?utm_campaign=rss"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "url",
+      "proposition": {
+        "predicate": "url",
+        "object": "https://www.statnews.com/2026/09/01/nih-grant-cap-proposal-researcher-feedback/?utm_campaign=rss"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "health",
+        "citation": "https://www.statnews.com/2026/09/01/nih-grant-cap-proposal-researcher-feedback/?utm_campaign=rss"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "summary",
+      "proposition": {
+        "predicate": "summary",
+        "object": "Under the Trump administration, competition for government funding for biomedical research has reached new heights . In June, the National Institutes of Health proposed one solution : limiting the number of grants each individual scientist can have at a given moment. The agency recently released the anonymized 3,307 responses to its call for feedback, and it appears the proposal has drawn more mixed reactions than earlier such proposals. The NIH estimates that 40% of the responses opposed the proposal, 27% supported the idea of a cap, and 32% were mixed. In a post on its site, the agency said it hopes a cap could “contribute to a more balanced research portfolio, advancing stewardship, workforce sustainability, and the goals of the NIH Unified Funding Strategy .” But even some experts who agree with the spirit of the proposal worry that it could be another source of disruption for researchers in what has been a tumultuous time; some also argue that a straight cap on the number of grants may be too simplistic. Continue to STAT+ to read the full story&hellip;"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "health",
+        "citation": "https://www.statnews.com/2026/09/01/nih-grant-cap-proposal-researcher-feedback/?utm_campaign=rss"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "published",
+      "proposition": {
+        "predicate": "published",
+        "object": "Tue, 01 Sep 2026 08:30:00 +0000"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "health",
+        "citation": "https://www.statnews.com/2026/09/01/nih-grant-cap-proposal-researcher-feedback/?utm_campaign=rss"
+      },
+      "status": "supported"
+    }
+  ]
+}

@@ -1,0 +1,69 @@
+{
+  "subject": "a-legacy-worth-celebrating-reflecting-on-250-years-of-the-american-experiment",
+  "claims": [
+    {
+      "id": "title",
+      "proposition": {
+        "predicate": "title",
+        "object": "A legacy worth celebrating? Reflecting on 250 years of the American experiment"
+      },
+      "time": {
+        "asserted": "2026-07-18T08:15:59.494Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "degrowth",
+        "citation": "https://www.resilience.org/stories/2026-07-13/a-legacy-worth-celebrating-reflecting-on-250-years-of-the-american-experiment/"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "url",
+      "proposition": {
+        "predicate": "url",
+        "object": "https://www.resilience.org/stories/2026-07-13/a-legacy-worth-celebrating-reflecting-on-250-years-of-the-american-experiment/"
+      },
+      "time": {
+        "asserted": "2026-07-18T08:15:59.494Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "degrowth",
+        "citation": "https://www.resilience.org/stories/2026-07-13/a-legacy-worth-celebrating-reflecting-on-250-years-of-the-american-experiment/"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "summary",
+      "proposition": {
+        "predicate": "summary",
+        "object": "As America marks its 250th birthday, Nate takes a moment to step outside of the celebrations to seek out a wider boundary perspective on this milestone holiday. He poses the question of whether the United States has truly matured as a nation over two and a half centuries, particularly through the lenses of energy, ecology, history, and culture."
+      },
+      "time": {
+        "asserted": "2026-07-18T08:15:59.494Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "degrowth",
+        "citation": "https://www.resilience.org/stories/2026-07-13/a-legacy-worth-celebrating-reflecting-on-250-years-of-the-american-experiment/"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "published",
+      "proposition": {
+        "predicate": "published",
+        "object": "Mon, 13 Jul 2026 08:00:00 +0000"
+      },
+      "time": {
+        "asserted": "2026-07-18T08:15:59.494Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "degrowth",
+        "citation": "https://www.resilience.org/stories/2026-07-13/a-legacy-worth-celebrating-reflecting-on-250-years-of-the-american-experiment/"
+      },
+      "status": "supported"
+    }
+  ]
+}

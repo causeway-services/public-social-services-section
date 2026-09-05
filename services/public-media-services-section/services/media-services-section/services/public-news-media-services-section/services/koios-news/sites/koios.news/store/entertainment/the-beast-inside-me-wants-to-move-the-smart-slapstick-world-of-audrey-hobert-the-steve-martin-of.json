@@ -1,0 +1,69 @@
+{
+  "subject": "the-beast-inside-me-wants-to-move-the-smart-slapstick-world-of-audrey-hobert-the-steve-martin-of",
+  "claims": [
+    {
+      "id": "title",
+      "proposition": {
+        "predicate": "title",
+        "object": "‘The beast inside me wants to move!’ The smart, slapstick world of Audrey Hobert, the Steve Martin of pop"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "entertainment",
+        "citation": "https://www.theguardian.com/music/2026/mar/06/audrey-hobert-interview-gracie-abrams-songwriter-steve-martin-of-pop"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "url",
+      "proposition": {
+        "predicate": "url",
+        "object": "https://www.theguardian.com/music/2026/mar/06/audrey-hobert-interview-gracie-abrams-songwriter-steve-martin-of-pop"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "entertainment",
+        "citation": "https://www.theguardian.com/music/2026/mar/06/audrey-hobert-interview-gracie-abrams-songwriter-steve-martin-of-pop"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "summary",
+      "proposition": {
+        "predicate": "summary",
+        "object": "<p>She co-wrote Gracie Abrams’ hit album then struck out solo, winning a fervent cult for her funny, wordy songs. As her tour hits the UK, she explains why imperfection is so important in pop</p><p>Backstage at the Berlin venue Huxleys Neue Welt, Audrey Hobert is showing me around her dressing room. On the 27-year-old pop star’s second time outside the US, the novelty of having local snacks on the rider hasn’t dimmed, although her enthusiasm for chocolate thins can’t distract from what’s going on across the room. A comically overlong beige trenchcoat hangs on a rail, the excess length puddling on the floor. Two sets of joke-shop Groucho Marx glasses sit on the dressing table, the original black brows and moustache replaced with orange fluff to blend with Hobert’s vivid strawberry blond. “Those glasses are not flattering,” says Hobert. Having matching hair under the giant plastic nose, she says, “makes it more flattering”.</p><p>In a few hours, Hobert will start her set standing on a ladder that is concealed by the coat, wearing the glasses, miming on a prop banjo and singing a peppy song about charming strangers called I Like to Touch People. After it ends, the lights dim, Hobert climbs down and swaps to a regular-sized trenchcoat. Despite the changeover being entirely visible, the lights come back up as if to say “Hey presto!” – the trompe l’oeil of high-budget pop stagecraft remade as slapstick.</p> <a href=\"https://www.theguardian.com/music/2026/mar/06/audrey-hobert-interview-gracie-abrams-songwriter-steve-martin-of-pop\">Continue reading...</a>"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "entertainment",
+        "citation": "https://www.theguardian.com/music/2026/mar/06/audrey-hobert-interview-gracie-abrams-songwriter-steve-martin-of-pop"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "published",
+      "proposition": {
+        "predicate": "published",
+        "object": "Fri, 06 Mar 2026 08:00:15 GMT"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "entertainment",
+        "citation": "https://www.theguardian.com/music/2026/mar/06/audrey-hobert-interview-gracie-abrams-songwriter-steve-martin-of-pop"
+      },
+      "status": "supported"
+    }
+  ]
+}

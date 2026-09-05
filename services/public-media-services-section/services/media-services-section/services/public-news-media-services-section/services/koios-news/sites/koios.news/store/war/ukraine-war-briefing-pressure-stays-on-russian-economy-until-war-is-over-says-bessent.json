@@ -1,0 +1,69 @@
+{
+  "subject": "ukraine-war-briefing-pressure-stays-on-russian-economy-until-war-is-over-says-bessent",
+  "claims": [
+    {
+      "id": "title",
+      "proposition": {
+        "predicate": "title",
+        "object": "Ukraine war briefing: Pressure stays on Russian economy until war is over, says Bessent"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "war",
+        "citation": "https://www.theguardian.com/world/2026/sep/01/ukraine-war-briefing-pressure-stays-on-russian-economy-until-war-is-over-says-bessent"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "url",
+      "proposition": {
+        "predicate": "url",
+        "object": "https://www.theguardian.com/world/2026/sep/01/ukraine-war-briefing-pressure-stays-on-russian-economy-until-war-is-over-says-bessent"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "war",
+        "citation": "https://www.theguardian.com/world/2026/sep/01/ukraine-war-briefing-pressure-stays-on-russian-economy-until-war-is-over-says-bessent"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "summary",
+      "proposition": {
+        "predicate": "summary",
+        "object": "<p>US treasury secretary speaks with Russian counterpart who is controversially attending G20 talks; India’s Modi says war must end. What we know on day 1,651</p> <a href=\"https://www.theguardian.com/world/2026/sep/01/ukraine-war-briefing-pressure-stays-on-russian-economy-until-war-is-over-says-bessent\">Continue reading...</a>"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "war",
+        "citation": "https://www.theguardian.com/world/2026/sep/01/ukraine-war-briefing-pressure-stays-on-russian-economy-until-war-is-over-says-bessent"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "published",
+      "proposition": {
+        "predicate": "published",
+        "object": "Tue, 01 Sep 2026 01:03:22 GMT"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "war",
+        "citation": "https://www.theguardian.com/world/2026/sep/01/ukraine-war-briefing-pressure-stays-on-russian-economy-until-war-is-over-says-bessent"
+      },
+      "status": "supported"
+    }
+  ]
+}

@@ -1,0 +1,69 @@
+{
+  "subject": "kyiv-suffers-hours-of-daytime-air-raids-as-russia-deploys-new-jet-powered-drones",
+  "claims": [
+    {
+      "id": "title",
+      "proposition": {
+        "predicate": "title",
+        "object": "Kyiv suffers hours of daytime air raids as Russia deploys new jet-powered drones"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "war",
+        "citation": "https://www.theguardian.com/world/2026/aug/31/russia-fires-jet-powered-drones-ukraine"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "url",
+      "proposition": {
+        "predicate": "url",
+        "object": "https://www.theguardian.com/world/2026/aug/31/russia-fires-jet-powered-drones-ukraine"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "war",
+        "citation": "https://www.theguardian.com/world/2026/aug/31/russia-fires-jet-powered-drones-ukraine"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "summary",
+      "proposition": {
+        "predicate": "summary",
+        "object": "<p>Volodymyr Zelenskyy says about 800 Shahed drones fired into Ukraine in four days in effort to ‘wear down’ country</p><p>Kyiv is enduring hours of daytime air raids and air raid warnings as Russia has fired 800 jet-powered drones into Ukraine in four days, using the faster weapons to sustain prolonged waves of attacks</p><p>The new-model Shahed drones have a cruising speed of 200mph to 250mph , about double the 115mph achieved by the piston-engine version and beyond the speed of Ukraine’s cheap interceptors, making them harder to stop.</p> <a href=\"https://www.theguardian.com/world/2026/aug/31/russia-fires-jet-powered-drones-ukraine\">Continue reading...</a>"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "war",
+        "citation": "https://www.theguardian.com/world/2026/aug/31/russia-fires-jet-powered-drones-ukraine"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "published",
+      "proposition": {
+        "predicate": "published",
+        "object": "Mon, 31 Aug 2026 15:48:20 GMT"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "war",
+        "citation": "https://www.theguardian.com/world/2026/aug/31/russia-fires-jet-powered-drones-ukraine"
+      },
+      "status": "supported"
+    }
+  ]
+}

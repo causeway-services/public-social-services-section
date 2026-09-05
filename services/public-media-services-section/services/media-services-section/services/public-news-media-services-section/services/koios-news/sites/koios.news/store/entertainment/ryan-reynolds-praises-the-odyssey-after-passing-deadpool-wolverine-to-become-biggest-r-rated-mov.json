@@ -1,0 +1,69 @@
+{
+  "subject": "ryan-reynolds-praises-the-odyssey-after-passing-deadpool-wolverine-to-become-biggest-r-rated-mov",
+  "claims": [
+    {
+      "id": "title",
+      "proposition": {
+        "predicate": "title",
+        "object": "Ryan Reynolds Praises ‘The Odyssey’ After Passing ‘Deadpool & Wolverine’ to Become Biggest R-Rated Movie Ever: ‘Christopher Nolan Literally Breathes The Rarest Air on Earth’"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "entertainment",
+        "citation": "https://variety.com/2026/film/news/ryan-reynolds-odyssey-nolan-deadpool-wolverine-mayday-1236849352/"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "url",
+      "proposition": {
+        "predicate": "url",
+        "object": "https://variety.com/2026/film/news/ryan-reynolds-odyssey-nolan-deadpool-wolverine-mayday-1236849352/"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "entertainment",
+        "citation": "https://variety.com/2026/film/news/ryan-reynolds-odyssey-nolan-deadpool-wolverine-mayday-1236849352/"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "summary",
+      "proposition": {
+        "predicate": "summary",
+        "object": "Hollywood is living through “the friggin’ salad days,” as Ryan Reynolds puts it, after experiencing the biggest summer at the box office since COVID, thanks to blockbusters like “Spider-Man: Brand New Day” and “The Odyssey.” Last month, the “Deadpool” star personally congratulated the cast and crew of “The Odyssey” for surpassing “Deadpool & Wolverine” to […]"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "entertainment",
+        "citation": "https://variety.com/2026/film/news/ryan-reynolds-odyssey-nolan-deadpool-wolverine-mayday-1236849352/"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "published",
+      "proposition": {
+        "predicate": "published",
+        "object": "Wed, 02 Sep 2026 22:10:00 +0000"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "entertainment",
+        "citation": "https://variety.com/2026/film/news/ryan-reynolds-odyssey-nolan-deadpool-wolverine-mayday-1236849352/"
+      },
+      "status": "supported"
+    }
+  ]
+}

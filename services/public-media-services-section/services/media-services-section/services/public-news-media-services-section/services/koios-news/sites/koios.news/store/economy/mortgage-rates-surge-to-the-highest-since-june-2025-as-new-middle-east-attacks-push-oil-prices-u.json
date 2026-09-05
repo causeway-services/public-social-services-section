@@ -1,0 +1,69 @@
+{
+  "subject": "mortgage-rates-surge-to-the-highest-since-june-2025-as-new-middle-east-attacks-push-oil-prices-u",
+  "claims": [
+    {
+      "id": "title",
+      "proposition": {
+        "predicate": "title",
+        "object": "Mortgage rates surge to the highest since June 2025 as new Middle East attacks push oil prices up"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "economy",
+        "citation": "https://www.cnbc.com/2026/08/31/mortgage-rates-surge-middle-east-attacks-oil.html"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "url",
+      "proposition": {
+        "predicate": "url",
+        "object": "https://www.cnbc.com/2026/08/31/mortgage-rates-surge-middle-east-attacks-oil.html"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "economy",
+        "citation": "https://www.cnbc.com/2026/08/31/mortgage-rates-surge-middle-east-attacks-oil.html"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "summary",
+      "proposition": {
+        "predicate": "summary",
+        "object": "The expectation had been for falling rates this year, but the war with Iran and its resulting rise in oil prices upended that."
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "economy",
+        "citation": "https://www.cnbc.com/2026/08/31/mortgage-rates-surge-middle-east-attacks-oil.html"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "published",
+      "proposition": {
+        "predicate": "published",
+        "object": "Mon, 31 Aug 2026 18:53:36 GMT"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "economy",
+        "citation": "https://www.cnbc.com/2026/08/31/mortgage-rates-surge-middle-east-attacks-oil.html"
+      },
+      "status": "supported"
+    }
+  ]
+}

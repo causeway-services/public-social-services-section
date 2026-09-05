@@ -1,0 +1,69 @@
+{
+  "subject": "call-of-duty-movie-from-taylor-sheridan-and-peter-berg-will-be-set-in-modern-warfare-universe",
+  "claims": [
+    {
+      "id": "title",
+      "proposition": {
+        "predicate": "title",
+        "object": "‘Call of Duty’ Movie From Taylor Sheridan and Peter Berg Will Be Set in ‘Modern Warfare’ Universe"
+      },
+      "time": {
+        "asserted": "2026-07-19T15:04:21.677Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "culture",
+        "citation": "https://www.hollywoodreporter.com/movies/movie-news/call-of-duty-movie-set-in-modern-warfare-universe-1236651562/"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "url",
+      "proposition": {
+        "predicate": "url",
+        "object": "https://www.hollywoodreporter.com/movies/movie-news/call-of-duty-movie-set-in-modern-warfare-universe-1236651562/"
+      },
+      "time": {
+        "asserted": "2026-07-19T15:04:21.677Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "culture",
+        "citation": "https://www.hollywoodreporter.com/movies/movie-news/call-of-duty-movie-set-in-modern-warfare-universe-1236651562/"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "summary",
+      "proposition": {
+        "predicate": "summary",
+        "object": "The 'Landman' and 'Yellowstone' creator is co-writing the screenplay with Berg directing. The live-action adaptation is slated to hit theaters on June 30, 2028."
+      },
+      "time": {
+        "asserted": "2026-07-19T15:04:21.677Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "culture",
+        "citation": "https://www.hollywoodreporter.com/movies/movie-news/call-of-duty-movie-set-in-modern-warfare-universe-1236651562/"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "published",
+      "proposition": {
+        "predicate": "published",
+        "object": "Sat, 18 Jul 2026 19:54:08 +0000"
+      },
+      "time": {
+        "asserted": "2026-07-19T15:04:21.677Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "culture",
+        "citation": "https://www.hollywoodreporter.com/movies/movie-news/call-of-duty-movie-set-in-modern-warfare-universe-1236651562/"
+      },
+      "status": "supported"
+    }
+  ]
+}

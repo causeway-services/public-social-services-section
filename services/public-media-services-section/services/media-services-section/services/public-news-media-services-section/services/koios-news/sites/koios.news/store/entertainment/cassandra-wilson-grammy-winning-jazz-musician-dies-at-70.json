@@ -1,0 +1,69 @@
+{
+  "subject": "cassandra-wilson-grammy-winning-jazz-musician-dies-at-70",
+  "claims": [
+    {
+      "id": "title",
+      "proposition": {
+        "predicate": "title",
+        "object": "Cassandra Wilson, Grammy-Winning Jazz Musician, Dies at 70"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "entertainment",
+        "citation": "https://variety.com/2026/music/news/cassandra-wilson-dead-grammy-winning-jazz-musician-1236849743/"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "url",
+      "proposition": {
+        "predicate": "url",
+        "object": "https://variety.com/2026/music/news/cassandra-wilson-dead-grammy-winning-jazz-musician-1236849743/"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "entertainment",
+        "citation": "https://variety.com/2026/music/news/cassandra-wilson-dead-grammy-winning-jazz-musician-1236849743/"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "summary",
+      "proposition": {
+        "predicate": "summary",
+        "object": "Cassandra Wilson, the Grammy-winning jazz singer, songwriter and producer, has died. She was 70. Wilson’s longtime manager Robert Torre shared with WBGO that Wilson died early Wednesday morning in Jackson, Mississippi. A cause of death was not given. “It is with profound sadness that we announce the passing of Cassandra Wilson, the Grammy Award-winning and […]"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "entertainment",
+        "citation": "https://variety.com/2026/music/news/cassandra-wilson-dead-grammy-winning-jazz-musician-1236849743/"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "published",
+      "proposition": {
+        "predicate": "published",
+        "object": "Wed, 02 Sep 2026 21:04:51 +0000"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "entertainment",
+        "citation": "https://variety.com/2026/music/news/cassandra-wilson-dead-grammy-winning-jazz-musician-1236849743/"
+      },
+      "status": "supported"
+    }
+  ]
+}

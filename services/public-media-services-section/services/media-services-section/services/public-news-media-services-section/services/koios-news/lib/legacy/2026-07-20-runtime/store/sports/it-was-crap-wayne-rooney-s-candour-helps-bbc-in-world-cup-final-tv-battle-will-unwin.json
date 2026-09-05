@@ -1,0 +1,69 @@
+{
+  "subject": "it-was-crap-wayne-rooney-s-candour-helps-bbc-in-world-cup-final-tv-battle-will-unwin",
+  "claims": [
+    {
+      "id": "title",
+      "proposition": {
+        "predicate": "title",
+        "object": "‘It was crap’: Wayne Rooney’s candour helps BBC in World Cup final TV battle | Will Unwin\""
+      },
+      "time": {
+        "asserted": "2026-07-19T23:38:26.884Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "sports",
+        "citation": "https://www.theguardian.com/football/2026/jul/19/world-cup-2026-final-tv-review-bbc-itv-wayne-rooney"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "url",
+      "proposition": {
+        "predicate": "url",
+        "object": "https://www.theguardian.com/football/2026/jul/19/world-cup-2026-final-tv-review-bbc-itv-wayne-rooney"
+      },
+      "time": {
+        "asserted": "2026-07-19T23:38:26.884Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "sports",
+        "citation": "https://www.theguardian.com/football/2026/jul/19/world-cup-2026-final-tv-review-bbc-itv-wayne-rooney"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "summary",
+      "proposition": {
+        "predicate": "summary",
+        "object": "<p>BBC scored a late goal in head-to-head with ITV over the World Cup by being in the stadium for the final</p><p>“I thought it was crap,” Wayne Rooney surmised on BBC after enduring the half-time show. Amid a tense final, the interval was always going to be prominent, theoretically bringing light to the shade. Why the two UK broadcasters felt the need to transmit the karaoke session in full we will never know but at least the pundits struggled through it, too.</p><p>Ally McCoist said it had “mentally scarred” him as someone in attendance, unlike many of his ITV colleagues who were sat in Brooklyn. The studio has rightly earned them kudos, creating a home alongside the Hudson River with the Brooklyn Bridge providing the dramatic backdrop. With the game only an expensive train ride away, it was a surprise to see Roy Keane, Gary Neville and Ian Wright in familiar surroundings.</p> <a href=\"https://www.theguardian.com/football/2026/jul/19/world-cup-2026-final-tv-review-bbc-itv-wayne-rooney\">Continue reading...</a>"
+      },
+      "time": {
+        "asserted": "2026-07-19T23:38:26.884Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "sports",
+        "citation": "https://www.theguardian.com/football/2026/jul/19/world-cup-2026-final-tv-review-bbc-itv-wayne-rooney"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "published",
+      "proposition": {
+        "predicate": "published",
+        "object": "Sun, 19 Jul 2026 22:32:52 GMT"
+      },
+      "time": {
+        "asserted": "2026-07-19T23:38:26.884Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "sports",
+        "citation": "https://www.theguardian.com/football/2026/jul/19/world-cup-2026-final-tv-review-bbc-itv-wayne-rooney"
+      },
+      "status": "supported"
+    }
+  ]
+}

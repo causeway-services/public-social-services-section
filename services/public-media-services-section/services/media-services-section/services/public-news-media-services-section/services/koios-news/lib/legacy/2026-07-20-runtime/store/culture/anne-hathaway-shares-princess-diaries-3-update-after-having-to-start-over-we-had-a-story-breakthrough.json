@@ -1,0 +1,69 @@
+{
+  "subject": "anne-hathaway-shares-princess-diaries-3-update-after-having-to-start-over-we-had-a-story-breakthrough",
+  "claims": [
+    {
+      "id": "title",
+      "proposition": {
+        "predicate": "title",
+        "object": "Anne Hathaway Shares ‘Princess Diaries 3’ Update After Having To “Start Over”: “We Had A Story Breakthrough”"
+      },
+      "time": {
+        "asserted": "2026-07-19T20:06:19.825Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "culture",
+        "citation": "https://deadline.com/2026/07/anne-hathaway-princess-diaries-3-update-1236997738/"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "url",
+      "proposition": {
+        "predicate": "url",
+        "object": "https://deadline.com/2026/07/anne-hathaway-princess-diaries-3-update-1236997738/"
+      },
+      "time": {
+        "asserted": "2026-07-19T20:06:19.825Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "culture",
+        "citation": "https://deadline.com/2026/07/anne-hathaway-princess-diaries-3-update-1236997738/"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "summary",
+      "proposition": {
+        "predicate": "summary",
+        "object": "Anne Hathaway is giving an update on The Princess Diaries 3 after years in development. In a new interview, Hathaway revealed that the script they had been working on had to be scrapped for a new direction and that they had recently had a “breakthrough.” “I’m busy making baby number three, and that has sort […]"
+      },
+      "time": {
+        "asserted": "2026-07-19T20:06:19.825Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "culture",
+        "citation": "https://deadline.com/2026/07/anne-hathaway-princess-diaries-3-update-1236997738/"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "published",
+      "proposition": {
+        "predicate": "published",
+        "object": "Sun, 19 Jul 2026 16:54:51 +0000"
+      },
+      "time": {
+        "asserted": "2026-07-19T20:06:19.825Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "culture",
+        "citation": "https://deadline.com/2026/07/anne-hathaway-princess-diaries-3-update-1236997738/"
+      },
+      "status": "supported"
+    }
+  ]
+}

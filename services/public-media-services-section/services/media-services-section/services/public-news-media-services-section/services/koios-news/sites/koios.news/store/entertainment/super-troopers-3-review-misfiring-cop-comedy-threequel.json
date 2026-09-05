@@ -1,0 +1,69 @@
+{
+  "subject": "super-troopers-3-review-misfiring-cop-comedy-threequel",
+  "claims": [
+    {
+      "id": "title",
+      "proposition": {
+        "predicate": "title",
+        "object": "Super Troopers 3 review – misfiring cop comedy threequel"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "entertainment",
+        "citation": "https://www.theguardian.com/film/2026/aug/06/super-troopers-3-review-misfiring-cop-comedy-threequel"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "url",
+      "proposition": {
+        "predicate": "url",
+        "object": "https://www.theguardian.com/film/2026/aug/06/super-troopers-3-review-misfiring-cop-comedy-threequel"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "entertainment",
+        "citation": "https://www.theguardian.com/film/2026/aug/06/super-troopers-3-review-misfiring-cop-comedy-threequel"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "summary",
+      "proposition": {
+        "predicate": "summary",
+        "object": "<p>The return of the country’s most incompetent police force fails to bring enough laughs or any real justification for its existence</p><p>Super Troopers occupies a sacred corner of the millennial DVD shelf, a goofy rebuttal to the endless procession of just-the-facts-ma’am TV cops that reimagined America’s most mythologized authority figures as incompetent brats.</p><p>The original is a testament to Y2K friendship – the college comedy troupe Broken Lizard, after losing out on an MTV show to The State, pooled their money to make a scrappy indie that became a cult classic. It had Brian Cox gleefully playing against his capital-A Actor persona (a novelty for American audiences in 2001) and offering a glimpse of the Logan Roy fury he would later perfect on Succession, only with lines such as “I’ll believe ya when me shit turns purple and smells like rainbow sherbet.” After generating more than $60m in post-release sales on a reported $3m budget, a film franchise was born.</p> <a href=\"https://www.theguardian.com/film/2026/aug/06/super-troopers-3-review-misfiring-cop-comedy-threequel\">Continue reading...</a>"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "entertainment",
+        "citation": "https://www.theguardian.com/film/2026/aug/06/super-troopers-3-review-misfiring-cop-comedy-threequel"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "published",
+      "proposition": {
+        "predicate": "published",
+        "object": "Thu, 06 Aug 2026 10:00:46 GMT"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "entertainment",
+        "citation": "https://www.theguardian.com/film/2026/aug/06/super-troopers-3-review-misfiring-cop-comedy-threequel"
+      },
+      "status": "supported"
+    }
+  ]
+}

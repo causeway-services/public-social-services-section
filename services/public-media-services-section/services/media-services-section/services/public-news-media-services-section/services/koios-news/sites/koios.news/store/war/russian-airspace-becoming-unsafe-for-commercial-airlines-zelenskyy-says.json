@@ -1,0 +1,69 @@
+{
+  "subject": "russian-airspace-becoming-unsafe-for-commercial-airlines-zelenskyy-says",
+  "claims": [
+    {
+      "id": "title",
+      "proposition": {
+        "predicate": "title",
+        "object": "Russian airspace becoming unsafe for commercial airlines, Zelenskyy says"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "war",
+        "citation": "https://www.theguardian.com/world/2026/sep/02/russian-airspace-unsafe-commercial-airlines-zelenskyy"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "url",
+      "proposition": {
+        "predicate": "url",
+        "object": "https://www.theguardian.com/world/2026/sep/02/russian-airspace-unsafe-commercial-airlines-zelenskyy"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "war",
+        "citation": "https://www.theguardian.com/world/2026/sep/02/russian-airspace-unsafe-commercial-airlines-zelenskyy"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "summary",
+      "proposition": {
+        "predicate": "summary",
+        "object": "<p>Ukraine president says aviation industry needs to take account of growing number of Ukrainian drones in Russia</p><p></p><p>Volodymyr Zelenskyy has declared that Russia’s airspace is becoming unsafe for commercial airlines, as Vladimir Putin promised to increase strikes against Ukraine’s energy facilities in the run-up to winter.</p><p>The <a href=\"https://www.theguardian.com/world/2026/sep/02/ukraine-war-briefing-russian-sky-full-of-our-drones-and-not-safe-zelenskyy-warns-airlines\">Ukrainian president said</a> there was no intention to directly threaten civilian flights, but the growing number of attack drones being flown into Russia by Ukraine would have to be “taken into account” by the aviation industry.</p> <a href=\"https://www.theguardian.com/world/2026/sep/02/russian-airspace-unsafe-commercial-airlines-zelenskyy\">Continue reading...</a>"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "war",
+        "citation": "https://www.theguardian.com/world/2026/sep/02/russian-airspace-unsafe-commercial-airlines-zelenskyy"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "published",
+      "proposition": {
+        "predicate": "published",
+        "object": "Wed, 02 Sep 2026 15:52:05 GMT"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "war",
+        "citation": "https://www.theguardian.com/world/2026/sep/02/russian-airspace-unsafe-commercial-airlines-zelenskyy"
+      },
+      "status": "supported"
+    }
+  ]
+}

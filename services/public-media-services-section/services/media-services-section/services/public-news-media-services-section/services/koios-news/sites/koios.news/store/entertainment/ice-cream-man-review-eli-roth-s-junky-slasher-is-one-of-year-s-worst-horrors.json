@@ -1,0 +1,69 @@
+{
+  "subject": "ice-cream-man-review-eli-roth-s-junky-slasher-is-one-of-year-s-worst-horrors",
+  "claims": [
+    {
+      "id": "title",
+      "proposition": {
+        "predicate": "title",
+        "object": "Ice Cream Man review – Eli Roth’s junky slasher is one of year’s worst horrors"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "entertainment",
+        "citation": "https://www.theguardian.com/film/2026/aug/05/ice-cream-man-review-eli-roth"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "url",
+      "proposition": {
+        "predicate": "url",
+        "object": "https://www.theguardian.com/film/2026/aug/05/ice-cream-man-review-eli-roth"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "entertainment",
+        "citation": "https://www.theguardian.com/film/2026/aug/05/ice-cream-man-review-eli-roth"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "summary",
+      "proposition": {
+        "predicate": "summary",
+        "object": "<p>The Hostel and Thanksgiving director takes a massive stumble with a rushed retro horror made on the cheap</p><p>A few years ago, Eli Roth realized his long-held ambition to make a movie out of <a href=\"https://www.theguardian.com/film/2023/nov/15/thanksgiving-movie-review-eli-roth-fun-slasher\">Thanksgiving</a>, the horror-movie trailer he made as a gag for the Quentin Tarantino/Robert Rodriguez anthology feature Grindhouse, back in 2007. Though he didn’t actually go so far as to make the scratched-up decades-ago slasher shown in the original trailer, Thanksgiving was still Roth’s most satisfying movie in ages, replete with ridiculous gore and a side of satirical commentary – a 2020s movie fit for an old video store’s VHS horror section despite its contemporary setting.</p><p>Now Roth has founded a horror-focused company actually called the Horror Section, aimed at releasing movies, shows and “experiences” that appeal to the modern equivalent of those VHS-shelf gorehounds. After “presenting” a few other movies, Roth’s first direct contribution to the company is Ice Cream Man, exactly the kind of knowingly disreputable button-pusher befitting the company’s retro-sticker logo. (Indeed, Roth’s movie shares its title with a 1995 direct-to-video curiosity starring Clint Howard, though this one is unrelated.) Unfortunately, rather than a companion piece to the blackly funny murder-mystery of Thanksgiving, which riffed on Scream as much as 80s slashers, Roth’s latest feels like a demo reel for someone vastly less talented.</p> <a href=\"https://www.theguardian.com/film/2026/aug/05/ice-cream-man-review-eli-roth\">Continue reading...</a>"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "entertainment",
+        "citation": "https://www.theguardian.com/film/2026/aug/05/ice-cream-man-review-eli-roth"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "published",
+      "proposition": {
+        "predicate": "published",
+        "object": "Wed, 05 Aug 2026 10:00:15 GMT"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "entertainment",
+        "citation": "https://www.theguardian.com/film/2026/aug/05/ice-cream-man-review-eli-roth"
+      },
+      "status": "supported"
+    }
+  ]
+}

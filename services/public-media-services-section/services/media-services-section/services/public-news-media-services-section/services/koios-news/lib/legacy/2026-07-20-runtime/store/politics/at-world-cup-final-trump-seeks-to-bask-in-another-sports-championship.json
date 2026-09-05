@@ -1,0 +1,69 @@
+{
+  "subject": "at-world-cup-final-trump-seeks-to-bask-in-another-sports-championship",
+  "claims": [
+    {
+      "id": "title",
+      "proposition": {
+        "predicate": "title",
+        "object": "At World Cup Final, Trump Seeks to Bask in Another Sports Championship"
+      },
+      "time": {
+        "asserted": "2026-07-19T23:18:19.244Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "politics",
+        "citation": "https://www.nytimes.com/2026/07/19/us/politics/trump-world-cup-final.html"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "url",
+      "proposition": {
+        "predicate": "url",
+        "object": "https://www.nytimes.com/2026/07/19/us/politics/trump-world-cup-final.html"
+      },
+      "time": {
+        "asserted": "2026-07-19T23:18:19.244Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "politics",
+        "citation": "https://www.nytimes.com/2026/07/19/us/politics/trump-world-cup-final.html"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "summary",
+      "proposition": {
+        "predicate": "summary",
+        "object": "The president flew in Marine One over MetLife Stadium on Sunday ahead of his arrival. It was the second time recently that he sought to seize the spotlight at a major sporting event."
+      },
+      "time": {
+        "asserted": "2026-07-19T23:18:19.244Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "politics",
+        "citation": "https://www.nytimes.com/2026/07/19/us/politics/trump-world-cup-final.html"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "published",
+      "proposition": {
+        "predicate": "published",
+        "object": "Sun, 19 Jul 2026 22:07:58 +0000"
+      },
+      "time": {
+        "asserted": "2026-07-19T23:18:19.244Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "politics",
+        "citation": "https://www.nytimes.com/2026/07/19/us/politics/trump-world-cup-final.html"
+      },
+      "status": "supported"
+    }
+  ]
+}

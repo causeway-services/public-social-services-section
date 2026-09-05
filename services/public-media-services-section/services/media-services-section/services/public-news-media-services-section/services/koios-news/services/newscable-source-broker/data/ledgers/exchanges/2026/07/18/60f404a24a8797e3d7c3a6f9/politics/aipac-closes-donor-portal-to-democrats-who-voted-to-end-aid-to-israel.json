@@ -1,0 +1,69 @@
+{
+  "subject": "aipac-closes-donor-portal-to-democrats-who-voted-to-end-aid-to-israel",
+  "claims": [
+    {
+      "id": "title",
+      "proposition": {
+        "predicate": "title",
+        "object": "AIPAC Closes Donor Portal to Democrats Who Voted to End Aid to Israel"
+      },
+      "time": {
+        "asserted": "2026-07-18T08:15:55.287Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "politics",
+        "citation": "https://www.nytimes.com/2026/07/17/us/politics/aipac-donor-portal-democrats.html"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "url",
+      "proposition": {
+        "predicate": "url",
+        "object": "https://www.nytimes.com/2026/07/17/us/politics/aipac-donor-portal-democrats.html"
+      },
+      "time": {
+        "asserted": "2026-07-18T08:15:55.287Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "politics",
+        "citation": "https://www.nytimes.com/2026/07/17/us/politics/aipac-donor-portal-democrats.html"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "summary",
+      "proposition": {
+        "predicate": "summary",
+        "object": "The pro-Israel lobbying group appeared to be punishing Democrats it had endorsed for re-election after they voted in favor of an amendment that would have cut off U.S. aid to Israel."
+      },
+      "time": {
+        "asserted": "2026-07-18T08:15:55.287Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "politics",
+        "citation": "https://www.nytimes.com/2026/07/17/us/politics/aipac-donor-portal-democrats.html"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "published",
+      "proposition": {
+        "predicate": "published",
+        "object": "Sat, 18 Jul 2026 03:33:57 +0000"
+      },
+      "time": {
+        "asserted": "2026-07-18T08:15:55.287Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "politics",
+        "citation": "https://www.nytimes.com/2026/07/17/us/politics/aipac-donor-portal-democrats.html"
+      },
+      "status": "supported"
+    }
+  ]
+}

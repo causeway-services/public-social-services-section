@@ -1,0 +1,69 @@
+{
+  "subject": "everything-countercultural-is-doomed-isn-t-it-sofie-royer-the-bracingly-brilliant-pop-star-ponde",
+  "claims": [
+    {
+      "id": "title",
+      "proposition": {
+        "predicate": "title",
+        "object": "‘Everything countercultural is doomed, isn’t it?’​ Sofie Royer, the bracingly brilliant pop star pondering life’s big questions"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "entertainment",
+        "citation": "https://www.theguardian.com/music/2026/sep/02/sofie-royer-underground-before-after"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "url",
+      "proposition": {
+        "predicate": "url",
+        "object": "https://www.theguardian.com/music/2026/sep/02/sofie-royer-underground-before-after"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "entertainment",
+        "citation": "https://www.theguardian.com/music/2026/sep/02/sofie-royer-underground-before-after"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "summary",
+      "proposition": {
+        "predicate": "summary",
+        "object": "<p>Referencing Tarkovsky and French theory, the Austrian-Iranian singer is writing some of today’s wittiest music – though she’s ‘too pop for the art world, too indie-darling for the mainstream’</p><p>You wait ages for a brilliant pop song about film-making and then two come along at once. Following on from Charli xcx’s <a href=\"https://youtu.be/eO3zsYsDnbI\">Camera</a> comes Actress by Sofie Royer, with lyrics referencing rotoscoping, call sheets, screenplays, establishing shots, cinéma verité and more. “When the dust settles on your heart / I’d like to audition for the leading part,” she purrs over pumping disco, screwball-funny as she stacks up the metaphors to woo some Letterboxd-brained beau. “My mise-en-scène is flawless, don’t you know I’m quite adored / I’ll win you over in 35mm 4K-restored.”</p><p>It’s a typically smart and witty number from a singer, songwriter, multi-instrumentalist and, as it happens, aspiring actor, whose erudition and taste light up one of the best albums of the year, the forthcoming Before/After. Its lead single <a href=\"https://youtu.be/EkaEdrn2fyQ\">Cowboy Mouth</a> is a recreation of a Sam Shepard play in song; <a href=\"https://youtu.be/Ysn1K-Z_m40\">another song</a> makes a catchy funk-pop chorus from the word “sesquicentennial”. Her music is cosmopolitan enough to sit Italo disco next to new wave and garage rock, and across her discography there’s a big cast of cultural figures from Andrei Tarkovsky to Kenneth Anger, Luigi Mangione to Ivy Wolk, knowingness offset by her keen sense of humour.</p> <a href=\"https://www.theguardian.com/music/2026/sep/02/sofie-royer-underground-before-after\">Continue reading...</a>"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "entertainment",
+        "citation": "https://www.theguardian.com/music/2026/sep/02/sofie-royer-underground-before-after"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "published",
+      "proposition": {
+        "predicate": "published",
+        "object": "Wed, 02 Sep 2026 12:08:11 GMT"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "entertainment",
+        "citation": "https://www.theguardian.com/music/2026/sep/02/sofie-royer-underground-before-after"
+      },
+      "status": "supported"
+    }
+  ]
+}

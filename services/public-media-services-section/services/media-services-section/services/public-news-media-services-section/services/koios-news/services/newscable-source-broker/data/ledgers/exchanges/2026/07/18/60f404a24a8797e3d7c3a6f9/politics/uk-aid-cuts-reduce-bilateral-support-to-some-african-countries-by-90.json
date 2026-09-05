@@ -1,0 +1,69 @@
+{
+  "subject": "uk-aid-cuts-reduce-bilateral-support-to-some-african-countries-by-90",
+  "claims": [
+    {
+      "id": "title",
+      "proposition": {
+        "predicate": "title",
+        "object": "UK aid cuts ‘reduce bilateral support to some African countries by 90%’"
+      },
+      "time": {
+        "asserted": "2026-07-18T08:15:55.287Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "politics",
+        "citation": "https://www.theguardian.com/politics/2026/jul/16/uk-aid-cuts-bilateral-support-african-countries"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "url",
+      "proposition": {
+        "predicate": "url",
+        "object": "https://www.theguardian.com/politics/2026/jul/16/uk-aid-cuts-bilateral-support-african-countries"
+      },
+      "time": {
+        "asserted": "2026-07-18T08:15:55.287Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "politics",
+        "citation": "https://www.theguardian.com/politics/2026/jul/16/uk-aid-cuts-bilateral-support-african-countries"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "summary",
+      "proposition": {
+        "predicate": "summary",
+        "object": "<p>Critics say Foreign Office figures send ‘global message about the role the country wants to play on international stage’</p><p>Labour’s foreign aid cuts mean reductions of as much as 90% in the bilateral support the UK will give to some African countries, Foreign Office figures show.</p><p>The department’s <a href=\"https://www.gov.uk/government/publications/fcdo-annual-report-and-accounts-2025-to-2026\">annual report</a> includes a long-awaited breakdown of how the reduction in the aid budget will affect individual countries for the next three years.</p> <a href=\"https://www.theguardian.com/politics/2026/jul/16/uk-aid-cuts-bilateral-support-african-countries\">Continue reading...</a>"
+      },
+      "time": {
+        "asserted": "2026-07-18T08:15:55.287Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "politics",
+        "citation": "https://www.theguardian.com/politics/2026/jul/16/uk-aid-cuts-bilateral-support-african-countries"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "published",
+      "proposition": {
+        "predicate": "published",
+        "object": "Thu, 16 Jul 2026 15:20:58 GMT"
+      },
+      "time": {
+        "asserted": "2026-07-18T08:15:55.287Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "politics",
+        "citation": "https://www.theguardian.com/politics/2026/jul/16/uk-aid-cuts-bilateral-support-african-countries"
+      },
+      "status": "supported"
+    }
+  ]
+}

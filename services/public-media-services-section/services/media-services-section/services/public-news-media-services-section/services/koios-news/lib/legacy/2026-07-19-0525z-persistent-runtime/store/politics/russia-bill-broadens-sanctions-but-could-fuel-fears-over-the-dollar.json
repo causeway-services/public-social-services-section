@@ -1,0 +1,69 @@
+{
+  "subject": "russia-bill-broadens-sanctions-but-could-fuel-fears-over-the-dollar",
+  "claims": [
+    {
+      "id": "title",
+      "proposition": {
+        "predicate": "title",
+        "object": "Russia Bill Broadens Sanctions but Could Fuel Fears Over the Dollar"
+      },
+      "time": {
+        "asserted": "2026-07-19T02:19:57.834Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "politics",
+        "citation": "https://www.nytimes.com/2026/07/18/us/politics/russia-bill-sanctions-trump.html"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "url",
+      "proposition": {
+        "predicate": "url",
+        "object": "https://www.nytimes.com/2026/07/18/us/politics/russia-bill-sanctions-trump.html"
+      },
+      "time": {
+        "asserted": "2026-07-19T02:19:57.834Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "politics",
+        "citation": "https://www.nytimes.com/2026/07/18/us/politics/russia-bill-sanctions-trump.html"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "summary",
+      "proposition": {
+        "predicate": "summary",
+        "object": "The Trump administration has recently sought to scale back sanctions as adversaries develop workarounds that some believe could erode the U.S. dollar’s supremacy."
+      },
+      "time": {
+        "asserted": "2026-07-19T02:19:57.834Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "politics",
+        "citation": "https://www.nytimes.com/2026/07/18/us/politics/russia-bill-sanctions-trump.html"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "published",
+      "proposition": {
+        "predicate": "published",
+        "object": "Sat, 18 Jul 2026 09:01:37 +0000"
+      },
+      "time": {
+        "asserted": "2026-07-19T02:19:57.834Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "politics",
+        "citation": "https://www.nytimes.com/2026/07/18/us/politics/russia-bill-sanctions-trump.html"
+      },
+      "status": "supported"
+    }
+  ]
+}

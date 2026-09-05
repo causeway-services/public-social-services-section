@@ -1,0 +1,69 @@
+{
+  "subject": "tom-cruise-and-half-of-hollywood-light-up-2026-world-cup-final-while-trump-is-booed",
+  "claims": [
+    {
+      "id": "title",
+      "proposition": {
+        "predicate": "title",
+        "object": "Tom Cruise and Half of Hollywood Light Up 2026 World Cup Final While Trump Is Booed"
+      },
+      "time": {
+        "asserted": "2026-07-20T00:18:29.089Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "culture",
+        "citation": "https://variety.com/2026/sports/news/tom-cruise-2026-world-cup-final-hollywood-jason-sudeikis-justin-bieber-1236816132/"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "url",
+      "proposition": {
+        "predicate": "url",
+        "object": "https://variety.com/2026/sports/news/tom-cruise-2026-world-cup-final-hollywood-jason-sudeikis-justin-bieber-1236816132/"
+      },
+      "time": {
+        "asserted": "2026-07-20T00:18:29.089Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "culture",
+        "citation": "https://variety.com/2026/sports/news/tom-cruise-2026-world-cup-final-hollywood-jason-sudeikis-justin-bieber-1236816132/"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "summary",
+      "proposition": {
+        "predicate": "summary",
+        "object": "The 2026 FIFA World Cup has smashed ratings records in the U.S. and around the world, owing to its unique mix of star power — Lionel Messi, Cristiano Ronaldo and Neymar performing in perhaps their final World Cup matches, joined by younger stars Kylian Mbappe, Erling Haaland and Lamine Yamal — a North American setting […]"
+      },
+      "time": {
+        "asserted": "2026-07-20T00:18:29.089Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "culture",
+        "citation": "https://variety.com/2026/sports/news/tom-cruise-2026-world-cup-final-hollywood-jason-sudeikis-justin-bieber-1236816132/"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "published",
+      "proposition": {
+        "predicate": "published",
+        "object": "Sun, 19 Jul 2026 20:16:42 +0000"
+      },
+      "time": {
+        "asserted": "2026-07-20T00:18:29.089Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "culture",
+        "citation": "https://variety.com/2026/sports/news/tom-cruise-2026-world-cup-final-hollywood-jason-sudeikis-justin-bieber-1236816132/"
+      },
+      "status": "supported"
+    }
+  ]
+}

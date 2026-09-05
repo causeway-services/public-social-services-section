@@ -1,0 +1,69 @@
+{
+  "subject": "the-army-just-used-a-20-kilowatt-laser-to-take-out-three-drones",
+  "claims": [
+    {
+      "id": "title",
+      "proposition": {
+        "predicate": "title",
+        "object": "The Army just used a 20-kilowatt laser to take out three drones"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "technology",
+        "citation": "https://arstechnica.com/gadgets/2026/09/the-army-just-used-a-20-kilowatt-laser-to-take-out-three-drones/"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "url",
+      "proposition": {
+        "predicate": "url",
+        "object": "https://arstechnica.com/gadgets/2026/09/the-army-just-used-a-20-kilowatt-laser-to-take-out-three-drones/"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "technology",
+        "citation": "https://arstechnica.com/gadgets/2026/09/the-army-just-used-a-20-kilowatt-laser-to-take-out-three-drones/"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "summary",
+      "proposition": {
+        "predicate": "summary",
+        "object": "This week, the US Army used a high-energy multipurpose laser to shoot down three drones near the US-Mexico border, which official reports claimed were “posing a physical threat to US military personnel and CBP partners,” referring to Customs and Border Patrol. The operation took place between the night of August 25 and the early morning of August 26 in the vicinity of the Rio Grande Valley in Texas and was led by the Joint Task Force Southern Border (JTF-SB), which operates under US Northern Command. Authorities confirmed that, during the operation, agents used technology derived from the Army’s High-Energy Multipurpose Laser (AMP-HEL) system, a military program focused on implementing high-energy lasers for new defense capabilities. Available information suggests that this initiative began in September 2025, when AeroVironment, a company specializing in defense technology, delivered the first two functional prototypes of these laser-based weapons to the US Armed Forces. Two new, improved systems were delivered as the program was expanded in December of the same year. According to the manufacturer, this particular platform, called the Locust Laser Weapon System, is designed to be mounted on military vehicles, as the Army has done with the versions it has received. Read full article Comments"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "technology",
+        "citation": "https://arstechnica.com/gadgets/2026/09/the-army-just-used-a-20-kilowatt-laser-to-take-out-three-drones/"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "published",
+      "proposition": {
+        "predicate": "published",
+        "object": "Wed, 02 Sep 2026 13:04:59 +0000"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "technology",
+        "citation": "https://arstechnica.com/gadgets/2026/09/the-army-just-used-a-20-kilowatt-laser-to-take-out-three-drones/"
+      },
+      "status": "supported"
+    }
+  ]
+}

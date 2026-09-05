@@ -1,0 +1,69 @@
+{
+  "subject": "norman-endorses-graham-after-questioning-why-trump-backed-her",
+  "claims": [
+    {
+      "id": "title",
+      "proposition": {
+        "predicate": "title",
+        "object": "Norman endorses Graham after questioning why Trump backed her"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "us-politics",
+        "citation": "https://thehill.com/homenews/campaign/6067649-ralph-norman-darline-graham-trump-endorsement/"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "url",
+      "proposition": {
+        "predicate": "url",
+        "object": "https://thehill.com/homenews/campaign/6067649-ralph-norman-darline-graham-trump-endorsement/"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "us-politics",
+        "citation": "https://thehill.com/homenews/campaign/6067649-ralph-norman-darline-graham-trump-endorsement/"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "summary",
+      "proposition": {
+        "predicate": "summary",
+        "object": "Rep. Ralph Norman (R-S.C.) gave his support Wednesday to Sen. Darline Graham (R-S.C.) for the Senate, after previously questioning why President Trump endorsed her in their tense Republican primary runoff. “I respect the decision of South Carolina voters, and I congratulate Senator Darline Graham on winning the Republican nomination. I will support our Republican nominee…"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "us-politics",
+        "citation": "https://thehill.com/homenews/campaign/6067649-ralph-norman-darline-graham-trump-endorsement/"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "published",
+      "proposition": {
+        "predicate": "published",
+        "object": "Wed, 02 Sep 2026 22:04:06 +0000"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "us-politics",
+        "citation": "https://thehill.com/homenews/campaign/6067649-ralph-norman-darline-graham-trump-endorsement/"
+      },
+      "status": "supported"
+    }
+  ]
+}

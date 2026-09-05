@@ -1,0 +1,69 @@
+{
+  "subject": "opinion-i-m-a-reproductive-psychiatrist-the-lindsay-clancy-trial-will-cause-terrible-damage-to-m",
+  "claims": [
+    {
+      "id": "title",
+      "proposition": {
+        "predicate": "title",
+        "object": "Opinion: I’m a reproductive psychiatrist. The Lindsay Clancy trial will cause terrible damage to my field"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "health",
+        "citation": "https://www.statnews.com/2026/09/01/lindsay-clancy-trial-verdict-postpartum-psychosis-psychiatry/?utm_campaign=rss"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "url",
+      "proposition": {
+        "predicate": "url",
+        "object": "https://www.statnews.com/2026/09/01/lindsay-clancy-trial-verdict-postpartum-psychosis-psychiatry/?utm_campaign=rss"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "health",
+        "citation": "https://www.statnews.com/2026/09/01/lindsay-clancy-trial-verdict-postpartum-psychosis-psychiatry/?utm_campaign=rss"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "summary",
+      "proposition": {
+        "predicate": "summary",
+        "object": "After a grueling five-week trial, the Massachusetts jury attempting to determine whether Lindsay Clancy is criminally responsible for killing her three children is deadlocked . Her defense argued that the health care system failed her. The prosecution argued that the murders were premeditated. For now, the judge has asked the jury to keep deliberating. But whatever happens, psychiatry has been changed. I specialize in caring for women’s mental health issues during pregnancy and the postpartum period. I do not know Ms. Clancy, nor have I ever been involved in any element of her care, so I cannot say what mental health condition she was plagued with or where her care may have gone awry. Nor do I care to opine on her guilt or innocence. Read the rest&hellip;"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "health",
+        "citation": "https://www.statnews.com/2026/09/01/lindsay-clancy-trial-verdict-postpartum-psychosis-psychiatry/?utm_campaign=rss"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "published",
+      "proposition": {
+        "predicate": "published",
+        "object": "Tue, 01 Sep 2026 17:28:37 +0000"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "health",
+        "citation": "https://www.statnews.com/2026/09/01/lindsay-clancy-trial-verdict-postpartum-psychosis-psychiatry/?utm_campaign=rss"
+      },
+      "status": "supported"
+    }
+  ]
+}

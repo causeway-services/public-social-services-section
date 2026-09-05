@@ -1,0 +1,69 @@
+{
+  "subject": "my-abusive-and-aggressive-partner-left-me-but-o2-insists-i-meet-him-in-person",
+  "claims": [
+    {
+      "id": "title",
+      "proposition": {
+        "predicate": "title",
+        "object": "My abusive and aggressive partner left me but O2 insists I meet him in person"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "economy",
+        "citation": "https://www.theguardian.com/money/2026/sep/01/my-abusive-and-aggressive-partner-left-me-but-o2-insists-i-meet-him-in-person"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "url",
+      "proposition": {
+        "predicate": "url",
+        "object": "https://www.theguardian.com/money/2026/sep/01/my-abusive-and-aggressive-partner-left-me-but-o2-insists-i-meet-him-in-person"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "economy",
+        "citation": "https://www.theguardian.com/money/2026/sep/01/my-abusive-and-aggressive-partner-left-me-but-o2-insists-i-meet-him-in-person"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "summary",
+      "proposition": {
+        "predicate": "summary",
+        "object": "<p>I need to take him off my family account, but it says the only way is for him to join me for a joint call with O2</p><p><strong>My partner packed up and</strong> <strong>disappeared with his children while I was out with friends. I was left having to foot all our bills, including rent, which has made me financially stressed.</strong></p><p><strong>We had a family plan with O2 which meant family phones were all registered to my account. When my partner left, he stopped paying his share of the monthly phone bill, so I set about trying to remove his, and his children’s, phones from the account. O2 explained he would need to join a conference call with me and O2 to agree the transfer of the numbers in question.</strong></p> <a href=\"https://www.theguardian.com/money/2026/sep/01/my-abusive-and-aggressive-partner-left-me-but-o2-insists-i-meet-him-in-person\">Continue reading...</a>"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "economy",
+        "citation": "https://www.theguardian.com/money/2026/sep/01/my-abusive-and-aggressive-partner-left-me-but-o2-insists-i-meet-him-in-person"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "published",
+      "proposition": {
+        "predicate": "published",
+        "object": "Tue, 01 Sep 2026 06:00:47 GMT"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "economy",
+        "citation": "https://www.theguardian.com/money/2026/sep/01/my-abusive-and-aggressive-partner-left-me-but-o2-insists-i-meet-him-in-person"
+      },
+      "status": "supported"
+    }
+  ]
+}

@@ -1,0 +1,69 @@
+{
+  "subject": "climate-overshoot-is-coming-are-we-ready",
+  "claims": [
+    {
+      "id": "title",
+      "proposition": {
+        "predicate": "title",
+        "object": "Climate ‘Overshoot’ Is Coming—Are We Ready?"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "environment",
+        "citation": "https://insideclimatenews.org/news/02092026/un-report-climate-overshoot-warning/"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "url",
+      "proposition": {
+        "predicate": "url",
+        "object": "https://insideclimatenews.org/news/02092026/un-report-climate-overshoot-warning/"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "environment",
+        "citation": "https://insideclimatenews.org/news/02092026/un-report-climate-overshoot-warning/"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "summary",
+      "proposition": {
+        "predicate": "summary",
+        "object": "If global warming remains above 1.5 degrees Celsius, a new U.N. report says “there are no good outcomes.” By Bob Berwyn Fossil fuel emissions are pushing Earth’s climate toward a dangerous new phase of climate “overshoot,” scientists warned Wednesday in a new report from the United Nations Environmental Programme."
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "environment",
+        "citation": "https://insideclimatenews.org/news/02092026/un-report-climate-overshoot-warning/"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "published",
+      "proposition": {
+        "predicate": "published",
+        "object": "Wed, 02 Sep 2026 04:01:00 +0000"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "environment",
+        "citation": "https://insideclimatenews.org/news/02092026/un-report-climate-overshoot-warning/"
+      },
+      "status": "supported"
+    }
+  ]
+}

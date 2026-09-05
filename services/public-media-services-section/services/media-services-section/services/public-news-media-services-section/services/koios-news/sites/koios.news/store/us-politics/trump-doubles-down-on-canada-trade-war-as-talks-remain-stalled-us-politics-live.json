@@ -1,0 +1,69 @@
+{
+  "subject": "trump-doubles-down-on-canada-trade-war-as-talks-remain-stalled-us-politics-live",
+  "claims": [
+    {
+      "id": "title",
+      "proposition": {
+        "predicate": "title",
+        "object": "Trump doubles down on Canada trade war as talks remain stalled – US politics live"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "us-politics",
+        "citation": "https://www.theguardian.com/us-news/live/2026/sep/02/us-politics-latest-news-updates-donald-trump-iran"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "url",
+      "proposition": {
+        "predicate": "url",
+        "object": "https://www.theguardian.com/us-news/live/2026/sep/02/us-politics-latest-news-updates-donald-trump-iran"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "us-politics",
+        "citation": "https://www.theguardian.com/us-news/live/2026/sep/02/us-politics-latest-news-updates-donald-trump-iran"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "summary",
+      "proposition": {
+        "predicate": "summary",
+        "object": "<p>Trump has imposed 50% tariffs on $20bn in Canadian goods and Canada threatened retaliatory tariffs starting 8 September</p><ul><li><p><a href=\"https://www.theguardian.com/news/2026/feb/17/sign-up-for-the-breaking-news-us-email-to-get-newsletter-alerts-direct-to-your-inbox?utm_medium=ACQUISITIONS_STANDFIRST&amp;utm_campaign=BN22326&amp;utm_content=signup&amp;utm_term=standfirst&amp;utm_source=GUARDIAN_WEB\">Sign up for the US Breaking News email</a></p></li></ul><p><strong>As tensions flare in the mideast with American military forces resuming strikes on Iran, Donald Trump has taken to social media to discuss his ballroom project.</strong></p><p>“We have hundreds of happy construction workers in D.C. busily doing their job building the finest Ballroom/Military complex anywhere in the World,” Trump <a href=\"https://truthsocial.com/@realDonaldTrump\">said </a>in a truth social post Wednesday morning. “There is nothing like it, and never will be! It was a long, hard, fight in the Court System, but the winner is, as always under ‘TRUMP,’ the U.S.A.”</p> <a href=\"https://www.theguardian.com/us-news/live/2026/sep/02/us-politics-latest-news-updates-donald-trump-iran\">Continue reading...</a>"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "us-politics",
+        "citation": "https://www.theguardian.com/us-news/live/2026/sep/02/us-politics-latest-news-updates-donald-trump-iran"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "published",
+      "proposition": {
+        "predicate": "published",
+        "object": "Thu, 03 Sep 2026 00:13:37 GMT"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "us-politics",
+        "citation": "https://www.theguardian.com/us-news/live/2026/sep/02/us-politics-latest-news-updates-donald-trump-iran"
+      },
+      "status": "supported"
+    }
+  ]
+}

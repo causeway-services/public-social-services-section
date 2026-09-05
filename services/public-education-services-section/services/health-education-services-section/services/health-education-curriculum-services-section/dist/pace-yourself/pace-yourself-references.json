@@ -1,0 +1,723 @@
+[
+  {
+    "id": "nice2021ng206",
+    "type": "report",
+    "title": "Myalgic encephalomyelitis (or encephalopathy)/chronic fatigue syndrome: diagnosis and management",
+    "author": [
+      {
+        "literal": "National Institute for Health and Care Excellence"
+      }
+    ],
+    "publisher": "National Institute for Health and Care Excellence (NICE)",
+    "issued": {
+      "date-parts": [
+        [
+          2021
+        ]
+      ]
+    },
+    "URL": "https://www.nice.org.uk/guidance/ng206"
+  },
+  {
+    "id": "stussman2020",
+    "type": "article-journal",
+    "title": "Characterization of Post-exertional Malaise in Patients With Myalgic Encephalomyelitis/Chronic Fatigue Syndrome",
+    "author": [
+      {
+        "given": "Barbara",
+        "family": "Stussman"
+      },
+      {
+        "given": "Ashley",
+        "family": "Williams"
+      },
+      {
+        "given": "Joseph",
+        "family": "Snow"
+      },
+      {
+        "given": "Angelique",
+        "family": "Gavin"
+      },
+      {
+        "given": "Remle",
+        "family": "Scott"
+      },
+      {
+        "given": "Avindra",
+        "family": "Nath"
+      },
+      {
+        "given": "Brian",
+        "family": "Walitt"
+      }
+    ],
+    "container-title": "Frontiers in Neurology",
+    "volume": "11",
+    "page": "1025",
+    "issued": {
+      "date-parts": [
+        [
+          2020
+        ]
+      ]
+    },
+    "DOI": "10.3389/fneur.2020.01025",
+    "PMID": "33071931"
+  },
+  {
+    "id": "an2024",
+    "type": "article-journal",
+    "title": "Prevalence and measurement of post-exertional malaise in post-acute COVID-19 syndrome: A systematic review and meta-analysis",
+    "author": [
+      {
+        "given": "Yang",
+        "family": "An"
+      },
+      {
+        "given": "Ziyi",
+        "family": "Guo"
+      },
+      {
+        "given": "Jiaomei",
+        "family": "Fan"
+      },
+      {
+        "literal": "et al."
+      }
+    ],
+    "container-title": "General Hospital Psychiatry",
+    "volume": "91",
+    "page": "130-142",
+    "issued": {
+      "date-parts": [
+        [
+          2024
+        ]
+      ]
+    },
+    "DOI": "10.1016/j.genhosppsych.2024.10.011",
+    "PMID": "39490027"
+  },
+  {
+    "id": "keller2014",
+    "type": "article-journal",
+    "title": "Inability of myalgic encephalomyelitis/chronic fatigue syndrome patients to reproduce VO2peak indicates functional impairment",
+    "author": [
+      {
+        "given": "Betsy A.",
+        "family": "Keller"
+      },
+      {
+        "given": "J. L.",
+        "family": "Pryor"
+      },
+      {
+        "given": "Ludovic",
+        "family": "Giloteaux"
+      }
+    ],
+    "container-title": "Journal of Translational Medicine",
+    "volume": "12",
+    "page": "104",
+    "issued": {
+      "date-parts": [
+        [
+          2014
+        ]
+      ]
+    },
+    "DOI": "10.1186/1479-5876-12-104",
+    "PMID": "24755065"
+  },
+  {
+    "id": "snell2013",
+    "type": "article-journal",
+    "title": "Discriminative Validity of Metabolic and Workload Measurements for Identifying People With Chronic Fatigue Syndrome",
+    "author": [
+      {
+        "given": "Christopher R.",
+        "family": "Snell"
+      },
+      {
+        "given": "Staci R.",
+        "family": "Stevens"
+      },
+      {
+        "given": "Todd E.",
+        "family": "Davenport"
+      },
+      {
+        "given": "J. Mark",
+        "family": "Van Ness"
+      }
+    ],
+    "container-title": "Physical Therapy",
+    "volume": "93",
+    "issue": "11",
+    "page": "1484-1492",
+    "issued": {
+      "date-parts": [
+        [
+          2013
+        ]
+      ]
+    },
+    "DOI": "10.2522/ptj.20110368",
+    "PMID": "23813081"
+  },
+  {
+    "id": "mancini2026",
+    "type": "article-journal",
+    "title": "Cardiopulmonary exercise test results do not change over two sequential days in patients with chronic fatigue syndrome",
+    "author": [
+      {
+        "given": "Donna M.",
+        "family": "Mancini"
+      },
+      {
+        "given": "David B.",
+        "family": "Cook"
+      },
+      {
+        "given": "Danielle L.",
+        "family": "Brunjes"
+      },
+      {
+        "literal": "et al."
+      }
+    ],
+    "container-title": "Frontiers in Physiology",
+    "volume": "17",
+    "page": "1816082",
+    "issued": {
+      "date-parts": [
+        [
+          2026
+        ]
+      ]
+    },
+    "DOI": "10.3389/fphys.2026.1816082",
+    "PMID": "42212259"
+  },
+  {
+    "id": "aboagye2025",
+    "type": "article-journal",
+    "title": "Feasibility of predicting next-day fatigue levels using heart rate variability and activity-sleep metrics in people with post-COVID fatigue",
+    "author": [
+      {
+        "given": "N. Y.",
+        "family": "Aboagye"
+      },
+      {
+        "given": "M.",
+        "family": "Germann"
+      },
+      {
+        "given": "K. F.",
+        "family": "Baker"
+      },
+      {
+        "given": "M. R.",
+        "family": "Baker"
+      },
+      {
+        "given": "S.",
+        "family": "Del Din"
+      }
+    ],
+    "container-title": "Frontiers in Digital Health",
+    "issued": {
+      "date-parts": [
+        [
+          2025
+        ]
+      ]
+    },
+    "DOI": "10.3389/fdgth.2025.1689846"
+  },
+  {
+    "id": "corrado2024heartloc",
+    "type": "article-journal",
+    "title": "HEART Rate Variability Biofeedback for LOng COVID Dysautonomia (HEARTLOC): Results of a Feasibility Study",
+    "author": [
+      {
+        "given": "J.",
+        "family": "Corrado"
+      },
+      {
+        "given": "N.",
+        "family": "Iftekhar"
+      },
+      {
+        "given": "S.",
+        "family": "Halpin"
+      },
+      {
+        "given": "M.",
+        "family": "Li"
+      },
+      {
+        "given": "R.",
+        "family": "Tarrant"
+      },
+      {
+        "given": "J.",
+        "family": "Grimaldi"
+      },
+      {
+        "given": "A.",
+        "family": "Simms"
+      },
+      {
+        "given": "R. J.",
+        "family": "O'Connor"
+      },
+      {
+        "given": "A.",
+        "family": "Casson"
+      },
+      {
+        "given": "M.",
+        "family": "Sivan"
+      }
+    ],
+    "container-title": "Advances in Rehabilitation Science and Practice",
+    "volume": "13",
+    "issued": {
+      "date-parts": [
+        [
+          2024
+        ]
+      ]
+    },
+    "DOI": "10.1177/27536351241227261",
+    "PMID": "38298551"
+  },
+  {
+    "id": "ruijgt2026",
+    "type": "article-journal",
+    "title": "Wearable Heart Rate Variability Monitoring, Autonomic Dysfunction and Post-exertional Malaise in Long COVID: An Observational Study",
+    "author": [
+      {
+        "given": "T. M.",
+        "family": "Ruijgt"
+      },
+      {
+        "given": "A.",
+        "family": "Slaghekke"
+      },
+      {
+        "given": "A.",
+        "family": "Ellens"
+      },
+      {
+        "given": "K. W.",
+        "family": "Janssen"
+      },
+      {
+        "given": "R. C. I.",
+        "family": "Wüst"
+      }
+    ],
+    "container-title": "Sports Medicine",
+    "issued": {
+      "date-parts": [
+        [
+          2026
+        ]
+      ]
+    },
+    "DOI": "10.1007/s40279-026-02487-4",
+    "PMID": "42501245"
+  },
+  {
+    "id": "novak2022",
+    "type": "article-journal",
+    "title": "Multisystem involvement in post-acute sequelae of coronavirus disease 19 (PASC)",
+    "author": [
+      {
+        "given": "P.",
+        "family": "Novak"
+      },
+      {
+        "given": "M. P.",
+        "family": "Giannetti"
+      },
+      {
+        "given": "E.",
+        "family": "Weller"
+      },
+      {
+        "given": "M. J.",
+        "family": "Hamilton"
+      },
+      {
+        "given": "S. S.",
+        "family": "Mukerji"
+      },
+      {
+        "given": "H. S.",
+        "family": "Alabsi"
+      },
+      {
+        "literal": "et al."
+      }
+    ],
+    "container-title": "Annals of Neurology",
+    "volume": "91",
+    "issue": "3",
+    "page": "367-379",
+    "issued": {
+      "date-parts": [
+        [
+          2022
+        ]
+      ]
+    },
+    "DOI": "10.1002/ana.26286"
+  },
+  {
+    "id": "iom2015",
+    "type": "report",
+    "title": "Beyond Myalgic Encephalomyelitis/Chronic Fatigue Syndrome: Redefining an Illness",
+    "author": [
+      {
+        "literal": "Institute of Medicine Committee on the Diagnostic Criteria for Myalgic Encephalomyelitis/Chronic Fatigue Syndrome"
+      }
+    ],
+    "publisher": "National Academies Press",
+    "issued": {
+      "date-parts": [
+        [
+          2015
+        ]
+      ]
+    },
+    "DOI": "10.17226/19012"
+  },
+  {
+    "id": "grubb2015",
+    "type": "article-journal",
+    "title": "Postural orthostatic tachycardia syndrome",
+    "author": [
+      {
+        "given": "Blair P.",
+        "family": "Grubb"
+      }
+    ],
+    "container-title": "Circulation",
+    "issued": {
+      "date-parts": [
+        [
+          2015
+        ]
+      ]
+    }
+  },
+  {
+    "id": "yong2023",
+    "type": "article-journal",
+    "title": "Pooled rates and demographics of POTS following SARS-CoV-2 infection versus COVID-19 vaccination: Systematic review and meta-analysis",
+    "author": [
+      {
+        "given": "Shin Jie",
+        "family": "Yong"
+      },
+      {
+        "given": "Alice",
+        "family": "Halim"
+      },
+      {
+        "given": "Shiliang",
+        "family": "Liu"
+      },
+      {
+        "literal": "et al."
+      }
+    ],
+    "container-title": "Autonomic Neuroscience",
+    "volume": "250",
+    "page": "103132",
+    "issued": {
+      "date-parts": [
+        [
+          2023
+        ]
+      ]
+    },
+    "DOI": "10.1016/j.autneu.2023.103132"
+  },
+  {
+    "id": "bjornson2024",
+    "type": "article-journal",
+    "title": "Prevalence and Clinical Impact of Postural Orthostatic Tachycardia Syndrome in Highly Symptomatic Long COVID",
+    "author": [
+      {
+        "given": "Mikael",
+        "family": "Björnson"
+      },
+      {
+        "given": "Klara",
+        "family": "Wijnbladh"
+      },
+      {
+        "given": "Anna",
+        "family": "Törnberg"
+      },
+      {
+        "literal": "et al."
+      }
+    ],
+    "container-title": "Circulation: Arrhythmia and Electrophysiology",
+    "volume": "18",
+    "issue": "10",
+    "issued": {
+      "date-parts": [
+        [
+          2025
+        ]
+      ]
+    },
+    "DOI": "10.1161/CIRCEP.124.013629"
+  },
+  {
+    "id": "donadio2024",
+    "type": "article-journal",
+    "title": "Small fiber neuropathy associated with COVID-19 infection and vaccination: A prospective case-control study",
+    "author": [
+      {
+        "given": "Vincenzo",
+        "family": "Donadio"
+      },
+      {
+        "given": "Alex",
+        "family": "Incensi"
+      },
+      {
+        "given": "Alessandro",
+        "family": "Furia"
+      },
+      {
+        "literal": "et al."
+      }
+    ],
+    "container-title": "European Journal of Neurology",
+    "volume": "32",
+    "issue": "1",
+    "issued": {
+      "date-parts": [
+        [
+          2024
+        ]
+      ]
+    },
+    "DOI": "10.1111/ene.16538"
+  },
+  {
+    "id": "dalakas2024",
+    "type": "article-journal",
+    "title": "Post-COVID Small Fiber Neuropathy, Implications of Innate Immunity, and Challenges on IVIG Therapy",
+    "author": [
+      {
+        "given": "Marinos C.",
+        "family": "Dalakas"
+      }
+    ],
+    "container-title": "Neurology Neuroimmunology & Neuroinflammation",
+    "volume": "11",
+    "issue": "3",
+    "page": "e200248",
+    "issued": {
+      "date-parts": [
+        [
+          2024
+        ]
+      ]
+    },
+    "DOI": "10.1212/NXI.0000000000200248",
+    "PMID": "38630951"
+  },
+  {
+    "id": "fudim2026recoverautonomic",
+    "type": "article-journal",
+    "title": "Design and rationale of RECOVER-AUTONOMIC: A randomized platform trial evaluating interventions for Long COVID postural orthostatic tachycardia syndrome",
+    "author": [
+      {
+        "given": "Marat",
+        "family": "Fudim"
+      },
+      {
+        "given": "Peter",
+        "family": "Novak"
+      },
+      {
+        "given": "Pam R.",
+        "family": "Taub"
+      },
+      {
+        "literal": "et al."
+      }
+    ],
+    "container-title": "American Heart Journal",
+    "volume": "296",
+    "page": "107384",
+    "issued": {
+      "date-parts": [
+        [
+          2026
+        ]
+      ]
+    },
+    "DOI": "10.1016/j.ahj.2026.107384",
+    "PMID": "41720282"
+  },
+  {
+    "id": "recoverautonomicivabradine2026",
+    "type": "webpage",
+    "title": "RECOVER-AUTONOMIC: A Study of Medications and Coordinated Non-Medication Care for Long COVID-Related Postural Tachycardia Syndrome, Ivabradine Appendix (NCT06305806)",
+    "author": [
+      {
+        "literal": "RECOVER Initiative, National Institutes of Health"
+      }
+    ],
+    "container-title": "ClinicalTrials.gov",
+    "publisher": "U.S. National Library of Medicine",
+    "issued": {
+      "date-parts": [
+        [
+          2026
+        ]
+      ]
+    },
+    "URL": "https://clinicaltrials.gov/study/NCT06305806"
+  },
+  {
+    "id": "mcphee2019",
+    "type": "article-journal",
+    "title": "Monitoring treatment harm in myalgic encephalomyelitis/chronic fatigue syndrome: A freedom-of-information study of National Health Service specialist centres in England",
+    "author": [
+      {
+        "given": "Graham",
+        "family": "McPhee"
+      },
+      {
+        "given": "Adrian",
+        "family": "Baldwin"
+      },
+      {
+        "given": "Tom",
+        "family": "Kindlon"
+      },
+      {
+        "given": "Brian M.",
+        "family": "Hughes"
+      }
+    ],
+    "container-title": "Journal of Health Psychology",
+    "volume": "26",
+    "issue": "7",
+    "page": "975-984",
+    "issued": {
+      "date-parts": [
+        [
+          2019
+        ]
+      ]
+    },
+    "DOI": "10.1177/1359105319854532",
+    "PMID": "31234662"
+  },
+  {
+    "id": "geraghty2017",
+    "type": "article-journal",
+    "title": "Myalgic encephalomyelitis/chronic fatigue syndrome patients' reports of symptom changes following cognitive behavioural therapy, graded exercise therapy and pacing treatments: Analysis of a primary survey compared with secondary surveys",
+    "author": [
+      {
+        "given": "Keith",
+        "family": "Geraghty"
+      },
+      {
+        "given": "Mark",
+        "family": "Hann"
+      },
+      {
+        "given": "Stoyan",
+        "family": "Kurtev"
+      }
+    ],
+    "container-title": "Journal of Health Psychology",
+    "volume": "24",
+    "issue": "10",
+    "page": "1318-1333",
+    "issued": {
+      "date-parts": [
+        [
+          2017
+        ]
+      ]
+    },
+    "DOI": "10.1177/1359105317726152",
+    "PMID": "28847166"
+  },
+  {
+    "id": "sanalhayes2024",
+    "type": "article-journal",
+    "title": "'Pacing' for management of myalgic encephalomyelitis/chronic fatigue syndrome (ME/CFS): a systematic review and meta-analysis",
+    "author": [
+      {
+        "given": "Nilihan E. M.",
+        "family": "Sanal-Hayes"
+      },
+      {
+        "given": "Marie",
+        "family": "Mclaughlin"
+      },
+      {
+        "given": "Jacqueline L.",
+        "family": "Mair"
+      },
+      {
+        "literal": "et al."
+      }
+    ],
+    "container-title": "Fatigue: Biomedicine, Health & Behavior",
+    "volume": "13",
+    "issue": "1",
+    "issued": {
+      "date-parts": [
+        [
+          2024
+        ]
+      ]
+    },
+    "DOI": "10.1080/21641846.2024.2433390"
+  },
+  {
+    "id": "jasondorri2022",
+    "type": "article-journal",
+    "title": "ME/CFS and Post-Exertional Malaise among Patients with Long COVID",
+    "author": [
+      {
+        "given": "Leonard A.",
+        "family": "Jason"
+      },
+      {
+        "given": "Joseph A.",
+        "family": "Dorri"
+      }
+    ],
+    "container-title": "Neurology International",
+    "volume": "15",
+    "issue": "1",
+    "page": "1-11",
+    "issued": {
+      "date-parts": [
+        [
+          2022
+        ]
+      ]
+    },
+    "DOI": "10.3390/neurolint15010001"
+  }
+]

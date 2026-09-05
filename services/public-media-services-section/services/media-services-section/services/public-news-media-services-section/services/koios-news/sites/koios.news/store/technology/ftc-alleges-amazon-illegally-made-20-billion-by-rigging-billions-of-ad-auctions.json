@@ -1,0 +1,69 @@
+{
+  "subject": "ftc-alleges-amazon-illegally-made-20-billion-by-rigging-billions-of-ad-auctions",
+  "claims": [
+    {
+      "id": "title",
+      "proposition": {
+        "predicate": "title",
+        "object": "FTC alleges Amazon illegally made $20 billion by rigging billions of ad auctions"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "technology",
+        "citation": "https://arstechnica.com/tech-policy/2026/09/ftc-alleges-amazon-illegally-made-20-billion-by-rigging-billions-of-ad-auctions/"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "url",
+      "proposition": {
+        "predicate": "url",
+        "object": "https://arstechnica.com/tech-policy/2026/09/ftc-alleges-amazon-illegally-made-20-billion-by-rigging-billions-of-ad-auctions/"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "technology",
+        "citation": "https://arstechnica.com/tech-policy/2026/09/ftc-alleges-amazon-illegally-made-20-billion-by-rigging-billions-of-ad-auctions/"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "summary",
+      "proposition": {
+        "predicate": "summary",
+        "object": "The Federal Trade Commission and 22 states sued Amazon yesterday, alleging that it has conducted a secret scheme to overcharge advertisers for seven years. \"Since 2019, Amazon.com, Inc. has secretly and systematically overcharged its approximately 1.2 million advertising customers by manipulating the 'auctions' that it uses to set the price of ads on its platform,\" the lawsuit said. \"Amazon represents, and advertisers believe, that competitive auctions set the prices for advertising on its leading e-commerce website. But, in reality, Amazon overrides and replaces the actual auction results with higher prices set by Amazon to increase its profits.\" The FTC said it obtained internal documents and messages that reveal how Amazon secretly inflated auction prices for Sponsored Products, Sponsored Brands, and Sponsored Display advertisements that appear alongside results seen by consumers when they search for a product. The FTC investigation began in 2024. Read full article Comments"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "technology",
+        "citation": "https://arstechnica.com/tech-policy/2026/09/ftc-alleges-amazon-illegally-made-20-billion-by-rigging-billions-of-ad-auctions/"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "published",
+      "proposition": {
+        "predicate": "published",
+        "object": "Tue, 01 Sep 2026 17:51:17 +0000"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "technology",
+        "citation": "https://arstechnica.com/tech-policy/2026/09/ftc-alleges-amazon-illegally-made-20-billion-by-rigging-billions-of-ad-auctions/"
+      },
+      "status": "supported"
+    }
+  ]
+}

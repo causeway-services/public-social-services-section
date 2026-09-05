@@ -1,0 +1,69 @@
+{
+  "subject": "ai-agents-carried-out-every-step-of-this-ransomware-attack-then-left-the-victim-an-80-page-secur",
+  "claims": [
+    {
+      "id": "title",
+      "proposition": {
+        "predicate": "title",
+        "object": "AI agents carried out every step of this ransomware attack – then left the victim an 80-page security audit"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "technology",
+        "citation": "https://www.theregister.com/security/2026/09/02/ai-agents-carried-out-every-step-of-this-ransomware-attack-then-left-the-victim-an-80-page-security-audit/5294009"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "url",
+      "proposition": {
+        "predicate": "url",
+        "object": "https://www.theregister.com/security/2026/09/02/ai-agents-carried-out-every-step-of-this-ransomware-attack-then-left-the-victim-an-80-page-security-audit/5294009"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "technology",
+        "citation": "https://www.theregister.com/security/2026/09/02/ai-agents-carried-out-every-step-of-this-ransomware-attack-then-left-the-victim-an-80-page-security-audit/5294009"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "summary",
+      "proposition": {
+        "predicate": "summary",
+        "object": "A human ransomware crook used frontier AI models to breach an enterprise network in less than 10 hours, an intrusion Unit 42 says would normally take human operators around two weeks. The human attacker then told negotiators that they used frontier models and agentic attack frameworks with AI agents carrying out each step in the intrusion, including leaving an 80-page security audit for the victim company. “What made the attack stand out was AI-assisted operational efficiency, without the need for a novel zero-day or super elite tradecraft,” Unit 42 incident responders said in a Wednesday report. “The attacker left tactical execution to AI agents that monitored, evaluated, acted and re-planned in real time, increasing speed throughout the attack chain.” The security shop did not immediately answer The Register’s questions about the intrusion, including which models and frameworks the attacker used. Breaking down the attack In a first step, the human attacker employed AI agents to perform reconnaissance, then gained access by breaching a public API endpoint to tunnel into the enterprise network. Upon breaking in, the attacker deployed an automated recon agent to map internal microservices. Additional subagents scraped code repositories to steal hard-coded tokens and service passwords. Using these tokens, the AI intruders accessed the org's secret-management system and stole the master administrative credentials to gain root system access. “Specialist pivot agents” then validated access to the company’s cloud, identity, CI/CD, container, and SaaS environments. The attacker also hijacked CI/CD workflows to steal cloud access keys and turn the victim’s cloud AI services into post-compromise infrastructure. This allowed the attacker to consume the victim’s compute resources while hiding orchestration traffic among legitimate activity. After achieving the human operator’s goals, an agent left the victim an 80-page report on its security failings, detailing “dozens of exploited findings,” the incident responders wrote. Not surprisingly, Palo Alto Networks says the only way defenders can protect their environments against machine-speed attacks is to use AI agents themselves. “Deploy automated playbooks that simultaneously revoke credentials, terminate OAuth sessions, freeze CI/CD pipelines and isolate cloud accounts across all operational planes,” the authors advise. The incident response team also suggests companies treat AI as core infrastructure. This requires taking inventory of every model endpoint, API key, Model Context Protocol (MCP) gateway, and AI tool integration, and applying rate limits and least-privilege policies – or risk an unexpected and very large token bill. ®"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "technology",
+        "citation": "https://www.theregister.com/security/2026/09/02/ai-agents-carried-out-every-step-of-this-ransomware-attack-then-left-the-victim-an-80-page-security-audit/5294009"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "published",
+      "proposition": {
+        "predicate": "published",
+        "object": "Wed, 02 Sep 2026 20:28:00 +0200"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "technology",
+        "citation": "https://www.theregister.com/security/2026/09/02/ai-agents-carried-out-every-step-of-this-ransomware-attack-then-left-the-victim-an-80-page-security-audit/5294009"
+      },
+      "status": "supported"
+    }
+  ]
+}

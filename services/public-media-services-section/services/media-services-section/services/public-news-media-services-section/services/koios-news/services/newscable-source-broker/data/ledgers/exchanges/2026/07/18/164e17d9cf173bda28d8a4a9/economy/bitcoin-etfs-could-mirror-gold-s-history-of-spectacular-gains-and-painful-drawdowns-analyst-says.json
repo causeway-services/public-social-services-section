@@ -1,0 +1,69 @@
+{
+  "subject": "bitcoin-etfs-could-mirror-gold-s-history-of-spectacular-gains-and-painful-drawdowns-analyst-says",
+  "claims": [
+    {
+      "id": "title",
+      "proposition": {
+        "predicate": "title",
+        "object": "Bitcoin ETFs could mirror gold’s history of ‘spectacular gains’ and ‘painful drawdowns,’ analyst says"
+      },
+      "time": {
+        "asserted": "2026-07-18T08:37:37.917Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "economy",
+        "citation": "https://www.theblock.co/post/408782/bitcoin-etfs-ibit-mirror-golds-history-spectacular-gains-painful-drawdowns-analyst?utm_source=rss&utm_medium=rss"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "url",
+      "proposition": {
+        "predicate": "url",
+        "object": "https://www.theblock.co/post/408782/bitcoin-etfs-ibit-mirror-golds-history-spectacular-gains-painful-drawdowns-analyst?utm_source=rss&utm_medium=rss"
+      },
+      "time": {
+        "asserted": "2026-07-18T08:37:37.917Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "economy",
+        "citation": "https://www.theblock.co/post/408782/bitcoin-etfs-ibit-mirror-golds-history-spectacular-gains-painful-drawdowns-analyst?utm_source=rss&utm_medium=rss"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "summary",
+      "proposition": {
+        "predicate": "summary",
+        "object": "Bloomberg ETF analyst Eric Balchunas compared IBIT’s short time above $100 billion with GLD’s precipitous rise in 2011."
+      },
+      "time": {
+        "asserted": "2026-07-18T08:37:37.917Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "economy",
+        "citation": "https://www.theblock.co/post/408782/bitcoin-etfs-ibit-mirror-golds-history-spectacular-gains-painful-drawdowns-analyst?utm_source=rss&utm_medium=rss"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "published",
+      "proposition": {
+        "predicate": "published",
+        "object": "Fri, 17 Jul 2026 11:40:50 -0400"
+      },
+      "time": {
+        "asserted": "2026-07-18T08:37:37.917Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "economy",
+        "citation": "https://www.theblock.co/post/408782/bitcoin-etfs-ibit-mirror-golds-history-spectacular-gains-painful-drawdowns-analyst?utm_source=rss&utm_medium=rss"
+      },
+      "status": "supported"
+    }
+  ]
+}

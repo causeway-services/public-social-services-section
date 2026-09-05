@@ -1,0 +1,69 @@
+{
+  "subject": "dolly-parton-laid-to-rest-in-private-nashville-funeral",
+  "claims": [
+    {
+      "id": "title",
+      "proposition": {
+        "predicate": "title",
+        "object": "Dolly Parton laid to rest in private Nashville funeral"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "entertainment",
+        "citation": "https://www.theguardian.com/music/2026/aug/31/dolly-parton-funeral"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "url",
+      "proposition": {
+        "predicate": "url",
+        "object": "https://www.theguardian.com/music/2026/aug/31/dolly-parton-funeral"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "entertainment",
+        "citation": "https://www.theguardian.com/music/2026/aug/31/dolly-parton-funeral"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "summary",
+      "proposition": {
+        "predicate": "summary",
+        "object": "<p>The queen of country was interred next to her late husband in an intimate ceremony attended by close family</p><p><a href=\"https://www.theguardian.com/music/dolly-parton\">Dolly Parton</a> was laid to rest in a private ceremony in Nashville on Friday, her family has confirmed.</p><p>The queen of country music, who <a href=\"https://www.theguardian.com/music/2026/aug/25/dolly-parton-country-singer-dead\">died aged 80 on 25 August</a> “after bravely facing a brief battle with cancer”, was interred at Woodlawn Memorial Park and Mausoleum alongside her husband of 60 years, Carl Thomas.</p> <a href=\"https://www.theguardian.com/music/2026/aug/31/dolly-parton-funeral\">Continue reading...</a>"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "entertainment",
+        "citation": "https://www.theguardian.com/music/2026/aug/31/dolly-parton-funeral"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "published",
+      "proposition": {
+        "predicate": "published",
+        "object": "Mon, 31 Aug 2026 16:17:24 GMT"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "entertainment",
+        "citation": "https://www.theguardian.com/music/2026/aug/31/dolly-parton-funeral"
+      },
+      "status": "supported"
+    }
+  ]
+}

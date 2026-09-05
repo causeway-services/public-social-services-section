@@ -1,0 +1,69 @@
+{
+  "subject": "wednesday-briefing-what-s-behind-the-global-backlash-against-datacentres",
+  "claims": [
+    {
+      "id": "title",
+      "proposition": {
+        "predicate": "title",
+        "object": "Wednesday briefing: ​What’s behind the global backlash against datacentres?"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "environment",
+        "citation": "https://www.theguardian.com/world/2026/sep/02/wednesday-briefing-whats-behind-the-global-backlash-against-datacentres"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "url",
+      "proposition": {
+        "predicate": "url",
+        "object": "https://www.theguardian.com/world/2026/sep/02/wednesday-briefing-whats-behind-the-global-backlash-against-datacentres"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "environment",
+        "citation": "https://www.theguardian.com/world/2026/sep/02/wednesday-briefing-whats-behind-the-global-backlash-against-datacentres"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "summary",
+      "proposition": {
+        "predicate": "summary",
+        "object": "<p>In today’s newsletter: Communities from Scotland to India are pushing back against datacentres, warning they threaten energy supplies and the climate</p><p>Good morning. This summer, datacentres have become targets of resistance across the world. Ever since the arrival of ChatGPT, big tech has been lobbying for the creation of enormous new facilities. Many governments claim they’re essential in any country that wants to cash in on AI.</p><p>Campaigners argue datacentres drain resources and exacerbate the climate crisis. The Scottish National Party has backed a moratorium on new developments; so has the Greens. The boom has been immense, and so has the backlash. Today’s newsletter explains why.</p><p><em><strong>UK politics </strong></em>| Andy Burnham <a href=\"https://www.theguardian.com/politics/2026/sep/01/burnham-promises-to-bring-optimism-and-substantial-change-in-first-commons-speech-as-pm\">has blamed Brexit and Margaret Thatcher </a>for a decade of low growth in the UK, arguing that Britain needs to be brutally honest about having taken “a series of wrong turns” in the last 40 years.</p><p><em><strong>Nepal-Tibet </strong></em>| A week on from the flash flooding disaster, <a href=\"https://www.theguardian.com/world/2026/sep/02/blood-dna-checks-identify-nepal-tibet-flood-victims-worst-hit-areas-cut-off\">authorities are urging relatives </a>of the thousands of missing and dead to provide blood samples.</p><p><em><strong>Middle East </strong></em>| The US has <a href=\"https://www.theguardian.com/world/2026/sep/01/us-iran-airstrikes-launch\">launched new airstrikes</a> on Iranian targets, prompting counter strikes by Tehran targeting American interests in Bahrain, Kuwait, Jordan and Iraq, fuelling concerns about a ⁠wider renewal of hostilities.</p><p><em><strong>Ukraine </strong></em>| Russia has opened a <a href=\"https://www.theguardian.com/world/2026/sep/01/russia-targets-ukraines-rail-network-as-war-enters-deadly-new-phase\">deadly new phase </a>in its war against Ukraine by deliberately targeting the country’s railway network, with six employees killed on Tuesday in the latest strikes on Kyiv.</p><p><em><strong>US news </strong></em>| Mark Carney has <a href=\"https://www.theguardian.com/us-news/2026/sep/01/trump-mark-carney-trade-war-canada\">rebuked Donald Trump’s administration</a> and urged officials in Washington to “start being serious” amid escalation trade tensions between the US and Canada.</p> <a href=\"https://www.theguardian.com/world/2026/sep/02/wednesday-briefing-whats-behind-the-global-backlash-against-datacentres\">Continue reading...</a>"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "environment",
+        "citation": "https://www.theguardian.com/world/2026/sep/02/wednesday-briefing-whats-behind-the-global-backlash-against-datacentres"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "published",
+      "proposition": {
+        "predicate": "published",
+        "object": "Wed, 02 Sep 2026 05:45:42 GMT"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "environment",
+        "citation": "https://www.theguardian.com/world/2026/sep/02/wednesday-briefing-whats-behind-the-global-backlash-against-datacentres"
+      },
+      "status": "supported"
+    }
+  ]
+}

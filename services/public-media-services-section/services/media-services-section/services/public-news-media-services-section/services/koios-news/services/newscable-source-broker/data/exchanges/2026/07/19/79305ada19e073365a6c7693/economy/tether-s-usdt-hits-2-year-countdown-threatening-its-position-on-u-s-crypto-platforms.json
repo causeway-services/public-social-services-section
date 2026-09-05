@@ -1,0 +1,69 @@
+{
+  "subject": "tether-s-usdt-hits-2-year-countdown-threatening-its-position-on-u-s-crypto-platforms",
+  "claims": [
+    {
+      "id": "title",
+      "proposition": {
+        "predicate": "title",
+        "object": "Tether's USDT hits 2-year countdown threatening its position on U.S. crypto platforms"
+      },
+      "time": {
+        "asserted": "2026-07-19T15:04:06.303Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "economy",
+        "citation": "https://www.coindesk.com/news-analysis/2026/07/17/tether-s-usdt-hits-2-year-countdown-threatening-its-position-on-u-s-crypto-platforms"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "url",
+      "proposition": {
+        "predicate": "url",
+        "object": "https://www.coindesk.com/news-analysis/2026/07/17/tether-s-usdt-hits-2-year-countdown-threatening-its-position-on-u-s-crypto-platforms"
+      },
+      "time": {
+        "asserted": "2026-07-19T15:04:06.303Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "economy",
+        "citation": "https://www.coindesk.com/news-analysis/2026/07/17/tether-s-usdt-hits-2-year-countdown-threatening-its-position-on-u-s-crypto-platforms"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "summary",
+      "proposition": {
+        "predicate": "summary",
+        "object": "The GENIUS Act has hit its first anniversary without U.S. regulators yet meeting deadlines to write regulations, though rules will be in full effect by July 2028."
+      },
+      "time": {
+        "asserted": "2026-07-19T15:04:06.303Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "economy",
+        "citation": "https://www.coindesk.com/news-analysis/2026/07/17/tether-s-usdt-hits-2-year-countdown-threatening-its-position-on-u-s-crypto-platforms"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "published",
+      "proposition": {
+        "predicate": "published",
+        "object": "Sun, 19 Jul 2026 13:00:00 +0000"
+      },
+      "time": {
+        "asserted": "2026-07-19T15:04:06.303Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "economy",
+        "citation": "https://www.coindesk.com/news-analysis/2026/07/17/tether-s-usdt-hits-2-year-countdown-threatening-its-position-on-u-s-crypto-platforms"
+      },
+      "status": "supported"
+    }
+  ]
+}

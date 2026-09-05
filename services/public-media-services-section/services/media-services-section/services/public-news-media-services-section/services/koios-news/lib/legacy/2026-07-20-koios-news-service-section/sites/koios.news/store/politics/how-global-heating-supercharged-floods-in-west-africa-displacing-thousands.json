@@ -1,0 +1,69 @@
+{
+  "subject": "how-global-heating-supercharged-floods-in-west-africa-displacing-thousands",
+  "claims": [
+    {
+      "id": "title",
+      "proposition": {
+        "predicate": "title",
+        "object": "How global heating supercharged floods in West Africa, displacing thousands"
+      },
+      "time": {
+        "asserted": "2026-07-18T04:08:20.053Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "politics",
+        "citation": "https://www.theguardian.com/world/2026/jul/16/how-global-heating-supercharged-floods-west-africa-displacing-thousands"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "url",
+      "proposition": {
+        "predicate": "url",
+        "object": "https://www.theguardian.com/world/2026/jul/16/how-global-heating-supercharged-floods-west-africa-displacing-thousands"
+      },
+      "time": {
+        "asserted": "2026-07-18T04:08:20.053Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "politics",
+        "citation": "https://www.theguardian.com/world/2026/jul/16/how-global-heating-supercharged-floods-west-africa-displacing-thousands"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "summary",
+      "proposition": {
+        "predicate": "summary",
+        "object": "<p>Adaptation to frightening new normal and reducing emissions further and faster is critical, scientists warn</p><p>Dozens of people drowned, hundreds had to be rescued and thousands were displaced when floods struck the coasts of west Africa last month.</p><p>Now scientists have concluded that the rains that caused the floods were supercharged by climate breakdown. Global heating, they say, turned what should have been a routine weather event into a climate catastrophe.</p> <a href=\"https://www.theguardian.com/world/2026/jul/16/how-global-heating-supercharged-floods-west-africa-displacing-thousands\">Continue reading...</a>"
+      },
+      "time": {
+        "asserted": "2026-07-18T04:08:20.053Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "politics",
+        "citation": "https://www.theguardian.com/world/2026/jul/16/how-global-heating-supercharged-floods-west-africa-displacing-thousands"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "published",
+      "proposition": {
+        "predicate": "published",
+        "object": "Thu, 16 Jul 2026 00:01:08 GMT"
+      },
+      "time": {
+        "asserted": "2026-07-18T04:08:20.053Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "politics",
+        "citation": "https://www.theguardian.com/world/2026/jul/16/how-global-heating-supercharged-floods-west-africa-displacing-thousands"
+      },
+      "status": "supported"
+    }
+  ]
+}

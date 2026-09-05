@@ -1,0 +1,69 @@
+{
+  "subject": "here-s-our-first-look-and-drive-of-the-2027-range-rover-electric",
+  "claims": [
+    {
+      "id": "title",
+      "proposition": {
+        "predicate": "title",
+        "object": "Here's our first look—and drive—of the 2027 Range Rover Electric"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "technology",
+        "citation": "https://arstechnica.com/cars/2026/09/range-rover-ev-electric-propulsion-pairs-perfectly-with-this-luxury-suv/"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "url",
+      "proposition": {
+        "predicate": "url",
+        "object": "https://arstechnica.com/cars/2026/09/range-rover-ev-electric-propulsion-pairs-perfectly-with-this-luxury-suv/"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "technology",
+        "citation": "https://arstechnica.com/cars/2026/09/range-rover-ev-electric-propulsion-pairs-perfectly-with-this-luxury-suv/"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "summary",
+      "proposition": {
+        "predicate": "summary",
+        "object": "Jaguar Land Rover provided flights from Washington, DC, to London and accommodation so Ars could visit its factory and drive the Range Rover Electric. Ars does not accept paid editorial content. Jaguar Land Rover was one of the first automakers to announce a transition away from combustion engines. That transition timeline might have slipped somewhat—pesky things like pandemics, supply chains, and revanchism have all been barriers to more rapid electrification—but it's still underway, and today is the debut of the Range Rover Electric, a new battery-electric vehicle variant that sits alongside the internal combustion and plug-in hybrid Range Rovers. Until now, the only way to get a fully electric Range Rover was by going the restomod route. But classic Range Rovers drive like classic cars, with all their inherent faults, and the price tag can be eye-watering . No Range Rover is exactly cheap, but with a starting price of $138,000, the 2027 Range Rover Electric is about half the cost of one of those restomods and benefits from 21st century safety systems like airbags, advanced driver assistance systems, modern crash protection standards, plus the support and warranty of a major OEM. And there's evidently demand: JLR told us that it already has 80,000 hand-raisers—half from North America—70 percent of whom are new to the brand, with 20 percent already owning an EV. (Obviously, only some fraction of those will translate to sales.) The smooth front grille is one of the only ways to spot a Range Rover Electric. Credit: Range Rover Because the idea was to make the Range Rover Electric a Range Rover first and an EV second, it looks virtually identical to the other versions, albeit with a slightly more aerodynamic front grille and more aero-efficient wheels that together conspire to shave off a fraction of the vehicle's drag coefficient. The lack of tailpipes at the back is probably the biggest giveaway that you're looking at the electric one. There's also a flat underbody, but hopefully you'll never need to look at that. Read full article Comments"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "technology",
+        "citation": "https://arstechnica.com/cars/2026/09/range-rover-ev-electric-propulsion-pairs-perfectly-with-this-luxury-suv/"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "published",
+      "proposition": {
+        "predicate": "published",
+        "object": "Tue, 01 Sep 2026 23:01:52 +0000"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "technology",
+        "citation": "https://arstechnica.com/cars/2026/09/range-rover-ev-electric-propulsion-pairs-perfectly-with-this-luxury-suv/"
+      },
+      "status": "supported"
+    }
+  ]
+}

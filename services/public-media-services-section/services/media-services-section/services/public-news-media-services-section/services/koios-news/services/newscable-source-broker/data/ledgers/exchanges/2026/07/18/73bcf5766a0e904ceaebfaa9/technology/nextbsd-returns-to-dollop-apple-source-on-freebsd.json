@@ -1,0 +1,69 @@
+{
+  "subject": "nextbsd-returns-to-dollop-apple-source-on-freebsd",
+  "claims": [
+    {
+      "id": "title",
+      "proposition": {
+        "predicate": "title",
+        "object": "NextBSD returns to dollop Apple source on FreeBSD"
+      },
+      "time": {
+        "asserted": "2026-07-18T07:51:41.287Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "technology",
+        "citation": "https://www.theregister.com/os-platforms/2026/07/18/nextbsd-returns-to-dollop-apple-source-on-freebsd/5273788"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "url",
+      "proposition": {
+        "predicate": "url",
+        "object": "https://www.theregister.com/os-platforms/2026/07/18/nextbsd-returns-to-dollop-apple-source-on-freebsd/5273788"
+      },
+      "time": {
+        "asserted": "2026-07-18T07:51:41.287Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "technology",
+        "citation": "https://www.theregister.com/os-platforms/2026/07/18/nextbsd-returns-to-dollop-apple-source-on-freebsd/5273788"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "summary",
+      "proposition": {
+        "predicate": "summary",
+        "object": "One of the most interesting BSD variants of the 2010s, NextBSD, has come back to life under new management. The Reg FOSS desk is intrigued. Aside from the homepage, there's a GitHub repository – but beware, this is separate from the old one, whose repo is still there although the most recent changes were seven years ago. The new project also has a project history giving credit where it's due. The main man behind the revival is Joe Maloney, known on GitHub as pkgdemon. In case his name rings a bell, we've mentioned him before: he put together the Gershwin desktop in GhostBSD. Soon after we covered Gershwin on GhostBSD, he asked the maintainers if he could take over the NextBSD project. He did have a relatively minor role in the original – you can see his list of commits. The original NextBSD project was started by FreeBSD co-founder Jordan Hubbard in 2015 – its Wikipedia article has some of the history. The plan was to port some of the components of Apple's Darwin OS to FreeBSD. Darwin is the Unix foundation on which macOS and Apple's other OSes are built: it's open source and the code can be pulled direct from GitHub. Some of the initial goals are explained in this presentation from the original team. The reasoning goes like this… Apple's various operating systems, from macOS to iOS to the cut-down ones in the Apple Watch and Apple TV, are all built from a single common core, derived from NeXTstep. That was built on Mach and BSD UNIX, which were Free Software – the term \"open source\" didn't exist yet. Apple's OSes are sophisticated, highly developed, and are used in billions of customer-facing devices with next to no technical support. Today, much of Apple's OSes are open source. Along with the XNU kernel, which handles inter-process communication using Mach IPC, there's its init system launchd, IOkit for handling devices and drivers, the Apple System Log facility and its logging daemon syslogd, and much more. Although Apple shares much of the BSD-based text-mode parts of its OS, the lower-level parts – the XNU kernel and drivers – are designed and built purely for Apple hardware. When OS X was still quite new, there were various efforts to take the Darwin OS and build versions for PC hardware. OpenDarwin started in 2002, but ended in 2006. It was followed by PureDarwin, which put out releases in 2015 and 2019, and was still maintained as recently as 2024. There were others, including GNU Darwin and DarwinBSD. Just how difficult it is to make this all work is demonstrated by the way that all these projects ultimately faltered or ended. So the NextBSD plan is to take the FreeBSD kernel, the most capable of the FOSS BSD kernels, but replace FreeBSD's traditional and server-focused userland with the relevant parts of the publicly available Apple code. The rebooted NextBSD-redux is not based on a fork of the decade-old code. FreeBSD has moved on substantially in that time, and so have macOS and Darwin. This is a new project by a new developer, but it picks up the same overall plan, aims to assemble the same puzzle pieces, and shares the same intended goal. In places, it does draw on a little of the same code, though. The NextBSD-redux README describes what's working so far, with a lot more detail in the porting notes. Although there's no graphical desktop yet, that's underway as well. Naturally enough, it's Maloney's own Gershwin, and the current status is described in the gershwin-on-nextbsd repository. For us, perhaps the key aspect of NextBSD – both the original version and NextBSD-redux – is that it isn't an effort to build something completely new from scratch. It's an effort to cherry-pick and combine elements of existing separate FOSS projects, and assemble them into a useful whole. The inspiration it shares with Maloney's Gershwin desktop is clear. Gershwin combines components taken from the GNUstep Project, plus the window manager from the Xfce desktop, plus other components, aiming to create a broadly Mac-like desktop environment. Outside of the efforts to create a FOSS PC OS based on Apple Darwin, or a Mac-like desktop environment, there have been several other efforts to create a macOS-like OS from existing FOSS parts. What's encouraging is that many of them share code with one another. Gershwin on GhostBSD was not the first effort to put a macOS-like desktop on a BSD OS. In 2023, we reported on helloSystem 0.8. It was the second look at this prototype OS in The Register after an earlier article in 2021. helloSystem was being put together by Simon \"ProbonoPD\" Peter, the creator of the AppImage cross-distro packaging format. helloSystem was based on a graphical distro of FreeBSD called FuryBSD, but unfortunately that project shut down in 2020. ProbonoPD moved over to help with Gershwin development instead. helloSystem was not ProbonoPD's first rodeo either. Before that, he had a Linux-based live distro based on GNUstep, called LIVEstep, and he was also one of the core team behind PureDarwin. In the same vicinity, there is also a very ambitious project called ravynOS. As its FAQ file back in 2022 acknowledged: \"We have been in fact working with helloSystem! As some people have noticed, Release 0.2.X was basically helloSystem. (That was the second PoC. The first had been built on vanilla FreeBSD and had no GUI at all.)\" Although ravynOS may have started out as a fork of helloSystem, it was more ambitious. From its early days, it aimed for some limited degree of macOS binary compatibility, thanks to a project called Darling. These days, its architecture starts with Darwin 19.6, which corresponds to macOS 10.15 \"Catalina.\" The new NextBSD uses some of ravynOS's libraries, such as the libxpc library, which came out of the original NextBSD project. Maloney went public with his rebooted NextBSD project in May. He mentioned it in a Reddit comment and then explained more in a thread titled \"NextBSD – the BSD of the 21st century.\" There's one aspect of the project restart that will alienate some people, though: he is using AI. The Team section of the homepage says it's Maloney and Anthropic's Claude Code. We asked him how and for what he was using it. He told The Register: \"From my perspective, AI is a force multiplier here. It is my team of developers, but I am steering the entire thing. I can understand that won't be for everyone. If others happen to like it, awesome. If others happen to contribute later, awesome. I selfishly just enjoy doing it, and want it to exist for myself. I can think of no better name for the project than NextBSD. \"I get and understand the skepticism around AI people have, because I am not sure how much I trust AI-generated code myself, especially without review from humans. In my case, AI has always been more of an effort to accelerate my knowledge of what code does faster, versus not learning anything. With that said, I would still understand the reservations people would have in production environments.\" At the moment, the oldest commits in the nextbsd-redux repository are only two months old. He told us that he didn't do all this development in just that brief period. \"I've had two iterations of this work before anything migrated outside of my personal GitHub account into an org. The first iteration was entirely vibe coded just to see if it could be done with a sockets-only version of launchd, without Mach and LaunchDaemons for devmatch and devd. \"The entire time, I was documenting everything extensively at pkgdemon.github.io. I did things like compare FreeBSD's mechanisms for kernel module loading to Linux and Darwin. I figured out what the gaps were. I confirmed that Darwin had solutions to fill the gaps that I wanted to fill, but I would need Mach. This is where I started using AI more heavily for months of just planning, researching, refining plans. \"So for the second iteration, I repeated the same work with just a Mach kernel module only, and launchd in a single repo. Then I took a few things like libxpc, last updated by RavynOS, and first created by the original NextBSD developers to act as the glue for launchd bootstrap. There were a few glue components like that, where there were no code drops from Darwin that NextBSD had written alternatives for, and rayvnOS continued to carry forward. That is where the NextBSD original code lives on; the rest is clean room. This is also where I began to more interactively review every code change with Claude Code developing automated testing all the way through – starting only with a Mach kernel getting loaded, let's write tests that cover every part of it, etc. \"Specifically for the third iteration, I broke everything out into repos for things like the kernel itself, modules to be converted to kexts, the superset of tooling from Darwin. This is where I moved to cross building everything natively in GitHub with automated tests to gate everything. So in that sense, AI tooling is involved in almost every stage of things still, but so am I if that makes any sense.\" This vulture is intensely skeptical about the use of LLMs for writing code, but for such an interesting experiment as this, we're willing to suspend our disbelief. Currently, NextBSD is more about experimentally trying to bring together components and code from very different sources, and get them working together. We'd be fascinated to see if NextBSD can get to the stage of being a working OS that can run on a laptop, bringing elements of Apple's userland to FreeBSD's very solid kernel. We're happy to see this project back and in active development, and we hope it delivers interesting results. ®"
+      },
+      "time": {
+        "asserted": "2026-07-18T07:51:41.287Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "technology",
+        "citation": "https://www.theregister.com/os-platforms/2026/07/18/nextbsd-returns-to-dollop-apple-source-on-freebsd/5273788"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "published",
+      "proposition": {
+        "predicate": "published",
+        "object": "Sat, 18 Jul 2026 09:45:00 +0200"
+      },
+      "time": {
+        "asserted": "2026-07-18T07:51:41.287Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "technology",
+        "citation": "https://www.theregister.com/os-platforms/2026/07/18/nextbsd-returns-to-dollop-apple-source-on-freebsd/5273788"
+      },
+      "status": "supported"
+    }
+  ]
+}

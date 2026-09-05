@@ -1,0 +1,69 @@
+{
+  "subject": "government-use-of-automated-ai-decision-making-to-be-curbed-under-new-australian-rules",
+  "claims": [
+    {
+      "id": "title",
+      "proposition": {
+        "predicate": "title",
+        "object": "Government use of automated AI decision-making to be curbed under new Australian rules"
+      },
+      "time": {
+        "asserted": "2026-07-19T15:04:08.909Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "technology",
+        "citation": "https://www.theguardian.com/australia-news/2026/jul/19/national-ai-plan-labor-anthony-albanese-andrew-charlton"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "url",
+      "proposition": {
+        "predicate": "url",
+        "object": "https://www.theguardian.com/australia-news/2026/jul/19/national-ai-plan-labor-anthony-albanese-andrew-charlton"
+      },
+      "time": {
+        "asserted": "2026-07-19T15:04:08.909Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "technology",
+        "citation": "https://www.theguardian.com/australia-news/2026/jul/19/national-ai-plan-labor-anthony-albanese-andrew-charlton"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "summary",
+      "proposition": {
+        "predicate": "summary",
+        "object": "<p>New national plan accompanied by Labor push for digital duty of care legislation</p><ul><li><p>Get our <a href=\"https://www.theguardian.com/email-newsletters?CMP=cvau_sfl\">breaking news email</a>, <a href=\"https://app.adjust.com/w4u7jx3\">free app</a> or <a href=\"https://www.theguardian.com/australia-news/series/full-story?CMP=cvau_sfl\">daily news podcast</a></p></li></ul><p>The use of AI in automated decision-making by government departments and agencies will be subject to tough rules under a new national plan, expected to extend to consumer protections, workplace safety and privacy.</p><p>As the Albanese government grapples with the rapid growth in the use of artificial intelligence and a boom in datacentre construction, senior ministers have begun work to draw up new rules to ensure safety is built into AI processes inside government, prioritising fairness, accuracy and transparency.</p> <a href=\"https://www.theguardian.com/australia-news/2026/jul/19/national-ai-plan-labor-anthony-albanese-andrew-charlton\">Continue reading...</a>"
+      },
+      "time": {
+        "asserted": "2026-07-19T15:04:08.909Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "technology",
+        "citation": "https://www.theguardian.com/australia-news/2026/jul/19/national-ai-plan-labor-anthony-albanese-andrew-charlton"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "published",
+      "proposition": {
+        "predicate": "published",
+        "object": "Sun, 19 Jul 2026 12:00:27 GMT"
+      },
+      "time": {
+        "asserted": "2026-07-19T15:04:08.909Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "technology",
+        "citation": "https://www.theguardian.com/australia-news/2026/jul/19/national-ai-plan-labor-anthony-albanese-andrew-charlton"
+      },
+      "status": "supported"
+    }
+  ]
+}

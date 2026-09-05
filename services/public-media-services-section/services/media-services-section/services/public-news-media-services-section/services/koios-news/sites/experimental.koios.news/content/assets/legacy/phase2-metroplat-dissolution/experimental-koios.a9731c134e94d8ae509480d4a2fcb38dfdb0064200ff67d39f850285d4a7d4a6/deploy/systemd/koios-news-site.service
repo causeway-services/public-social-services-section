@@ -1,0 +1,29 @@
+# koios-news-site.service - public Koios.News site (koios.news, port 18802).
+#
+# Install as the emsenn user on the VPS:
+#   ~/.config/systemd/user/koios-news-site.service
+#
+# The release payload is replaceable. The data path is persistent and must not
+# be removed during redeploys.
+
+[Unit]
+Description=Koios.News public site (koios.news)
+After=network-online.target
+Wants=network-online.target
+
+[Service]
+Type=simple
+WorkingDirectory=/home/emsenn/info/sites/koios.news/.deploy/current
+Environment=NODE_ENV=production
+Environment=PATH=/home/emsenn/.nvm/versions/node/v24.16.0/bin:/usr/local/bin:/usr/bin:/bin
+Environment=KOIOS_NEWS_HOST=127.0.0.1
+Environment=KOIOS_NEWS_PORT=18802
+Environment=PORT=18802
+Environment=BASE_URL=https://koios.news/
+Environment=KOIOS_NEWS_CONFIG=/home/emsenn/info/sites/koios.news/koios.news.config.json
+ExecStart=/usr/bin/env node dist/server.mjs
+Restart=on-failure
+RestartSec=2
+
+[Install]
+WantedBy=default.target

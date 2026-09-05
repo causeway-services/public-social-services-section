@@ -1,0 +1,69 @@
+{
+  "subject": "danny-boyle-s-rupert-murdoch-drama-ink-gives-venice-a-rollicking-start-on-opening-night",
+  "claims": [
+    {
+      "id": "title",
+      "proposition": {
+        "predicate": "title",
+        "object": "Danny Boyle’s Rupert Murdoch Drama ‘Ink’ Gives Venice a Rollicking Start on Opening Night"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "entertainment",
+        "citation": "https://www.hollywoodreporter.com/movies/movie-news/danny-boyles-rupert-murdoch-drama-ink-venice-ovation-1236688040/"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "url",
+      "proposition": {
+        "predicate": "url",
+        "object": "https://www.hollywoodreporter.com/movies/movie-news/danny-boyles-rupert-murdoch-drama-ink-venice-ovation-1236688040/"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "entertainment",
+        "citation": "https://www.hollywoodreporter.com/movies/movie-news/danny-boyles-rupert-murdoch-drama-ink-venice-ovation-1236688040/"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "summary",
+      "proposition": {
+        "predicate": "summary",
+        "object": "Guy Pearce stars as Rupert Murdoch opposite Jack O’Connell’s Larry Lamb in Danny Boyle's Venice opener, which chronicles the transformation of ‘The Sun’ into Britain’s dominant tabloid."
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "entertainment",
+        "citation": "https://www.hollywoodreporter.com/movies/movie-news/danny-boyles-rupert-murdoch-drama-ink-venice-ovation-1236688040/"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "published",
+      "proposition": {
+        "predicate": "published",
+        "object": "Wed, 02 Sep 2026 20:10:30 +0000"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "entertainment",
+        "citation": "https://www.hollywoodreporter.com/movies/movie-news/danny-boyles-rupert-murdoch-drama-ink-venice-ovation-1236688040/"
+      },
+      "status": "supported"
+    }
+  ]
+}

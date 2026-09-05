@@ -1,0 +1,12 @@
+{
+  "kind": "koios.writer-inference-routing-law",
+  "selection": "use the first admitted sufficient tier in the configured order",
+  "providerFailure": "continue-forward-within-the-accepted-finite-route; refuse after the finite route is exhausted",
+  "tiers": [
+    { "id": "free-groq", "accessClass": "free-allocation" },
+    { "id": "free-gemini", "accessClass": "free-allocation" },
+    { "id": "free-nim", "accessClass": "free-allocation" },
+    { "id": "leader-claude", "accessClass": "leader-subscription" }
+  ],
+  "accounting": "Free allocation and an already-paid leader subscription are access classes, not claims of zero total cost or external revenue."
+}

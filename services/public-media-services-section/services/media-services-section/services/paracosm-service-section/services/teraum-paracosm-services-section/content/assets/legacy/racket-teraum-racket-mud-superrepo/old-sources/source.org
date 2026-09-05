@@ -1,0 +1,83 @@
+#+TITLE: Teraum
+#+AUTHOR: emsenn
+#+HUGO_BASE_DIR: ~/dev/personal-website/
+#+HUGO_SECTION: teraum
+#+EXPORT_FILE_NAME: complete-teraum
+#+MACRO: author emsenn
+* Introduction
+* Data
+* Adventures
+#+MACRO: document-type adventure
+#+MACRO: adventure-brief */{{{property(adventure-title)}}}/* is a /tabletop role-playing *{{{doc}}}*/ in which {{{property(adventure-inwhich)}}}, usually taking between {{{property(adventure-length)}}} to complete.
+#+MACRO: adventure-written-for-bow This adventure was written for the /[[https://emsenn.net/games/brave-old-world/][Brave Old World]]/ game system, but can be used with most role-playing game rules.
+#+MACRO: adventure-set-in-teraum This {{{doc}}} is set in the tragically funny fantasy world of [[https://emsenn.net/teraum/][Teraum]].
+#+MACRO: adventure-question {{{property(adventure-question)}}}
+#+MACRO: document-beta This adventure is ready to be used, but isn’t finalized. Things might be unfair to players, or unclear to narrators. If you encounter any issues, please send me an email at [[mailto:emsenn@emsenn.net][emsenn@emsenn.net]].
+** DRAFT The Crown of Idbol Bark
+   :PROPERTIES:
+   :EXPORT_FILE_NAME: crown-of-idbol-bark
+   :EXPORT_HUGO_SECTION: games
+   :adventure-inwhich: the party attempts to arrest an upstart "king"
+   :adventure-title: The Crown of Idbol Bark
+   :adventure-length: two to four hours
+   :adventure-question: foo
+   :END:
+{{{adventure-brief}}}
+{{{adventure-written-for-bow}}}
+
+{{{document-beta}}}
+
+-----
+
+Danger is never far in the /Gloaming/, where marshes and mesas give
+home to bandits and beasts. The lone /trade road/ through the region
+is a gauntlet for traveling merchants.
+
+The town of /Belcaer/ is a haven for those travelers. The same
+/magic/-users who built the /trade road/ built the town as a fortress.
+On top of a limestone mesa, the town now exists to serve travelers.
+Residents offer meager services, hoping to win the travelers' coin.
+
+Recently there haven't been many coins to take. A bandit calling
+himself "King Brag" has been mugging travelers. Now, farmers are
+reporting missing livestock.
+
+A local official named /Abeth Harbrook/ believes she has found where
+the "king" is hiding: /Jacob's Folly/, an tower built and abandoned in
+the forgotten past.
+
+She's offering to pay anyone who captures the "king," and the party
+has gathered at her office.
+
+*/{{{adventure-question}}}/*
+
+{{{adventure-set-in-teraum}}} It is the year 80pc, during the early Reconstruction Era.
+
+{{{document-eli("default")}}}
+
+* Fictions
+  :PROPERTIES:
+  :EXPORT_HUGO_SECTION: fictions
+  :END:
+** DRAFT Letters to Susan                                            :Teraum:
+   :PROPERTIES:
+   :EXPORT_FILE_NAME: letters-to-susan
+   :EXPORT_DATE: 2019-10-21
+   :END:
+*** Introduction
+This is a collection of letters written by Bill Hags to his cousin Susan.
+*** 21st of Rotting, 80pc
+Susan,
+
+I'm glad to hear my latest package got there safe. People here have a lot of bad to say about the Red Union, but I can't deny they've done a lot better with the post in recent months. I'm still not used to seeing those canvas ships floating past, though.
+
+I wish you were here to try some of the food I've had recently. Reconstruction of Ack took folk from the fields in early summer, but the Union shipped in all sorts of fruits and veggies from Gnalens. There's one that has to be the work of a perverted wizard from before the Break. It's long and curved with a skin you peel back and a white fruit inside. And it's only ripe for about four hours!
+
+It's been nice getting to try all these new foods, but it also makes me miss the mutton your mom would fix. Tickets to take an airship are getting cheaper - maybe I'll "fly" up for the holidays.
+
+Especially if the work keeps up like this. You wrote back that you were worried I was sending too much. Don't! The Union hired us all to help rebuild the city, but now they're sending a bunch of us south to cut branches and timber from the forest, the "Widewoods". I'm kind of excited. Not about the work, but to see forests like the long-time workers describe.
+
+I didn't forget what you said about your brother. I would happily find him work if he came out, but I don't know if it's the right decision. Tyjeer's still a boy, and this work isn't always safe. I don't want you to worry about me, but I'd hate for Ty to grow up without his father able to provide for him. Let me know what he needs, and I can send the money to get it for his Wintertyg. Try and convince him to stay in Dent.
+
+Give my best to all,
+Jacob

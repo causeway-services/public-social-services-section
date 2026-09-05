@@ -1,0 +1,69 @@
+{
+  "subject": "how-to-deal-with-burnout-on-a-burning-planet",
+  "claims": [
+    {
+      "id": "title",
+      "proposition": {
+        "predicate": "title",
+        "object": "How to deal with burnout on a burning planet"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "environment",
+        "citation": "https://grist.org/culture/ask-a-climate-therapist-how-to-deal-with-burnout-on-a-burning-planet/"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "url",
+      "proposition": {
+        "predicate": "url",
+        "object": "https://grist.org/culture/ask-a-climate-therapist-how-to-deal-with-burnout-on-a-burning-planet/"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "environment",
+        "citation": "https://grist.org/culture/ask-a-climate-therapist-how-to-deal-with-burnout-on-a-burning-planet/"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "summary",
+      "proposition": {
+        "predicate": "summary",
+        "object": "In this month’s Ask a Climate Therapist column, we’re tackling two questions at once — each examining similar themes of burnout and paralysis from two very different vantage points. Wherever you are on your own path of climate engagement, I hope the advice will resonate. Dear Leslie, I have been working in sustainability for over 24 years. I’m tired, demoralized, feeling pretty beaten. I try to live by the motto that you only fail when you stop — but with a heavy heart I feel I’m nearly at the point of giving up. Do I give up, and say I tried? Or how do I continue trying in a world that I have little influence or control over? &nbsp;—An Exhausted Specialist I’m 31, and I know more about climate change than anyone I work with. Twice now I’ve driven to a neighborhood canvassing event and left without getting out of the car. The only way I can explain it is that I’ve started to believe that nothing I do could make the slightest dent in the immensity of the planetary crisis. It sounds true when I say it out loud, but I can’t tell if it’s clarity or just fear dressed up as reasoning. —Frozen Activist Submit a question for a future Ask a Climate Therapist column Dear Exhausted Specialist and Frozen Activist, You’re arriving at the same boulder from opposite directions: One of you has been pushing against it for 24 years with shaking arms, and the other has backed off because you’ve decided that you can’t possibly budge it. And I get it. It’s painful to track worsening climate impacts knowing that they were coming, and to then assume the burden of failure. What I see in common with your struggles is a belief that you need to be equal to the scale of the crisis. What I would offer you instead is the reality is that none of us can do it alone, and when we try, we’re on the road to burnout.&nbsp; Ask a Climate Therapist tackles your questions about how to navigate the emotional side of climate change, with leading climate-aware therapist Leslie Davenport. Have a question?&nbsp; Ask it here ! Cultural shifts happen through collective efforts that don’t always arrive in a straight line, and can be hard to see from our limited individual vantage points. Slow progress in your corner of the work isn’t a fair measure of what’s being done throughout the system; that requires a group mindset, not an individual one.&nbsp; Think about what it takes to restore a wetland , pass a new policy , retire a coal plant — these things can take years of unseen groundwork before anything tangible changes.&nbsp; But when we put the blame on ourselves as individuals for society’s slow pace of progress, we feel overwhelmed, and then our brains start working overtime to prevent that. That’s what leads to reactions like freezing (Frozen), or walking away (Exhausted), or even intellectualizing until the bad feelings fade. Your part in this transformation was never about matching the magnitude of the problem: It’s about finding a way to stay in it that’s personally sustainable. Your effort matters, even though it’s never going to be enough on its own — and you can carry that tension without letting it flatten you. Learning to live with the not-knowing, the incompleteness, the years without a clean resolution, is an essential part of the work, too. There’s a practice I like to use that helps you hold that tension without asking one feeling to cancel out the other. It’s called “Even As.” Make a statement naming the harder truth first, then follow it with one that’s also true, like in the examples below.&nbsp; “I’m exhausted by 24 years of pushing, even as I still feel needed in this work.” “I’m afraid to start participating, even as I feel pulled to take a first step.” “I’m frustrated by the limits of my capacity, even as I recognize that I’m not alone in this work.” Try writing a few “Even As” statements of your own. Take a moment to notice what feeling is most present for you right now, and start the sentence that way. Then consider what else may be true. You don’t have to try to reconcile the conflicting feelings. Burnout often feels like you’re pinned between two polarized choices — push harder or give up. Naming both truths with “Even As” eases that pressure. It can also help you look up from the pain points you’re feeling as an individual and reconnect with the broader mission that you are one part of.&nbsp; Take the third example above. It opens up a larger view that includes collective effort, so you’re not carrying the exhausting weight alone. What if your focus was less on the boulder and more on the flow of the river wearing away the stones? A river is a mighty force made up of many drops of water, and it ebbs and flows. Try taking a friend canvassing with you; let a colleague join something you’ve been spearheading; sit in on a new climate group’s meeting and listen to what’s being built. Before you know it, your doubts just may be overpowered by your satisfaction in doing your part in the great work that lies ahead of us — and you may discover pockets of progress you couldn’t see before. In this with you, Leslie P.S. If the “Even As” exercise resonates with you, find it and more in my new book Transforming Climate Anxiety . I’m Leslie Davenport , a licensed therapist, educator, speaker, consultant, and internationally recognized voice on the emotional and psychological dimensions of climate change. If you’ve got a question about climate and mental health, please consider submitting it for a future column . Submit a question for a future Ask a Climate Therapist column More from Ask a Climate Therapist Ask a Climate Therapist: How do I avoid getting trapped in the system I hope to change? A young engineer has a vision for changing their industry, but worries about slowly becoming a cog in the machine. Therapist Leslie Davenport offers advice for staying creative. Ask a Climate Therapist: Is it still ‘catastrophizing’ if the threat is real? Licensed therapist Leslie Davenport breaks down some of the tools that can help manage anxiety in the face of mounting climate catastrophe. Ask a Climate Therapist: Why should I plan for my future when I feel we don’t have one? Licensed therapist Leslie Davenport offers advice to a young reader staring down a world of uncertainty. This story was originally published by Grist with the headline How to deal with burnout on a burning planet on Aug 28, 2026."
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "environment",
+        "citation": "https://grist.org/culture/ask-a-climate-therapist-how-to-deal-with-burnout-on-a-burning-planet/"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "published",
+      "proposition": {
+        "predicate": "published",
+        "object": "Fri, 28 Aug 2026 08:30:00 +0000"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "environment",
+        "citation": "https://grist.org/culture/ask-a-climate-therapist-how-to-deal-with-burnout-on-a-burning-planet/"
+      },
+      "status": "supported"
+    }
+  ]
+}

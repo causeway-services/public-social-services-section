@@ -1,0 +1,69 @@
+{
+  "subject": "saka-strike-maintains-arsenal-s-perfect-start-plus-deadline-day-football-weekly-video",
+  "claims": [
+    {
+      "id": "title",
+      "proposition": {
+        "predicate": "title",
+        "object": "Saka strike maintains Arsenal’s perfect start, plus deadline day | Football Weekly – video"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "sport",
+        "citation": "https://www.theguardian.com/football/video/2026/sep/01/saka-strike-maintains-arsenals-perfect-start-plus-deadline-day-football-weekly-video"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "url",
+      "proposition": {
+        "predicate": "url",
+        "object": "https://www.theguardian.com/football/video/2026/sep/01/saka-strike-maintains-arsenals-perfect-start-plus-deadline-day-football-weekly-video"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "sport",
+        "citation": "https://www.theguardian.com/football/video/2026/sep/01/saka-strike-maintains-arsenals-perfect-start-plus-deadline-day-football-weekly-video"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "summary",
+      "proposition": {
+        "predicate": "summary",
+        "object": "<p><a href=\"https://bsky.app/profile/maxrushden.bsky.social\">Max Rushden</a> is joined by <a href=\"https://bsky.app/profile/barryglendenning.bsky.social\">Barry Glendenning</a>, <a href=\"https://bsky.app/profile/brewin.bsky.social\">John Brewin</a> and <a href=\"https://bsky.app/profile/jonawils.bsky.social\">Jonathan Wilson</a> as Arsenal beat Aston Villa 1-0 and Bradley Barcola joins Liverpool</p> <a href=\"https://www.theguardian.com/football/video/2026/sep/01/saka-strike-maintains-arsenals-perfect-start-plus-deadline-day-football-weekly-video\">Continue reading...</a>"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "sport",
+        "citation": "https://www.theguardian.com/football/video/2026/sep/01/saka-strike-maintains-arsenals-perfect-start-plus-deadline-day-football-weekly-video"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "published",
+      "proposition": {
+        "predicate": "published",
+        "object": "Tue, 01 Sep 2026 12:50:11 GMT"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "sport",
+        "citation": "https://www.theguardian.com/football/video/2026/sep/01/saka-strike-maintains-arsenals-perfect-start-plus-deadline-day-football-weekly-video"
+      },
+      "status": "supported"
+    }
+  ]
+}

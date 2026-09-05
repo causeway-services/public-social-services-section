@@ -1,0 +1,69 @@
+{
+  "subject": "stat-house-votes-to-temporarily-block-trump-plan-to-politicize-federal-grants",
+  "claims": [
+    {
+      "id": "title",
+      "proposition": {
+        "predicate": "title",
+        "object": "STAT+: House votes to temporarily block Trump plan to politicize federal grants"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "health",
+        "citation": "https://www.statnews.com/2026/09/01/stopgap-spending-bill-contains-reprieve-nih-research-grant-control/?utm_campaign=rss"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "url",
+      "proposition": {
+        "predicate": "url",
+        "object": "https://www.statnews.com/2026/09/01/stopgap-spending-bill-contains-reprieve-nih-research-grant-control/?utm_campaign=rss"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "health",
+        "citation": "https://www.statnews.com/2026/09/01/stopgap-spending-bill-contains-reprieve-nih-research-grant-control/?utm_campaign=rss"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "summary",
+      "proposition": {
+        "predicate": "summary",
+        "object": "WASHINGTON — The House voted Tuesday to pass a stopgap government-funding bill that temporarily blocks the White House’s proposal to give political appointees more control over federal research grants. The vote was 370-48 in favor. The Senate passed the same bill a month ago, so it now goes to the president for his signature. The reprieve is brief. The bill funds the government until Dec. 11 to get past the midterm elections without a government shutdown, and the ban on the research-funding policy expires at the same time. Continue to STAT+ to read the full story&hellip;"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "health",
+        "citation": "https://www.statnews.com/2026/09/01/stopgap-spending-bill-contains-reprieve-nih-research-grant-control/?utm_campaign=rss"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "published",
+      "proposition": {
+        "predicate": "published",
+        "object": "Tue, 01 Sep 2026 18:09:57 +0000"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "health",
+        "citation": "https://www.statnews.com/2026/09/01/stopgap-spending-bill-contains-reprieve-nih-research-grant-control/?utm_campaign=rss"
+      },
+      "status": "supported"
+    }
+  ]
+}

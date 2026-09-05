@@ -1,0 +1,69 @@
+{
+  "subject": "here-s-where-you-can-still-find-tickets-to-michelle-branch-s-sold-out-tour",
+  "claims": [
+    {
+      "id": "title",
+      "proposition": {
+        "predicate": "title",
+        "object": "Here’s Where You Can Still Find Tickets to Michelle Branch’s Sold-Out Tour"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "entertainment",
+        "citation": "https://www.rollingstone.com/product-recommendations/tickets/where-to-buy-michelle-branch-tickets-online-1235597986/"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "url",
+      "proposition": {
+        "predicate": "url",
+        "object": "https://www.rollingstone.com/product-recommendations/tickets/where-to-buy-michelle-branch-tickets-online-1235597986/"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "entertainment",
+        "citation": "https://www.rollingstone.com/product-recommendations/tickets/where-to-buy-michelle-branch-tickets-online-1235597986/"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "summary",
+      "proposition": {
+        "predicate": "summary",
+        "object": "Branch is marking 25 years of her breakout album, The Spirit Room , with a new EP and a tour across the country"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "entertainment",
+        "citation": "https://www.rollingstone.com/product-recommendations/tickets/where-to-buy-michelle-branch-tickets-online-1235597986/"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "published",
+      "proposition": {
+        "predicate": "published",
+        "object": "Wed, 02 Sep 2026 20:46:27 +0000"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "entertainment",
+        "citation": "https://www.rollingstone.com/product-recommendations/tickets/where-to-buy-michelle-branch-tickets-online-1235597986/"
+      },
+      "status": "supported"
+    }
+  ]
+}

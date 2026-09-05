@@ -1,0 +1,69 @@
+{
+  "subject": "the-odyssey-storms-global-box-office-with-264m-opening",
+  "claims": [
+    {
+      "id": "title",
+      "proposition": {
+        "predicate": "title",
+        "object": "The Odyssey storms global box office with $264m opening"
+      },
+      "time": {
+        "asserted": "2026-07-20T09:48:52.265Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "culture",
+        "citation": "https://www.theguardian.com/film/2026/jul/20/the-odyssey-box-office"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "url",
+      "proposition": {
+        "predicate": "url",
+        "object": "https://www.theguardian.com/film/2026/jul/20/the-odyssey-box-office"
+      },
+      "time": {
+        "asserted": "2026-07-20T09:48:52.265Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "culture",
+        "citation": "https://www.theguardian.com/film/2026/jul/20/the-odyssey-box-office"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "summary",
+      "proposition": {
+        "predicate": "summary",
+        "object": "<p>Epic film marks Christopher Nolan’s best opening since 2012’s The Dark Knight Rises when adjusted for inflation</p><p>The Odyssey has stormed the global box office, taking US$264m (£196m, A$378m) in its opening weekend, according to studio Universal Pictures.</p><p>Starring Matt Damon, Tom Holland, Anne Hathaway and Zendaya, the blockbuster is an adaptation of Homer’s ancient Greek epic poem, which follows Odysseus, the king of Ithaca, as he makes his perilous 10-year journey home after fighting in the Trojan war.</p> <a href=\"https://www.theguardian.com/film/2026/jul/20/the-odyssey-box-office\">Continue reading...</a>"
+      },
+      "time": {
+        "asserted": "2026-07-20T09:48:52.265Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "culture",
+        "citation": "https://www.theguardian.com/film/2026/jul/20/the-odyssey-box-office"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "published",
+      "proposition": {
+        "predicate": "published",
+        "object": "Mon, 20 Jul 2026 01:39:48 GMT"
+      },
+      "time": {
+        "asserted": "2026-07-20T09:48:52.265Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "culture",
+        "citation": "https://www.theguardian.com/film/2026/jul/20/the-odyssey-box-office"
+      },
+      "status": "supported"
+    }
+  ]
+}

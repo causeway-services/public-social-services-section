@@ -1,0 +1,69 @@
+{
+  "subject": "sonicwall-s-sma1000-boxes-under-active-attack-again",
+  "claims": [
+    {
+      "id": "title",
+      "proposition": {
+        "predicate": "title",
+        "object": "SonicWall's SMA1000 boxes under active attack again"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "technology",
+        "citation": "https://www.theregister.com/security/2026/09/02/sonicwalls-sma1000-boxes-under-active-attack-again/5293969"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "url",
+      "proposition": {
+        "predicate": "url",
+        "object": "https://www.theregister.com/security/2026/09/02/sonicwalls-sma1000-boxes-under-active-attack-again/5293969"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "technology",
+        "citation": "https://www.theregister.com/security/2026/09/02/sonicwalls-sma1000-boxes-under-active-attack-again/5293969"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "summary",
+      "proposition": {
+        "predicate": "summary",
+        "object": "SonicWall says attackers are actively exploiting two chained zero-days to take over Secure Mobile Access (SMA) Series 1000 boxes. Aimed at midsize and large enterprises, SMA1000 gateways secure remote access and VPN connections. Compromising one can therefore provide attackers with a valuable route into corporate networks. So, get to applying those hotfixes, says SonicWall. There are no workarounds. The first zero-day, CVE-2026-83548, is a pre-authentication server-side request forgery (SSRF) vulnerability with a maximum CVSS v3 score of 10.0. SonicWall attributed it to an unintended alternative access path. \"A remote unauthenticated attacker could potentially exploit this vulnerability to gain unauthorized access to sensitive functionality and perform unauthorized operations,\" the vendor said. The second, CVE-2026-83549, is a post-authentication OS command injection vulnerability in the SMA1000 Appliance Management Console (AMC), rated 7.8 on CVSS v3. Under certain conditions, an attacker authenticated as an administrator could execute arbitrary commands on the appliance. The flaws affect the SMA 6210, 7210, and 8200v appliances, for which SonicWall has released hotfixes. SonicWall advised customers to contact its technical support team for help identifying indicators of compromise. If an appliance appears to have been compromised, SonicWall recommends reimaging or redeploying it, changing all passwords, and resetting TOTP tokens. NHS England, which published its own advisory, warned about the growing risk of attacks against internet-facing gateways. \"Firewalls and other edge devices are internet-facing by design and are highly attractive targets to attackers, and there is an increasing number of edge device vulnerabilities disclosed each year that are rapidly exploited by attackers,\" it stated. \"The NHS England National CSOC assesses future exploitation of these vulnerabilities as almost certain.\" The disclosures continue a difficult run for SonicWall and its SMA1000 product line stretching back through 2025. In July, the vendor disclosed an eerily similar pair of vulnerabilities. That pair also comprised a pre-authentication SSRF vulnerability, this time in the SMA1000 Appliance WorkPlace interface, and a post-authentication OS command injection flaw in the AMC. The SSRF received a maximum CVSS v3 score of 10.0, while the command injection bug was rated in the sevens. CISA later added CVE-2026-15409 to its Known Exploited Vulnerabilities catalog and marked it as known to have been used in ransomware campaigns. Throughout 2025, SonicWall patched a succession of SMA1000 vulnerabilities, including OS command injection and privilege escalation flaws, while investigating zero-days linked to ransomware attacks. ®"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "technology",
+        "citation": "https://www.theregister.com/security/2026/09/02/sonicwalls-sma1000-boxes-under-active-attack-again/5293969"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "published",
+      "proposition": {
+        "predicate": "published",
+        "object": "Wed, 02 Sep 2026 18:05:00 +0200"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "technology",
+        "citation": "https://www.theregister.com/security/2026/09/02/sonicwalls-sma1000-boxes-under-active-attack-again/5293969"
+      },
+      "status": "supported"
+    }
+  ]
+}

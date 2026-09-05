@@ -1,0 +1,6 @@
+User-agent: *
+Allow: /
+
+Host: https://koios.news
+Sitemap: https://koios.news/sitemap.xml
+Sitemap: https://koios.news/news-sitemap.xml

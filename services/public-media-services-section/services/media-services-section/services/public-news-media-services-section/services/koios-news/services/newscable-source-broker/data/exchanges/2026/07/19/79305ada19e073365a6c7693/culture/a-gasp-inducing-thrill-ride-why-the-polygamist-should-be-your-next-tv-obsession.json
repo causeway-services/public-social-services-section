@@ -1,0 +1,69 @@
+{
+  "subject": "a-gasp-inducing-thrill-ride-why-the-polygamist-should-be-your-next-tv-obsession",
+  "claims": [
+    {
+      "id": "title",
+      "proposition": {
+        "predicate": "title",
+        "object": "‘A gasp-inducing thrill ride’: why The Polygamist should be your next TV obsession"
+      },
+      "time": {
+        "asserted": "2026-07-19T15:04:21.677Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "culture",
+        "citation": "https://www.theguardian.com/tv-and-radio/2026/jul/13/netflix-the-polygamist-south-africa"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "url",
+      "proposition": {
+        "predicate": "url",
+        "object": "https://www.theguardian.com/tv-and-radio/2026/jul/13/netflix-the-polygamist-south-africa"
+      },
+      "time": {
+        "asserted": "2026-07-19T15:04:21.677Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "culture",
+        "citation": "https://www.theguardian.com/tv-and-radio/2026/jul/13/netflix-the-polygamist-south-africa"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "summary",
+      "proposition": {
+        "predicate": "summary",
+        "object": "<p>With its lovable playboy and jaw-dropping twists, the South African drama has become Netflix’s latest breakout smash</p><p>Are you bored with your summertime entertainment already? Did you devour that buzzy novel at the beach? Finish your third <a href=\"https://www.theguardian.com/tv-and-radio/2023/aug/17/suits-netflix-america-most-watched-summer-show\">Suits</a> rewatch on the plane? Has your algorithm run out of ideas and started feeding you the same reels and memes you liked weeks ago? Have I got a recommendation for you.</p><p>The Polygamist is a rollicking, gasp-inducing thrill ride that delivers more hairpin turns, sudden drops and disbelieving exclamations than a day at the amusement park. You can’t beat the bang for buck: the cost of admission is already covered by your <a href=\"https://www.theguardian.com/media/netflix\">Netflix</a> subscription, which gets you 22 half-hour episodes – a staggeringly generous haul that harks back to TV days of yore.</p> <a href=\"https://www.theguardian.com/tv-and-radio/2026/jul/13/netflix-the-polygamist-south-africa\">Continue reading...</a>"
+      },
+      "time": {
+        "asserted": "2026-07-19T15:04:21.677Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "culture",
+        "citation": "https://www.theguardian.com/tv-and-radio/2026/jul/13/netflix-the-polygamist-south-africa"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "published",
+      "proposition": {
+        "predicate": "published",
+        "object": "Mon, 13 Jul 2026 11:00:45 GMT"
+      },
+      "time": {
+        "asserted": "2026-07-19T15:04:21.677Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "culture",
+        "citation": "https://www.theguardian.com/tv-and-radio/2026/jul/13/netflix-the-polygamist-south-africa"
+      },
+      "status": "supported"
+    }
+  ]
+}

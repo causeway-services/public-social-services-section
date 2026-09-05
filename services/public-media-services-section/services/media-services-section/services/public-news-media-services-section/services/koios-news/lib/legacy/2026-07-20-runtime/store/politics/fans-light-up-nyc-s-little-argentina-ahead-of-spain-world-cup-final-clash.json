@@ -1,0 +1,69 @@
+{
+  "subject": "fans-light-up-nyc-s-little-argentina-ahead-of-spain-world-cup-final-clash",
+  "claims": [
+    {
+      "id": "title",
+      "proposition": {
+        "predicate": "title",
+        "object": "Fans light up NYC’s Little Argentina ahead of Spain World Cup final clash"
+      },
+      "time": {
+        "asserted": "2026-07-19T20:06:12.565Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "politics",
+        "citation": "https://www.aljazeera.com/video/newsfeed/2026/7/19/fans-light-up-nycs-little-argentina-ahead-of-spain-world-cup-final-clash?traffic_source=rss"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "url",
+      "proposition": {
+        "predicate": "url",
+        "object": "https://www.aljazeera.com/video/newsfeed/2026/7/19/fans-light-up-nycs-little-argentina-ahead-of-spain-world-cup-final-clash?traffic_source=rss"
+      },
+      "time": {
+        "asserted": "2026-07-19T20:06:12.565Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "politics",
+        "citation": "https://www.aljazeera.com/video/newsfeed/2026/7/19/fans-light-up-nycs-little-argentina-ahead-of-spain-world-cup-final-clash?traffic_source=rss"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "summary",
+      "proposition": {
+        "predicate": "summary",
+        "object": "Fans light up NYC’s Little Argentina ahead of Spain World Cup final clash."
+      },
+      "time": {
+        "asserted": "2026-07-19T20:06:12.565Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "politics",
+        "citation": "https://www.aljazeera.com/video/newsfeed/2026/7/19/fans-light-up-nycs-little-argentina-ahead-of-spain-world-cup-final-clash?traffic_source=rss"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "published",
+      "proposition": {
+        "predicate": "published",
+        "object": "Sun, 19 Jul 2026 19:18:59 +0000"
+      },
+      "time": {
+        "asserted": "2026-07-19T20:06:12.565Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "politics",
+        "citation": "https://www.aljazeera.com/video/newsfeed/2026/7/19/fans-light-up-nycs-little-argentina-ahead-of-spain-world-cup-final-clash?traffic_source=rss"
+      },
+      "status": "supported"
+    }
+  ]
+}

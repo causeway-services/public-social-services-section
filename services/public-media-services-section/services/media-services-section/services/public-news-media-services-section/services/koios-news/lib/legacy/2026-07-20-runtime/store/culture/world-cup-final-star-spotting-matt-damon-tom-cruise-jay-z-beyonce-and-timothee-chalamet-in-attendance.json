@@ -1,0 +1,69 @@
+{
+  "subject": "world-cup-final-star-spotting-matt-damon-tom-cruise-jay-z-beyonce-and-timothee-chalamet-in-attendance",
+  "claims": [
+    {
+      "id": "title",
+      "proposition": {
+        "predicate": "title",
+        "object": "World Cup Final Star-Spotting: Matt Damon, Tom Cruise, Jay-Z, Beyoncé and Timothée Chalamet in Attendance"
+      },
+      "time": {
+        "asserted": "2026-07-19T23:18:25.798Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "culture",
+        "citation": "https://www.hollywoodreporter.com/tv/tv-news/world-cup-final-2026-celebrities-in-attendance-1236651733/"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "url",
+      "proposition": {
+        "predicate": "url",
+        "object": "https://www.hollywoodreporter.com/tv/tv-news/world-cup-final-2026-celebrities-in-attendance-1236651733/"
+      },
+      "time": {
+        "asserted": "2026-07-19T23:18:25.798Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "culture",
+        "citation": "https://www.hollywoodreporter.com/tv/tv-news/world-cup-final-2026-celebrities-in-attendance-1236651733/"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "summary",
+      "proposition": {
+        "predicate": "summary",
+        "object": "New York-New Jersey Stadium was packed with celebrities on Sunday as A-listers from film, TV, music and more turned up to see Argentina vs. Spain."
+      },
+      "time": {
+        "asserted": "2026-07-19T23:18:25.798Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "culture",
+        "citation": "https://www.hollywoodreporter.com/tv/tv-news/world-cup-final-2026-celebrities-in-attendance-1236651733/"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "published",
+      "proposition": {
+        "predicate": "published",
+        "object": "Sun, 19 Jul 2026 20:59:37 +0000"
+      },
+      "time": {
+        "asserted": "2026-07-19T23:18:25.798Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "culture",
+        "citation": "https://www.hollywoodreporter.com/tv/tv-news/world-cup-final-2026-celebrities-in-attendance-1236651733/"
+      },
+      "status": "supported"
+    }
+  ]
+}

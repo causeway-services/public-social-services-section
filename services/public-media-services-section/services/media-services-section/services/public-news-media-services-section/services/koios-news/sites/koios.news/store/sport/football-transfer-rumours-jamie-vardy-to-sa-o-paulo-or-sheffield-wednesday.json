@@ -1,0 +1,69 @@
+{
+  "subject": "football-transfer-rumours-jamie-vardy-to-sa-o-paulo-or-sheffield-wednesday",
+  "claims": [
+    {
+      "id": "title",
+      "proposition": {
+        "predicate": "title",
+        "object": "Football transfer rumours: Jamie Vardy to São Paulo or Sheffield Wednesday?"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "sport",
+        "citation": "https://www.theguardian.com/football/2026/sep/02/football-transfer-rumours-jamie-vardy-to-sao-paulo-or-sheffield-wednesday"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "url",
+      "proposition": {
+        "predicate": "url",
+        "object": "https://www.theguardian.com/football/2026/sep/02/football-transfer-rumours-jamie-vardy-to-sao-paulo-or-sheffield-wednesday"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "sport",
+        "citation": "https://www.theguardian.com/football/2026/sep/02/football-transfer-rumours-jamie-vardy-to-sao-paulo-or-sheffield-wednesday"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "summary",
+      "proposition": {
+        "predicate": "summary",
+        "object": "<p>Today’s fluff is powering down as the nights draw in</p><p>Should have, would have, could have. Many fans will be using this phrase today after the Premier League transfer window closed at 11pm last night, meaning no more deals can but made until the winter window opens. Everton will be clawing at the glass like a cat who has seen a pigeon on the grass after a late deal for the USA international <strong>Folarin Balogun</strong> <a href=\"https://www.theguardian.com/football/2026/sep/02/everton-in-late-scramble-to-complete-balogun-transfer-after-flurry-of-sales\">fell through</a>.</p><p>The forward reportedly had his medical with the Toffees, which threw up an issue. Everton then went back to Balogun’s club, Monaco, to renegotiate and an agreement was reached with a deal sheet drawn up. But Balogun then decided against the move. It’s a blow to Everton, who have lost two attacking players this window, with Beto going to Fiorentina and <a href=\"https://www.theguardian.com/football/2026/aug/31/manchester-city-spurs-iliman-ndiaye-enzo-fernandez-deal-richarlison-mudryk\">Iliman Ndiaye signing for Manchester City</a>.</p> <a href=\"https://www.theguardian.com/football/2026/sep/02/football-transfer-rumours-jamie-vardy-to-sao-paulo-or-sheffield-wednesday\">Continue reading...</a>"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "sport",
+        "citation": "https://www.theguardian.com/football/2026/sep/02/football-transfer-rumours-jamie-vardy-to-sao-paulo-or-sheffield-wednesday"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "published",
+      "proposition": {
+        "predicate": "published",
+        "object": "Wed, 02 Sep 2026 08:26:30 GMT"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "sport",
+        "citation": "https://www.theguardian.com/football/2026/sep/02/football-transfer-rumours-jamie-vardy-to-sao-paulo-or-sheffield-wednesday"
+      },
+      "status": "supported"
+    }
+  ]
+}

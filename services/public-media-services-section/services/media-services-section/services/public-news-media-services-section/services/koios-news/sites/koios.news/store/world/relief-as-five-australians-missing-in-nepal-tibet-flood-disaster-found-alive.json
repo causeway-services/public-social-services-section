@@ -1,0 +1,69 @@
+{
+  "subject": "relief-as-five-australians-missing-in-nepal-tibet-flood-disaster-found-alive",
+  "claims": [
+    {
+      "id": "title",
+      "proposition": {
+        "predicate": "title",
+        "object": "Relief as five Australians missing in Nepal-Tibet flood disaster found alive"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "world",
+        "citation": "https://www.theguardian.com/world/2026/sep/01/missing-australian-found-alive-nepal-tibet-floods"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "url",
+      "proposition": {
+        "predicate": "url",
+        "object": "https://www.theguardian.com/world/2026/sep/01/missing-australian-found-alive-nepal-tibet-floods"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "world",
+        "citation": "https://www.theguardian.com/world/2026/sep/01/missing-australian-found-alive-nepal-tibet-floods"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "summary",
+      "proposition": {
+        "predicate": "summary",
+        "object": "<p>Several missing Australians have been found since Tuesday morning, bringing the total citizens unaccounted for to 38</p><ul><li><p><a href=\"https://www.theguardian.com/world/2026/aug/31/nepal-tibet-floods-australians-missing-list-names-what-we-know-so-far-ntwnfb\">Australians missing in the Nepal floods: what we know so far</a></p></li></ul><p>A total of five Australians missing after devastating floods <a href=\"https://www.theguardian.com/world/2026/sep/01/nepal-china-border-area-gyirong-port-almost-entirely-cut-off-missing-australians-ntwnfb\">ravaged the Nepal-Tibet border</a> last week have been found.</p><p>Of the five Australians confirmed safe, one was found in Nepal, one in Tibet, and three outside the crisis-hit area. The total number still missing is 38.</p> <a href=\"https://www.theguardian.com/world/2026/sep/01/missing-australian-found-alive-nepal-tibet-floods\">Continue reading...</a>"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "world",
+        "citation": "https://www.theguardian.com/world/2026/sep/01/missing-australian-found-alive-nepal-tibet-floods"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "published",
+      "proposition": {
+        "predicate": "published",
+        "object": "Wed, 02 Sep 2026 01:59:06 GMT"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "world",
+        "citation": "https://www.theguardian.com/world/2026/sep/01/missing-australian-found-alive-nepal-tibet-floods"
+      },
+      "status": "supported"
+    }
+  ]
+}

@@ -1,0 +1,69 @@
+{
+  "subject": "porn-star-turned-late-night-tv-icon-robin-byrd-sex-is-a-form-of-magic",
+  "claims": [
+    {
+      "id": "title",
+      "proposition": {
+        "predicate": "title",
+        "object": "Porn star turned late-night TV icon Robin Byrd: ‘Sex is a form of magic’"
+      },
+      "time": {
+        "asserted": "2026-07-19T14:42:05.531Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "culture",
+        "citation": "https://www.theguardian.com/tv-and-radio/2026/jun/29/robin-byrd-documentary-porn-star-late-night-tv-icon"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "url",
+      "proposition": {
+        "predicate": "url",
+        "object": "https://www.theguardian.com/tv-and-radio/2026/jun/29/robin-byrd-documentary-porn-star-late-night-tv-icon"
+      },
+      "time": {
+        "asserted": "2026-07-19T14:42:05.531Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "culture",
+        "citation": "https://www.theguardian.com/tv-and-radio/2026/jun/29/robin-byrd-documentary-porn-star-late-night-tv-icon"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "summary",
+      "proposition": {
+        "predicate": "summary",
+        "object": "<p>She was a sex-positive star in the 80s and 90s who became an ‘accidental activist’ – an HBO documentary produced by Sarah Jessica Parker explores her life</p><p>Robin Byrd has no doubt about where the archive of her life should end up. “I think it should be in the Smithsonian,” she said. “I like to think big.”</p><p>But is such thinking “big” or just plain daft? After all, we’re talking about Robin Byrd, the self-described “orgy queen” who’s best known for promoting the work of strippers and porn stars on the no-budget, public access TV show she ran in the 80s and 90s that looked like it was shot by someone on mushrooms who was suffering from an advanced case of glaucoma.</p> <a href=\"https://www.theguardian.com/tv-and-radio/2026/jun/29/robin-byrd-documentary-porn-star-late-night-tv-icon\">Continue reading...</a>"
+      },
+      "time": {
+        "asserted": "2026-07-19T14:42:05.531Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "culture",
+        "citation": "https://www.theguardian.com/tv-and-radio/2026/jun/29/robin-byrd-documentary-porn-star-late-night-tv-icon"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "published",
+      "proposition": {
+        "predicate": "published",
+        "object": "Mon, 29 Jun 2026 10:00:41 GMT"
+      },
+      "time": {
+        "asserted": "2026-07-19T14:42:05.531Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "culture",
+        "citation": "https://www.theguardian.com/tv-and-radio/2026/jun/29/robin-byrd-documentary-porn-star-late-night-tv-icon"
+      },
+      "status": "supported"
+    }
+  ]
+}

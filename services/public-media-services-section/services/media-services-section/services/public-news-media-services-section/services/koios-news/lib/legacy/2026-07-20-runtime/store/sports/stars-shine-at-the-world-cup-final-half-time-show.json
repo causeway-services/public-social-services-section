@@ -1,0 +1,69 @@
+{
+  "subject": "stars-shine-at-the-world-cup-final-half-time-show",
+  "claims": [
+    {
+      "id": "title",
+      "proposition": {
+        "predicate": "title",
+        "object": "Stars shine at the World Cup final half-time show"
+      },
+      "time": {
+        "asserted": "2026-07-20T01:13:56.334Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "sports",
+        "citation": "https://www.bbc.co.uk/sport/football/videos/cddj0m5pzglo?at_medium=RSS&at_campaign=rss"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "url",
+      "proposition": {
+        "predicate": "url",
+        "object": "https://www.bbc.co.uk/sport/football/videos/cddj0m5pzglo?at_medium=RSS&at_campaign=rss"
+      },
+      "time": {
+        "asserted": "2026-07-20T01:13:56.334Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "sports",
+        "citation": "https://www.bbc.co.uk/sport/football/videos/cddj0m5pzglo?at_medium=RSS&at_campaign=rss"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "summary",
+      "proposition": {
+        "predicate": "summary",
+        "object": "Madonna, BTS, Justin Bieber, and Shakira entertain the crowd at half-time in the World Cup final, with a special appearance from Ronaldo and Ronaldinho at the New York New Jersey Stadium."
+      },
+      "time": {
+        "asserted": "2026-07-20T01:13:56.334Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "sports",
+        "citation": "https://www.bbc.co.uk/sport/football/videos/cddj0m5pzglo?at_medium=RSS&at_campaign=rss"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "published",
+      "proposition": {
+        "predicate": "published",
+        "object": "Sun, 19 Jul 2026 20:52:06 GMT"
+      },
+      "time": {
+        "asserted": "2026-07-20T01:13:56.334Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "sports",
+        "citation": "https://www.bbc.co.uk/sport/football/videos/cddj0m5pzglo?at_medium=RSS&at_campaign=rss"
+      },
+      "status": "supported"
+    }
+  ]
+}

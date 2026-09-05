@@ -1,0 +1,69 @@
+{
+  "subject": "the-things-we-never-say-by-elizabeth-strout-audiobook-review-brilliant-portrait-of-an-existentia",
+  "claims": [
+    {
+      "id": "title",
+      "proposition": {
+        "predicate": "title",
+        "object": "The Things We Never Say by Elizabeth Strout audiobook review – brilliant portrait of an existential crisis"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "culture",
+        "citation": "https://www.theguardian.com/books/2026/aug/27/the-things-we-never-say-elizabeth-strout-audiobook-review-no-man-is-an-island"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "url",
+      "proposition": {
+        "predicate": "url",
+        "object": "https://www.theguardian.com/books/2026/aug/27/the-things-we-never-say-elizabeth-strout-audiobook-review-no-man-is-an-island"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "culture",
+        "citation": "https://www.theguardian.com/books/2026/aug/27/the-things-we-never-say-elizabeth-strout-audiobook-review-no-man-is-an-island"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "summary",
+      "proposition": {
+        "predicate": "summary",
+        "object": "<p>A teacher’s private anxieties are subtly combined with political events in this Booker-listed tale set in coastal Massachusetts</p><p>Artie Dam is a much-loved history teacher from coastal Massachusetts famed for his white socks and old sneakers and who sees a growing hopelessness in his young students. Not only are they dispirited by the state of the world, but they also believe they won’t be able to achieve their professional dreams. Their feelings of dread and ennui are shared by Artie who is aghast at the imminent re-election of a cruel and divisive leader (who remains nameless).</p><p>Artie is also lonely in the company of his wife, Evie, a therapist who comes from a wealthy family and is dismissive of her “soft” spouse. Artie realises he doesn’t truly know Evie, and she doesn’t care to know him. He traces their loss of connection to their son Rob’s car accident a decade ago in which Rob survived but his girlfriend Heather was killed. Such is Artie’s desolation that he contemplates suicide, if only he can find a way of doing it discreetly. But something happens while he is sailing in his boat that changes his mind. Later, a revelation from his son further shifts his perspective on his relationships.</p> <a href=\"https://www.theguardian.com/books/2026/aug/27/the-things-we-never-say-elizabeth-strout-audiobook-review-no-man-is-an-island\">Continue reading...</a>"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "culture",
+        "citation": "https://www.theguardian.com/books/2026/aug/27/the-things-we-never-say-elizabeth-strout-audiobook-review-no-man-is-an-island"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "published",
+      "proposition": {
+        "predicate": "published",
+        "object": "Thu, 27 Aug 2026 14:00:16 GMT"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "culture",
+        "citation": "https://www.theguardian.com/books/2026/aug/27/the-things-we-never-say-elizabeth-strout-audiobook-review-no-man-is-an-island"
+      },
+      "status": "supported"
+    }
+  ]
+}

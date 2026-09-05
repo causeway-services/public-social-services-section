@@ -1,0 +1,69 @@
+{
+  "subject": "bank-of-england-to-stop-accepting-bonds-linked-to-coal-for-key-loans",
+  "claims": [
+    {
+      "id": "title",
+      "proposition": {
+        "predicate": "title",
+        "object": "Bank of England to stop accepting bonds linked to coal for key loans"
+      },
+      "time": {
+        "asserted": "2026-07-19T15:04:06.303Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "economy",
+        "citation": "https://www.theguardian.com/business/2026/jul/19/bank-of-england-bonds-coal-loans-assets"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "url",
+      "proposition": {
+        "predicate": "url",
+        "object": "https://www.theguardian.com/business/2026/jul/19/bank-of-england-bonds-coal-loans-assets"
+      },
+      "time": {
+        "asserted": "2026-07-19T15:04:06.303Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "economy",
+        "citation": "https://www.theguardian.com/business/2026/jul/19/bank-of-england-bonds-coal-loans-assets"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "summary",
+      "proposition": {
+        "predicate": "summary",
+        "object": "<p>Campaigners hope move will force commercial banks to rethink holding assets linked to the fossil fuel</p><p>Climate campaigners have declared a victory after the Bank of England said it would no longer accept bonds linked to one of the most polluting industries on the planet for key loan arrangements.</p><p>The ban, which comes into force in October, marks a fresh crackdown on thermal coal, which is burned in power plants to create electricity, and has <a href=\"https://www.theguardian.com/business/2025/sep/25/bank-of-england-tackle-climate-crisis-mark-carney-greepeace\">long been a target of green policy activists</a>.</p> <a href=\"https://www.theguardian.com/business/2026/jul/19/bank-of-england-bonds-coal-loans-assets\">Continue reading...</a>"
+      },
+      "time": {
+        "asserted": "2026-07-19T15:04:06.303Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "economy",
+        "citation": "https://www.theguardian.com/business/2026/jul/19/bank-of-england-bonds-coal-loans-assets"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "published",
+      "proposition": {
+        "predicate": "published",
+        "object": "Sun, 19 Jul 2026 05:00:17 GMT"
+      },
+      "time": {
+        "asserted": "2026-07-19T15:04:06.303Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "economy",
+        "citation": "https://www.theguardian.com/business/2026/jul/19/bank-of-england-bonds-coal-loans-assets"
+      },
+      "status": "supported"
+    }
+  ]
+}

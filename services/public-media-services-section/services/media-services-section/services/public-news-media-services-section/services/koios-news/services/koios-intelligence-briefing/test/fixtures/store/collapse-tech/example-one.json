@@ -1,0 +1,29 @@
+{
+  "subject": "example-one",
+  "claims": [
+    {
+      "id": "title",
+      "proposition": { "predicate": "title", "object": "Example One" },
+      "time": { "asserted": "2026-06-16T03:57:41.229Z" },
+      "force": "alleges",
+      "provenance": { "witness": "collapse-tech", "citation": "https://example.test/one" },
+      "status": "supported"
+    },
+    {
+      "id": "url",
+      "proposition": { "predicate": "url", "object": "https://example.test/one" },
+      "time": { "asserted": "2026-06-16T03:57:41.229Z" },
+      "force": "alleges",
+      "provenance": { "witness": "collapse-tech", "citation": "https://example.test/one" },
+      "status": "supported"
+    },
+    {
+      "id": "summary",
+      "proposition": { "predicate": "summary", "object": "First fixture summary." },
+      "time": { "asserted": "2026-07-02T00:00:00.000Z" },
+      "force": "disputes",
+      "provenance": { "witness": "collapse-tech", "citation": "https://example.test/one" },
+      "status": "contested"
+    }
+  ]
+}

@@ -1,0 +1,9 @@
+{
+  "subject": "beta-story",
+  "claims": [
+    { "id": "title", "proposition": { "predicate": "title", "object": "Beta Story" }, "time": { "asserted": "2026-07-16T04:08:20.911Z" }, "force": "alleges", "provenance": { "witness": "technology", "citation": "https://example.com/beta" }, "status": "supported" },
+    { "id": "url", "proposition": { "predicate": "url", "object": "https://example.com/beta" }, "time": { "asserted": "2026-07-16T04:08:20.911Z" }, "force": "alleges", "provenance": { "witness": "technology", "citation": "https://example.com/beta" }, "status": "supported" },
+    { "id": "summary", "proposition": { "predicate": "summary", "object": "Beta summary." }, "time": { "asserted": "2026-07-16T04:08:20.911Z" }, "force": "alleges", "provenance": { "witness": "technology", "citation": "https://example.com/beta" }, "status": "supported" },
+    { "id": "published", "proposition": { "predicate": "published", "object": "Thu, 16 Jul 2026 08:00:00 +0000" }, "time": { "asserted": "2026-07-16T04:08:20.911Z" }, "force": "alleges", "provenance": { "witness": "technology", "citation": "https://example.com/beta" }, "status": "supported" }
+  ]
+}

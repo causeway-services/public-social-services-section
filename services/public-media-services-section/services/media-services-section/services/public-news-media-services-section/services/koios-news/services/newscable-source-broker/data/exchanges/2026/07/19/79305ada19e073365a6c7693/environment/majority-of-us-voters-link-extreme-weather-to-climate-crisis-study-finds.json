@@ -1,0 +1,69 @@
+{
+  "subject": "majority-of-us-voters-link-extreme-weather-to-climate-crisis-study-finds",
+  "claims": [
+    {
+      "id": "title",
+      "proposition": {
+        "predicate": "title",
+        "object": "Majority of US voters link extreme weather to climate crisis, study finds"
+      },
+      "time": {
+        "asserted": "2026-07-19T15:04:04.072Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "environment",
+        "citation": "https://www.theguardian.com/environment/2026/jul/19/climate-crisis-us-voters-study"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "url",
+      "proposition": {
+        "predicate": "url",
+        "object": "https://www.theguardian.com/environment/2026/jul/19/climate-crisis-us-voters-study"
+      },
+      "time": {
+        "asserted": "2026-07-19T15:04:04.072Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "environment",
+        "citation": "https://www.theguardian.com/environment/2026/jul/19/climate-crisis-us-voters-study"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "summary",
+      "proposition": {
+        "predicate": "summary",
+        "object": "<p>Top Democrat says findings show public ‘way ahead of the politicians’ as Trump dismisses global heating as ‘hoax’</p><p>Amid a summer of dangerous <a href=\"https://www.theguardian.com/us-news/2026/jul/03/heatwave-world-cup-250th-anniversary\">heat</a>, <a href=\"https://www.theguardian.com/us-news/2026/jul/07/lake-powell-water-crisis\">drought</a> and <a href=\"https://www.theguardian.com/us-news/2026/jun/27/kentucky-flood-deaths-storms\">floods</a>, a majority of Americans are connecting increasingly severe weather to the climate crisis, new polling shows, despite efforts by Donald Trump to dismiss global heating as a “con job” and a “hoax”.</p><p>It’s a sign that attempts to suppress polarize climate concerns may not be seeing full success, said Grace Adcox, senior climate strategist at Data for Progress.</p> <a href=\"https://www.theguardian.com/environment/2026/jul/19/climate-crisis-us-voters-study\">Continue reading...</a>"
+      },
+      "time": {
+        "asserted": "2026-07-19T15:04:04.072Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "environment",
+        "citation": "https://www.theguardian.com/environment/2026/jul/19/climate-crisis-us-voters-study"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "published",
+      "proposition": {
+        "predicate": "published",
+        "object": "Sun, 19 Jul 2026 11:00:26 GMT"
+      },
+      "time": {
+        "asserted": "2026-07-19T15:04:04.072Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "environment",
+        "citation": "https://www.theguardian.com/environment/2026/jul/19/climate-crisis-us-voters-study"
+      },
+      "status": "supported"
+    }
+  ]
+}

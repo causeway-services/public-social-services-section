@@ -1,0 +1,69 @@
+{
+  "subject": "brenda-fricker-obituary",
+  "claims": [
+    {
+      "id": "title",
+      "proposition": {
+        "predicate": "title",
+        "object": "Brenda Fricker obituary"
+      },
+      "time": {
+        "asserted": "2026-07-19T14:42:05.531Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "culture",
+        "citation": "https://www.theguardian.com/film/2026/jul/19/brenda-fricker-obituary"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "url",
+      "proposition": {
+        "predicate": "url",
+        "object": "https://www.theguardian.com/film/2026/jul/19/brenda-fricker-obituary"
+      },
+      "time": {
+        "asserted": "2026-07-19T14:42:05.531Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "culture",
+        "citation": "https://www.theguardian.com/film/2026/jul/19/brenda-fricker-obituary"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "summary",
+      "proposition": {
+        "predicate": "summary",
+        "object": "<p>Actor who was the first Irish woman to win an Oscar for her role in the 1989 film classic My Left Foot</p><p>Brenda Fricker, who has died aged 81, was only the second Irish actor – and the first female one – to win an Oscar, for her role as Daniel Day-Lewis’s mother in the 1989 film My Left Foot, after shooting to fame in the original cast of the BBC medical drama Casualty.</p><p>As the nurse Megan Roach, she was the Mother Earth of the fictional Holby City hospital’s A&amp;E department for the programme’s first five series (1986-90). “We knew the show had to have compassion,” said Casualty’s first producer,<a href=\"https://www.independent.co.uk/news/people/obituary-geraint-morris-1250780.html\"> Geraint Morris</a>. “We made Megan the person everyone could talk to.”</p> <a href=\"https://www.theguardian.com/film/2026/jul/19/brenda-fricker-obituary\">Continue reading...</a>"
+      },
+      "time": {
+        "asserted": "2026-07-19T14:42:05.531Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "culture",
+        "citation": "https://www.theguardian.com/film/2026/jul/19/brenda-fricker-obituary"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "published",
+      "proposition": {
+        "predicate": "published",
+        "object": "Sun, 19 Jul 2026 12:14:55 GMT"
+      },
+      "time": {
+        "asserted": "2026-07-19T14:42:05.531Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "culture",
+        "citation": "https://www.theguardian.com/film/2026/jul/19/brenda-fricker-obituary"
+      },
+      "status": "supported"
+    }
+  ]
+}

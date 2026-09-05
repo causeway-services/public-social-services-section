@@ -1,0 +1,69 @@
+{
+  "subject": "i-inadvertently-misled-parliament-over-a-british-nuclear-scandal-now-i-m-calling-for-justice-tob",
+  "claims": [
+    {
+      "id": "title",
+      "proposition": {
+        "predicate": "title",
+        "object": "I inadvertently misled parliament over a British nuclear scandal. Now I’m calling for justice | Tobias Ellwood"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "politics",
+        "citation": "https://www.theguardian.com/commentisfree/2026/sep/02/british-nuclear-tests-compensation-for-veterans"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "url",
+      "proposition": {
+        "predicate": "url",
+        "object": "https://www.theguardian.com/commentisfree/2026/sep/02/british-nuclear-tests-compensation-for-veterans"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "politics",
+        "citation": "https://www.theguardian.com/commentisfree/2026/sep/02/british-nuclear-tests-compensation-for-veterans"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "summary",
+      "proposition": {
+        "predicate": "summary",
+        "object": "<p>Thousands of service personnel took part in dangerous cold war-era nuclear tests. The government owes them the truth – and compensation</p><p>In December 2018, as defence minister, I inadvertently misled parliament. Asked whether blood samples had been taken from service personnel for radiological monitoring during the nuclear bomb tests, I relayed the line provided to me by the Ministry of Defence: it was “unable to locate any information” suggesting blood samples had been taken for radiological monitoring at the tests.</p><p>I now know the reality was very different – these samples were taken across the armed services branches. But those veterans seeking compensation for serious illnesses developed after radiation exposure have been unable to access them. This is among the greatest scandals in Britain, and it must be addressed.</p><p>Tobias Ellwood is a former defence minister and the author of Ten Steps to Prevent World War Three</p> <a href=\"https://www.theguardian.com/commentisfree/2026/sep/02/british-nuclear-tests-compensation-for-veterans\">Continue reading...</a>"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "politics",
+        "citation": "https://www.theguardian.com/commentisfree/2026/sep/02/british-nuclear-tests-compensation-for-veterans"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "published",
+      "proposition": {
+        "predicate": "published",
+        "object": "Wed, 02 Sep 2026 21:30:35 GMT"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "politics",
+        "citation": "https://www.theguardian.com/commentisfree/2026/sep/02/british-nuclear-tests-compensation-for-veterans"
+      },
+      "status": "supported"
+    }
+  ]
+}

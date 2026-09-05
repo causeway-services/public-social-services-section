@@ -1,0 +1,69 @@
+{
+  "kind": "koios.delivery-authority-law",
+  "id": "cloudflare-authority-transfer-and-rollback/v1",
+  "authorities": {
+    "current": "VPS Koios service reached through the existing Cloudflare-proxied koios.news route",
+    "shadow": "immutable noindex and advertising-suspended artifact at an exact granted Cloudflare preview deployment",
+    "candidate": "production-shaped immutable body manifest held non-authoritatively until its exact delivery policy and cutover act are accepted",
+    "rollbackTarget": "retained VPS origin reachable independently of koios.news DNS through the declared operations host and captured origin address"
+  },
+  "evidenceBinding": [
+    "Every grant offer receipt parity result mutable-route disposition rollback witness and cutover act names the exact static manifest digest live-publication-witness digest delivery-policy digest Cloudflare account Worker hostname and effect set to which it applies.",
+    "A boolean or latest-state reading without those bindings cannot transfer authority.",
+    "Candidate body bytes and delivery policy are distinct witnesses: preview may add only the separately digested X-Robots-Tag noindex overlay; authorized cutover removes only that overlay."
+  ],
+  "phases": [
+    "freeze and digest the live public-route witness",
+    "build and verify the local immutable artifact",
+    "settle a credential-free provider packaging rehearsal",
+    "receive an exact Cloudflare account and Worker resource grant",
+    "upload a non-authoritative noindex shadow preview and prove local-to-preview status header and byte digests",
+    "rehearse the exact candidate body bytes under a separately digested preview-only noindex delivery overlay",
+    "dispose of every mutable or private route through relocation retirement or separately granted Worker routing",
+    "probe the retained VPS origin without using koios.news DNS",
+    "rehearse provider-side restoration and cache purge",
+    "receive an explicit cutover act",
+    "observe the production route for one accepted window while retaining VPS recovery",
+    "retire VPS authority only by a later explicit act"
+  ],
+  "mutableRouteDisposition": {
+    "/healthz": "A bounded Worker may answer artifact and deployment health only after its own grant.",
+    "/hit": "Requires a separately contracted accountable-attention Worker, or an explicit suspension act paired with an updated privacy surface.",
+    "/views.json": "Requires the same accountable-attention service and public aggregate contract as /hit.",
+    "/newsroom": "Relocate to a non-public operations hostname before primary-host static cutover; never expose newsroom authority through a static asset.",
+    "/cable": "Relocate to a non-public operations hostname or a separately contracted authenticated ingress service.",
+    "/mcp": "Relocate to a non-public operations hostname or a separately contracted authenticated protocol boundary.",
+    "/operators": "Relocate to a non-public operations hostname; it is not a public static delivery route."
+  },
+  "mutableRouteSettlementEvidence": [
+    "The settlement names the exact candidate manifest, frozen live-publication witness, delivery-policy digest, and candidate privacy artifact.",
+    "A safe GET observation records what the still-authoritative live hostname does at each excluded boundary without invoking POST /hit or any operator effect.",
+    "The settlement distinguishes the three public application routes from the four separately hosted or reserved private authority boundaries.",
+    "Every disposition is effective only under the exact later candidate cutover act; recording it does not mutate the VPS or transfer authority.",
+    "Restoring accountable attention requires one separate accepted service that binds both collection and the public aggregate to matching privacy text."
+  ],
+  "rollbackTriggers": [
+    "loss or redirect of a canonical public route",
+    "feed sitemap NINJS structured-data privacy advertising or correction divergence outside an accepted intentional delta",
+    "unexpected indexing policy",
+    "provider error rate or unavailability beyond the accepted observation bound",
+    "mutable route reaches the wrong authority",
+    "correction cannot propagate to the candidate within the accepted bound",
+    "candidate body manifest delivery-policy digest or preview overlay differs from the digest-bound accepted act"
+  ],
+  "rollbackMove": [
+    "freeze publication and preserve the failed deployment and probe evidence",
+    "restore the provider route or DNS snapshot that sends koios.news to the retained VPS origin",
+    "purge only the failed candidate deployment cache under the accepted provider capability",
+    "probe root feed sitemap privacy standards corrections one live article and health through public DNS",
+    "probe the same live article and health directly against the retained origin address",
+    "append the provider receipt probe results elapsed time and final authority to Koios's deployment ledger"
+  ],
+  "limits": [
+    "A local origin reachability rehearsal is not a provider-side rollback rehearsal.",
+    "Status and media type equality alone do not prove privacy advertising structured-data correction or security parity.",
+    "Production-indexable candidate bytes may not be exposed at a public preview hostname without the accepted preview-only noindex overlay.",
+    "No credential configuration preview upload route mutation DNS mutation purge or deployment deletion is authorized by this law alone.",
+    "The VPS remains authoritative until all preview and rollback evidence exists and an explicit cutover act transfers authority."
+  ]
+}

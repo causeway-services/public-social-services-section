@@ -1,0 +1,69 @@
+{
+  "subject": "south-east-water-warns-over-survival-as-funds-dry-up",
+  "claims": [
+    {
+      "id": "title",
+      "proposition": {
+        "predicate": "title",
+        "object": "South East Water warns over survival as funds dry up"
+      },
+      "time": {
+        "asserted": "2026-07-18T07:49:51.643Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "economy",
+        "citation": "https://www.theguardian.com/business/2026/jul/17/south-east-water-warns-over-survival-as-funds-dry-up"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "url",
+      "proposition": {
+        "predicate": "url",
+        "object": "https://www.theguardian.com/business/2026/jul/17/south-east-water-warns-over-survival-as-funds-dry-up"
+      },
+      "time": {
+        "asserted": "2026-07-18T07:49:51.643Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "economy",
+        "citation": "https://www.theguardian.com/business/2026/jul/17/south-east-water-warns-over-survival-as-funds-dry-up"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "summary",
+      "proposition": {
+        "predicate": "summary",
+        "object": "<p>Supplier to 2.4m customers says it doesn’t have enough money to last beyond July 2027 </p><p>South East Water has warned there is “material uncertainty” over its survival, after a disastrous year in which the lossmaking company paid millions of pounds in fines and its chief executive was forced out.</p><p>The water supplier to 2.4 million customers said it had sufficient funds to make it through to July 2027. However, “shortly after” the utility will need “new loan facilities in order to continue as a going concern”, it said in its annual report published on Friday.</p> <a href=\"https://www.theguardian.com/business/2026/jul/17/south-east-water-warns-over-survival-as-funds-dry-up\">Continue reading...</a>"
+      },
+      "time": {
+        "asserted": "2026-07-18T07:49:51.643Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "economy",
+        "citation": "https://www.theguardian.com/business/2026/jul/17/south-east-water-warns-over-survival-as-funds-dry-up"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "published",
+      "proposition": {
+        "predicate": "published",
+        "object": "Fri, 17 Jul 2026 16:29:40 GMT"
+      },
+      "time": {
+        "asserted": "2026-07-18T07:49:51.643Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "economy",
+        "citation": "https://www.theguardian.com/business/2026/jul/17/south-east-water-warns-over-survival-as-funds-dry-up"
+      },
+      "status": "supported"
+    }
+  ]
+}

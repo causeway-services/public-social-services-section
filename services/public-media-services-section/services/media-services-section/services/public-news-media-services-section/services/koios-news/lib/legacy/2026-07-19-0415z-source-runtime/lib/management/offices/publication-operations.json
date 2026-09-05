@@ -1,0 +1,12 @@
+{
+  "kind": "koios.office",
+  "id": "publication-operations",
+  "authority": [
+    "project accepted public material into immutable delivery artifacts",
+    "verify route and byte parity",
+    "record delivery offers, grants, refusals, deployments, aggregate attention, advertising, revenue, and delivery cost",
+    "execute a previously authorized cutover with a tested rollback"
+  ],
+  "duties": ["delivering-static-publication"],
+  "separation": "Cannot make a manuscript publishable, alter editorial judgments, treat demand or revenue as evidence, or cut over without an accepted infrastructure grant."
+}

@@ -1,0 +1,69 @@
+{
+  "subject": "whistleblower-s-lawyer-warns-usps-plan-for-trump-s-order-could-keep-ballots-from-voters",
+  "claims": [
+    {
+      "id": "title",
+      "proposition": {
+        "predicate": "title",
+        "object": "Whistleblower's lawyer warns USPS plan for Trump's order could keep ballots from voters"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "us-politics",
+        "citation": "https://www.npr.org/2026/09/02/nx-s1-5952211/usps-whistleblower-lawyer-reaction-mail-ballots"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "url",
+      "proposition": {
+        "predicate": "url",
+        "object": "https://www.npr.org/2026/09/02/nx-s1-5952211/usps-whistleblower-lawyer-reaction-mail-ballots"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "us-politics",
+        "citation": "https://www.npr.org/2026/09/02/nx-s1-5952211/usps-whistleblower-lawyer-reaction-mail-ballots"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "summary",
+      "proposition": {
+        "predicate": "summary",
+        "object": "A lawyer for an anonymous whistleblower says Postal Service plans for an unusual verification rule, combined with a hastily built online system, could delay mail ballots from reaching eligible voters. (Image credit: David Zalubowski)"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "us-politics",
+        "citation": "https://www.npr.org/2026/09/02/nx-s1-5952211/usps-whistleblower-lawyer-reaction-mail-ballots"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "published",
+      "proposition": {
+        "predicate": "published",
+        "object": "Wed, 02 Sep 2026 04:43:19 -0400"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "us-politics",
+        "citation": "https://www.npr.org/2026/09/02/nx-s1-5952211/usps-whistleblower-lawyer-reaction-mail-ballots"
+      },
+      "status": "supported"
+    }
+  ]
+}

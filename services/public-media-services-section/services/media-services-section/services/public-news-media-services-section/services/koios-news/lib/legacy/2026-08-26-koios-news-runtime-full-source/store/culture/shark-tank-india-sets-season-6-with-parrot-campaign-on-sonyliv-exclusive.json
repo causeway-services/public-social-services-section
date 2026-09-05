@@ -1,0 +1,69 @@
+{
+  "subject": "shark-tank-india-sets-season-6-with-parrot-campaign-on-sonyliv-exclusive",
+  "claims": [
+    {
+      "id": "title",
+      "proposition": {
+        "predicate": "title",
+        "object": "‘Shark Tank India’ Sets Season 6 With Parrot Campaign on SonyLIV (EXCLUSIVE)"
+      },
+      "time": {
+        "asserted": "2026-07-20T09:48:52.265Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "culture",
+        "citation": "https://variety.com/2026/tv/news/shark-tank-india-season-6-sonyliv-1236815830/"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "url",
+      "proposition": {
+        "predicate": "url",
+        "object": "https://variety.com/2026/tv/news/shark-tank-india-season-6-sonyliv-1236815830/"
+      },
+      "time": {
+        "asserted": "2026-07-20T09:48:52.265Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "culture",
+        "citation": "https://variety.com/2026/tv/news/shark-tank-india-season-6-sonyliv-1236815830/"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "summary",
+      "proposition": {
+        "predicate": "summary",
+        "object": "“Shark Tank India” has unveiled “#DontBeATota,” a campaign taking aim at founders who mistake the language of entrepreneurship for the substance of it, as the show opens its sixth season for entries on streamer SonyLIV. The campaign lands at a moment when terms such as valuation, burn rate and EBITDA have become everyday vocabulary. It […]"
+      },
+      "time": {
+        "asserted": "2026-07-20T09:48:52.265Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "culture",
+        "citation": "https://variety.com/2026/tv/news/shark-tank-india-season-6-sonyliv-1236815830/"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "published",
+      "proposition": {
+        "predicate": "published",
+        "object": "Mon, 20 Jul 2026 06:30:00 +0000"
+      },
+      "time": {
+        "asserted": "2026-07-20T09:48:52.265Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "culture",
+        "citation": "https://variety.com/2026/tv/news/shark-tank-india-season-6-sonyliv-1236815830/"
+      },
+      "status": "supported"
+    }
+  ]
+}

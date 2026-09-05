@@ -1,0 +1,69 @@
+{
+  "subject": "trump-s-homeland-security-chief-threatens-election-officials-with-prison-time",
+  "claims": [
+    {
+      "id": "title",
+      "proposition": {
+        "predicate": "title",
+        "object": "Trump’s Homeland Security Chief Threatens Election Officials With Prison Time"
+      },
+      "time": {
+        "asserted": "2026-07-18T08:09:58.727Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "politics",
+        "citation": "https://www.nytimes.com/2026/07/17/us/politics/markwayne-mullin-election-officials-threats-trump.html"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "url",
+      "proposition": {
+        "predicate": "url",
+        "object": "https://www.nytimes.com/2026/07/17/us/politics/markwayne-mullin-election-officials-threats-trump.html"
+      },
+      "time": {
+        "asserted": "2026-07-18T08:09:58.727Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "politics",
+        "citation": "https://www.nytimes.com/2026/07/17/us/politics/markwayne-mullin-election-officials-threats-trump.html"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "summary",
+      "proposition": {
+        "predicate": "summary",
+        "object": "Markwayne Mullin reiterated the president’s false claims about voting security while escalating the administration’s legally questionable attempts to control state elections."
+      },
+      "time": {
+        "asserted": "2026-07-18T08:09:58.727Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "politics",
+        "citation": "https://www.nytimes.com/2026/07/17/us/politics/markwayne-mullin-election-officials-threats-trump.html"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "published",
+      "proposition": {
+        "predicate": "published",
+        "object": "Fri, 17 Jul 2026 19:34:54 +0000"
+      },
+      "time": {
+        "asserted": "2026-07-18T08:09:58.727Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "politics",
+        "citation": "https://www.nytimes.com/2026/07/17/us/politics/markwayne-mullin-election-officials-threats-trump.html"
+      },
+      "status": "supported"
+    }
+  ]
+}

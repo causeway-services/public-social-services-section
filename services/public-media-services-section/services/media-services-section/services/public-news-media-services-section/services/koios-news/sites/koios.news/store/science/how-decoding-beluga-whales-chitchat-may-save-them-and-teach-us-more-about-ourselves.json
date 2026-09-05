@@ -1,0 +1,69 @@
+{
+  "subject": "how-decoding-beluga-whales-chitchat-may-save-them-and-teach-us-more-about-ourselves",
+  "claims": [
+    {
+      "id": "title",
+      "proposition": {
+        "predicate": "title",
+        "object": "How decoding beluga whales’ chitchat may save them – and teach us more about ourselves"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "science",
+        "citation": "https://www.theguardian.com/environment/2026/aug/27/how-decoding-beluga-whales-chitchat-may-save-them-and-teach-us-more-about-ourselves"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "url",
+      "proposition": {
+        "predicate": "url",
+        "object": "https://www.theguardian.com/environment/2026/aug/27/how-decoding-beluga-whales-chitchat-may-save-them-and-teach-us-more-about-ourselves"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "science",
+        "citation": "https://www.theguardian.com/environment/2026/aug/27/how-decoding-beluga-whales-chitchat-may-save-them-and-teach-us-more-about-ourselves"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "summary",
+      "proposition": {
+        "predicate": "summary",
+        "object": "<p>From humpbacks learning the latest songs to sperm whales’ ‘clan codas’, drones and AI learning are helping reveal another dimension to the concept of culture</p><p><strong>Podcast:</strong> <a href=\"https://www.theguardian.com/science/audio/2026/sep/01/clicks-grunts-and-squeals-the-wonders-of-whale-communication-podcast\"><strong>Could humans ever communicate with whales?</strong></a></p><p></p><p>In 2015, the whale researcher Valeria Vergara pitched a small tent at the icy water’s edge on Somerset Island in the remote Canadian high Arctic, shrouded in a freezing fog so thick she struggled to see her own hands. She trailed a cord out to the coast and plopped a hydrophone into the water to record the calls of belugas.</p><p>As many as 1,000 of the whales, accompanied by their newborn calves, frequented the surrounding bay. Belugas’ ceaseless chatter, made up of dozens of unique sounds, is crucial to keeping these creatures connected in the dim, turbid waters of the Arctic.</p> <a href=\"https://www.theguardian.com/environment/2026/aug/27/how-decoding-beluga-whales-chitchat-may-save-them-and-teach-us-more-about-ourselves\">Continue reading...</a>"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "science",
+        "citation": "https://www.theguardian.com/environment/2026/aug/27/how-decoding-beluga-whales-chitchat-may-save-them-and-teach-us-more-about-ourselves"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "published",
+      "proposition": {
+        "predicate": "published",
+        "object": "Thu, 27 Aug 2026 09:02:13 GMT"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "science",
+        "citation": "https://www.theguardian.com/environment/2026/aug/27/how-decoding-beluga-whales-chitchat-may-save-them-and-teach-us-more-about-ourselves"
+      },
+      "status": "supported"
+    }
+  ]
+}

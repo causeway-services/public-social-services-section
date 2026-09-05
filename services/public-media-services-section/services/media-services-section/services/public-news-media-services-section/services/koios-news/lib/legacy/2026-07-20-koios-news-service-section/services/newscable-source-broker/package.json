@@ -1,0 +1,28 @@
+{
+  "name": "@emsenn/newscable-source-broker",
+  "version": "0.0.1",
+  "type": "module",
+  "description": "Separately hireable zero-price syndication intake that offers immutable claim-state bundles without writing a customer's corpus.",
+  "bin": {
+    "solicit-service": "./src/contract-source-bundles.mjs",
+    "invoke-service": "./src/contract-source-bundles.mjs",
+    "procure-portable-carrier": "./src/procure-portable-carrier.mjs"
+  },
+  "scripts": {
+    "contract": "node src/contract-source-bundles.mjs",
+    "check": "node --check src/contract-source-bundles.mjs",
+    "test": "node --test test/*.test.mjs",
+    "verify": "npm run check && npm test"
+  },
+  "dependencies": {
+    "@emsenn/producing-content": "link:../../../../../red-cup-engineering/src/content/assets/legacy/2026-07-03-producing-content"
+  },
+  "x-agentic-metro-enterprise": {
+    "node-id": "newscable-source-broker",
+    "operation-catalog": {
+      "solicit-service": { "contract": "newscable-source-broker/source-bundle-service/v1", "accepts": "Offer<ServiceSolicitation>", "returns": "Offer<ServiceOffer>|Reject" },
+      "invoke-service": { "contract": "newscable-source-broker/source-bundle-service/v1", "accepts": "Accept<ServiceContract>", "returns": "Accept<SourceBundleDelivery>|Reject" },
+      "procure-portable-carrier": { "contract": "portable-node-carrier-realization", "accepts": "provider-owned catalog entry and fixed customer acceptance policy", "returns": "PortableNodeCarrierInstallationReceipt|Reject" }
+    }
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "type": "TTIDiscordOnboardingSurface",
+  "version": 1,
+  "id": "tti-discord-onboarding-2026-01",
+  "status": "live",
+  "operator": "urn:ame:turntide-islands",
+  "guildId": "1184863861065658419",
+  "channel": {
+    "id": "1519620760161878136",
+    "name": "start-here",
+    "categoryId": "1184863981115031582",
+    "categoryName": "Harbor"
+  },
+  "marker": "TTI-ONBOARDING-2026-01",
+  "messageId": "1529286487072440442",
+  "latestReceipt": "ni:///sha-256;wwnMwBp8qO_IV3HnNbt7mj7YilYftg0Gsx0T6CxuIVY",
+  "nativeConfiguration": "content/configurations/discord-native-onboarding.json",
+  "promises": [
+    "Explain what TTI is, where common conversations and enterprise surfaces live, and how to request help.",
+    "Separate ordinary participation, operational requests, commercial intent, contribution licensing, and payment-backed entitlement.",
+    "State which commercial surfaces remain no-charge or closed and avoid presenting Discord roles as payment evidence."
+  ],
+  "privacy": {
+    "ordinaryMessagesResold": false,
+    "ordinaryParticipationIsConsent": false,
+    "zeloRosterCopiesMessageText": false,
+    "automaticCohortProfiling": false
+  },
+  "economicEffect": "none; onboarding is a public navigation and boundary-disclosure surface, not an offer acceptance, payment, entitlement, contribution license, placement, revenue, or profit"
+}

@@ -1,0 +1,69 @@
+{
+  "subject": "federal-judge-blocks-trump-s-new-birthright-citizenship-order",
+  "claims": [
+    {
+      "id": "title",
+      "proposition": {
+        "predicate": "title",
+        "object": "Federal judge blocks Trump’s new birthright citizenship order"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "us-politics",
+        "citation": "https://thehill.com/regulation/court-battles/6067819-judge-blocks-trump-birthright-order/"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "url",
+      "proposition": {
+        "predicate": "url",
+        "object": "https://thehill.com/regulation/court-battles/6067819-judge-blocks-trump-birthright-order/"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "us-politics",
+        "citation": "https://thehill.com/regulation/court-battles/6067819-judge-blocks-trump-birthright-order/"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "summary",
+      "proposition": {
+        "predicate": "summary",
+        "object": "A federal judge in Maryland on Wednesday blocked an executive order from President Trump that again seeks to restrict birthright citizenship. U.S. District Judge Deborah Boardman granted a preliminary injunction in a case brought by two immigration advocacy groups that had also challenged the Trump administration’s initial attempt last year to limit who is eligible…"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "us-politics",
+        "citation": "https://thehill.com/regulation/court-battles/6067819-judge-blocks-trump-birthright-order/"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "published",
+      "proposition": {
+        "predicate": "published",
+        "object": "Wed, 02 Sep 2026 23:35:40 +0000"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "us-politics",
+        "citation": "https://thehill.com/regulation/court-battles/6067819-judge-blocks-trump-birthright-order/"
+      },
+      "status": "supported"
+    }
+  ]
+}

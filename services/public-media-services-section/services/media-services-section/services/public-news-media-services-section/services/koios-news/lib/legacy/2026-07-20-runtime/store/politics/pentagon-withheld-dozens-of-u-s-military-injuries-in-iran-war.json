@@ -1,0 +1,69 @@
+{
+  "subject": "pentagon-withheld-dozens-of-u-s-military-injuries-in-iran-war",
+  "claims": [
+    {
+      "id": "title",
+      "proposition": {
+        "predicate": "title",
+        "object": "Pentagon Withheld Dozens of U.S. Military Injuries in Iran War"
+      },
+      "time": {
+        "asserted": "2026-07-20T09:48:45.426Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "politics",
+        "citation": "https://www.nytimes.com/2026/07/20/us/politics/troops-injured-jordan-iran-war.html"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "url",
+      "proposition": {
+        "predicate": "url",
+        "object": "https://www.nytimes.com/2026/07/20/us/politics/troops-injured-jordan-iran-war.html"
+      },
+      "time": {
+        "asserted": "2026-07-20T09:48:45.426Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "politics",
+        "citation": "https://www.nytimes.com/2026/07/20/us/politics/troops-injured-jordan-iran-war.html"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "summary",
+      "proposition": {
+        "predicate": "summary",
+        "object": "Central Command is not required to release information about injured troops, especially when they quickly return to duty, a military official said."
+      },
+      "time": {
+        "asserted": "2026-07-20T09:48:45.426Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "politics",
+        "citation": "https://www.nytimes.com/2026/07/20/us/politics/troops-injured-jordan-iran-war.html"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "published",
+      "proposition": {
+        "predicate": "published",
+        "object": "Mon, 20 Jul 2026 09:02:17 +0000"
+      },
+      "time": {
+        "asserted": "2026-07-20T09:48:45.426Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "politics",
+        "citation": "https://www.nytimes.com/2026/07/20/us/politics/troops-injured-jordan-iran-war.html"
+      },
+      "status": "supported"
+    }
+  ]
+}

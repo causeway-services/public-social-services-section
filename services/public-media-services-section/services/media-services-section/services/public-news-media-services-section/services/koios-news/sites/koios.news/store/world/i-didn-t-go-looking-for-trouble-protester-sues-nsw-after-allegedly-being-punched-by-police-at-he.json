@@ -1,0 +1,69 @@
+{
+  "subject": "i-didn-t-go-looking-for-trouble-protester-sues-nsw-after-allegedly-being-punched-by-police-at-he",
+  "claims": [
+    {
+      "id": "title",
+      "proposition": {
+        "predicate": "title",
+        "object": "‘I didn’t go looking for trouble’: Protester sues NSW after allegedly being punched by police at Herzog rally"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "world",
+        "citation": "https://www.theguardian.com/australia-news/2026/sep/03/palestinian-australian-eyad-shadid-sues-nsw-police-punched-at-herzog-rally-ntwnfb"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "url",
+      "proposition": {
+        "predicate": "url",
+        "object": "https://www.theguardian.com/australia-news/2026/sep/03/palestinian-australian-eyad-shadid-sues-nsw-police-punched-at-herzog-rally-ntwnfb"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "world",
+        "citation": "https://www.theguardian.com/australia-news/2026/sep/03/palestinian-australian-eyad-shadid-sues-nsw-police-punched-at-herzog-rally-ntwnfb"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "summary",
+      "proposition": {
+        "predicate": "summary",
+        "object": "<p><strong>Exclusive</strong>: Eyad Shadid launches civil case in district court after charges against him dropped, alleging he was ‘battered’ near Sydney’s town hall in February</p><ul><li><p><a href=\"https://www.theguardian.com/australia-news/live/2026/sep/03/anthony-albanese-one-nation-jim-chalmers-labor-liberal-angus-taylor-tobacco-plan-ntwnfb\">Follow our Australia news live blog for latest updates</a></p></li><li><p>Get our <a href=\"https://www.theguardian.com/email-newsletters?CMP=cvau_sfl\">breaking news email</a>, <a href=\"https://app.adjust.com/w4u7jx3\">free app</a> or <a href=\"https://www.theguardian.com/australia-news/series/full-story?CMP=cvau_sfl\">daily news podcast</a></p></li></ul><p>A Palestinian Australian man who alleges he was punched in the face when trying to stop police from harassing Muslim men praying during an anti–Isaac Herzog protest is suing New South Wales over “a series of false accusations”.</p><p>Eyad Shadid has launched a civil case in the NSW district court, alleging he was assaulted, battered and falsely imprisoned by police near Sydney’s town hall.</p> <a href=\"https://www.theguardian.com/australia-news/2026/sep/03/palestinian-australian-eyad-shadid-sues-nsw-police-punched-at-herzog-rally-ntwnfb\">Continue reading...</a>"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "world",
+        "citation": "https://www.theguardian.com/australia-news/2026/sep/03/palestinian-australian-eyad-shadid-sues-nsw-police-punched-at-herzog-rally-ntwnfb"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "published",
+      "proposition": {
+        "predicate": "published",
+        "object": "Wed, 02 Sep 2026 15:00:28 GMT"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "world",
+        "citation": "https://www.theguardian.com/australia-news/2026/sep/03/palestinian-australian-eyad-shadid-sues-nsw-police-punched-at-herzog-rally-ntwnfb"
+      },
+      "status": "supported"
+    }
+  ]
+}

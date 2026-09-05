@@ -1,0 +1,69 @@
+{
+  "subject": "six-political-headaches-andy-burnham-must-tackle-in-his-first-weeks-as-pm",
+  "claims": [
+    {
+      "id": "title",
+      "proposition": {
+        "predicate": "title",
+        "object": "Six political headaches Andy Burnham must tackle in his first weeks as PM"
+      },
+      "time": {
+        "asserted": "2026-07-19T02:19:57.230Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "economy",
+        "citation": "https://www.theguardian.com/politics/2026/jul/18/andy-burnham-six-political-headaches-first-weeks-pm"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "url",
+      "proposition": {
+        "predicate": "url",
+        "object": "https://www.theguardian.com/politics/2026/jul/18/andy-burnham-six-political-headaches-first-weeks-pm"
+      },
+      "time": {
+        "asserted": "2026-07-19T02:19:57.230Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "economy",
+        "citation": "https://www.theguardian.com/politics/2026/jul/18/andy-burnham-six-political-headaches-first-weeks-pm"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "summary",
+      "proposition": {
+        "predicate": "summary",
+        "object": "<p>From dealing with Trump to easing cost of living, the incoming prime minister is mulling his approach to contentious issues</p><p>When Labour was preparing for power in 2024, Keir Starmer’s then chief of staff, Sue Gray, compiled what one Labour official called her “shit list” – a dossier of immediate fires the government would have to put out.</p><p><a href=\"https://www.theguardian.com/politics/2026/may/24/andy-burnham-advice-sue-gray-future-labour-government\">Gray is back</a>, advising Starmer’s successor, Andy Burnham, in an unofficial capacity. And yet again, she is advising an incoming prime minister on how to deal with a number of immediate political problems that will need solving in his first few weeks.</p> <a href=\"https://www.theguardian.com/politics/2026/jul/18/andy-burnham-six-political-headaches-first-weeks-pm\">Continue reading...</a>"
+      },
+      "time": {
+        "asserted": "2026-07-19T02:19:57.230Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "economy",
+        "citation": "https://www.theguardian.com/politics/2026/jul/18/andy-burnham-six-political-headaches-first-weeks-pm"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "published",
+      "proposition": {
+        "predicate": "published",
+        "object": "Sat, 18 Jul 2026 07:00:51 GMT"
+      },
+      "time": {
+        "asserted": "2026-07-19T02:19:57.230Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "economy",
+        "citation": "https://www.theguardian.com/politics/2026/jul/18/andy-burnham-six-political-headaches-first-weeks-pm"
+      },
+      "status": "supported"
+    }
+  ]
+}

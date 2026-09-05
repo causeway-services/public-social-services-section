@@ -1,0 +1,69 @@
+{
+  "subject": "spacex-starship-flight-test-13-takes-issue-with-the-flight-bit",
+  "claims": [
+    {
+      "id": "title",
+      "proposition": {
+        "predicate": "title",
+        "object": "SpaceX Starship Flight Test 13 takes issue with the 'flight' bit"
+      },
+      "time": {
+        "asserted": "2026-07-18T19:52:25.296Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "technology",
+        "citation": "https://www.theregister.com/science/2026/07/17/spacex-starship-flight-test-13-takes-issue-with-the-flight-bit/5274228"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "url",
+      "proposition": {
+        "predicate": "url",
+        "object": "https://www.theregister.com/science/2026/07/17/spacex-starship-flight-test-13-takes-issue-with-the-flight-bit/5274228"
+      },
+      "time": {
+        "asserted": "2026-07-18T19:52:25.296Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "technology",
+        "citation": "https://www.theregister.com/science/2026/07/17/spacex-starship-flight-test-13-takes-issue-with-the-flight-bit/5274228"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "summary",
+      "proposition": {
+        "predicate": "summary",
+        "object": "SpaceX's 13th Starship flight test ended at the launchpad after four Raptor engines failed to start, triggering an automatic abort moments before liftoff. Elon Musk's biz ignited the booster's engines at 2245 UTC on July 16, but the automated system aborted the launch. The boss confirmed: \"Some of the engines didn't start, triggering an automatic launch abort… To be confident of a good flight, two Raptors will be removed and replaced. Most probable launch timing is early next week.\" The nature of the problem is not clear, nor is whether the vehicle will need to be de-stacked for engine replacement. Although the abort showcased the booster's anomaly-detection capabilities, it is not a great look for a rocket that must launch multiple times in quick succession to meet the requirements of the Artemis IV Moon landing planned for 2028. Flight Test 13 marks the second test of Starship's V3 configuration. The vehicle hasn't reached orbit, but a successful test - one that demonstrates engine reignition in space - would likely let SpaceX move beyond suborbital flights. That shift is urgent as Artemis III is scheduled to launch next year, and Starship must be qualified for orbital operations by then. The abort won't have done SpaceX stock any favors. Investors had already brought it back to Earth after an early surge made Musk a trillionaire (on paper). By the close of trading, shares had slid to just over $131, below the $135 initial public offering price that valued the loss-making biz at roughly $1.78 trillion. NASA is paying close attention. The agency confirmed yesterday it will use SpaceX's Starlink to deliver Artemis III imagery from Orion. It'd be a shame if that imagery didn't include a rendezvous with Starship because SpaceX is unable to get the behemoth off the ground, let alone into orbit. Despite Musk's suggestions of \"early next week,\" SpaceX has yet to officially confirm a date for the next Starship launch attempt. ®"
+      },
+      "time": {
+        "asserted": "2026-07-18T19:52:25.296Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "technology",
+        "citation": "https://www.theregister.com/science/2026/07/17/spacex-starship-flight-test-13-takes-issue-with-the-flight-bit/5274228"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "published",
+      "proposition": {
+        "predicate": "published",
+        "object": "Fri, 17 Jul 2026 13:15:00 +0200"
+      },
+      "time": {
+        "asserted": "2026-07-18T19:52:25.296Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "technology",
+        "citation": "https://www.theregister.com/science/2026/07/17/spacex-starship-flight-test-13-takes-issue-with-the-flight-bit/5274228"
+      },
+      "status": "supported"
+    }
+  ]
+}

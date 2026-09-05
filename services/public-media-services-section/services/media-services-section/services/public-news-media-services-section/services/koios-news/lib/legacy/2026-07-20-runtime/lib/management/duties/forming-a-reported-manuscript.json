@@ -1,0 +1,9 @@
+{
+  "kind": "koios.duty",
+  "id": "forming-a-reported-manuscript",
+  "office": "reporter",
+  "precondition": "A durable assignment names one supported demand lens, one event spine, a genre contract, and a bounded packet of admitted source evidence.",
+  "move": "Route prose work to the cheapest faithful provider, form one event-centered manuscript, and preserve exact source links, attribution, modality, scope, production provenance, and refusal evidence.",
+  "postcondition": "A draft linked to the assignment exists for independent editorial judgment, or a typed reporting/source/provider obstruction is recorded.",
+  "refusals": ["unsupported assignment lens", "no event spine", "insufficient distinct reported detail", "provider offer absent", "provider output malformed", "citation custody lost"]
+}

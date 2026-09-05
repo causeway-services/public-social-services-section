@@ -1,0 +1,22 @@
+{
+  "kind": "koios.duty",
+  "id": "learning-from-newsroom-outcomes",
+  "office": "editor-in-chief",
+  "purpose": "Turn durable newsroom outcomes into bounded replay, routing-review, observation, or standards-review proposals without allowing attention economics to manufacture editorial warrant.",
+  "contract": "koios-news/newsroom-learning-pulse/v1",
+  "inputs": [
+    "assignment and newsroom circuit settlements",
+    "independent editorial judgments",
+    "provider receipts and costs",
+    "publication, correction, attention, and revenue observations"
+  ],
+  "outputs": [
+    "digest-bound issue readings",
+    "typed next-move proposals in the research-lessons ledger"
+  ],
+  "mustNot": [
+    "publish or replay an issue",
+    "silently change a provider route or newsroom standard",
+    "treat clicks, revenue, or model availability as evidence for a claim"
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "kind": "koios.news.publication-issue-policy",
+  "version": 1,
+  "permittedBeats": [
+    "technology",
+    "economy",
+    "culture",
+    "politics",
+    "war",
+    "environment",
+    "degrowth",
+    "decolonization",
+    "sports"
+  ],
+  "maxIssuesPerPulse": 1,
+  "maxOpenAssignments": 4,
+  "minimumHoursBetweenNewIssues": 3,
+  "freshnessWindowDays": 14,
+  "selectionMode": "measured-demand-and-source",
+  "sourceRefreshAuthorized": true,
+  "triggerAuthorities": [
+    {
+      "actor": "https://bare-cedar-fog.561.group/actors/cold-red-gate-clockkeeper",
+      "capability": "urn:capability:koios-news:clockkeeper:cold-red-gate:publication-issue-pulse:v1"
+    }
+  ],
+  "sensitiveBeats": [
+    "war",
+    "politics"
+  ],
+  "law": [
+    "reader demand selects attention and never supplies factual warrant",
+    "among independently warranted candidates, product scarcity, audience demand, source depth, and near-duplicate saturation allocate the next issue; none supplies factual warrant",
+    "collapse awareness is an available editorial perspective and never a subject-admission filter",
+    "only a separately admitted trigger actor carrying its exact attenuated capability may pulse the publication",
+    "one admitted source must support the whole assignment lens",
+    "an open assignment is resumed before another issue is created",
+    "the controller forms at most one assignment and performs no drafting, editing, publishing, delivery, or model selection"
+  ]
+}

@@ -1,0 +1,96 @@
+:PROPERTIES:
+:ID:       75cc8a89-e386-4ded-809f-84553bb3b08c
+:END:
+#+title: Chronology of Teraum
+#+date: [2025-09-10 Wed 01:52]
+
+** Ancient Age
+
+Teraum's Ancient Age is the period between when the Worldkeep was installed and when the Worldkeep fragmented. Generally, its history focuses on what was happening inside the Worldkeep, as the facility started to encounter issues.
+
+- [[id:0102f8ae-2bdf-4d41-8c8e-40a264aa502c][54000bR]]
+  - [[id:cfde7034-2cff-4b30-9de6-6b577c862d55][Worldkeep]]
+    - "Powerful gods" plant the [[id:cfde7034-2cff-4b30-9de6-6b577c862d55][Worldkeep]] deep in [[id:7f527251-b5fc-4546-9fc7-8b6af33451e0][Teraum]], and raise the [[id:752b7876-6ade-491a-8e15-6bc6b9b0995c][Worldkeepers]] around them to protect it.
+** Mythic Age
+
+The Mythic Age is that period between when the Worldkeep fractured and when most of the strangest creatures died.
+
+
+- [[id:356a0f05-1ee2-4051-bc7c-e8f630a3f6f3][30000bR]]
+  - Worldkeep
+    - The Worldkeep fragments
+** Imperial Age
+*** Classical Era
+- [[id:98c2784c-d7e0-4ecb-8854-e5fcb6b47c51][3400bR]]
+  - [[id:b77267eb-3033-448a-87a5-f7726a781fd5][Farsteppes]]
+    - A band of humans discovered fermenting mares' milk. Over the next few centuries, they develop the skill and become known as the [[id:918a76a2-289f-4cc0-8d85-b4ab08e82a5a][Lazy Mare Tribe]]
+- [[id:d95dadfa-3d4f-4204-a3cd-fc0aebb61664][1200bR]]
+  - [[id:7ebae11b-9fe8-420c-9093-6d8f3af87cfe][Central Plains]]
+    - [[id:ecade0ff-5af2-41d1-9009-a97e4f1a0507][Dwarves]] moved into the Central Plains from the [[id:319e237d-4aba-4b2b-94d7-335764db0e62][Rollings]].
+  - [[id:c1b76d38-d7e8-494f-84d3-9916c04f48c8][Green Delta]]
+    - Humans construct a [[id:c1f8dde3-478a-4b02-a0de-20d0b6428a31][Chauntean monastery]]. (Marker 22 on the Bellybrush County map.)
+*** Early Imperial Era
+- [[id:cc708942-321e-4ef2-b184-9a0d89ad2a77][490bR]]
+  - [[id:7ebae11b-9fe8-420c-9093-6d8f3af87cfe][Central Plains]]
+    - Humans form the [[id:e9eca34c-d3fd-493f-9ef2-c13efac71ad0][Indenon Empire]] in the southwestern Central Plains.
+- [[id:4bc93c0f-bc9e-4da6-bf43-1adccf43a0de][480bR]]
+  - Central Plains
+    - Hill Dwarves and Indenon Empire go to war.
+- [[id:aa972947-5c53-4bdb-b161-3dda9de3a1a3][470bR]]
+  - Green Delta
+    - Humans for the Astar Empire in the northern half of the Green Delta.
+- [[id:69898f63-3420-496e-8294-66026b47a943][468bR]]
+  - Central Plains
+    - Astar Empire attacks Indenon Empire for territory
+- [[id:9821a7d4-e48e-443d-b994-6efa7ca30740][439bR]]
+  - Green Delta
+    - Rolense Empire forms in the southern half of the Green Delta.
+- [[id:8089991d-846a-461e-9a3e-0941aaea60de][432bR]]
+  - Green Delta
+    - Rolense Empire attacks the Astar Empire for control over the [[id:4e89c344-1db5-4b2e-9d92-f48a42956c37][Green River Delta]].
+** Magic Age
+*** Imperial Era
+- [[id:1916e54d-28ea-4f08-8e60-167efbddf517][422bR]]
+  - [[id:d83ee03c-64cd-44ea-bffd-b1997393e0ec][19th of Winter, 422bR]]
+    - [[id:7ebae11b-9fe8-420c-9093-6d8f3af87cfe][Central Plains]]
+      - [[id:7c60066e-fbf3-45f7-b12d-fe9576d183c3][Lorrestar]], a human wizard living in the Astar Empire, successfully sabotages the city of [[id:389784fa-658a-4705-a000-6f0546eca92c][Indenon]] by causing all metal to melt at the same time.
+	- This is one of the first major uses of magic since the Mythic Age.
+  - [[id:a13e23bb-8a68-4ed2-91a4-c0fab19ba825][Midsummer]]
+    - Lorrestar is granted Astarian nobility after successfully destroying Indenon and effectively crippling their Empire.
+- [[id:fa6a9016-7d12-4b72-9c0d-6959f4d431a8][414bR]]
+  - Central Plains
+    - Astar and Indenon make peace
+- [[id:91c7cc7a-f8f1-47e1-b634-790b7412dafb][412bR]]
+  - Green Delta
+    - Astar and Rolense make peace, with Rolense in control of the Green River Delta.
+- [[id:22aef382-f87f-418f-9372-c3c93dc98f2c][401bR]]
+  - Green Delta
+    - Lorrestar is rewarded by the Astar with land to the northeast of the Green River Delta.
+- [[id:3f495e56-922e-48fd-8583-0fb70c229c3f][368bR]]
+  - Central Plains
+    - Rolense is sacked by [[id:60b3ad9d-b472-4fcd-acf5-30641c90b86f][goblins]] from the [[id:d7d0f106-182e-4356-9e48-6e419e4acfe2][Widewoods]]
+- [[id:8cd80649-252b-465f-8b05-910e6bbe7c32][323bR]]
+  - The last of the dwarves move out of the Central Plains, back to the Worldkeepers.
+- [[id:62f81d89-5e52-4bd0-8d13-3b5e8c10f897][287bR]]
+  - Lorrestar builds [[id:83f198f3-eaab-4edb-8189-6ca906e31665][his estate]] in the Green Delta.
+- [[id:e5ba88ea-e9ef-4228-be31-f40ba4803577][250bR]]
+  - The city of [[id:5ccc63d5-eab8-48bf-aba4-038a5781a610][Ack]] begins to grow.
+    - Known for its smoked fish.
+    - Captains who retire from sailing would lean their decommissioend vessels against the walls surrounding the town.
+- [[id:6c25fb18-4273-428d-8700-700b89632f63][182bR]]
+  - Green Delta
+    - Lorrestar writes and publishes [[id:37e11c1f-4e27-4872-ac4c-277767f26588][A Series of Unfortunate Spells]]
+- [[id:ab5822da-a0e1-4730-ad41-fddefc086f58][160bR]]
+  - The [[id:9ccb6cfe-d0cf-426b-aefe-3268efe4e757][Red Ward]] is constructed in Ack, the first Ward on the north side of the River.
+    - From the red clay of the Green Delta.
+- [[id:52c7e65a-362b-4a55-a8c1-b7fd056657b7][72bR]]
+  - Humans discover the [[id:ce0071b4-89a6-4e92-87a2-e856efd7f33e][Eastland]], calling it the New World.
+- [[id:b7e116bd-bcc7-4d72-9077-525087ce435d][70bR]]
+  - Humans exploring the Eastlands encounter [[id:2534f1c7-41be-4c48-8863-bbfa01924883][halflings]]
+- [[id:4de685e3-6975-4278-afcf-6d6bde1aa9b3][69bR]]
+  - Humans exploring the Eastlands encounter [[id:a2adcc62-a16d-4323-8069-07207f782c52][Homo silvestris teraumensis]].
+*** Magical Revolution
+*** Rupture
+** Heroic Age
+** Healing Age
+** Hopeful Age

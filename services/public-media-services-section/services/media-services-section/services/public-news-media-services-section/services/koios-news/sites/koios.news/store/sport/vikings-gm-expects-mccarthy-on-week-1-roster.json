@@ -1,0 +1,69 @@
+{
+  "subject": "vikings-gm-expects-mccarthy-on-week-1-roster",
+  "claims": [
+    {
+      "id": "title",
+      "proposition": {
+        "predicate": "title",
+        "object": "Vikings GM expects McCarthy on Week 1 roster"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "sport",
+        "citation": "https://www.espn.com/nfl/story/_/id/49805381/vikings-gm-expects-mccarthy-week-1-roster-develop"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "url",
+      "proposition": {
+        "predicate": "url",
+        "object": "https://www.espn.com/nfl/story/_/id/49805381/vikings-gm-expects-mccarthy-week-1-roster-develop"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "sport",
+        "citation": "https://www.espn.com/nfl/story/_/id/49805381/vikings-gm-expects-mccarthy-week-1-roster-develop"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "summary",
+      "proposition": {
+        "predicate": "summary",
+        "object": "Vikings general manager Nolan Teasley said Wednesday he expects quarterback J.J. McCarthy to be a part of the team when the regular season begins."
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "sport",
+        "citation": "https://www.espn.com/nfl/story/_/id/49805381/vikings-gm-expects-mccarthy-week-1-roster-develop"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "published",
+      "proposition": {
+        "predicate": "published",
+        "object": "Wed, 2 Sep 2026 18:21:05 EST"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "sport",
+        "citation": "https://www.espn.com/nfl/story/_/id/49805381/vikings-gm-expects-mccarthy-week-1-roster-develop"
+      },
+      "status": "supported"
+    }
+  ]
+}

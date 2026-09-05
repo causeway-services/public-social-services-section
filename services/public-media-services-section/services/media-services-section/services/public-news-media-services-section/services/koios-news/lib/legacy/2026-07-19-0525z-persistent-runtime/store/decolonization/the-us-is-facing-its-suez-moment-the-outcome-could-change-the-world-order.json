@@ -1,0 +1,69 @@
+{
+  "subject": "the-us-is-facing-its-suez-moment-the-outcome-could-change-the-world-order",
+  "claims": [
+    {
+      "id": "title",
+      "proposition": {
+        "predicate": "title",
+        "object": "The US is facing its Suez moment – the outcome could change the world order"
+      },
+      "time": {
+        "asserted": "2026-07-19T02:20:00.056Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "decolonization",
+        "citation": "https://www.opendemocracy.net/en/iran-war-united-states-israel-suez-crisis-donald-trump-change-world-order/"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "url",
+      "proposition": {
+        "predicate": "url",
+        "object": "https://www.opendemocracy.net/en/iran-war-united-states-israel-suez-crisis-donald-trump-change-world-order/"
+      },
+      "time": {
+        "asserted": "2026-07-19T02:20:00.056Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "decolonization",
+        "citation": "https://www.opendemocracy.net/en/iran-war-united-states-israel-suez-crisis-donald-trump-change-world-order/"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "summary",
+      "proposition": {
+        "predicate": "summary",
+        "object": "It is now clear that the war against Iran is going badly for Donald Trump. Binyamin Netanyahu and the Israeli Defence Forces (IDF) may be determined to carry on, but Trump is the war leader in deep trouble. So radical is this unexpected outcome that the United States may even be facing its Suez moment, like the one that saw France and the UK lose status in 1956, hastening decolonisation in the 1960s. If so, the effects of the Iran conflict could last for decades, well beyond the immediate conflict, and have impacts that change the current world order – with unpredictable consequences. Consider the past month and a half. Iran’s theocratic leadership had been crippled by assassinations within days of the start of the assault, but leaders were quickly replaced, and the much-anticipated popular uprising simply did not happen."
+      },
+      "time": {
+        "asserted": "2026-07-19T02:20:00.056Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "decolonization",
+        "citation": "https://www.opendemocracy.net/en/iran-war-united-states-israel-suez-crisis-donald-trump-change-world-order/"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "published",
+      "proposition": {
+        "predicate": "published",
+        "object": "Fri, 17 Apr 2026 14:11:38 GMT"
+      },
+      "time": {
+        "asserted": "2026-07-19T02:20:00.056Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "decolonization",
+        "citation": "https://www.opendemocracy.net/en/iran-war-united-states-israel-suez-crisis-donald-trump-change-world-order/"
+      },
+      "status": "supported"
+    }
+  ]
+}

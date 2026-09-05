@@ -1,0 +1,69 @@
+{
+  "subject": "spain-win-world-cup-after-ferran-torres-breaks-10-man-argentina-s-resistance",
+  "claims": [
+    {
+      "id": "title",
+      "proposition": {
+        "predicate": "title",
+        "object": "Spain win World Cup after Ferran Torres breaks 10-man Argentina’s resistance"
+      },
+      "time": {
+        "asserted": "2026-07-19T23:18:26.490Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "sports",
+        "citation": "https://www.theguardian.com/football/2026/jul/19/spain-win-world-cup-argentina-final-match-report"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "url",
+      "proposition": {
+        "predicate": "url",
+        "object": "https://www.theguardian.com/football/2026/jul/19/spain-win-world-cup-argentina-final-match-report"
+      },
+      "time": {
+        "asserted": "2026-07-19T23:18:26.490Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "sports",
+        "citation": "https://www.theguardian.com/football/2026/jul/19/spain-win-world-cup-argentina-final-match-report"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "summary",
+      "proposition": {
+        "predicate": "summary",
+        "object": "<p>It was the triumph of an idea, an identity. Of an unshakable and patient faith in it. And when it was over, Spain’s new generation having emulated the one from the 2010 World Cup, all of those legendary names, there was simply delirium for them.</p><p>Spain were the only team that turned up to play this World Cup final, Argentina damned by their lack of ambition – even before they had Enzo Fernández sent off towards the end of the regulation time. It was utterly extraordinary that the defending champions barely mustered an attempt on goal.</p> <a href=\"https://www.theguardian.com/football/2026/jul/19/spain-win-world-cup-argentina-final-match-report\">Continue reading...</a>"
+      },
+      "time": {
+        "asserted": "2026-07-19T23:18:26.490Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "sports",
+        "citation": "https://www.theguardian.com/football/2026/jul/19/spain-win-world-cup-argentina-final-match-report"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "published",
+      "proposition": {
+        "predicate": "published",
+        "object": "Sun, 19 Jul 2026 22:17:53 GMT"
+      },
+      "time": {
+        "asserted": "2026-07-19T23:18:26.490Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "sports",
+        "citation": "https://www.theguardian.com/football/2026/jul/19/spain-win-world-cup-argentina-final-match-report"
+      },
+      "status": "supported"
+    }
+  ]
+}

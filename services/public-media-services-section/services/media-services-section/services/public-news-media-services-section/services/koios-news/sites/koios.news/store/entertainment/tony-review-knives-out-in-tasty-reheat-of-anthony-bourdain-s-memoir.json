@@ -1,0 +1,69 @@
+{
+  "subject": "tony-review-knives-out-in-tasty-reheat-of-anthony-bourdain-s-memoir",
+  "claims": [
+    {
+      "id": "title",
+      "proposition": {
+        "predicate": "title",
+        "object": "Tony review – knives out in tasty reheat of Anthony Bourdain’s memoir"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "entertainment",
+        "citation": "https://www.theguardian.com/film/2026/jul/29/tony-review-anthony-bourdain-bestselling-memoir-dominic-sessa-antonio-banderas"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "url",
+      "proposition": {
+        "predicate": "url",
+        "object": "https://www.theguardian.com/film/2026/jul/29/tony-review-anthony-bourdain-bestselling-memoir-dominic-sessa-antonio-banderas"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "entertainment",
+        "citation": "https://www.theguardian.com/film/2026/jul/29/tony-review-anthony-bourdain-bestselling-memoir-dominic-sessa-antonio-banderas"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "summary",
+      "proposition": {
+        "predicate": "summary",
+        "object": "<p>Dominic Sessa stars as a conceited yet vulnerable young chef alongside Antonio Banderas – but the feelgood factor is compromised by what we know of the author</p><p>For all the drugs and punch-ups, this is an unexpectedly sentimental coming-of-age story – or maybe origin myth – about the formative youthful kitchen experiences of legendary badass chef Anthony Bourdain. It is taken from the opening chapters in his bestselling memoir Kitchen Confidential; Canadian film-maker Matt Johnson directs and Dominic Sessa (the callow kid from Alexander Payne’s The Holdovers) plays the conceited, smug yet lonely and vulnerable young college student Tony. “Anthony” is in the future.</p><p>It is the mid-1970s and Tony effectively runs away from home after failing to get a residential summer writing scholarship that he had assured everyone was in the bag. He shows up nearly penniless in the seaside vacation resort of Provincetown, Massachusetts – a place that is pretty similar to Amity Island in Jaws, which is showing at every drive-in. The reason is that he has a desperate crush on Nancy (Emilia Jones) who is there for the summer too and whom he desperately wants to impress with his smouldering intellectualism.</p> <a href=\"https://www.theguardian.com/film/2026/jul/29/tony-review-anthony-bourdain-bestselling-memoir-dominic-sessa-antonio-banderas\">Continue reading...</a>"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "entertainment",
+        "citation": "https://www.theguardian.com/film/2026/jul/29/tony-review-anthony-bourdain-bestselling-memoir-dominic-sessa-antonio-banderas"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "published",
+      "proposition": {
+        "predicate": "published",
+        "object": "Wed, 29 Jul 2026 16:00:36 GMT"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "entertainment",
+        "citation": "https://www.theguardian.com/film/2026/jul/29/tony-review-anthony-bourdain-bestselling-memoir-dominic-sessa-antonio-banderas"
+      },
+      "status": "supported"
+    }
+  ]
+}

@@ -1,0 +1,69 @@
+{
+  "subject": "ontario-premier-unveils-lake-ontario-sign-in-response-to-trump-s-lake-america-order-video",
+  "claims": [
+    {
+      "id": "title",
+      "proposition": {
+        "predicate": "title",
+        "object": "Ontario premier unveils Lake Ontario sign in response to Trump’s ‘Lake America’ order – video"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "us-politics",
+        "citation": "https://www.theguardian.com/world/video/2026/aug/30/doug-ford-lake-ontario-sign-trump-lake-america-video"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "url",
+      "proposition": {
+        "predicate": "url",
+        "object": "https://www.theguardian.com/world/video/2026/aug/30/doug-ford-lake-ontario-sign-trump-lake-america-video"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "us-politics",
+        "citation": "https://www.theguardian.com/world/video/2026/aug/30/doug-ford-lake-ontario-sign-trump-lake-america-video"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "summary",
+      "proposition": {
+        "predicate": "summary",
+        "object": "<p>The Canadian province's premier, Doug Ford, installed a billboard-sized sign on the lake's shoreline after the US president signed an executive order on Thursday directing US federal agencies to change the lake's name on US maps, documents and databases to 'Lake America'. Ford told reporters that the lake's name, which is more than 400 years old, would remain unchanged. Trade talks between the US and Canada collapsed last week, with each side ‌blaming the ⁠other for derailing three days of intensive negotiations</p><p></p><ul><li><p><a href=\"https://www.theguardian.com/us-news/2026/aug/27/trump-renames-lake-ontario-america\">Trump signs executive order to rename Lake Ontario as Lake America</a></p></li></ul> <a href=\"https://www.theguardian.com/world/video/2026/aug/30/doug-ford-lake-ontario-sign-trump-lake-america-video\">Continue reading...</a>"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "us-politics",
+        "citation": "https://www.theguardian.com/world/video/2026/aug/30/doug-ford-lake-ontario-sign-trump-lake-america-video"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "published",
+      "proposition": {
+        "predicate": "published",
+        "object": "Sun, 30 Aug 2026 12:07:30 GMT"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "us-politics",
+        "citation": "https://www.theguardian.com/world/video/2026/aug/30/doug-ford-lake-ontario-sign-trump-lake-america-video"
+      },
+      "status": "supported"
+    }
+  ]
+}

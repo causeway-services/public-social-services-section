@@ -1,0 +1,69 @@
+{
+  "subject": "aws-duckdb-will-provide-connective-tissue-across-the-data-estate",
+  "claims": [
+    {
+      "id": "title",
+      "proposition": {
+        "predicate": "title",
+        "object": "AWS: DuckDB will provide 'connective tissue' across the data estate"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "technology",
+        "citation": "https://www.theregister.com/databases/2026/09/01/aws-duckdb-will-provide-connective-tissue-across-the-data-estate/5293304"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "url",
+      "proposition": {
+        "predicate": "url",
+        "object": "https://www.theregister.com/databases/2026/09/01/aws-duckdb-will-provide-connective-tissue-across-the-data-estate/5293304"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "technology",
+        "citation": "https://www.theregister.com/databases/2026/09/01/aws-duckdb-will-provide-connective-tissue-across-the-data-estate/5293304"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "summary",
+      "proposition": {
+        "predicate": "summary",
+        "object": "Last week, AWS bought DuckLabs, the people behind the open source OLAP system DuckDB. Since the cloud giant already owns a data warehouse – in Redshift – and it doesn’t get the DuckDB intellectual property (it remains open source), then why would it bother? Andy Warfield, AWS VP and Distinguished Engineer, argued the acquisition is a major plank of AWS’s thinking when it considers the future of application building, data, and analytics. “Half of why DuckDB is perceived as being valuable is as this kind of connective tissue layer across existing data processing tools,” he told The Register. Written in C++, DuckDB is embedded within a host process. There is no DBMS server software to install, update, or maintain. It runs in the host application's memory space with queries executing directly within the process. As such, developers can build analytics inside their applications, but Warfield said the design means developers and data engineers have new ways of connecting data sources and processing engines. For example, DuckDB employs verbs in SQL such as \"attach\" and \"connect\" that allow it to work with almost any remote SQL endpoint. Warfield said DuckDB is already capable of connecting to Redshift or RDS, issuing SQL commands, and performing cross-engine interactions. “In a lot of senses, we can treat it as [being] like an SDK for data that customers can build with, and they can run the large proportion of their queries that are small, and work over smaller data sets locally without having to stand up an external engine. Yet, as they graduate to work with larger datasets, or need centralized query capabilities, they can still use DuckDB as a way of passing those queries on to those other engines,” he said. The concept applies to analytics and data systems from other vendors — such as Google’s BigQuery and Microsoft’s Fabric — as much as AWS’s own products. “You can build with Duck, and it provides the path to graduate and to submit inquiries against something else, like a singular interface for data,” he said. AWS acquired DuckLabs, the support and development company founded by DuckDB developers Hannes Mühleisen and Mark Raasveldt, both academics at Amsterdam's Centrum Wiskunde & Informatica mathematical and theoretical computing research center. The database itself will remain open source under the MIT License. Led by Mühleisen and Raasveldt, the DuckDB Foundation will remain an independent non-profit organization setting the strategic direction of database development. The governance of that Foundation is expected to change to include a broader spectrum of contributors as a result of the AWS acquisition of DuckLabs. Andy Pavlo, VP of Research at ClickHouse Labs and professor of Databaseology at Carnegie Mellon University, said the AWS acquisition of DuckLabs would be a positive change for DuckDB. “Hannes and Mark did it their way from the very beginning. They eschewed VC money in 2020 and just focused on building a database system that solved real problems for people. I don't see them changing the long-term direction of the open source project.” The benefit of AWS money would come in providing funding to bring new ideas to reality. “The cost of DBMS development has increased greatly in the last few years. It's not just the cost of humans working on the software, but also the agents that run tests, write code, review pull requests, and handle other system administrative tasks. Since agents are writing code faster than humans, that means more CI/CD infrastructure costs. Amazon will provide DuckDB resources to keep pace with modern DBMS development practices and scale their efforts.” But AWS is not the only company betting on the founding principles of DuckDB. Former Google BigQuery engineer Jordan Tigani co-founded MotherDuck, which sells a cloud service built on the database, and is a regular contributor to the DuckDB project. In 2023, it gobbled up $52 million in VC money. “Of course I'm nervous about the acquisition. Anyone with a stake in the DuckDB ecosystem is going to be nervous when a hyperscaler comes in and acquires the team behind the technology,” Tigani told The Register. But he added that there would also be positive outcomes for people who care about DuckDB because the resources behind its development would increase. “Open Source DuckDB is likely going to go faster. Yes, for that to happen you'd have to believe that Amazon isn't going to meddle too much and break things, but I have a lot of faith in Hannes and Mark.” In terms of the tech build around DuckDB, MotherDuck has a four-year head-start, he said. “We have built an amazing product that goes beyond just cloud-hosted DuckDB. We have developed expertise running DuckDB at scale and as critical infrastructure.” If DuckDB remains true to its open-source principles, others can do the same. ®"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "technology",
+        "citation": "https://www.theregister.com/databases/2026/09/01/aws-duckdb-will-provide-connective-tissue-across-the-data-estate/5293304"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "published",
+      "proposition": {
+        "predicate": "published",
+        "object": "Tue, 01 Sep 2026 12:00:00 +0200"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "technology",
+        "citation": "https://www.theregister.com/databases/2026/09/01/aws-duckdb-will-provide-connective-tissue-across-the-data-estate/5293304"
+      },
+      "status": "supported"
+    }
+  ]
+}

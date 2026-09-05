@@ -1,0 +1,69 @@
+{
+  "subject": "guyana-ferry-with-116-people-on-board-capsizes-more-than-50-rescued",
+  "claims": [
+    {
+      "id": "title",
+      "proposition": {
+        "predicate": "title",
+        "object": "Guyana ferry with 116 people on board capsizes; more than 50 rescued"
+      },
+      "time": {
+        "asserted": "2026-07-19T14:41:50.560Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "politics",
+        "citation": "https://www.aljazeera.com/news/2026/7/19/guyana-ferry-with-116-people-aboard-capsizes?traffic_source=rss"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "url",
+      "proposition": {
+        "predicate": "url",
+        "object": "https://www.aljazeera.com/news/2026/7/19/guyana-ferry-with-116-people-aboard-capsizes?traffic_source=rss"
+      },
+      "time": {
+        "asserted": "2026-07-19T14:41:50.560Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "politics",
+        "citation": "https://www.aljazeera.com/news/2026/7/19/guyana-ferry-with-116-people-aboard-capsizes?traffic_source=rss"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "summary",
+      "proposition": {
+        "predicate": "summary",
+        "object": "Rescue operations for remaining passengers and crew ongoing, authorities say."
+      },
+      "time": {
+        "asserted": "2026-07-19T14:41:50.560Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "politics",
+        "citation": "https://www.aljazeera.com/news/2026/7/19/guyana-ferry-with-116-people-aboard-capsizes?traffic_source=rss"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "published",
+      "proposition": {
+        "predicate": "published",
+        "object": "Sun, 19 Jul 2026 11:18:17 +0000"
+      },
+      "time": {
+        "asserted": "2026-07-19T14:41:50.560Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "politics",
+        "citation": "https://www.aljazeera.com/news/2026/7/19/guyana-ferry-with-116-people-aboard-capsizes?traffic_source=rss"
+      },
+      "status": "supported"
+    }
+  ]
+}

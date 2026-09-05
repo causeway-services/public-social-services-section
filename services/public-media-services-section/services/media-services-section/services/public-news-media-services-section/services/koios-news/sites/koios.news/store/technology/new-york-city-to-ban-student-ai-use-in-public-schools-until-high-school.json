@@ -1,0 +1,69 @@
+{
+  "subject": "new-york-city-to-ban-student-ai-use-in-public-schools-until-high-school",
+  "claims": [
+    {
+      "id": "title",
+      "proposition": {
+        "predicate": "title",
+        "object": "New York City to ban student AI use in public schools until high school"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "technology",
+        "citation": "https://www.theguardian.com/technology/2026/sep/02/new-york-city-school-ai-ban"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "url",
+      "proposition": {
+        "predicate": "url",
+        "object": "https://www.theguardian.com/technology/2026/sep/02/new-york-city-school-ai-ban"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "technology",
+        "citation": "https://www.theguardian.com/technology/2026/sep/02/new-york-city-school-ai-ban"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "summary",
+      "proposition": {
+        "predicate": "summary",
+        "object": "<p>Teachers and parents have warned against AI use in schools over concerns of ‘cognitive surrender’</p><p><a href=\"https://www.theguardian.com/us-news/new-york\">New York</a> City will ban students’ use of <a href=\"https://www.theguardian.com/technology/artificialintelligenceai\">artificial intelligence</a> in public schools through eighth grade, typically age 13 or 14. The prohibition is scheduled to be announced on Wednesday and will go into effect next week.</p><p>The change is part of a sweeping overhaul of the use of technology in the US’s largest school district, which enrolls roughly 900,000 students a year. In another policy shift, classrooms will keep students off laptops or tablets through the third grade, age nine or 10. The city’s public school technology policies are closely watched by the rest of the United States.</p> <a href=\"https://www.theguardian.com/technology/2026/sep/02/new-york-city-school-ai-ban\">Continue reading...</a>"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "technology",
+        "citation": "https://www.theguardian.com/technology/2026/sep/02/new-york-city-school-ai-ban"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "published",
+      "proposition": {
+        "predicate": "published",
+        "object": "Wed, 02 Sep 2026 15:22:20 GMT"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "technology",
+        "citation": "https://www.theguardian.com/technology/2026/sep/02/new-york-city-school-ai-ban"
+      },
+      "status": "supported"
+    }
+  ]
+}

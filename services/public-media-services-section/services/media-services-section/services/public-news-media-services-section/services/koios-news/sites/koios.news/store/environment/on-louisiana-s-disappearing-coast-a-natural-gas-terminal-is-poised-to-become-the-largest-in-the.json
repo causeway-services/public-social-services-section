@@ -1,0 +1,69 @@
+{
+  "subject": "on-louisiana-s-disappearing-coast-a-natural-gas-terminal-is-poised-to-become-the-largest-in-the",
+  "claims": [
+    {
+      "id": "title",
+      "proposition": {
+        "predicate": "title",
+        "object": "On Louisiana’s disappearing coast, a natural gas terminal is poised to become the largest in the US"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "environment",
+        "citation": "https://grist.org/energy/trump-energy-emergency-plaquemines-lng-export-louisiana/"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "url",
+      "proposition": {
+        "predicate": "url",
+        "object": "https://grist.org/energy/trump-energy-emergency-plaquemines-lng-export-louisiana/"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "environment",
+        "citation": "https://grist.org/energy/trump-energy-emergency-plaquemines-lng-export-louisiana/"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "summary",
+      "proposition": {
+        "predicate": "summary",
+        "object": "Less than two years after opening, a liquefied natural gas terminal near New Orleans is seeking a multibillion-dollar expansion under the Trump administration’s new “emergency” permitting process that cuts regulatory review and could put nearby wetlands and waterways at greater risk. Earlier this summer, the U.S. Army Corps of Engineers granted Plaquemines LNG fast-tracked permitting under a “ national energy emergency ” that President Donald Trump declared last year. The agency cut the public comment period from the typical 30 days to 10, and is expected to move quickly to approve the expansion, a step that would allow the terminal to more than double in size, growing from nearly 590 acres along the Mississippi River to about 1,220. That would make the facility the largest LNG export terminal in North America , according to its owner, Virginia-based Venture Global. Environmentalists warn that the expedited review will mean less scrutiny of dredging, in-water construction, and the filling of marshlands in a region rapidly losing land. By the Army Corps’ estimates, Venture Global’s $18-billion expansion could damage up to 470 acres of wetlands and river bottoms in central Plaquemines Parish, about 25 miles south of New Orleans. “Louisiana is already dealing with a coastal crisis,” said Matt Rota, a senior policy director with Healthy Gulf, a New Orleans-based environmental group. “Destroying 400 more acres in Plaquemines Parish is ridiculous. I don’t know how many acres they have left, but it’s not that much.” The Plaquemines LNG terminal in Port Sulphur on July 28. Christiana Botic / Verite News Plaquemines Parish has lost more than 250 square miles of land over the past 60 years to subsidence , sea level rise, and erosion. The state’s Coastal Protection and Restoration Authority projects another 300 square miles — about half the parish’s remaining land — could disappear over the next 50 years . Much of Louisiana’s coast faces a similar threat. Since the early 1900s, nearly 2,000 square miles of the state have vanished, an area roughly the size of Delaware. Hundreds of other projects could receive expedited permitting under the emergency declaration, which Trump said was necessary to maintain a “reliable, diversified, and affordable supply of energy” for the U.S. military and economy. Last year, the Army Corps identified more than 600 pipelines, power plants, LNG terminals, and others that could speed through the normal review process required by the Clean Water Act. Fast-tracking permits will likely accelerate the growth of an already booming LNG industry . More than 30 LNG export terminals are under construction or proposed in the United States. Plaquemines LNG is the newest of four terminals in Louisiana, including Sabine Pass, Cameron LNG, and Calcasieu Pass LNG, which is also owned by Venture Global. (The Army Corps and Venture Global did not respond to requests for comment.) LNG is natural gas chilled into a liquid for easier shipment overseas, where demand has surged as countries seek alternatives to coal and Russian gas. The industry’s critics say shipping natural gas abroad conflicts with Trump’s stated rationale for declaring an energy emergency: increasing what he described as the “nation’s inadequate energy supply.” “It’s hard to see how expanding an LNG export terminal is going to help domestic energy independence and reliability,” said Griffin Bird, a research analyst with the Environmental Integrity Project.&nbsp; Of the 833 billion cubic feet of gas exported from Plaquemines LNG last year, most went to Europe, with Germany receiving the largest share, at 19 percent, according to the U.S. Energy Information Administration. The terminal is one of Louisiana’s largest industrial facilities, with 1.3 miles of river frontage, three ship berths, two gas-fired power plants, and nearly 30 miles of natural gas pipeline.&nbsp; It’s also one of the state’s biggest polluters. Plaquemines LNG is permitted to release about 8.1 million tons of carbon dioxide and other greenhouse gases per year, according to company records. That’s equivalent to the annual greenhouse gas emissions of 1.7 million gas-powered vehicles . The only industrial facility in Louisiana that emits more than Plaquemines LNG is an ammonia plant owned by CF Industries that released about 10.4 million tons of greenhouse gases in 2023, the latest year available in the Environmental Protection Agency’s greenhouse gas emissions inventory . Those emissions, along with the carbon dioxide released when natural gas is burned for energy overseas, contribute to climate change, which is accelerating sea level rise and intensifying the storms that drive land loss in Plaquemines. “Burning more natural gas means we lose Plaquemines Parish even faster,” Rota said.&nbsp; The terminal’s expansion would increase its production capacity from about 1.4 trillion cubic feet of gas per year to around 2.3 trillion. It’s unclear how the expansion will affect emissions, but federal filings indicate the larger facility could produce at least 9 million tons of greenhouse gases per year. Venture says it plans to use carbon capture and sequestration technology to inject a portion of the terminal’s carbon dioxide emissions underground.&nbsp; Venture Global’s Plaquemines LNG export in 2024, in Port Sulphur, Louisiana. Ricky Carioti / The Washington Post via Getty Images Some Louisiana leaders welcome the expansion, saying it will spur economic activity and create jobs.&nbsp; In April, U.S. House Majority Leader Steve Scalise, a Republican from Jefferson Parish, celebrated the rapid development of the Plaquemines site. “This was a cow pasture four or five years ago,” he told reporters during a tour of the facility and the area planned for expansion. “Now it’s the most modern, the most efficient, the largest LNG export facility in the world.” toolTips('.classtoolTips3','Carbon dioxide, methane, nitrous oxide, and other gases that prevent heat from escaping Earth’s atmosphere. Together, they act as a blanket to keep the planet at a liveable temperature in what is known as the “greenhouse effect.” Too many of these gases, however, can cause excessive warming, disrupting fragile climates and ecosystems.'); This story was originally published by Grist with the headline On Louisiana’s disappearing coast, a natural gas terminal is poised to become the largest in the US on Aug 27, 2026."
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "environment",
+        "citation": "https://grist.org/energy/trump-energy-emergency-plaquemines-lng-export-louisiana/"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "published",
+      "proposition": {
+        "predicate": "published",
+        "object": "Thu, 27 Aug 2026 08:30:00 +0000"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "environment",
+        "citation": "https://grist.org/energy/trump-energy-emergency-plaquemines-lng-export-louisiana/"
+      },
+      "status": "supported"
+    }
+  ]
+}

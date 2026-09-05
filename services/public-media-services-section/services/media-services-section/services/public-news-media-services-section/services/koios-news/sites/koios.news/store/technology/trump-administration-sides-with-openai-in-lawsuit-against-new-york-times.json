@@ -1,0 +1,69 @@
+{
+  "subject": "trump-administration-sides-with-openai-in-lawsuit-against-new-york-times",
+  "claims": [
+    {
+      "id": "title",
+      "proposition": {
+        "predicate": "title",
+        "object": "Trump administration sides with OpenAI in lawsuit against New York Times"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "technology",
+        "citation": "https://www.theguardian.com/technology/2026/sep/02/trump-new-york-times-lawsuit-ai"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "url",
+      "proposition": {
+        "predicate": "url",
+        "object": "https://www.theguardian.com/technology/2026/sep/02/trump-new-york-times-lawsuit-ai"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "technology",
+        "citation": "https://www.theguardian.com/technology/2026/sep/02/trump-new-york-times-lawsuit-ai"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "summary",
+      "proposition": {
+        "predicate": "summary",
+        "object": "<p>The Times and many companies are accusing OpenAI of misusing their material to train AI systems without compensation</p><p>The Trump administration is supporting OpenAI in ⁠a lawsuit against the New York Times, arguing in favor of the use of copyrighted writing to train artificial intelligence.</p><p>The Times accuses OpenAI and its largest financial backer, Microsoft, of using millions of newspaper articles without permission to train OpenAI’s popular chatbot. Other newspapers have joined in the suit, first filed in 2023.</p> <a href=\"https://www.theguardian.com/technology/2026/sep/02/trump-new-york-times-lawsuit-ai\">Continue reading...</a>"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "technology",
+        "citation": "https://www.theguardian.com/technology/2026/sep/02/trump-new-york-times-lawsuit-ai"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "published",
+      "proposition": {
+        "predicate": "published",
+        "object": "Wed, 02 Sep 2026 20:39:54 GMT"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "technology",
+        "citation": "https://www.theguardian.com/technology/2026/sep/02/trump-new-york-times-lawsuit-ai"
+      },
+      "status": "supported"
+    }
+  ]
+}

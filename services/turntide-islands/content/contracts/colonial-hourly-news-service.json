@@ -1,0 +1,17 @@
+{
+  "type": "ServiceContract",
+  "version": 2,
+  "id": "turntide-islands-rich-colonial-hourly-news-v2",
+  "customer": "urn:ame:turntide-islands",
+  "provider": "urn:ame:executive-office:colonial-news-service",
+  "product": "one digest-bound destination-neutral CivicMultimediaNewsCommission per completed hour, carrying TTI's complete colony report, source claims, presentation law, audio prompt, audience, and commercial status",
+  "source": "the exact urn:ame:turntide-islands ColonyCivicIntervalReport supplied by TTI's own Colony Report Team and admitted by the Union Report Team",
+  "audience": "all users who can view Turntide Islands",
+  "destinationClass": "TTI Governance/colonial-news-service",
+  "period": "PT1H",
+  "publicationAuthority": "Turntide Islands local Discord boundary executor only",
+  "providerLaw": "org.emsenn.rich-hourly-colonial-news.v2",
+  "artifactProviders": ["urn:ame:deterministic-report-graphic-service", "urn:ame:notebooklm-inference-team"],
+  "commercialStatus": "price unpriced; payment absent; profit unproven until external revenue and attributable cost receipts settle",
+  "externalSpendCeiling": 0
+}

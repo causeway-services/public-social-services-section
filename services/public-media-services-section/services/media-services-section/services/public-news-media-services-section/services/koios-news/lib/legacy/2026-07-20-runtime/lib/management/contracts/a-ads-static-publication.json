@@ -1,0 +1,42 @@
+{
+  "kind": "koios.advertising-service-contract",
+  "id": "a-ads-static-publication/v1",
+  "customer": "urn:ame:koios-news",
+  "provider": "a-ads",
+  "service": "third-party advertising frames on the production-shaped static publication",
+  "status": "provisional-operational-carrier; provider offer usage receipt revenue settlement and account authority not yet imported",
+  "units": ["2381631", "2382509", "2382510", "2382512"],
+  "placements": ["masthead", "home-lead", "article-banner", "footer"],
+  "surfaces": "Public cutover-candidate HTML, including editorial institutional index archive and correction surfaces; never the noindex shadow profile.",
+  "requestBoundary": {
+    "carrier": "sandbox-free lazy iframe",
+    "origin": "https://acceptable.a-ads.com",
+    "publicationSends": ["the browser request inherent in loading the configured iframe URL"],
+    "publicationDoesNotSend": ["a Koios reader identifier", "a first-party view record", "an IP address copied by Koios", "a user profile"],
+    "providerObservation": "The third-party origin may observe ordinary network request metadata; the public privacy surface must not imply otherwise."
+  },
+  "sellerDeclaration": {
+    "adsTxt": "absent",
+    "reason": "The currently imported A-Ads provider parameterization supplies no authorized seller line. /ads.txt remains absent until provider-authored evidence authorizes exact bytes."
+  },
+  "deterministicEnforcement": [
+    "The shadow exporter rejects every A-Ads carrier and provider CSP permission.",
+    "The cutover-candidate exporter requires the exact configured units A-Ads carriers matching privacy disclosure and frame-src https://acceptable.a-ads.com.",
+    "Profile comparison rejects any non-advertising HTML difference outside the privacy surface.",
+    "Provider performance revenue and cost are recorded separately from editorial warrant."
+  ],
+  "refusals": [
+    "unit or placement outside this contract",
+    "A-Ads carrier on the shadow profile",
+    "missing third-party privacy disclosure",
+    "missing or widened CSP without an accepted act",
+    "invented ads.txt line",
+    "unattributed impression revenue or payout claim"
+  ],
+  "unsettledDemands": [
+    "import or solicit provider account and offer evidence",
+    "contract aggregate performance reporting and append-only receipts",
+    "bind revenue settlements to exact provider receipts",
+    "review whether institutional surfaces should retain advertising after observed performance and reader-impact evidence"
+  ]
+}

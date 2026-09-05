@@ -1,0 +1,100 @@
+{
+  "type": "TTIUnionMediaBoundaryServiceSolicitation",
+  "version": 3,
+  "id": "tti-union-media-activitypub-and-hosting-solicitation-2026-01",
+  "status": "open-three-composable-service-lots-union-provider-survey-complete-no-provider-selected",
+  "customer": "urn:ame:turntide-islands",
+  "productId": "tti-union-media-syndication-2026-01",
+  "placementIngressContract": "ni:///sha-256;lA86YpfReCyssDxcPqC0ooB-OscHHYoPe13BWmHB8jQ",
+  "lots": [
+    {
+      "id": "custody-clean-activitypub-carrier",
+      "kind": "public-protocol-provider-service",
+      "requestedOutcome": "Provide TTI a separately hireable ActivityPub/ActivityStreams carrier that verifies signatures or integrity proofs and exact RFC6920-named canonical RMN links before invoking TTI's customer callback.",
+      "acceptance": [
+        "Installable or remotely invocable without copying any provider keystore, bearer token, account binding, state database, deployment plate, or other custody material into TTI",
+        "Exact actor, recipient, A2A Agent Card, content digest, protocol idempotency, bounded body, and failure behavior are independently testable",
+        "One signed sender-to-TTI local transport probe reaches the TTI customer callback; an unsigned delivery cannot",
+        "Provider never authors, admits, records, or mutates TTI's placement request",
+        "Dependency audit has no unresolved high or critical finding and every admitted moderate finding has a bounded applicability decision"
+        ,"Provider's declared runtime dependencies resolve from its own settlement and a fresh customer-scoped process starts without relying on an already-running stale process image"
+      ],
+      "refusedCandidate": {
+        "provider": "urn:ame:activitypub-services-section",
+        "carrier": "packed npm file dependency",
+        "reason": "package payload included data/evm/keystores/eip155-31337.json and displaced EVM binding material",
+        "custodyBytesInspected": false,
+        "dependencyRemoved": true,
+        "refusalReceipt": "ni:///sha-256;2i1JAQccPqNwssJMV1TukNVXCDa0Cru5IrMVj9b-exQ",
+        "integrationAccepted": false
+      },
+      "customerExecutionAssay": {
+        "proposedContract": "ni:///sha-256;k_66Y6JQnjloMBqfm-RfGfP17iLeetzdaQ8OaUNQgYA",
+        "candidateProvider": "urn:ame:activitypub-services-section",
+        "status": "refused-provider-runtime-unavailable",
+        "reason": "A fresh customer-owned loopback assay could not load the provider's declared Hono runtime dependency from the provider settlement; the already-running Koios process is not a restartability or TTI service-acceptance proof.",
+        "foreignPlateMutated": false,
+        "providerCustodyBytesInspected": false,
+        "receipt": "ni:///sha-256;x9apMODi54K1yIjNYlEt29pekihlSMDjmC7iiV0hp_4",
+        "integrationAccepted": false
+      }
+    },
+    {
+      "id": "tti-signed-agent-card-and-public-jwks",
+      "kind": "public-identity-signing-service",
+      "requestedOutcome": "Provision and operate TTI's signed A2A Agent Card and public JWKS for the Union Media actor without disclosing private signing material to the ActivityPub carrier, origin host, Discord runtime, advertisers, or TTI operators.",
+      "acceptance": [
+        "Provider authors and accepts an explicit signing-service border contract naming key generation, custody, rotation, revocation, recovery, and termination duties",
+        "The public Agent Card and JWKS validate independently and bind only TTI's admitted Union Media service identity and exact public endpoints",
+        "Private key material never enters TTI's repository, environment, Discord runtime, origin host, carrier payload, logs, or settlement records",
+        "A customer-owned probe verifies signature validity, declared key identity, expiry or rotation behavior, and refusal after revocation",
+        "Provider receives no Discord credential, member data, advertiser private key, creative, bid, valuation, publication, revenue, or ledger authority"
+      ],
+      "candidateProvider": "unselected; no signing custodian is presumed to have accepted",
+      "crossSettlementMutationAuthorized": false
+    },
+    {
+      "id": "tti-public-https-activitypub-host",
+      "kind": "territorial-hosting-service",
+      "requestedOutcome": "Provision resolvable HTTPS origin https://turntide-islands.561.group and route only TTI's declared ActivityPub actor, inbox, outbox, WebFinger, NodeInfo, and A2A Agent Card paths to the contracted TTI customer face.",
+      "acceptance": [
+        "Hosting provider authors and accepts an explicit border contract; TTI does not write the provider's proxy or DNS plate",
+        "TTI retains its own actor keys, treaty, request admission, witness-journal RDF witness, Discord authority, and business records",
+        "Host receives no Discord credential, member data, audience profile, advertiser private key, bid, or revenue authority",
+        "External actor, WebFinger, signed inbox, refusal, health, and isolation probes pass from outside the host",
+        "Host routes only content/configurations/union-media-origin-route-manifest.json to http://127.0.0.1:18849 and cannot reach TTI membership, payment, interaction, publication, ledger, or other application routes"
+      ],
+      "candidateProvider": "unselected; Bare Cedar Fog may offer but is not presumed to have accepted",
+      "currentDnsStatus": "unresolvable",
+      "ttiLocalOriginStatus": "live-hardened-least-authority-loopback-surface-probed-under-ni:///sha-256;cANEOiLGycaDcVPuBuURozWW0e3rfXHhjygN1xiI8hw",
+      "crossSettlementMutationAuthorized": false
+    }
+  ],
+  "marketSurvey": {
+    "recordedAt": "2026-07-22T02:54:59.556Z",
+    "financeReferralCatalog": "The finite Finance and Market Services Section referral catalog has no ActivityPub carrier, HTTPS origin, DNS, or routing referral and makes no provider-availability claim.",
+    "resourceBrokerageTeam": "Its cloudflare-static-delivery/v2 service packages bounded static previews, requires customer-supplied Cloudflare scope, and explicitly refuses DNS and route binding; it cannot carry TTI's dynamic signed inbox.",
+    "founderFormationDemandService": "Its ActivityPub treaty admits only its named free-compute-dev sender and founder-owned formation lots; TTI is not a treatied customer and did not impersonate that actor or alter its plate.",
+    "connectedSiteInventory": "No existing connected Site was available. TTI did not create or publicly deploy one because a Site alone would not supply the separate signed ActivityPub carrier and production deployment is an external acceptance boundary.",
+    "acceptedProviderCompositions": 0,
+    "foreignSettlementsMutated": false,
+    "inferenceMarketResidue": "The bounded provider-composition survey received no admissible inference-work offer because every provider returned an incompatible profile; TTI made the acceptance decision locally."
+  },
+  "currentTTINeed": {
+    "evidenceId": "ni:///sha-256;knWvzpA3Q8C-wA_0kTypZtLGIr_KnmyCCslua8rL82k",
+    "observationId": "ni:///sha-256;cqxtIIvfq3JRBwNBrM0tZcng5b1t4TLDlmS5jE8nOhU",
+    "policyId": "ni:///sha-256;rUSrGzzHp7UiCxiQdSovRA1yNDy7cjTMd5pqZp72-94",
+    "resourceClass": "operations",
+    "unit": "accepted-carrier-origin-hour",
+    "publicOriginStatus": "unresolvable",
+    "meaning": "This resource class outranks otherwise available inputs only for the witnessed TTI experiment horizon. It is not a provider selection, price, exchange rate, or global value claim."
+  },
+  "commercialEffect": "Procurement discovery and TTI-local needs evidence only. No provider is selected, no spend or consideration is authorized, no public ingress is live, no placement request or bid is admitted, and no revenue or profit is recognized.",
+  "discordProviderLeadIntake": {
+    "marker": "UNION-MEDIA-INFRASTRUCTURE-OFFER",
+    "instruction": "A provider representative may mention Zelo in TTI Discord with this exact marker, its enterprise name, and ActivityPub carrier, signed Agent Card/public JWKS, DNS/HTTPS hosting, or combined service class.",
+    "durableProjection": "TTI's private Zelo work roster records only a source pointer, content digest, service-provider-offer classification, and nonbinding effect; it does not copy message text.",
+    "effect": "provider discovery only; the Discord message is not an offer acceptance, contract, credential handoff, custody grant, DNS authority, spend authorization, or service activation"
+  },
+  "nextDecision": "Accept only capability-complete, custody-clean offers and run customer-owned signed transport, signing-identity, and external hosting probes before changing the market circuit cell from blocked."
+}

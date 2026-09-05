@@ -1,0 +1,21 @@
+{
+  "name": "@causeway-services/community-source-topical-knowledge-cell",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "Community-sourced URL-lead curation for Turntide: admits contributor-offered leads, reconciles fetched and analyzed evidence, and projects saleable knowledge with contributor identity withheld.",
+  "exports": {
+    ".": "./src/law.mjs",
+    "./law": "./src/law.mjs",
+    "./package.json": "./package.json"
+  },
+  "files": [
+    "src"
+  ],
+  "engines": {
+    "node": ">=22.18"
+  },
+  "scripts": {
+    "test": "node --test test/*.test.mjs"
+  },
+  "sideEffects": false
+}

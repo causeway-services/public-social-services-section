@@ -1,0 +1,69 @@
+{
+  "subject": "gaia-wilmer-large-ensemble-parabo-lico-review-gorgeous-reinvention-of-gilberto-gil-s-grooves",
+  "claims": [
+    {
+      "id": "title",
+      "proposition": {
+        "predicate": "title",
+        "object": "Gaia Wilmer Large Ensemble: Parabólico review – gorgeous reinvention of Gilberto Gil’s grooves"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "entertainment",
+        "citation": "https://www.theguardian.com/music/2026/aug/21/gaia-wilmer-large-ensemble-parabolico-review"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "url",
+      "proposition": {
+        "predicate": "url",
+        "object": "https://www.theguardian.com/music/2026/aug/21/gaia-wilmer-large-ensemble-parabolico-review"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "entertainment",
+        "citation": "https://www.theguardian.com/music/2026/aug/21/gaia-wilmer-large-ensemble-parabolico-review"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "summary",
+      "proposition": {
+        "predicate": "summary",
+        "object": "<p><strong>(Sunnyside)</strong><br>Saxophonist and composer Wilmer brilliantly transforms Gil tunes, changing tempos and adding breathy melodies, flourishes of horns or undulating rhythms to luscious effect</p><p>Over the past three years, Brazilian saxophonist and composer Gaia Wilmer has reimagined the catalogues of her country’s virtuosos so radically that it’s become a signature art. Folia: The Music of Egberto Gismonti transformed his finger-picked melodics into an almost prog-influenced cacophony; Trem das Cores, celebrating tropicália pioneer Caetano Veloso, found the eerie tenderness in his lilting melodies. Now returning with the first part of a three-volume homage to singer Gilberto Gil, Wilmer and her 20-piece ensemble produce luscious new works from their deconstructions.</p><p>For listeners familiar with Gil’s music, hardly any of Wilmer’s arrangements are recognisable from the originals. Her Overture transforms the 25 seconds of strummed guitars and group vocals that open Gil’s 1985 album Dia Dorim Noite Neon into a slowly unfurling four minutes of breathy trumpet melody and twinkling piano accents. Oriente replaces Gil’s wavering, emotive vocal harmony from the 1972 original with flourishes of horn fanfares and jazz swing that bolsters singer Mônica Salmaso’s lightly tripping bossa nova vocalisations. Eu Vim da Bahia even slows one of Gil’s best-known tunes to experimental flute-heavy ambience, transmuting his sprightly melody through the brassy weight of a big-band horn section.</p> <a href=\"https://www.theguardian.com/music/2026/aug/21/gaia-wilmer-large-ensemble-parabolico-review\">Continue reading...</a>"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "entertainment",
+        "citation": "https://www.theguardian.com/music/2026/aug/21/gaia-wilmer-large-ensemble-parabolico-review"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "published",
+      "proposition": {
+        "predicate": "published",
+        "object": "Fri, 21 Aug 2026 08:00:29 GMT"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "entertainment",
+        "citation": "https://www.theguardian.com/music/2026/aug/21/gaia-wilmer-large-ensemble-parabolico-review"
+      },
+      "status": "supported"
+    }
+  ]
+}

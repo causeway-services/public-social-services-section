@@ -1,0 +1,11 @@
+{
+  "id": "koios-publisher",
+  "name": "Koios publisher",
+  "kind": "session",
+  "disposition": "Answers for exactly what the publisher office answers for and nothing more — declines to reach past its own jurisdiction into another office's seat, and states what it cannot yet evidence rather than rounding a gap up to done.",
+  "x-provenance": {
+    "recorded-by": "claude-fable-5-1",
+    "recorded-on": "2026-09-02",
+    "derived-from": "engineering-services-section/services/media-engineering-services-section/services/news-media-engineering-services-section/content/text/documents/articles/specifications/2026-09-02-news-property-specification.md"
+  }
+}

@@ -1,0 +1,69 @@
+{
+  "subject": "playoff-pickups-work-the-waiver-wire-to-win",
+  "claims": [
+    {
+      "id": "title",
+      "proposition": {
+        "predicate": "title",
+        "object": "Playoff pickups: Work the waiver wire to win"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "sport",
+        "citation": "https://www.espn.com/fantasy/baseball/story/_/id/49782936/fantasy-baseball-free-agent-pickups-waiver-wire-august-31-2026"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "url",
+      "proposition": {
+        "predicate": "url",
+        "object": "https://www.espn.com/fantasy/baseball/story/_/id/49782936/fantasy-baseball-free-agent-pickups-waiver-wire-august-31-2026"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "sport",
+        "citation": "https://www.espn.com/fantasy/baseball/story/_/id/49782936/fantasy-baseball-free-agent-pickups-waiver-wire-august-31-2026"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "summary",
+      "proposition": {
+        "predicate": "summary",
+        "object": "The top players you should consider claiming off the fantasy baseball waiver wire this week for the fantasy playoffs."
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "sport",
+        "citation": "https://www.espn.com/fantasy/baseball/story/_/id/49782936/fantasy-baseball-free-agent-pickups-waiver-wire-august-31-2026"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "published",
+      "proposition": {
+        "predicate": "published",
+        "object": "Mon, 31 Aug 2026 11:12:36 EST"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "sport",
+        "citation": "https://www.espn.com/fantasy/baseball/story/_/id/49782936/fantasy-baseball-free-agent-pickups-waiver-wire-august-31-2026"
+      },
+      "status": "supported"
+    }
+  ]
+}

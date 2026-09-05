@@ -1,0 +1,28 @@
+#+SETUPFILE: ./setup.inc
+#+TITLE: Compendium of Conditions and Diseases
+#+EXPORT_FILE_NAME: ../../pub/reference-books/compendium-of-conditions-and-diseases
+* Introduction
+{{{document-isdraft}}}
+
+{{{document-hasproject}}}
+* Compendium of Conditions and Diseases
+** DRAFT Bartleby's Curse
+     :PROPERTIES:
+     :CUSTOM_ID: bartlebys-curse
+     :END:
+#+INDEX: Bartleby's Curse!"Bartleby's Curse" in /Compendium of Conditions and Diseases
+*/Bartleby's Curse/* is a magic condition that effects any sapient
+creature it is directed at. It is applied with the waxy wand.
+*** Effects
+Bartleby's Curse has very minimal effects on the person its been
+placed on: the only effect they will notice is that reading, of any
+sort, will make them far more tired than otherwise.
+
+The main effect is that anything the affected person reads will be
+"transcribed" by the /waxy wand/: paper held over its flame will
+reveal the text being read, overwriting itself from the beginning if
+the page becomes full.
+* Supplements
+** Index
+- Bartleby's Curse :: {{{teraum-define-bartlebys-curse}}} See [[#bartlebys-curse]["Bartleby's Curse]].
+- wand, waxy :: {{{teraum-defsrc(wand-waxy)}}}

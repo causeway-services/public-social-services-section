@@ -1,0 +1,23 @@
+#+SETUPFILE: ./setup.inc
+#+TITLE: Geography and Settlements of Marby County
+#+EXPORT_FILE_NAME: ../../pub/reference-books/geography-and-settlements-of-marby-county
+* Introduction
+{{{document-isdraft}}}
+
+{{{document-hasproject}}}
+* Geography and Settlements of Marby County
+** Landmarks
+*** Carrot Docks
+#+INDEX: Carrot Docks!"Carrot Docks" in /Geography and Settlements of Marby County/
+** Settlements
+*** Alindest
+Located on the road from /Ack/ to /Arlonest/, */Alindest/* is a small
+/human/ town.
+** Notable Organizations and People
+* Supplements
+** Index
+- humans ::
+- Carrot Docks ::
+- Arlonest ::
+- Ack ::
+- Marby County ::

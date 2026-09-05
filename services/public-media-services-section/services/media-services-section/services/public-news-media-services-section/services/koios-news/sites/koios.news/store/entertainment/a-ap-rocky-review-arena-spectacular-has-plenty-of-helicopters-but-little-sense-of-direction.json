@@ -1,0 +1,69 @@
+{
+  "subject": "a-ap-rocky-review-arena-spectacular-has-plenty-of-helicopters-but-little-sense-of-direction",
+  "claims": [
+    {
+      "id": "title",
+      "proposition": {
+        "predicate": "title",
+        "object": "A$AP Rocky review – arena spectacular has plenty of helicopters but little sense of direction"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "entertainment",
+        "citation": "https://www.theguardian.com/music/2026/aug/31/asap-rocky-review-o2-arena-london"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "url",
+      "proposition": {
+        "predicate": "url",
+        "object": "https://www.theguardian.com/music/2026/aug/31/asap-rocky-review-o2-arena-london"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "entertainment",
+        "citation": "https://www.theguardian.com/music/2026/aug/31/asap-rocky-review-o2-arena-london"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "summary",
+      "proposition": {
+        "predicate": "summary",
+        "object": "<p><strong>O2 Arena, London<br></strong>The polymath rapper’s stage show, which also features SWAT teams and a warship, is truly bravura stuff – but you can’t help feeling this is an artist at a creative crossroads</p><p>A$AP Rocky dangles precariously from a helicopter, while beneath him black-clad SWAT officers brawl with his white-masked followers. This isn’t some cliffhanger setpiece from the rapper/actor’s latest film – it’s just how shows on his Don’t Be Dumb tour open. It’s a big production: there are further prop helicopters, including a smaller one up in the rafters from which he also raps (a reference to his single Helicopter), while the stage recreates the top deck of a naval warship, for reasons that never become clear.</p><p>The bizarre set underscores a sense of a man in career transition, unsure who he is any more. In the eight years since his last album, this survivor of homelessness and incarceration became a father, three times, with Rihanna; he’s pivoting towards movies – <a href=\"https://www.theguardian.com/film/2025/jan/24/if-i-had-legs-id-kick-you-review-rose-byrne\">good</a> <a href=\"https://www.theguardian.com/film/2025/may/19/highest-2-lowest-review-spike-lee-and-denzel-washington-remake-kurosawa-in-fine-style\">ones</a> – and co-chairs the Met Gala. His new record sought to redefine him as an artist, juggling more of his trademark pugilistic rap with ambitious stylistic experiments and unexpected collaborations (Damon Albarn! Danny Elfman!).</p> <a href=\"https://www.theguardian.com/music/2026/aug/31/asap-rocky-review-o2-arena-london\">Continue reading...</a>"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "entertainment",
+        "citation": "https://www.theguardian.com/music/2026/aug/31/asap-rocky-review-o2-arena-london"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "published",
+      "proposition": {
+        "predicate": "published",
+        "object": "Mon, 31 Aug 2026 13:47:17 GMT"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "entertainment",
+        "citation": "https://www.theguardian.com/music/2026/aug/31/asap-rocky-review-o2-arena-london"
+      },
+      "status": "supported"
+    }
+  ]
+}

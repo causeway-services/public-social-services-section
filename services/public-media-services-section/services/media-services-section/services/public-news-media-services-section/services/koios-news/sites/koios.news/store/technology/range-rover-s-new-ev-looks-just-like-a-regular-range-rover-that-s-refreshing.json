@@ -1,0 +1,69 @@
+{
+  "subject": "range-rover-s-new-ev-looks-just-like-a-regular-range-rover-that-s-refreshing",
+  "claims": [
+    {
+      "id": "title",
+      "proposition": {
+        "predicate": "title",
+        "object": "Range Rover’s new EV looks just like a regular Range Rover — that’s refreshing"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "technology",
+        "citation": "https://www.theverge.com/transportation/988232/range-rover-electric-range-battery-specs"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "url",
+      "proposition": {
+        "predicate": "url",
+        "object": "https://www.theverge.com/transportation/988232/range-rover-electric-range-battery-specs"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "technology",
+        "citation": "https://www.theverge.com/transportation/988232/range-rover-electric-range-battery-specs"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "summary",
+      "proposition": {
+        "predicate": "summary",
+        "object": "I think automakers are finally getting the memo. Rather than try to reinvent the wheel with its new electric vehicle, Range Rover just made one that looks nearly identical to its lineup of gas-powered SUVs. They didn't try to pass off some sleek, spaceship-looking pod as a Range Rover. Sometimes familiar designs are the way to go. Of course, under the surface the Range Rover Electric is nothing like its internal combustion engine sporting brethren. Twin permanent magnet 260kW electric motors are powered by a double-stacked 118.5 kWh lithium-ion battery, with an estimated range of 330 real-world miles. The all-wheel drive system puts out … Read the full story at The Verge."
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "technology",
+        "citation": "https://www.theverge.com/transportation/988232/range-rover-electric-range-battery-specs"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "published",
+      "proposition": {
+        "predicate": "published",
+        "object": "2026-09-02T13:01:08-04:00"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "technology",
+        "citation": "https://www.theverge.com/transportation/988232/range-rover-electric-range-battery-specs"
+      },
+      "status": "supported"
+    }
+  ]
+}

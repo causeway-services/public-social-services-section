@@ -1,0 +1,26 @@
+{
+  "kind": "koios.service-contract",
+  "id": "cloudflare-primary-static-release/v2",
+  "customer": "urn:ame:koios.news",
+  "provider": "urn:ame:resource-brokerage-team",
+  "service": "publish one accepted Koios static candidate through the already-authoritative Cloudflare Worker",
+  "precondition": [
+    "Koios supplies an immutable cutover-candidate artifact whose manifest and delivery-policy bytes match the request digests.",
+    "The request binds account 337e54ee6dc7d488933f473204a6d89e, Worker koios-news-primary, route koios.news/*, and origin https://koios.news.",
+    "The koios.news and Resource Brokerage Team sovereign smart accounts mutually sign one exact recursive service cell, and the provider holds its own restricted Cloudflare resource carrier.",
+    "Cloudflare already reports that koios.news/* is bound to koios-news-primary."
+  ],
+  "move": "The provider revalidates the candidate, snapshots the current Cloudflare Worker deployment, updates only koios-news-primary's static assets, probes the exact public routes, and restores the prior Cloudflare Worker version if the new deployment fails its probes.",
+  "postcondition": "Koios receives a priced FOUR receipt binding the exact candidate, holonomy seam, unchanged public route, probes, and Cloudflare-to-Cloudflare rollback state, or a typed post-seam receipt. Cold Red Gate never becomes an HTTP origin.",
+  "authority": "The provider-authored effect cell commits one exact candidate, existing Worker, price, erasure bound, and expiry; ledger seam uniqueness supplies replay protection without a central custodian.",
+  "excluded": [
+    "DNS mutation",
+    "Worker route mutation",
+    "custom-domain mutation",
+    "VPS public ingress",
+    "VPS origin fallback",
+    "content or editorial mutation",
+    "credential disclosure",
+    "Worker deletion"
+  ]
+}

@@ -1,0 +1,170 @@
+#+SETUPFILE: ./setup.inc
+#+TITLE: Catalog of Magic Items
+#+EXPORT_FILE_NAME: ../../pub/reference-books/catalog-of-magic-items
+* DRAFT Introduction
+{{{document-isdraft}}}
+
+{{{document-hasproject}}}
+* DRAFT Catalog of Magic Items
+** DRAFT Wand of Switcharoo
+   :PROPERTIES:
+   :CUSTOM_ID: wand-of-switcharoo
+   :END:
+#+INDEX: wand of switcharoo!"Wand of Switcharoo" in /Catalog of Magic Items/
+The */wand of switcharoo/* is a short oak dowel. Once a day, when
+pointed at another living creature of similar size within 100 feet,
+the target and holder of the wand will switch places. If the target is
+aware of the holder's attempt to switch places, they can *risk*
+resisting the attempt.
+** DRAFT Waxy Wand
+   :PROPERTIES:
+   :CUSTOM_ID: waxy-wand
+   :END:
+#+INDEX: wand, waxy!"Waxy Wand" in /Catalog of Magic Items/
+The */waxy wand/* is essentially a large candle, with a wick on one
+end which can be lit. The candle will not decrease in size as it
+burns, but if tipped, will dribble out wax at a consistent rate. If
+this wax is dripped on them, they will develop /Bartleby's Curse/.
+
+The wand was originally created by /Alfred Bartleby/ for the
+/Chandlers Guild/ in 72bc to allow for the "transmission" of written
+information.
+** DRAFT Easy-Smoking Pipe
+     :PROPERTIES:
+     :CUSTOM_ID: easy-smoking-pipe
+     :END:
+#+INDEX: pipe, easy-smoking!"Easy-Smoking Pipe" in /Catalog of Magic Items/
+The */easy-smoking pipe/* is a wooden pipe which emits an intoxicating
+smoke. The spell comes from the pipe itself; anything burnt in it
+produces the same effect.
+** DRAFT Sing-sing
+   :PROPERTIES:
+   :CUSTOM_ID: sing-sing
+   :END:
+#+INDEX: sing-sing!"Sing-sing" in /Catalog of Magic Items/
+*/Sing-sing/* a plant that grows natively in the /New World/, and has
+been cultivated by humans in the /Old World/. It absorbs into itself
+magic from the soil it grows in, and has been used by /dwarves/, /elves/,
+/halflings/, and more recently /humans/ to augment (or in /humans'/ case,
+enable) their magic abilities.
+
+It grows as a squat root, usually an inch to two in diameter and three
+to five inches long, that has five glossy leaves growing off a central
+stem above the surface.
+
+Among /dwarves/, sing-sing was beaten into a pulp and the juices are
+added to their bread.
+
+/Elves/ used to snort it, and /halflings/ smoked it as a pipe. When
+/humans/ were introduced to it by the /halflings/, they also began the
+habit of smoking it, however soon /humans/ began to distill it, much
+as they were with mined /magic/.
+** DRAFT Shiny Lantern
+   :PROPERTIES:
+   :CUSTOM_ID: shiny-lantern
+   :END:
+#+INDEX: lantern, shiny!"Shiny Lantern" in /Catalog of Magic Items/
+The */shiny lantern/* is a brass oil-burning lantern. As long as it is
+lit and being carried, the owner finds everything they do a little
+less *risky*. However, if the shiny lantern is extinguished, the owner
+finds everything *extremely risky*.
+
+The owner of the lantern does not recognize the negative effects, and
+overvalues the positive.
+** DRAFT Shocking Shortbow
+   :PROPERTIES:
+   :CUSTOM_ID: shocking-shortbow
+   :END:
+#+INDEX: shortbow, shocking!"Shocking Shortbow" in /Catalog of Magic Items/
+The */shocking shortbow/* is a magic bow that can hold up to four
+electrical charges, which the holder can imbue into shots fired. To
+recharge a shot, the bow must rest for a while. If the bow ever runs
+out of shots, there is a *risk* it may disintegrate.
+** DRAFT Slicer of Tapir-Weir Isles
+   :PROPERTIES:
+   :CUSTOM_ID: slicer-of-tapir-weir-isles
+   :END:
+#+INDEX: slicer of Tapir-Weir Isles!"Slice of Tapir-Weir Isles" in /Catalog of Magic Items/
+The */slicer of Tapir-Weir Isles/* is an item which is itself useless,
+but can reasonably be believed to be worth a tremendous sum. It has
+the appearance of a complex kitchen mandolin, though without any
+obvious means of operation. It was sold to someone in /Ack/ by a
+trader who claimed to have bought it in a village on the /Tapir-Weir
+Isles/.
+** DRAFT Staring Shield
+   :PROPERTIES:
+   :CUSTOM_ID: staring-shield
+   :END:
+#+INDEX: shield, staring!"Staring Shield" in /Catalog of Magic Items/
+The */staring shield/* is a blackened steel shield that has a
+grimacing shrunken face cast on the front. The shield may choose, if
+the holder *risks* it, to shriek at its opponent, which forces the
+opponent to *risk* being terrified. Afterward, the shield must rest.
+** DRAFT Steven
+   :PROPERTIES:
+   :CUSTOM_ID: steven
+   :END:
+#+INDEX: Steven!"Steven" in /Catalog of Magic Items/
+*/Steven/* is a small immortal goldfish who lives in a small,
+indestructible glass sphere which has "Steven," etched on it.
+** DRAFT Tankard of Potent Drink
+#+INDEX: tankard of potent drink!"Tankard of Potent Drink" in /Catalog of Magic Items/
+The */tankard of potent drink/* is a clay mug that makes any alcoholic
+beverages put in it much more potent. If it is filled with water, that
+water will sober up anyone who drinks it.
+** DRAFT Crown of Idbol Bark
+   :PROPERTIES:
+   :CUSTOM_ID: crown-of-idbol-bark
+   :END:
+The */Crown of Idbol Bark/* is made of low-quality silverware
+collected from households in and around the town of /Belcaer/, in the
+/Gloaming/. It was made in early 80pc, by /Idbol Bark/, a /goblin/ who
+has led a small clan operating out of /Jacob's Folly/ since late 79pc.
+** DRAFT Toy Cyclops
+   :PROPERTIES:
+   :CUSTOM_ID: toy-cyclops
+   :END:
+#+INDEX: toy cyclops!"Toy Cyclops" in /Catalog of Magic Items/
+The */toy cyclops/* is a simple quilted doll, unfeatured except a
+large glass eye which has been stitched into the center of its face.
+The eye is a brilliant blue, and belongs to /Odin/, a /god/ from
+another dimension.
+* DRAFT Supplements
+** DRAFT Index
+- Ack :: {{{teraum-defsrc(ack)}}}
+- Bartleby, Alfred :: {{{teraum-defsrc(bartleby-alfred)}}}
+- Bartleby's Curse :: {{{teraum-defsrc(bartlebys-curse)}}}
+- Belcaer :: {{{teraum-defsrc(belcaer)}}}
+- Chandlers Guild :: {{{teraum-defsrc(chandlers-guild)}}}
+- Crown of Idbol Bark :: {{{teraum-define-crown-of-idbol-bark}}} See
+     [[#crown-of-idbol-bark]["Crown of Idbol Bark"]].
+- dwarves :: {{{teraum-defsrc(dwarves)}}}
+- elves :: {{{teraum-defsrc(elves)}}}
+- Gloaming :: {{{teraum-define-gloaming}}}
+- goblins :: {{{teraum-defsrc(goblins)}}}
+- gods :: {{{teraum-defsrc(gods)}}}
+- halflings :: {{{teraum-defsrc(halflings)}}}
+- humans :: {{{teraum-defsrc(humans)}}}
+- Bark, Idbol :: {{{teraum-define-bark-idbol}}}
+- Jacob's Folly :: {{{teraum-define-jacobs-folly}}}
+- lantern, shiny :: {{{teraum-define-lantern-shiny}}} See [[#shiny-lantern]["Shiny
+                    Lantern"]].
+- magic :: {{{teraum-defsrc(magic)}}}
+- New World :: {{{teraum-defsrc(new-world)}}}
+- Odin :: {{{teraum-defsrc(odin)}}}
+- Old World :: {{{teraum-defsrc(old-world)}}}
+- pipe, easy-smoking :: {{{teraum-define-pipe-easy-smoking}}} See
+     [[#easy-smoking-pipe]["Easy Smoking Pipe"]].
+- shortbow, shocking :: {{{teraum-define-shortbow-shocking}}} See
+     [[#shocking-shortbow]["Shocking Shortbow"]].
+- sing-sing :: {{{teraum-define-sing-sing}}} See [[#sing-sing]["Sing-sing"]]
+- slicer of Tapir-Weir Isles ::
+     {{{teraum-define-slicer-of-tapir-weir-isles}}} See [[#slicer-of-tapir-weir-isles]["Slicer of
+     Tapir-Weir Isles"]].
+- Steven :: {{{teraum-define-steven}}} See [[#steven]["Steven"]].
+- Tapir-Weir Isles :: {{{teraum-defsrc(tapir-weir-isles)}}}
+- toy cyclops :: {{{teraum-define-toy-cyclops}}} See [[#toy-cyclops]["Toy
+                 Cyclops"]].
+- wand of switcharoo :: {{{teraum-define-wand-of-switcharoo}}} See
+     [[#wand-of-switcharoo]["Wand of Switcharoo"]].
+- wand, waxy :: {{{teraum-define-wand-waxy}}} See [[#waxy-wand]["Waxy Wand"]].

@@ -1,0 +1,37 @@
+{
+  "subject": "story-gamma",
+  "claims": [
+    {
+      "id": "title",
+      "proposition": { "predicate": "title", "object": "Story Gamma: the most recent story in the window" },
+      "time": { "asserted": "2026-06-30T09:00:00.000Z" },
+      "force": "alleges",
+      "provenance": { "witness": "collapse-tech", "citation": "https://example.test/story-gamma" },
+      "status": "supported"
+    },
+    {
+      "id": "url",
+      "proposition": { "predicate": "url", "object": "https://example.test/story-gamma" },
+      "time": { "asserted": "2026-06-30T09:00:00.000Z" },
+      "force": "alleges",
+      "provenance": { "witness": "collapse-tech", "citation": "https://example.test/story-gamma" },
+      "status": "supported"
+    },
+    {
+      "id": "summary",
+      "proposition": { "predicate": "summary", "object": "Fixture summary for story gamma, inside the seven-day window." },
+      "time": { "asserted": "2026-06-30T09:00:00.000Z" },
+      "force": "alleges",
+      "provenance": { "witness": "collapse-tech", "citation": "https://example.test/story-gamma" },
+      "status": "supported"
+    },
+    {
+      "id": "published",
+      "proposition": { "predicate": "published", "object": "Tue, 30 Jun 2026 09:00:00 +0000" },
+      "time": { "asserted": "2026-06-30T09:00:00.000Z" },
+      "force": "alleges",
+      "provenance": { "witness": "collapse-tech", "citation": "https://example.test/story-gamma" },
+      "status": "supported"
+    }
+  ]
+}

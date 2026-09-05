@@ -1,0 +1,69 @@
+{
+  "subject": "we-are-preserving-a-tradition-how-ghana-s-sensationalist-film-posters-became-collectible-art",
+  "claims": [
+    {
+      "id": "title",
+      "proposition": {
+        "predicate": "title",
+        "object": "‘We are preserving a tradition’: how Ghana’s sensationalist film posters became collectible art"
+      },
+      "time": {
+        "asserted": "2026-07-18T08:09:58.727Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "politics",
+        "citation": "https://www.theguardian.com/world/2026/jul/18/ghana-sensationalist-film-posters-collectible-art"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "url",
+      "proposition": {
+        "predicate": "url",
+        "object": "https://www.theguardian.com/world/2026/jul/18/ghana-sensationalist-film-posters-collectible-art"
+      },
+      "time": {
+        "asserted": "2026-07-18T08:09:58.727Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "politics",
+        "citation": "https://www.theguardian.com/world/2026/jul/18/ghana-sensationalist-film-posters-collectible-art"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "summary",
+      "proposition": {
+        "predicate": "summary",
+        "object": "<p>Hand-painted works are often wildly unfaithful to the movies they portray – reinterpretations that sometimes resulted in threats, insults and even physical attacks from viewers who felt duped</p><p>Sitting on his porch in Teshie near Accra, Heavy J dipped a brush into red oil paint and dabbed it carefully on to his canvas – a flour sack – adding blood to a knife being wielded by a man. Higher on the canvas, he had started on an outline of a skull.</p><p>Heavy J was creating a poster, but not as you might have expected for a horror film. Instead, it was for the animated fairytale The Little Mermaid. The man with the knife wasn’t a killer but the film’s kind-hearted prince, Eric. The skull was also unrelated to the story. “We add more to make people interested,” said Heavy J, whose real name is Jeaurs Affutu.</p> <a href=\"https://www.theguardian.com/world/2026/jul/18/ghana-sensationalist-film-posters-collectible-art\">Continue reading...</a>"
+      },
+      "time": {
+        "asserted": "2026-07-18T08:09:58.727Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "politics",
+        "citation": "https://www.theguardian.com/world/2026/jul/18/ghana-sensationalist-film-posters-collectible-art"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "published",
+      "proposition": {
+        "predicate": "published",
+        "object": "Sat, 18 Jul 2026 04:00:47 GMT"
+      },
+      "time": {
+        "asserted": "2026-07-18T08:09:58.727Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "politics",
+        "citation": "https://www.theguardian.com/world/2026/jul/18/ghana-sensationalist-film-posters-collectible-art"
+      },
+      "status": "supported"
+    }
+  ]
+}

@@ -1,0 +1,69 @@
+{
+  "subject": "andrew-tate-and-brother-tristan-arrested-in-miami",
+  "claims": [
+    {
+      "id": "title",
+      "proposition": {
+        "predicate": "title",
+        "object": "Andrew Tate and Brother Tristan Arrested in Miami"
+      },
+      "time": {
+        "asserted": "2026-07-19T14:42:05.531Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "culture",
+        "citation": "https://variety.com/2026/digital/news/andrew-tate-tristan-tate-arrested-miami-1236815654/"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "url",
+      "proposition": {
+        "predicate": "url",
+        "object": "https://variety.com/2026/digital/news/andrew-tate-tristan-tate-arrested-miami-1236815654/"
+      },
+      "time": {
+        "asserted": "2026-07-19T14:42:05.531Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "culture",
+        "citation": "https://variety.com/2026/digital/news/andrew-tate-tristan-tate-arrested-miami-1236815654/"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "summary",
+      "proposition": {
+        "predicate": "summary",
+        "object": "Manosphere influencers Andrew and Tristan Tate were arrested by federal officers Saturday afternoon in Miami, according to AP. The charges against the brothers were not immediately made public. This isn’t the first time the Tate brothers have found themselves in cuffs. Back in 2022, the controversial media figures were arrested in Romania by anti-terrorism authorities […]"
+      },
+      "time": {
+        "asserted": "2026-07-19T14:42:05.531Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "culture",
+        "citation": "https://variety.com/2026/digital/news/andrew-tate-tristan-tate-arrested-miami-1236815654/"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "published",
+      "proposition": {
+        "predicate": "published",
+        "object": "Sat, 18 Jul 2026 23:58:26 +0000"
+      },
+      "time": {
+        "asserted": "2026-07-19T14:42:05.531Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "culture",
+        "citation": "https://variety.com/2026/digital/news/andrew-tate-tristan-tate-arrested-miami-1236815654/"
+      },
+      "status": "supported"
+    }
+  ]
+}

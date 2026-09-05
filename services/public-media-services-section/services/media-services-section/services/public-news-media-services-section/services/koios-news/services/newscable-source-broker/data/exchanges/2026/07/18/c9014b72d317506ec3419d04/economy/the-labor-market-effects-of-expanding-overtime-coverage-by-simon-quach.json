@@ -1,0 +1,53 @@
+{
+  "subject": "the-labor-market-effects-of-expanding-overtime-coverage-by-simon-quach",
+  "claims": [
+    {
+      "id": "title",
+      "proposition": {
+        "predicate": "title",
+        "object": "The Labor Market Effects of Expanding Overtime Coverage -- by Simon Quach"
+      },
+      "time": {
+        "asserted": "2026-07-18T19:52:21.689Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "economy",
+        "citation": "https://www.nber.org/papers/w35433#fromrss"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "url",
+      "proposition": {
+        "predicate": "url",
+        "object": "https://www.nber.org/papers/w35433#fromrss"
+      },
+      "time": {
+        "asserted": "2026-07-18T19:52:21.689Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "economy",
+        "citation": "https://www.nber.org/papers/w35433#fromrss"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "summary",
+      "proposition": {
+        "predicate": "summary",
+        "object": "This paper examines the labor market effects of overtime coverage in the United States, where salaried workers are covered for overtime if their base pay falls below a legislated salary threshold. Using an event-study design with administrative payroll data and state-level threshold changes from 2014-2021, I find evidence against conventional models of overtime. Contrary to the historical intent of policymakers, firms do not increase employment by substituting more workers for fewer hours. However, contrary to compensating differential models, firms also do not offset the costs of overtime by lowering workers' base pays. Instead, employers raised salaries above the threshold to keep workers exempt from overtime, indicating that monitoring and adjusting workers' hours is costly for firms. Taken together, these results suggest that expanding overtime coverage increases workers' earnings without negatively impacting employment."
+      },
+      "time": {
+        "asserted": "2026-07-18T19:52:21.689Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "economy",
+        "citation": "https://www.nber.org/papers/w35433#fromrss"
+      },
+      "status": "supported"
+    }
+  ]
+}

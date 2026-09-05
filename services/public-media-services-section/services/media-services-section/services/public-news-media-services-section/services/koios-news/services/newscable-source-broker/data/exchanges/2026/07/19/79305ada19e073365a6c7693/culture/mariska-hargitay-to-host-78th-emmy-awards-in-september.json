@@ -1,0 +1,69 @@
+{
+  "subject": "mariska-hargitay-to-host-78th-emmy-awards-in-september",
+  "claims": [
+    {
+      "id": "title",
+      "proposition": {
+        "predicate": "title",
+        "object": "Mariska Hargitay to host 78th Emmy awards in September"
+      },
+      "time": {
+        "asserted": "2026-07-19T15:04:21.677Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "culture",
+        "citation": "https://www.theguardian.com/tv-and-radio/2026/jul/07/mariska-hargitay-78th-primetime-emmy-awards-host"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "url",
+      "proposition": {
+        "predicate": "url",
+        "object": "https://www.theguardian.com/tv-and-radio/2026/jul/07/mariska-hargitay-78th-primetime-emmy-awards-host"
+      },
+      "time": {
+        "asserted": "2026-07-19T15:04:21.677Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "culture",
+        "citation": "https://www.theguardian.com/tv-and-radio/2026/jul/07/mariska-hargitay-78th-primetime-emmy-awards-host"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "summary",
+      "proposition": {
+        "predicate": "summary",
+        "object": "<p>The Law &amp; Order: SVU star will be the first woman to host the ceremony, airing on NBC this year, in 15 years</p><p>Mariska Hargitay will host the 78th <a href=\"https://www.theguardian.com/tv-and-radio/emmys\">Primetime Emmy Awards</a>, airing on NBC on 14 September.</p><p>NBCUniversal announced Hargitay as host on Tuesday, the day before nominations are announced. The show will also stream on Peacock and will be held, fittingly, at the Peacock Theater, the longtime Emmys home that will also soon be home to the <a href=\"https://www.theguardian.com/film/oscars\">Oscars</a>.</p> <a href=\"https://www.theguardian.com/tv-and-radio/2026/jul/07/mariska-hargitay-78th-primetime-emmy-awards-host\">Continue reading...</a>"
+      },
+      "time": {
+        "asserted": "2026-07-19T15:04:21.677Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "culture",
+        "citation": "https://www.theguardian.com/tv-and-radio/2026/jul/07/mariska-hargitay-78th-primetime-emmy-awards-host"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "published",
+      "proposition": {
+        "predicate": "published",
+        "object": "Tue, 07 Jul 2026 17:49:21 GMT"
+      },
+      "time": {
+        "asserted": "2026-07-19T15:04:21.677Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "culture",
+        "citation": "https://www.theguardian.com/tv-and-radio/2026/jul/07/mariska-hargitay-78th-primetime-emmy-awards-host"
+      },
+      "status": "supported"
+    }
+  ]
+}

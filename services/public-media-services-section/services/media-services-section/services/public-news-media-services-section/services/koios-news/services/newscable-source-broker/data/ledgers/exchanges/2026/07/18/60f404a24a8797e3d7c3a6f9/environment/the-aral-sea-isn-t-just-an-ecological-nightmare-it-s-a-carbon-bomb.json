@@ -1,0 +1,69 @@
+{
+  "subject": "the-aral-sea-isn-t-just-an-ecological-nightmare-it-s-a-carbon-bomb",
+  "claims": [
+    {
+      "id": "title",
+      "proposition": {
+        "predicate": "title",
+        "object": "The Aral Sea isn’t just an ecological nightmare — it’s a carbon bomb"
+      },
+      "time": {
+        "asserted": "2026-07-18T08:15:51.891Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "environment",
+        "citation": "https://grist.org/science/the-aral-sea-isnt-just-an-ecological-nightmare-its-a-carbon-bomb/"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "url",
+      "proposition": {
+        "predicate": "url",
+        "object": "https://grist.org/science/the-aral-sea-isnt-just-an-ecological-nightmare-its-a-carbon-bomb/"
+      },
+      "time": {
+        "asserted": "2026-07-18T08:15:51.891Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "environment",
+        "citation": "https://grist.org/science/the-aral-sea-isnt-just-an-ecological-nightmare-its-a-carbon-bomb/"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "summary",
+      "proposition": {
+        "predicate": "summary",
+        "object": "The Aral Sea sits between Kazakhstan and Uzbekistan and was once the fourth-largest inland body of water on Earth. For the past 60 years, though, humans have bled it nearly dry irrigating cotton crops, leaving behind a salty plain the size of Ireland. Its loss has long been seen as an ecological and humanitarian problem, but new research shows that it has also been a significant driver of climate change. The Aral Sea is technically a lake. But when nearly any body of water is full and works as it should, organic matter collects on the bottom, where it remains trapped, often for centuries or millennia. “They accumulate carbon in the sediment,” explained Rafael Marcé, a research scientist at the Centre for Advanced Studies in Blanes, Spain, and the lead author of the study, which was published today in the journal Science . “They are carbon sinks.” If the water dries up, however, stored carbon is released, turning sinks into sources. It’s something that Marcé has seen in smaller lakes he’s studied, but even he was surprised by what his team found during its 2022 expedition to Central Asia. “We didn’t go to the Aral Sea blind. We had some previous evidence,” he said. “We had no idea about the potential magnitude.”&nbsp; The Aral Sea has left behind a timeline of sorts. The edges dried out decades back, while some areas were wet until just a few years ago. Marcé and his colleagues collected samples along this gradation. The technique allowed them to reconstruct how much carbon the lake had emitted as it evaporated. The figure is staggering. Between 1960 and 2022, they found, the Aral Sea had pumped a remarkable 748 million metric tons of carbon dioxide into the atmosphere. That’s three times the annual emissions of Spain.&nbsp; “At the beginning it goes pretty fast, then it slowly decays,” said Marcé, noting that about half of the carbon dioxide is released in the first 15 years after a section of the lake is exposed. The paper also found that nearly a fifth of emissions came from wind blowing sediment away, an aspect of drying that experts say hadn’t been adequately studied before.&nbsp; “This dust is a really big issue,” said Sarian Kosten, an aquatic ecologist and professor at Radboud University who was not involved in this research. She called the overall science fascinating and sound, yet the trend disheartening. “I always find it very sad to see these pictures of the declining water surface there.” Oneof the study’s limitations, said Marcé, is that scientists could bring only relatively light-duty equipment to the Aral Sea. That meant that their sediment cores were capped at 50 centimeters — about 20 inches — even though the lake bed is many feet thick. The researchers aren’t sure what is happening further down “It could be that all these degradation effects are contained in the first layers,” he said. Or, “all these carbon calculations we did could be a gross underestimate.”&nbsp; The group plans to return with bigger drills next year to learn more. The paper also highlights the many other places around the world that are in the midst of this “dry flux” phenomenon. That includes Lake Chad in western Africa, Bolivia’s Lake Poopó, and the Caspian Sea, which is the world’s largest inland body of water and is expected to shrink by more than the entire area of the Aral Sea by the end of the century. The Salton Sea in California is also mentioned, as is Utah’s Great Salt Lake, which another recent study found is releasing over 4 million tons of carbon dioxide into the atmosphere each year.&nbsp; “There is a whole bunch of CO2 coming out of the ground that no one was counting,” said Soren Brothers, the author of the Great Salt Lake paper, a limnologist at the University of Toronto, and the climate curator at the Royal Ontario Museum in Canada. But researchers are increasingly putting numbers to that “huge blind spot” and he’s impressed by the latest Aral Sea study, which he wasn’t involved in. “This is adding to the story of these inland waters.”&nbsp; The mounting evidence around these emissions is particularly worrying because it could be a sign of a climate tipping point from which it would become difficult, if not impossible, to recover. “If we keep on doing this kind of stuff, where we are drying up lakes,” said Brothers, ”those could take over driving climate change.”&nbsp; The Aral Sea paper also examined how much carbon dioxide has yet to be released from the lake, and pegged the number at about 605 million metric tons. While that makes the salt flat a ticking climate bomb, Marcé and his co-authors argue that this also means there’s an opportunity to reverse course. “We want to spotlight the fact that we have all this carbon that can be protected,” said Marce. “It’s offering a solution. Or a conversation at least.”&nbsp; Keeping that amount of carbon dioxide in the ground would be equivalent to about $18 billion worth of carbon credits, the paper estimates. Brothers thinks this attention to potential paths forward is among the most interesting parts of the paper. “That’s a new contribution,” said Brothers, and the logic could apply to any body of water that’s storing carbon, from reservoirs like Lake Mead on the Colorado River to urban ponds.&nbsp; ”I see all of this shaping into a conversation of how do we improve things,” he said, adding that there has been plenty of research on the human, climate, and economic harms of letting lakes dry out. “We need to start researching what is the path forward.” Marcé acknowledges that there are no easy answers for the Aral Sea. The problem began in the 1960s when the Soviet Union diverted water from the rivers that feed it for cotton crops. Many of those irrigation systems remain outdated, and improving them would save water. Even then, though, getting the water back in the sea would require convincing multiple jurisdictions not to just reuse it for other purposes. Still, fixes like this aren’t impossible, said Marcé, and linking the issue to carbon credits could provide incentives to find them. “If we have this kind of program, there could be a hope for the Aral Sea,” he said. “It’s at least a chance.” This story was originally published by Grist with the headline The Aral Sea isn’t just an ecological nightmare — it’s a carbon bomb on Jul 16, 2026."
+      },
+      "time": {
+        "asserted": "2026-07-18T08:15:51.891Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "environment",
+        "citation": "https://grist.org/science/the-aral-sea-isnt-just-an-ecological-nightmare-its-a-carbon-bomb/"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "published",
+      "proposition": {
+        "predicate": "published",
+        "object": "Thu, 16 Jul 2026 18:00:00 +0000"
+      },
+      "time": {
+        "asserted": "2026-07-18T08:15:51.891Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "environment",
+        "citation": "https://grist.org/science/the-aral-sea-isnt-just-an-ecological-nightmare-its-a-carbon-bomb/"
+      },
+      "status": "supported"
+    }
+  ]
+}

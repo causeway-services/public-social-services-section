@@ -1,0 +1,69 @@
+{
+  "subject": "stat-ultragenyx-drug-to-treat-angelman-syndrome-a-rare-disease-fails-late-stage-trial",
+  "claims": [
+    {
+      "id": "title",
+      "proposition": {
+        "predicate": "title",
+        "object": "STAT+: Ultragenyx drug to treat Angelman syndrome, a rare disease, fails late-stage trial"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "health",
+        "citation": "https://www.statnews.com/2026/09/02/ultragenyx-drug-angelman-syndrome-clinical-trial/?utm_campaign=rss"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "url",
+      "proposition": {
+        "predicate": "url",
+        "object": "https://www.statnews.com/2026/09/02/ultragenyx-drug-angelman-syndrome-clinical-trial/?utm_campaign=rss"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "health",
+        "citation": "https://www.statnews.com/2026/09/02/ultragenyx-drug-angelman-syndrome-clinical-trial/?utm_campaign=rss"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "summary",
+      "proposition": {
+        "predicate": "summary",
+        "object": "The biotech company Ultragenyx said Wednesday that its experimental therapy for Angelman syndrome, a rare disease that causes severe intellectual disabilities and developmental delays, showed no benefit compared to a sham treatment in a large Phase 3 trial. The drug, GTX-102, had shown powerful results in early trials, raising the hopes of families affected by the devastating condition. Many advocates for patients with other neurological conditions also hoped it could be the first of many medicines that improve cognition, communication, and other aspects of the lives of patients with intellectual disabilities. The news is a significant blow for Ultragenyx’s business as well. Although the company has multiple approved medicines, they are for mostly ultra-rare diseases, and investors had been banking on the Angelman drug as the company’s path to profitability. Continue to STAT+ to read the full story&hellip;"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "health",
+        "citation": "https://www.statnews.com/2026/09/02/ultragenyx-drug-angelman-syndrome-clinical-trial/?utm_campaign=rss"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "published",
+      "proposition": {
+        "predicate": "published",
+        "object": "Wed, 02 Sep 2026 20:37:24 +0000"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "health",
+        "citation": "https://www.statnews.com/2026/09/02/ultragenyx-drug-angelman-syndrome-clinical-trial/?utm_campaign=rss"
+      },
+      "status": "supported"
+    }
+  ]
+}

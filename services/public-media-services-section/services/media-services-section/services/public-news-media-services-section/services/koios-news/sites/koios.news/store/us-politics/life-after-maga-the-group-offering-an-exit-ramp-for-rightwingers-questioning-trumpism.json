@@ -1,0 +1,69 @@
+{
+  "subject": "life-after-maga-the-group-offering-an-exit-ramp-for-rightwingers-questioning-trumpism",
+  "claims": [
+    {
+      "id": "title",
+      "proposition": {
+        "predicate": "title",
+        "object": "Life after Maga: the group offering an ‘exit ramp’ for rightwingers questioning Trumpism"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "us-politics",
+        "citation": "https://www.theguardian.com/us-news/2026/sep/01/leaving-maga-support-group"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "url",
+      "proposition": {
+        "predicate": "url",
+        "object": "https://www.theguardian.com/us-news/2026/sep/01/leaving-maga-support-group"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "us-politics",
+        "citation": "https://www.theguardian.com/us-news/2026/sep/01/leaving-maga-support-group"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "summary",
+      "proposition": {
+        "predicate": "summary",
+        "object": "<p>The non-profit Leaving Maga is built on the premise that abandoning the Trump-built movement is like fighting a disease or breaking an addiction</p><ul><li><p><a href=\"https://www.theguardian.com/us-news/2026/sep/01/former-maga-supporters-trump\">Four Maga defectors on what led them to walk away: ‘I’d been addicted to fear and rage’</a></p></li></ul><p>Stephania Messina kept birthing boys. In the Quiverfull conservative Christian church she belonged to outside Detroit, Michigan, that made her a community celebrity. Your quiver, as the church taught it, is your womb, meant to be filled with as many arrows – a metaphor for children – as you can shoot unto the Lord. She shot five. “They treated me like I was Mother Mary, like I was this gift to the church,” she said.</p><p>But while she was quickly pushed into leading worship and Bible study groups for women and children, she wasn’t permitted to talk about politics.</p> <a href=\"https://www.theguardian.com/us-news/2026/sep/01/leaving-maga-support-group\">Continue reading...</a>"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "us-politics",
+        "citation": "https://www.theguardian.com/us-news/2026/sep/01/leaving-maga-support-group"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "published",
+      "proposition": {
+        "predicate": "published",
+        "object": "Tue, 01 Sep 2026 09:00:05 GMT"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "us-politics",
+        "citation": "https://www.theguardian.com/us-news/2026/sep/01/leaving-maga-support-group"
+      },
+      "status": "supported"
+    }
+  ]
+}

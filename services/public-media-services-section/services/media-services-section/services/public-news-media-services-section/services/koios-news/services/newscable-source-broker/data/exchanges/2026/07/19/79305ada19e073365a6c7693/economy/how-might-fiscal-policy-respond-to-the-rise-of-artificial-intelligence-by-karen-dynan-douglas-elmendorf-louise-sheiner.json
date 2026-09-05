@@ -1,0 +1,53 @@
+{
+  "subject": "how-might-fiscal-policy-respond-to-the-rise-of-artificial-intelligence-by-karen-dynan-douglas-elmendorf-louise-sheiner",
+  "claims": [
+    {
+      "id": "title",
+      "proposition": {
+        "predicate": "title",
+        "object": "How Might Fiscal Policy Respond to the Rise of Artificial Intelligence? -- by Karen Dynan, Douglas Elmendorf, Louise Sheiner"
+      },
+      "time": {
+        "asserted": "2026-07-19T15:04:06.303Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "economy",
+        "citation": "https://www.nber.org/papers/w35437#fromrss"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "url",
+      "proposition": {
+        "predicate": "url",
+        "object": "https://www.nber.org/papers/w35437#fromrss"
+      },
+      "time": {
+        "asserted": "2026-07-19T15:04:06.303Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "economy",
+        "citation": "https://www.nber.org/papers/w35437#fromrss"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "summary",
+      "proposition": {
+        "predicate": "summary",
+        "object": "Artificial intelligence will probably generate major changes in the US economy, although the nature, timing, and magnitude of those changes are highly uncertain. We analyze a set of long-term scenarios involving different combinations of faster productivity growth, greater income inequality, job displacement, and a higher capital share of income. For each scenario, we assess the implications for federal debt and potential policy responses related to faster economic growth, the distribution of income, support for workers who are laid off, and taxation and ownership of capital. Given the uncertainty surrounding AI’s economic effects, policies that are robust to different scenarios would be especially valuable."
+      },
+      "time": {
+        "asserted": "2026-07-19T15:04:06.303Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "economy",
+        "citation": "https://www.nber.org/papers/w35437#fromrss"
+      },
+      "status": "supported"
+    }
+  ]
+}

@@ -1,0 +1,69 @@
+{
+  "subject": "samsung-galaxy-z-fold-8-ultra-review-the-top-dog-of-folding-androids",
+  "claims": [
+    {
+      "id": "title",
+      "proposition": {
+        "predicate": "title",
+        "object": "Samsung Galaxy Z Fold 8 Ultra review: the top dog of folding Androids"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "technology",
+        "citation": "https://www.theguardian.com/technology/2026/aug/13/samsung-galaxy-z-fold-8-ultra-review-the-top-dog-of-folding-androids"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "url",
+      "proposition": {
+        "predicate": "url",
+        "object": "https://www.theguardian.com/technology/2026/aug/13/samsung-galaxy-z-fold-8-ultra-review-the-top-dog-of-folding-androids"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "technology",
+        "citation": "https://www.theguardian.com/technology/2026/aug/13/samsung-galaxy-z-fold-8-ultra-review-the-top-dog-of-folding-androids"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "summary",
+      "proposition": {
+        "predicate": "summary",
+        "object": "<p>With great software and battery for two days, the pricey svelte folder strikes best balance between phone and tablet</p><p>Samsung’s top folding phone for 2026 is its first to carry the “Ultra” moniker in its name, packing a much bigger battery and better cameras into the thin and light body of a book-style foldable.</p><p>The Galaxy Z Fold 8 Ultra continues from where the <a href=\"https://www.theguardian.com/technology/2025/jul/23/samsung-galaxy-z-fold-7-android-review-thinner-lighter-better-folding\">exquisite Z Fold 7</a> left off last year. With its svelte chocolate bar dimensions opening into a square tablet, the Ultra sits above the new <a href=\"https://www.theguardian.com/technology/2026/aug/10/samsung-galaxy-z-fold-8-review-folding-phone\">passport-shaped Z Fold 8</a> as Samsung’s top model. Costing £1,899 (€2,199/$2,099.99/A$2,999), it is a lot of money to pay for a phone, regardless of how many other devices it can theoretically replace in your pocket.</p> <a href=\"https://www.theguardian.com/technology/2026/aug/13/samsung-galaxy-z-fold-8-ultra-review-the-top-dog-of-folding-androids\">Continue reading...</a>"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "technology",
+        "citation": "https://www.theguardian.com/technology/2026/aug/13/samsung-galaxy-z-fold-8-ultra-review-the-top-dog-of-folding-androids"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "published",
+      "proposition": {
+        "predicate": "published",
+        "object": "Thu, 13 Aug 2026 06:00:50 GMT"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "technology",
+        "citation": "https://www.theguardian.com/technology/2026/aug/13/samsung-galaxy-z-fold-8-ultra-review-the-top-dog-of-folding-androids"
+      },
+      "status": "supported"
+    }
+  ]
+}

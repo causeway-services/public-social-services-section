@@ -1,0 +1,13 @@
+{
+  "kind": "koios.bilateral-contract-interface",
+  "id": "koios-hires-liss-for-editorial-judgment",
+  "customer": "urn:ame:koios-news",
+  "provider": "urn:ame:logical-inference-service-section",
+  "providerContract": "liss-inference-service",
+  "service": "independent-editorial-judgment",
+  "admission": "Koios solicits a provider-authored offer, accepts it with an attenuated capability, and invokes the exact offered operation.",
+  "packet": ["exact manuscript", "manuscript digest", "deterministic standards reading", "production run", "source and claim records used by the writer", "operative pipeline artifacts after a failure"],
+  "result": "Provider prose report plus machine-picked disposition, publishable flag, failure layer, and replay layer stored in Koios's editorial-judgment ledger.",
+  "publicationRule": "Only the latest accepted provider result for the exact current manuscript can satisfy the independent editorial gate.",
+  "status": "executing"
+}

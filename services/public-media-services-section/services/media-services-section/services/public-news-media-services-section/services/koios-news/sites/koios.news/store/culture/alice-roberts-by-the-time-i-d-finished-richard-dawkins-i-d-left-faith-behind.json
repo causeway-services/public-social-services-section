@@ -1,0 +1,69 @@
+{
+  "subject": "alice-roberts-by-the-time-i-d-finished-richard-dawkins-i-d-left-faith-behind",
+  "claims": [
+    {
+      "id": "title",
+      "proposition": {
+        "predicate": "title",
+        "object": "Alice Roberts: ‘By the time I’d finished Richard Dawkins I’d left faith behind’"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "culture",
+        "citation": "https://www.theguardian.com/books/2026/aug/21/alice-roberts-by-the-time-id-finished-richard-dawkins-id-left-faith-behind"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "url",
+      "proposition": {
+        "predicate": "url",
+        "object": "https://www.theguardian.com/books/2026/aug/21/alice-roberts-by-the-time-id-finished-richard-dawkins-id-left-faith-behind"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "culture",
+        "citation": "https://www.theguardian.com/books/2026/aug/21/alice-roberts-by-the-time-id-finished-richard-dawkins-id-left-faith-behind"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "summary",
+      "proposition": {
+        "predicate": "summary",
+        "object": "<p>The TV presenter and author on the evolutionary biologists who inspired her, the genius of George Eliot – and fun with Frog and Toad</p><p><strong>My earliest reading memory<br></strong>The first books I remember were from The Village with Three Corners<em> </em>series Sheila K McCullagh. I loved the – literally – colourful characters, like Johnny Yellow Hat. I was reading with my Grandma, in her garden perhaps, sitting on a small patio, surrounded by bright begonias and busy lizzies.</p><p><strong>My favourite book growing up<br></strong>Arnold Lobel’s wonderful Frog and Toad stories. Toad would get himself tied up in knots, trying to find a button or fly a kite, but Frog was always there – a constant, caring and funny friend. I enjoyed reading these stories to my own children when they were young, and we still sometimes go back and revisit them. They’re so full of humour, heart and simple humanism.</p> <a href=\"https://www.theguardian.com/books/2026/aug/21/alice-roberts-by-the-time-id-finished-richard-dawkins-id-left-faith-behind\">Continue reading...</a>"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "culture",
+        "citation": "https://www.theguardian.com/books/2026/aug/21/alice-roberts-by-the-time-id-finished-richard-dawkins-id-left-faith-behind"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "published",
+      "proposition": {
+        "predicate": "published",
+        "object": "Fri, 21 Aug 2026 09:00:31 GMT"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "culture",
+        "citation": "https://www.theguardian.com/books/2026/aug/21/alice-roberts-by-the-time-id-finished-richard-dawkins-id-left-faith-behind"
+      },
+      "status": "supported"
+    }
+  ]
+}

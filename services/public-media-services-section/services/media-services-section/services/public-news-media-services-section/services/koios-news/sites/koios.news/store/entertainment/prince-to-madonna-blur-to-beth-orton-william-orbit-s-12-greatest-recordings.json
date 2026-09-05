@@ -1,0 +1,69 @@
+{
+  "subject": "prince-to-madonna-blur-to-beth-orton-william-orbit-s-12-greatest-recordings",
+  "claims": [
+    {
+      "id": "title",
+      "proposition": {
+        "predicate": "title",
+        "object": "Prince to Madonna, Blur to Beth Orton: William Orbit’s 12 greatest recordings"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "entertainment",
+        "citation": "https://www.theguardian.com/music/2026/aug/07/william-orbit-greatest-recordings-prince-madonna-blur-beth-orton"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "url",
+      "proposition": {
+        "predicate": "url",
+        "object": "https://www.theguardian.com/music/2026/aug/07/william-orbit-greatest-recordings-prince-madonna-blur-beth-orton"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "entertainment",
+        "citation": "https://www.theguardian.com/music/2026/aug/07/william-orbit-greatest-recordings-prince-madonna-blur-beth-orton"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "summary",
+      "proposition": {
+        "predicate": "summary",
+        "object": "<p>The late producer’s gift for bringing in elements from dance music’s cutting edge drew all manner of music royalty – and he often made them sound better than ever before</p><p>• <a href=\"https://www.theguardian.com/music/2026/aug/07/william-orbit-pop-producer-madonna-all-saints-dies-aged-69\">William Orbit, pop producer for Madonna, All Saints and more, dies aged 69</a></p><p>William Orbit’s first band were a curious business. Torch Song had one foot in the pop mainstream – their biggest success came about when one of their tracks was featured on the soundtrack of the Tom Hanks-starring sex comedy Bachelor Party – and one in the left field: they recorded at London’s anarchist hub Centro Iberico, famed for staging gigs by Crass and Throbbing Gristle; they covered the Velvet Underground’s Venus in Furs. Mothdoom Ecstasy is very much of its time – stuttering samples, booming drums – but in its hazy synth textures and ethereal female vocals, you can definitely hear intimations of Orbit’s future approach.</p> <a href=\"https://www.theguardian.com/music/2026/aug/07/william-orbit-greatest-recordings-prince-madonna-blur-beth-orton\">Continue reading...</a>"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "entertainment",
+        "citation": "https://www.theguardian.com/music/2026/aug/07/william-orbit-greatest-recordings-prince-madonna-blur-beth-orton"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "published",
+      "proposition": {
+        "predicate": "published",
+        "object": "Fri, 07 Aug 2026 15:28:45 GMT"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "entertainment",
+        "citation": "https://www.theguardian.com/music/2026/aug/07/william-orbit-greatest-recordings-prince-madonna-blur-beth-orton"
+      },
+      "status": "supported"
+    }
+  ]
+}

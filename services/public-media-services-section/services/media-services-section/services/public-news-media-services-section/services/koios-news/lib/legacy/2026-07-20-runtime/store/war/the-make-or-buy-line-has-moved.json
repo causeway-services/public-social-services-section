@@ -1,0 +1,69 @@
+{
+  "subject": "the-make-or-buy-line-has-moved",
+  "claims": [
+    {
+      "id": "title",
+      "proposition": {
+        "predicate": "title",
+        "object": "The Make-or-Buy Line has Moved"
+      },
+      "time": {
+        "asserted": "2026-07-20T09:48:50.211Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "war",
+        "citation": "https://warontherocks.com/the-make-or-buy-line-has-moved/"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "url",
+      "proposition": {
+        "predicate": "url",
+        "object": "https://warontherocks.com/the-make-or-buy-line-has-moved/"
+      },
+      "time": {
+        "asserted": "2026-07-20T09:48:50.211Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "war",
+        "citation": "https://warontherocks.com/the-make-or-buy-line-has-moved/"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "summary",
+      "proposition": {
+        "predicate": "summary",
+        "object": "The secretary of defense’s November announcement on acquisition reform laid out an unprecedented vision across the entire acquisition spectrum to improve the delivery speed of critical capabilities to our warfighters. One foundational pillar is the implementation of a commercial first policy, which laid out several initiatives: leveraging existing but less often used acquisition authorities, maximizing non-traditional contract vehicles, and increasing the use of more flexible solicitations. Most critically, it drives a commercial solution-first paradigm. If the immediate commercial solution isn’t sufficient, acquisition officers then find ways to modify it. If that approach does not work, then and only then do The post The Make-or-Buy Line has Moved appeared first on War on the Rocks ."
+      },
+      "time": {
+        "asserted": "2026-07-20T09:48:50.211Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "war",
+        "citation": "https://warontherocks.com/the-make-or-buy-line-has-moved/"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "published",
+      "proposition": {
+        "predicate": "published",
+        "object": "Mon, 20 Jul 2026 07:30:44 +0000"
+      },
+      "time": {
+        "asserted": "2026-07-20T09:48:50.211Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "war",
+        "citation": "https://warontherocks.com/the-make-or-buy-line-has-moved/"
+      },
+      "status": "supported"
+    }
+  ]
+}

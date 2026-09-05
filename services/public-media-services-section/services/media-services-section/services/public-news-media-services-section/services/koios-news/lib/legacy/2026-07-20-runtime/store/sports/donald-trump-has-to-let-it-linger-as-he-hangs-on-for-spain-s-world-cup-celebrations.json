@@ -1,0 +1,69 @@
+{
+  "subject": "donald-trump-has-to-let-it-linger-as-he-hangs-on-for-spain-s-world-cup-celebrations",
+  "claims": [
+    {
+      "id": "title",
+      "proposition": {
+        "predicate": "title",
+        "object": "Donald Trump has to let it linger as he hangs on for Spain’s World Cup celebrations"
+      },
+      "time": {
+        "asserted": "2026-07-20T09:48:52.778Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "sports",
+        "citation": "https://www.theguardian.com/football/2026/jul/20/trump-world-cup-trophy-lift-spain-infantino-fifa"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "url",
+      "proposition": {
+        "predicate": "url",
+        "object": "https://www.theguardian.com/football/2026/jul/20/trump-world-cup-trophy-lift-spain-infantino-fifa"
+      },
+      "time": {
+        "asserted": "2026-07-20T09:48:52.778Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "sports",
+        "citation": "https://www.theguardian.com/football/2026/jul/20/trump-world-cup-trophy-lift-spain-infantino-fifa"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "summary",
+      "proposition": {
+        "predicate": "summary",
+        "object": "<p>For the second time in as many years, the US president made sure he was a part of a moment of triumph he had little to do with</p><p><a href=\"https://www.theguardian.com/football/2025/jul/13/trump-club-world-cup-final-chelsea-psg\">He did it again</a>. There was a world championship trophy, waiting to be held aloft at the same gargantuan stadium in East Rutherford, New Jersey. There was Gianni Infantino, waiting alongside the US president. And there was that same US president, Donald Trump, fresh off a round of <a href=\"https://www.theguardian.com/football/2025/jul/13/trump-club-world-cup-final-chelsea-psg\">stadium-wide booing</a> and jeering, handing off the trophy with Infantino and then staying stubbornly in the frame as another team enjoyed the pinnacle of their professional careers with an octogenarian standing awkwardly in the shot.</p><p>Should we be surprised? Marc Cucurella probably wasn’t – the defender was on stage for both occasions, first as a member of Chelsea as they lifted the 2025 Club World Cup, and then again on Sunday when Trump <a href=\"https://www.theguardian.com/football/2026/jul/19/donald-trump-world-cup-final\">once again remained in the shot</a> as Spain celebrated their World Cup victory.</p> <a href=\"https://www.theguardian.com/football/2026/jul/20/trump-world-cup-trophy-lift-spain-infantino-fifa\">Continue reading...</a>"
+      },
+      "time": {
+        "asserted": "2026-07-20T09:48:52.778Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "sports",
+        "citation": "https://www.theguardian.com/football/2026/jul/20/trump-world-cup-trophy-lift-spain-infantino-fifa"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "published",
+      "proposition": {
+        "predicate": "published",
+        "object": "Mon, 20 Jul 2026 08:30:50 GMT"
+      },
+      "time": {
+        "asserted": "2026-07-20T09:48:52.778Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "sports",
+        "citation": "https://www.theguardian.com/football/2026/jul/20/trump-world-cup-trophy-lift-spain-infantino-fifa"
+      },
+      "status": "supported"
+    }
+  ]
+}

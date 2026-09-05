@@ -1,0 +1,69 @@
+{
+  "subject": "air-quality-warnings-remain-in-place-across-us-as-wildfire-smoke-continues-to-swathe-country",
+  "claims": [
+    {
+      "id": "title",
+      "proposition": {
+        "predicate": "title",
+        "object": "Air quality warnings remain in place across US as wildfire smoke continues to swathe country"
+      },
+      "time": {
+        "asserted": "2026-07-19T02:19:57.834Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "politics",
+        "citation": "https://www.theguardian.com/world/2026/jul/18/air-quality-warnings-canada-wildfires"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "url",
+      "proposition": {
+        "predicate": "url",
+        "object": "https://www.theguardian.com/world/2026/jul/18/air-quality-warnings-canada-wildfires"
+      },
+      "time": {
+        "asserted": "2026-07-19T02:19:57.834Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "politics",
+        "citation": "https://www.theguardian.com/world/2026/jul/18/air-quality-warnings-canada-wildfires"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "summary",
+      "proposition": {
+        "predicate": "summary",
+        "object": "<p>Rain could alleviate conditions in mid-Atlantic and north-east, with World Cup final expected to go ahead on Sunday</p><p>Warnings of dangerous conditions are expected to remain in place on Saturday across swathes of the US, amid uncertainty about where the heavy wildfire smoke swirling from the Canadian province of Ontario and the US state of Minnesota will head next.</p><p>Some parts of the US mid-Atlantic and north-east regions will continue to endure poor air quality until Saturday afternoon, where there is a <a href=\"https://www.accuweather.com/en/severe-weather/smoke-and-storms-to-collide-over-the-northeast-this-weekend/1912710\">high chance of thunderstorms</a>, which could bring some reprieve from the poor air but come with other risks like flash flooding and high winds. Meanwhile, parts of the midwest and Great Lakes regions will continue to see dangerous air quality.</p> <a href=\"https://www.theguardian.com/world/2026/jul/18/air-quality-warnings-canada-wildfires\">Continue reading...</a>"
+      },
+      "time": {
+        "asserted": "2026-07-19T02:19:57.834Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "politics",
+        "citation": "https://www.theguardian.com/world/2026/jul/18/air-quality-warnings-canada-wildfires"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "published",
+      "proposition": {
+        "predicate": "published",
+        "object": "Sat, 18 Jul 2026 14:13:36 GMT"
+      },
+      "time": {
+        "asserted": "2026-07-19T02:19:57.834Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "politics",
+        "citation": "https://www.theguardian.com/world/2026/jul/18/air-quality-warnings-canada-wildfires"
+      },
+      "status": "supported"
+    }
+  ]
+}

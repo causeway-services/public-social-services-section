@@ -1,0 +1,69 @@
+{
+  "subject": "did-you-solve-it-are-you-a-match-for-the-world-s-smartest-teen",
+  "claims": [
+    {
+      "id": "title",
+      "proposition": {
+        "predicate": "title",
+        "object": "Did you solve it? Are you a match for the world’s smartest teen?"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "science",
+        "citation": "https://www.theguardian.com/science/2026/aug/03/did-you-solve-it-are-you-a-match-for-the-worlds-smartest-teen"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "url",
+      "proposition": {
+        "predicate": "url",
+        "object": "https://www.theguardian.com/science/2026/aug/03/did-you-solve-it-are-you-a-match-for-the-worlds-smartest-teen"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "science",
+        "citation": "https://www.theguardian.com/science/2026/aug/03/did-you-solve-it-are-you-a-match-for-the-worlds-smartest-teen"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "summary",
+      "proposition": {
+        "predicate": "summary",
+        "object": "<p>The solution to today’s puzzle</p><p>Earlier today I set you the following puzzle, suggested by Briton Alex Chui, the most successful ever candidate at the International Mathematical Olympiad.</p><p>Last month Alex, who is a pupil at Tonbridge School in Kent, became the first person to win a medal at the olympiad for seven years in a row. Bravo!</p> <a href=\"https://www.theguardian.com/science/2026/aug/03/did-you-solve-it-are-you-a-match-for-the-worlds-smartest-teen\">Continue reading...</a>"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "science",
+        "citation": "https://www.theguardian.com/science/2026/aug/03/did-you-solve-it-are-you-a-match-for-the-worlds-smartest-teen"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "published",
+      "proposition": {
+        "predicate": "published",
+        "object": "Mon, 03 Aug 2026 16:00:22 GMT"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "science",
+        "citation": "https://www.theguardian.com/science/2026/aug/03/did-you-solve-it-are-you-a-match-for-the-worlds-smartest-teen"
+      },
+      "status": "supported"
+    }
+  ]
+}

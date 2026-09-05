@@ -1,0 +1,69 @@
+{
+  "subject": "we-ve-always-been-wary-of-working-together-val-mcdermid-and-jo-sharp-on-writing-a-novel-as-a-cou",
+  "claims": [
+    {
+      "id": "title",
+      "proposition": {
+        "predicate": "title",
+        "object": "‘We’ve always been wary of working together’: Val McDermid and Jo Sharp on writing a novel as a couple"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "culture",
+        "citation": "https://www.theguardian.com/books/2026/jul/28/val-mcdermid-jo-sharp-this-door-of-the-seas"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "url",
+      "proposition": {
+        "predicate": "url",
+        "object": "https://www.theguardian.com/books/2026/jul/28/val-mcdermid-jo-sharp-this-door-of-the-seas"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "culture",
+        "citation": "https://www.theguardian.com/books/2026/jul/28/val-mcdermid-jo-sharp-this-door-of-the-seas"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "summary",
+      "proposition": {
+        "predicate": "summary",
+        "object": "<p>The bestselling crime writer and Scotland’s first female Geographer Royal had long kept their work separate, until a chance discovery about a doomed 17th-century expedition forced them to collaborate</p><p>The airy, modern house on the outskirts of Edinburgh shared by Val McDermid and Jo Sharp is surrounded by greenery and feels as though it was designed to provide enough space for two minds to think.</p><p>Both women are high achievers in their fields, <a href=\"https://www.theguardian.com/lifeandstyle/2022/dec/22/how-val-mcdermid-met-jo-sharp-i-googled-her-to-make-sure-she-was-a-real-person\">a Scottish power couple</a> made up of the <a href=\"https://www.theguardian.com/books/val-mcdermid\">Queen of Crime </a>and the Scottish Geographer Royal. Happily for them, there is normally no overlap in their work.</p> <a href=\"https://www.theguardian.com/books/2026/jul/28/val-mcdermid-jo-sharp-this-door-of-the-seas\">Continue reading...</a>"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "culture",
+        "citation": "https://www.theguardian.com/books/2026/jul/28/val-mcdermid-jo-sharp-this-door-of-the-seas"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "published",
+      "proposition": {
+        "predicate": "published",
+        "object": "Tue, 28 Jul 2026 15:38:54 GMT"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "culture",
+        "citation": "https://www.theguardian.com/books/2026/jul/28/val-mcdermid-jo-sharp-this-door-of-the-seas"
+      },
+      "status": "supported"
+    }
+  ]
+}

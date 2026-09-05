@@ -1,0 +1,69 @@
+{
+  "subject": "i-don-t-care-if-i-look-good-french-heartthrob-louis-garrel-on-fashion-fatherhood-and-his-radical",
+  "claims": [
+    {
+      "id": "title",
+      "proposition": {
+        "predicate": "title",
+        "object": "‘I don’t care if I look good’: French heartthrob Louis Garrel on fashion, fatherhood and his radically dorky new role"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "entertainment",
+        "citation": "https://www.theguardian.com/film/2026/aug/28/louis-garrel-interview-just-an-illusion-movie-heartbeats-dreamers-saint-laurent"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "url",
+      "proposition": {
+        "predicate": "url",
+        "object": "https://www.theguardian.com/film/2026/aug/28/louis-garrel-interview-just-an-illusion-movie-heartbeats-dreamers-saint-laurent"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "entertainment",
+        "citation": "https://www.theguardian.com/film/2026/aug/28/louis-garrel-interview-just-an-illusion-movie-heartbeats-dreamers-saint-laurent"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "summary",
+      "proposition": {
+        "predicate": "summary",
+        "object": "<p>The star has long been French cinema’s favourite tousle-haired Adonis, which makes his latest performance – as a schlubby, stay-at-home dad – all the more surprising. ‘I appreciate people laughing at me,’ he says</p><p>‘Even though I’ve been working in film for over 20 years, I still have this desire to look beautiful on screen,” says Louis Garrel, on a video call from his bed inside a boat off the coast of Corsica. The French film star is lying on his stomach, occasionally kicking up his bare legs, ruffling his curls and running the nail of his thumb over his moustache. I <em>think </em>the person he sees on the laptop screen in front of him is me, but I am pretty certain he is flirting with his own reflection.</p><p>The attraction between the Paris-born 43-year-old and the camera tends to be reciprocal. Long of limb, tousled of hair and chiselled of nose, Garrel has spent a career on screen as French cinema’s favourite Adonis – the man film-makers turn to when they need an erotic wrecking ball to smash up bourgeois twosomes and turn them into quivering menages a trois.</p> <a href=\"https://www.theguardian.com/film/2026/aug/28/louis-garrel-interview-just-an-illusion-movie-heartbeats-dreamers-saint-laurent\">Continue reading...</a>"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "entertainment",
+        "citation": "https://www.theguardian.com/film/2026/aug/28/louis-garrel-interview-just-an-illusion-movie-heartbeats-dreamers-saint-laurent"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "published",
+      "proposition": {
+        "predicate": "published",
+        "object": "Fri, 28 Aug 2026 12:00:57 GMT"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "entertainment",
+        "citation": "https://www.theguardian.com/film/2026/aug/28/louis-garrel-interview-just-an-illusion-movie-heartbeats-dreamers-saint-laurent"
+      },
+      "status": "supported"
+    }
+  ]
+}

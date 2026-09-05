@@ -1,0 +1,69 @@
+{
+  "subject": "the-great-dying-offers-a-warning-for-a-world-ignoring-climate-collapse",
+  "claims": [
+    {
+      "id": "title",
+      "proposition": {
+        "predicate": "title",
+        "object": "The Great Dying offers a warning for a world ignoring climate collapse"
+      },
+      "time": {
+        "asserted": "2026-07-18T04:08:26.505Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "degrowth",
+        "citation": "https://www.resilience.org/stories/2026-07-14/the-great-dying-offers-a-warning-for-a-world-ignoring-climate-collapse/"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "url",
+      "proposition": {
+        "predicate": "url",
+        "object": "https://www.resilience.org/stories/2026-07-14/the-great-dying-offers-a-warning-for-a-world-ignoring-climate-collapse/"
+      },
+      "time": {
+        "asserted": "2026-07-18T04:08:26.505Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "degrowth",
+        "citation": "https://www.resilience.org/stories/2026-07-14/the-great-dying-offers-a-warning-for-a-world-ignoring-climate-collapse/"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "summary",
+      "proposition": {
+        "predicate": "summary",
+        "object": "Are we doomed within the next fifty years, or will it take many centuries? The end-Permian “Great Dying” can help us put today’s extinction crisis into perspective. The unsettling parallels offer a possible roadmap if we learn to see geological history as a series of recurring patterns rather than distant, irrelevant events."
+      },
+      "time": {
+        "asserted": "2026-07-18T04:08:26.505Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "degrowth",
+        "citation": "https://www.resilience.org/stories/2026-07-14/the-great-dying-offers-a-warning-for-a-world-ignoring-climate-collapse/"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "published",
+      "proposition": {
+        "predicate": "published",
+        "object": "Tue, 14 Jul 2026 08:00:12 +0000"
+      },
+      "time": {
+        "asserted": "2026-07-18T04:08:26.505Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "degrowth",
+        "citation": "https://www.resilience.org/stories/2026-07-14/the-great-dying-offers-a-warning-for-a-world-ignoring-climate-collapse/"
+      },
+      "status": "supported"
+    }
+  ]
+}

@@ -1,0 +1,69 @@
+{
+  "subject": "honor-magic-v6-review-sleek-foldable-phone-lacking-a-bit-of-polish",
+  "claims": [
+    {
+      "id": "title",
+      "proposition": {
+        "predicate": "title",
+        "object": "Honor Magic V6 review: sleek foldable phone lacking a bit of polish"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "technology",
+        "citation": "https://www.theguardian.com/technology/2026/jul/27/honor-magic-v6-review-android-sleek-foldable-phone-battery-cameras"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "url",
+      "proposition": {
+        "predicate": "url",
+        "object": "https://www.theguardian.com/technology/2026/jul/27/honor-magic-v6-review-android-sleek-foldable-phone-battery-cameras"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "technology",
+        "citation": "https://www.theguardian.com/technology/2026/jul/27/honor-magic-v6-review-android-sleek-foldable-phone-battery-cameras"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "summary",
+      "proposition": {
+        "predicate": "summary",
+        "object": "<p>Super-premium Android has top performance, long battery life and good cameras, but is let down by software</p><p>Honor’s svelte Android phone-tablet has been given a glow-up for its sixth version, offering a great alternative to Samsung for a fancy foldable with a red suede-like back framed in gold.</p><p>The Magic V6 continues the Chinese challenger brand’s strategy of taking a razor-thin device and slapping a giant circular lump on the back to fit in top-class cameras, something others often forgo. It costs a not inconsiderable £1,500 (€1,700/A$2,999) but only until August when the price jumps to a cool £2,000 (€2,300) – a solid £300 more than last year’s model as the cost of <a href=\"https://www.theguardian.com/business/2026/may/06/ramageddon-cheap-phones-laptops-macbooks-ps5s-ai-chips\">RAMageddon continues to bite</a>, even at the very top end of the market.</p><p><strong>Main screen:</strong> 7.95in (403ppi) 120Hz OLED flexible display</p><p><strong>Cover screen:</strong> 6.52in (406ppi) 120Hz OLED</p><p><strong>Processor:</strong> Qualcomm Snapdragon 8 Elite Gen 5</p><p><strong>RAM:</strong> 16GB</p><p><strong>Storage:</strong> 512GB</p><p><strong>Operating system:</strong> MagicOS 10 (Android 16)</p><p><strong>Camera:</strong> 50MP + 50MP ultrawide + 64MP 3x tele; 2x 20MP selfie</p><p><strong>Connectivity:</strong> 5G, dual sim + esim, USB-C, wifi 7, NFC, Bluetooth 6, GNSS</p><p><strong>Water resistance:</strong> <a href=\"https://www.iec.ch/ip-ratings\">IP68/69</a> (1.5 metres for 30 minutes)</p><p><strong>Dimensions folded:</strong> 156.7 x 74.5 x 8.75-9mm</p><p><strong>Dimensions unfolded:</strong> 156.7 x 145.6 x 4.0-4.1mm</p><p><strong>Weight:</strong> 219-224g</p> <a href=\"https://www.theguardian.com/technology/2026/jul/27/honor-magic-v6-review-android-sleek-foldable-phone-battery-cameras\">Continue reading...</a>"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "technology",
+        "citation": "https://www.theguardian.com/technology/2026/jul/27/honor-magic-v6-review-android-sleek-foldable-phone-battery-cameras"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "published",
+      "proposition": {
+        "predicate": "published",
+        "object": "Mon, 27 Jul 2026 06:00:32 GMT"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "technology",
+        "citation": "https://www.theguardian.com/technology/2026/jul/27/honor-magic-v6-review-android-sleek-foldable-phone-battery-cameras"
+      },
+      "status": "supported"
+    }
+  ]
+}

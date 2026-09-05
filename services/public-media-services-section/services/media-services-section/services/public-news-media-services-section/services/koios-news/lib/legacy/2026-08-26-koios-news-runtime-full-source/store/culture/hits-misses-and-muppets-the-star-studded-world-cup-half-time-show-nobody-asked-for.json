@@ -1,0 +1,69 @@
+{
+  "subject": "hits-misses-and-muppets-the-star-studded-world-cup-half-time-show-nobody-asked-for",
+  "claims": [
+    {
+      "id": "title",
+      "proposition": {
+        "predicate": "title",
+        "object": "Hits, misses and Muppets: the star-studded World Cup half-time show nobody asked for"
+      },
+      "time": {
+        "asserted": "2026-07-20T09:48:52.265Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "culture",
+        "citation": "https://www.theguardian.com/football/2026/jul/19/hits-misses-and-muppets-the-star-studded-world-cup-half-time-show-nobody-asked-for"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "url",
+      "proposition": {
+        "predicate": "url",
+        "object": "https://www.theguardian.com/football/2026/jul/19/hits-misses-and-muppets-the-star-studded-world-cup-half-time-show-nobody-asked-for"
+      },
+      "time": {
+        "asserted": "2026-07-20T09:48:52.265Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "culture",
+        "citation": "https://www.theguardian.com/football/2026/jul/19/hits-misses-and-muppets-the-star-studded-world-cup-half-time-show-nobody-asked-for"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "summary",
+      "proposition": {
+        "predicate": "summary",
+        "object": "<p>It zipped along, cramming in Shakira, Madonna and Coldplay, but football fans may not be convinced of need for this mid-match spectacle</p><p>Like hydration breaks and Donald Trump’s ability to get refereeing decisions overturned by simply phoning up the president of Fifa and complaining, the final half-time show is an innovation of the 2026 World Cup that comes with a degree of controversy attached. For one thing, its existence automatically means the World Cup final breaks the International Football Association’s 15-minute half-time mandate.</p><p>For another, its obvious antecedent lies in the NFL’s Super Bowl, where the half-time entertainment has mushroomed over the decades from a few marching bands to one of the big pop events of the year. To its detractors, it smacks of America not so much embracing the World Cup as imposing itself upon it.</p> <a href=\"https://www.theguardian.com/football/2026/jul/19/hits-misses-and-muppets-the-star-studded-world-cup-half-time-show-nobody-asked-for\">Continue reading...</a>"
+      },
+      "time": {
+        "asserted": "2026-07-20T09:48:52.265Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "culture",
+        "citation": "https://www.theguardian.com/football/2026/jul/19/hits-misses-and-muppets-the-star-studded-world-cup-half-time-show-nobody-asked-for"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "published",
+      "proposition": {
+        "predicate": "published",
+        "object": "Sun, 19 Jul 2026 22:11:12 GMT"
+      },
+      "time": {
+        "asserted": "2026-07-20T09:48:52.265Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "culture",
+        "citation": "https://www.theguardian.com/football/2026/jul/19/hits-misses-and-muppets-the-star-studded-world-cup-half-time-show-nobody-asked-for"
+      },
+      "status": "supported"
+    }
+  ]
+}

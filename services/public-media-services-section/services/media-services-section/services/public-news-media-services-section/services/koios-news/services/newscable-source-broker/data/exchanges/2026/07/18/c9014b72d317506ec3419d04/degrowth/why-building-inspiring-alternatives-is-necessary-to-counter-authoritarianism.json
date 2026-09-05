@@ -1,0 +1,69 @@
+{
+  "subject": "why-building-inspiring-alternatives-is-necessary-to-counter-authoritarianism",
+  "claims": [
+    {
+      "id": "title",
+      "proposition": {
+        "predicate": "title",
+        "object": "Why building inspiring alternatives is necessary to counter authoritarianism"
+      },
+      "time": {
+        "asserted": "2026-07-18T19:52:29.175Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "degrowth",
+        "citation": "https://www.resilience.org/stories/2026-07-14/why-building-inspiring-alternatives-is-necessary-to-counter-authoritarianism-2/"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "url",
+      "proposition": {
+        "predicate": "url",
+        "object": "https://www.resilience.org/stories/2026-07-14/why-building-inspiring-alternatives-is-necessary-to-counter-authoritarianism-2/"
+      },
+      "time": {
+        "asserted": "2026-07-18T19:52:29.175Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "degrowth",
+        "citation": "https://www.resilience.org/stories/2026-07-14/why-building-inspiring-alternatives-is-necessary-to-counter-authoritarianism-2/"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "summary",
+      "proposition": {
+        "predicate": "summary",
+        "object": "Vulnerable communities face growing threats: the climate crisis is outpacing scientists’ worst predictions and authoritarianism is no longer a distant possibility. So what can we do? We build. We shift away from reform and instead direct our energy toward creating entirely new systems."
+      },
+      "time": {
+        "asserted": "2026-07-18T19:52:29.175Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "degrowth",
+        "citation": "https://www.resilience.org/stories/2026-07-14/why-building-inspiring-alternatives-is-necessary-to-counter-authoritarianism-2/"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "published",
+      "proposition": {
+        "predicate": "published",
+        "object": "Tue, 14 Jul 2026 08:00:26 +0000"
+      },
+      "time": {
+        "asserted": "2026-07-18T19:52:29.175Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "degrowth",
+        "citation": "https://www.resilience.org/stories/2026-07-14/why-building-inspiring-alternatives-is-necessary-to-counter-authoritarianism-2/"
+      },
+      "status": "supported"
+    }
+  ]
+}

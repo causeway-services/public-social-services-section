@@ -1,0 +1,69 @@
+{
+  "subject": "ai-may-be-the-toughest-challenge-anthony-albanese-faces-this-term-guardrails-are-urgently-needed-peter-lewis",
+  "claims": [
+    {
+      "id": "title",
+      "proposition": {
+        "predicate": "title",
+        "object": "AI may be the toughest challenge Anthony Albanese faces this term. Guardrails are urgently needed | Peter Lewis"
+      },
+      "time": {
+        "asserted": "2026-07-18T04:08:17.794Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "economy",
+        "citation": "https://www.theguardian.com/commentisfree/2026/jul/15/australia-ai-challenge-anthony-albanese"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "url",
+      "proposition": {
+        "predicate": "url",
+        "object": "https://www.theguardian.com/commentisfree/2026/jul/15/australia-ai-challenge-anthony-albanese"
+      },
+      "time": {
+        "asserted": "2026-07-18T04:08:17.794Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "economy",
+        "citation": "https://www.theguardian.com/commentisfree/2026/jul/15/australia-ai-challenge-anthony-albanese"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "summary",
+      "proposition": {
+        "predicate": "summary",
+        "object": "<p>Coherent decision-making and internal accountability are critical to meeting this manic moment</p><ul><li><p><a href=\"https://www.theguardian.com/technology/2026/jul/14/anthony-albanese-promises-fast-track-approvals-for-datacentres-to-shore-up-ai-investment\">Anthony Albanese promises fast-track approvals for datacentres to shore up AI investment</a></p></li></ul><p>The University of Sydney was the natural setting for Anthony Albanese to lay out his vision for how Australia should confront the profound economic and social challenges posed by so-called artificial intelligence technology.</p><p>His time around the jacaranda and sandstone in the early 80s was a seminal marker in the future PM’s development, not as a scholar but as a rabble-rousing organiser honing skills that would make him the political grandmaster of his generation.</p> <a href=\"https://www.theguardian.com/commentisfree/2026/jul/15/australia-ai-challenge-anthony-albanese\">Continue reading...</a>"
+      },
+      "time": {
+        "asserted": "2026-07-18T04:08:17.794Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "economy",
+        "citation": "https://www.theguardian.com/commentisfree/2026/jul/15/australia-ai-challenge-anthony-albanese"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "published",
+      "proposition": {
+        "predicate": "published",
+        "object": "Wed, 15 Jul 2026 02:53:48 GMT"
+      },
+      "time": {
+        "asserted": "2026-07-18T04:08:17.794Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "economy",
+        "citation": "https://www.theguardian.com/commentisfree/2026/jul/15/australia-ai-challenge-anthony-albanese"
+      },
+      "status": "supported"
+    }
+  ]
+}

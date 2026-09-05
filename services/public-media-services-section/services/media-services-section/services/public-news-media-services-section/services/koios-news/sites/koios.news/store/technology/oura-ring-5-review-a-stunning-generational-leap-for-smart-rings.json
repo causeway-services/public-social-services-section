@@ -1,0 +1,69 @@
+{
+  "subject": "oura-ring-5-review-a-stunning-generational-leap-for-smart-rings",
+  "claims": [
+    {
+      "id": "title",
+      "proposition": {
+        "predicate": "title",
+        "object": "Oura Ring 5 review: a stunning generational leap for smart rings"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "technology",
+        "citation": "https://www.theguardian.com/technology/2026/jun/30/oura-ring-5-review-smart-ring-health-tracking"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "url",
+      "proposition": {
+        "predicate": "url",
+        "object": "https://www.theguardian.com/technology/2026/jun/30/oura-ring-5-review-smart-ring-health-tracking"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "technology",
+        "citation": "https://www.theguardian.com/technology/2026/jun/30/oura-ring-5-review-smart-ring-health-tracking"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "summary",
+      "proposition": {
+        "predicate": "summary",
+        "object": "<p>Slimmer, longer lasting and much easier to live with, new Oura sets a very high new bar for health-tracking wearables</p><p>Oura’s new Ring 5 is a massive upgrade for smart rings, dramatically shrinking in size and weight to bring them right into line with standard wedding bands and other jewellery. It is finally a smart ring you can genuinely forget you’re wearing.</p><p>The Ring 5 is a straight replacement for the <a href=\"https://www.theguardian.com/technology/2024/oct/15/oura-ring-4-review-best-smart-ring-battery-upgrade\">popular Ring 4</a> and costs from £399 (€399/$399/$A649), though it requires a £5.99 (€5.99/$5.99/A$9.99) a month subscription to access anything but basic daily metrics. An Oura is not a cheap proposition.</p> <a href=\"https://www.theguardian.com/technology/2026/jun/30/oura-ring-5-review-smart-ring-health-tracking\">Continue reading...</a>"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "technology",
+        "citation": "https://www.theguardian.com/technology/2026/jun/30/oura-ring-5-review-smart-ring-health-tracking"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "published",
+      "proposition": {
+        "predicate": "published",
+        "object": "Tue, 30 Jun 2026 06:00:42 GMT"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "technology",
+        "citation": "https://www.theguardian.com/technology/2026/jun/30/oura-ring-5-review-smart-ring-health-tracking"
+      },
+      "status": "supported"
+    }
+  ]
+}

@@ -1,0 +1,34 @@
+{
+  "name": "@causeway-services/newswire-editorial-production",
+  "version": "2.1.6",
+  "type": "module",
+  "description": "RMN prose-production settlement buying one bounded work lot from the inference market without supplier selection or publication authority.",
+  "files": [
+    "lib/ownership.json",
+    "src/"
+  ],
+  "exports": {
+    ".": "./src/contract-prose-contribution.mjs",
+    "./editorial-witness": "./src/editorial-witness.mjs",
+    "./package.json": "./package.json"
+  },
+  "bin": {
+    "invoke-service": "src/contract-prose-contribution.mjs"
+  },
+  "scripts": {
+    "check": "node --check src/*.mjs && node --check test/*.test.mjs",
+    "test": "node --test test/*.test.mjs"
+  },
+  "engines": {
+    "node": ">=22.18"
+  },
+  "dependencies": {
+    "@lenticule-science/wit-transition-assay": "1.1.5",
+    "@red-cup-engineering/witness-journal-entry-service": "0.1.7",
+    "@red-cup-engineering/witness-journal-log-service": "0.1.6",
+    "@red-cup-engineering/a2a-contracted-agent-service": "2.1.1",
+    "@red-cup-engineering/inference-work-lot-service": "4.2.7",
+    "@red-cup-engineering/relation-model-notation-typing": "0.0.2",
+    "@red-cup-engineering/semantic-content-identify-service": "0.2.7"
+  }
+}

@@ -1,0 +1,69 @@
+{
+  "subject": "top-eu-court-clips-youtube-s-intermediary-defense-over-reviewed-content",
+  "claims": [
+    {
+      "id": "title",
+      "proposition": {
+        "predicate": "title",
+        "object": "Top EU court clips YouTube's intermediary defense over reviewed content"
+      },
+      "time": {
+        "asserted": "2026-07-18T07:49:54.433Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "technology",
+        "citation": "https://www.theregister.com/off-prem/2026/07/17/top-eu-court-clips-youtubes-intermediary-defense-over-reviewed-content/5274299"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "url",
+      "proposition": {
+        "predicate": "url",
+        "object": "https://www.theregister.com/off-prem/2026/07/17/top-eu-court-clips-youtubes-intermediary-defense-over-reviewed-content/5274299"
+      },
+      "time": {
+        "asserted": "2026-07-18T07:49:54.433Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "technology",
+        "citation": "https://www.theregister.com/off-prem/2026/07/17/top-eu-court-clips-youtubes-intermediary-defense-over-reviewed-content/5274299"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "summary",
+      "proposition": {
+        "predicate": "summary",
+        "object": "The Court of Justice of the European Union (CJEU) has ruled that Google may not be able to claim intermediary liability protection for YouTube content it reviews as part of a commercial partnership with a creator. The case stems from a €750,000 fine imposed on Google Ireland by Italy's communications regulator in 2022 over YouTube videos promoting online gambling. Before entering the revenue-sharing agreement, under which Google placed pre-roll ads on the creator's videos, the company reviewed the channel's content. The regulator argued that this examination undermined Google's claim that it acted as a neutral intermediary exempt from liability. Google appealed against the fine, and the case was referred to the CJEU. The court rejected Mountain View's reading of the liability exemption, leaving Italy's Council of State to decide the dispute. The exemption still applies where \"the service provider has neither knowledge of nor control over the information which is transmitted or stored.\" However, in this instance, Google was aware of the content. The court held that the exemption \"does not apply\" to a platform operator that agreed commercial terms with a channel where the operator \"carried out an examination of the content of that channel,\" including its main theme, its most-viewed or newest videos, or the associated metadata. In effect, the ruling limits Google's ability to rely on its \"intermediary service provider\" defense when it has reviewed a channel as part of a commercial partnership. In those circumstances, the platform may be unable to claim the liability exemption for the content at issue. This doesn't mean Google is liable for everything on YouTube, but the megacorp needs to be more careful with channels where it has commercial deals that come with a level of content review and specific knowledge that can forfeit intermediary status. A Google spokesperson said: \"We are disappointed by the CJEU's decision, which we will need further clarity on. We ⁠will raise our arguments before the Council of State.\" ®"
+      },
+      "time": {
+        "asserted": "2026-07-18T07:49:54.433Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "technology",
+        "citation": "https://www.theregister.com/off-prem/2026/07/17/top-eu-court-clips-youtubes-intermediary-defense-over-reviewed-content/5274299"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "published",
+      "proposition": {
+        "predicate": "published",
+        "object": "Fri, 17 Jul 2026 14:35:43 +0200"
+      },
+      "time": {
+        "asserted": "2026-07-18T07:49:54.433Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "technology",
+        "citation": "https://www.theregister.com/off-prem/2026/07/17/top-eu-court-clips-youtubes-intermediary-defense-over-reviewed-content/5274299"
+      },
+      "status": "supported"
+    }
+  ]
+}

@@ -1,0 +1,53 @@
+{
+  "subject": "forecasting-the-covid-surge-in-inflation-by-mark-w-watson",
+  "claims": [
+    {
+      "id": "title",
+      "proposition": {
+        "predicate": "title",
+        "object": "Forecasting the Covid Surge in Inflation -- by Mark W. Watson"
+      },
+      "time": {
+        "asserted": "2026-07-18T08:09:57.084Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "economy",
+        "citation": "https://www.nber.org/papers/w35435#fromrss"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "url",
+      "proposition": {
+        "predicate": "url",
+        "object": "https://www.nber.org/papers/w35435#fromrss"
+      },
+      "time": {
+        "asserted": "2026-07-18T08:09:57.084Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "economy",
+        "citation": "https://www.nber.org/papers/w35435#fromrss"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "summary",
+      "proposition": {
+        "predicate": "summary",
+        "object": "The persistent surge in U.S. inflation that began in 2021 caught forecasters and policymakers by surprise. The 2021 inflation shocks were viewed as transitory, not persistent, leading to large forecast errors in late 2021 and 2022. This paper asks whether time series models – using only data on current and past inflation, but incorporating stochastic volatility and exhibiting time-varying persistence – performed better. Univariate models, using real-time data, did not. Multivariate models, incorporating sectoral inflation measures, did."
+      },
+      "time": {
+        "asserted": "2026-07-18T08:09:57.084Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "economy",
+        "citation": "https://www.nber.org/papers/w35435#fromrss"
+      },
+      "status": "supported"
+    }
+  ]
+}

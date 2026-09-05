@@ -1,0 +1,69 @@
+{
+  "subject": "we-defeated-los-ingleses-argentina-fans-search-for-consolation-as-messi-misses-out-on-perfect-ending",
+  "claims": [
+    {
+      "id": "title",
+      "proposition": {
+        "predicate": "title",
+        "object": "‘We defeated Los Ingleses’: Argentina fans search for consolation as Messi misses out on perfect ending"
+      },
+      "time": {
+        "asserted": "2026-07-20T01:13:56.334Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "sports",
+        "citation": "https://www.theguardian.com/world/2026/jul/20/argentina-fans-buenos-aires-world-cup-final"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "url",
+      "proposition": {
+        "predicate": "url",
+        "object": "https://www.theguardian.com/world/2026/jul/20/argentina-fans-buenos-aires-world-cup-final"
+      },
+      "time": {
+        "asserted": "2026-07-20T01:13:56.334Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "sports",
+        "citation": "https://www.theguardian.com/world/2026/jul/20/argentina-fans-buenos-aires-world-cup-final"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "summary",
+      "proposition": {
+        "predicate": "summary",
+        "object": "<p>Fans in Buenos Aires head to Obelisco monument to celebrate a semi-final victory over England and honour what looks like Lionel Messi’s last World Cup</p><ul><li><p><a href=\"https://www.theguardian.com/football/2026/jul/19/spain-win-world-cup-ferran-torres-10-man-argentina-extra-time\">Spain win the World Cup after Ferran Torres dethrones 10-man Argentina in extra time</a></p></li><li><p><a href=\"https://www.theguardian.com/football/2026/jul/20/donald-trump-world-cup-excess-damage-football\">Trump show offers fitting fever-dream end to a World Cup of excess and damage</a> </p></li></ul><p>“What happened?” people outside an empanada shop in downtown Buenos Aires ask, trying to read the groans and gestures of the customers inside whose TV was a minute ahead of theirs.</p><p>“Spain scored,” says Julián Escalante, 20, holding up his phone. Spain’s Ferran Torres had delivered the decisive blow in the 106th minute of a final that had gone into extra time, sealing a tense, largely one-sided showdown that ended 1-0.</p> <a href=\"https://www.theguardian.com/world/2026/jul/20/argentina-fans-buenos-aires-world-cup-final\">Continue reading...</a>"
+      },
+      "time": {
+        "asserted": "2026-07-20T01:13:56.334Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "sports",
+        "citation": "https://www.theguardian.com/world/2026/jul/20/argentina-fans-buenos-aires-world-cup-final"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "published",
+      "proposition": {
+        "predicate": "published",
+        "object": "Mon, 20 Jul 2026 00:50:59 GMT"
+      },
+      "time": {
+        "asserted": "2026-07-20T01:13:56.334Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "sports",
+        "citation": "https://www.theguardian.com/world/2026/jul/20/argentina-fans-buenos-aires-world-cup-final"
+      },
+      "status": "supported"
+    }
+  ]
+}

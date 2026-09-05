@@ -1,0 +1,69 @@
+{
+  "subject": "esa-s-cluster-quartet-prepares-for-its-final-tango",
+  "claims": [
+    {
+      "id": "title",
+      "proposition": {
+        "predicate": "title",
+        "object": "ESA's Cluster quartet prepares for its final Tango"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "technology",
+        "citation": "https://www.theregister.com/science/2026/09/01/esas-cluster-quartet-prepares-for-its-final-tango/5293619"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "url",
+      "proposition": {
+        "predicate": "url",
+        "object": "https://www.theregister.com/science/2026/09/01/esas-cluster-quartet-prepares-for-its-final-tango/5293619"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "technology",
+        "citation": "https://www.theregister.com/science/2026/09/01/esas-cluster-quartet-prepares-for-its-final-tango/5293619"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "summary",
+      "proposition": {
+        "predicate": "summary",
+        "object": "The European Space Agency's Cluster quartet is preparing for its final bow after Samba reentered Earth's atmosphere, with Tango due to follow tonight. Samba lost contact at 21:26 UTC on August 31 and reentered at 21:39:38 UTC. Tango is expected to follow at 21:30:31 UTC tonight. The other two satellites, Rumba and Salsa, reentered in 2025 and 2024, respectively. The final reentries close the book on a prodigiously long-lived quartet that exceeded even optimistic expectations, thanks in no small part to the ingenuity of engineers on the ground. Cluster II launched in 2000 aboard two Soyuz rockets from the Baikonur Cosmodrome. It replaced the original quartet, which was destroyed during the maiden flight of Ariane 5 in 1996, drawing on spare hardware and work already completed for the doomed spacecraft. The four satellites were launched on a two-year mission to study the structure of Earth's magnetosphere in three dimensions. The spacecraft were designed to last for five years, and their mission was repeatedly extended. Why terminate a set of functional spacecraft when the science data is still rolling in? After about a decade, however, the batteries that powered the spacecraft while they passed through Earth's shadow failed. From an engineering perspective, each satellite effectively died whenever it entered an eclipse. \"The first time it happened, this was a rather uncontrolled shutdown... the spacecraft were not designed to be switched off,\" recalled spacecraft operations manager Bruno Sousa in a 2020 interview with The Register. And yet the spacecraft survived and restarted. Engineers devised a workaround to bring the spacecraft back to life in a controlled fashion. More hardware failures occurred, and again, engineers devised ways to keep the mission going. The mission finally ended in 2024, when controllers halted science observations and began the quartet's disposal campaign. Earlier orbital adjustments sent the satellites toward targeted reentries over remote stretches of ocean, beginning with Salsa and culminating with Tango tonight. The mission had one final gift to offer. \"When a spacecraft reenters the atmosphere, it experiences extreme forces,\" noted Stijn Lemmens, senior space debris mitigation analyst at ESA. \"Temperatures soar, materials melt and vaporize, and the spacecraft gradually breaks apart. But how exactly?\" If only there were some spacecraft to observe as they made a controlled entry into the Earth's atmosphere. Tango is expected to be destroyed tonight, completing the disposal of a quartet that survived far longer than its designers intended. Sousa's words to The Register in 2020 remain an apt epitaph for the engineers who kept Cluster alive: \"Never give up. Never surrender.\" ®"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "technology",
+        "citation": "https://www.theregister.com/science/2026/09/01/esas-cluster-quartet-prepares-for-its-final-tango/5293619"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "published",
+      "proposition": {
+        "predicate": "published",
+        "object": "Tue, 01 Sep 2026 15:32:00 +0200"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "technology",
+        "citation": "https://www.theregister.com/science/2026/09/01/esas-cluster-quartet-prepares-for-its-final-tango/5293619"
+      },
+      "status": "supported"
+    }
+  ]
+}

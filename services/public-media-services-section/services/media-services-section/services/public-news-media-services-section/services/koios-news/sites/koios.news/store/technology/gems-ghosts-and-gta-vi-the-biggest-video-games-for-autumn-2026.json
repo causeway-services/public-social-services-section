@@ -1,0 +1,69 @@
+{
+  "subject": "gems-ghosts-and-gta-vi-the-biggest-video-games-for-autumn-2026",
+  "claims": [
+    {
+      "id": "title",
+      "proposition": {
+        "predicate": "title",
+        "object": "Gems, ghosts and GTA VI: the biggest video games for autumn 2026"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "technology",
+        "citation": "https://www.theguardian.com/games/ng-interactive/2026/aug/31/the-biggest-video-games-for-autumn-2026-gta-vi"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "url",
+      "proposition": {
+        "predicate": "url",
+        "object": "https://www.theguardian.com/games/ng-interactive/2026/aug/31/the-biggest-video-games-for-autumn-2026-gta-vi"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "technology",
+        "citation": "https://www.theguardian.com/games/ng-interactive/2026/aug/31/the-biggest-video-games-for-autumn-2026-gta-vi"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "summary",
+      "proposition": {
+        "predicate": "summary",
+        "object": "<p>There are juggernauts and indie gems aplenty for when the nights draw in, from an ingenious puzzle game to blockbusters such as Marvel’s Wolverine and Call of Duty<br>• <a href=\"https://www.theguardian.com/culture/series/autumn-arts-preview-2026\">See all of our unmissable autumn arts recommendations here</a></p><p>After 20 years away, Capcom’s hyper kinetic action adventure returns, pitting skilled samurai Miyamoto Musashi against hordes of warriors and demons in Edo-period Kyoto. Master the complex combat then prepare for flashing blades, disembodied limbs and geysers of spraying blood.<br> • 4 September; PC, PS5, Switch 2, Xbox</p> <a href=\"https://www.theguardian.com/games/ng-interactive/2026/aug/31/the-biggest-video-games-for-autumn-2026-gta-vi\">Continue reading...</a>"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "technology",
+        "citation": "https://www.theguardian.com/games/ng-interactive/2026/aug/31/the-biggest-video-games-for-autumn-2026-gta-vi"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "published",
+      "proposition": {
+        "predicate": "published",
+        "object": "Mon, 31 Aug 2026 04:00:14 GMT"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "technology",
+        "citation": "https://www.theguardian.com/games/ng-interactive/2026/aug/31/the-biggest-video-games-for-autumn-2026-gta-vi"
+      },
+      "status": "supported"
+    }
+  ]
+}

@@ -1,0 +1,69 @@
+{
+  "subject": "avengers-doomsday-shot-without-a-finished-script-but-co-director-joe-russo-says-we-always-view-t",
+  "claims": [
+    {
+      "id": "title",
+      "proposition": {
+        "predicate": "title",
+        "object": "‘Avengers: Doomsday’ Shot Without a Finished Script, but Co-Director Joe Russo Says ‘We Always View’ the Screenplay as a ‘Living Organism’"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "entertainment",
+        "citation": "https://variety.com/2026/film/news/avengers-doomsday-shot-without-finished-script-russo-bros-defend-1236849564/"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "url",
+      "proposition": {
+        "predicate": "url",
+        "object": "https://variety.com/2026/film/news/avengers-doomsday-shot-without-finished-script-russo-bros-defend-1236849564/"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "entertainment",
+        "citation": "https://variety.com/2026/film/news/avengers-doomsday-shot-without-finished-script-russo-bros-defend-1236849564/"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "summary",
+      "proposition": {
+        "predicate": "summary",
+        "object": "“Avengers: Doomsday” going into production without a finished script did not faze directors Joe and Anthony Russo. As the former recently told the Associated Press: “We always view the script as a living organism.” “We’re improvisation-based, rehearsal-based directors,” Joe maintained. “We like to see what the actors bring to the characters, and sometimes you don’t […]"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "entertainment",
+        "citation": "https://variety.com/2026/film/news/avengers-doomsday-shot-without-finished-script-russo-bros-defend-1236849564/"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "published",
+      "proposition": {
+        "predicate": "published",
+        "object": "Wed, 02 Sep 2026 22:02:02 +0000"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "entertainment",
+        "citation": "https://variety.com/2026/film/news/avengers-doomsday-shot-without-finished-script-russo-bros-defend-1236849564/"
+      },
+      "status": "supported"
+    }
+  ]
+}

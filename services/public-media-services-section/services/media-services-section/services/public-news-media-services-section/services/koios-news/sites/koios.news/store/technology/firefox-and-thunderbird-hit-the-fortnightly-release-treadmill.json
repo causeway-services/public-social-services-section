@@ -1,0 +1,69 @@
+{
+  "subject": "firefox-and-thunderbird-hit-the-fortnightly-release-treadmill",
+  "claims": [
+    {
+      "id": "title",
+      "proposition": {
+        "predicate": "title",
+        "object": "Firefox and Thunderbird hit the fortnightly release treadmill"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "technology",
+        "citation": "https://www.theregister.com/software/2026/09/02/firefox-and-thunderbird-hit-the-fortnightly-release-treadmill/5293953"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "url",
+      "proposition": {
+        "predicate": "url",
+        "object": "https://www.theregister.com/software/2026/09/02/firefox-and-thunderbird-hit-the-fortnightly-release-treadmill/5293953"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "technology",
+        "citation": "https://www.theregister.com/software/2026/09/02/firefox-and-thunderbird-hit-the-fortnightly-release-treadmill/5293953"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "summary",
+      "proposition": {
+        "predicate": "summary",
+        "object": "Mozilla's Firefox 155 and subsidiary MZLA's Thunderbird 155 have arrived. Yes, already. Firefox officially debuted yesterday, although The Reg FOSS desk wasn't offered the upgrade until early evening. Thunderbird followed several hours later. If this seems soon after the previous releases, that's because it is. Mozilla announced Firefox's new fortnightly cadence in July, and MZLA subsequently confirmed that Thunderbird would keep pace. September marks the start of the accelerated schedule. Much of the new shiny in Firefox 154 was of interest mainly to the subset of its audience – Windows users and gamers. This time around, they are again, but to a different subset: the main new features showcased in the release notes revolve around AI features. The multipurpose Smart Window is now available to more people in more regions, and the LLM-assisted tab-group naming feature that appeared a year ago in Firefox 141 is now smarter. In the latest update, Firefox can display the number of blocked trackers in the address bar, which sounds like a useful promotional feature if nothing else. Mozilla is giving it a \"progressive rollout,\" however, and we don't have it yet. The Firefox containers feature from 2018, which became a built-in function with Firefox 153, now lets you change the order of the containers. We've not tested this in production yet, but it sounds handy. Pages should load faster thanks to support for Happy Eyeballs v3, and if you're navigating it with a game controller for some reason, that apparently works better. Scaling PDFs larger to fill a printed page sounds very useful to us, but that may just be a reflection of how often this vulture prints out pictures for his hatchling to color in. If you don't want the new AI features, then since Firefox 148 it's had an \"AI kill switch\" so you can simply turn everyone off, or just selected features. This vulture leaves only the local translation feature enabled, which in this release gains support for Marathi and Urdu. Urdu is Pakistan's national language, while most Marathi speakers are in the Indian state of Maharashtra. With nearly 100 million Marathi speakers alone, these are significant additions. People with iDevices now get an ad blocker, as The Register reported yesterday. Whether you have embraced \"generative AI\" or gone fully zuzai, either way, we should all hang on to our Firefox. It's an important part of keeping the web from falling under the control of a single browser engine. Whatever flavor of Chromium-based browser you use, Chromium still sits underneath the chrome. Although we don't use most of Firefox's AI functions, we do use messaging apps all day every day, and Thunderbird 155 brings small but useful new functions and other improvements. We are still waiting for MZLA to deliver its Thunderbird Sync function, but users on desktop and Android already have a useful alternative: QR code export. With a couple of clicks, desktop Thunderbird displays a QR code (or codes) that its Android counterpart can scan to import the settings in a single operation. It's very handy, but it also presents a potential corporate security risk – so version 155 adds a policy for disabling it. Another new policy setting turns off experimental Thunderbird features. There's also a setting for choosing the default address book for new contacts. Version 155 brings improved handling of S/MIME encrypted attachments. There are several different enhancements to OAuth authorization – broadly, this means those services which pop up their own little sign-in window when you try to connect. There is now more granularity in how users and extensions can customize these authentication flows. We have heard reports of users struggling to get Gmail working in Thunderbird, so any improvement in OAuth is welcome. It should help enterprise Microsoft Exchange users too. The release also fixes about 30 other bugs and closes several vulnerabilities. Thunderbird should work a bit better for everyone now. Don't forget the ESR The accelerated release schedule will be a nuisance for some users, and we've seen exasperated people threaten to disable automatic updates. Don't. There is a safer way to get off the fast train. As we reported in July, Firefox and Thunderbird 153 are the new ESR versions. One significant advantage of this for Firefox users is that this is the first long-term release of Firefox with the AI kill switch. Back in March, our article on the new split-window view in Firefox included the advice not to try Firefox beta releases on your main production profile. Older Mozilla apps do not like opening profiles that have been used by newer versions and will refuse by default. That piece includes instructions on how to override this. You can still go back to the ESR version, and then stay on it. Alongside the current Firefox and Thunderbird 153, the previous ESR versions 140 and 115 are both still receiving updates. (Yes, Windows 7 and macOS 10.13 holdouts, this means you. Come on down[load]!) The same option is available to users of the downstream Firefox fork Waterfox. Last month, Waterfox 6.7 moved to the version 153 codebase, and since then, there's already been a small update to Waterfox 6.7.1. Earlier today, German tech blogger Marius Quabeck reported on the effectiveness of the AI kill switch, noting that it doesn't affect Mozilla's telemetry. Waterfox turns that all off. Back in 2022, that meant that Waterfox was immune to the Mozilla \"foxstuck\" bug. Firefox remains a good choice for those concerned about their online privacy, and if you want that and don't mind the rapid release schedule, there's also LibreWolf, but Waterfox has its own advantages, such as a built-in ad-blocker. The ESR versions receive security and critical bug fixes without the frequent feature and interface changes. For a more stable life, head to the Firefox ESR or Thunderbird ESR download pages. ®"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "technology",
+        "citation": "https://www.theregister.com/software/2026/09/02/firefox-and-thunderbird-hit-the-fortnightly-release-treadmill/5293953"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "published",
+      "proposition": {
+        "predicate": "published",
+        "object": "Wed, 02 Sep 2026 16:53:46 +0200"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "technology",
+        "citation": "https://www.theregister.com/software/2026/09/02/firefox-and-thunderbird-hit-the-fortnightly-release-treadmill/5293953"
+      },
+      "status": "supported"
+    }
+  ]
+}

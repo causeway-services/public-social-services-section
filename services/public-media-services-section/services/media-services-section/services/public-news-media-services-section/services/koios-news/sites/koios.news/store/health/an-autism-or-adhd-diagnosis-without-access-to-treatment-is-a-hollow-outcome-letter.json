@@ -1,0 +1,69 @@
+{
+  "subject": "an-autism-or-adhd-diagnosis-without-access-to-treatment-is-a-hollow-outcome-letter",
+  "claims": [
+    {
+      "id": "title",
+      "proposition": {
+        "predicate": "title",
+        "object": "An autism or ADHD diagnosis without access to treatment is a hollow outcome | Letter"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "health",
+        "citation": "https://www.theguardian.com/society/2026/sep/02/an-autism-or-adhd-diagnosis-without-access-to-treatment-is-a-hollow-outcome"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "url",
+      "proposition": {
+        "predicate": "url",
+        "object": "https://www.theguardian.com/society/2026/sep/02/an-autism-or-adhd-diagnosis-without-access-to-treatment-is-a-hollow-outcome"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "health",
+        "citation": "https://www.theguardian.com/society/2026/sep/02/an-autism-or-adhd-diagnosis-without-access-to-treatment-is-a-hollow-outcome"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "summary",
+      "proposition": {
+        "predicate": "summary",
+        "object": "<p><strong>Helen Macdonald</strong> responds to a report by the parliamentary and health service ombudsman</p><p>The parliamentary and health service ombudsman’s findings are stark and sadly familiar (<a href=\"https://www.theguardian.com/society/2026/aug/26/autism-adhd-care-complaints-england-triple-five-years\">Autism and ADHD care complaints more than triple in five years in England, 26 August</a>). A more than 200% rise in complaints, years-long waits, patients paying thousands of pounds for private care when the NHS fails them, and a system so complex that people are routinely denied rights they are legally entitled to – these are exactly the issues that the British Association for Behavioural and Cognitive Psychotherapies (BABCP) has been documenting and raising for years.</p><p>What the ombudsman’s report does not fully address is what happens once people are assessed and diagnosed. Too many people with ADHD and autism receive a diagnosis only to find that there is no evidence-based treatment pathway attached to it. Cognitive behavioural therapy is recommended by the National Institute for Health and Care Excellence for the anxiety and depression that commonly accompany neurodevelopmental conditions, and in specific contexts for adults with ADHD itself. Yet workforce shortages mean that even where the clinical will exists, the capacity often does not. A diagnosis without access to appropriate treatment is a hollow outcome.</p> <a href=\"https://www.theguardian.com/society/2026/sep/02/an-autism-or-adhd-diagnosis-without-access-to-treatment-is-a-hollow-outcome\">Continue reading...</a>"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "health",
+        "citation": "https://www.theguardian.com/society/2026/sep/02/an-autism-or-adhd-diagnosis-without-access-to-treatment-is-a-hollow-outcome"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "published",
+      "proposition": {
+        "predicate": "published",
+        "object": "Wed, 02 Sep 2026 17:03:24 GMT"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "health",
+        "citation": "https://www.theguardian.com/society/2026/sep/02/an-autism-or-adhd-diagnosis-without-access-to-treatment-is-a-hollow-outcome"
+      },
+      "status": "supported"
+    }
+  ]
+}

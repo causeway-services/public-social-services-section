@@ -1,0 +1,69 @@
+{
+  "subject": "the-guardian-view-on-kemi-badenoch-and-the-economy-a-plan-stuck-in-the-tory-comfort-zone-editori",
+  "claims": [
+    {
+      "id": "title",
+      "proposition": {
+        "predicate": "title",
+        "object": "The Guardian view on Kemi Badenoch and the economy: a plan stuck in the Tory comfort zone | Editorial"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "politics",
+        "citation": "https://www.theguardian.com/commentisfree/2026/sep/02/the-guardian-view-on-kemi-badenoch-and-the-economy-a-plan-stuck-in-the-tory-comfort-zone"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "url",
+      "proposition": {
+        "predicate": "url",
+        "object": "https://www.theguardian.com/commentisfree/2026/sep/02/the-guardian-view-on-kemi-badenoch-and-the-economy-a-plan-stuck-in-the-tory-comfort-zone"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "politics",
+        "citation": "https://www.theguardian.com/commentisfree/2026/sep/02/the-guardian-view-on-kemi-badenoch-and-the-economy-a-plan-stuck-in-the-tory-comfort-zone"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "summary",
+      "proposition": {
+        "predicate": "summary",
+        "object": "<p>The Conservative leader’s choice of a new shadow chancellor shows a lack of insight into the reasons why the party was defeated at the last election</p><p>To outlast a prime minister always counts as some kind of achievement for an opposition leader, although Kemi&nbsp;Badenoch cannot claim credit for Sir Keir Starmer’s <a href=\"https://www.theguardian.com/politics/2026/jun/22/keir-starmer-resigns-as-prime-minister\">downfall</a>. Sir Keir’s wounds were mostly self-inflicted. To the extent that opposition pressure was involved, it was <a href=\"https://www.theguardian.com/politics/2026/may/08/labour-reform-uk-england-local-elections-2026-scotland-wales\">electoral threats </a>from Reform UK and the Green party that stoked Labour party frustration to a regicidal pitch. The Tory leader’s role was largely as a spectator.</p><p>Mrs Badenoch still hopes to use regime change to her advantage. She thinks the economy, and fiscal discipline in particular, will be her most fruitful line of attack. In their first confrontation at <a href=\"https://www.theguardian.com/politics/2026/sep/02/andy-burnham-blames-tory-legacy-uk-economy-vulnerable\">prime minister’s questions</a> on Wednesday, the Conservative leader called Mr Burnham a “spendthrift” and “people pleaser” who will dodge the tough decisions required to prove Britain’s creditworthiness on international markets. She expects him to yield to Labour MPs’ demands for budget increases, which will then have to be financed&nbsp;with tax rises.</p> <a href=\"https://www.theguardian.com/commentisfree/2026/sep/02/the-guardian-view-on-kemi-badenoch-and-the-economy-a-plan-stuck-in-the-tory-comfort-zone\">Continue reading...</a>"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "politics",
+        "citation": "https://www.theguardian.com/commentisfree/2026/sep/02/the-guardian-view-on-kemi-badenoch-and-the-economy-a-plan-stuck-in-the-tory-comfort-zone"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "published",
+      "proposition": {
+        "predicate": "published",
+        "object": "Wed, 02 Sep 2026 17:29:43 GMT"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "politics",
+        "citation": "https://www.theguardian.com/commentisfree/2026/sep/02/the-guardian-view-on-kemi-badenoch-and-the-economy-a-plan-stuck-in-the-tory-comfort-zone"
+      },
+      "status": "supported"
+    }
+  ]
+}

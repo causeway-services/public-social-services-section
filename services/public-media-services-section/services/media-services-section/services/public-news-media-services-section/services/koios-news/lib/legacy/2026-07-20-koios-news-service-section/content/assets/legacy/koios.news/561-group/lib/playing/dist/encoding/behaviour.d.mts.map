@@ -1,0 +1,1 @@
+{"version":3,"file":"behaviour.d.mts","sourceRoot":"","sources":["../../src/encoding/behaviour.mts"],"names":[],"mappings":"AAAA;;;;;;;;;;GAUG;AACH,OAAO,KAAK,EAAE,gBAAgB,EAAE,MAAM,4EAA4E,CAAC;AAGnH,OAAO,KAAK,EAAE,IAAI,EAAE,MAAM,YAAY,CAAC;AAEvC,gEAAgE;AAChE,wBAAgB,eAAe,CAAC,KAAK,EAAE,gBAAgB,GAAG,IAAI,CAE7D;AAED,6EAA6E;AAC7E,wBAAgB,eAAe,CAAC,IAAI,EAAE,OAAO,GAAG,gBAAgB,CAO/D"}

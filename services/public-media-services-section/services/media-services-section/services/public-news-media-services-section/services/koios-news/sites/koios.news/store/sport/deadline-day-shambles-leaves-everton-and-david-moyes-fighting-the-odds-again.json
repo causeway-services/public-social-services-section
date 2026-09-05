@@ -1,0 +1,69 @@
+{
+  "subject": "deadline-day-shambles-leaves-everton-and-david-moyes-fighting-the-odds-again",
+  "claims": [
+    {
+      "id": "title",
+      "proposition": {
+        "predicate": "title",
+        "object": "Deadline-day shambles leaves Everton and David Moyes fighting the odds again"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "sport",
+        "citation": "https://www.theguardian.com/football/2026/sep/02/deadline-day-shambles-leaves-everton-and-david-moyes-fighting-the-odds-again"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "url",
+      "proposition": {
+        "predicate": "url",
+        "object": "https://www.theguardian.com/football/2026/sep/02/deadline-day-shambles-leaves-everton-and-david-moyes-fighting-the-odds-again"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "sport",
+        "citation": "https://www.theguardian.com/football/2026/sep/02/deadline-day-shambles-leaves-everton-and-david-moyes-fighting-the-odds-again"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "summary",
+      "proposition": {
+        "predicate": "summary",
+        "object": "<p>From accepting a bid for Armstrong to collapse of Balogun deal, TFG has shown an amateurish and unambitious approach</p><p>To be placed in the same bracket as owners whose lack of ambition, lack of resources and/or incompetence has contributed to the longest trophy drought in Everton’s history, particularly 20 months into a reign that has accompanied the move to a glittering new stadium and the clearing of onerous debt, should be cause for considerable discomfort and embarrassment at The Friedkin Group (TFG) on Wednesday. The slight on Everton’s owner is neither unkind nor unfair. At least Farhad Moshiri had a go before the taps were turned off.</p><p>TFG may have restored financial stability to Everton after the near-ruinous chaos of Moshiri’s final years and his attempts to sell to 777 Partners but its reputation as “winners” – as the club’s chief executive, Angus Kinnear, labelled his American employers – has been shredded in the space of four days. The description always appeared generous given its approach to the summer transfer window, part two of Everton’s strategic rebuild according to Kinnear. But from accepting Nottingham Forest’s £35m bid for Harrison Armstrong on Saturday morning to Folarin Balogun walking away from a £40m move from Monaco on Tuesday night, and more in between, TFG has positioned itself as just another Everton owner unable or unwilling to realise the club’s potential and to give an expectant fanbase grounds for optimism.</p> <a href=\"https://www.theguardian.com/football/2026/sep/02/deadline-day-shambles-leaves-everton-and-david-moyes-fighting-the-odds-again\">Continue reading...</a>"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "sport",
+        "citation": "https://www.theguardian.com/football/2026/sep/02/deadline-day-shambles-leaves-everton-and-david-moyes-fighting-the-odds-again"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "published",
+      "proposition": {
+        "predicate": "published",
+        "object": "Wed, 02 Sep 2026 18:02:02 GMT"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "sport",
+        "citation": "https://www.theguardian.com/football/2026/sep/02/deadline-day-shambles-leaves-everton-and-david-moyes-fighting-the-odds-again"
+      },
+      "status": "supported"
+    }
+  ]
+}

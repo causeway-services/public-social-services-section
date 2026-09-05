@@ -1,0 +1,69 @@
+{
+  "subject": "could-this-humble-sea-sponge-clean-up-the-world-s-ports",
+  "claims": [
+    {
+      "id": "title",
+      "proposition": {
+        "predicate": "title",
+        "object": "Could this humble sea sponge clean up the world’s ports?"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "economy",
+        "citation": "https://www.theguardian.com/environment/2026/sep/01/sea-chicken-liver-sponge-filter-pollutants-harbour-spain-costa-brava"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "url",
+      "proposition": {
+        "predicate": "url",
+        "object": "https://www.theguardian.com/environment/2026/sep/01/sea-chicken-liver-sponge-filter-pollutants-harbour-spain-costa-brava"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "economy",
+        "citation": "https://www.theguardian.com/environment/2026/sep/01/sea-chicken-liver-sponge-filter-pollutants-harbour-spain-costa-brava"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "summary",
+      "proposition": {
+        "predicate": "summary",
+        "object": "<p>The chicken liver sponge has sailed through a test of its ability to filter pollutants in a harbour in Spain’s Costa Brava</p><p>In the polluted waters of Marina Palamós on Spain’s Costa Brava, Manuel Maldonado, a sponge biologist, noticed something unusual last month: red starfish had started settling in the area.</p><p>Nearly two years earlier, the Spanish National Research Council scientist and his colleagues had begun <a href=\"https://www.frontiersin.org/journals/marine-science/articles/10.3389/fmars.2026.1875098/full\">transplanting sea sponges</a> into the port to study whether they could survive in its polluted waters.</p> <a href=\"https://www.theguardian.com/environment/2026/sep/01/sea-chicken-liver-sponge-filter-pollutants-harbour-spain-costa-brava\">Continue reading...</a>"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "economy",
+        "citation": "https://www.theguardian.com/environment/2026/sep/01/sea-chicken-liver-sponge-filter-pollutants-harbour-spain-costa-brava"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "published",
+      "proposition": {
+        "predicate": "published",
+        "object": "Tue, 01 Sep 2026 08:00:48 GMT"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "economy",
+        "citation": "https://www.theguardian.com/environment/2026/sep/01/sea-chicken-liver-sponge-filter-pollutants-harbour-spain-costa-brava"
+      },
+      "status": "supported"
+    }
+  ]
+}

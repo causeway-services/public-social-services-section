@@ -1,0 +1,69 @@
+{
+  "subject": "andy-burnham-considers-radical-shake-up-to-cut-energy-bills",
+  "claims": [
+    {
+      "id": "title",
+      "proposition": {
+        "predicate": "title",
+        "object": "Andy Burnham considers radical shake-up to cut energy bills"
+      },
+      "time": {
+        "asserted": "2026-07-19T02:19:57.230Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "economy",
+        "citation": "https://www.theguardian.com/money/2026/jul/18/andy-burnham-cut-energy-bills-gas-heat-pumps"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "url",
+      "proposition": {
+        "predicate": "url",
+        "object": "https://www.theguardian.com/money/2026/jul/18/andy-burnham-cut-energy-bills-gas-heat-pumps"
+      },
+      "time": {
+        "asserted": "2026-07-19T02:19:57.230Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "economy",
+        "citation": "https://www.theguardian.com/money/2026/jul/18/andy-burnham-cut-energy-bills-gas-heat-pumps"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "summary",
+      "proposition": {
+        "predicate": "summary",
+        "object": "<p>Labour leader examining proposals to overhaul gas standing charges and make heat pumps cheaper to run than boilers</p><p>Andy Burnham is considering radical plans that could cut household energy bills by £130 a year and make running a heat pump cheaper than a gas boiler.</p><p>In his speech on Friday as he became the <a href=\"https://www.theguardian.com/politics/2026/jul/17/andy-burnham-becomes-labour-leader-final-step-towards-uk-pm\">new Labour leader</a>, Burnham promised to reduce the price of “essentials”, and a cost of living package is expected to be one of his first announcements in Downing Street.</p> <a href=\"https://www.theguardian.com/money/2026/jul/18/andy-burnham-cut-energy-bills-gas-heat-pumps\">Continue reading...</a>"
+      },
+      "time": {
+        "asserted": "2026-07-19T02:19:57.230Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "economy",
+        "citation": "https://www.theguardian.com/money/2026/jul/18/andy-burnham-cut-energy-bills-gas-heat-pumps"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "published",
+      "proposition": {
+        "predicate": "published",
+        "object": "Sat, 18 Jul 2026 10:45:01 GMT"
+      },
+      "time": {
+        "asserted": "2026-07-19T02:19:57.230Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "economy",
+        "citation": "https://www.theguardian.com/money/2026/jul/18/andy-burnham-cut-energy-bills-gas-heat-pumps"
+      },
+      "status": "supported"
+    }
+  ]
+}

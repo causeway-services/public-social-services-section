@@ -1,0 +1,69 @@
+{
+  "subject": "trump-targets-brazil-s-payments-system-while-dollar-stablecoins-are-quietly-overtaking-country-s-payments",
+  "claims": [
+    {
+      "id": "title",
+      "proposition": {
+        "predicate": "title",
+        "object": "Trump targets Brazil's payments system while dollar stablecoins are quietly overtaking country's payments"
+      },
+      "time": {
+        "asserted": "2026-07-19T15:04:06.303Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "economy",
+        "citation": "https://www.coindesk.com/business/2026/07/18/trump-targets-brazil-s-payments-system-while-dollar-stablecoins-quietly-dominate-country-s-payments"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "url",
+      "proposition": {
+        "predicate": "url",
+        "object": "https://www.coindesk.com/business/2026/07/18/trump-targets-brazil-s-payments-system-while-dollar-stablecoins-quietly-dominate-country-s-payments"
+      },
+      "time": {
+        "asserted": "2026-07-19T15:04:06.303Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "economy",
+        "citation": "https://www.coindesk.com/business/2026/07/18/trump-targets-brazil-s-payments-system-while-dollar-stablecoins-quietly-dominate-country-s-payments"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "summary",
+      "proposition": {
+        "predicate": "summary",
+        "object": "Washington views Brazil’s promotion of non-dollar payment channels, including Pix and the growth of stablecoins, as a potential threat to dollar-based trade, even as dollar-linked stablecoins account for about 90% of Brazil's crypto transactions."
+      },
+      "time": {
+        "asserted": "2026-07-19T15:04:06.303Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "economy",
+        "citation": "https://www.coindesk.com/business/2026/07/18/trump-targets-brazil-s-payments-system-while-dollar-stablecoins-quietly-dominate-country-s-payments"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "published",
+      "proposition": {
+        "predicate": "published",
+        "object": "Sat, 18 Jul 2026 16:09:59 +0000"
+      },
+      "time": {
+        "asserted": "2026-07-19T15:04:06.303Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "economy",
+        "citation": "https://www.coindesk.com/business/2026/07/18/trump-targets-brazil-s-payments-system-while-dollar-stablecoins-quietly-dominate-country-s-payments"
+      },
+      "status": "supported"
+    }
+  ]
+}

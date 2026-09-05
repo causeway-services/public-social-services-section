@@ -1,0 +1,69 @@
+{
+  "subject": "disorderly-intruder-removed-from-nbc-s-today-show-after-security-breach",
+  "claims": [
+    {
+      "id": "title",
+      "proposition": {
+        "predicate": "title",
+        "object": "‘Disorderly’ intruder removed from NBC’s Today show after security breach"
+      },
+      "time": {
+        "asserted": "2026-07-18T07:51:51.266Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "culture",
+        "citation": "https://www.theguardian.com/tv-and-radio/2026/jul/16/nbc-today-show-racial-slur-craig-melvin"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "url",
+      "proposition": {
+        "predicate": "url",
+        "object": "https://www.theguardian.com/tv-and-radio/2026/jul/16/nbc-today-show-racial-slur-craig-melvin"
+      },
+      "time": {
+        "asserted": "2026-07-18T07:51:51.266Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "culture",
+        "citation": "https://www.theguardian.com/tv-and-radio/2026/jul/16/nbc-today-show-racial-slur-craig-melvin"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "summary",
+      "proposition": {
+        "predicate": "summary",
+        "object": "<p>Unauthorized interloper was arrested after reportedly hurling racial slur at host Craig Melvin</p><p>A man was arrested after breaking on to the set of <a href=\"https://www.theguardian.com/media/nbc\">NBC</a>’s Today show on Thursday morning and allegedly hurling a racial slur at a host.</p><p>NYPD officers at New York’s midtown north precinct responded to a report of a disorderly person at the show’s 30 Rockefeller Center studios shortly after 9am.</p> <a href=\"https://www.theguardian.com/tv-and-radio/2026/jul/16/nbc-today-show-racial-slur-craig-melvin\">Continue reading...</a>"
+      },
+      "time": {
+        "asserted": "2026-07-18T07:51:51.266Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "culture",
+        "citation": "https://www.theguardian.com/tv-and-radio/2026/jul/16/nbc-today-show-racial-slur-craig-melvin"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "published",
+      "proposition": {
+        "predicate": "published",
+        "object": "Thu, 16 Jul 2026 18:06:21 GMT"
+      },
+      "time": {
+        "asserted": "2026-07-18T07:51:51.266Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "culture",
+        "citation": "https://www.theguardian.com/tv-and-radio/2026/jul/16/nbc-today-show-racial-slur-craig-melvin"
+      },
+      "status": "supported"
+    }
+  ]
+}

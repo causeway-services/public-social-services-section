@@ -1,0 +1,69 @@
+{
+  "subject": "not-perfectly-aligned-with-human-values-anthropic-admits-security-failures-behind-ai-hacking-inc",
+  "claims": [
+    {
+      "id": "title",
+      "proposition": {
+        "predicate": "title",
+        "object": "‘Not perfectly aligned’ with human values: Anthropic admits security failures behind AI hacking incidents"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "technology",
+        "citation": "https://www.theguardian.com/technology/2026/sep/01/anthropic-claude-ai-hacking-human-values"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "url",
+      "proposition": {
+        "predicate": "url",
+        "object": "https://www.theguardian.com/technology/2026/sep/01/anthropic-claude-ai-hacking-human-values"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "technology",
+        "citation": "https://www.theguardian.com/technology/2026/sep/01/anthropic-claude-ai-hacking-human-values"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "summary",
+      "proposition": {
+        "predicate": "summary",
+        "object": "<p>US owner of Claude chatbot previously said its models had hacked three organisations during testing</p><p>The US startup behind the Claude chatbot has admitted a series of hacking incidents involving its models reflected a “failure of operational security” and said it has tightened its testing procedures.</p><p>Anthropic <a href=\"https://www.theguardian.com/technology/2026/jul/30/anthropic-ai-claude-hack\">revealed in July</a> that its models had accessed the open internet three times and gained unauthorised access to the systems of three organisations.</p> <a href=\"https://www.theguardian.com/technology/2026/sep/01/anthropic-claude-ai-hacking-human-values\">Continue reading...</a>"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "technology",
+        "citation": "https://www.theguardian.com/technology/2026/sep/01/anthropic-claude-ai-hacking-human-values"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "published",
+      "proposition": {
+        "predicate": "published",
+        "object": "Tue, 01 Sep 2026 15:18:10 GMT"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "technology",
+        "citation": "https://www.theguardian.com/technology/2026/sep/01/anthropic-claude-ai-hacking-human-values"
+      },
+      "status": "supported"
+    }
+  ]
+}

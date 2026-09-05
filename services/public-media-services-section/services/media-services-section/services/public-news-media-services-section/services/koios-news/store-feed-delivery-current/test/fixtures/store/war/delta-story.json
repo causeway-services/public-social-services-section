@@ -1,0 +1,9 @@
+{
+  "subject": "delta-story",
+  "claims": [
+    { "id": "title", "proposition": { "predicate": "title", "object": "Delta Story" }, "time": { "asserted": "2026-07-14T04:08:20.911Z" }, "force": "alleges", "provenance": { "witness": "war", "citation": "https://example.com/delta" }, "status": "supported" },
+    { "id": "url", "proposition": { "predicate": "url", "object": "https://example.com/delta" }, "time": { "asserted": "2026-07-14T04:08:20.911Z" }, "force": "alleges", "provenance": { "witness": "war", "citation": "https://example.com/delta" }, "status": "supported" },
+    { "id": "summary", "proposition": { "predicate": "summary", "object": "Delta summary, with an unusable publication date on record." }, "time": { "asserted": "2026-07-14T04:08:20.911Z" }, "force": "alleges", "provenance": { "witness": "war", "citation": "https://example.com/delta" }, "status": "supported" },
+    { "id": "published", "proposition": { "predicate": "published", "object": "not-a-date" }, "time": { "asserted": "2026-07-14T04:08:20.911Z" }, "force": "alleges", "provenance": { "witness": "war", "citation": "https://example.com/delta" }, "status": "supported" }
+  ]
+}

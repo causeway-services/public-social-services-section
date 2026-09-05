@@ -1,0 +1,22 @@
+#+SETUPFILE: ./setup.inc
+#+TITLE: Geography and Settlements of the Widewoods
+#+EXPORT_FILE_NAME: ../../pub/geography-and-settlements-of-the-widewoods
+#+INDEX: Widewoods!/Geography and Settlements of the Widewoods/
+#+TOC: headlines 2
+* Introduction
+{{{document-isdraft}}}
+
+{{{document-hasproject}}}
+* Geography and Settlements of the Widewoods
+The */Widewoods/* are a region of subtropical forest in the /Old
+World/, south of the /Green Delta/ and east of the /Optic Ocean/, with the
+/Gloaming/ bounding its other sides.
+** History
+** Areas
+* Supplements
+** Index
+- Widewoods ::
+- Old World ::
+- Green Delta ::
+- Optic Ocean ::
+- Gloaming ::

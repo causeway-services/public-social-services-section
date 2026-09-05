@@ -1,0 +1,16 @@
+#+SETUPFILE: ./setup.inc
+#+TITLE: Tales from Teraum #11
+#+TITLE: "Customs"
+#+EXPORT_FILE_NAME: ../../tales-from-teraum/11-customs
+* Introduction
+{{{document-isdraft}}}
+
+{{{document-hasproject}}}
+* Tales from Teraum #11, "Customs"
+** Scene One
+#+INDEX: 80pc!Showering, 80pc!9th of Showering 80pc!"Scene One" in /Tales from Teraum #11, "Customs"/
+In the city of /Gnalens/, the cargo vessel the /One Route/ departed.
+Aboard were, among others, /Brother Sun/, /Ilea/, and the /Vagrant/,
+posing as /Wayne Helder/.
+* Supplements
+** Index

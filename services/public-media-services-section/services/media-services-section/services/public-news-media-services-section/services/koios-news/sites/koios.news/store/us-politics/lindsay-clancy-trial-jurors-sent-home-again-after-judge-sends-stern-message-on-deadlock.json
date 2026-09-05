@@ -1,0 +1,69 @@
+{
+  "subject": "lindsay-clancy-trial-jurors-sent-home-again-after-judge-sends-stern-message-on-deadlock",
+  "claims": [
+    {
+      "id": "title",
+      "proposition": {
+        "predicate": "title",
+        "object": "Lindsay Clancy trial jurors sent home again after judge sends stern message on deadlock"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "us-politics",
+        "citation": "https://thehill.com/regulation/court-battles/6067095-lindsay-clancy-trial-jurors-home-again-deadlock/"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "url",
+      "proposition": {
+        "predicate": "url",
+        "object": "https://thehill.com/regulation/court-battles/6067095-lindsay-clancy-trial-jurors-home-again-deadlock/"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "us-politics",
+        "citation": "https://thehill.com/regulation/court-battles/6067095-lindsay-clancy-trial-jurors-home-again-deadlock/"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "summary",
+      "proposition": {
+        "predicate": "summary",
+        "object": "The Massachusetts judge overseeing the Lindsay Clancy trial sent jurors home again Wednesday, shortly after giving them a stern message on their inability to unanimously agree on whether she is criminally responsible for the killing of her three young children in January 2023. Before being excused Wednesday, the jury was in a deadlock after more…"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "us-politics",
+        "citation": "https://thehill.com/regulation/court-battles/6067095-lindsay-clancy-trial-jurors-home-again-deadlock/"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "published",
+      "proposition": {
+        "predicate": "published",
+        "object": "Wed, 02 Sep 2026 20:28:05 +0000"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "us-politics",
+        "citation": "https://thehill.com/regulation/court-battles/6067095-lindsay-clancy-trial-jurors-home-again-deadlock/"
+      },
+      "status": "supported"
+    }
+  ]
+}

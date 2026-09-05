@@ -1,0 +1,69 @@
+{
+  "subject": "academia-s-critical-role-in-developing-an-economic-security-workforce",
+  "claims": [
+    {
+      "id": "title",
+      "proposition": {
+        "predicate": "title",
+        "object": "Academia’s Critical Role in Developing an Economic Security Workforce"
+      },
+      "time": {
+        "asserted": "2026-07-18T07:55:51.714Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "war",
+        "citation": "https://warontherocks.com/academias-critical-role-in-developing-an-economic-security-workforce/"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "url",
+      "proposition": {
+        "predicate": "url",
+        "object": "https://warontherocks.com/academias-critical-role-in-developing-an-economic-security-workforce/"
+      },
+      "time": {
+        "asserted": "2026-07-18T07:55:51.714Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "war",
+        "citation": "https://warontherocks.com/academias-critical-role-in-developing-an-economic-security-workforce/"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "summary",
+      "proposition": {
+        "predicate": "summary",
+        "object": "Editor’s note: This is the tenth article in an 11-part series examining how the United States should organize, lead, and integrate economic statecraft into strategy, defense practice, and the broader national security ecosystem. The special series is brought to you by the Potomac Institute for Policy Studies and War on the Rocks. Prior installments can be found at the War by Other Ledgers page.The United States is fighting a new kind of global competition — over supply chains, chips, and sanctions. It barely has anyone trained to fight it.No single country can untangle itself from the forces of global trade, and no industry can stabilize in The post Academia’s Critical Role in Developing an Economic Security Workforce appeared first on War on the Rocks ."
+      },
+      "time": {
+        "asserted": "2026-07-18T07:55:51.714Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "war",
+        "citation": "https://warontherocks.com/academias-critical-role-in-developing-an-economic-security-workforce/"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "published",
+      "proposition": {
+        "predicate": "published",
+        "object": "Thu, 16 Jul 2026 07:15:51 +0000"
+      },
+      "time": {
+        "asserted": "2026-07-18T07:55:51.714Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "war",
+        "citation": "https://warontherocks.com/academias-critical-role-in-developing-an-economic-security-workforce/"
+      },
+      "status": "supported"
+    }
+  ]
+}

@@ -1,0 +1,68 @@
+#+SETUPFILE: ./setup.inc
+#+TITLE: Geography and Settlements of the Farsteppes
+#+EXPORT_FILE_NAME: ../../pub/reference-books/geography-and-settlements-of-the-farsteppes
+#+LATEX_CLASS: teraum_reference_book
+#+INDEX: Farsteppes!/Geography and Settlements of the Farsteppes/
+#+TOC: headlines 2
+* DRAFT Introduction
+{{{document-isdraft}}}
+
+{{{document-hasproject}}}
+* DRAFT Geography and Settlements of the Farsteppes
+** DRAFT Areas
+*** County Oru
+*** Horsefolk Territory
+*/Horsefolk Territory/* is the large region of the /Farsteppes/ - most
+of it - that is still unclaimed and uncharted by the /Red Union/ and
+affiliated organizations.
+
+While the /horsefolk/ are largely nomadic, there are many small
+settlements scattered throughout the region.
+** DRAFT Settlements
+Most settlements in the region are collections of dung and thatch
+huts. It is tradition in the region to paint the houses with the local
+red clay, in a game. The owner of the hut dips their hand in clay
+paint and strikes their hand against the wall. Others in the community
+call out animals and shapes, and owner attempts to paint them.
+*** Helmet's Dent
+#+INDEX: Helmet's Dent!"Helmet's Dent" in /Geography and Settlements of the Farsteppes/
+*/Helmet's Dent/* is a /human/ town in the Farsteppes. Originally a
+mining community, it has become a trading community that facilitates
+commerce between the nomadic /human/ tribes of the Farsteppes and the
+settled /humans/ in the /Central Plains/. {{{teraum-source(helmets-dent)}}}
+** DRAFT Landmarks
+** DRAFT Notable Organizations and People
+*** DRAFT House Ellon
+#+INDEX: House Ellon!"House Ellon" in /Geography and Settlements of the Farsteppes/
+*/House Ellon/* is a defunct noble house in the Farsteppes that
+previously controlled what is now /Castle Oru/ and the lands around
+it.
+*** DRAFT House Monic
+#+INDEX: House Monic!"House Monic" in /Geography and Settlements of the Farsteppes/
+*/House Monic/* is an estate in the Farsteppes, one of the few still
+owned by nobility.
+
+*** DRAFT House Oru
+*/House Oru/* is the governing body of Oru County. It
+is led by Renkah Oru.
+*** DRAFT Lazy Mare Tribe
+The */Lazy Mare Tribe/* is a nomadic group of humans who live in the
+Farsteppes. They are known for their mercantile prowess
+**** DRAFT History
+***** Invention of Ragar
+In 3400bc, the Lazy Mare Tribe invented ragar, an alcoholic beverage
+made from fermented mares milk.
+**** DRAFT Members
+Kindal.
+* Supplements
+** Index
+- Helmet's Dent :: {{{teraum-ref(helmets-dent)}}}
+- Farsteppes ::
+- humans ::
+- Central Plains ::
+- House Ellon ::
+- Castle Oru ::
+- House Monic ::
+- House Oru ::
+- Lazy Mare Tribe ::
+- ragar ::

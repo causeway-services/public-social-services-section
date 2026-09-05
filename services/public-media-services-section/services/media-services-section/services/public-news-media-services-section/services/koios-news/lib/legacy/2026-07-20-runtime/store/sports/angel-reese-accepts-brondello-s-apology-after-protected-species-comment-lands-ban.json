@@ -1,0 +1,69 @@
+{
+  "subject": "angel-reese-accepts-brondello-s-apology-after-protected-species-comment-lands-ban",
+  "claims": [
+    {
+      "id": "title",
+      "proposition": {
+        "predicate": "title",
+        "object": "Angel Reese accepts Brondello’s apology after ‘protected species’ comment lands ban"
+      },
+      "time": {
+        "asserted": "2026-07-20T11:21:26.521Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "sports",
+        "citation": "https://www.theguardian.com/sport/2026/jul/20/angel-reese-accepts-brondellos-apology-after-protected-species-comments-lands-ban"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "url",
+      "proposition": {
+        "predicate": "url",
+        "object": "https://www.theguardian.com/sport/2026/jul/20/angel-reese-accepts-brondellos-apology-after-protected-species-comments-lands-ban"
+      },
+      "time": {
+        "asserted": "2026-07-20T11:21:26.521Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "sports",
+        "citation": "https://www.theguardian.com/sport/2026/jul/20/angel-reese-accepts-brondellos-apology-after-protected-species-comments-lands-ban"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "summary",
+      "proposition": {
+        "predicate": "summary",
+        "object": "<ul><li><p>Toronto coach made comment during Friday’s game</p></li><li><p>Term common in Australia but could be seen as racist</p></li></ul><p>Angel Reese has accepted Toronto Tempo coach Sandy Brondello’s apology for an inappropriate comment about the Atlanta Dream star.</p><p>The WNBA suspended Brondello one game for being overheard calling Reese a “protected species” during the Dream’s win over the Tempo on Friday.</p> <a href=\"https://www.theguardian.com/sport/2026/jul/20/angel-reese-accepts-brondellos-apology-after-protected-species-comments-lands-ban\">Continue reading...</a>"
+      },
+      "time": {
+        "asserted": "2026-07-20T11:21:26.521Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "sports",
+        "citation": "https://www.theguardian.com/sport/2026/jul/20/angel-reese-accepts-brondellos-apology-after-protected-species-comments-lands-ban"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "published",
+      "proposition": {
+        "predicate": "published",
+        "object": "Mon, 20 Jul 2026 10:50:05 GMT"
+      },
+      "time": {
+        "asserted": "2026-07-20T11:21:26.521Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "sports",
+        "citation": "https://www.theguardian.com/sport/2026/jul/20/angel-reese-accepts-brondellos-apology-after-protected-species-comments-lands-ban"
+      },
+      "status": "supported"
+    }
+  ]
+}

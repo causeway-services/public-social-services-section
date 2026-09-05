@@ -1,0 +1,69 @@
+{
+  "subject": "uk-economy-grew-by-0-1-in-may-despite-impact-of-iran-war",
+  "claims": [
+    {
+      "id": "title",
+      "proposition": {
+        "predicate": "title",
+        "object": "UK economy grew by 0.1% in May despite impact of Iran war"
+      },
+      "time": {
+        "asserted": "2026-07-19T14:41:48.886Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "economy",
+        "citation": "https://www.theguardian.com/business/2026/jul/16/uk-economy-grew-gdp-despite-iran-war"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "url",
+      "proposition": {
+        "predicate": "url",
+        "object": "https://www.theguardian.com/business/2026/jul/16/uk-economy-grew-gdp-despite-iran-war"
+      },
+      "time": {
+        "asserted": "2026-07-19T14:41:48.886Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "economy",
+        "citation": "https://www.theguardian.com/business/2026/jul/16/uk-economy-grew-gdp-despite-iran-war"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "summary",
+      "proposition": {
+        "predicate": "summary",
+        "object": "<p>Rise in GDP follows a 0.1% decline in April, figures from the Office for National Statistics show</p><p>The UK economy returned to growth in May, despite the impact of the Iran war on energy costs, official figures show.</p><p>The Office for National Statistics said GDP rose 0.1% in May, in line with economists’ forecasts, <a href=\"https://www.theguardian.com/business/2026/jun/12/uk-economy-gdp-shrank-april-iran-war-held-back-growth#:~:text=UK%20economy%20shrank%20by%200.1,growth%20(GDP)%20%7C%20The%20Guardian\">after a 0.1% decline in April</a>.</p> <a href=\"https://www.theguardian.com/business/2026/jul/16/uk-economy-grew-gdp-despite-iran-war\">Continue reading...</a>"
+      },
+      "time": {
+        "asserted": "2026-07-19T14:41:48.886Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "economy",
+        "citation": "https://www.theguardian.com/business/2026/jul/16/uk-economy-grew-gdp-despite-iran-war"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "published",
+      "proposition": {
+        "predicate": "published",
+        "object": "Thu, 16 Jul 2026 07:36:05 GMT"
+      },
+      "time": {
+        "asserted": "2026-07-19T14:41:48.886Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "economy",
+        "citation": "https://www.theguardian.com/business/2026/jul/16/uk-economy-grew-gdp-despite-iran-war"
+      },
+      "status": "supported"
+    }
+  ]
+}

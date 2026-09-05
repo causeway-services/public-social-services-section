@@ -1,0 +1,69 @@
+{
+  "subject": "premier-league-money-has-lost-all-meaning-amid-chaotic-spectacle-of-excess-barney-ronay",
+  "claims": [
+    {
+      "id": "title",
+      "proposition": {
+        "predicate": "title",
+        "object": "Premier League money has lost all meaning amid chaotic spectacle of excess | Barney Ronay"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "sport",
+        "citation": "https://www.theguardian.com/football/2026/sep/02/premier-league-spending-transfer-window-summer-2026-chelsea-enzo-fernandez"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "url",
+      "proposition": {
+        "predicate": "url",
+        "object": "https://www.theguardian.com/football/2026/sep/02/premier-league-spending-transfer-window-summer-2026-chelsea-enzo-fernandez"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "sport",
+        "citation": "https://www.theguardian.com/football/2026/sep/02/premier-league-spending-transfer-window-summer-2026-chelsea-enzo-fernandez"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "summary",
+      "proposition": {
+        "predicate": "summary",
+        "object": "<p>The transfer window has broken all rational rules and limits, leaving us to marvel and, ultimately, pick up the bill</p><p>There was a research study a few years back into a key period in the life of the TV show Location, Location, Location. You know the one. Half an hour of mid-morning drift. Hosted by two people whose common quality is they both look as if the minced essence of Wellington boots, the Volvo XC40 and the phrase “picky bits” has been reconstituted into human shapes, then sent out to judge people for buying houses.</p><p>The big reveal was always the bit where they came back a year later and saw how much the value had shifted. Because all conversations about houses are, in the end, an excuse to talk about money. Oh wow, it’s gone up by £20,000. You are good. Oh no, you’re now bankrupt and your flat looks like a hostage cell with fairy lights. Unlucky. You are bad.</p> <a href=\"https://www.theguardian.com/football/2026/sep/02/premier-league-spending-transfer-window-summer-2026-chelsea-enzo-fernandez\">Continue reading...</a>"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "sport",
+        "citation": "https://www.theguardian.com/football/2026/sep/02/premier-league-spending-transfer-window-summer-2026-chelsea-enzo-fernandez"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "published",
+      "proposition": {
+        "predicate": "published",
+        "object": "Wed, 02 Sep 2026 19:00:32 GMT"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "sport",
+        "citation": "https://www.theguardian.com/football/2026/sep/02/premier-league-spending-transfer-window-summer-2026-chelsea-enzo-fernandez"
+      },
+      "status": "supported"
+    }
+  ]
+}

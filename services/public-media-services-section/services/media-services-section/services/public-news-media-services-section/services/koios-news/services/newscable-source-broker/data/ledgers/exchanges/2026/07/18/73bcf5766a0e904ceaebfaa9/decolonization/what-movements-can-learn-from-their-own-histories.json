@@ -1,0 +1,69 @@
+{
+  "subject": "what-movements-can-learn-from-their-own-histories",
+  "claims": [
+    {
+      "id": "title",
+      "proposition": {
+        "predicate": "title",
+        "object": "What movements can learn from their own histories"
+      },
+      "time": {
+        "asserted": "2026-07-18T07:51:45.987Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "decolonization",
+        "citation": "https://www.opendemocracy.net/en/nana-darkoa-sekyiamah-movements-history-learning/"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "url",
+      "proposition": {
+        "predicate": "url",
+        "object": "https://www.opendemocracy.net/en/nana-darkoa-sekyiamah-movements-history-learning/"
+      },
+      "time": {
+        "asserted": "2026-07-18T07:51:45.987Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "decolonization",
+        "citation": "https://www.opendemocracy.net/en/nana-darkoa-sekyiamah-movements-history-learning/"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "summary",
+      "proposition": {
+        "predicate": "summary",
+        "object": "At a moment of intensifying backlash against rights and bodily autonomy globally, movements are being forced to adapt fast – often with little space to reflect on what is actually working. Much of the media that covers activism still flattens that work into individual stories or neat 'wins', even as organisers themselves push back on those framings. This Q&A is part of openDemocracy’s effort to do something different: to treat movements not just as subjects of coverage, but as sources of knowledge – and to surface the practical thinking behind how organisers are navigating risk, building power and learning across contexts in real time."
+      },
+      "time": {
+        "asserted": "2026-07-18T07:51:45.987Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "decolonization",
+        "citation": "https://www.opendemocracy.net/en/nana-darkoa-sekyiamah-movements-history-learning/"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "published",
+      "proposition": {
+        "predicate": "published",
+        "object": "Tue, 21 Apr 2026 06:03:49 GMT"
+      },
+      "time": {
+        "asserted": "2026-07-18T07:51:45.987Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "decolonization",
+        "citation": "https://www.opendemocracy.net/en/nana-darkoa-sekyiamah-movements-history-learning/"
+      },
+      "status": "supported"
+    }
+  ]
+}

@@ -1,0 +1,69 @@
+{
+  "subject": "acting-the-fool-why-have-hollywood-press-tours-become-so-gimmicky",
+  "claims": [
+    {
+      "id": "title",
+      "proposition": {
+        "predicate": "title",
+        "object": "Acting the fool: why have Hollywood press tours become so gimmicky?"
+      },
+      "time": {
+        "asserted": "2026-07-20T10:18:52.888Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "culture",
+        "citation": "https://www.theguardian.com/film/2026/jul/20/hollywood-press-tours-gimmicky"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "url",
+      "proposition": {
+        "predicate": "url",
+        "object": "https://www.theguardian.com/film/2026/jul/20/hollywood-press-tours-gimmicky"
+      },
+      "time": {
+        "asserted": "2026-07-20T10:18:52.888Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "culture",
+        "citation": "https://www.theguardian.com/film/2026/jul/20/hollywood-press-tours-gimmicky"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "summary",
+      "proposition": {
+        "predicate": "summary",
+        "object": "<p>From playing would you rather to ranking snacks, A-listers navigating the promo trail are now forced on a set schedule of silliness</p><p>This summer, we’ve been blessed with new movies from the legendary director Steven Spielberg and one of his biggest and most beloved successors, Christopher Nolan. In both cases, the movies have been heavily sold on the directors’ names, and, befitting two of the most famous film-makers to ever do it, Spielberg and Nolan have been making the press rounds. This has meant a wealth of interviews and insights – a bonus feature unfolding alongside the selling of the actual movies that will delight movie nerds the world over.</p><p>So at first, when I saw a <a href=\"https://www.youtube.com/shorts/tXYM-Dgk9Bo\">60-second video</a> of Christopher Nolan answering a barrage of yes-or-no questions come across my social-media feed, of course I stopped and watched as a famously buttoned-up (if obviously still passionate) film-maker attempted some spontaneity with no danger of follow-up questions (or obligation to follow-up answers). From this, there is admittedly plenty of information to be gleaned: he has no designs on retiring, Tarantino-style. He will not make another superhero movie or a TV show. He’s fine with people watching movies on their phones or laptops. He will neither confirm nor deny that Interstellar is his favorite of his films. He will also neither confirm nor deny that he would like to make a Star Wars movie. (Perhaps the most intriguing, given that you’d rather expect that to be a firm “no”.)</p> <a href=\"https://www.theguardian.com/film/2026/jul/20/hollywood-press-tours-gimmicky\">Continue reading...</a>"
+      },
+      "time": {
+        "asserted": "2026-07-20T10:18:52.888Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "culture",
+        "citation": "https://www.theguardian.com/film/2026/jul/20/hollywood-press-tours-gimmicky"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "published",
+      "proposition": {
+        "predicate": "published",
+        "object": "Mon, 20 Jul 2026 10:00:54 GMT"
+      },
+      "time": {
+        "asserted": "2026-07-20T10:18:52.888Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "culture",
+        "citation": "https://www.theguardian.com/film/2026/jul/20/hollywood-press-tours-gimmicky"
+      },
+      "status": "supported"
+    }
+  ]
+}

@@ -1,0 +1,69 @@
+{
+  "subject": "historian-jill-lepore-on-the-datacentre-backlash-politics-weekly-america",
+  "claims": [
+    {
+      "id": "title",
+      "proposition": {
+        "predicate": "title",
+        "object": "Historian Jill Lepore on the datacentre backlash | Politics Weekly America"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "us-politics",
+        "citation": "https://www.theguardian.com/politics/video/2026/aug/21/jill-lepore-on-why-the-artificial-state-is-doomed-politics-weekly-america"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "url",
+      "proposition": {
+        "predicate": "url",
+        "object": "https://www.theguardian.com/politics/video/2026/aug/21/jill-lepore-on-why-the-artificial-state-is-doomed-politics-weekly-america"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "us-politics",
+        "citation": "https://www.theguardian.com/politics/video/2026/aug/21/jill-lepore-on-why-the-artificial-state-is-doomed-politics-weekly-america"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "summary",
+      "proposition": {
+        "predicate": "summary",
+        "object": "<p>Less than three months to go until the midterms, voters are thinking about grocery prices, the Iran war and… datacentres.</p><p></p><p>This week, Jonathan Freedland speaks to historian Jill Lepore about how this latest AI backlash could influence those all-important elections in November. Are we seeing the beginning of the end of the 'artificial state'?</p> <a href=\"https://www.theguardian.com/politics/video/2026/aug/21/jill-lepore-on-why-the-artificial-state-is-doomed-politics-weekly-america\">Continue reading...</a>"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "us-politics",
+        "citation": "https://www.theguardian.com/politics/video/2026/aug/21/jill-lepore-on-why-the-artificial-state-is-doomed-politics-weekly-america"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "published",
+      "proposition": {
+        "predicate": "published",
+        "object": "Fri, 21 Aug 2026 11:00:32 GMT"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "us-politics",
+        "citation": "https://www.theguardian.com/politics/video/2026/aug/21/jill-lepore-on-why-the-artificial-state-is-doomed-politics-weekly-america"
+      },
+      "status": "supported"
+    }
+  ]
+}

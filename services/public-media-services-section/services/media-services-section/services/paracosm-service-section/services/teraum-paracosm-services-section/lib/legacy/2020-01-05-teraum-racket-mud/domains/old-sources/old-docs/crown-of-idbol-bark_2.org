@@ -1,0 +1,340 @@
+#+TITLE: The Crown of Idbol Bark
+#+EXPORT_FILE_NAME: crown-of-idbol-bark
+#+HUGO_BASE_DIR: ~/dev/personal-website/
+#+HUGO_SECTION: games
+#+OPTIONS: todo:nil
+#+LATEX_CLASS: teraum_adventure
+#+MACRO: document-type adventure
+#+MACRO: adventure-brief {{{title}}} is a /tabletop role-playing/ */adventure/* in which {{{adventure-inwhich}}}, usually taking {{{adventure-length}}} to complete
+#+MACRO: adventure-inwhich the party attempts to arrest an upstart "king"
+#+MACRO: adventure-length two to four hours
+#+MACRO: adventure-question Who is "King Bark", really?
+#+MACRO: adventure-year 80pc
+#+MACRO: adventure-written-for-bow-break X
+#+MACRO: document-beta X
+#+MACRO: adventure-question-break X
+#+MACRO: adventure-era X
+#+MACRO: teraum-define X
+#+MACRO: adventure-has-character-templates X
+#+MACRO: teraum-readmore X
+#+MACRO: project-latex-logomark X
+#+MACRO: project-latex-licensemark X
+#+MACRO: adventure-narrator-warning X
+#+MACRO: adventure-character-template-chandlers-guild-investigator X
+#+MACRO: adventure-character-template-local-rancher X
+#+MACRO: adventure-character-template-academic X
+#+MACRO: adventure-character-template-academic-default-motive X
+#+MACRO: teraum-source X
+#+MACRO: latex-image X
+
+
+
+
+
+
+
+
+* DRAFT The Crown of Idbol Bark
+  :PROPERTIES:
+  :CUSTOM_ID: introduction
+  :END:
+
+{{{adventure-brief}}}
+{{{adventure-written-for-bow-break}}}
+
+{{{document-beta}}}
+
+#+ATTR_LATEX: :width .3\textwidth :thickness 0.8pt
+-----
+
+
+
+*/{{{adventure-question-break}}}/*
+
+{{{adventure-era(Reconstruction Era)}}}
+{{{teraum-define(reconstruction-era)}}}
+
+{{{adventure-has-character-templates}}}
+
+To the extent possible under U.S. law, the author of this work has
+waived all copyright and related or neighboring rights to this work.
+
+
+{{{teraum-readmore}}}
+
+#+ATTR_LATEX: :width .3\textwidth :thickness 0.8pt
+-----
+
+Before beginning the session, your party should know:
+- How much does each of them weigh, with and without equipment?
+- Is anyone a high-ranking officer in the /Chandlers Guild/?
+
+{{{project-latex-logomark}}}
+{{{project-latex-licensemark}}}
+
+#+LATEX: \newpage
+
+{{{adventure-narrator-warning}}}
+** DRAFT Exposition
+  :PROPERTIES:
+  :CUSTOM_ID: exposition
+  :END:
+*** DRAFT Settings
+   :PROPERTIES:
+   :CUSTOM_ID: settings
+   :END:
+- */Belcaer:/* A town of about four-hundred, built of stone atop a
+  mesa, overlooking the only major road in the /Gloaming/.
+- */The Gloaming:/* A region of fens and marshes, broken up by mesas
+  and rock outcroppings. The region is unsettled and lawless.
+- */Jacob's Folly:/* A three-storey limestone tower built about eight
+  miles west of /Belcaer/, far from any road or notable landmark.
+*** DRAFT Cast
+   :PROPERTIES:
+   :CUSTOM_ID: cast
+   :END:
+- */Abeth Harbrook:/* The local /Chandlers Guild/ representative.
+- */King Idbol Bark:/* A /goblin/ who lives with his clan in /Jacob's
+  Folly/.
+** DRAFT The Plot
+  :PROPERTIES:
+  :CUSTOM_ID: the-plot
+  :END:
+*** DRAFT Scene One: Receiving the Quest
+   :PROPERTIES:
+   :CUSTOM_ID: scene-one
+   :END:
+#+INDEX: Belcaer!"Scene One" in /The Crown of Idbol Bark/
+#+INDEX: Harbrook, Abeth!"Scene One" in /The Crown of Idbol Bark/
+The members of the party are to meet, together or individually, with
+/Abeth Harbrook/, at her offices in the /Guildhouse/. She is the
+highest-ranked local official of the /Chandlers Guild/, a commercial
+organization based in the distant city of /Ack/.
+
+They rely on trade coming through the /Gloaming/, so have recently
+invested in the region and the town. Much of the /trade road/ has been
+recently covered in gravel. In town, they built the /Guildhouse/, a
+massive pine structure that sticks out over the edge of the mesa, held
+up by a lattice of timber.
+
+/Abeth Harbrook/ has kept the party waiting, and now comes out to meet
+them in the waiting room. She apologies for addressing them as a
+group, if they aren't already associated.
+
+Two seasons ago, /Abeth Harbrook/ first heard rumors of a "king," from
+travelers that claimed they were mugged on the /trade road/. At first
+she dismissed the claims as exaggerations. She thought they wanted to
+get out of paying guild tariffs.
+
+Last season, livestock began to disappear from local farms. Barns and
+silos were painted to say "/King Bark/ Was Here" and "/Idbol Bark/ Is
+King."
+
+Recent attempts to arrest the "king" failed, but revealed the location
+of his hideout: /Jacob's Folly/, a short tower built eight miles
+outside of town.
+
+*/How does the party plan to capture/ King Idbol Bark?*
+
+If the party *risks* interrogating /Abeth Harbrook/, she may include
+that victims claimed the bandits were exceptionally tall and wore
+masks. She withheld this information because she thought it was an
+exaggeration.
+
+An adventurer *knowledgable* about /goblin/ culture may recognize
+/"Bark"/ as a /goblin/ surname.
+*** DRAFT Scene Two: Travel to the Tower
+   :PROPERTIES:
+   :CUSTOM_ID: scene-two
+   :END:
+#+INDEX: Gloaming!"Scene Two" in /The Crown of Idbol Bark/
+/Jacob's Folly/ is approximately eight miles from /Belcaer/. Six of
+those miles are northwest along the /trade road/, The final two
+are through shallow marsh, broken by massive limestone outcroppings.
+
+*/How does the party get to Jacob's Folly?/*
+
+If traveling at night or in inclement weather, the party *risks*
+getting lost, though *knowledge* of navigation would help.
+
+If the party travels quietly (such as at night or in inclement
+weather,) as they approach the tower, they will remain undetected
+until reaching "Scene Three."
+
+Otherwise, they will be met by a group of "bandits" on the road, who
+declare, in sqeaky rough voices, that declares they are in the
+territory of /King Bark/, and must surrender their money and supplies.
+
+Each bandit is actually two /goblins/ in a long cloak, one standing on
+the others shoulders and wearing a mask.
+
+*/How does the party handle these "bandits"?/*
+
+If the party has horses or other livestock, the goblins will attempt
+to steal these even if the party refuses to surrender. Otherwise, they
+are more inclined to run than fight. If captured, they will happily
+give the party directions to /Jacob's Folly/, saying that /King Bark/
+would be happy for them to come bend the knee.
+*** DRAFT Scene Three: The Tower Exterior
+   :PROPERTIES:
+   :CUSTOM_ID: scene-three
+   :END:
+#+INDEX: Jacob's Folly!"Scene Three" in /The Crown of Idbol Bark/
+The limestone outcroppings in the marsh hide /Jacob's Folly/ until the
+party is nearly there.
+
+The limestone tower is three-storeys, and approximately twenty-five
+feet tall and ten feet across. It is in a clearing about fifty yards
+across. The tower's entrance has been sealed with the same limestone
+bricks as the tower. There are a couple of windows near the top. Pine
+planks, five on each side, are shoved into the mortar. They form an
+unstable ladder up to the windows.
+
+/Goblins/ are working around the tower, tearing grass out of the muck
+and stuffing it into sacks. There is a burnt-out bonfire with horse
+bones in it.
+
+*/How does the party get into Jacob's Folly?/*
+
+When a member of the party moves into the clearin,g any goblins near
+them will quietly move toward the tower, informing others on the way.
+
+Some goblins will remain outside the tower, hiding behind rock
+outcroppings in the field and throwing stones and debris at the party.
+If the party *risks* engaging with any of those /goblins/, goblins at
+the top of the tower will have time to start burning straw on the roof
+the tower, which they will drop on the party when they approach the
+bottom of the tower.
+
+If approaching in the evening, the party *risks* being noticed by an
+owlbear mother that nests on the top of the tower, who will swoop down
+and harass them, making the /goblins/ aware of them. The /owlbear
+mother/ will attempt to carry any small (<120lb) adventurer into its
+nest, where two hungry /owlbear hatchlings/ are waiting for them.
+
+
+Placing more than 120lb on any single rung of the goblins' improvised
+ladder is *risk*, with every 20lb making it *riskier*. Depending on
+the result, a rung could loosen or break. The adventurer might gain a
+fear of heights, or could fall, and even break a bone.
+
+An adventurer who gets to the roof of /Jacob's Folly/ would be able
+to take those /hatchlings/ and raise them, but unless the /mother/ is
+killed, she will follow her hatchlings to the ends of the world and
+try and get them back.
+*** DRAFT Scene Four: The Tower Interior
+   :PROPERTIES:
+   :CUSTOM_ID: scene-four
+   :END:
+#+INDEX: Jacob's Folly!"Scene Four" in /The Crown of Idbol Bark/
+The inside of the tower is dark, stinky, and beginning to fill with
+acrid smoke.
+
+When the party enters the room at the top of the tower, through the
+window on the third storey, they'll find an empty room with some
+sticks, dry piles of dung, buckets, and a large brass dish that's
+clearly been used for fires, and might still have straw burning in it.
+The goblins will retreat down underneath the trap door on the ground
+floor.
+
+There are two other "floors" inside the tower, though they are empty
+except for more dirty straw and dung. There is a large, heavy wood
+door in the floor at the ground level.
+
+
+Once the party has entered the tower, all the goblins are underneath
+this trap door, and have removed the ladder normally placed under it.
+To get to the floor below is a seven-foot drop.
+
+Smoke rises through the trapdoor, filling the tower with thicker
+smoke that makes every risk riskier.
+
+If the party is on the ground floor during the daytime, they will see
+light entering the room through cracks in the filled-in doorway. A
+*strong* character might *risk* knocking the mortar down, letting the
+smoke out of the tower.
+
+Opening the trapdoor exposes the party to further harassment from the
+goblins, but provides an opportunity for dialog. The goblins will
+call the party cowards, and say that if they come down there, /King
+Bark/ is going to get them.
+
+*/How does the party get to/ King Bark?*
+*** DRAFT Scene Five: The Tower Basement
+   :PROPERTIES:
+   :CUSTOM_ID: scene-five
+   :END:
+#+INDEX: Jacob's Folly!"Scene Five" in /The Crown of Idbol Bark/
+#+INDEX: Bark, Idbol!"Scene Five" in /The Crown of Idbol Bark/
+#+INDEX: Crown of Idbol Bark!"Scene Five" in /The Crown of Idbol Bark/
+The room is circular, a bit wider in diameter than the tower above,
+and is full of farm tools and preserved foodstuff and grains.
+
+Among the approximately two-dozen goblins in this room is one wearing
+a "crown" made of twisted-together silverware: /Idbol Bark/, leader of
+this group of goblins.
+
+*/How does the party capture King Bark?/*
+
+The goblins have no further means of retreat, so will fight until
+unable. King Bark has no exceptional combat skills, and no goblin is
+armed with anything more than farm and kitchen tools.
+** DRAFT Epilogue
+  :PROPERTIES:
+  :CUSTOM_ID: epilogue
+  :END:
+#+INDEX: Harbrook, Abeth!"Epilogue" in /The Crown of Idbol Bark/
+#+INDEX: Crown of Idbol Bark!"Epilogue" in /The Crown of Idbol Bark/
+Once /King Bark/ and his goblins have been captured, disbanded, or
+eliminated, the party should return to /Belcaer/ and tell /Abeth
+Harbrook/ what happened, and potentially turn over custody of King
+Bark and other goblins to her custody.
+
+- How will /Abeth Harbrook/ react to claims or evidence of /goblins/?
+- Who has possession of the /Crown of Idbol Bark/? Each utensil in it
+  was magic in some way, though they're inactive now. To the right
+  person, or in the right future, it might be quite valuable.
+* DRAFT Supplements
+** DRAFT Character Templates
+   :PROPERTIES:
+   :CUSTOM_ID: character-templates
+   :END:
+- {{{adventure-character-template-chandlers-guild-investigator}}} They're
+  here because the Guild is upset with /Abeth Harbrook/ for not solving
+  the problem already.
+  - How do they feel about Ms. Harbrook's performance?
+- {{{adventure-character-template-local-rancher}}} They're here
+  because /King Bark/'s associates stole their favorite horse.
+  - What was their horse's name?
+- {{{adventure-character-template-academic}}}
+  {{{adventure-character-template-academic-default-motive}}}
+    - How can they exploit the mystery of /King Brag's/ identity?
+** DRAFT Index
+   :PROPERTIES:
+   :CUSTOM_ID: dictionary
+   :END:
+- Bark, Idbol :: A self-proclaimed "king" threatening travelers and
+                 residents in the /Gloaming/. {{{teraum-source(bark-idbol)}}}
+- Belcaer :: A trade town in the /Gloaming/. {{{teraum-source(belcaer)}}}
+- Chandlers Guild :: A powerful company with offices across Teraum.
+     {{{teraum-source(chandlers-guild)}}}
+- Crown of Idbol Bark :: A simple "crown" twisted out of discarded
+     utensils. {{{teraum-source(crown-of-idbol-bark)}}} {{{latex-image(crown-of-idbol-bark.png)}}}
+- Gloaming :: Sparsely populated, the region is covered in fens broken
+              by rocky outcroppings. {{{teraum-source(gloaming)}}}
+- goblins :: Goblins are a race of humanoids that vanished 80 years
+             ago, and certainly don't exist now. {{{teraum-source(goblins)}}}
+- Guildhouse :: One of the largest buildings in /Belcaer/, home to the
+                offices of the /Chandlers Guild/, among others.
+                {{{teraum-source(belcaer-guildhouse)}}}
+- Harbook, Abeth :: The primary representative of the /Chandlers
+                    Guild/ in the town of /Belcaer/, with an office in
+                    the /Guildhouse/. {{{teraum-source(harbrook-abeth)}}}
+- Jacob's Folly :: A limestone tower built long in the past, well outside
+                   the town of /Belcaer/. {{{teraum-source(jacobs-folly)}}}
+
+* DRAFT Rules
+   :PROPERTIES:
+   :CUSTOM_ID: rules
+   :END:
+#+INCLUDE: "~/dev/brave-old-world/source.org::#abridged-rules" :only-contents t

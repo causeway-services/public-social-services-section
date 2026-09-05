@@ -1,0 +1,224 @@
+{
+  "feeds": [
+    {
+      "id": "koios-news-site",
+      "url": "https://koios.news/feed.xml",
+      "kind": "rss"
+    },
+    {
+      "id": "emsenn-substack",
+      "url": "https://emsenn.substack.com/feed",
+      "kind": "rss"
+    },
+    {
+      "id": "world-1",
+      "url": "https://feeds.bbci.co.uk/news/world/rss.xml",
+      "kind": "rss"
+    },
+    {
+      "id": "world-2",
+      "url": "https://www.theguardian.com/world/rss",
+      "kind": "rss"
+    },
+    {
+      "id": "world-3",
+      "url": "https://www.aljazeera.com/xml/rss/all.xml",
+      "kind": "rss"
+    },
+    {
+      "id": "us-politics-1",
+      "url": "https://feeds.npr.org/1014/rss.xml",
+      "kind": "rss"
+    },
+    {
+      "id": "us-politics-2",
+      "url": "https://www.theguardian.com/us-news/us-politics/rss",
+      "kind": "rss"
+    },
+    {
+      "id": "us-politics-3",
+      "url": "https://thehill.com/feed/",
+      "kind": "rss"
+    },
+    {
+      "id": "politics-1",
+      "url": "https://www.theguardian.com/politics/rss",
+      "kind": "rss"
+    },
+    {
+      "id": "politics-2",
+      "url": "https://feeds.bbci.co.uk/news/politics/rss.xml",
+      "kind": "rss"
+    },
+    {
+      "id": "economy-1",
+      "url": "https://www.theguardian.com/uk/business/rss",
+      "kind": "rss"
+    },
+    {
+      "id": "economy-2",
+      "url": "https://feeds.bbci.co.uk/news/business/rss.xml",
+      "kind": "rss"
+    },
+    {
+      "id": "economy-3",
+      "url": "https://www.cnbc.com/id/10001147/device/rss/rss.html",
+      "kind": "rss"
+    },
+    {
+      "id": "crypto-1",
+      "url": "https://www.coindesk.com/arc/outboundfeeds/rss/",
+      "kind": "rss"
+    },
+    {
+      "id": "crypto-2",
+      "url": "https://cointelegraph.com/rss",
+      "kind": "rss"
+    },
+    {
+      "id": "crypto-3",
+      "url": "https://decrypt.co/feed",
+      "kind": "rss"
+    },
+    {
+      "id": "technology-1",
+      "url": "https://www.theverge.com/rss/index.xml",
+      "kind": "rss"
+    },
+    {
+      "id": "technology-2",
+      "url": "https://feeds.arstechnica.com/arstechnica/index",
+      "kind": "rss"
+    },
+    {
+      "id": "technology-3",
+      "url": "https://www.theguardian.com/uk/technology/rss",
+      "kind": "rss"
+    },
+    {
+      "id": "technology-4",
+      "url": "https://www.theregister.com/headlines.atom",
+      "kind": "atom"
+    },
+    {
+      "id": "science-1",
+      "url": "https://www.theguardian.com/science/rss",
+      "kind": "rss"
+    },
+    {
+      "id": "science-2",
+      "url": "https://feeds.bbci.co.uk/news/science_and_environment/rss.xml",
+      "kind": "rss"
+    },
+    {
+      "id": "science-3",
+      "url": "https://www.sciencedaily.com/rss/top/science.xml",
+      "kind": "rss"
+    },
+    {
+      "id": "environment-1",
+      "url": "https://www.theguardian.com/environment/climate-crisis/rss",
+      "kind": "rss"
+    },
+    {
+      "id": "environment-2",
+      "url": "https://insideclimatenews.org/feed/",
+      "kind": "rss"
+    },
+    {
+      "id": "environment-3",
+      "url": "https://grist.org/feed/",
+      "kind": "rss"
+    },
+    {
+      "id": "environment-4",
+      "url": "https://www.carbonbrief.org/feed/",
+      "kind": "rss"
+    },
+    {
+      "id": "health-1",
+      "url": "https://www.theguardian.com/society/health/rss",
+      "kind": "rss"
+    },
+    {
+      "id": "health-2",
+      "url": "https://feeds.bbci.co.uk/news/health/rss.xml",
+      "kind": "rss"
+    },
+    {
+      "id": "health-3",
+      "url": "https://www.statnews.com/feed/",
+      "kind": "rss"
+    },
+    {
+      "id": "entertainment-1",
+      "url": "https://variety.com/feed/",
+      "kind": "rss"
+    },
+    {
+      "id": "entertainment-2",
+      "url": "https://www.hollywoodreporter.com/feed/",
+      "kind": "rss"
+    },
+    {
+      "id": "entertainment-3",
+      "url": "https://www.rollingstone.com/feed/",
+      "kind": "rss"
+    },
+    {
+      "id": "entertainment-4",
+      "url": "https://www.theguardian.com/film/rss",
+      "kind": "rss"
+    },
+    {
+      "id": "entertainment-5",
+      "url": "https://www.theguardian.com/music/rss",
+      "kind": "rss"
+    },
+    {
+      "id": "entertainment-6",
+      "url": "https://feeds.bbci.co.uk/news/entertainment_and_arts/rss.xml",
+      "kind": "rss"
+    },
+    {
+      "id": "culture-1",
+      "url": "https://www.theguardian.com/culture/rss",
+      "kind": "rss"
+    },
+    {
+      "id": "culture-2",
+      "url": "https://www.theguardian.com/books/rss",
+      "kind": "rss"
+    },
+    {
+      "id": "sport-1",
+      "url": "https://www.theguardian.com/sport/rss",
+      "kind": "rss"
+    },
+    {
+      "id": "sport-2",
+      "url": "https://feeds.bbci.co.uk/sport/rss.xml",
+      "kind": "rss"
+    },
+    {
+      "id": "sport-3",
+      "url": "https://www.espn.com/espn/rss/news",
+      "kind": "rss"
+    },
+    {
+      "id": "sport-4",
+      "url": "https://www.theguardian.com/football/rss",
+      "kind": "rss"
+    },
+    {
+      "id": "war-1",
+      "url": "https://www.theguardian.com/world/ukraine/rss",
+      "kind": "rss"
+    },
+    {
+      "id": "war-2",
+      "url": "https://www.theguardian.com/world/middleeast/rss",
+      "kind": "rss"
+    }
+  ]
+}

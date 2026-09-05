@@ -1,0 +1,69 @@
+{
+  "subject": "iran-retaliates-after-us-missile-strike-reportedly-hits-wedding-video",
+  "claims": [
+    {
+      "id": "title",
+      "proposition": {
+        "predicate": "title",
+        "object": "Iran retaliates after US missile strike reportedly hits wedding – video"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "war",
+        "citation": "https://www.theguardian.com/world/video/2026/sep/02/iran-retaliates-after-us-missile-strike-reportedly-hits-wedding-video"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "url",
+      "proposition": {
+        "predicate": "url",
+        "object": "https://www.theguardian.com/world/video/2026/sep/02/iran-retaliates-after-us-missile-strike-reportedly-hits-wedding-video"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "war",
+        "citation": "https://www.theguardian.com/world/video/2026/sep/02/iran-retaliates-after-us-missile-strike-reportedly-hits-wedding-video"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "summary",
+      "proposition": {
+        "predicate": "summary",
+        "object": "<p>US Central Command has released footage that purportedly shows missile and drone strikes being fired at Iranian military targets. Footage of some of the aftermath of the US attacks was shared on social media, showing shrapnel damage on a home in Sirik, southern Iran, where a wedding celebration was taking place. Since publication of this video, Iranian state media has revised the death toll to four people. Iran retaliated shortly afterwards, with video shared by Iranian media said to show missiles being fired towards Jordan. </p><p></p><p>A US Central Command spokesperson said the US was aware of reports of civilian casualties, but that the 'US military never targets civilians, unlike the IRGC [Islamic Revolutionary Guards Corps]'</p><p></p><ul><li><p><a href=\"https://www.theguardian.com/world/2026/sep/02/iran-us-missile-blast-wedding\">Iran accuses US of ‘war crime’ after missile blast kills five people at wedding</a></p></li></ul> <a href=\"https://www.theguardian.com/world/video/2026/sep/02/iran-retaliates-after-us-missile-strike-reportedly-hits-wedding-video\">Continue reading...</a>"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "war",
+        "citation": "https://www.theguardian.com/world/video/2026/sep/02/iran-retaliates-after-us-missile-strike-reportedly-hits-wedding-video"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "published",
+      "proposition": {
+        "predicate": "published",
+        "object": "Wed, 02 Sep 2026 13:08:13 GMT"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "war",
+        "citation": "https://www.theguardian.com/world/video/2026/sep/02/iran-retaliates-after-us-missile-strike-reportedly-hits-wedding-video"
+      },
+      "status": "supported"
+    }
+  ]
+}

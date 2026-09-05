@@ -1,0 +1,69 @@
+{
+  "subject": "liam-gallagher-says-world-cup-halftime-show-was-like-a-bad-trip",
+  "claims": [
+    {
+      "id": "title",
+      "proposition": {
+        "predicate": "title",
+        "object": "Liam Gallagher Says World Cup Halftime Show Was ‘Like a Bad Trip’"
+      },
+      "time": {
+        "asserted": "2026-07-20T09:48:52.265Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "culture",
+        "citation": "https://www.rollingstone.com/music/music-news/liam-gallagher-world-cup-halftime-show-bad-trip-fifa-1235595853/"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "url",
+      "proposition": {
+        "predicate": "url",
+        "object": "https://www.rollingstone.com/music/music-news/liam-gallagher-world-cup-halftime-show-bad-trip-fifa-1235595853/"
+      },
+      "time": {
+        "asserted": "2026-07-20T09:48:52.265Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "culture",
+        "citation": "https://www.rollingstone.com/music/music-news/liam-gallagher-world-cup-halftime-show-bad-trip-fifa-1235595853/"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "summary",
+      "proposition": {
+        "predicate": "summary",
+        "object": "Madonna, Justin Bieber, Shakira, and more took the stage midway through the final game between Spain and Argentina"
+      },
+      "time": {
+        "asserted": "2026-07-20T09:48:52.265Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "culture",
+        "citation": "https://www.rollingstone.com/music/music-news/liam-gallagher-world-cup-halftime-show-bad-trip-fifa-1235595853/"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "published",
+      "proposition": {
+        "predicate": "published",
+        "object": "Mon, 20 Jul 2026 08:07:59 +0000"
+      },
+      "time": {
+        "asserted": "2026-07-20T09:48:52.265Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "culture",
+        "citation": "https://www.rollingstone.com/music/music-news/liam-gallagher-world-cup-halftime-show-bad-trip-fifa-1235595853/"
+      },
+      "status": "supported"
+    }
+  ]
+}

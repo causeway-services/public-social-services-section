@@ -1,0 +1,69 @@
+{
+  "subject": "the-climate-wars-how-superpowers-are-carving-up-the-earth-with-arthur-snell",
+  "claims": [
+    {
+      "id": "title",
+      "proposition": {
+        "predicate": "title",
+        "object": "The Climate Wars: How Superpowers Are Carving Up the Earth | With Arthur Snell"
+      },
+      "time": {
+        "asserted": "2026-07-18T19:52:31.434Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "decolonization",
+        "citation": "https://www.opendemocracy.net/podcasts/the-climate-wars-how-superpowers-are-carving-up-the-earth-with-arthur-snell/"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "url",
+      "proposition": {
+        "predicate": "url",
+        "object": "https://www.opendemocracy.net/podcasts/the-climate-wars-how-superpowers-are-carving-up-the-earth-with-arthur-snell/"
+      },
+      "time": {
+        "asserted": "2026-07-18T19:52:31.434Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "decolonization",
+        "citation": "https://www.opendemocracy.net/podcasts/the-climate-wars-how-superpowers-are-carving-up-the-earth-with-arthur-snell/"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "summary",
+      "proposition": {
+        "predicate": "summary",
+        "object": "The climate crisis is changing the way nations think about food, energy, resources, war and peace. Melting ice caps are opening up new trade routes fought over by the world's great powers, conflicts are waged over food and mineral resources, shifting climates are fuelling migration – and Donald Trump says it's all just a scam. Join Arthur Snell as he discusses his new book Elemental: the new geography of climate change and how we survive it . Spanning conflict in the Sahel, Russia's war in Ukraine, the US coveting Greenland, NEOM in Saudi Arabia, and China's energy push, Snell explores how the climate crisis is now in every part of our politics. But while there is much to concern us here, there's hope too. The world faces various futures, and it can adapt and respond to the realities of a changing climate. Buy Elemental: The New Geography of Climate Change and How We Survive it"
+      },
+      "time": {
+        "asserted": "2026-07-18T19:52:31.434Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "decolonization",
+        "citation": "https://www.opendemocracy.net/podcasts/the-climate-wars-how-superpowers-are-carving-up-the-earth-with-arthur-snell/"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "published",
+      "proposition": {
+        "predicate": "published",
+        "object": "Fri, 24 Apr 2026 09:49:23 GMT"
+      },
+      "time": {
+        "asserted": "2026-07-18T19:52:31.434Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "decolonization",
+        "citation": "https://www.opendemocracy.net/podcasts/the-climate-wars-how-superpowers-are-carving-up-the-earth-with-arthur-snell/"
+      },
+      "status": "supported"
+    }
+  ]
+}

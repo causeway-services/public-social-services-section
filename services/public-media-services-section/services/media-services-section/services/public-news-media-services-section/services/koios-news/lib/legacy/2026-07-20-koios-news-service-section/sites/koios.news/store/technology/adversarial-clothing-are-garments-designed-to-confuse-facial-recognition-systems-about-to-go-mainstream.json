@@ -1,0 +1,69 @@
+{
+  "subject": "adversarial-clothing-are-garments-designed-to-confuse-facial-recognition-systems-about-to-go-mainstream",
+  "claims": [
+    {
+      "id": "title",
+      "proposition": {
+        "predicate": "title",
+        "object": "‘Adversarial clothing’: are garments designed to confuse facial recognition systems about to go mainstream?"
+      },
+      "time": {
+        "asserted": "2026-07-18T04:08:20.911Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "technology",
+        "citation": "https://www.theguardian.com/fashion/2026/jul/17/adversarial-clothing-are-garments-designed-to-confuse-facial-recognition-systems-about-to-go-mainstream"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "url",
+      "proposition": {
+        "predicate": "url",
+        "object": "https://www.theguardian.com/fashion/2026/jul/17/adversarial-clothing-are-garments-designed-to-confuse-facial-recognition-systems-about-to-go-mainstream"
+      },
+      "time": {
+        "asserted": "2026-07-18T04:08:20.911Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "technology",
+        "citation": "https://www.theguardian.com/fashion/2026/jul/17/adversarial-clothing-are-garments-designed-to-confuse-facial-recognition-systems-about-to-go-mainstream"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "summary",
+      "proposition": {
+        "predicate": "summary",
+        "object": "<p>Designers say that as well as offering a degree of protection from surveillance, their clothes make a powerful fashion statement about the importance of privacy</p><p>As facial recognition technology is rolled out across Britain’s public spaces, a new generation of designers say privacy could be the next big fashion trend.</p><p>Companies have started incorporating “adversarial patterns” in their garments – carefully designed arrangements of shapes, colours and repeated motifs said to exploit weaknesses in some computer vision systems.</p> <a href=\"https://www.theguardian.com/fashion/2026/jul/17/adversarial-clothing-are-garments-designed-to-confuse-facial-recognition-systems-about-to-go-mainstream\">Continue reading...</a>"
+      },
+      "time": {
+        "asserted": "2026-07-18T04:08:20.911Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "technology",
+        "citation": "https://www.theguardian.com/fashion/2026/jul/17/adversarial-clothing-are-garments-designed-to-confuse-facial-recognition-systems-about-to-go-mainstream"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "published",
+      "proposition": {
+        "predicate": "published",
+        "object": "Fri, 17 Jul 2026 09:00:05 GMT"
+      },
+      "time": {
+        "asserted": "2026-07-18T04:08:20.911Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "technology",
+        "citation": "https://www.theguardian.com/fashion/2026/jul/17/adversarial-clothing-are-garments-designed-to-confuse-facial-recognition-systems-about-to-go-mainstream"
+      },
+      "status": "supported"
+    }
+  ]
+}

@@ -1,0 +1,69 @@
+{
+  "subject": "smelling-test-children-need-education-in-sniffing-aromas-scientist-says",
+  "claims": [
+    {
+      "id": "title",
+      "proposition": {
+        "predicate": "title",
+        "object": "Smelling test: children need education in sniffing aromas, scientist says"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "science",
+        "citation": "https://www.theguardian.com/science/2026/aug/31/children-education-sniffing-aromas-scientist"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "url",
+      "proposition": {
+        "predicate": "url",
+        "object": "https://www.theguardian.com/science/2026/aug/31/children-education-sniffing-aromas-scientist"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "science",
+        "citation": "https://www.theguardian.com/science/2026/aug/31/children-education-sniffing-aromas-scientist"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "summary",
+      "proposition": {
+        "predicate": "summary",
+        "object": "<p>Exclusive: Dr Will Tullett says better understanding of scents can improve wellbeing and perception of the world</p><p>Children need a better education in sniffing aromas, a leading historian of smells has said, noting it may improve their wellbeing and help them understand the world around them.</p><p>Dr Will Tullett, of the University of York, said pollution had been found to impair people’s olfactory abilities, while many objects and substances today – from margarines to car interiors and even our own homes – were stripped of their original smells and “reodourised” with synthetic scents.</p> <a href=\"https://www.theguardian.com/science/2026/aug/31/children-education-sniffing-aromas-scientist\">Continue reading...</a>"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "science",
+        "citation": "https://www.theguardian.com/science/2026/aug/31/children-education-sniffing-aromas-scientist"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "published",
+      "proposition": {
+        "predicate": "published",
+        "object": "Mon, 31 Aug 2026 13:00:25 GMT"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "science",
+        "citation": "https://www.theguardian.com/science/2026/aug/31/children-education-sniffing-aromas-scientist"
+      },
+      "status": "supported"
+    }
+  ]
+}

@@ -1,0 +1,69 @@
+{
+  "subject": "david-squires-on-the-art-of-the-transfer-deal",
+  "claims": [
+    {
+      "id": "title",
+      "proposition": {
+        "predicate": "title",
+        "object": "David Squires on … the art of the transfer deal"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "sport",
+        "citation": "https://www.theguardian.com/football/picture/2026/sep/01/david-squires-on-the-art-of-the-transfer-deal"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "url",
+      "proposition": {
+        "predicate": "url",
+        "object": "https://www.theguardian.com/football/picture/2026/sep/01/david-squires-on-the-art-of-the-transfer-deal"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "sport",
+        "citation": "https://www.theguardian.com/football/picture/2026/sep/01/david-squires-on-the-art-of-the-transfer-deal"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "summary",
+      "proposition": {
+        "predicate": "summary",
+        "object": "<p>Our cartoonist looks through the ages to chart the evolution of the football transfer into its modern construct</p><ul><li><p><a href=\"https://guardianprintshop.com/collections/david-squires\">Buy a cartoon</a> | <a href=\"https://www.theguardian.com/football/2025/dec/04/david-squires-picks-his-favourite-cartoons-of-2025\">Some of David’s favourite works</a></p></li><li><p><a href=\"https://guardianbookshop.com/chaos-in-the-box-9781783352838/?utm_source=editoriallink&amp;utm_medium=merch&amp;utm_campaign=article\">And his latest book, Chaos in the Box: get it now</a></p></li></ul> <a href=\"https://www.theguardian.com/football/picture/2026/sep/01/david-squires-on-the-art-of-the-transfer-deal\">Continue reading...</a>"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "sport",
+        "citation": "https://www.theguardian.com/football/picture/2026/sep/01/david-squires-on-the-art-of-the-transfer-deal"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "published",
+      "proposition": {
+        "predicate": "published",
+        "object": "Tue, 01 Sep 2026 10:00:03 GMT"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "sport",
+        "citation": "https://www.theguardian.com/football/picture/2026/sep/01/david-squires-on-the-art-of-the-transfer-deal"
+      },
+      "status": "supported"
+    }
+  ]
+}

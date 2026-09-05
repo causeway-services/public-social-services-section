@@ -1,0 +1,69 @@
+{
+  "subject": "avoid-ai-atrophy-new-tool-promises-to-reverse-vibe-coding-skills-decay",
+  "claims": [
+    {
+      "id": "title",
+      "proposition": {
+        "predicate": "title",
+        "object": "Avoid AI atrophy – new tool promises to reverse vibe coding skills decay"
+      },
+      "time": {
+        "asserted": "2026-07-18T08:15:56.087Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "technology",
+        "citation": "https://www.theregister.com/ai-and-ml/2026/07/07/avoid-ai-atrophy-new-tool-promises-to-reverse-vibe-coding-skills-decay/5267913"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "url",
+      "proposition": {
+        "predicate": "url",
+        "object": "https://www.theregister.com/ai-and-ml/2026/07/07/avoid-ai-atrophy-new-tool-promises-to-reverse-vibe-coding-skills-decay/5267913"
+      },
+      "time": {
+        "asserted": "2026-07-18T08:15:56.087Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "technology",
+        "citation": "https://www.theregister.com/ai-and-ml/2026/07/07/avoid-ai-atrophy-new-tool-promises-to-reverse-vibe-coding-skills-decay/5267913"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "summary",
+      "proposition": {
+        "predicate": "summary",
+        "object": "If you're a coder who uses AI agents to write programs for you, you may start losing those talents. Fortunately, a new command line tool can help reinforce your skills before they wither away. Aptly titled Atrophy by Ashutosh Rath, the Bengaluru, India-based developer who created it, the CLI app treats coding abilities like Elo chess scores and pushes devs to reinforce their learning through regular drills in five different skill areas. Syntax recall asks users to write a small function from a spec, debugging presents a code snippet with a hidden bug in it, code reading treats users like a human print command, API memory tests one’s ability to fill in the blank in a stdlib call, and decomposition tests a coder’s ability to outline a design. Exercises test Python and JavaScript skills and come in three difficulty levels, Rath explained in the GitHub readme, with seeded generation for fresh variants of the different exercises. “If AI assistance is quietly eroding your ability to code unaided, the chart shows you – before an interview, an outage, or a day without wifi does,” Rath wrote in Atrophy's readme. Users take a baseline exam with one exercise in each of the five skill areas to get their starting ratings, which Rath estimates takes around 25 minutes to complete. After that, he recommends users do 5-10 minute drills two or three times a week. Atrophy automatically selects an exercise from the skill that’s been neglected the longest and sets a soft time limit for the exercise. Users can still pass if they exceed the soft limit, but point gain will be reduced if they do so. Rath told The Register that ratings are adjusted after exercises “using an Elo-style formula,” and explained that drills early in one’s Atrophy use will move the number more than later ones. Inactivity in using the app (it has to be triggered manually right now and won’t force users to drill on any set schedule) weakens Atrophy’s confidence in the correctness of its user’s rating, but doesn’t actually lower scores. Rath also suggests users take an AI-assisted drill once a month, scores for which are tracked separately and used to measure one’s skill gap between assisted and unassisted coding so you can see if you’re gradually becoming more dependent on agent assistance as time goes on. As mentioned above, the rating system was based on chess Elo ratings, but Rath told The Register that it’s not a one-to-one copy of Elo’s ranking style. For one, each of the five skill areas is ranked independently and each starts at 1200. There isn’t a hard minimum or maximum, Rath explained, so just know you can keep dropping below 1200 if your coding muscles get really weak. As Rath notes in the readme, drills are just a proxy for real-world skills, so don’t treat the number as an absolute measurement of skill: The value of Atrophy lies in the trends the app suggests over time, which allows devs to hone in on skill areas AI may be harming. “Atrophy isn’t anti-AI,” Rath told us. “I built it to measure the gap between what I can do with AI and what I can still do on my own, because that skill can quietly rust without warning.” There’s plenty of evidence to suggest Rath is on to something. Analysts have been warning for some time that AI can erode skills due to reliance on tools to handle tasks traditionally left to human developers, but anecdotal evidence isn’t all the proof. Researchers at MIT found last year that students writing essays with the assistance of AI chatbots had less brain activity than those writing them without LLM help. The cadre of users relying on AI also had poorer fact retention and an inability to recall what they had written. The end result of AI usage, they concluded, was “shallow encoding” of learning and less ability to operate independently of their agentic companions. In other words, your skills could be disintegrating without you even realizing – might be time to take Atrophy for a spin so you can at least establish a baseline. ®"
+      },
+      "time": {
+        "asserted": "2026-07-18T08:15:56.087Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "technology",
+        "citation": "https://www.theregister.com/ai-and-ml/2026/07/07/avoid-ai-atrophy-new-tool-promises-to-reverse-vibe-coding-skills-decay/5267913"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "published",
+      "proposition": {
+        "predicate": "published",
+        "object": "Tue, 07 Jul 2026 22:21:35 +0200"
+      },
+      "time": {
+        "asserted": "2026-07-18T08:15:56.087Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "technology",
+        "citation": "https://www.theregister.com/ai-and-ml/2026/07/07/avoid-ai-atrophy-new-tool-promises-to-reverse-vibe-coding-skills-decay/5267913"
+      },
+      "status": "supported"
+    }
+  ]
+}

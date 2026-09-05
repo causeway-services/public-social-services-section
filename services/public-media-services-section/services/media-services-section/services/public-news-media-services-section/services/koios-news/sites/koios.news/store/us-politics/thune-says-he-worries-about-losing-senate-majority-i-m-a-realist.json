@@ -1,0 +1,69 @@
+{
+  "subject": "thune-says-he-worries-about-losing-senate-majority-i-m-a-realist",
+  "claims": [
+    {
+      "id": "title",
+      "proposition": {
+        "predicate": "title",
+        "object": "Thune says he worries about losing Senate majority: ‘I’m a realist’"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "us-politics",
+        "citation": "https://thehill.com/homenews/senate/6067615-thune-gop-senate-majority/"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "url",
+      "proposition": {
+        "predicate": "url",
+        "object": "https://thehill.com/homenews/senate/6067615-thune-gop-senate-majority/"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "us-politics",
+        "citation": "https://thehill.com/homenews/senate/6067615-thune-gop-senate-majority/"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "summary",
+      "proposition": {
+        "predicate": "summary",
+        "object": "Senate Majority Leader John Thune (R-S.D.) admitted in a recent interview that he’s worried about Republicans losing their Senate majority, acknowledging the strong political headwinds they face this fall because of high prices and President Trump’s slumping approval rating. Thune described himself as “a realist” during a wide-ranging interview with Keloland News in South Dakota.…"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "us-politics",
+        "citation": "https://thehill.com/homenews/senate/6067615-thune-gop-senate-majority/"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "published",
+      "proposition": {
+        "predicate": "published",
+        "object": "Wed, 02 Sep 2026 21:47:40 +0000"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "us-politics",
+        "citation": "https://thehill.com/homenews/senate/6067615-thune-gop-senate-majority/"
+      },
+      "status": "supported"
+    }
+  ]
+}

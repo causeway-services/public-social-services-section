@@ -1,0 +1,69 @@
+{
+  "subject": "castlevania-belmont-s-curse-konami-classic-rises-again-from-paris-sewers-and-joan-of-arc-is-a-boss",
+  "claims": [
+    {
+      "id": "title",
+      "proposition": {
+        "predicate": "title",
+        "object": "Castlevania: Belmont’s Curse - Konami classic rises again from Paris sewers and Joan of Arc is a boss"
+      },
+      "time": {
+        "asserted": "2026-07-18T07:55:54.567Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "culture",
+        "citation": "https://www.theguardian.com/games/2026/jul/17/castlevania-belmonts-curse-komani-classic-paris-joan-of-arc-is-a-boss"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "url",
+      "proposition": {
+        "predicate": "url",
+        "object": "https://www.theguardian.com/games/2026/jul/17/castlevania-belmonts-curse-komani-classic-paris-joan-of-arc-is-a-boss"
+      },
+      "time": {
+        "asserted": "2026-07-18T07:55:54.567Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "culture",
+        "citation": "https://www.theguardian.com/games/2026/jul/17/castlevania-belmonts-curse-komani-classic-paris-joan-of-arc-is-a-boss"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "summary",
+      "proposition": {
+        "predicate": "summary",
+        "object": "<p>Evil Empire creatives explain how it is playing to today’s ‘metroidvanias’ and honouring the original’s legacy with much fresh slaying to be done</p><p></p><p>Since the last Castlevania game hit the shelves (2014’s<a href=\"https://www.theguardian.com/technology/2014/mar/02/castlevania-lords-of-shadow-2-dracula-sequel\"> Castlevania: Lords of Shadow 2</a>), Konami’s dormant series has unexpectedly spawned a hit genre. With an entire generation raised on “metroidvanias” – a portmanteau of Metroid and Castlevania – millions of players have only ever seen the games <em>inspired by </em>Konami’s seminal games. Now with Belmont’s Curse, launching in October, Castlevania is finally dashing back to console, where Konami hopes to reclaim its side-scroller throne.</p><p>Set 23 years after the events of 1989’s Castlevania 3 – the same setting as the hit Netflix show – Belmont’s Curse shakes off the series’ 3D ambitions and takes the Belmonts back to basics. Dispatching players to the demon-infested streets of 1499 Paris, you’re placed in the tattered boots of Trevor Belmont’s daughter, Rose. As a bishop pleads with the Belmonts to rid Paris of the ancient evil besetting the city, Rose heads into the sewers, longsword in hand, and her demon-slaying adventure begins.</p> <a href=\"https://www.theguardian.com/games/2026/jul/17/castlevania-belmonts-curse-komani-classic-paris-joan-of-arc-is-a-boss\">Continue reading...</a>"
+      },
+      "time": {
+        "asserted": "2026-07-18T07:55:54.567Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "culture",
+        "citation": "https://www.theguardian.com/games/2026/jul/17/castlevania-belmonts-curse-komani-classic-paris-joan-of-arc-is-a-boss"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "published",
+      "proposition": {
+        "predicate": "published",
+        "object": "Fri, 17 Jul 2026 07:00:01 GMT"
+      },
+      "time": {
+        "asserted": "2026-07-18T07:55:54.567Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "culture",
+        "citation": "https://www.theguardian.com/games/2026/jul/17/castlevania-belmonts-curse-komani-classic-paris-joan-of-arc-is-a-boss"
+      },
+      "status": "supported"
+    }
+  ]
+}

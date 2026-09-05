@@ -1,0 +1,69 @@
+{
+  "subject": "what-we-re-reading-writers-and-readers-on-the-books-they-enjoyed-in-june",
+  "claims": [
+    {
+      "id": "title",
+      "proposition": {
+        "predicate": "title",
+        "object": "What we’re reading: writers and readers on the books they enjoyed in June"
+      },
+      "time": {
+        "asserted": "2026-07-19T14:42:05.531Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "culture",
+        "citation": "https://www.theguardian.com/books/2026/jun/30/what-were-reading-writers-and-readers-on-the-books-they-enjoyed-in-june-candice-carty-williams"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "url",
+      "proposition": {
+        "predicate": "url",
+        "object": "https://www.theguardian.com/books/2026/jun/30/what-were-reading-writers-and-readers-on-the-books-they-enjoyed-in-june-candice-carty-williams"
+      },
+      "time": {
+        "asserted": "2026-07-19T14:42:05.531Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "culture",
+        "citation": "https://www.theguardian.com/books/2026/jun/30/what-were-reading-writers-and-readers-on-the-books-they-enjoyed-in-june-candice-carty-williams"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "summary",
+      "proposition": {
+        "predicate": "summary",
+        "object": "<p>Candice Carty-Williams, Patrick Freyne and Guardian readers discuss the titles they have read over the last month. Join the conversation in the comments</p><p>I just finished reading <strong>Wimmy Road Boyz</strong> by Sufiyaan Salam. I absolutely adored this book, a fantastic combination of violence and vulnerability set on Manchester’s Curry Mile. I became completely attached to the three main boys, and I loved all of the perspective shifts to different characters throughout the book. I fully weeped at the end – it was an unexpected but completely understandable ending. 10/10, everyone should read this.</p><p>Queenie Is Working on It is published on 2 July by Trapeze. To support the Guardian, order your copy from <a href=\"https://ablink.editorial.theguardian.com/ss/c/u001.Yw_JkLMEmFuifc_XG18IR3_HRFb6HdqnDmyon0Ow0CwbQXfVzXklu4OPhufYcdbjbgZFb9WmF9jJxtKaCLDhlNnR1mJPC2Brez43gPgyqBKIfu4ovri_I098BcxTnXEM7VgijeocilonZM13g50HmFYEaT_7g-PQJBvbiW8BkSG722psIEWdmHP2IIvqb-3beHv7tVog3Hp-iU-Xm8FQn-QUrfD-wnwD2EUspnVMrjP7RvS7qNE8Zhd5w3cUIYqCtG3aKaeRaUej-kADljTHCjNCjjkvJPrGWnozWNI5SOIqdLwCsWKxZdFbWo0xy9R85UaSdq9l2d1WrnO0-tT2bTVcpnHYDluPDXzx2_5UxNg/4ro/Jg5YPPyIRZ6Ne_T8G8F6fw/h38/h001.UwR6Gu8M6iq51UxUEazfsZJmrTw1pUnQTbcg3vAi7JA\">guardianbookshop.com</a>.</p> <a href=\"https://www.theguardian.com/books/2026/jun/30/what-were-reading-writers-and-readers-on-the-books-they-enjoyed-in-june-candice-carty-williams\">Continue reading...</a>"
+      },
+      "time": {
+        "asserted": "2026-07-19T14:42:05.531Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "culture",
+        "citation": "https://www.theguardian.com/books/2026/jun/30/what-were-reading-writers-and-readers-on-the-books-they-enjoyed-in-june-candice-carty-williams"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "published",
+      "proposition": {
+        "predicate": "published",
+        "object": "Tue, 30 Jun 2026 18:24:40 GMT"
+      },
+      "time": {
+        "asserted": "2026-07-19T14:42:05.531Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "culture",
+        "citation": "https://www.theguardian.com/books/2026/jun/30/what-were-reading-writers-and-readers-on-the-books-they-enjoyed-in-june-candice-carty-williams"
+      },
+      "status": "supported"
+    }
+  ]
+}

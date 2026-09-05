@@ -1,0 +1,69 @@
+{
+  "subject": "banning-nuts-from-the-skies-would-not-keep-people-with-allergies-safe-letters",
+  "claims": [
+    {
+      "id": "title",
+      "proposition": {
+        "predicate": "title",
+        "object": "Banning nuts from the skies would not keep people with allergies safe | Letters"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "health",
+        "citation": "https://www.theguardian.com/society/2026/sep/02/banning-nuts-from-the-skies-would-not-keep-people-with-allergies-safe"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "url",
+      "proposition": {
+        "predicate": "url",
+        "object": "https://www.theguardian.com/society/2026/sep/02/banning-nuts-from-the-skies-would-not-keep-people-with-allergies-safe"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "health",
+        "citation": "https://www.theguardian.com/society/2026/sep/02/banning-nuts-from-the-skies-would-not-keep-people-with-allergies-safe"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "summary",
+      "proposition": {
+        "predicate": "summary",
+        "object": "<p><strong>Alison Smith </strong>says food bans do not improve compliance, they create a false sense of security in patients</p><p>As the mother of a child with anaphylactic allergies, I am sympathetic to the terror that Lucy Pasha-Robinson describes (<a href=\"https://www.theguardian.com/commentisfree/2026/aug/27/food-allergies-flying-planes-banned-peanuts\">Food allergies when flying are no joke. That’s why nuts should be banned on planes, 27 August</a>). Indeed, last summer I spent six hours compulsively cleaning on a demonstrably filthy flight. Flight crew handed out wipes to passengers “to clean your tray tables”, then proceeded to serve packets of cashews (my child’s anaphylactic nut) with drinks. My&nbsp;nerves were shredded by the time we arrived in Chicago.</p><p>However, I am firmly against the banning of nuts from the skies. Food bans do not improve compliance, and they create a false sense of security in patients.</p> <a href=\"https://www.theguardian.com/society/2026/sep/02/banning-nuts-from-the-skies-would-not-keep-people-with-allergies-safe\">Continue reading...</a>"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "health",
+        "citation": "https://www.theguardian.com/society/2026/sep/02/banning-nuts-from-the-skies-would-not-keep-people-with-allergies-safe"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "published",
+      "proposition": {
+        "predicate": "published",
+        "object": "Wed, 02 Sep 2026 17:03:18 GMT"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "health",
+        "citation": "https://www.theguardian.com/society/2026/sep/02/banning-nuts-from-the-skies-would-not-keep-people-with-allergies-safe"
+      },
+      "status": "supported"
+    }
+  ]
+}

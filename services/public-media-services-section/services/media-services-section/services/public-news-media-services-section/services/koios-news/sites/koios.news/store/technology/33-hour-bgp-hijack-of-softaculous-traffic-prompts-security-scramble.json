@@ -1,0 +1,69 @@
+{
+  "subject": "33-hour-bgp-hijack-of-softaculous-traffic-prompts-security-scramble",
+  "claims": [
+    {
+      "id": "title",
+      "proposition": {
+        "predicate": "title",
+        "object": "33-hour BGP hijack of Softaculous traffic prompts security scramble"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "technology",
+        "citation": "https://www.theregister.com/security/2026/09/01/33-hour-bgp-hijack-of-softaculous-traffic-prompts-security-scramble/5293608"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "url",
+      "proposition": {
+        "predicate": "url",
+        "object": "https://www.theregister.com/security/2026/09/01/33-hour-bgp-hijack-of-softaculous-traffic-prompts-security-scramble/5293608"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "technology",
+        "citation": "https://www.theregister.com/security/2026/09/01/33-hour-bgp-hijack-of-softaculous-traffic-prompts-security-scramble/5293608"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "summary",
+      "proposition": {
+        "predicate": "summary",
+        "object": "Softaculous and Virtualizor customers are being urged to reset credentials and inspect their servers after a 33-hour BGP hijacking incident diverted traffic and delivered malware to a handful of installations. Softaculous makes software for the web hosting industry, while its Virtualizor control panel is used by providers and administrators to deploy and manage virtual private servers. Beginning at around 20:57 UTC on August 28, an unrelated network began announcing a block of Hetzner IP addresses used by Softaculous, diverting some traffic intended for the vendor's systems to an attacker-controlled server. German hosting provider Hetzner is one of Softaculous's upstream infrastructure providers. The affected addresses served \"a number of Softaculous systems,\" including Virtualizor's software update endpoint and Softaculous's client and billing site. The attacker pulled off the BGP hijack by announcing a more specific IP address range than Hetzner normally advertised. Under standard BGP route selection, the more specific route took precedence wherever it was accepted. According to Softaculous, the attacker was also able to secure a valid TLS certificate from Let's Encrypt because the certificate authority's automated domain-ownership validation was routed through the hijack too. This allowed affected connections to reach the attacker's server without triggering the certificate warnings that might otherwise have alerted users. According to the vendor's timeline, the unauthorized route was initially \"accepted by essentially every internet vantage point that receives it,\" although it flapped repeatedly rather than remaining continuously available. Softaculous said it reported the issues to Hetzner at around 08:50 UTC on August 29. The hosting provider began directly announcing the same, more-specific address range, cutting the observed diversion to almost zero for roughly 11 hours. The unauthorized announcement returned at around 20:00 UTC and was again widely accepted, beginning a second wave that lasted roughly ten hours. The route was withdrawn between 05:50 and 06:10 UTC on August 30, after which normal routing was restored globally. While either wave was active, Softaculous estimates that a given server had roughly a 72 percent chance of being on a network that routed the affected address range through the attacker. The figure is based on the proportion of RIPE routing collector peers carrying the hijacked route, not the volume of traffic intercepted, the vendor said. Anyone who logged into the Softaculous client area during the incident window is advised to reset that password immediately, as well as anywhere else it was reused. Customers who entered card details during the same window should also review their statements. Softaculous said it does not process cards on its own servers and instead uses payment gateways, but an affected session may have been diverted before reaching them. More seriously, the vendor confirmed that a malicious Virtualizor update package was delivered to a handful of installations whose update checks passed through the attacker's server. \"Our product update clients did not yet cryptographically verify update packages, so a modified package would not have been rejected on that basis.\" Because those downloads never reached its own logs, Softaculous said it \"cannot produce a definitive list\" of affected installations. It is therefore telling every Virtualizor operator to treat their server as in scope for checks – not necessarily as compromised. Softaculous did not describe the malware's capabilities, but identified a systemd unit at /etc/systemd/system/java-jre-update.service as an indicator of compromise. Operators that find it are advised not to delete it immediately, but to contact the vendor so evidence can be preserved. The vendor has not identified malicious packages targeting Backuply, Softaculous, SitePad, Webuzo, or its other products, although its investigation continues. Virtualizor operators should rotate and restrict their API credentials, check for unknown SSH keys and accounts, inspect scheduled tasks and outbound connections, and regenerate client-area API keys. Softaculous is also invalidating client-area sessions created during the incident window. Softaculous did not disclose how many customers downloaded the malicious update or may have handed credentials to the attacker. It said only that the confirmed infections amounted to \"a handful of servers rather than the general Virtualizor user base.\" ®"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "technology",
+        "citation": "https://www.theregister.com/security/2026/09/01/33-hour-bgp-hijack-of-softaculous-traffic-prompts-security-scramble/5293608"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "published",
+      "proposition": {
+        "predicate": "published",
+        "object": "Tue, 01 Sep 2026 14:04:00 +0200"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "technology",
+        "citation": "https://www.theregister.com/security/2026/09/01/33-hour-bgp-hijack-of-softaculous-traffic-prompts-security-scramble/5293608"
+      },
+      "status": "supported"
+    }
+  ]
+}

@@ -1,0 +1,69 @@
+{
+  "subject": "the-open-2026-fourth-and-final-round-heading-for-tense-finish-at-royal-birkdale-live",
+  "claims": [
+    {
+      "id": "title",
+      "proposition": {
+        "predicate": "title",
+        "object": "The Open 2026: fourth and final round heading for tense finish at Royal Birkdale – live"
+      },
+      "time": {
+        "asserted": "2026-07-19T15:58:02.610Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "sports",
+        "citation": "https://www.theguardian.com/sport/live/2026/jul/19/the-open-golf-2026-fourth-and-final-round-at-royal-birkdale-live"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "url",
+      "proposition": {
+        "predicate": "url",
+        "object": "https://www.theguardian.com/sport/live/2026/jul/19/the-open-golf-2026-fourth-and-final-round-at-royal-birkdale-live"
+      },
+      "time": {
+        "asserted": "2026-07-19T15:58:02.610Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "sports",
+        "citation": "https://www.theguardian.com/sport/live/2026/jul/19/the-open-golf-2026-fourth-and-final-round-at-royal-birkdale-live"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "summary",
+      "proposition": {
+        "predicate": "summary",
+        "object": "<p>️Updates from the final day’s play at Royal Birkdale<br>️<a href=\"https://www.theopen.com/leaderboard\">Official leaderboard</a> | <a href=\"mailto:scott.murray.casual@theguardian.com\">Mail Scott </a>with your thoughts</p><p><strong>The final few games are running late, due to a rules brouhaha in an earlier match.</strong> So if you’ve been hammering away at refresh waiting for news of Tommy Fleetwood, here he comes now. The usual hubbub on the tee, then he takes his fairway wood, hits the ball, and twirls the club in satisfaction. Not exactly sure why, because his ball disappears into a thick clump of grass atop a bank to the left of the fairway. Some tension in the shoulders no doubt.</p><p><strong>Another birdie for Scottie Scheffler!</strong> He crashes his drive at 5 greenside, chips up to four feet, and rolls in the putt. No fuss. The defending champion is now -7, and if he continues like this, posts a number, and the late-starting leaders have to deal with the cranking up of both wind and pressure … well now, we’d have quite the Open. A long way to go yet.</p> <a href=\"https://www.theguardian.com/sport/live/2026/jul/19/the-open-golf-2026-fourth-and-final-round-at-royal-birkdale-live\">Continue reading...</a>"
+      },
+      "time": {
+        "asserted": "2026-07-19T15:58:02.610Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "sports",
+        "citation": "https://www.theguardian.com/sport/live/2026/jul/19/the-open-golf-2026-fourth-and-final-round-at-royal-birkdale-live"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "published",
+      "proposition": {
+        "predicate": "published",
+        "object": "Sun, 19 Jul 2026 15:56:00 GMT"
+      },
+      "time": {
+        "asserted": "2026-07-19T15:58:02.610Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "sports",
+        "citation": "https://www.theguardian.com/sport/live/2026/jul/19/the-open-golf-2026-fourth-and-final-round-at-royal-birkdale-live"
+      },
+      "status": "supported"
+    }
+  ]
+}

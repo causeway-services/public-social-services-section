@@ -1,0 +1,69 @@
+{
+  "subject": "offshore-wind-power-projects-are-flailing-just-when-the-east-coast-needs-them-most",
+  "claims": [
+    {
+      "id": "title",
+      "proposition": {
+        "predicate": "title",
+        "object": "Offshore wind power projects are flailing, just when the East Coast needs them most"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "environment",
+        "citation": "https://grist.org/business/offshore-wind-projects-east-coast-electric-grids/"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "url",
+      "proposition": {
+        "predicate": "url",
+        "object": "https://grist.org/business/offshore-wind-projects-east-coast-electric-grids/"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "environment",
+        "citation": "https://grist.org/business/offshore-wind-projects-east-coast-electric-grids/"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "summary",
+      "proposition": {
+        "predicate": "summary",
+        "object": "With congested, aging power lines and a densely developed landscape, the East Coast has few options for building large-scale renewable power. Meanwhile, the region’s electricity prices are rising, and states are falling behind their emissions goals.&nbsp; Offshore wind offered a unique opportunity to meet those challenges, experts say, but the industry is barely surviving under economic headwinds and an openly hostile federal government. Offshore wind isn’t dead, but advocates agree that the technology is fading just when the region needs it most. Offshore wind developers, who had already struggled with high construction costs, hit a minefield when the Trump administration took office in 2025. The administration has subjected offshore wind projects to questionable Pentagon reviews, permit revocations, and stop-work orders, some of which survived only briefly before being blocked by courts. The administration’s most consequential move may have been its decision to pay developers to surrender their rights to develop in federally managed waters. By mid-August, it had committed to roughly $4 billion in payouts, wiping an estimated 21 gigawatts of potential wind power capacity off U.S. coasts, or enough energy to power over 15 million average-sized U.S. homes. Experts say more deals could follow. As they wait for conditions to improve, the industry must push through what offshore wind experts describe as an irked malaise.&nbsp; “Companies are trying to be upbeat, but I think if you kind of peel back the layers a bit, there’s a number of emotions out there; anger, sadness,” said Mark Repsher, an energy and sustainability expert at PA Consulting. “These people like what they do … sometimes it’s been their whole career, and it’s been put on pause now.” At least nine companies are still holding onto their offshore wind development rights, most of them European energy giants like Shell, and at least some appear unlikely to strike a deal. Denmark-based Orsted, the world’s largest developer of offshore wind energy, and the Spanish company Avangrid are the largest remaining leaseholders, with five and six undeveloped leases, respectively. The projects are dropping at a time when the three major interstate grids in the Northeast and mid-Atlantic are all facing growing demand from data centers , electrification, and new manufacturing, while some of the region’s cleanest power is generated far from its biggest cities. New York is a case in point. Half of the state’s electricity demand is concentrated around New York City and Long Island, but much of its renewable power is generated upstate, where aging transmission lines are already a bottleneck. Meanwhile, for PJM, the grid operator covering most of the mid-Atlantic, power demand is projected to grow 7.8 gigawatts higher than available supply by 2033. “If you had additional wind, it could be filling those gaps, reducing any of those challenges at a time the grid really, really needs that,” said Hillary Bright, executive director of Turn Forward, a nonprofit supporting offshore wind. Offshore wind can send clean power straight to demand centers and ease grid pressure. The Empire Wind project, expected to enter operation in 2027, will send power directly to New York City through undersea cables, while the Coastal Virginia Offshore Wind project already delivers power to the data center cluster in northern Virginia that has become one of PJM’s fastest-growing energy consumers. Read Next Trump destroyed offshore wind. The Northeast can’t live without it. Jake Bittle Former President Joe Biden saw offshore wind as a central pillar of his federal climate strategy, largely because of its geographic strengths. His administration permitted the first commercial-scale U.S. offshore wind project, Vineyard Wind, in 2021, then leased 1.9 million acres of coastal waters to developers — more than had been awarded during the previous three presidential terms combined. States built the technology into their climate plans accordingly. Massachusetts has called offshore wind a “cornerstone” of its clean energy strategy; New York called it “critical”; and Maryland described it as its “greatest opportunity” to reach its emissions goals.&nbsp; Without offshore wind, Eastern states don’t have a clear alternative for abundant, clean energy, experts say. Some solar power might help, but the East’s tightly packed geography just isn’t well-suited for the kind of land-based renewables deployments that have revolutionized grids in California and Texas. “The wind resource, and even the solar resource, in the Eastern U.S. is not nearly as good as it is in the West,” Repsher said. Miles from his office in Denver, he said, eastern Colorado’s wide open, sparsely populated prairie lands have bloomed with a profusion of rotating white blades and glossy black panels.&nbsp; Most Eastern states have yet to adjust their climate plans for less offshore wind. New York extended its emissions goal deadlines and loosened greenhouse gas accounting regulations in March, but offshore wind remains a large part of its plan. Meanwhile, in New Jersey, local officials have given up trying to build substations that would receive power from planned offshore wind projects after those projects were canceled or delayed beyond expected connection timelines, even as the technology remains integral to its emissions plans. In both states, planned projects have been frozen or canceled from a mix of pre-Trump economic pressures and current Trump policy pressures, including lease buyouts. It’s questionable, Repsher said, whether there are any realistic changes states could make if they wanted to: “If you have these fairly aggressive carbon reduction targets within these states, it’s borderline impossible to meet them without having offshore wind.” Still, some wind advocates say there are reasons for optimism: Electricity prices have risen, improving the economics of new wind projects, and the Trump administration has only two and a half years left in its term.&nbsp; Kris Ohleth, executive director of Special Initiative on Offshore Wind, a pro-offshore wind nonprofit research group, said some advocates have already started planning for a post-Trump world by compiling what they’ve dubbed “Project 2029” — a policy roadmap that a future administration could adopt to support offshore wind.&nbsp; “Offshore wind is still such an exciting opportunity. It’s such a cool technology,” Ohleth said. “There’s something on the horizon, and that gives me hope.” Correction: An earlier version of this story misstated Empire Wind’s operational status. This story was originally published by Grist with the headline Offshore wind power projects are flailing, just when the East Coast needs them most on Aug 25, 2026."
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "environment",
+        "citation": "https://grist.org/business/offshore-wind-projects-east-coast-electric-grids/"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "published",
+      "proposition": {
+        "predicate": "published",
+        "object": "Tue, 25 Aug 2026 08:30:00 +0000"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "environment",
+        "citation": "https://grist.org/business/offshore-wind-projects-east-coast-electric-grids/"
+      },
+      "status": "supported"
+    }
+  ]
+}

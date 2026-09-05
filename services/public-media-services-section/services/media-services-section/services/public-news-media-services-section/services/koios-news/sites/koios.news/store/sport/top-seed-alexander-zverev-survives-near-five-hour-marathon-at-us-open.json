@@ -1,0 +1,69 @@
+{
+  "subject": "top-seed-alexander-zverev-survives-near-five-hour-marathon-at-us-open",
+  "claims": [
+    {
+      "id": "title",
+      "proposition": {
+        "predicate": "title",
+        "object": "Top seed Alexander Zverev survives near five-hour marathon at US Open"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "sport",
+        "citation": "https://www.theguardian.com/sport/2026/sep/02/alexander-zverev-survives-near-five-hour-marathon-us-open-tennis"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "url",
+      "proposition": {
+        "predicate": "url",
+        "object": "https://www.theguardian.com/sport/2026/sep/02/alexander-zverev-survives-near-five-hour-marathon-us-open-tennis"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "sport",
+        "citation": "https://www.theguardian.com/sport/2026/sep/02/alexander-zverev-survives-near-five-hour-marathon-us-open-tennis"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "summary",
+      "proposition": {
+        "predicate": "summary",
+        "object": "<ul><li><p>German scrapes home 6-4, 3-6, 6-7 (7), 7-5, 6-4 in thriller</p></li><li><p>‘I think this is the longest first-round match I’ve played’</p></li></ul><p>Alexander Zverev rallied just in time to avoid becoming the first men’s No 1 seed to lose in the first round of a grand slam tournament since 2003, edging Lorenzo Sonego 6-4, 3-6, 6-7 (7), 7-5, 6-4 in a US Open match that ended in the early hours of Wednesday morning.</p><p>Zverev could not cash in on repeated chances to break Sonego’s serve for much of the night and was in danger of becoming the first top-seeded man to fall in his first match in a major tournament since Ivo Karlovic beat Lleyton Hewitt at Wimbledon in 2003.</p> <a href=\"https://www.theguardian.com/sport/2026/sep/02/alexander-zverev-survives-near-five-hour-marathon-us-open-tennis\">Continue reading...</a>"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "sport",
+        "citation": "https://www.theguardian.com/sport/2026/sep/02/alexander-zverev-survives-near-five-hour-marathon-us-open-tennis"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "published",
+      "proposition": {
+        "predicate": "published",
+        "object": "Wed, 02 Sep 2026 08:34:07 GMT"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "sport",
+        "citation": "https://www.theguardian.com/sport/2026/sep/02/alexander-zverev-survives-near-five-hour-marathon-us-open-tennis"
+      },
+      "status": "supported"
+    }
+  ]
+}

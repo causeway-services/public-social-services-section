@@ -1,0 +1,69 @@
+{
+  "subject": "feminism-for-a-world-on-fire-by-natasha-walter-review-hope-amid-the-hopelessness",
+  "claims": [
+    {
+      "id": "title",
+      "proposition": {
+        "predicate": "title",
+        "object": "Feminism for a World on Fire by Natasha Walter review – hope amid the hopelessness"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "culture",
+        "citation": "https://www.theguardian.com/books/2026/aug/25/feminism-for-a-world-on-fire-by-natasha-walter-review-hope-amid-the-hopelessness"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "url",
+      "proposition": {
+        "predicate": "url",
+        "object": "https://www.theguardian.com/books/2026/aug/25/feminism-for-a-world-on-fire-by-natasha-walter-review-hope-amid-the-hopelessness"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "culture",
+        "citation": "https://www.theguardian.com/books/2026/aug/25/feminism-for-a-world-on-fire-by-natasha-walter-review-hope-amid-the-hopelessness"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "summary",
+      "proposition": {
+        "predicate": "summary",
+        "object": "<p>A writer and activist links the climate crisis to battles for justice around the world in this vital book</p><p>It has become increasingly difficult to change our minds, to question our own views or to find common ground with people we disagree with,&nbsp;all of which makes Natasha Walter’s new book both refreshing and&nbsp;exhilarating.</p><p>In her ebullient 1998 debut The&nbsp;New&nbsp;Feminism, Walter hailed Margaret Thatcher as a trailblazer. In&nbsp;this fiercer, bleaker work, she rips into the “glossy language of aspiration feminism”, “the message that the individual woman can do anything she wants if she only has the necessary courage”. That kind of feminism inspired an “explosion of books and films about pioneers and heroines, about bossy women and gutsy girls” which retold the feminist story as “a&nbsp;succession of isolated campaigns, led by outsize individuals”.</p> <a href=\"https://www.theguardian.com/books/2026/aug/25/feminism-for-a-world-on-fire-by-natasha-walter-review-hope-amid-the-hopelessness\">Continue reading...</a>"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "culture",
+        "citation": "https://www.theguardian.com/books/2026/aug/25/feminism-for-a-world-on-fire-by-natasha-walter-review-hope-amid-the-hopelessness"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "published",
+      "proposition": {
+        "predicate": "published",
+        "object": "Tue, 25 Aug 2026 08:00:52 GMT"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "culture",
+        "citation": "https://www.theguardian.com/books/2026/aug/25/feminism-for-a-world-on-fire-by-natasha-walter-review-hope-amid-the-hopelessness"
+      },
+      "status": "supported"
+    }
+  ]
+}

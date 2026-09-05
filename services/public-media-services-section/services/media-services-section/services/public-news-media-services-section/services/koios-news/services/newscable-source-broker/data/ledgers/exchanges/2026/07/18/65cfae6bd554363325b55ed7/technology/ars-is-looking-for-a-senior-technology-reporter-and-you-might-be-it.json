@@ -1,0 +1,69 @@
+{
+  "subject": "ars-is-looking-for-a-senior-technology-reporter-and-you-might-be-it",
+  "claims": [
+    {
+      "id": "title",
+      "proposition": {
+        "predicate": "title",
+        "object": "Ars is looking for a senior technology reporter, and you might be it!"
+      },
+      "time": {
+        "asserted": "2026-07-18T07:49:54.433Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "technology",
+        "citation": "https://arstechnica.com/staff/2026/07/ars-is-looking-for-a-senior-technology-reporter-and-you-might-be-it/"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "url",
+      "proposition": {
+        "predicate": "url",
+        "object": "https://arstechnica.com/staff/2026/07/ars-is-looking-for-a-senior-technology-reporter-and-you-might-be-it/"
+      },
+      "time": {
+        "asserted": "2026-07-18T07:49:54.433Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "technology",
+        "citation": "https://arstechnica.com/staff/2026/07/ars-is-looking-for-a-senior-technology-reporter-and-you-might-be-it/"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "summary",
+      "proposition": {
+        "predicate": "summary",
+        "object": "If you're a skilled writer with outsize technology chops who gets excited by the idea of taking the Ars audience with you as you go hands-on with hardware—all kinds of hardware!—then this position has your name all over it. Plus, you get to have me as your boss, and how could that be anything other than awesome?! The job The formal job description and application is right here and has all the specifics and HR stuff, including salary range. The short summary is that we're looking for an experienced writer (where \"experience\" means \"several years of professional work\"), who is a technologist first and foremost. We want people who tinker around with tech because they can't not tinker around with tech; that kind of joy tends to leak out into the work, and it's impossible to fake. Some specifics on the subject matter the job will cover, copied from the job description: Read full article Comments"
+      },
+      "time": {
+        "asserted": "2026-07-18T07:49:54.433Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "technology",
+        "citation": "https://arstechnica.com/staff/2026/07/ars-is-looking-for-a-senior-technology-reporter-and-you-might-be-it/"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "published",
+      "proposition": {
+        "predicate": "published",
+        "object": "Fri, 17 Jul 2026 15:52:28 +0000"
+      },
+      "time": {
+        "asserted": "2026-07-18T07:49:54.433Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "technology",
+        "citation": "https://arstechnica.com/staff/2026/07/ars-is-looking-for-a-senior-technology-reporter-and-you-might-be-it/"
+      },
+      "status": "supported"
+    }
+  ]
+}

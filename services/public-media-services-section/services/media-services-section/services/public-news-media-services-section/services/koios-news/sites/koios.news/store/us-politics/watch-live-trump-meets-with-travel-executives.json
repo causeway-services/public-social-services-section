@@ -1,0 +1,69 @@
+{
+  "subject": "watch-live-trump-meets-with-travel-executives",
+  "claims": [
+    {
+      "id": "title",
+      "proposition": {
+        "predicate": "title",
+        "object": "Watch live: Trump meets with travel executives"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "us-politics",
+        "citation": "https://thehill.com/video-clips/6066903-watch-live-donald-trump-travel-executives-white-house-meeting/"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "url",
+      "proposition": {
+        "predicate": "url",
+        "object": "https://thehill.com/video-clips/6066903-watch-live-donald-trump-travel-executives-white-house-meeting/"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "us-politics",
+        "citation": "https://thehill.com/video-clips/6066903-watch-live-donald-trump-travel-executives-white-house-meeting/"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "summary",
+      "proposition": {
+        "predicate": "summary",
+        "object": "President Trump welcomed a group of U.S. travel executives to the White House Wednesday afternoon. Transportation Secretary Sean Duffy is also expected to attend. Watch live above."
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "us-politics",
+        "citation": "https://thehill.com/video-clips/6066903-watch-live-donald-trump-travel-executives-white-house-meeting/"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "published",
+      "proposition": {
+        "predicate": "published",
+        "object": "Wed, 02 Sep 2026 17:49:30 +0000"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "us-politics",
+        "citation": "https://thehill.com/video-clips/6066903-watch-live-donald-trump-travel-executives-white-house-meeting/"
+      },
+      "status": "supported"
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+#+title: Teraum Notes & Plans
+
+* TODO [0/4] Prepare for playtesters
+  DEADLINE: <2021-03-21 Sun>
+** TODO Plan gameplay
+*** Ramblings, 2020/10/08
+So my plans for Teraum's gameplay, at the point of playtester release, are basically to have characters with skills, each skill having a list of experiences. Players can do certain things around town based on what skills and experiences they have. doing some things has a chance of unlocking new experiences, but only proper conditions are met: usually, that the character have eaten and drank recently.
+
+Also, players have a pool of energy that almost everything draws from, that recharges over time (or items help recharge it)
+
+Things players can do will include, but obviously won't be limited to:
+- shearing sheep
+- milking sheep, goats, cows
+- collecting eggs
+- harvesting flowers, berries, and other plants
+- making tea
+- weaving cloth
+
+For the playtesting period, I plan on having characers be refugees coming in from the Unseen Sea.
+
+I know this doesn't sound like much gameplay, just variations on "harvest and craft," but for now I think that's enough: it'll let me focus on worldbuilding, and then explore what gameplay should come next with the playtesters.
+** TODO Prepare for worldbuilding
+*** TODO Plan sim depth
+** TODO Plan gameplay
+** TODO Build Bellybrush
+** TODO Write server protocol compliance
+*** TODO TELNET
+*** TODO MSSP
+*** TODO MCCP
+*** TODO MSP
+*** TODO MXP

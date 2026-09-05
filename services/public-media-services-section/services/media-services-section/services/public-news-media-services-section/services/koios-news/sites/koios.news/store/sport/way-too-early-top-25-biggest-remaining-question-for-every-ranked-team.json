@@ -1,0 +1,69 @@
+{
+  "subject": "way-too-early-top-25-biggest-remaining-question-for-every-ranked-team",
+  "claims": [
+    {
+      "id": "title",
+      "proposition": {
+        "predicate": "title",
+        "object": "Way-Too-Early Top 25: Biggest remaining question for every ranked team"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "sport",
+        "citation": "https://www.espn.com/mens-college-basketball/story/_/id/49795611/mens-ncaa-basketball-2026-27-way-too-early-top-25-rankings-biggest-question"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "url",
+      "proposition": {
+        "predicate": "url",
+        "object": "https://www.espn.com/mens-college-basketball/story/_/id/49795611/mens-ncaa-basketball-2026-27-way-too-early-top-25-rankings-biggest-question"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "sport",
+        "citation": "https://www.espn.com/mens-college-basketball/story/_/id/49795611/mens-ncaa-basketball-2026-27-way-too-early-top-25-rankings-biggest-question"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "summary",
+      "proposition": {
+        "predicate": "summary",
+        "object": "Eligibility questions abound for the top 25 teams, which include new faces Texas Tech and BYU this month."
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "sport",
+        "citation": "https://www.espn.com/mens-college-basketball/story/_/id/49795611/mens-ncaa-basketball-2026-27-way-too-early-top-25-rankings-biggest-question"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "published",
+      "proposition": {
+        "predicate": "published",
+        "object": "Wed, 2 Sep 2026 09:26:16 EST"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "sport",
+        "citation": "https://www.espn.com/mens-college-basketball/story/_/id/49795611/mens-ncaa-basketball-2026-27-way-too-early-top-25-rankings-biggest-question"
+      },
+      "status": "supported"
+    }
+  ]
+}

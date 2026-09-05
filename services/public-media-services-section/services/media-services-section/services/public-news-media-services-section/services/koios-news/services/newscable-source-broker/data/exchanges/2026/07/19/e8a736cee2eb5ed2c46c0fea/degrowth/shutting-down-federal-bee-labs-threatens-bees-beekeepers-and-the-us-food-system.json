@@ -1,0 +1,69 @@
+{
+  "subject": "shutting-down-federal-bee-labs-threatens-bees-beekeepers-and-the-us-food-system",
+  "claims": [
+    {
+      "id": "title",
+      "proposition": {
+        "predicate": "title",
+        "object": "Shutting down federal bee labs threatens bees, beekeepers and the US food system"
+      },
+      "time": {
+        "asserted": "2026-07-19T14:41:55.181Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "degrowth",
+        "citation": "https://www.resilience.org/stories/2026-07-15/shutting-down-federal-bee-labs-threatens-bees-beekeepers-and-the-us-food-system/"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "url",
+      "proposition": {
+        "predicate": "url",
+        "object": "https://www.resilience.org/stories/2026-07-15/shutting-down-federal-bee-labs-threatens-bees-beekeepers-and-the-us-food-system/"
+      },
+      "time": {
+        "asserted": "2026-07-19T14:41:55.181Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "degrowth",
+        "citation": "https://www.resilience.org/stories/2026-07-15/shutting-down-federal-bee-labs-threatens-bees-beekeepers-and-the-us-food-system/"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "summary",
+      "proposition": {
+        "predicate": "summary",
+        "object": "The U.S. Department of Agriculture plans to close the Beltsville Agricultural Research Center, a 6,500-acre agricultural research station in Maryland that is home to the nation’s premier bee research and disease diagnosis hub. The closure comes at a critical moment for bees."
+      },
+      "time": {
+        "asserted": "2026-07-19T14:41:55.181Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "degrowth",
+        "citation": "https://www.resilience.org/stories/2026-07-15/shutting-down-federal-bee-labs-threatens-bees-beekeepers-and-the-us-food-system/"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "published",
+      "proposition": {
+        "predicate": "published",
+        "object": "Wed, 15 Jul 2026 08:00:31 +0000"
+      },
+      "time": {
+        "asserted": "2026-07-19T14:41:55.181Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "degrowth",
+        "citation": "https://www.resilience.org/stories/2026-07-15/shutting-down-federal-bee-labs-threatens-bees-beekeepers-and-the-us-food-system/"
+      },
+      "status": "supported"
+    }
+  ]
+}

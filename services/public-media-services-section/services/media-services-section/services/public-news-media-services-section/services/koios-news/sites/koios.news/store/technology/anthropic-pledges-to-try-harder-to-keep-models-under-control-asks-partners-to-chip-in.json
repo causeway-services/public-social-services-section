@@ -1,0 +1,69 @@
+{
+  "subject": "anthropic-pledges-to-try-harder-to-keep-models-under-control-asks-partners-to-chip-in",
+  "claims": [
+    {
+      "id": "title",
+      "proposition": {
+        "predicate": "title",
+        "object": "Anthropic pledges to try harder to keep models under control, asks partners to chip in"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "technology",
+        "citation": "https://www.theregister.com/ai-and-ml/2026/09/01/anthropic-pledges-to-try-harder-to-keep-models-under-control-asks-partners-to-chip-in/5293733"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "url",
+      "proposition": {
+        "predicate": "url",
+        "object": "https://www.theregister.com/ai-and-ml/2026/09/01/anthropic-pledges-to-try-harder-to-keep-models-under-control-asks-partners-to-chip-in/5293733"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "technology",
+        "citation": "https://www.theregister.com/ai-and-ml/2026/09/01/anthropic-pledges-to-try-harder-to-keep-models-under-control-asks-partners-to-chip-in/5293733"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "summary",
+      "proposition": {
+        "predicate": "summary",
+        "object": "Anthropic says it's taking steps to limit the misbehavior of its AI models after a review found Claude models going beyond the scope of fictional cybersecurity tests and gaining unauthorized access to real computer systems. The biz wants its partners to step up their security too, seeing as the incidents occurred in third-party environments that were insufficiently protected. The company's self-improvement confession represents a suddenly thriving form of corporate communication – the non-binding post-mortem declaration of effort. The message, in effect: We can't guarantee anything, but here's what we're trying. Anthropic admitted that OpenAI's report about its AI models attacking Hugging Face prompted its own model log audit, and its post offers reassurance in the form of claimed security and model training improvements. Those concerned about AI running amok – a growing number of people – may find this comforting, or not. \"We believe the incidents reflect a failure of operational security, as well as two alignment issues: motivated reasoning, and willingness to take harmful actions in pursuit of a narrow task (both of which we have described in previous system cards),\" the company said. Expanded security efforts include the deployment of real-time classifiers to monitor when models attempt to escape test environments, automated transcript monitoring that looks for sandbox escapes, and stronger isolation measures. Alongside the extra barriers Anthropic is putting in place, the AI biz wants its third-party partners to step up too. \"Because the reported incidents took place in third-party environments, we have asked every organization that tests pre-release models with reduced cyber safeguards to commit to a set of best practices,\" the company said. Anthropic's guidance is that by default, all cyber evaluations should occur in a hardened sandbox with no internet access. The recommendation is essentially to treat AI as a dangerous pathogen in a containment facility. Partners are also advised to have models test sandboxes for escapes prior to evaluations – without internet access – and to confirm that evaluation challenges are solvable. Impossible challenges, as the Hugging Face incident demonstrated, can lead determined models to break rules or try unanticipated solution paths. Furthermore, Anthropic urges those conducting cyber evaluations of AI models to direct models through explicit instructions rather than making claims about an environment that might not be accurate. In the Claude incidents reported on July 30, the model maker suggests that when Claude was misinformed about the availability of internet access, that may have led the model to question data in a way that contributed to its errant behavior. On a related note, Anthropic last month made auto mode the default in Claude Code, enabling company AI models to run without prompting the user for permission. ®"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "technology",
+        "citation": "https://www.theregister.com/ai-and-ml/2026/09/01/anthropic-pledges-to-try-harder-to-keep-models-under-control-asks-partners-to-chip-in/5293733"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "published",
+      "proposition": {
+        "predicate": "published",
+        "object": "Tue, 01 Sep 2026 21:27:23 +0200"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "technology",
+        "citation": "https://www.theregister.com/ai-and-ml/2026/09/01/anthropic-pledges-to-try-harder-to-keep-models-under-control-asks-partners-to-chip-in/5293733"
+      },
+      "status": "supported"
+    }
+  ]
+}

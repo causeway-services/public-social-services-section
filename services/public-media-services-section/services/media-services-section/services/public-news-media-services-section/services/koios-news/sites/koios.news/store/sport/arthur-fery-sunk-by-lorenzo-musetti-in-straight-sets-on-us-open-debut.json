@@ -1,0 +1,69 @@
+{
+  "subject": "arthur-fery-sunk-by-lorenzo-musetti-in-straight-sets-on-us-open-debut",
+  "claims": [
+    {
+      "id": "title",
+      "proposition": {
+        "predicate": "title",
+        "object": "Arthur Fery sunk by Lorenzo Musetti in straight sets on US Open debut"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "sport",
+        "citation": "https://www.theguardian.com/sport/2026/sep/01/madison-keys-alina-korneeva-elena-rybakina-thea-frodin-us-open-2026-tennis"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "url",
+      "proposition": {
+        "predicate": "url",
+        "object": "https://www.theguardian.com/sport/2026/sep/01/madison-keys-alina-korneeva-elena-rybakina-thea-frodin-us-open-2026-tennis"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "sport",
+        "citation": "https://www.theguardian.com/sport/2026/sep/01/madison-keys-alina-korneeva-elena-rybakina-thea-frodin-us-open-2026-tennis"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "summary",
+      "proposition": {
+        "predicate": "summary",
+        "object": "<ul><li><p>British Wimbledon semi-finalist loses 6-3, 6-3, 7-5</p></li><li><p>Elena Rybakina into second round with 6-3, 6-2 win</p></li></ul><p>Six weeks on from <a href=\"https://www.theguardian.com/sport/2026/jul/06/arthur-fery-grigor-dimitrov-thriller-extend-wimbledon-fairytale\">the fortnight that changed his life</a>, Arthur Fery’s first grand slam appearance since his semi-final run at Wimbledon came under considerably different circumstances. He is now the 33rd best men’s player in the world, a direct entrant for all of the biggest tournaments, and he has continued to gain experience at the highest level each week.</p><p>As a result of his continued exposure on the tour, though, Fery’s adversaries have learned more about him. In his first main draw appearance at the US Open, Fery came up against a prepared and sharp Lorenzo Musetti, who exploited the vulnerable parts of his game to secure a win. The Italian comprehensively outplayed the British No 1, reaching the second round with a comfortable 6-3, 6-3, 7-5 victory.</p> <a href=\"https://www.theguardian.com/sport/2026/sep/01/madison-keys-alina-korneeva-elena-rybakina-thea-frodin-us-open-2026-tennis\">Continue reading...</a>"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "sport",
+        "citation": "https://www.theguardian.com/sport/2026/sep/01/madison-keys-alina-korneeva-elena-rybakina-thea-frodin-us-open-2026-tennis"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "published",
+      "proposition": {
+        "predicate": "published",
+        "object": "Tue, 01 Sep 2026 20:55:41 GMT"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "sport",
+        "citation": "https://www.theguardian.com/sport/2026/sep/01/madison-keys-alina-korneeva-elena-rybakina-thea-frodin-us-open-2026-tennis"
+      },
+      "status": "supported"
+    }
+  ]
+}

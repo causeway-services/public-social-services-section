@@ -1,0 +1,69 @@
+{
+  "subject": "doj-sues-kansas-school-district-over-transgender-student-policies",
+  "claims": [
+    {
+      "id": "title",
+      "proposition": {
+        "predicate": "title",
+        "object": "DOJ sues Kansas school district over transgender student policies"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "us-politics",
+        "citation": "https://thehill.com/regulation/court-battles/6067092-doj-kansas-school-district-transgender-lawsuit/"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "url",
+      "proposition": {
+        "predicate": "url",
+        "object": "https://thehill.com/regulation/court-battles/6067092-doj-kansas-school-district-transgender-lawsuit/"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "us-politics",
+        "citation": "https://thehill.com/regulation/court-battles/6067092-doj-kansas-school-district-transgender-lawsuit/"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "summary",
+      "proposition": {
+        "predicate": "summary",
+        "object": "The Justice Department announced Monday a “first-of-its-kind lawsuit” against a school district in Kansas over transgender student policies. The Justice Department’s complaint was filed “to stop it from facilitating the secret ‘transitioning’ of children’s ‘gender identity’ at school without their parents’ knowledge or consent.” It argued the “Transgender and Gender Non-Conforming Students Internal Guidance Document”…"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "us-politics",
+        "citation": "https://thehill.com/regulation/court-battles/6067092-doj-kansas-school-district-transgender-lawsuit/"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "published",
+      "proposition": {
+        "predicate": "published",
+        "object": "Wed, 02 Sep 2026 19:26:14 +0000"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "us-politics",
+        "citation": "https://thehill.com/regulation/court-battles/6067092-doj-kansas-school-district-transgender-lawsuit/"
+      },
+      "status": "supported"
+    }
+  ]
+}

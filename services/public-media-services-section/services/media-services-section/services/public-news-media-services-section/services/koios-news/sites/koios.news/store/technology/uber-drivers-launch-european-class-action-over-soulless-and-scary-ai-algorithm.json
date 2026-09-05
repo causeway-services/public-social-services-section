@@ -1,0 +1,69 @@
+{
+  "subject": "uber-drivers-launch-european-class-action-over-soulless-and-scary-ai-algorithm",
+  "claims": [
+    {
+      "id": "title",
+      "proposition": {
+        "predicate": "title",
+        "object": "Uber drivers launch European class action over ‘soulless’ and ‘scary’ AI algorithm"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "technology",
+        "citation": "https://www.theguardian.com/technology/2026/sep/02/uber-drivers-europe-legal-action-ai-algorithm"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "url",
+      "proposition": {
+        "predicate": "url",
+        "object": "https://www.theguardian.com/technology/2026/sep/02/uber-drivers-europe-legal-action-ai-algorithm"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "technology",
+        "citation": "https://www.theguardian.com/technology/2026/sep/02/uber-drivers-europe-legal-action-ai-algorithm"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "summary",
+      "proposition": {
+        "predicate": "summary",
+        "object": "<p>Landmark lawsuit claims tech company’s pay-setting system has breached privacy laws and pushed down earnings</p><p>Uber drivers have launched a landmark legal action against the ride-hailing company claiming they live in “constant fear” of a “soulless” algorithm it uses to set pay and allocate jobs.</p><p>Drivers from the UK, the Netherlands and other countries have joined the compensation claim that could run into billions of dollars. It alleges an AI-powered pay-setting system breaches data protection laws and pushes down their earnings.</p> <a href=\"https://www.theguardian.com/technology/2026/sep/02/uber-drivers-europe-legal-action-ai-algorithm\">Continue reading...</a>"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "technology",
+        "citation": "https://www.theguardian.com/technology/2026/sep/02/uber-drivers-europe-legal-action-ai-algorithm"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "published",
+      "proposition": {
+        "predicate": "published",
+        "object": "Wed, 02 Sep 2026 15:37:26 GMT"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "technology",
+        "citation": "https://www.theguardian.com/technology/2026/sep/02/uber-drivers-europe-legal-action-ai-algorithm"
+      },
+      "status": "supported"
+    }
+  ]
+}

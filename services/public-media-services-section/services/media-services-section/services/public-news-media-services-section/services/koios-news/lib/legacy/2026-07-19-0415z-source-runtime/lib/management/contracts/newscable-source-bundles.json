@@ -1,0 +1,19 @@
+{
+  "kind": "koios.bilateral-contract-interface",
+  "id": "koios-news/newscable-source-bundles/v1",
+  "customer": "koios-news",
+  "provider": "../../../../services/newscable-source-broker",
+  "service": "source-bundle-refresh",
+  "admission": "Koios solicits an offer with exact wire/source declarations, accepts the provider-authored zero-price offer, verifies every returned canonical digest, and alone admits bundles into its corpus.",
+  "preconditions": [
+    "the source declaration is read from Koios-owned law",
+    "the provider offer binds the exact demand digest",
+    "the capability permits only fetching the declared syndication sources"
+  ],
+  "postconditions": [
+    "the provider writes only its exchange store",
+    "Koios records provider receipt, delivery digest, admission, duplicates, and refusals",
+    "no provider process writes Koios's store"
+  ],
+  "priceCeiling": { "amount": 0, "currency": "USD" }
+}

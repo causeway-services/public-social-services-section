@@ -1,0 +1,69 @@
+{
+  "subject": "beveridge-revisited-simon-callow-film-celebrates-the-radical-co-founder-of-britain-s-welfare-sta",
+  "claims": [
+    {
+      "id": "title",
+      "proposition": {
+        "predicate": "title",
+        "object": "Beveridge revisited: Simon Callow film celebrates the radical co-founder of Britain’s welfare state"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "entertainment",
+        "citation": "https://www.theguardian.com/film/2026/sep/01/beveridge-revisited-simon-callow-film-celebrates-the-radical-co-founder-of-britains-welfare-state"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "url",
+      "proposition": {
+        "predicate": "url",
+        "object": "https://www.theguardian.com/film/2026/sep/01/beveridge-revisited-simon-callow-film-celebrates-the-radical-co-founder-of-britains-welfare-state"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "entertainment",
+        "citation": "https://www.theguardian.com/film/2026/sep/01/beveridge-revisited-simon-callow-film-celebrates-the-radical-co-founder-of-britains-welfare-state"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "summary",
+      "proposition": {
+        "predicate": "summary",
+        "object": "<p>Christine Edzard’s The Man With the Plan tours the country with a timely message about tackling want, disease, squalor, idleness and ignorance</p><p>A new film that addresses issues fundamental to the new prime minister’s declared mission will star Simon Callow as a historical British political figure.</p><p>The hero of The Man With the Plan is <a href=\"https://www.theguardian.com/commentisfree/2012/dec/07/william-beveridge-hated-term-welfare-state\">William Beveridge</a>, who helped to lay the foundations of the postwar welfare state. It shows that the Liberal peer was much more radical than is usually assumed – and certainly far more so than Churchill anticipated when he asked Beveridge to draw up a report into the future of Britain’s fragmented social insurance and national health system after the second world war.</p> <a href=\"https://www.theguardian.com/film/2026/sep/01/beveridge-revisited-simon-callow-film-celebrates-the-radical-co-founder-of-britains-welfare-state\">Continue reading...</a>"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "entertainment",
+        "citation": "https://www.theguardian.com/film/2026/sep/01/beveridge-revisited-simon-callow-film-celebrates-the-radical-co-founder-of-britains-welfare-state"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "published",
+      "proposition": {
+        "predicate": "published",
+        "object": "Tue, 01 Sep 2026 07:00:48 GMT"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "entertainment",
+        "citation": "https://www.theguardian.com/film/2026/sep/01/beveridge-revisited-simon-callow-film-celebrates-the-radical-co-founder-of-britains-welfare-state"
+      },
+      "status": "supported"
+    }
+  ]
+}

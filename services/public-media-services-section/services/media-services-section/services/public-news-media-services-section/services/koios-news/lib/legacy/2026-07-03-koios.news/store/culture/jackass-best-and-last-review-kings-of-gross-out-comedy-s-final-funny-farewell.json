@@ -1,0 +1,69 @@
+{
+  "subject": "jackass-best-and-last-review-kings-of-gross-out-comedy-s-final-funny-farewell",
+  "claims": [
+    {
+      "id": "title",
+      "proposition": {
+        "predicate": "title",
+        "object": "Jackass: Best and Last review – kings of gross-out comedy’s final, funny farewell"
+      },
+      "time": {
+        "asserted": "2026-07-19T14:42:05.531Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "culture",
+        "citation": "https://www.theguardian.com/culture/2026/jun/25/jackass-best-and-last-movie-review"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "url",
+      "proposition": {
+        "predicate": "url",
+        "object": "https://www.theguardian.com/culture/2026/jun/25/jackass-best-and-last-movie-review"
+      },
+      "time": {
+        "asserted": "2026-07-19T14:42:05.531Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "culture",
+        "citation": "https://www.theguardian.com/culture/2026/jun/25/jackass-best-and-last-movie-review"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "summary",
+      "proposition": {
+        "predicate": "summary",
+        "object": "<p>So-called final outing for Johnny Knoxville and his daring, stunt-hungry pals might be close to a greatest hits reel, but there are enough laughs to warrant the nostalgia</p><p>The boy-men of <a href=\"https://www.theguardian.com/film/2022/jan/28/jackass-forever-interview-johnny-knoxville-jeff-tremaine\">Jackass</a>, a three-season MTV comedy-stunt show turned periodic and beloved film series, have shown a willingness to engage in all manner of rectal probing in the name of shock laughs. (Perhaps most famously, Ryan Dunn, who died in 2011, inserted a toy car into himself before going in for an X-ray.) So it’s poignant to see the ageing crew take this to a natural next step in Jackass: Best and Last, where raspy-voiced fixture <a href=\"https://www.theguardian.com/tv-and-radio/2022/sep/20/jackass-steve-o-on-ageing-addiction-and-planning-a-face-tattoo\">Steve-O</a> submits to a prostate exam – performed by a wisecracking robot, of course. Later, the gang ingests the drug used to flush out digestive systems before a colonoscopy, and then attempts to play Twister with a grim, scatological timebomb looming. Cameraman Lance Bangs, as always, attempts to contain his retching.</p><p>It would be a stretch to describe this fifth and allegedly final Jackass film as reflective about the ageing process, at least any more than its predecessors. Even its sense of finality has been hinted at before: way back in 2010’s <a href=\"https://www.theguardian.com/film/2010/nov/04/jackass-3d-film-review\">Jackass 3-D</a>, Weezer’s nostalgic song Memories blasted over end-credits footage of the guys throughout the years, and 2022’s <a href=\"https://www.theguardian.com/film/2022/feb/02/jackass-forever-review-unstoppable-comedy-stunt-show-still-has-a-sting-in-its-tail\">Jackass Forever</a> had a similarly valedictory tone. In Best and Last, someone goes so far as to tease ringleader <a href=\"https://www.theguardian.com/film/2022/feb/14/johnny-knoxville-party-years-moral-panic-risking-it-all-jackass-mtv\">Johnny Knoxville</a> about whether the audience can believe him about this being the last movie, given that he’s said that sort of thing before.</p> <a href=\"https://www.theguardian.com/culture/2026/jun/25/jackass-best-and-last-movie-review\">Continue reading...</a>"
+      },
+      "time": {
+        "asserted": "2026-07-19T14:42:05.531Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "culture",
+        "citation": "https://www.theguardian.com/culture/2026/jun/25/jackass-best-and-last-movie-review"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "published",
+      "proposition": {
+        "predicate": "published",
+        "object": "Thu, 25 Jun 2026 13:00:29 GMT"
+      },
+      "time": {
+        "asserted": "2026-07-19T14:42:05.531Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "culture",
+        "citation": "https://www.theguardian.com/culture/2026/jun/25/jackass-best-and-last-movie-review"
+      },
+      "status": "supported"
+    }
+  ]
+}

@@ -1,0 +1,69 @@
+{
+  "subject": "stripe-and-swift-race-to-control-the-next-generation-of-global-payments-infrastructure",
+  "claims": [
+    {
+      "id": "title",
+      "proposition": {
+        "predicate": "title",
+        "object": "Stripe and Swift race to control the next generation of global payments infrastructure"
+      },
+      "time": {
+        "asserted": "2026-07-18T07:49:51.643Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "economy",
+        "citation": "https://www.coindesk.com/business/2026/07/17/stripe-and-swift-race-to-control-the-next-generation-of-global-payments-infrastructure"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "url",
+      "proposition": {
+        "predicate": "url",
+        "object": "https://www.coindesk.com/business/2026/07/17/stripe-and-swift-race-to-control-the-next-generation-of-global-payments-infrastructure"
+      },
+      "time": {
+        "asserted": "2026-07-18T07:49:51.643Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "economy",
+        "citation": "https://www.coindesk.com/business/2026/07/17/stripe-and-swift-race-to-control-the-next-generation-of-global-payments-infrastructure"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "summary",
+      "proposition": {
+        "predicate": "summary",
+        "object": "Crypto and blockchain experts say this week's moves show the two established finance companies are increasingly competing for control of the infrastructure behind digital payments."
+      },
+      "time": {
+        "asserted": "2026-07-18T07:49:51.643Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "economy",
+        "citation": "https://www.coindesk.com/business/2026/07/17/stripe-and-swift-race-to-control-the-next-generation-of-global-payments-infrastructure"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "published",
+      "proposition": {
+        "predicate": "published",
+        "object": "Fri, 17 Jul 2026 17:23:01 +0000"
+      },
+      "time": {
+        "asserted": "2026-07-18T07:49:51.643Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "economy",
+        "citation": "https://www.coindesk.com/business/2026/07/17/stripe-and-swift-race-to-control-the-next-generation-of-global-payments-infrastructure"
+      },
+      "status": "supported"
+    }
+  ]
+}

@@ -1,0 +1,69 @@
+{
+  "subject": "uk-must-end-all-trade-with-israel-says-co-founder-of-bds-movement",
+  "claims": [
+    {
+      "id": "title",
+      "proposition": {
+        "predicate": "title",
+        "object": "UK must end all trade with Israel, says co-founder of BDS movement"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "war",
+        "citation": "https://www.theguardian.com/world/2026/sep/02/uk-must-end-all-trade-with-israel-says-co-founder-of-bds-movement"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "url",
+      "proposition": {
+        "predicate": "url",
+        "object": "https://www.theguardian.com/world/2026/sep/02/uk-must-end-all-trade-with-israel-says-co-founder-of-bds-movement"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "war",
+        "citation": "https://www.theguardian.com/world/2026/sep/02/uk-must-end-all-trade-with-israel-says-co-founder-of-bds-movement"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "summary",
+      "proposition": {
+        "predicate": "summary",
+        "object": "<p>Exclusive: sanctions against ministers and settler groups are ‘smoke and mirrors cop-out’ says Omar Barghouti</p><p>Britain’s legal and ethical obligation to stop a genocide in Gaza requires it to take bigger steps than halting trade with illegal Israeli settlements or imposing further sanctions, Omar Barghouti, the co-founder of the Boycott, Divestment, Sanctions (BDS) movement has said.</p><p>He described sanctions against individual settler groups or extremist ministers as a “smoke and mirrors cop-out and distraction” from the UK’s legal obligation under international law to end all support for Israel, including arms exports, trade deals and academic relations that “may directly or indirectly enable Israel’s illegal occupation” of Gaza, the West Bank and East Jerusalem.</p> <a href=\"https://www.theguardian.com/world/2026/sep/02/uk-must-end-all-trade-with-israel-says-co-founder-of-bds-movement\">Continue reading...</a>"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "war",
+        "citation": "https://www.theguardian.com/world/2026/sep/02/uk-must-end-all-trade-with-israel-says-co-founder-of-bds-movement"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "published",
+      "proposition": {
+        "predicate": "published",
+        "object": "Wed, 02 Sep 2026 06:00:24 GMT"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "war",
+        "citation": "https://www.theguardian.com/world/2026/sep/02/uk-must-end-all-trade-with-israel-says-co-founder-of-bds-movement"
+      },
+      "status": "supported"
+    }
+  ]
+}

@@ -1,0 +1,69 @@
+{
+  "subject": "a-bay-area-financial-analyst-wants-a-piece-of-this-mineral-rich-seabed-surrounded-by-3-pacific-nations",
+  "claims": [
+    {
+      "id": "title",
+      "proposition": {
+        "predicate": "title",
+        "object": "A Bay Area financial analyst wants a piece of this mineral-rich seabed surrounded by 3 Pacific nations"
+      },
+      "time": {
+        "asserted": "2026-07-19T14:41:46.239Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "environment",
+        "citation": "https://grist.org/oceans/american-deep-sea-minerals-application-pacific-island-fisheries/"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "url",
+      "proposition": {
+        "predicate": "url",
+        "object": "https://grist.org/oceans/american-deep-sea-minerals-application-pacific-island-fisheries/"
+      },
+      "time": {
+        "asserted": "2026-07-19T14:41:46.239Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "environment",
+        "citation": "https://grist.org/oceans/american-deep-sea-minerals-application-pacific-island-fisheries/"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "summary",
+      "proposition": {
+        "predicate": "summary",
+        "object": "Last summer, at the United Nations Ocean Conference, French Polynesia established the world’s largest contiguous marine protected area, reinforcing its 2022 ban on seabed mining. “The deep sea is not for sale,” France’s president, Emmanuel Macron, said at the time.&nbsp; A year later, that might not hold true for the waters just beyond French Polynesia’s maritime border. A little-known American startup is seeking the Trump administration’s approval to lease 25 million acres of international waters for mining exploration just outside the areas over which French Polynesia, the Cook Islands, and Kiribati have exclusive rights. The area, called Eastern High Seas Pocket 3 because it is entirely surrounded by waters known as the exclusive economic zones of the three nations, has an abundance of albacore, yellowfin, and bigeye tuna and is visited by dozens of fishing vessels each year.&nbsp; American Deep Sea Minerals is the first company to propose exploring the seabed there for manganese and other critical minerals, part of a global rush to capitalize on the essential components of batteries, military technologies, and other modern technologies. Read Next A guide to the 4 minerals shaping the world’s energy future Jake Bittle The company’s application is the latest example of the Trump administration enabling those interested in deep sea mining to circumvent international law. The majority of the world’s nations have agreed to a treaty that grants oversight of deep sea mining in the high seas to the International Seabed Authority, a regulatory body that is meeting this month to continue negotiating a framework to govern the industry. The debate has carried on for more than a decade and no commercial deep sea mining has occurred, in part due to concerns about the harm it might do to fisheries and marine habitats, as well as cautionary warnings from Indigenous Pacific peoples with ancestral ties to the ocean. Two months before Macron’s speech and the announcement of the protected area called Tainui Atea , Trump announced that the United States would not await international permission and would begin allowing the industry to operate in the high seas under a law passed during the Carter administration. The law, called the Deep Seabed Hard Mineral Resources Act, allows the U.S. to permit mining in international waters. It was meant to be an interim measure until the world agreed to the U.N. Convention on the Law of the Sea. But when the treaty was adopted, Congress never ratified it. The application from American Deep Sea Minerals is one of at least a dozen the Trump administration has received so far, and is available online for public comment until August 3.&nbsp; A map showing one year of fishing vessel activity in international waters that American Deep Sea Minerals is seeking U.S. permission to explore. Data and map courtesy of Global Fishing Watch and the Benioff Ocean Science Lab According to its application, the company does not own the equipment or technology necessary to work in marine environments, such as ships to collect or process ore. It also does not appear to have a website.&nbsp; American Deep Sea Minerals is “obviously not a mining company, it’s an idea,” said Coalter Lathrop, a lawyer who specializes in international ocean law. Its CEO, Graham Goulet, is a financial analyst based in San Francisco. “He wants it to become an idea with a U.S. license to an area that nobody else has a license to,” Lathrop said.&nbsp; If the application is approved, Lathrop said, the company’s valuation will likely rise. “This is comparable to a guy who got advance notice that a rural area is about to get a highway running through it, so he goes and buys some cheap land,” he said, adding that the area has “little inherent value until he partners with folks with technology, equipment, and know-how.” Goulet initially submitted his bid under the name Kraken Metals in August of 2025, four months after the Trump administration announced it would be accepting applications. Goulet paid $100,000 to submit the application, an amount Lathrop described as “peanuts” in the finance world.&nbsp; Goulet told Grist the application is for deep sea minerals exploration and the company has not yet decided to pursue commercial mining. The company’s exploration program “is being developed with people who have direct experience in deep-sea nodule collection operations, offshore engineering, marine geology, and environmental science,” Goulet wrote in an email.&nbsp; Read Next American Samoa says no to deep-sea mining. The Trump administration might do it anyway. Anita Hofschneider In April, the company hired Wouter Duijnstee, an environmental engineer who previously worked with Allseas, a construction contractor based in the Netherlands that has provided deep sea mining equipment to The Metals Company, an industry forerunner. It is unclear if it has other employees. Goulet declined to answer questions about why he had chosen to apply to explore this area of the ocean for minerals. He also declined to disclose whether he had been in communication with the three nations neighboring the area. The proximity to national waters may pose a risk for the company, Lathrop said. There is a United Nations-established process by which countries can claim sovereign rights over additional seabed if they can prove their continental shelf extends beyond the standard 200-mile exclusive economic zone established by international law. (The United States recently claimed roughly 300,000 square miles of additional marine area using this law.) If one of the surrounding countries successfully extended its claim to the seabed, any claim the company might hold to it would be overridden, Lathrop said.&nbsp; Nearby marine areas, such as the seafloor surrounding the Cook Islands, are thought to hold an abundance of polymetallic nodules, which are fist-sized lumps of ore rich in critical minerals. The United States is working with the Cook Islands Seabed Minerals Authority to search for more nodules. American Deep Sea Minerals’ application says it intends to charter the MV Anuanua Moana, a deep sea mining exploration vessel owned by the Cook Islands.&nbsp; Representatives of the governments of French Polynesia, Kiribati, and the Cook Islands did not respond to Grist’s requests for comment. But the application raises questions about the consequences of mining near regional fisheries, as well as the rights of Pacific nations and Indigenous peoples to have a say in how their neighboring waters are used, and either reap any economic benefits or prevent ecological harm. “This is a particularly important area of the high seas because of the fish stocks that migrate through it,” said Pradeep Singh, an expert on ocean governance at the Oceano Azul Foundation, a Portuguese advocacy group.&nbsp; Polymetallic nodules, rich in manganese and other critical minerals, collected by the Anuanua Moana, a Cook Islands deep sea mining research vessel, in nearby waters. William West / AFP via Getty Images Global backlash against the Trump administration’s pursuit of the industry has focused on the fact that high seas are considered the “ common heritage of humankind .” But Indigenous peoples of the Pacific also note that the concept of exclusive economic zones is a colonial one. “The ocean doesn’t know any boundaries,” said Solomon Kahoʻohalahala, a Native Hawaiian activist who has testified at the International Seabed Authority. Pacific peoples like his who never achieved U.N. membership were excluded from the creation of the Law of the Sea delineating international waters, and advocates like Kahoʻohalahala are now pointing out that the lines drawn around their islands don’t adhere to their traditional knowledge of the ocean —&nbsp;or the fact that their peoples will be first to suffer any ecological consequences.&nbsp; One study, funded by The Metals Company and published independently by scientists, found that releasing mining waste too close to the ocean surface could starve zooplankton and result in cascading effects through the marine food web , eventually harming large and commercially valuable species like tuna. Scientists are also researching the potential toxins and heavy metals that the industry might release while extracting ore. Other studies have found that deep sea mining would reduce the abundance and diversity of life on deep ocean floors by at least a third. Despite the risks, Kiribati and the Cook Islands are considering permitting deep-sea mining. Mark Brown, prime minister of the Cook Islands, has said revenue from such ventures could be “transformational” for the islands, where the average annual income is roughly equivalent to $9,000 . In Kiribati, average annual income is equivalent to about $3,000 . Proponents of seabed mining say it could be highly profitable, although industry consultants and economic analyses commissioned by environmental nonprofits have concluded otherwise.&nbsp; Because American Deep Sea Minerals is seeking a U.S. permit and the international rules governing seabed mining are not yet settled, there’s no guarantee that neighboring Pacific nations would see any revenue from seabed mining just beyond their borders. Permits granted by the U.S. do not inherently include profit or revenue sharing, although American Deep Sea Minerals’ application indicates that it intends to create a benefit sharing agreement with Pacific nations and avoid interfering with fishing. French Polynesia remains strongly opposed to seabed mining and is among more than 40 countries calling for a moratorium on it. “We’re playing gods with the cradle of life — and that’s way too dangerous,” its president, Moetai Brotherson, told reporters last year. In June, he added conservation protections on another 200,000 square miles of the islands’ surrounding waters. “We also hope that it can inspire other countries, especially the larger ones, in the way they manage their relationship with the ocean,” he told AFP. toolTips('.classtoolTips8',' A lightweight, silvery-white alkali metal with properties that allow it to store large amounts of energy. Lithium is a key component of many batteries, including those that store renewable energy and power electric vehicles. '); toolTips('.classtoolTips10',' A conductive and heat-resistant metal that forms a key part of many battery cathodes, which allow electric charges to flow. It is used in the lithium-ion batteries that power many EVs as well as solar energy systems and wind turbine components. '); toolTips('.classtoolTips11',' A scarce blue metal that helps battery cathodes store large amounts of energy without overheating or collapsing. It is a key component of lithium-ion batteries. '); This story was originally published by Grist with the headline A Bay Area financial analyst wants a piece of this mineral-rich seabed surrounded by 3 Pacific nations on Jul 15, 2026."
+      },
+      "time": {
+        "asserted": "2026-07-19T14:41:46.239Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "environment",
+        "citation": "https://grist.org/oceans/american-deep-sea-minerals-application-pacific-island-fisheries/"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "published",
+      "proposition": {
+        "predicate": "published",
+        "object": "Wed, 15 Jul 2026 08:30:00 +0000"
+      },
+      "time": {
+        "asserted": "2026-07-19T14:41:46.239Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "environment",
+        "citation": "https://grist.org/oceans/american-deep-sea-minerals-application-pacific-island-fisheries/"
+      },
+      "status": "supported"
+    }
+  ]
+}

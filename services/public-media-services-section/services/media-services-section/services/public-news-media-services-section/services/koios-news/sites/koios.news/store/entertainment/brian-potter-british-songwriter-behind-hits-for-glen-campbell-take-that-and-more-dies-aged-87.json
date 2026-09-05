@@ -1,0 +1,69 @@
+{
+  "subject": "brian-potter-british-songwriter-behind-hits-for-glen-campbell-take-that-and-more-dies-aged-87",
+  "claims": [
+    {
+      "id": "title",
+      "proposition": {
+        "predicate": "title",
+        "object": "Brian Potter, British songwriter behind hits for Glen Campbell, Take That and more, dies aged 87"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "entertainment",
+        "citation": "https://www.theguardian.com/music/2026/jul/09/brian-potter-british-songwriter-rhinestone-cowboy-dies"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "url",
+      "proposition": {
+        "predicate": "url",
+        "object": "https://www.theguardian.com/music/2026/jul/09/brian-potter-british-songwriter-rhinestone-cowboy-dies"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "entertainment",
+        "citation": "https://www.theguardian.com/music/2026/jul/09/brian-potter-british-songwriter-rhinestone-cowboy-dies"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "summary",
+      "proposition": {
+        "predicate": "summary",
+        "object": "<p>Versatile Essex-born hitmaker known for Rhinestone Cowboy, It Only Takes a Minute and many more had been living with Alzheimer’s disease</p><p>Brian Potter, one of the most versatile and successful British producers and songwriters of his generation, has died aged 87. He had been living with Alzheimer’s disease in recent years, his daughter told Billboard.</p><p>Working with American songwriting partner Dennis Lambert, the Essex-born Potter was behind an astounding array of 1970s hits spanning pop, soul, soft rock, country and beyond. The best-known include Glen Campbell’s Rhinestone Cowboy, a US No 1 in 1975; It Only Takes a Minute, a barnstorming disco hit for Tavares and later Take That; Player’s super-smooth Baby Come Back, another US No 1; and Ain’t No Woman (Like the One I’ve Got), one of the biggest hits for soul-poppers the Four Tops.</p> <a href=\"https://www.theguardian.com/music/2026/jul/09/brian-potter-british-songwriter-rhinestone-cowboy-dies\">Continue reading...</a>"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "entertainment",
+        "citation": "https://www.theguardian.com/music/2026/jul/09/brian-potter-british-songwriter-rhinestone-cowboy-dies"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "published",
+      "proposition": {
+        "predicate": "published",
+        "object": "Thu, 09 Jul 2026 11:20:44 GMT"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "entertainment",
+        "citation": "https://www.theguardian.com/music/2026/jul/09/brian-potter-british-songwriter-rhinestone-cowboy-dies"
+      },
+      "status": "supported"
+    }
+  ]
+}

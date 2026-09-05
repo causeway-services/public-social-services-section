@@ -1,0 +1,69 @@
+{
+  "subject": "sign-up-for-the-football-daily-newsletter-our-free-football-email",
+  "claims": [
+    {
+      "id": "title",
+      "proposition": {
+        "predicate": "title",
+        "object": "Sign up for the Football Daily newsletter: our free football email"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "sport",
+        "citation": "https://www.theguardian.com/info/2022/nov/14/football-daily-email-sign-up"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "url",
+      "proposition": {
+        "predicate": "url",
+        "object": "https://www.theguardian.com/info/2022/nov/14/football-daily-email-sign-up"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "sport",
+        "citation": "https://www.theguardian.com/info/2022/nov/14/football-daily-email-sign-up"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "summary",
+      "proposition": {
+        "predicate": "summary",
+        "object": "<p>Kick off your afternoon with the Guardian’s take on the world of football</p><p>Every weekday, we’ll deliver a roundup the football news and gossip in our own belligerent, sometimes intelligent and – very occasionally – funny way. Still not convinced? Find out what you’re missing <a href=\"https://www.theguardian.com/football/series/thefiver/latest/email\">here</a>.</p><p>Try our other sports emails: there’s weekly catch-ups for cricket in <a href=\"https://www.theguardian.com/sport/2016/aug/18/sign-up-to-the-spin\">The Spin</a> and rugby union in <a href=\"https://www.theguardian.com/sport/2016/aug/18/sign-up-to-the-breakdown\">The Breakdown</a>, and our seven-day round-up of the best of our sports journalism in <a href=\"https://www.theguardian.com/sport/2017/may/15/the-recap-sign-up-for-the-best-of-the-guardians-sport-coverage\">The Recap</a>.</p><p>Living in Australia? Try the <a href=\"https://www.theguardian.com/info/2015/jun/05/guardian-australia-sport-newsletter-subscribe-by-email\">Guardian Australia’s daily sports newsletter</a></p> <a href=\"https://www.theguardian.com/info/2022/nov/14/football-daily-email-sign-up\">Continue reading...</a>"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "sport",
+        "citation": "https://www.theguardian.com/info/2022/nov/14/football-daily-email-sign-up"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "published",
+      "proposition": {
+        "predicate": "published",
+        "object": "Mon, 14 Nov 2022 09:05:50 GMT"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "sport",
+        "citation": "https://www.theguardian.com/info/2022/nov/14/football-daily-email-sign-up"
+      },
+      "status": "supported"
+    }
+  ]
+}

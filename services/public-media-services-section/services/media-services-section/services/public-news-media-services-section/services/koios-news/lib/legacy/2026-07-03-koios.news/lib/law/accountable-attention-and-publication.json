@@ -1,0 +1,34 @@
+{
+  "kind": "koios.publication-law",
+  "id": "accountable-attention-and-publication",
+  "purpose": "Compete for useful attention without allowing demand, compression, generation, advertising, or delivery to manufacture warrant.",
+  "invariants": [
+    "Demand may create an assignment but never evidence.",
+    "A source statement remains attributable to its source until an authorized editorial act adopts a narrower newsroom claim.",
+    "No public surface may create a factual commitment not licensed by the article, its cited evidence, its uncertainty, or a declared editorial stance.",
+    "A manuscript is not publishable unless deterministic gates clear and the latest exact-manuscript independent editorial judgment accepts it.",
+    "Corrections, clarifications, updates, and retractions must propagate to every dependent headline, article, feed, card, sitemap, metadata record, and syndication surface that Koios controls.",
+    "Audience demand, attention, advertising, revenue, provider cost, and editorial warrant are recorded as distinct facts and never substituted for one another.",
+    "Newsroom learning may propose a replay, route review, observation period, or standards review from durable outcomes; it may not itself publish, execute the replay, alter a route, or amend law.",
+    "LLMs may produce prose, images, or bounded choices; deterministic code owns serialization, digests, admission, ledgers, and publication transitions.",
+    "A provider is selected by the cheapest route that satisfies the declared quality and evidence requirements; zero marginal price never waives those requirements.",
+    "No deployment target becomes authoritative without parity evidence, an accepted bilateral EVM effect seam, a rollback route, and an explicit cutover act.",
+    "A public privacy surface must describe the requests the exact publication artifact actually emits; suspended advertising or attention may not be described as active, and active third-party carriers may not be described as absent.",
+    "Advertising units, placements, provider requests, seller declarations, performance receipts, and revenue enter Koios only under provider-authored or provider-accepted evidence; Koios never invents ads.txt authority."
+  ],
+  "derivedFrom": [
+    "dev/content/notes/2026/06/01/ietf-conformant-clickbait.md",
+    "dev/content/notes/2026/06/01/accountable-attention.md",
+    "dev/content/notes/2026/06/01/agentic-newsroom.md",
+    "dev/content/notes/2026/06/01/claims-to-prose.md",
+    "dev/content/notes/2026/06/01/news-topology.md"
+  ],
+  "enforcedBy": [
+    "src/researching/writing/editing/standards.mts",
+    "src/researching/writing/editing/market-editorial.mts",
+    "src/management/newsroom-learning.mts",
+    "src/researching/writing/editing/publishing/managing/circulating/index.mts",
+    "src/administrating/deploying/static-shadow.mts",
+    "src/administrating/deploying/static-profile-parity.mts"
+  ]
+}

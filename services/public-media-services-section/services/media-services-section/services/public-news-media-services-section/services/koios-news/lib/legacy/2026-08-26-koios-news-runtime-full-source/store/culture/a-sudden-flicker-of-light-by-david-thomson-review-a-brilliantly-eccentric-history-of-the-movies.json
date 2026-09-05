@@ -1,0 +1,69 @@
+{
+  "subject": "a-sudden-flicker-of-light-by-david-thomson-review-a-brilliantly-eccentric-history-of-the-movies",
+  "claims": [
+    {
+      "id": "title",
+      "proposition": {
+        "predicate": "title",
+        "object": "A Sudden Flicker of Light by David Thomson review – a brilliantly eccentric history of the movies"
+      },
+      "time": {
+        "asserted": "2026-07-20T09:48:52.265Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "culture",
+        "citation": "https://www.theguardian.com/books/2026/jul/20/a-sudden-flicker-of-light-by-david-thomson-review-a-brilliantly-eccentric-history-of-the-movies"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "url",
+      "proposition": {
+        "predicate": "url",
+        "object": "https://www.theguardian.com/books/2026/jul/20/a-sudden-flicker-of-light-by-david-thomson-review-a-brilliantly-eccentric-history-of-the-movies"
+      },
+      "time": {
+        "asserted": "2026-07-20T09:48:52.265Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "culture",
+        "citation": "https://www.theguardian.com/books/2026/jul/20/a-sudden-flicker-of-light-by-david-thomson-review-a-brilliantly-eccentric-history-of-the-movies"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "summary",
+      "proposition": {
+        "predicate": "summary",
+        "object": "<p>From the golden age of Hollywood to harder times today, this is a rapturous account of more than a century of cinema</p><p>Film critic, historian and author of more than 40 books, David Thomson is back with another three-hour free jazz solo on the subject of the movies, though it’s a performance delivered with the magnificent elan of a 1940s big band leader. He’s as brilliant, eccentric, exasperating and absorbing as ever.</p><p>By “the movies”, incidentally, he means Hollywood, with a side order of established European and east Asian arthouse: he takes us from the cine-prehistory of photographer <a href=\"https://www.theguardian.com/artanddesign/2010/sep/04/eadweard-muybridge-exhibition-rebecca-solnit\">Eadweard Muybridge</a> to Fritz Lang’s Metropolis, DW Griffith’s Birth of a Nation with its sinister Ku Klux Klan hero-worship, Chaplin, Stroheim, Hitchcock, Capra, Renoir, Bogart, Marilyn Monroe in The Seven-Year Itch, Monroe Stahr in The Last Tycoon, Scorsese’s GoodFellas, David Lynch’s Mulholland Drive (“Is it drive or dream?”), Kirk&nbsp;Douglas and his alleged rape of Natalie Wood, Barbara Loden’s Wanda, Sean Baker’s Anora, Tracey Emin’s Why I Never Became a Dancer and much more. He subtitles his book a “revisionist” history.</p> <a href=\"https://www.theguardian.com/books/2026/jul/20/a-sudden-flicker-of-light-by-david-thomson-review-a-brilliantly-eccentric-history-of-the-movies\">Continue reading...</a>"
+      },
+      "time": {
+        "asserted": "2026-07-20T09:48:52.265Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "culture",
+        "citation": "https://www.theguardian.com/books/2026/jul/20/a-sudden-flicker-of-light-by-david-thomson-review-a-brilliantly-eccentric-history-of-the-movies"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "published",
+      "proposition": {
+        "predicate": "published",
+        "object": "Mon, 20 Jul 2026 06:00:49 GMT"
+      },
+      "time": {
+        "asserted": "2026-07-20T09:48:52.265Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "culture",
+        "citation": "https://www.theguardian.com/books/2026/jul/20/a-sudden-flicker-of-light-by-david-thomson-review-a-brilliantly-eccentric-history-of-the-movies"
+      },
+      "status": "supported"
+    }
+  ]
+}

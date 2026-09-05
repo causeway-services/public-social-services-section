@@ -1,0 +1,69 @@
+{
+  "subject": "research-roundup-7-cool-science-stories-we-almost-missed",
+  "claims": [
+    {
+      "id": "title",
+      "proposition": {
+        "predicate": "title",
+        "object": "Research roundup: 7 cool science stories we almost missed"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "technology",
+        "citation": "https://arstechnica.com/science/2026/09/august-research-roundup-7-cool-science-stories-we-almost-missed/"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "url",
+      "proposition": {
+        "predicate": "url",
+        "object": "https://arstechnica.com/science/2026/09/august-research-roundup-7-cool-science-stories-we-almost-missed/"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "technology",
+        "citation": "https://arstechnica.com/science/2026/09/august-research-roundup-7-cool-science-stories-we-almost-missed/"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "summary",
+      "proposition": {
+        "predicate": "summary",
+        "object": "It’s a regrettable reality that there is never enough time to cover all the interesting scientific stories we come across. So every month, we highlight a handful of the best stories that nearly slipped through the cracks. August’s list includes the discovery of a new celestial object astronomers have dubbed a \"black hole star\"; breaking down plastics with microbes and turning them into edible cookies; how whale calls are connected to Einstein's special theory of relativity; and how avocado tree flowers switch sex during the day, among other highlights. Discovery of a \"black hole star\" Credit: Rohan Naidu (University of Hawai'i) In 2024, astronomers combing through datasets taken by the James Webb Space Telescope noticed hundreds of mysterious little red dots lurking therein, believed to be baby quasars. They existed when the Universe was just a few hundred million years old. One such object in particular captured scientists' interest: a red dot that was extremely red and very bright, but whose properties didn't fit with any known astrophysical object. Astronomers have now concluded that the little red dot is a \" black hole star ,\" so named because it is the size of a large star but produces far more energy than would be possible via nuclear fusion—energy comparable to what an active black hole would produce. Read full article Comments"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "technology",
+        "citation": "https://arstechnica.com/science/2026/09/august-research-roundup-7-cool-science-stories-we-almost-missed/"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "published",
+      "proposition": {
+        "predicate": "published",
+        "object": "Tue, 01 Sep 2026 19:06:10 +0000"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "technology",
+        "citation": "https://arstechnica.com/science/2026/09/august-research-roundup-7-cool-science-stories-we-almost-missed/"
+      },
+      "status": "supported"
+    }
+  ]
+}

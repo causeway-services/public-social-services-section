@@ -1,0 +1,69 @@
+{
+  "subject": "was-paul-mescal-being-not-masculine-enough-the-reason-gladiator-ii-flopped",
+  "claims": [
+    {
+      "id": "title",
+      "proposition": {
+        "predicate": "title",
+        "object": "Was Paul Mescal being ‘not masculine enough’ the reason Gladiator II flopped?"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "entertainment",
+        "citation": "https://www.theguardian.com/film/2026/sep/02/was-paul-mescal-being-not-masculine-enough-the-reason-gladiator-ii-flopped"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "url",
+      "proposition": {
+        "predicate": "url",
+        "object": "https://www.theguardian.com/film/2026/sep/02/was-paul-mescal-being-not-masculine-enough-the-reason-gladiator-ii-flopped"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "entertainment",
+        "citation": "https://www.theguardian.com/film/2026/sep/02/was-paul-mescal-being-not-masculine-enough-the-reason-gladiator-ii-flopped"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "summary",
+      "proposition": {
+        "predicate": "summary",
+        "object": "<p>Mescal’s nuanced performance in Ridley Scott’s belated sequel has been blamed by some for the film’s box office underperformance. May I suggest Jason Statham for Gladiator III?</p><p>As you may be aware, The Dog Stars has not been particularly well received. Reviews have been <a href=\"https://www.theguardian.com/film/2026/aug/25/the-dog-stars-ridley-scott-review\">lukewarm to poor</a> and in its opening weekend, Ridley Scott’s post-apocalyptic thriller came in fifth, after Spider-Man and The Odyssey (both of which have been out for ever), the sixth Insidious movie and a <a href=\"https://www.theguardian.com/film/2026/aug/14/coyote-vs-acme-looney-tunes-reboot-film-back-from-the-dead\">Looney Tunes film that originally wasn’t even going to be released</a>.</p><p>Perhaps unexpectedly, people are now casting around looking to assign blame for the failure. In the lead up to the film, <a href=\"https://www.thewrap.com/creative-content/movies/josh-brolin-almost-quit-ridley-scott-movie-the-dog-stars\">Josh Brolin said that he almost left the project</a> due to Scott’s lack of rehearsal time. Perhaps there’s also a prosaic explanation, in that The Dog Stars is such a vague title for a film that audiences didn’t know if they were going to watch a survival thriller, a military movie or a cartoon about some singing puppies. But the most exciting theory concerns the film’s casting. Jacob Elordi plays the lead, but this came about late in the day. When the project was first announced, <a href=\"https://deadline.com/2024/11/ridley-scott-paul-mescal-the-dog-stars-gladiator-ii-1236161226/\">the role was to be played by Paul Mescal</a>, who at the time was fresh from starring in Scott’s Gladiator II.</p> <a href=\"https://www.theguardian.com/film/2026/sep/02/was-paul-mescal-being-not-masculine-enough-the-reason-gladiator-ii-flopped\">Continue reading...</a>"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "entertainment",
+        "citation": "https://www.theguardian.com/film/2026/sep/02/was-paul-mescal-being-not-masculine-enough-the-reason-gladiator-ii-flopped"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "published",
+      "proposition": {
+        "predicate": "published",
+        "object": "Wed, 02 Sep 2026 14:36:11 GMT"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "entertainment",
+        "citation": "https://www.theguardian.com/film/2026/sep/02/was-paul-mescal-being-not-masculine-enough-the-reason-gladiator-ii-flopped"
+      },
+      "status": "supported"
+    }
+  ]
+}

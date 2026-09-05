@@ -1,0 +1,8 @@
+# Turntide Islands' inference supplier plate. One quad per admitted supplier:
+# actor, agent-card predicate, signed Agent Card URL, and this settlement's
+# supplier-admission graph. The market roster is this data record, never code:
+# procure-steward-inference.mjs solicits an offer from every supplier here and
+# the consideration policy record picks among the offers. Admission or removal
+# of a supplier is one edit to this plate.
+# Seeded 2026-07-30 from the Union inference-work-lot market's admitted list.
+<urn:ame:gemini-inference-team> <urn:inference-market:agent-card> <https://gemini-inference-team-a2d7mjqbfa-uc.a.run.app/.well-known/agent-card.json> <urn:ame:turntide-islands:inference-supplier-admissions> .

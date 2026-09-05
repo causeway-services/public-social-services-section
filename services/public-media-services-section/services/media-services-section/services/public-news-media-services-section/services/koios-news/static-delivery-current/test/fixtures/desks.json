@@ -1,0 +1,5 @@
+{ "kind": "koios.news.public-desks/v1", "desks": [
+  { "slug": "technology", "title": "Technology", "description": "Tech desk.", "categories": ["technology"] },
+  { "slug": "sport", "title": "Sport", "description": "Sport desk.", "categories": ["sport"] },
+  { "slug": "health", "title": "Health", "description": "Health desk.", "categories": ["health"] }
+] }

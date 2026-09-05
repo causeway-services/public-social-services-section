@@ -1,0 +1,69 @@
+{
+  "subject": "noah-kahan-s-queens-concert-canceled-due-to-inclement-weather-i-m-devastated",
+  "claims": [
+    {
+      "id": "title",
+      "proposition": {
+        "predicate": "title",
+        "object": "Noah Kahan’s Queens Concert Canceled Due to Inclement Weather: ‘I’m Devastated’"
+      },
+      "time": {
+        "asserted": "2026-07-19T20:06:19.825Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "culture",
+        "citation": "https://www.rollingstone.com/music/music-news/noah-kahan-queens-concert-canceled-inclement-weather-1235595704/"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "url",
+      "proposition": {
+        "predicate": "url",
+        "object": "https://www.rollingstone.com/music/music-news/noah-kahan-queens-concert-canceled-inclement-weather-1235595704/"
+      },
+      "time": {
+        "asserted": "2026-07-19T20:06:19.825Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "culture",
+        "citation": "https://www.rollingstone.com/music/music-news/noah-kahan-queens-concert-canceled-inclement-weather-1235595704/"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "summary",
+      "proposition": {
+        "predicate": "summary",
+        "object": "Saturday's show at Citi Field canceled at last minute after \"it became clear that it wasn't safe for us, the crew or all of you\"; singer still booked to play Sunday night at Mets' stadium"
+      },
+      "time": {
+        "asserted": "2026-07-19T20:06:19.825Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "culture",
+        "citation": "https://www.rollingstone.com/music/music-news/noah-kahan-queens-concert-canceled-inclement-weather-1235595704/"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "published",
+      "proposition": {
+        "predicate": "published",
+        "object": "Sun, 19 Jul 2026 16:32:07 +0000"
+      },
+      "time": {
+        "asserted": "2026-07-19T20:06:19.825Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "culture",
+        "citation": "https://www.rollingstone.com/music/music-news/noah-kahan-queens-concert-canceled-inclement-weather-1235595704/"
+      },
+      "status": "supported"
+    }
+  ]
+}

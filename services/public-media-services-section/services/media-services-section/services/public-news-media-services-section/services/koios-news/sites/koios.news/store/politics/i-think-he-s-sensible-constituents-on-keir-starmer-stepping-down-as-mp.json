@@ -1,0 +1,69 @@
+{
+  "subject": "i-think-he-s-sensible-constituents-on-keir-starmer-stepping-down-as-mp",
+  "claims": [
+    {
+      "id": "title",
+      "proposition": {
+        "predicate": "title",
+        "object": "‘I think he’s sensible’: constituents on Keir Starmer stepping down as MP"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "politics",
+        "citation": "https://www.theguardian.com/politics/2026/sep/01/keir-starmer-stepping-down-mp-constituents-holborn-st-pancras-kentish-town"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "url",
+      "proposition": {
+        "predicate": "url",
+        "object": "https://www.theguardian.com/politics/2026/sep/01/keir-starmer-stepping-down-mp-constituents-holborn-st-pancras-kentish-town"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "politics",
+        "citation": "https://www.theguardian.com/politics/2026/sep/01/keir-starmer-stepping-down-mp-constituents-holborn-st-pancras-kentish-town"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "summary",
+      "proposition": {
+        "predicate": "summary",
+        "object": "<p>Few regrets voiced in Holborn and St Pancras over decision despite former PM having had ‘rough time of it’</p><ul><li><p><a href=\"https://www.theguardian.com/politics/live/2026/sep/01/andy-burnham-statement-commons-prison-release-farage-healey-defence-latest-news-updates\">UK politics live – latest updates</a></p></li></ul><p>In Keir Starmer’s north London constituency, full of pretty pubs and elegant townhouses, few tears were being shed at the <a href=\"https://www.theguardian.com/politics/2026/sep/01/keir-starmer-to-stand-down-as-mp\">news of his departure as its MP</a>.</p><p>One man nursing a pint outside a pub in Kentish Town simply remarked “good” when informed his MP had quit. He added: “I thought he was very nice before he became prime minister; I met him a few times. But he messed the country up and screwed over pensioners.”</p> <a href=\"https://www.theguardian.com/politics/2026/sep/01/keir-starmer-stepping-down-mp-constituents-holborn-st-pancras-kentish-town\">Continue reading...</a>"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "politics",
+        "citation": "https://www.theguardian.com/politics/2026/sep/01/keir-starmer-stepping-down-mp-constituents-holborn-st-pancras-kentish-town"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "published",
+      "proposition": {
+        "predicate": "published",
+        "object": "Tue, 01 Sep 2026 17:35:52 GMT"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "politics",
+        "citation": "https://www.theguardian.com/politics/2026/sep/01/keir-starmer-stepping-down-mp-constituents-holborn-st-pancras-kentish-town"
+      },
+      "status": "supported"
+    }
+  ]
+}

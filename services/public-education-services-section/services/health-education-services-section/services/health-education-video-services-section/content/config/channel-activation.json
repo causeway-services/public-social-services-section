@@ -1,0 +1,15 @@
+{
+  "status": "awaiting-oauth-consent",
+  "steps": [
+    {
+      "id": "authorize",
+      "byWhom": "founder",
+      "action": "run the consent flow, picking @PACE-Yourself on Google's account chooser, then add the printed token line to .env",
+      "command": "node --env-file=/home/emsenn/info/.env /home/emsenn/info/lib/emsenn/services/561-group/services/engineering-services-section/services/computer-engineering-services-section/services/computer-systems-engineering-services-section/services/web-services-section/services/web-platform-services-section/services/web2-platform-services-section/services/web2-media-platform-services-section/youtube-channel-production-services-section/apps/channel-cli.mjs authorize --spec /home/emsenn/info/lib/emsenn/services/561-group/services/public-services-section/services/public-social-services-section/services/public-education-services-section/services/health-education-services-section/services/health-education-video-services-section/content/config/channel-spec.json --out /tmp/pace-yourself-youtube-refresh-token",
+      "envLine": "PACE_YOURSELF_YOUTUBE_OAUTH_REFRESH_TOKEN=<contents of the --out file>"
+    }
+  ],
+  "thenOurSystemDoes": [
+    "node --env-file=/home/emsenn/info/.env /home/emsenn/info/lib/emsenn/services/561-group/services/engineering-services-section/services/computer-engineering-services-section/services/computer-systems-engineering-services-section/services/web-services-section/services/web-platform-services-section/services/web2-platform-services-section/services/web2-media-platform-services-section/youtube-channel-production-services-section/scripts/run-lesson-production.mjs --spec /home/emsenn/info/lib/emsenn/services/561-group/services/public-services-section/services/public-social-services-section/services/public-education-services-section/services/health-education-services-section/services/health-education-video-services-section/content/config/channel-spec.json --curriculum /home/emsenn/info/lib/emsenn/services/561-group/services/public-services-section/services/public-social-services-section/services/public-education-services-section/services/health-education-services-section/services/health-education-curriculum-services-section/content/curricula/pace-yourself.v1.json --authored-scripts /home/emsenn/info/lib/emsenn/services/561-group/services/public-services-section/services/public-social-services-section/services/public-education-services-section/services/health-education-services-section/services/health-education-video-services-section/content/videos"
+  ]
+}

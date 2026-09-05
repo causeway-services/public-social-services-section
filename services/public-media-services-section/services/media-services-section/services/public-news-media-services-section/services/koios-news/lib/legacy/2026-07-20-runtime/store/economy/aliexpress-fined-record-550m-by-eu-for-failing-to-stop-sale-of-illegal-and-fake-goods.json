@@ -1,0 +1,69 @@
+{
+  "subject": "aliexpress-fined-record-550m-by-eu-for-failing-to-stop-sale-of-illegal-and-fake-goods",
+  "claims": [
+    {
+      "id": "title",
+      "proposition": {
+        "predicate": "title",
+        "object": "AliExpress fined record €550m by EU for failing to stop sale of illegal and fake goods"
+      },
+      "time": {
+        "asserted": "2026-07-20T11:21:18.517Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "economy",
+        "citation": "https://www.theguardian.com/business/2026/jul/20/aliexpress-fined-by-eu-sale-of-illegal-fake-goods"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "url",
+      "proposition": {
+        "predicate": "url",
+        "object": "https://www.theguardian.com/business/2026/jul/20/aliexpress-fined-by-eu-sale-of-illegal-fake-goods"
+      },
+      "time": {
+        "asserted": "2026-07-20T11:21:18.517Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "economy",
+        "citation": "https://www.theguardian.com/business/2026/jul/20/aliexpress-fined-by-eu-sale-of-illegal-fake-goods"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "summary",
+      "proposition": {
+        "predicate": "summary",
+        "object": "<p>Chinese retail platform handed penalty over listings for items such as counterfeit products and unsafe toys</p><ul><li><p><a href=\"https://www.theguardian.com/business/live/2026/jul/20/oil-price-rises-us-iran-strikes-ryanair-lower-fares-summer-economy-latest-news-updates\">Business live – latest updates</a></p></li></ul><p>AliExpress, the Chinese online retail platform, has been fined a record €550m (£470m) by the EU over its failure to stop illegal goods including harmful clothing, cosmetics and kitchen gadgets being sold through its site.</p><p>The European Commission fine is the biggest yet exacted by the bloc under the Digital Services Act (DSA), legislation that came into force in 2024, to protect consumers from illegal goods, deceptive or addictive marketing techniques.</p> <a href=\"https://www.theguardian.com/business/2026/jul/20/aliexpress-fined-by-eu-sale-of-illegal-fake-goods\">Continue reading...</a>"
+      },
+      "time": {
+        "asserted": "2026-07-20T11:21:18.517Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "economy",
+        "citation": "https://www.theguardian.com/business/2026/jul/20/aliexpress-fined-by-eu-sale-of-illegal-fake-goods"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "published",
+      "proposition": {
+        "predicate": "published",
+        "object": "Mon, 20 Jul 2026 10:56:16 GMT"
+      },
+      "time": {
+        "asserted": "2026-07-20T11:21:18.517Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "economy",
+        "citation": "https://www.theguardian.com/business/2026/jul/20/aliexpress-fined-by-eu-sale-of-illegal-fake-goods"
+      },
+      "status": "supported"
+    }
+  ]
+}

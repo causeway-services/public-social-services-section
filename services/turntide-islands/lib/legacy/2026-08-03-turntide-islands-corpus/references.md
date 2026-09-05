@@ -1,0 +1,196 @@
+# Remaining Turntide/Tideturn References
+
+These files still mention Turntide Islands, Tideturn Islands, or a misspelling, but were not moved because their path indicates another active owner or a broad compiled dump rather than a Turntide-specific source file.
+
+- `.\_archive\emsenn-archive-code\2026\06\13\emsenn-net-hugo\content\blog\2023-12-26-1620h.md`
+- `.\_archive\emsenn-archive-code\2026\06\13\emsenn-net-hugo\content\blog\2023-12-26-babbling-about-life.md`
+- `.\_archive\emsenn-archive-code\2026\06\13\emsenn-net-hugo\content\blog\2025-08-09-on-the-inherited-christianity-of-liberal-subjectivity.md`
+- `.\_archive\emsenn-archive-code\2026\06\13\emsenn-net-hugo\content\blog\2025-08-26-0812h.md`
+- `.\_archive\emsenn-archive-code\2026\06\13\emsenn-net-hugo\content\blog\2025-09-21-0721h.md`
+- `.\_archive\emsenn-archive-code\2026\06\13\emsenn-net-hugo\content\blog\2025-09-23-1932h.md`
+- `.\_archive\emsenn-archive-code\topical\information\561-group\superrepo\library\exploring-liberalism\on-the-inherited-christianity-of-liberal-subjectivity.md`
+- `.\_archive\emsenn-archive-code\topical\science\mathematics\predication-categories\pypredcomp\docs\dev\implementation\next-stretch-v0.7-v1.0.md`
+- `.\_archive\emsenn-archive-code\topical\science\mathematics\predication-categories\pypredcomp\docs\dev\milestones\research-sidebar.md`
+- `.\_archive\emsenn-archive-org\emsenn\archive\hacking\composting\library\bare-cedar-fog-operations-department\operations\private\log\2023-12-26-babbling-about-life.md`
+- `.\_archive\emsenn-archive-org\emsenn\archive\hacking\composting\library\bare-cedar-fog-operations-department\operations\projects\writing\babbles\2023-12-26-1620h.md`
+- `.\_archive\emsenn-archive-org\emsenn\archive\hacking\composting\library\bare-cedar-fog-operations-department\operations\projects\writing\babbles\2025-08-09-on-the-inherited-christianity-of-liberal-subjectivity.md`
+- `.\_archive\emsenn-archive-org\emsenn\archive\hacking\composting\library\bare-cedar-fog-operations-department\operations\projects\writing\babbles\2025-08-26-0812h.md`
+- `.\_archive\emsenn-archive-org\emsenn\archive\hacking\composting\library\bare-cedar-fog-operations-department\operations\projects\writing\babbles\2025-09-21-0721h.md`
+- `.\_archive\emsenn-archive-org\emsenn\archive\hacking\composting\library\bare-cedar-fog-operations-department\operations\projects\writing\babbles\2025-09-23-1932h.md`
+- `.\_archive\emsenn-archive-org\emsenn\archive\hacking\from-old-archive\engineering-archive-operations-command-personnel-emsenn\logs\2023-12-26-1620h.md`
+- `.\_archive\emsenn-archive-org\emsenn\archive\hacking\from-old-archive\engineering-archive-operations-command-personnel-emsenn\logs\2025-08-09-on-the-inherited-christianity-of-liberal-subjectivity.md`
+- `.\_archive\emsenn-archive-org\emsenn\archive\hacking\from-old-archive\engineering-archive-operations-command-personnel-emsenn\logs\2025-08-26-0812h.md`
+- `.\_archive\emsenn-archive-org\emsenn\archive\hacking\from-old-archive\engineering-archive-operations-command-personnel-emsenn\logs\2025-09-21-0721h.md`
+- `.\_archive\emsenn-archive-org\emsenn\archive\hacking\from-old-archive\engineering-archive-operations-command-personnel-emsenn\logs\2025-09-23-1932h.md`
+- `.\_archive\emsenn-archive-org\emsenn\archive\hacking\from-old-archive\engineering-archive-operations-command-personnel-emsenn\triage\private\log\2023-12-26-babbling-about-life.md`
+- `.\_archive\emsenn-archive-org\emsenn\archive\hacking\from-old-archive\engineering-archive-operations-command-personnel-emsenn\triage\private\log\2025-06-11.md`
+- `.\_archive\emsenn-archive-org\emsenn\archive\hacking\from-relationality-repo\operations-engineering-triage-operations-command-personnel-emsenn\triage\private\log\2023-12-26-babbling-about-life.md`
+- `.\_archive\emsenn-archive-org\emsenn\archive\hacking\from-relationality-repo\operations-engineering-triage-operations-command-personnel-emsenn\triage\private\log\2025-06-11.md`
+- `.\_archive\emsenn-archive-org\emsenn\archive\hacking\from-research\operations-command-personnel-emsenn\logs\2023-12-26-1620h.md`
+- `.\_archive\emsenn-archive-org\emsenn\archive\hacking\from-research\operations-command-personnel-emsenn\logs\2025-08-09-on-the-inherited-christianity-of-liberal-subjectivity.md`
+- `.\_archive\emsenn-archive-org\emsenn\archive\hacking\from-research\operations-command-personnel-emsenn\logs\2025-08-26-0812h.md`
+- `.\_archive\emsenn-archive-org\emsenn\archive\hacking\from-research\operations-command-personnel-emsenn\logs\2025-09-21-0721h.md`
+- `.\_archive\emsenn-archive-org\emsenn\archive\hacking\from-research\operations-command-personnel-emsenn\logs\2025-09-23-1932h.md`
+- `.\_archive\emsenn-archive-org\emsenn\archive\hacking\from-research\operations-science-publications-websites-emsenn-net\letters\index.html`
+- `.\_archive\emsenn-archive-org\emsenn\archive\hacking\from-research\operations-science-publications-websites-emsenn-net\library\domains\humanities\domains\divination\domains\astrology\domains\cassia-lorne\cassia-lorne\index.html`
+- `.\_archive\emsenn-archive-org\emsenn\archive\hacking\from-research\operations-science-publications-websites-emsenn-net\library\ecology\index.html`
+- `.\_archive\emsenn-archive-org\emsenn\archive\hacking\from-research\operations-science-publications-websites-emsenn-net\library\general\terms\index.html`
+- `.\_archive\emsenn-archive-org\emsenn\archive\hacking\from-research\operations-science-publications-websites-emsenn-net\library\spirituality\domains\divination\domains\astrology\domains\cassia-lorne\cassia-lorne\index.html`
+- `.\_archive\emsenn-archive-org\emsenn\archive\hacking\from-research\operations-science-publications-websites-emsenn-net\sitemap.xml`
+- `.\_archive\emsenn-archive-org\emsenn\archive\hacking\from-wsl-backup\superrepo-library-emsenn-202512\emsenn-babbles\2023-12-26-babbling-about-life.md`
+- `.\_archive\emsenn-archive-org\emsenn\archive\wsl-backup\dev\relationality\content\triage\org-to-md-conversion-plan.md`
+- `.\_archive\emsenn-archive-org\emsenn\archive\wsl-backup\ems\pub\archive.org`
+- `.\_archive\emsenn-archive-org\emsenn\archive\wsl-backup\ems\pub\jsonld-notes\babble-20250904195737-0500.json`
+- `.\_archive\emsenn-archive-org\emsenn\archive\wsl-backup\neocities\babble-20250904195737-0500.html`
+- `.\_archive\emsenn-archive-org\emsenn\archive\wsl-backup\neocities\babble-20250921072126-0500.html`
+- `.\_archive\emsenn-archive-org\emsenn\archive\wsl-backup\neocities\on-the-inherited-christianity-of-liberal-subjectivity.html`
+- `.\_archive\emsenn-archive-org\groundhog-autonomous-zone\archive\hacking\from-archive-trees\from-bare-cedar-fog-text-to-process-someday\log\20231226T191517.md`
+- `.\_archive\emsenn-archive-org\groundhog-autonomous-zone\archive\hacking\from-archive-trees\from-bare-cedar-fog-text-to-process-someday-old-notes-zeds\log\20231226T191517.md`
+- `.\_archive\emsenn-archive-org\groundhog-autonomous-zone\archive\hacking\from-archive-trees\from-old-archive-engineering-archive-library-triage\log\20231226T191517.md`
+- `.\_archive\emsenn-archive-org\groundhog-autonomous-zone\archive\hacking\from-archive-trees\from-research-content-non-speculative-personal\log\20231226T191517.md`
+- `.\_archive\emsenn-archive-org\groundhog-autonomous-zone\archive\hacking\from-archive-trees\from-research-content-speculative-other-text-to-process-someday-old-notes-zeds\log\20231226T191517.md`
+- `.\_archive\emsenn-archive-org\old-archive\triage\engineering-archive\library\humanities\theories\math\theories\relational-calculus\triage\synthesis-report.md`
+- `.\_archive\emsenn-archive-org\old-archive\triage\engineering-archive\library\humanities\theories\philosophy\theories\relationality\triage\provenance\relationality-archive\sscu-sprint\content\triage\org-to-md-conversion-plan.md`
+- `.\_archive\emsenn-archive-org\old-archive\triage\engineering-archive\library\humanities\theories\philosophy\theories\relationality\triage\provenance\relationality-archive\sscu-sprint\domains\technology\domains\computing\domains\computer-architecture\Personal Log, Wednesday, June 6 2025.md`
+- `.\_archive\emsenn-archive-org\old-archive\triage\engineering-archive\library\triage\concatenated-dumps\research-archive.txt`
+- `.\_archive\emsenn-archive-org\old-archive\triage\engineering-archive\library\triage\from-sloppyresearch\research-notes\on-the-inherited-christianity-of-liberal-subjectivity.md`
+- `.\_archive\emsenn-archive-org\old-archive\triage\engineering-archive\library\triage\relationality-slop-2025-06-11\2025-06-11.md`
+- `.\_archive\emsenn-archive-org\old-archive\triage\engineering-archive\library\triage\relationality-slop-2025-06-11\Personal Log, Wednesday, June 6 2025.md`
+- `.\_archive\emsenn-archive-org\operations\engineering\triage\archive\sloppyresearch\research-notes\on-the-inherited-christianity-of-liberal-subjectivity.md`
+- `.\_archive\emsenn-archive-org\operations\engineering\triage\old-content-triage\text-to-process-someday\archive.org`
+- `.\_archive\emsenn-archive-org\operations\engineering\triage\old-content-triage\text-to-process-someday\archive.txt`
+- `.\_archive\emsenn-archive-org\operations\engineering\triage\old-content-triage\text-to-process-someday\archive_aa.txt`
+- `.\_archive\emsenn-archive-org\operations\engineering\triage\old-content-triage\text-to-process-someday\archive_ab`
+- `.\_archive\emsenn-archive-org\operations\engineering\triage\old-content-triage\text-to-process-someday\archive-stable.ttl`
+- `.\_archive\emsenn-archive-org\operations\engineering\triage\old-content-triage\text-to-process-someday\notes.org`
+- `.\_archive\emsenn-archive-org\operations\engineering\triage\old-content-triage\text-to-process-someday\old-notes\Journal, 2023-12-26.md`
+- `.\_archive\emsenn-archive-org\operations\engineering\triage\old-content-triage\text-to-process-someday\old-notes\zeds\Marmot Manual\Content\Long Form\Finance\Hedging Market Volatility in Income Investing.md`
+- `.\_archive\emsenn-archive-org\operations\engineering\triage\old-content-triage\text-to-process-someday\old-notes\zeds\Marmot Manual\Hive Post Blurbs.md`
+- `.\_archive\emsenn-archive-org\operations\engineering\triage\old-content-triage\text-to-process-someday\old-notes\zeds\Marmot Manual\Untitled 3.md`
+- `.\_archive\emsenn-archive-org\operations\engineering\triage\old-content-triage\text-to-process-someday\old-notes\zeds\projects\AGRODAO\Agents\Cassia Lorne\Cassia Lorne.md`
+- `.\_archive\emsenn-archive-org\operations\engineering\triage\old-content-triage\text-to-process-someday\research-archive.txt`
+- `.\_archive\emsenn-archive-org\research\operations\engineering\triage\content\non-speculative\personal\relationality-slop-2025-06-11\2025-06-11.md`
+- `.\_archive\emsenn-archive-org\research\operations\engineering\triage\content\non-speculative\personal\relationality-slop-2025-06-11\Personal Log, Wednesday, June 6 2025.md`
+- `.\_archive\emsenn-archive-org\research\operations\engineering\triage\content\relationality\archive\sscu-sprint\content\triage\org-to-md-conversion-plan.md`
+- `.\_archive\emsenn-archive-org\research\operations\engineering\triage\content\relationality\archive\sscu-sprint\domains\technology\domains\computing\domains\computer-architecture\Personal Log, Wednesday, June 6 2025.md`
+- `.\_archive\emsenn-archive-org\research\operations\engineering\triage\content\speculative\computing\from-sloppyresearch\research-notes\on-the-inherited-christianity-of-liberal-subjectivity.md`
+- `.\_archive\emsenn-archive-org\research\operations\engineering\triage\content\speculative\other\from-text-to-process-someday\Marmot Manual\Content\Long Form\Finance\Hedging Market Volatility in Income Investing.md`
+- `.\_archive\emsenn-archive-org\research\operations\engineering\triage\content\speculative\other\from-text-to-process-someday\Marmot Manual\Hive Post Blurbs.md`
+- `.\_archive\emsenn-archive-org\research\operations\engineering\triage\content\speculative\other\from-text-to-process-someday\Marmot Manual\Untitled 3.md`
+- `.\_archive\emsenn-archive-org\research\operations\engineering\triage\content\speculative\other\from-text-to-process-someday\old-notes\Journal, 2023-12-26.md`
+- `.\_archive\emsenn-archive-org\research\operations\engineering\triage\content\speculative\other\from-text-to-process-someday\old-notes\zeds\Marmot Manual\Content\Long Form\Finance\Hedging Market Volatility in Income Investing.md`
+- `.\_archive\emsenn-archive-org\research\operations\engineering\triage\content\speculative\other\from-text-to-process-someday\old-notes\zeds\Marmot Manual\Hive Post Blurbs.md`
+- `.\_archive\emsenn-archive-org\research\operations\engineering\triage\content\speculative\other\from-text-to-process-someday\old-notes\zeds\Marmot Manual\Untitled 3.md`
+- `.\_archive\emsenn-archive-org\research\operations\engineering\triage\content\speculative\other\from-text-to-process-someday\old-notes\zeds\projects\AGRODAO\Agents\Cassia Lorne\Cassia Lorne.md`
+- `.\content\_archive\animating\content\becoming\doing\working\governing\communicating\content\communication\archive\references\social-posts\wsl-backup-collected-texts--post-emsenn-kolektiva-social-20250826081200-0500--003054.org`
+- `.\content\_archive\animating\content\becoming\doing\working\governing\content\individual\content\agent\actuating\content\actuator\embodying\content\body\integrating\content\drone\swarming\content\swarm\content\social\_archive\emsenn\collected-texts\on-the-inherited-christianity-of-liberal-subjectivity--002148.org`
+- `.\content\_archive\animating\content\becoming\doing\working\governing\content\individual\content\agent\actuating\content\actuator\embodying\content\body\integrating\content\drone\swarming\content\swarm\content\social\content\relating\content\relational-entity\content\social-being\content\social-relation\patterning\content\structure\reproducing\content\social-reproduction\content\subject-formation\content\on-the-inherited-christianity-of-liberal-subjectiv\_archive\on-the-inherited-christianity-of-liberal-subjectivity.md`
+- `.\content\_archive\animating\content\becoming\doing\working\governing\content\individual\content\agent\actuating\content\actuator\embodying\content\body\integrating\content\drone\swarming\content\swarm\content\social\content\relating\content\relational-entity\content\social-being\content\social-relation\patterning\content\structure\reproducing\content\social-reproduction\content\subject-formation\content\on-the-inherited-christianity-of-liberal-subjectiv\_archive\on-the-inherited-christianity-of-liberal-subjectivity.old-archive.md`
+- `.\content\_archive\animating\content\becoming\doing\working\governing\content\individual\content\agent\actuating\content\actuator\embodying\content\body\integrating\content\drone\swarming\content\swarm\content\social\content\relating\content\relational-entity\content\social-being\content\social-relation\patterning\content\structure\reproducing\content\social-reproduction\content\subject-formation\content\on-the-inherited-christianity-of-liberal-subjectiv\_archive\on-the-inherited-christianity-of-liberal-subjectivity.research.md`
+- `.\content\_archive\animating\content\becoming\doing\working\governing\knowing\content\knowledge-science\archive\library\personal-knowledge-management\references\archive-dumps\archive.org`
+- `.\content\_archive\animating\content\becoming\doing\working\governing\knowing\content\knowledge-science\archive\library\personal-knowledge-management\references\archive-dumps\archive.txt`
+- `.\content\_archive\animating\content\becoming\doing\working\governing\knowing\content\knowledge-science\archive\library\personal-knowledge-management\references\archive-dumps\archive_aa.txt`
+- `.\content\_archive\animating\content\becoming\doing\working\governing\knowing\content\knowledge-science\archive\library\personal-knowledge-management\references\archive-dumps\archive_ab`
+- `.\content\_archive\animating\content\becoming\doing\working\governing\knowing\content\knowledge-science\archive\library\personal-knowledge-management\references\archive-dumps\archive-stable.ttl`
+- `.\content\_archive\animating\content\becoming\doing\working\governing\knowing\content\knowledge-science\archive\library\personal-knowledge-management\references\archive-dumps\notes.org`
+- `.\content\_archive\animating\content\becoming\doing\working\governing\knowing\content\knowledge-science\archive\library\personal-knowledge-management\references\archive-dumps\org-files.txt`
+- `.\content\_archive\animating\content\becoming\doing\working\governing\knowing\content\knowledge-science\archive\library\personal-knowledge-management\references\archive-dumps\vault-files.txt`
+- `.\content\_archive\earth-science\archive\library\soil\notes\making-dirt\babble-20250923193221-0500--002996.org`
+- `.\content\_archive\encoding\references\archive\people\emsenn\personal-records\journal\2023\Journal, 2023-12-26--001184.md`
+- `.\content\_archive\encoding\references\archive\people\emsenn\personal-records\logs\20231226T191517--001606.md`
+- `.\content\_archive\encoding\references\archive\people\emsenn\personal-records\logs\2025\Personal Log, Wednesday, June 6 2025--001328.md`
+- `.\content\_archive\encoding\references\archive\people\emsenn\personal-records\logs\2025-06-11--001327.md`
+- `.\content\_archive\library\applied-sciences\technology\archive\domains\relationality\domains\computing\domains\computer-architecture\Personal Log, Wednesday, June 6 2025.md`
+- `.\content\_archive\library\applied-sciences\technology\archive\library\artificial-intelligence\references\agents\cassia-lorne\Cassia Lorne--001434.md`
+- `.\content\_archive\library\applied-sciences\technology\archive\library\blockchain\references\hive\curation\Untitled 3--001472.md`
+- `.\content\_archive\library\applied-sciences\technology\archive\library\digital-gardens\notes\epistemics\babble-20250921072126-0500--002994.org`
+- `.\content\_archive\library\applied-sciences\technology\archive\library\org-mode\references\repositories\emsenn-org-mode\NOTES--000003.org`
+- `.\content\_archive\library\applied-sciences\technology\archive\library\org-roam\references\archive-dumps\archive--000006.org`
+- `.\content\_archive\library\applied-sciences\technology\archive\library\social-media\notes\influencer-labor\babble-20250904195737-0500--002973.org`
+- `.\content\_archive\library\applied-sciences\technology\archive\library\web\src\emsenn-website\neocities-mirrors\wsl-backup-neocities--post-emsenn-kolektiva-social-20250825081900-0500.html`
+- `.\content\_archive\library\applied-sciences\technology\archive\library\web\src\emsenn-website\neocities-mirrors\wsl-backup-neocities--post-emsenn-kolektiva-social-20250826081200-0500.html`
+- `.\content\_archive\library\applied-sciences\technology\archive\library\web\src\emsenn-website\neocities-mirrors\wsl-backup-neocities--post-emsenn-kolektiva-social-20250908113400-0500.html`
+- `.\content\_archive\library\philosophy\relationality\archive\content\math\objects\topoi\references\research-archive.txt`
+- `.\content\_archive\library\philosophy\relationality\archive\content\triage\org-to-md-conversion-plan.md`
+- `.\content\_archive\library\philosophy\relationality\archive\triage\relationality-slop-2025-06-11\2025-06-11.md`
+- `.\content\_archive\library\philosophy\relationality\archive\triage\relationality-slop-2025-06-11\Personal Log, Wednesday, June 6 2025.md`
+- `.\content\_archive\library\philosophy\relationality\psychology\agency\archive\emsenn\dev-relationality-content-agents\text\fediverse\kolektiva\post-2025-08-26-0812.md`
+- `.\content\_archive\library\philosophy\relationality\psychology\agency\archive\emsenn\engineering-archive-library-humanities-philosophy-relationality-provenance-content-agents\text\fediverse\kolektiva\post-2025-08-26-0812.md`
+- `.\content\_archive\library\philosophy\relationality\psychology\agency\archive\emsenn\operations-engineering-triage-content-relationality-agents\text\babbles\2023-12-26-babbling-about-life.md`
+- `.\content\_archive\library\philosophy\relationality\psychology\agency\archive\emsenn\operations-engineering-triage-content-relationality-agents\text\fediverse\kolektiva\post-2025-08-26-0812.md`
+- `.\content\_archive\library\philosophy\relationality\psychology\agency\divination\astrology\cassia-lorne\_archive\cassia-lorne-2.md`
+- `.\content\_archive\library\philosophy\relationality\psychology\agency\divination\astrology\cassia-lorne\_archive\cassia-lorne-2025-03-28.md`
+- `.\content\_archive\library\social-sciences\governing\content\politics\archive\babble-20231226162000-0500.org`
+- `.\content\_archive\library\social-sciences\governing\content\politics\archive\on-the-inherited-christianity-of-liberal-subjectivity.org`
+- `.\content\_archive\library\social-sciences\working\economy\cryptocurrency\archive\hive-post-blurbs.md`
+- `.\content\_archive\library\social-sciences\working\economy\finance\investment\archive\hedging-market-volatility-in-income-investing.md`
+- `.\lib\561-group\working\divining\library\cassia-lorne\cassia-lorne.md`
+- `.\lib\561-group\working\hacking\composting\library\archive-from-bare-cedar-fog\library\business\domains\sigmund-vexler\Sigmund Vexler.md`
+- `.\lib\561-group\working\hacking\composting\library\archive-from-bare-cedar-fog\operations\engineering\triage\old-content-triage\text-to-process-someday\old-notes\HELP Fund.md`
+- `.\lib\561-group\working\hacking\composting\library\archive-from-bare-cedar-fog\operations\engineering\triage\old-content-triage\text-to-process-someday\old-notes\Michael Marmot.md`
+- `.\lib\561-group\working\hacking\composting\library\archive-from-bare-cedar-fog\operations\engineering\triage\old-content-triage\text-to-process-someday\old-notes\zeds\domains\intelligence\assistants\Josh Blevins.md`
+- `.\lib\561-group\working\hacking\composting\library\archive-from-bare-cedar-fog\operations\engineering\triage\old-content-triage\text-to-process-someday\old-notes\zeds\enc\org\561 Group.md`
+- `.\lib\561-group\working\hacking\composting\library\archive-from-bare-cedar-fog\operations\engineering\triage\old-content-triage\text-to-process-someday\old-notes\zeds\enc\org\AGRODAO.md`
+- `.\lib\561-group\working\hacking\composting\library\archive-from-bare-cedar-fog\operations\engineering\triage\old-content-triage\text-to-process-someday\old-notes\zeds\projects\AGRODAO\Agents\Nik Koios\Nik Koios.md`
+- `.\lib\561-group\working\hacking\composting\library\archive-from-bare-cedar-fog\operations\engineering\triage\old-content-triage\text-to-process-someday\old-notes\zeds\projects\AGRODAO\Agents\Sigmund Vexler\Sigmund Vexler.md`
+- `.\lib\561-group\working\hacking\composting\library\archive-from-bare-cedar-fog\operations\engineering\triage\old-content-triage\text-to-process-someday\old-notes\zeds\projects\AGRODAO\README.md`
+- `.\lib\561-group\working\hacking\composting\library\archive-from-bare-cedar-fog\operations\engineering\triage\old-content-triage\text-to-process-someday\personal\private\projects\AGRODAO.md`
+- `.\lib\561-group\working\hacking\composting\library\doing\working\hacking\doing\working\auditing\auditing-the-layout\auditing-the-layout.jsonl`
+- `.\lib\561-group\working\hacking\composting\library\emsenn\hacking\from-bare-cedar-fog\operations-engineering-tools-hugo-publishing-emsenn-net\data\settle.json`
+- `.\lib\561-group\working\hacking\composting\library\emsenn\hacking\from-research\operations-science-publications-websites-emsenn-net\library\business\domains\sigmund-vexler\help-fund\index.html`
+- `.\lib\561-group\working\hacking\composting\library\emsenn\hacking\from-research\operations-science-publications-websites-emsenn-net\library\business\domains\sigmund-vexler\sigmund-vexler\index.html`
+- `.\lib\561-group\working\hacking\composting\library\emsenn\hacking\from-research\operations-science-publications-websites-emsenn-net\library\domains\humanities\domains\business\domains\sigmund-vexler\help-fund\index.html`
+- `.\lib\561-group\working\hacking\composting\library\emsenn\hacking\from-research\operations-science-publications-websites-emsenn-net\library\domains\humanities\domains\business\domains\sigmund-vexler\sigmund-vexler\index.html`
+- `.\lib\561-group\working\hacking\composting\library\emsenn\hacking\from-research\operations-science-publications-websites-emsenn-net\library\reference\people\sigmund-vexler\help-fund\index.html`
+- `.\lib\561-group\working\hacking\composting\library\emsenn\hacking\from-research\operations-science-publications-websites-emsenn-net\library\reference\people\sigmund-vexler\sigmund-vexler\index.html`
+- `.\lib\561-group\working\hacking\composting\library\old-archive\triage\engineering-archive\operations\engineering\records\observations\triage\archive\observations-2026-04-04T07-02-50-60977.jsonl`
+- `.\lib\561-group\working\hacking\composting\library\relationality-repo\relationality-repo\operations\command\projects\replit-sprint\plans\research-sidebar.md`
+- `.\lib\561-group\working\hacking\composting\library\relationality-repo\relationality-repo\operations\command\projects\replit-sprint\texts\roadmap.md`
+- `.\lib\561-group\working\hacking\composting\library\research\operations\engineering\triage\content\non-speculative\old-operations-records\science\personnel\cassia-lorne.md`
+- `.\lib\561-group\working\hacking\composting\library\research\operations\engineering\triage\content\non-speculative\old-operations-records\science\personnel\sigmund-vexler\Sigmund Vexler.md`
+- `.\lib\561-group\working\hacking\composting\library\research\operations\engineering\triage\content\speculative\other\from-text-to-process-someday\old-notes\HELP Fund.md`
+- `.\lib\561-group\working\hacking\composting\library\research\operations\engineering\triage\content\speculative\other\from-text-to-process-someday\old-notes\Michael Marmot.md`
+- `.\lib\561-group\working\hacking\composting\library\research\operations\engineering\triage\content\speculative\other\from-text-to-process-someday\old-notes\zeds\domains\intelligence\assistants\Josh Blevins.md`
+- `.\lib\561-group\working\hacking\composting\library\research\operations\engineering\triage\content\speculative\other\from-text-to-process-someday\old-notes\zeds\enc\org\561 Group.md`
+- `.\lib\561-group\working\hacking\composting\library\research\operations\engineering\triage\content\speculative\other\from-text-to-process-someday\old-notes\zeds\enc\org\AGRODAO.md`
+- `.\lib\561-group\working\hacking\composting\library\research\operations\engineering\triage\content\speculative\other\from-text-to-process-someday\old-notes\zeds\projects\AGRODAO\Agents\Nik Koios\Nik Koios.md`
+- `.\lib\561-group\working\hacking\composting\library\research\operations\engineering\triage\content\speculative\other\from-text-to-process-someday\old-notes\zeds\projects\AGRODAO\Agents\Sigmund Vexler\Sigmund Vexler.md`
+- `.\lib\561-group\working\hacking\composting\library\research\operations\engineering\triage\content\speculative\other\from-text-to-process-someday\old-notes\zeds\projects\AGRODAO\README.md`
+- `.\lib\561-group\working\hacking\composting\library\research\operations\engineering\triage\content\speculative\other\from-text-to-process-someday\personal\private\projects\AGRODAO.md`
+- `.\lib\561-group\working\hacking\composting\library\wsl-backup\collected-texts\561 Group--002051.md`
+- `.\lib\561-group\working\hacking\composting\library\wsl-backup\collected-texts\AGRODAO--002052.md`
+- `.\lib\561-group\working\hacking\composting\library\wsl-backup\collected-texts\HELP Fund--001107.md`
+- `.\lib\561-group\working\hacking\composting\library\wsl-backup\collected-texts\index.tsv`
+- `.\lib\561-group\working\hacking\composting\library\wsl-backup\collected-texts\Josh Blevins--001317.md`
+- `.\lib\561-group\working\hacking\composting\library\wsl-backup\collected-texts\Michael Marmot--001203.md`
+- `.\lib\561-group\working\hacking\composting\library\wsl-backup\collected-texts\Nik Koios--001448.md`
+- `.\lib\561-group\working\hacking\composting\library\wsl-backup\collected-texts\README--001433.md`
+- `.\lib\561-group\working\hacking\composting\library\wsl-backup\collected-texts\Sigmund Vexler--001443.md`
+- `.\lib\561-group\working\hacking\composting\library\wsl-backup\combined.md`
+- `.\lib\561-group\working\performing\library\michael-marmot\_index.md`
+- `.\lib\561-group\working\performing\library\michael-marmot\docs\dev\journal\michael-marmot-old-profile.md`
+- `.\lib\561-group\working\performing\library\michael-marmot\michael-marmot.md`
+- `.\lib\561-group\working\performing\library\nik-koios\Nik Koios.md`
+- `.\lib\561-group\working\performing\library\nik-koios\nik-koios.md`
+- `.\lib\561-group\working\performing\library\sigmund-vexler\HELP Fund.md`
+- `.\lib\561-group\working\performing\library\sigmund-vexler\Sigmund Vexler.md`
+- `.\lib\561-group\working\performing\library\sigmund-vexler\sigmund-vexler.md`
+- `.\lib\561-group\working\performing\library\yanagi\yanagi.md`
+- `.\lib\561-group\working\spying\library\josh-blevins\docs\dev\journal\josh-blevins-doing-readme-expanded.md`
+- `.\lib\561-group\working\spying\library\josh-blevins\josh-blevins.md`
+- `.\pnpm-lock.yaml`
+- `.\pnpm-workspace.yaml`
+- `.\sites\emsenn.net\content\blog\2023-12-26-1620h.md`
+- `.\sites\emsenn.net\content\blog\2023-12-26-babbling-about-life.md`
+- `.\sites\emsenn.net\content\blog\2025-08-09-on-the-inherited-christianity-of-liberal-subjectivity.md`
+- `.\sites\emsenn.net\content\blog\2025-08-26-0812h.md`
+- `.\sites\emsenn.net\content\blog\2025-09-21-0721h.md`
+- `.\sites\emsenn.net\content\blog\2025-09-23-1932h.md`
+- `.\sites\research.
+  561.group\dev\docs\audits\2026\06\08\udc-ecology-climate-hydrology-agriculture-cleanup-2026-06-08.json`
+- `.\sites\research.
+  561.group\dev\docs\audits\2026\06\08\udc-ecology-final-residue-cleanup-2026-06-08.json`
+- `.\sites\research.
+  561.group\dev\docs\audits\2026\06\08\udc-ecology-subbranch-cleanup-2026-06-08.json`
+- `.\sites\research.
+  561.group\dev\docs\audits\2026\06\09\emsenn-research-domain-cleanup-2026-06-09.json`

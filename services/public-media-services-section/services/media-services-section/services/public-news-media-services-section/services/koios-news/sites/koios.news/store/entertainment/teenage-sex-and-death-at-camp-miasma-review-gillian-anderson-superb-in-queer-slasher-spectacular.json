@@ -1,0 +1,69 @@
+{
+  "subject": "teenage-sex-and-death-at-camp-miasma-review-gillian-anderson-superb-in-queer-slasher-spectacular",
+  "claims": [
+    {
+      "id": "title",
+      "proposition": {
+        "predicate": "title",
+        "object": "Teenage Sex and Death at Camp Miasma review – Gillian Anderson superb in queer slasher spectacular"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "entertainment",
+        "citation": "https://www.theguardian.com/film/2026/may/14/teenage-sex-and-death-at-camp-miasma-review-seductive-gillian-anderson-fulfils-a-rapturous-slasher-fan-obsession"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "url",
+      "proposition": {
+        "predicate": "url",
+        "object": "https://www.theguardian.com/film/2026/may/14/teenage-sex-and-death-at-camp-miasma-review-seductive-gillian-anderson-fulfils-a-rapturous-slasher-fan-obsession"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "entertainment",
+        "citation": "https://www.theguardian.com/film/2026/may/14/teenage-sex-and-death-at-camp-miasma-review-seductive-gillian-anderson-fulfils-a-rapturous-slasher-fan-obsession"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "summary",
+      "proposition": {
+        "predicate": "summary",
+        "object": "<p>Young indie film-maker Kris tracks down Anderson’s Final Girl for a remake of a beloved horror, to find fantasy and reality collapsed</p><p>Jane Schoenbrun unveils a very enjoyable display of transformative ecstasy and submissive rapture, treating us to a bizarre pop-cultural black mass of fiercely believed-in trash and kink. As before with Schoenbrun’s films, I found myself thinking of Gore Vidal’s (unfashionable) novels Myra Breckinridge and Myron.</p><p>This is a film that somehow persuades you that the 80s slasher genre is an exalting and liberatingly progressive experience. As before, in their <a href=\"https://www.theguardian.com/film/2022/apr/26/were-all-going-to-the-worlds-fair-review-jane-schoenbrun\">We’re All Going to the World’s Fair</a> (2021) and <a href=\"https://www.theguardian.com/film/article/2024/jul/24/i-saw-the-tv-glow-review-90s-telly-addict-chiller-set-to-be-future-classic\">I Saw the TV Glow</a> (2024), Schoenbrun pulls off the trick of inventing an imaginary media phenomenon and treating it with complete fan-seriousness – an online horror game and cult scary TV show in the first two films and now a slasher movie franchise called Camp Miasma about a teen transgender killer called Little Death wearing a ceiling vent as a mask (why is never explained) who periodically emerges from a lake in a sleepaway camp where scantily clad young people will be brutally speared.</p> <a href=\"https://www.theguardian.com/film/2026/may/14/teenage-sex-and-death-at-camp-miasma-review-seductive-gillian-anderson-fulfils-a-rapturous-slasher-fan-obsession\">Continue reading...</a>"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "entertainment",
+        "citation": "https://www.theguardian.com/film/2026/may/14/teenage-sex-and-death-at-camp-miasma-review-seductive-gillian-anderson-fulfils-a-rapturous-slasher-fan-obsession"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "published",
+      "proposition": {
+        "predicate": "published",
+        "object": "Thu, 14 May 2026 08:55:19 GMT"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "entertainment",
+        "citation": "https://www.theguardian.com/film/2026/may/14/teenage-sex-and-death-at-camp-miasma-review-seductive-gillian-anderson-fulfils-a-rapturous-slasher-fan-obsession"
+      },
+      "status": "supported"
+    }
+  ]
+}

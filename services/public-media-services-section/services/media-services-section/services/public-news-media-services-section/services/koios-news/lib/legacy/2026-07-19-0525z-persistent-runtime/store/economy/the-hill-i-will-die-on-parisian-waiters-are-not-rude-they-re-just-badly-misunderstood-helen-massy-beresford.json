@@ -1,0 +1,69 @@
+{
+  "subject": "the-hill-i-will-die-on-parisian-waiters-are-not-rude-they-re-just-badly-misunderstood-helen-massy-beresford",
+  "claims": [
+    {
+      "id": "title",
+      "proposition": {
+        "predicate": "title",
+        "object": "The hill I will die on: Parisian waiters are not rude – they’re just badly misunderstood | Helen Massy-Beresford"
+      },
+      "time": {
+        "asserted": "2026-07-19T02:19:57.230Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "economy",
+        "citation": "https://www.theguardian.com/commentisfree/2026/jul/18/the-hill-i-will-die-on-paris-waiters-misunderstood-stereotype"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "url",
+      "proposition": {
+        "predicate": "url",
+        "object": "https://www.theguardian.com/commentisfree/2026/jul/18/the-hill-i-will-die-on-paris-waiters-misunderstood-stereotype"
+      },
+      "time": {
+        "asserted": "2026-07-19T02:19:57.230Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "economy",
+        "citation": "https://www.theguardian.com/commentisfree/2026/jul/18/the-hill-i-will-die-on-paris-waiters-misunderstood-stereotype"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "summary",
+      "proposition": {
+        "predicate": "summary",
+        "object": "<p>After living here for years, I can see through that old stereotype. My tip: if your server is not full of bonhomie, why not try saying ‘bonjour’?</p><p>Parisian waiters are professionals, providing an excellent service – they are not rude or unfriendly, just sometimes slightly misunderstood. No, really, hear me out. We’re all familiar with the trope of the rude Parisian waiter, looking down their nose at your inferior wine choice. They have been called “brusque and unwelcoming”, “snooty and rude” by travellers who voted Paris <a href=\"https://www.roughguides.com/articles/the-worlds-friendliest-cities-as-voted-by-you/\">the unfriendliest city in the world</a>. But after living here for many years, I’m struggling to think of an experience that really lives up to the stereotype. Harried and busy, sometimes, yes. But rude? No.</p><p>So why do Parisian waiters (and let’s face it, Parisians) have a such a bad reputation? Partly, it’s about misunderstandings. Good manners and greetings between strangers in France are quite formal and can (and did, to this Brit, arriving in 2007) seem a little frosty. There are golden rules that many visitors unwittingly break and the big one is “bonjour”. Or rather, a lack of “bonjour”. Going into a shop or a restaurant in Paris (or anywhere in France) and not greeting the staff is incredibly rude. That means many waiters or shop staff in touristy areas are actually, by French rules, being snubbed thousands of times a day. No wonder some of them feel a little grumpy.</p><p>Helen Massy-Beresford is a British journalist and editor who lives in Paris</p> <a href=\"https://www.theguardian.com/commentisfree/2026/jul/18/the-hill-i-will-die-on-paris-waiters-misunderstood-stereotype\">Continue reading...</a>"
+      },
+      "time": {
+        "asserted": "2026-07-19T02:19:57.230Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "economy",
+        "citation": "https://www.theguardian.com/commentisfree/2026/jul/18/the-hill-i-will-die-on-paris-waiters-misunderstood-stereotype"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "published",
+      "proposition": {
+        "predicate": "published",
+        "object": "Sat, 18 Jul 2026 04:00:47 GMT"
+      },
+      "time": {
+        "asserted": "2026-07-19T02:19:57.230Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "economy",
+        "citation": "https://www.theguardian.com/commentisfree/2026/jul/18/the-hill-i-will-die-on-paris-waiters-misunderstood-stereotype"
+      },
+      "status": "supported"
+    }
+  ]
+}

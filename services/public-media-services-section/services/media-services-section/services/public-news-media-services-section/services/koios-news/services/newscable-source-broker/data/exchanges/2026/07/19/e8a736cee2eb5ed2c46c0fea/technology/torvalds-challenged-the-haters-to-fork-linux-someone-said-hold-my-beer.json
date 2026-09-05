@@ -1,0 +1,69 @@
+{
+  "subject": "torvalds-challenged-the-haters-to-fork-linux-someone-said-hold-my-beer",
+  "claims": [
+    {
+      "id": "title",
+      "proposition": {
+        "predicate": "title",
+        "object": "Torvalds challenged the haters to fork Linux. Someone said 'hold my beer'"
+      },
+      "time": {
+        "asserted": "2026-07-19T14:41:51.389Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "technology",
+        "citation": "https://www.theregister.com/os-platforms/2026/07/17/torvalds-challenged-the-haters-to-fork-linux-someone-said-hold-my-beer/5274275"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "url",
+      "proposition": {
+        "predicate": "url",
+        "object": "https://www.theregister.com/os-platforms/2026/07/17/torvalds-challenged-the-haters-to-fork-linux-someone-said-hold-my-beer/5274275"
+      },
+      "time": {
+        "asserted": "2026-07-19T14:41:51.389Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "technology",
+        "citation": "https://www.theregister.com/os-platforms/2026/07/17/torvalds-challenged-the-haters-to-fork-linux-someone-said-hold-my-beer/5274275"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "summary",
+      "proposition": {
+        "predicate": "summary",
+        "object": "Earlier this week, Linux project leader Linus Torvalds told AI haters to fork off, and invited anyone who didn't like his comments to fork the kernel. Well, here you go: linux-0.11-rs, a total reimplementation of the Linux kernel, done in langage de programmation du jour, Rust. No, this isn't really a response to the Emperor Penguin's challenge – for a start, it looks like it was done with AI – but the timing was irresistible. The new project is by an undergrad student at Beihang University in Beijing, China, under the handle Poseidon. Never mind not being a fork – Poseidon's kernel isn't even really a port of Linux. It's a rewrite, and a rewrite of a very early version. It's based on Linux kernel 0.11, whose source code you can peruse on this mirror. This was an early kernel from December 8, 1991 – just a few months after the initial release, Linux 0.01. Version 0.11 was the last release of that first year of Linux. It was followed by version 0.12 in January 1992, then the version number jumped to 0.95 in March, as the young Torvalds started counting down to kernel 1.0 – which arrived two years later. If you read the 0.11 release notice, Torvalds said: \"Linux-0.11 has a few rather major improvements, but perhaps most notably, is the first kernel where some other people start making real contributions.\" He goes on to say: \"This is a major milestone, since it makes the kernel much more powerful than Minix was at the time.\" It's also when \"Ted Ts'o shows up as a coder.\" Poseidon's Rust rewrite is quite a lot bigger than the original. The hackers of the \"Orange Site\" have been dissecting it with much greater expertise than this vulture can offer. User \"dminik\" fed it to an automatic code analyzer, and Pajecawav's Ghloc reckoned that it's just over 47,000 lines of Rust. Dminik breaks that down: \"It's about 15k lines of code for the kernel and the rest is various utilities, libraries and programs that can run on the kernel.\" In other words, linux-0.11-rs is more complete than just the kernel. It also includes the core OS as it stood at the end of the year it first appeared. \"Poseidon\" also credits a tutorial on writing an OS kernel in Rust, which implies to us that this was not an entirely bot-driven effort. Some work has gone into it. Some of the Hacker News commentators call it a waste of tokens, or more pointedly a waste of water and electricity, but it seems to be a kid having some fun, playing around and experimenting. For us, that's a good thing. We hope that they found the exercise instructive. The Reg FOSS desk is not a fan of bot-slop, but we do approve of exploring and learning and having fun. At least for as long as code-generating LLMs are cheap and plentiful, it will be very hard to prevent youngsters and students from playing around and experimenting with them. Nobody is ever going to deploy anything on a bot-generated rewrite of a prototype kernel from 35 years ago – and don't forget that the original was itself written by a 22-year-old who was doing it \"Just for Fun.\" ®"
+      },
+      "time": {
+        "asserted": "2026-07-19T14:41:51.389Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "technology",
+        "citation": "https://www.theregister.com/os-platforms/2026/07/17/torvalds-challenged-the-haters-to-fork-linux-someone-said-hold-my-beer/5274275"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "published",
+      "proposition": {
+        "predicate": "published",
+        "object": "Fri, 17 Jul 2026 16:02:00 +0200"
+      },
+      "time": {
+        "asserted": "2026-07-19T14:41:51.389Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "technology",
+        "citation": "https://www.theregister.com/os-platforms/2026/07/17/torvalds-challenged-the-haters-to-fork-linux-someone-said-hold-my-beer/5274275"
+      },
+      "status": "supported"
+    }
+  ]
+}

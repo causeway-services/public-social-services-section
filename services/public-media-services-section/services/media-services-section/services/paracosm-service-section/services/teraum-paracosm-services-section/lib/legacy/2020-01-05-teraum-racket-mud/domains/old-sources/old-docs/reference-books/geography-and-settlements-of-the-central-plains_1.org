@@ -1,0 +1,12 @@
+#+SETUPFILE: ./setup.inc
+#+TITLE: Geography and Settlements of the Central Plains
+#+EXPORT_FILE_NAME: ../../pub/reference-books/geography-and-settlements-of-the-central-plains
+#+INDEX: Central Plains!/Geography and Settlements of the Central Plains/
+#+TOC: headlines 2
+* DRAFT Introduction
+* DRAFT Geography and Settlements of the Central Plains
+** DRAFT Ruins
+*** DRAFT Snapstone Enclave
+*/Snapstone Enclave/* is an abandoned /dwarven/ settlement.
+* DRAFT Supplements
+- Central Plains ::

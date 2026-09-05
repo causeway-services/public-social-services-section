@@ -1,0 +1,69 @@
+{
+  "subject": "uk-digital-id-may-be-dead-but-its-legacy-it-problem-lives-on",
+  "claims": [
+    {
+      "id": "title",
+      "proposition": {
+        "predicate": "title",
+        "object": "UK digital ID may be dead, but its legacy IT problem lives on"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "technology",
+        "citation": "https://www.theregister.com/public-sector/2026/09/02/uk-digital-id-may-be-dead-but-its-legacy-it-problem-lives-on/5293677"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "url",
+      "proposition": {
+        "predicate": "url",
+        "object": "https://www.theregister.com/public-sector/2026/09/02/uk-digital-id-may-be-dead-but-its-legacy-it-problem-lives-on/5293677"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "technology",
+        "citation": "https://www.theregister.com/public-sector/2026/09/02/uk-digital-id-may-be-dead-but-its-legacy-it-problem-lives-on/5293677"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "summary",
+      "proposition": {
+        "predicate": "summary",
+        "object": "Legacy government systems would have posed a significant barrier to the UK's abandoned national digital ID scheme, according to the country's spending watchdog. The National Audit Office (NAO) has published a review of the digital identity landscape and the lessons that should inform any future attempt to introduce a government-wide system. Drawing on its previous work on digital transformation, data, and identity, as well as evidence from international audit bodies, the NAO emphasized that digital identity is not a single product or technology. Instead, it encompasses services, credentials, standards, providers, and governance arrangements across the public and private sectors. Earlier this year, newly appointed Prime Minister Andy Burnham cancelled the digital ID scheme announced less than a year earlier by his predecessor, Keir Starmer. The government had already reversed its plan to make digital ID compulsory for right-to-work checks amid questions about its cost, funding, and implications for civil liberties. Gareth Davies, head of the NAO, said: \"Despite the government's recent announcement that it will not be going ahead with its digital identity plans, questions about how people can conveniently and securely prove who they are or something about themselves in a digital world remain relevant. Experience from other countries suggests digital identity works best when people find it useful and want to use it in their everyday lives, together with effective security and privacy protections.\" The report identified legacy systems as a barrier to introducing digital ID across government because they use \"inconsistent data standards and have multiple ways of representing the same person.\" \"Individuals can appear differently across different systems, making it hard to link data and limiting the ability and effectiveness of joining up data across different services. Unless addressed, these issues would be a practical constraint on what a digital identity could achieve.\" Any future government-wide digital identity proposal should clearly define its objectives and delivery model and explain how it would address longstanding constraints involving legacy systems and fragmented data, the report said. ®"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "technology",
+        "citation": "https://www.theregister.com/public-sector/2026/09/02/uk-digital-id-may-be-dead-but-its-legacy-it-problem-lives-on/5293677"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "published",
+      "proposition": {
+        "predicate": "published",
+        "object": "Wed, 02 Sep 2026 11:03:00 +0200"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "technology",
+        "citation": "https://www.theregister.com/public-sector/2026/09/02/uk-digital-id-may-be-dead-but-its-legacy-it-problem-lives-on/5293677"
+      },
+      "status": "supported"
+    }
+  ]
+}

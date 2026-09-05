@@ -1,0 +1,69 @@
+{
+  "subject": "uk-plans-to-tackle-ai-harms-would-bypass-democratic-process-experts-warn",
+  "claims": [
+    {
+      "id": "title",
+      "proposition": {
+        "predicate": "title",
+        "object": "UK plans to tackle AI harms would bypass democratic process, experts warn"
+      },
+      "time": {
+        "asserted": "2026-07-18T07:55:48.840Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "decolonization",
+        "citation": "https://www.opendemocracy.net/en/uk-online-safety-act-ai-harms-government-labour-grok-elon-musk/"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "url",
+      "proposition": {
+        "predicate": "url",
+        "object": "https://www.opendemocracy.net/en/uk-online-safety-act-ai-harms-government-labour-grok-elon-musk/"
+      },
+      "time": {
+        "asserted": "2026-07-18T07:55:48.840Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "decolonization",
+        "citation": "https://www.opendemocracy.net/en/uk-online-safety-act-ai-harms-government-labour-grok-elon-musk/"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "summary",
+      "proposition": {
+        "predicate": "summary",
+        "object": "The UK is seeking to grant ministers wide-ranging new powers to rewrite significant portions of the Online Safety Act through amendments tucked into two unrelated bills, a move that experts warn could bypass normal parliamentary scrutiny. The proposed changes would allow ministers to amend the act by adding as much as a third to the regulatory regime using so-called Henry VIII clauses , limiting Parliament to a simple yes-or-no vote on an unforeseeable number of new rules, rather than full debate or amendment. The change would allow the central government to limit detailed parliamentary scrutiny and amend the act more quickly. “It’s basically [introducing] a third of the Online Safety Act,” and gives ministers power to add as many unforeseen new rules as they want, said Essex University law professor Lorna Woods, legal adviser to the Online Safety Act Network."
+      },
+      "time": {
+        "asserted": "2026-07-18T07:55:48.840Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "decolonization",
+        "citation": "https://www.opendemocracy.net/en/uk-online-safety-act-ai-harms-government-labour-grok-elon-musk/"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "published",
+      "proposition": {
+        "predicate": "published",
+        "object": "Fri, 10 Apr 2026 10:59:46 GMT"
+      },
+      "time": {
+        "asserted": "2026-07-18T07:55:48.840Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "decolonization",
+        "citation": "https://www.opendemocracy.net/en/uk-online-safety-act-ai-harms-government-labour-grok-elon-musk/"
+      },
+      "status": "supported"
+    }
+  ]
+}

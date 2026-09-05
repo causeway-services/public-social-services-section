@@ -1,0 +1,69 @@
+{
+  "subject": "freddy-boom-boom-cannon-dies-palisades-park-tallahassee-lassie-rock-roller-was-89",
+  "claims": [
+    {
+      "id": "title",
+      "proposition": {
+        "predicate": "title",
+        "object": "Freddy “Boom Boom” Cannon Dies: ‘Palisades Park’ & ‘Tallahassee Lassie’ Rock & Roller Was 89"
+      },
+      "time": {
+        "asserted": "2026-07-19T15:04:21.677Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "culture",
+        "citation": "https://deadline.com/2026/07/freddy-boom-boom-cannon-dead-1236997570/"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "url",
+      "proposition": {
+        "predicate": "url",
+        "object": "https://deadline.com/2026/07/freddy-boom-boom-cannon-dead-1236997570/"
+      },
+      "time": {
+        "asserted": "2026-07-19T15:04:21.677Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "culture",
+        "citation": "https://deadline.com/2026/07/freddy-boom-boom-cannon-dead-1236997570/"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "summary",
+      "proposition": {
+        "predicate": "summary",
+        "object": "Freddy “Boom Boom” Cannon, the early rock & roller who scored big, joyful radio hits with, among others, 1959’s “Tallahassee Lassie” and 1962’s “Palisades Park,” died yesterday, July 17, at a California hospice facility following a brief battle with cancer. He was 89. His death was announced by Tom Cuddy, a longtime friend and iHeart […]"
+      },
+      "time": {
+        "asserted": "2026-07-19T15:04:21.677Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "culture",
+        "citation": "https://deadline.com/2026/07/freddy-boom-boom-cannon-dead-1236997570/"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "published",
+      "proposition": {
+        "predicate": "published",
+        "object": "Sat, 18 Jul 2026 19:58:35 +0000"
+      },
+      "time": {
+        "asserted": "2026-07-19T15:04:21.677Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "culture",
+        "citation": "https://deadline.com/2026/07/freddy-boom-boom-cannon-dead-1236997570/"
+      },
+      "status": "supported"
+    }
+  ]
+}

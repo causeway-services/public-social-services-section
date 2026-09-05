@@ -1,0 +1,69 @@
+{
+  "subject": "nepal-s-glacial-collapse-foreshadowed-a-future-of-climate-disaster-michael-mann",
+  "claims": [
+    {
+      "id": "title",
+      "proposition": {
+        "predicate": "title",
+        "object": "Nepal’s glacial collapse foreshadowed a future of climate disaster | Michael Mann"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "environment",
+        "citation": "https://www.theguardian.com/commentisfree/2026/sep/01/nepal-flooding-climate-disaster"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "url",
+      "proposition": {
+        "predicate": "url",
+        "object": "https://www.theguardian.com/commentisfree/2026/sep/01/nepal-flooding-climate-disaster"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "environment",
+        "citation": "https://www.theguardian.com/commentisfree/2026/sep/01/nepal-flooding-climate-disaster"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "summary",
+      "proposition": {
+        "predicate": "summary",
+        "object": "<p>The deluge capped a summer of extreme climate events, from deadly heatwaves to wildfires. We must take action now</p><p>For millennia, the high peaks of the Himalayas were held together by an invisible, frozen cement – permafrost and glacial ice that bound ancient rock into seemingly unshakable fortresses. But as the planet continues to warm, this alpine glue is liquefying.</p><p>The glacial collapse and deluge in Nepal and Tibet was <a href=\"https://www.theguardian.com/commentisfree/2026/aug/28/nepal-tibet-flood-climate-crisis-global-heating\">not a freak weather event</a>; it was the structural failure of a mountain itself, nature’s latest commentary on the deadly consequences of human-caused planetary warming. And it was the exclamation point on a summer of extremes, illustrating with a sole <a href=\"https://thehill.com/opinion/energy-environment/3871118-enjoy-the-weather-worry-about-the-climate/\">unnatural disaster</a> the apocalyptic future that lies in store if we fail to take dramatic climate action.</p> <a href=\"https://www.theguardian.com/commentisfree/2026/sep/01/nepal-flooding-climate-disaster\">Continue reading...</a>"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "environment",
+        "citation": "https://www.theguardian.com/commentisfree/2026/sep/01/nepal-flooding-climate-disaster"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "published",
+      "proposition": {
+        "predicate": "published",
+        "object": "Tue, 01 Sep 2026 09:00:05 GMT"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "environment",
+        "citation": "https://www.theguardian.com/commentisfree/2026/sep/01/nepal-flooding-climate-disaster"
+      },
+      "status": "supported"
+    }
+  ]
+}

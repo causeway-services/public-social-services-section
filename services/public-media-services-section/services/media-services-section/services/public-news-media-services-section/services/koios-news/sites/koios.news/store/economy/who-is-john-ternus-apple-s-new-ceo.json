@@ -1,0 +1,69 @@
+{
+  "subject": "who-is-john-ternus-apple-s-new-ceo",
+  "claims": [
+    {
+      "id": "title",
+      "proposition": {
+        "predicate": "title",
+        "object": "Who is John Ternus, Apple’s new CEO?"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "economy",
+        "citation": "https://www.theguardian.com/technology/2026/apr/20/john-ternus-apple-ceo-tim-cook"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "url",
+      "proposition": {
+        "predicate": "url",
+        "object": "https://www.theguardian.com/technology/2026/apr/20/john-ternus-apple-ceo-tim-cook"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "economy",
+        "citation": "https://www.theguardian.com/technology/2026/apr/20/john-ternus-apple-ceo-tim-cook"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "summary",
+      "proposition": {
+        "predicate": "summary",
+        "object": "<p>Hardware engineering executive succeeding Tim Cook is a longtime Apple insider, indicating company will continue strategy that has led to record profits</p><p>Tim Cook stepped down as CEO of Apple on 31 August. John Ternus, a longtime company veteran, succeeded him the next day as the company’s new chief executive. Cook has transitioned to the role of executive chairman of Apple’s board of directors.</p><p>Ternus, a hardware engineering executive, is a tenured Apple insider, and his ascension indicates the company will stay the course that has led to record profits under Cook’s leadership. Apple’s yearly profit now tops $100bn, the company is worth about $4.5tn, and it has notched record revenue from its iPhones this year, boosted by <a href=\"https://www.theguardian.com/technology/2026/jan/29/apple-ai-plans-siri-reboot\">renewed demand in China</a>.</p> <a href=\"https://www.theguardian.com/technology/2026/apr/20/john-ternus-apple-ceo-tim-cook\">Continue reading...</a>"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "economy",
+        "citation": "https://www.theguardian.com/technology/2026/apr/20/john-ternus-apple-ceo-tim-cook"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "published",
+      "proposition": {
+        "predicate": "published",
+        "object": "Tue, 01 Sep 2026 17:33:01 GMT"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "economy",
+        "citation": "https://www.theguardian.com/technology/2026/apr/20/john-ternus-apple-ceo-tim-cook"
+      },
+      "status": "supported"
+    }
+  ]
+}

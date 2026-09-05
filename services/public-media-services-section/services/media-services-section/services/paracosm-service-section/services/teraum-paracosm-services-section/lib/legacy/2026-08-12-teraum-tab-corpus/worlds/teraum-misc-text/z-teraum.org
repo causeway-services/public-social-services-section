@@ -1,0 +1,16 @@
+#+title: Teraum
+#+begin_head
+#+ghe_schema: term-0.1.0
+#+author: emsenn
+#+email: emsenn@emsenn.net
+#+date: [2020-12-18 Fri 21:27]
+#+roam_alias: "0Teraum"
+#+roam_tags: Teraum term
+#+end_head
+
+#+name: teraum-definition
+*/[[file:teraum.org][Teraum]]/* is a [[file:tragedy.org][tragically]] [[file:comedy.org][funny]] [[file:fantasy.org][fantasy]] [[file:world.org][world]] [[file:craft.org][crafted]] by [[file:emsenn.org][emsenn]].
+
+* Plans
+** Finish importing old records
+*** TODO Import the calendar

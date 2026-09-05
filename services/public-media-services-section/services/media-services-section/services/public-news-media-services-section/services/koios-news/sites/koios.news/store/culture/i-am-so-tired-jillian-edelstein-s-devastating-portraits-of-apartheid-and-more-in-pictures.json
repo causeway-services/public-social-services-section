@@ -1,0 +1,69 @@
+{
+  "subject": "i-am-so-tired-jillian-edelstein-s-devastating-portraits-of-apartheid-and-more-in-pictures",
+  "claims": [
+    {
+      "id": "title",
+      "proposition": {
+        "predicate": "title",
+        "object": "‘I am so tired’: Jillian Edelstein’s devastating portraits of apartheid and more – in pictures"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "culture",
+        "citation": "https://www.theguardian.com/artanddesign/gallery/2026/aug/27/jill-edelstein-portrait-apartheid-among-people"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "url",
+      "proposition": {
+        "predicate": "url",
+        "object": "https://www.theguardian.com/artanddesign/gallery/2026/aug/27/jill-edelstein-portrait-apartheid-among-people"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "culture",
+        "citation": "https://www.theguardian.com/artanddesign/gallery/2026/aug/27/jill-edelstein-portrait-apartheid-among-people"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "summary",
+      "proposition": {
+        "predicate": "summary",
+        "object": "<p>The South African photographer documented her country’s harrowing Truth and Reconciliation Commission. These pictures form part of a new exhibition – alongside intimate images of actors, artists and friends</p> <a href=\"https://www.theguardian.com/artanddesign/gallery/2026/aug/27/jill-edelstein-portrait-apartheid-among-people\">Continue reading...</a>"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "culture",
+        "citation": "https://www.theguardian.com/artanddesign/gallery/2026/aug/27/jill-edelstein-portrait-apartheid-among-people"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "published",
+      "proposition": {
+        "predicate": "published",
+        "object": "Thu, 27 Aug 2026 06:00:06 GMT"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "culture",
+        "citation": "https://www.theguardian.com/artanddesign/gallery/2026/aug/27/jill-edelstein-portrait-apartheid-among-people"
+      },
+      "status": "supported"
+    }
+  ]
+}

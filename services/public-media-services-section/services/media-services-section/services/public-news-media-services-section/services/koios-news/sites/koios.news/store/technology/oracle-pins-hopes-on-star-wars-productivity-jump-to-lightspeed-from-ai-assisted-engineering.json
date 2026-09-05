@@ -1,0 +1,69 @@
+{
+  "subject": "oracle-pins-hopes-on-star-wars-productivity-jump-to-lightspeed-from-ai-assisted-engineering",
+  "claims": [
+    {
+      "id": "title",
+      "proposition": {
+        "predicate": "title",
+        "object": "Oracle pins hopes on 'Star Wars' productivity jump to lightspeed from AI-assisted engineering"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "technology",
+        "citation": "https://www.theregister.com/ai-and-ml/2026/09/01/oracle-pins-hopes-on-star-wars-productivity-jump-to-lightspeed-from-ai-assisted-engineering-1/5293596"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "url",
+      "proposition": {
+        "predicate": "url",
+        "object": "https://www.theregister.com/ai-and-ml/2026/09/01/oracle-pins-hopes-on-star-wars-productivity-jump-to-lightspeed-from-ai-assisted-engineering-1/5293596"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "technology",
+        "citation": "https://www.theregister.com/ai-and-ml/2026/09/01/oracle-pins-hopes-on-star-wars-productivity-jump-to-lightspeed-from-ai-assisted-engineering-1/5293596"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "summary",
+      "proposition": {
+        "predicate": "summary",
+        "object": "Oracle is betting that AI coding will deliver \"Star Wars\" levels of software engineering productivity, CEO Mike Sicilia told investors last week. With its shares sharply down over the past year, Big Red claims its engineers' productivity will skyrocket as the company mainlines the AI wonder drug it prescribes to customers. Speaking at Deutsche Bank's 2026 Technology Conference, Sicilia insisted that AI would be a net positive for the software industry, despite fears of a so-called SaaSpocalypse in which coding tools and agents strip value from business application vendors. Many SaaS companies have seen their valuations plummet this year. \"The software industry will probably be disrupted in a positive way. Let me be clear, I don't mean the SaaSpocalypse fears and all these things. [But] the fact that we're able to disrupt ourselves and become so productive is because we have decades of experience with building and delivering mission-critical applications and infrastructure like Oracle Database,\" he said. Sicilia, who began his career as a software developer in 1993, said he would once have dismissed today's claimed productivity from a single AI-assisted engineer as fantasy. \"I'd have said that's like Star Wars, futuristic stuff. There's no way… but it is real. I mean it is super real. It is incredibly interesting,\" he told the investor conference. Curiously, Oracle has told contributors to OpenJDK – the open source Java project that it stewards – not to submit AI-generated code or other material. In a post tagged \"legal,\" Oracle said it was drafting a full policy on generative AI but had set interim ground rules. It cited risks involving review workloads, safety, security, and intellectual property. \"Contributions in the OpenJDK Community must not include content generated, in part or in full, by large language models, diffusion models, or similar deep-learning systems,\" the post said. That apparent contradiction did not temper Sicilia's enthusiasm for using AI inside Oracle. Big Red has spent the past few months making clear that it expects to do more with fewer people. The company's workforce shrank by 21,000 over the last year, according to its annual report. In May 2025, Oracle reported approximately 162,000 employees. By May 2026, that figure had fallen to approximately 141,000. US headcount fell by 9,000, while the international workforce declined by 12,000. \"Our periodic workforce restructurings and reorganizations can be disruptive,\" Oracle stated. \"The adoption and deployment of AI technologies across our operations have resulted, and may continue to result, in reductions to our workforce.\" \"We may initiate new restructuring plans in the future,\" it added, ominously. Customers have already encountered another side of Oracle's AI push through the vendor's support portal, which relaunched late last year. The revamped service offers AI-powered interactions, streamlined navigation, improved search, and better access to knowledge, according to Greg Parikh, Oracle veep for information development and operations. Customers, however, complained that the AI was \"not working that well.\" Support note numbers had disappeared, automatic service requests could no longer be created, and users reported wasting time on broken or internal links and limited patch searches and downloads. Perhaps when Sicilia invoked Star Wars, he was thinking less of futuristic productivity and more of the Great Pit of Carkoon. ®"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "technology",
+        "citation": "https://www.theregister.com/ai-and-ml/2026/09/01/oracle-pins-hopes-on-star-wars-productivity-jump-to-lightspeed-from-ai-assisted-engineering-1/5293596"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "published",
+      "proposition": {
+        "predicate": "published",
+        "object": "Tue, 01 Sep 2026 18:06:00 +0200"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "technology",
+        "citation": "https://www.theregister.com/ai-and-ml/2026/09/01/oracle-pins-hopes-on-star-wars-productivity-jump-to-lightspeed-from-ai-assisted-engineering-1/5293596"
+      },
+      "status": "supported"
+    }
+  ]
+}

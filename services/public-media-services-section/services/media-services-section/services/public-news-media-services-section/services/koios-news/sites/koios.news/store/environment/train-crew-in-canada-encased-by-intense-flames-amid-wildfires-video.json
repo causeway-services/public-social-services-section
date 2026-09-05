@@ -1,0 +1,69 @@
+{
+  "subject": "train-crew-in-canada-encased-by-intense-flames-amid-wildfires-video",
+  "claims": [
+    {
+      "id": "title",
+      "proposition": {
+        "predicate": "title",
+        "object": "Train crew in Canada 'encased' by intense flames amid wildfires - video"
+      },
+      "time": {
+        "asserted": "2026-07-18T04:08:15.342Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "environment",
+        "citation": "https://www.theguardian.com/world/video/2026/jul/16/train-crew-in-canada-encased-by-intense-flames-amid-wildfires-video"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "url",
+      "proposition": {
+        "predicate": "url",
+        "object": "https://www.theguardian.com/world/video/2026/jul/16/train-crew-in-canada-encased-by-intense-flames-amid-wildfires-video"
+      },
+      "time": {
+        "asserted": "2026-07-18T04:08:15.342Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "environment",
+        "citation": "https://www.theguardian.com/world/video/2026/jul/16/train-crew-in-canada-encased-by-intense-flames-amid-wildfires-video"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "summary",
+      "proposition": {
+        "predicate": "summary",
+        "object": "<p>Video <a href=\"https://x.com/solmamakwa/status/2077164640790892548\">footage of a train</a> near the community of Armstrong, Ontario, highlights the speed and ferocity of one of more than 100 wildfires currently burning in Canada. 'This could potentially overtake us here … This has gotten a little scary,' says a crew member as a wall of flames whips across the windows. 'We’re encased in flames now.' The railway company Canadian National confirmed the crew has been 'safely evacuated' from the area</p><p></p><ul><li><p><a href=\"https://www.theguardian.com/world/2026/jul/15/wildfires-in-ontario-make-toronto-canada-air-quality-worst-in-world\">Wildfires in Ontario make Toronto air quality worst in world</a></p></li></ul> <a href=\"https://www.theguardian.com/world/video/2026/jul/16/train-crew-in-canada-encased-by-intense-flames-amid-wildfires-video\">Continue reading...</a>"
+      },
+      "time": {
+        "asserted": "2026-07-18T04:08:15.342Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "environment",
+        "citation": "https://www.theguardian.com/world/video/2026/jul/16/train-crew-in-canada-encased-by-intense-flames-amid-wildfires-video"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "published",
+      "proposition": {
+        "predicate": "published",
+        "object": "Thu, 16 Jul 2026 01:37:13 GMT"
+      },
+      "time": {
+        "asserted": "2026-07-18T04:08:15.342Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "environment",
+        "citation": "https://www.theguardian.com/world/video/2026/jul/16/train-crew-in-canada-encased-by-intense-flames-amid-wildfires-video"
+      },
+      "status": "supported"
+    }
+  ]
+}

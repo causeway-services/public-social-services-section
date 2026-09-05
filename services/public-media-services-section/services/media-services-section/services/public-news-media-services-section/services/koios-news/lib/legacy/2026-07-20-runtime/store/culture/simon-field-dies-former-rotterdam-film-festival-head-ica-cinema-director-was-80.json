@@ -1,0 +1,69 @@
+{
+  "subject": "simon-field-dies-former-rotterdam-film-festival-head-ica-cinema-director-was-80",
+  "claims": [
+    {
+      "id": "title",
+      "proposition": {
+        "predicate": "title",
+        "object": "Simon Field Dies: Former Rotterdam Film Festival Head & ICA Cinema Director Was 80"
+      },
+      "time": {
+        "asserted": "2026-07-20T11:21:26.010Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "culture",
+        "citation": "https://deadline.com/2026/07/simon-field-dies-obituary-rotterdam-ica-london-1236998276/"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "url",
+      "proposition": {
+        "predicate": "url",
+        "object": "https://deadline.com/2026/07/simon-field-dies-obituary-rotterdam-ica-london-1236998276/"
+      },
+      "time": {
+        "asserted": "2026-07-20T11:21:26.010Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "culture",
+        "citation": "https://deadline.com/2026/07/simon-field-dies-obituary-rotterdam-ica-london-1236998276/"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "summary",
+      "proposition": {
+        "predicate": "summary",
+        "object": "Simon Field, the pioneering film programmer and champion of filmmakers such as Wang Bing, Apichatpong Weerasethakul, and Christopher Nolan, has died. He was 80. Field died on July 16. The news was confirmed by the veteran film critic Geoff Andrew, who posted an obituary of Field on his blog. Andrew was shortly followed by the […]"
+      },
+      "time": {
+        "asserted": "2026-07-20T11:21:26.010Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "culture",
+        "citation": "https://deadline.com/2026/07/simon-field-dies-obituary-rotterdam-ica-london-1236998276/"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "published",
+      "proposition": {
+        "predicate": "published",
+        "object": "Mon, 20 Jul 2026 11:05:57 +0000"
+      },
+      "time": {
+        "asserted": "2026-07-20T11:21:26.010Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "culture",
+        "citation": "https://deadline.com/2026/07/simon-field-dies-obituary-rotterdam-ica-london-1236998276/"
+      },
+      "status": "supported"
+    }
+  ]
+}

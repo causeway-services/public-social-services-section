@@ -1,0 +1,69 @@
+{
+  "subject": "a-priority-for-the-next-chancellor-boost-the-london-stock-market",
+  "claims": [
+    {
+      "id": "title",
+      "proposition": {
+        "predicate": "title",
+        "object": "A priority for the next chancellor: boost the London stock market"
+      },
+      "time": {
+        "asserted": "2026-07-18T07:55:41.153Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "economy",
+        "citation": "https://www.theguardian.com/business/nils-pratley-on-finance/2026/jul/16/london-stock-market-takeovers"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "url",
+      "proposition": {
+        "predicate": "url",
+        "object": "https://www.theguardian.com/business/nils-pratley-on-finance/2026/jul/16/london-stock-market-takeovers"
+      },
+      "time": {
+        "asserted": "2026-07-18T07:55:41.153Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "economy",
+        "citation": "https://www.theguardian.com/business/nils-pratley-on-finance/2026/jul/16/london-stock-market-takeovers"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "summary",
+      "proposition": {
+        "predicate": "summary",
+        "object": "<p>Politicians need to see there’s something worth boosting. The current hollowing-out is not healthy</p><p>Another day, another takeover bid for a UK-listed company. In fact, Thursday saw three in one gulp. Bath-based Rotork, which makes safety valves for pipelines, is falling to Swiss group ABB for £4.1bn. Gooch &amp; Housego, a specialist in precision optics for aerospace and defence, is being bought by a US investment firm for £346m. And Ramsdens, a financial services and pawnbroker firm, is also being taken over from the US for £230m.</p><p>Individually, the deals represent splendid one-day news for the firms’ shareholders since the premiums on the pre-action share prices are 73%, 41% and 49%. Collectively, however, they are yet another depressing chapter in the tale of London’s incredible shrinking stock market.</p> <a href=\"https://www.theguardian.com/business/nils-pratley-on-finance/2026/jul/16/london-stock-market-takeovers\">Continue reading...</a>"
+      },
+      "time": {
+        "asserted": "2026-07-18T07:55:41.153Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "economy",
+        "citation": "https://www.theguardian.com/business/nils-pratley-on-finance/2026/jul/16/london-stock-market-takeovers"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "published",
+      "proposition": {
+        "predicate": "published",
+        "object": "Thu, 16 Jul 2026 17:14:47 GMT"
+      },
+      "time": {
+        "asserted": "2026-07-18T07:55:41.153Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "economy",
+        "citation": "https://www.theguardian.com/business/nils-pratley-on-finance/2026/jul/16/london-stock-market-takeovers"
+      },
+      "status": "supported"
+    }
+  ]
+}

@@ -1,0 +1,69 @@
+{
+  "subject": "reading-and-leeds-festival-review-post-gcse-blowout-shows-how-dominant-dance-music-now-is",
+  "claims": [
+    {
+      "id": "title",
+      "proposition": {
+        "predicate": "title",
+        "object": "Reading and Leeds festival review – post-GCSE blowout shows how dominant dance music now is"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "entertainment",
+        "citation": "https://www.theguardian.com/music/2026/aug/31/reading-and-leeds-festival-review-bramham-park-leeds-charli-xcx-fontaines-dc-kettama"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "url",
+      "proposition": {
+        "predicate": "url",
+        "object": "https://www.theguardian.com/music/2026/aug/31/reading-and-leeds-festival-review-bramham-park-leeds-charli-xcx-fontaines-dc-kettama"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "entertainment",
+        "citation": "https://www.theguardian.com/music/2026/aug/31/reading-and-leeds-festival-review-bramham-park-leeds-charli-xcx-fontaines-dc-kettama"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "summary",
+      "proposition": {
+        "predicate": "summary",
+        "object": "<p><strong>Bramham Park, Leeds<br></strong>Charli xcx and Fontaines DC are spellbinding and there’s an awesome array of genres, but the biggest turnouts are for tech house names like Kettama and Josh Baker</p><p><a href=\"https://www.theguardian.com/music/2026/aug/29/charli-xcx-reading-festival-review-pretentious-just-a-bit-but-nietzsche-would-have-loved-it\">• Charli xcx, Reading festival review – Pretentious? Just a bit. But Nietzsche would have loved it</a></p><p>Reading and Leeds festival will probably always be a post-GCSE rite of passage: a gleefully riotous taste of freedom before having to make actual life decisions. But the sibling events have been struggling for a sense of identity beyond this, particularly post-Covid. In 2025, the festival decided to theme days based on genre, which felt out of touch – but, this year, organisers have decided to tackle gen Z’s borderless approach head on. There are new stages, such as the chandelier-adorned Ballroom, and overall the lineup is wonderfully mazy.</p><p>On the festival’s second stage, you can catch everything from UK underground rap selector DJ EJ, warbly US rockers Geese, and raw, live-drummed jungle from 4am Kru. “I dedicate this one to all the bad bitches from small places. Let’s make a song about the bad bitches from Leeds,” Slovakian pop star Adéla gleefully giggles during her own set here, before launching into neon-streaked megahit Ain’t in LA. In a ping-ponging journey across styles, other highlights include London singer Dexter in the Newsagent’s blue-skied bedroom pop, Australian artist Mall Grab’s Game Boy grime beats and Bar Italia’s insouciant rock, which is significantly more fun and dance-y than their recent lukewarm album reviews might suggest.</p> <a href=\"https://www.theguardian.com/music/2026/aug/31/reading-and-leeds-festival-review-bramham-park-leeds-charli-xcx-fontaines-dc-kettama\">Continue reading...</a>"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "entertainment",
+        "citation": "https://www.theguardian.com/music/2026/aug/31/reading-and-leeds-festival-review-bramham-park-leeds-charli-xcx-fontaines-dc-kettama"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "published",
+      "proposition": {
+        "predicate": "published",
+        "object": "Mon, 31 Aug 2026 15:45:20 GMT"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "entertainment",
+        "citation": "https://www.theguardian.com/music/2026/aug/31/reading-and-leeds-festival-review-bramham-park-leeds-charli-xcx-fontaines-dc-kettama"
+      },
+      "status": "supported"
+    }
+  ]
+}

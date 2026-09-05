@@ -1,0 +1,69 @@
+{
+  "subject": "klara-lewis-opening-review-enigmatic-ecstatic-sound-sculptures-from-a-swedish-slowburn-master",
+  "claims": [
+    {
+      "id": "title",
+      "proposition": {
+        "predicate": "title",
+        "object": "Klara Lewis: Opening review – enigmatic, ecstatic sound sculptures from a Swedish slowburn master"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "entertainment",
+        "citation": "https://www.theguardian.com/music/2026/aug/28/klara-lewis-opening-review"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "url",
+      "proposition": {
+        "predicate": "url",
+        "object": "https://www.theguardian.com/music/2026/aug/28/klara-lewis-opening-review"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "entertainment",
+        "citation": "https://www.theguardian.com/music/2026/aug/28/klara-lewis-opening-review"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "summary",
+      "proposition": {
+        "predicate": "summary",
+        "object": "<p><strong>(Editions Mego)</strong><br>Lewis mines beauty and intimacy from her minimalist blend of samples and rich instrumentation, sounding as profound whether they last 11 minutes or 38 seconds</p><p>The first thing you hear on Opening, the new record from Swedish musician Klara Lewis, is a grainy fog of ambient noise: the sound of waves, a roadside or perhaps just the creaks and echoes of the room she’s recording in. The whining reversed strings that soon emerge from the murk create a wistful atmosphere, but then things take a turn: the loop clips and distorts with strobe-like intensity; after several minutes, it cuts off mid-bar, as though it’s been unplugged.</p><p>This deconstructed, shape-shifting approach is typical of the self-styled “sound sculptor”, who has been composing uncanny instrumentals from a combination of acoustic instruments and processed samples since 2014. As always, she imbues the harsh experimentalism with real feeling throughout this gorgeous collection of tracks. On City, the lo-fi guitar loop and faint traces of chatter lend a sense of warmth and intimacy to the whooshing field recordings and churning electronics. On standout Vaknar, Lewis builds something soaring and beautiful, where the reverse tape effect creates a dreamlike wooziness and the high-pitched bursts of noise feel increasingly ecstatic, in the spirit of Joshua Chuquimia Crampton or early Arca.</p> <a href=\"https://www.theguardian.com/music/2026/aug/28/klara-lewis-opening-review\">Continue reading...</a>"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "entertainment",
+        "citation": "https://www.theguardian.com/music/2026/aug/28/klara-lewis-opening-review"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "published",
+      "proposition": {
+        "predicate": "published",
+        "object": "Fri, 28 Aug 2026 07:30:51 GMT"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "entertainment",
+        "citation": "https://www.theguardian.com/music/2026/aug/28/klara-lewis-opening-review"
+      },
+      "status": "supported"
+    }
+  ]
+}

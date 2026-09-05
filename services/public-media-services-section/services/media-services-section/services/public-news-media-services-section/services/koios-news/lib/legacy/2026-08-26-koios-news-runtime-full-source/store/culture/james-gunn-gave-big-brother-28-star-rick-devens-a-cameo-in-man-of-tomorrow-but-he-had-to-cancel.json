@@ -1,0 +1,69 @@
+{
+  "subject": "james-gunn-gave-big-brother-28-star-rick-devens-a-cameo-in-man-of-tomorrow-but-he-had-to-cancel",
+  "claims": [
+    {
+      "id": "title",
+      "proposition": {
+        "predicate": "title",
+        "object": "James Gunn Gave ‘Big Brother 28’ Star Rick Devens a Cameo in ‘Man of Tomorrow’ but He ‘Had to Cancel’"
+      },
+      "time": {
+        "asserted": "2026-07-19T20:06:19.825Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "culture",
+        "citation": "https://variety.com/2026/film/news/james-gunn-big-brother-rick-devens-man-of-tomorrow-cameo-1236815991/"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "url",
+      "proposition": {
+        "predicate": "url",
+        "object": "https://variety.com/2026/film/news/james-gunn-big-brother-rick-devens-man-of-tomorrow-cameo-1236815991/"
+      },
+      "time": {
+        "asserted": "2026-07-19T20:06:19.825Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "culture",
+        "citation": "https://variety.com/2026/film/news/james-gunn-big-brother-rick-devens-man-of-tomorrow-cameo-1236815991/"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "summary",
+      "proposition": {
+        "predicate": "summary",
+        "object": "Rick Devens was supposed to have a cameo in James Gunn’s “Man of Tomorrow,” but the reality star had filming obligations with “Big Brother.” Gunn revealed the cameo after Devens gave the DC Studios co-head a shoutout during the live broadcast of “Big Brother” Season 28’s Thursday eviction episode. Gunn shared the clip on social […]"
+      },
+      "time": {
+        "asserted": "2026-07-19T20:06:19.825Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "culture",
+        "citation": "https://variety.com/2026/film/news/james-gunn-big-brother-rick-devens-man-of-tomorrow-cameo-1236815991/"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "published",
+      "proposition": {
+        "predicate": "published",
+        "object": "Sun, 19 Jul 2026 17:09:42 +0000"
+      },
+      "time": {
+        "asserted": "2026-07-19T20:06:19.825Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "culture",
+        "citation": "https://variety.com/2026/film/news/james-gunn-big-brother-rick-devens-man-of-tomorrow-cameo-1236815991/"
+      },
+      "status": "supported"
+    }
+  ]
+}

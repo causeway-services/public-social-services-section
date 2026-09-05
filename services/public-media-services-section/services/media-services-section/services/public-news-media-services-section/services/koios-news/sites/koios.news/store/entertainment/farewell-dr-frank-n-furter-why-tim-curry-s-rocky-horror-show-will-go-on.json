@@ -1,0 +1,69 @@
+{
+  "subject": "farewell-dr-frank-n-furter-why-tim-curry-s-rocky-horror-show-will-go-on",
+  "claims": [
+    {
+      "id": "title",
+      "proposition": {
+        "predicate": "title",
+        "object": "Farewell, Dr Frank-N-Furter: why Tim Curry’s Rocky Horror Show will go on"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "entertainment",
+        "citation": "https://www.theguardian.com/film/filmblog/2026/aug/26/dr-frank-n-furter-tim-curry-rocky-horror-picture-show"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "url",
+      "proposition": {
+        "predicate": "url",
+        "object": "https://www.theguardian.com/film/filmblog/2026/aug/26/dr-frank-n-furter-tim-curry-rocky-horror-picture-show"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "entertainment",
+        "citation": "https://www.theguardian.com/film/filmblog/2026/aug/26/dr-frank-n-furter-tim-curry-rocky-horror-picture-show"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "summary",
+      "proposition": {
+        "predicate": "summary",
+        "object": "<p>The versatile stage performer will always be remembered for his defining film role in The Rocky Horror Picture Show, which turned him into an icon of 70s underground cinema and proto-punk<br>• <a href=\"https://www.theguardian.com/film/2026/aug/26/tim-curry-dies-rocky-horror-show-stephen-king-it-legend-film\">Tim Curry, star of The Rocky Horror Picture Show and Stephen King’s It, dies aged 80</a><br>• <a href=\"https://www.theguardian.com/lifeandstyle/ng-interactive/2025/oct/14/risky-is-the-best-way-to-be-tim-curry-sexuality-surviving-stroke-50-years-stardom\">Tim Curry on sexuality, surviving a stroke and 50 years of stardom</a><br>• <a href=\"https://www.theguardian.com/film/gallery/2026/aug/26/clowns-corsets-and-kings-tim-curry-a-life-in-pictures\">Clowns, corsets and kings – a life in pictures</a></p><p>Over the past decade, the issues of trans identity and gender fluidity couldn’t have been more contemporary, and Tim Curry was an integral part of what might be called their pre-history in pop culture. He was an icon – though maybe now a dimly remembered icon – of the 70s underground cinema and proto-punk.</p><p>Curry was a good-looking actor with a tremendous speaking and singing voice, and a versatile performer – he got Tony nominations for his varied stage work on Broadway as Mozart in Amadeus, Alan Swann in My Favorite Year (the part Peter O’Toole played on screen) and as King Arthur in Monty Python’s <a href=\"http://www.theguardian.com/stage/2006/oct/17/theatre\">Spamalot</a>. But it was his strange destiny to be remembered for one role: at once indelibly prominent and weirdly peripheral. He was the sensational Dr Frank-N-Furter in the thoroughly outrageous Rocky Horror Picture Show (1975), the screen version of the 1973 stage show.</p> <a href=\"https://www.theguardian.com/film/filmblog/2026/aug/26/dr-frank-n-furter-tim-curry-rocky-horror-picture-show\">Continue reading...</a>"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "entertainment",
+        "citation": "https://www.theguardian.com/film/filmblog/2026/aug/26/dr-frank-n-furter-tim-curry-rocky-horror-picture-show"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "published",
+      "proposition": {
+        "predicate": "published",
+        "object": "Wed, 26 Aug 2026 16:02:23 GMT"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "entertainment",
+        "citation": "https://www.theguardian.com/film/filmblog/2026/aug/26/dr-frank-n-furter-tim-curry-rocky-horror-picture-show"
+      },
+      "status": "supported"
+    }
+  ]
+}

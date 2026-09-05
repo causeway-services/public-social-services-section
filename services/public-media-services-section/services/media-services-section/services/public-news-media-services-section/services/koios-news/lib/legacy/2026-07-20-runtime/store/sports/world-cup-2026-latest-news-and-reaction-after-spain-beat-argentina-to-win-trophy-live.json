@@ -1,0 +1,69 @@
+{
+  "subject": "world-cup-2026-latest-news-and-reaction-after-spain-beat-argentina-to-win-trophy-live",
+  "claims": [
+    {
+      "id": "title",
+      "proposition": {
+        "predicate": "title",
+        "object": "World Cup 2026: latest news and reaction after Spain beat Argentina to win trophy – live"
+      },
+      "time": {
+        "asserted": "2026-07-20T09:48:52.778Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "sports",
+        "citation": "https://www.theguardian.com/football/live/2026/jul/20/world-cup-2026-final-reaction-news-spain-argentina"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "url",
+      "proposition": {
+        "predicate": "url",
+        "object": "https://www.theguardian.com/football/live/2026/jul/20/world-cup-2026-final-reaction-news-spain-argentina"
+      },
+      "time": {
+        "asserted": "2026-07-20T09:48:52.778Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "sports",
+        "citation": "https://www.theguardian.com/football/live/2026/jul/20/world-cup-2026-final-reaction-news-spain-argentina"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "summary",
+      "proposition": {
+        "predicate": "summary",
+        "object": "<p>⚽ Latest World Cup news as tournament comes to close<br>⚽ <a href=\"https://www.theguardian.com/football/ng-interactive/2026/jun/04/world-cup-2026-complete-player-guide\">Player guide</a> | <a href=\"https://www.theguardian.com/football/ng-interactive/2026/jun/04/golden-boot-world-cup-2026-top-goalscorers-winner\">Golden Boot</a> | <a href=\"https://www.tiktok.com/@guardiansport\">Follow on TikTok</a> | <a href=\"mailto:matchday.live@theguardian.co.uk\">Mail us</a></p><p>Back to the action on the field, or rather slightly adjacent to it. A lacklustre “closing ceremony” in which Tom Cruise was drowned out by the crowd got proceedings under way in New Jersey. A <a href=\"https://www.theguardian.com/football/2026/jul/19/hits-misses-and-muppets-the-star-studded-world-cup-half-time-show-nobody-asked-for\">half-time show no one asked for</a> filled the gap in the middle that didn’t need to be plugged. And finally, having kept his physical distance all tournament, US president <a href=\"https://www.theguardian.com/football/2026/jul/19/donald-trump-world-cup-final\">Donald Trump tried to steal the show</a> just as the curtain was falling.</p><p><em>“I think I heard a match commentator say that the last team that beat Spain was Scotland. Does that mean Scotland have won the World Cup?!”</em> asks <strong>Peter Oh</strong>.</p> <a href=\"https://www.theguardian.com/football/live/2026/jul/20/world-cup-2026-final-reaction-news-spain-argentina\">Continue reading...</a>"
+      },
+      "time": {
+        "asserted": "2026-07-20T09:48:52.778Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "sports",
+        "citation": "https://www.theguardian.com/football/live/2026/jul/20/world-cup-2026-final-reaction-news-spain-argentina"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "published",
+      "proposition": {
+        "predicate": "published",
+        "object": "Mon, 20 Jul 2026 09:39:24 GMT"
+      },
+      "time": {
+        "asserted": "2026-07-20T09:48:52.778Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "sports",
+        "citation": "https://www.theguardian.com/football/live/2026/jul/20/world-cup-2026-final-reaction-news-spain-argentina"
+      },
+      "status": "supported"
+    }
+  ]
+}

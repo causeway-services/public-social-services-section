@@ -1,0 +1,117 @@
+---
+title: "Red Union calendar"
+aliases:
+  - "Red Union calendar"
+  - "red union calendar"
+authors:
+  - emsenn
+date-created: 2025-09-05T20:25:00
+---
+
+The */Red Union calendar/* is the calendar used by the [Red Union](../groups/red-union.md).
+The [Teraumian year](./teraumian-year.md) has 365.25 days, which is the same as the year on Earth.
+
+In this calendar are split into 12 30-day [Teraumian month](./teraumian-month.md) with 5 holidays coming between certain months, and an extra holiday every four years ([Teraumian leap year](./teraumian-leap-year.md))
+
+| Month / *Holiday* | Equivalent   | Description                                                                  |
+|-------------------|--------------|------------------------------------------------------------------------------|
+| [deepwinter](./deepwinter.md)        | January      | Most places are frozen, except Gnalens, which is mid-50s                     |
+| Midwinter holiday | Christmas    | Religious holiday, second gift-giving holiday                                |
+| [Teraumian Winter](./teraumian-winter.md)  | February     | Most places are frozen, except Gnalens and [Halfling Country](../places/halfling-country.md)                  |
+| Sunsets           | March        | [Teraumian spring equinox](./teraumian-spring-equinox.md) is on the [19th of Sunsets](./19th-of-sunsets.md). [ack](../places/ack.md) thaws                |
+| Storms            | April        | [Central Plains](../places/central-plains.md) thaw                                                          |
+| Greengrass        | Easter       | Planting festival, gorging on the last reserves of winter                    |
+| Melting           | May          | Farsteppes thaw                                                              |
+| Flowers           | June         | [Teraumian summer solstice](./teraumian-summer-solstice.md) is on the [20th of Flowers](./20th-of-flowers.md)                          |
+| Summertide        | July         | Farfarsteppes thaw                                                           |
+| Midsummer         |              | Every four year, a day called Shieldmeet happens after Midsummer.            |
+| [highsun](./highsun.md)           | August       | Farfarsteppes harvest, Constructive Criticism Day is on the [15th of Highsun](./15th-of-highsun.md). |
+| Fading            | September    | [Teraumian autumn equinox](./teraumian-autumn-equinox.md) is on the [21st of Fading](./21st-of-fading.md). Farfarsteppes freeze      |
+| [highharvesttide](./highharvesttide.md)   | Thanksgiving | This is the gift-giving, big feast, big holiday. Everyone celebrates.        |
+| Leaffall          | October      | Farsteppes freezes.                                                          |
+| Rotting           | November     | Central Plains freeze                                                        |
+| Feast of the Moon |              | Various regional celebrations                                                |
+| Drawing           | December     | [Teraumian winter solstice](./teraumian-winter-solstice.md) is on the [20th of Drawing](./20th-of-drawing.md)                                                                  |
+
+
+---
+
+<!-- source: archive/multi-user-dungeon/tab/worlds/teraum-docs-triage-bcf/domains/enc/red-union-calendar.org -->
+
+## Imported source: archive/multi-user-dungeon/tab/worlds/teraum-docs-triage-bcf/domains/enc/red-union-calendar.org
+
+:PROPERTIES:
+:ID:       8e882eb5-22d5-4dc6-b6b5-0e067efa566b
+:END:
+#+title: Red Union calendar
+#+date: [2025-09-05 Fri 20:25]
+#+index: Teraum!Red Union
+
+The */Red Union calendar/* is the [[id:2fd42ec0-4cae-4e5b-8c7e-19f6266c5ccd][calendar]] used by the [[id:c8095611-55b5-41da-ad69-79f6c89d1b3a][Red Union]].
+
+The [[id:b6e247c8-7e74-46b4-8ed4-e25d2335dd2c][Teraumian year]] has 365.25 days, which is the same as the [[id:d150eaba-d55f-401c-8487-6f2f84d16ace][year]] on [[id:e39947c4-1bd9-44d0-bfb5-3e2bef417065][Earth]].
+
+In this calendar are split into 12 30-day [[id:de5b0001-2975-43d5-bfad-a408e1b43e39][Teraumian month]] with 5 holidays coming between certain months, and an extra [[id:d69f69cb-8580-4b7f-b200-f8a3693cdc03][holiday]] every four years ([[id:93cb2320-9436-4a81-a942-fe52cf4f6f3a][Teraumian leap year]])
+
+| Month / *Holiday* | Equivalent   | Description                                                                  |
+|-------------------+--------------+------------------------------------------------------------------------------|
+| [[id:24bb3044-73bf-4961-ba22-9e4f1f6d8363][Deepwinter]]        | [[id:5267720c-4434-4a17-958f-a6fef9eef1ef][January]]      | Most places are frozen, except [[id:3b03f5f9-697d-44c3-bbda-7dd53776bbeb][Gnalens]], which is mid-50s                     |
+| [[id:bcc74ecd-b730-44df-9d31-e989dc88d331][Midwinter holiday]] | [[id:e8228103-1f43-48d7-9e2a-91f2e7ecbf45][Christmas]]    | Religious holiday, second gift-giving holiday                                |
+| [[id:0d9409f3-d22c-40b2-b539-b02d9f989db7][Teraumian Winter]]  | [[id:8718863e-9425-430d-8cf0-d85b03e176ae][February]]     | Most places are frozen, except Gnalens and [[id:87b60266-0949-4b8d-96f1-5164460d002c][Halfling Country]]                  |
+| [[id:18ece6dc-afc8-40ab-8a0e-db5f1ccc035f][Sunsets]]           | [[id:2574a7f5-cee9-49ac-b265-54898b595efa][March]]        | [[id:8af2e5e8-d506-4312-855c-a16729bc9365][Teraumian spring equinox]] is on the [[id:dd72051a-f37b-4ed3-a946-8e269fb58423][19th of Sunsets]]. [[id:5ccc63d5-eab8-48bf-aba4-038a5781a610][Ack]] thaws                |
+| [[id:5642f765-28c5-4e13-8774-bd1ffe9dfa4e][Storms]]            | [[id:347e7350-2566-46bc-a578-2fe516668818][April]]        | [[id:7ebae11b-9fe8-420c-9093-6d8f3af87cfe][Central Plains]] thaw                                                          |
+| [[id:6110007b-62a9-4a28-8a26-b70e24a10ba8][Greengrass]]        | [[id:b5d91992-bf3a-4f19-834a-9acb33632185][Easter]]       | [[id:0c1a103c-3fb4-4a5e-8e89-e82b9f4618c9][Planting]] festival, gorging on the last reserves of winter                    |
+| [[id:769130f9-3895-4a48-893d-7edeac861ad2][Melting]]           | [[id:e9ee1a01-e408-4eaf-80b0-265e1dcc2aca][May]]          | [[id:b77267eb-3033-448a-87a5-f7726a781fd5][Farsteppes]] thaw                                                              |
+| [[id:f6e515e7-5243-4a2b-bf3c-bdc29456cc2c][Flowers]]           | [[id:7569783a-4d51-4715-b26a-d3578a4f9c66][June]]         | [[id:23185a14-c5ff-488d-94e4-a0f4bbcb82bd][Teraumian summer solstice]] is on the [[id:3ed2f941-b182-4a31-b675-b1e5d97c5cf6][20th of Flowers]]                          |
+| [[id:27356099-51d9-4a46-94c9-37c02b86edc6][Summertide]]        | [[id:f7131ee8-79c3-4805-a9ad-2b5b56d458d6][July]]         | [[id:38423cc5-25b9-43ea-a484-f0f4764c17f7][Farfarsteppes]] thaw                                                           |
+| [[id:a13e23bb-8a68-4ed2-91a4-c0fab19ba825][Midsummer]]         |              | Every four [[id:b6e247c8-7e74-46b4-8ed4-e25d2335dd2c][year]], a [[id:ab5142cf-d7d3-4435-b6eb-d938c606fece][day]] called [[id:5b5add76-221e-4583-875d-4fa7884d28a1][Shieldmeet]] happens after Midsummer.            |
+| [[id:1eed0da9-17a9-4ab0-b54d-78cd6b715131][Highsun]]           | [[id:e72b0fa2-528d-45e6-acc6-64523f6728ec][August]]       | Farfarsteppes harvest, [[id:bfe2f9ee-45fe-4e9b-ade3-37a8ce91d90a][Constructive Criticism Day]] is on the [[id:3da9e3f2-c0a4-4525-adf1-9ef730787400][15th of Highsun]]. |
+| [[id:4ac34974-a66e-43a1-be8f-55493b357562][Fading]]            | [[id:f234c325-94c4-4337-86cf-8126e0d7b521][September]]    | [[id:d41800b7-d602-4c5e-9a67-845e2ad00379][Teraumian autumn equinox]] is on the [[id:8f6e3a4c-f8f4-4f59-9654-b744e635998c][21st of Fading]]. Farfarsteppes freeze      |
+| [[id:294a0298-3102-40f7-9f72-e804bca61e5e][Highharvesttide]]   | [[id:90f38c0d-0d97-4ceb-9867-a8bc82f7f829][Thanksgiving]] | This is the gift-giving, big feast, big holiday. Everyone celebrates.        |
+| [[id:36e0a2ff-bf9d-46b7-96f8-94d42f5f135a][Leaffall]]          | [[id:d2f3873e-7f7a-4613-97a9-9264b7a43edf][October]]      | Farsteppes freezes.                                                          |
+| [[id:b3d5391e-1344-4c0a-82d4-e037e01acaf8][Rotting]]           | [[id:986fd79d-b45c-470a-9113-9d74871c4bc5][November]]     | Central Plains freeze                                                        |
+| [[id:51c599b3-8a0a-4ed7-98e4-20280eadd253][Feast of the Moon]] |              | Various regional celebrations                                                |
+| [[id:fce06200-254c-4c80-8a80-39e6e0245cde][Drawing]]           | [[id:f3f78e98-69ba-423e-b03c-4349b189f203][December]]     | [[id:ab18964f-6d09-408d-bc32-d8ebe33082c8][Teraumian winter solstice]] is on the [[id:9820dd4d-47d2-406f-8a2f-ed49be2b03b7][20th of Drawing]]                                                                  |
+
+
+---
+
+<!-- source: archive/multi-user-dungeon/tab/worlds/teraum-fiction-old-operations-records/encyclopedia/times/red-union-calendar.md -->
+
+## Imported source: archive/multi-user-dungeon/tab/worlds/teraum-fiction-old-operations-records/encyclopedia/times/red-union-calendar.md
+
+---
+
+title: "Red Union calendar"
+  - "Red Union calendar"
+  - "red union calendar"
+authors:
+  - emsenn
+date-created: 2025-09-05T20:25:00
+specialization: research
+---
+
+The */Red Union calendar/* is the calendar used by the [Red Union](../groups/red-union.md).
+The [Teraumian year](./teraumian-year.md) has 365.25 days, which is the same as the year on Earth.
+
+In this calendar are split into 12 30-day [Teraumian month](./teraumian-month.md) with 5 holidays coming between certain months, and an extra holiday every four years ([Teraumian leap year](./teraumian-leap-year.md))
+
+| Month / *Holiday* | Equivalent   | Description                                                                  |
+|-------------------|--------------|------------------------------------------------------------------------------|
+| [deepwinter](./deepwinter.md)        | January      | Most places are frozen, except Gnalens, which is mid-50s                     |
+| Midwinter holiday | Christmas    | Religious holiday, second gift-giving holiday                                |
+| [Teraumian Winter](./teraumian-winter.md)  | February     | Most places are frozen, except Gnalens and [Halfling Country](../places/halfling-country.md)                  |
+| Sunsets           | March        | [Teraumian spring equinox](./teraumian-spring-equinox.md) is on the [19th of Sunsets](./19th-of-sunsets.md). [ack](../places/ack.md) thaws                |
+| Storms            | April        | [Central Plains](../places/central-plains.md) thaw                                                          |
+| Greengrass        | Easter       | Planting festival, gorging on the last reserves of winter                    |
+| Melting           | May          | Farsteppes thaw                                                              |
+| Flowers           | June         | [Teraumian summer solstice](./teraumian-summer-solstice.md) is on the [20th of Flowers](./20th-of-flowers.md)                          |
+| Summertide        | July         | Farfarsteppes thaw                                                           |
+| Midsummer         |              | Every four year, a day called Shieldmeet happens after Midsummer.            |
+| [highsun](./highsun.md)           | August       | Farfarsteppes harvest, Constructive Criticism Day is on the [15th of Highsun](./15th-of-highsun.md). |
+| Fading            | September    | [Teraumian autumn equinox](./teraumian-autumn-equinox.md) is on the [21st of Fading](./21st-of-fading.md). Farfarsteppes freeze      |
+| [highharvesttide](./highharvesttide.md)   | Thanksgiving | This is the gift-giving, big feast, big holiday. Everyone celebrates.        |
+| Leaffall          | October      | Farsteppes freezes.                                                          |
+| Rotting           | November     | Central Plains freeze                                                        |
+| Feast of the Moon |              | Various regional celebrations                                                |
+| Drawing           | December     | [Teraumian winter solstice](./teraumian-winter-solstice.md) is on the [20th of Drawing](./20th-of-drawing.md)                                                                  |

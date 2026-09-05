@@ -1,0 +1,69 @@
+{
+  "subject": "jury-in-lindsay-clancy-trial-allowed-to-go-home-after-deliberating-for-23-hours",
+  "claims": [
+    {
+      "id": "title",
+      "proposition": {
+        "predicate": "title",
+        "object": "Jury in Lindsay Clancy trial allowed to go home after deliberating for 23 hours"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "health",
+        "citation": "https://www.theguardian.com/us-news/2026/sep/01/lindsay-clancy-jury-deliberating"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "url",
+      "proposition": {
+        "predicate": "url",
+        "object": "https://www.theguardian.com/us-news/2026/sep/01/lindsay-clancy-jury-deliberating"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "health",
+        "citation": "https://www.theguardian.com/us-news/2026/sep/01/lindsay-clancy-jury-deliberating"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "summary",
+      "proposition": {
+        "predicate": "summary",
+        "object": "<p>Jurors had initially struggled to reach a unanimous verdict and in note to court, said they were deadlocked</p><p>The <a href=\"https://www.theguardian.com/us-news/2026/aug/27/lindsay-clancy-closing-jury-deliberations\">jury</a> in the Lindsay Clancy trial has been allowed to go home and will now continue its deliberations on Wednesday after earlier admitting it was unable to come to a unanimous decision in the case of the mother who killed her three children.</p><p>Judge William Sullivan released the jury with the deliberation clock on 23 hours.</p> <a href=\"https://www.theguardian.com/us-news/2026/sep/01/lindsay-clancy-jury-deliberating\">Continue reading...</a>"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "health",
+        "citation": "https://www.theguardian.com/us-news/2026/sep/01/lindsay-clancy-jury-deliberating"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "published",
+      "proposition": {
+        "predicate": "published",
+        "object": "Tue, 01 Sep 2026 14:54:20 GMT"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "health",
+        "citation": "https://www.theguardian.com/us-news/2026/sep/01/lindsay-clancy-jury-deliberating"
+      },
+      "status": "supported"
+    }
+  ]
+}

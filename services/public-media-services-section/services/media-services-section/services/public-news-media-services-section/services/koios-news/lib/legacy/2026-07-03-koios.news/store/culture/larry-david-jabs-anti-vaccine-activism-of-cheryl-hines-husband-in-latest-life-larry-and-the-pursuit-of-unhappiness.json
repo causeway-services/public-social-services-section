@@ -1,0 +1,69 @@
+{
+  "subject": "larry-david-jabs-anti-vaccine-activism-of-cheryl-hines-husband-in-latest-life-larry-and-the-pursuit-of-unhappiness",
+  "claims": [
+    {
+      "id": "title",
+      "proposition": {
+        "predicate": "title",
+        "object": "Larry David Jabs Anti-Vaccine Activism Of Cheryl Hines’ Husband In Latest ‘Life, Larry And The Pursuit Of Unhappiness’"
+      },
+      "time": {
+        "asserted": "2026-07-19T14:42:05.531Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "culture",
+        "citation": "https://deadline.com/2026/07/larry-david-robert-kennedy-jr-1236997510/"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "url",
+      "proposition": {
+        "predicate": "url",
+        "object": "https://deadline.com/2026/07/larry-david-robert-kennedy-jr-1236997510/"
+      },
+      "time": {
+        "asserted": "2026-07-19T14:42:05.531Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "culture",
+        "citation": "https://deadline.com/2026/07/larry-david-robert-kennedy-jr-1236997510/"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "summary",
+      "proposition": {
+        "predicate": "summary",
+        "object": "Larry David squares off – after a fashion – against the high-profile, if often misinformed, husband of his former Curb Your Enthusiasm costar Cheryl Hines in the latest episode of HBO Max’s mock-history comedy series Life, Larry and the Pursuit of Unhappiness. The target of his trademark ire? Robert F. Kennedy Jr. In the latest […]"
+      },
+      "time": {
+        "asserted": "2026-07-19T14:42:05.531Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "culture",
+        "citation": "https://deadline.com/2026/07/larry-david-robert-kennedy-jr-1236997510/"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "published",
+      "proposition": {
+        "predicate": "published",
+        "object": "Sat, 18 Jul 2026 16:30:48 +0000"
+      },
+      "time": {
+        "asserted": "2026-07-19T14:42:05.531Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "culture",
+        "citation": "https://deadline.com/2026/07/larry-david-robert-kennedy-jr-1236997510/"
+      },
+      "status": "supported"
+    }
+  ]
+}

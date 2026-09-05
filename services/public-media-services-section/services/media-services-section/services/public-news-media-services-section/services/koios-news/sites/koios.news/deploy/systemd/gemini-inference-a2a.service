@@ -1,0 +1,23 @@
+[Unit]
+Description=Gemini inference team A2A service
+After=network-online.target rmn-semantic-conformance.service witness-journal-rdf-projection-service.service
+Wants=network-online.target
+Requires=rmn-semantic-conformance.service witness-journal-rdf-projection-service.service
+
+[Service]
+Type=simple
+WorkingDirectory=%h/services/logical-inference-service-section/services/gemini-inference-team
+EnvironmentFile=-%h/.config/561-group/agents.env
+Environment=PORT=8790
+Environment=HOST=127.0.0.1
+Environment=BASE_URL=http://127.0.0.1:8790
+Environment=RMN_CONFORMANCE_AGENT=http://127.0.0.1:8786/.well-known/agent-card.json
+Environment=WITNESS_JOURNAL_RDF_AGENT=http://127.0.0.1:8787/.well-known/agent-card.json
+ExecStart=/usr/bin/node %h/services/a2a-services-section/services/a2a-contracted-agent-service/src/serve-contracted-agent.mjs --port 8790 --host 127.0.0.1 --base-url http://127.0.0.1:8790 --agent-card %h/services/logical-inference-service-section/services/gemini-inference-team/content/agent-cards/gemini-inference-team.json --executor /usr/bin/node --executor-arg %h/services/logical-inference-service-section/services/gemini-inference-team/src/execute-rmn-inference.mjs --timeout-ms 240000
+Restart=on-failure
+RestartSec=3
+NoNewPrivileges=true
+PrivateTmp=true
+
+[Install]
+WantedBy=default.target

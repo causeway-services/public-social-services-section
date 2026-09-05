@@ -1,0 +1,69 @@
+{
+  "subject": "us-open-2026-fery-falls-to-musetti-as-fritz-and-rybakina-win-as-it-happened",
+  "claims": [
+    {
+      "id": "title",
+      "proposition": {
+        "predicate": "title",
+        "object": "US Open 2026: Fery falls to Musetti as Fritz and Rybakina win – as it happened"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "sport",
+        "citation": "https://www.theguardian.com/sport/live/2026/sep/01/us-open-2026-rybakina-fery-fritz-keys-andreeva-de-minaur-day-three-live"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "url",
+      "proposition": {
+        "predicate": "url",
+        "object": "https://www.theguardian.com/sport/live/2026/sep/01/us-open-2026-rybakina-fery-fritz-keys-andreeva-de-minaur-day-three-live"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "sport",
+        "citation": "https://www.theguardian.com/sport/live/2026/sep/01/us-open-2026-rybakina-fery-fritz-keys-andreeva-de-minaur-day-three-live"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "summary",
+      "proposition": {
+        "predicate": "summary",
+        "object": "<p>Fery could not repeat his Wimbledon odyssey as he lost in the first round to Musetti, while Fritz, Rybakina and Andreeva advanced in straight sets and Cobolli fought back to win in five</p><p><strong>Nothing’s going Cobolli’s way at the moment</strong>, as he thwacks his own leg with his racket while trying to hit the ball, as he’s taken to deuce once more on his serve. He recovers to get to his advantage, but then balloons another errant forehand well long, before <strong>finally getting on the board to reduce his deficit to 3-1.</strong></p><p><strong>It was also a day when Stan Wawrinka played his final grand slam match</strong>, Carlos Alcaraz made his return from injury and Aryna Sabalenka, after a shaky summer, started her title defence with a comfortable victory.</p> <a href=\"https://www.theguardian.com/sport/live/2026/sep/01/us-open-2026-rybakina-fery-fritz-keys-andreeva-de-minaur-day-three-live\">Continue reading...</a>"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "sport",
+        "citation": "https://www.theguardian.com/sport/live/2026/sep/01/us-open-2026-rybakina-fery-fritz-keys-andreeva-de-minaur-day-three-live"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "published",
+      "proposition": {
+        "predicate": "published",
+        "object": "Tue, 01 Sep 2026 22:59:13 GMT"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "sport",
+        "citation": "https://www.theguardian.com/sport/live/2026/sep/01/us-open-2026-rybakina-fery-fritz-keys-andreeva-de-minaur-day-three-live"
+      },
+      "status": "supported"
+    }
+  ]
+}

@@ -1,0 +1,69 @@
+{
+  "subject": "nia-archives-emotional-junglist-review-aimee-cliff-s-album-of-the-week",
+  "claims": [
+    {
+      "id": "title",
+      "proposition": {
+        "predicate": "title",
+        "object": "Nia Archives: Emotional Junglist review | Aimee Cliff's album of the week"
+      },
+      "time": {
+        "asserted": "2026-07-20T09:48:52.265Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "culture",
+        "citation": "https://www.theguardian.com/music/2026/jul/16/nia-archives-emotional-junglist-review"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "url",
+      "proposition": {
+        "predicate": "url",
+        "object": "https://www.theguardian.com/music/2026/jul/16/nia-archives-emotional-junglist-review"
+      },
+      "time": {
+        "asserted": "2026-07-20T09:48:52.265Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "culture",
+        "citation": "https://www.theguardian.com/music/2026/jul/16/nia-archives-emotional-junglist-review"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "summary",
+      "proposition": {
+        "predicate": "summary",
+        "object": "<p><strong>(Island)</strong><br>On the Bradford-born producer’s self-assured second album, drum’n’bass rhythms power up angsty odes with shades of Arctic Monkeys, Kate Nash and myriad genres</p><p>Like another of the year’s biggest pop records, Olivia Rodrigo’s <a href=\"https://www.theguardian.com/music/2026/jun/12/olivia-rodrigo-you-seem-pretty-sad-for-a-girl-so-in-love-album-review\">You Seem Pretty Sad for a Girl So in Love</a>, the second full-length from the self-proclaimed “emotional junglist” Nia Archives is an album of two halves. The first documents its protagonist falling in love at breakneck speed; the second, the whiplash of sudden heartbreak. Unlike Rodrigo, Archives didn’t grow up starring on Disney Channel, a predestined route to success, but in Bradford, cutting her teeth on early 00s pirate radio, dancehall and landfill indie.</p><p>More than most major artists, Archives has carved out her own path. After leaving home at just 16 to move into a youth hostel in Manchester, she started teaching herself to make beats; eventually, she uprooted to Hackney and studied music production, and used her student loan to fund the promotion of her self-released debut single. Since then, she’s made history as the first electronic/dance act to win a Mobo in decades (after publicly campaigning for the inclusion of dance music at the awards in 2022). With her 2024 debut album <a href=\"https://www.theguardian.com/music/2024/apr/11/nia-archives-silence-is-loud-album-review\">Silence Is Loud</a>, she became the first junglist to be nominated for three Brit awards, and the first to be nominated for the Mercury prize since 1997 – before she was born.</p> <a href=\"https://www.theguardian.com/music/2026/jul/16/nia-archives-emotional-junglist-review\">Continue reading...</a>"
+      },
+      "time": {
+        "asserted": "2026-07-20T09:48:52.265Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "culture",
+        "citation": "https://www.theguardian.com/music/2026/jul/16/nia-archives-emotional-junglist-review"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "published",
+      "proposition": {
+        "predicate": "published",
+        "object": "Thu, 16 Jul 2026 11:00:37 GMT"
+      },
+      "time": {
+        "asserted": "2026-07-20T09:48:52.265Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "culture",
+        "citation": "https://www.theguardian.com/music/2026/jul/16/nia-archives-emotional-junglist-review"
+      },
+      "status": "supported"
+    }
+  ]
+}

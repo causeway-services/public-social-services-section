@@ -1,0 +1,17 @@
+#+SETUPFILE: ./setup.inc
+#+TITLE: Geography and Settlements of the Elflands
+#+EXPORT_FILE_NAME: ../../pub/geography-and-settlements-of-the-elflands
+#+INDEX: New World!/Geography and Settlements of the Elflands/
+#+TOC: headlines 2
+* Introduction
+{{{document-isdraft}}}
+
+{{{document-hasproject}}}
+* Geography and Settlements of the Elflands
+** History
+** Areas
+*** Lystran Monastery
+#+INDEX: Lystran Monastery!Lystran Monastery in the Elflands!"Lystran Monastery" in /Geography and Settlements of the Elflands/
+* Supplements
+** Index
+- Elflands ::

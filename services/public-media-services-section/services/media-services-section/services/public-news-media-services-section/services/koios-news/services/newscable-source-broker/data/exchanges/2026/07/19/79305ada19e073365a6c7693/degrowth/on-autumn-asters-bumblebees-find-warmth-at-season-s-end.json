@@ -1,0 +1,69 @@
+{
+  "subject": "on-autumn-asters-bumblebees-find-warmth-at-season-s-end",
+  "claims": [
+    {
+      "id": "title",
+      "proposition": {
+        "predicate": "title",
+        "object": "On autumn asters, bumblebees find warmth at season’s end"
+      },
+      "time": {
+        "asserted": "2026-07-19T15:04:13.219Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "degrowth",
+        "citation": "https://www.resilience.org/stories/2026-07-17/on-autumn-asters-bumblebees-find-warmth-at-seasons-end/"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "url",
+      "proposition": {
+        "predicate": "url",
+        "object": "https://www.resilience.org/stories/2026-07-17/on-autumn-asters-bumblebees-find-warmth-at-seasons-end/"
+      },
+      "time": {
+        "asserted": "2026-07-19T15:04:13.219Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "degrowth",
+        "citation": "https://www.resilience.org/stories/2026-07-17/on-autumn-asters-bumblebees-find-warmth-at-seasons-end/"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "summary",
+      "proposition": {
+        "predicate": "summary",
+        "object": "Sowing flowers in spring may have a surprising effect on the inner lives of bees."
+      },
+      "time": {
+        "asserted": "2026-07-19T15:04:13.219Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "degrowth",
+        "citation": "https://www.resilience.org/stories/2026-07-17/on-autumn-asters-bumblebees-find-warmth-at-seasons-end/"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "published",
+      "proposition": {
+        "predicate": "published",
+        "object": "Fri, 17 Jul 2026 08:00:19 +0000"
+      },
+      "time": {
+        "asserted": "2026-07-19T15:04:13.219Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "degrowth",
+        "citation": "https://www.resilience.org/stories/2026-07-17/on-autumn-asters-bumblebees-find-warmth-at-seasons-end/"
+      },
+      "status": "supported"
+    }
+  ]
+}

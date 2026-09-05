@@ -1,0 +1,69 @@
+{
+  "subject": "burnham-s-first-pmqs-showed-a-leader-who-wants-to-please-but-knows-how-to-push-back",
+  "claims": [
+    {
+      "id": "title",
+      "proposition": {
+        "predicate": "title",
+        "object": "Burnham’s first PMQs showed a leader who wants to please – but knows how to push back"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "politics",
+        "citation": "https://www.theguardian.com/politics/2026/sep/02/burnhams-first-pmqs-showed-a-leader-who-wants-to-please-but-knows-how-to-push-back"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "url",
+      "proposition": {
+        "predicate": "url",
+        "object": "https://www.theguardian.com/politics/2026/sep/02/burnhams-first-pmqs-showed-a-leader-who-wants-to-please-but-knows-how-to-push-back"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "politics",
+        "citation": "https://www.theguardian.com/politics/2026/sep/02/burnhams-first-pmqs-showed-a-leader-who-wants-to-please-but-knows-how-to-push-back"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "summary",
+      "proposition": {
+        "predicate": "summary",
+        "object": "<p>Despite a long absence from parliament, Burnham showed he could hold his own and, despite some nerves, even enjoy himself</p><p>The coming months will show whether Andy Burnham fits Kemi Badenoch’s charge of a leader too obsessed with being liked to make hard choices. One thing, however, does seem clear from his first outing at prime minister’s questions: he likes saying yes.</p><p>The very first question came from a political opponent – Ann Davies of Plaid Cymru – but Burnham replied as if she was a valued constituent, saying he understood her worries about <a href=\"https://www.theguardian.com/society/2026/aug/30/pc-harper-killers-prison-early-release-scheme\">the prison early release scheme</a> and hoped she could be reassured.</p> <a href=\"https://www.theguardian.com/politics/2026/sep/02/burnhams-first-pmqs-showed-a-leader-who-wants-to-please-but-knows-how-to-push-back\">Continue reading...</a>"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "politics",
+        "citation": "https://www.theguardian.com/politics/2026/sep/02/burnhams-first-pmqs-showed-a-leader-who-wants-to-please-but-knows-how-to-push-back"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "published",
+      "proposition": {
+        "predicate": "published",
+        "object": "Wed, 02 Sep 2026 16:22:20 GMT"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "politics",
+        "citation": "https://www.theguardian.com/politics/2026/sep/02/burnhams-first-pmqs-showed-a-leader-who-wants-to-please-but-knows-how-to-push-back"
+      },
+      "status": "supported"
+    }
+  ]
+}

@@ -1,0 +1,8 @@
+---
+title: Test Post
+date: 2018-01-05 21:00:00 Z
+tags:
+- test
+---
+
+You know what to do - ignore it!

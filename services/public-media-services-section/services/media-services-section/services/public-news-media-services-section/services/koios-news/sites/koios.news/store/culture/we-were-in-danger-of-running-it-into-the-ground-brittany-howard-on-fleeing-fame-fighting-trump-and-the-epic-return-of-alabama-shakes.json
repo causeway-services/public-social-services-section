@@ -1,0 +1,69 @@
+{
+  "subject": "we-were-in-danger-of-running-it-into-the-ground-brittany-howard-on-fleeing-fame-fighting-trump-and-the-epic-return-of-alabama-shakes",
+  "claims": [
+    {
+      "id": "title",
+      "proposition": {
+        "predicate": "title",
+        "object": "‘We were in danger of running it into the ground’: Brittany Howard on fleeing fame, fighting Trump and the epic return of Alabama Shakes"
+      },
+      "time": {
+        "asserted": "2026-07-19T14:42:05.531Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "culture",
+        "citation": "https://www.theguardian.com/music/2026/jul/19/alabama-shakes-brittany-howard-interview-i-must-be-dreaming"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "url",
+      "proposition": {
+        "predicate": "url",
+        "object": "https://www.theguardian.com/music/2026/jul/19/alabama-shakes-brittany-howard-interview-i-must-be-dreaming"
+      },
+      "time": {
+        "asserted": "2026-07-19T14:42:05.531Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "culture",
+        "citation": "https://www.theguardian.com/music/2026/jul/19/alabama-shakes-brittany-howard-interview-i-must-be-dreaming"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "summary",
+      "proposition": {
+        "predicate": "summary",
+        "object": "<p>The soul-rockers achieved worldwide success before surprising everyone by deciding to quit while they were ahead. Now they’re back with a new album railing against the state of contemporary America</p><p>In the autumn of 2024, Alabama Shakes showed no sign of ending their indefinite hiatus – and nobody was asking them to. Seven years had passed since the blues-soul-rock band, who exploded out of Athens, Alabama in 2009, had last shared a stage. Their transatlantic Top 10 2012 debut Boys &amp; Girls announced them; the million-selling 2015 follow-up Sound &amp; Color went to No 1 in the US and won them four Grammys. Their fanbase included Bruce Springsteen, Robert Plant and Barack Obama. But by 2017 they were physically and creatively spent, and they stopped. Then, in December 2024, with almost no warning, they played their first show in more than seven years.</p><p>“We had a friend in Tuscaloosa who had a brewery, but it wasn’t doing so well after Covid,” explains singer Brittany Howard. “He called me and said he was going to do a fundraiser and asked if I’d like to perform. I said, ‘For sure.’” But then she started reminiscing, remembering how that particular friend had been a huge help to the band, not just her personally. She felt the band owed him something, collectively. “So I called the fellas,” she smiles. “‘Do y’all wanna perform at this thing – like, all of us, together?’ And they instantly said yes.”</p> <a href=\"https://www.theguardian.com/music/2026/jul/19/alabama-shakes-brittany-howard-interview-i-must-be-dreaming\">Continue reading...</a>"
+      },
+      "time": {
+        "asserted": "2026-07-19T14:42:05.531Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "culture",
+        "citation": "https://www.theguardian.com/music/2026/jul/19/alabama-shakes-brittany-howard-interview-i-must-be-dreaming"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "published",
+      "proposition": {
+        "predicate": "published",
+        "object": "Sun, 19 Jul 2026 09:00:22 GMT"
+      },
+      "time": {
+        "asserted": "2026-07-19T14:42:05.531Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "culture",
+        "citation": "https://www.theguardian.com/music/2026/jul/19/alabama-shakes-brittany-howard-interview-i-must-be-dreaming"
+      },
+      "status": "supported"
+    }
+  ]
+}

@@ -1,0 +1,69 @@
+{
+  "subject": "tape-still-isn-t-dead-but-shipments-slipped-by-16-exabytes-in-2025",
+  "claims": [
+    {
+      "id": "title",
+      "proposition": {
+        "predicate": "title",
+        "object": "Tape still isn’t dead, but shipments slipped by 16 exabytes in 2025"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "technology",
+        "citation": "https://www.theregister.com/storage/2026/09/02/tape-still-isnt-dead-but-shipments-slipped-by-16-exabytes-in-2025/5293813"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "url",
+      "proposition": {
+        "predicate": "url",
+        "object": "https://www.theregister.com/storage/2026/09/02/tape-still-isnt-dead-but-shipments-slipped-by-16-exabytes-in-2025/5293813"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "technology",
+        "citation": "https://www.theregister.com/storage/2026/09/02/tape-still-isnt-dead-but-shipments-slipped-by-16-exabytes-in-2025/5293813"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "summary",
+      "proposition": {
+        "predicate": "summary",
+        "object": "Tape is still not dead, but it’s not in rude health either after shipments slipped by 16 exabytes in 2025. That number comes from the LTO Program – the alliance of HPE, IBM, and Quantum Corp, that together tends the Linear Tape-Open (LTO) Format that accounts for around 85 percent of all tape sales. The Program delivers an annual data dump describing the previous year’s shipments, and this year’s effort landed on Tuesday with news that 160.3 exabytes worth of LTO tape went out the door during 2025, nine percent down from 2024’s 176.5 exabytes. The LTO Program pointed out that 2024 represented an all-time high, and that 2025’s shipments are the second-highest result for the format. The trio quoted storage analyst Tom Coughlin as saying the reason for the 16 exabyte slip was “the evolving international trade environment” which he thinks “contributed to more cautious purchasing behavior, with businesses across a wide range of industries adjusting their sourcing and inventory decisions accordingly.” “We suspect that if this uncertainty is resolved the continued strength of the tape storage market will be even more impressive, particularly as constrained power availability for data center buildouts favors including tape, which consumes less power than any other storage media,” Coughlin said. The LTO Program’s announcement also made much of the fact that Q1 2026 shipments are 57 percent higher than for the same period last year. “The strong start to 2026 confirms that many customers are fully committed to growing their tape infrastructure, leveraging the technology to complement other primary and secondary storage platforms,” the LTO trio asserted, before anticipating “2026 will further strengthen the tape market with another record-setting year.” The org attributed the early 2026 upswing to the debut of a new 40TB tape cartridge that’s compatible with the drives that handle the 30TB cartridges that were previously the best LTO could muster. Tape’s big advantages are high capacity and low power consumption. The downside is painfully long restore and retrieval times. Users must also store tapes carefully. Hyperscalers have therefore challenged the medium with archival-storage-as-a-service offerings that offer virtual tapes to deliver interoperability with tape backup tools. Providers of those services are cagey about exactly what storage medium they use, but it seems most employ large-capacity hard disk drives – which are currently in short supply because hyperscalers need them for AI applications. Even so, that situation may not create a moment for tape because just two companies – Sony and Fujifilm – make LTO tape cartridges, and shortages are not unknown. ®"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "technology",
+        "citation": "https://www.theregister.com/storage/2026/09/02/tape-still-isnt-dead-but-shipments-slipped-by-16-exabytes-in-2025/5293813"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "published",
+      "proposition": {
+        "predicate": "published",
+        "object": "Wed, 02 Sep 2026 03:34:45 +0200"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "technology",
+        "citation": "https://www.theregister.com/storage/2026/09/02/tape-still-isnt-dead-but-shipments-slipped-by-16-exabytes-in-2025/5293813"
+      },
+      "status": "supported"
+    }
+  ]
+}

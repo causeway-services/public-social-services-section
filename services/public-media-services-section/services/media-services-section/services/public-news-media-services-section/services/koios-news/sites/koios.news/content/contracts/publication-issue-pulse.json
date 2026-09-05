@@ -1,0 +1,57 @@
+{
+  "kind": "publication-owned-operation-contract",
+  "id": "koios.news/publication-issue-pulse/v1",
+  "owner": "koios.news",
+  "service": "settle one exact newsroom pulse into one publication-owned assignment or one typed refusal",
+  "ingress": "one externally authored ActivityStreams Create<NewsroomIssueDemand> on stdin, addressed to https://koios.news/activitypub/actor",
+  "preconditions": [
+    "the publication-local executable does not author, schedule, or attribute the pulse",
+    "the activity carries its actual trigger actor and exact attenuated capability",
+    "the policy admits that actor-capability pair",
+    "the demand carries one pulse identifier",
+    "the demand carries the exact publication issue policy and its canonical digest",
+    "the policy permits exactly one issue per pulse and names its permitted beats, cadence, freshness window, selection mode, and source-refresh authority"
+  ],
+  "postconditions": [
+    "the exact demand digest returns the first durable settlement on replay",
+    "a backlog exceeding the policy's open-assignment capacity is exposed as a typed refusal rather than silently scheduled",
+    "an existing open permitted assignment is resumed before a new assignment is formed",
+    "at most one assignment is selected from publication-owned demand and admitted source custody",
+    "reader demand supplies attention pressure and never factual warrant",
+    "an accepted settlement names the assignment, source packet digest, selection basis, and next required service contract",
+    "a refused settlement names a typed obstruction without invoking writer or editor inference"
+  ],
+  "prohibitions": [
+    "no drafting",
+    "no editing or publication approval",
+    "no publication, deployment, or static projection",
+    "no inference-provider or model selection",
+    "no source admission except through an already accepted source-broker contract",
+    "no writes in provider territory",
+    "no hidden fallback or retry cascade",
+    "no publication-local process may mint a message attributed to an external pulser"
+  ],
+  "providerRequirement": {
+    "desiredOffice": "ScheduleDelivery of the Cold Red Gate Colony",
+    "contract": "clocked-activity-delivery",
+    "admissionState": "active: exact provider offer accepted, daily schedule registered, and occurrence zero settled by a durable target-refusal receipt",
+    "scheduleId": "urn:sha256:517c36dda955629d62eb44f16810fe8a1c93847b4e89ad94e24a75d6ce10fa67",
+    "scheduleContractRecordDigest": "sha256:48ffb0026030481a19795080f23dddec29fc8715cf8baff3e74a4465b4b185ee",
+    "firstDeliveryReceipt": "urn:sha256:4f67bb293d156d15695eb5144533b2fa827a69175e12b682ff101209b3573478",
+    "firstSettlement": {
+      "disposition": "target-reject",
+      "code": "cadence-window-open",
+      "reason": "publication policy permits the next new issue at 2026-07-19T16:06:53.817Z",
+      "transportProved": true,
+      "customerTerritoryMutation": false
+    },
+    "canonicalVpsIdentity": "cold-red-gate",
+    "laptopColonyIdentity": "bare-cedar-fog",
+    "requiredNonclaims": ["ownership of time", "HTTP Signature authentication until proven", "ActivityPub federation until proven", "remote inbox discovery until proven"]
+  },
+  "price": {
+    "amount": "unmeasured",
+    "currency": "USD",
+    "accounting": "deterministic local execution and Leader-contributed coordination are recorded separately; absence of metering is never projected as zero cost"
+  }
+}

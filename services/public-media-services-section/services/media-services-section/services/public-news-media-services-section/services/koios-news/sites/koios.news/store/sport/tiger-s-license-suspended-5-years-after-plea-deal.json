@@ -1,0 +1,69 @@
+{
+  "subject": "tiger-s-license-suspended-5-years-after-plea-deal",
+  "claims": [
+    {
+      "id": "title",
+      "proposition": {
+        "predicate": "title",
+        "object": "Tiger's license suspended 5 years after plea deal"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "sport",
+        "citation": "https://www.espn.com/golf/story/_/id/49802892/tiger-woods-strikes-plea-deal-driver-license-suspended-5-years"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "url",
+      "proposition": {
+        "predicate": "url",
+        "object": "https://www.espn.com/golf/story/_/id/49802892/tiger-woods-strikes-plea-deal-driver-license-suspended-5-years"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "sport",
+        "citation": "https://www.espn.com/golf/story/_/id/49802892/tiger-woods-strikes-plea-deal-driver-license-suspended-5-years"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "summary",
+      "proposition": {
+        "predicate": "summary",
+        "object": "Tiger Woods had his driver's license suspended five years Wednesday after striking a plea deal in his DUI case."
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "sport",
+        "citation": "https://www.espn.com/golf/story/_/id/49802892/tiger-woods-strikes-plea-deal-driver-license-suspended-5-years"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "published",
+      "proposition": {
+        "predicate": "published",
+        "object": "Wed, 2 Sep 2026 18:21:05 EST"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "sport",
+        "citation": "https://www.espn.com/golf/story/_/id/49802892/tiger-woods-strikes-plea-deal-driver-license-suspended-5-years"
+      },
+      "status": "supported"
+    }
+  ]
+}

@@ -1,0 +1,1752 @@
+{
+  "type": "TTIDiscordGuildState",
+  "version": 1,
+  "observedAt": "2026-08-29T21:57:33.032Z",
+  "source": {
+    "kind": "discord-rest",
+    "apiVersion": 10,
+    "methods": [
+      "GET"
+    ],
+    "excludes": [
+      "messages",
+      "members",
+      "invites",
+      "reaction-users",
+      "secrets"
+    ]
+  },
+  "guild": {
+    "id": "1184863861065658419",
+    "name": "Turntide Islands",
+    "description": null,
+    "features": [
+      "AUTO_MODERATION",
+      "CHANNEL_ICON_EMOJIS_GENERATED",
+      "COMMUNITY",
+      "GUILD_ONBOARDING",
+      "GUILD_ONBOARDING_EVER_ENABLED",
+      "GUILD_ONBOARDING_HAS_PROMPTS",
+      "MEMBER_VERIFICATION_GATE_ENABLED",
+      "MEMBER_VERIFICATION_MANUAL_APPROVAL",
+      "NEWS",
+      "TIERLESS_BOOSTING_SYSTEM_MESSAGE",
+      "WELCOME_SCREEN_ENABLED"
+    ],
+    "verification_level": 1,
+    "explicit_content_filter": 2,
+    "default_message_notifications": 1,
+    "system_channel_id": "1184863861065658422",
+    "rules_channel_id": "1184864166142558349",
+    "public_updates_channel_id": "1346491562342875137",
+    "preferred_locale": "en-US"
+  },
+  "roles": [
+    {
+      "id": "1184863861065658419",
+      "name": "@everyone",
+      "color": 0,
+      "hoist": false,
+      "position": 0,
+      "permissions": "2222085186634305",
+      "managed": false,
+      "mentionable": false,
+      "flags": 0
+    },
+    {
+      "id": "1543363758150385696",
+      "name": "PluralKit",
+      "color": 0,
+      "hoist": false,
+      "position": 1,
+      "permissions": "536995904",
+      "managed": true,
+      "mentionable": false,
+      "flags": 0
+    },
+    {
+      "id": "1424106266376147076",
+      "name": "academic",
+      "color": 0,
+      "hoist": false,
+      "position": 3,
+      "permissions": "0",
+      "managed": false,
+      "mentionable": false,
+      "flags": 0
+    },
+    {
+      "id": "1419140910301577319",
+      "name": "analytical",
+      "color": 0,
+      "hoist": false,
+      "position": 4,
+      "permissions": "0",
+      "managed": false,
+      "mentionable": false,
+      "flags": 0
+    },
+    {
+      "id": "1412526497767620792",
+      "name": "Server Booster",
+      "color": 16023551,
+      "hoist": false,
+      "position": 5,
+      "permissions": "2222085186634305",
+      "managed": true,
+      "mentionable": false,
+      "flags": 0
+    },
+    {
+      "id": "1409175224842326200",
+      "name": "Spotify ➡ YouTube",
+      "color": 0,
+      "hoist": false,
+      "position": 6,
+      "permissions": "274878278720",
+      "managed": true,
+      "mentionable": false,
+      "flags": 0
+    },
+    {
+      "id": "1350851286819409961",
+      "name": "gardener",
+      "color": 15105570,
+      "hoist": false,
+      "position": 7,
+      "permissions": "0",
+      "managed": false,
+      "mentionable": false,
+      "flags": 0
+    },
+    {
+      "id": "1349839394407976980",
+      "name": "agent-observer",
+      "color": 0,
+      "hoist": false,
+      "position": 8,
+      "permissions": "0",
+      "managed": false,
+      "mentionable": false,
+      "flags": 0
+    },
+    {
+      "id": "1349834160306651199",
+      "name": "blockbuilders",
+      "color": 15844367,
+      "hoist": false,
+      "position": 9,
+      "permissions": "0",
+      "managed": false,
+      "mentionable": false,
+      "flags": 0
+    },
+    {
+      "id": "1349711059497521215",
+      "name": "fintrader",
+      "color": 15844367,
+      "hoist": false,
+      "position": 10,
+      "permissions": "0",
+      "managed": false,
+      "mentionable": false,
+      "flags": 0
+    },
+    {
+      "id": "1348240813934645349",
+      "name": "terraformer",
+      "color": 0,
+      "hoist": false,
+      "position": 11,
+      "permissions": "2108863302074367",
+      "managed": false,
+      "mentionable": false,
+      "flags": 0
+    },
+    {
+      "id": "1346916534664302626",
+      "name": "Koios",
+      "color": 0,
+      "hoist": false,
+      "position": 12,
+      "permissions": "274912578560",
+      "managed": true,
+      "mentionable": false,
+      "flags": 0
+    },
+    {
+      "id": "1346910438897483918",
+      "name": "agent",
+      "color": 0,
+      "hoist": false,
+      "position": 13,
+      "permissions": "0",
+      "managed": false,
+      "mentionable": false,
+      "flags": 0
+    },
+    {
+      "id": "1346683681636618322",
+      "name": "ndn",
+      "color": 0,
+      "hoist": false,
+      "position": 14,
+      "permissions": "0",
+      "managed": false,
+      "mentionable": false,
+      "flags": 0
+    },
+    {
+      "id": "1346544912379678815",
+      "name": "Zelo",
+      "color": 0,
+      "hoist": false,
+      "position": 15,
+      "permissions": "8864262743130111",
+      "managed": true,
+      "mentionable": false,
+      "flags": 0
+    },
+    {
+      "id": "1346504579604545566",
+      "name": "muted",
+      "color": 16007755,
+      "hoist": false,
+      "position": 16,
+      "permissions": "0",
+      "managed": false,
+      "mentionable": false,
+      "flags": 0
+    },
+    {
+      "id": "1346503695034224663",
+      "name": "carl-bot",
+      "color": 0,
+      "hoist": false,
+      "position": 17,
+      "permissions": "2213805119",
+      "managed": true,
+      "mentionable": false,
+      "flags": 0
+    },
+    {
+      "id": "1346281794999419026",
+      "name": "Brock",
+      "color": 0,
+      "hoist": false,
+      "position": 18,
+      "permissions": "274911530048",
+      "managed": true,
+      "mentionable": false,
+      "flags": 0
+    },
+    {
+      "id": "1346510849904480307",
+      "name": "techie",
+      "color": 6323595,
+      "hoist": false,
+      "position": 19,
+      "permissions": "0",
+      "managed": false,
+      "mentionable": false,
+      "flags": 0
+    },
+    {
+      "id": "1346510818958643301",
+      "name": "governance-observer",
+      "color": 1752220,
+      "hoist": false,
+      "position": 20,
+      "permissions": "0",
+      "managed": false,
+      "mentionable": false,
+      "flags": 0
+    },
+    {
+      "id": "1346510930036527114",
+      "name": "econie",
+      "color": 15844367,
+      "hoist": false,
+      "position": 21,
+      "permissions": "0",
+      "managed": false,
+      "mentionable": false,
+      "flags": 0
+    },
+    {
+      "id": "1346510772297273345",
+      "name": "doer",
+      "color": 12745742,
+      "hoist": false,
+      "position": 22,
+      "permissions": "0",
+      "managed": false,
+      "mentionable": false,
+      "flags": 0
+    },
+    {
+      "id": "1346505118467756062",
+      "name": "visitor",
+      "color": 3447003,
+      "hoist": false,
+      "position": 23,
+      "permissions": "3072",
+      "managed": false,
+      "mentionable": false,
+      "flags": 0
+    },
+    {
+      "id": "1184867019988947065",
+      "name": "islander",
+      "color": 3066993,
+      "hoist": false,
+      "position": 24,
+      "permissions": "18720822927367",
+      "managed": false,
+      "mentionable": false,
+      "flags": 1
+    },
+    {
+      "id": "1346512207558742098",
+      "name": "governor",
+      "color": 7419530,
+      "hoist": false,
+      "position": 25,
+      "permissions": "0",
+      "managed": false,
+      "mentionable": false,
+      "flags": 0
+    }
+  ],
+  "channels": [
+    {
+      "id": "1184863981115031582",
+      "name": "Harbor",
+      "type": 4,
+      "position": 0,
+      "parent_id": null,
+      "flags": 0,
+      "kind": "category",
+      "permissionOverwrites": [
+        {
+          "targetId": "1346505118467756062",
+          "targetType": "role",
+          "allow": "0",
+          "deny": "0"
+        },
+        {
+          "targetId": "1184867019988947065",
+          "targetType": "role",
+          "allow": "0",
+          "deny": "0"
+        },
+        {
+          "targetId": "1184863861065658419",
+          "targetType": "role",
+          "allow": "0",
+          "deny": "1024"
+        }
+      ],
+      "availableTags": []
+    },
+    {
+      "id": "1184864166142558349",
+      "name": "dock",
+      "type": 0,
+      "position": 0,
+      "parent_id": "1184863981115031582",
+      "topic": "Welcome to Turntide Islands. Complete Discord onboarding here to open your selected community channels.",
+      "nsfw": false,
+      "rate_limit_per_user": 0,
+      "flags": 0,
+      "kind": "text",
+      "permissionOverwrites": [
+        {
+          "targetId": "1346505118467756062",
+          "targetType": "role",
+          "allow": "0",
+          "deny": "0"
+        },
+        {
+          "targetId": "1184867019988947065",
+          "targetType": "role",
+          "allow": "68608",
+          "deny": "0"
+        },
+        {
+          "targetId": "1346504579604545566",
+          "targetType": "role",
+          "allow": "0",
+          "deny": "274877909056"
+        },
+        {
+          "targetId": "1184863861065658419",
+          "targetType": "role",
+          "allow": "68608",
+          "deny": "0"
+        }
+      ],
+      "availableTags": []
+    },
+    {
+      "id": "1409526935196926025",
+      "name": "workshop",
+      "type": 2,
+      "position": 0,
+      "parent_id": "1184863861065658420",
+      "nsfw": false,
+      "rate_limit_per_user": 0,
+      "bitrate": 64000,
+      "user_limit": 0,
+      "flags": 0,
+      "kind": "voice",
+      "permissionOverwrites": [
+        {
+          "targetId": "1184867019988947065",
+          "targetType": "role",
+          "allow": "1049600",
+          "deny": "0"
+        },
+        {
+          "targetId": "1346512207558742098",
+          "targetType": "role",
+          "allow": "1049600",
+          "deny": "0"
+        },
+        {
+          "targetId": "1184863861065658419",
+          "targetType": "role",
+          "allow": "0",
+          "deny": "1049600"
+        }
+      ],
+      "availableTags": []
+    },
+    {
+      "id": "1184863861065658420",
+      "name": "general",
+      "type": 4,
+      "position": 1,
+      "parent_id": null,
+      "flags": 0,
+      "kind": "category",
+      "permissionOverwrites": [
+        {
+          "targetId": "1346505118467756062",
+          "targetType": "role",
+          "allow": "1048576",
+          "deny": "0"
+        },
+        {
+          "targetId": "1184867019988947065",
+          "targetType": "role",
+          "allow": "1048576",
+          "deny": "0"
+        },
+        {
+          "targetId": "1184863861065658419",
+          "targetType": "role",
+          "allow": "2048",
+          "deny": "1024"
+        }
+      ],
+      "availableTags": []
+    },
+    {
+      "id": "1346508996667768853",
+      "name": "channel-visas",
+      "type": 0,
+      "position": 1,
+      "parent_id": "1184863981115031582",
+      "topic": null,
+      "nsfw": false,
+      "rate_limit_per_user": 0,
+      "flags": 0,
+      "kind": "text",
+      "permissionOverwrites": [
+        {
+          "targetId": "1346505118467756062",
+          "targetType": "role",
+          "allow": "1024",
+          "deny": "0"
+        },
+        {
+          "targetId": "1184867019988947065",
+          "targetType": "role",
+          "allow": "1024",
+          "deny": "0"
+        },
+        {
+          "targetId": "1184863861065658419",
+          "targetType": "role",
+          "allow": "0",
+          "deny": "1024"
+        }
+      ],
+      "availableTags": []
+    },
+    {
+      "id": "1304191468834918541",
+      "name": "chatter",
+      "type": 4,
+      "position": 2,
+      "parent_id": null,
+      "flags": 0,
+      "kind": "category",
+      "permissionOverwrites": [],
+      "availableTags": []
+    },
+    {
+      "id": "1346491299083325570",
+      "name": "announcements",
+      "type": 0,
+      "position": 2,
+      "parent_id": "1184863861065658420",
+      "topic": null,
+      "nsfw": false,
+      "rate_limit_per_user": 0,
+      "flags": 0,
+      "kind": "text",
+      "permissionOverwrites": [
+        {
+          "targetId": "1346505118467756062",
+          "targetType": "role",
+          "allow": "1049600",
+          "deny": "0"
+        },
+        {
+          "targetId": "1184867019988947065",
+          "targetType": "role",
+          "allow": "1049600",
+          "deny": "0"
+        },
+        {
+          "targetId": "1184863861065658419",
+          "targetType": "role",
+          "allow": "2048",
+          "deny": "1024"
+        }
+      ],
+      "availableTags": []
+    },
+    {
+      "id": "1304191643410235403",
+      "name": "location",
+      "type": 4,
+      "position": 3,
+      "parent_id": null,
+      "flags": 0,
+      "kind": "category",
+      "permissionOverwrites": [],
+      "availableTags": []
+    },
+    {
+      "id": "1346491172142583829",
+      "name": "bulletin-boardwalk",
+      "type": 0,
+      "position": 3,
+      "parent_id": "1184863861065658420",
+      "topic": null,
+      "nsfw": false,
+      "rate_limit_per_user": 0,
+      "flags": 0,
+      "kind": "text",
+      "permissionOverwrites": [
+        {
+          "targetId": "1346505118467756062",
+          "targetType": "role",
+          "allow": "1049600",
+          "deny": "0"
+        },
+        {
+          "targetId": "1184867019988947065",
+          "targetType": "role",
+          "allow": "1049600",
+          "deny": "0"
+        },
+        {
+          "targetId": "1184863861065658419",
+          "targetType": "role",
+          "allow": "2048",
+          "deny": "1024"
+        }
+      ],
+      "availableTags": []
+    },
+    {
+      "id": "1184863861065658422",
+      "name": "mainland",
+      "type": 0,
+      "position": 4,
+      "parent_id": "1184863861065658420",
+      "topic": "Introductions and community gathering proposals.",
+      "nsfw": false,
+      "rate_limit_per_user": 0,
+      "flags": 0,
+      "kind": "text",
+      "permissionOverwrites": [
+        {
+          "targetId": "1346505118467756062",
+          "targetType": "role",
+          "allow": "1048576",
+          "deny": "0"
+        },
+        {
+          "targetId": "1184867019988947065",
+          "targetType": "role",
+          "allow": "1049600",
+          "deny": "0"
+        },
+        {
+          "targetId": "1184863861065658419",
+          "targetType": "role",
+          "allow": "67584",
+          "deny": "1024"
+        }
+      ],
+      "availableTags": []
+    },
+    {
+      "id": "1184898167821570119",
+      "name": "cultural",
+      "type": 4,
+      "position": 4,
+      "parent_id": null,
+      "flags": 0,
+      "kind": "category",
+      "permissionOverwrites": [
+        {
+          "targetId": "1184863861065658419",
+          "targetType": "role",
+          "allow": "0",
+          "deny": "1049600"
+        }
+      ],
+      "availableTags": []
+    },
+    {
+      "id": "1266775258808189025",
+      "name": "soundwaves",
+      "type": 0,
+      "position": 5,
+      "parent_id": "1184863861065658420",
+      "topic": null,
+      "nsfw": false,
+      "rate_limit_per_user": 0,
+      "flags": 0,
+      "kind": "text",
+      "permissionOverwrites": [
+        {
+          "targetId": "1346505118467756062",
+          "targetType": "role",
+          "allow": "1048576",
+          "deny": "0"
+        },
+        {
+          "targetId": "1184867019988947065",
+          "targetType": "role",
+          "allow": "1049600",
+          "deny": "0"
+        },
+        {
+          "targetId": null,
+          "targetType": "member",
+          "allow": "1024",
+          "deny": "0"
+        },
+        {
+          "targetId": "1184863861065658419",
+          "targetType": "role",
+          "allow": "67584",
+          "deny": "1024"
+        }
+      ],
+      "availableTags": []
+    },
+    {
+      "id": "1436014777708314654",
+      "name": "school",
+      "type": 4,
+      "position": 5,
+      "parent_id": null,
+      "flags": 0,
+      "kind": "category",
+      "permissionOverwrites": [
+        {
+          "targetId": "1184863861065658419",
+          "targetType": "role",
+          "allow": "0",
+          "deny": "1049600"
+        }
+      ],
+      "availableTags": []
+    },
+    {
+      "id": "1302025537904185405",
+      "name": "solidarity-shoals",
+      "type": 0,
+      "position": 6,
+      "parent_id": "1184863861065658420",
+      "topic": null,
+      "nsfw": false,
+      "rate_limit_per_user": 0,
+      "flags": 0,
+      "kind": "text",
+      "permissionOverwrites": [
+        {
+          "targetId": "1346505118467756062",
+          "targetType": "role",
+          "allow": "1049600",
+          "deny": "0"
+        },
+        {
+          "targetId": "1184867019988947065",
+          "targetType": "role",
+          "allow": "1049600",
+          "deny": "0"
+        },
+        {
+          "targetId": "1184863861065658419",
+          "targetType": "role",
+          "allow": "2048",
+          "deny": "1024"
+        }
+      ],
+      "availableTags": []
+    },
+    {
+      "id": "1346490989346558052",
+      "name": "governance",
+      "type": 4,
+      "position": 6,
+      "parent_id": null,
+      "flags": 0,
+      "kind": "category",
+      "permissionOverwrites": [
+        {
+          "targetId": "1184863861065658419",
+          "targetType": "role",
+          "allow": "0",
+          "deny": "1049600"
+        }
+      ],
+      "availableTags": []
+    },
+    {
+      "id": "1396155279208484997",
+      "name": "question-quarry",
+      "type": 0,
+      "position": 7,
+      "parent_id": "1184863861065658420",
+      "topic": "Practical and research questions.",
+      "nsfw": false,
+      "rate_limit_per_user": 0,
+      "flags": 0,
+      "kind": "text",
+      "permissionOverwrites": [
+        {
+          "targetId": "1346505118467756062",
+          "targetType": "role",
+          "allow": "0",
+          "deny": "0"
+        },
+        {
+          "targetId": "1184867019988947065",
+          "targetType": "role",
+          "allow": "1024",
+          "deny": "0"
+        },
+        {
+          "targetId": "1184863861065658419",
+          "targetType": "role",
+          "allow": "67584",
+          "deny": "1024"
+        }
+      ],
+      "availableTags": []
+    },
+    {
+      "id": "1424106171735998464",
+      "name": "academic-acantilado",
+      "type": 0,
+      "position": 8,
+      "parent_id": "1304191468834918541",
+      "topic": null,
+      "nsfw": false,
+      "rate_limit_per_user": 0,
+      "flags": 0,
+      "kind": "text",
+      "permissionOverwrites": [
+        {
+          "targetId": "1424106266376147076",
+          "targetType": "role",
+          "allow": "3072",
+          "deny": "0"
+        },
+        {
+          "targetId": "1184863861065658419",
+          "targetType": "role",
+          "allow": "0",
+          "deny": "1024"
+        }
+      ],
+      "availableTags": []
+    },
+    {
+      "id": "1344134778978439290",
+      "name": "ai-archipelago",
+      "type": 0,
+      "position": 9,
+      "parent_id": "1304191468834918541",
+      "topic": "Private sandbox for bot-to-bot experiments and agent rehearsals.",
+      "nsfw": false,
+      "rate_limit_per_user": 0,
+      "flags": 0,
+      "kind": "text",
+      "permissionOverwrites": [
+        {
+          "targetId": null,
+          "targetType": "member",
+          "allow": "68608",
+          "deny": "0"
+        },
+        {
+          "targetId": null,
+          "targetType": "member",
+          "allow": "68608",
+          "deny": "0"
+        },
+        {
+          "targetId": "1184863861065658419",
+          "targetType": "role",
+          "allow": "0",
+          "deny": "1024"
+        }
+      ],
+      "availableTags": []
+    },
+    {
+      "id": "1529198935388717189",
+      "name": "Knowledge Vault",
+      "type": 4,
+      "position": 9,
+      "parent_id": null,
+      "flags": 0,
+      "kind": "category",
+      "permissionOverwrites": [
+        {
+          "targetId": null,
+          "targetType": "member",
+          "allow": "68608",
+          "deny": "0"
+        },
+        {
+          "targetId": null,
+          "targetType": "member",
+          "allow": "68608",
+          "deny": "0"
+        },
+        {
+          "targetId": "1184867019988947065",
+          "targetType": "role",
+          "allow": "68608",
+          "deny": "0"
+        },
+        {
+          "targetId": "1184863861065658419",
+          "targetType": "role",
+          "allow": "0",
+          "deny": "1024"
+        }
+      ],
+      "availableTags": []
+    },
+    {
+      "id": "1419140845742981130",
+      "name": "analysis-atoll",
+      "type": 0,
+      "position": 10,
+      "parent_id": "1304191468834918541",
+      "topic": null,
+      "nsfw": false,
+      "rate_limit_per_user": 0,
+      "flags": 0,
+      "kind": "text",
+      "permissionOverwrites": [
+        {
+          "targetId": null,
+          "targetType": "member",
+          "allow": "1024",
+          "deny": "0"
+        },
+        {
+          "targetId": "1419140910301577319",
+          "targetType": "role",
+          "allow": "1024",
+          "deny": "0"
+        },
+        {
+          "targetId": "1184863861065658419",
+          "targetType": "role",
+          "allow": "0",
+          "deny": "1024"
+        }
+      ],
+      "availableTags": []
+    },
+    {
+      "id": "1314589752644735016",
+      "name": "blockchain-bay",
+      "type": 0,
+      "position": 11,
+      "parent_id": "1304191468834918541",
+      "topic": null,
+      "nsfw": false,
+      "rate_limit_per_user": 0,
+      "flags": 0,
+      "kind": "text",
+      "permissionOverwrites": [
+        {
+          "targetId": "1349834160306651199",
+          "targetType": "role",
+          "allow": "3072",
+          "deny": "0"
+        },
+        {
+          "targetId": "1346504579604545566",
+          "targetType": "role",
+          "allow": "0",
+          "deny": "274877909056"
+        },
+        {
+          "targetId": "1184863861065658419",
+          "targetType": "role",
+          "allow": "0",
+          "deny": "1024"
+        }
+      ],
+      "availableTags": []
+    },
+    {
+      "id": "1346541935984115774",
+      "name": "cooking-cove",
+      "type": 0,
+      "position": 12,
+      "parent_id": "1304191468834918541",
+      "topic": null,
+      "nsfw": false,
+      "rate_limit_per_user": 0,
+      "flags": 0,
+      "kind": "text",
+      "permissionOverwrites": [
+        {
+          "targetId": "1184863861065658419",
+          "targetType": "role",
+          "allow": "0",
+          "deny": "1024"
+        }
+      ],
+      "availableTags": []
+    },
+    {
+      "id": "1346507970070052944",
+      "name": "economy-estuary",
+      "type": 0,
+      "position": 13,
+      "parent_id": "1304191468834918541",
+      "topic": null,
+      "nsfw": false,
+      "rate_limit_per_user": 0,
+      "flags": 0,
+      "kind": "text",
+      "permissionOverwrites": [
+        {
+          "targetId": "1184863861065658419",
+          "targetType": "role",
+          "allow": "0",
+          "deny": "1024"
+        },
+        {
+          "targetId": "1346510930036527114",
+          "targetType": "role",
+          "allow": "3072",
+          "deny": "0"
+        }
+      ],
+      "availableTags": []
+    },
+    {
+      "id": "1303401965685837986",
+      "name": "emacs-estuary",
+      "type": 0,
+      "position": 14,
+      "parent_id": "1304191468834918541",
+      "topic": null,
+      "nsfw": false,
+      "rate_limit_per_user": 0,
+      "flags": 0,
+      "kind": "text",
+      "permissionOverwrites": [
+        {
+          "targetId": "1346504579604545566",
+          "targetType": "role",
+          "allow": "0",
+          "deny": "274877909056"
+        },
+        {
+          "targetId": "1184863861065658419",
+          "targetType": "role",
+          "allow": "0",
+          "deny": "1024"
+        }
+      ],
+      "availableTags": []
+    },
+    {
+      "id": "1346508698809532416",
+      "name": "garden-grove",
+      "type": 0,
+      "position": 15,
+      "parent_id": "1304191468834918541",
+      "topic": null,
+      "nsfw": false,
+      "rate_limit_per_user": 0,
+      "flags": 0,
+      "kind": "text",
+      "permissionOverwrites": [
+        {
+          "targetId": "1350851286819409961",
+          "targetType": "role",
+          "allow": "3072",
+          "deny": "0"
+        },
+        {
+          "targetId": "1184863861065658419",
+          "targetType": "role",
+          "allow": "0",
+          "deny": "1024"
+        }
+      ],
+      "availableTags": []
+    },
+    {
+      "id": "1304191378707710062",
+      "name": "gnoponemacs-gnoll",
+      "type": 0,
+      "position": 16,
+      "parent_id": "1304191468834918541",
+      "topic": null,
+      "nsfw": false,
+      "rate_limit_per_user": 0,
+      "flags": 0,
+      "kind": "text",
+      "permissionOverwrites": [
+        {
+          "targetId": "1346504579604545566",
+          "targetType": "role",
+          "allow": "0",
+          "deny": "274877909056"
+        },
+        {
+          "targetId": "1184863861065658419",
+          "targetType": "role",
+          "allow": "0",
+          "deny": "1024"
+        }
+      ],
+      "availableTags": []
+    },
+    {
+      "id": "1346508058603421778",
+      "name": "praxis-penisula",
+      "type": 0,
+      "position": 17,
+      "parent_id": "1304191468834918541",
+      "topic": null,
+      "nsfw": false,
+      "rate_limit_per_user": 0,
+      "flags": 0,
+      "kind": "text",
+      "permissionOverwrites": [
+        {
+          "targetId": "1346510772297273345",
+          "targetType": "role",
+          "allow": "3072",
+          "deny": "0"
+        },
+        {
+          "targetId": "1184863861065658419",
+          "targetType": "role",
+          "allow": "0",
+          "deny": "1024"
+        }
+      ],
+      "availableTags": []
+    },
+    {
+      "id": "1264035560624881674",
+      "name": "silicon-sandbar",
+      "type": 0,
+      "position": 18,
+      "parent_id": "1304191468834918541",
+      "topic": "A place to talk about things that happen with and within digital tech.",
+      "nsfw": false,
+      "rate_limit_per_user": 0,
+      "flags": 0,
+      "kind": "text",
+      "permissionOverwrites": [
+        {
+          "targetId": "1346510849904480307",
+          "targetType": "role",
+          "allow": "3072",
+          "deny": "0"
+        },
+        {
+          "targetId": "1184863861065658419",
+          "targetType": "role",
+          "allow": "0",
+          "deny": "1049600"
+        },
+        {
+          "targetId": "1346504579604545566",
+          "targetType": "role",
+          "allow": "0",
+          "deny": "274877909056"
+        }
+      ],
+      "availableTags": []
+    },
+    {
+      "id": "1319492744246464542",
+      "name": "stock-shoals",
+      "type": 0,
+      "position": 19,
+      "parent_id": "1304191468834918541",
+      "topic": null,
+      "nsfw": false,
+      "rate_limit_per_user": 0,
+      "flags": 0,
+      "kind": "text",
+      "permissionOverwrites": [
+        {
+          "targetId": null,
+          "targetType": "member",
+          "allow": "1024",
+          "deny": "0"
+        },
+        {
+          "targetId": null,
+          "targetType": "member",
+          "allow": "1049600",
+          "deny": "0"
+        },
+        {
+          "targetId": "1346504579604545566",
+          "targetType": "role",
+          "allow": "0",
+          "deny": "274877909056"
+        },
+        {
+          "targetId": "1184863861065658419",
+          "targetType": "role",
+          "allow": "0",
+          "deny": "1049600"
+        }
+      ],
+      "availableTags": []
+    },
+    {
+      "id": "1349710742210875433",
+      "name": "trader-trove",
+      "type": 0,
+      "position": 20,
+      "parent_id": "1304191468834918541",
+      "topic": null,
+      "nsfw": false,
+      "rate_limit_per_user": 0,
+      "flags": 0,
+      "kind": "text",
+      "permissionOverwrites": [
+        {
+          "targetId": "1349711059497521215",
+          "targetType": "role",
+          "allow": "3072",
+          "deny": "0"
+        },
+        {
+          "targetId": "1184863861065658419",
+          "targetType": "role",
+          "allow": "0",
+          "deny": "1024"
+        }
+      ],
+      "availableTags": []
+    },
+    {
+      "id": "1305707391349686312",
+      "name": "marmot-marsh",
+      "type": 0,
+      "position": 21,
+      "parent_id": "1304191643410235403",
+      "topic": "Channel for the Marmot family to talk to each other easily.",
+      "nsfw": false,
+      "rate_limit_per_user": 0,
+      "flags": 0,
+      "kind": "text",
+      "permissionOverwrites": [
+        {
+          "targetId": null,
+          "targetType": "member",
+          "allow": "1024",
+          "deny": "0"
+        },
+        {
+          "targetId": null,
+          "targetType": "member",
+          "allow": "1024",
+          "deny": "0"
+        },
+        {
+          "targetId": "1346504579604545566",
+          "targetType": "role",
+          "allow": "0",
+          "deny": "274877909056"
+        },
+        {
+          "targetId": "1184863861065658419",
+          "targetType": "role",
+          "allow": "0",
+          "deny": "1024"
+        }
+      ],
+      "availableTags": []
+    },
+    {
+      "id": "1263533815272312852",
+      "name": "wita",
+      "type": 0,
+      "position": 22,
+      "parent_id": "1184898167821570119",
+      "topic": "A channel for Lakota folk and their family.",
+      "nsfw": false,
+      "rate_limit_per_user": 0,
+      "flags": 0,
+      "kind": "text",
+      "permissionOverwrites": [
+        {
+          "targetId": "1346504579604545566",
+          "targetType": "role",
+          "allow": "0",
+          "deny": "274877909056"
+        },
+        {
+          "targetId": "1184863861065658419",
+          "targetType": "role",
+          "allow": "0",
+          "deny": "1024"
+        },
+        {
+          "targetId": null,
+          "targetType": "member",
+          "allow": "1024",
+          "deny": "0"
+        }
+      ],
+      "availableTags": []
+    },
+    {
+      "id": "1264074538304405536",
+      "name": "turtle",
+      "type": 0,
+      "position": 23,
+      "parent_id": "1184898167821570119",
+      "topic": null,
+      "nsfw": false,
+      "rate_limit_per_user": 0,
+      "flags": 0,
+      "kind": "text",
+      "permissionOverwrites": [
+        {
+          "targetId": "1346683681636618322",
+          "targetType": "role",
+          "allow": "3072",
+          "deny": "0"
+        },
+        {
+          "targetId": "1346504579604545566",
+          "targetType": "role",
+          "allow": "0",
+          "deny": "274877909056"
+        },
+        {
+          "targetId": "1184863861065658419",
+          "targetType": "role",
+          "allow": "0",
+          "deny": "1024"
+        }
+      ],
+      "availableTags": []
+    },
+    {
+      "id": "1436014867814416424",
+      "name": "write-for-a-month-2025",
+      "type": 15,
+      "position": 24,
+      "parent_id": "1436014777708314654",
+      "topic": null,
+      "nsfw": false,
+      "rate_limit_per_user": 0,
+      "flags": 0,
+      "default_sort_order": null,
+      "default_forum_layout": 0,
+      "kind": "forum",
+      "permissionOverwrites": [
+        {
+          "targetId": null,
+          "targetType": "member",
+          "allow": "1024",
+          "deny": "0"
+        },
+        {
+          "targetId": "1184863861065658419",
+          "targetType": "role",
+          "allow": "2048",
+          "deny": "1024"
+        }
+      ],
+      "availableTags": []
+    },
+    {
+      "id": "1346504578962690129",
+      "name": "modlog",
+      "type": 0,
+      "position": 25,
+      "parent_id": "1346490989346558052",
+      "topic": null,
+      "nsfw": false,
+      "rate_limit_per_user": 0,
+      "flags": 0,
+      "kind": "text",
+      "permissionOverwrites": [
+        {
+          "targetId": "1346512207558742098",
+          "targetType": "role",
+          "allow": "1024",
+          "deny": "2048"
+        },
+        {
+          "targetId": "1346504579604545566",
+          "targetType": "role",
+          "allow": "0",
+          "deny": "274877909056"
+        },
+        {
+          "targetId": "1184863861065658419",
+          "targetType": "role",
+          "allow": "0",
+          "deny": "1024"
+        }
+      ],
+      "availableTags": []
+    },
+    {
+      "id": "1346491562342875137",
+      "name": "discord-announcements",
+      "type": 0,
+      "position": 26,
+      "parent_id": "1346490989346558052",
+      "topic": null,
+      "nsfw": false,
+      "rate_limit_per_user": 0,
+      "flags": 0,
+      "kind": "text",
+      "permissionOverwrites": [
+        {
+          "targetId": "1346512207558742098",
+          "targetType": "role",
+          "allow": "1024",
+          "deny": "2048"
+        },
+        {
+          "targetId": "1346504579604545566",
+          "targetType": "role",
+          "allow": "0",
+          "deny": "274877909056"
+        },
+        {
+          "targetId": "1184863861065658419",
+          "targetType": "role",
+          "allow": "0",
+          "deny": "1024"
+        }
+      ],
+      "availableTags": []
+    },
+    {
+      "id": "1346511556493578250",
+      "name": "governance-action",
+      "type": 0,
+      "position": 27,
+      "parent_id": "1346490989346558052",
+      "topic": null,
+      "nsfw": false,
+      "rate_limit_per_user": 0,
+      "flags": 0,
+      "kind": "text",
+      "permissionOverwrites": [
+        {
+          "targetId": "1346510818958643301",
+          "targetType": "role",
+          "allow": "1024",
+          "deny": "2048"
+        },
+        {
+          "targetId": "1346512207558742098",
+          "targetType": "role",
+          "allow": "1024",
+          "deny": "0"
+        },
+        {
+          "targetId": "1184863861065658419",
+          "targetType": "role",
+          "allow": "0",
+          "deny": "1024"
+        }
+      ],
+      "availableTags": []
+    },
+    {
+      "id": "1346513158243618877",
+      "name": "governance-proposals",
+      "type": 0,
+      "position": 28,
+      "parent_id": "1346490989346558052",
+      "topic": null,
+      "nsfw": false,
+      "rate_limit_per_user": 0,
+      "flags": 0,
+      "kind": "text",
+      "permissionOverwrites": [
+        {
+          "targetId": "1346510818958643301",
+          "targetType": "role",
+          "allow": "1024",
+          "deny": "2048"
+        },
+        {
+          "targetId": "1346512207558742098",
+          "targetType": "role",
+          "allow": "3072",
+          "deny": "0"
+        },
+        {
+          "targetId": "1184863861065658419",
+          "targetType": "role",
+          "allow": "0",
+          "deny": "1024"
+        }
+      ],
+      "availableTags": []
+    },
+    {
+      "id": "1346511343573926010",
+      "name": "governance-discussion",
+      "type": 0,
+      "position": 29,
+      "parent_id": "1346490989346558052",
+      "topic": null,
+      "nsfw": false,
+      "rate_limit_per_user": 0,
+      "flags": 0,
+      "kind": "text",
+      "permissionOverwrites": [
+        {
+          "targetId": "1346510818958643301",
+          "targetType": "role",
+          "allow": "1024",
+          "deny": "2048"
+        },
+        {
+          "targetId": "1346512207558742098",
+          "targetType": "role",
+          "allow": "3072",
+          "deny": "0"
+        },
+        {
+          "targetId": "1184863861065658419",
+          "targetType": "role",
+          "allow": "0",
+          "deny": "1049600"
+        }
+      ],
+      "availableTags": []
+    },
+    {
+      "id": "1346511840603279433",
+      "name": "governance-questions",
+      "type": 0,
+      "position": 30,
+      "parent_id": "1346490989346558052",
+      "topic": null,
+      "nsfw": false,
+      "rate_limit_per_user": 0,
+      "flags": 0,
+      "kind": "text",
+      "permissionOverwrites": [
+        {
+          "targetId": "1346510818958643301",
+          "targetType": "role",
+          "allow": "3072",
+          "deny": "0"
+        },
+        {
+          "targetId": "1346512207558742098",
+          "targetType": "role",
+          "allow": "3072",
+          "deny": "0"
+        },
+        {
+          "targetId": "1184863861065658419",
+          "targetType": "role",
+          "allow": "0",
+          "deny": "1049600"
+        }
+      ],
+      "availableTags": []
+    },
+    {
+      "id": "1519620764695793876",
+      "name": "serious-threading",
+      "type": 0,
+      "position": 34,
+      "parent_id": "1529198935388717189",
+      "topic": "Slower threads, arguments, context recovery, and conversation that should not evaporate.",
+      "nsfw": false,
+      "rate_limit_per_user": 0,
+      "flags": 0,
+      "kind": "text",
+      "permissionOverwrites": [
+        {
+          "targetId": null,
+          "targetType": "member",
+          "allow": "68608",
+          "deny": "0"
+        },
+        {
+          "targetId": null,
+          "targetType": "member",
+          "allow": "68608",
+          "deny": "0"
+        },
+        {
+          "targetId": "1184867019988947065",
+          "targetType": "role",
+          "allow": "68608",
+          "deny": "0"
+        },
+        {
+          "targetId": "1184863861065658419",
+          "targetType": "role",
+          "allow": "0",
+          "deny": "1024"
+        }
+      ],
+      "availableTags": []
+    },
+    {
+      "id": "1519620766990073886",
+      "name": "vault-briefings",
+      "type": 0,
+      "position": 35,
+      "parent_id": "1529198935388717189",
+      "topic": "Climate-breakdown vault briefings, reading paths, and agent-assisted synthesis.",
+      "nsfw": false,
+      "rate_limit_per_user": 0,
+      "flags": 0,
+      "kind": "text",
+      "permissionOverwrites": [
+        {
+          "targetId": null,
+          "targetType": "member",
+          "allow": "68608",
+          "deny": "0"
+        },
+        {
+          "targetId": null,
+          "targetType": "member",
+          "allow": "68608",
+          "deny": "0"
+        },
+        {
+          "targetId": "1184867019988947065",
+          "targetType": "role",
+          "allow": "68608",
+          "deny": "0"
+        },
+        {
+          "targetId": "1184863861065658419",
+          "targetType": "role",
+          "allow": "0",
+          "deny": "1024"
+        }
+      ],
+      "availableTags": []
+    },
+    {
+      "id": "1519620769695535264",
+      "name": "archive-desk",
+      "type": 0,
+      "position": 36,
+      "parent_id": "1529198935388717189",
+      "topic": "Where useful Discord knowledge gets rescued into durable archive or vault material.",
+      "nsfw": false,
+      "rate_limit_per_user": 0,
+      "flags": 0,
+      "kind": "text",
+      "permissionOverwrites": [
+        {
+          "targetId": null,
+          "targetType": "member",
+          "allow": "68608",
+          "deny": "0"
+        },
+        {
+          "targetId": null,
+          "targetType": "member",
+          "allow": "68608",
+          "deny": "0"
+        },
+        {
+          "targetId": "1184867019988947065",
+          "targetType": "role",
+          "allow": "68608",
+          "deny": "0"
+        },
+        {
+          "targetId": "1184863861065658419",
+          "targetType": "role",
+          "allow": "0",
+          "deny": "1024"
+        }
+      ],
+      "availableTags": []
+    },
+    {
+      "id": "1519620773436854353",
+      "name": "receipts",
+      "type": 0,
+      "position": 37,
+      "parent_id": "1529198935388717189",
+      "topic": "Source trails, links, citations, screenshots, and provenance for claims worth preserving.",
+      "nsfw": false,
+      "rate_limit_per_user": 0,
+      "flags": 0,
+      "kind": "text",
+      "permissionOverwrites": [
+        {
+          "targetId": null,
+          "targetType": "member",
+          "allow": "68608",
+          "deny": "0"
+        },
+        {
+          "targetId": null,
+          "targetType": "member",
+          "allow": "68608",
+          "deny": "0"
+        },
+        {
+          "targetId": "1184867019988947065",
+          "targetType": "role",
+          "allow": "68608",
+          "deny": "0"
+        },
+        {
+          "targetId": "1184863861065658419",
+          "targetType": "role",
+          "allow": "0",
+          "deny": "1024"
+        }
+      ],
+      "availableTags": []
+    }
+  ],
+  "onboarding": {
+    "enabled": true,
+    "mode": 0,
+    "defaultChannelIds": [
+      "1184864166142558349"
+    ],
+    "prompts": [
+      {
+        "id": "1543357317385297942",
+        "type": 0,
+        "title": "What would you like to find in Turntide Islands?",
+        "singleSelect": false,
+        "required": true,
+        "inOnboarding": true,
+        "options": [
+          {
+            "id": "1543357317385297945",
+            "title": "Conversation and culture",
+            "description": "Everyday life, music, and the people already here",
+            "roleIds": [
+              "1184867019988947065"
+            ],
+            "channelIds": [
+              "1266775258808189025",
+              "1184863861065658422"
+            ]
+          },
+          {
+            "id": "1543357317385297946",
+            "title": "Questions and research",
+            "description": "Ask, investigate, and connect sources to lived places",
+            "roleIds": [
+              "1184867019988947065"
+            ],
+            "channelIds": [
+              "1519620761847992340",
+              "1396155279208484997"
+            ]
+          },
+          {
+            "id": "1543357317385297947",
+            "title": "Memes and fast-moving signals",
+            "description": "Notice what is changing without losing the human context",
+            "roleIds": [
+              "1184867019988947065"
+            ],
+            "channelIds": [
+              "1519620763144159313",
+              "1519620761847992340"
+            ]
+          },
+          {
+            "id": "1543357317385297948",
+            "title": "Sky and witnessed TTI updates",
+            "description": "Recurring observations and accountable community reports",
+            "roleIds": [
+              "1184867019988947065"
+            ],
+            "channelIds": [
+              "1528099832143544381",
+              "1529174202597249125"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "welcomeScreen": {
+    "description": "Arrive at the dock, complete onboarding, and open the parts of Turntide Islands you want.",
+    "welcomeChannels": [
+      {
+        "channelId": "1184864166142558349",
+        "description": "Complete onboarding to enter Turntide Islands",
+        "emojiId": null,
+        "emojiName": "⚓"
+      }
+    ]
+  }
+}

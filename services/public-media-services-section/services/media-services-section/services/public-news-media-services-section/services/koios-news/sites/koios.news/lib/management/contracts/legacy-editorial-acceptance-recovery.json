@@ -1,0 +1,23 @@
+{
+  "kind": "koios.service-contract",
+  "id": "koios.news/legacy-editorial-acceptance-recovery/v1",
+  "customer": "koios-news",
+  "provider": "koios-news/editorial-records",
+  "preconditions": [
+    "A prior customer-authored publication-state projection accepted a manuscript without changing its body.",
+    "The cited provider exchange contains both the exact manuscript shown to the editor and the exact acceptance report retained by that projection.",
+    "The current manuscript body is byte-identical to the manuscript body shown to the editor.",
+    "Only admitted deterministic front-matter fields differ between the reviewed manuscript and the current manuscript."
+  ],
+  "postconditions": [
+    "An exact-digest controlled-migration projection is appended to Koios's editorial-judgments ledger.",
+    "The projection cites the prior acceptance, provider exchange, reviewed manuscript, and current manuscript by digest.",
+    "No model is invoked and no prose, source claim, or editorial report is regenerated."
+  ],
+  "refusals": [
+    "The editor prompt or completion cannot be tied exactly to the prior acceptance.",
+    "The manuscript body changed.",
+    "A front-matter difference is outside the admitted deterministic fields.",
+    "The prior projection is not an accepted body-preserving customer projection."
+  ]
+}

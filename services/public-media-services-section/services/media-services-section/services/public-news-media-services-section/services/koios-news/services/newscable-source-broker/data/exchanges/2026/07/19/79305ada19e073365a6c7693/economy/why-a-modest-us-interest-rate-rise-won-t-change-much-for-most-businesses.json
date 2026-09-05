@@ -1,0 +1,69 @@
+{
+  "subject": "why-a-modest-us-interest-rate-rise-won-t-change-much-for-most-businesses",
+  "claims": [
+    {
+      "id": "title",
+      "proposition": {
+        "predicate": "title",
+        "object": "Why a modest US interest rate rise won’t change much for most businesses"
+      },
+      "time": {
+        "asserted": "2026-07-19T15:04:06.303Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "economy",
+        "citation": "https://www.theguardian.com/business/2026/jul/19/us-interest-rates-businesses"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "url",
+      "proposition": {
+        "predicate": "url",
+        "object": "https://www.theguardian.com/business/2026/jul/19/us-interest-rates-businesses"
+      },
+      "time": {
+        "asserted": "2026-07-19T15:04:06.303Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "economy",
+        "citation": "https://www.theguardian.com/business/2026/jul/19/us-interest-rates-businesses"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "summary",
+      "proposition": {
+        "predicate": "summary",
+        "object": "<p>Rates may rise, but don’t be too concerned – a small increase is unlikely to change major decisions on investment or hiring</p><p>With the appointment of a new <a href=\"https://www.theguardian.com/business/federal-reserve\">Federal Reserve</a> chair, the latest concern is that interest rates will go up in the next few months. That decision will depend on many factors, including <a href=\"https://www.theguardian.com/business/inflation\">inflation</a>, jobs and the economy’s overall growth. But when that happens, watch out! The media will go nuts and the president will go ballistic. Everyone treats every Fed meeting as an economic earthquake. But for most small businesses, it isn’t.</p><p>A 25-basis-point increase doesn’t meaningfully change borrowing costs for most established businesses. In fact, it changes nothing at all.</p> <a href=\"https://www.theguardian.com/business/2026/jul/19/us-interest-rates-businesses\">Continue reading...</a>"
+      },
+      "time": {
+        "asserted": "2026-07-19T15:04:06.303Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "economy",
+        "citation": "https://www.theguardian.com/business/2026/jul/19/us-interest-rates-businesses"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "published",
+      "proposition": {
+        "predicate": "published",
+        "object": "Sun, 19 Jul 2026 14:00:28 GMT"
+      },
+      "time": {
+        "asserted": "2026-07-19T15:04:06.303Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "economy",
+        "citation": "https://www.theguardian.com/business/2026/jul/19/us-interest-rates-businesses"
+      },
+      "status": "supported"
+    }
+  ]
+}

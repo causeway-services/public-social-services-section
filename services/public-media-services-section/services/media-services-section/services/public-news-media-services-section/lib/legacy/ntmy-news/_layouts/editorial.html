@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en-us">
+<head>
+  <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+  <title>{{ page.title }}</title>
+  <meta property="og:title" content="{{ page.title }}" />
+  <meta property="og:type" content="{{ page.type }}" />
+  <meta property="og:url" content="{{ site.url}}{{ page.url }}" />
+  <meta property="og:image" content={{ page.featured-image }} />
+  <meta name="author" content={{ page.author }} />
+</head>
+<body>
+  <div class="site">
+    <div class="title">
+      <h1>{{ page.title }}</h1>
+      {{ page.description }}
+      <h2>by {{ page.author }}</h2>
+      <hr>
+    </div>
+    {{ content }}
+    <div class="footer">
+      <hr>
+      <em><a href="{{ site.url }}" target="_blank">{{ site.title }}</a></em> is an <a href="/LICENSE" target="_blank">unlicensed</a> news source and a product of the <a href="http://samjoneshouse.github.io" target="_blank">Sam Jones House</a>.
+    </div>
+  </div>
+</body>
+</html>

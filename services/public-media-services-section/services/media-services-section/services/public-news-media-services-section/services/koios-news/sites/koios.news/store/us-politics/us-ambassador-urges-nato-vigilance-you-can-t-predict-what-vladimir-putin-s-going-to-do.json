@@ -1,0 +1,69 @@
+{
+  "subject": "us-ambassador-urges-nato-vigilance-you-can-t-predict-what-vladimir-putin-s-going-to-do",
+  "claims": [
+    {
+      "id": "title",
+      "proposition": {
+        "predicate": "title",
+        "object": "US ambassador urges NATO vigilance: ‘You can’t predict what Vladimir Putin’s going to do’"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "us-politics",
+        "citation": "https://thehill.com/homenews/administration/6066994-nato-ambassador-putin-threats-warning/"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "url",
+      "proposition": {
+        "predicate": "url",
+        "object": "https://thehill.com/homenews/administration/6066994-nato-ambassador-putin-threats-warning/"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "us-politics",
+        "citation": "https://thehill.com/homenews/administration/6066994-nato-ambassador-putin-threats-warning/"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "summary",
+      "proposition": {
+        "predicate": "summary",
+        "object": "Matthew Whitaker, the U.S. ambassador to NATO, is urging the military alliance’s members to boost defense spending and weapons production to prepare for emerging Russian threats. “You can’t predict what Vladimir Putin’s going to do or any adversary,” he told USA Today during an interview at NATO’s headquarters in Brussels, referring to the Russian president.…"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "us-politics",
+        "citation": "https://thehill.com/homenews/administration/6066994-nato-ambassador-putin-threats-warning/"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "published",
+      "proposition": {
+        "predicate": "published",
+        "object": "Wed, 02 Sep 2026 18:38:53 +0000"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "us-politics",
+        "citation": "https://thehill.com/homenews/administration/6066994-nato-ambassador-putin-threats-warning/"
+      },
+      "status": "supported"
+    }
+  ]
+}

@@ -1,0 +1,53 @@
+{
+  "subject": "degrees-of-mobility-shifting-low-income-students-to-higher-quality-colleges-by-elizabeth-burland-nora-delaney-susan-dynarski-katherine-b-leu-cj-libassi-katherine-michelmore-stephanie-owen-mary-a-quiroga-elizabeth-salinas",
+  "claims": [
+    {
+      "id": "title",
+      "proposition": {
+        "predicate": "title",
+        "object": "Degrees of Mobility: Shifting Low-Income Students to Higher Quality Colleges -- by Elizabeth Burland, Nora Delaney, Susan Dynarski, Katherine B. Leu, CJ Libassi, Katherine Michelmore, Stephanie Owen, Mary A. Quiroga, Elizabeth Salinas"
+      },
+      "time": {
+        "asserted": "2026-07-18T07:49:51.643Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "economy",
+        "citation": "https://www.nber.org/papers/w35434#fromrss"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "url",
+      "proposition": {
+        "predicate": "url",
+        "object": "https://www.nber.org/papers/w35434#fromrss"
+      },
+      "time": {
+        "asserted": "2026-07-18T07:49:51.643Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "economy",
+        "citation": "https://www.nber.org/papers/w35434#fromrss"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "summary",
+      "proposition": {
+        "predicate": "summary",
+        "object": "Earnings inequality among college graduates has grown, and returns to a bachelor's degree (BA) vary substantially across colleges. We experimentally evaluate a program that shifted high-achieving, low-income students into higher-quality colleges. Students randomly offered a guarantee of four years of tuition and fees at the University of Michigan were 21 percentage points more likely to enroll at a UM campus. The offer shifted students across colleges rather than into college: most compliers would otherwise have attended less-selective four-year colleges. HAIL increased four-year BA completion by 4 percentage points, but had no effect on attainment after six years. It substantially increased degree quality: students offered the scholarship were 12 percentage points more likely to earn a bachelor's degree from a highly or most selective college. IV estimates indicate that students induced to attend a University of Michigan campus were 56 percentage points more likely to earn such a degree. The increase in college quality predicts earnings gains of 18 to 25 percent. Faster degree completion adds about another 1 percent to the present discounted value of lifetime earnings."
+      },
+      "time": {
+        "asserted": "2026-07-18T07:49:51.643Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "economy",
+        "citation": "https://www.nber.org/papers/w35434#fromrss"
+      },
+      "status": "supported"
+    }
+  ]
+}

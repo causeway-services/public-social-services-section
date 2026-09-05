@@ -1,0 +1,69 @@
+{
+  "subject": "ink-review-danny-boyle-turns-the-birth-of-the-sun-into-a-lurid-tabloid-frenzy",
+  "claims": [
+    {
+      "id": "title",
+      "proposition": {
+        "predicate": "title",
+        "object": "Ink review – Danny Boyle turns the birth of the Sun into a lurid tabloid frenzy"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "culture",
+        "citation": "https://www.theguardian.com/film/2026/sep/02/ink-review-danny-boyle-jack-oconnell"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "url",
+      "proposition": {
+        "predicate": "url",
+        "object": "https://www.theguardian.com/film/2026/sep/02/ink-review-danny-boyle-jack-oconnell"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "culture",
+        "citation": "https://www.theguardian.com/film/2026/sep/02/ink-review-danny-boyle-jack-oconnell"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "summary",
+      "proposition": {
+        "predicate": "summary",
+        "object": "<p><strong>Venice film festival<br></strong>Jack O’Connell is terrific as editor Larry Lamb in James Graham’s tale of Rupert Murdoch, Page 3 and the newspaper that transformed Fleet Street</p><p>Danny Boyle presents us with a lurid, violent and thumpingly unsubtle movie full of Dutch angles, cartoony shocks and gargoyle closeups. It’s a chapter in the prehistory of modern media, adapted by James Graham <a href=\"https://www.theguardian.com/media/2017/jun/28/ink-review-when-idea-of-a-mission-to-inform-was-burned-by-the-sun\">from his 2017 stage play</a>, filled with shame and fear and self-hate. It is in fact the story of the Sun newspaper, and how Rupert Murdoch (Guy Pearce) bought the ailing minor title in the late 60s and hired a tough Yorkshire newspaperman, Larry Lamb, to turn it into a raucous and gleefully vulgar circulation powerhouse.</p><p>Ink summons up the energy and frenzy of tabloid papers of the era, but also – and not entirely intentionally – how strangely depressing they were. Audiences used to the super-rich anomie of the Roy family from TV’s Succession might find all this very unsexy. This is a world of officer-class Fleet Street execs having expense-account meals at Rules and the Savoy Grill in pinstripe suits, smoking and drinking and impassively writing salary offers on paper napkins and silently passing them across to each other. Meanwhile, the other ranks of journalists and print unions are covered in sweat and ink.</p> <a href=\"https://www.theguardian.com/film/2026/sep/02/ink-review-danny-boyle-jack-oconnell\">Continue reading...</a>"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "culture",
+        "citation": "https://www.theguardian.com/film/2026/sep/02/ink-review-danny-boyle-jack-oconnell"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "published",
+      "proposition": {
+        "predicate": "published",
+        "object": "Wed, 02 Sep 2026 18:24:34 GMT"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "culture",
+        "citation": "https://www.theguardian.com/film/2026/sep/02/ink-review-danny-boyle-jack-oconnell"
+      },
+      "status": "supported"
+    }
+  ]
+}

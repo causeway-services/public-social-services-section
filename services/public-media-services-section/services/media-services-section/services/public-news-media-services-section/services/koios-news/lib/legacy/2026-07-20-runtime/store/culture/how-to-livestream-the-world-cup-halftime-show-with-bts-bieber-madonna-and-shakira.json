@@ -1,0 +1,69 @@
+{
+  "subject": "how-to-livestream-the-world-cup-halftime-show-with-bts-bieber-madonna-and-shakira",
+  "claims": [
+    {
+      "id": "title",
+      "proposition": {
+        "predicate": "title",
+        "object": "How to Livestream the World Cup Halftime Show With BTS, Bieber, Madonna and Shakira"
+      },
+      "time": {
+        "asserted": "2026-07-19T20:06:19.825Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "culture",
+        "citation": "https://www.hollywoodreporter.com/tv/tv-news/watch-world-cup-halftime-show-2026-live-stream-free-online-1236651717/"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "url",
+      "proposition": {
+        "predicate": "url",
+        "object": "https://www.hollywoodreporter.com/tv/tv-news/watch-world-cup-halftime-show-2026-live-stream-free-online-1236651717/"
+      },
+      "time": {
+        "asserted": "2026-07-19T20:06:19.825Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "culture",
+        "citation": "https://www.hollywoodreporter.com/tv/tv-news/watch-world-cup-halftime-show-2026-live-stream-free-online-1236651717/"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "summary",
+      "proposition": {
+        "predicate": "summary",
+        "object": "Coldplay, Burna Boy, Gustavo Dudamel and characters from 'Sesame Street' and 'The Muppets' are also set to join the star-studded performance, marking the first halftime show in FIFA history."
+      },
+      "time": {
+        "asserted": "2026-07-19T20:06:19.825Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "culture",
+        "citation": "https://www.hollywoodreporter.com/tv/tv-news/watch-world-cup-halftime-show-2026-live-stream-free-online-1236651717/"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "published",
+      "proposition": {
+        "predicate": "published",
+        "object": "Sun, 19 Jul 2026 19:05:25 +0000"
+      },
+      "time": {
+        "asserted": "2026-07-19T20:06:19.825Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "culture",
+        "citation": "https://www.hollywoodreporter.com/tv/tv-news/watch-world-cup-halftime-show-2026-live-stream-free-online-1236651717/"
+      },
+      "status": "supported"
+    }
+  ]
+}

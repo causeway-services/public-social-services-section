@@ -1,0 +1,69 @@
+{
+  "subject": "could-this-policy-fix-the-care-system-and-slash-student-debt-at-the-same-time",
+  "claims": [
+    {
+      "id": "title",
+      "proposition": {
+        "predicate": "title",
+        "object": "Could this policy fix the care system and slash student debt at the same time?"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "culture",
+        "citation": "https://www.theguardian.com/books/2026/aug/30/could-this-one-policy-fix-the-care-system-and-slash-student-debt-at-the-same-time"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "url",
+      "proposition": {
+        "predicate": "url",
+        "object": "https://www.theguardian.com/books/2026/aug/30/could-this-one-policy-fix-the-care-system-and-slash-student-debt-at-the-same-time"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "culture",
+        "citation": "https://www.theguardian.com/books/2026/aug/30/could-this-one-policy-fix-the-care-system-and-slash-student-debt-at-the-same-time"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "summary",
+      "proposition": {
+        "predicate": "summary",
+        "object": "<p>Andy Burnham is in need of radical proposals. A ‘care first’ year in exchange for 50% off fees could be just what he needs</p><p>The UK’s social care sector is in crisis. Costs are spiralling, with many local councils forced to dedicate the vast majority of their budgets to it. At the same time, more and more families are seeing their savings disappear into the black hole of nursing home fees. With an ageing population, the problem is set to get worse.</p><p>In only his second week as prime minister, Andy Burnham pledged to succeed where so many of his predecessors have failed: by fixing Britain’s social care system. And yet, as parliament returns from recess, the new-ish administration is still worryingly unclear about how it will do this. Despite Burnham declaring that care workers should enjoy better compensation, we don’t know how he plans to pay for any of it – not least because he has kept Starmer’s campaign pledge to not raise income tax, VAT or national insurance. At the moment, it looks as though it will be impossible to square the circle.</p> <a href=\"https://www.theguardian.com/books/2026/aug/30/could-this-one-policy-fix-the-care-system-and-slash-student-debt-at-the-same-time\">Continue reading...</a>"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "culture",
+        "citation": "https://www.theguardian.com/books/2026/aug/30/could-this-one-policy-fix-the-care-system-and-slash-student-debt-at-the-same-time"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "published",
+      "proposition": {
+        "predicate": "published",
+        "object": "Sun, 30 Aug 2026 11:00:55 GMT"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "culture",
+        "citation": "https://www.theguardian.com/books/2026/aug/30/could-this-one-policy-fix-the-care-system-and-slash-student-debt-at-the-same-time"
+      },
+      "status": "supported"
+    }
+  ]
+}

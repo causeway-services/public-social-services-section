@@ -1,0 +1,69 @@
+{
+  "subject": "the-rush-to-power-data-centers-is-weakening-the-clean-air-act",
+  "claims": [
+    {
+      "id": "title",
+      "proposition": {
+        "predicate": "title",
+        "object": "The rush to power data centers is weakening the Clean Air Act"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "environment",
+        "citation": "https://grist.org/regulation/the-rush-to-power-data-centers-is-weakening-the-clean-air-act/"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "url",
+      "proposition": {
+        "predicate": "url",
+        "object": "https://grist.org/regulation/the-rush-to-power-data-centers-is-weakening-the-clean-air-act/"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "environment",
+        "citation": "https://grist.org/regulation/the-rush-to-power-data-centers-is-weakening-the-clean-air-act/"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "summary",
+      "proposition": {
+        "predicate": "summary",
+        "object": "Across the country, the electricity needs of data centers have been a major driver of the widespread resistance to speedy development. The rapid buildouts of data centers have raised concerns that residential and small business utility customers will end up shouldering the costs, and about the health and climate impacts because much of the new capacity relies on burning fossil fuels. The rush has also given rise to a popular refrain: Make the data centers provide their own electricity. Pennsylvania Governor Josh Shapiro recently announced a moratorium on “any AI data center that does not bring, develop, and pay for their own power,” citing electricity costs in a post announcing the move on Instagram. Texas Governor Greg Abbott blocked new data centers from connecting to the state’s power grid. A drumbeat of calls for data centers to make their own power has been sounding for months among regulators, consumer advocates, and other stakeholders. Proponents of this approach argue it will shield utility ratepayers from data center costs. And it might. But new guidance from the Environmental Protection Agency about “islanded” power plants — those built to serve a single facility rather than the electricity grid — shows there aren’t as many reliable safeguards against the environmental and climate impacts. The EPA published guidance last month clarifying that the Clean Air Act’s Acid Rain Program “does not apply to power generation facilities that are not connected in any way to the larger electricity grid.” It’s part of a broader effort, experts said, to loosen regulations for data centers and the power plants built to serve them. The Acid Rain Program is just one component of the complex federal air pollution law, which can require one facility to obtain numerous Clean Air Act permits, according to Mindy Goldstein, director of Emory Law School’s environmental law program. Exempting islanded power plants from the acid rain provisions means one fewer permit that independent power plants built for data centers need to obtain, though the EPA’s guidance and several experts contend such plants were never covered by the program. In 1990, the Acid Rain Program was added to the Clean Air Act to address the emissions of sulfur dioxide and nitrogen oxide from large power plants. From the beginning, the program applied only to utility power plants, or those producing electricity for sale primarily for use by the public. It largely captured coal plants that were old enough to have avoided other Clean Air Act regulations, according to University of Texas energy law and politics professor David Spence. Newer gas plants that were already subject to the rest of the Clean Air Act joined later. Compliance with the Acid Rain Program requires power plants to continuously monitor their emissions and report that data — something, Goldstein said, that states can’t mandate outside of the Acid Rain Program or another program that applies in fewer states. The monitoring inherent to the program has worked; sulfur dioxide and nitrogen oxide emissions from power generation have dropped significantly since the ’90s. Read Next Trump just killed the EPA’s ability to fight climate change. It may backfire. Jake Bittle “The anchor of the Clean Air Act is a set of programs that are, in the end, the responsibility of states and counties to implement targeting that local pollution,” said Joe Goffman, a former EPA official who’s now with the Environmental Protection Network. “Local regulators will have to decide, and communities will have to ultimately demand, some kind of system that reveals what the emissions profile of these things are.” Now, following the EPA’s guidance, state agencies have lost one of their most reliable tools to gauge the impact of these data center power plants. The dedicated data center power plants now being proposed and built come as the entire electric utility sector races to adjust to a new reality. After years of fairly steady demand, the advent of generative artificial intelligence and the hyperscale data centers that run it presented the electricity industry with massive projected load growth for the first time in decades. It’s shifted the trajectory of an industry that was trending away from fossil fuels . “For a long time, we just didn’t have anybody building gas plants at all because wind and solar are cheaper,” Spence said. “Then along came data centers with their incredibly large demands for power that has to be 24-7 and a lot of money to spend on these things.” OpenAI has announced a 9.2-gigawatt natural gas plant, to be built by the U.S. Energy Department, at the site of a data center in Ohio. In Texas, Amazon is planning a 7.65-gigawatt gas plant and Nexus has proposed a 6-gigawatt plant. These projects would be some of the largest power plants of any type in the country, but smaller plants are cropping up, too. The EPA’s guidance on islanded power plants cites a 500-megawatt natural gas plant being proposed for an unspecified data center. Microgrid developer VoltaGrid has applied for a permit to build a 90-megawatt facility in Georgia to power a Serverfarm data center. It will be up to state environmental agencies to issue permits for these projects. Though Goldstein stressed that EPA’s guidance is only that — it’s not a binding rule. State regulators can still do more than the minimum that federal rules demand. In a statement, the EPA said the Acid Rain Program guidance “expands opportunities for companies to develop and operate islanded power generation facilities for data centers. This will give developers greater flexibility in where and how quickly they can build new facilities while helping to protect the environment and reducing burdens on communities’ electric grid.” EPA has also proposed a more formal rule change that would further streamline the permitting process for data centers and power plants alike. Under that proposal, new pollution sources classified as “minor” would no longer require public notice and comment before permits are issued. “The proposal also does not demand that states make particular revisions to their programs and does not alter emission standards or weaken environmental protections,” the agency said in a statement. “This approach is intended to reduce administrative burden and responsibly speed up permitting, supporting American economic development and energy dominance.” That change, if implemented, would apply to any new power plant classified as “minor” rather than only islanded ones. But the overall trend of federal policy adds up, Goldstein said. “This is a piecemeal approach to trying to clear the way for data center siting and for the siting of corresponding electric generating units,” she said. “It seems like a continuous knockdown of dominoes to clear the way for these data centers, and they’re leaving states and communities to hold it back.” Some plants being built to serve data centers, meanwhile, are trying to skirt even local permitting.&nbsp; VoltaGrid and Serverfarm applied for state permits for their proposed power plant and backup generators in Georgia, but the Georgia Environmental Protection Division recently issued violation notices to both companies for beginning construction before getting those permits. A lawsuit by the NAACP alleges that xAI did not even apply for permits before building a 495-megawatt power plant in Mississippi to power a data center in Memphis, Tennessee.&nbsp; Within the broader context of the utility sector’s race to meet data center demand with fossil fuels, the rash of non-grid gas plants that fall outside some of the regulatory and environmental controls in place for grid-connected plants may raise some eyebrows — though Spence believes it’s unlikely to do more than that in the current political climate. “If AI had been invented in 1975, all of this growth would have been regulated because politics of regulation was starkly different then than it is now,” he said. “The partisan environment in Congress is not conducive to regulating this explosive growth.” This story was originally published by Grist with the headline The rush to power data centers is weakening the Clean Air Act on Aug 28, 2026."
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "environment",
+        "citation": "https://grist.org/regulation/the-rush-to-power-data-centers-is-weakening-the-clean-air-act/"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "published",
+      "proposition": {
+        "predicate": "published",
+        "object": "Fri, 28 Aug 2026 08:45:00 +0000"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "environment",
+        "citation": "https://grist.org/regulation/the-rush-to-power-data-centers-is-weakening-the-clean-air-act/"
+      },
+      "status": "supported"
+    }
+  ]
+}

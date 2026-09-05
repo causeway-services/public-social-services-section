@@ -1,0 +1,69 @@
+{
+  "subject": "legacy-lenovo-login-opens-5-000-dropbox-accounts-to-attackers",
+  "claims": [
+    {
+      "id": "title",
+      "proposition": {
+        "predicate": "title",
+        "object": "Legacy Lenovo login opens 5,000 Dropbox accounts to attackers"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "technology",
+        "citation": "https://www.theregister.com/security/2026/09/02/legacy-lenovo-login-opens-5000-dropbox-accounts-to-attackers/5293924"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "url",
+      "proposition": {
+        "predicate": "url",
+        "object": "https://www.theregister.com/security/2026/09/02/legacy-lenovo-login-opens-5000-dropbox-accounts-to-attackers/5293924"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "technology",
+        "citation": "https://www.theregister.com/security/2026/09/02/legacy-lenovo-login-opens-5000-dropbox-accounts-to-attackers/5293924"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "summary",
+      "proposition": {
+        "predicate": "summary",
+        "object": "Dropbox has warned around 5,000 users that attackers compromised their accounts by abusing a legacy Lenovo login integration. In an email sent to affected customers, the cloud storage biz said attackers exploited an integration that allowed users to access Dropbox using Lenovo IDs. Dropbox blamed \"an issue with Lenovo's email verification process,\" which allowed attackers to register Lenovo IDs using Dropbox users' email addresses and then access the corresponding storage accounts. It did not explain why the integration was allowed to grant access without requiring the user to enter a Dropbox password. The compromise lasted from August 4 to 21. Dropbox told Bloomberg that attackers accessed files belonging to fewer than a third of the affected users. Jameson Lopp, co-founder of Bitcoin security company Casa, said attackers attempted to access just one of his files, \"IMPORTANT.rtf,\" which had been encrypted locally before it was uploaded to Dropbox. Sometimes, it pays to be a nerd. Dropbox confirmed the scale of the attack to Reuters and said none of the affected accounts had two-factor authentication (2FA) enabled. After discovering the breach, Dropbox said it \"promptly expired all sessions logged in through Lenovo IDs\" and \"severed any link\" between the affected accounts and Lenovo. In its email, the company advised affected users to change their Dropbox and personal email passwords and enable 2FA. Lenovo told Reuters that its customers were unaffected and that its investigation was continuing. The Register asked Dropbox and Lenovo for more information. ®"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "technology",
+        "citation": "https://www.theregister.com/security/2026/09/02/legacy-lenovo-login-opens-5000-dropbox-accounts-to-attackers/5293924"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "published",
+      "proposition": {
+        "predicate": "published",
+        "object": "Wed, 02 Sep 2026 16:25:00 +0200"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "technology",
+        "citation": "https://www.theregister.com/security/2026/09/02/legacy-lenovo-login-opens-5000-dropbox-accounts-to-attackers/5293924"
+      },
+      "status": "supported"
+    }
+  ]
+}

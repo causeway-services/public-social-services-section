@@ -1,0 +1,69 @@
+{
+  "subject": "london-underground-users-should-know-about-toxic-dust-risk-whistleblower-says",
+  "claims": [
+    {
+      "id": "title",
+      "proposition": {
+        "predicate": "title",
+        "object": "London Underground users should know about toxic dust risk, whistleblower says"
+      },
+      "time": {
+        "asserted": "2026-07-18T19:52:21.689Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "economy",
+        "citation": "https://www.theguardian.com/uk-news/2026/jul/18/london-underground-passengers-should-know-about-toxic-dust-risks-whistleblower-says"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "url",
+      "proposition": {
+        "predicate": "url",
+        "object": "https://www.theguardian.com/uk-news/2026/jul/18/london-underground-passengers-should-know-about-toxic-dust-risks-whistleblower-says"
+      },
+      "time": {
+        "asserted": "2026-07-18T19:52:21.689Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "economy",
+        "citation": "https://www.theguardian.com/uk-news/2026/jul/18/london-underground-passengers-should-know-about-toxic-dust-risks-whistleblower-says"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "summary",
+      "proposition": {
+        "predicate": "summary",
+        "object": "<p>Former tube network cleaner says tribunal vindicated his health concerns, including about asbestos, that could affect public</p><p>A London Underground worker who was unfairly sacked after whistleblowing about his concerns over exposure to asbestos and other toxic dust has said he wants all tube passengers to know about the potential hazards his case has revealed.</p><p>Micky Steeds, a former professional boxer from Aveley in Essex, started working for London Underground in 2018 cleaning up decades of dust from vents, lift shafts and inverts – confined channels underneath station platforms for cabling.</p> <a href=\"https://www.theguardian.com/uk-news/2026/jul/18/london-underground-passengers-should-know-about-toxic-dust-risks-whistleblower-says\">Continue reading...</a>"
+      },
+      "time": {
+        "asserted": "2026-07-18T19:52:21.689Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "economy",
+        "citation": "https://www.theguardian.com/uk-news/2026/jul/18/london-underground-passengers-should-know-about-toxic-dust-risks-whistleblower-says"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "published",
+      "proposition": {
+        "predicate": "published",
+        "object": "Sat, 18 Jul 2026 06:58:47 GMT"
+      },
+      "time": {
+        "asserted": "2026-07-18T19:52:21.689Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "economy",
+        "citation": "https://www.theguardian.com/uk-news/2026/jul/18/london-underground-passengers-should-know-about-toxic-dust-risks-whistleblower-says"
+      },
+      "status": "supported"
+    }
+  ]
+}

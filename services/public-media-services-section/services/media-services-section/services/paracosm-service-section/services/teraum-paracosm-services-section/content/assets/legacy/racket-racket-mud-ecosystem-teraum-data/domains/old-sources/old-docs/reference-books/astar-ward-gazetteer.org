@@ -1,0 +1,26 @@
+#+SETUPFILE: ./setup.inc
+#+TITLE: Astar Ward Gazetteer
+#+EXPORT_FILE_NAME: ../../pub/reference-books/astar-ward-gazetteer
+#+MACRO: document-type gazetteer
+#+INDEX: Astar Ward!/Astar Ward Gazetteer/
+* DRAFT Introduction
+{{{document-isdraft}}}
+
+{{{document-hasproject}}}
+* DRAFT Astar Ward Gazetteer
+** DRAFT Overview
+#+BEGIN_QUOTE
+#+END_QUOTE
+** DRAFT History
+*** DRAFT Founding of the Astar Ward
+*** DRAFT Contemporary Astar Ward
+** DRAFT Map
+** DRAFT Areas
+*** DRAFT Streets
+*** DRAFT Buildings
+*** DRAFT Landmarks
+** DRAFT Notable Organizations and People
+** DRAFT Plots
+* DRAFT Supplements
+** DRAFT Index
+- Astar Ward :: {{{teraum-define-astar-ward}}}

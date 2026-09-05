@@ -1,0 +1,69 @@
+{
+  "subject": "an-act-of-resistance-holdout-homes-in-the-us-in-pictures",
+  "claims": [
+    {
+      "id": "title",
+      "proposition": {
+        "predicate": "title",
+        "object": "‘An act of resistance’: holdout homes in the US – in pictures"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "culture",
+        "citation": "https://www.theguardian.com/artanddesign/gallery/2026/aug/26/baltimore-holdout-homes-ben-marcin-in-pictures"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "url",
+      "proposition": {
+        "predicate": "url",
+        "object": "https://www.theguardian.com/artanddesign/gallery/2026/aug/26/baltimore-holdout-homes-ben-marcin-in-pictures"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "culture",
+        "citation": "https://www.theguardian.com/artanddesign/gallery/2026/aug/26/baltimore-holdout-homes-ben-marcin-in-pictures"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "summary",
+      "proposition": {
+        "predicate": "summary",
+        "object": "<p>Ben Marcin’s stunning photographs show lone houses, derelict homes and makeshift camps that stand as epitaphs to past lives and offer insight into how Americans on the margins live</p><p></p> <a href=\"https://www.theguardian.com/artanddesign/gallery/2026/aug/26/baltimore-holdout-homes-ben-marcin-in-pictures\">Continue reading...</a>"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "culture",
+        "citation": "https://www.theguardian.com/artanddesign/gallery/2026/aug/26/baltimore-holdout-homes-ben-marcin-in-pictures"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "published",
+      "proposition": {
+        "predicate": "published",
+        "object": "Wed, 26 Aug 2026 06:00:36 GMT"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "culture",
+        "citation": "https://www.theguardian.com/artanddesign/gallery/2026/aug/26/baltimore-holdout-homes-ben-marcin-in-pictures"
+      },
+      "status": "supported"
+    }
+  ]
+}

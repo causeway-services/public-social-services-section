@@ -1,0 +1,69 @@
+{
+  "subject": "trump-says-he-s-happy-harry-and-meghan-left-us-for-britain",
+  "claims": [
+    {
+      "id": "title",
+      "proposition": {
+        "predicate": "title",
+        "object": "Trump says he’s ‘happy’ Harry and Meghan left US for Britain"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "us-politics",
+        "citation": "https://thehill.com/blogs/in-the-know/6067374-trump-criticizes-royal-family-exit/"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "url",
+      "proposition": {
+        "predicate": "url",
+        "object": "https://thehill.com/blogs/in-the-know/6067374-trump-criticizes-royal-family-exit/"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "us-politics",
+        "citation": "https://thehill.com/blogs/in-the-know/6067374-trump-criticizes-royal-family-exit/"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "summary",
+      "proposition": {
+        "predicate": "summary",
+        "object": "President Trump is weighing in on Prince Harry and Meghan’s move from California back to Britain, saying he’s “happy about it.” “I was not a fan,” Trump said when asked by a reporter Wednesday in the Oval Office about the couple, who recently decamped to Britain after living in the Golden State for six years.…"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "us-politics",
+        "citation": "https://thehill.com/blogs/in-the-know/6067374-trump-criticizes-royal-family-exit/"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "published",
+      "proposition": {
+        "predicate": "published",
+        "object": "Wed, 02 Sep 2026 20:12:19 +0000"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "us-politics",
+        "citation": "https://thehill.com/blogs/in-the-know/6067374-trump-criticizes-royal-family-exit/"
+      },
+      "status": "supported"
+    }
+  ]
+}

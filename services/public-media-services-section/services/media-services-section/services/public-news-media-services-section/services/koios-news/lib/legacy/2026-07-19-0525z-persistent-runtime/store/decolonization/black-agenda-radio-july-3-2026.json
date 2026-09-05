@@ -1,0 +1,69 @@
+{
+  "subject": "black-agenda-radio-july-3-2026",
+  "claims": [
+    {
+      "id": "title",
+      "proposition": {
+        "predicate": "title",
+        "object": "Black Agenda Radio July 3, 2026"
+      },
+      "time": {
+        "asserted": "2026-07-19T02:20:00.056Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "decolonization",
+        "citation": "https://www.blackagendareport.com/black-agenda-radio-july-3-2026"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "url",
+      "proposition": {
+        "predicate": "url",
+        "object": "https://www.blackagendareport.com/black-agenda-radio-july-3-2026"
+      },
+      "time": {
+        "asserted": "2026-07-19T02:20:00.056Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "decolonization",
+        "citation": "https://www.blackagendareport.com/black-agenda-radio-july-3-2026"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "summary",
+      "proposition": {
+        "predicate": "summary",
+        "object": "<span class=\"field field--name-title field--type-string field--label-hidden\">Black Agenda Radio July 3, 2026</span> <div class=\"field field--name-field-authors field--type-entity-reference field--label-above\"> <div class=\"field__label\">Authors</div> <div class=\"field__items\"> <div class=\"field__item\"><a href=\"https://www.blackagendareport.com/taxonomy/term/2425\" hreflang=\"en\">Black Agenda Radio with Margaret Kimberley</a></div> </div> </div> <span class=\"field field--name-uid field--type-entity-reference field--label-hidden\"><span>bareditors</span></span> <span class=\"field field--name-created field--type-created field--label-hidden\"><time datetime=\"2026-07-03T05:09:24+05:30\" title=\"Friday, July 3, 2026 - 05:09\" class=\"datetime\">Fri, 07/03/2026 - 05:09</time> </span> <div class=\"clearfix text-formatted field field--name-field-embed-link field--type-text-with-summary field--label-hidden field__item\"><p><iframe width=\"100%\" height=\"166\" scrolling=\"no\" frameborder=\"no\" allow=\"autoplay; encrypted-media\" src=\"https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/soundcloud%3Atracks%3A2352191567%3Fsecret_token%3Ds-4Ow86VekAc1&amp;color=%23ff5500&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;show_teaser=true\"></iframe></p> <div style=\"color:#cccccc;font-family:Interstate,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Garuda,Verdana,Tahoma,sans-serif;font-size:10px;font-weight:100;line-break:anywhere;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;word-break:normal;\"><a style=\"color:#cccccc;text-decoration:none;\" href=\"https://soundcloud.com/user-92939733\" title=\"Black Agenda Radio\" target=\"_blank\">Black Agenda Radio</a> · <a style=\"color:#cccccc;text-decoration:none;\" href=\"https://soundcloud.com/user-92939733/black-agenda-radio-7-3-2026/s-4Ow86VekAc1\" title=\"Black Agenda Radio July 3, 2026\" target=\"_blank\">Black Agenda Radio July 3, 2026</a></div> </div> <div class=\"clearfix text-formatted field field--name-body field--type-text-with-summary field--label-hidden field__item\"><p>In this week’s segment, we hear analysis of the situation in Cuba, which is struggling under a U.S. siege meant to undo the revolution. Yet Cuba is resolute in its determination to enact its own policies on behalf of its people.</p> <p>But we begin with a discussion of Haiti, which has endured occupations ever since the kidnapping of its elected president in 2004. Now a U.S. mercenary outfit has been given authority to kill thousands of people under the guise of fighting armed militias. The U.S. and United Nations continue their collusion to keep Haiti under their grip.</p> </div> <div class=\"taxonomy__terms__container\"> <div class=\"taxonomy__term\"> <a href=\"https://www.blackagendareport.com/articlelist/International\">International</a> </div> </div> <div class=\"field field--name-tags1 field--type-entity-reference field--label-hidden field--items\"> <div class=\"field--item\"> <a href=\"https://www.blackagendareport.com/articles/Cuba\">Cuba</a> </div> <div class=\"field--item\"> <a href=\"https://www.blackagendareport.com/articles/Haiti\">Haiti</a> </div> <div class=\"field--item\"> <a href=\"https://www.blackagendareport.com/articles/Blockade\">Blockade</a> </div> <div class=\"field--item\"> <a href=\"https://www.blackagendareport.com/articles/Haiti Occupation\">Haiti Occupation</a> </div> <div class=\"field--item\"> <a href=\"https://www.blackagendareport.com/articles/Sanctions\">Sanctions</a> </div> <div class=\"field--item\"> <a href=\"https://www.blackagendareport.com/articles/gang suppression force\">gang suppression force</a> </div> <div class=\"field--item\"> <a href=\"https://www.blackagendareport.com/articles/United Nations\">United Nations</a> </div> <div class=\"field--item\"> <a href=\"https://www.blackagendareport.com/articles/national sovereignty\">national sovereignty</a> </div> </div>"
+      },
+      "time": {
+        "asserted": "2026-07-19T02:20:00.056Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "decolonization",
+        "citation": "https://www.blackagendareport.com/black-agenda-radio-july-3-2026"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "published",
+      "proposition": {
+        "predicate": "published",
+        "object": "Thu, 02 Jul 2026 23:39:24 +0000"
+      },
+      "time": {
+        "asserted": "2026-07-19T02:20:00.056Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "decolonization",
+        "citation": "https://www.blackagendareport.com/black-agenda-radio-july-3-2026"
+      },
+      "status": "supported"
+    }
+  ]
+}

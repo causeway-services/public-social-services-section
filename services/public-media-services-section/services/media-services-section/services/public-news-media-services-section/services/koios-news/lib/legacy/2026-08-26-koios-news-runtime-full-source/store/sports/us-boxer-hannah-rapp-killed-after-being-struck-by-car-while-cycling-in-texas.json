@@ -1,0 +1,69 @@
+{
+  "subject": "us-boxer-hannah-rapp-killed-after-being-struck-by-car-while-cycling-in-texas",
+  "claims": [
+    {
+      "id": "title",
+      "proposition": {
+        "predicate": "title",
+        "object": "US boxer Hannah Rapp killed after being struck by car while cycling in Texas"
+      },
+      "time": {
+        "asserted": "2026-07-19T15:58:02.610Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "sports",
+        "citation": "https://www.theguardian.com/us-news/2026/jul/19/boxer-hannah-rapp-dies-struck-by-car"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "url",
+      "proposition": {
+        "predicate": "url",
+        "object": "https://www.theguardian.com/us-news/2026/jul/19/boxer-hannah-rapp-dies-struck-by-car"
+      },
+      "time": {
+        "asserted": "2026-07-19T15:58:02.610Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "sports",
+        "citation": "https://www.theguardian.com/us-news/2026/jul/19/boxer-hannah-rapp-dies-struck-by-car"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "summary",
+      "proposition": {
+        "predicate": "summary",
+        "object": "<p>Investigators arrest 31-year-old man identified as Charles Medina in connection with death of Rapp who was 26</p><p>US boxer Hannah Rapp, who in June fought for the World Boxing Council women’s featherweight championship, was killed on Saturday while she bicycled in <a href=\"https://www.theguardian.com/us-news/texas\">Texas</a> after a motorist struck her with his car, according to authorities.</p><p>Rapp was 26, and investigators arrested a 31-year-old man identified as Charles Medina in connection with her death, the sheriff’s office of Brazos county, Texas, <a href=\"https://www.facebook.com/BrazosCountySheriff/posts/pfbid02PQXi9RZTuH3RpDnDH8vea4kbcNaXPYJdawqtG7ZxZzpEUVnUkZPg5s49cDKuxy8Rl\">said</a> in a statement.</p> <a href=\"https://www.theguardian.com/us-news/2026/jul/19/boxer-hannah-rapp-dies-struck-by-car\">Continue reading...</a>"
+      },
+      "time": {
+        "asserted": "2026-07-19T15:58:02.610Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "sports",
+        "citation": "https://www.theguardian.com/us-news/2026/jul/19/boxer-hannah-rapp-dies-struck-by-car"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "published",
+      "proposition": {
+        "predicate": "published",
+        "object": "Sun, 19 Jul 2026 14:15:36 GMT"
+      },
+      "time": {
+        "asserted": "2026-07-19T15:58:02.610Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "sports",
+        "citation": "https://www.theguardian.com/us-news/2026/jul/19/boxer-hannah-rapp-dies-struck-by-car"
+      },
+      "status": "supported"
+    }
+  ]
+}

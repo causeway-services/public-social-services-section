@@ -1,0 +1,69 @@
+{
+  "subject": "india-s-first-privately-developed-rocket-reaches-orbit-on-dramatic-debut-launch",
+  "claims": [
+    {
+      "id": "title",
+      "proposition": {
+        "predicate": "title",
+        "object": "India's first privately-developed rocket reaches orbit on dramatic debut launch"
+      },
+      "time": {
+        "asserted": "2026-07-19T23:18:19.490Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "technology",
+        "citation": "https://arstechnica.com/space/2026/07/indias-first-privately-developed-rocket-reaches-orbit-on-dramatic-debut-launch/"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "url",
+      "proposition": {
+        "predicate": "url",
+        "object": "https://arstechnica.com/space/2026/07/indias-first-privately-developed-rocket-reaches-orbit-on-dramatic-debut-launch/"
+      },
+      "time": {
+        "asserted": "2026-07-19T23:18:19.490Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "technology",
+        "citation": "https://arstechnica.com/space/2026/07/indias-first-privately-developed-rocket-reaches-orbit-on-dramatic-debut-launch/"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "summary",
+      "proposition": {
+        "predicate": "summary",
+        "object": "Indian space officials celebrated the debut flight of Skyroot Aerospace's Vikram-1 rocket, India's first fully commercial satellite launcher, as a \"grand success\" Saturday after an on-target climb into a 280-mile-high orbit following liftoff from an island spaceport in the Bay of Bengal. The Vikram-1 lifted off from India's primary spaceport on Sriharikota Island at 1:35 am EDT (06:35 UTC) Saturday, around midday at the launch base along India's southeast coast. The launch was delayed more than a half-hour to resolve a last-minute technical problem. The countdown resumed, culminating in the command to ignite Vikram-1's solid-fueled first stage booster to propel the rocket off the launch pad. Vikram-1 is modest in size compared to India's larger workhorse rockets. Skyroot's rocket stands about 72 feet (22 meters) tall, with the capability to place payloads of up to 770 pounds (350 kilograms) into low-Earth orbit. This makes Vikram-1 somewhat larger than the Electron launch vehicle developed by Rocket Lab, the world's most successful dedicated small satellite launcher. Read full article Comments"
+      },
+      "time": {
+        "asserted": "2026-07-19T23:18:19.490Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "technology",
+        "citation": "https://arstechnica.com/space/2026/07/indias-first-privately-developed-rocket-reaches-orbit-on-dramatic-debut-launch/"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "published",
+      "proposition": {
+        "predicate": "published",
+        "object": "Sun, 19 Jul 2026 22:11:21 +0000"
+      },
+      "time": {
+        "asserted": "2026-07-19T23:18:19.490Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "technology",
+        "citation": "https://arstechnica.com/space/2026/07/indias-first-privately-developed-rocket-reaches-orbit-on-dramatic-debut-launch/"
+      },
+      "status": "supported"
+    }
+  ]
+}

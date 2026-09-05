@@ -1,0 +1,69 @@
+{
+  "subject": "female-film-makers-still-being-squeezed-out-of-industry-london-film-festival-director-says",
+  "claims": [
+    {
+      "id": "title",
+      "proposition": {
+        "predicate": "title",
+        "object": "Female film-makers still being squeezed out of industry, London film festival director says"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "world",
+        "citation": "https://www.theguardian.com/film/2026/sep/02/female-film-makers-squeezed-out-of-industry-bfi-london-film-festival"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "url",
+      "proposition": {
+        "predicate": "url",
+        "object": "https://www.theguardian.com/film/2026/sep/02/female-film-makers-squeezed-out-of-industry-bfi-london-film-festival"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "world",
+        "citation": "https://www.theguardian.com/film/2026/sep/02/female-film-makers-squeezed-out-of-industry-bfi-london-film-festival"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "summary",
+      "proposition": {
+        "predicate": "summary",
+        "object": "<p>Over 40% of films in LFF programme are female-made, but only two of 21 gala films are directed by women</p><p>Female film-makers are still being squeezed out of the industry as they progress beyond their debut films, the director of the London film festival has said, adding that “the dial does not seem to be moving”.</p><p>Kristy Matheson’s comments came as LFF announced its full programme for this year’s event, which runs from 7 to 19 October. Of the 251 titles, 109 (43%) are made by female film-makers, but only two of the 21 gala films are directed by women.</p> <a href=\"https://www.theguardian.com/film/2026/sep/02/female-film-makers-squeezed-out-of-industry-bfi-london-film-festival\">Continue reading...</a>"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "world",
+        "citation": "https://www.theguardian.com/film/2026/sep/02/female-film-makers-squeezed-out-of-industry-bfi-london-film-festival"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "published",
+      "proposition": {
+        "predicate": "published",
+        "object": "Wed, 02 Sep 2026 18:00:07 GMT"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "world",
+        "citation": "https://www.theguardian.com/film/2026/sep/02/female-film-makers-squeezed-out-of-industry-bfi-london-film-festival"
+      },
+      "status": "supported"
+    }
+  ]
+}

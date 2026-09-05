@@ -1,0 +1,69 @@
+{
+  "subject": "rupert-murdoch-very-happy-that-guy-pearce-plays-him-in-fleet-street-biopic-ink",
+  "claims": [
+    {
+      "id": "title",
+      "proposition": {
+        "predicate": "title",
+        "object": "Rupert Murdoch ‘very happy’ that Guy Pearce plays him in Fleet Street biopic Ink"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "culture",
+        "citation": "https://www.theguardian.com/film/2026/sep/02/rupert-murdoch-very-happy-that-guy-pearce-plays-him-in-fleet-street-biopic-ink"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "url",
+      "proposition": {
+        "predicate": "url",
+        "object": "https://www.theguardian.com/film/2026/sep/02/rupert-murdoch-very-happy-that-guy-pearce-plays-him-in-fleet-street-biopic-ink"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "culture",
+        "citation": "https://www.theguardian.com/film/2026/sep/02/rupert-murdoch-very-happy-that-guy-pearce-plays-him-in-fleet-street-biopic-ink"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "summary",
+      "proposition": {
+        "predicate": "summary",
+        "object": "<p>Actor says the press baron’s daughter Elisabeth told him her father was pleased, ‘but he hadn’t seen the film at that point’</p><p>Rupert Murdoch is “very happy” that he’s being portrayed by Guy Pearce in a new film about the origins of British tabloid the Sun, the Australian actor has said.</p><p>Speaking at the Venice film festival ahead of the premiere of 28 Days Later director Danny Boyle’s Ink, Pearce said he had been messaging with the media tycoon’s daughter Elisabeth “and she did say ‘Dad’s very happy that you’re playing him’.”</p> <a href=\"https://www.theguardian.com/film/2026/sep/02/rupert-murdoch-very-happy-that-guy-pearce-plays-him-in-fleet-street-biopic-ink\">Continue reading...</a>"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "culture",
+        "citation": "https://www.theguardian.com/film/2026/sep/02/rupert-murdoch-very-happy-that-guy-pearce-plays-him-in-fleet-street-biopic-ink"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "published",
+      "proposition": {
+        "predicate": "published",
+        "object": "Wed, 02 Sep 2026 16:07:56 GMT"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "culture",
+        "citation": "https://www.theguardian.com/film/2026/sep/02/rupert-murdoch-very-happy-that-guy-pearce-plays-him-in-fleet-street-biopic-ink"
+      },
+      "status": "supported"
+    }
+  ]
+}

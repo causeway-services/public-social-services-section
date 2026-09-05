@@ -1,0 +1,69 @@
+{
+  "subject": "sphinxes-movie-stars-and-3m-books-inside-los-angeles-s-beloved-art-deco-library",
+  "claims": [
+    {
+      "id": "title",
+      "proposition": {
+        "predicate": "title",
+        "object": "Sphinxes, movie stars and 3m books: inside Los Angeles’s beloved art deco library"
+      },
+      "time": {
+        "asserted": "2026-07-20T09:48:52.265Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "culture",
+        "citation": "https://www.theguardian.com/us-news/2026/jul/19/los-angeles-central-libarary-centenary"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "url",
+      "proposition": {
+        "predicate": "url",
+        "object": "https://www.theguardian.com/us-news/2026/jul/19/los-angeles-central-libarary-centenary"
+      },
+      "time": {
+        "asserted": "2026-07-20T09:48:52.265Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "culture",
+        "citation": "https://www.theguardian.com/us-news/2026/jul/19/los-angeles-central-libarary-centenary"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "summary",
+      "proposition": {
+        "predicate": "summary",
+        "object": "<p>The showcase library’s centenary was celebrated by thousands who filled the still-relevant public institution</p><p>The central library in downtown <a href=\"https://www.theguardian.com/us-news/los-angeles\">Los Angeles</a> has seen its fair share of colorful moments.</p><p>The architectural gem, which turned 100 this week, has been the backdrop to the epic street battle between Pacino, De Niro et al in Heat, and was <a href=\"https://www.lapl.org/news-stories/articles/librarys-haunted-history-i-aint-afraid-no-ghosts\">where the original</a> Ghostbusters<em> </em>came across their first ghost, a friendly older lady librarian who was anything but. Television shows such as Moonlighting; Murder, She Wrote; and LA Law filmed there too, when characters were researching or investigating a case.</p> <a href=\"https://www.theguardian.com/us-news/2026/jul/19/los-angeles-central-libarary-centenary\">Continue reading...</a>"
+      },
+      "time": {
+        "asserted": "2026-07-20T09:48:52.265Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "culture",
+        "citation": "https://www.theguardian.com/us-news/2026/jul/19/los-angeles-central-libarary-centenary"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "published",
+      "proposition": {
+        "predicate": "published",
+        "object": "Sun, 19 Jul 2026 12:00:27 GMT"
+      },
+      "time": {
+        "asserted": "2026-07-20T09:48:52.265Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "culture",
+        "citation": "https://www.theguardian.com/us-news/2026/jul/19/los-angeles-central-libarary-centenary"
+      },
+      "status": "supported"
+    }
+  ]
+}

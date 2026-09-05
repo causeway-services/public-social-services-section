@@ -1,0 +1,69 @@
+{
+  "subject": "heartstopper-forever-review-sanitized-sex-scenes-won-t-let-the-netflix-lovebirds-grow-up",
+  "claims": [
+    {
+      "id": "title",
+      "proposition": {
+        "predicate": "title",
+        "object": "Heartstopper Forever review – sanitized sex scenes won’t let the Netflix lovebirds grow up"
+      },
+      "time": {
+        "asserted": "2026-07-18T19:52:42.248Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "culture",
+        "citation": "https://www.theguardian.com/film/2026/jul/17/heartstopper-forever-movie-review"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "url",
+      "proposition": {
+        "predicate": "url",
+        "object": "https://www.theguardian.com/film/2026/jul/17/heartstopper-forever-movie-review"
+      },
+      "time": {
+        "asserted": "2026-07-18T19:52:42.248Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "culture",
+        "citation": "https://www.theguardian.com/film/2026/jul/17/heartstopper-forever-movie-review"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "summary",
+      "proposition": {
+        "predicate": "summary",
+        "object": "<p>The film-length finale to the teen LGBTQ+ show has poignant moments but feels like fan service by numbers</p><p>If it were up to <a href=\"https://www.theguardian.com/tv-and-radio/kit-connor\">Kit Connor</a>, Heartstopper would have ended quite differently. “If I’d had my way, I would have had Nick and Charlie cheating on each other and doing all those stupid things,” he recently told <a href=\"https://www.theguardian.com/film/2026/jul/10/kit-connor-joe-locke-interview-heartstoppers-forever-queer-teen-drama-netflix\">the Guardian.</a> “Because young people do that and don’t necessarily need to be villainized for it.”</p><p>Midway through <a href=\"https://www.youtube.com/watch?v=locuQ-skySE\">Heartstopper Forever</a>, the film-length finale of Netflix’s series, I started to see his point. The central star-crossed lovebirds of Alice Oceman’s megahit are now 18 and 17, and like most teenagers they have sex, get drunk and fight with their annoying siblings. Unlike most people their age, they don’t vape, don’t use sex apps and they definitely don’t cheat.</p> <a href=\"https://www.theguardian.com/film/2026/jul/17/heartstopper-forever-movie-review\">Continue reading...</a>"
+      },
+      "time": {
+        "asserted": "2026-07-18T19:52:42.248Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "culture",
+        "citation": "https://www.theguardian.com/film/2026/jul/17/heartstopper-forever-movie-review"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "published",
+      "proposition": {
+        "predicate": "published",
+        "object": "Fri, 17 Jul 2026 07:01:00 GMT"
+      },
+      "time": {
+        "asserted": "2026-07-18T19:52:42.248Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "culture",
+        "citation": "https://www.theguardian.com/film/2026/jul/17/heartstopper-forever-movie-review"
+      },
+      "status": "supported"
+    }
+  ]
+}

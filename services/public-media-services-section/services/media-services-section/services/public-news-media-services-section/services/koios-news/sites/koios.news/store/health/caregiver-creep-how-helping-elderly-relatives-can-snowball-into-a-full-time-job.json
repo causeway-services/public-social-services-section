@@ -1,0 +1,69 @@
+{
+  "subject": "caregiver-creep-how-helping-elderly-relatives-can-snowball-into-a-full-time-job",
+  "claims": [
+    {
+      "id": "title",
+      "proposition": {
+        "predicate": "title",
+        "object": "Caregiver creep: how helping elderly relatives can snowball into a full-time job"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "health",
+        "citation": "https://www.theguardian.com/wellness/2026/aug/31/caregiver-creep-caring-elderly-relatives"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "url",
+      "proposition": {
+        "predicate": "url",
+        "object": "https://www.theguardian.com/wellness/2026/aug/31/caregiver-creep-caring-elderly-relatives"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "health",
+        "citation": "https://www.theguardian.com/wellness/2026/aug/31/caregiver-creep-caring-elderly-relatives"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "summary",
+      "proposition": {
+        "predicate": "summary",
+        "object": "<p>Assisting an ageing loved one can start with small tasks but may lead to full-time caregiving that requires more support</p><p>Helping an ageing parent or loved one often begins with easy-to-field requests: Pick up a prescription. Drive them to a doctor’s appointment. Grab groceries.</p><p>However, light tasks – just “helping out” here and there – may eventually snowball into the avalanche of full-time caregiving, a phenomenon becoming known as “caregiver creep”. Like “<a href=\"https://www.caregiveraction.org/understanding-caregiver-burnout/\">caregiver burnout</a>”, it’s not a formal term, but there is growing awareness about this slow build among healthcare providers and experts.</p> <a href=\"https://www.theguardian.com/wellness/2026/aug/31/caregiver-creep-caring-elderly-relatives\">Continue reading...</a>"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "health",
+        "citation": "https://www.theguardian.com/wellness/2026/aug/31/caregiver-creep-caring-elderly-relatives"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "published",
+      "proposition": {
+        "predicate": "published",
+        "object": "Mon, 31 Aug 2026 16:00:30 GMT"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "health",
+        "citation": "https://www.theguardian.com/wellness/2026/aug/31/caregiver-creep-caring-elderly-relatives"
+      },
+      "status": "supported"
+    }
+  ]
+}

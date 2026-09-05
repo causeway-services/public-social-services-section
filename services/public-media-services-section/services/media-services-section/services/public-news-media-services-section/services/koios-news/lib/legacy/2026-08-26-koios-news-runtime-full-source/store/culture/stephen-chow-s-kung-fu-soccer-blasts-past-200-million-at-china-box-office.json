@@ -1,0 +1,69 @@
+{
+  "subject": "stephen-chow-s-kung-fu-soccer-blasts-past-200-million-at-china-box-office",
+  "claims": [
+    {
+      "id": "title",
+      "proposition": {
+        "predicate": "title",
+        "object": "Stephen Chow’s ‘Kung Fu Soccer’ Blasts Past $200 Million at China Box Office"
+      },
+      "time": {
+        "asserted": "2026-07-20T03:58:03.557Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "culture",
+        "citation": "https://www.hollywoodreporter.com/movies/movie-news/stephen-chow-kung-fu-soccer-china-box-office-2-1236651919/"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "url",
+      "proposition": {
+        "predicate": "url",
+        "object": "https://www.hollywoodreporter.com/movies/movie-news/stephen-chow-kung-fu-soccer-china-box-office-2-1236651919/"
+      },
+      "time": {
+        "asserted": "2026-07-20T03:58:03.557Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "culture",
+        "citation": "https://www.hollywoodreporter.com/movies/movie-news/stephen-chow-kung-fu-soccer-china-box-office-2-1236651919/"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "summary",
+      "proposition": {
+        "predicate": "summary",
+        "object": "The 'Shaolin Soccer' spinoff grew in its second frame and is now expected earn just shy of $450 million in its full run."
+      },
+      "time": {
+        "asserted": "2026-07-20T03:58:03.557Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "culture",
+        "citation": "https://www.hollywoodreporter.com/movies/movie-news/stephen-chow-kung-fu-soccer-china-box-office-2-1236651919/"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "published",
+      "proposition": {
+        "predicate": "published",
+        "object": "Mon, 20 Jul 2026 03:40:38 +0000"
+      },
+      "time": {
+        "asserted": "2026-07-20T03:58:03.557Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "culture",
+        "citation": "https://www.hollywoodreporter.com/movies/movie-news/stephen-chow-kung-fu-soccer-china-box-office-2-1236651919/"
+      },
+      "status": "supported"
+    }
+  ]
+}

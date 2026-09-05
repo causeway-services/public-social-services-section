@@ -1,0 +1,69 @@
+{
+  "subject": "nasa-space-telescope-launches-after-surviving-trump-budget-cuts",
+  "claims": [
+    {
+      "id": "title",
+      "proposition": {
+        "predicate": "title",
+        "object": "Nasa space telescope launches after surviving Trump budget cuts"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "science",
+        "citation": "https://www.theguardian.com/science/2026/aug/29/nasa-telescope-launch-nancy-grace-roman"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "url",
+      "proposition": {
+        "predicate": "url",
+        "object": "https://www.theguardian.com/science/2026/aug/29/nasa-telescope-launch-nancy-grace-roman"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "science",
+        "citation": "https://www.theguardian.com/science/2026/aug/29/nasa-telescope-launch-nancy-grace-roman"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "summary",
+      "proposition": {
+        "predicate": "summary",
+        "object": "<p>Searching for exoplanets and clues on planet formation, the Roman telescope begins million-mile journey from Florida launchpad</p><p>A $4.3bn space telescope that Donald Trump tried to kill has lifted off from Florida as Nasa embarks on the next stage of its quest to unlock the secrets of the universe.</p><p>The Nancy Grace Roman space <a href=\"https://science.nasa.gov/mission/roman-space-telescope/\">telescope</a> survived two rounds of proposed White House budget cuts, and began a million-mile journey into deep space from a launchpad at the Kennedy Space Center on Sunday morning. .</p> <a href=\"https://www.theguardian.com/science/2026/aug/29/nasa-telescope-launch-nancy-grace-roman\">Continue reading...</a>"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "science",
+        "citation": "https://www.theguardian.com/science/2026/aug/29/nasa-telescope-launch-nancy-grace-roman"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "published",
+      "proposition": {
+        "predicate": "published",
+        "object": "Sun, 30 Aug 2026 12:05:31 GMT"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "science",
+        "citation": "https://www.theguardian.com/science/2026/aug/29/nasa-telescope-launch-nancy-grace-roman"
+      },
+      "status": "supported"
+    }
+  ]
+}

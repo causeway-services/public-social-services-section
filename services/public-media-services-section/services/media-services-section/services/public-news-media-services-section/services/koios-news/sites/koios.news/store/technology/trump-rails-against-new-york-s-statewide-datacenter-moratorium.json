@@ -1,0 +1,69 @@
+{
+  "subject": "trump-rails-against-new-york-s-statewide-datacenter-moratorium",
+  "claims": [
+    {
+      "id": "title",
+      "proposition": {
+        "predicate": "title",
+        "object": "Trump rails against New York’s statewide datacenter moratorium"
+      },
+      "time": {
+        "asserted": "2026-07-18T04:08:20.911Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "technology",
+        "citation": "https://www.theguardian.com/us-news/2026/jul/15/trump-new-york-datacenter-moratorium"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "url",
+      "proposition": {
+        "predicate": "url",
+        "object": "https://www.theguardian.com/us-news/2026/jul/15/trump-new-york-datacenter-moratorium"
+      },
+      "time": {
+        "asserted": "2026-07-18T04:08:20.911Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "technology",
+        "citation": "https://www.theguardian.com/us-news/2026/jul/15/trump-new-york-datacenter-moratorium"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "summary",
+      "proposition": {
+        "predicate": "summary",
+        "object": "<p>AI-friendly president shared a post saying governor Kathy Hochul should scrap the one-year policy ‘IMMEDIATELY’</p><p>Donald Trump railed against the New York governor, Kathy Hochul, for pausing the construction of large new datacenters, the resource-intensive facilities that power artificial intelligence.</p><p><a href=\"https://www.theguardian.com/us-news/new-york\">New York</a> became the first US state to enact a moratorium on new datacenters on Tuesday, when Hochul signed an executive order mandating a one-year statewide pause on so-called “hyperscale” datacenters.</p> <a href=\"https://www.theguardian.com/us-news/2026/jul/15/trump-new-york-datacenter-moratorium\">Continue reading...</a>"
+      },
+      "time": {
+        "asserted": "2026-07-18T04:08:20.911Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "technology",
+        "citation": "https://www.theguardian.com/us-news/2026/jul/15/trump-new-york-datacenter-moratorium"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "published",
+      "proposition": {
+        "predicate": "published",
+        "object": "Wed, 15 Jul 2026 18:05:46 GMT"
+      },
+      "time": {
+        "asserted": "2026-07-18T04:08:20.911Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "technology",
+        "citation": "https://www.theguardian.com/us-news/2026/jul/15/trump-new-york-datacenter-moratorium"
+      },
+      "status": "supported"
+    }
+  ]
+}

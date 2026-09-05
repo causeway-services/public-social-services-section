@@ -1,0 +1,69 @@
+{
+  "subject": "smart-glasses-are-deeply-creepy-why-are-celebrities-like-kylie-jenner-endorsing-them",
+  "claims": [
+    {
+      "id": "title",
+      "proposition": {
+        "predicate": "title",
+        "object": "Smart glasses are deeply creepy. Why are celebrities like Kylie Jenner endorsing them?"
+      },
+      "time": {
+        "asserted": "2026-07-19T15:04:08.909Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "technology",
+        "citation": "https://www.theguardian.com/commentisfree/2026/jul/17/ai-meta-smart-glasses"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "url",
+      "proposition": {
+        "predicate": "url",
+        "object": "https://www.theguardian.com/commentisfree/2026/jul/17/ai-meta-smart-glasses"
+      },
+      "time": {
+        "asserted": "2026-07-19T15:04:08.909Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "technology",
+        "citation": "https://www.theguardian.com/commentisfree/2026/jul/17/ai-meta-smart-glasses"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "summary",
+      "proposition": {
+        "predicate": "summary",
+        "object": "<p>Meta touts safety features – but for women, the dangers of these recording devices are obvious</p><p>Imagine if every time you left the house, you couldn’t be sure that the stranger you met at a bar – or even the person walking by you in the street – wasn’t secretly recording you. It sounds like something out of a <a href=\"https://www.theguardian.com/tv-and-radio/2019/jun/06/every-episode-of-black-mirror-ranked-charlie-brooker\">Black Mirror</a> episode, but let’s face it, the era of wearable technology is fully upon us as everyday accessories have been developed to help track health and fitness data, receive smartphone notifications, and provide hands-free accessibility.</p><p>So when <a href=\"https://www.theguardian.com/technology/meta\">Meta</a> announced their <a href=\"https://www.theguardian.com/technology/2025/sep/17/meta-ray-ban-smart-glasses\">AI glasses</a> a few years ago, it wasn’t too surprising that one of the biggest (and most embattled) tech companies on earth had begun cashing in on our obsession with watching others. And their AI glasses have already raised serious concerns over privacy, personal safety and even our sense of agency.</p> <a href=\"https://www.theguardian.com/commentisfree/2026/jul/17/ai-meta-smart-glasses\">Continue reading...</a>"
+      },
+      "time": {
+        "asserted": "2026-07-19T15:04:08.909Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "technology",
+        "citation": "https://www.theguardian.com/commentisfree/2026/jul/17/ai-meta-smart-glasses"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "published",
+      "proposition": {
+        "predicate": "published",
+        "object": "Fri, 17 Jul 2026 12:00:07 GMT"
+      },
+      "time": {
+        "asserted": "2026-07-19T15:04:08.909Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "technology",
+        "citation": "https://www.theguardian.com/commentisfree/2026/jul/17/ai-meta-smart-glasses"
+      },
+      "status": "supported"
+    }
+  ]
+}

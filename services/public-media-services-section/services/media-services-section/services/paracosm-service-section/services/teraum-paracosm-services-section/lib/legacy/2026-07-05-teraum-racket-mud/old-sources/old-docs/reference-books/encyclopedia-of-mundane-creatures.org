@@ -1,0 +1,57 @@
+#+SETUPFILE: ./setup.inc
+#+TITLE: Encyclopedia of Mundane Creatures
+#+EXPORT_FILE_NAME: ../../pub/reference-books/encyclopedia-of-mundane-creatures
+* Introduction
+{{{document-isdraft}}}
+
+{{{document-hasproject}}}
+* Encyclopedia of Mundane Creatures
+** DRAFT Cows
+   :PROPERTIES:
+   :CUSTOM_ID: cows
+   :END:
+#+INDEX: cows!"Cows" in /Encyclopedia of Mundane Creatures/
+*/Cows/* are a domesticated species used by humans for their milk,
+meat, leather, and other byproducts.
+** DRAFT Earthworms
+   :PROPERTIES:
+   :CUSTOM_ID: earthworms
+   :END:
+#+INDEX: earthworms!"Earthworms" in /Encyclopedia of Mundane Creatures/
+*/Earthworms/* are a useful species that turns stuff into useful dirt.
+
+** DRAFT Flutterbys
+   :PROPERTIES:
+   :CUSTOM_ID: flutterbys
+   :END:
+#+INDEX: flutterbys!"Flutterbys" in /Encyclopedia of Mundane Creatures/
+** DRAFT Seafox
+   :PROPERTIES:
+   :CUSTOM_ID: seafox
+   :END:
+#+INDEX: seafox!"Seafox" in /Encyclopedia of Mundane Creatures/
+Seagull + fox
+** DRAFT Garlic Boars
+   :PROPERTIES:
+   :CUSTOM_ID: garlic-boars
+   :END:
+#+INDEX: garlic boars!"Garlic Boar" in /Encyclopedia of Mundane Creatures/
+** DRAFT Pigs
+   :PROPERTIES:
+   :CUSTOM_ID: pigs
+   :END:
+#+INDEX: pigs!"Pigs" in /Encyclopedia of Mundane Creatures/
+*/Pigs/* are a domesticated species in Teraum.
+** DRAFT Sheep
+#+INDEX: sheep!"Sheep" in /Encyclopedia of Mundane Creatures/
+*/Sheep/* are a domesticated species cultivated for their many useful
+products, like /wool/.
+* Supplements
+** Index
+- cows ::
+- sheep ::
+- wool ::
+- pigs ::
+- boars, garlic ::
+- flutterbys ::
+- earthworms ::

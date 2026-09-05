@@ -1,0 +1,69 @@
+{
+  "subject": "the-fauci-hearing-was-painful-to-watch-but-we-need-answers-on-covid-19-s-origin-david-relman",
+  "claims": [
+    {
+      "id": "title",
+      "proposition": {
+        "predicate": "title",
+        "object": "The Fauci hearing was painful to watch. But we need answers on Covid-19’s origin| David Relman"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "science",
+        "citation": "https://www.theguardian.com/commentisfree/2026/aug/15/covid-19-origins"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "url",
+      "proposition": {
+        "predicate": "url",
+        "object": "https://www.theguardian.com/commentisfree/2026/aug/15/covid-19-origins"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "science",
+        "citation": "https://www.theguardian.com/commentisfree/2026/aug/15/covid-19-origins"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "summary",
+      "proposition": {
+        "predicate": "summary",
+        "object": "<p>Despite the recent hearings in Congress, we seem to be even further from the goal of understanding Covid-19’s origin’s than we have ever been</p><p>As a microbiologist and infectious disease clinician, it has been tough to watch the recent devolution of public discourse on Covid-19 origins. It has been especially difficult for me to read the comments of <a href=\"https://www.theguardian.com/us-news/anthony-fauci\">Anthony Fauci</a> about the origins debate in his <a href=\"https://www.faucisdiary.com/\">now-public diary</a>. And it has been painful to watch the televised spectacle hosted by the US senator Rand Paul on 29 July involving a hostile interrogation of Fauci.</p><p>Despite many early pleas, including <a href=\"https://www.pnas.org/doi/10.1073/pnas.2021133117\">my own</a>, for a dispassionate, objective assessment of what we know, don’t know and need to know about Covid-19 origins, we seem to be even further from this goal now than we have ever been – plagued by politicization, polarization and illogical thinking.</p><p>David Relman is a professor of medicine and microbiology at Stanford University. He was an inaugural member of the US National Science Advisory Board for Biosecurity and president of the Infectious Diseases Society of America</p> <a href=\"https://www.theguardian.com/commentisfree/2026/aug/15/covid-19-origins\">Continue reading...</a>"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "science",
+        "citation": "https://www.theguardian.com/commentisfree/2026/aug/15/covid-19-origins"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "published",
+      "proposition": {
+        "predicate": "published",
+        "object": "Sat, 15 Aug 2026 10:00:53 GMT"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "science",
+        "citation": "https://www.theguardian.com/commentisfree/2026/aug/15/covid-19-origins"
+      },
+      "status": "supported"
+    }
+  ]
+}

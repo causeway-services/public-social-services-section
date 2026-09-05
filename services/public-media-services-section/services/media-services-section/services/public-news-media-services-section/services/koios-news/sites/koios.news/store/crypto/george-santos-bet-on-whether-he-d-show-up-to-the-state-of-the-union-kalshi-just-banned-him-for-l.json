@@ -1,0 +1,69 @@
+{
+  "subject": "george-santos-bet-on-whether-he-d-show-up-to-the-state-of-the-union-kalshi-just-banned-him-for-l",
+  "claims": [
+    {
+      "id": "title",
+      "proposition": {
+        "predicate": "title",
+        "object": "George Santos Bet on Whether He'd Show Up to the State of the Union—Kalshi Just Banned Him for Life"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "crypto",
+        "citation": "https://decrypt.co/376985/george-santos-kalshi-lifetime-ban"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "url",
+      "proposition": {
+        "predicate": "url",
+        "object": "https://decrypt.co/376985/george-santos-kalshi-lifetime-ban"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "crypto",
+        "citation": "https://decrypt.co/376985/george-santos-kalshi-lifetime-ban"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "summary",
+      "proposition": {
+        "predicate": "summary",
+        "object": "The exchange found the former congressman placed large trades on his own State of the Union attendance, then made false statements to move prices, profiting nearly $18,000."
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "crypto",
+        "citation": "https://decrypt.co/376985/george-santos-kalshi-lifetime-ban"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "published",
+      "proposition": {
+        "predicate": "published",
+        "object": "Mon, 31 Aug 2026 20:16:03 +0000"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "crypto",
+        "citation": "https://decrypt.co/376985/george-santos-kalshi-lifetime-ban"
+      },
+      "status": "supported"
+    }
+  ]
+}

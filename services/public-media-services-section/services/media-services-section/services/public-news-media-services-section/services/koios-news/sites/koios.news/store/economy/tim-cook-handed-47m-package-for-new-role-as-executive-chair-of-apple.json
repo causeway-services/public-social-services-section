@@ -1,0 +1,69 @@
+{
+  "subject": "tim-cook-handed-47m-package-for-new-role-as-executive-chair-of-apple",
+  "claims": [
+    {
+      "id": "title",
+      "proposition": {
+        "predicate": "title",
+        "object": "Tim Cook handed $47m package for new role as executive chair of Apple"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "economy",
+        "citation": "https://www.theguardian.com/technology/2026/sep/02/tim-cook-47m-package-chair-apple"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "url",
+      "proposition": {
+        "predicate": "url",
+        "object": "https://www.theguardian.com/technology/2026/sep/02/tim-cook-47m-package-chair-apple"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "economy",
+        "citation": "https://www.theguardian.com/technology/2026/sep/02/tim-cook-47m-package-chair-apple"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "summary",
+      "proposition": {
+        "predicate": "summary",
+        "object": "<p>Pay and shares deal nearly matches $58m award to John Ternus, his successor as CEO at the $4.7tn tech company</p><p>Tim Cook has received a $47m (£35m) pay deal as Apple’s executive chair, a remuneration package that nears the level set for his successor as chief executive.</p><p>Cook, who handed over to <a href=\"https://www.theguardian.com/technology/2026/apr/20/john-ternus-apple-ceo-tim-cook\">John Ternus</a> on Tuesday, will be paid a base salary of $2m and <a href=\"https://d18rn0p25nwr6d.cloudfront.net/CIK-0000320193/267c15fa-d3b6-4b5b-9bd0-3b187635d9eb.pdf\">$45m worth of shares</a>. Half of the share award will be based on performance targets being met, while the remaining half will be paid out over four years.</p> <a href=\"https://www.theguardian.com/technology/2026/sep/02/tim-cook-47m-package-chair-apple\">Continue reading...</a>"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "economy",
+        "citation": "https://www.theguardian.com/technology/2026/sep/02/tim-cook-47m-package-chair-apple"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "published",
+      "proposition": {
+        "predicate": "published",
+        "object": "Wed, 02 Sep 2026 14:46:36 GMT"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "economy",
+        "citation": "https://www.theguardian.com/technology/2026/sep/02/tim-cook-47m-package-chair-apple"
+      },
+      "status": "supported"
+    }
+  ]
+}

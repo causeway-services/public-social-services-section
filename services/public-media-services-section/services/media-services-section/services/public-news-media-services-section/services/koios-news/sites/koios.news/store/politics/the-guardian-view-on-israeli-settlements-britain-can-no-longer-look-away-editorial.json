@@ -1,0 +1,69 @@
+{
+  "subject": "the-guardian-view-on-israeli-settlements-britain-can-no-longer-look-away-editorial",
+  "claims": [
+    {
+      "id": "title",
+      "proposition": {
+        "predicate": "title",
+        "object": "The Guardian view on Israeli settlements: Britain can no longer look away | Editorial"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "politics",
+        "citation": "https://www.theguardian.com/commentisfree/2026/sep/02/the-guardian-view-on-israeli-settlements-britain-can-no-longer-look-away"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "url",
+      "proposition": {
+        "predicate": "url",
+        "object": "https://www.theguardian.com/commentisfree/2026/sep/02/the-guardian-view-on-israeli-settlements-britain-can-no-longer-look-away"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "politics",
+        "citation": "https://www.theguardian.com/commentisfree/2026/sep/02/the-guardian-view-on-israeli-settlements-britain-can-no-longer-look-away"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "summary",
+      "proposition": {
+        "predicate": "summary",
+        "object": "<p>International law, European action and UK public opinion point the same way. Britain should stop helping to sustain Israeli settlements economically</p><p>In the Commons this week, the foreign secretary, Ed&nbsp;Miliband, appeared to have accepted the principle of a trade ban between the UK and Israeli settlements, which Britain says are illegal under international law. This is long overdue. The test now is whether his promised “<a href=\"https://www.theguardian.com/politics/2026/sep/01/ed-miliband-promises-reset-of-uk-policy-toward-israel\">comprehensive reset</a>” deserves the name. Stopping settlement-produced goods at the border is not enough. Britain should prohibit its companies from <a href=\"https://www.amnesty.org.uk/latest/israeli-settlements-the-devil-is-in-the-detail-amnesty-sets-out-what-an-effective-uk-trade-ban-must-look-like/\">sustaining</a> settlement activity – by financing, constructing, insuring, advertising – in territory whose&nbsp;occupation it regards as unlawful. The ban must&nbsp;have&nbsp;teeth.</p><p>The UK can no longer ignore the <a href=\"https://www.theguardian.com/world/2026/aug/21/israeli-settler-attacks-shift-to-heart-of-territory-earmarked-for-palestinian-state\">violence and pressure</a> exerted on Palestinians in the West Bank by Israel’s government, military and settlers. There have been more than 1,400 settler attacks so far this year, according to the UN, against a record 1,800 registered in 2025. An election campaign has only made matters worse. Last month, Israel issued tenders for <a href=\"https://www.bbc.co.uk/news/articles/cly50gn1e54o\">1,234 homes in the 3,401</a>-unit E1 development east of Jerusalem. The country’s ministers gave the green light for the controversial settlement – long condemned for effectively bisecting the West Bank – expressly to “<a href=\"https://www.reuters.com/world/middle-east/israel-approves-settlement-plan-erase-idea-palestinian-state-2025-08-20/\">erase</a>” the idea of a Palestinian state, the creation of which the UK officially supports.</p> <a href=\"https://www.theguardian.com/commentisfree/2026/sep/02/the-guardian-view-on-israeli-settlements-britain-can-no-longer-look-away\">Continue reading...</a>"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "politics",
+        "citation": "https://www.theguardian.com/commentisfree/2026/sep/02/the-guardian-view-on-israeli-settlements-britain-can-no-longer-look-away"
+      },
+      "status": "supported"
+    },
+    {
+      "id": "published",
+      "proposition": {
+        "predicate": "published",
+        "object": "Wed, 02 Sep 2026 17:29:38 GMT"
+      },
+      "time": {
+        "asserted": "2026-09-03T00:34:32.170Z"
+      },
+      "force": "alleges",
+      "provenance": {
+        "witness": "politics",
+        "citation": "https://www.theguardian.com/commentisfree/2026/sep/02/the-guardian-view-on-israeli-settlements-britain-can-no-longer-look-away"
+      },
+      "status": "supported"
+    }
+  ]
+}
