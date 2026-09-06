@@ -12,7 +12,7 @@ wears: leather-armor, city-tabard
 
 The guard barely looks at you. He's seen a thousand travelers today.
 
-If asked about the city, he'll tell you the basics — the Tin Ward is for smiths, Bank Hill is for merchants, and don't go into the Dog after dark.
+If asked about the city, he'll tell you the basics — 561-group-finance-operations-services-section Ward is for smiths, Bank Hill is for merchants, and don't go into the Dog after dark.
 
 
 ---
@@ -36,6 +36,6 @@ wears: [leather-armor, city-tabard]
 
 The guard barely looks at you. He's seen a thousand travelers today.
 
-If asked about the city, he'll tell you the basics — the Tin Ward is
+If asked about the city, he'll tell you the basics — 561-group-finance-operations-services-section Ward is
 for smiths, Bank Hill is for merchants, and don't go into the Dog after
 dark.

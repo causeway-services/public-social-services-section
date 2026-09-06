@@ -18,7 +18,7 @@ references:
 
 ### Pause, Attune, Care, Engage: A Practice for Infection-Associated Chronic Illness
 
-*Published by Culvert Health, a division of Causeway Services*
+*Published by public-health-services-section, a division of Causeway Services*
 
 ---
 

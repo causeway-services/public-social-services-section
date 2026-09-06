@@ -258,4 +258,4 @@ Some of what this chapter rests on is well established: post-exertional malaise'
 
 What this program cannot promise: a cure, a recovery timeline, or that pacing alone will fix what's wrong. What it can offer is a way to live with real uncertainty without making it worse — a loop that respects what your body has already told you, and a habit of listening for what it tells you next. This is not medical advice; it does not replace a clinician who knows your case.
 
-Culvert Health · a division of Causeway Services · research by Achromat (Lenticule Science) · systems by Ampoule (Red Cup Engineering) · care by Splint (Coesite Operations)
+public-health-services-section · a division of Causeway Services · research by Achromat (Lenticule Science) · systems by Ampoule (Red Cup Engineering) · care by Splint (Coesite Operations)

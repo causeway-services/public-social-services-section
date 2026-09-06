@@ -232,7 +232,7 @@ If someone you love has post-exertional malaise, the single most useful thing yo
 
 ## The Inflammation Station kit
 
-Culvert Health also puts together a small physical kit of comfort items, chosen by exactly the symptom logic in this chapter: a soft stretch wristband, a contoured eye mask and a pair of foam earplugs for the low-stimulus room, an electrolyte drink mix, a printed pacing card and a symptom journal for tracking your own pattern, a cooling towel for hot days, a neck pillow, and a card linking to the free ebook and the pacing calculator. None of these nine items is a medical device, and nothing in the kit is sold with a diagnostic, therapeutic, or treatment claim — it exists to make the ordinary comfort measures in this chapter easier to have on hand, nothing more.
+public-health-services-section also puts together a small physical kit of comfort items, chosen by exactly the symptom logic in this chapter: a soft stretch wristband, a contoured eye mask and a pair of foam earplugs for the low-stimulus room, an electrolyte drink mix, a printed pacing card and a symptom journal for tracking your own pattern, a cooling towel for hot days, a neck pillow, and a card linking to the free ebook and the pacing calculator. None of these nine items is a medical device, and nothing in the kit is sold with a diagnostic, therapeutic, or treatment claim — it exists to make the ordinary comfort measures in this chapter easier to have on hand, nothing more.
 
 ## What to do today
 

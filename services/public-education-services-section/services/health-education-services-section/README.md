@@ -136,7 +136,7 @@ from the verified corpus and repaired against two adversarial reviews.
 
 - **Channel identity required the founder's hands, and now exists.** The
   channel is **PACE Yourself** ([@PACE-Yourself](https://www.youtube.com/channel/UC3M3DheHyXSdrK12c3cpojQ)),
-  a Culvert Health product; Body Budget was the name scanned and ruled
+  a public-health-services-section product; Body Budget was the name scanned and ruled
   first but proved unavailable on YouTube, so the founder created the
   channel as PACE Yourself instead (2026-09-02; the
   [561 Group Medical Services Section](../../../../../../../561-group-services-section/services/561-group-operations-services-section/services/561-group-medical-services-section/README.md)

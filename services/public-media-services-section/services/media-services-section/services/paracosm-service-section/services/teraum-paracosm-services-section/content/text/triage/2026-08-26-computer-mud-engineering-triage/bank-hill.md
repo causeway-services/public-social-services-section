@@ -14,7 +14,7 @@ notable: chandlers-guild-hall
 guild-present: chandlers-guild
 ---
 
-Bank Hill. The air is cleaner here — you've climbed above the smoke of the Tin Ward. Stone buildings with glass windows line a paved square. At the hilltop stands the Chandler's Guild hall, an imposing structure of pale stone where the merchants of Ack manage the city's trade.
+Bank Hill. The air is cleaner here — you've climbed above the smoke of 561-group-finance-operations-services-section Ward. Stone buildings with glass windows line a paved square. At the hilltop stands the Chandler's Guild hall, an imposing structure of pale stone where the merchants of Ack manage the city's trade.
 
 A fountain plays in the center of the square. A few well-dressed merchants cross the plaza, nodding to each other.
 

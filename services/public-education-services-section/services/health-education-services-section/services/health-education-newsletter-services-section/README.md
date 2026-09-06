@@ -91,10 +91,8 @@ koios-intelligence-briefing precedent:
   not as a founder decision, per the same fence
   koios-intelligence-briefing's README states (no subscriber solicited,
   no payment taken, until the founder clears that gate).
-- **public**: the newsletter itself, **The Second Day**, a Culvert Health
-  product (decided 2026-09-02 under the decision law; the
-  [naming note](../../../../../../../../../561-group-services-section/services/561-group-operations-services-section/services/561-group-medical-services-section/content/text/documents/articles/notes/2026/09/02/2026-09-02-note-on-naming-the-medical-divisions.md)
-  carries the reasoning). Issue mastheads carry that name.
+- **public**: the newsletter itself, **The Second Day**, a public-health-services-section
+  product. Issue mastheads carry that name.
 
 ## Issue 001
 

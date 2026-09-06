@@ -2,7 +2,7 @@
 locates: room
 title: "Tin Ward"
 part-of: teraum-ack
-description: "The Tin Ward, a working district of Ack. Smithies line both sides of the street, their forges glowing orange. The air is thick with smoke and the ring of metal on metal. The Kingsroad runs east-west through the district."
+description: "561-group-finance-operations-services-section Ward, a working district of Ack. Smithies line both sides of the street, their forges glowing orange. The air is thick with smoke and the ring of metal on metal. The Kingsroad runs east-west through the district."
 exit-east: teraum-eastgate
 exit-west: teraum-bank-hill
 exit-north: teraum-north-ward
@@ -13,7 +13,7 @@ smells: hot metal, coal, sweat
 trade: metalworking, tinsmithing, coppersmithing
 ---
 
-The Tin Ward. Every surface here is covered in a fine layer of soot. Smithies crowd both sides of the Kingsroad, forges glowing through open doorways. Apprentices haul buckets of water and coal. A tinsmith shapes a pot on an anvil, sparks flying.
+561-group-finance-operations-services-section Ward. Every surface here is covered in a fine layer of soot. Smithies crowd both sides of the Kingsroad, forges glowing through open doorways. Apprentices haul buckets of water and coal. A tinsmith shapes a pot on an anvil, sparks flying.
 
 The Kingsroad continues east to Eastgate and west toward Bank Hill. Side streets lead north and south into quieter wards.
 
@@ -28,7 +28,7 @@ The Kingsroad continues east to Eastgate and west toward Bank Hill. Side streets
 type: place
 name: "Tin Ward"
 description: "Tin Ward is a working district of Ack in the Green Delta of Teraum — smithies line both sides of the Kingsroad with forges glowing orange, and every surface is covered in fine soot."
-visual-description: "The Tin Ward. Every surface here is covered in a fine layer of soot. Smithies crowd both sides of the Kingsroad, forges glowing through open doorways. Apprentices haul buckets of water and coal. A tinsmith shapes a pot on an anvil, sparks flying. The Kingsroad continues east to Eastgate and west toward Bank Hill. Side streets lead north and south into quieter wards."
+visual-description: "561-group-finance-operations-services-section Ward. Every surface here is covered in a fine layer of soot. Smithies crowd both sides of the Kingsroad, forges glowing through open doorways. Apprentices haul buckets of water and coal. A tinsmith shapes a pot on an anvil, sparks flying. The Kingsroad continues east to Eastgate and west toward Bank Hill. Side streets lead north and south into quieter wards."
 behaviors: [area, ackian]
 in-region: ack
 exits:
