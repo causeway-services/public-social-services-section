@@ -55,7 +55,7 @@ const SITE_ENV = {
   C2PA_AGENT: process.env.C2PA_AGENT ?? "http://127.0.0.1:8792/.well-known/agent-card.json",
   EVM_RPC_URL: process.env.EVM_RPC_URL ?? "http://127.0.0.1:8545",
   ERC4337_BUNDLER_URL: process.env.ERC4337_BUNDLER_URL ?? "http://127.0.0.1:4337",
-  KOIOS_EVM_PASSWORD_FILE: process.env.KOIOS_EVM_PASSWORD_FILE ?? "/home/emsenn/info/lib/emsenn/services/561-group/services/561-group-services-section/services/561-group-engineering-services-section/services/561-group-computer-engineering-services-section/services/computer-machine-services-section/services/persistent-computer-machine-services-section/services/bare-cedar-fog-services-section/data/runtime/share/emsenn/settlement-credentials/5fbdae8a7e345595added81300e0ca48ed3ef90b33a3b6033bbdbac0057d864f/eip155-31337.password",
+  KOIOS_EVM_PASSWORD_FILE: process.env.KOIOS_EVM_PASSWORD_FILE ?? "/home/emsenn/info/lib/emsenn/services/561-group/services/561-group-services-section/services/561-group-computer-services-section/services/computer-machine-services-section/services/persistent-computer-machine-services-section/services/bare-cedar-fog-services-section/data/runtime/share/emsenn/settlement-credentials/5fbdae8a7e345595added81300e0ca48ed3ef90b33a3b6033bbdbac0057d864f/eip155-31337.password",
   PATH: process.env.PATH,
   NODE_PATH: process.env.NODE_PATH,
   NO_COLOR: "1",

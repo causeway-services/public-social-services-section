@@ -12,7 +12,7 @@ site_root=$(cd -- "$script_dir/../.." && pwd -P)
 koios_root=$(cd -- "$site_root/../.." && pwd -P)
 repo_root=$(git -C "$site_root" rev-parse --show-toplevel)
 unit_dir=${XDG_CONFIG_HOME:-"$HOME/.config"}/systemd/user
-runtime_root="$repo_root/lib/emsenn/services/561-group/services/561-group-services-section/services/561-group-engineering-services-section/services/561-group-computer-engineering-services-section/services/computer-machine-services-section/services/persistent-computer-machine-services-section/services/bare-cedar-fog-services-section/data/runtime/share/emsenn/activitypub"
+runtime_root="$repo_root/lib/emsenn/services/561-group/services/561-group-services-section/services/561-group-computer-services-section/services/computer-machine-services-section/services/persistent-computer-machine-services-section/services/bare-cedar-fog-services-section/data/runtime/share/emsenn/activitypub"
 
 failures=0
 check_file() {
