@@ -6,7 +6,7 @@ import { fileURLToPath } from "node:url";
 import test from "node:test";
 import { publishIssueDraft } from "../scripts/publish-issue-draft.mjs";
 // Same source-path debt as the script under test -- see its module header.
-import { renderMarkdown, renderPasteHtml } from "../../../../../../../../../../engineering-services-section/services/computer-engineering-services-section/services/computer-data-services-section/services/computer-content-services-section/services/documents-services-section/services/newsletter-issue-production-services-section/src/newsletter-issue.mjs";
+import { renderMarkdown, renderPasteHtml } from "../../../../../../../../../../engineering-services-section/services/computer-engineering-services-section/services/computer-data-engineering-services-section/services/computer-content-services-section/services/documents-services-section/services/newsletter-issue-production-services-section/src/newsletter-issue.mjs";
 
 const FIXTURES_ROOT = fileURLToPath(new URL("./fixtures/issues", import.meta.url));
 

@@ -5,7 +5,7 @@ chronic illness (IACI) public-education knowledge-product line's first
 product: a sellable ebook, *Understanding Infection-Associated Chronic
 Illness* (`content/books/understanding-infection-associated-chronic-illness/`,
 `scripts/build-ebook.mjs`), delegating pandoc/build-record assembly to
-[`@red-cup-engineering/ebook-production-services-section`](../../../../../../../../../engineering-services-section/services/computer-engineering-services-section/services/computer-data-services-section/services/computer-content-services-section/services/documents-services-section/services/ebook-production-services-section/README.md)
+[`@red-cup-engineering/ebook-production-services-section`](../../../../../../../../../engineering-services-section/services/computer-engineering-services-section/services/computer-data-engineering-services-section/services/computer-content-services-section/services/documents-services-section/services/ebook-production-services-section/README.md)
 the same way the sibling
 [artificial-intelligence-curriculum-enterprise](../../../computer-education-services-section/services/artificial-intelligence-education-services-section/services/artificial-intelligence-curriculum-enterprise/README.md)
 does for *The Agent Operator's Handbook*.
@@ -60,7 +60,7 @@ Five-custody thread (org-layering.md, 2026-09-01):
   **infection-associated-chronic-illness** umbrella glossary term
   (`medical-science-services-section/content/text/glossary/terms/infection-associated-chronic-illness.md`)
   grounds chapter 01's naming.
-- **engineering**: [Ebook Production Services Section](../../../../../../../../../engineering-services-section/services/computer-engineering-services-section/services/computer-data-services-section/services/computer-content-services-section/services/documents-services-section/services/ebook-production-services-section/README.md)
+- **engineering**: [Ebook Production Services Section](../../../../../../../../../engineering-services-section/services/computer-engineering-services-section/services/computer-data-engineering-services-section/services/computer-content-services-section/services/documents-services-section/services/ebook-production-services-section/README.md)
   -- owns the pandoc build/cover/record machinery, including the
   `collectReferences`/`--citeproc` citation wiring, `scripts/build-ebook.mjs`
   delegates to (wired dependency, pinned `0.1.7`, not a debt). The

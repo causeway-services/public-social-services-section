@@ -31,7 +31,7 @@ koios-intelligence-briefing precedent:
   umbrella glossary term — the same science base the sibling
   [health-education-curriculum-services-section](../health-education-curriculum-services-section/README.md)
   ebook already draws from. This section adds no science of its own.
-- **engineering**: [Newsletter Issue Production Services Section](../../../../../../../../../engineering-services-section/services/computer-engineering-services-section/services/computer-data-services-section/services/computer-content-services-section/services/documents-services-section/services/newsletter-issue-production-services-section/README.md)
+- **engineering**: [Newsletter Issue Production Services Section](../../../../../../../../../engineering-services-section/services/computer-engineering-services-section/services/computer-data-engineering-services-section/services/computer-content-services-section/services/documents-services-section/services/newsletter-issue-production-services-section/README.md)
   (`@red-cup-engineering/newsletter-issue-production-services-section`),
   founded under documents custody the same day as this carrier —
   platform-neutral issue fabrication (`validateIssue`, `renderMarkdown`,
