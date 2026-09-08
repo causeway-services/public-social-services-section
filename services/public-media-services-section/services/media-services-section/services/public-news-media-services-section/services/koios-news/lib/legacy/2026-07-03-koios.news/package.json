@@ -2,7 +2,7 @@
   "name": "@koios-news/koios-news",
   "version": "0.0.1",
   "type": "module",
-  "description": "Koios.News \u2014 a general news publication with systems-analysis depth: pages, feeds, sitemaps, NewsArticle JSON-LD, ad slots, and accountable first-party attention over its own corpus.",
+  "description": "Koios.News — a general news publication with systems-analysis depth: pages, feeds, sitemaps, NewsArticle JSON-LD, ad slots, and accountable first-party attention over its own corpus.",
   "bin": {
     "operate-activitypub-inbox": "./dist/operate-activitypub-inbox.mjs",
     "prepare-article50-provenance": "./dist/prepare-article50-provenance.mjs",
@@ -161,10 +161,10 @@
   },
   "dependencies": {
     "@red-cup-engineering/relation-model-notation-cbor-codec": "0.1.0",
-    "@red-cup-engineering/relation-model-notation-conformance": "7.0.0",
-    "@red-cup-engineering/a2a-rmn-task-client-service": "1.1.0",
+    "@red-cup-engineering/relation-model-notation-conformance": "0.0.0",
+    "@red-cup-engineering/a2a-rmn-task-client-service": "0.0.0",
     "@561-group/inference-work-lot-service": "4.0.0",
-    "@red-cup-engineering/c2pa-services-section": "1.0.0",
+    "@red-cup-engineering/c2pa-services-section": "0.0.0",
     "@lenticule-science/communicating": "0.0.0",
     "@red-cup-engineering/computing-with-the-web": "0.0.0",
     "@red-cup-engineering/http-server": "0.0.0",

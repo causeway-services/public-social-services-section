@@ -28,7 +28,7 @@
     "test": "node --test test/*.test.mjs"
   },
   "dependencies": {
-    "@red-cup-engineering/activitypub-provider-service": "1.0.0",
-    "@red-cup-engineering/activitypub-services-section": "1.0.15"
+    "@red-cup-engineering/activitypub-provider-service": "0.0.0",
+    "@red-cup-engineering/activitypub-services-section": "0.5.0"
   }
 }

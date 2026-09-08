@@ -1,6 +1,6 @@
 {
   "name": "@causeway-services/turntide-steward-inference-procurement-service",
-  "version": "1.0.0",
+  "version": "0.0.0",
   "type": "module",
   "description": "Turntide steward inference procurement as a bounded market capability with its own supplier, customer-service, and consideration policy resources.",
   "exports": {
@@ -15,8 +15,8 @@
     "test": "node --test test/*.test.mjs"
   },
   "dependencies": {
-    "@red-cup-engineering/a2a-rmn-task-client-service": "1.1.10",
-    "@red-cup-engineering/inference-work-lot-service": "4.2.8"
+    "@red-cup-engineering/a2a-rmn-task-client-service": "0.6.0",
+    "@red-cup-engineering/inference-work-lot-service": "0.6.0"
   },
   "engines": {
     "node": ">=22.18"
