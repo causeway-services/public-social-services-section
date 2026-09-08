@@ -19,7 +19,7 @@ const ACTOR = "https://koios.news/activitypub/actor";
 const CONTRACT = INTERNAL_PUBLICATION_CONTRACT;
 const SITE_ROOT = resolve(dirname(fileURLToPath(import.meta.url)), "..");
 
-import { argument } from "@red-cup-engineering/parse-javascript-argv-service";
+import { argument } from "@red-cup-engineering/javascript-argv-parsing-services-section/parse-javascript-argv";
 
 const now = argument("--now") ?? new Date().toISOString();
 const pulse = readActivityStreamsObjectFromStdin();

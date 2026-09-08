@@ -2,7 +2,7 @@
 
 import { pullActivityPubInbox, settleNextRetainedActivity } from "./management/activitypub-inbox.mts";
 
-import { argument } from "@red-cup-engineering/parse-javascript-argv-service";
+import { argument } from "@red-cup-engineering/javascript-argv-parsing-services-section/parse-javascript-argv";
 
 const operation = argument("--operation") ?? "pull-and-settle-next";
 const dataDir = argument("--data-dir");

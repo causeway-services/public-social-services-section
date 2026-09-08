@@ -13,7 +13,7 @@ const CLOCKKEEPER = "urn:colony:cold-red-gate:clockkeeper";
 export const ATTENTION_IMPORT_CONTRACT = "koios-news/attention-import/v1";
 export const ATTENTION_IMPORT_CAPABILITY = "urn:capability:koios-news:clockkeeper:cold-red-gate:attention-import:v1";
 
-import { argument } from "@red-cup-engineering/parse-javascript-argv-service";
+import { argument } from "@red-cup-engineering/javascript-argv-parsing-services-section/parse-javascript-argv";
 function object(value: unknown): value is JsonObject { return value !== null && typeof value === "object" && !Array.isArray(value); }
 function response(activity: JsonObject, type: "Accept" | "Reject", payload: JsonObject): JsonObject { return { "@context": CONTEXT, type, actor: PUBLICATION, target: activity["actor"] ?? "urn:actor:unidentified", ...(typeof activity["id"] === "string" ? { inReplyTo: activity["id"] } : {}), object: { type: "AttentionImportSettlement", contract: ATTENTION_IMPORT_CONTRACT, ...payload } }; }
 

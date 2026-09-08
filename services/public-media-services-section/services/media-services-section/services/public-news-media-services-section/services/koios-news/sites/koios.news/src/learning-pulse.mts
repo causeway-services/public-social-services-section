@@ -2,7 +2,7 @@
 
 import { inspectNewsroomLearning, settleNewsroomLearningPulse } from "./management/newsroom-learning.mts";
 
-import { argument } from "@red-cup-engineering/parse-javascript-argv-service";
+import { argument } from "@red-cup-engineering/javascript-argv-parsing-services-section/parse-javascript-argv";
 
 const now = argument("--now") ?? new Date().toISOString();
 const pulseId = argument("--pulse") ?? `koios-learning-${now}`;

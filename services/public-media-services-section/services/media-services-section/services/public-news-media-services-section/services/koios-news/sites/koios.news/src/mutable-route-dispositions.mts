@@ -7,7 +7,7 @@ import { latestLivePublicationWitness } from "./administrating/deploying/live-pu
 import { settleMutableRouteDispositions } from "./administrating/deploying/mutable-route-dispositions.mts";
 import { appendKoiosAct } from "./management/ledger.mts";
 
-import { argument } from "@red-cup-engineering/parse-javascript-argv-service";
+import { argument } from "@red-cup-engineering/javascript-argv-parsing-services-section/parse-javascript-argv";
 
 const now = argument("--now");
 if (now === undefined) throw new Error("mutable-route disposition requires --now with an explicit UTC instant");

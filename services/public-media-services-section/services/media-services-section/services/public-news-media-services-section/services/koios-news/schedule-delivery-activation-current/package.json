@@ -7,7 +7,7 @@
   },
   "dependencies": {
     "@red-cup-engineering/canonical-json-service": "0.2.1",
-    "@red-cup-engineering/parse-javascript-argv-service": "0.2.2"
+    "@red-cup-engineering/javascript-argv-parsing-services-section": "0.1.0"
   },
   "scripts": {
     "check": "node --check bin/koios-news-schedule-delivery-preflight.mjs",

@@ -16,7 +16,7 @@ const KOIOS_ACTOR = "urn:ame:koios.news";
 const PROVIDER_ACTOR = "urn:ame:resource-brokerage-team";
 const CONTRACT = "cloudflare-static-delivery/v2";
 
-import { argument } from "@red-cup-engineering/parse-javascript-argv-service";
+import { argument } from "@red-cup-engineering/javascript-argv-parsing-services-section/parse-javascript-argv";
 
 function artifactIdentity(value: Uint8Array | string): string {
   const carrier = typeof value === "string"

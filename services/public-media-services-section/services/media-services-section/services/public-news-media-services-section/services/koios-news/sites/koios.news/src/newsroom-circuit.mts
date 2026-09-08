@@ -2,7 +2,7 @@
 
 import { runNewsroomCircuit } from "./management/newsroom-circuit.mts";
 
-import { argument } from "@red-cup-engineering/parse-javascript-argv-service";
+import { argument } from "@red-cup-engineering/javascript-argv-parsing-services-section/parse-javascript-argv";
 
 const maxRepairs = argument("--max-repairs");
 const result = await runNewsroomCircuit({
