@@ -17,7 +17,7 @@
     "@red-cup-engineering/category-reference-index-service": "0.3.0",
     "@red-cup-engineering/cloudflare-r2-services-section": "0.4.0",
     "@red-cup-engineering/semantic-content-identify-service": "0.2.7",
-    "@red-cup-engineering/semantic-record-journal-service": "0.1.11"
+    "@red-cup-engineering/semantic-record-journal-service": "0.4.0"
   },
   "files": [
     "src/",

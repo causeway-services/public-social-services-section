@@ -28,7 +28,7 @@ function journal(dataRoot) {
  *   `dataRoot` is this package's `data/` directory; `recordedAt` is an
  *   ISO-8601 timestamp; `record` is the plain JSON-serializable launch-state
  *   payload.
- * @returns {{id: string, objectKind: string, contentAppended: boolean, claimsAppended: boolean, charge: {support: boolean, refutation: boolean}}}
+ * @returns {{id: string, objectKind: string, appended: boolean, appended: boolean, charge: {support: boolean, refutation: boolean}}}
  *   The journal's append receipt.
  */
 export function recordLaunchState({ dataRoot, recordedAt, record }) {

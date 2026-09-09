@@ -15,12 +15,12 @@ issuer or authorize `routine-publication-current`.
 ```sh
 koios-news-editorial-admission-receipt export \
   --manuscript draft.md --contract contract.json --delivery delivery.json \
-  --ledger data/logs/2026/08/29/semantic-record-content.jsonl \
+  --ledger data/logs/2026/08/29/witness-journal-seavt.jsonl \
   --ledger-coordinate 'ni:///sha-256;...' > receipt.json
 
 koios-news-editorial-admission-receipt verify \
   --receipt receipt.json --manuscript draft.md --contract contract.json \
-  --delivery delivery.json --ledger data/logs/2026/08/29/semantic-record-content.jsonl
+  --delivery delivery.json --ledger data/logs/2026/08/29/witness-journal-seavt.jsonl
 ```
 
 The exporter refuses anything other than a completed

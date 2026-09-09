@@ -1,5 +1,8 @@
 {
   "name": "@causeway-services/public-media-services-section",
   "version": "0.0.0",
-  "description": "Public media services section."
+  "description": "Public media services section.",
+  "dependencies": {
+    "@red-cup-engineering/relation-model-notation-json-codec": "0.2.1"
+  }
 }

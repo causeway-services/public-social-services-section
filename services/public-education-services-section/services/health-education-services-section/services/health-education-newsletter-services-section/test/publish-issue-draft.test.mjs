@@ -51,7 +51,7 @@ test("recomposes stale renderings, creates a Buttondown draft, and records a rec
     assert.equal(JSON.parse(calls[0].init.body).subject, issue.title);
 
     assert.equal(result.draft.id, "draft-fixture-1");
-    assert.ok(result.receipt.contentAppended);
+    assert.ok(result.receipt.appended);
     assert.equal(result.receipt.charge.support, true);
     assert.equal(result.receipt.charge.refutation, false);
   } finally {

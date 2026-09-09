@@ -24,8 +24,8 @@
   },
   "dependencies": {
     "@lenticule-science/wit-transition-assay": "0.4.0",
-    "@red-cup-engineering/witness-journal-entry-service": "0.1.7",
-    "@red-cup-engineering/witness-journal-log-service": "0.1.6",
+    "@red-cup-engineering/witness-journal-entry-service": "0.3.0",
+    "@red-cup-engineering/witness-journal-log-service": "0.3.0",
     "@red-cup-engineering/a2a-contracted-agent-service": "0.5.0",
     "@red-cup-engineering/inference-work-lot-service": "0.5.0",
     "@red-cup-engineering/relation-model-notation-typing": "0.0.2",
