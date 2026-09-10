@@ -6,6 +6,7 @@ set -eu
 script_directory=$(CDPATH='' cd -- "$(dirname -- "$0")" && pwd)
 service_directory=$(CDPATH='' cd -- "$script_directory/.." && pwd)
 repository_root=$(cd -- "$script_directory" && git rev-parse --show-toplevel)
+guix_runner="$repository_root/lib/emsenn/services/561-group/services/561-group-services-section/services/561-group-computer-services-section/services/computer-machine-services-section/services/guix-computer-machine-services-section/scripts/run-pinned-guix.sh"
 
-exec "$repository_root/scripts/run-pinned-guix.sh" \
+exec "$guix_runner" \
   shell -f "$service_directory/koios-news.scm" --dry-run

@@ -2,7 +2,7 @@
 ;; beside the service it packages; module name is derived mechanically from
 ;; the repository path (load with `-L <repository root>`), and the file is
 ;; also loadable directly: `guix build -f koios-news.scm` through
-;; scripts/run-pinned-guix.sh.
+;; guix-computer-machine-services-section's pinned runner.
 (define-module (lib emsenn services 561-group services public-services-section services public-social-services-section services public-media-services-section services media-services-section services public-news-media-services-section services koios-news koios-news)
   #:use-module (gnu packages)
   #:use-module (gnu packages bash)
