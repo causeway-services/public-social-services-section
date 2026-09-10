@@ -16,5 +16,10 @@
   "dependencies": {
     "@red-cup-engineering/semantic-content-identify-service": "0.2.7"
   },
-  "files": ["src/", "test/", "README.md", "package.json"]
+  "files": [
+    "src/",
+    "test/",
+    "README.md",
+    "package.json"
+  ]
 }
