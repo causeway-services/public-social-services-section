@@ -45,8 +45,8 @@
   "cadence": {
     "pulseIntervalMinutes": 60,
     "dailyArticleTarget": 20,
-    "freeLaneOnly": true,
-    "frontierBudgetUsdPerDay": 0
+    "freeLaneOnly": false,
+    "frontierBudgetUsdPerDay": 5
   },
   "jurisdictions": {
     "publicationJurisdiction": "US"
