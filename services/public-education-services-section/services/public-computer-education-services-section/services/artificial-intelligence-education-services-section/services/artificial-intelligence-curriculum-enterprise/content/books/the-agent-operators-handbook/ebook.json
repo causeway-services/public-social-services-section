@@ -1,0 +1,8 @@
+{
+  "slug": "the-agent-operators-handbook",
+  "title": "The Agent Operator's Handbook",
+  "subtitle": "A Field Guide to Dispatching, Steering, and Recovering Multiple AI Coding Agents at Once",
+  "author": "561 Group",
+  "bookDir": ".",
+  "distDir": "../../../dist/the-agent-operators-handbook"
+}

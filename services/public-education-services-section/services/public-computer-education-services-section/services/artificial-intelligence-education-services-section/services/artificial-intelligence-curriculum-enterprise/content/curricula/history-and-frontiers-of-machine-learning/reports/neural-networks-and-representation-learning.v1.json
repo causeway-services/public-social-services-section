@@ -1,0 +1,128 @@
+{
+  "carrier": "neural-networks-and-representation-learning.md",
+  "courseId": "history-and-frontiers-of-machine-learning",
+  "lessonId": "neural-networks-and-representation-learning",
+  "researchProductClasses": [
+    "primary-paper-lineage",
+    "architecture-survey"
+  ],
+  "observedThrough": "2026-07-22T00:00:00.000Z",
+  "expiresAt": "2029-07-21T00:00:00.000Z",
+  "citations": [
+    {
+      "id": "rosenblatt-1958-perceptron",
+      "title": "The Perceptron: A Probabilistic Model for Information Storage and Organization in the Brain",
+      "authors": [
+        "Frank Rosenblatt"
+      ],
+      "published": 1958,
+      "url": "https://doi.org/10.1037/h0042519",
+      "kind": "primary-paper"
+    },
+    {
+      "id": "rumelhart-hinton-williams-1986-backpropagation",
+      "title": "Learning Representations by Back-Propagating Errors",
+      "authors": [
+        "David E. Rumelhart",
+        "Geoffrey E. Hinton",
+        "Ronald J. Williams"
+      ],
+      "published": 1986,
+      "url": "https://doi.org/10.1038/323533a0",
+      "kind": "primary-paper"
+    },
+    {
+      "id": "lecun-bottou-bengio-haffner-1998-document-recognition",
+      "title": "Gradient-Based Learning Applied to Document Recognition",
+      "authors": [
+        "Yann LeCun",
+        "L\u00e9on Bottou",
+        "Yoshua Bengio",
+        "Patrick Haffner"
+      ],
+      "published": 1998,
+      "url": "https://doi.org/10.1109/5.726791",
+      "kind": "primary-paper"
+    },
+    {
+      "id": "bengio-courville-vincent-2013-representation-learning",
+      "title": "Representation Learning: A Review and New Perspectives",
+      "authors": [
+        "Yoshua Bengio",
+        "Aaron Courville",
+        "Pascal Vincent"
+      ],
+      "published": 2013,
+      "url": "https://doi.org/10.1109/TPAMI.2013.50",
+      "kind": "primary-survey"
+    }
+  ],
+  "claims": [
+    {
+      "statement": "Rosenblatt framed the perceptron as an adaptive probabilistic organization for recognition and generalization, a broader historical program than the later textbook shorthand of one linear classifier.",
+      "warrants": [
+        "rosenblatt-1958-perceptron"
+      ],
+      "scope": "Rosenblatt's 1958 model, terminology, and stated research questions"
+    },
+    {
+      "statement": "Rumelhart, Hinton, and Williams showed how error derivatives could train multilayer connection weights so hidden units developed task-useful internal representations.",
+      "warrants": [
+        "rumelhart-hinton-williams-1986-backpropagation"
+      ],
+      "scope": "the differentiable networks and examples studied in the 1986 paper, without a solitary-invention claim"
+    },
+    {
+      "statement": "The 1998 document-recognition system demonstrated that local connectivity, shared weights, subsampling, and gradient learning can cooperate in an end-to-end task pipeline.",
+      "warrants": [
+        "lecun-bottou-bengio-haffner-1998-document-recognition"
+      ],
+      "scope": "the architectures, datasets, and document-recognition tasks reported in the paper"
+    },
+    {
+      "statement": "Representation learning studies objectives and architectures that make useful factors easier for downstream tasks to use, but it supplies no task-independent definition of a universally good representation.",
+      "warrants": [
+        "bengio-courville-vincent-2013-representation-learning"
+      ],
+      "scope": "the methods and open questions surveyed by Bengio, Courville, and Vincent"
+    },
+    {
+      "statement": "Neural learning redistributes design among architecture, objective, data, optimization, and evaluation rather than eliminating design through automatic feature discovery.",
+      "warrants": [
+        "rosenblatt-1958-perceptron",
+        "rumelhart-hinton-williams-1986-backpropagation",
+        "lecun-bottou-bengio-haffner-1998-document-recognition",
+        "bengio-courville-vincent-2013-representation-learning"
+      ],
+      "scope": "a curriculum synthesis across the cited research programs"
+    }
+  ],
+  "uncertainty": [
+    "The history of reverse-mode differentiation and neural-network training has multiple lineages that a four-source packet cannot exhaust.",
+    "Later terminology such as deep learning and representation learning can make earlier authors appear to share a single modern program.",
+    "Internal units can support reliable predictions without admitting one stable semantic interpretation."
+  ],
+  "limitations": [
+    "The packet omits recurrent networks, unsupervised pretraining, residual networks, normalization, modern optimizers, and much of neuroscience.",
+    "It does not derive backpropagation step by step or reproduce the cited experiments.",
+    "Historical influence, mathematical priority, biological plausibility, engineering utility, and present-day deployment safety are distinct claims."
+  ],
+  "reuseGrant": [
+    "notebooklm-transformation",
+    "artificial-intelligence-curriculum",
+    "public-youtube-release"
+  ],
+  "correctionIdentity": "urn:emsenn:corrections:artificial-intelligence-research:neural-networks-and-representation-learning:v1",
+  "privacy": {
+    "classification": "public-synthesis",
+    "personalData": "none-intentionally-included",
+    "jurisdiction": "US-internal-publication"
+  },
+  "internalTransfer": {
+    "legalBodyRelation": "same-legal-body",
+    "accountingUnit": "USD-micros",
+    "allocatedCostMicros": 350000,
+    "cashSettlementRequired": false,
+    "status": "settled-internal-cost-allocation"
+  }
+}

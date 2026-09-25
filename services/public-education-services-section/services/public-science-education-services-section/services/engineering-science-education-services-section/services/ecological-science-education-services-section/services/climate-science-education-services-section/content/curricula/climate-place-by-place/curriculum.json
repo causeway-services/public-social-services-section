@@ -1,0 +1,83 @@
+{
+  "version": 1,
+  "promise": "Place-specific climate history and outlook.",
+  "courseId": "climate-place-by-place",
+  "title": "Climate, Place-by-Place",
+  "lessons": [
+    {
+      "id": "chicago",
+      "title": "Chicago: Climate History and Outlook",
+      "placeId": "wikidata:Q1297",
+      "report": "reports/d792e5de7ba4e0a1161928b52e7adfd0334f4acd21a882dde8dc27bd21836878.md"
+    },
+    {
+      "id": "miami",
+      "title": "Miami: Climate History and Outlook",
+      "placeId": "wikidata:Q8652",
+      "report": "lessons/miami/report.md"
+    },
+    {
+      "id": "phoenix",
+      "title": "Phoenix: Climate History and Outlook",
+      "placeId": "wikidata:Q16556",
+      "report": "reports/cb02ce0885c8dd3cb19d124a4eb07b5cce4185b1e79f2e49770a4e64bad4a574.md"
+    },
+    {
+      "id": "new-orleans",
+      "title": "New Orleans: Climate History and Outlook",
+      "placeId": "wikidata:Q34404",
+      "report": "lessons/new-orleans/report.md"
+    },
+    {
+      "id": "new-york-city",
+      "title": "New York City: Climate History and Outlook",
+      "placeId": "wikidata:Q60"
+    },
+    {
+      "id": "seattle",
+      "title": "Seattle: Climate History and Outlook",
+      "placeId": "wikidata:Q5083"
+    },
+    {
+      "id": "minneapolis",
+      "title": "Minneapolis: Climate History and Outlook",
+      "placeId": "wikidata:Q36091"
+    },
+    {
+      "id": "houston",
+      "title": "Houston: Climate History and Outlook",
+      "placeId": "wikidata:Q16555"
+    },
+    {
+      "id": "los-angeles",
+      "title": "Los Angeles: Climate History and Outlook",
+      "placeId": "wikidata:Q65"
+    },
+    {
+      "id": "denver",
+      "title": "Denver: Climate History and Outlook",
+      "placeId": "wikidata:Q16554"
+    },
+    {
+      "id": "boston",
+      "title": "Boston: Climate History and Outlook",
+      "placeId": "wikidata:Q100"
+    },
+    {
+      "id": "atlanta",
+      "title": "Atlanta: Climate History and Outlook",
+      "placeId": "wikidata:Q23556"
+    },
+    {
+      "id": "kansas-city",
+      "title": "Kansas City: Climate History and Outlook",
+      "placeId": "wikidata:Q41819"
+    },
+    {
+      "id": "anchorage",
+      "title": "Anchorage: Climate History and Outlook",
+      "placeId": "wikidata:Q39450"
+    }
+  ],
+  "audience": "Curious adults seeking source-grounded explanations"
+}

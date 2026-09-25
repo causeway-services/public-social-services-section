@@ -1,0 +1,123 @@
+{
+  "carrier": "statistics-and-statistical-learning.md",
+  "courseId": "history-and-frontiers-of-machine-learning",
+  "lessonId": "statistics-and-statistical-learning",
+  "researchProductClasses": [
+    "textbook-synthesis",
+    "learning-theory-survey"
+  ],
+  "observedThrough": "2026-07-22T00:00:00.000Z",
+  "expiresAt": "2031-07-21T00:00:00.000Z",
+  "citations": [
+    {
+      "id": "fisher-1922-theoretical-statistics",
+      "title": "On the Mathematical Foundations of Theoretical Statistics",
+      "authors": [
+        "R. A. Fisher"
+      ],
+      "published": 1922,
+      "url": "https://doi.org/10.1098/rsta.1922.0009",
+      "kind": "primary-paper"
+    },
+    {
+      "id": "neyman-pearson-1933-testing",
+      "title": "On the Problem of the Most Efficient Tests of Statistical Hypotheses",
+      "authors": [
+        "Jerzy Neyman",
+        "Egon S. Pearson"
+      ],
+      "published": 1933,
+      "url": "https://doi.org/10.1098/rsta.1933.0009",
+      "kind": "primary-paper"
+    },
+    {
+      "id": "vapnik-chervonenkis-1971-uniform-convergence",
+      "title": "On the Uniform Convergence of Relative Frequencies of Events to Their Probabilities",
+      "authors": [
+        "Vladimir N. Vapnik",
+        "Alexey Y. Chervonenkis"
+      ],
+      "published": 1971,
+      "url": "https://doi.org/10.1137/1116025",
+      "kind": "primary-paper"
+    },
+    {
+      "id": "breiman-2001-two-cultures",
+      "title": "Statistical Modeling: The Two Cultures",
+      "authors": [
+        "Leo Breiman"
+      ],
+      "published": 2001,
+      "url": "https://doi.org/10.1214/ss/1009213726",
+      "kind": "primary-paper"
+    }
+  ],
+  "claims": [
+    {
+      "statement": "Fisher organized estimation around likelihood, sufficiency, consistency, efficiency, and information, but these concepts do not by themselves choose a data-generating model or guarantee useful prediction.",
+      "warrants": [
+        "fisher-1922-theoretical-statistics"
+      ],
+      "scope": "the definitions and asymptotic program in Fisher's 1922 paper"
+    },
+    {
+      "statement": "Neyman and Pearson framed hypothesis testing as a decision rule whose error tradeoffs can be compared between specified alternatives, rather than as a universal measure of evidential truth.",
+      "warrants": [
+        "neyman-pearson-1933-testing"
+      ],
+      "scope": "the simple-hypothesis testing problem and its stated extensions"
+    },
+    {
+      "statement": "Vapnik and Chervonenkis related uniform empirical convergence to a combinatorial capacity property of a class of events, supplying one route from finite samples to bounded generalization claims.",
+      "warrants": [
+        "vapnik-chervonenkis-1971-uniform-convergence"
+      ],
+      "scope": "the formal class-of-events setting of the paper, not every modern learning system"
+    },
+    {
+      "statement": "Breiman contrasted data models aimed at interpretable stochastic structure with algorithmic models aimed at predictive performance and argued that empirical evaluation should have a larger role in statistics.",
+      "warrants": [
+        "breiman-2001-two-cultures"
+      ],
+      "scope": "Breiman's 2001 methodological argument and examples"
+    },
+    {
+      "statement": "Statistical learning joins distinct questions\u2014estimation, testing, prediction, and generalization\u2014that share probability language but require different objects, loss functions, and warrants.",
+      "warrants": [
+        "fisher-1922-theoretical-statistics",
+        "neyman-pearson-1933-testing",
+        "vapnik-chervonenkis-1971-uniform-convergence",
+        "breiman-2001-two-cultures"
+      ],
+      "scope": "a curriculum synthesis across the four cited programs"
+    }
+  ],
+  "uncertainty": [
+    "The cited papers represent influential programs, not a complete history of probability, statistics, or learning theory.",
+    "Later textbook terminology can make disagreements among estimation, testing, and prediction programs look more unified than they were.",
+    "Classical finite-capacity theory does not automatically explain the observed behavior of heavily overparameterized contemporary networks."
+  ],
+  "limitations": [
+    "The packet omits Bayesian decision theory, causal inference, information theory, online learning, and many non-Western and applied statistical traditions.",
+    "It distinguishes inferential objects conceptually but does not derive every theorem or reproduce empirical examples in full.",
+    "A bound stated under explicit assumptions is not evidence that a deployed model satisfies those assumptions or performs safely under distribution shift."
+  ],
+  "reuseGrant": [
+    "notebooklm-transformation",
+    "artificial-intelligence-curriculum",
+    "public-youtube-release"
+  ],
+  "correctionIdentity": "urn:emsenn:corrections:artificial-intelligence-research:statistics-and-statistical-learning:v1",
+  "privacy": {
+    "classification": "public-synthesis",
+    "personalData": "none-intentionally-included",
+    "jurisdiction": "US-internal-publication"
+  },
+  "internalTransfer": {
+    "legalBodyRelation": "same-legal-body",
+    "accountingUnit": "USD-micros",
+    "allocatedCostMicros": 300000,
+    "cashSettlementRequired": false,
+    "status": "settled-internal-cost-allocation"
+  }
+}

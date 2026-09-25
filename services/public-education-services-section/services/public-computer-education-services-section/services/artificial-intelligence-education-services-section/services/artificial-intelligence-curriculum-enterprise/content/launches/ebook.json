@@ -1,0 +1,106 @@
+{
+  "type": "TheAgentOperatorsHandbookEbookLaunchRecord",
+  "provider": "urn:ame:artificial-intelligence-curriculum-enterprise",
+  "slug": "the-agent-operators-handbook",
+  "title": "The Agent Operator's Handbook",
+  "subtitle": "A Field Guide to Dispatching, Steering, and Recovering Multiple AI Coding Agents at Once",
+  "offer": {
+    "format": "EPUB + PDF, one-time digital purchase",
+    "priceUsd": 29,
+    "wordCount": 16415
+  },
+  "build": null,
+  "channelDecision": {
+    "chosen": "own storefront (Stripe Checkout on a house Cloudflare-served property)",
+    "rejected": [
+      "Gumroad",
+      "Lemon Squeezy",
+      "Payhip"
+    ],
+    "reason": "meet-then-beat doctrine (owner-ruled 2026-09-01): house digital goods do not route through a marketplace incumbent; Gumroad/Lemon Squeezy/Payhip researched as the incumbent capability census (meet-gap list), not as the selling channel."
+  },
+  "meetGaps": [
+    {
+      "capability": "hosted checkout UI",
+      "status": "met via Stripe Checkout"
+    },
+    {
+      "capability": "secure file delivery after payment",
+      "status": "gap -- requires a webhook-driven signed-URL/email delivery Worker"
+    },
+    {
+      "capability": "VAT/sales-tax registration and remittance",
+      "status": "partial -- Stripe Tax Basic covers calculation/collection only; registration and filing remain the seller's obligation"
+    },
+    {
+      "capability": "payout rails",
+      "status": "met and arguably beaten -- Stripe payout has no marketplace-imposed minimum on top"
+    },
+    {
+      "capability": "refund/dispute policy",
+      "status": "gap -- needs a published policy page; Stripe provides only the mechanics"
+    },
+    {
+      "capability": "affiliate program",
+      "status": "gap, deferred -- not required for first sale"
+    },
+    {
+      "capability": "pay-what-you-want pricing",
+      "status": "gap, minor, deferred -- first listing ships fixed-price"
+    },
+    {
+      "capability": "marketplace discovery traffic",
+      "status": "structural gap -- addressed by the organic funnel, not by engineering"
+    }
+  ],
+  "beatDifferentiator": "public, hash-verified build record (exact source commit, exact pandoc build command, exact SHA-256 of the shipped EPUB/PDF) -- a marketplace has no access to our source tree and cannot offer this",
+  "pricingRationale": {
+    "priceUsd": 29,
+    "netPerSaleUsd": 27.86,
+    "comparables": [
+      {
+        "name": "Claude Code Prompt Pack (Gumroad)",
+        "priceUsd": 0,
+        "priceNote": "pay-what-you-want floor",
+        "url": "https://maxtendies.gumroad.com/l/claude-code-prompt-pack"
+      },
+      {
+        "name": "[Claude Code] Coding Prompts (Gumroad)",
+        "priceUsdMin": 45,
+        "url": "https://buildtolaunch.gumroad.com/l/claude-code-coding-prompts"
+      },
+      {
+        "name": "OpenClaw + Claude Code Playbook (Gumroad)",
+        "priceUsd": 57,
+        "url": "https://numbpilled.gumroad.com/l/openclaw-claude-code"
+      },
+      {
+        "name": "Prompt Engineering for Programmers bundle (Gumroad)",
+        "priceUsd": 360,
+        "url": "https://godsol.gumroad.com/l/prompt-engineering-for-programmers"
+      }
+    ]
+  },
+  "funnel": {
+    "baseCpcUsd": 1.5,
+    "cpcSource": "https://bootstrapcreative.com/how-much-does-it-cost-to-buy-keywords-on-google/",
+    "conversionAssumptionsStated": [
+      0.01,
+      0.02,
+      0.05
+    ],
+    "finding": "cold paid-traffic acquisition does not clearly break even at $100-$1000/month budgets below ~5% conversion; primary channel is organic (r/ClaudeCode etc., reused from the cohort funnel research), with paid spend better used as warm-traffic retargeting once traffic exists"
+  },
+  "fences": [
+    "no Hive auto-posting performed or authorized by this record",
+    "no charge has been or will be made from this record",
+    "listing waits until a re-read pass by any future session confirms the draft genuinely teaches",
+    "no Stripe account, checkout, or storefront page exists yet"
+  ],
+  "risks": [
+    "the storefront (Checkout session + fulfillment webhook) does not exist yet -- engineering gap named in the meet-gap list, not built this change",
+    "VAT/GST registration and remittance is real, ongoing legal/compliance work this session did not resolve",
+    "no Stripe account exists yet; nothing above is buyable",
+    "first release, no completion or review track record"
+  ]
+}

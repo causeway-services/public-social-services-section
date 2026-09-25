@@ -1,0 +1,28 @@
+{
+  "id": "climate-place-by-place",
+  "name": "Climate, Place-by-Place",
+  "handle": "@ClimatePlace-by-Place",
+  "youtubeChannelId": "UCiPBlAOQRY4U-SE49UbunxA",
+  "refreshTokenEnv": "CLIMATE_YOUTUBE_OAUTH_REFRESH_TOKEN",
+  "notebookId": "67510ce7-79b3-4caa-b25c-28e0d3911b5a",
+  "video": {
+    "format": "explainer",
+    "style": "auto",
+    "language": "en",
+    "prompt": "Explain {{title}} using the selected source reports. Preserve the distinctions, evidence, uncertainty, and learning objectives in the lesson brief. Do not introduce claims unsupported by the sources."
+  },
+  "schedule": {
+    "days": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6
+    ],
+    "hourUtc": 15
+  },
+  "editorial": {},
+  "curriculum": "../../content/curricula/climate-place-by-place/curriculum.json"
+}

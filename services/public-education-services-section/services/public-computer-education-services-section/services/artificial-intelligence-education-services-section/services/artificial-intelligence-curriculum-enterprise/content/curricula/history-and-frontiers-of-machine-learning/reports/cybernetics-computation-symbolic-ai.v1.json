@@ -1,0 +1,114 @@
+{
+  "carrier": "cybernetics-computation-symbolic-ai.md",
+  "courseId": "history-and-frontiers-of-machine-learning",
+  "lessonId": "cybernetics-computation-symbolic-ai",
+  "researchProductClasses": [
+    "primary-history",
+    "technical-retrospective"
+  ],
+  "observedThrough": "2026-07-22T00:00:00.000Z",
+  "expiresAt": "2036-07-19T00:00:00.000Z",
+  "citations": [
+    {
+      "id": "wiener-1948-cybernetics",
+      "title": "Cybernetics: Or Control and Communication in the Animal and the Machine",
+      "authors": [
+        "Norbert Wiener"
+      ],
+      "published": 1948,
+      "url": "https://mitpress.mit.edu/9780262730099/cybernetics/",
+      "kind": "primary-book"
+    },
+    {
+      "id": "mcculloch-pitts-1943-logical-calculus",
+      "title": "A Logical Calculus of the Ideas Immanent in Nervous Activity",
+      "authors": [
+        "Warren S. McCulloch",
+        "Walter Pitts"
+      ],
+      "published": 1943,
+      "url": "https://doi.org/10.1007/BF02478259",
+      "kind": "primary-paper"
+    },
+    {
+      "id": "turing-1950-computing-machinery",
+      "title": "Computing Machinery and Intelligence",
+      "authors": [
+        "A. M. Turing"
+      ],
+      "published": 1950,
+      "url": "https://doi.org/10.1093/mind/LIX.236.433",
+      "kind": "primary-paper"
+    },
+    {
+      "id": "newell-shaw-simon-1957-logic-theory",
+      "title": "Empirical Explorations with the Logic Theory Machine: A Case Study in Heuristics",
+      "authors": [
+        "Allen Newell",
+        "J. C. Shaw",
+        "Herbert A. Simon"
+      ],
+      "published": 1957,
+      "url": "https://doi.org/10.1145/1455567.1455605",
+      "kind": "primary-paper"
+    }
+  ],
+  "claims": [
+    {
+      "statement": "Cybernetics organized feedback, control, and communication across animal and machine systems without being identical to contemporary machine learning.",
+      "warrants": [
+        "wiener-1948-cybernetics"
+      ],
+      "scope": "Wiener's postwar research program and terminology"
+    },
+    {
+      "statement": "Idealized neural units were formally related to logical operations in an abstract network model.",
+      "warrants": [
+        "mcculloch-pitts-1943-logical-calculus"
+      ],
+      "scope": "the source's formal model, not biological fidelity or modern training"
+    },
+    {
+      "statement": "Turing proposed the imitation game as an operational reframing and discussed objections and learning machines.",
+      "warrants": [
+        "turing-1950-computing-machinery"
+      ],
+      "scope": "the 1950 paper rather than every later conversational benchmark"
+    },
+    {
+      "statement": "The Logic Theory Machine used symbolic representations and heuristic search to find proofs in a bounded formal domain.",
+      "warrants": [
+        "newell-shaw-simon-1957-logic-theory"
+      ],
+      "scope": "the documented program and selected proof tasks"
+    }
+  ],
+  "uncertainty": [
+    "Later field labels are retrospective and may hide differences in the sources' own categories.",
+    "Four sources cannot exhaust the institutions, countries, methods, or precursors relevant to early machine intelligence.",
+    "Conceptual influence is not asserted where this packet has only thematic similarity."
+  ],
+  "limitations": [
+    "The packet is a historically grounded teaching synthesis, not a comprehensive historiography.",
+    "Formal expressivity does not establish practical learnability, biological realism, or general intelligence.",
+    "No source is represented as making claims about twenty-first-century foundation models."
+  ],
+  "reuseGrant": [
+    "notebooklm-transformation",
+    "artificial-intelligence-curriculum",
+    "public-youtube-release"
+  ],
+  "correctionIdentity": "urn:emsenn:corrections:artificial-intelligence-research:cybernetics-computation-symbolic-ai:v1",
+  "privacy": {
+    "classification": "public-synthesis",
+    "personalData": "none-intentionally-included",
+    "jurisdiction": "US-internal-publication"
+  },
+  "internalTransfer": {
+    "legalBodyRelation": "same-legal-body",
+    "accountingUnit": "USD-micros",
+    "allocatedCostMicros": 300000,
+    "cashSettlementRequired": false,
+    "status": "settled-internal-cost-allocation"
+  }
+}

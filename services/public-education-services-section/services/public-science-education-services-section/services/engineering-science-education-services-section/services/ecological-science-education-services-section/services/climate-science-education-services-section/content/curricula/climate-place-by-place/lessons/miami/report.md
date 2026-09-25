@@ -1,0 +1,45 @@
+# Miami, Florida: climate history and conditional outlook
+
+## Why this place was researched
+
+The Climate Place Market cleared **Miami, Florida, US** for 2026-07-23. The winning coverage bid offered 0.89 USD and reserved 0.50 USD for research. This market result selects attention; it is not climate evidence.
+
+Coordinates: 25.7620, -80.1920.
+
+## Reanalysis-backed history, 1981–2025
+
+NASA POWER's MERRA-2-backed monthly service reports an annual mean near-surface temperature of **24.93 °C** for the first ten complete years and **25.99 °C** for the most recent ten. Their difference is **1.06 °C**. A simple least-squares line through the 45 annual values is **0.29 °C per decade**. Recent mean daily precipitation is **3.66 mm/day**.
+
+These are gridded reanalysis values, not a local station record. They describe the model grid cell containing the place coordinates and can differ from lived conditions, especially near water, mountains, dense urban surfaces, or sparse observing networks.
+
+## Conditional NEX-GDDP-CMIP6 outlook
+
+The comparison directly subsets NASA NEX-GDDP-CMIP6 daily near-surface air temperature at the nearest 0.25-degree grid point. Each model's 2040–2049 SSP5-8.5 output is compared with its own 2005–2014 historical baseline. SSP5-8.5 is a high-emissions scenario, not a probability-weighted forecast.
+
+| Model | 2005–2014 mean °C | 2040–2049 mean °C | Change °C |
+|---|---:|---:|---:|
+| ACCESS-CM2 | 25.63 | 27.22 | 1.59 |
+| MIROC6 | 25.62 | 26.58 | 0.96 |
+| MPI-ESM1-2-HR | 25.33 | 26.06 | 0.73 |
+
+Across these three models, local mean-temperature change ranges from **0.73 to 1.59 °C**, with a median of **0.96 °C**. This range is model spread within a small ensemble, not a complete uncertainty interval.
+
+## What can and cannot be concluded
+
+- The historical calculation supports a directional account of change in the reanalysis grid cell; it does not prove why any single event happened.
+- The projection comparison is conditional on model structure, bias correction, statistical downscaling, and SSP5-8.5.
+- City-scale heat can be amplified by land cover and urban form that the 0.25-degree model grid does not fully resolve. Precipitation is not projected in this bounded comparison.
+- No model row is privileged as the prediction. The spread should remain visible in narration.
+
+## Sources and method
+
+1. NASA POWER monthly point API, backed by MERRA-2 meteorology: https://power.larc.nasa.gov/docs/services/api/temporal/
+2. NASA POWER meteorology methodology: https://power.larc.nasa.gov/docs/methodology/meteorology/
+3. NASA NEX-GDDP-CMIP6 description, subset method, and limitations: https://www.nccs.nasa.gov/data-collections/nex-gddp-cmip6/
+4. NASA NEX-GDDP-CMIP6 open-data registry and CC0 terms: https://registry.opendata.aws/nex-gddp-cmip6/
+
+The research supplier requested only point-subset CSV carriers from NASA's NCCS THREDDS NetCDF Subset Service; it did not use a third-party climate-processing API. Data were retrieved at 2026-07-23T15:48:43.732Z. Research method version: 2. Scenario: SSP5-8.5. Research order: urn:sha256:0e750bd0a4b5ac415a3c06b44a432a4e478850dfdef9a16d061c60284a7d8d9d. Market clearing: urn:sha256:d977476dcb55f33974fd6262891287e22fb5475eaa82711d3fe0590faa147d33. Correction identity: urn:sha256:70c0ca7f0ac3b684a6a9c01598ca4fe75049d55d96f8675ca2b5a45b53e3539d.
+
+## NotebookLM brief
+
+Create a clear explanatory video about Miami's climate history and conditional outlook. Begin with the place and why market demand selected it. Distinguish NASA POWER gridded reanalysis from station observations. Explain the early-versus-recent temperature comparison and the simple trend without implying causation from the regression alone. Compare all three directly subset NASA NEX-GDDP-CMIP6 model rows, preserve their spread, and describe SSP5-8.5 as conditional rather than predictive. Explain what downscaling, scenario choice, local geography, and urban form leave unresolved. End with practical questions residents and local institutions could ask of higher-resolution local records and planning documents. Do not use disaster spectacle or claim certainty that the evidence does not support.

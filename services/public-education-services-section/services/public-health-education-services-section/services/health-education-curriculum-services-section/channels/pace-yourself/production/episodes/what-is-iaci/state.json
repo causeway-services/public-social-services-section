@@ -1,0 +1,17 @@
+{
+  "version": 1,
+  "channel": "pace-yourself",
+  "lessonId": "what-is-iaci",
+  "stage": "researching",
+  "createdAt": "2026-09-20T16:03:01.114Z",
+  "lastError": null,
+  "updatedAt": "2026-09-20T16:03:05.089Z",
+  "notebookCreationStarted": true,
+  "notebookId": "af557e47-e196-4e55-9c0b-dfce12174aee",
+  "research": {
+    "notebookId": "af557e47-e196-4e55-9c0b-dfce12174aee",
+    "query": "What Is Infection-Associated Chronic Illness? Find primary sources and authoritative research for an educational report.",
+    "started": true,
+    "taskId": "bdd81920-9612-451c-95f8-6b43186c9e07"
+  }
+}

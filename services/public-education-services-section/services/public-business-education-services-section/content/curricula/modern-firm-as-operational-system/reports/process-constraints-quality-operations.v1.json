@@ -1,0 +1,151 @@
+{
+  "carrier": "process-constraints-quality-operations.md",
+  "courseId": "modern-firm-as-operational-system",
+  "lessonId": "process-constraints-quality-operations",
+  "researchProductClasses": [
+    "operations-method-comparison",
+    "case-evidence",
+    "failure-mode-analysis"
+  ],
+  "observedThrough": "2026-07-22T00:00:00.000Z",
+  "expiresAt": "2027-01-18T00:00:00.000Z",
+  "citations": [
+    {
+      "id": "little-1961-queueing-formula",
+      "title": "A Proof for the Queuing Formula: L = λW",
+      "authors": [
+        "John D. C. Little"
+      ],
+      "published": 1961,
+      "url": "https://doi.org/10.1287/opre.9.3.383",
+      "kind": "primary-paper"
+    },
+    {
+      "id": "skinner-1969-manufacturing-strategy",
+      "title": "Manufacturing—Missing Link in Corporate Strategy",
+      "authors": [
+        "Wickham Skinner"
+      ],
+      "published": 1969,
+      "url": "https://hbr.org/1969/05/manufacturing-missing-link-in-corporate-strategy",
+      "kind": "primary-practitioner-argument"
+    },
+    {
+      "id": "spear-bowen-1999-toyota-production-system",
+      "title": "Decoding the DNA of the Toyota Production System",
+      "authors": [
+        "Steven J. Spear",
+        "H. Kent Bowen"
+      ],
+      "published": 1999,
+      "url": "https://hbr.org/1999/09/decoding-the-dna-of-the-toyota-production-system",
+      "kind": "primary-field-study"
+    },
+    {
+      "id": "shah-ward-2003-lean-bundles",
+      "title": "Lean Manufacturing: Context, Practice Bundles, and Performance",
+      "authors": [
+        "Rachna Shah",
+        "Peter T. Ward"
+      ],
+      "published": 2003,
+      "url": "https://doi.org/10.1016/S0272-6963(02)00108-0",
+      "kind": "primary-empirical-study"
+    }
+  ],
+  "claims": [
+    {
+      "statement": "Under stated stability and finiteness conditions, average work in process, effective throughput, and average flow time obey L = λW, but the identity does not diagnose the cause of delay.",
+      "warrants": [
+        "little-1961-queueing-formula"
+      ],
+      "scope": "Little's defined stationary queueing relation and a bounded operational interpretation"
+    },
+    {
+      "statement": "Facilities, equipment, workforce, controls, and operating policies can constrain strategic options, so operations design is not merely a neutral search for local efficiency.",
+      "warrants": [
+        "skinner-1969-manufacturing-strategy"
+      ],
+      "scope": "Skinner's manufacturing-strategy argument, cautiously translated to other operations"
+    },
+    {
+      "statement": "The Toyota study interpreted specified work, direct connections, simple pathways, and guided hypothesis testing as interacting rules that make deviations and improvement experiments observable.",
+      "warrants": [
+        "spear-bowen-1999-toyota-production-system"
+      ],
+      "scope": "Spear and Bowen's field interpretation of the studied Toyota operations"
+    },
+    {
+      "statement": "Lean manufacturing was empirically represented as related practice bundles whose implementation and performance associations varied with plant context rather than as independent universal techniques.",
+      "warrants": [
+        "shah-ward-2003-lean-bundles"
+      ],
+      "scope": "the constructs, sample, controls, and operational-performance measures in Shah and Ward"
+    },
+    {
+      "statement": "Reliable improvement requires a declared system boundary, typed flow and quality evidence, a falsifiable change hypothesis, and observation of displaced costs rather than metric optimization alone.",
+      "warrants": [
+        "little-1961-queueing-formula",
+        "skinner-1969-manufacturing-strategy",
+        "spear-bowen-1999-toyota-production-system",
+        "shah-ward-2003-lean-bundles"
+      ],
+      "scope": "a situated curriculum synthesis across mathematical, strategic, field-study, and empirical evidence"
+    }
+  ],
+  "situatedContext": {
+    "organizationForm": "small-or-medium commercial or member-owned organization",
+    "industry": "cross-industry operations and service processes",
+    "scale": "bounded process improvement with reversible experiments",
+    "jurisdiction": "United States baseline; labor, safety, quality, and sector duties require separate review",
+    "observedAt": "2026-07-22T00:00:00.000Z",
+    "descriptiveEvidence": [
+      "arrivals, completions, work in process, and flow time",
+      "defects and rework",
+      "activities, queues, handoffs, and information delays",
+      "implementation context and system-level performance"
+    ],
+    "prescriptiveInference": [
+      "define one consistent system boundary",
+      "test one falsifiable improvement hypothesis",
+      "observe displaced work and distributional effects"
+    ],
+    "uncertainty": [
+      "transfer across industries and organization forms",
+      "measurement-boundary changes",
+      "unobserved implementation and labor conditions"
+    ],
+    "counterevidence": [
+      "improved local utilization with worse end-to-end time",
+      "quality or safety deterioration",
+      "work displaced to another team or supplier",
+      "performance gains that disappear outside the pilot"
+    ]
+  },
+  "uncertainty": [
+    "The four sources span a theorem, strategic argument, field interpretation, and observational study; their warrants are not interchangeable.",
+    "Lean and quality terminology varies across researchers, firms, consultants, workers, and jurisdictions."
+  ],
+  "limitations": [
+    "This packet is not a safety certification, labor directive, legal opinion, or performance warranty.",
+    "It does not provide a universal constraint-finding algorithm or prescribe inventory, staffing, or speed targets."
+  ],
+  "reuseGrant": [
+    "notebooklm-transformation",
+    "modern-business-curriculum",
+    "public-youtube-release"
+  ],
+  "correctionIdentity": "urn:emsenn:corrections:modern-business-research:process-constraints-quality-operations:v1",
+  "privacy": {
+    "classification": "public-synthesis",
+    "personalData": "none-intentionally-included",
+    "jurisdiction": "US-internal-publication"
+  },
+  "internalTransfer": {
+    "legalBodyRelation": "same-legal-body",
+    "accountingUnit": "USD-micros",
+    "allocatedCostMicros": 350000,
+    "cashSettlementRequired": false,
+    "status": "settled-internal-cost-allocation"
+  }
+}

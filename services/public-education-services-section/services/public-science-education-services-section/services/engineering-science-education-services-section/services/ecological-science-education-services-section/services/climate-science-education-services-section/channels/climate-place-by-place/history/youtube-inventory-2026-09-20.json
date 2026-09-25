@@ -1,0 +1,208 @@
+{
+  "channel": "climate",
+  "id": "UCiPBlAOQRY4U-SE49UbunxA",
+  "title": "Climate, Place-by-Place",
+  "statistics": {
+    "viewCount": "2",
+    "subscriberCount": "1",
+    "hiddenSubscriberCount": false,
+    "videoCount": "2"
+  },
+  "videos": [
+    {
+      "kind": "youtube#video",
+      "etag": "ST9P4MwXQUEnhG-l5DWwilOPWfk",
+      "id": "MvVBLFduxlY",
+      "snippet": {
+        "publishedAt": "2026-07-24T15:00:23Z",
+        "channelId": "UCiPBlAOQRY4U-SE49UbunxA",
+        "title": "Phoenix, Arizona: Climate History and Outlook",
+        "description": "Climate, Place-by-Place examines Phoenix, Arizona, US.\n\nThis episode distinguishes NASA POWER gridded reanalysis from station observations and compares three conditional CMIP6 model outputs. Model spread is not a probability interval or a deterministic prediction.\n\nHistorical evidence: 1981–2025. Conditional outlook: 2040–2049.\n\nSources:\n• NASA POWER Temporal APIs: https://power.larc.nasa.gov/docs/services/api/temporal/\n• NASA POWER Meteorology Methodology: https://power.larc.nasa.gov/docs/methodology/meteorology/\n• NASA NEX-GDDP-CMIP6 data access and subset method: https://www.nccs.nasa.gov/data-collections/nex-gddp-cmip6/\n• NASA NEX-GDDP-CMIP6 Open Data Registry: https://registry.opendata.aws/nex-gddp-cmip6/\n\nThis is educational climate analysis, not an emergency forecast, engineering design basis, or individualized risk assessment.",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/MvVBLFduxlY/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/MvVBLFduxlY/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/MvVBLFduxlY/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/MvVBLFduxlY/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/MvVBLFduxlY/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "Climate, Place-by-Place",
+        "categoryId": "27",
+        "liveBroadcastContent": "none",
+        "defaultLanguage": "en",
+        "localized": {
+          "title": "Phoenix, Arizona: Climate History and Outlook",
+          "description": "Climate, Place-by-Place examines Phoenix, Arizona, US.\n\nThis episode distinguishes NASA POWER gridded reanalysis from station observations and compares three conditional CMIP6 model outputs. Model spread is not a probability interval or a deterministic prediction.\n\nHistorical evidence: 1981–2025. Conditional outlook: 2040–2049.\n\nSources:\n• NASA POWER Temporal APIs: https://power.larc.nasa.gov/docs/services/api/temporal/\n• NASA POWER Meteorology Methodology: https://power.larc.nasa.gov/docs/methodology/meteorology/\n• NASA NEX-GDDP-CMIP6 data access and subset method: https://www.nccs.nasa.gov/data-collections/nex-gddp-cmip6/\n• NASA NEX-GDDP-CMIP6 Open Data Registry: https://registry.opendata.aws/nex-gddp-cmip6/\n\nThis is educational climate analysis, not an emergency forecast, engineering design basis, or individualized risk assessment."
+        }
+      },
+      "contentDetails": {
+        "duration": "PT6M47S",
+        "dimension": "2d",
+        "definition": "hd",
+        "caption": "false",
+        "licensedContent": false,
+        "contentRating": {},
+        "projection": "rectangular",
+        "hasCustomThumbnail": false
+      },
+      "status": {
+        "uploadStatus": "processed",
+        "privacyStatus": "public",
+        "license": "youtube",
+        "embeddable": true,
+        "publicStatsViewable": true,
+        "madeForKids": false,
+        "selfDeclaredMadeForKids": false
+      }
+    },
+    {
+      "kind": "youtube#video",
+      "etag": "Wpha1sNMekTe8IXsZKLOm4ucVcA",
+      "id": "Ro0BQeCeMLE",
+      "snippet": {
+        "publishedAt": "2026-07-22T15:43:38Z",
+        "channelId": "UCiPBlAOQRY4U-SE49UbunxA",
+        "title": "Chicago, Illinois: Climate History and Outlook",
+        "description": "Climate, Place-by-Place examines Chicago, Illinois, US.\n\nThis episode distinguishes NASA POWER gridded reanalysis from station observations and compares three conditional CMIP6 model outputs. Model spread is not a probability interval or a deterministic prediction.\n\nHistorical evidence: 1981–2025. Conditional outlook: 2036–2049.\n\nSources:\n• NASA POWER Temporal APIs: https://power.larc.nasa.gov/docs/services/api/temporal/\n• NASA POWER Meteorology Methodology: https://power.larc.nasa.gov/docs/methodology/meteorology/\n• NASA NEX-GDDP-CMIP6: https://www.nccs.nasa.gov/data-collections/nex-gddp-cmip6/\n• Open-Meteo Climate API: https://open-meteo.com/en/docs/climate-api\n\nThis is educational climate analysis, not an emergency forecast, engineering design basis, or individualized risk assessment.\n\nLegacy pilot method and reuse note:\nThis episode uses NASA POWER reanalysis and three HighResMIP/CMIP6 models processed and bias-corrected by Open-Meteo, comparing 2011-01-01/2020-12-31 with 2040-01-01/2049-12-31.\nOpen-Meteo data are used under CC BY 4.0. Attribution: Weather data by Open-Meteo.com — https://open-meteo.com/ — and the CMIP6 program.\nThis Chicago, Illinois pilot predates the channel's method-v2 direct NASA NEX-GDDP-CMIP6 SSP5-8.5 standard. Its figures remain a legacy conditional comparison and are not the method-v2 series.\nCreator monetization of this legacy episode is withheld pending a separate commercial-use admission.",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/Ro0BQeCeMLE/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/Ro0BQeCeMLE/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/Ro0BQeCeMLE/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/Ro0BQeCeMLE/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/Ro0BQeCeMLE/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "Climate, Place-by-Place",
+        "categoryId": "27",
+        "liveBroadcastContent": "none",
+        "defaultLanguage": "en",
+        "localized": {
+          "title": "Chicago, Illinois: Climate History and Outlook",
+          "description": "Climate, Place-by-Place examines Chicago, Illinois, US.\n\nThis episode distinguishes NASA POWER gridded reanalysis from station observations and compares three conditional CMIP6 model outputs. Model spread is not a probability interval or a deterministic prediction.\n\nHistorical evidence: 1981–2025. Conditional outlook: 2036–2049.\n\nSources:\n• NASA POWER Temporal APIs: https://power.larc.nasa.gov/docs/services/api/temporal/\n• NASA POWER Meteorology Methodology: https://power.larc.nasa.gov/docs/methodology/meteorology/\n• NASA NEX-GDDP-CMIP6: https://www.nccs.nasa.gov/data-collections/nex-gddp-cmip6/\n• Open-Meteo Climate API: https://open-meteo.com/en/docs/climate-api\n\nThis is educational climate analysis, not an emergency forecast, engineering design basis, or individualized risk assessment.\n\nLegacy pilot method and reuse note:\nThis episode uses NASA POWER reanalysis and three HighResMIP/CMIP6 models processed and bias-corrected by Open-Meteo, comparing 2011-01-01/2020-12-31 with 2040-01-01/2049-12-31.\nOpen-Meteo data are used under CC BY 4.0. Attribution: Weather data by Open-Meteo.com — https://open-meteo.com/ — and the CMIP6 program.\nThis Chicago, Illinois pilot predates the channel's method-v2 direct NASA NEX-GDDP-CMIP6 SSP5-8.5 standard. Its figures remain a legacy conditional comparison and are not the method-v2 series.\nCreator monetization of this legacy episode is withheld pending a separate commercial-use admission."
+        }
+      },
+      "contentDetails": {
+        "duration": "PT6M42S",
+        "dimension": "2d",
+        "definition": "hd",
+        "caption": "false",
+        "licensedContent": false,
+        "contentRating": {},
+        "projection": "rectangular",
+        "hasCustomThumbnail": false
+      },
+      "status": {
+        "uploadStatus": "processed",
+        "privacyStatus": "public",
+        "license": "youtube",
+        "embeddable": true,
+        "publicStatsViewable": true,
+        "madeForKids": false,
+        "selfDeclaredMadeForKids": false
+      }
+    },
+    {
+      "kind": "youtube#video",
+      "etag": "8X7bE5JP6ju72nyjadljU78tFYw",
+      "id": "B-Z0rkbfiXI",
+      "snippet": {
+        "publishedAt": "2026-07-22T09:04:30Z",
+        "channelId": "UCiPBlAOQRY4U-SE49UbunxA",
+        "title": "Chicago, Illinois: Climate History and Outlook",
+        "description": "Climate, Place-by-Place examines Chicago, Illinois, US.\n\nThis episode distinguishes NASA POWER gridded reanalysis from station observations and compares three conditional CMIP6 model outputs. Model spread is not a probability interval or a deterministic prediction.\n\nHistorical evidence: 1981–2025. Conditional outlook: 2036–2049.\n\nSources:\n• NASA POWER Temporal APIs: https://power.larc.nasa.gov/docs/services/api/temporal/\n• NASA POWER Meteorology Methodology: https://power.larc.nasa.gov/docs/methodology/meteorology/\n• NASA NEX-GDDP-CMIP6: https://www.nccs.nasa.gov/data-collections/nex-gddp-cmip6/\n• Open-Meteo Climate API: https://open-meteo.com/en/docs/climate-api\n\nThis is educational climate analysis, not an emergency forecast, engineering design basis, or individualized risk assessment.",
+        "thumbnails": {
+          "default": {
+            "url": "https://i9.ytimg.com/vi/B-Z0rkbfiXI/default.jpg?sqp=CKT6v9UG&rs=AOn4CLCFNQZS3zCBiU4tisBucJ6ZHgJUtQ",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i9.ytimg.com/vi/B-Z0rkbfiXI/mqdefault.jpg?sqp=CKT6v9UG&rs=AOn4CLAmQiN_R1QUlcuPx94L5u2yEcPyig",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i9.ytimg.com/vi/B-Z0rkbfiXI/hqdefault.jpg?sqp=CKT6v9UG&rs=AOn4CLDlbTUdMIwALqL9rGJXF_lg4AwglQ",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i9.ytimg.com/vi/B-Z0rkbfiXI/sddefault.jpg?sqp=CKT6v9UG&rs=AOn4CLDI972t0YvLzoq8dpDz5MdiUOtaow",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i9.ytimg.com/vi/B-Z0rkbfiXI/maxresdefault.jpg?sqp=CKT6v9UG&rs=AOn4CLAVMNF9wb8encSqqgD6NI0Jwmd4jw",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "Climate, Place-by-Place",
+        "categoryId": "27",
+        "liveBroadcastContent": "none",
+        "localized": {
+          "title": "Chicago, Illinois: Climate History and Outlook",
+          "description": "Climate, Place-by-Place examines Chicago, Illinois, US.\n\nThis episode distinguishes NASA POWER gridded reanalysis from station observations and compares three conditional CMIP6 model outputs. Model spread is not a probability interval or a deterministic prediction.\n\nHistorical evidence: 1981–2025. Conditional outlook: 2036–2049.\n\nSources:\n• NASA POWER Temporal APIs: https://power.larc.nasa.gov/docs/services/api/temporal/\n• NASA POWER Meteorology Methodology: https://power.larc.nasa.gov/docs/methodology/meteorology/\n• NASA NEX-GDDP-CMIP6: https://www.nccs.nasa.gov/data-collections/nex-gddp-cmip6/\n• Open-Meteo Climate API: https://open-meteo.com/en/docs/climate-api\n\nThis is educational climate analysis, not an emergency forecast, engineering design basis, or individualized risk assessment."
+        }
+      },
+      "contentDetails": {
+        "duration": "PT6M42S",
+        "dimension": "2d",
+        "definition": "hd",
+        "caption": "false",
+        "licensedContent": false,
+        "contentRating": {},
+        "projection": "rectangular",
+        "hasCustomThumbnail": false
+      },
+      "status": {
+        "uploadStatus": "processed",
+        "privacyStatus": "private",
+        "license": "youtube",
+        "embeddable": true,
+        "publicStatsViewable": true,
+        "madeForKids": false,
+        "selfDeclaredMadeForKids": false
+      }
+    }
+  ],
+  "more": null
+}

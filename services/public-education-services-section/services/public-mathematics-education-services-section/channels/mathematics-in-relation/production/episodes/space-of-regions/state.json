@@ -1,0 +1,45 @@
+{
+  "version": 1,
+  "channel": "mathematics-in-relation",
+  "lessonId": "space-of-regions",
+  "stage": "scheduled",
+  "createdAt": "2026-09-20T15:52:01.786Z",
+  "updatedAt": "2026-09-20T16:19:14.677Z",
+  "reportSha256": "e6154b242b1c189f566c9825578e48c957f16072c30c818a5ae34175f9e4eecb",
+  "notebookId": "67510ce7-79b3-4caa-b25c-28e0d3911b5a",
+  "sourceId": "75e3dded-91c7-4709-9a59-24148ef1b78d",
+  "generationStarted": true,
+  "artifactId": "afeb983b-e0d9-4b4e-81a8-ae807eb0dead",
+  "lastError": null,
+  "plannedPublishAt": "2026-09-21T15:00:00.000Z",
+  "upload": {
+    "marker": "mathematics-in-relation/space-of-regions",
+    "channelId": "UCVk_gd1Tv320tj6ofCTiLMw",
+    "size": 25587167,
+    "sha256": "542010fa5b218bc3fc70aebe3eeddc66410c316e701e061ec9d471ccfa91f43c",
+    "publishAt": "2026-09-21T15:00:00.000Z",
+    "phase": "complete",
+    "sessionUrlEncrypted": {
+      "version": 1,
+      "iv": "r0xipSkW87pWhzRr",
+      "tag": "3zRSb12I+ANt3WPuMUqZ+g==",
+      "ciphertext": "S2r43fqwpUtZzHU+trbXGlS+c8R0GDyQd4/hIyiZCkss88rRU/qFJCupOr78Bo7aQ7pDiQYexDFOX1nvbwhPOMq6HEP96uywfTw3rOvl5co4mNCojw6OeIZyN4nBsVs+mOq/Vrcmu22f2LcyHSoyzAiUEFkBrgpAJjbcNVfsFardNsE7GzQxtxAt8/W6T01KQ5Aadn3bgzSbBwer0o3cnjtBsnovy+U2C5gk7y0X5+vzwN2wELDmJ3LDa4kMPnGSwicHa+LgM9dNcAvoL2/PpI7xVhOm"
+    },
+    "nextOffset": 25587167,
+    "attemptedEnd": 25587166,
+    "videoId": "Inkjl1mHD7k"
+  },
+  "youtubeVideoId": "Inkjl1mHD7k",
+  "thumbnailError": {
+    "at": "2026-09-20T16:17:28.261Z",
+    "code": "CUSTOM_THUMBNAIL_PERMISSION",
+    "message": "YouTube custom-thumbnail permission is unavailable for this channel. Check YouTube Studio > Settings > Channel > Feature eligibility; the uploaded video and its publication schedule remain intact.",
+    "retryable": false
+  },
+  "publishAt": "2026-09-21T15:00:00Z",
+  "generationAttempt": {
+    "startedAt": "2026-09-20T15:52:19.061445+00:00",
+    "format": "cinematic"
+  },
+  "metadataCorrectionPending": true
+}

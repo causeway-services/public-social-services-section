@@ -1,0 +1,412 @@
+{
+  "version": 1,
+  "publications": [
+    {
+      "youtubeVideoId": "JMSPfwl6z2g",
+      "title": "What Is Infection-Associated Chronic Illness?",
+      "publishedAt": "2026-09-03T00:24:23Z",
+      "privacyStatus": "private",
+      "renderer": "substituted-non-notebook",
+      "source": "YouTube Data API inventory 2026-09-20",
+      "note": "PACE authored health video uploaded to emsenn0; does not establish PACE channel publication."
+    },
+    {
+      "youtubeVideoId": "MMjEUowC9fM",
+      "title": "Biomechanics of ME/CFS: PEM Delay and Cascading Chronic Symptoms",
+      "publishedAt": "2026-09-02T20:24:29Z",
+      "privacyStatus": "public",
+      "renderer": "unknown-historical",
+      "source": "YouTube Data API inventory 2026-09-20"
+    },
+    {
+      "youtubeVideoId": "jCfAxP6vUOY",
+      "title": "Maza getting groomed by Ska",
+      "publishedAt": "2026-08-27T23:42:30Z",
+      "privacyStatus": "public",
+      "renderer": "unknown-historical",
+      "source": "YouTube Data API inventory 2026-09-20"
+    },
+    {
+      "youtubeVideoId": "8nT9suNbfRA",
+      "title": "#OperationPuppetMaster #CivilLiberties #FirstAmendment #SurveillanceState #Minneapolis2025",
+      "publishedAt": "2026-08-14T17:33:23Z",
+      "privacyStatus": "public",
+      "renderer": "unknown-historical",
+      "source": "YouTube Data API inventory 2026-09-20"
+    },
+    {
+      "youtubeVideoId": "FdAXd5BoxRU",
+      "title": "HSI, DHS Federal Reports Imply ICE Overreach in Minnesota",
+      "publishedAt": "2026-08-14T17:19:34Z",
+      "privacyStatus": "public",
+      "renderer": "unknown-historical",
+      "source": "YouTube Data API inventory 2026-09-20"
+    },
+    {
+      "youtubeVideoId": "EFMxXST2_JA",
+      "title": "Explaining the DAMN Files: Direct Action Minnesota & HSI Overreach",
+      "publishedAt": "2026-08-14T16:15:22Z",
+      "privacyStatus": "public",
+      "renderer": "unknown-historical",
+      "source": "YouTube Data API inventory 2026-09-20"
+    },
+    {
+      "youtubeVideoId": "MMxRvrJBBjE",
+      "title": "AI Data Centers and the Grid: Who Pays, Who Decides?",
+      "publishedAt": "2026-07-22T15:00:33Z",
+      "privacyStatus": "public",
+      "renderer": "notebooklm",
+      "source": "YouTube Data API inventory 2026-09-20",
+      "artifactId": "98e8aff1-e491-4d90-852b-90c3af1fd98d",
+      "lessonId": "ai-data-centers-grid-costs"
+    },
+    {
+      "youtubeVideoId": "TMQ1VlUG1mk",
+      "title": "AI Data Centers and the Grid: Who Pays, Who Decides?",
+      "publishedAt": "2026-07-22T10:04:55Z",
+      "privacyStatus": "private",
+      "renderer": "unknown-historical",
+      "source": "YouTube Data API inventory 2026-09-20",
+      "lessonId": "ai-data-centers-grid-costs"
+    },
+    {
+      "youtubeVideoId": "ll8cRmKGvn8",
+      "title": "Looking at Harmonious Union as a Gyrobifastigial Tessellation, The Market as Whirling Dervish",
+      "publishedAt": "2026-07-19T16:48:49Z",
+      "privacyStatus": "unlisted",
+      "renderer": "unknown-historical",
+      "source": "YouTube Data API inventory 2026-09-20"
+    },
+    {
+      "youtubeVideoId": "xaVS7liWpJg",
+      "title": "Semantics of Divergence and Infinity: Compactificaiton",
+      "publishedAt": "2026-07-17T07:00:18Z",
+      "privacyStatus": "public",
+      "renderer": "unknown-historical",
+      "source": "YouTube Data API inventory 2026-09-20"
+    },
+    {
+      "youtubeVideoId": "T1EJFtyabAc",
+      "title": "How Erasing Data Creates Physical Heat",
+      "publishedAt": "2026-07-17T02:48:57Z",
+      "privacyStatus": "public",
+      "renderer": "unknown-historical",
+      "source": "YouTube Data API inventory 2026-09-20"
+    },
+    {
+      "youtubeVideoId": "-BrzDpYib-M",
+      "title": "How Compactification Tames Mathematical Infinity",
+      "publishedAt": "2026-07-16T15:37:02Z",
+      "privacyStatus": "private",
+      "renderer": "unknown-historical",
+      "source": "YouTube Data API inventory 2026-09-20"
+    },
+    {
+      "youtubeVideoId": "aRFw2BtbcwM",
+      "title": "Erasing Information Creates Heat: Landauer Bit Entropy Explained",
+      "publishedAt": "2026-07-16T11:00:18Z",
+      "privacyStatus": "public",
+      "renderer": "unknown-historical",
+      "source": "YouTube Data API inventory 2026-09-20"
+    },
+    {
+      "youtubeVideoId": "eqGNbZjDLhg",
+      "title": "How Tactical Proofing Separates Search From Logic",
+      "publishedAt": "2026-07-16T01:04:48Z",
+      "privacyStatus": "public",
+      "renderer": "unknown-historical",
+      "source": "YouTube Data API inventory 2026-09-20"
+    },
+    {
+      "youtubeVideoId": "PAvtRov4Mfg",
+      "title": "How Tactical Proofing Fixes Broken Trust Systems",
+      "publishedAt": "2026-07-15T07:00:13Z",
+      "privacyStatus": "public",
+      "renderer": "unknown-historical",
+      "source": "YouTube Data API inventory 2026-09-20"
+    },
+    {
+      "youtubeVideoId": "4jpcogAAU0w",
+      "title": "How Stochastic Probabilities Turn Distributed Chance Into Evolution",
+      "publishedAt": "2026-07-14T06:30:27Z",
+      "privacyStatus": "public",
+      "renderer": "unknown-historical",
+      "source": "YouTube Data API inventory 2026-09-20"
+    },
+    {
+      "youtubeVideoId": "J8LRDOMqamY",
+      "title": "How Defensive Explanations Erase Harm",
+      "publishedAt": "2026-07-13T21:15:29Z",
+      "privacyStatus": "public",
+      "renderer": "unknown-historical",
+      "source": "YouTube Data API inventory 2026-09-20"
+    },
+    {
+      "youtubeVideoId": "ZUB_KWYjk8g",
+      "title": "#automation #ai #mathematics",
+      "publishedAt": "2026-07-13T16:46:10Z",
+      "privacyStatus": "public",
+      "renderer": "unknown-historical",
+      "source": "YouTube Data API inventory 2026-09-20"
+    },
+    {
+      "youtubeVideoId": "f_FB7SdGgp0",
+      "title": "The Mathematics of MAPE-K: Why Feedback Loops Fail",
+      "publishedAt": "2026-07-13T07:00:25Z",
+      "privacyStatus": "public",
+      "renderer": "unknown-historical",
+      "source": "YouTube Data API inventory 2026-09-20"
+    },
+    {
+      "youtubeVideoId": "tYGrstaM1cM",
+      "title": "How the Kalman Filter Finds the Truth",
+      "publishedAt": "2026-07-13T03:09:08Z",
+      "privacyStatus": "private",
+      "renderer": "unknown-historical",
+      "source": "YouTube Data API inventory 2026-09-20"
+    },
+    {
+      "youtubeVideoId": "fNcnRhzUVDU",
+      "title": "#mathematics #crystals",
+      "publishedAt": "2026-07-12T13:48:15Z",
+      "privacyStatus": "public",
+      "renderer": "unknown-historical",
+      "source": "YouTube Data API inventory 2026-09-20"
+    },
+    {
+      "youtubeVideoId": "bs03N7lM1nY",
+      "title": "The Burgers Vector in Non-Riemannian Geometry",
+      "publishedAt": "2026-07-12T07:45:03Z",
+      "privacyStatus": "public",
+      "renderer": "unknown-historical",
+      "source": "YouTube Data API inventory 2026-09-20"
+    },
+    {
+      "youtubeVideoId": "Np2kbaBg8WM",
+      "title": "#spacetime #mathematics #lightcone #causality",
+      "publishedAt": "2026-07-11T15:13:44Z",
+      "privacyStatus": "public",
+      "renderer": "unknown-historical",
+      "source": "YouTube Data API inventory 2026-09-20"
+    },
+    {
+      "youtubeVideoId": "cIW6py_UWdI",
+      "title": "Causal Sets And The Mathematics of Lorentzian Spacetime",
+      "publishedAt": "2026-07-11T15:13:13Z",
+      "privacyStatus": "public",
+      "renderer": "unknown-historical",
+      "source": "YouTube Data API inventory 2026-09-20"
+    },
+    {
+      "youtubeVideoId": "uAnnAGP0RIc",
+      "title": "#mathematics #algebra #algebraicstructure #formalconceptanalysis",
+      "publishedAt": "2026-07-10T18:28:41Z",
+      "privacyStatus": "public",
+      "renderer": "unknown-historical",
+      "source": "YouTube Data API inventory 2026-09-20"
+    },
+    {
+      "youtubeVideoId": "JjUL_30-8Wc",
+      "title": "How to Build Algebraic Structures for Descriptions with Formal Concept Analysis",
+      "publishedAt": "2026-07-10T18:24:19Z",
+      "privacyStatus": "public",
+      "renderer": "unknown-historical",
+      "source": "YouTube Data API inventory 2026-09-20"
+    },
+    {
+      "youtubeVideoId": "jCbntxT9EXQ",
+      "title": "Understanding the Mechanics of Affective Governance",
+      "publishedAt": "2026-07-10T17:00:43Z",
+      "privacyStatus": "public",
+      "renderer": "unknown-historical",
+      "source": "YouTube Data API inventory 2026-09-20"
+    },
+    {
+      "youtubeVideoId": "S1SndB0vTJs",
+      "title": "Stop Explaining: The Logic of Social Control",
+      "publishedAt": "2026-07-09T21:36:43Z",
+      "privacyStatus": "unlisted",
+      "renderer": "unknown-historical",
+      "source": "YouTube Data API inventory 2026-09-20"
+    },
+    {
+      "youtubeVideoId": "OXS7arwNjtc",
+      "title": "Why Quantum Proofs Destroy Their Own Evidence",
+      "publishedAt": "2026-07-09T16:08:21Z",
+      "privacyStatus": "public",
+      "renderer": "unknown-historical",
+      "source": "YouTube Data API inventory 2026-09-20"
+    },
+    {
+      "youtubeVideoId": "xheWtw4YQek",
+      "title": "What is a Mathematical Axiom",
+      "publishedAt": "2026-07-09T16:08:09Z",
+      "privacyStatus": "public",
+      "renderer": "unknown-historical",
+      "source": "YouTube Data API inventory 2026-09-20"
+    },
+    {
+      "youtubeVideoId": "g4lQrhuTLeg",
+      "title": "The QMA Crisis: Why Formal Logic is Failing",
+      "publishedAt": "2026-07-09T16:07:50Z",
+      "privacyStatus": "public",
+      "renderer": "unknown-historical",
+      "source": "YouTube Data API inventory 2026-09-20"
+    },
+    {
+      "youtubeVideoId": "PDWkm5sx2mw",
+      "title": "The Math Crisis Nobody is Talking About",
+      "publishedAt": "2026-07-08T20:36:00Z",
+      "privacyStatus": "public",
+      "renderer": "unknown-historical",
+      "source": "YouTube Data API inventory 2026-09-20"
+    },
+    {
+      "youtubeVideoId": "_nCznlxRk4E",
+      "title": "Engineering Sovereignty: The Topography of Cloud Computing",
+      "publishedAt": "2026-07-07T20:11:12Z",
+      "privacyStatus": "unlisted",
+      "renderer": "unknown-historical",
+      "source": "YouTube Data API inventory 2026-09-20"
+    },
+    {
+      "youtubeVideoId": "1vq0E0TrtyM",
+      "title": "How a Sheaf Laplacian Maps Cloud Friction",
+      "publishedAt": "2026-07-07T20:11:10Z",
+      "privacyStatus": "private",
+      "renderer": "unknown-historical",
+      "source": "YouTube Data API inventory 2026-09-20"
+    },
+    {
+      "youtubeVideoId": "ZHUCFpAR7vc",
+      "title": "#quantumgravity #quantumphysics #mathematics #causality",
+      "publishedAt": "2026-07-07T17:52:55Z",
+      "privacyStatus": "public",
+      "renderer": "unknown-historical",
+      "source": "YouTube Data API inventory 2026-09-20"
+    },
+    {
+      "youtubeVideoId": "LYu8wq3h9pM",
+      "title": "Solving the Spacetime Network Mystery",
+      "publishedAt": "2026-07-07T17:52:15Z",
+      "privacyStatus": "public",
+      "renderer": "unknown-historical",
+      "source": "YouTube Data API inventory 2026-09-20"
+    },
+    {
+      "youtubeVideoId": "fqhlcCT0X7c",
+      "title": "#cybernetics #sociology #government",
+      "publishedAt": "2026-07-07T06:14:07Z",
+      "privacyStatus": "public",
+      "renderer": "unknown-historical",
+      "source": "YouTube Data API inventory 2026-09-20"
+    },
+    {
+      "youtubeVideoId": "HniEt-qqd08",
+      "title": "How Cohomology Proves Compliance is a Myth",
+      "publishedAt": "2026-07-07T06:13:16Z",
+      "privacyStatus": "public",
+      "renderer": "unknown-historical",
+      "source": "YouTube Data API inventory 2026-09-20"
+    },
+    {
+      "youtubeVideoId": "xlIVBvVmr3I",
+      "title": "#dei #feminism #meritocracy #sociology",
+      "publishedAt": "2026-07-07T04:10:16Z",
+      "privacyStatus": "public",
+      "renderer": "unknown-historical",
+      "source": "YouTube Data API inventory 2026-09-20"
+    },
+    {
+      "youtubeVideoId": "2hI63uULW_Y",
+      "title": "Meritocracy and the Myth of Gender Neutrality",
+      "publishedAt": "2026-07-07T04:09:26Z",
+      "privacyStatus": "public",
+      "renderer": "unknown-historical",
+      "source": "YouTube Data API inventory 2026-09-20"
+    },
+    {
+      "youtubeVideoId": "zqDs1cDveCs",
+      "title": "#mathematics #algebra #linearalgebra #posets #totalorder",
+      "publishedAt": "2026-07-04T05:01:59Z",
+      "privacyStatus": "public",
+      "renderer": "unknown-historical",
+      "source": "YouTube Data API inventory 2026-09-20"
+    },
+    {
+      "youtubeVideoId": "w8pxgaxCk9I",
+      "title": "Total Order and Information Theory: The Failure of Posets",
+      "publishedAt": "2026-07-04T05:01:02Z",
+      "privacyStatus": "public",
+      "renderer": "unknown-historical",
+      "source": "YouTube Data API inventory 2026-09-20"
+    },
+    {
+      "youtubeVideoId": "EGDHcs29gOU",
+      "title": "#mathematics #linearalgebra #posets #order",
+      "publishedAt": "2026-07-03T19:02:48Z",
+      "privacyStatus": "public",
+      "renderer": "unknown-historical",
+      "source": "YouTube Data API inventory 2026-09-20"
+    },
+    {
+      "youtubeVideoId": "fvBpj0DjY_8",
+      "title": "Why Linear Order is Killing Your Data (Use Posets)",
+      "publishedAt": "2026-07-03T19:02:20Z",
+      "privacyStatus": "public",
+      "renderer": "unknown-historical",
+      "source": "YouTube Data API inventory 2026-09-20"
+    },
+    {
+      "youtubeVideoId": "e7nvbnxO66M",
+      "title": "#mathematics #physics #relativity #causality",
+      "publishedAt": "2026-07-02T21:50:53Z",
+      "privacyStatus": "public",
+      "renderer": "unknown-historical",
+      "source": "YouTube Data API inventory 2026-09-20"
+    },
+    {
+      "youtubeVideoId": "e-M-fE6_u_U",
+      "title": "Constructing Kinematic Space and Causality",
+      "publishedAt": "2026-07-02T21:49:56Z",
+      "privacyStatus": "public",
+      "renderer": "unknown-historical",
+      "source": "YouTube Data API inventory 2026-09-20"
+    },
+    {
+      "youtubeVideoId": "iitjk2xEzWE",
+      "title": "#discord #parasocial #capitalism #postliberalism #marxism  #education",
+      "publishedAt": "2026-07-02T04:33:37Z",
+      "privacyStatus": "public",
+      "renderer": "unknown-historical",
+      "source": "YouTube Data API inventory 2026-09-20"
+    },
+    {
+      "youtubeVideoId": "SVs32sH5Nhg",
+      "title": "The Economics of Discord: The Profit Behind the Community",
+      "publishedAt": "2026-07-02T04:32:58Z",
+      "privacyStatus": "public",
+      "renderer": "unknown-historical",
+      "source": "YouTube Data API inventory 2026-09-20"
+    },
+    {
+      "youtubeVideoId": "ORniqkF9sAE",
+      "title": "Beyond Immunitas: How COVID Mask Blocs Build Communitas",
+      "publishedAt": "2026-07-01T22:55:49Z",
+      "privacyStatus": "public",
+      "renderer": "unknown-historical",
+      "source": "YouTube Data API inventory 2026-09-20"
+    },
+    {
+      "youtubeVideoId": "ulkYCFU8XPU",
+      "title": "#covid #mutualaid #sociology",
+      "publishedAt": "2026-07-01T22:50:04Z",
+      "privacyStatus": "public",
+      "renderer": "unknown-historical",
+      "source": "YouTube Data API inventory 2026-09-20"
+    }
+  ],
+  "ready": [],
+  "inventoryObservedAt": "2026-09-20",
+  "inventorySource": "history/youtube-inventory-2026-09-20.json"
+}

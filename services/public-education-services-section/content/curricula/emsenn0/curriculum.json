@@ -1,0 +1,42 @@
+{
+  "courseId": "emsenn0",
+  "title": "emsenn",
+  "lessons": [
+    {
+      "id": "ai-data-centers-grid-costs",
+      "title": "AI Data Centers and the Grid: Who Pays, Who Decides?",
+      "question": "Who pays, who decides, and what changes when AI data centers connect to local electricity grids?",
+      "whyItMayMatter": "The same physical load appears differently as a technical reliability problem, a utility investment, a ratepayer cost, a local development bargain and a public-governance decision.",
+      "tags": [
+        "data centers",
+        "AI infrastructure",
+        "electric grid",
+        "utility rates",
+        "energy policy",
+        "social systems",
+        "technical systems",
+        "economic systems"
+      ],
+      "report": "reports/3f8708560ca1263dfbb2d03c773db8405fd0c1ee5dd2043ce8b297b282fa0895.md"
+    },
+    {
+      "id": "climate-risk-housing-costs",
+      "title": "Climate Risk and Housing: How Maps, Insurance, and Mortgages Decide Who Pays",
+      "question": "How do climate hazards become unequal housing costs through maps, insurance, and mortgages?",
+      "whyItMayMatter": "A physical hazard becomes a household price through risk models, map boundaries, insurance underwriting, mortgage requirements, regulatory choices and unequal capacity to absorb loss.",
+      "tags": [
+        "climate risk",
+        "housing costs",
+        "homeowners insurance",
+        "flood maps",
+        "mortgages",
+        "housing inequality",
+        "risk models",
+        "economic systems"
+      ],
+      "report": "lessons/climate-risk-housing-costs/report.md"
+    }
+  ],
+  "audience": "Curious adults seeking source-grounded explanations",
+  "purpose": "Explain relations among social, technical, and economic systems, making practical stakes legible without flattening uncertainty."
+}

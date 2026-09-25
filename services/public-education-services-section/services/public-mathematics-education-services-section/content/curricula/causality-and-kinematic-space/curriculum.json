@@ -1,0 +1,363 @@
+{
+  "courseId": "causality-and-kinematic-space",
+  "revision": 1,
+  "title": "Causality and Kinematic Space",
+  "purpose": "Build kinematic space from causal order and Lorentzian geometry, then connect its regional geometry to information-theoretic observables.",
+  "audience": "Curious adults prepared to learn definitions and follow constructions; no presumed specialist credential.",
+  "competencies": [
+    {
+      "id": "causal-order",
+      "statement": "Represent causal comparability as a partial order without smuggling in metric distance."
+    },
+    {
+      "id": "lorentzian-causality",
+      "statement": "Use light cones, timelike separation, and causal diamonds correctly."
+    },
+    {
+      "id": "interval-construction",
+      "statement": "Construct points or regions of kinematic space from intervals or geodesics."
+    },
+    {
+      "id": "region-geometry",
+      "statement": "Interpret geometry on a space whose points represent regions or intervals."
+    },
+    {
+      "id": "information-observables",
+      "statement": "Relate geometric quantities to information or entropy without overstating the correspondence."
+    },
+    {
+      "id": "construction-critique",
+      "statement": "Work examples, locate failure cases, and distinguish established results from open questions."
+    }
+  ],
+  "assessmentLaw": {
+    "completion": "Every competency must be demonstrated in a resolvable exercise; watching or playlist membership is not completion.",
+    "negativeControl": "At least one exercise must expose an invalid inference from causal order to metric distance."
+  },
+  "successorRule": "Material changes create a new revision that names this revision; admitted lesson products remain immutable evidence.",
+  "lessons": [
+    {
+      "id": "order-before-distance",
+      "sequence": 1,
+      "title": "Order before distance",
+      "promise": "See how events, partial orders, and causal comparability can carry structure before a metric is chosen.",
+      "prerequisites": [],
+      "competencies": [
+        "causal-order"
+      ],
+      "brief": "briefs/order-before-distance.v1.json",
+      "report": "reports/order-before-distance.md",
+      "manifest": "reports/order-before-distance.v1.json",
+      "sources": [
+        {
+          "id": "surya-2019-causal-set-review",
+          "title": "The causal set approach to quantum gravity",
+          "authors": [
+            "Sumati Surya"
+          ],
+          "publisher": "Living Reviews in Relativity / arXiv",
+          "url": "https://arxiv.org/abs/1903.11544",
+          "kind": "primary-research-review"
+        },
+        {
+          "id": "sorkin-2003-causal-sets",
+          "title": "Causal Sets: Discrete Gravity",
+          "authors": [
+            "Rafael D. Sorkin"
+          ],
+          "publisher": "arXiv",
+          "url": "https://arxiv.org/abs/gr-qc/0309009",
+          "kind": "primary-research-review"
+        },
+        {
+          "id": "czech-et-al-2015-integral-geometry",
+          "title": "Integral Geometry and Holography",
+          "authors": [
+            "Bartłomiej Czech",
+            "Lampros Lamprou",
+            "Samuel McCandlish",
+            "James Sully"
+          ],
+          "publisher": "JHEP / arXiv",
+          "url": "https://arxiv.org/abs/1505.05515",
+          "kind": "primary-research-paper"
+        }
+      ]
+    },
+    {
+      "id": "lorentzian-geometry",
+      "sequence": 2,
+      "title": "Lorentzian geometry",
+      "promise": "Read light cones, timelike separation, and causal diamonds as the geometry of possible influence.",
+      "prerequisites": [
+        "order-before-distance"
+      ],
+      "competencies": [
+        "lorentzian-causality"
+      ],
+      "brief": "briefs/lorentzian-geometry.v1.json",
+      "report": "reports/lorentzian-geometry.md",
+      "manifest": "reports/lorentzian-geometry.v1.json",
+      "sources": [
+        {
+          "id": "minguzzi-sanchez-2006-causal-hierarchy",
+          "title": "The causal hierarchy of spacetimes",
+          "authors": [
+            "Ettore Minguzzi",
+            "Miguel Sánchez"
+          ],
+          "publisher": "arXiv",
+          "url": "https://arxiv.org/abs/gr-qc/0609119",
+          "kind": "primary-research-review"
+        },
+        {
+          "id": "ryu-takayanagi-2006-entanglement",
+          "title": "Holographic Derivation of Entanglement Entropy from AdS/CFT",
+          "authors": [
+            "Shinsei Ryu",
+            "Tadashi Takayanagi"
+          ],
+          "publisher": "Physical Review Letters / arXiv",
+          "url": "https://arxiv.org/abs/hep-th/0603001",
+          "kind": "primary-research-paper"
+        },
+        {
+          "id": "hubeny-rangamani-takayanagi-2007-covariant",
+          "title": "A Covariant holographic entanglement entropy proposal",
+          "authors": [
+            "Veronika E. Hubeny",
+            "Mukund Rangamani",
+            "Tadashi Takayanagi"
+          ],
+          "publisher": "JHEP / arXiv",
+          "url": "https://arxiv.org/abs/0705.0016",
+          "kind": "primary-research-paper"
+        }
+      ]
+    },
+    {
+      "id": "intervals-to-points",
+      "sequence": 3,
+      "title": "From intervals to points",
+      "promise": "Construct kinematic space by treating intervals or geodesics as its points.",
+      "prerequisites": [
+        "lorentzian-geometry"
+      ],
+      "competencies": [
+        "interval-construction"
+      ],
+      "brief": "briefs/intervals-to-points.v1.json",
+      "report": "reports/intervals-to-points.md",
+      "manifest": "reports/intervals-to-points.v1.json",
+      "sources": [
+        {
+          "id": "czech-et-al-2015-integral-geometry",
+          "title": "Integral Geometry and Holography",
+          "authors": [
+            "Bartłomiej Czech",
+            "Lampros Lamprou",
+            "Samuel McCandlish",
+            "James Sully"
+          ],
+          "publisher": "JHEP / arXiv",
+          "url": "https://arxiv.org/abs/1505.05515",
+          "kind": "primary-research-paper"
+        },
+        {
+          "id": "czech-et-al-2016-stereoscopic",
+          "title": "A Stereoscopic Look into the Bulk",
+          "authors": [
+            "Bartłomiej Czech",
+            "Lampros Lamprou",
+            "Samuel McCandlish",
+            "Benjamin Mosk",
+            "James Sully"
+          ],
+          "publisher": "JHEP / arXiv",
+          "url": "https://arxiv.org/abs/1604.03110",
+          "kind": "primary-research-paper"
+        },
+        {
+          "id": "asplund-callebaut-zukowski-2016-equivalence",
+          "title": "Equivalence of Emergent de Sitter Spaces from Conformal Field Theory",
+          "authors": [
+            "Curtis T. Asplund",
+            "Nele Callebaut",
+            "Claire Zukowski"
+          ],
+          "publisher": "JHEP / arXiv",
+          "url": "https://arxiv.org/abs/1604.02687",
+          "kind": "primary-research-paper"
+        }
+      ]
+    },
+    {
+      "id": "space-of-regions",
+      "sequence": 4,
+      "title": "Geometry on a space of regions",
+      "promise": "Explore what distance, adjacency, and curvature can mean when every point represents an extended region.",
+      "prerequisites": [
+        "intervals-to-points"
+      ],
+      "competencies": [
+        "region-geometry"
+      ],
+      "brief": "briefs/space-of-regions.v1.json",
+      "report": "lessons/space-of-regions/report.md",
+      "manifest": "reports/space-of-regions.v1.json",
+      "sources": [
+        {
+          "id": "czech-et-al-2015-integral-geometry",
+          "title": "Integral Geometry and Holography",
+          "authors": [
+            "Bartłomiej Czech",
+            "Lampros Lamprou",
+            "Samuel McCandlish",
+            "James Sully"
+          ],
+          "publisher": "JHEP / arXiv",
+          "url": "https://arxiv.org/abs/1505.05515",
+          "kind": "primary-research-paper"
+        },
+        {
+          "id": "czech-et-al-2015-tensor-networks",
+          "title": "Tensor Networks from Kinematic Space",
+          "authors": [
+            "Bartłomiej Czech",
+            "Glen Evenbly",
+            "Lampros Lamprou",
+            "Samuel McCandlish",
+            "Xiao-liang Qi",
+            "James Sully",
+            "Guifré Vidal"
+          ],
+          "publisher": "JHEP / arXiv",
+          "url": "https://arxiv.org/abs/1512.01548",
+          "kind": "primary-research-paper"
+        },
+        {
+          "id": "asplund-callebaut-zukowski-2016-equivalence",
+          "title": "Equivalence of Emergent de Sitter Spaces from Conformal Field Theory",
+          "authors": [
+            "Curtis T. Asplund",
+            "Nele Callebaut",
+            "Claire Zukowski"
+          ],
+          "publisher": "JHEP / arXiv",
+          "url": "https://arxiv.org/abs/1604.02687",
+          "kind": "primary-research-paper"
+        }
+      ]
+    },
+    {
+      "id": "information-and-entropy",
+      "sequence": 5,
+      "title": "Information, entropy, and kinematic geometry",
+      "promise": "Understand what information-theoretic quantities kinematic geometry can measure and where the analogy stops.",
+      "prerequisites": [
+        "space-of-regions"
+      ],
+      "competencies": [
+        "information-observables"
+      ],
+      "brief": "briefs/information-and-entropy.v1.json",
+      "report": "lessons/information-and-entropy/report.md",
+      "manifest": "reports/information-and-entropy.v1.json",
+      "sources": [
+        {
+          "id": "ryu-takayanagi-2006-entanglement",
+          "title": "Holographic Derivation of Entanglement Entropy from AdS/CFT",
+          "authors": [
+            "Shinsei Ryu",
+            "Tadashi Takayanagi"
+          ],
+          "publisher": "Physical Review Letters / arXiv",
+          "url": "https://arxiv.org/abs/hep-th/0603001",
+          "kind": "primary-research-paper"
+        },
+        {
+          "id": "hubeny-rangamani-takayanagi-2007-covariant",
+          "title": "A Covariant holographic entanglement entropy proposal",
+          "authors": [
+            "Veronika E. Hubeny",
+            "Mukund Rangamani",
+            "Tadashi Takayanagi"
+          ],
+          "publisher": "JHEP / arXiv",
+          "url": "https://arxiv.org/abs/0705.0016",
+          "kind": "primary-research-paper"
+        },
+        {
+          "id": "czech-et-al-2015-integral-geometry",
+          "title": "Integral Geometry and Holography",
+          "authors": [
+            "Bartłomiej Czech",
+            "Lampros Lamprou",
+            "Samuel McCandlish",
+            "James Sully"
+          ],
+          "publisher": "JHEP / arXiv",
+          "url": "https://arxiv.org/abs/1505.05515",
+          "kind": "primary-research-paper"
+        }
+      ],
+      "produceVideo": true
+    },
+    {
+      "id": "constructions-and-failures",
+      "sequence": 6,
+      "title": "Worked constructions, failure cases, and open questions",
+      "promise": "Test the framework on examples, diagnose failure cases, and separate current knowledge from research opportunities.",
+      "prerequisites": [
+        "information-and-entropy"
+      ],
+      "competencies": [
+        "construction-critique"
+      ],
+      "brief": "briefs/constructions-and-failures.v1.json",
+      "report": "reports/constructions-and-failures.md",
+      "manifest": "reports/constructions-and-failures.v1.json",
+      "sources": [
+        {
+          "id": "czech-et-al-2015-tensor-networks",
+          "title": "Tensor Networks from Kinematic Space",
+          "authors": [
+            "Bartłomiej Czech",
+            "Lampros Lamprou",
+            "Samuel McCandlish",
+            "James Sully"
+          ],
+          "publisher": "JHEP / arXiv",
+          "url": "https://arxiv.org/abs/1512.01548",
+          "kind": "primary-research-paper"
+        },
+        {
+          "id": "czech-et-al-2016-stereoscopic",
+          "title": "A Stereoscopic Look into the Bulk",
+          "authors": [
+            "Bartłomiej Czech",
+            "Lampros Lamprou",
+            "Samuel McCandlish",
+            "Benjamin Mosk",
+            "James Sully"
+          ],
+          "publisher": "JHEP / arXiv",
+          "url": "https://arxiv.org/abs/1604.03110",
+          "kind": "primary-research-paper"
+        },
+        {
+          "id": "asplund-callebaut-zukowski-2016-equivalence",
+          "title": "Equivalence of Emergent de Sitter Spaces from Conformal Field Theory",
+          "authors": [
+            "Curtis T. Asplund",
+            "Nele Callebaut",
+            "Claire Zukowski"
+          ],
+          "publisher": "JHEP / arXiv",
+          "url": "https://arxiv.org/abs/1604.02687",
+          "kind": "primary-research-paper"
+        }
+      ]
+    }
+  ]
+}

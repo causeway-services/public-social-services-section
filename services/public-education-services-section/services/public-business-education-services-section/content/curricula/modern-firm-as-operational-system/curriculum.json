@@ -1,0 +1,283 @@
+{
+  "courseId": "modern-firm-as-operational-system",
+  "revision": 1,
+  "title": "The Modern Firm as an Operational System",
+  "promise": "Enable an operator or serious student to connect strategy, customers, operations, accounting, organization, technology, governance, and learning as one evidence-producing system without mistaking fashionable practice for universal law.",
+  "audience": "operators, founders, managers, analysts, and advanced students",
+  "competencies": [
+    {
+      "id": "value-and-demand",
+      "description": "Relate value propositions and demand evidence to a situated business model."
+    },
+    {
+      "id": "operations",
+      "description": "Model processes, constraints, quality, capacity, and coordination cost."
+    },
+    {
+      "id": "financial-reasoning",
+      "description": "Use accounting, cash, unit economics, and capital allocation without confusing measures with value."
+    },
+    {
+      "id": "organization-and-governance",
+      "description": "Analyze incentives, decision rights, controls, obligations, and stakeholder exposure."
+    },
+    {
+      "id": "adaptive-practice",
+      "description": "Design evidence, review, correction, and strategy-learning loops."
+    }
+  ],
+  "correctionPolicy": "append a new course revision; never edit admitted lesson truth in place",
+  "lessons": [
+    {
+      "id": "value-proposition-business-model-purpose",
+      "sequence": 1,
+      "title": "Value Propositions, Business Models, and Institutional Purpose",
+      "prerequisites": [],
+      "competencies": [
+        "value-and-demand"
+      ],
+      "researchProductClasses": [
+        "business-model-comparison",
+        "institutional-history",
+        "industry-context"
+      ],
+      "freshnessDays": 365
+    },
+    {
+      "id": "customer-discovery-market-intelligence",
+      "sequence": 2,
+      "title": "Customer Discovery, Market Intelligence, and Demand Evidence",
+      "prerequisites": [
+        "value-proposition-business-model-purpose"
+      ],
+      "competencies": [
+        "value-and-demand",
+        "adaptive-practice"
+      ],
+      "researchProductClasses": [
+        "customer-research-method",
+        "market-observation",
+        "measurement-bias-audit"
+      ],
+      "freshnessDays": 90,
+      "brief": "briefs/customer-discovery-market-intelligence.v1.json",
+      "report": "lessons/customer-discovery-market-intelligence/report.md",
+      "manifest": "reports/customer-discovery-market-intelligence.v1.json",
+      "sources": [
+        {
+          "id": "griffin-hauser-1993-voice-customer",
+          "title": "The Voice of the Customer",
+          "authors": [
+            "Abbie Griffin",
+            "John R. Hauser"
+          ],
+          "published": 1993,
+          "url": "https://doi.org/10.1287/mksc.12.1.1",
+          "kind": "primary-paper"
+        },
+        {
+          "id": "narver-slater-1990-market-orientation",
+          "title": "The Effect of a Market Orientation on Business Profitability",
+          "authors": [
+            "John C. Narver",
+            "Stanley F. Slater"
+          ],
+          "published": 1990,
+          "url": "https://doi.org/10.1177/002224299005400403",
+          "kind": "primary-paper"
+        },
+        {
+          "id": "kahneman-tversky-1979-prospect-theory",
+          "title": "Prospect Theory: An Analysis of Decision under Risk",
+          "authors": [
+            "Daniel Kahneman",
+            "Amos Tversky"
+          ],
+          "published": 1979,
+          "url": "https://doi.org/10.2307/1914185",
+          "kind": "primary-paper"
+        }
+      ]
+    },
+    {
+      "id": "process-constraints-quality-operations",
+      "sequence": 3,
+      "title": "Process Design, Constraints, Quality, and Operations",
+      "prerequisites": [
+        "customer-discovery-market-intelligence"
+      ],
+      "competencies": [
+        "operations"
+      ],
+      "researchProductClasses": [
+        "operations-method-comparison",
+        "case-evidence",
+        "failure-mode-analysis"
+      ],
+      "freshnessDays": 180,
+      "brief": "briefs/process-constraints-quality-operations.v1.json",
+      "report": "reports/process-constraints-quality-operations.md",
+      "manifest": "reports/process-constraints-quality-operations.v1.json",
+      "sources": [
+        {
+          "id": "little-1961-queueing-formula",
+          "title": "A Proof for the Queuing Formula: L = λW",
+          "authors": [
+            "John D. C. Little"
+          ],
+          "published": 1961,
+          "url": "https://doi.org/10.1287/opre.9.3.383",
+          "kind": "primary-paper"
+        },
+        {
+          "id": "skinner-1969-manufacturing-strategy",
+          "title": "Manufacturing—Missing Link in Corporate Strategy",
+          "authors": [
+            "Wickham Skinner"
+          ],
+          "published": 1969,
+          "url": "https://hbr.org/1969/05/manufacturing-missing-link-in-corporate-strategy",
+          "kind": "primary-practitioner-argument"
+        },
+        {
+          "id": "spear-bowen-1999-toyota-production-system",
+          "title": "Decoding the DNA of the Toyota Production System",
+          "authors": [
+            "Steven J. Spear",
+            "H. Kent Bowen"
+          ],
+          "published": 1999,
+          "url": "https://hbr.org/1999/09/decoding-the-dna-of-the-toyota-production-system",
+          "kind": "primary-field-study"
+        },
+        {
+          "id": "shah-ward-2003-lean-bundles",
+          "title": "Lean Manufacturing: Context, Practice Bundles, and Performance",
+          "authors": [
+            "Rachna Shah",
+            "Peter T. Ward"
+          ],
+          "published": 2003,
+          "url": "https://doi.org/10.1016/S0272-6963(02)00108-0",
+          "kind": "primary-empirical-study"
+        }
+      ]
+    },
+    {
+      "id": "accounting-unit-economics-capital",
+      "sequence": 4,
+      "title": "Accounting, Unit Economics, Cash, and Capital Allocation",
+      "prerequisites": [
+        "value-proposition-business-model-purpose",
+        "process-constraints-quality-operations"
+      ],
+      "competencies": [
+        "financial-reasoning"
+      ],
+      "researchProductClasses": [
+        "accounting-standard-context",
+        "unit-economics-case",
+        "capital-allocation-evidence"
+      ],
+      "freshnessDays": 90
+    },
+    {
+      "id": "organization-incentives-decision-rights",
+      "sequence": 5,
+      "title": "Organization Design, Incentives, Decision Rights, and Coordination",
+      "prerequisites": [
+        "process-constraints-quality-operations",
+        "accounting-unit-economics-capital"
+      ],
+      "competencies": [
+        "operations",
+        "organization-and-governance"
+      ],
+      "researchProductClasses": [
+        "organization-design-study",
+        "incentive-failure-case",
+        "labor-and-jurisdiction-context"
+      ],
+      "freshnessDays": 180
+    },
+    {
+      "id": "product-service-evidence-practice",
+      "sequence": 6,
+      "title": "Product and Service Development as Evidence-Producing Practice",
+      "prerequisites": [
+        "customer-discovery-market-intelligence",
+        "organization-incentives-decision-rights"
+      ],
+      "competencies": [
+        "value-and-demand",
+        "operations",
+        "adaptive-practice"
+      ],
+      "researchProductClasses": [
+        "product-development-method-comparison",
+        "experiment-validity-audit",
+        "service-design-case"
+      ],
+      "freshnessDays": 90
+    },
+    {
+      "id": "data-automation-ai-controls",
+      "sequence": 7,
+      "title": "Data, Automation, AI, Controls, and Information Governance",
+      "prerequisites": [
+        "product-service-evidence-practice"
+      ],
+      "competencies": [
+        "operations",
+        "organization-and-governance",
+        "adaptive-practice"
+      ],
+      "researchProductClasses": [
+        "current-technology-capability",
+        "implementation-economics",
+        "information-governance-and-risk"
+      ],
+      "freshnessDays": 30
+    },
+    {
+      "id": "risk-compliance-resilience-stakeholders",
+      "sequence": 8,
+      "title": "Risk, Compliance, Resilience, and Stakeholder Obligations",
+      "prerequisites": [
+        "accounting-unit-economics-capital",
+        "organization-incentives-decision-rights",
+        "data-automation-ai-controls"
+      ],
+      "competencies": [
+        "financial-reasoning",
+        "organization-and-governance"
+      ],
+      "researchProductClasses": [
+        "jurisdiction-specific-obligation",
+        "risk-framework-comparison",
+        "incident-and-resilience-evidence"
+      ],
+      "freshnessDays": 30
+    },
+    {
+      "id": "learning-loops-portfolio-strategy",
+      "sequence": 9,
+      "title": "Learning Loops, Portfolio Review, and Adaptive Strategy",
+      "prerequisites": [
+        "risk-compliance-resilience-stakeholders"
+      ],
+      "competencies": [
+        "value-and-demand",
+        "financial-reasoning",
+        "organization-and-governance",
+        "adaptive-practice"
+      ],
+      "researchProductClasses": [
+        "strategy-process-comparison",
+        "portfolio-decision-case",
+        "organizational-learning-evidence"
+      ],
+      "freshnessDays": 90
+    }
+  ]
+}

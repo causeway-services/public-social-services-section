@@ -1,0 +1,9 @@
+{"at":"2026-09-24T18:52:11.552Z","lesson":"information-and-entropy","step":"video","provider":"notebooklm","outcome":"failed","artifactId":"d9bbac31-48e7-4793-976b-6cc7b0338a36"}
+{"at":"2026-09-24T18:52:16.706Z","lesson":"information-and-entropy","step":"video","outcome":"retry","failedArtifact":"d9bbac31-48e7-4793-976b-6cc7b0338a36"}
+{"at":"2026-09-24T18:52:18.305Z","lesson":"information-and-entropy","step":"research","outcome":"report-below-minimum","minimumWords":2000}
+{"at":"2026-09-24T18:52:18.306Z","lesson":"information-and-entropy","step":"research","provider":"codex","outcome":"started"}
+{"at":"2026-09-24T18:54:25.283Z","lesson":"information-and-entropy","step":"research","provider":"codex","outcome":"report-written","words":2568,"sources":4,"searches":6,"report":"/home/emsenn/info/lib/emsenn/services/561-group/services/public-services-section/services/public-social-services-section/services/public-education-services-section/services/public-mathematics-education-services-section/content/curricula/causality-and-kinematic-space/lessons/information-and-entropy/report.md"}
+{"at":"2026-09-24T18:54:38.591Z","lesson":"information-and-entropy","step":"source","provider":"notebooklm","outcome":"uploaded","sourceId":"739addf8-28fb-44dd-8fd0-d05af431cc8d"}
+{"at":"2026-09-24T18:54:38.594Z","lesson":"information-and-entropy","step":"video","provider":"notebooklm","outcome":"submitting","format":"cinematic"}
+{"at":"2026-09-24T18:54:44.213Z","lesson":"information-and-entropy","step":"video","provider":"notebooklm","outcome":"submitted","artifactId":"2838ba7f-9b13-40e9-94b7-6c26449f6d83"}
+{"at":"2026-09-24T19:23:56.282Z","lesson":"information-and-entropy","step":"download","provider":"notebooklm","outcome":"downloaded","bytes":83859243}
