@@ -8,11 +8,11 @@
   "stage": "packaged",
   "createdAt": "2026-09-20T16:26:10.739Z",
   "lastError": {
-    "at": "2026-09-25T01:44:08.707Z",
+    "at": "2026-09-25T02:03:06.121Z",
     "message": "ENOENT: no such file or directory, open '/home/emsenn/info/lib/emsenn/services/561-group/services/public-services-section/services/public-social-services-section/services/public-education-services-section/services/public-mathematics-education-services-section/channels/mathematics-in-relation/.work/information-and-entropy/upload.json'",
     "code": "ENOENT"
   },
-  "updatedAt": "2026-09-25T01:44:08.707Z",
+  "updatedAt": "2026-09-25T02:03:06.121Z",
   "notebookId": "67510ce7-79b3-4caa-b25c-28e0d3911b5a",
   "generationReconciliation": {
     "reason": "Recovered after ambiguous RATE_LIMITED response using exact selected report source, submitted lesson prompt, cinematic format, and creation timestamp.",
