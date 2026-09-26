@@ -6,7 +6,7 @@
       "title": "Probability, Statistics, and Statistical Learning | Machine Learning History & Frontier",
       "publishedAt": "2026-07-24T15:00:15Z",
       "privacyStatus": "public",
-      "renderer": "notebooklm",
+      "renderer": "gemini-notebook",
       "source": "YouTube Data API inventory 2026-09-20",
       "artifactId": "b4ccc205-a06a-4aef-a69b-15841a36f4f1",
       "lessonId": "statistics-and-statistical-learning"
@@ -16,7 +16,7 @@
       "title": "Cybernetics, Computation, and the Birth of Symbolic AI",
       "publishedAt": "2026-07-22T15:00:15Z",
       "privacyStatus": "public",
-      "renderer": "notebooklm",
+      "renderer": "gemini-notebook",
       "source": "YouTube Data API inventory 2026-09-20",
       "artifactId": "578c3bef-6dfd-4b93-b05d-6257b5b4d62d",
       "lessonId": "cybernetics-computation-symbolic-ai"

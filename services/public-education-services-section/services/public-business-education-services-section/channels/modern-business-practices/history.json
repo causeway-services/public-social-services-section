@@ -6,7 +6,7 @@
       "title": "Value Propositions, Business Models, and Institutional Purpose",
       "publishedAt": "2026-07-23T15:00:27Z",
       "privacyStatus": "public",
-      "renderer": "notebooklm",
+      "renderer": "gemini-notebook",
       "source": "YouTube Data API inventory 2026-09-20",
       "artifactId": "c065ad06-f523-467f-a725-2fa33f0d1894",
       "lessonId": "value-proposition-business-model-purpose"

@@ -131,7 +131,7 @@
     "It does not provide a universal constraint-finding algorithm or prescribe inventory, staffing, or speed targets."
   ],
   "reuseGrant": [
-    "notebooklm-transformation",
+    "gemini-notebook-transformation",
     "modern-business-curriculum",
     "public-youtube-release"
   ],

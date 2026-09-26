@@ -103,7 +103,7 @@
     "A bound stated under explicit assumptions is not evidence that a deployed model satisfies those assumptions or performs safely under distribution shift."
   ],
   "reuseGrant": [
-    "notebooklm-transformation",
+    "gemini-notebook-transformation",
     "artificial-intelligence-curriculum",
     "public-youtube-release"
   ],

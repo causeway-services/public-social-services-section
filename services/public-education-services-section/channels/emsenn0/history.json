@@ -55,7 +55,7 @@
       "title": "AI Data Centers and the Grid: Who Pays, Who Decides?",
       "publishedAt": "2026-07-22T15:00:33Z",
       "privacyStatus": "public",
-      "renderer": "notebooklm",
+      "renderer": "gemini-notebook",
       "source": "YouTube Data API inventory 2026-09-20",
       "artifactId": "98e8aff1-e491-4d90-852b-90c3af1fd98d",
       "lessonId": "ai-data-centers-grid-costs"
