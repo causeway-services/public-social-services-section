@@ -9,7 +9,20 @@
     "priceUsd": 29,
     "wordCount": 16415
   },
-  "build": null,
+  "build": {
+    "status": "artifact-ready",
+    "command": "node scripts/build-handbook.mjs --out <new-release-directory>",
+    "sourceChapterCount": 13,
+    "fulfillment": {
+      "bucket": "shop-561-group-goods",
+      "manifestKey": "the-agent-operators-handbook/1.0.0/77c2322a28a15cdc2bdea2fedb3878c685ae2382ace0ef57f2089e4ec7fe404c/340063994e1bbe6c9132ce101e260a5a1cb8b7f59c5096ffaf8e5f0e23117ee5/manifest.json",
+      "goods": [
+        "the-agent-operators-handbook/1.0.0/77c2322a28a15cdc2bdea2fedb3878c685ae2382ace0ef57f2089e4ec7fe404c/1591a87c150a10bf87c30d037f66c1c2af8032a5a694ecb5e20a758007681a54/the-agent-operators-handbook.epub",
+        "the-agent-operators-handbook/1.0.0/77c2322a28a15cdc2bdea2fedb3878c685ae2382ace0ef57f2089e4ec7fe404c/b86cc5dd88408f4c417c2a1264520e4200c3dffc6e866980ee3e5fabee9fa2b5/the-agent-operators-handbook.pdf",
+        "the-agent-operators-handbook/1.0.0/77c2322a28a15cdc2bdea2fedb3878c685ae2382ace0ef57f2089e4ec7fe404c/8e77d6c7b91c01bb4491759fc10fb5da0189b2d24f452d03c2fb665cba6e8712/the-agent-operators-handbook.zip"
+      ]
+    }
+  },
   "channelDecision": {
     "chosen": "own storefront (Stripe Checkout on a house Cloudflare-served property)",
     "rejected": [
@@ -95,12 +108,12 @@
     "no Hive auto-posting performed or authorized by this record",
     "no charge has been or will be made from this record",
     "listing waits until a re-read pass by any future session confirms the draft genuinely teaches",
-    "no Stripe account, checkout, or storefront page exists yet"
+    "no card purchase is available until the deployed shop has Stripe merchant credentials"
   ],
   "risks": [
-    "the storefront (Checkout session + fulfillment webhook) does not exist yet -- engineering gap named in the meet-gap list, not built this change",
+    "the storefront and fulfillment carrier exist, but card checkout is blocked until Stripe merchant credentials are provisioned on the deployed Worker",
     "VAT/GST registration and remittance is real, ongoing legal/compliance work this session did not resolve",
-    "no Stripe account exists yet; nothing above is buyable",
+    "no Stripe merchant credentials are provisioned in the deployed Worker; nothing above is buyable through the house storefront",
     "first release, no completion or review track record"
   ]
 }
