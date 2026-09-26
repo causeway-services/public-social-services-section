@@ -2,13 +2,13 @@
   "version": 1,
   "channel": "machine-learning-history-frontier",
   "lessonId": "transformers-scaling-foundation-models",
-  "stage": "uploaded",
+  "stage": "scheduled",
   "createdAt": "2026-09-20T17:18:01.281Z",
   "plannedPublishAt": "2026-09-28T15:00:00.000Z",
   "reportAttempt": {
     "startedAt": "2026-09-20T17:18:01.281Z"
   },
-  "updatedAt": "2026-09-26T15:24:40.033Z",
+  "updatedAt": "2026-09-26T15:36:37.915Z",
   "commissionedAt": "2026-09-26T14:58:06.375Z",
   "reportSha256": "b1402e5194184917c58c44957bbb1ec158cb92e3ec4508ae43827a155c181357",
   "notebookId": "9c3eed44-7fa3-4203-8b79-e0a20b91017f",
@@ -56,5 +56,6 @@
     "at": "2026-09-26T15:24:39.916Z",
     "code": "CUSTOM_THUMBNAIL_PERMISSION",
     "message": "YouTube custom-thumbnail permission is unavailable for this channel. Check YouTube Studio > Settings > Channel > Feature eligibility; the uploaded video and its publication schedule remain intact."
-  }
+  },
+  "publishAt": "2026-09-28T15:00:00Z"
 }

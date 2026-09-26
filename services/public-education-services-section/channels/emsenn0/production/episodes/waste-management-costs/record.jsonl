@@ -4,3 +4,17 @@
 {"at":"2026-09-26T15:19:24.523Z","lesson":"waste-management-costs","provider":"notebooklm","step":"video","outcome":"submitting","format":"explainer"}
 {"at":"2026-09-26T15:19:30.293Z","lesson":"waste-management-costs","provider":"notebooklm","step":"video","outcome":"submitted","artifactId":"130b7b79-dd8c-48c7-ba1a-656a550c8f4c"}
 {"at":"2026-09-26T15:19:37.992Z","lesson":"waste-management-costs","step":"blocked","status":"video-processing","message":"NotebookLM video is pending"}
+{"at":"2026-09-26T15:35:17.944Z","lesson":"waste-management-costs","provider":"notebooklm","step":"download","outcome":"downloaded","bytes":45120544,"artifactId":"130b7b79-dd8c-48c7-ba1a-656a550c8f4c"}
+{"at":"2026-09-26T15:36:07.015Z","lesson":"waste-management-costs","step":"transcript","provider":"cloudflare-workers-ai","outcome":"transcribed","characters":11321}
+{"at":"2026-09-26T15:36:14.571Z","lesson":"waste-management-costs","step":"metadata","provider":"cloudflare-workers-ai","outcome":"written"}
+{"at":"2026-09-26T15:36:17.473Z","lesson":"waste-management-costs","step":"thumbnail","provider":"cloudflare-workers-ai","model":"@cf/black-forest-labs/flux-1-schnell","outcome":"generated","bytes":257405}
+{"at":"2026-09-26T15:36:20.397Z","lesson":"waste-management-costs","step":"youtube","effect":"youtube.upload","detail":{"provider":"youtube","url":"https://www.googleapis.com/upload/youtube/v3/videos","method":"POST"}}
+{"at":"2026-09-26T15:36:21.842Z","lesson":"waste-management-costs","step":"youtube","effect":"youtube.upload","detail":{"provider":"youtube","url":"https://www.googleapis.com/upload/youtube/v3/videos","method":"PUT"}}
+{"at":"2026-09-26T15:36:24.031Z","lesson":"waste-management-costs","step":"youtube","effect":"youtube.upload","detail":{"provider":"youtube","url":"https://www.googleapis.com/upload/youtube/v3/videos","method":"PUT"}}
+{"at":"2026-09-26T15:36:25.867Z","lesson":"waste-management-costs","step":"youtube","effect":"youtube.upload","detail":{"provider":"youtube","url":"https://www.googleapis.com/upload/youtube/v3/videos","method":"PUT"}}
+{"at":"2026-09-26T15:36:27.659Z","lesson":"waste-management-costs","step":"youtube","effect":"youtube.upload","detail":{"provider":"youtube","url":"https://www.googleapis.com/upload/youtube/v3/videos","method":"PUT"}}
+{"at":"2026-09-26T15:36:29.491Z","lesson":"waste-management-costs","step":"youtube","effect":"youtube.upload","detail":{"provider":"youtube","url":"https://www.googleapis.com/upload/youtube/v3/videos","method":"PUT"}}
+{"at":"2026-09-26T15:36:30.105Z","lesson":"waste-management-costs","step":"youtube","effect":"youtube.upload","detail":{"provider":"youtube","url":"https://www.googleapis.com/upload/youtube/v3/videos","method":"PUT"}}
+{"at":"2026-09-26T15:36:30.972Z","lesson":"waste-management-costs","step":"upload","provider":"youtube","outcome":"uploaded","videoId":"2dnYPe80sLM","publishAt":"2026-09-28T15:00:00.000Z"}
+{"at":"2026-09-26T15:36:31.249Z","lesson":"waste-management-costs","step":"youtube","effect":"youtube.thumbnail","detail":{"provider":"youtube","url":"https://www.googleapis.com/upload/youtube/v3/thumbnails/set","method":"POST"}}
+{"at":"2026-09-26T15:41:36.423Z","lesson":"waste-management-costs","step":"confirm","provider":"youtube","outcome":"scheduled","videoId":"2dnYPe80sLM"}
