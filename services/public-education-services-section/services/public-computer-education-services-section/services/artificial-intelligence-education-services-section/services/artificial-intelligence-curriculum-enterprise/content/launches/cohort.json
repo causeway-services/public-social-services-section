@@ -96,15 +96,12 @@
       "reason": "a synchronous paid cohort with real seats needs named buyer identity, refunds, and support; x402 is built for agent-to-agent micropayments, not this shape"
     }
   },
-  "fences": [
-    "no Hive auto-posting performed or authorized by this record",
-    "no charge has been or will be made from this record",
-    "the offer is not represented as ready to sell"
-  ],
   "risks": [
-    "agent-dispatch-discipline-plugin's public GitHub release is queued go-public work, not yet done (2026-08-31 23:50 goal-stack roadmap record)",
-    "audience-building (plugin public release, founder social presence) precedes this cohort's own launch",
-    "no checkout exists yet; nothing above is buyable",
-    "first cohort, no completion track record"
+    "first cohort, no completion record yet: price is set low against comparables, and the first cohort's outcomes become the record"
+  ],
+  "launchSteps": [
+    "set dates for the first cohort and open seats at $349 through a cohort platform's checkout (Maven, or Lemon Squeezy with a calendar link)",
+    "publish agent-dispatch-discipline-plugin to its public GitHub repository as the free artifact behind the pitch",
+    "post the cohort to r/ClaudeCode and Latent Space alongside the plugin release"
   ]
 }

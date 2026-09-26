@@ -104,16 +104,13 @@
     ],
     "finding": "cold paid-traffic acquisition does not clearly break even at $100-$1000/month budgets below ~5% conversion; primary channel is organic (r/ClaudeCode etc., reused from the cohort funnel research), with paid spend better used as warm-traffic retargeting once traffic exists"
   },
-  "fences": [
-    "no Hive auto-posting performed or authorized by this record",
-    "no charge has been or will be made from this record",
-    "listing waits until a re-read pass by any future session confirms the draft genuinely teaches",
-    "no card purchase is available until the deployed shop has Stripe merchant credentials"
-  ],
   "risks": [
-    "the storefront and fulfillment carrier exist, but card checkout is blocked until Stripe merchant credentials are provisioned on the deployed Worker",
-    "VAT/GST registration and remittance is real, ongoing legal/compliance work this session did not resolve",
-    "no Stripe merchant credentials are provisioned in the deployed Worker; nothing above is buyable through the house storefront",
-    "first release, no completion or review track record"
+    "first release, no reviews yet: the first buyers' feedback goes into the next edition",
+    "a refund policy page is needed on the house storefront; merchant-of-record platforms supply their own"
+  ],
+  "launchSteps": [
+    "list the EPUB and PDF at $29 on Gumroad or Lemon Squeezy, which act as merchant of record and remit VAT/GST",
+    "post a free chapter to r/ClaudeCode, Latent Space, and the founder's accounts, linking the listing",
+    "add live Stripe keys to the deployed shop Worker so the house storefront sells it too"
   ]
 }

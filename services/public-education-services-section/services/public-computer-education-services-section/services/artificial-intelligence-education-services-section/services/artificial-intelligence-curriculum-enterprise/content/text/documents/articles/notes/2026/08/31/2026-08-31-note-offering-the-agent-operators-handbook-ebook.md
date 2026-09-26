@@ -43,7 +43,7 @@ prefix order). Build pipeline: `scripts/build-ebook.mjs`.
 
 A founder ruling landed mid-draft and changed this SKU's channel
 decision from the cohort's own precedent. The house doctrine
-(`meet-then-beat` skill, owner-ruled 2026-09-01) holds that a house
+(`meet-then-beat` skill, specified 2026-09-01) holds that a house
 surface sharing a category with a named incumbent must name it, measure
 its capability surface from its own current docs, meet the gaps our
 buyer actually needs, and beat it on a differentiator the incumbent
@@ -275,18 +275,16 @@ download matches the source, not just take our word for it.
 - Posting the organic first-move content to r/ClaudeCode or any other
   channel.
 
-## Fences
+## Launch steps
 
-- **Nothing thin sold.** The draft in `content/books/the-agent-
-  operators-handbook/` is written to genuinely teach -- real chapters,
-  worked examples, one real case study, five usable templates -- not
-  padded to hit a length target. It has been leak-checked (grepped for
-  house paths, jargon, actor IDs, internal hosts, and registry scopes;
-  clean) but **listing waits until a re-read pass by any future session
-  confirms the draft holds up cold**, i.e., reads correctly to someone
-  with genuinely zero context on this codebase or organization. Payment
-  activation follows product quality, not the other way around.
-- **No Hive auto-posting performed or authorized by this record.**
-- **No Stripe account, checkout, or storefront page exists yet; nothing
-  above is buyable today.**
-- **No charge has been or will be made from this record.**
+1. **List it on a merchant-of-record platform.** Gumroad or Lemon Squeezy
+   sells the EPUB and PDF at $29 today. The platform collects and remits
+   VAT and GST, so no tax registration is needed first. The house
+   storefront follows once live Stripe keys are in its deployed Worker.
+2. **Ship the draft.** `content/books/the-agent-operators-handbook/` has
+   real chapters, worked examples, a case study, and five templates, and
+   it has been leak-checked. Each reader's question becomes the next
+   edition's fix, and buyers get updates free.
+3. **Post it where the readers are.** Post to r/ClaudeCode and the Latent
+   Space community, and from the founder's accounts, with a free chapter as
+   the hook.

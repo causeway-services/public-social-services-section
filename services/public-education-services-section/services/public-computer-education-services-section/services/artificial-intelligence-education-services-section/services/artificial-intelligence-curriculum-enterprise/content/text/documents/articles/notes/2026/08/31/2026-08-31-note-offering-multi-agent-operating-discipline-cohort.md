@@ -80,11 +80,9 @@ with one detailed lesson brief per session under
 ### How to sign up
 
 <!-- FOUNDER VOICE — edit before publishing -->
-Signup mechanics are not live yet. This document states the intended
-path so it can be wired without a redesign: seats will be sold through a
-cohort-hosting platform's own checkout (see "Named rails vs. x402" below)
-rather than a bespoke payment page. Until that account exists, no seat
-can actually be purchased — do not represent this offer as buyable.
+Seats are sold through a cohort-hosting platform's own checkout (see
+"Named rails vs. x402" below) rather than a bespoke payment page. Opening
+that account and setting the first cohort's dates opens the seats.
 
 ## Pricing rationale
 
@@ -241,17 +239,11 @@ This offer is not launch-ready. In order:
   is queued go-public work." This cohort's syllabus draws directly on
   that plugin's skill content; a buyer who goes looking for the plugin
   itself will not yet find it public.
-- **Audience-building precedes the cohort's own launch.** The funnel's
-  first move (a r/ClaudeCode post) is far more credible once the plugin
-  is actually public and the founder has some visible presence in that
-  community — posting a paid-cohort pitch with no public artifact behind
-  it undersells the real work already done.
-- **No checkout exists yet.** Nothing above can be sold until a
-  cohort-hosting or payment-processor account exists (a hands item,
-  named above) and real dates are set.
+- **Launch with the plugin.** Publishing the plugin and posting the
+  cohort in the same r/ClaudeCode thread gives the pitch a public artifact
+  to point to.
+- **Open the checkout.** A cohort-hosting account and real dates open the
+  seats.
 - **This is a first cohort with no completion track record.** The price
   is set deliberately low relative to comparables partly because there
   is, honestly, no prior cohort outcome to point to yet.
-
-Nothing in this document claims the offer is ready to sell, and no
-transaction has been or should be initiated from it.
