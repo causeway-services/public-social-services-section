@@ -1,5 +1,21 @@
 {
   "name": "@causeway-services/public-education-services-section",
   "version": "0.0.0",
-  "description": "Public education services section."
+  "description": "Public education services section.",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "status": "node src/cli.mjs status",
+    "research": "node src/cli.mjs research",
+    "produce": "node src/cli.mjs produce",
+    "verify": "node src/cli.mjs verify"
+  },
+  "dependencies": {
+    "@emsenn/youtube-engineering-services-section": "1.0.0",
+    "@red-cup-engineering/computer-inference-engine": "0.1.0",
+    "@red-cup-engineering/computer-system-engine": "0.1.0",
+    "@red-cup-engineering/cryptographic-computer-data-engineering-services-section": "0.3.0",
+    "@red-cup-engineering/gemini-notebook-services-section": "0.6.0",
+    "@red-cup-engineering/computer-media-content-services-section": "0.1.0"
+  }
 }
