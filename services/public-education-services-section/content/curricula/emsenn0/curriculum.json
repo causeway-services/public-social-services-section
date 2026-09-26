@@ -35,6 +35,38 @@
         "economic systems"
       ],
       "report": "lessons/climate-risk-housing-costs/report.md"
+    },
+    {
+      "id": "lithium-extraction-water-costs",
+      "title": "Lithium for Batteries: Who Gets the Water, Jobs, and Costs?",
+      "question": "How does lithium extraction for batteries distribute water use, economic benefits, and decision-making power between mining regions and the wider energy transition?",
+      "whyItMayMatter": "Battery supply chains connect climate goals and consumer technologies to local water systems, Indigenous and community rights, mine workers, public subsidies, and decisions over who bears environmental costs.",
+      "tags": [
+        "lithium",
+        "battery supply chains",
+        "critical minerals",
+        "water use",
+        "mining",
+        "Indigenous rights",
+        "energy transition",
+        "environmental governance"
+      ],
+      "report": "reports/lithium-extraction-water-costs.md",
+      "produceVideo": true
+    },
+    {
+      "id": "waste-management-costs",
+      "question": "How do different waste management strategies distribute environmental costs, economic benefits, and decision-making power between local communities and the wider public health and environmental systems?",
+      "tags": [
+        "waste management",
+        "environmental justice",
+        "public health",
+        "economic systems",
+        "social systems",
+        "technical systems"
+      ],
+      "title": "Waste Management: Who Bears the Costs, Who Decides?",
+      "whyItMayMatter": "A waste disposal method appears differently as a technical reliability problem, a municipal cost, a community health risk, a regulatory compliance issue, and a long-term environmental liability."
     }
   ],
   "audience": "Curious adults seeking source-grounded explanations",

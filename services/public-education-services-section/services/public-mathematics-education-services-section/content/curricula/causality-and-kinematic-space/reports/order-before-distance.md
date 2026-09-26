@@ -131,6 +131,6 @@ Given a five-event relation, the learner must:
 ## Rights and reuse boundary
 
 This packet is original synthesis produced for the Harmonious Union. Its reuse
-grant covers the packet text for NotebookLM transformation, mathematics
+grant covers the packet text for Gemini Notebook transformation, mathematics
 curriculum products, and public YouTube release. The cited papers retain their
 own rights; links and attributed claims do not transfer or relicense them.

@@ -40,6 +40,6 @@ Across these three models, local mean-temperature change ranges from **0.73 to 1
 
 The research supplier requested only point-subset CSV carriers from NASA's NCCS THREDDS NetCDF Subset Service; it did not use a third-party climate-processing API. Data were retrieved at 2026-07-23T15:48:43.732Z. Research method version: 2. Scenario: SSP5-8.5. Research order: urn:sha256:0e750bd0a4b5ac415a3c06b44a432a4e478850dfdef9a16d061c60284a7d8d9d. Market clearing: urn:sha256:d977476dcb55f33974fd6262891287e22fb5475eaa82711d3fe0590faa147d33. Correction identity: urn:sha256:70c0ca7f0ac3b684a6a9c01598ca4fe75049d55d96f8675ca2b5a45b53e3539d.
 
-## NotebookLM brief
+## Gemini Notebook brief
 
 Create a clear explanatory video about Miami's climate history and conditional outlook. Begin with the place and why market demand selected it. Distinguish NASA POWER gridded reanalysis from station observations. Explain the early-versus-recent temperature comparison and the simple trend without implying causation from the regression alone. Compare all three directly subset NASA NEX-GDDP-CMIP6 model rows, preserve their spread, and describe SSP5-8.5 as conditional rather than predictive. Explain what downscaling, scenario choice, local geography, and urban form leave unresolved. End with practical questions residents and local institutions could ask of higher-resolution local records and planning documents. Do not use disaster spectacle or claim certainty that the evidence does not support.

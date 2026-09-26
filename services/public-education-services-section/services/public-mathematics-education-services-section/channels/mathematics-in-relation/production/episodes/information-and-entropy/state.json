@@ -5,10 +5,10 @@
   "supersedesVideoIds": [
     "e7TpH6TyePo"
   ],
-  "stage": "scheduled",
+  "stage": "published",
   "createdAt": "2026-09-20T16:26:10.739Z",
   "lastError": null,
-  "updatedAt": "2026-09-26T14:15:09.195Z",
+  "updatedAt": "2026-09-26T15:15:32.858Z",
   "notebookId": "67510ce7-79b3-4caa-b25c-28e0d3911b5a",
   "generationReconciliation": {
     "reason": "Recovered after ambiguous RATE_LIMITED response using exact selected report source, submitted lesson prompt, cinematic format, and creation timestamp.",
@@ -104,5 +104,6 @@
     "code": "CUSTOM_THUMBNAIL_PERMISSION",
     "message": "YouTube custom-thumbnail permission is unavailable for this channel. Check YouTube Studio > Settings > Channel > Feature eligibility; the uploaded video and its publication schedule remain intact."
   },
-  "publishAt": "2026-09-26T15:00:00Z"
+  "publishAt": "2026-09-26T15:00:33Z",
+  "commissionedAt": "2026-09-26T15:15:32.601Z"
 }

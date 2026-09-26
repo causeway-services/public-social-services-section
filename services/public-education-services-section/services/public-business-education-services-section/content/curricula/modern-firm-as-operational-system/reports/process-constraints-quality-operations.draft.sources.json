@@ -1,0 +1,23 @@
+{
+  "draftSha256": "06d8d6d913160e1dbed6a8095b8779243ce2c1346b504ac2cf1ea2d349d779bf",
+  "searches": 5,
+  "exchanges": [
+    {
+      "outcome": "completion",
+      "recordedAt": "2026-09-26T15:00:39.166Z",
+      "completedSearches": 5,
+      "model": "gpt-5.6-sol",
+      "citedUrls": [
+        "https://doi.org/10.1287/opre.9.3.383",
+        "https://pubsonline.informs.org/doi/abs/10.1287/opre.9.3.383",
+        "https://hbr.org/1969/05/manufacturing-missing-link-in-corporate-strategy",
+        "https://www.cdc.gov/niosh/hierarchy-of-controls/about/index.html",
+        "https://www.osha.gov/safety-management/hazard-prevention",
+        "https://www.labqualityconfab.com/wp-content/uploads/SPEAR-Decoding-Toyota-DNA-HBR-1999.pdf",
+        "https://doi.org/10.1016/S0272-6963(02",
+        "https://experts.umn.edu/en/publications/lean-manufacturing-context-practice-bundles-and-performance/"
+      ]
+    }
+  ],
+  "evidence": []
+}

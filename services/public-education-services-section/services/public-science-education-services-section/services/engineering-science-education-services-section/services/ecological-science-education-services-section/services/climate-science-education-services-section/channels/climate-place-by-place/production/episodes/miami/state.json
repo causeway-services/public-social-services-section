@@ -2,11 +2,11 @@
   "version": 1,
   "channel": "climate-place-by-place",
   "lessonId": "miami",
-  "stage": "scheduled",
+  "stage": "published",
   "createdAt": "2026-09-20T15:48:53.486Z",
   "notebookId": "67510ce7-79b3-4caa-b25c-28e0d3911b5a",
   "artifactId": "c1c97d7d-2055-4763-a6a5-f9ed24abbb47",
-  "updatedAt": "2026-09-20T16:13:11.783Z",
+  "updatedAt": "2026-09-26T15:12:59.528Z",
   "reportSha256": "4dfabed1d5056ddbb9bf931e902081d0306dcf4118d41c9e264dd08266d06f20",
   "geminiFile": null,
   "lastError": null,
@@ -35,5 +35,6 @@
     "message": "YouTube custom-thumbnail permission is unavailable for this channel. Check YouTube Studio > Settings > Channel > Feature eligibility; the uploaded video and its publication schedule remain intact.",
     "retryable": false
   },
-  "publishAt": "2026-09-21T15:00:00Z"
+  "publishAt": "2026-09-21T15:00:28Z",
+  "commissionedAt": "2026-09-26T15:12:59.262Z"
 }

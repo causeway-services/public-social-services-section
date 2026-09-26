@@ -2,10 +2,10 @@
   "version": 1,
   "channel": "modern-business-practices",
   "lessonId": "customer-discovery-market-intelligence",
-  "stage": "scheduled",
+  "stage": "published",
   "createdAt": "2026-09-20T16:26:27.777Z",
   "lastError": null,
-  "updatedAt": "2026-09-20T16:45:40.061Z",
+  "updatedAt": "2026-09-26T15:25:34.495Z",
   "notebookId": "763fbe07-e786-4e23-9b33-b53f05230573",
   "reportSha256": "2117f32bee65f077e40a3a1e92b7570099683a5636dd1eea52f8db2fb4c179e8",
   "sourceSubmission": {
@@ -60,5 +60,6 @@
     "message": "YouTube custom-thumbnail permission is unavailable for this channel. Check YouTube Studio > Settings > Channel > Feature eligibility; the uploaded video and its publication schedule remain intact.",
     "retryable": false
   },
-  "publishAt": "2026-09-22T15:00:00Z"
+  "publishAt": "2026-09-22T15:00:18Z",
+  "commissionedAt": "2026-09-26T15:25:34.224Z"
 }

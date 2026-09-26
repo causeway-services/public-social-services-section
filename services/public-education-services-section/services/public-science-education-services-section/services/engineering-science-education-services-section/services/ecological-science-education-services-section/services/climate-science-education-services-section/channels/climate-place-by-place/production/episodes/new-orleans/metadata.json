@@ -1,0 +1,22 @@
+{
+  "description": "New Orleans' climate history, focusing on its unique geography, climate normals, flooding risks, and adaptation strategies. The video explains the city's subtropical climate shaped by the Gulf of Mexico, Mississippi River, and Lake Pontchartrain, and delves into climate normals, historical climate changes, and various flood hazards including pluvial, river, storm surge, and compound flooding. It discusses the impacts of Hurricane Katrina and the city's current protection systems, highlighting residual risks and the need for layered adaptation strategies.\n\nReport sources:\nhttps://www.ncei.noaa.gov/products/land-based-station/us-climate-normals\nhttps://mpdap.coastal.la.gov/dataset/\nhttps://www.weather.gov/lix/newnormals",
+  "tags": [
+    "New Orleans",
+    "climate history",
+    "flooding risks",
+    "adaptation strategies",
+    "climate normals",
+    "storm surge",
+    "pluvial flooding",
+    "river flooding",
+    "compound flooding",
+    "Hurricane Katrina",
+    "climate change",
+    "sea-level rise",
+    "coastal resilience",
+    "urban planning",
+    "environmental science"
+  ],
+  "thumbnailPrompt": "A vivid, text-free 16:9 illustration of New Orleans' geography, showing its low-lying deltaic setting between the Gulf of Mexico, the Mississippi River, and Lake Pontchartrain, with visual elements representing the city's engineering and natural landscape.",
+  "title": "New Orleans Climate History and Outlook"
+}

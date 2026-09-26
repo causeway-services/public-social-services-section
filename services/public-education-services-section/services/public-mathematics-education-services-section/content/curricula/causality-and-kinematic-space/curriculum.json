@@ -358,6 +358,40 @@
           "kind": "primary-research-paper"
         }
       ]
+    },
+    {
+      "id": "crofton-length-from-geodesic-counts",
+      "sequence": 7,
+      "title": "Measuring a curve by counting the geodesics that cross it",
+      "promise": "Work through the Euclidean Crofton formula with a circle and a line segment, explain the measure on unoriented lines and its normalization, then distinguish the hyperbolic and holographic extensions and their assumptions.",
+      "prerequisites": [
+        "constructions-and-failures"
+      ],
+      "competencies": [
+        "interval-construction",
+        "region-geometry",
+        "construction-critique"
+      ],
+      "report": "lessons/crofton-length-from-geodesic-counts/report.md",
+      "sources": [
+        {
+          "title": "Integral Geometry and Holography",
+          "url": "https://arxiv.org/abs/1505.05515",
+          "kind": "primary-research-paper"
+        }
+      ]
+    },
+    {
+      "id": "causal-homotopy",
+      "question": "Can causal diamonds be used to define homotopy classes of loops in kinematic space?",
+      "tags": [
+        "causal-order",
+        "lorentzian-causality",
+        "topology",
+        "kinematic-space"
+      ],
+      "title": "Causal diamonds and homotopy in kinematic space",
+      "whyItMayMatter": "Understanding the topological properties of kinematic space can provide insights into the behavior of physical systems and the structure of spacetime."
     }
   ]
 }
