@@ -5,14 +5,14 @@
   "supersedesVideoIds": [
     "e7TpH6TyePo"
   ],
-  "stage": "packaged",
+  "stage": "uploaded",
   "createdAt": "2026-09-20T16:26:10.739Z",
   "lastError": {
     "at": "2026-09-26T13:52:47.440Z",
     "message": "ENOENT: no such file or directory, open '/home/emsenn/info/lib/emsenn/services/561-group/services/public-services-section/services/public-social-services-section/services/public-education-services-section/services/public-mathematics-education-services-section/channels/mathematics-in-relation/.work/information-and-entropy/upload.json'",
     "code": "ENOENT"
   },
-  "updatedAt": "2026-09-26T13:52:47.440Z",
+  "updatedAt": "2026-09-26T14:14:25.986Z",
   "notebookId": "67510ce7-79b3-4caa-b25c-28e0d3911b5a",
   "generationReconciliation": {
     "reason": "Recovered after ambiguous RATE_LIMITED response using exact selected report source, submitted lesson prompt, cinematic format, and creation timestamp.",
@@ -96,5 +96,16 @@
   },
   "artifactId": "2838ba7f-9b13-40e9-94b7-6c26449f6d83",
   "reportSourceRemoved": true,
-  "plannedPublishAt": "2026-09-26T15:00:00.000Z"
+  "plannedPublishAt": "2026-09-26T15:00:00.000Z",
+  "downloadedArtifactId": "2838ba7f-9b13-40e9-94b7-6c26449f6d83",
+  "downloadedBytes": 83859243,
+  "downloadSha256": "sha256:73eb5755064fc861cff310c8880e8968df79a44db0103e34c9c1d078fa33e061",
+  "sourceTitle": "mathematics-in-relation/information-and-entropy/fe593e0d164f32ee",
+  "videoRequestSha256": "046eb712a8e8df1e5923dfb5030f3ec962c45ad9f5851de39e2324ef81efbaee",
+  "youtubeVideoId": "8HE9kGA8YaI",
+  "thumbnailError": {
+    "at": "2026-09-26T14:14:25.986Z",
+    "code": "CUSTOM_THUMBNAIL_PERMISSION",
+    "message": "YouTube custom-thumbnail permission is unavailable for this channel. Check YouTube Studio > Settings > Channel > Feature eligibility; the uploaded video and its publication schedule remain intact."
+  }
 }
