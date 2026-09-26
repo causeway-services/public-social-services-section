@@ -5,5 +5,8 @@
     "content/"
   ],
   "license": "UNLICENSED",
-  "description": "Independent multi-agent course and Agent Operators Handbook ebook."
+  "description": "Independent multi-agent course and Agent Operators Handbook ebook.",
+  "exports": {
+    "./paid-handbook": "./src/paid-handbook.mjs"
+  }
 }
