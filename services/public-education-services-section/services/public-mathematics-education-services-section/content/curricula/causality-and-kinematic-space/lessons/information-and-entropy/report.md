@@ -27,7 +27,7 @@ This lesson develops that chain carefully, distinguishes its ingredients, and ex
 Let a quantum system be divided into a subsystem \(A\) and its complement \(\bar A\). For a global density operator \(\rho\), the reduced state of \(A\) is
 
 \[
-\rho_A=\operatorname{Tr}_{\bar A}\rho .
+\rho_A=\operatorname{Tr}_{\bar A}\rho.
 \]
 
 Its von Neumann entropy is
@@ -212,7 +212,7 @@ Therefore
 \omega
 =
 \frac{c}{12\sin^2\!\big((v-u)/2\big)}
-\,du\wedge dv .
+\,du\wedge dv.
 \]
 
 The additive cutoff term disappears after the mixed derivative. This illustrates one benefit of using entropy combinations rather than the entropy alone, although it does not prove that every regulator dependence vanishes in every state or scheme.
@@ -269,7 +269,7 @@ For a closed convex curve, the Crofton formula can also be reduced to a boundary
 -\int du\,
 \left.
 \frac{\partial S(u,v)}{\partial u}
-\right|_{v=v(u)} .
+\right|_{v=v(u)}.
 \]
 
 This is another aggregate quantity. Despite its name, differential entropy is not generally the von Neumann entropy of one subsystem.
