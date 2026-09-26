@@ -2,10 +2,10 @@
   "version": 1,
   "channel": "mathematics-in-relation",
   "lessonId": "crofton-length-from-geodesic-counts",
-  "stage": "uploaded",
+  "stage": "scheduled",
   "createdAt": "2026-09-26T14:58:47.638Z",
   "commissionedAt": "2026-09-26T14:58:47.638Z",
-  "updatedAt": "2026-09-26T23:37:56.664Z",
+  "updatedAt": "2026-09-26T23:56:57.570Z",
   "researchSearches": 6,
   "reportSha256": "8dc0dcd0238a998b5309f4126a24ba842f5777699cc10a90c31fc33861f7b689",
   "notebookId": "67510ce7-79b3-4caa-b25c-28e0d3911b5a",
@@ -98,5 +98,6 @@
     "at": "2026-09-26T23:37:56.664Z",
     "code": "CUSTOM_THUMBNAIL_PERMISSION",
     "message": "YouTube custom-thumbnail permission is unavailable for this channel. Check YouTube Studio > Settings > Channel > Feature eligibility; the uploaded video and its publication schedule remain intact."
-  }
+  },
+  "publishAt": "2026-09-27T15:00:00Z"
 }
