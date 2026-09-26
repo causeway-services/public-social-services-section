@@ -9,7 +9,7 @@ tags:
 - funnel
 ---
 
-<!-- FOUNDER VOICE — edit before publishing -->
+<!-- Personal wording required before publication -->
 This offer is taught live, on camera, by the founder. Every session
 description below assumes the founder is the visible instructor; replace
 this note before it goes to a buyer if that changes.
@@ -73,13 +73,13 @@ with one detailed lesson brief per session under
 - A brief template, a fan-out decision checklist, a recovery runbook, a
   minimal receipt convention, and a coordination protocol — five
   reusable artifacts, one per session.
-- <!-- FOUNDER VOICE — edit before publishing -->
+- <!-- Personal wording required before publication -->
   Recordings of each live session (the founder's own delivery), so a
   missed live session is not a missed seat.
 
 ### How to sign up
 
-<!-- FOUNDER VOICE — edit before publishing -->
+<!-- Personal wording required before publication -->
 Seats are sold through a cohort-hosting platform's own checkout (see
 "Named rails vs. x402" below) rather than a bespoke payment page. Opening
 that account and setting the first cohort's dates opens the seats.
@@ -181,14 +181,14 @@ has an actual checkout to point at.
   `@red-cup-engineering/semantic-record-journal-service` (see the
   section's `data/records/` directory).
 
-**Hands — not done by this session, and not claimed as done:**
+**Launch steps that need the founder:**
 
 - The founder recording or live-teaching the five sessions on camera
   (every passage marked `FOUNDER VOICE` above).
 - Creating an account on the chosen cohort-hosting platform (see below)
   or a payment processor.
-- Actually announcing/posting to r/ClaudeCode, Latent Space, or any
-  other channel — this document names the move, it does not execute it.
+- Announcing the cohort on r/ClaudeCode, Latent Space and the other
+  channels named above.
 - Setting real session dates, since those depend on the founder's
   calendar and the hosting platform's own cohort-scheduling mechanics.
 
@@ -230,7 +230,7 @@ JSONs, this landing/offer document, and the launch-state record script.
 
 ## Honest risks
 
-This offer is not launch-ready. In order:
+Launch steps, in order:
 
 - **The plugin's public release is queued, not done.** Per the
   2026-08-31 23:50 goal-stack roadmap record, `agent-dispatch-discipline-plugin`
