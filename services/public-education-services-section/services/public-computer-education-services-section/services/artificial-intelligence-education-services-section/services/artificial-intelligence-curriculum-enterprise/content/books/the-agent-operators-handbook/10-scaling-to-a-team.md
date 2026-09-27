@@ -1,8 +1,8 @@
 ---
-title: "Chapter 11: Scaling This Discipline to a Team"
+title: "Chapter 10: Scaling This Discipline to a Team"
 ---
 
-# Chapter 11: Scaling This Discipline to a Team
+# Chapter 10: Scaling This Discipline to a Team
 
 Everything up to this point has been written for one operator running
 one or more agents. Most of it holds unchanged the moment a second
