@@ -1,0 +1,39 @@
+{
+  "at": "2026-09-27T15:13:39.074Z",
+  "grounding": {
+    "completed": true,
+    "completedSearches": 6,
+    "sources": [
+      {
+        "uri": "https://arxiv.org/abs/hep-th/0603001"
+      },
+      {
+        "uri": "https://arxiv.org/abs/1505.05515"
+      },
+      {
+        "uri": "https://pubs.aip.org/aip/jmp/article-abstract/18/7/1399/460709/The-class-of-continuous-timelike-curves-determines"
+      },
+      {
+        "uri": "https://arxiv.org/abs/1908.11701"
+      }
+    ]
+  },
+  "inference": {
+    "model": "gpt-5.6-sol",
+    "provider": "codex",
+    "exchanges": [
+      {
+        "outcome": "completion",
+        "recordedAt": "2026-09-27T15:13:39.068Z",
+        "completedSearches": 6,
+        "model": "gpt-5.6-sol",
+        "citedUrls": [
+          "https://arxiv.org/abs/hep-th/0603001",
+          "https://arxiv.org/abs/1505.05515",
+          "https://pubs.aip.org/aip/jmp/article-abstract/18/7/1399/460709/The-class-of-continuous-timelike-curves-determines",
+          "https://arxiv.org/abs/1908.11701"
+        ]
+      }
+    ]
+  }
+}

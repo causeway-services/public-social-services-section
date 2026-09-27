@@ -20,3 +20,4 @@
 {"at":"2026-09-26T15:16:15.522Z","lesson":"lithium-extraction-water-costs","step":"youtube","effect":"youtube.thumbnail","detail":{"provider":"youtube","url":"https://www.googleapis.com/upload/youtube/v3/thumbnails/set","method":"POST"}}
 {"at":"2026-09-26T15:16:21.038Z","lesson":"lithium-extraction-water-costs","step":"blocked","status":"youtube-processing","message":"YouTube is still processing the video"}
 {"at":"2026-09-26T15:19:43.809Z","lesson":"lithium-extraction-water-costs","step":"confirm","provider":"youtube","outcome":"scheduled","videoId":"MlITzBEz-kM"}
+{"at":"2026-09-27T15:08:17.979Z","lesson":"lithium-extraction-water-costs","step":"confirm","provider":"youtube","outcome":"published","videoId":"MlITzBEz-kM"}

@@ -67,6 +67,20 @@
       ],
       "title": "Waste Management: Who Bears the Costs, Who Decides?",
       "whyItMayMatter": "A waste disposal method appears differently as a technical reliability problem, a municipal cost, a community health risk, a regulatory compliance issue, and a long-term environmental liability."
+    },
+    {
+      "id": "digital-twin-data-sovereignty",
+      "question": "How do digital twin technologies distribute decision-making power, data ownership, and environmental costs between local communities and wider public systems?",
+      "tags": [
+        "digital twins",
+        "data sovereignty",
+        "environmental governance",
+        "technical systems",
+        "economic systems",
+        "social systems"
+      ],
+      "title": "Digital Twins: Who Owns the Data, Who Decides?",
+      "whyItMayMatter": "A digital twin appears differently as a technical modeling problem, a data ownership question, a community development opportunity, a regulatory compliance issue, and a long-term environmental liability."
     }
   ],
   "audience": "Curious adults seeking source-grounded explanations",

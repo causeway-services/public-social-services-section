@@ -2,10 +2,10 @@
   "version": 1,
   "channel": "climate-place-by-place",
   "lessonId": "new-orleans",
-  "stage": "scheduled",
+  "stage": "published",
   "createdAt": "2026-09-20T16:25:25.259Z",
   "lastError": null,
-  "updatedAt": "2026-09-26T15:20:37.794Z",
+  "updatedAt": "2026-09-27T15:05:41.921Z",
   "notebookId": "67510ce7-79b3-4caa-b25c-28e0d3911b5a",
   "reportAttempt": {
     "startedAt": "2026-09-20T17:04:30.663Z"
@@ -89,5 +89,5 @@
     "code": "CUSTOM_THUMBNAIL_PERMISSION",
     "message": "YouTube custom-thumbnail permission is unavailable for this channel. Check YouTube Studio > Settings > Channel > Feature eligibility; the uploaded video and its publication schedule remain intact."
   },
-  "publishAt": "2026-09-27T15:00:00Z"
+  "publishAt": "2026-09-27T15:00:36Z"
 }

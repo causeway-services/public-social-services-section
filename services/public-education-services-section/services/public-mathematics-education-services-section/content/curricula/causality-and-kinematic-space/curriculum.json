@@ -392,6 +392,17 @@
       ],
       "title": "Causal diamonds and homotopy in kinematic space",
       "whyItMayMatter": "Understanding the topological properties of kinematic space can provide insights into the behavior of physical systems and the structure of spacetime."
+    },
+    {
+      "id": "causal-convex-hull",
+      "question": "Can causal order be used to define a convex hull in kinematic space?",
+      "tags": [
+        "causal-order",
+        "convex-geometry",
+        "kinematic-space"
+      ],
+      "title": "Causal convex hull in kinematic space",
+      "whyItMayMatter": "Understanding the convex hull of causal order in kinematic space can provide insights into the structure of spacetime and the behavior of physical systems."
     }
   ]
 }
