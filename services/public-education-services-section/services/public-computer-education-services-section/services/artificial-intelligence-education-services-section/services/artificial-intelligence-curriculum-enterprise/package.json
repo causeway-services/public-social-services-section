@@ -6,9 +6,7 @@
     "scripts/",
     "src/"
   ],
-  "exports": {
-    "./paid-handbook": "./src/paid-handbook.mjs"
-  },
+  "exports": {},
   "scripts": {
     "build:handbook": "node scripts/build-handbook.mjs"
   },
