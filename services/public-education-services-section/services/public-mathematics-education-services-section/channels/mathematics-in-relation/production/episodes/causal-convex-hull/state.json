@@ -2,10 +2,10 @@
   "version": 1,
   "channel": "mathematics-in-relation",
   "lessonId": "causal-convex-hull",
-  "stage": "uploaded",
+  "stage": "scheduled",
   "createdAt": "2026-09-27T15:11:12.296Z",
   "commissionedAt": "2026-09-27T15:11:12.296Z",
-  "updatedAt": "2026-09-27T15:39:48.026Z",
+  "updatedAt": "2026-09-27T16:00:27.296Z",
   "researchSearches": 6,
   "reportSha256": "371c795e07553b462b320a36c19b24083a5ddc497fbcbe95561373a18b537554",
   "notebookId": "67510ce7-79b3-4caa-b25c-28e0d3911b5a",
@@ -96,5 +96,7 @@
     "at": "2026-09-27T15:39:48.026Z",
     "code": "CUSTOM_THUMBNAIL_PERMISSION",
     "message": "YouTube custom-thumbnail permission is unavailable for this channel. Check YouTube Studio > Settings > Channel > Feature eligibility; the uploaded video and its publication schedule remain intact."
-  }
+  },
+  "lastError": null,
+  "publishAt": "2026-09-28T15:00:00Z"
 }
