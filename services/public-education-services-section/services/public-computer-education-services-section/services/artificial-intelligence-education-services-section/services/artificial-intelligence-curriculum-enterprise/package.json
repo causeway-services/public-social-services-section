@@ -2,7 +2,8 @@
   "name": "@emsenn/artificial-intelligence-curriculum-enterprise",
   "version": "0.2.0",
   "files": [
-    "content/"
+    "content/",
+    "src"
   ],
   "license": "UNLICENSED",
   "description": "Independent multi-agent course and Agent Operators Handbook ebook.",
