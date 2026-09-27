@@ -5,7 +5,7 @@
   "stage": "generating",
   "createdAt": "2026-09-26T15:15:41.010Z",
   "commissionedAt": "2026-09-26T15:15:41.010Z",
-  "updatedAt": "2026-09-26T15:25:17.402Z",
+  "updatedAt": "2026-09-27T00:36:20.242Z",
   "researchSearches": 7,
   "reportSha256": "220c47e4be0ae3b5355138c2f7dbc3f76defea730d4afff78d5dc909b25dc330",
   "notebookId": "67510ce7-79b3-4caa-b25c-28e0d3911b5a",
@@ -70,13 +70,27 @@
   "videoRequestSha256": "ad2de59500ef5f5c8553b9b38b5de0f5a0f115c2b25bd79e07a9725e030534b5",
   "sourceId": "98fcaa5a-3aab-4ad9-8935-e3b454330983",
   "sourceOwned": true,
-  "videoAttempts": 1,
+  "videoAttempts": 2,
   "generationStarted": true,
   "generationAttempt": {
-    "number": 1,
-    "startedAt": "2026-09-26T15:18:35.583Z",
-    "format": "cinematic"
+    "number": 2,
+    "startedAt": "2026-09-27T00:36:02.575Z",
+    "sourceIds": [
+      "98fcaa5a-3aab-4ad9-8935-e3b454330983"
+    ],
+    "prompt": "Explain Causal diamonds and homotopy in kinematic space using the selected source reports. Preserve the distinctions, evidence, uncertainty, and learning objectives in the lesson brief. Do not introduce claims unsupported by the sources.\nCausal diamonds and homotopy in kinematic space",
+    "title": "Causal diamonds and homotopy in kinematic space",
+    "format": "cinematic",
+    "style": "auto",
+    "language": "en"
   },
   "lastError": null,
-  "artifactId": "3edd8a65-5895-42c8-bd27-f888072f21b5"
+  "artifactId": "cffa972e-6ba2-44ab-8419-4146eb278843",
+  "failedArtifacts": [
+    "3edd8a65-5895-42c8-bd27-f888072f21b5"
+  ],
+  "downloadedArtifactId": null,
+  "downloadedBytes": null,
+  "downloadSha256": null,
+  "reportSourceRemoved": false
 }

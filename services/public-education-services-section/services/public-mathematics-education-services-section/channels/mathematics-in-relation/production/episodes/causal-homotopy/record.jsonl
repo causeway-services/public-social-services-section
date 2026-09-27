@@ -5,3 +5,7 @@
 {"at":"2026-09-26T15:18:42.174Z","lesson":"causal-homotopy","provider":"notebooklm","step":"video","outcome":"uncertain","message":"NotebookLM generate video failed: [RATE_LIMITED] Video generation rate limited by Google."}
 {"at":"2026-09-26T15:18:42.175Z","lesson":"causal-homotopy","step":"blocked","status":"needs-reconcile","message":"NotebookLM generate video failed: [RATE_LIMITED] Video generation rate limited by Google."}
 {"at":"2026-09-26T15:25:17.403Z","lesson":"causal-homotopy","provider":"notebooklm","step":"video","outcome":"recovered-exact-submission","artifactId":"3edd8a65-5895-42c8-bd27-f888072f21b5"}
+{"at":"2026-09-27T00:35:54.905Z","lesson":"causal-homotopy","provider":"notebooklm","step":"video","outcome":"failed","artifactId":"3edd8a65-5895-42c8-bd27-f888072f21b5"}
+{"at":"2026-09-27T00:35:54.909Z","lesson":"causal-homotopy","provider":"notebooklm","step":"video","outcome":"retry","failedArtifact":"3edd8a65-5895-42c8-bd27-f888072f21b5"}
+{"at":"2026-09-27T00:36:02.577Z","lesson":"causal-homotopy","provider":"notebooklm","step":"video","outcome":"submitting","format":"cinematic"}
+{"at":"2026-09-27T00:36:20.243Z","lesson":"causal-homotopy","provider":"notebooklm","step":"video","outcome":"recovered-exact-submission","artifactId":"cffa972e-6ba2-44ab-8419-4146eb278843"}
