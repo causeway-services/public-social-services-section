@@ -140,7 +140,7 @@ from the verified corpus and repaired against two adversarial reviews.
   measured funnel work for `collapse-tech`.
 - **"Infection-associated chronic illness" is field vocabulary** (NASEM and
   NIH usage — the NIH's own IACI research initiative and NASEM's 2024 Long
-  COVID definition report use this umbrella), adopted by founder direction
+  COVID definition report use this umbrella), adopted
   2026-09-01. It is not a house coinage; the glossary entry ruling it now
   exists — see the science-custody line above.
 

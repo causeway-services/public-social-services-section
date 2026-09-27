@@ -39,10 +39,9 @@ prefix order). Build pipeline: `scripts/build-ebook.mjs`.
   the cohort's "named-rails vs x402" call -- see that note for the
   reasoning this SKU inherits).
 
-## Founder ruling applied: our own storefront, not a marketplace (meet-then-beat)
+## Our own storefront, not a marketplace (meet-then-beat)
 
-A founder ruling landed mid-draft and changed this SKU's channel
-decision from the cohort's own precedent. The house doctrine
+The channel decision for this SKU differs from the cohort's precedent. The house doctrine
 (`meet-then-beat` skill, specified 2026-09-01) holds that a house
 surface sharing a category with a named incumbent must name it, measure
 its capability surface from its own current docs, meet the gaps our
