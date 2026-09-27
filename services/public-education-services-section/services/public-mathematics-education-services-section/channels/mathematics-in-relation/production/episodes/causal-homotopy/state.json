@@ -2,10 +2,10 @@
   "version": 1,
   "channel": "mathematics-in-relation",
   "lessonId": "causal-homotopy",
-  "stage": "generating",
+  "stage": "video-failed",
   "createdAt": "2026-09-26T15:15:41.010Z",
   "commissionedAt": "2026-09-26T15:15:41.010Z",
-  "updatedAt": "2026-09-27T00:36:20.242Z",
+  "updatedAt": "2026-09-27T09:07:35.269Z",
   "researchSearches": 7,
   "reportSha256": "220c47e4be0ae3b5355138c2f7dbc3f76defea730d4afff78d5dc909b25dc330",
   "notebookId": "67510ce7-79b3-4caa-b25c-28e0d3911b5a",
@@ -84,10 +84,15 @@
     "style": "auto",
     "language": "en"
   },
-  "lastError": null,
+  "lastError": {
+    "at": "2026-09-27T09:07:35.269Z",
+    "status": "video-failed",
+    "message": "Gemini Notebook reported that video generation failed"
+  },
   "artifactId": "cffa972e-6ba2-44ab-8419-4146eb278843",
   "failedArtifacts": [
-    "3edd8a65-5895-42c8-bd27-f888072f21b5"
+    "3edd8a65-5895-42c8-bd27-f888072f21b5",
+    "cffa972e-6ba2-44ab-8419-4146eb278843"
   ],
   "downloadedArtifactId": null,
   "downloadedBytes": null,

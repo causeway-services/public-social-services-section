@@ -9,3 +9,5 @@
 {"at":"2026-09-27T00:35:54.909Z","lesson":"causal-homotopy","provider":"notebooklm","step":"video","outcome":"retry","failedArtifact":"3edd8a65-5895-42c8-bd27-f888072f21b5"}
 {"at":"2026-09-27T00:36:02.577Z","lesson":"causal-homotopy","provider":"notebooklm","step":"video","outcome":"submitting","format":"cinematic"}
 {"at":"2026-09-27T00:36:20.243Z","lesson":"causal-homotopy","provider":"notebooklm","step":"video","outcome":"recovered-exact-submission","artifactId":"cffa972e-6ba2-44ab-8419-4146eb278843"}
+{"at":"2026-09-27T09:07:35.267Z","lesson":"causal-homotopy","provider":"notebooklm","step":"video","outcome":"failed","artifactId":"cffa972e-6ba2-44ab-8419-4146eb278843"}
+{"at":"2026-09-27T09:07:35.269Z","lesson":"causal-homotopy","step":"blocked","status":"video-failed","message":"Gemini Notebook reported that video generation failed"}
