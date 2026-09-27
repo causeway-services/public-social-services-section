@@ -3,3 +3,16 @@
 {"at":"2026-09-27T15:07:48.076Z","lesson":"seattle","provider":"notebooklm","step":"source","outcome":"uploaded","sourceId":"282b5643-77b1-4a60-bb3d-0db72a64770f"}
 {"at":"2026-09-27T15:07:48.077Z","lesson":"seattle","provider":"notebooklm","step":"video","outcome":"submitting","format":"explainer"}
 {"at":"2026-09-27T15:07:53.750Z","lesson":"seattle","provider":"notebooklm","step":"video","outcome":"submitted","artifactId":"188ccecd-6291-4171-977a-2577e2c2ae52"}
+{"at":"2026-09-27T15:34:56.172Z","lesson":"seattle","provider":"notebooklm","step":"download","outcome":"downloaded","bytes":43037119,"artifactId":"188ccecd-6291-4171-977a-2577e2c2ae52"}
+{"at":"2026-09-27T15:35:53.314Z","lesson":"seattle","step":"transcript","provider":"cloudflare-workers-ai","outcome":"transcribed","characters":11197}
+{"at":"2026-09-27T15:35:56.493Z","lesson":"seattle","step":"metadata","provider":"cloudflare-workers-ai","outcome":"written"}
+{"at":"2026-09-27T15:35:58.660Z","lesson":"seattle","step":"thumbnail","provider":"cloudflare-workers-ai","model":"@cf/black-forest-labs/flux-1-schnell","outcome":"generated","bytes":139979}
+{"at":"2026-09-27T15:35:59.910Z","lesson":"seattle","step":"youtube","effect":"youtube.upload","detail":{"provider":"youtube","url":"https://www.googleapis.com/upload/youtube/v3/videos","method":"POST"}}
+{"at":"2026-09-27T15:36:01.443Z","lesson":"seattle","step":"youtube","effect":"youtube.upload","detail":{"provider":"youtube","url":"https://www.googleapis.com/upload/youtube/v3/videos","method":"PUT"}}
+{"at":"2026-09-27T15:36:03.461Z","lesson":"seattle","step":"youtube","effect":"youtube.upload","detail":{"provider":"youtube","url":"https://www.googleapis.com/upload/youtube/v3/videos","method":"PUT"}}
+{"at":"2026-09-27T15:36:05.020Z","lesson":"seattle","step":"youtube","effect":"youtube.upload","detail":{"provider":"youtube","url":"https://www.googleapis.com/upload/youtube/v3/videos","method":"PUT"}}
+{"at":"2026-09-27T15:36:06.596Z","lesson":"seattle","step":"youtube","effect":"youtube.upload","detail":{"provider":"youtube","url":"https://www.googleapis.com/upload/youtube/v3/videos","method":"PUT"}}
+{"at":"2026-09-27T15:36:08.668Z","lesson":"seattle","step":"youtube","effect":"youtube.upload","detail":{"provider":"youtube","url":"https://www.googleapis.com/upload/youtube/v3/videos","method":"PUT"}}
+{"at":"2026-09-27T15:36:10.455Z","lesson":"seattle","step":"youtube","effect":"youtube.upload","detail":{"provider":"youtube","url":"https://www.googleapis.com/upload/youtube/v3/videos","method":"PUT"}}
+{"at":"2026-09-27T15:36:10.988Z","lesson":"seattle","step":"upload","provider":"youtube","outcome":"uploaded","videoId":"6GrNVWDi7oE","publishAt":"2026-09-29T15:00:00.000Z"}
+{"at":"2026-09-27T15:36:11.173Z","lesson":"seattle","step":"youtube","effect":"youtube.thumbnail","detail":{"provider":"youtube","url":"https://www.googleapis.com/upload/youtube/v3/thumbnails/set","method":"POST"}}

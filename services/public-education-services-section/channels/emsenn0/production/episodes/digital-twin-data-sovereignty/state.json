@@ -2,10 +2,10 @@
   "version": 1,
   "channel": "emsenn0",
   "lessonId": "digital-twin-data-sovereignty",
-  "stage": "generating",
+  "stage": "uploaded",
   "createdAt": "2026-09-27T15:08:18.189Z",
   "commissionedAt": "2026-09-27T15:08:18.189Z",
-  "updatedAt": "2026-09-27T15:10:39.273Z",
+  "updatedAt": "2026-09-27T15:38:14.574Z",
   "researchSearches": 5,
   "reportSha256": "3829f3e6611d997d7ec5694253933138198ce809de14b0e010b9f6873801760e",
   "notebookId": "67510ce7-79b3-4caa-b25c-28e0d3911b5a",
@@ -84,5 +84,13 @@
     "style": "auto",
     "language": "en"
   },
-  "artifactId": "2c787f76-117c-4d3e-b7f4-74f73745c938"
+  "artifactId": "2c787f76-117c-4d3e-b7f4-74f73745c938",
+  "downloadedArtifactId": "2c787f76-117c-4d3e-b7f4-74f73745c938",
+  "downloadedBytes": 47983673,
+  "downloadSha256": "sha256:ef5d7889cc7e74aa660056cfc14b8373a02821174987c5b69df345b4f982c2bd",
+  "reportSourceRemoved": true,
+  "plannedPublishAt": "2026-09-29T15:00:00.000Z",
+  "youtubeVideoId": "YkhcDoPfUV4",
+  "thumbnailUploaded": true,
+  "thumbnailError": null
 }

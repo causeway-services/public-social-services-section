@@ -3,3 +3,14 @@
 {"at":"2026-09-27T15:13:50.848Z","lesson":"causal-convex-hull","provider":"notebooklm","step":"source","outcome":"uploaded","sourceId":"fb28e7f5-6c9b-41f1-b164-c26f78336d31"}
 {"at":"2026-09-27T15:13:50.850Z","lesson":"causal-convex-hull","provider":"notebooklm","step":"video","outcome":"submitting","format":"cinematic"}
 {"at":"2026-09-27T15:13:55.824Z","lesson":"causal-convex-hull","provider":"notebooklm","step":"video","outcome":"submitted","artifactId":"a88e2c4a-387a-4804-ad31-41afc23b4152"}
+{"at":"2026-09-27T15:39:09.648Z","lesson":"causal-convex-hull","provider":"notebooklm","step":"download","outcome":"downloaded","bytes":25832746,"artifactId":"a88e2c4a-387a-4804-ad31-41afc23b4152"}
+{"at":"2026-09-27T15:39:32.185Z","lesson":"causal-convex-hull","step":"transcript","provider":"cloudflare-workers-ai","outcome":"transcribed","characters":4575}
+{"at":"2026-09-27T15:39:36.449Z","lesson":"causal-convex-hull","step":"metadata","provider":"cloudflare-workers-ai","outcome":"written"}
+{"at":"2026-09-27T15:39:38.785Z","lesson":"causal-convex-hull","step":"thumbnail","provider":"cloudflare-workers-ai","model":"@cf/black-forest-labs/flux-1-schnell","outcome":"generated","bytes":234266}
+{"at":"2026-09-27T15:39:40.208Z","lesson":"causal-convex-hull","step":"youtube","effect":"youtube.upload","detail":{"provider":"youtube","url":"https://www.googleapis.com/upload/youtube/v3/videos","method":"POST"}}
+{"at":"2026-09-27T15:39:41.987Z","lesson":"causal-convex-hull","step":"youtube","effect":"youtube.upload","detail":{"provider":"youtube","url":"https://www.googleapis.com/upload/youtube/v3/videos","method":"PUT"}}
+{"at":"2026-09-27T15:39:43.925Z","lesson":"causal-convex-hull","step":"youtube","effect":"youtube.upload","detail":{"provider":"youtube","url":"https://www.googleapis.com/upload/youtube/v3/videos","method":"PUT"}}
+{"at":"2026-09-27T15:39:45.597Z","lesson":"causal-convex-hull","step":"youtube","effect":"youtube.upload","detail":{"provider":"youtube","url":"https://www.googleapis.com/upload/youtube/v3/videos","method":"PUT"}}
+{"at":"2026-09-27T15:39:47.108Z","lesson":"causal-convex-hull","step":"youtube","effect":"youtube.upload","detail":{"provider":"youtube","url":"https://www.googleapis.com/upload/youtube/v3/videos","method":"PUT"}}
+{"at":"2026-09-27T15:39:47.604Z","lesson":"causal-convex-hull","step":"upload","provider":"youtube","outcome":"uploaded","videoId":"4F3ClqjFi38","publishAt":"2026-09-28T15:00:00.000Z"}
+{"at":"2026-09-27T15:39:47.821Z","lesson":"causal-convex-hull","step":"youtube","effect":"youtube.thumbnail","detail":{"provider":"youtube","url":"https://www.googleapis.com/upload/youtube/v3/thumbnails/set","method":"POST"}}

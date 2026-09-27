@@ -3,3 +3,16 @@
 {"at":"2026-09-27T15:10:34.498Z","lesson":"digital-twin-data-sovereignty","provider":"notebooklm","step":"source","outcome":"uploaded","sourceId":"7ccb52ea-7216-4e56-be0a-307190d5e549"}
 {"at":"2026-09-27T15:10:34.507Z","lesson":"digital-twin-data-sovereignty","provider":"notebooklm","step":"video","outcome":"submitting","format":"explainer"}
 {"at":"2026-09-27T15:10:39.274Z","lesson":"digital-twin-data-sovereignty","provider":"notebooklm","step":"video","outcome":"submitted","artifactId":"2c787f76-117c-4d3e-b7f4-74f73745c938"}
+{"at":"2026-09-27T15:36:53.481Z","lesson":"digital-twin-data-sovereignty","provider":"notebooklm","step":"download","outcome":"downloaded","bytes":47983673,"artifactId":"2c787f76-117c-4d3e-b7f4-74f73745c938"}
+{"at":"2026-09-27T15:37:46.738Z","lesson":"digital-twin-data-sovereignty","step":"transcript","provider":"cloudflare-workers-ai","outcome":"transcribed","characters":12221}
+{"at":"2026-09-27T15:37:51.440Z","lesson":"digital-twin-data-sovereignty","step":"metadata","provider":"cloudflare-workers-ai","outcome":"written"}
+{"at":"2026-09-27T15:37:53.664Z","lesson":"digital-twin-data-sovereignty","step":"thumbnail","provider":"cloudflare-workers-ai","model":"@cf/black-forest-labs/flux-1-schnell","outcome":"generated","bytes":183700}
+{"at":"2026-09-27T15:37:56.564Z","lesson":"digital-twin-data-sovereignty","step":"youtube","effect":"youtube.upload","detail":{"provider":"youtube","url":"https://www.googleapis.com/upload/youtube/v3/videos","method":"POST"}}
+{"at":"2026-09-27T15:37:58.262Z","lesson":"digital-twin-data-sovereignty","step":"youtube","effect":"youtube.upload","detail":{"provider":"youtube","url":"https://www.googleapis.com/upload/youtube/v3/videos","method":"PUT"}}
+{"at":"2026-09-27T15:38:00.152Z","lesson":"digital-twin-data-sovereignty","step":"youtube","effect":"youtube.upload","detail":{"provider":"youtube","url":"https://www.googleapis.com/upload/youtube/v3/videos","method":"PUT"}}
+{"at":"2026-09-27T15:38:02.795Z","lesson":"digital-twin-data-sovereignty","step":"youtube","effect":"youtube.upload","detail":{"provider":"youtube","url":"https://www.googleapis.com/upload/youtube/v3/videos","method":"PUT"}}
+{"at":"2026-09-27T15:38:05.318Z","lesson":"digital-twin-data-sovereignty","step":"youtube","effect":"youtube.upload","detail":{"provider":"youtube","url":"https://www.googleapis.com/upload/youtube/v3/videos","method":"PUT"}}
+{"at":"2026-09-27T15:38:08.342Z","lesson":"digital-twin-data-sovereignty","step":"youtube","effect":"youtube.upload","detail":{"provider":"youtube","url":"https://www.googleapis.com/upload/youtube/v3/videos","method":"PUT"}}
+{"at":"2026-09-27T15:38:10.262Z","lesson":"digital-twin-data-sovereignty","step":"youtube","effect":"youtube.upload","detail":{"provider":"youtube","url":"https://www.googleapis.com/upload/youtube/v3/videos","method":"PUT"}}
+{"at":"2026-09-27T15:38:11.791Z","lesson":"digital-twin-data-sovereignty","step":"upload","provider":"youtube","outcome":"uploaded","videoId":"YkhcDoPfUV4","publishAt":"2026-09-29T15:00:00.000Z"}
+{"at":"2026-09-27T15:38:11.975Z","lesson":"digital-twin-data-sovereignty","step":"youtube","effect":"youtube.thumbnail","detail":{"provider":"youtube","url":"https://www.googleapis.com/upload/youtube/v3/thumbnails/set","method":"POST"}}
