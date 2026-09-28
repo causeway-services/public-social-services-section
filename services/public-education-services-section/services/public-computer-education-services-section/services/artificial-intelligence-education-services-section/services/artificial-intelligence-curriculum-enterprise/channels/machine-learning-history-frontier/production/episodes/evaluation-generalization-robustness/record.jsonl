@@ -16,3 +16,4 @@
 {"at":"2026-09-28T15:58:11.295Z","lesson":"evaluation-generalization-robustness","step":"youtube","effect":"youtube.upload","detail":{"provider":"youtube","url":"https://www.googleapis.com/upload/youtube/v3/videos","method":"PUT"}}
 {"at":"2026-09-28T15:58:13.308Z","lesson":"evaluation-generalization-robustness","step":"upload","provider":"youtube","outcome":"uploaded","videoId":"S_p8I1V4mhU","publishAt":"2026-10-02T15:00:00.000Z"}
 {"at":"2026-09-28T15:58:13.717Z","lesson":"evaluation-generalization-robustness","step":"youtube","effect":"youtube.thumbnail","detail":{"provider":"youtube","url":"https://www.googleapis.com/upload/youtube/v3/thumbnails/set","method":"POST"}}
+{"at":"2026-09-28T16:17:39.608Z","lesson":"evaluation-generalization-robustness","step":"confirm","provider":"youtube","outcome":"scheduled","videoId":"S_p8I1V4mhU"}
