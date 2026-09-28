@@ -1,0 +1,31 @@
+{
+  "slug": "ux-design-course-by-course",
+  "title": "UX Design, Course by Course",
+  "subtitle": "An Independent Study Companion to the Google UX Design Professional Certificate",
+  "author": "561 Group",
+  "bookDir": ".",
+  "distDir": "../../../data/state/editions/ux-design-course-by-course",
+  "tokens": "../../../../../../../../../../561-group-services-section/services/561-group-content-design-services-section/data/records/design-tokens/561-group.tokens.json",
+  "cover": "typographic",
+  "profile": "study-guide",
+  "series": {
+    "name": "561 Group Study Companions",
+    "number": 4
+  },
+  "description": "A study companion to Google’s UX Design Certificate: the design process from its sources, accessibility throughout, and a portfolio guide. Independent of Google and Coursera.",
+  "keywords": [
+    "UX design",
+    "accessibility",
+    "Google certificate",
+    "study guide"
+  ],
+  "subjects": [
+    "COM079010",
+    "COM070000",
+    "STU021000"
+  ],
+  "marks": [
+    "Google",
+    "Coursera"
+  ]
+}

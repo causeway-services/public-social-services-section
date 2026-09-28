@@ -1,0 +1,33 @@
+{
+  "slug": "the-capm-domain-by-domain",
+  "title": "The CAPM, Domain by Domain",
+  "subtitle": "An Independent Study Companion to PMI's Certified Associate in Project Management Exam",
+  "author": "561 Group",
+  "bookDir": ".",
+  "distDir": "../../../data/state/editions/the-capm-domain-by-domain",
+  "tokens": "../../../../../../../../../../561-group-services-section/services/561-group-content-design-services-section/data/records/design-tokens/561-group.tokens.json",
+  "cover": "typographic",
+  "profile": "study-guide",
+  "series": {
+    "name": "561 Group Study Companions",
+    "number": 2
+  },
+  "description": "A study companion to PMI’s CAPM exam that follows the 2023 outline task by task and ends with a 40-question practice exam. Independent of PMI.",
+  "keywords": [
+    "CAPM",
+    "PMI",
+    "project management",
+    "exam prep"
+  ],
+  "subjects": [
+    "BUS101000",
+    "STU021000",
+    "BUS012030"
+  ],
+  "marks": [
+    "PMI",
+    "CAPM",
+    "Certified Associate in Project Management",
+    "Project Management Institute"
+  ]
+}

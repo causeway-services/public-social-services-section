@@ -1,0 +1,31 @@
+{
+  "slug": "business-strategy-course-by-course",
+  "title": "Business Strategy, Course by Course",
+  "subtitle": "An Independent Study Companion to Cornell's Business Strategy Certificate",
+  "author": "561 Group",
+  "bookDir": ".",
+  "distDir": "../../../data/state/editions/business-strategy-course-by-course",
+  "tokens": "../../../../../../../../../../561-group-services-section/services/561-group-content-design-services-section/data/records/design-tokens/561-group.tokens.json",
+  "cover": "typographic",
+  "profile": "study-guide",
+  "series": {
+    "name": "561 Group Study Companions",
+    "number": 6
+  },
+  "description": "A study companion to Cornell’s Business Strategy certificate: value, disruption, alliances, game theory and platforms. Independent of Cornell.",
+  "keywords": [
+    "business strategy",
+    "eCornell",
+    "game theory",
+    "study guide"
+  ],
+  "subjects": [
+    "BUS063000",
+    "STU021000",
+    "BUS041000"
+  ],
+  "marks": [
+    "Cornell",
+    "eCornell"
+  ]
+}

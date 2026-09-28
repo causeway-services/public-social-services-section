@@ -1,0 +1,30 @@
+{
+  "slug": "business-management-course-by-course",
+  "title": "Business Management, Course by Course",
+  "subtitle": "An Independent Study Companion to Cornell's Business Management Essentials Certificate",
+  "author": "561 Group",
+  "bookDir": ".",
+  "distDir": "../../../data/state/editions/business-management-course-by-course",
+  "tokens": "../../../../../../../../../../561-group-services-section/services/561-group-content-design-services-section/data/records/design-tokens/561-group.tokens.json",
+  "cover": "typographic",
+  "profile": "study-guide",
+  "series": {
+    "name": "561 Group Study Companions",
+    "number": 5
+  },
+  "description": "A study companion to Cornell’s Business Management Essentials certificate: finance, marketing, strategy, organizing and leading. Independent of Cornell.",
+  "keywords": [
+    "business management",
+    "eCornell",
+    "study guide"
+  ],
+  "subjects": [
+    "BUS041000",
+    "STU021000",
+    "BUS071000"
+  ],
+  "marks": [
+    "Cornell",
+    "eCornell"
+  ]
+}

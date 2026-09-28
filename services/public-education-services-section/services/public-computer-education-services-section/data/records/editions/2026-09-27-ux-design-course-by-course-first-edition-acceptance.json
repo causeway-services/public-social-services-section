@@ -1,0 +1,35 @@
+{
+  "type": "EbookEditionAcceptance",
+  "version": 1,
+  "status": "accepted",
+  "editionInputDigest": "ni:///sha-256;RU3OCi7r3tktb_zDjY_1FG0tlfxS_W5htr6vjD5kxv4",
+  "artifacts": {
+    "epub": {
+      "path": "/home/emsenn/info/lib/emsenn/services/561-group/services/561-group-services-section/data/state/editions/ux-design-course-by-course/ux-design-course-by-course.epub",
+      "bytes": 137992,
+      "sha256": "ni:///sha-256;Ymnj4qjbrAMDqq7S86wz1jDe95NFygEH2S04M_0TZB8"
+    },
+    "screenPdf": {
+      "path": "/home/emsenn/info/lib/emsenn/services/561-group/services/561-group-services-section/data/state/editions/ux-design-course-by-course/ux-design-course-by-course.pdf",
+      "bytes": 201925,
+      "sha256": "ni:///sha-256;HWbJBq68A_99ruod0Blq0GN3ztputJxgRot8Vv9xrFE"
+    },
+    "buildRecordDigest": "ni:///sha-256;dRGpsrQY1PTEPGghc3dN4C4FN0G1Znsi66qwYov0sjo"
+  },
+  "closedObligationIds": [
+    "editorial-proof"
+  ],
+  "pendingAcceptanceObligationIds": [],
+  "proof": {
+    "digest": "ni:///sha-256;veGHtlHvaLlgCDFasKAyZAdlWkCwGULDARVbNtWUVJQ",
+    "proofer": "independent proofreading agent (claude-opus-5-5 subagent)",
+    "provedAt": "2026-09-27T22:31:54Z",
+    "method": "Re-read the new edition text in full against the ten prior findings' fixes, re-read every manuscript file the fixes touched (00-about-this-book.md, 01-, 02-, 03-, 05-, 06-, 08-, 09-, 10-glossary.md) and the evidence packet's Figma/Adobe XD passage, re-verified the three-project list and the course-6 Figma/Adobe XD claim against coursera.org (WebFetch/WebSearch), re-checked the Gray et al. and Nielsen-heuristic wording against the manuscript's own bibliography and Nielsen (1994), and re-ran the style-guide adverb/contraction scan across the whole new text to confirm no fix introduced a new violation; also traced the two new value-proposition/user-story answers (Ch1 Q9, Ch2 Q9) against the rest of the running example for invented facts. For the f16 re-fix and the f17 running-head fix, ran full-text diffs between successive edition texts to confirm each changed only what was claimed, then spot-checked odd- and even-page running heads across the whole document (a whole-document grep for stray \"CONTENTS\"/\"ANSWERS\" strings) to confirm no stale running head remained anywhere, including in the back-matter chapters (About this book, A study plan, Glossary, References) that had no visible diff.",
+    "findings": {
+      "errors": 2,
+      "corrections": 14,
+      "notes": 1
+    }
+  },
+  "acceptedAt": "2026-09-27T22:37:21.841Z"
+}

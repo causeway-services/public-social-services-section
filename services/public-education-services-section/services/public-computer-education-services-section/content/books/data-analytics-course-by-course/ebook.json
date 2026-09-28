@@ -1,0 +1,32 @@
+{
+  "slug": "data-analytics-course-by-course",
+  "title": "Data Analytics, Course by Course",
+  "subtitle": "An Independent Study Companion to the Google Data Analytics Professional Certificate",
+  "author": "561 Group",
+  "bookDir": ".",
+  "distDir": "../../../data/state/editions/data-analytics-course-by-course",
+  "tokens": "../../../../../../../../../../561-group-services-section/services/561-group-content-design-services-section/data/records/design-tokens/561-group.tokens.json",
+  "cover": "typographic",
+  "profile": "study-guide",
+  "series": {
+    "name": "561 Group Study Companions",
+    "number": 3
+  },
+  "description": "A study companion to Google’s Data Analytics Certificate: spreadsheets, SQL, Tableau and Python, with tested code and answered self-checks. Independent of Google and Coursera.",
+  "keywords": [
+    "data analytics",
+    "SQL",
+    "Python",
+    "Google certificate",
+    "study guide"
+  ],
+  "subjects": [
+    "COM021030",
+    "STU021000",
+    "BUS012030"
+  ],
+  "marks": [
+    "Google",
+    "Coursera"
+  ]
+}
