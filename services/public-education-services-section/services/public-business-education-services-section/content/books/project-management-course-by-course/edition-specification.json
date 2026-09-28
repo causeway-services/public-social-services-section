@@ -82,7 +82,7 @@
       "target": "epub",
       "configuration": {
         "profile": "epub-screen-pdf-v1",
-        "editionInputDigest": "ni:///sha-256;ix10u45Sp4yA8lO07EPB6LXt99HEKcpDVvaBXEFNKOs"
+        "editionInputDigest": "ni:///sha-256;5qgk6U-ECqEJZpnnYQmZ-z92WvI7crTnVkPOjQYfcq0"
       },
       "sourceSpan": {
         "type": "ArtifactFabricationSourceSpan",
@@ -97,7 +97,7 @@
       "target": "screen-pdf",
       "configuration": {
         "profile": "epub-screen-pdf-v1",
-        "editionInputDigest": "ni:///sha-256;ix10u45Sp4yA8lO07EPB6LXt99HEKcpDVvaBXEFNKOs"
+        "editionInputDigest": "ni:///sha-256;5qgk6U-ECqEJZpnnYQmZ-z92WvI7crTnVkPOjQYfcq0"
       },
       "sourceSpan": {
         "type": "ArtifactFabricationSourceSpan",

@@ -1,0 +1,205 @@
+{
+  "type": "EbookEditionProof",
+  "version": 1,
+  "editionInputDigest": "ni:///sha-256;-UIG5LD-R675pbqb4b-jfEndf0Gws-Bc_f57t6QefDU",
+  "artifacts": {
+    "epub": "ni:///sha-256;elWUpkKVNQ734fCChY7Os72PcFc2EWDg2cYE7VB4gBQ",
+    "screenPdf": "ni:///sha-256;AF0jdlYOyxKmEFTY_0UIy4IWzkluSZxRm0YPpNCfnaU"
+  },
+  "proofer": "independent proofreading agent (claude-opus-5-5 subagent)",
+  "writer": "claude-opus-5-5 (bare-cedar-fog-claude session d6271b1b)",
+  "provedAt": "2026-09-27T22:44:00Z",
+  "carried": {
+    "from": "ni:///sha-256;aKVAg6hPI5IlFJ3X2VGG8I0nVT2VOxlsCTpvyXkdNjg",
+    "proof": "ni:///sha-256;feI2_VacRB5G1KbihxrEhuFcfy2k7oHbjc13G_veVAc",
+    "at": "2026-09-28T03:30:28.331Z",
+    "text": {
+      "epub": "ni:///sha-256;wLyRpzM7FYzXKxuNILHR2i_3lIBtjUl0z3L2wAIXbU8",
+      "pdf": "ni:///sha-256;vT9fALzA1cATkCuhTKpKymbACe3SW3TlNbsT0NhgXwk"
+    }
+  },
+  "method": "Carried from the proof of edition ni:///sha-256;aKVAg6hPI5IlFJ3X2VGG8I0nVT2VOxlsCTpvyXkdNjg (proof ni:///sha-256;feI2_VacRB5G1KbihxrEhuFcfy2k7oHbjc13G_veVAc): this edition's extracted text equals that edition's (EPUB ni:///sha-256;wLyRpzM7FYzXKxuNILHR2i_3lIBtjUl0z3L2wAIXbU8, PDF ni:///sha-256;vT9fALzA1cATkCuhTKpKymbACe3SW3TlNbsT0NhgXwk, the colophon's build digest set aside), so the findings read on it hold here. The original pass: Carried from the proof of edition ni:///sha-256;aREkNtXcwKbrmm1tOoi3nyu6AmY1OZBv0zeMWvI_JyU (proof ni:///sha-256;OjZUpxSt7Qcnb073B1eSSn0KHp2o54rC4Wi6FVBDOig): this edition's extracted text equals that edition's (EPUB ni:///sha-256;wLyRpzM7FYzXKxuNILHR2i_3lIBtjUl0z3L2wAIXbU8, PDF ni:///sha-256;vT9fALzA1cATkCuhTKpKymbACe3SW3TlNbsT0NhgXwk, the colophon's build digest set aside), so the findings read on it hold here. The original pass: Re-read the full new extracted PDF text (business-strategy-course-by-course-edition-final3.txt) against the manuscript to verify f16-f18's claimed fixes: checked the reworded Disintermediation definition against 6.6's body text, confirmed \"winner-take-all\" is now used and glossed non-circularly with a matching body introduction in 6.4, checked the four new chapter-6 glossary entries (platform governance, price structure, seeding, subsidy side) against their basis in the 6.3/6.5/6.7 body text, re-verified glossary alphabetical order still holds with the new insertions, and rendered pages 42 and 53-56 of the new PDF (pdftoppm, 120dpi) to confirm no layout regression from the added text.",
+  "findings": [
+    {
+      "id": "f1",
+      "file": "00-about-this-book.md",
+      "severity": "correction",
+      "claim": "Section 0.2 never named the certificate's instructor.",
+      "source": "eCornell's certificate page names Justin P. Johnson.",
+      "fix": "Name the instructor in 0.2.",
+      "resolution": "fixed",
+      "verification": "Confirmed fixed in the prior verification pass; unchanged in this edition."
+    },
+    {
+      "id": "f2",
+      "file": "00-about-this-book.md; 07-the-course-projects.md",
+      "severity": "correction",
+      "claim": "No section guided the reader through the certificate's own course projects, which the house pedagogy note requires for a course credential.",
+      "source": "House pedagogy note, item 4.",
+      "fix": "Add the required guide.",
+      "resolution": "fixed",
+      "verification": "Confirmed fixed in the prior verification pass; unchanged in this edition."
+    },
+    {
+      "id": "f3",
+      "file": "01-value-creation.md",
+      "severity": "correction",
+      "claim": "\"Diagnose a market\" was untested by Check yourself.",
+      "source": "House pedagogy note.",
+      "fix": "Add a matching question.",
+      "resolution": "fixed",
+      "verification": "Confirmed fixed in the prior verification pass; unchanged in this edition."
+    },
+    {
+      "id": "f4",
+      "file": "02-change-and-disruption.md",
+      "severity": "correction",
+      "claim": "Two objectives (classify change; choose a response) were untested.",
+      "source": "House pedagogy note.",
+      "fix": "Add matching questions.",
+      "resolution": "fixed",
+      "verification": "Confirmed fixed in the prior verification pass; unchanged in this edition."
+    },
+    {
+      "id": "f5",
+      "file": "02-change-and-disruption.md",
+      "severity": "correction",
+      "claim": "\"Sustaining innovation\" was named but never taught.",
+      "source": "Pedagogy/style convention.",
+      "fix": "Teach and gloss the term.",
+      "resolution": "fixed",
+      "verification": "Confirmed fixed in the prior verification pass; unchanged in this edition."
+    },
+    {
+      "id": "f6",
+      "file": "04-business-relationships.md",
+      "severity": "correction",
+      "claim": "\"Identify key relationships\" was untested.",
+      "source": "House pedagogy note.",
+      "fix": "Add a matching question.",
+      "resolution": "fixed",
+      "verification": "Confirmed fixed in the prior verification pass; unchanged in this edition."
+    },
+    {
+      "id": "f7",
+      "file": "05-game-theory.md",
+      "severity": "correction",
+      "claim": "\"Identify players/motivations/capabilities\" was untested.",
+      "source": "House pedagogy note.",
+      "fix": "Add a matching question.",
+      "resolution": "fixed",
+      "verification": "Confirmed fixed in the prior verification pass; unchanged in this edition."
+    },
+    {
+      "id": "f8",
+      "file": "09-glossary.md",
+      "severity": "correction",
+      "claim": "The glossary omitted many terms named in each chapter's Key terms lists (originally flagged across chapters 1-6, and recurring in new chapter 7).",
+      "source": "The glossary's own header: every taught term should be reachable there.",
+      "fix": "Add the missing entries.",
+      "resolution": "fixed",
+      "verification": "All ten previously-missing terms are now present and correctly alphabetized: chicken-and-egg problem, co-opetition, course project, published takeaway, disintermediation, evidence, recommendation, platform, platform dependence, reputation, single-side value, winner-take-all. Checked each definition sentence against its chapter's body text: chicken-and-egg problem, co-opetition, course project/published takeaway, evidence/recommendation, platform, platform dependence, single-side value and reputation all match the body accurately. Two problems surfaced by this closer check are filed as new findings below (f16, f17) rather than reopening f8, since f8's specific claim -- these ten terms were missing -- is now true and resolved. A further residual gap in chapter 6 specifically, beyond the ten originally named, is filed as f18."
+    },
+    {
+      "id": "f9",
+      "file": "00-about-this-book.md",
+      "severity": "correction",
+      "claim": "HBR references lacked volume/issue/page.",
+      "source": "Manuscript frontmatter carried the data already.",
+      "fix": "Render it.",
+      "resolution": "fixed",
+      "verification": "Confirmed fixed in the prior verification pass; unchanged in this edition."
+    },
+    {
+      "id": "f10",
+      "file": "00-about-this-book.md",
+      "severity": "correction",
+      "claim": "The eCornell URL in References breaks across a line as \"business-s\" / \"trategy/.\"",
+      "source": "Rendered page, and the raw PDF text layer.",
+      "fix": "N/A.",
+      "resolution": "declined",
+      "reason": "The template's xurl package deliberately allows a URL to break at any character so long URLs never overflow the margin, and inserts no character at the break. Verified independently by extracting the raw PDF text layer at that spot: it reads exactly \"business-s\\ntrategy/.\" with no inserted hyphen glyph -- the only \"-\" present is the genuine one in \"business-strategy,\" so the URL copies and concatenates correctly; the break only looks like a hyphenated word split.",
+      "verification": "Declined by the coordinator (xurl allows arbitrary URL breaks to avoid margin overflow; no character is inserted). Confirmed independently in the prior pass by reading the raw PDF text layer at that spot. Unchanged in this edition; decline stands."
+    },
+    {
+      "id": "f11",
+      "file": "08-study-plan.md",
+      "severity": "correction",
+      "claim": "The study plan's sections were numbered 6.12-6.14, continuing Chapter 6.",
+      "source": "Rendered pages.",
+      "fix": "Unnumber them.",
+      "resolution": "fixed",
+      "verification": "Confirmed fixed in the prior verification pass; unchanged in this edition."
+    },
+    {
+      "id": "f12",
+      "file": "04-business-relationships.md",
+      "severity": "correction",
+      "claim": "The health-scorecard table's header row had colliding column labels.",
+      "source": "High-resolution page render.",
+      "fix": "Widen/transpose the table.",
+      "resolution": "fixed",
+      "verification": "Confirmed fixed in the prior verification pass; unchanged in this edition."
+    },
+    {
+      "id": "f13",
+      "file": "04-business-relationships.md; 09-glossary.md",
+      "severity": "correction",
+      "claim": "\"Largely unwritten\" used a banned hedge adverb, duplicated in two places.",
+      "source": "style-guide.md.",
+      "fix": "Reword both instances.",
+      "resolution": "fixed",
+      "verification": "Confirmed fixed in the prior verification pass; unchanged in this edition."
+    },
+    {
+      "id": "f14",
+      "file": "02-change-and-disruption.md",
+      "severity": "note",
+      "claim": "The five-step scenario-planning list was credited as if it were Schoemaker's own enumerated steps, when his article sets out ten.",
+      "source": "Schoemaker 1995, read directly.",
+      "fix": "Frame it as a compressed core.",
+      "resolution": "fixed",
+      "verification": "Confirmed fixed in the prior verification pass; unchanged in this edition."
+    },
+    {
+      "id": "f15",
+      "file": "08-study-plan.md",
+      "severity": "correction",
+      "claim": "\"The rule\" told the reader to read Chapter 7's entry for each course, but \"The schedule\" table and \"The final review\" didn't reflect that.",
+      "source": "Internal consistency between the study plan's own parts, introduced when Chapter 7 was added.",
+      "fix": "Add Chapter 7's checklist to each schedule row and to the final review.",
+      "resolution": "fixed",
+      "verification": "Confirmed on the new text: each of the six schedule rows now reads \"Chapter N; Chapter 7's LSM31X checklist\" in the Read column, with every course code matched correctly to its chapter (LSM311→Chapter 1, ... LSM316→Chapter 6). \"The final review\" now ends: \"Check each part against its course's checklist in Chapter 7.\" Both additions are accurate and consistent with chapter 7.3's own course-to-chapter mapping."
+    },
+    {
+      "id": "f16",
+      "file": "09-glossary.md",
+      "severity": "correction",
+      "claim": "\"Disintermediation\"'s glossary definition included a clause (\"or being cut out itself\") not taught anywhere in chapter 6's body.",
+      "source": "Chapter 6, section 6.6: \"Disintermediation or competition: the platform may copy successful products or steer customers to its own\" -- describes only the platform cutting out the seller.",
+      "fix": "Reword the entry to match what 6.6 actually teaches.",
+      "resolution": "fixed",
+      "verification": "Now reads: \"Disintermediation. A platform cutting out the businesses that sell through it, for example by selling its own version of their products. [6]\" -- matches 6.6's \"the platform may copy successful products or steer customers to its own\" exactly, with no unsupported second clause."
+    },
+    {
+      "id": "f17",
+      "file": "06-digital-platforms.md; 09-glossary.md",
+      "severity": "correction",
+      "claim": "\"Winner-take-all\" had a glossary entry but was never used or explained in chapter 6's body prose, and its definition was circular with \"tipping.\"",
+      "source": "Text search found \"winner-take-all\" only in 6.9 (Key terms) and its own glossary entry; 6.4's discussion of tipping never used the term.",
+      "fix": "Introduce the term where the concept is taught, and give it a non-circular definition distinct from \"tipping.\"",
+      "resolution": "fixed",
+      "verification": "6.4 now reads: \"...push a market toward one winner (a winner-take-all market); the opposite conditions allow more than one platform to survive\" -- the term is introduced (bolded, matching the book's treatment of other first-defined terms like envelopment) exactly where the concept is taught. The glossary entry is now non-circular: \"A market in which one platform ends up with most of the users and most of the value,\" clearly distinct from \"Tipping. A market moving toward one dominant platform\" (tipping = the process, winner-take-all = the resulting state). Confirmed on the rendered page 42 -- clean layout, no overflow from the insertion."
+    },
+    {
+      "id": "f18",
+      "file": "06-digital-platforms.md; 09-glossary.md",
+      "severity": "correction",
+      "claim": "Four terms named in 6.9's Key terms (price structure, subsidy side, seeding, platform governance) were still missing from the glossary.",
+      "source": "6.9: \"Platform; two-sided market; price structure; subsidy side.\" / \"Chicken-and-egg problem; seeding; single-side value.\" / \"Envelopment; platform governance.\"",
+      "fix": "Add glossary entries for these four, tagged [6].",
+      "resolution": "fixed",
+      "verification": "All four added and checked against their basis in the body: \"Platform governance\" (\"The rules a platform sets and enforces for its participants, which decide whether they trust it\") matches 6.5's \"govern the platform so participants trust it\"; \"Price structure\" (\"How a platform splits its total charges between its sides\") matches 6.3's \"the structure of prices matters... how the total charge is split between the sides\"; \"Seeding\" (\"Bringing one side of a platform yourself, such as signing suppliers before buyers arrive\") matches 6.5's \"bring one side yourself (seed supply)\" and is consistent with the worked example's \"FieldTable signed 20 farms first\"; \"Subsidy side\" (\"The side of a platform that pays little or nothing, because the other side values its presence\") matches 6.3's subsidize-the-side rule. Alphabetical order re-checked and still holds with all four insertions (confirmed on rendered pages 53-56). No new issues found."
+    }
+  ]
+}
