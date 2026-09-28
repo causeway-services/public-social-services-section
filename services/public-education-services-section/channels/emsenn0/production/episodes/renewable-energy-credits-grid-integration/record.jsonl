@@ -16,3 +16,4 @@
 {"at":"2026-09-28T15:33:34.092Z","lesson":"renewable-energy-credits-grid-integration","step":"youtube","effect":"youtube.upload","detail":{"provider":"youtube","url":"https://www.googleapis.com/upload/youtube/v3/videos","method":"PUT"}}
 {"at":"2026-09-28T15:33:38.308Z","lesson":"renewable-energy-credits-grid-integration","step":"upload","provider":"youtube","outcome":"uploaded","videoId":"tdHTbwe8SRo","publishAt":"2026-09-30T15:00:00.000Z"}
 {"at":"2026-09-28T15:33:38.557Z","lesson":"renewable-energy-credits-grid-integration","step":"youtube","effect":"youtube.thumbnail","detail":{"provider":"youtube","url":"https://www.googleapis.com/upload/youtube/v3/thumbnails/set","method":"POST"}}
+{"at":"2026-09-28T15:56:17.315Z","lesson":"renewable-energy-credits-grid-integration","step":"confirm","provider":"youtube","outcome":"scheduled","videoId":"tdHTbwe8SRo"}

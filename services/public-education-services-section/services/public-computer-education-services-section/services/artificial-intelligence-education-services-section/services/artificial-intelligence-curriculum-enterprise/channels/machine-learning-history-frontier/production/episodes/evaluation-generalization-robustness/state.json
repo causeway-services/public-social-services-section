@@ -2,10 +2,10 @@
   "version": 1,
   "channel": "machine-learning-history-frontier",
   "lessonId": "evaluation-generalization-robustness",
-  "stage": "generating",
+  "stage": "uploaded",
   "createdAt": "2026-09-28T15:07:32.143Z",
   "commissionedAt": "2026-09-28T15:07:32.143Z",
-  "updatedAt": "2026-09-28T15:09:48.992Z",
+  "updatedAt": "2026-09-28T15:58:14.061Z",
   "researchSearches": 4,
   "reportSha256": "4beb4fd97b65417b562afce86f5e6eac3f886e27ddcb3e15f9eb909f7dcbe414",
   "notebookId": "9c3eed44-7fa3-4203-8b79-e0a20b91017f",
@@ -51,5 +51,16 @@
     "style": "auto",
     "language": "en"
   },
-  "artifactId": "34b386b5-e0b6-43f4-9141-1e11d2477d68"
+  "artifactId": "34b386b5-e0b6-43f4-9141-1e11d2477d68",
+  "downloadedArtifactId": "34b386b5-e0b6-43f4-9141-1e11d2477d68",
+  "downloadedBytes": 50258123,
+  "downloadSha256": "sha256:f9f9c76e928333cf746506d87c82daf67528308674ee2aa21d2f40291c47b6c5",
+  "reportSourceRemoved": true,
+  "plannedPublishAt": "2026-10-02T15:00:00.000Z",
+  "youtubeVideoId": "S_p8I1V4mhU",
+  "thumbnailError": {
+    "at": "2026-09-28T15:58:14.061Z",
+    "code": "CUSTOM_THUMBNAIL_PERMISSION",
+    "message": "YouTube custom-thumbnail permission is unavailable for this channel. Check YouTube Studio > Settings > Channel > Feature eligibility; the uploaded video and its publication schedule remain intact."
+  }
 }

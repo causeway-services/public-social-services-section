@@ -2,10 +2,10 @@
   "version": 1,
   "channel": "emsenn0",
   "lessonId": "renewable-energy-credits-grid-integration",
-  "stage": "uploaded",
+  "stage": "scheduled",
   "createdAt": "2026-09-28T15:04:13.144Z",
   "commissionedAt": "2026-09-28T15:04:13.144Z",
-  "updatedAt": "2026-09-28T15:33:43.860Z",
+  "updatedAt": "2026-09-28T15:56:17.314Z",
   "researchSearches": 6,
   "reportSha256": "1fc3077208a3bf408d074c0c5af1b1f10ec9ae37ab99fbf6709a2c5ac81cceeb",
   "notebookId": "67510ce7-79b3-4caa-b25c-28e0d3911b5a",
@@ -92,5 +92,7 @@
   "plannedPublishAt": "2026-09-30T15:00:00.000Z",
   "youtubeVideoId": "tdHTbwe8SRo",
   "thumbnailUploaded": true,
-  "thumbnailError": null
+  "thumbnailError": null,
+  "lastError": null,
+  "publishAt": "2026-09-30T15:00:00Z"
 }

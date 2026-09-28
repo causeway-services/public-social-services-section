@@ -16,3 +16,4 @@
 {"at":"2026-09-28T15:31:39.427Z","lesson":"minneapolis","step":"youtube","effect":"youtube.upload","detail":{"provider":"youtube","url":"https://www.googleapis.com/upload/youtube/v3/videos","method":"PUT"}}
 {"at":"2026-09-28T15:31:40.844Z","lesson":"minneapolis","step":"upload","provider":"youtube","outcome":"uploaded","videoId":"XptVseR4be0","publishAt":"2026-09-30T15:00:00.000Z"}
 {"at":"2026-09-28T15:31:41.150Z","lesson":"minneapolis","step":"youtube","effect":"youtube.thumbnail","detail":{"provider":"youtube","url":"https://www.googleapis.com/upload/youtube/v3/thumbnails/set","method":"POST"}}
+{"at":"2026-09-28T15:56:15.203Z","lesson":"minneapolis","step":"confirm","provider":"youtube","outcome":"scheduled","videoId":"XptVseR4be0"}
