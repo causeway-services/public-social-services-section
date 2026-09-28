@@ -2,10 +2,10 @@
   "version": 1,
   "channel": "mathematics-in-relation",
   "lessonId": "causal-homotopy",
-  "stage": "video-failed",
+  "stage": "generating",
   "createdAt": "2026-09-26T15:15:41.010Z",
   "commissionedAt": "2026-09-26T15:15:41.010Z",
-  "updatedAt": "2026-09-28T17:17:52.831Z",
+  "updatedAt": "2026-09-28T17:19:50.860Z",
   "researchSearches": 7,
   "reportSha256": "220c47e4be0ae3b5355138c2f7dbc3f76defea730d4afff78d5dc909b25dc330",
   "notebookId": "67510ce7-79b3-4caa-b25c-28e0d3911b5a",
@@ -71,10 +71,17 @@
   "sourceId": "98fcaa5a-3aab-4ad9-8935-e3b454330983",
   "sourceOwned": true,
   "videoAttempts": 2,
+  "lastError": null,
+  "failedArtifacts": [
+    "3edd8a65-5895-42c8-bd27-f888072f21b5",
+    "cffa972e-6ba2-44ab-8419-4146eb278843"
+  ],
+  "reportSourceRemoved": false,
+  "artifactId": "ac139685-0fad-4bf8-a9b3-f23f6779fe59",
   "generationStarted": true,
   "generationAttempt": {
     "number": 2,
-    "startedAt": "2026-09-27T00:36:02.575Z",
+    "startedAt": "2026-09-28T17:19:32.714Z",
     "sourceIds": [
       "98fcaa5a-3aab-4ad9-8935-e3b454330983"
     ],
@@ -84,18 +91,7 @@
     "style": "auto",
     "language": "en"
   },
-  "lastError": {
-    "at": "2026-09-27T09:07:35.269Z",
-    "status": "video-failed",
-    "message": "Gemini Notebook reported that video generation failed"
-  },
-  "artifactId": "cffa972e-6ba2-44ab-8419-4146eb278843",
-  "failedArtifacts": [
-    "3edd8a65-5895-42c8-bd27-f888072f21b5",
-    "cffa972e-6ba2-44ab-8419-4146eb278843"
-  ],
   "downloadedArtifactId": null,
   "downloadedBytes": null,
-  "downloadSha256": null,
-  "reportSourceRemoved": false
+  "downloadSha256": null
 }
