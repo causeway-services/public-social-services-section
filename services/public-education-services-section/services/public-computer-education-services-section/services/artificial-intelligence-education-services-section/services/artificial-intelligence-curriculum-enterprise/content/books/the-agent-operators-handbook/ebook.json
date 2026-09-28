@@ -3,6 +3,7 @@
   "title": "The Agent Operator's Handbook",
   "subtitle": "A Field Guide to Dispatching, Steering, and Recovering Multiple AI Coding Agents at Once",
   "author": "561 Group",
+  "date": "2026-09-01",
   "bookDir": ".",
   "distDir": "../../../data/state/editions/the-agent-operators-handbook",
   "description": "A field guide to operating several AI coding agents at once: writing the complete brief, when to split work and when not to, steering a running agent, recovering an interrupted one, and reading its report.",
