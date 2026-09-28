@@ -1,0 +1,35 @@
+{
+  "type": "EbookEditionAcceptance",
+  "version": 1,
+  "status": "accepted",
+  "editionInputDigest": "ni:///sha-256;0-AvWPNn5vZ2cf698DfChfW5TmDP4gifeGL6kRsHHD0",
+  "artifacts": {
+    "epub": {
+      "path": "/home/emsenn/info/lib/emsenn/services/561-group/services/public-services-section/services/public-social-services-section/services/public-education-services-section/services/public-computer-education-services-section/data/state/editions/ux-design-course-by-course/ux-design-course-by-course.epub",
+      "bytes": 137986,
+      "sha256": "ni:///sha-256;omZncoosv3DyW3WmWy1nZlBsHURTRKsceyvhEJv80j4"
+    },
+    "screenPdf": {
+      "path": "/home/emsenn/info/lib/emsenn/services/561-group/services/public-services-section/services/public-social-services-section/services/public-education-services-section/services/public-computer-education-services-section/data/state/editions/ux-design-course-by-course/ux-design-course-by-course.pdf",
+      "bytes": 201890,
+      "sha256": "ni:///sha-256;KH1c-hZde0jZOK1sMV6OZE5DMkFg0-68_6j_OJpJWQQ"
+    },
+    "buildRecordDigest": "ni:///sha-256;_iVWRrSP4IUJASUNPbB7TXsrRqpudMxDVRCAMaMrrHA"
+  },
+  "closedObligationIds": [
+    "editorial-proof"
+  ],
+  "pendingAcceptanceObligationIds": [],
+  "proof": {
+    "digest": "ni:///sha-256;a9G-z1rnxwC8QiMTWIEX4uEytIcIKq0SBuGRpRmN--8",
+    "proofer": "independent proofreading agent (claude-opus-5-5 subagent)",
+    "provedAt": "2026-09-27T22:31:54Z",
+    "method": "Carried from the proof of edition ni:///sha-256;RU3OCi7r3tktb_zDjY_1FG0tlfxS_W5htr6vjD5kxv4 (proof ni:///sha-256;veGHtlHvaLlgCDFasKAyZAdlWkCwGULDARVbNtWUVJQ): this edition's extracted text equals that edition's (EPUB ni:///sha-256;4Yi9fcThsPdgWHeHNaI8KVKqqk2bM12XPfisQl803hQ, PDF ni:///sha-256;VAQTzI1QhiKEeUtNfQEWUNGhL-GFvVXAGnZH6xy8Az8, the colophon's build digest set aside), so the findings read on it hold here. The original pass: Re-read the new edition text in full against the ten prior findings' fixes, re-read every manuscript file the fixes touched (00-about-this-book.md, 01-, 02-, 03-, 05-, 06-, 08-, 09-, 10-glossary.md) and the evidence packet's Figma/Adobe XD passage, re-verified the three-project list and the course-6 Figma/Adobe XD claim against coursera.org (WebFetch/WebSearch), re-checked the Gray et al. and Nielsen-heuristic wording against the manuscript's own bibliography and Nielsen (1994), and re-ran the style-guide adverb/contraction scan across the whole new text to confirm no fix introduced a new violation; also traced the two new value-proposition/user-story answers (Ch1 Q9, Ch2 Q9) against the rest of the running example for invented facts. For the f16 re-fix and the f17 running-head fix, ran full-text diffs between successive edition texts to confirm each changed only what was claimed, then spot-checked odd- and even-page running heads across the whole document (a whole-document grep for stray \"CONTENTS\"/\"ANSWERS\" strings) to confirm no stale running head remained anywhere, including in the back-matter chapters (About this book, A study plan, Glossary, References) that had no visible diff.",
+    "findings": {
+      "errors": 2,
+      "corrections": 14,
+      "notes": 1
+    }
+  },
+  "acceptedAt": "2026-09-28T01:44:29.922Z"
+}
