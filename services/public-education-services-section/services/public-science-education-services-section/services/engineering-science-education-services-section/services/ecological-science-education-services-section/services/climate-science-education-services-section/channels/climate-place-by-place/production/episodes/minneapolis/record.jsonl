@@ -3,3 +3,16 @@
 {"at":"2026-09-28T15:03:08.348Z","lesson":"minneapolis","provider":"notebooklm","step":"source","outcome":"uploaded","sourceId":"814f698b-20e1-4aab-b4ee-9e4fb007e4c7"}
 {"at":"2026-09-28T15:03:08.349Z","lesson":"minneapolis","provider":"notebooklm","step":"video","outcome":"submitting","format":"explainer"}
 {"at":"2026-09-28T15:03:15.719Z","lesson":"minneapolis","provider":"notebooklm","step":"video","outcome":"submitted","artifactId":"d16f34fb-3afe-4ef3-adf3-38d8b70dbef1"}
+{"at":"2026-09-28T15:30:00.837Z","lesson":"minneapolis","provider":"notebooklm","step":"download","outcome":"downloaded","bytes":44160147,"artifactId":"d16f34fb-3afe-4ef3-adf3-38d8b70dbef1"}
+{"at":"2026-09-28T15:31:04.331Z","lesson":"minneapolis","step":"transcript","provider":"cloudflare-workers-ai","outcome":"transcribed","characters":11428}
+{"at":"2026-09-28T15:31:11.202Z","lesson":"minneapolis","step":"metadata","provider":"cloudflare-workers-ai","outcome":"written"}
+{"at":"2026-09-28T15:31:14.005Z","lesson":"minneapolis","step":"thumbnail","provider":"cloudflare-workers-ai","model":"@cf/black-forest-labs/flux-1-schnell","outcome":"generated","bytes":209917}
+{"at":"2026-09-28T15:31:15.629Z","lesson":"minneapolis","step":"youtube","effect":"youtube.upload","detail":{"provider":"youtube","url":"https://www.googleapis.com/upload/youtube/v3/videos","method":"POST"}}
+{"at":"2026-09-28T15:31:17.093Z","lesson":"minneapolis","step":"youtube","effect":"youtube.upload","detail":{"provider":"youtube","url":"https://www.googleapis.com/upload/youtube/v3/videos","method":"PUT"}}
+{"at":"2026-09-28T15:31:24.262Z","lesson":"minneapolis","step":"youtube","effect":"youtube.upload","detail":{"provider":"youtube","url":"https://www.googleapis.com/upload/youtube/v3/videos","method":"PUT"}}
+{"at":"2026-09-28T15:31:26.128Z","lesson":"minneapolis","step":"youtube","effect":"youtube.upload","detail":{"provider":"youtube","url":"https://www.googleapis.com/upload/youtube/v3/videos","method":"PUT"}}
+{"at":"2026-09-28T15:31:30.254Z","lesson":"minneapolis","step":"youtube","effect":"youtube.upload","detail":{"provider":"youtube","url":"https://www.googleapis.com/upload/youtube/v3/videos","method":"PUT"}}
+{"at":"2026-09-28T15:31:34.586Z","lesson":"minneapolis","step":"youtube","effect":"youtube.upload","detail":{"provider":"youtube","url":"https://www.googleapis.com/upload/youtube/v3/videos","method":"PUT"}}
+{"at":"2026-09-28T15:31:39.427Z","lesson":"minneapolis","step":"youtube","effect":"youtube.upload","detail":{"provider":"youtube","url":"https://www.googleapis.com/upload/youtube/v3/videos","method":"PUT"}}
+{"at":"2026-09-28T15:31:40.844Z","lesson":"minneapolis","step":"upload","provider":"youtube","outcome":"uploaded","videoId":"XptVseR4be0","publishAt":"2026-09-30T15:00:00.000Z"}
+{"at":"2026-09-28T15:31:41.150Z","lesson":"minneapolis","step":"youtube","effect":"youtube.thumbnail","detail":{"provider":"youtube","url":"https://www.googleapis.com/upload/youtube/v3/thumbnails/set","method":"POST"}}

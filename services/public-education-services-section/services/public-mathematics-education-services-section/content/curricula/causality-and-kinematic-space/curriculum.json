@@ -403,6 +403,18 @@
       ],
       "title": "Causal convex hull in kinematic space",
       "whyItMayMatter": "Understanding the convex hull of causal order in kinematic space can provide insights into the structure of spacetime and the behavior of physical systems."
+    },
+    {
+      "id": "symplectic-geometry-in-kinematic-space",
+      "question": "Can kinematic space be equipped with a symplectic form that encodes the Poisson bracket of observables?",
+      "tags": [
+        "symplectic-geometry",
+        "poisson-bracket",
+        "kinematic-space",
+        "observables"
+      ],
+      "title": "Symplectic geometry in kinematic space",
+      "whyItMayMatter": "A symplectic form on kinematic space could provide a powerful tool for analyzing the behavior of physical systems and the structure of spacetime."
     }
   ]
 }
