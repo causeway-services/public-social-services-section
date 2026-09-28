@@ -1,0 +1,212 @@
+{
+  "type": "EbookEditionFabricationResult",
+  "version": 1,
+  "status": "fabricated-awaiting-acceptance",
+  "specification": {
+    "type": "ArtifactFabricationSpecification",
+    "version": 1,
+    "source": {
+      "type": "ArtifactFabricationSource",
+      "version": 1,
+      "identity": {
+        "type": "ArtifactFabricationSourceIdentity",
+        "id": "business-strategy-course-by-course"
+      },
+      "provenance": {
+        "type": "ArtifactFabricationSourceProvenance",
+        "locator": "ni:///sha-256;as_WuLdzPaWgqI7LeFH4bWZ3xBEvAqdt3c0C7AA4PK4",
+        "digest": "sha256:6acfd6b8b7733da5a0a88ecb7851f86d6677c4112f02a76dddcd02ec00383cae",
+        "sourceSpan": {
+          "type": "ArtifactFabricationSourceSpan",
+          "startLine": 1,
+          "endLine": 1
+        }
+      }
+    },
+    "artifact": {
+      "type": "FabricatedArtifactIdentity",
+      "version": 1,
+      "id": "business-strategy-course-by-course-edition",
+      "kind": "ebook-edition"
+    },
+    "requirements": [
+      {
+        "type": "ArtifactFabricationRequirement",
+        "version": 1,
+        "id": "edition",
+        "statement": "Business Strategy, Course by Course as an EPUB and a screen PDF made by the house toolchain from its manuscript.",
+        "sourceSpan": {
+          "type": "ArtifactFabricationSourceSpan",
+          "startLine": 1,
+          "endLine": 1
+        }
+      }
+    ],
+    "prohibitions": [],
+    "openQuestions": [],
+    "constraints": [
+      {
+        "type": "ArtifactFabricationConstraint",
+        "version": 1,
+        "id": "source-binding",
+        "kind": "law",
+        "authority": "SHA-256",
+        "revision": "FIPS 180-4",
+        "locator": "fips-180-4",
+        "applicability": "edition source",
+        "statement": "The admitted digest binds the chapter bytes, template, stylesheet, metadata and house style.",
+        "sourceSpan": {
+          "type": "ArtifactFabricationSourceSpan",
+          "startLine": 1,
+          "endLine": 1
+        }
+      },
+      {
+        "type": "ArtifactFabricationConstraint",
+        "version": 1,
+        "id": "epub-standard",
+        "kind": "standard",
+        "authority": "W3C",
+        "revision": "EPUB 3.3",
+        "locator": "w3.org/TR/epub-33/",
+        "applicability": "EPUB projection",
+        "statement": "EPUB conformance is assayed separately.",
+        "sourceSpan": {
+          "type": "ArtifactFabricationSourceSpan",
+          "startLine": 1,
+          "endLine": 1
+        }
+      }
+    ],
+    "projections": [
+      {
+        "type": "ArtifactFabricationProjection",
+        "version": 1,
+        "id": "epub",
+        "target": "epub",
+        "configuration": {
+          "profile": "epub-screen-pdf-v1",
+          "editionInputDigest": "ni:///sha-256;bj-aAbE_Gy5p2f5PgPuCb9aeGfUW0KA3HM3I_sTaXkA"
+        },
+        "sourceSpan": {
+          "type": "ArtifactFabricationSourceSpan",
+          "startLine": 1,
+          "endLine": 1
+        }
+      },
+      {
+        "type": "ArtifactFabricationProjection",
+        "version": 1,
+        "id": "screen-pdf",
+        "target": "screen-pdf",
+        "configuration": {
+          "profile": "epub-screen-pdf-v1",
+          "editionInputDigest": "ni:///sha-256;bj-aAbE_Gy5p2f5PgPuCb9aeGfUW0KA3HM3I_sTaXkA"
+        },
+        "sourceSpan": {
+          "type": "ArtifactFabricationSourceSpan",
+          "startLine": 1,
+          "endLine": 1
+        }
+      }
+    ],
+    "acceptanceObligations": [
+      {
+        "type": "ArtifactFabricationAcceptanceObligation",
+        "version": 1,
+        "id": "editorial-proof",
+        "kind": "review",
+        "statement": "an independent proofreading agent, not the writer",
+        "sourceSpan": {
+          "type": "ArtifactFabricationSourceSpan",
+          "startLine": 1,
+          "endLine": 1
+        }
+      }
+    ],
+    "traceability": [
+      {
+        "type": "ArtifactFabricationTrace",
+        "version": 1,
+        "requirementId": "edition",
+        "constraintIds": [
+          "epub-standard",
+          "source-binding"
+        ],
+        "projectionIds": [
+          "epub",
+          "screen-pdf"
+        ],
+        "acceptanceObligationIds": [
+          "editorial-proof"
+        ]
+      }
+    ],
+    "specificationDigest": "ni:///sha-256;C35f8eo3FMq5i5loBnts0AFcPPv9upqZzscBX92fjBA"
+  },
+  "plan": {
+    "type": "ArtifactFabricationRealizationPlan",
+    "version": 1,
+    "artifactId": "business-strategy-course-by-course-edition",
+    "specificationDigest": "ni:///sha-256;C35f8eo3FMq5i5loBnts0AFcPPv9upqZzscBX92fjBA",
+    "projectionIds": [
+      "epub",
+      "screen-pdf"
+    ],
+    "acceptanceObligationIds": [
+      "editorial-proof"
+    ],
+    "traceability": [
+      {
+        "type": "ArtifactFabricationTrace",
+        "version": 1,
+        "requirementId": "edition",
+        "constraintIds": [
+          "epub-standard",
+          "source-binding"
+        ],
+        "projectionIds": [
+          "epub",
+          "screen-pdf"
+        ],
+        "acceptanceObligationIds": [
+          "editorial-proof"
+        ]
+      }
+    ]
+  },
+  "artifacts": {
+    "epub": {
+      "path": "/home/emsenn/info/lib/emsenn/services/561-group/services/public-services-section/services/public-social-services-section/services/public-education-services-section/services/public-business-education-services-section/data/state/editions/business-strategy-course-by-course/business-strategy-course-by-course.epub",
+      "bytes": 144237,
+      "sha256": "ni:///sha-256;P6LFt2laSYhPoD2YHjmnaAFJxjF9zrKNnRwz1-743UM"
+    },
+    "screenPdf": {
+      "path": "/home/emsenn/info/lib/emsenn/services/561-group/services/public-services-section/services/public-social-services-section/services/public-education-services-section/services/public-business-education-services-section/data/state/editions/business-strategy-course-by-course/business-strategy-course-by-course.pdf",
+      "bytes": 176709,
+      "sha256": "ni:///sha-256;PYharIrp47zT6ui_ZwE322KFhuDym9CaI-mQszAVYwo"
+    },
+    "buildRecordDigest": "ni:///sha-256;nN-iNd_9GYJQ-ihLZWWJppVKT3nsDLhvmEfRJgKpYMY"
+  },
+  "formatEvidence": {
+    "renderer": {
+      "outcome": "exited-successfully",
+      "toolchain": {
+        "pandoc": "pandoc 3.1.3",
+        "xelatex": "XeTeX 3.141592653-2.6-0.999995 (TeX Live 2023/Debian)"
+      }
+    },
+    "epub": {
+      "outcome": "bytes-produced",
+      "conformance": "unassayed"
+    },
+    "screenPdf": {
+      "outcome": "bytes-produced",
+      "conformance": "unassayed",
+      "printReadiness": "unassayed"
+    }
+  },
+  "pendingAcceptanceObligationIds": [
+    "editorial-proof"
+  ]
+}

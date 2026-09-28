@@ -1,0 +1,35 @@
+{
+  "type": "EbookEditionAcceptance",
+  "version": 1,
+  "status": "accepted",
+  "editionInputDigest": "ni:///sha-256;jdOLzkzdZrWmL2gB3eUn7t4qhCaZ6eCPPCehcy6AhZw",
+  "artifacts": {
+    "epub": {
+      "path": "/home/emsenn/info/lib/emsenn/services/561-group/services/public-services-section/services/public-social-services-section/services/public-education-services-section/services/public-computer-education-services-section/data/state/editions/data-analytics-course-by-course/data-analytics-course-by-course.epub",
+      "bytes": 146741,
+      "sha256": "ni:///sha-256;CV7ZXWWtgPCQADROBrvqcpUJeoS2ezs4uRuIEa6B1E8"
+    },
+    "screenPdf": {
+      "path": "/home/emsenn/info/lib/emsenn/services/561-group/services/public-services-section/services/public-social-services-section/services/public-education-services-section/services/public-computer-education-services-section/data/state/editions/data-analytics-course-by-course/data-analytics-course-by-course.pdf",
+      "bytes": 243727,
+      "sha256": "ni:///sha-256;mc-iRd5ldHm_T0eFxbkfarOOeuHRW8Rd9M4Pnn4jRyw"
+    },
+    "buildRecordDigest": "ni:///sha-256;K3QNG8mxyBNmNK71CKnbjjU0bbrtj2LrNSzD-Z6bjHY"
+  },
+  "closedObligationIds": [
+    "editorial-proof"
+  ],
+  "pendingAcceptanceObligationIds": [],
+  "proof": {
+    "digest": "ni:///sha-256;ari7tvDff5HQInX9fN4fTgw32kGhfSY_Z4qF6pRYTZg",
+    "proofer": "independent proofreading agent (claude-opus-5-5 subagent)",
+    "provedAt": "2026-09-27T22:30:23Z",
+    "method": "Carried from the proof of edition ni:///sha-256;vszxZ2C39Ly615VoFRCeemQ8nY4lETX6p2UcyPEOloc (proof ni:///sha-256;5qa7HXTvjbtoB3zGT3HWjdfG0PYDaFIe5Kya8m7ppOo): this edition's extracted text equals that edition's (EPUB ni:///sha-256;iJtbkqwhzErEVZ43mPB103UiOuXVyES-f5r3nHkyNy8, PDF ni:///sha-256;QrivEOt8PCT07Af36jpCyZP4c6ZzCzPpJDEdN0n1fVw, the colophon's build digest set aside and whitespace collapsed), so the findings read on it hold here. The original pass: Carried from the proof of edition ni:///sha-256;XqRKGgeWLInoDSakLLxcSFaMRUDAEvojTGeS_T-CB-c (proof ni:///sha-256;l1HCMXpg69fYNhz8nHunAqCaUKDazHHcFF9sJyUeTp8): this edition's extracted text equals that edition's (EPUB ni:///sha-256;iJtbkqwhzErEVZ43mPB103UiOuXVyES-f5r3nHkyNy8, PDF ni:///sha-256;11frRy__q-nq55sUS2AkIfmC-tuTBuP7cNyTz1j5Aqc, the colophon's build digest set aside), so the findings read on it hold here. The original pass: Carried from the proof of edition ni:///sha-256;qb4KhaJp2qoowwpOHzKZkFGg-a6RP98fR5GKedAOaPM (proof ni:///sha-256;qVHq6yo3huwlpPgt4JYxQwecZledlLwf7qpZzu1_ZJQ): this edition's extracted text equals that edition's (EPUB ni:///sha-256;iJtbkqwhzErEVZ43mPB103UiOuXVyES-f5r3nHkyNy8, PDF ni:///sha-256;11frRy__q-nq55sUS2AkIfmC-tuTBuP7cNyTz1j5Aqc, the colophon's build digest set aside), so the findings read on it hold here. The original pass: First verification pass: diffed the edition text against the prior one line by line (31 hunks, 171 changed lines), re-read the evidence packet directly, re-ran pd.cut with include_lowest=True, recomputed the finite-population-correction arithmetic, and re-swept the style guide's banned lists. Second verification pass: diffed the layout edition against the previous one (30 hunks, 417 diff lines), confirmed every hunk besides the g1 rewrite was pure pagination reflow, recomputed g1's rewritten arithmetic with math.ceil, and spot-checked two tables for the keep-with-table fix. Third verification pass: diffed the section-numbering edition against the layout edition (11 hunks, 169 diff lines) and confirmed every changed line was a section-number prefix being stripped from an unnumbered chapter's TOC/heading entries, plus cosmetic realignment. Fourth verification pass (this one): diffed this edition's text against the section-numbering edition -- exactly one line changed anywhere in the 2477-line file, the page-8 running head (\"CONTENTS\" -> \"About this book\"); the embedded colophon build-record hash is unchanged (evidently a content-only digest, insensitive to a header-only edit), and no wording changed. Spot-checked the back matter's odd pages (57 in the study plan, 59 in the glossary): both already correctly show the generic book-title running head \"Data Analytics, Course by Course\" used throughout the book's odd pages, unaffected by the even-page section-header defect; confirmed no other unnumbered part (study plan, glossary, references) has an interior even page carrying a distinct running head, so page 8 was the only place this defect was visible in the rendered book.",
+    "findings": {
+      "errors": 3,
+      "corrections": 11,
+      "notes": 2
+    }
+  },
+  "acceptedAt": "2026-09-28T04:17:28.850Z"
+}
