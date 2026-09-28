@@ -4,5 +4,17 @@
   "subtitle": "A Field Guide to Dispatching, Steering, and Recovering Multiple AI Coding Agents at Once",
   "author": "561 Group",
   "bookDir": ".",
-  "distDir": "../../../dist/the-agent-operators-handbook"
+  "distDir": "../../../dist/the-agent-operators-handbook",
+  "description": "A field guide to operating several AI coding agents at once: writing the complete brief, when to split work and when not to, steering a running agent, recovering an interrupted one, and reading its report.",
+  "keywords": [
+    "AI agents",
+    "coding agents",
+    "field guide"
+  ],
+  "subjects": [
+    "COM004000",
+    "COM051230",
+    "COM100000"
+  ],
+  "marks": []
 }
