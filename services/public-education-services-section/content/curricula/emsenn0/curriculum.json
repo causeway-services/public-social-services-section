@@ -81,6 +81,22 @@
       ],
       "title": "Digital Twins: Who Owns the Data, Who Decides?",
       "whyItMayMatter": "A digital twin appears differently as a technical modeling problem, a data ownership question, a community development opportunity, a regulatory compliance issue, and a long-term environmental liability."
+    },
+    {
+      "id": "renewable-energy-credits-grid-integration",
+      "title": "Renewable Energy Credits and Grid Integration: Who Benefits, Who Pays?",
+      "question": "How do renewable energy credit systems allocate financial benefits and costs among utilities, consumers, regulators, and clean‑energy producers while shaping grid integration decisions?",
+      "whyItMayMatter": "Renewable energy credits (RECs) turn the physical flow of clean power into a market commodity, so the same kilowatt‑hour can appear as a technical reliability asset, a tradable certificate, a ratepayer charge, a regulatory incentive, and a social equity outcome. The system’s design determines who captures value, who bears cost, and who gets a voice in grid planning—highlighting tensions between technical integration, market efficiency, and distributive fairness.",
+      "tags": [
+        "renewable energy credits",
+        "energy policy",
+        "electric grid",
+        "utility rates",
+        "environmental justice",
+        "economic systems",
+        "social systems",
+        "technical systems"
+      ]
     }
   ],
   "audience": "Curious adults seeking source-grounded explanations",

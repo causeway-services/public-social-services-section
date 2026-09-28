@@ -1,0 +1,55 @@
+{
+  "version": 1,
+  "channel": "machine-learning-history-frontier",
+  "lessonId": "evaluation-generalization-robustness",
+  "stage": "generating",
+  "createdAt": "2026-09-28T15:07:32.143Z",
+  "commissionedAt": "2026-09-28T15:07:32.143Z",
+  "updatedAt": "2026-09-28T15:09:48.992Z",
+  "researchSearches": 4,
+  "reportSha256": "4beb4fd97b65417b562afce86f5e6eac3f886e27ddcb3e15f9eb909f7dcbe414",
+  "notebookId": "9c3eed44-7fa3-4203-8b79-e0a20b91017f",
+  "sourceSubmission": {
+    "notebookId": "9c3eed44-7fa3-4203-8b79-e0a20b91017f",
+    "title": "machine-learning-history-frontier/evaluation-generalization-robustness/4beb4fd97b65417b",
+    "originalFilename": "report.md",
+    "baselineSourceIds": [
+      "29d34bd6-aae7-4733-8582-6e0842b1f49b",
+      "b28846aa-3e35-436a-9d50-475361ea197b",
+      "3a083bf6-8abd-4821-b017-5e4ba465768d",
+      "573a2b7a-8f73-4f1c-9d81-ec594d8aee11",
+      "ae2eb5b2-a1c4-4780-829c-5100cd03345b",
+      "403fc845-d8e3-45ae-8292-9dabbf992b4e",
+      "9e2187c3-f6a7-4f19-adb9-c62eecf122bc",
+      "94633e2c-362e-4d7e-a14d-e0d684cc9f40",
+      "75b5b07c-4f71-4452-a1f4-622b842c604b",
+      "0335021e-5fe9-413c-a6df-5444fc834430",
+      "da2db535-ecb5-4fed-8fde-4119fcd6a55a",
+      "f2d00381-9082-4453-9c1f-3fb9db3ec05b",
+      "c3a646cf-103b-4c2f-8ef5-d46ed625bdf8",
+      "c3768d26-b600-48e6-a1d4-f2b154006add"
+    ],
+    "started": true,
+    "sourceId": "5f3b64e1-8910-4625-823f-14ba9ed9d2d6",
+    "created": true
+  },
+  "sourceTitle": "machine-learning-history-frontier/evaluation-generalization-robustness/4beb4fd97b65417b",
+  "videoRequestSha256": "1ac6a86c7918760f940542b59465255e3b9f51325b1fcbda23822a2f70ebb2b9",
+  "sourceId": "5f3b64e1-8910-4625-823f-14ba9ed9d2d6",
+  "sourceOwned": true,
+  "videoAttempts": 1,
+  "generationStarted": true,
+  "generationAttempt": {
+    "number": 1,
+    "startedAt": "2026-09-28T15:09:41.339Z",
+    "sourceIds": [
+      "5f3b64e1-8910-4625-823f-14ba9ed9d2d6"
+    ],
+    "prompt": "Explain Evaluation, Generalization, Robustness, and Distribution Shift using the selected source reports. Preserve the distinctions, evidence, uncertainty, and learning objectives in the lesson brief. Do not introduce claims unsupported by the sources.\nEvaluation, Generalization, Robustness, and Distribution Shift",
+    "title": "Evaluation, Generalization, Robustness, and Distribution Shift",
+    "format": "explainer",
+    "style": "auto",
+    "language": "en"
+  },
+  "artifactId": "34b386b5-e0b6-43f4-9141-1e11d2477d68"
+}

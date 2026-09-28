@@ -17,3 +17,4 @@
 {"at":"2026-09-26T15:24:39.407Z","lesson":"transformers-scaling-foundation-models","step":"upload","provider":"youtube","outcome":"uploaded","videoId":"O_r5bGE0vH8","publishAt":"2026-09-28T15:00:00.000Z"}
 {"at":"2026-09-26T15:24:39.610Z","lesson":"transformers-scaling-foundation-models","step":"youtube","effect":"youtube.thumbnail","detail":{"provider":"youtube","url":"https://www.googleapis.com/upload/youtube/v3/thumbnails/set","method":"POST"}}
 {"at":"2026-09-26T15:36:37.916Z","lesson":"transformers-scaling-foundation-models","step":"confirm","provider":"youtube","outcome":"scheduled","videoId":"O_r5bGE0vH8"}
+{"at":"2026-09-28T15:07:31.837Z","lesson":"transformers-scaling-foundation-models","step":"confirm","provider":"youtube","outcome":"published","videoId":"O_r5bGE0vH8"}

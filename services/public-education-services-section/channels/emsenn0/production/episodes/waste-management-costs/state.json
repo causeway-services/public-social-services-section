@@ -2,10 +2,10 @@
   "version": 1,
   "channel": "emsenn0",
   "lessonId": "waste-management-costs",
-  "stage": "scheduled",
+  "stage": "published",
   "createdAt": "2026-09-26T15:16:21.038Z",
   "commissionedAt": "2026-09-26T15:16:21.038Z",
-  "updatedAt": "2026-09-26T15:41:36.422Z",
+  "updatedAt": "2026-09-28T15:04:12.754Z",
   "researchSearches": 6,
   "reportSha256": "6f717031418f8a72068f7bb71754ba337f3f2cbb3316053e7708e682aa4023db",
   "notebookId": "67510ce7-79b3-4caa-b25c-28e0d3911b5a",
@@ -88,5 +88,5 @@
   "youtubeVideoId": "2dnYPe80sLM",
   "thumbnailUploaded": true,
   "thumbnailError": null,
-  "publishAt": "2026-09-28T15:00:00Z"
+  "publishAt": "2026-09-28T15:00:35Z"
 }

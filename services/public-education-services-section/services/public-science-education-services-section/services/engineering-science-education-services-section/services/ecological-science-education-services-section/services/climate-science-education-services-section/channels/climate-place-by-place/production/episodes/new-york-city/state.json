@@ -2,10 +2,10 @@
   "version": 1,
   "channel": "climate-place-by-place",
   "lessonId": "new-york-city",
-  "stage": "scheduled",
+  "stage": "published",
   "createdAt": "2026-09-26T15:13:07.176Z",
   "commissionedAt": "2026-09-26T15:13:07.176Z",
-  "updatedAt": "2026-09-26T15:41:34.458Z",
+  "updatedAt": "2026-09-28T15:00:40.828Z",
   "researchSearches": 6,
   "reportSha256": "17f0e8d6ef2f418fe4f9070ee151e3b13c254c62f65b9f918d9ac97041b6aeb0",
   "notebookId": "67510ce7-79b3-4caa-b25c-28e0d3911b5a",
@@ -90,5 +90,5 @@
     "code": "CUSTOM_THUMBNAIL_PERMISSION",
     "message": "YouTube custom-thumbnail permission is unavailable for this channel. Check YouTube Studio > Settings > Channel > Feature eligibility; the uploaded video and its publication schedule remain intact."
   },
-  "publishAt": "2026-09-28T15:00:00Z"
+  "publishAt": "2026-09-28T15:00:09Z"
 }
