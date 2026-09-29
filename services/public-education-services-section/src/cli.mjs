@@ -6,6 +6,8 @@
 //   produce [channel|all] [lesson]          fill publication slots or advance a named lesson
 //   artifacts <channel>                     list the channel notebook's NotebookLM videos
 //   adopt <channel> <lesson> <artifact-id>  adopt the artifact of an uncertain video submission
+//   adopt-thumbnail <channel> <lesson> <image> <spent-units>  accept operator image
+//   release-thumbnail <channel> <lesson> <reason>  release a packet with no artifact
 //   retry <channel> <lesson>                retry an explicitly selected failed video
 //   verify [channel|all]                    confirm each channel's YouTube credential
 //
@@ -14,7 +16,7 @@
 import { join } from "node:path";
 import { createNotebookAdapter } from "@red-cup-engineering/gemini-notebook-services-section/gemini-notebook-cli";
 import { channelIds, loadChannel, loadEnvironment, readJson } from "./channel.mjs";
-import { adoptArtifact, advanceLesson, episodeState, isRequested, retryVideo } from "./lesson.mjs";
+import { adoptArtifact, adoptOperatorThumbnail, advanceLesson, episodeState, isRequested, releaseOperatorThumbnail, retryVideo } from "./lesson.mjs";
 import { createYouTube } from "@emsenn/youtube-engineering-services-section/api";
 import { existsSync, readdirSync } from "node:fs";
 import { extendCurriculum } from "./curriculum.mjs";
@@ -123,6 +125,14 @@ if (command === "status") {
 } else if (command === "adopt") {
   const [channel, lesson, artifactId] = positional;
   out({ channel, lesson, status: "adopted", artifact: await adoptArtifact(loadChannel(channel), lesson, artifactId) });
+} else if (command === "adopt-thumbnail") {
+  const [channel, lesson, image, spent] = positional;
+  if (!channel || !lesson || !image || !/^(0|[1-9][0-9]*)$/u.test(spent ?? "")) throw new Error("usage: adopt-thumbnail <channel> <lesson> <image> <spent-units>");
+  out({ channel, lesson, status: "thumbnail-adopted", ...await adoptOperatorThumbnail(loadChannel(channel), lesson, image, Number(spent)) });
+} else if (command === "release-thumbnail") {
+  const [channel, lesson, reason] = positional;
+  if (!channel || !lesson || !reason) throw new Error("usage: release-thumbnail <channel> <lesson> <expired|logged-out|quota-exhausted|ui-changed|operator-declined>");
+  out({ channel, lesson, status: "thumbnail-released", ...releaseOperatorThumbnail(loadChannel(channel), lesson, reason) });
 } else if (command === "retry") {
   const [channel, lesson] = positional;
   if (!channel || !lesson) throw new Error("usage: retry <channel> <lesson>");
@@ -136,6 +146,6 @@ if (command === "status") {
     } catch (error) { failures += 1; out({ channel: config.id, error: error.message }); }
   }
 } else {
-  throw new Error("usage: status|research|produce|artifacts|adopt|retry|verify (see src/cli.mjs)");
+  throw new Error("usage: status|research|produce|artifacts|adopt|adopt-thumbnail|release-thumbnail|retry|verify (see src/cli.mjs)");
 }
 if (failures) process.exitCode = 1;
