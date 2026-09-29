@@ -5,7 +5,7 @@
   "stage": "transcribed",
   "createdAt": "2026-09-29T15:23:07.156Z",
   "commissionedAt": "2026-09-29T15:23:07.156Z",
-  "updatedAt": "2026-09-29T16:17:03.846Z",
+  "updatedAt": "2026-09-29T17:25:39.819Z",
   "researchSearches": 5,
   "reportSha256": "ecb450eb697ab2a6f8aefa3a20f73934e4d704c8f47c05f393730393f69f3477",
   "notebookId": "763fbe07-e786-4e23-9b33-b53f05230573",
@@ -54,5 +54,7 @@
     "at": "2026-09-29T16:17:03.846Z",
     "status": "metadata-unavailable",
     "message": "No inference provider delivered education-video-metadata: market-residue"
-  }
+  },
+  "videoWorkLot": "ni:///sha-256;11Ou5TpKFSlAmNiUrR2pEzw3jj8BylQQLZqlj3B_hFY",
+  "videoWorkReceipt": "ni:///sha-256;5KCGowBrJf4KgVeb-gP3IxwjFcVXsN6NpA4H_em0rP8"
 }

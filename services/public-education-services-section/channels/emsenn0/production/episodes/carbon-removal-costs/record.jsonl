@@ -6,3 +6,5 @@
 {"at":"2026-09-29T15:50:13.448Z","lesson":"carbon-removal-costs","provider":"notebooklm","step":"download","outcome":"downloaded","bytes":51199984,"artifactId":"d19641f0-6384-4c5a-b2a6-a9eddfbe4ee2"}
 {"at":"2026-09-29T15:51:02.946Z","lesson":"carbon-removal-costs","step":"transcript","provider":"cloudflare-workers-ai","outcome":"transcribed","characters":11760}
 {"at":"2026-09-29T15:51:05.056Z","lesson":"carbon-removal-costs","step":"blocked","status":"metadata-unavailable","message":"No inference provider delivered education-video-metadata: market-residue"}
+{"at":"2026-09-29T17:24:29.050Z","lesson":"carbon-removal-costs","step":"video","outcome":"work-requested","capability":"source-grounded-video-overview","workLot":"ni:///sha-256;EjCh6GbK674uEwpntvqb7BDRBRQxGTBM5NoWWuQ9Ako"}
+{"at":"2026-09-29T17:24:55.379Z","lesson":"carbon-removal-costs","step":"video","outcome":"artifact-received","workLot":"ni:///sha-256;EjCh6GbK674uEwpntvqb7BDRBRQxGTBM5NoWWuQ9Ako","receipt":"ni:///sha-256;MBtxAwe5wOTA24MNLcYY9urV6nNn3lH6QGhZZX5JL34","artifactId":"d19641f0-6384-4c5a-b2a6-a9eddfbe4ee2","output":"ni:///sha-256;sI1nFuf4gx-f3yEbnICyncXPXVpYcT3whb6dCW1UA1U"}

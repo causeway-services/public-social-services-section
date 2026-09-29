@@ -16,3 +16,4 @@
 {"at":"2026-09-28T17:19:50.860Z","lesson":"causal-homotopy","provider":"notebooklm","step":"video","outcome":"recovered-exact-submission","artifactId":"ac139685-0fad-4bf8-a9b3-f23f6779fe59"}
 {"at":"2026-09-29T01:53:06.921Z","lesson":"causal-homotopy","provider":"notebooklm","step":"video","outcome":"failed","artifactId":"ac139685-0fad-4bf8-a9b3-f23f6779fe59"}
 {"at":"2026-09-29T01:53:06.925Z","lesson":"causal-homotopy","step":"blocked","status":"video-failed","message":"Gemini Notebook reported that video generation failed"}
+{"at":"2026-09-29T17:24:58.222Z","lesson":"causal-homotopy","step":"video","outcome":"work-requested","capability":"source-grounded-video-overview","workLot":"ni:///sha-256;l3CC75KuJKUWQT5r_3OcDG6mr9IQcUlJgJ4F4eTKAQA"}

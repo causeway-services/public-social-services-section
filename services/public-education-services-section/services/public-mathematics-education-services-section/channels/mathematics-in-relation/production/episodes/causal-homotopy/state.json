@@ -5,7 +5,7 @@
   "stage": "video-failed",
   "createdAt": "2026-09-26T15:15:41.010Z",
   "commissionedAt": "2026-09-26T15:15:41.010Z",
-  "updatedAt": "2026-09-29T16:39:12.417Z",
+  "updatedAt": "2026-09-29T17:25:17.543Z",
   "researchSearches": 7,
   "reportSha256": "220c47e4be0ae3b5355138c2f7dbc3f76defea730d4afff78d5dc909b25dc330",
   "notebookId": "67510ce7-79b3-4caa-b25c-28e0d3911b5a",
@@ -98,5 +98,6 @@
   },
   "downloadedArtifactId": null,
   "downloadedBytes": null,
-  "downloadSha256": null
+  "downloadSha256": null,
+  "videoWorkLot": "ni:///sha-256;l3CC75KuJKUWQT5r_3OcDG6mr9IQcUlJgJ4F4eTKAQA"
 }
