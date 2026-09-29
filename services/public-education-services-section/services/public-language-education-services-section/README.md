@@ -56,7 +56,7 @@ readPathCorpus(root, {
 });
 ```
 
-Panini loading of all five fibers was verified, not learning quality. The current JSNode catalog still misses Panini, so a single catalog result cannot establish absence. The ops.561.group OAuth proxy exists, but path-corpus was neither activated in this session's MetroPlat allowlist nor verified through public operations. LAGOON's world-record pusher remains narrow, and a MARSH broker is desired but unimplemented; this section makes no activation or broker-completeness claim.
+Panini loading of all five fibers was verified, not learning quality. The current JSNode catalog still misses Panini, so a single catalog result cannot establish absence. The bare-cedar-fog.561.group OAuth proxy exists, but path-corpus was neither activated in this session's MetroPlat allowlist nor verified through public operations. LAGOON's world-record pusher remains narrow, and a MARSH broker is desired but unimplemented; this section makes no activation or broker-completeness claim.
 
 ## Program frame
 
