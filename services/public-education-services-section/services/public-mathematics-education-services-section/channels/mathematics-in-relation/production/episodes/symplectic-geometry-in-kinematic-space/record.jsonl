@@ -3,3 +3,7 @@
 {"at":"2026-09-28T15:36:45.601Z","lesson":"symplectic-geometry-in-kinematic-space","provider":"notebooklm","step":"source","outcome":"uploaded","sourceId":"806ee44e-2391-435c-96b5-f1fe2f8ce418"}
 {"at":"2026-09-28T15:36:45.602Z","lesson":"symplectic-geometry-in-kinematic-space","provider":"notebooklm","step":"video","outcome":"submitting","format":"cinematic"}
 {"at":"2026-09-28T15:37:02.886Z","lesson":"symplectic-geometry-in-kinematic-space","provider":"notebooklm","step":"video","outcome":"recovered-exact-submission","artifactId":"61cb1f56-ca61-48ef-94b4-f66ebb923e88"}
+{"at":"2026-09-29T00:51:53.418Z","lesson":"symplectic-geometry-in-kinematic-space","provider":"notebooklm","step":"video","outcome":"failed","artifactId":"61cb1f56-ca61-48ef-94b4-f66ebb923e88"}
+{"at":"2026-09-29T00:51:53.430Z","lesson":"symplectic-geometry-in-kinematic-space","provider":"notebooklm","step":"video","outcome":"retry","failedArtifact":"61cb1f56-ca61-48ef-94b4-f66ebb923e88"}
+{"at":"2026-09-29T00:52:01.922Z","lesson":"symplectic-geometry-in-kinematic-space","provider":"notebooklm","step":"video","outcome":"submitting","format":"cinematic"}
+{"at":"2026-09-29T00:52:10.166Z","lesson":"symplectic-geometry-in-kinematic-space","provider":"notebooklm","step":"video","outcome":"submitted","artifactId":"63f41d5b-bbc8-4b0d-80e2-508c88f42c3c"}

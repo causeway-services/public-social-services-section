@@ -5,7 +5,7 @@
   "stage": "generating",
   "createdAt": "2026-09-28T15:34:08.945Z",
   "commissionedAt": "2026-09-28T15:34:08.945Z",
-  "updatedAt": "2026-09-28T15:37:02.885Z",
+  "updatedAt": "2026-09-29T00:52:10.166Z",
   "researchSearches": 6,
   "reportSha256": "d191cab9aa17a684520a45634f009dc69967d2ae28a9cda54d0b36b9f6e196d5",
   "notebookId": "67510ce7-79b3-4caa-b25c-28e0d3911b5a",
@@ -69,11 +69,11 @@
   "videoRequestSha256": "a7a1c2f62e4287680a77af78d1b77e0e6c0c4ea73e91f3b08b0bd443d579a28c",
   "sourceId": "806ee44e-2391-435c-96b5-f1fe2f8ce418",
   "sourceOwned": true,
-  "videoAttempts": 1,
+  "videoAttempts": 2,
   "generationStarted": true,
   "generationAttempt": {
-    "number": 1,
-    "startedAt": "2026-09-28T15:36:45.601Z",
+    "number": 2,
+    "startedAt": "2026-09-29T00:52:01.912Z",
     "sourceIds": [
       "806ee44e-2391-435c-96b5-f1fe2f8ce418"
     ],
@@ -83,6 +83,13 @@
     "style": "auto",
     "language": "en"
   },
-  "artifactId": "61cb1f56-ca61-48ef-94b4-f66ebb923e88",
-  "lastError": null
+  "artifactId": "63f41d5b-bbc8-4b0d-80e2-508c88f42c3c",
+  "lastError": null,
+  "failedArtifacts": [
+    "61cb1f56-ca61-48ef-94b4-f66ebb923e88"
+  ],
+  "downloadedArtifactId": null,
+  "downloadedBytes": null,
+  "downloadSha256": null,
+  "reportSourceRemoved": false
 }
