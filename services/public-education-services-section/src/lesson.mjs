@@ -15,11 +15,13 @@ import { appendFileSync, existsSync, mkdirSync, readFileSync, renameSync } from 
 import { join } from "node:path";
 import { dispatchFreeFirst } from "@red-cup-engineering/computer-inference-engine/openai/provider-runtime";
 import { transcribeMedia } from "@red-cup-engineering/computer-inference-engine/audio/transcription";
+import { accountArtifactCapacityStorePath, transitionAccountArtifactCapacity } from "@red-cup-engineering/computer-inference-engine/media/account-artifact-capacity";
+import { completeMediaArtifactWork, createMediaArtifactWorkLot } from "@red-cup-engineering/computer-inference-engine/media/artifact-work";
 import { createNotebookAdapter } from "@red-cup-engineering/gemini-notebook-services-section/gemini-notebook-cli";
 import { ensureResearchReport, ResearchBlocked, citedUrls } from "@red-cup-engineering/computer-inference-engine/research/report";
 import { advanceNotebookVideo, adoptNotebookVideo, retryNotebookVideo, NotebookVideoBlocked } from "@red-cup-engineering/gemini-notebook-services-section/report-video";
 import { createYouTube } from "@emsenn/youtube-engineering-services-section/api";
-import { adoptThumbnailWork, prepareThumbnailWork, produceThumbnail } from "./thumbnail.mjs";
+import { adoptThumbnailWork, prepareThumbnailWork, produceThumbnail, THUMBNAIL_COMPOSITION } from "./thumbnail.mjs";
 import { containedPath, episodeDirectory, lessonReportPath, nextSlot, PACKAGE_ROOT, readJson, writeAtomic } from "./channel.mjs";
 import { sha256Hex } from "@red-cup-engineering/cryptographic-computer-data-engineering-services-section/integrity";
 
@@ -140,6 +142,18 @@ export async function advanceLesson(config, lessonId, { env = process.env, now =
     if (researchOnly) return { channel: config.id, lesson: lessonId, status: "researched", report: paths.report };
 
     if (!state.youtubeVideoId) {
+      const videoRequest = { ...config.video, prompt: config.video.prompt?.replaceAll("{{title}}", lesson.title) };
+      const videoWork = createMediaArtifactWorkLot({
+        workLot: `${config.id}/${lessonId}/video`, principal: "urn:ame:public-education-services-section",
+        capability: "source-grounded-video-overview", prompt: JSON.stringify({ title: lesson.title, video: videoRequest }),
+        sources: [{ path: paths.report, identity: sha256ni(paths.report) }], outputMimeType: "video/mp4",
+      });
+      const videoWorkPath = join(dir, "video-work.json");
+      const retainedVideoWork = readJson(videoWorkPath, null);
+      if (retainedVideoWork && JSON.stringify(retainedVideoWork) !== JSON.stringify(videoWork)) throw new LessonBlocked("video-work-changed", "The retained video request differs from its source report or settings");
+      if (!retainedVideoWork) writeAtomic(videoWorkPath, videoWork);
+      if (state.videoWorkLot && state.videoWorkLot !== videoWork.id) throw new LessonBlocked("video-work-changed", "The source or video request changed after the work lot was accepted");
+      if (!state.videoWorkLot) { save({ videoWorkLot: videoWork.id }); record({ step: "video", outcome: "work-requested", capability: videoWork.capability, workLot: videoWork.id }); }
       // notebook: the channel's NotebookLM notebook.
       if (!state.notebookId) {
         const channelNotebook = join(config.directory, "production", "notebook.json");
@@ -158,11 +172,25 @@ export async function advanceLesson(config, lessonId, { env = process.env, now =
       const rendered = await advanceNotebookVideo({
         reportPath: paths.report, outputPath: paths.video, title: lesson.title,
         sourceTitle: `${config.id}/${lessonId}/${state.reportSha256.slice(0, 16)}`,
-        video: { ...config.video, prompt: config.video.prompt?.replaceAll("{{title}}", lesson.title) },
+        video: videoRequest,
         notebookId: state.notebookId, checkpoint: state, onCheckpoint: save,
         onRecord: (entry) => record({ provider: "notebooklm", ...entry }), notebook,
       });
       if (rendered instanceof NotebookVideoBlocked) throw new LessonBlocked(rendered.status, rendered.message);
+      const videoReceiptPath = join(dir, "video-work-receipt.json");
+      let videoReceipt = readJson(videoReceiptPath, null);
+      const videoBytes = readFileSync(paths.video);
+      if (!videoReceipt) {
+        videoReceipt = completeMediaArtifactWork(videoWork, {
+          providerIdentity: "urn:ame:gemini-notebook-services-section", product: "gemini-notebook",
+          executionMode: "asynchronous-artifact-provider", providerArtifactId: rendered.artifactId,
+          bytes: videoBytes, mimeType: "video/mp4", resource: { status: "not-observed" },
+        });
+        writeAtomic(videoReceiptPath, videoReceipt);
+        record({ step: "video", outcome: "artifact-received", workLot: videoWork.id, receipt: videoReceipt.id, artifactId: rendered.artifactId, output: videoReceipt.output.identity });
+      }
+      if (videoReceipt.request !== videoWork.id || videoReceipt.output.identity !== sha256ni(paths.video) || videoReceipt.providerArtifactId !== rendered.artifactId) throw new LessonBlocked("video-provenance-mismatch", "The Notebook video differs from its work receipt");
+      if (state.videoWorkReceipt !== videoReceipt.id) save({ videoWorkReceipt: videoReceipt.id });
 
       // transcript: what the video actually says, with source timestamps.
       if (!existsSync(paths.transcript)) {
@@ -187,15 +215,35 @@ export async function advanceLesson(config, lessonId, { env = process.env, now =
       if (state.thumbnailWorkPacket && existsSync(paths.thumbnail)) {
         const receipt = readJson(join(dir, "thumbnail-receipt.json"), null);
         if (receipt?.packet !== state.thumbnailWorkPacket || receipt.publishedImage !== sha256ni(paths.thumbnail)) throw new LessonBlocked("thumbnail-provenance-missing", "Restore the adopted thumbnail and its matching receipt before publishing");
+        if (!state.thumbnailWorkSettled) {
+          const packet = readJson(join(work, "thumbnail-work.json"), null);
+          if (!packet || packet.id !== receipt.packet) throw new LessonBlocked("thumbnail-work-packet-missing", "Restore the thumbnail work packet before settling account capacity");
+          const settled = await transitionAccountArtifactCapacity(packet, [], { storePath: accountArtifactCapacityStorePath(env), action: "settle", unitsSpent: receipt.resource.spent });
+          if (settled.disposition !== "settled") throw new LessonBlocked("thumbnail-capacity-unsettled", settled.reason ?? "Account capacity could not be settled");
+          save({ thumbnailWorkSettled: true });
+        }
+      }
+      const thumbnailWorkPath = join(dir, "thumbnail-work.json");
+      if (!state.thumbnailWorkPacket && existsSync(paths.thumbnail) && existsSync(thumbnailWorkPath)) {
+        const receipt = readJson(join(dir, "thumbnail-receipt.json"), null);
+        if (!receipt || receipt.request !== readJson(thumbnailWorkPath).id || receipt.publishedImage !== sha256ni(paths.thumbnail)) throw new LessonBlocked("thumbnail-provenance-missing", "Restore the matching thumbnail work receipt before publishing");
       }
       if (!existsSync(paths.thumbnail)) {
+        const thumbnailWork = createMediaArtifactWorkLot({
+          workLot: `${config.id}/${lessonId}/thumbnail`, principal: "urn:ame:public-education-services-section",
+          capability: "image-generation", prompt: `${THUMBNAIL_COMPOSITION}\n\n${metadata.thumbnailPrompt}`,
+          sources: [paths.report, paths.transcript].map((path) => ({ path, identity: sha256ni(path) })), outputMimeType: "image/*",
+        });
+        const retainedThumbnailWork = readJson(thumbnailWorkPath, null);
+        if (retainedThumbnailWork && JSON.stringify(retainedThumbnailWork) !== JSON.stringify(thumbnailWork)) throw new LessonBlocked("thumbnail-work-changed", "The retained thumbnail request differs from its report, transcript or prompt");
+        if (!retainedThumbnailWork) writeAtomic(thumbnailWorkPath, thumbnailWork);
         const packetPath = join(work, "thumbnail-work.json");
         let packet = readJson(packetPath, null);
         if (!packet && state.thumbnailWorkPacket) throw new LessonBlocked("thumbnail-work-packet-missing", "Restore the pending thumbnail work packet before resuming");
         if (packet && state.thumbnailWorkPacket && packet.id !== state.thumbnailWorkPacket) throw new LessonBlocked("thumbnail-work-packet-mismatch", "The pending thumbnail work packet differs from production state");
         if (packet && !state.thumbnailWorkPacket) save({ stage: "thumbnail-operator-required", thumbnailWorkPacket: packet.id });
         if (!packet && env.INFERENCE_ACCOUNT_ENTITLEMENTS_FILE) {
-          packet = prepareThumbnailWork(metadata.thumbnailPrompt, { workLot: `${config.id}/${lessonId}/thumbnail`, reportPath: paths.report, transcriptPath: paths.transcript, env });
+          packet = await prepareThumbnailWork(metadata.thumbnailPrompt, { workLot: `${config.id}/${lessonId}/thumbnail`, reportPath: paths.report, transcriptPath: paths.transcript, env });
           if (packet) {
             mkdirSync(work, { recursive: true });
             writeAtomic(packetPath, packet);
@@ -205,8 +253,23 @@ export async function advanceLesson(config, lessonId, { env = process.env, now =
         }
         if (packet && new Date(packet.expiresAt) <= now) throw new LessonBlocked("thumbnail-entitlement-expired", `Reconcile the expired packet at ${packetPath} before requesting more account capacity`);
         if (packet) throw new LessonBlocked("thumbnail-operator-required", `Complete ${packetPath}, then run adopt-thumbnail`);
-        const made = await produceThumbnail(metadata.thumbnailPrompt, paths.thumbnail);
-        record({ step: "thumbnail", provider: made.provider, model: made.model, outcome: "generated", bytes: made.bytes });
+        const directReceiptPath = join(dir, "thumbnail-receipt.json");
+        const stagedDirectPath = join(work, "thumbnail-direct.jpg");
+        const retainedDirectReceipt = readJson(directReceiptPath, null);
+        if (retainedDirectReceipt) {
+          if (retainedDirectReceipt.request !== thumbnailWork.id || !existsSync(stagedDirectPath) || retainedDirectReceipt.output.identity !== sha256ni(stagedDirectPath)) throw new LessonBlocked("thumbnail-provenance-missing", "Restore the staged thumbnail matching its work receipt");
+          renameSync(stagedDirectPath, paths.thumbnail);
+        } else {
+          mkdirSync(work, { recursive: true });
+          const made = await produceThumbnail(metadata.thumbnailPrompt, stagedDirectPath);
+          const directReceipt = completeMediaArtifactWork(thumbnailWork, {
+            providerIdentity: made.provider, product: made.model, executionMode: "direct-api-endpoint",
+            bytes: readFileSync(stagedDirectPath), mimeType: "image/jpeg", resource: { status: "not-observed" },
+          });
+          writeAtomic(directReceiptPath, { ...directReceipt, publishedImage: directReceipt.output.identity });
+          renameSync(stagedDirectPath, paths.thumbnail);
+          record({ step: "thumbnail", provider: made.provider, model: made.model, outcome: "generated", bytes: made.bytes, receipt: directReceipt.id, output: directReceipt.output.identity });
+        }
       }
       save({ stage: "packaged" });
 
@@ -247,32 +310,62 @@ export async function advanceLesson(config, lessonId, { env = process.env, now =
   }
 }
 
+/** The operator explicitly claims the account execution before using its UI. */
+export async function beginOperatorThumbnail(config, lessonId, { env = process.env } = {}) {
+  const dir = episodeDirectory(config, lessonId);
+  const packet = readJson(join(config.directory, ".work", lessonId, "thumbnail-work.json"), null);
+  const state = episodeState(config, lessonId);
+  if (!packet || state?.thumbnailWorkPacket !== packet.id || state?.youtubeVideoId || existsSync(join(dir, "thumbnail.jpg"))) throw new Error("No pending thumbnail work packet for this lesson");
+  if (state.thumbnailWorkAttempted) return { packet: packet.id, status: "operator-attempted" };
+  const claim = await transitionAccountArtifactCapacity(packet, [], { storePath: accountArtifactCapacityStorePath(env), action: "attempt" });
+  if (claim.disposition !== "attempted") throw new Error(`Account capacity could not be claimed: ${claim.reason ?? claim.disposition}`);
+  writeAtomic(join(dir, "state.json"), { ...state, stage: "thumbnail-operator-attempted", thumbnailWorkAttempted: true, updatedAt: new Date().toISOString() });
+  recordStep(config, lessonId, { step: "thumbnail", outcome: "operator-attempted", packet: packet.id, accountIdentity: packet.accountIdentity, product: packet.product });
+  return { packet: packet.id, status: "operator-attempted" };
+}
+
 /** Accept a reviewed operator image, record its source/output hashes and spend, then resume production. */
-export async function adoptOperatorThumbnail(config, lessonId, sourcePath, unitsSpent) {
+export async function adoptOperatorThumbnail(config, lessonId, sourcePath, unitsSpent, { env = process.env } = {}) {
   const dir = episodeDirectory(config, lessonId);
   const packetPath = join(config.directory, ".work", lessonId, "thumbnail-work.json");
   const packet = readJson(packetPath, null);
   const state = episodeState(config, lessonId);
-  if (!packet || state?.thumbnailWorkPacket !== packet.id || state?.youtubeVideoId) throw new Error("No pending thumbnail work packet for this lesson");
+  if (!packet || state?.thumbnailWorkPacket !== packet.id || state?.youtubeVideoId || !state.thumbnailWorkAttempted) throw new Error("Begin the pending thumbnail work before adopting an output");
+  const retainedWork = readJson(join(dir, "thumbnail-work.json"), null);
+  if (retainedWork && retainedWork.id !== createMediaArtifactWorkLot(packet).id) throw new Error("The retained thumbnail work differs from its operator packet");
+  if (!Number.isSafeInteger(unitsSpent) || unitsSpent < 0 || unitsSpent > packet.quotedUnits) throw new TypeError("Reported spend must fit the held account capacity");
   for (const source of packet.sources) {
     if (!existsSync(source.path)) throw new Error(`Thumbnail source is missing: ${source.path}`);
     const identity = sha256ni(source.path);
     if (identity !== source.identity) throw new Error(`Thumbnail source changed: ${source.path}`);
   }
   const outputPath = join(dir, "thumbnail.jpg");
-  if (existsSync(outputPath)) throw new Error("Thumbnail already exists");
-  if (existsSync(join(dir, "thumbnail-receipt.json"))) throw new Error("Restore the recorded thumbnail before adopting another output");
+  const receiptPath = join(dir, "thumbnail-receipt.json");
   const stagedPath = join(config.directory, ".work", lessonId, "thumbnail-adopted.jpg");
-  const result = await adoptThumbnailWork(packet, sourcePath, stagedPath, unitsSpent);
-  writeAtomic(join(dir, "thumbnail-receipt.json"), { ...result.receipt, publishedImage: result.publishedImage });
-  renameSync(stagedPath, outputPath);
-  writeAtomic(join(dir, "state.json"), { ...state, stage: "thumbnail-adopted", thumbnailWorkReceipt: result.receipt.id, updatedAt: new Date().toISOString(), lastError: null });
-  recordStep(config, lessonId, { step: "thumbnail", outcome: "operator-artifact-adopted", provider: result.receipt.providerIdentity, product: result.receipt.product, receipt: result.receipt.id, sourceOutput: result.receipt.output.identity, publishedImage: result.publishedImage, unitsSpent });
-  return { thumbnail: outputPath, receipt: result.receipt.id, publishedImage: result.publishedImage };
+  let receipt = readJson(receiptPath, null);
+  if (receipt) {
+    if (receipt.packet !== packet.id || receipt.resource.spent !== unitsSpent) throw new Error("A different thumbnail completion is already recorded");
+    if (!existsSync(outputPath)) {
+      if (!existsSync(stagedPath) || sha256ni(stagedPath) !== receipt.publishedImage) throw new Error("Restore the staged thumbnail matching the recorded receipt");
+      renameSync(stagedPath, outputPath);
+    }
+    if (sha256ni(outputPath) !== receipt.publishedImage) throw new Error("The adopted thumbnail differs from its receipt");
+  } else {
+    if (existsSync(outputPath)) throw new Error("Thumbnail already exists without a matching receipt");
+    const result = await adoptThumbnailWork(packet, sourcePath, stagedPath, unitsSpent);
+    receipt = { ...result.receipt, publishedImage: result.publishedImage };
+    writeAtomic(receiptPath, receipt);
+    renameSync(stagedPath, outputPath);
+  }
+  const settled = await transitionAccountArtifactCapacity(packet, [], { storePath: accountArtifactCapacityStorePath(env), action: "settle", unitsSpent });
+  if (settled.disposition !== "settled") throw new Error(`Account capacity could not be settled: ${settled.reason ?? settled.disposition}`);
+  writeAtomic(join(dir, "state.json"), { ...state, stage: "thumbnail-adopted", thumbnailWorkReceipt: receipt.id, thumbnailWorkSettled: true, updatedAt: new Date().toISOString(), lastError: null });
+  if (!state.thumbnailWorkSettled) recordStep(config, lessonId, { step: "thumbnail", outcome: "operator-artifact-adopted", provider: receipt.providerIdentity, product: receipt.product, receipt: receipt.id, sourceOutput: receipt.output.identity, publishedImage: receipt.publishedImage, unitsSpent });
+  return { thumbnail: outputPath, receipt: receipt.id, publishedImage: receipt.publishedImage };
 }
 
 /** Release a packet that produced no artifact; retain its exact request for reconciliation. */
-export function releaseOperatorThumbnail(config, lessonId, reason) {
+export async function releaseOperatorThumbnail(config, lessonId, reason, { env = process.env } = {}) {
   if (!["expired", "logged-out", "quota-exhausted", "ui-changed", "operator-declined"].includes(reason)) throw new TypeError("thumbnail release reason is invalid");
   const state = episodeState(config, lessonId);
   const dir = episodeDirectory(config, lessonId);
@@ -280,11 +373,14 @@ export function releaseOperatorThumbnail(config, lessonId, reason) {
   const packetPath = join(work, "thumbnail-work.json");
   const packet = readJson(packetPath, null);
   if (!packet || state?.thumbnailWorkPacket !== packet.id || existsSync(join(dir, "thumbnail.jpg")) || existsSync(join(dir, "thumbnail-receipt.json"))) throw new Error("No unresolved thumbnail work packet can be released");
+  let capacity = await transitionAccountArtifactCapacity(packet, [], { storePath: accountArtifactCapacityStorePath(env), action: state.thumbnailWorkAttempted ? "settle" : "release", ...(state.thumbnailWorkAttempted ? { unitsSpent: packet.quotedUnits } : {}) });
+  if (capacity.disposition === "refused" && capacity.reason === "resource-attempt-conservatively-charged") capacity = await transitionAccountArtifactCapacity(packet, [], { storePath: accountArtifactCapacityStorePath(env), action: "settle", unitsSpent: packet.quotedUnits });
+  if (!["released", "settled"].includes(capacity.disposition)) throw new Error(`Account capacity could not be reconciled: ${capacity.reason ?? capacity.disposition}`);
   const retainedPath = join(work, `thumbnail-work-released-${packet.id.split(";").at(-1)}.json`);
   renameSync(packetPath, retainedPath);
-  writeAtomic(join(dir, "state.json"), { ...state, stage: "transcribed", thumbnailWorkPacket: null, lastError: null, updatedAt: new Date().toISOString() });
-  recordStep(config, lessonId, { step: "thumbnail", outcome: "operator-work-released", packet: packet.id, reason, retainedPath });
-  return { packet: packet.id, reason, retainedPath };
+  writeAtomic(join(dir, "state.json"), { ...state, stage: "transcribed", thumbnailWorkPacket: null, thumbnailWorkAttempted: false, thumbnailWorkSettled: false, lastError: null, updatedAt: new Date().toISOString() });
+  recordStep(config, lessonId, { step: "thumbnail", outcome: "operator-work-released", packet: packet.id, reason, retainedPath, capacity: capacity.disposition });
+  return { packet: packet.id, reason, retainedPath, capacity: capacity.disposition };
 }
 
 /** Adopt a provider artifact while preserving the episode's publication identity. */
