@@ -1,0 +1,43 @@
+{
+  "at": "2026-09-29T15:22:32.175Z",
+  "grounding": {
+    "completed": true,
+    "completedSearches": 4,
+    "sources": [
+      {
+        "uri": "https://www.ma.imperial.ac.uk/~jswlamb/M345PA46/F85%20chap%201.pdf"
+      },
+      {
+        "uri": "https://onlinelibrary.wiley.com/doi/10.1002/0470013850.ch3"
+      },
+      {
+        "uri": "https://arxiv.org/abs/1512.01548"
+      },
+      {
+        "uri": "https://arxiv.org/abs/1505.05515"
+      },
+      {
+        "uri": "https://arxiv.org/abs/hep-th/0603001"
+      }
+    ]
+  },
+  "inference": {
+    "model": "gpt-5.6-sol",
+    "provider": "codex",
+    "exchanges": [
+      {
+        "outcome": "completion",
+        "recordedAt": "2026-09-29T15:22:32.171Z",
+        "completedSearches": 4,
+        "model": "gpt-5.6-sol",
+        "citedUrls": [
+          "https://www.ma.imperial.ac.uk/~jswlamb/M345PA46/F85%20chap%201.pdf",
+          "https://onlinelibrary.wiley.com/doi/10.1002/0470013850.ch3",
+          "https://arxiv.org/abs/1512.01548",
+          "https://arxiv.org/abs/1505.05515",
+          "https://arxiv.org/abs/hep-th/0603001"
+        ]
+      }
+    ]
+  }
+}

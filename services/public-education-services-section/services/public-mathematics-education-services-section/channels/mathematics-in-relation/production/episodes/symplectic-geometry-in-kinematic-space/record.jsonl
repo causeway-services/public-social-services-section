@@ -19,3 +19,4 @@
 {"at":"2026-09-29T01:33:30.954Z","lesson":"symplectic-geometry-in-kinematic-space","step":"upload","provider":"youtube","outcome":"uploaded","videoId":"AACvVBH4IJ0","publishAt":"2026-09-29T15:00:00.000Z"}
 {"at":"2026-09-29T01:33:31.175Z","lesson":"symplectic-geometry-in-kinematic-space","step":"youtube","effect":"youtube.thumbnail","detail":{"provider":"youtube","url":"https://www.googleapis.com/upload/youtube/v3/thumbnails/set","method":"POST"}}
 {"at":"2026-09-29T01:53:07.447Z","lesson":"symplectic-geometry-in-kinematic-space","step":"confirm","provider":"youtube","outcome":"scheduled","videoId":"AACvVBH4IJ0"}
+{"at":"2026-09-29T15:20:04.019Z","lesson":"symplectic-geometry-in-kinematic-space","step":"confirm","provider":"youtube","outcome":"published","videoId":"AACvVBH4IJ0"}

@@ -2,10 +2,10 @@
   "version": 1,
   "channel": "emsenn0",
   "lessonId": "digital-twin-data-sovereignty",
-  "stage": "scheduled",
+  "stage": "published",
   "createdAt": "2026-09-27T15:08:18.189Z",
   "commissionedAt": "2026-09-27T15:08:18.189Z",
-  "updatedAt": "2026-09-27T16:00:05.244Z",
+  "updatedAt": "2026-09-29T15:16:05.698Z",
   "researchSearches": 5,
   "reportSha256": "3829f3e6611d997d7ec5694253933138198ce809de14b0e010b9f6873801760e",
   "notebookId": "67510ce7-79b3-4caa-b25c-28e0d3911b5a",
@@ -94,5 +94,5 @@
   "thumbnailUploaded": true,
   "thumbnailError": null,
   "lastError": null,
-  "publishAt": "2026-09-29T15:00:00Z"
+  "publishAt": "2026-09-29T15:00:38Z"
 }

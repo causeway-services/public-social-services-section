@@ -2,10 +2,10 @@
   "version": 1,
   "channel": "modern-business-practices",
   "lessonId": "process-constraints-quality-operations",
-  "stage": "scheduled",
+  "stage": "published",
   "createdAt": "2026-09-26T14:58:08.361Z",
   "commissionedAt": "2026-09-26T14:58:08.361Z",
-  "updatedAt": "2026-09-26T15:15:28.597Z",
+  "updatedAt": "2026-09-29T15:23:06.894Z",
   "researchSearches": 5,
   "reportSha256": "06d8d6d913160e1dbed6a8095b8779243ce2c1346b504ac2cf1ea2d349d779bf",
   "notebookId": "763fbe07-e786-4e23-9b33-b53f05230573",
@@ -49,5 +49,5 @@
     "code": "CUSTOM_THUMBNAIL_PERMISSION",
     "message": "YouTube custom-thumbnail permission is unavailable for this channel. Check YouTube Studio > Settings > Channel > Feature eligibility; the uploaded video and its publication schedule remain intact."
   },
-  "publishAt": "2026-09-29T15:00:00Z"
+  "publishAt": "2026-09-29T15:00:13Z"
 }

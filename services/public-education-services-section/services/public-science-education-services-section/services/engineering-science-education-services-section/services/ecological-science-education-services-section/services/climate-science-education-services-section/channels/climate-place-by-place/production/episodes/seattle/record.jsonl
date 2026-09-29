@@ -17,3 +17,4 @@
 {"at":"2026-09-27T15:36:10.988Z","lesson":"seattle","step":"upload","provider":"youtube","outcome":"uploaded","videoId":"6GrNVWDi7oE","publishAt":"2026-09-29T15:00:00.000Z"}
 {"at":"2026-09-27T15:36:11.173Z","lesson":"seattle","step":"youtube","effect":"youtube.thumbnail","detail":{"provider":"youtube","url":"https://www.googleapis.com/upload/youtube/v3/thumbnails/set","method":"POST"}}
 {"at":"2026-09-27T16:00:03.050Z","lesson":"seattle","step":"confirm","provider":"youtube","outcome":"scheduled","videoId":"6GrNVWDi7oE"}
+{"at":"2026-09-29T15:13:13.711Z","lesson":"seattle","step":"confirm","provider":"youtube","outcome":"published","videoId":"6GrNVWDi7oE"}

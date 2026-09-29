@@ -415,6 +415,17 @@
       ],
       "title": "Symplectic geometry in kinematic space",
       "whyItMayMatter": "A symplectic form on kinematic space could provide a powerful tool for analyzing the behavior of physical systems and the structure of spacetime."
+    },
+    {
+      "id": "fractal-dimension-in-kinematic-space",
+      "question": "Can the fractal dimension of a subset in kinematic space be used to characterize its geometric complexity?",
+      "tags": [
+        "fractal-geometry",
+        "kinematic-space",
+        "geometric-complexity"
+      ],
+      "title": "Fractal dimension in kinematic space",
+      "whyItMayMatter": "Understanding the fractal dimension of subsets in kinematic space can provide insights into the structure of spacetime and the behavior of physical systems at different scales."
     }
   ]
 }

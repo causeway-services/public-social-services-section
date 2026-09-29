@@ -2,10 +2,10 @@
   "version": 1,
   "channel": "climate-place-by-place",
   "lessonId": "seattle",
-  "stage": "scheduled",
+  "stage": "published",
   "createdAt": "2026-09-27T15:05:42.145Z",
   "commissionedAt": "2026-09-27T15:05:42.145Z",
-  "updatedAt": "2026-09-27T16:00:03.047Z",
+  "updatedAt": "2026-09-29T15:13:13.709Z",
   "researchSearches": 4,
   "reportSha256": "60749e9e03dbd97e3434287c57f0c33659c931636f638a073e9bf1e45746500d",
   "notebookId": "67510ce7-79b3-4caa-b25c-28e0d3911b5a",
@@ -96,5 +96,5 @@
     "message": "YouTube custom-thumbnail permission is unavailable for this channel. Check YouTube Studio > Settings > Channel > Feature eligibility; the uploaded video and its publication schedule remain intact."
   },
   "lastError": null,
-  "publishAt": "2026-09-29T15:00:00Z"
+  "publishAt": "2026-09-29T15:00:22Z"
 }

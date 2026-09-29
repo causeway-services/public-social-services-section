@@ -97,6 +97,19 @@
         "social systems",
         "technical systems"
       ]
+    },
+    {
+      "id": "carbon-removal-costs",
+      "question": "How do different carbon removal strategies distribute environmental costs, economic benefits, and decision-making power between local communities and the wider public health and environmental systems?",
+      "tags": [
+        "carbon removal",
+        "environmental governance",
+        "economic systems",
+        "social systems",
+        "technical systems"
+      ],
+      "title": "Carbon Removal: Who Bears the Costs, Who Decides?",
+      "whyItMayMatter": "A carbon removal method appears differently as a technical reliability problem, a municipal cost, a community health risk, a regulatory compliance issue, and a long-term environmental liability."
     }
   ],
   "audience": "Curious adults seeking source-grounded explanations",

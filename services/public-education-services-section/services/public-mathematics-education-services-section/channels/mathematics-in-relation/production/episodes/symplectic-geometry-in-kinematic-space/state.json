@@ -2,10 +2,10 @@
   "version": 1,
   "channel": "mathematics-in-relation",
   "lessonId": "symplectic-geometry-in-kinematic-space",
-  "stage": "scheduled",
+  "stage": "published",
   "createdAt": "2026-09-28T15:34:08.945Z",
   "commissionedAt": "2026-09-28T15:34:08.945Z",
-  "updatedAt": "2026-09-29T01:53:07.445Z",
+  "updatedAt": "2026-09-29T15:20:04.017Z",
   "researchSearches": 6,
   "reportSha256": "d191cab9aa17a684520a45634f009dc69967d2ae28a9cda54d0b36b9f6e196d5",
   "notebookId": "67510ce7-79b3-4caa-b25c-28e0d3911b5a",
@@ -99,5 +99,5 @@
     "code": "CUSTOM_THUMBNAIL_PERMISSION",
     "message": "YouTube custom-thumbnail permission is unavailable for this channel. Check YouTube Studio > Settings > Channel > Feature eligibility; the uploaded video and its publication schedule remain intact."
   },
-  "publishAt": "2026-09-29T15:00:00Z"
+  "publishAt": "2026-09-29T15:00:16Z"
 }

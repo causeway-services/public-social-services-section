@@ -1,0 +1,79 @@
+{
+  "at": "2026-09-29T15:19:08.135Z",
+  "grounding": {
+    "completed": true,
+    "completedSearches": 7,
+    "sources": [
+      {
+        "uri": "https://www.ipcc.ch/report/ar6/wg3/chapter/chapter-12/"
+      },
+      {
+        "uri": "https://www.ipcc.ch/report/ar6/wg3/chapter/summary-for-policymakers/"
+      },
+      {
+        "uri": "https://www.energy.gov/hgeo/cdr-challenge"
+      },
+      {
+        "uri": "https://www.frontiersin.org/journals/climate/articles/10.3389/fclim.2025.1627432/abstract"
+      },
+      {
+        "uri": "https://www.energy.gov/oced/DACHubs"
+      },
+      {
+        "uri": "https://www.nature.com/articles/s43247-024-01334-6"
+      },
+      {
+        "uri": "https://www.epa.gov/uic/class-vi-wells-used-geologic-sequestration-carbon-dioxide"
+      },
+      {
+        "uri": "https://nap.nationalacademies.org/resource/25259/Negative%20Emissions%20Technologies.pdf"
+      },
+      {
+        "uri": "https://sciencecouncil.noaa.gov/wp-content/uploads/2022/09/Clean-copy-of-Draft-CDR-Research-Strategy.pdf"
+      },
+      {
+        "uri": "https://oceanacidification.noaa.gov/carbon-dioxide-removal/"
+      },
+      {
+        "uri": "https://nap.nationalacademies.org/resource/26278/Ocean_CDR_2021.pdf"
+      },
+      {
+        "uri": "https://nap.nationalacademies.org/pubs/29342/glossary.html"
+      },
+      {
+        "uri": "https://www.nature.com/articles/s41558-026-02741-7"
+      },
+      {
+        "uri": "https://oced-exchange.energy.gov/FileContent.aspx?FileID=2adfbdec-4409-439c-b2be-fedadba3149f"
+      }
+    ]
+  },
+  "inference": {
+    "model": "gpt-5.6-sol",
+    "provider": "codex",
+    "exchanges": [
+      {
+        "outcome": "completion",
+        "recordedAt": "2026-09-29T15:19:08.130Z",
+        "completedSearches": 7,
+        "model": "gpt-5.6-sol",
+        "citedUrls": [
+          "https://www.ipcc.ch/report/ar6/wg3/chapter/chapter-12/",
+          "https://www.ipcc.ch/report/ar6/wg3/chapter/summary-for-policymakers/",
+          "https://www.energy.gov/hgeo/cdr-challenge",
+          "https://www.frontiersin.org/journals/climate/articles/10.3389/fclim.2025.1627432/abstract",
+          "https://www.energy.gov/oced/DACHubs",
+          "https://www.nature.com/articles/s43247-024-01334-6",
+          "https://www.epa.gov/uic/class-vi-wells-used-geologic-sequestration-carbon-dioxide",
+          "https://nap.nationalacademies.org/resource/25259/Negative%20Emissions%20Technologies.pdf",
+          "https://sciencecouncil.noaa.gov/wp-content/uploads/2022/09/Clean-copy-of-Draft-CDR-Research-Strategy.pdf",
+          "https://oceanacidification.noaa.gov/carbon-dioxide-removal/",
+          "https://nap.nationalacademies.org/resource/26278/Ocean_CDR_2021.pdf",
+          "https://nap.nationalacademies.org/pubs/29342/glossary.html",
+          "https://www.nature.com/articles/s41558-026-02741-7",
+          "https://oced-exchange.energy.gov/FileContent.aspx?FileID=2adfbdec-4409-439c-b2be-fedadba3149f"
+        ]
+      }
+    ]
+  }
+}

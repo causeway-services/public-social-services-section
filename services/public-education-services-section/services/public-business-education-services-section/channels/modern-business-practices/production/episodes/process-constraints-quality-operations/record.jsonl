@@ -19,3 +19,4 @@
 {"at":"2026-09-26T15:13:53.443Z","lesson":"process-constraints-quality-operations","step":"youtube","effect":"youtube.thumbnail","detail":{"provider":"youtube","url":"https://www.googleapis.com/upload/youtube/v3/thumbnails/set","method":"POST"}}
 {"at":"2026-09-26T15:13:53.840Z","lesson":"process-constraints-quality-operations","step":"blocked","status":"youtube-processing","message":"YouTube is still processing the video"}
 {"at":"2026-09-26T15:15:28.598Z","lesson":"process-constraints-quality-operations","step":"confirm","provider":"youtube","outcome":"scheduled","videoId":"Fa68w0dmbGc"}
+{"at":"2026-09-29T15:23:06.896Z","lesson":"process-constraints-quality-operations","step":"confirm","provider":"youtube","outcome":"published","videoId":"Fa68w0dmbGc"}
