@@ -15,6 +15,7 @@
 // Production commissions unpublished curriculum lessons to fill upcoming slots.
 // Running produce again continues where the last run stopped.
 import { join } from "node:path";
+import { homedir } from "node:os";
 import { createNotebookAdapter } from "@red-cup-engineering/gemini-notebook-services-section/gemini-notebook-cli";
 import { channelIds, loadChannel, loadEnvironment, readJson } from "./channel.mjs";
 import { adoptArtifact, adoptOperatorThumbnail, advanceLesson, beginOperatorThumbnail, episodeState, isRequested, releaseOperatorThumbnail, retryVideo } from "./lesson.mjs";
@@ -23,6 +24,10 @@ import { existsSync, readdirSync } from "node:fs";
 import { extendCurriculum } from "./curriculum.mjs";
 
 loadEnvironment();
+process.env.EXPECTED_RESOLUTION_PRICING_ROOT ||= join(
+  process.env.XDG_STATE_HOME || join(homedir(), ".local", "state"),
+  "561-group", "computer-inference-engine", "expected-resolution-pricing",
+);
 const [command = "status", ...rest] = process.argv.slice(2);
 const positional = rest.filter((value, i) => !value.startsWith("--") && !rest[i - 1]?.startsWith("--"));
 const channelsOf = (value = "all") => (value === "all" ? channelIds() : [value]).map((id) => loadChannel(id)).filter((config) => config.enabled !== false);
