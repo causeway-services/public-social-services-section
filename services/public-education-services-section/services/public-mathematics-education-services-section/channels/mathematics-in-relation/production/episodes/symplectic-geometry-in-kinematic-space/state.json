@@ -2,10 +2,10 @@
   "version": 1,
   "channel": "mathematics-in-relation",
   "lessonId": "symplectic-geometry-in-kinematic-space",
-  "stage": "generating",
+  "stage": "uploaded",
   "createdAt": "2026-09-28T15:34:08.945Z",
   "commissionedAt": "2026-09-28T15:34:08.945Z",
-  "updatedAt": "2026-09-29T00:52:10.166Z",
+  "updatedAt": "2026-09-29T01:33:31.484Z",
   "researchSearches": 6,
   "reportSha256": "d191cab9aa17a684520a45634f009dc69967d2ae28a9cda54d0b36b9f6e196d5",
   "notebookId": "67510ce7-79b3-4caa-b25c-28e0d3911b5a",
@@ -88,8 +88,15 @@
   "failedArtifacts": [
     "61cb1f56-ca61-48ef-94b4-f66ebb923e88"
   ],
-  "downloadedArtifactId": null,
-  "downloadedBytes": null,
-  "downloadSha256": null,
-  "reportSourceRemoved": false
+  "downloadedArtifactId": "63f41d5b-bbc8-4b0d-80e2-508c88f42c3c",
+  "downloadedBytes": 27515412,
+  "downloadSha256": "sha256:46c0fde8737c38729e450c0c26c5db38090ba8b759e211d89601decc5eb8595f",
+  "reportSourceRemoved": true,
+  "plannedPublishAt": "2026-09-29T15:00:00.000Z",
+  "youtubeVideoId": "AACvVBH4IJ0",
+  "thumbnailError": {
+    "at": "2026-09-29T01:33:31.484Z",
+    "code": "CUSTOM_THUMBNAIL_PERMISSION",
+    "message": "YouTube custom-thumbnail permission is unavailable for this channel. Check YouTube Studio > Settings > Channel > Feature eligibility; the uploaded video and its publication schedule remain intact."
+  }
 }
