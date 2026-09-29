@@ -11,7 +11,7 @@
 // uncertain video submission is reconciled against its exact provider inputs;
 // confirmed failures have bounded retries. Each step appends what it did to the
 // episode's record.jsonl: the public account of how the video was made.
-import { appendFileSync, existsSync, mkdirSync, readFileSync } from "node:fs";
+import { appendFileSync, existsSync, mkdirSync, readFileSync, renameSync } from "node:fs";
 import { join } from "node:path";
 import { dispatchFreeFirst } from "@red-cup-engineering/computer-inference-engine/openai/provider-runtime";
 import { transcribeMedia } from "@red-cup-engineering/computer-inference-engine/audio/transcription";
@@ -19,7 +19,7 @@ import { createNotebookAdapter } from "@red-cup-engineering/gemini-notebook-serv
 import { ensureResearchReport, ResearchBlocked, citedUrls } from "@red-cup-engineering/computer-inference-engine/research/report";
 import { advanceNotebookVideo, adoptNotebookVideo, retryNotebookVideo, NotebookVideoBlocked } from "@red-cup-engineering/gemini-notebook-services-section/report-video";
 import { createYouTube } from "@emsenn/youtube-engineering-services-section/api";
-import { produceThumbnail } from "./thumbnail.mjs";
+import { adoptThumbnailWork, prepareThumbnailWork, produceThumbnail } from "./thumbnail.mjs";
 import { containedPath, episodeDirectory, lessonReportPath, nextSlot, PACKAGE_ROOT, readJson, writeAtomic } from "./channel.mjs";
 import { sha256Hex } from "@red-cup-engineering/cryptographic-computer-data-engineering-services-section/integrity";
 
@@ -30,6 +30,7 @@ export class LessonBlocked extends Error {
 
 const policy = () => readJson(join(PACKAGE_ROOT, "production.json"), {});
 const sha256 = (path) => sha256Hex(readFileSync(path));
+const sha256ni = (path) => `ni:///sha-256;${Buffer.from(sha256(path), "hex").toString("base64url")}`;
 /** The episode's retained state, or null when the lesson has never been touched. */
 export function episodeState(config, lessonId) {
   return readJson(join(episodeDirectory(config, lessonId), "state.json"), null);
@@ -183,7 +184,27 @@ export async function advanceLesson(config, lessonId, { env = process.env, now =
       const metadata = readJson(paths.metadata);
 
       // thumbnail: a text-free illustration of the video's content.
+      if (state.thumbnailWorkPacket && existsSync(paths.thumbnail)) {
+        const receipt = readJson(join(dir, "thumbnail-receipt.json"), null);
+        if (receipt?.packet !== state.thumbnailWorkPacket || receipt.publishedImage !== sha256ni(paths.thumbnail)) throw new LessonBlocked("thumbnail-provenance-missing", "Restore the adopted thumbnail and its matching receipt before publishing");
+      }
       if (!existsSync(paths.thumbnail)) {
+        const packetPath = join(work, "thumbnail-work.json");
+        let packet = readJson(packetPath, null);
+        if (!packet && state.thumbnailWorkPacket) throw new LessonBlocked("thumbnail-work-packet-missing", "Restore the pending thumbnail work packet before resuming");
+        if (packet && state.thumbnailWorkPacket && packet.id !== state.thumbnailWorkPacket) throw new LessonBlocked("thumbnail-work-packet-mismatch", "The pending thumbnail work packet differs from production state");
+        if (packet && !state.thumbnailWorkPacket) save({ stage: "thumbnail-operator-required", thumbnailWorkPacket: packet.id });
+        if (!packet && env.INFERENCE_ACCOUNT_ENTITLEMENTS_FILE) {
+          packet = prepareThumbnailWork(metadata.thumbnailPrompt, { workLot: `${config.id}/${lessonId}/thumbnail`, reportPath: paths.report, transcriptPath: paths.transcript, env });
+          if (packet) {
+            mkdirSync(work, { recursive: true });
+            writeAtomic(packetPath, packet);
+            save({ stage: "thumbnail-operator-required", thumbnailWorkPacket: packet.id });
+            record({ step: "thumbnail", outcome: "operator-work-prepared", packet: packet.id, capability: packet.capability, product: packet.product, expiresAt: packet.expiresAt });
+          }
+        }
+        if (packet && new Date(packet.expiresAt) <= now) throw new LessonBlocked("thumbnail-entitlement-expired", `Reconcile the expired packet at ${packetPath} before requesting more account capacity`);
+        if (packet) throw new LessonBlocked("thumbnail-operator-required", `Complete ${packetPath}, then run adopt-thumbnail`);
         const made = await produceThumbnail(metadata.thumbnailPrompt, paths.thumbnail);
         record({ step: "thumbnail", provider: made.provider, model: made.model, outcome: "generated", bytes: made.bytes });
       }
@@ -224,6 +245,46 @@ export async function advanceLesson(config, lessonId, { env = process.env, now =
     }
     return { channel: config.id, lesson: lessonId, status: error.status, stage: state.stage, message: error.message };
   }
+}
+
+/** Accept a reviewed operator image, record its source/output hashes and spend, then resume production. */
+export async function adoptOperatorThumbnail(config, lessonId, sourcePath, unitsSpent) {
+  const dir = episodeDirectory(config, lessonId);
+  const packetPath = join(config.directory, ".work", lessonId, "thumbnail-work.json");
+  const packet = readJson(packetPath, null);
+  const state = episodeState(config, lessonId);
+  if (!packet || state?.thumbnailWorkPacket !== packet.id || state?.youtubeVideoId) throw new Error("No pending thumbnail work packet for this lesson");
+  for (const source of packet.sources) {
+    if (!existsSync(source.path)) throw new Error(`Thumbnail source is missing: ${source.path}`);
+    const identity = sha256ni(source.path);
+    if (identity !== source.identity) throw new Error(`Thumbnail source changed: ${source.path}`);
+  }
+  const outputPath = join(dir, "thumbnail.jpg");
+  if (existsSync(outputPath)) throw new Error("Thumbnail already exists");
+  if (existsSync(join(dir, "thumbnail-receipt.json"))) throw new Error("Restore the recorded thumbnail before adopting another output");
+  const stagedPath = join(config.directory, ".work", lessonId, "thumbnail-adopted.jpg");
+  const result = await adoptThumbnailWork(packet, sourcePath, stagedPath, unitsSpent);
+  writeAtomic(join(dir, "thumbnail-receipt.json"), { ...result.receipt, publishedImage: result.publishedImage });
+  renameSync(stagedPath, outputPath);
+  writeAtomic(join(dir, "state.json"), { ...state, stage: "thumbnail-adopted", thumbnailWorkReceipt: result.receipt.id, updatedAt: new Date().toISOString(), lastError: null });
+  recordStep(config, lessonId, { step: "thumbnail", outcome: "operator-artifact-adopted", provider: result.receipt.providerIdentity, product: result.receipt.product, receipt: result.receipt.id, sourceOutput: result.receipt.output.identity, publishedImage: result.publishedImage, unitsSpent });
+  return { thumbnail: outputPath, receipt: result.receipt.id, publishedImage: result.publishedImage };
+}
+
+/** Release a packet that produced no artifact; retain its exact request for reconciliation. */
+export function releaseOperatorThumbnail(config, lessonId, reason) {
+  if (!["expired", "logged-out", "quota-exhausted", "ui-changed", "operator-declined"].includes(reason)) throw new TypeError("thumbnail release reason is invalid");
+  const state = episodeState(config, lessonId);
+  const dir = episodeDirectory(config, lessonId);
+  const work = join(config.directory, ".work", lessonId);
+  const packetPath = join(work, "thumbnail-work.json");
+  const packet = readJson(packetPath, null);
+  if (!packet || state?.thumbnailWorkPacket !== packet.id || existsSync(join(dir, "thumbnail.jpg")) || existsSync(join(dir, "thumbnail-receipt.json"))) throw new Error("No unresolved thumbnail work packet can be released");
+  const retainedPath = join(work, `thumbnail-work-released-${packet.id.split(";").at(-1)}.json`);
+  renameSync(packetPath, retainedPath);
+  writeAtomic(join(dir, "state.json"), { ...state, stage: "transcribed", thumbnailWorkPacket: null, lastError: null, updatedAt: new Date().toISOString() });
+  recordStep(config, lessonId, { step: "thumbnail", outcome: "operator-work-released", packet: packet.id, reason, retainedPath });
+  return { packet: packet.id, reason, retainedPath };
 }
 
 /** Adopt a provider artifact while preserving the episode's publication identity. */
