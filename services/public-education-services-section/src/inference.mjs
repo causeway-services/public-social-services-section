@@ -2,7 +2,6 @@ import { createHash } from "node:crypto";
 import { readFileSync } from "node:fs";
 import { dispatchInferenceAsConfiguredCustomer, recordInferenceOutcome } from "@red-cup-engineering/computer-inference-engine/dispatch/inference-dispatch";
 import { loadDirectEndpointProviderDescriptors } from "@red-cup-engineering/computer-inference-engine/dispatch/direct-endpoint-provider";
-import { DEFAULT_INFERENCE_PRICING_ROOT } from "@red-cup-engineering/computer-inference-engine/dispatch/expected-resolution-pricing-client";
 
 const EDUCATION_ACTOR = "urn:ame:public-education-services-section";
 const digest = (bytes) => `ni:///sha-256;${createHash("sha256").update(bytes).digest("base64url")}`;
@@ -11,7 +10,9 @@ export class EducationCandidateRefusal extends Error {}
 
 /** Buy one bounded candidate; the editorial consumer alone decides whether it enters its artifact. */
 export async function produceEducationArtifact({ env, objective, context, schema, taskClass, maximumOutputTokens, assay, persist, artifactPath }) {
-  const pricingRoot = env.EXPECTED_RESOLUTION_PRICING_ROOT || DEFAULT_INFERENCE_PRICING_ROOT;
+  const pricingRoot = env?.EXPECTED_RESOLUTION_PRICING_ROOT;
+  if (typeof pricingRoot !== "string" || pricingRoot.trim() === "")
+    throw new EducationInferenceUnavailable("EXPECTED_RESOLUTION_PRICING_ROOT must name this instance's inference outcome directory");
   const result = await dispatchInferenceAsConfiguredCustomer({
     objective, context, workType: "inquiry", taskClass,
     desiredUse: "Produce one editorial candidate for public education; the receiving section reviews and saves it separately.",
