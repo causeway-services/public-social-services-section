@@ -2,10 +2,10 @@
   "version": 1,
   "channel": "climate-place-by-place",
   "lessonId": "houston",
-  "stage": "generating",
+  "stage": "uploaded",
   "createdAt": "2026-09-29T15:13:13.970Z",
   "commissionedAt": "2026-09-29T15:13:13.970Z",
-  "updatedAt": "2026-09-29T15:15:44.372Z",
+  "updatedAt": "2026-09-29T15:49:27.679Z",
   "researchSearches": 5,
   "reportSha256": "e32d509d0ebd0c1d80ff38dd9082803d22abbb9d4103c875387a10b7771eb13a",
   "notebookId": "67510ce7-79b3-4caa-b25c-28e0d3911b5a",
@@ -83,5 +83,16 @@
     "style": "auto",
     "language": "en"
   },
-  "artifactId": "351fc7ab-9eb0-4930-993d-b890b87d6a5f"
+  "artifactId": "351fc7ab-9eb0-4930-993d-b890b87d6a5f",
+  "downloadedArtifactId": "351fc7ab-9eb0-4930-993d-b890b87d6a5f",
+  "downloadedBytes": 54509681,
+  "downloadSha256": "sha256:93b02d114443561c6dbc664e67f718583444385862292d03536c8e51234f89a5",
+  "reportSourceRemoved": true,
+  "plannedPublishAt": "2026-10-01T15:00:00.000Z",
+  "youtubeVideoId": "e5ZudZh3Lng",
+  "thumbnailError": {
+    "at": "2026-09-29T15:49:27.679Z",
+    "code": "CUSTOM_THUMBNAIL_PERMISSION",
+    "message": "YouTube custom-thumbnail permission is unavailable for this channel. Check YouTube Studio > Settings > Channel > Feature eligibility; the uploaded video and its publication schedule remain intact."
+  }
 }

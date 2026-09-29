@@ -3,3 +3,17 @@
 {"at":"2026-09-29T15:15:39.248Z","lesson":"houston","provider":"notebooklm","step":"source","outcome":"uploaded","sourceId":"ce5b995a-463a-401b-8ca0-aa248b05c0b3"}
 {"at":"2026-09-29T15:15:39.249Z","lesson":"houston","provider":"notebooklm","step":"video","outcome":"submitting","format":"explainer"}
 {"at":"2026-09-29T15:15:44.372Z","lesson":"houston","provider":"notebooklm","step":"video","outcome":"submitted","artifactId":"351fc7ab-9eb0-4930-993d-b890b87d6a5f"}
+{"at":"2026-09-29T15:48:04.367Z","lesson":"houston","provider":"notebooklm","step":"download","outcome":"downloaded","bytes":54509681,"artifactId":"351fc7ab-9eb0-4930-993d-b890b87d6a5f"}
+{"at":"2026-09-29T15:49:09.300Z","lesson":"houston","step":"transcript","provider":"cloudflare-workers-ai","outcome":"transcribed","characters":14098}
+{"at":"2026-09-29T15:49:10.324Z","lesson":"houston","step":"metadata","provider":"urn:ame:cloudflare-workers-ai-inference-team","workLot":"urn:work-lot:inference:KRKxIMe7X3wEH90Y3eeFoiWEmhaI4RsXa6ULzAqzIfU","outcome":"written"}
+{"at":"2026-09-29T15:49:12.194Z","lesson":"houston","step":"thumbnail","provider":"cloudflare-workers-ai","model":"@cf/black-forest-labs/flux-1-schnell","outcome":"generated","bytes":44014}
+{"at":"2026-09-29T15:49:13.800Z","lesson":"houston","step":"youtube","effect":"youtube.upload","detail":{"provider":"youtube","url":"https://www.googleapis.com/upload/youtube/v3/videos","method":"POST"}}
+{"at":"2026-09-29T15:49:15.094Z","lesson":"houston","step":"youtube","effect":"youtube.upload","detail":{"provider":"youtube","url":"https://www.googleapis.com/upload/youtube/v3/videos","method":"PUT"}}
+{"at":"2026-09-29T15:49:17.030Z","lesson":"houston","step":"youtube","effect":"youtube.upload","detail":{"provider":"youtube","url":"https://www.googleapis.com/upload/youtube/v3/videos","method":"PUT"}}
+{"at":"2026-09-29T15:49:18.945Z","lesson":"houston","step":"youtube","effect":"youtube.upload","detail":{"provider":"youtube","url":"https://www.googleapis.com/upload/youtube/v3/videos","method":"PUT"}}
+{"at":"2026-09-29T15:49:20.730Z","lesson":"houston","step":"youtube","effect":"youtube.upload","detail":{"provider":"youtube","url":"https://www.googleapis.com/upload/youtube/v3/videos","method":"PUT"}}
+{"at":"2026-09-29T15:49:22.318Z","lesson":"houston","step":"youtube","effect":"youtube.upload","detail":{"provider":"youtube","url":"https://www.googleapis.com/upload/youtube/v3/videos","method":"PUT"}}
+{"at":"2026-09-29T15:49:24.065Z","lesson":"houston","step":"youtube","effect":"youtube.upload","detail":{"provider":"youtube","url":"https://www.googleapis.com/upload/youtube/v3/videos","method":"PUT"}}
+{"at":"2026-09-29T15:49:25.943Z","lesson":"houston","step":"youtube","effect":"youtube.upload","detail":{"provider":"youtube","url":"https://www.googleapis.com/upload/youtube/v3/videos","method":"PUT"}}
+{"at":"2026-09-29T15:49:27.175Z","lesson":"houston","step":"upload","provider":"youtube","outcome":"uploaded","videoId":"e5ZudZh3Lng","publishAt":"2026-10-01T15:00:00.000Z"}
+{"at":"2026-09-29T15:49:27.410Z","lesson":"houston","step":"youtube","effect":"youtube.thumbnail","detail":{"provider":"youtube","url":"https://www.googleapis.com/upload/youtube/v3/thumbnails/set","method":"POST"}}

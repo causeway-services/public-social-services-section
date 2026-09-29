@@ -3,3 +3,6 @@
 {"at":"2026-09-29T15:22:45.127Z","lesson":"fractal-dimension-in-kinematic-space","provider":"notebooklm","step":"source","outcome":"uploaded","sourceId":"09b4922e-c85a-4c28-99af-b373b77ad7fc"}
 {"at":"2026-09-29T15:22:45.128Z","lesson":"fractal-dimension-in-kinematic-space","provider":"notebooklm","step":"video","outcome":"submitting","format":"cinematic"}
 {"at":"2026-09-29T15:22:50.025Z","lesson":"fractal-dimension-in-kinematic-space","provider":"notebooklm","step":"video","outcome":"submitted","artifactId":"d143e7ff-86e9-4069-9cfa-b5871959af39"}
+{"at":"2026-09-29T15:52:06.527Z","lesson":"fractal-dimension-in-kinematic-space","provider":"notebooklm","step":"download","outcome":"downloaded","bytes":38183729,"artifactId":"d143e7ff-86e9-4069-9cfa-b5871959af39"}
+{"at":"2026-09-29T15:52:53.546Z","lesson":"fractal-dimension-in-kinematic-space","step":"transcript","provider":"cloudflare-workers-ai","outcome":"transcribed","characters":5931}
+{"at":"2026-09-29T15:52:53.988Z","lesson":"fractal-dimension-in-kinematic-space","step":"blocked","status":"metadata-unavailable","message":"No inference provider delivered education-video-metadata: market-residue"}

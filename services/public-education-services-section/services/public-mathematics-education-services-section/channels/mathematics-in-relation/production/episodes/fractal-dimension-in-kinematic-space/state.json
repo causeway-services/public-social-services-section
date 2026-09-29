@@ -2,10 +2,10 @@
   "version": 1,
   "channel": "mathematics-in-relation",
   "lessonId": "fractal-dimension-in-kinematic-space",
-  "stage": "generating",
+  "stage": "transcribed",
   "createdAt": "2026-09-29T15:20:04.019Z",
   "commissionedAt": "2026-09-29T15:20:04.019Z",
-  "updatedAt": "2026-09-29T15:22:50.024Z",
+  "updatedAt": "2026-09-29T15:52:53.988Z",
   "researchSearches": 4,
   "reportSha256": "135857122e85e4652a02adff5c1470087818a490e0460dce2adcbbce68dff880",
   "notebookId": "67510ce7-79b3-4caa-b25c-28e0d3911b5a",
@@ -85,5 +85,14 @@
     "style": "auto",
     "language": "en"
   },
-  "artifactId": "d143e7ff-86e9-4069-9cfa-b5871959af39"
+  "artifactId": "d143e7ff-86e9-4069-9cfa-b5871959af39",
+  "downloadedArtifactId": "d143e7ff-86e9-4069-9cfa-b5871959af39",
+  "downloadedBytes": 38183729,
+  "downloadSha256": "sha256:9f5f4206b5f5e2b138e22e52da88353ca48dc366e541de11c76e81c5f96f65ee",
+  "reportSourceRemoved": true,
+  "lastError": {
+    "at": "2026-09-29T15:52:53.988Z",
+    "status": "metadata-unavailable",
+    "message": "No inference provider delivered education-video-metadata: market-residue"
+  }
 }

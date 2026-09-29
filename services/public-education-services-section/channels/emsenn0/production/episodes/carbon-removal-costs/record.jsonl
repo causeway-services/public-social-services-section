@@ -3,3 +3,6 @@
 {"at":"2026-09-29T15:19:22.345Z","lesson":"carbon-removal-costs","provider":"notebooklm","step":"source","outcome":"uploaded","sourceId":"24e29d11-ef8e-40be-9280-37143298487b"}
 {"at":"2026-09-29T15:19:22.345Z","lesson":"carbon-removal-costs","provider":"notebooklm","step":"video","outcome":"submitting","format":"explainer"}
 {"at":"2026-09-29T15:19:28.039Z","lesson":"carbon-removal-costs","provider":"notebooklm","step":"video","outcome":"submitted","artifactId":"d19641f0-6384-4c5a-b2a6-a9eddfbe4ee2"}
+{"at":"2026-09-29T15:50:13.448Z","lesson":"carbon-removal-costs","provider":"notebooklm","step":"download","outcome":"downloaded","bytes":51199984,"artifactId":"d19641f0-6384-4c5a-b2a6-a9eddfbe4ee2"}
+{"at":"2026-09-29T15:51:02.946Z","lesson":"carbon-removal-costs","step":"transcript","provider":"cloudflare-workers-ai","outcome":"transcribed","characters":11760}
+{"at":"2026-09-29T15:51:05.056Z","lesson":"carbon-removal-costs","step":"blocked","status":"metadata-unavailable","message":"No inference provider delivered education-video-metadata: market-residue"}

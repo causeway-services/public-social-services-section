@@ -2,10 +2,10 @@
   "version": 1,
   "channel": "emsenn0",
   "lessonId": "carbon-removal-costs",
-  "stage": "generating",
+  "stage": "transcribed",
   "createdAt": "2026-09-29T15:16:05.982Z",
   "commissionedAt": "2026-09-29T15:16:05.982Z",
-  "updatedAt": "2026-09-29T15:19:28.039Z",
+  "updatedAt": "2026-09-29T15:51:05.055Z",
   "researchSearches": 7,
   "reportSha256": "cbddfd18cf99ca95763416b919c8d6bd23bd3a055be0d455512e7df803994109",
   "notebookId": "67510ce7-79b3-4caa-b25c-28e0d3911b5a",
@@ -84,5 +84,14 @@
     "style": "auto",
     "language": "en"
   },
-  "artifactId": "d19641f0-6384-4c5a-b2a6-a9eddfbe4ee2"
+  "artifactId": "d19641f0-6384-4c5a-b2a6-a9eddfbe4ee2",
+  "downloadedArtifactId": "d19641f0-6384-4c5a-b2a6-a9eddfbe4ee2",
+  "downloadedBytes": 51199984,
+  "downloadSha256": "sha256:b08d6716e7f8831f9fdf211b9c80b29dc5cf5d5a58713df085be9d096d540355",
+  "reportSourceRemoved": true,
+  "lastError": {
+    "at": "2026-09-29T15:51:05.055Z",
+    "status": "metadata-unavailable",
+    "message": "No inference provider delivered education-video-metadata: market-residue"
+  }
 }
