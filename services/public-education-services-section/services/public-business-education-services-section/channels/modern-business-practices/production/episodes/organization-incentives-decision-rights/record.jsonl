@@ -3,3 +3,6 @@
 {"at":"2026-09-29T15:25:39.493Z","lesson":"organization-incentives-decision-rights","provider":"notebooklm","step":"source","outcome":"uploaded","sourceId":"704577d9-9ea1-4302-aa2a-dcc0ea1ad14c"}
 {"at":"2026-09-29T15:53:00.231Z","lesson":"organization-incentives-decision-rights","provider":"notebooklm","step":"video","outcome":"submitting","format":"explainer"}
 {"at":"2026-09-29T15:53:06.967Z","lesson":"organization-incentives-decision-rights","provider":"notebooklm","step":"video","outcome":"submitted","artifactId":"41f72e4c-b4b1-446b-9a8f-693a396afeca"}
+{"at":"2026-09-29T16:16:19.525Z","lesson":"organization-incentives-decision-rights","provider":"notebooklm","step":"download","outcome":"downloaded","bytes":46392894,"artifactId":"41f72e4c-b4b1-446b-9a8f-693a396afeca"}
+{"at":"2026-09-29T16:17:03.754Z","lesson":"organization-incentives-decision-rights","step":"transcript","provider":"cloudflare-workers-ai","outcome":"transcribed","characters":10721}
+{"at":"2026-09-29T16:17:03.847Z","lesson":"organization-incentives-decision-rights","step":"blocked","status":"metadata-unavailable","message":"No inference provider delivered education-video-metadata: market-residue"}

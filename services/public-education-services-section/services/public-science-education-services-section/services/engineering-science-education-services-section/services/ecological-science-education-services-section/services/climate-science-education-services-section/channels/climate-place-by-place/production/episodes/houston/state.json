@@ -2,10 +2,10 @@
   "version": 1,
   "channel": "climate-place-by-place",
   "lessonId": "houston",
-  "stage": "uploaded",
+  "stage": "scheduled",
   "createdAt": "2026-09-29T15:13:13.970Z",
   "commissionedAt": "2026-09-29T15:13:13.970Z",
-  "updatedAt": "2026-09-29T15:49:27.679Z",
+  "updatedAt": "2026-09-29T16:15:05.104Z",
   "researchSearches": 5,
   "reportSha256": "e32d509d0ebd0c1d80ff38dd9082803d22abbb9d4103c875387a10b7771eb13a",
   "notebookId": "67510ce7-79b3-4caa-b25c-28e0d3911b5a",
@@ -94,5 +94,7 @@
     "at": "2026-09-29T15:49:27.679Z",
     "code": "CUSTOM_THUMBNAIL_PERMISSION",
     "message": "YouTube custom-thumbnail permission is unavailable for this channel. Check YouTube Studio > Settings > Channel > Feature eligibility; the uploaded video and its publication schedule remain intact."
-  }
+  },
+  "lastError": null,
+  "publishAt": "2026-10-01T15:00:00Z"
 }

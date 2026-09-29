@@ -17,3 +17,4 @@
 {"at":"2026-09-29T15:49:25.943Z","lesson":"houston","step":"youtube","effect":"youtube.upload","detail":{"provider":"youtube","url":"https://www.googleapis.com/upload/youtube/v3/videos","method":"PUT"}}
 {"at":"2026-09-29T15:49:27.175Z","lesson":"houston","step":"upload","provider":"youtube","outcome":"uploaded","videoId":"e5ZudZh3Lng","publishAt":"2026-10-01T15:00:00.000Z"}
 {"at":"2026-09-29T15:49:27.410Z","lesson":"houston","step":"youtube","effect":"youtube.thumbnail","detail":{"provider":"youtube","url":"https://www.googleapis.com/upload/youtube/v3/thumbnails/set","method":"POST"}}
+{"at":"2026-09-29T16:15:05.105Z","lesson":"houston","step":"confirm","provider":"youtube","outcome":"scheduled","videoId":"e5ZudZh3Lng"}
