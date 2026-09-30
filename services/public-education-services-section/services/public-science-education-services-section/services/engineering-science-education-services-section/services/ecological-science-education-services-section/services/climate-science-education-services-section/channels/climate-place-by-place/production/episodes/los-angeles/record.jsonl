@@ -4,3 +4,5 @@
 {"at":"2026-09-30T15:21:05.683Z","lesson":"los-angeles","provider":"notebooklm","step":"source","outcome":"uploaded","sourceId":"62a574a6-6963-4af2-b339-3041b1a50605"}
 {"at":"2026-09-30T15:21:05.687Z","lesson":"los-angeles","provider":"notebooklm","step":"video","outcome":"submitting","format":"explainer"}
 {"at":"2026-09-30T15:21:11.593Z","lesson":"los-angeles","provider":"notebooklm","step":"video","outcome":"submitted","artifactId":"a19eaeb2-ff10-42ad-992d-bf83d1661fa0"}
+{"at":"2026-09-30T15:48:48.716Z","lesson":"los-angeles","provider":"notebooklm","step":"download","outcome":"downloaded","bytes":54918212,"artifactId":"a19eaeb2-ff10-42ad-992d-bf83d1661fa0"}
+{"at":"2026-09-30T15:48:58.136Z","lesson":"los-angeles","step":"video","outcome":"artifact-received","workLot":"ni:///sha-256;k5SOWIqF_5WCjg8zphoSC4wZuq376VqdBFHwus19Z74","receipt":"ni:///sha-256;dpDRDQK0fwf_iBIFr63R_qItvVk3uiyE74Ib3f2W7Wk","artifactId":"a19eaeb2-ff10-42ad-992d-bf83d1661fa0","output":"ni:///sha-256;LwSYrQKWROfrJheXDHrfgW_qhoEEpOGOWVzNITXKar0"}

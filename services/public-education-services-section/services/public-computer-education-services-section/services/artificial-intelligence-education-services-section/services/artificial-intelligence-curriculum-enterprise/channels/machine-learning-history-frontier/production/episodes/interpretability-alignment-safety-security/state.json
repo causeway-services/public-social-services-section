@@ -2,10 +2,10 @@
   "version": 1,
   "channel": "machine-learning-history-frontier",
   "lessonId": "interpretability-alignment-safety-security",
-  "stage": "source-processing",
+  "stage": "generating",
   "createdAt": "2026-09-30T15:21:50.126Z",
   "commissionedAt": "2026-09-30T15:21:50.126Z",
-  "updatedAt": "2026-09-30T15:27:19.176Z",
+  "updatedAt": "2026-09-30T15:49:37.082Z",
   "researchSearches": 4,
   "reportSha256": "4020562955c04852ad2b3e84769dfaaebf61f96525b4c929d728f3efa51f2293",
   "videoWorkLot": "ni:///sha-256;RGYONyqfAxn2Ec_78FMhlhw4J5rHs8jXiux_TqKLRhE",
@@ -37,5 +37,20 @@
   "sourceTitle": "machine-learning-history-frontier/interpretability-alignment-safety-security/4020562955c04852",
   "videoRequestSha256": "05cc468d4eae669a6b53d4cdb812b817b60bc9b2582542bff0fa22c970d31fbe",
   "sourceId": "1f35853f-945f-4f37-8c96-5b04c4f5592c",
-  "sourceOwned": true
+  "sourceOwned": true,
+  "videoAttempts": 1,
+  "generationStarted": true,
+  "generationAttempt": {
+    "number": 1,
+    "startedAt": "2026-09-30T15:49:31.907Z",
+    "sourceIds": [
+      "1f35853f-945f-4f37-8c96-5b04c4f5592c"
+    ],
+    "prompt": "Explain Interpretability, Alignment, Safety, and Security using the selected source reports. Preserve the distinctions, evidence, uncertainty, and learning objectives in the lesson brief. Do not introduce claims unsupported by the sources.\nInterpretability, Alignment, Safety, and Security",
+    "title": "Interpretability, Alignment, Safety, and Security",
+    "format": "explainer",
+    "style": "auto",
+    "language": "en"
+  },
+  "artifactId": "6109a82f-86cb-4d61-88b9-46b6a56a0355"
 }
