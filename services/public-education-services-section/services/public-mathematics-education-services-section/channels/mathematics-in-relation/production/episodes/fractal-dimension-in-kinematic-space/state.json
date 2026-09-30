@@ -2,10 +2,10 @@
   "version": 1,
   "channel": "mathematics-in-relation",
   "lessonId": "fractal-dimension-in-kinematic-space",
-  "stage": "uploaded",
+  "stage": "scheduled",
   "createdAt": "2026-09-29T15:20:04.019Z",
   "commissionedAt": "2026-09-29T15:20:04.019Z",
-  "updatedAt": "2026-09-30T22:33:45.665Z",
+  "updatedAt": "2026-09-30T22:56:40.559Z",
   "researchSearches": 4,
   "reportSha256": "135857122e85e4652a02adff5c1470087818a490e0460dce2adcbbce68dff880",
   "notebookId": "67510ce7-79b3-4caa-b25c-28e0d3911b5a",
@@ -99,5 +99,6 @@
     "at": "2026-09-30T22:33:45.524Z",
     "code": "CUSTOM_THUMBNAIL_PERMISSION",
     "message": "YouTube custom-thumbnail permission is unavailable for this channel. Check YouTube Studio > Settings > Channel > Feature eligibility; the uploaded video and its publication schedule remain intact."
-  }
+  },
+  "publishAt": "2026-10-01T15:00:00Z"
 }

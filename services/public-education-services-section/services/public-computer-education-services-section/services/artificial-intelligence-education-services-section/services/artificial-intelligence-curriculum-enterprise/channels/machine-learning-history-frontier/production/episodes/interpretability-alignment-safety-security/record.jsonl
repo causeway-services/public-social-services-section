@@ -18,3 +18,4 @@
 {"at":"2026-09-30T22:32:54.435Z","lesson":"interpretability-alignment-safety-security","step":"youtube","effect":"youtube.upload","detail":{"provider":"youtube","url":"https://www.googleapis.com/upload/youtube/v3/videos","method":"PUT"}}
 {"at":"2026-09-30T22:32:57.948Z","lesson":"interpretability-alignment-safety-security","step":"upload","provider":"youtube","outcome":"uploaded","videoId":"al2baEOsxHU","publishAt":"2026-10-05T15:00:00.000Z"}
 {"at":"2026-09-30T22:32:58.170Z","lesson":"interpretability-alignment-safety-security","step":"youtube","effect":"youtube.thumbnail","detail":{"provider":"youtube","url":"https://www.googleapis.com/upload/youtube/v3/thumbnails/set","method":"POST"}}
+{"at":"2026-09-30T22:56:23.580Z","lesson":"interpretability-alignment-safety-security","step":"confirm","provider":"youtube","outcome":"scheduled","videoId":"al2baEOsxHU"}

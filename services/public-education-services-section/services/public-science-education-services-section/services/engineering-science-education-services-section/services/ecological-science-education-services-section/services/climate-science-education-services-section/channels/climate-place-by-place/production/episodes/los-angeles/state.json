@@ -2,10 +2,10 @@
   "version": 1,
   "channel": "climate-place-by-place",
   "lessonId": "los-angeles",
-  "stage": "transcribed",
+  "stage": "uploaded",
   "createdAt": "2026-09-30T15:15:13.946Z",
   "commissionedAt": "2026-09-30T15:15:13.946Z",
-  "updatedAt": "2026-09-30T22:30:28.620Z",
+  "updatedAt": "2026-09-30T22:55:22.075Z",
   "researchSearches": 7,
   "reportSha256": "b4768c8a853829ca44e047bd56e576bc0a29ee7f58553ad9f95d20ecbc3b5023",
   "videoWorkLot": "ni:///sha-256;k5SOWIqF_5WCjg8zphoSC4wZuq376VqdBFHwus19Z74",
@@ -90,9 +90,12 @@
   "downloadSha256": "sha256:2f0498ad029644e7eb2617970c7adf816fea868104a4e18e595ccd2135ca6abd",
   "reportSourceRemoved": true,
   "videoWorkReceipt": "ni:///sha-256;dpDRDQK0fwf_iBIFr63R_qItvVk3uiyE74Ib3f2W7Wk",
-  "lastError": {
-    "at": "2026-09-30T22:30:28.619Z",
-    "status": "metadata-unavailable",
-    "message": "No inference provider delivered education-video-metadata: market-residue"
+  "lastError": null,
+  "plannedPublishAt": "2026-10-02T15:00:00.000Z",
+  "youtubeVideoId": "eNgEMHkBGhk",
+  "thumbnailError": {
+    "at": "2026-09-30T22:55:21.915Z",
+    "code": "CUSTOM_THUMBNAIL_PERMISSION",
+    "message": "YouTube custom-thumbnail permission is unavailable for this channel. Check YouTube Studio > Settings > Channel > Feature eligibility; the uploaded video and its publication schedule remain intact."
   }
 }

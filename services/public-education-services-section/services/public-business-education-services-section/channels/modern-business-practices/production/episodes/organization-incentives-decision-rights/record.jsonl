@@ -19,3 +19,4 @@
 {"at":"2026-09-30T22:34:05.537Z","lesson":"organization-incentives-decision-rights","step":"youtube","effect":"youtube.upload","detail":{"provider":"youtube","url":"https://www.googleapis.com/upload/youtube/v3/videos","method":"PUT"}}
 {"at":"2026-09-30T22:34:07.928Z","lesson":"organization-incentives-decision-rights","step":"upload","provider":"youtube","outcome":"uploaded","videoId":"QFtk_nQr17w","publishAt":"2026-10-03T15:00:00.000Z"}
 {"at":"2026-09-30T22:34:08.283Z","lesson":"organization-incentives-decision-rights","step":"youtube","effect":"youtube.thumbnail","detail":{"provider":"youtube","url":"https://www.googleapis.com/upload/youtube/v3/thumbnails/set","method":"POST"}}
+{"at":"2026-09-30T22:56:41.798Z","lesson":"organization-incentives-decision-rights","step":"confirm","provider":"youtube","outcome":"scheduled","videoId":"QFtk_nQr17w"}

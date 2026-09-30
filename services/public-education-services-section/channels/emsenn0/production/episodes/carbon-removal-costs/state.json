@@ -2,10 +2,10 @@
   "version": 1,
   "channel": "emsenn0",
   "lessonId": "carbon-removal-costs",
-  "stage": "uploaded",
+  "stage": "scheduled",
   "createdAt": "2026-09-29T15:16:05.982Z",
   "commissionedAt": "2026-09-29T15:16:05.982Z",
-  "updatedAt": "2026-09-30T22:31:21.331Z",
+  "updatedAt": "2026-09-30T22:56:22.509Z",
   "researchSearches": 7,
   "reportSha256": "cbddfd18cf99ca95763416b919c8d6bd23bd3a055be0d455512e7df803994109",
   "notebookId": "67510ce7-79b3-4caa-b25c-28e0d3911b5a",
@@ -95,5 +95,6 @@
   "plannedPublishAt": "2026-10-01T15:00:00.000Z",
   "youtubeVideoId": "yUNp5SSfLWo",
   "thumbnailUploaded": true,
-  "thumbnailError": null
+  "thumbnailError": null,
+  "publishAt": "2026-10-01T15:00:00Z"
 }

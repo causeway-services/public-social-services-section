@@ -2,10 +2,10 @@
   "version": 1,
   "channel": "machine-learning-history-frontier",
   "lessonId": "interpretability-alignment-safety-security",
-  "stage": "uploaded",
+  "stage": "scheduled",
   "createdAt": "2026-09-30T15:21:50.126Z",
   "commissionedAt": "2026-09-30T15:21:50.126Z",
-  "updatedAt": "2026-09-30T22:32:58.606Z",
+  "updatedAt": "2026-09-30T22:56:23.579Z",
   "researchSearches": 4,
   "reportSha256": "4020562955c04852ad2b3e84769dfaaebf61f96525b4c929d728f3efa51f2293",
   "videoWorkLot": "ni:///sha-256;RGYONyqfAxn2Ec_78FMhlhw4J5rHs8jXiux_TqKLRhE",
@@ -65,5 +65,6 @@
     "at": "2026-09-30T22:32:58.479Z",
     "code": "CUSTOM_THUMBNAIL_PERMISSION",
     "message": "YouTube custom-thumbnail permission is unavailable for this channel. Check YouTube Studio > Settings > Channel > Feature eligibility; the uploaded video and its publication schedule remain intact."
-  }
+  },
+  "publishAt": "2026-10-05T15:00:00Z"
 }

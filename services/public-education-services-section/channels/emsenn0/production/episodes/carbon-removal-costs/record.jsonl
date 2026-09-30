@@ -20,3 +20,4 @@
 {"at":"2026-09-30T22:31:14.929Z","lesson":"carbon-removal-costs","step":"youtube","effect":"youtube.upload","detail":{"provider":"youtube","url":"https://www.googleapis.com/upload/youtube/v3/videos","method":"PUT"}}
 {"at":"2026-09-30T22:31:15.490Z","lesson":"carbon-removal-costs","step":"upload","provider":"youtube","outcome":"uploaded","videoId":"yUNp5SSfLWo","publishAt":"2026-10-01T15:00:00.000Z"}
 {"at":"2026-09-30T22:31:15.804Z","lesson":"carbon-removal-costs","step":"youtube","effect":"youtube.thumbnail","detail":{"provider":"youtube","url":"https://www.googleapis.com/upload/youtube/v3/thumbnails/set","method":"POST"}}
+{"at":"2026-09-30T22:56:22.510Z","lesson":"carbon-removal-costs","step":"confirm","provider":"youtube","outcome":"scheduled","videoId":"yUNp5SSfLWo"}
