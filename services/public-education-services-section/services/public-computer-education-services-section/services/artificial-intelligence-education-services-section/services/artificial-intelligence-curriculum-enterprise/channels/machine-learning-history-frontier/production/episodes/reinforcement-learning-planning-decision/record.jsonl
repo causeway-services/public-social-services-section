@@ -19,3 +19,4 @@
 {"at":"2026-09-26T15:38:09.496Z","lesson":"reinforcement-learning-planning-decision","step":"upload","provider":"youtube","outcome":"uploaded","videoId":"nZRaEHJqohM","publishAt":"2026-09-30T15:00:00.000Z"}
 {"at":"2026-09-26T15:38:09.698Z","lesson":"reinforcement-learning-planning-decision","step":"youtube","effect":"youtube.thumbnail","detail":{"provider":"youtube","url":"https://www.googleapis.com/upload/youtube/v3/thumbnails/set","method":"POST"}}
 {"at":"2026-09-26T15:41:37.443Z","lesson":"reinforcement-learning-planning-decision","step":"confirm","provider":"youtube","outcome":"scheduled","videoId":"nZRaEHJqohM"}
+{"at":"2026-09-30T15:21:49.846Z","lesson":"reinforcement-learning-planning-decision","step":"confirm","provider":"youtube","outcome":"published","videoId":"nZRaEHJqohM"}

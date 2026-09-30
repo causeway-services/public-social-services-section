@@ -2,10 +2,10 @@
   "version": 1,
   "channel": "machine-learning-history-frontier",
   "lessonId": "reinforcement-learning-planning-decision",
-  "stage": "scheduled",
+  "stage": "published",
   "createdAt": "2026-09-26T15:14:24.161Z",
   "commissionedAt": "2026-09-26T15:14:24.161Z",
-  "updatedAt": "2026-09-26T15:41:37.442Z",
+  "updatedAt": "2026-09-30T15:21:49.845Z",
   "researchSearches": 4,
   "reportSha256": "f5333c8e5dbedeff875c3f92e971520e37a897d3dc383edfddd5ad4cc864dcf9",
   "notebookId": "9c3eed44-7fa3-4203-8b79-e0a20b91017f",
@@ -58,5 +58,5 @@
     "code": "CUSTOM_THUMBNAIL_PERMISSION",
     "message": "YouTube custom-thumbnail permission is unavailable for this channel. Check YouTube Studio > Settings > Channel > Feature eligibility; the uploaded video and its publication schedule remain intact."
   },
-  "publishAt": "2026-09-30T15:00:00Z"
+  "publishAt": "2026-09-30T15:00:17Z"
 }
