@@ -2,8 +2,10 @@
   "type": "KdpDeclarationsReceipt",
   "version": 1,
   "book": "the-agent-operators-handbook",
-  "declaredAt": null,
-  "acknowledged": false,
+  "declaredAt": "2026-09-30T02:17:55.746Z",
+  "acknowledged": true,
+  "attestedBy": "founder",
+  "attestation": "The founder attested the AI-content answers for the-agent-operators-handbook in the 2026-09-30 publishing session (\"Attest.\").",
   "answers": {
     "text": "AI-generated: the text was drafted by AI agents working for the 561 Group, then proofread by a separate AI agent.",
     "images": "None AI-generated: the cover is typeset by code from the book's title and design tokens.",
@@ -20,6 +22,5 @@
       "translations": "NONE"
     }
   },
-  "listing": "561-group-services-section/data/records/listings/book-retail-listings.json",
-  "pending": "Awaiting the founder's attestation of these answers; set acknowledged true, declaredAt, attestedBy and attestation when given."
+  "listing": "561-group-services-section/data/records/listings/book-retail-listings.json"
 }
