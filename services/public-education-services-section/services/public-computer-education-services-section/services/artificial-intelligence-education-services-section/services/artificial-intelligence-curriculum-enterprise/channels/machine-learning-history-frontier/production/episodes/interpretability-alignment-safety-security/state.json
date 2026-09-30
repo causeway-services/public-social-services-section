@@ -2,10 +2,10 @@
   "version": 1,
   "channel": "machine-learning-history-frontier",
   "lessonId": "interpretability-alignment-safety-security",
-  "stage": "generating",
+  "stage": "video-downloaded",
   "createdAt": "2026-09-30T15:21:50.126Z",
   "commissionedAt": "2026-09-30T15:21:50.126Z",
-  "updatedAt": "2026-09-30T15:49:37.082Z",
+  "updatedAt": "2026-09-30T16:11:19.640Z",
   "researchSearches": 4,
   "reportSha256": "4020562955c04852ad2b3e84769dfaaebf61f96525b4c929d728f3efa51f2293",
   "videoWorkLot": "ni:///sha-256;RGYONyqfAxn2Ec_78FMhlhw4J5rHs8jXiux_TqKLRhE",
@@ -52,5 +52,14 @@
     "style": "auto",
     "language": "en"
   },
-  "artifactId": "6109a82f-86cb-4d61-88b9-46b6a56a0355"
+  "artifactId": "6109a82f-86cb-4d61-88b9-46b6a56a0355",
+  "downloadedArtifactId": "6109a82f-86cb-4d61-88b9-46b6a56a0355",
+  "downloadedBytes": 50206575,
+  "downloadSha256": "sha256:e7255d2f4ea2bf7bf4423108b088e4c6b557335896e39586c7885f1bf2eb9ff6",
+  "reportSourceRemoved": true,
+  "videoWorkReceipt": "ni:///sha-256;vGfbhW8_fjhqqXfdzqwDYOKBctD9Iu34tbX7zlrBQCo",
+  "lastError": {
+    "at": "2026-09-30T16:11:19.640Z",
+    "message": "Workers AI @cf/openai/whisper-large-v3-turbo HTTP 429 (codes 4006)"
+  }
 }
