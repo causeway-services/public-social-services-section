@@ -16,6 +16,7 @@
     "@red-cup-engineering/computer-system-engine": "0.1.0",
     "@red-cup-engineering/cryptographic-computer-data-engineering-services-section": "0.3.0",
     "@red-cup-engineering/gemini-notebook-services-section": "0.6.0",
-    "@red-cup-engineering/computer-media-content-services-section": "0.1.0"
+    "@red-cup-engineering/computer-media-content-services-section": "0.1.0",
+    "@red-cup-engineering/computer-code-development-engine": "0.3.0"
   }
 }
