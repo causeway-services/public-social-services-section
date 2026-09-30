@@ -550,7 +550,8 @@ with the book's worked examples.
 
 ## Who wrote it
 
-The 561 Group wrote this book. It's the sixth in the Group's series of study
+Causeway Services, the public-services division of the 561 Group, wrote
+this book. It's the sixth in the Group's series of study
 companions. The Group runs a small online marketplace of its own, so it has a
 stake in the platform questions of Chapter 6; its research notes, with every
 source this book cites, are kept with the date each was read.

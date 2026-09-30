@@ -1,0 +1,26 @@
+{
+  "type": "KdpDeclarationsReceipt",
+  "version": 1,
+  "book": "ux-design-course-by-course",
+  "declaredAt": null,
+  "acknowledged": false,
+  "answers": {
+    "text": "AI-generated: the text was drafted by AI agents working for the 561 Group, then proofread by a separate AI agent.",
+    "images": "None AI-generated: the cover is typeset by code from the book's title and design tokens.",
+    "translations": "None."
+  },
+  "attestedBy": null,
+  "attestation": "Pending: the founder attests these AI-content answers before the KDP listing is published; until then acknowledged stays false and the KDP gate refuses.",
+  "kdpForm": {
+    "text": "AI-generated: yes, the entire work",
+    "images": "none",
+    "translations": "none",
+    "note": "The most disclosing accurate option is chosen: the whole text is AI-generated and no person edited it (another AI agent proofread it); the cover is typeset by code, with no drawing or image model.",
+    "options": {
+      "text": "ENTIRE_AND_MINIMAL",
+      "images": "NONE",
+      "translations": "NONE"
+    }
+  },
+  "listing": "561-group-services-section/data/records/listings/book-retail-listings.json"
+}

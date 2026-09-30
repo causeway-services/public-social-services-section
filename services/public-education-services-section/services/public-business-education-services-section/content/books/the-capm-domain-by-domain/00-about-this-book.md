@@ -547,7 +547,8 @@ the practice exam in Chapter 7 once, timed, about two weeks before your exam.
 
 ## Who wrote it
 
-The 561 Group wrote this book. It's the second in the Group's series of
+Causeway Services, the public-services division of the 561 Group, wrote
+this book. It's the second in the Group's series of
 study companions; the first follows Google's Project Management certificate.
 Every source it cites is in the Group's research notes, with the date it was
 read.

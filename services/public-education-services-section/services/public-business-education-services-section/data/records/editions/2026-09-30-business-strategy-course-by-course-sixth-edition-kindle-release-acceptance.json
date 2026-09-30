@@ -1,0 +1,27 @@
+{
+  "kind": "sign.cell",
+  "id": "ni:///sha-256;pPNnSMyvGNAbUCRDGw9O5LVFWDF_yz3BUd7stLR4Nek",
+  "type": "org.561-group.ebook.kindle-release-acceptance.v1",
+  "content": {
+    "type": "KindleReleaseAcceptance",
+    "version": 1,
+    "status": "release-ready",
+    "book": "business-strategy-course-by-course",
+    "editionInputDigest": "ni:///sha-256;UblTKtTBQSy0QgyI-VJFT0eoP20H_Fu8k9tuNZygSE0",
+    "rendition": {
+      "kind": "EPUB",
+      "artifactSha256": "db9ba27a84a98f4a06b5c41fd818cde045d588fb8970a2b1b43b39705add51a2"
+    },
+    "closedObligationIds": [
+      "editorial-proof",
+      "epub-conformance",
+      "accessibility-assessment"
+    ],
+    "evidence": {
+      "editorialProof": "ni:///sha-256;eNjuLyTA1D0d8dVJhMzkawRcjbOqkLGLZD7eB1vQCAY",
+      "validation": "ni:///sha-256;BRhxyTBDRjutT4BpgCwE_drxeAfE8ghtk01MXjKSyVk",
+      "conformanceReport": "db0e84738885085543233817ef75e6d17c6ee710542b2e483082f8fec897b9ed",
+      "accessibilityConformanceClaim": null
+    }
+  }
+}

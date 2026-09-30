@@ -508,7 +508,8 @@ work on that topic.
 
 ## Who wrote it
 
-The 561 Group wrote this book. The Group is a small company that researches,
+Causeway Services, the public-services division of the 561 Group, wrote
+this book. The Group is a small company that researches,
 builds and publishes; this book is the first in its series of study
 companions. Every source it cites is in the Group's research notes, with the
 date it was read.

@@ -1,23 +1,28 @@
 {
   "slug": "business-management-course-by-course",
   "title": "Business Management, Course by Course",
-  "subtitle": "An Independent Study Companion to Cornell's Business Management Essentials Certificate",
-  "author": "561 Group",
-  "date": "2026-09-27",
+  "subtitle": "An Independent Study Companion for Online Business Management Certificate Courses",
+  "author": "Causeway Services",
+  "publisher": "Causeway Services",
+  "date": "2026-09-29",
   "bookDir": ".",
   "distDir": "../../../data/state/editions/business-management-course-by-course",
   "tokens": "../../../../../../../../../../561-group-services-section/services/561-group-content-design-services-section/data/records/design-tokens/561-group.tokens.json",
   "cover": "typographic",
   "profile": "study-guide",
   "series": {
-    "name": "561 Group Study Companions",
+    "name": "Causeway Study Companions",
     "number": 5
   },
   "description": "A study companion to Cornell’s Business Management Essentials certificate: finance, marketing, strategy, organizing and leading. Independent of Cornell.",
   "keywords": [
     "business management",
     "eCornell",
-    "study guide"
+    "study guide",
+    "management certificate",
+    "leadership",
+    "business fundamentals",
+    "career development"
   ],
   "subjects": [
     "BUS041000",

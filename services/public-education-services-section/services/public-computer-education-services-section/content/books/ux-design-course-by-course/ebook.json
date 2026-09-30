@@ -1,16 +1,17 @@
 {
   "slug": "ux-design-course-by-course",
   "title": "UX Design, Course by Course",
-  "subtitle": "An Independent Study Companion to the Google UX Design Professional Certificate",
-  "author": "561 Group",
-  "date": "2026-09-27",
+  "subtitle": "An Independent Study Companion for Entry-Level UX Design Certificate Courses",
+  "author": "Causeway Services",
+  "publisher": "Causeway Services",
+  "date": "2026-09-29",
   "bookDir": ".",
   "distDir": "../../../data/state/editions/ux-design-course-by-course",
   "tokens": "../../../../../../../../../../561-group-services-section/services/561-group-content-design-services-section/data/records/design-tokens/561-group.tokens.json",
   "cover": "typographic",
   "profile": "study-guide",
   "series": {
-    "name": "561 Group Study Companions",
+    "name": "Causeway Study Companions",
     "number": 4
   },
   "description": "A study companion to Google’s UX Design Certificate: the design process from its sources, accessibility throughout, and a portfolio guide. Independent of Google and Coursera.",
@@ -18,7 +19,11 @@
     "UX design",
     "accessibility",
     "Google certificate",
-    "study guide"
+    "study guide",
+    "UX design certificate",
+    "user research",
+    "wireframes and prototypes",
+    "career change"
   ],
   "subjects": [
     "COM079010",

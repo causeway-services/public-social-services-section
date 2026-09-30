@@ -477,6 +477,7 @@ your own portfolio project.
 
 ## Who wrote it
 
-The 561 Group wrote this book. It's the fourth in the Group's series of
+Causeway Services, the public-services division of the 561 Group, wrote
+this book. It's the fourth in the Group's series of
 study companions. Every source it cites is in the Group's research notes, with
 the date it was read.

@@ -1,16 +1,17 @@
 {
   "slug": "business-strategy-course-by-course",
   "title": "Business Strategy, Course by Course",
-  "subtitle": "An Independent Study Companion to Cornell's Business Strategy Certificate",
-  "author": "561 Group",
-  "date": "2026-09-27",
+  "subtitle": "An Independent Study Companion for Online Business Strategy Certificate Courses",
+  "author": "Causeway Services",
+  "publisher": "Causeway Services",
+  "date": "2026-09-29",
   "bookDir": ".",
   "distDir": "../../../data/state/editions/business-strategy-course-by-course",
   "tokens": "../../../../../../../../../../561-group-services-section/services/561-group-content-design-services-section/data/records/design-tokens/561-group.tokens.json",
   "cover": "typographic",
   "profile": "study-guide",
   "series": {
-    "name": "561 Group Study Companions",
+    "name": "Causeway Study Companions",
     "number": 6
   },
   "description": "A study companion to Cornell’s Business Strategy certificate: value, disruption, alliances, game theory and platforms. Independent of Cornell.",
@@ -18,7 +19,11 @@
     "business strategy",
     "eCornell",
     "game theory",
-    "study guide"
+    "study guide",
+    "strategy certificate",
+    "competitive strategy",
+    "strategic management",
+    "career development"
   ],
   "subjects": [
     "BUS063000",
