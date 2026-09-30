@@ -32,6 +32,14 @@
     ],
     "reason": "meet-then-beat doctrine (owner-ruled 2026-09-01): house digital goods do not route through a marketplace incumbent; Gumroad/Lemon Squeezy/Payhip researched as the incumbent capability census (meet-gap list), not as the selling channel."
   },
+  "channels": [
+    {
+      "id": "kdp",
+      "where": "Kindle Direct Publishing (Kindle eBook)",
+      "state": "kdp-submitted: first edition submitted to KDP 2026-09-30 (UTC) as title A22K2NZB4BLBAE, in review (up to 72 hours), $12.00 US, 70% royalty, worldwide, not in KDP Select; by Causeway Services; the founder clicked Publish. AI answers attested in ../../data/records/launches/2026-09-30-the-agent-operators-handbook-kdp-declarations.json. Kobo, Google Play Books, Apple Books and Barnes & Noble Press not yet submitted.",
+      "edition": "../../data/records/editions/2026-09-30-the-agent-operators-handbook-first-edition-kindle-release-acceptance.json"
+    }
+  ],
   "meetGaps": [
     {
       "capability": "hosted checkout UI",
