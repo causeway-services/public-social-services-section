@@ -1,0 +1,33 @@
+{
+  "id": "ni:///sha-256;BeIcIXgtAMc15l6QvAQDkP__Bm9L2SXd5T8Aaf_KeuU",
+  "type": "MediaArtifactWorkCompletion",
+  "workLot": "modern-business-practices/organization-incentives-decision-rights/thumbnail",
+  "request": "ni:///sha-256;l7ZRF5pwNJ5qUiwvukZtpPdDAxD_fCq2WRXEA2zam6M",
+  "principal": "urn:ame:public-education-services-section",
+  "capability": "image-generation",
+  "providerIdentity": "cloudflare-workers-ai",
+  "product": "@cf/black-forest-labs/flux-1-schnell",
+  "executionMode": "direct-api-endpoint",
+  "prompt": "ni:///sha-256;MNIVeN79L5Fluj4sBvfEpaqvQb4KPxmr4X8vN4oc1mA",
+  "promptText": "Create an original editorial illustration for a YouTube thumbnail. Panoramic 16:9 composition, all essential subjects within the middle horizontal 16:9 band, clear focal point and readable forms at small sizes. No text, letters, numbers, labels, logos, signatures, or watermarks.\n\nA diagram showing the different components of an organization, including decision-making, incentives, and coordination, with arrows indicating the flow of information and power.",
+  "sources": [
+    {
+      "path": "/home/emsenn/info/lib/emsenn/services/561-group/services/public-services-section/services/public-social-services-section/services/public-education-services-section/services/public-business-education-services-section/content/curricula/modern-firm-as-operational-system/lessons/organization-incentives-decision-rights/report.md",
+      "identity": "ni:///sha-256;7LRQ62l6sqb4rvo6IPc5NOTXBMj0fAXzk3MDk_afNHc"
+    },
+    {
+      "path": "/home/emsenn/info/lib/emsenn/services/561-group/services/public-services-section/services/public-social-services-section/services/public-education-services-section/services/public-business-education-services-section/channels/modern-business-practices/production/episodes/organization-incentives-decision-rights/transcript.md",
+      "identity": "ni:///sha-256;WRcOk1Gp2AUiHNc0uhFRhHSrC8wYrbLEtKIA5GflqKs"
+    }
+  ],
+  "output": {
+    "identity": "ni:///sha-256;oJEsBxX80PEOm6mkq8C3GgGwWh1O1FmyaKzX6renwuI",
+    "bytes": 41935,
+    "mimeType": "image/jpeg"
+  },
+  "resource": {
+    "status": "not-observed"
+  },
+  "recordedAt": "2026-09-30T22:33:51.113Z",
+  "publishedImage": "ni:///sha-256;oJEsBxX80PEOm6mkq8C3GgGwWh1O1FmyaKzX6renwuI"
+}
