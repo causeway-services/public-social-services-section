@@ -27,7 +27,7 @@ template from the appendix an actual habit both people use, consistently
 enough that a brief either of you writes is legible to the other without
 a conversation first. If your team is small, this can be as simple as a
 shared convention: every dispatch brief lives in a shared note or a PR
-description, in the same four-field shape, before the agent is
+description, in the same shape as the appendix brief template, before the agent is
 dispatched. The goal isn't bureaucracy. It's making sure the same
 completeness that protects you from a subagent's guesswork also protects
 your teammate from yours.

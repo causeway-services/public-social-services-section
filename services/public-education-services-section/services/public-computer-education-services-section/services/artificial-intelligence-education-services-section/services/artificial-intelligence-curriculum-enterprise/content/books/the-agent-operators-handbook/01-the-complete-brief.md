@@ -29,7 +29,7 @@ A complete brief does not guarantee good work — an agent can still
 misjudge something, misread a file, or make a reasonable call you'd have
 made differently. But an *incomplete* brief guarantees confidently wrong
 work, because the agent will not stop and ask; it will fill the gap with
-its own best guess and proceed as if that guess were given fact. The
+its own best guess and proceed as if that guess were a given fact. The
 guess is usually plausible. It is also usually not what you meant.
 
 ## The four things every brief needs
@@ -95,7 +95,7 @@ will catch this long before it costs you a broken deploy.
 
 ## Deciding whether to dispatch at all
 
-The completest brief in the world is still wasted if the dispatch itself
+The most complete brief in the world is still wasted if the dispatch itself
 wasn't warranted. Before you write a brief, ask one question: can the
 result actually change your next decision? If you already know the
 answer — you're dispatching to double-check something you're confident

@@ -11,7 +11,7 @@ does next — a correction, new information, a redirection. It's worth
 understanding precisely what that message does mechanically, because the
 wrong mental model here causes real mistakes.
 
-A steering message queues for the agent's *next tool call*. It does not
+In most current tools, a steering message queues for the agent's *next tool call*. It does not
 interrupt whatever the agent is doing mid-action. If the agent is in the
 middle of running a long build, your message waits until that build
 finishes and the agent goes to decide its next step; it does not stop the

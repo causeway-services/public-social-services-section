@@ -38,7 +38,8 @@ from Chapter 1, just multiplied.
 
 Fan out only when all three of these hold:
 
-**1. The resulting lots are few enough to name individually.** If you
+**1. The resulting lots (the pieces you divide the task into) are few
+enough to name individually.** If you
 can't write, in the brief itself, a short list of exactly what each
 agent owns — "Agent A: the payments service; Agent B: the notifications
 service; Agent C: the admin dashboard" — you don't have a real split, you

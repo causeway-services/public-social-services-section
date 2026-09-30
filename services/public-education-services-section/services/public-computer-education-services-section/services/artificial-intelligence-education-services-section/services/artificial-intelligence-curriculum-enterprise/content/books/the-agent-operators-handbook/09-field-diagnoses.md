@@ -65,9 +65,9 @@ slow and the agent's repeated status messages just look like a stall.
 
 **Fix:** apply the one-nudge rule once — check whether the underlying
 process is actually alive, kill it if it's hung, try the step yourself
-in the foreground once, and act on the real answer. Don't send a sixth
+in the foreground once, and act on the real answer. Don't send another
 "are you still there?" hoping for a different result than the first
-five got.
+one got.
 
 **Read:** Chapter 3, "The one-nudge rule for a stuck agent."
 
@@ -187,7 +187,7 @@ the appendix.
 
 ## Using this chapter
 
-None of these ten entries is a substitute for the reasoning in the
+None of these twelve entries is a substitute for the reasoning in the
 chapter it points to — they're a fast way to place a live situation
 against the right discipline when you don't have time to reread eight
 chapters from scratch. If a situation you hit isn't listed here, the

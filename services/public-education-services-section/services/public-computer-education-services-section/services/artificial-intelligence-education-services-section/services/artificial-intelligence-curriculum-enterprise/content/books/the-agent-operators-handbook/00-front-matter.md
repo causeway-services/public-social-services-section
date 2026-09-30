@@ -1,24 +1,8 @@
 ---
-title: Front Matter
+title: About this book
 ---
 
-# The Agent Operator's Handbook
-
-### A Field Guide to Dispatching, Steering, and Recovering Multiple AI Coding Agents at Once
-
-*Published by 561 Group*
-
----
-
-Copyright (c) 2026 561 Group. All rights reserved.
-
-This book is sold for the use of the individual purchaser. No part of it
-may be reproduced, redistributed, or resold without written permission,
-except for brief quotations used in a review.
-
-First edition.
-
----
+# About this book {.unnumbered}
 
 ## Who this book is for
 
@@ -54,7 +38,7 @@ decision checklist, a recovery runbook, a minimal receipt format, and a
 coordination protocol for two or more people (or agents) sharing one
 repository -- close out the book.
 
-Every chapter includes at least one worked example grounded in an ordinary
+Chapters 1 through 6 each include at least one worked example grounded in an ordinary
 software project -- nothing here requires you to understand any
 particular company's internal tooling or vocabulary. The case study in
 Chapter 7 is real and dated; every other example is a composite built to

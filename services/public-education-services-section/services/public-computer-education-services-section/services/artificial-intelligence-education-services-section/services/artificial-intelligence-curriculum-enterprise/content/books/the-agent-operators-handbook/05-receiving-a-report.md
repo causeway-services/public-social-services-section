@@ -117,7 +117,7 @@ on had a documented outage in the same window.
 
 Agent A reports: "Deploy timestamps don't line up cleanly with the error
 spike — the spike started about eleven minutes before the deploy
-completed." Agent B reports: "The third-party API's own status page
+started." Agent B reports: "The third-party API's own status page
 shows a partial outage starting nine minutes before your error spike,
 lasting eighteen minutes."
 

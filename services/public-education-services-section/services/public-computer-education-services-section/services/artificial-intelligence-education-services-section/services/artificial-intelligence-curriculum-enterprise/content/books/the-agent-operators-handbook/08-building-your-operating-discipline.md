@@ -104,8 +104,8 @@ is. A more durable path:
 **Week 1: the brief.** Just the four elements from Chapter 1 — outcome,
 scope, permitted operation, done-measure — on every dispatch, nothing
 else. This alone eliminates the single most common failure mode
-(confident, wrong work from an incomplete brief) and is the highest-
-leverage habit in the book.
+(confident, wrong work from an incomplete brief) and is the highest-leverage
+habit in the book.
 
 **Week 2: receiving.** Add the discipline of demanding verbatim evidence
 and verifying the one load-bearing claim yourself before forwarding a
