@@ -2,10 +2,10 @@
   "version": 1,
   "channel": "climate-place-by-place",
   "lessonId": "los-angeles",
-  "stage": "uploaded",
+  "stage": "scheduled",
   "createdAt": "2026-09-30T15:15:13.946Z",
   "commissionedAt": "2026-09-30T15:15:13.946Z",
-  "updatedAt": "2026-09-30T22:55:22.075Z",
+  "updatedAt": "2026-09-30T23:16:34.505Z",
   "researchSearches": 7,
   "reportSha256": "b4768c8a853829ca44e047bd56e576bc0a29ee7f58553ad9f95d20ecbc3b5023",
   "videoWorkLot": "ni:///sha-256;k5SOWIqF_5WCjg8zphoSC4wZuq376VqdBFHwus19Z74",
@@ -97,5 +97,6 @@
     "at": "2026-09-30T22:55:21.915Z",
     "code": "CUSTOM_THUMBNAIL_PERMISSION",
     "message": "YouTube custom-thumbnail permission is unavailable for this channel. Check YouTube Studio > Settings > Channel > Feature eligibility; the uploaded video and its publication schedule remain intact."
-  }
+  },
+  "publishAt": "2026-10-02T15:00:00Z"
 }

@@ -20,3 +20,4 @@
 {"at":"2026-09-30T22:55:19.497Z","lesson":"los-angeles","step":"youtube","effect":"youtube.upload","detail":{"provider":"youtube","url":"https://www.googleapis.com/upload/youtube/v3/videos","method":"PUT"}}
 {"at":"2026-09-30T22:55:21.341Z","lesson":"los-angeles","step":"upload","provider":"youtube","outcome":"uploaded","videoId":"eNgEMHkBGhk","publishAt":"2026-10-02T15:00:00.000Z"}
 {"at":"2026-09-30T22:55:21.585Z","lesson":"los-angeles","step":"youtube","effect":"youtube.thumbnail","detail":{"provider":"youtube","url":"https://www.googleapis.com/upload/youtube/v3/thumbnails/set","method":"POST"}}
+{"at":"2026-09-30T23:16:34.511Z","lesson":"los-angeles","step":"confirm","provider":"youtube","outcome":"scheduled","videoId":"eNgEMHkBGhk"}
