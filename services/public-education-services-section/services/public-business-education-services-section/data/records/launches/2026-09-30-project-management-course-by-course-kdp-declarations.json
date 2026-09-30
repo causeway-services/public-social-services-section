@@ -2,15 +2,15 @@
   "type": "KdpDeclarationsReceipt",
   "version": 1,
   "book": "project-management-course-by-course",
-  "declaredAt": null,
-  "acknowledged": false,
+  "declaredAt": "2026-09-30T01:34:12.252Z",
+  "acknowledged": true,
   "answers": {
     "text": "AI-generated: the text was drafted by AI agents working for the 561 Group, then proofread by a separate AI agent.",
     "images": "None AI-generated: the cover is typeset by code from the book's title and design tokens.",
     "translations": "None."
   },
-  "attestedBy": null,
-  "attestation": "Pending: the founder attests these AI-content answers before the KDP listing is published; until then acknowledged stays false and the KDP gate refuses.",
+  "attestedBy": "founder",
+  "attestation": "The founder attested the AI-content answers for project-management-course-by-course in the 2026-09-30 publishing session (\"Attest.\").",
   "kdpForm": {
     "text": "AI-generated: yes, the entire work",
     "images": "none",
