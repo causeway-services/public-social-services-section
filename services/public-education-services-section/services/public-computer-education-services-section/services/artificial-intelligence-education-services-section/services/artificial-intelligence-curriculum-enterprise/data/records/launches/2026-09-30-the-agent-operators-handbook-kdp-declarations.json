@@ -20,7 +20,11 @@
       "text": "ENTIRE_AND_MINIMAL",
       "images": "NONE",
       "translations": "NONE"
-    }
+    },
+    "tools": {
+      "text": "Claude (Anthropic)"
+    },
+    "toolsProvenance": "The manuscript was drafted by Claude Sonnet 5 subagents in Claude Code (commit 5ebd4033c0f) and revised and proofread by Claude Opus 5.5; no other model wrote its text."
   },
   "listing": "561-group-services-section/data/records/listings/book-retail-listings.json"
 }
