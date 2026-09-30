@@ -5,7 +5,7 @@
   "stage": "transcribed",
   "createdAt": "2026-09-29T15:23:07.156Z",
   "commissionedAt": "2026-09-29T15:23:07.156Z",
-  "updatedAt": "2026-09-29T17:25:39.819Z",
+  "updatedAt": "2026-09-30T09:56:20.400Z",
   "researchSearches": 5,
   "reportSha256": "ecb450eb697ab2a6f8aefa3a20f73934e4d704c8f47c05f393730393f69f3477",
   "notebookId": "763fbe07-e786-4e23-9b33-b53f05230573",
@@ -51,9 +51,8 @@
   "downloadSha256": "sha256:ca3bc89b2c590848f4c82a6016d970a60389e94039842920d71dcac8d06a41c8",
   "reportSourceRemoved": true,
   "lastError": {
-    "at": "2026-09-29T16:17:03.846Z",
-    "status": "metadata-unavailable",
-    "message": "No inference provider delivered education-video-metadata: market-residue"
+    "at": "2026-09-30T09:56:20.400Z",
+    "message": "all image providers failed: [{\"provider\":\"callCloudflareWorkersAIImage\",\"error\":\"cloudflare workers ai request failed: HTTP 502 {\\\"error\\\":\\\"4006: you have used up your daily free allocation of 10,000 neurons, please upgrade to Cloudflare's Workers Paid plan if you would like to continue usage.\\\"}\"},{\"provider\":\"callWorkersAiImage\",\"error\":\"Workers AI @cf/black-forest-labs/flux-1-schnell HTTP 429 (codes 4006)\"}]"
   },
   "videoWorkLot": "ni:///sha-256;11Ou5TpKFSlAmNiUrR2pEzw3jj8BylQQLZqlj3B_hFY",
   "videoWorkReceipt": "ni:///sha-256;5KCGowBrJf4KgVeb-gP3IxwjFcVXsN6NpA4H_em0rP8"
