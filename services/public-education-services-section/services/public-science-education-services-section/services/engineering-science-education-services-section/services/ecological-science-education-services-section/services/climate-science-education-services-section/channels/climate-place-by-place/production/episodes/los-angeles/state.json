@@ -5,7 +5,7 @@
   "stage": "video-downloaded",
   "createdAt": "2026-09-30T15:15:13.946Z",
   "commissionedAt": "2026-09-30T15:15:13.946Z",
-  "updatedAt": "2026-09-30T19:14:21.149Z",
+  "updatedAt": "2026-09-30T19:36:58.945Z",
   "researchSearches": 7,
   "reportSha256": "b4768c8a853829ca44e047bd56e576bc0a29ee7f58553ad9f95d20ecbc3b5023",
   "videoWorkLot": "ni:///sha-256;k5SOWIqF_5WCjg8zphoSC4wZuq376VqdBFHwus19Z74",
@@ -91,7 +91,7 @@
   "reportSourceRemoved": true,
   "videoWorkReceipt": "ni:///sha-256;dpDRDQK0fwf_iBIFr63R_qItvVk3uiyE74Ib3f2W7Wk",
   "lastError": {
-    "at": "2026-09-30T19:14:21.149Z",
+    "at": "2026-09-30T19:36:58.945Z",
     "message": "Workers AI @cf/openai/whisper-large-v3-turbo HTTP 429 (codes 4006)"
   }
 }
