@@ -1,0 +1,26 @@
+{
+  "id": "mathematics-in-relation-channel-lead",
+  "name": "Mathematics in Relation (YouTube) lead",
+  "kind": "office",
+  "normative-structure": "The Mathematics in Relation (YouTube) lead answers for the demand Mathematics in Relation (YouTube) takes from the settlement signal board: it assesses each taken demand in the terms of the faces Mathematics in Relation (YouTube) serves, turns what is Mathematics in Relation (YouTube)'s work into work its own offices do, posts what another micro-enterprise does back on the board, and gives back what is not Mathematics in Relation (YouTube)'s work with its reasons. It staffs nothing outside Mathematics in Relation (YouTube), does not hand a signal to a chosen enterprise, and does not accept its own results.",
+  "deontic-profile": {
+    "assessing-mathematics-in-relation-channel-demand": "duty",
+    "accepting-its-own-work": "deontic-immunity"
+  },
+  "bears-duty": [
+    "emsenn/duty/assessing-mathematics-in-relation-channel-demand"
+  ],
+  "provides-skill": [
+    "assess-taken-demand"
+  ],
+  "jurisdiction": "mathematics-in-relation-channel",
+  "founded": "2026-09-30",
+  "theory-basis": [
+    "Rendanheyi sanquan: a micro-enterprise's decision right (what it takes) and personnel right (who does it) are its own; its lead staffs only from its own offices"
+  ],
+  "x-provenance": {
+    "recorded-by": "claude-opus-5-5",
+    "recorded-on": "2026-09-30",
+    "source": "561-group-services-section/content/text/documents/articles/notes/2026/09/30/2026-09-30-note-on-micro-enterprises-holding-their-own-work.md"
+  }
+}

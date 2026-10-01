@@ -1,0 +1,17 @@
+{
+  "id": "assessing-machine-learning-history-frontier-channel-demand",
+  "name": "assessing Machine Learning: History & Frontiers (YouTube) demand",
+  "authority": "machine-learning-history-frontier-channel-lead",
+  "work": "assessing-machine-learning-history-frontier-channel-demand",
+  "claim": "machine-learning-history-frontier-channel-lead",
+  "skills": [
+    "assess-taken-demand"
+  ],
+  "delegation": true,
+  "receiver-condition": "The signal's assayer, or an office of the poster, reads the assessment's evidence and accepts or declines it; the lead never receives its own assessment.",
+  "x-provenance": {
+    "recorded-by": "claude-opus-5-5",
+    "recorded-on": "2026-09-30",
+    "source": "561-group-services-section/content/text/documents/articles/notes/2026/09/30/2026-09-30-note-on-micro-enterprises-holding-their-own-work.md"
+  }
+}
