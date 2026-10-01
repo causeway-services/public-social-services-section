@@ -8,7 +8,7 @@
     "assess-taken-demand"
   ],
   "delegation": true,
-  "receiver-condition": "The signal's assayer, or an office of the poster, reads the assessment's evidence and accepts or declines it; the lead never receives its own assessment.",
+  "receiver-condition": "The thread's assayer, or an office of its opener, reads the assessment's evidence and accepts or declines it; the lead never receives its own assessment.",
   "x-provenance": {
     "recorded-by": "claude-opus-5-5",
     "recorded-on": "2026-09-30",
