@@ -45,7 +45,7 @@ This chapter is the whole book collapsed into one table. Every graded claim made
 | 5   | `HoareProgram` has four fields — precondition, move, postcondition, and the proof `preserves`                                                                                                                        | PROVED, no axioms                                                     | `Obsmetrologia.Computing.HoareProgram`, `Obsmetrologia.Computing.HoareProgram.preserves_post`, `HoareProgram.lean`                  |
 | 5   | “The proof is not an optional fourth metaphorical corner; it is what warrants the traversal”                                                                                                                         | DOCUMENTED                                                            | `2026-07-18-gyrobifastigial-chu-hoare-territory-audit.md`                                                                           |
 | 5   | `KeratinousHoareProgram`’s move locks an irreversible history then settles to the least compatible state                                                                                                             | PROVED (Quot.sound)                                                   | `keratinousHoareProgram_least_compatible_state`, `HoareProgram.lean`                                                                |
-| 5   | `HoareProgram.lean` was, for a period, absent from the live Lean tree while MetroPlat’s contracts cited it by name; restored 2026-09-03                                                                              | verified against disk, this session                                   | `Obsmetrologia/Computing/HoareProgram.lean`                                                                                         |
+| 5   | `HoareProgram.lean` was, for a period, absent from the live Lean tree while MetroPlat’s contracts cited it by name; restored 2026-09-03                                                                              | verified against disk, this session                                   | `ObsmetrologiaComputing/HoareProgram.lean`                                                                                         |
 | 5   | `{P} f {Q} iff P <= f*(Q)`, proved for total deterministic Boolean programs; the FOUR-valued, partial, refusing generalization is open                                                                               | PROVED (scratch, no axioms), generalization OPEN                      | `boolean_hoare_is_lax_chu`, compiled 2026-07-18 audit, not committed to Obsmetrologia                                               |
 | 5   | “Rendanheyi wrapper around a Huidu Guanli interior” corresponds to Hoare programs and the gyrobifastigial cell                                                                                                       | OWNER-STATED                                                          | 2026-09-03, `.claude/skills/build-the-semiotic-language-model/SKILL.md`                                                             |
 | 5   | Rendanheyi is the hull doctrine; Huidu Guanli is the kernel doctrine                                                                                                                                                 | DOCUMENTED                                                            | `rendanheyi-enterprise-services-section/README.md`, `huidu-guanli-enterprise-services-section/README.md`                            |
@@ -151,7 +151,7 @@ Five places in this corpus disagree with themselves, or with the actual formal r
 - `operations-services-section/lib/legacy/2026-08-03-leader-services-section/content/documents/articles/notes/2026/07/18/2026-07-18-gyrobifastigial-chu-hoare-territory-audit.md`
 - `Obsmetrologia/.../twist-product/references/twist-product-chu-correspondence.md`
 - `engineering-services-section/content/text/documents/articles/notes/2026/08/01/2026-08-01-note-on-the-content-addressed-glass-sponge-semantic-compute-complex.md`
-- `Obsmetrologia/Computing/HoareProgram.lean`
+- `ObsmetrologiaComputing/HoareProgram.lean`
 - `operations-services-section/lib/legacy/2026-08-03-leader-services-section/.../2026-07-16-research-on-rendanheyi-is-a-hoare-program.md`
 - `operations-services-section/services/enterprise-services-section/services/enterprise-systems-services-section/services/rendanheyi-enterprise-services-section/README.md`
 - `operations-services-section/services/enterprise-services-section/services/enterprise-systems-services-section/services/huidu-guanli-enterprise-services-section/README.md`
@@ -159,9 +159,9 @@ Five places in this corpus disagree with themselves, or with the actual formal r
 - `Obsmetrologia/AperiodicOrder/Tiling/J26.lean`
 - `operations-services-section/lib/legacy/2026-08-03-leader-services-section/content/documents/articles/notes/2026/07/19/2026-07-19-the-dervish-is-the-territorys-protected-defect.md`
 - `public-services-section/services/personal-services-section/emsenn-services-section/content/text/documents/articles/notes/2026/07/02/2026-07-02-conjecture-on-dervishes.md`
-- `Obsmetrologia/AperiodicOrder/Defect.lean`
-- `Obsmetrologia/QuantumContextuality/DisclinationLink.lean`
-- `Obsmetrologia/QuantumContextuality/KCBS.lean`
+- `ObsmetrologiaPhysicalScience/CondensedMatter/Defect.lean`
+- `ObsmetrologiaPhysicalScience/QuantumContextuality/DisclinationLink.lean`
+- `ObsmetrologiaPhysicalScience/QuantumContextuality/KCBS.lean`
 - `Obsmetrologia/Dynamics/Flow/ChromaticTileGap.lean`
 - `561-group-services-section/content/text/documents/articles/notes/2026/08/16/2026-08-16-note-on-561-group-as-meme-beadworkers.md`
 - `science-services-section/content/text/documents/articles/notes/2026/07/25/2026-07-25-note-on-relational-physics-of-coordination.md`
