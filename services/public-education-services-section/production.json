@@ -1,3 +1,10 @@
 {
-  "researchModel": "gpt-5.6-sol"
+  "researchModel": "gpt-5.6-sol",
+  "videoRetry": {
+    "preferredFormatAttempts": 2,
+    "fallbackFormats": [
+      "explainer",
+      "brief"
+    ]
+  }
 }

@@ -9,11 +9,13 @@
 //   begin-thumbnail <channel> <lesson>      claim the held account capacity before using its UI
 //   adopt-thumbnail <channel> <lesson> <image> <spent-units>  accept operator image
 //   release-thumbnail <channel> <lesson> <reason>  release a packet with no artifact
-//   retry <channel> <lesson>                retry an explicitly selected failed video
+//   retry <channel> <lesson>                readmit a failed or abandoned video to its formats
 //   verify [channel|all]                    confirm each channel's YouTube credential
 //
 // Production commissions unpublished curriculum lessons to fill upcoming slots.
-// Running produce again continues where the last run stopped.
+// Running produce again continues where the last run stopped. The exit status
+// reports a fault in the program or its retained data; a lesson that is waiting
+// on a provider, an operator or a retry is an outcome, printed but not a fault.
 import { join } from "node:path";
 import { homedir } from "node:os";
 import { createNotebookAdapter } from "@red-cup-engineering/gemini-notebook-services-section/gemini-notebook-cli";
@@ -22,6 +24,7 @@ import { adoptArtifact, adoptOperatorThumbnail, advanceLesson, beginOperatorThum
 import { createYouTube } from "@emsenn/youtube-engineering-services-section/api";
 import { existsSync, readdirSync } from "node:fs";
 import { extendCurriculum } from "./curriculum.mjs";
+import { EducationCandidateRefusal, EducationInferenceUnavailable } from "./inference.mjs";
 
 loadEnvironment();
 process.env.EXPECTED_RESOLUTION_PRICING_ROOT ||= join(
@@ -37,6 +40,9 @@ const episodes = (config) => {
   return existsSync(dir) ? readdirSync(dir).filter((id) => existsSync(join(dir, id, "state.json"))).map((id) => episodeState(config, id)) : [];
 };
 const FINISHED = new Set(["scheduled", "published"]);
+const ABANDONED = "abandoned";
+// Blocked statuses that mean retained state or provenance disagrees with itself.
+const FAULT = /changed|missing|mismatch|corrupt|provenance|conflict|invalid|rejected/u;
 const BUFFER_SLOTS = 2;
 const historyOf = (config) => readJson(join(config.directory, "history.json"), {});
 const historyEntries = (history) => [...(history.publications ?? []), ...(history.ready ?? [])];
@@ -91,14 +97,14 @@ if (command === "status") {
     } else {
       const pending = config.curriculum.filter((lesson) => {
         const state = byLesson.get(lesson.id);
-        return state?.stage === "scheduled" || (!historical.has(lesson.id) && isRequested(lesson, state) && !FINISHED.has(state?.stage));
+        return state?.stage === "scheduled" || (!historical.has(lesson.id) && isRequested(lesson, state) && !FINISHED.has(state?.stage) && state?.stage !== ABANDONED);
       });
       const pendingIds = new Set(pending.map(({ id }) => id));
       const future = futureUploads(uploads, new Date());
       lessons = pending;
       const pendingReservations = pending.filter((lesson) => !byLesson.get(lesson.id)?.youtubeVideoId && !represented.has(lesson.id)).length;
       const needed = inventoryAvailable ? Math.max(0, BUFFER_SLOTS - future.length - pendingReservations) : 0;
-      const available = () => config.curriculum.filter((lesson) => !historical.has(lesson.id) && !represented.has(lesson.id) && !byLesson.get(lesson.id)?.youtubeVideoId && !pendingIds.has(lesson.id));
+      const available = () => config.curriculum.filter((lesson) => !historical.has(lesson.id) && !represented.has(lesson.id) && !byLesson.get(lesson.id)?.youtubeVideoId && byLesson.get(lesson.id)?.stage !== ABANDONED && !pendingIds.has(lesson.id));
       let candidates = available();
       if (candidates.length < needed) {
         try {
@@ -106,7 +112,7 @@ if (command === "status") {
           config.curriculum.push(...added);
           candidates = available();
         } catch (error) {
-          failures += 1;
+          if (!(error instanceof EducationInferenceUnavailable || error instanceof EducationCandidateRefusal)) failures += 1;
           out({ channel: config.id, status: "curriculum-extension-failed", error: error.message });
         }
       }
@@ -116,7 +122,7 @@ if (command === "status") {
       try {
         const result = await advanceLesson(config, lesson.id, { commissioned: true });
         out(result);
-        if (!FINISHED.has(result.status) && !["video-processing", "source-processing", "youtube-processing"].includes(result.status)) failures += 1;
+        if (FAULT.test(result.status)) failures += 1;
       } catch (error) { failures += 1; out({ channel: config.id, lesson: lesson.id, error: error.message }); }
     }
     } catch (error) {
@@ -146,8 +152,8 @@ if (command === "status") {
 } else if (command === "retry") {
   const [channel, lesson] = positional;
   if (!channel || !lesson) throw new Error("usage: retry <channel> <lesson>");
-  await retryVideo(loadChannel(channel), lesson);
-  out({ channel, lesson, status: "retry-authorized" });
+  retryVideo(loadChannel(channel), lesson);
+  out({ channel, lesson, status: "readmitted" });
 } else if (command === "verify") {
   for (const config of channelsOf(positional[0])) {
     try {

@@ -8,8 +8,11 @@
 // state and artifacts. The channel runner commissions curriculum lessons to fill
 // upcoming publication slots and retains that request across restarts. A
 // report shorter than 2000 words is researched again before it is used. An
-// uncertain video submission is reconciled against its exact provider inputs;
-// confirmed failures have bounded retries. Each step appends what it did to the
+// uncertain video submission is reconciled against its exact provider inputs.
+// A provider-confirmed video failure counts against the format it asked for;
+// the next attempt follows production.json's videoRetry (the channel's format
+// again, then fallback formats), and a lesson whose formats are all spent is
+// abandoned: it releases its publication slot and waits for `retry`. Each step appends what it did to the
 // episode's record.jsonl: the public account of how the video was made.
 import { appendFileSync, existsSync, mkdirSync, readFileSync, renameSync } from "node:fs";
 import { join } from "node:path";
@@ -51,6 +54,16 @@ export function isRequested(lesson, state) {
 }
 
 const REPORT_MINIMUM_WORDS = 2000;
+
+/** Confirmed video failures by format; episodes from before videoFailures count theirs against the channel's format. */
+const videoFailures = (config, state) => [...(state.videoFailures ?? (state.failedArtifacts ?? []).map((artifactId) => ({ artifactId, format: config.video.format })))];
+
+/** The format of the next video attempt, or undefined once every format in the retry policy is spent. */
+export function nextVideoFormat(config, failures, retry = policy().videoRetry ?? {}) {
+  const preferred = config.video.format ?? "explainer";
+  const plan = [[preferred, retry.preferredFormatAttempts ?? 2], ...(retry.fallbackFormats ?? ["explainer", "brief"]).filter((format) => format !== preferred).map((format) => [format, 1])];
+  return plan.find(([format, attempts]) => failures.filter((failure) => failure.format === format).length < attempts)?.[0];
+}
 
 function researchPrompt(config, lesson) {
   const briefPath = lesson.brief && containedPath(config.curriculumDirectory, lesson.brief);
@@ -142,18 +155,39 @@ export async function advanceLesson(config, lessonId, { env = process.env, now =
     if (researchOnly) return { channel: config.id, lesson: lessonId, status: "researched", report: paths.report };
 
     if (!state.youtubeVideoId) {
-      const videoRequest = { ...config.video, prompt: config.video.prompt?.replaceAll("{{title}}", lesson.title) };
+      const failures = videoFailures(config, state);
+      if (state.stage === "video-failed" && state.artifactId && !failures.some((failure) => failure.artifactId === state.artifactId)) {
+        failures.push({ artifactId: state.artifactId, format: state.generationAttempt?.format ?? config.video.format, at: now.toISOString() });
+      }
+      if (JSON.stringify(state.videoFailures) !== JSON.stringify(failures)) save({ videoFailures: failures });
+      const format = nextVideoFormat(config, failures);
+      if (!format) {
+        if (state.sourceOwned && state.sourceId && !state.reportSourceRemoved) {
+          try { await notebook.removeSources({ notebookId: state.notebookId, sourceIds: [state.sourceId] }); save({ reportSourceRemoved: true }); }
+          catch (error) { record({ step: "source", provider: "notebooklm", outcome: "cleanup-deferred", message: error.message }); }
+        }
+        if (state.stage !== "abandoned") {
+          save({ stage: "abandoned", abandonedAt: now.toISOString(), lastError: null });
+          record({ step: "video", outcome: "abandoned", failures });
+        }
+        return { channel: config.id, lesson: lessonId, status: "abandoned", stage: "abandoned", message: `Every video format failed (${failures.length} attempts); \`retry\` readmits it` };
+      }
+      if (state.stage === "video-failed") await retryNotebookVideo({ checkpoint: state, onCheckpoint: save, onRecord: (entry) => record({ provider: "notebooklm", ...entry, format }) });
+      const videoRequest = { ...config.video, format, prompt: config.video.prompt?.replaceAll("{{title}}", lesson.title) };
       const videoWork = createMediaArtifactWorkLot({
         workLot: `${config.id}/${lessonId}/video`, principal: "urn:ame:public-education-services-section",
         capability: "source-grounded-video-overview", prompt: JSON.stringify({ title: lesson.title, video: videoRequest }),
         sources: [{ path: paths.report, identity: sha256ni(paths.report) }], outputMimeType: "video/mp4",
       });
       const videoWorkPath = join(dir, "video-work.json");
+      // The request may change only while no submission is bound to it (a retry's next format).
+      const unsubmitted = !state.generationStarted && !state.artifactId;
       const retainedVideoWork = readJson(videoWorkPath, null);
-      if (retainedVideoWork && JSON.stringify(retainedVideoWork) !== JSON.stringify(videoWork)) throw new LessonBlocked("video-work-changed", "The retained video request differs from its source report or settings");
-      if (!retainedVideoWork) writeAtomic(videoWorkPath, videoWork);
-      if (state.videoWorkLot && state.videoWorkLot !== videoWork.id) throw new LessonBlocked("video-work-changed", "The source or video request changed after the work lot was accepted");
-      if (!state.videoWorkLot) { save({ videoWorkLot: videoWork.id }); record({ step: "video", outcome: "work-requested", capability: videoWork.capability, workLot: videoWork.id }); }
+      const retainedSame = JSON.stringify(retainedVideoWork) === JSON.stringify(videoWork);
+      if (retainedVideoWork && !retainedSame && !unsubmitted) throw new LessonBlocked("video-work-changed", "The retained video request differs from its source report or settings");
+      if (!retainedSame) writeAtomic(videoWorkPath, videoWork);
+      if (state.videoWorkLot && state.videoWorkLot !== videoWork.id && !unsubmitted) throw new LessonBlocked("video-work-changed", "The source or video request changed after the work lot was accepted");
+      if (state.videoWorkLot !== videoWork.id) { save({ videoWorkLot: videoWork.id }); record({ step: "video", outcome: "work-requested", capability: videoWork.capability, workLot: videoWork.id, format }); }
       // notebook: the channel's NotebookLM notebook.
       if (!state.notebookId) {
         const channelNotebook = join(config.directory, "production", "notebook.json");
@@ -176,6 +210,8 @@ export async function advanceLesson(config, lessonId, { env = process.env, now =
         notebookId: state.notebookId, checkpoint: state, onCheckpoint: save,
         onRecord: (entry) => record({ provider: "notebooklm", ...entry }), notebook,
       });
+      // A confirmed failure goes straight to the next attempt (or abandonment) above.
+      if (rendered instanceof NotebookVideoBlocked && rendered.status === "video-failed") return advanceLesson(config, lessonId, { env, now: new Date(), notebook, youtube, commissioned });
       if (rendered instanceof NotebookVideoBlocked) throw new LessonBlocked(rendered.status, rendered.message);
       const videoReceiptPath = join(dir, "video-work-receipt.json");
       let videoReceipt = readJson(videoReceiptPath, null);
@@ -409,12 +445,13 @@ export async function adoptArtifact(config, lessonId, artifactId, { notebook = c
   return result.artifact;
 }
 
-/** Retry an explicitly selected failed provider job. */
-export async function retryVideo(config, lessonId, { notebook = createNotebookAdapter() } = {}) {
-  const checkpoint = episodeState(config, lessonId);
-  if (checkpoint?.youtubeVideoId) throw new Error("An uploaded episode cannot regenerate its video");
-  return retryNotebookVideo({ checkpoint, notebook,
-    onCheckpoint: (state) => writeAtomic(join(episodeDirectory(config, lessonId), "state.json"), state),
-    onRecord: (entry) => recordStep(config, lessonId, { provider: "notebooklm", ...entry }),
-  });
+/** Readmit a failed or abandoned lesson: the next run tries its video formats again from the first. */
+export function retryVideo(config, lessonId) {
+  const state = episodeState(config, lessonId);
+  if (state?.youtubeVideoId) throw new Error("An uploaded episode cannot regenerate its video");
+  if (!["video-failed", "abandoned"].includes(state?.stage)) throw new Error("Only a failed or abandoned video can be readmitted");
+  // An abandoned lesson's report source was removed from the notebook; the next attempt uploads it again.
+  const source = state.reportSourceRemoved ? { sourceId: null, sourceSubmission: null, sourceOwned: false, reportSourceRemoved: false } : {};
+  writeAtomic(join(episodeDirectory(config, lessonId), "state.json"), { ...state, ...source, stage: "video-failed", videoFailures: [], abandonedAt: null, lastError: null, updatedAt: new Date().toISOString() });
+  recordStep(config, lessonId, { step: "video", outcome: "readmitted", failures: videoFailures(config, state).length });
 }
