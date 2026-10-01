@@ -110,6 +110,21 @@
       ],
       "title": "Carbon Removal: Who Bears the Costs, Who Decides?",
       "whyItMayMatter": "A carbon removal method appears differently as a technical reliability problem, a municipal cost, a community health risk, a regulatory compliance issue, and a long-term environmental liability."
+    },
+    {
+      "id": "cold-chain-logistics-equity",
+      "title": "The Cold Chain: Who Bears the Risk of Spoilage?",
+      "question": "How do the technical requirements of temperature-controlled supply chains distribute economic risk and food security between producers, logistics providers, and consumers?",
+      "whyItMayMatter": "The physical necessity of refrigeration transforms a biological reality (perishability) into a complex economic system of insurance, energy costs, and infrastructure investment, where the failure of a single technical link often shifts the financial burden to the most vulnerable actors in the chain.",
+      "tags": [
+        "cold chain",
+        "food security",
+        "logistics",
+        "economic systems",
+        "technical systems",
+        "supply chain risk",
+        "infrastructure"
+      ]
     }
   ],
   "audience": "Curious adults seeking source-grounded explanations",
