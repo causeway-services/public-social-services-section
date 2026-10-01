@@ -24,7 +24,7 @@ function retain(directory, pathspecs, message) {
   const result = commitGitPaths({ packageRoot: repository }, { paths, message, push: true });
   // A refused join leaves the producer's files and commit intact for the next run.
   // Do not stage unrelated source, rebase shared main, or discard another index.
-  return { ...result, repository, committed: result.head ?? false, pushed: result.ok };
+  return { ...result, repository, committed: result.created ? result.head : false, pushed: result.ok };
 }
 
 export async function persistCheckpoint({ educationRoot = EDUCATION_ROOT, message = "Retain channel production state" } = {}) {
