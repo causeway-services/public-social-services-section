@@ -125,6 +125,22 @@
         "supply chain risk",
         "infrastructure"
       ]
+    },
+    {
+      "id": "water-rights-irrigation-ai",
+      "title": "Water Rights and AI: Who Owns the Flow?",
+      "question": "How do historical water rights frameworks interact with modern AI-driven irrigation and data center cooling to determine who retains access to water and who bears the cost of scarcity?",
+      "whyItMayMatter": "Water is a physical resource governed by legal and social contracts, but its allocation is increasingly mediated by technical systems like AI optimization and data center demand. Understanding this intersection reveals how technical efficiency can reinforce or disrupt existing social hierarchies, turning a natural resource into a contested economic and political asset.",
+      "tags": [
+        "water rights",
+        "AI irrigation",
+        "data center cooling",
+        "resource allocation",
+        "social systems",
+        "technical systems",
+        "economic systems",
+        "environmental governance"
+      ]
     }
   ],
   "audience": "Curious adults seeking source-grounded explanations",
