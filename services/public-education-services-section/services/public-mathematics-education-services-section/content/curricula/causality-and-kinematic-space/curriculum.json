@@ -426,6 +426,18 @@
       ],
       "title": "Fractal dimension in kinematic space",
       "whyItMayMatter": "Understanding the fractal dimension of subsets in kinematic space can provide insights into the structure of spacetime and the behavior of physical systems at different scales."
+    },
+    {
+      "id": "causal-entropy-density",
+      "title": "Causal entropy density in kinematic space",
+      "question": "How does the local density of causal entropy in kinematic space relate to the curvature of the underlying spacetime?",
+      "whyItMayMatter": "This connects the geometric structure of kinematic space to physical observables, providing a potential bridge between abstract causal order and measurable spacetime properties.",
+      "tags": [
+        "causal-entropy",
+        "kinematic-space",
+        "spacetime-curvature",
+        "information-geometry"
+      ]
     }
   ]
 }
