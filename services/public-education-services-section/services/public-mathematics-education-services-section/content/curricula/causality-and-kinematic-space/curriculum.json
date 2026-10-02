@@ -438,6 +438,19 @@
         "spacetime-curvature",
         "information-geometry"
       ]
+    },
+    {
+      "id": "causal-structure-entropy",
+      "title": "Causal structure entropy and spacetime reconstruction",
+      "question": "How does the entropy of the causal order (defined via the number of distinct causal relations) constrain the reconstruction of the underlying Lorentzian metric?",
+      "whyItMayMatter": "This connects the abstract partial order of causality to the geometric metric, addressing the core competency of distinguishing causal order from metric distance and exploring the limits of reconstructing spacetime geometry from causal data alone.",
+      "tags": [
+        "causal-order",
+        "lorentzian-geometry",
+        "entropy",
+        "spacetime-reconstruction",
+        "kinematic-space"
+      ]
     }
   ]
 }
