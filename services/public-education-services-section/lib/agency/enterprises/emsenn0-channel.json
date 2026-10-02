@@ -11,8 +11,7 @@
   "takes": {
     "words": [
       "emsenn0"
-    ],
-    "limit": 4
+    ]
   },
   "assesses": {
     "work": "assessing-emsenn0-channel-demand",

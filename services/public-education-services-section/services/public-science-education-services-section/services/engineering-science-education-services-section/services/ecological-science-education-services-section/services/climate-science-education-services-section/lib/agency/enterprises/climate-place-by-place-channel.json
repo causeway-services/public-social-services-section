@@ -13,8 +13,7 @@
       "climate, place-by-place",
       "climateplace-by-place",
       "climate-place-by-place"
-    ],
-    "limit": 4
+    ]
   },
   "assesses": {
     "work": "assessing-climate-place-by-place-channel-demand",
