@@ -7,10 +7,14 @@ import { parseEnv } from "node:util";
 import { fileURLToPath } from "node:url";
 import { writeFileAtomic } from "@red-cup-engineering/computer-system-engine/filesystem";
 import { readYouTubeCredentials } from "@emsenn/youtube-engineering-services-section/credentials";
+import { workingTreeOf } from "@red-cup-engineering/computer-code-development-engine/git/working-tree";
 
 export const PACKAGE_ROOT = resolve(dirname(fileURLToPath(import.meta.url)), "..");
 
-export const EDUCATION_ROOT = process.env.YOUTUBE_EDUCATION_ROOT ?? PACKAGE_ROOT;
+// Channels and curricula are data: a node job holding working-tree custody reads and writes them in
+// the node's working tree, never in the release it runs from; anywhere else they are beside the code.
+export const EDUCATION_ROOT = process.env.YOUTUBE_EDUCATION_ROOT
+  ?? (process.env.NODE_JOB_WORKING_TREE ? resolve(workingTreeOf(import.meta.url).here, "..") : PACKAGE_ROOT);
 
 export function readJson(path, fallback) {
   if (!existsSync(path) && arguments.length > 1) return fallback;
@@ -84,10 +88,14 @@ export function lessonReportPath(config, lesson) {
   return containedPath(config.curriculumDirectory, lesson.report || `lessons/${lesson.id}/report.md`);
 }
 
-/** Load the node's YouTube credentials, then KEY=value lines from every .env from this package up to the filesystem root, never overriding the environment. */
+/**
+ * Load the node's YouTube credentials, then KEY=value lines from every .env from the education root
+ * (this package, or its place in the node's working tree) up to the filesystem root, never
+ * overriding the environment.
+ */
 export function loadEnvironment() {
   for (const [key, value] of Object.entries(readYouTubeCredentials())) if (!(key in process.env)) process.env[key] = value;
-  for (let dir = PACKAGE_ROOT; ; dir = dirname(dir)) {
+  for (let dir = EDUCATION_ROOT; ; dir = dirname(dir)) {
     const path = join(dir, ".env");
     if (existsSync(path)) {
       const values = parseEnv(readFileSync(path, "utf8"));
