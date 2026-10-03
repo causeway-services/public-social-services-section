@@ -12,19 +12,23 @@
 //   retry <channel> <lesson>                readmit a failed or abandoned video to its formats
 //   verify [channel|all]                    confirm each channel's YouTube credential
 //
-// Production commissions unpublished curriculum lessons to fill upcoming slots.
+// Production commissions unpublished curriculum lessons to fill upcoming slots,
+// and beyond them as many as the channels' fair share of the Gemini Notebook
+// windows ahead can render (video-capacity.mjs; production.json `capacity`),
+// since an allowance unspent at its window's reset is lost.
 // Running produce again continues where the last run stopped. The exit status
 // reports a fault in the program or its retained data; a lesson that is waiting
 // on a provider, an operator or a retry is an outcome, printed but not a fault.
 import { join } from "node:path";
 import { homedir } from "node:os";
 import { createNotebookAdapter } from "@red-cup-engineering/gemini-notebook-services-section/gemini-notebook-cli";
-import { channelIds, loadChannel, loadEnvironment, readJson } from "./channel.mjs";
+import { channelIds, loadChannel, loadEnvironment, PACKAGE_ROOT, readJson } from "./channel.mjs";
 import { adoptArtifact, adoptOperatorThumbnail, advanceLesson, beginOperatorThumbnail, episodeState, isRequested, releaseOperatorThumbnail, retryVideo } from "./lesson.mjs";
 import { createYouTube } from "@emsenn/youtube-engineering-services-section/api";
 import { existsSync, readdirSync } from "node:fs";
 import { extendCurriculum } from "./curriculum.mjs";
 import { EducationCandidateRefusal, EducationInferenceUnavailable } from "./inference.mjs";
+import { planVideoCommissioning } from "./video-capacity.mjs";
 
 loadEnvironment();
 process.env.EXPECTED_RESOLUTION_PRICING_ROOT ||= join(
@@ -43,6 +47,7 @@ const FINISHED = new Set(["scheduled", "published"]);
 const ABANDONED = "abandoned";
 // Blocked statuses that mean retained state or provenance disagrees with itself.
 const FAULT = /changed|missing|mismatch|corrupt|provenance|conflict|invalid|rejected/u;
+// The publication buffer kept whatever capacity allows.
 const BUFFER_SLOTS = 2;
 const historyOf = (config) => readJson(join(config.directory, "history.json"), {});
 const historyEntries = (history) => [...(history.publications ?? []), ...(history.ready ?? [])];
@@ -74,20 +79,48 @@ if (command === "status") {
   out(await advanceLesson(loadChannel(channel), lesson, { researchOnly: true }));
 } else if (command === "produce") {
   const [channel = "all", only] = positional;
-  for (const config of channelsOf(channel)) {
+  // Every enabled channel is inventoried, since all of them share the account's windows.
+  const inventories = [];
+  for (const config of channelsOf("all")) {
     try {
-    const byLesson = new Map(episodes(config).map((state) => [state.lessonId, state]));
-    const history = historyOf(config);
-    const historical = historicalLessons(history, config.curriculum);
-    const youtube = createYouTube({ channelId: config.youtubeChannelId, refreshTokenEnv: config.refreshTokenEnv, env: process.env, fetchImpl: globalThis.fetch, authorize: async () => {} });
-    let uploads = [], inventoryAvailable = true;
-    try { uploads = await youtube.listUploads(); }
-    catch (error) {
-      inventoryAvailable = false;
+      const byLesson = new Map(episodes(config).map((state) => [state.lessonId, state]));
+      const history = historyOf(config);
+      const historical = historicalLessons(history, config.curriculum);
+      const youtube = createYouTube({ channelId: config.youtubeChannelId, refreshTokenEnv: config.refreshTokenEnv, env: process.env, fetchImpl: globalThis.fetch, authorize: async () => {} });
+      let uploads = [], inventoryAvailable = true;
+      try { uploads = await youtube.listUploads(); }
+      catch (error) {
+        inventoryAvailable = false;
+        if (channel === "all" || channel === config.id) { failures += 1; out({ channel: config.id, status: "youtube-inventory-unavailable", error: error.message }); }
+      }
+      const represented = new Set(uploads.map((upload) => productionLesson(config, upload)).filter(Boolean));
+      const pending = config.curriculum.filter((lesson) => {
+        const state = byLesson.get(lesson.id);
+        return state?.stage === "scheduled" || (!historical.has(lesson.id) && isRequested(lesson, state) && !FINISHED.has(state?.stage) && state?.stage !== ABANDONED);
+      });
+      const unpublished = pending.filter((lesson) => !byLesson.get(lesson.id)?.youtubeVideoId && !represented.has(lesson.id));
+      const future = futureUploads(uploads, new Date());
+      inventories.push({ config, byLesson, history, historical, represented, inventoryAvailable, pending, future,
+        pendingReservations: unpublished.length, episodes: [...byLesson.values()],
+        queued: unpublished.filter((lesson) => { const state = byLesson.get(lesson.id); return !state?.generationStarted && !state?.artifactId; }).length,
+        scheduled: future.length + unpublished.length });
+    } catch (error) {
       failures += 1;
-      out({ channel: config.id, status: "youtube-inventory-unavailable", error: error.message });
+      out({ channel: config.id, error: error.message });
     }
-    const represented = new Set(uploads.map((upload) => productionLesson(config, upload)).filter(Boolean));
+  }
+  let targets = new Map();
+  try {
+    const commissioning = await planVideoCommissioning(inventories.filter(({ inventoryAvailable }) => inventoryAvailable), { policy: readJson(join(PACKAGE_ROOT, "production.json"), {}).capacity });
+    targets = commissioning.targets;
+    out({ status: "capacity", plans: commissioning.plans });
+  } catch (error) {
+    failures += 1;
+    out({ status: "capacity-unavailable", error: error.message });
+  }
+  for (const inventory of inventories.filter(({ config }) => channel === "all" || channel === config.id)) {
+    const { config, byLesson, history, historical, represented, inventoryAvailable, pending, future, pendingReservations } = inventory;
+    try {
     let lessons;
     if (only) {
       const named = config.curriculum.find((lesson) => lesson.id === only);
@@ -95,15 +128,9 @@ if (command === "status") {
       lessons = historical.has(only) || (represented.has(only) && !byLesson.get(only)?.youtubeVideoId) ? [] : [named];
       if (!lessons.length) out({ channel: config.id, lesson: only, status: "already-covered" });
     } else {
-      const pending = config.curriculum.filter((lesson) => {
-        const state = byLesson.get(lesson.id);
-        return state?.stage === "scheduled" || (!historical.has(lesson.id) && isRequested(lesson, state) && !FINISHED.has(state?.stage) && state?.stage !== ABANDONED);
-      });
       const pendingIds = new Set(pending.map(({ id }) => id));
-      const future = futureUploads(uploads, new Date());
-      lessons = pending;
-      const pendingReservations = pending.filter((lesson) => !byLesson.get(lesson.id)?.youtubeVideoId && !represented.has(lesson.id)).length;
-      const needed = inventoryAvailable ? Math.max(0, BUFFER_SLOTS - future.length - pendingReservations) : 0;
+      lessons = [...pending];
+      const needed = inventoryAvailable ? Math.max(0, BUFFER_SLOTS - future.length - pendingReservations, targets.get(config.id) ?? 0) : 0;
       const available = () => config.curriculum.filter((lesson) => !historical.has(lesson.id) && !represented.has(lesson.id) && !byLesson.get(lesson.id)?.youtubeVideoId && byLesson.get(lesson.id)?.stage !== ABANDONED && !pendingIds.has(lesson.id));
       let candidates = available();
       if (candidates.length < needed) {

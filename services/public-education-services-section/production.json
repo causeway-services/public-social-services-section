@@ -6,5 +6,10 @@
       "explainer",
       "brief"
     ]
+  },
+  "capacity": {
+    "lookaheadWindows": 2,
+    "horizonDays": 21,
+    "fairnessDays": 7
   }
 }
