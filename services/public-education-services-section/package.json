@@ -4,6 +4,9 @@
   "description": "Public education services section.",
   "type": "module",
   "private": true,
+  "exports": {
+    "./obligations": "./src/obligations.mjs"
+  },
   "scripts": {
     "status": "node src/cli.mjs status",
     "research": "node src/cli.mjs research",
