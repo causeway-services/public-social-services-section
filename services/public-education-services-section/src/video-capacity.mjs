@@ -1,75 +1,69 @@
 // Gemini Notebook video capacity, as education consumes it. The account's
-// allowance recurs per usage window (gemini-notebook entitlement-plans.json)
-// and is lost at reset, so production is sized to it rather than to the
-// publication buffer alone:
+// allowances renew per usage window (gemini-notebook allowances.json) and what
+// is not spent lapses at the turn, so production is sized to them rather than
+// to the publication buffer alone:
 //
 //   commissioning   each channel is commissioned enough researched lessons to
 //                   take its fair share of the next windows (production.json
 //                   `capacity`), within its publication horizon;
-//   submission      a lesson holds its format's units from the current window
+//   submission      a lesson holds its format's kind in the allowance ledger
 //                   just before Gemini Notebook is asked for the video, and
-//                   waits (`awaiting-capacity`) when the window is spent;
-//   settlement      a bound artifact spends the units; a confirmed refusal
-//                   spends none; a quota refusal marks the window spent.
-import { join } from "node:path";
-import { accountArtifactCapacityStorePath, currentPlanEntitlement, exhaustPlanEntitlement, observeAccountArtifactCapacity, reservePlanEntitlement, transitionAccountArtifactCapacity } from "@red-cup-engineering/computer-inference-engine/media/account-artifact-capacity";
-import { allocateEntitlementUnits } from "@red-cup-engineering/computer-inference-engine/media/entitlement-plan";
-import { loadNotebookEntitlementPlans, notebookVideoPlan, videoCapability } from "@red-cup-engineering/gemini-notebook-services-section/entitlement-plans";
-import { readJson, writeAtomic } from "./channel.mjs";
+//                   waits (`awaiting-capacity`) when the window does not fit
+//                   it. Where the fit is unknown (the budget is past what was
+//                   stated or seen), one lesson at a time probes;
+//   settlement      a bound artifact is a spend under its Studio source; a
+//                   fresh RATE_LIMITED answer is a quota refusal the
+//                   allowance learns from; any other failure is void.
+import { allowanceHold, allowanceLedgerLapses, allowanceLedgerPath, attemptAllowance, holdAllowance, readAllowanceLedger, releaseAllowance, settleAllowance } from "@red-cup-engineering/computer-inference-engine/media/allowance-ledger";
+import { loadNotebookAllowances, notebookVideoAllowance, studioSource, videoCapability } from "@red-cup-engineering/gemini-notebook-services-section/allowances";
+import { shareAllowance } from "@red-cup-engineering/organizing/enterprise";
 
 const DAY = 86_400_000;
 const PRINCIPAL = "urn:ame:public-education-services-section";
 
-const packetPathOf = (work) => join(work, "video-capacity.json");
-const unitsOf = (plan, format) => plan.unitsByCapability[videoCapability(format)];
+const allowanceOf = (id) => loadNotebookAllowances().find((allowance) => allowance.id === id) ?? null;
+const turnOf = (reading) => reading?.meters.map(({ resetsAt }) => resetsAt).filter(Boolean).sort()[0] ?? null;
 
-/** The lesson's capacity cannot be accounted for until its operator acts; `status` says why. */
-export class VideoCapacityBlocked extends Error {
-  constructor(status, message = status) { super(message); this.status = status; }
-}
-
-/** The retained, unsettled capacity packet for this lesson, if any. */
-function retainedPacket(work, state) {
-  if (!state.videoCapacityPacket) return null;
-  const packet = readJson(packetPathOf(work), null);
-  if (packet?.id !== state.videoCapacityPacket) throw new VideoCapacityBlocked("video-capacity-packet-missing", `Restore ${packetPathOf(work)} before the video is submitted or settled`);
-  return packet;
+/** Let go of the lesson's previous hold: an unsubmitted one is returned, a submitted one failed and is void. */
+function dropHold(hold, { storePath, at }) {
+  const allowance = allowanceOf(hold.allowance);
+  if (!allowance) return;
+  if (hold.state === "held") releaseAllowance(allowance, hold.id, { storePath, now: at });
+  else if (hold.state === "attempted") settleAllowance(allowance, hold.id, { outcome: "void", storePath, now: at });
 }
 
 /**
- * Hold and claim one video's units immediately before submission. Returns
- * true to submit, or `{ message }` to wait for the next window.
+ * Hold and claim one video's kind immediately before submission. Returns
+ * true to submit, or `{ message }` to wait for the window to turn.
  */
-export async function admitVideoGeneration({ work, state, save, record, format, request, env = process.env, now = () => new Date() }) {
-  const storePath = accountArtifactCapacityStorePath(env);
-  const plan = notebookVideoPlan(format);
-  const evaluatedAt = now().toISOString();
-  let packet = retainedPacket(work, state());
-  if (packet && packet.capability !== videoCapability(format)) {
-    // A retry moved to another format: an unclaimed hold is returned; a claimed one stays charged.
-    const released = await transitionAccountArtifactCapacity(packet, [], { storePath, action: "release", evaluatedAt });
-    if (released.disposition !== "released") await transitionAccountArtifactCapacity(packet, [], { storePath, action: "settle", unitsSpent: packet.quotedUnits, evaluatedAt });
-    save({ videoCapacityPacket: null });
-    packet = null;
+export async function admitVideoGeneration({ state, save, record, format, request = {}, env = process.env, now = () => new Date() }) {
+  const storePath = allowanceLedgerPath(env);
+  const allowance = notebookVideoAllowance(format);
+  const kind = videoCapability(format);
+  const at = now();
+  const current = state();
+  let hold = current.videoHold ? allowanceHold(current.videoHold, { storePath }) : null;
+  if (current.videoHold && !(hold?.state === "held" && hold.kind === kind)) {
+    // A retry after a failure, or in another format: what the last attempt held is done.
+    if (hold) dropHold(hold, { storePath, at });
+    save({ videoHold: null });
+    hold = null;
   }
-  for (let attempt = 0; attempt < 2; attempt += 1) {
-    if (!packet) {
-      const held = await reservePlanEntitlement(plan, { ...request, principal: PRINCIPAL, capability: videoCapability(format), outputMimeType: "video/mp4" }, { storePath, evaluatedAt });
-      if (held.disposition !== "held") return { message: `Gemini Notebook ${format} capacity is spent (${held.reason}); the window resets at ${held.window.resetsAt}` };
-      writeAtomic(packetPathOf(work), held.packet);
-      save({ videoCapacityPacket: held.packet.id });
-      record({ step: "video", outcome: "capacity-held", format, units: held.packet.quotedUnits, window: held.window.windowIdentity, resetsAt: held.window.resetsAt });
-      packet = held.packet;
+  if (!hold) {
+    const held = holdAllowance(allowance, { kind, principal: PRINCIPAL, reference: request.workLot ?? `${current.channel}/${current.lessonId}`, probe: true }, { storePath, now: at });
+    if (held.disposition !== "held") {
+      const turn = turnOf(held.reading);
+      return { message: `Gemini Notebook ${format} does not fit the current window (${held.reason})${turn ? `; it turns at ${turn}` : ""}` };
     }
-    const claimed = await transitionAccountArtifactCapacity(packet, [], { storePath, action: "attempt", evaluatedAt });
-    if (claimed.disposition === "attempted") return true;
-    if (claimed.reason !== "resource-availability-evidence-not-current") return { message: `Gemini Notebook capacity could not be claimed (${claimed.reason})` };
-    // The hold's window reset before submission: return it and hold from the current window.
-    await transitionAccountArtifactCapacity(packet, [], { storePath, action: "release", evaluatedAt });
-    save({ videoCapacityPacket: null });
-    packet = null;
+    hold = held.hold;
+    save({ videoHold: hold.id });
+    record({ step: "video", outcome: "capacity-held", format, allowance: allowance.id, hold: hold.id, probe: hold.probe });
   }
-  return { message: "Gemini Notebook capacity could not be held" };
+  const attempted = attemptAllowance(allowance, hold.id, { storePath, now: at });
+  if (attempted.disposition === "attempted") return true;
+  save({ videoHold: null });
+  const turn = turnOf(attempted.reading);
+  return { message: `Gemini Notebook ${format} no longer fits the current window (${attempted.reason})${turn ? `; it turns at ${turn}` : ""}` };
 }
 
 /**
@@ -77,24 +71,31 @@ export async function admitVideoGeneration({ work, state, save, record, format, 
  * `submittedThisRun` distinguishes a fresh quota refusal from one still
  * being reconciled, so a later window is never marked spent by an old answer.
  */
-export async function settleVideoCapacity({ work, state, save, record, outcome, submittedThisRun, env = process.env, now = () => new Date() }) {
-  const storePath = accountArtifactCapacityStorePath(env);
+export async function settleVideoCapacity({ state, save, record, outcome, submittedThisRun, env = process.env, now = () => new Date() }) {
+  const storePath = allowanceLedgerPath(env);
   const current = state();
-  const packet = retainedPacket(work, current);
-  const evaluatedAt = now().toISOString();
+  if (!current.videoHold) return;
+  const hold = allowanceHold(current.videoHold, { storePath });
+  const allowance = hold ? allowanceOf(hold.allowance) : null;
+  if (!hold || !allowance) return save({ videoHold: null });
+  const at = now();
   if (outcome?.providerCode === "RATE_LIMITED" && submittedThisRun) {
-    const format = current.generationAttempt?.format ?? packet?.capability.replace(/^video-overview:/u, "");
-    const { window } = exhaustPlanEntitlement(notebookVideoPlan(format), { storePath, observedAt: evaluatedAt, reference: `Gemini Notebook RATE_LIMITED for ${current.channel}/${current.lessonId}` });
-    record({ step: "video", outcome: "capacity-exhausted", providerCode: "RATE_LIMITED", window: window.windowIdentity, resetsAt: window.resetsAt });
+    settleAllowance(allowance, hold.id, { outcome: "refused", storePath, now: at });
+    save({ videoHold: null });
+    return record({ step: "video", outcome: "capacity-refused", providerCode: "RATE_LIMITED", allowance: allowance.id, kind: hold.kind, probe: hold.probe });
   }
-  if (!packet) return;
-  const spent = current.artifactId ? packet.quotedUnits : outcome?.status === "video-refused" ? 0 : null;
-  if (spent === null) return;
-  const settled = await transitionAccountArtifactCapacity(packet, [], { storePath, action: "settle", unitsSpent: spent, evaluatedAt });
-  if (settled.disposition !== "settled") return record({ step: "video", outcome: "capacity-unsettled", reason: settled.reason });
-  const resource = { unit: packet.resourceUnit, quoted: packet.quotedUnits, spent, packet: packet.id, accountIdentity: packet.accountIdentity, windowIdentity: packet.windowIdentity };
-  save({ videoCapacityPacket: null, ...(current.artifactId ? { videoCapacity: resource } : {}) });
-  record({ step: "video", outcome: "capacity-settled", ...resource });
+  if (current.artifactId) {
+    const source = studioSource(current.notebookId, current.artifactId);
+    settleAllowance(allowance, hold.id, { outcome: "spent", source, storePath, now: at });
+    const resource = { allowance: allowance.id, kind: hold.kind, count: hold.count, hold: hold.id, source, accountIdentity: allowance.account };
+    save({ videoHold: null, videoCapacity: resource });
+    return record({ step: "video", outcome: "capacity-settled", ...resource });
+  }
+  if (outcome?.status === "video-refused") {
+    settleAllowance(allowance, hold.id, { outcome: "void", storePath, now: at });
+    save({ videoHold: null });
+    record({ step: "video", outcome: "capacity-void", allowance: allowance.id, kind: hold.kind });
+  }
 }
 
 /** Publication slots a schedule offers in the next `days` days. */
@@ -105,21 +106,23 @@ const slotsWithin = (schedule, days, now) => {
 };
 
 /** Units a channel's submissions drew over the trailing horizon, the allocator's fairness memory. */
-const servedUnits = (plan, episodes, since) => episodes.reduce((total, state) => {
+const servedUnits = (costs, episodes, since) => episodes.reduce((total, state) => {
   const attempts = [...(state.videoFailures ?? []).map(({ at, format }) => ({ at, format })),
     ...(state.artifactId && state.generationAttempt ? [{ at: state.generationAttempt.startedAt, format: state.generationAttempt.format }] : [])];
-  return total + attempts.filter(({ at, format }) => Date.parse(at) >= since && videoCapability(format) in plan.unitsByCapability)
-    .reduce((sum, { format }) => sum + unitsOf(plan, format), 0);
+  return total + attempts.filter(({ at, format }) => Date.parse(at) >= since && videoCapability(format) in costs)
+    .reduce((sum, { format }) => sum + costs[videoCapability(format)], 0);
 }, 0);
 
 /**
  * How many lessons each channel should have commissioned so the coming
- * windows are spent. Each plan's units over `lookaheadWindows` (the current
- * window's uncommitted remainder plus whole later windows) are first claimed
- * by commissioned lessons not yet submitted, then divided among channels by
- * allocateEntitlementUnits. A channel never queues past its publication
- * horizon. Units no channel can take are reported as `idleUnits`: capacity
- * that needs another consumer.
+ * windows are spent. Each allowance's units over `lookaheadWindows` (what is
+ * surely left of the current window plus whole later windows at the budget
+ * surely known) are first claimed by commissioned lessons not yet submitted,
+ * then divided among channels by organizing's shareAllowance. A channel never
+ * queues past its publication horizon. Units no channel can take are
+ * `idleUnits`, and `lapsed` is what each allowance lost over the fairness
+ * horizon: capacity that needs another consumer. An allowance no channel
+ * draws on is reported with reason `no-consumer`.
  *
  * @param {Array<{config: object, episodes: object[], queued: number, scheduled: number}>} channels
  *   queued: commissioned lessons not yet submitted; scheduled: upcoming publications plus lessons in production.
@@ -128,27 +131,29 @@ export async function planVideoCommissioning(channels, { policy = {}, env = proc
   const lookahead = policy.lookaheadWindows ?? 2;
   const horizonDays = policy.horizonDays ?? 21;
   const servedSince = now.getTime() - (policy.fairnessDays ?? 7) * DAY;
-  const storePath = accountArtifactCapacityStorePath(env);
-  const evaluatedAt = now.toISOString();
+  const storePath = allowanceLedgerPath(env);
   const targets = new Map(), plans = [];
-  for (const plan of loadNotebookEntitlementPlans()) {
-    const members = channels.filter(({ config }) => videoCapability(config.video.format) in plan.unitsByCapability);
-    if (!members.length) { plans.push({ plan: plan.id, product: plan.product, idleUnits: plan.capacity * lookahead, reason: "no-consumer" }); continue; }
-    const { window, observation } = currentPlanEntitlement(plan, { storePath, evaluatedAt });
-    let current = observation.remaining;
-    const uncommitted = await observeAccountArtifactCapacity(observation, { storePath, evaluatedAt }).catch(() => null);
-    if (uncommitted?.disposition === "observed") { const { numerator, denominator } = uncommitted.availableResources[0].amount; current = Math.floor(Number(numerator) / Number(denominator)); }
-    let units = current + plan.capacity * (lookahead - 1);
-    for (const { config, queued } of members) units -= queued * unitsOf(plan, config.video.format);
-    const demands = members.map(({ config, episodes, scheduled }) => ({
-      consumer: config.id, capability: videoCapability(config.video.format), weight: config.capacityWeight ?? 1,
+  for (const allowance of loadNotebookAllowances()) {
+    const since = new Date(Math.max(servedSince, Date.parse(allowance.statedAt))).toISOString();
+    const lapses = allowanceLedgerLapses(allowance, { storePath, since, now });
+    const lapsed = lapses.meters.map(({ meter, wasted, idleWindows, utilization }) => ({ meter, wasted, idleWindows, utilization }));
+    const members = channels.filter(({ config }) => videoCapability(config.video.format) in allowance.costs);
+    if (!members.length) { plans.push({ allowance: allowance.id, product: allowance.product, reason: "no-consumer", lapsed }); continue; }
+    const { reading } = readAllowanceLedger(allowance, { storePath, now });
+    const costs = Object.fromEntries(Object.entries(reading.costs).filter(([, { lo, hi }]) => hi !== null && hi > 0 && hi === lo).map(([kind, { hi }]) => [kind, hi]));
+    const perWindow = Math.min(...reading.meters.map(({ budget }) => budget.lo));
+    const current = Math.min(...reading.meters.map(({ remaining }) => remaining.lo));
+    let units = current + perWindow * (lookahead - 1);
+    for (const { config, queued } of members) units -= queued * (costs[videoCapability(config.video.format)] ?? 0);
+    const demands = members.filter(({ config }) => videoCapability(config.video.format) in costs).map(({ config, episodes, scheduled }) => ({
+      consumer: config.id, kind: videoCapability(config.video.format), weight: config.capacityWeight ?? 1,
       wanted: Math.max(0, slotsWithin(config.schedule, horizonDays, now) - scheduled),
-      served: servedUnits(plan, episodes, servedSince),
+      served: servedUnits(costs, episodes, servedSince),
     }));
-    const allocation = allocateEntitlementUnits({ available: Math.max(0, units), unitsByCapability: plan.unitsByCapability, demands });
-    for (const grant of allocation.grants) targets.set(grant.consumer, grant.artifacts);
-    plans.push({ plan: plan.id, product: plan.product, window: window.windowIdentity, resetsAt: window.resetsAt, windowRemaining: current,
-      lookaheadUnits: Math.max(0, units), grants: allocation.grants, idleUnits: allocation.unallocatedUnits });
+    const share = shareAllowance({ available: Math.max(0, units), costs, demands });
+    for (const grant of share.grants) targets.set(grant.consumer, grant.draws);
+    plans.push({ allowance: allowance.id, product: allowance.product, resetsAt: turnOf(reading), windowRemaining: current, perWindow,
+      lookaheadUnits: Math.max(0, units), grants: share.grants, idleUnits: share.unallocated, lapsed });
   }
   return { targets, plans };
 }
