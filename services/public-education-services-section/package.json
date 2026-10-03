@@ -18,6 +18,7 @@
     "@red-cup-engineering/gemini-notebook-services-section": "0.6.0",
     "@red-cup-engineering/organizing": "0.1.0",
     "@red-cup-engineering/computer-media-content-services-section": "0.1.0",
-    "@red-cup-engineering/computer-code-development-engine": "0.3.0"
+    "@red-cup-engineering/computer-code-development-engine": "0.3.0",
+    "@red-cup-engineering/turntide-islands-discord-platform": "0.0.5"
   }
 }
