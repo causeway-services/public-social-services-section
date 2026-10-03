@@ -1,5 +1,6 @@
 {
   "name": "@emsenn/health-education-curriculum-enterprise",
+  "private": true,
   "version": "0.1.0",
   "files": [
     "content/"
