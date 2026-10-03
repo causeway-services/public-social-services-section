@@ -1,0 +1,55 @@
+{
+  "at": "2026-10-03T15:25:03.412Z",
+  "grounding": {
+    "completed": true,
+    "completedSearches": 6,
+    "sources": [
+      {
+        "uri": "https://www.noaa.gov/explainers/understanding-climate-normals"
+      },
+      {
+        "uri": "https://www.ncei.noaa.gov/products/land-based-station/us-climate-normals"
+      },
+      {
+        "uri": "https://www.ncdc.noaa.gov/cdo-web/datasets/GHCND/stations/GHCND%3AUSW00013874/detail"
+      },
+      {
+        "uri": "https://statesummaries.ncics.org/chapter/ga/"
+      },
+      {
+        "uri": "https://www.ncei.noaa.gov/access/services/data/v1?dataTypes=MLY-TMAX-NORMAL%2CMLY-TMIN-NORMAL%2CMLY-TAVG-NORMAL%2CMLY-PRCP-NORMAL%2CMLY-SNOW-NORMAL&dataset=normals-monthly-1991-2020&format=pdf&stations=USW00013874"
+      },
+      {
+        "uri": "https://www.weather.gov/ffc/2020AnnualClimateSummary"
+      },
+      {
+        "uri": "https://urbanclimate.gatech.edu/files/2020/09/Mallen-TCN_2020.pdf"
+      },
+      {
+        "uri": "https://nca5.climate.us/chapter/22"
+      }
+    ]
+  },
+  "inference": {
+    "model": "gpt-5.6-sol",
+    "provider": "codex",
+    "exchanges": [
+      {
+        "outcome": "completion",
+        "recordedAt": "2026-10-03T15:25:02.596Z",
+        "completedSearches": 6,
+        "model": "gpt-5.6-sol",
+        "citedUrls": [
+          "https://www.noaa.gov/explainers/understanding-climate-normals",
+          "https://www.ncei.noaa.gov/products/land-based-station/us-climate-normals",
+          "https://www.ncdc.noaa.gov/cdo-web/datasets/GHCND/stations/GHCND%3AUSW00013874/detail",
+          "https://statesummaries.ncics.org/chapter/ga/",
+          "https://www.ncei.noaa.gov/access/services/data/v1?dataTypes=MLY-TMAX-NORMAL%2CMLY-TMIN-NORMAL%2CMLY-TAVG-NORMAL%2CMLY-PRCP-NORMAL%2CMLY-SNOW-NORMAL&dataset=normals-monthly-1991-2020&format=pdf&stations=USW00013874",
+          "https://www.weather.gov/ffc/2020AnnualClimateSummary",
+          "https://urbanclimate.gatech.edu/files/2020/09/Mallen-TCN_2020.pdf",
+          "https://nca5.climate.us/chapter/22"
+        ]
+      }
+    ]
+  }
+}
