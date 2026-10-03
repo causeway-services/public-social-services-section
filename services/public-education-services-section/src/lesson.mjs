@@ -12,7 +12,10 @@
 // A provider-confirmed video failure counts against the format it asked for;
 // the next attempt follows production.json's videoRetry (the channel's format
 // again, then fallback formats), and a lesson whose formats are all spent is
-// abandoned: it releases its publication slot and waits for `retry`. Each step appends what it did to the
+// abandoned: it releases its publication slot and waits for `retry`. A video
+// submission first holds its format's units from the account's current Gemini
+// Notebook window and waits (`awaiting-capacity`) when the window is spent.
+// Each step appends what it did to the
 // episode's record.jsonl: the public account of how the video was made.
 import { appendFileSync, existsSync, mkdirSync, readFileSync, renameSync } from "node:fs";
 import { join } from "node:path";
@@ -24,6 +27,7 @@ import { ensureResearchReport, ResearchBlocked, citedUrls } from "@red-cup-engin
 import { advanceNotebookVideo, adoptNotebookVideo, retryNotebookVideo, NotebookVideoBlocked } from "@red-cup-engineering/gemini-notebook-services-section/report-video";
 import { createYouTube } from "@emsenn/youtube-engineering-services-section/api";
 import { adoptThumbnailWork, prepareThumbnailWork, produceThumbnail, THUMBNAIL_COMPOSITION } from "./thumbnail.mjs";
+import { admitVideoGeneration, settleVideoCapacity, VideoCapacityBlocked } from "./video-capacity.mjs";
 import { EducationCandidateRefusal, EducationInferenceUnavailable, produceEducationArtifact } from "./inference.mjs";
 import { containedPath, episodeDirectory, lessonReportPath, nextSlot, PACKAGE_ROOT, readJson, writeAtomic } from "./channel.mjs";
 import { sha256Hex } from "@red-cup-engineering/cryptographic-computer-data-engineering-services-section/integrity";
@@ -203,13 +207,23 @@ export async function advanceLesson(config, lessonId, { env = process.env, now =
         }
       }
 
+      // Each submission spends the account's recurring Gemini Notebook allowance (video-capacity.mjs).
+      const capacity = { work, state: () => state, save, record, env };
+      let submittedThisRun = false;
       const rendered = await advanceNotebookVideo({
         reportPath: paths.report, outputPath: paths.video, title: lesson.title,
         sourceTitle: `${config.id}/${lessonId}/${state.reportSha256.slice(0, 16)}`,
         video: videoRequest,
         notebookId: state.notebookId, checkpoint: state, onCheckpoint: save,
         onRecord: (entry) => record({ provider: "notebooklm", ...entry }), notebook,
+        admitGeneration: async ({ format: submitted }) => {
+          const admission = await admitVideoGeneration({ ...capacity, format: submitted,
+            request: { workLot: videoWork.workLot, prompt: videoWork.prompt, sources: videoWork.sources } });
+          submittedThisRun = admission === true;
+          return admission;
+        },
       });
+      await settleVideoCapacity({ ...capacity, outcome: rendered instanceof NotebookVideoBlocked ? rendered : null, submittedThisRun });
       // A confirmed failure goes straight to the next attempt (or abandonment) above.
       if (rendered instanceof NotebookVideoBlocked && rendered.status === "video-failed") return advanceLesson(config, lessonId, { env, now: new Date(), notebook, youtube, commissioned });
       if (rendered instanceof NotebookVideoBlocked) throw new LessonBlocked(rendered.status, rendered.message);
@@ -350,7 +364,7 @@ export async function advanceLesson(config, lessonId, { env = process.env, now =
     if (state.stage !== stage || state.lastError) { save({ stage, lastError: null, publishAt: uploaded.status.publishAt ?? uploaded.snippet?.publishedAt }); record({ step: "confirm", provider: "youtube", outcome: stage, videoId: state.youtubeVideoId }); }
     return { channel: config.id, lesson: lessonId, status: stage, stage, videoId: state.youtubeVideoId, publishAt: state.publishAt };
   } catch (error) {
-    if (!(error instanceof LessonBlocked) && !(error instanceof ResearchBlocked)) { save({ lastError: { at: new Date().toISOString(), message: error.message, ...(error.code ? { code: error.code } : {}) } }); throw error; }
+    if (!(error instanceof LessonBlocked) && !(error instanceof ResearchBlocked) && !(error instanceof VideoCapacityBlocked)) { save({ lastError: { at: new Date().toISOString(), message: error.message, ...(error.code ? { code: error.code } : {}) } }); throw error; }
     if (["video-processing", "source-processing", "youtube-processing"].includes(error.status)) {
       if (state.lastError) save({ lastError: null });
     } else if (state.lastError?.status !== error.status || state.lastError?.message !== error.message) {
