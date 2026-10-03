@@ -1,6 +1,9 @@
 // A lesson's Studio companions: what else the account's Gemini Notebook pool
-// makes from the lesson's report once its video is made, kept beside the report
-// in the curriculum, where lessons, articles and books draw on it.
+// makes from the lesson's report once its video is made, kept in the lesson's
+// episode directory. Made media belongs to the channel repository that publishes
+// it, beside the episode's thumbnail; the curriculum in the house repository holds
+// text and receives no binaries. Lessons, articles and books draw on a companion
+// through its media work receipt (output identity and file).
 //
 //   source     the report goes into the channel notebook as a source of its own
 //              (titled apart from the video's, so neither removes the other's),
@@ -17,7 +20,7 @@
 // companions.json in the episode directory is the checkpoint, and each effect
 // is appended to the episode's record.jsonl like the video's.
 import { existsSync, readFileSync } from "node:fs";
-import { dirname, join } from "node:path";
+import { join } from "node:path";
 import { completeMediaArtifactWork, createMediaArtifactWorkLot } from "@red-cup-engineering/computer-inference-engine/media/artifact-work";
 import { allowanceLedgerPath } from "@red-cup-engineering/computer-inference-engine/media/allowance-ledger";
 import { advanceStudioWork, StudioWorkBlocked } from "@red-cup-engineering/gemini-notebook-services-section/studio-work";
@@ -115,7 +118,7 @@ export async function advanceCompanions(config, lessonId, { client, notebook, ki
     const waiting = [];
     for (const kind of wanted) {
       const companion = COMPANIONS[kind];
-      const outputPath = join(dirname(reportPath), companion.file);
+      const outputPath = join(dir, companion.file);
       const request = { kind, sourceIds: [source.sourceId], instructions: companion.instructions(lesson), options: companion.options };
       const work = createMediaArtifactWorkLot({
         workLot: `${config.id}/${lessonId}/${kind}`, principal: PRINCIPAL, capability: companion.capability,
