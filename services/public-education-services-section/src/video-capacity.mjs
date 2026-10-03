@@ -14,57 +14,33 @@
 //   settlement      a bound artifact is a spend under its Studio source; a
 //                   fresh RATE_LIMITED answer is a quota refusal the
 //                   allowance learns from; any other failure is void.
-import { allowanceHold, allowanceLedgerLapses, allowanceLedgerPath, attemptAllowance, holdAllowance, readAllowanceLedger, releaseAllowance, settleAllowance } from "@red-cup-engineering/computer-inference-engine/media/allowance-ledger";
-import { loadNotebookAllowances, notebookVideoAllowance, studioSource, videoCapability } from "@red-cup-engineering/gemini-notebook-services-section/allowances";
+import { allowanceLedgerLapses, allowanceLedgerPath, readAllowanceLedger } from "@red-cup-engineering/computer-inference-engine/media/allowance-ledger";
+import { loadNotebookAllowances, videoCapability } from "@red-cup-engineering/gemini-notebook-services-section/allowances";
+import { admitStudioCapacity, settleStudioCapacity } from "@red-cup-engineering/gemini-notebook-services-section/studio-work";
 import { shareAllowance } from "@red-cup-engineering/organizing/enterprise";
 
 const DAY = 86_400_000;
-const PRINCIPAL = "urn:ame:public-education-services-section";
+export const PRINCIPAL = "urn:ame:public-education-services-section";
 
-const allowanceOf = (id) => loadNotebookAllowances().find((allowance) => allowance.id === id) ?? null;
 // When the current window turns; a rolling meter clears continuously and has no turn to wait for.
 const turnOf = (reading) => reading?.meters.filter(({ law }) => law !== "sliding").map(({ resetsAt }) => resetsAt).filter(Boolean).sort()[0] ?? null;
-
-/** Let go of the lesson's previous hold: an unsubmitted one is returned, a submitted one failed and is void. */
-function dropHold(hold, { storePath, at }) {
-  const allowance = allowanceOf(hold.allowance);
-  if (!allowance) return;
-  if (hold.state === "held") releaseAllowance(allowance, hold.id, { storePath, now: at });
-  else if (hold.state === "attempted") settleAllowance(allowance, hold.id, { outcome: "void", storePath, now: at });
-}
 
 /**
  * Hold and claim one video's kind immediately before submission. Returns
  * true to submit, or `{ message }` to wait for the window to turn.
  */
 export async function admitVideoGeneration({ state, save, record, format, request = {}, env = process.env, now = () => new Date() }) {
-  const storePath = allowanceLedgerPath(env);
-  const allowance = notebookVideoAllowance(format);
-  const kind = videoCapability(format);
-  const at = now();
   const current = state();
-  let hold = current.videoHold ? allowanceHold(current.videoHold, { storePath }) : null;
-  if (current.videoHold && !(hold?.state === "held" && hold.kind === kind)) {
-    // A retry after a failure, or in another format: what the last attempt held is done.
-    if (hold) dropHold(hold, { storePath, at });
-    save({ videoHold: null });
-    hold = null;
+  const admission = admitStudioCapacity({ kind: videoCapability(format), principal: PRINCIPAL, reference: request.workLot ?? `${current.channel}/${current.lessonId}`, holdId: current.videoHold ?? null, storePath: allowanceLedgerPath(env), now: now() });
+  if (!admission.admitted) {
+    if (current.videoHold) save({ videoHold: null });
+    return { message: admission.message };
   }
-  if (!hold) {
-    const held = holdAllowance(allowance, { kind, principal: PRINCIPAL, reference: request.workLot ?? `${current.channel}/${current.lessonId}`, probe: true }, { storePath, now: at });
-    if (held.disposition !== "held") {
-      const turn = turnOf(held.reading);
-      return { message: `Gemini Notebook ${format} does not fit the current window (${held.reason})${turn ? `; it turns at ${turn}` : ""}` };
-    }
-    hold = held.hold;
-    save({ videoHold: hold.id });
-    record({ step: "video", outcome: "capacity-held", format, allowance: allowance.id, hold: hold.id, probe: hold.probe });
+  if (admission.held) {
+    save({ videoHold: admission.hold.id });
+    record({ step: "video", outcome: "capacity-held", format, allowance: admission.allowance, hold: admission.hold.id, probe: admission.hold.probe });
   }
-  const attempted = attemptAllowance(allowance, hold.id, { storePath, now: at });
-  if (attempted.disposition === "attempted") return true;
-  save({ videoHold: null });
-  const turn = turnOf(attempted.reading);
-  return { message: `Gemini Notebook ${format} no longer fits the current window (${attempted.reason})${turn ? `; it turns at ${turn}` : ""}` };
+  return true;
 }
 
 /**
@@ -73,30 +49,13 @@ export async function admitVideoGeneration({ state, save, record, format, reques
  * being reconciled, so a later window is never marked spent by an old answer.
  */
 export async function settleVideoCapacity({ state, save, record, outcome, submittedThisRun, env = process.env, now = () => new Date() }) {
-  const storePath = allowanceLedgerPath(env);
   const current = state();
   if (!current.videoHold) return;
-  const hold = allowanceHold(current.videoHold, { storePath });
-  const allowance = hold ? allowanceOf(hold.allowance) : null;
-  if (!hold || !allowance) return save({ videoHold: null });
-  const at = now();
-  if (outcome?.providerCode === "RATE_LIMITED" && submittedThisRun) {
-    settleAllowance(allowance, hold.id, { outcome: "refused", storePath, now: at });
-    save({ videoHold: null });
-    return record({ step: "video", outcome: "capacity-refused", providerCode: "RATE_LIMITED", allowance: allowance.id, kind: hold.kind, probe: hold.probe });
-  }
-  if (current.artifactId) {
-    const source = studioSource(current.notebookId, current.artifactId);
-    settleAllowance(allowance, hold.id, { outcome: "spent", source, storePath, now: at });
-    const resource = { allowance: allowance.id, kind: hold.kind, count: hold.count, hold: hold.id, source, accountIdentity: allowance.account };
-    save({ videoHold: null, videoCapacity: resource });
-    return record({ step: "video", outcome: "capacity-settled", ...resource });
-  }
-  if (outcome?.status === "video-refused") {
-    settleAllowance(allowance, hold.id, { outcome: "void", storePath, now: at });
-    save({ videoHold: null });
-    record({ step: "video", outcome: "capacity-void", allowance: allowance.id, kind: hold.kind });
-  }
+  const settled = outcome?.providerCode === "RATE_LIMITED" && submittedThisRun ? "refused" : current.artifactId ? "spent" : outcome?.status === "video-refused" ? "void" : null;
+  if (!settled) return;
+  const resource = settleStudioCapacity({ holdId: current.videoHold, outcome: settled, notebookId: current.notebookId, artifactId: current.artifactId, storePath: allowanceLedgerPath(env), now: now() });
+  save({ videoHold: null, ...(settled === "spent" && resource ? { videoCapacity: resource } : {}) });
+  if (resource) record({ step: "video", outcome: settled === "spent" ? "capacity-settled" : `capacity-${settled}`, ...(settled === "refused" ? { providerCode: "RATE_LIMITED" } : {}), ...resource });
 }
 
 /** Publication slots a schedule offers in the next `days` days. */
@@ -128,12 +87,13 @@ const estimate = ({ lo, hi }) => (hi === null ? lo : (lo + hi) / 2);
  * `idleUnits`, and `lapsed` is what each allowance lost over the fairness
  * horizon: capacity that needs another consumer. An allowance no channel
  * draws on is reported with reason `no-consumer`, and the kinds of an
- * allowance no channel makes are listed as `unconsumed`.
+ * allowance neither a channel's videos nor the lessons' `companions` make
+ * are listed as `unconsumed`.
  *
  * @param {Array<{config: object, episodes: object[], queued: number, scheduled: number}>} channels
  *   queued: commissioned lessons not yet submitted; scheduled: upcoming publications plus lessons in production.
  */
-export async function planVideoCommissioning(channels, { policy = {}, env = process.env, now = new Date() } = {}) {
+export async function planVideoCommissioning(channels, { policy = {}, companions = [], env = process.env, now = new Date() } = {}) {
   const lookahead = policy.lookaheadWindows ?? 2;
   const horizonDays = policy.horizonDays ?? 21;
   const servedSince = now.getTime() - (policy.fairnessDays ?? 7) * DAY;
@@ -160,7 +120,7 @@ export async function planVideoCommissioning(channels, { policy = {}, env = proc
     }));
     const share = shareAllowance({ available: Math.max(0, units), costs, demands });
     for (const grant of share.grants) targets.set(grant.consumer, grant.draws);
-    const made = new Set(members.map(({ config }) => videoCapability(config.video.format)));
+    const made = new Set([...members.map(({ config }) => videoCapability(config.video.format)), ...companions]);
     plans.push({ allowance: allowance.id, product: allowance.product, resetsAt: turnOf(reading), windowRemaining: current, perWindow,
       lookaheadUnits: Math.max(0, units), grants: share.grants, idleUnits: share.unallocated, unconsumed: Object.keys(allowance.costs).filter((kind) => !made.has(kind)), lapsed });
   }
