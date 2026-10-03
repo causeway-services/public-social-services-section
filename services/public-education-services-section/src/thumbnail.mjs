@@ -2,8 +2,8 @@
 // carrier, a 1280x720 JPEG of at most 2 MiB. Flow's images are free on the
 // account's Google AI plan, so they are asked first; Workers AI answers when
 // Flow keeps nothing.
-import { DEFAULT_PROVIDERS, generateImage } from "@red-cup-engineering/computer-inference-engine/image/image-generation";
-import { flowImageProvider } from "@red-cup-engineering/google-flow-services-section/flow-generate";
+import { generateImage } from "@red-cup-engineering/computer-inference-engine/image/image-generation";
+import { imageProviders } from "@red-cup-engineering/google-flow-services-section/flow-generate";
 import { completeAccountArtifactWork, loadAccountArtifactObservations, requestAccountArtifactWork } from "@red-cup-engineering/computer-inference-engine/media/account-artifact-work";
 import { accountArtifactCapacityStorePath, transitionAccountArtifactCapacity } from "@red-cup-engineering/computer-inference-engine/media/account-artifact-capacity";
 import { fitJpeg } from "@red-cup-engineering/computer-media-content-services-section/raster";
@@ -44,7 +44,7 @@ export async function adoptThumbnailWork(packet, sourcePath, outputPath, unitsSp
 }
 
 /** The image providers a thumbnail is asked of, in order. */
-export const THUMBNAIL_PROVIDERS = [flowImageProvider({ consumer: "education-thumbnails", aspect: "16:9" }), ...DEFAULT_PROVIDERS];
+export const THUMBNAIL_PROVIDERS = imageProviders({ consumer: "education-thumbnails", aspect: "16:9" });
 
 /** Generate and fit one thumbnail for `prompt`. */
 export async function produceThumbnail(prompt, outputPath, { providers = THUMBNAIL_PROVIDERS } = {}) {
