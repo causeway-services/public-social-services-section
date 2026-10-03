@@ -141,6 +141,23 @@
         "economic systems",
         "environmental governance"
       ]
+    },
+    {
+      "id": "digital-forensics-ai",
+      "title": "Digital Forensics and AI: Who Owns the Evidence?",
+      "question": "How do digital forensics and AI technologies distribute decision-making power, data ownership, and environmental costs between law enforcement agencies, courts, and the wider public?",
+      "whyItMayMatter": "Digital forensics and AI technologies can turn a physical crime scene into a complex digital ecosystem, where the same piece of evidence can appear differently as a technical reliability problem, a legal precedent, a community development opportunity, a regulatory compliance issue, and a long-term environmental liability.",
+      "tags": [
+        "digital forensics",
+        "AI evidence",
+        "law enforcement",
+        "courts",
+        "public health",
+        "environmental governance",
+        "technical systems",
+        "economic systems",
+        "social systems"
+      ]
     }
   ],
   "audience": "Curious adults seeking source-grounded explanations",
