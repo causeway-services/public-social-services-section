@@ -327,7 +327,7 @@ export async function advanceLesson(config, lessonId, { env = process.env, now =
           mkdirSync(work, { recursive: true });
           const made = await produceThumbnail(metadata.thumbnailPrompt, stagedDirectPath);
           const directReceipt = completeMediaArtifactWork(thumbnailWork, {
-            providerIdentity: made.provider, product: made.model, executionMode: "direct-api-endpoint",
+            providerIdentity: made.provider, product: made.model, executionMode: "direct-api-endpoint", providerArtifactId: made.providerArtifactId,
             bytes: readFileSync(stagedDirectPath), mimeType: "image/jpeg", resource: { status: "not-observed" },
           });
           writeAtomic(directReceiptPath, { ...directReceipt, publishedImage: directReceipt.output.identity });
