@@ -451,6 +451,30 @@
         "spacetime-reconstruction",
         "kinematic-space"
       ]
+    },
+    {
+      "id": "causal-sets-and-kinematic-embedding",
+      "title": "Causal sets and kinematic space embedding",
+      "question": "How does the embedding of a causal set into a continuous Lorentzian manifold constrain the geometry of the resulting kinematic space?",
+      "whyItMayMatter": "This connects discrete causal order to continuous kinematic geometry, addressing the competency of distinguishing causal order from metric distance and exploring the limits of reconstructing spacetime geometry from causal data alone.",
+      "tags": [
+        "causal-sets",
+        "kinematic-space",
+        "lorentzian-geometry",
+        "discrete-spacetime"
+      ]
+    },
+    {
+      "id": "kinematic-space-and-entanglement",
+      "title": "Kinematic space and entanglement entropy",
+      "question": "How does the geometry of kinematic space relate to the entanglement entropy of regions in a quantum field theory?",
+      "whyItMayMatter": "This connects the geometric structure of kinematic space to information-theoretic observables, providing a potential bridge between abstract causal order and measurable quantum properties.",
+      "tags": [
+        "kinematic-space",
+        "entanglement-entropy",
+        "quantum-field-theory",
+        "information-geometry"
+      ]
     }
   ]
 }
