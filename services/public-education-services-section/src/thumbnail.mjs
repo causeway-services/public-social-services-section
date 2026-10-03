@@ -1,6 +1,9 @@
 // A YouTube thumbnail: an engine-generated illustration fitted to YouTube's
-// carrier, a 1280x720 JPEG of at most 2 MiB.
+// carrier, a 1280x720 JPEG of at most 2 MiB. Flow's images are free on the
+// account's Google AI plan, so they are asked first; Workers AI answers when
+// Flow keeps nothing.
 import { generateImage } from "@red-cup-engineering/computer-inference-engine/image/image-generation";
+import { imageProviders } from "@red-cup-engineering/google-flow-services-section/flow-generate";
 import { completeAccountArtifactWork, loadAccountArtifactObservations, requestAccountArtifactWork } from "@red-cup-engineering/computer-inference-engine/media/account-artifact-work";
 import { accountArtifactCapacityStorePath, transitionAccountArtifactCapacity } from "@red-cup-engineering/computer-inference-engine/media/account-artifact-capacity";
 import { fitJpeg } from "@red-cup-engineering/computer-media-content-services-section/raster";
@@ -40,10 +43,13 @@ export async function adoptThumbnailWork(packet, sourcePath, outputPath, unitsSp
   return { receipt, fitted, publishedImage: ni(readFileSync(outputPath)) };
 }
 
+/** The image providers a thumbnail is asked of, in order. */
+export const THUMBNAIL_PROVIDERS = imageProviders({ consumer: "education-thumbnails", aspect: "16:9" });
+
 /** Generate and fit one thumbnail for `prompt`. */
-export async function produceThumbnail(prompt, outputPath) {
+export async function produceThumbnail(prompt, outputPath, { providers = THUMBNAIL_PROVIDERS } = {}) {
   const completePrompt = `${THUMBNAIL_COMPOSITION}\n\n${prompt}`;
   if (completePrompt.length > 2048) throw new Error("Thumbnail prompt exceeds the image model's 2048 characters");
-  const image = await generateImage(completePrompt);
-  return { ...(await fitJpeg(image.bytes, outputPath, { width: 1280, height: 720, maxBytes: 2 * 1024 * 1024 })), provider: image.provider, model: image.model };
+  const image = await generateImage(completePrompt, { providers });
+  return { ...(await fitJpeg(image.bytes, outputPath, { width: 1280, height: 720, maxBytes: 2 * 1024 * 1024 })), provider: image.provider, model: image.model, providerArtifactId: image.providerArtifactId };
 }

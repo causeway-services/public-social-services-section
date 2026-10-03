@@ -15,15 +15,19 @@
 // Production commissions unpublished curriculum lessons to fill upcoming slots,
 // and beyond them as many as the channels' fair share of the Gemini Notebook
 // windows ahead can render (video-capacity.mjs; production.json `capacity`),
-// since an allowance unspent at its window's reset is lost.
+// since an allowance unspent at its window's reset is lost. After the videos,
+// made lessons get their Studio companions (companions.mjs; production.json
+// `companions`), so the rest of each window is drawn on rather than lapsing.
 // Running produce again continues where the last run stopped. The exit status
 // reports a fault in the program or its retained data; a lesson that is waiting
 // on a provider, an operator or a retry is an outcome, printed but not a fault.
 import { join } from "node:path";
 import { homedir } from "node:os";
 import { createNotebookAdapter } from "@red-cup-engineering/gemini-notebook-services-section/gemini-notebook-cli";
+import { openGeminiNotebook } from "@red-cup-engineering/gemini-notebook-services-section/gemini-notebook-client";
 import { channelIds, loadChannel, loadEnvironment, PACKAGE_ROOT, readJson } from "./channel.mjs";
-import { adoptArtifact, adoptOperatorThumbnail, advanceLesson, beginOperatorThumbnail, episodeState, isRequested, releaseOperatorThumbnail, retryVideo } from "./lesson.mjs";
+import { adoptArtifact, adoptOperatorThumbnail, advanceLesson, beginOperatorThumbnail, episodeState, isRequested, recordStep, releaseOperatorThumbnail, retryVideo } from "./lesson.mjs";
+import { advanceCompanions, companionReady, companionsWanted } from "./companions.mjs";
 import { createYouTube } from "@emsenn/youtube-engineering-services-section/api";
 import { existsSync, readdirSync } from "node:fs";
 import { extendCurriculum } from "./curriculum.mjs";
@@ -79,6 +83,7 @@ if (command === "status") {
   out(await advanceLesson(loadChannel(channel), lesson, { researchOnly: true }));
 } else if (command === "produce") {
   const [channel = "all", only] = positional;
+  const production = readJson(join(PACKAGE_ROOT, "production.json"), {});
   // Every enabled channel is inventoried, since all of them share the account's windows.
   const inventories = [];
   for (const config of channelsOf("all")) {
@@ -111,7 +116,7 @@ if (command === "status") {
   }
   let targets = new Map();
   try {
-    const commissioning = await planVideoCommissioning(inventories.filter(({ inventoryAvailable }) => inventoryAvailable), { policy: readJson(join(PACKAGE_ROOT, "production.json"), {}).capacity });
+    const commissioning = await planVideoCommissioning(inventories.filter(({ inventoryAvailable }) => inventoryAvailable), { policy: production.capacity, companions: production.companions?.kinds ?? [] });
     targets = commissioning.targets;
     out({ status: "capacity", plans: commissioning.plans });
   } catch (error) {
@@ -155,6 +160,26 @@ if (command === "status") {
     } catch (error) {
       failures += 1;
       out({ channel: config.id, error: error.message });
+    }
+  }
+  // companions: lessons already in flight first, then the newest made lessons, until the window is spent.
+  const { kinds = [], lessonsPerTurn = 3, maxFailures = 2 } = production.companions ?? {};
+  if (kinds.length && !only) {
+    const candidates = inventories.filter(({ config }) => channel === "all" || channel === config.id).flatMap(({ config, episodes: states }) => states
+      .filter((state) => companionReady(state))
+      .map((state) => ({ config, state, checkpoint: readJson(join(config.directory, "production", "episodes", state.lessonId, "companions.json"), null) }))
+      .filter(({ checkpoint }) => companionsWanted(checkpoint, kinds, { maxFailures }).length || (checkpoint?.source?.owned && !checkpoint.source.removed)))
+      .sort((a, b) => Number(Boolean(b.checkpoint)) - Number(Boolean(a.checkpoint)) || String(b.state.createdAt).localeCompare(String(a.state.createdAt)));
+    let client;
+    const notebook = createNotebookAdapter();
+    for (const { config, state } of candidates.slice(0, lessonsPerTurn)) {
+      try {
+        client ??= await openGeminiNotebook();
+        const result = await advanceCompanions(config, state.lessonId, { client, notebook, kinds, maxFailures, recordStep });
+        out(result);
+        if (FAULT.test(result.status)) failures += 1;
+        if (result.status === "companions-awaiting-capacity") break;
+      } catch (error) { failures += 1; out({ channel: config.id, lesson: state.lessonId, status: "companions-error", error: error.message }); break; }
     }
   }
 } else if (command === "artifacts") {

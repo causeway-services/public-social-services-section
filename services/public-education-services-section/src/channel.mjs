@@ -6,6 +6,7 @@ import { dirname, isAbsolute, join, relative, resolve } from "node:path";
 import { parseEnv } from "node:util";
 import { fileURLToPath } from "node:url";
 import { writeFileAtomic } from "@red-cup-engineering/computer-system-engine/filesystem";
+import { readYouTubeCredentials } from "@emsenn/youtube-engineering-services-section/credentials";
 
 export const PACKAGE_ROOT = resolve(dirname(fileURLToPath(import.meta.url)), "..");
 
@@ -83,8 +84,9 @@ export function lessonReportPath(config, lesson) {
   return containedPath(config.curriculumDirectory, lesson.report || `lessons/${lesson.id}/report.md`);
 }
 
-/** Load KEY=value lines from every .env from this package up to the filesystem root, never overriding the environment. */
+/** Load the node's YouTube credentials, then KEY=value lines from every .env from this package up to the filesystem root, never overriding the environment. */
 export function loadEnvironment() {
+  for (const [key, value] of Object.entries(readYouTubeCredentials())) if (!(key in process.env)) process.env[key] = value;
   for (let dir = PACKAGE_ROOT; ; dir = dirname(dir)) {
     const path = join(dir, ".env");
     if (existsSync(path)) {

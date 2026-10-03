@@ -1,0 +1,24 @@
+{
+  "draftSha256": "3b3906142e284292b806ea1608231192a0d11513e8812b02f66425e7aae6495f",
+  "searches": 2,
+  "exchanges": [
+    {
+      "outcome": "completion",
+      "recordedAt": "2026-10-03T07:25:55.369Z",
+      "completedSearches": 2,
+      "model": "gpt-5.6-sol",
+      "citedUrls": [
+        "https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/ec2-on-demand-instances.html",
+        "https://docs.stripe.com/billing/subscriptions/metered-billing/thresholds",
+        "https://www.aeaweb.org/articles?id=10.1257/aer.104.2.537",
+        "https://docs.aws.amazon.com/savingsplans/latest/userguide/sp-ris.html",
+        "https://docs.aws.amazon.com/whitepapers/latest/cost-optimization-reservation-models/reserved-instances-billing.html",
+        "https://www.nber.org/papers/w35003",
+        "https://www.nber.org/papers/w22627",
+        "https://www.nber.org/papers/w31330",
+        "https://www.nber.org/papers/w19106"
+      ]
+    }
+  ],
+  "evidence": []
+}

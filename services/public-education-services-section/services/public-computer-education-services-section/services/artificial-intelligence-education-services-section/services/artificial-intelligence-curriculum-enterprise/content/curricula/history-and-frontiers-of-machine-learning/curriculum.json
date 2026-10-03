@@ -313,6 +313,20 @@
         "compute-data-market-observation"
       ],
       "freshnessDays": 14
+    },
+    {
+      "id": "data-provenance-curation-bias",
+      "title": "Data Provenance, Curation, and Systemic Bias",
+      "question": "How do historical data collection practices and curation pipelines encode societal biases that persist in modern foundation models, and what technical or governance interventions can mitigate these inherited distortions?",
+      "whyItMayMatter": "Understanding the lineage of training data is critical for diagnosing why models fail on underrepresented groups or domains. This lesson connects the historical context of data acquisition to current evaluation failures, enabling practitioners to move beyond surface-level fairness metrics to address root causes in data infrastructure and curation strategies.",
+      "tags": [
+        "data-bias",
+        "provenance",
+        "curation",
+        "fairness",
+        "infrastructure",
+        "governance"
+      ]
     }
   ]
 }

@@ -1,0 +1,67 @@
+{
+  "at": "2026-10-03T01:54:21.751Z",
+  "grounding": {
+    "completed": true,
+    "completedSearches": 5,
+    "sources": [
+      {
+        "uri": "https://www.justice.gov/criminal/corporate-enforcement-note-compensation-incentives-and-clawback-pilot"
+      },
+      {
+        "uri": "https://www.justice.gov/criminal/criminal-fraud/page/file/937501/dl?inline="
+      },
+      {
+        "uri": "https://www.bis.org/publications/202103-guidelines-principles-operational-resilience"
+      },
+      {
+        "uri": "https://www.legislation.gov.uk/ukpga/2006/46/section/172"
+      },
+      {
+        "uri": "https://www.coso.org/enterprise-risk-management"
+      },
+      {
+        "uri": "https://nvlpubs.nist.gov/nistpubs/CSWP/NIST.CSWP.29.pdf"
+      },
+      {
+        "uri": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32022R2554"
+      },
+      {
+        "uri": "https://eur-lex.europa.eu/legal-content/en/LSU/?uri=CELEX:32022R2554"
+      },
+      {
+        "uri": "https://courts.delaware.gov/Opinions/Download.aspx?id=324120"
+      },
+      {
+        "uri": "https://www.bis.org/publications/fsi-summary-principles-operational-resilience-executive-summary"
+      },
+      {
+        "uri": "https://www.sec.gov/newsroom/press-releases/2023-139"
+      }
+    ]
+  },
+  "inference": {
+    "model": "gpt-5.6-sol",
+    "provider": "codex",
+    "exchanges": [
+      {
+        "outcome": "completion",
+        "recordedAt": "2026-10-03T01:54:21.024Z",
+        "completedSearches": 5,
+        "model": "gpt-5.6-sol",
+        "citedUrls": [
+          "https://www.justice.gov/criminal/corporate-enforcement-note-compensation-incentives-and-clawback-pilot",
+          "https://www.justice.gov/criminal/criminal-fraud/page/file/937501/dl?inline=",
+          "https://www.bis.org/publications/202103-guidelines-principles-operational-resilience",
+          "https://www.legislation.gov.uk/ukpga/2006/46/section/172",
+          "https://www.coso.org/enterprise-risk-management",
+          "https://nvlpubs.nist.gov/nistpubs/CSWP/NIST.CSWP.29.pdf",
+          "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32022R2554",
+          "https://eur-lex.europa.eu/legal-content/en/LSU/?uri=CELEX:32022R2554",
+          "https://courts.delaware.gov/Opinions/Download.aspx?id=324120",
+          "https://www.bis.org/publications/fsi-summary-principles-operational-resilience-executive-summary",
+          "https://www.sec.gov/newsroom/press-releases/2023-139"
+        ]
+      }
+    ]
+  }
+}

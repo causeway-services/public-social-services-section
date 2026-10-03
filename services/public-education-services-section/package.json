@@ -4,6 +4,9 @@
   "description": "Public education services section.",
   "type": "module",
   "private": true,
+  "exports": {
+    "./obligations": "./src/obligations.mjs"
+  },
   "scripts": {
     "status": "node src/cli.mjs status",
     "research": "node src/cli.mjs research",
@@ -16,7 +19,10 @@
     "@red-cup-engineering/computer-system-engine": "0.1.0",
     "@red-cup-engineering/cryptographic-computer-data-engineering-services-section": "0.3.0",
     "@red-cup-engineering/gemini-notebook-services-section": "0.6.0",
+    "@red-cup-engineering/google-flow-services-section": "0.1.0",
+    "@red-cup-engineering/organizing": "0.1.0",
     "@red-cup-engineering/computer-media-content-services-section": "0.1.0",
-    "@red-cup-engineering/computer-code-development-engine": "0.3.0"
+    "@red-cup-engineering/computer-code-development-engine": "0.3.0",
+    "@red-cup-engineering/turntide-islands-discord-platform": "0.0.5"
   }
 }
