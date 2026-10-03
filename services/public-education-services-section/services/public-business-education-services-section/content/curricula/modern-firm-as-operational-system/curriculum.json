@@ -278,6 +278,20 @@
         "organizational-learning-evidence"
       ],
       "freshnessDays": 90
+    },
+    {
+      "id": "pricing-mechanisms-value-capture",
+      "title": "Pricing Mechanisms and Value Capture in Operational Contexts",
+      "question": "How do specific pricing architectures (e.g., usage-based, tiered, or dynamic) alter the causal link between operational cost structures and realized customer value, and what evidence is required to validate that a chosen mechanism captures value without eroding demand?",
+      "whyItMayMatter": "Operators often conflate cost-plus accounting with value-based pricing, leading to misaligned incentives and margin erosion. This lesson bridges financial reasoning and value-and-demand competencies by examining how pricing acts as a feedback mechanism that tests market willingness to pay against operational constraints, ensuring that revenue models are grounded in empirical demand evidence rather than arbitrary markup.",
+      "tags": [
+        "pricing-strategy",
+        "value-capture",
+        "unit-economics",
+        "demand-evidence",
+        "revenue-models",
+        "operational-costs"
+      ]
     }
   ]
 }
