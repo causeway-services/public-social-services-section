@@ -1,6 +1,6 @@
-// Gemini Notebook video capacity, as education consumes it. The account's
-// allowances renew per usage window (gemini-notebook allowances.json) and what
-// is not spent lapses at the turn, so production is sized to them rather than
+// Gemini Notebook video capacity, as education consumes it. The account's one
+// compute pool renews per usage window (gemini-notebook allowances.json) and
+// what is not spent lapses at the turn, so production is sized to them rather than
 // to the publication buffer alone:
 //
 //   commissioning   each channel is commissioned enough researched lessons to
@@ -22,7 +22,8 @@ const DAY = 86_400_000;
 const PRINCIPAL = "urn:ame:public-education-services-section";
 
 const allowanceOf = (id) => loadNotebookAllowances().find((allowance) => allowance.id === id) ?? null;
-const turnOf = (reading) => reading?.meters.map(({ resetsAt }) => resetsAt).filter(Boolean).sort()[0] ?? null;
+// When the current window turns; a rolling meter clears continuously and has no turn to wait for.
+const turnOf = (reading) => reading?.meters.filter(({ law }) => law !== "sliding").map(({ resetsAt }) => resetsAt).filter(Boolean).sort()[0] ?? null;
 
 /** Let go of the lesson's previous hold: an unsubmitted one is returned, a submitted one failed and is void. */
 function dropHold(hold, { storePath, at }) {
@@ -113,16 +114,21 @@ const servedUnits = (costs, episodes, since) => episodes.reduce((total, state) =
     .reduce((sum, { format }) => sum + costs[videoCapability(format)], 0);
 }, 0);
 
+/** The planning estimate of a learned interval: its middle, or its floor where it is unbounded. */
+const estimate = ({ lo, hi }) => (hi === null ? lo : (lo + hi) / 2);
+
 /**
  * How many lessons each channel should have commissioned so the coming
  * windows are spent. Each allowance's units over `lookaheadWindows` (what is
- * surely left of the current window plus whole later windows at the budget
- * surely known) are first claimed by commissioned lessons not yet submitted,
+ * left of the current window plus whole later windows, within what a rolling
+ * meter has left, all at the estimate of what was learned: admission itself
+ * stays with the ledger's sure reading) are first claimed by commissioned lessons not yet submitted,
  * then divided among channels by organizing's shareAllowance. A channel never
  * queues past its publication horizon. Units no channel can take are
  * `idleUnits`, and `lapsed` is what each allowance lost over the fairness
  * horizon: capacity that needs another consumer. An allowance no channel
- * draws on is reported with reason `no-consumer`.
+ * draws on is reported with reason `no-consumer`, and the kinds of an
+ * allowance no channel makes are listed as `unconsumed`.
  *
  * @param {Array<{config: object, episodes: object[], queued: number, scheduled: number}>} channels
  *   queued: commissioned lessons not yet submitted; scheduled: upcoming publications plus lessons in production.
@@ -140,10 +146,12 @@ export async function planVideoCommissioning(channels, { policy = {}, env = proc
     const members = channels.filter(({ config }) => videoCapability(config.video.format) in allowance.costs);
     if (!members.length) { plans.push({ allowance: allowance.id, product: allowance.product, reason: "no-consumer", lapsed }); continue; }
     const { reading } = readAllowanceLedger(allowance, { storePath, now });
-    const costs = Object.fromEntries(Object.entries(reading.costs).filter(([, { lo, hi }]) => hi !== null && hi > 0 && hi === lo).map(([kind, { hi }]) => [kind, hi]));
-    const perWindow = Math.min(...reading.meters.map(({ budget }) => budget.lo));
-    const current = Math.min(...reading.meters.map(({ remaining }) => remaining.lo));
-    let units = current + perWindow * (lookahead - 1);
+    // A kind whose price is unbounded cannot be planned for, only probed.
+    const costs = Object.fromEntries(Object.entries(reading.costs).filter(([, cost]) => cost.hi !== null && estimate(cost) > 0).map(([kind, cost]) => [kind, estimate(cost)]));
+    const windowed = reading.meters.filter(({ law }) => law !== "sliding");
+    const perWindow = Math.min(...windowed.map(({ budget }) => estimate(budget)));
+    const current = Math.min(...windowed.map(({ remaining }) => estimate(remaining)));
+    let units = Math.min(current + perWindow * (lookahead - 1), ...reading.meters.filter(({ law }) => law === "sliding").map(({ remaining }) => estimate(remaining)));
     for (const { config, queued } of members) units -= queued * (costs[videoCapability(config.video.format)] ?? 0);
     const demands = members.filter(({ config }) => videoCapability(config.video.format) in costs).map(({ config, episodes, scheduled }) => ({
       consumer: config.id, kind: videoCapability(config.video.format), weight: config.capacityWeight ?? 1,
@@ -152,8 +160,9 @@ export async function planVideoCommissioning(channels, { policy = {}, env = proc
     }));
     const share = shareAllowance({ available: Math.max(0, units), costs, demands });
     for (const grant of share.grants) targets.set(grant.consumer, grant.draws);
+    const made = new Set(members.map(({ config }) => videoCapability(config.video.format)));
     plans.push({ allowance: allowance.id, product: allowance.product, resetsAt: turnOf(reading), windowRemaining: current, perWindow,
-      lookaheadUnits: Math.max(0, units), grants: share.grants, idleUnits: share.unallocated, lapsed });
+      lookaheadUnits: Math.max(0, units), grants: share.grants, idleUnits: share.unallocated, unconsumed: Object.keys(allowance.costs).filter((kind) => !made.has(kind)), lapsed });
   }
   return { targets, plans };
 }
