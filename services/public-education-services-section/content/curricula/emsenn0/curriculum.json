@@ -158,6 +158,21 @@
         "economic systems",
         "social systems"
       ]
+    },
+    {
+      "id": "algorithmic-credit-risk-pricing",
+      "title": "Algorithmic Credit: How Code Determines Who Can Borrow",
+      "question": "How do algorithmic credit scoring systems translate social and economic data into financial risk, and how does this process distribute access to capital and economic opportunity?",
+      "whyItMayMatter": "Credit scores are not neutral measurements of character but technical artifacts that encode historical biases and current economic conditions. Understanding how these algorithms function reveals how technical systems can reinforce social stratification, turning data points into barriers or bridges for economic mobility.",
+      "tags": [
+        "algorithmic bias",
+        "credit scoring",
+        "financial inclusion",
+        "economic systems",
+        "technical systems",
+        "social systems",
+        "data ethics"
+      ]
     }
   ],
   "audience": "Curious adults seeking source-grounded explanations",
