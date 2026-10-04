@@ -4,9 +4,5 @@ import { buildIyappyWorld } from './build-world.mts';
 export const iyappyCourse = Object.freeze({
   id: 'iyappy',
   buildWorld: buildIyappyWorld,
-  adapter: Object.freeze({ path: 'js/vendor/themes/iyappy/browser-adapter.js', exportName: 'iyappyTheme' }),
-  browserModules: Object.freeze([
-    Object.freeze({ source: new URL('./browser-adapter.mts', import.meta.url), path: 'js/vendor/themes/iyappy/browser-adapter.js' }),
-    Object.freeze({ source: new URL('./registry.mts', import.meta.url), path: 'js/vendor/themes/iyappy/registry.js' }),
-  ]),
+  adapter: Object.freeze({ source: new URL('./browser-adapter.mts', import.meta.url), exportName: 'iyappyTheme' }),
 });
