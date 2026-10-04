@@ -2,7 +2,7 @@
 // channel directory holds config.json (YouTube identity, schedule, video format,
 // curriculum reference), history.json and production/episodes/<lesson>/.
 import { existsSync, readdirSync, readFileSync } from "node:fs";
-import { dirname, isAbsolute, join, relative, resolve } from "node:path";
+import { basename, dirname, isAbsolute, join, relative, resolve, sep } from "node:path";
 import { parseEnv } from "node:util";
 import { fileURLToPath } from "node:url";
 import { writeFileAtomic } from "@red-cup-engineering/computer-system-engine/filesystem";
@@ -57,6 +57,21 @@ export function channelDirectories(root = EDUCATION_ROOT) {
 
 export function channelIds(root = EDUCATION_ROOT) {
   return channelDirectories(root).map((dir) => readJson(join(dir, "config.json")).id).sort();
+}
+
+/**
+ * How a record names a file: repository-relative to the education root (the anchor every channel and
+ * curriculum sits under), never a machine path. A file outside the root is named by its basename.
+ */
+export function recordedPath(path, root = EDUCATION_ROOT) {
+  const delta = relative(root, resolve(path));
+  return (delta === ".." || delta.startsWith("../") || isAbsolute(delta) ? basename(path) : delta).split(sep).join("/");
+}
+
+/** Whether two media work lots request the same thing: identical but for where their sources are kept. */
+export function sameWorkLot(retained, fresh) {
+  const bare = ({ id, sources, ...rest }) => JSON.stringify({ ...rest, sources: sources.map(({ identity }) => identity) });
+  return Boolean(retained) && bare(retained) === bare(fresh);
 }
 
 export function containedPath(base, path) {

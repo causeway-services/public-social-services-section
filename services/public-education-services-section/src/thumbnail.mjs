@@ -9,6 +9,7 @@ import { accountArtifactCapacityStorePath, transitionAccountArtifactCapacity } f
 import { fitJpeg } from "@red-cup-engineering/computer-media-content-services-section/raster";
 import { createHash } from "node:crypto";
 import { readFileSync } from "node:fs";
+import { recordedPath } from "./channel.mjs";
 
 /** Framing added to every thumbnail prompt: text-free, centred, legible when small. */
 export const THUMBNAIL_COMPOSITION = "Create an original editorial illustration for a YouTube thumbnail. Panoramic 16:9 composition, all essential subjects within the middle horizontal 16:9 band, clear focal point and readable forms at small sizes. No text, letters, numbers, labels, logos, signatures, or watermarks.";
@@ -19,7 +20,7 @@ export async function prepareThumbnailWork(prompt, { workLot, reportPath, transc
   const observations = loadAccountArtifactObservations(env);
   if (!observations.length) return null;
   const completePrompt = `${THUMBNAIL_COMPOSITION}\n\n${prompt}`;
-  const sources = [reportPath, transcriptPath].map((path) => ({ path, identity: ni(readFileSync(path)) }));
+  const sources = [reportPath, transcriptPath].map((path) => ({ path: recordedPath(path), identity: ni(readFileSync(path)) }));
   let available = observations;
   while (available.length) {
     const result = requestAccountArtifactWork({ workLot, principal: "urn:ame:public-education-services-section", capability: "image-generation", prompt: completePrompt, sources, outputMimeType: "image/*" }, available, evaluatedAt ? { evaluatedAt } : {});

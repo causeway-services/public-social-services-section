@@ -29,7 +29,7 @@ import { createYouTube } from "@emsenn/youtube-engineering-services-section/api"
 import { adoptThumbnailWork, prepareThumbnailWork, produceThumbnail, THUMBNAIL_COMPOSITION } from "./thumbnail.mjs";
 import { admitVideoGeneration, settleVideoCapacity } from "./video-capacity.mjs";
 import { EducationCandidateRefusal, EducationInferenceUnavailable, produceEducationArtifact } from "./inference.mjs";
-import { containedPath, episodeDirectory, lessonReportPath, nextSlot, PACKAGE_ROOT, readJson, writeAtomic } from "./channel.mjs";
+import { containedPath, episodeDirectory, lessonReportPath, nextSlot, PACKAGE_ROOT, readJson, recordedPath, sameWorkLot, writeAtomic } from "./channel.mjs";
 import { sha256Hex } from "@red-cup-engineering/cryptographic-computer-data-engineering-services-section/integrity";
 
 /** A step that cannot proceed now; `status` says why. */
@@ -150,13 +150,13 @@ export async function advanceLesson(config, lessonId, { env = process.env, now =
     });
     if (researched.status === "admitted") {
       save({ researchSearches: researched.searches });
-      record({ step: "research", provider: "codex", outcome: "report-written", words: researched.words, sources: researched.sources, searches: researched.searches, report: paths.report });
+      record({ step: "research", provider: "codex", outcome: "report-written", words: researched.words, sources: researched.sources, searches: researched.searches, report: recordedPath(paths.report) });
     }
     const reportSha256 = sha256(paths.report);
     if (reportSubmitted && state.reportSha256 && state.reportSha256 !== reportSha256) throw new LessonBlocked("report-changed", "The report changed after submission; restore the original report");
     if (state.reportSha256 !== reportSha256) save({ reportSha256, stage: "researched" });
 
-    if (researchOnly) return { channel: config.id, lesson: lessonId, status: "researched", report: paths.report };
+    if (researchOnly) return { channel: config.id, lesson: lessonId, status: "researched", report: recordedPath(paths.report) };
 
     if (!state.youtubeVideoId) {
       const failures = videoFailures(config, state);
@@ -178,15 +178,17 @@ export async function advanceLesson(config, lessonId, { env = process.env, now =
       }
       if (state.stage === "video-failed") await retryNotebookVideo({ checkpoint: state, onCheckpoint: save, onRecord: (entry) => record({ provider: "notebooklm", ...entry, format }) });
       const videoRequest = { ...config.video, format, prompt: config.video.prompt?.replaceAll("{{title}}", lesson.title) };
-      const videoWork = createMediaArtifactWorkLot({
+      const requestedVideoWork = createMediaArtifactWorkLot({
         workLot: `${config.id}/${lessonId}/video`, principal: "urn:ame:public-education-services-section",
         capability: "source-grounded-video-overview", prompt: JSON.stringify({ title: lesson.title, video: videoRequest }),
-        sources: [{ path: paths.report, identity: sha256ni(paths.report) }], outputMimeType: "video/mp4",
+        sources: [{ path: recordedPath(paths.report), identity: sha256ni(paths.report) }], outputMimeType: "video/mp4",
       });
       const videoWorkPath = join(dir, "video-work.json");
+      const retainedVideoWork = readJson(videoWorkPath, null);
+      // A lot retained from before sources were named repository-relative stands: its identity is bound to its submission.
+      const videoWork = sameWorkLot(retainedVideoWork, requestedVideoWork) ? retainedVideoWork : requestedVideoWork;
       // The request may change only while no submission is bound to it (a retry's next format).
       const unsubmitted = !state.generationStarted && !state.artifactId;
-      const retainedVideoWork = readJson(videoWorkPath, null);
       const retainedSame = JSON.stringify(retainedVideoWork) === JSON.stringify(videoWork);
       if (retainedVideoWork && !retainedSame && !unsubmitted) throw new LessonBlocked("video-work-changed", "The retained video request differs from its source report or settings");
       if (!retainedSame) writeAtomic(videoWorkPath, videoWork);
@@ -293,12 +295,13 @@ export async function advanceLesson(config, lessonId, { env = process.env, now =
         if (!receipt || receipt.request !== readJson(thumbnailWorkPath).id || receipt.publishedImage !== sha256ni(paths.thumbnail)) throw new LessonBlocked("thumbnail-provenance-missing", "Restore the matching thumbnail work receipt before publishing");
       }
       if (!existsSync(paths.thumbnail)) {
-        const thumbnailWork = createMediaArtifactWorkLot({
+        const requestedThumbnailWork = createMediaArtifactWorkLot({
           workLot: `${config.id}/${lessonId}/thumbnail`, principal: "urn:ame:public-education-services-section",
           capability: "image-generation", prompt: `${THUMBNAIL_COMPOSITION}\n\n${metadata.thumbnailPrompt}`,
-          sources: [paths.report, paths.transcript].map((path) => ({ path, identity: sha256ni(path) })), outputMimeType: "image/*",
+          sources: [paths.report, paths.transcript].map((path) => ({ path: recordedPath(path), identity: sha256ni(path) })), outputMimeType: "image/*",
         });
         const retainedThumbnailWork = readJson(thumbnailWorkPath, null);
+        const thumbnailWork = sameWorkLot(retainedThumbnailWork, requestedThumbnailWork) ? retainedThumbnailWork : requestedThumbnailWork;
         if (retainedThumbnailWork && JSON.stringify(retainedThumbnailWork) !== JSON.stringify(thumbnailWork)) throw new LessonBlocked("thumbnail-work-changed", "The retained thumbnail request differs from its report, transcript or prompt");
         if (!retainedThumbnailWork) writeAtomic(thumbnailWorkPath, thumbnailWork);
         const packetPath = join(work, "thumbnail-work.json");
@@ -315,8 +318,8 @@ export async function advanceLesson(config, lessonId, { env = process.env, now =
             record({ step: "thumbnail", outcome: "operator-work-prepared", packet: packet.id, capability: packet.capability, product: packet.product, expiresAt: packet.expiresAt });
           }
         }
-        if (packet && new Date(packet.expiresAt) <= now) throw new LessonBlocked("thumbnail-entitlement-expired", `Reconcile the expired packet at ${packetPath} before requesting more account capacity`);
-        if (packet) throw new LessonBlocked("thumbnail-operator-required", `Complete ${packetPath}, then run adopt-thumbnail`);
+        if (packet && new Date(packet.expiresAt) <= now) throw new LessonBlocked("thumbnail-entitlement-expired", `Reconcile the expired packet at ${recordedPath(packetPath)} before requesting more account capacity`);
+        if (packet) throw new LessonBlocked("thumbnail-operator-required", `Complete ${recordedPath(packetPath)}, then run adopt-thumbnail`);
         const directReceiptPath = join(dir, "thumbnail-receipt.json");
         const stagedDirectPath = join(work, "thumbnail-direct.jpg");
         const retainedDirectReceipt = readJson(directReceiptPath, null);
@@ -443,7 +446,7 @@ export async function releaseOperatorThumbnail(config, lessonId, reason, { env =
   const retainedPath = join(work, `thumbnail-work-released-${packet.id.split(";").at(-1)}.json`);
   renameSync(packetPath, retainedPath);
   writeAtomic(join(dir, "state.json"), { ...state, stage: "transcribed", thumbnailWorkPacket: null, thumbnailWorkAttempted: false, thumbnailWorkSettled: false, lastError: null, updatedAt: new Date().toISOString() });
-  recordStep(config, lessonId, { step: "thumbnail", outcome: "operator-work-released", packet: packet.id, reason, retainedPath, capacity: capacity.disposition });
+  recordStep(config, lessonId, { step: "thumbnail", outcome: "operator-work-released", packet: packet.id, reason, retainedPath: recordedPath(retainedPath), capacity: capacity.disposition });
   return { packet: packet.id, reason, retainedPath, capacity: capacity.disposition };
 }
 
