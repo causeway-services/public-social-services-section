@@ -25,7 +25,7 @@ import { completeMediaArtifactWork, createMediaArtifactWorkLot } from "@red-cup-
 import { allowanceLedgerPath } from "@red-cup-engineering/computer-inference-engine/media/allowance-ledger";
 import { advanceStudioWork, StudioWorkBlocked } from "@red-cup-engineering/gemini-notebook-services-section/studio-work";
 import { sha256Hex } from "@red-cup-engineering/cryptographic-computer-data-engineering-services-section/integrity";
-import { episodeDirectory, lessonReportPath, readJson, writeAtomic } from "./channel.mjs";
+import { episodeDirectory, lessonReportPath, readJson, recordedPath, writeAtomic } from "./channel.mjs";
 import { PRINCIPAL } from "./video-capacity.mjs";
 
 /** The companions a lesson can have: the file each is kept as and how Studio is asked for it. */
@@ -123,7 +123,7 @@ export async function advanceCompanions(config, lessonId, { client, notebook, ki
       const work = createMediaArtifactWorkLot({
         workLot: `${config.id}/${lessonId}/${kind}`, principal: PRINCIPAL, capability: companion.capability,
         prompt: JSON.stringify({ title: lesson.title, kind, instructions: request.instructions, options: request.options }),
-        sources: [{ path: reportPath, identity: sha256ni(reportPath) }], outputMimeType: companion.mimeType,
+        sources: [{ path: recordedPath(reportPath), identity: sha256ni(reportPath) }], outputMimeType: companion.mimeType,
       });
       if (checkpoint.kinds[kind]?.workLot !== work.id) {
         saveKind(kind, { workLot: work.id });
@@ -146,7 +146,7 @@ export async function advanceCompanions(config, lessonId, { client, notebook, ki
         resource: made.capacity ?? { status: "not-observed" },
       });
       writeAtomic(join(dir, `${kind}-work-receipt.json`), receipt);
-      saveKind(kind, { receipt: receipt.id, file: outputPath, sha256: made.output.sha256, title: made.title });
+      saveKind(kind, { receipt: receipt.id, file: recordedPath(outputPath), sha256: made.output.sha256, title: made.title });
       record({ step: kind, outcome: "artifact-received", workLot: work.id, receipt: receipt.id, artifactId: made.artifactId, output: receipt.output.identity });
     }
     if (waiting.length) return waiting.find(({ status }) => status === "companions-awaiting-capacity") ?? waiting[0];
