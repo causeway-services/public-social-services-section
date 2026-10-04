@@ -17,7 +17,7 @@ export async function produceEducationArtifact({ env, objective, context, schema
     objective, context, workType: "inquiry", taskClass,
     desiredUse: "Produce one editorial candidate for public education; the receiving section reviews and saves it separately.",
     outputSchema: schema, requiredCapabilities: ["json-output"], requiredQualityTiers: ["frontier-hosted"],
-    zeroCashOnly: true, contextOptimization: { mode: "exact" },
+    contextOptimization: { mode: "exact" },
     agentBounds: { maximumRequests: 2, maximumOutputTokens, maximumTokensPerRequest: maximumOutputTokens, maximumToolCalls: 0, maximumToolRounds: 0, maximumDepth: 0 },
   }, {
     customerActor: EDUCATION_ACTOR, pricingRoot,
