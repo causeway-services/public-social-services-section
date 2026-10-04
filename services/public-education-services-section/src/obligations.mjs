@@ -1,10 +1,12 @@
-// What public education needs a person to do. A channel whose refresh token
-// the node does not hold cannot upload, schedule or be syndicated, and only the
-// person who holds its Google account can give consent. Each such channel is an
-// obligation on that person, walked in their own browser: open Google's consent
-// link, choose the channel, and paste back the address Google returns them to.
-// Channel directories are submodules a release does not carry, so channels are
-// read from this package's place in the live repository the node works in.
+// What public education needs a person to do, as the driver for obligation records of kind
+// `google-oauth-consent` (the operations console's declared obligations). A channel whose refresh
+// token the node does not hold cannot upload, schedule or be syndicated, and only the person who
+// holds its Google account can give consent. The record (data) says who it waits on, the words, the
+// steps and what it unblocks; this driver supplies the occasions (one per channel without a token),
+// the consent link, and what finishing does: exchange the pasted address for a refresh token and
+// hold it in the credential custody the uploader reads. Channel directories are submodules a release
+// does not carry, so channels are read from this package's place in the live repository the node
+// works in.
 import { existsSync } from "node:fs";
 import { dirname, join, relative } from "node:path";
 import { consentRequest, exchangeConsent, returnedConsent } from "@emsenn/youtube-engineering-services-section/authorize";
@@ -24,50 +26,30 @@ function liveEducationRoot(repositoryRoot) {
 }
 
 /**
- * The obligation source for education channels.
- * @param {{ accountHolder: string, repositoryRoot?: string, env?: NodeJS.ProcessEnv }} options
- *   accountHolder is the character who holds the channels' Google account.
+ * The driver for education channels' Google consent.
+ * @param {{ repositoryRoot?: string, env?: NodeJS.ProcessEnv }} options
  */
-export function educationObligations({ accountHolder, repositoryRoot, env = process.env }) {
-  if (typeof accountHolder !== "string" || accountHolder === "") throw new TypeError("education obligations need the character who holds the channels' Google account");
+export function googleConsentDriver({ repositoryRoot, env = process.env } = {}) {
   const root = liveEducationRoot(repositoryRoot);
   const channels = () => channelDirectories(root).map((directory) => readJson(join(directory, "config.json")));
-  const channelOf = (id) => {
-    const config = channels().find((candidate) => `youtube:${candidate.id}` === id);
-    if (!config) throw new TypeError(`no education channel answers ${id}`);
+  const channelOf = (instance) => {
+    const config = channels().find((candidate) => `youtube:${candidate.id}` === instance.id);
+    if (!config) throw new TypeError(`no education channel answers ${instance.id}`);
     return config;
   };
   return {
-    id: "education",
-    title: "Public education",
-    obligations() {
-      const held = readYouTubeCredentials(env);
-      return channels().filter((config) => !held[config.refreshTokenEnv]).map((config) => ({
-        id: `youtube:${config.id}`,
-        to: [accountHolder],
-        title: `Connect ${config.name} to the house`,
-        why: `${config.name} (${config.handle ?? config.youtubeChannelId}) has no YouTube connection on the node, so the house cannot upload or schedule its videos, or share them on Turntide Islands. Only the holder of its Google account can connect it, and it takes about two minutes.`,
-      }));
-    },
-    start(id) {
-      const config = channelOf(id);
+    kind: "google-oauth-consent",
+    instances: () => channels().map((config) => ({
+      id: `youtube:${config.id}`,
+      vars: { name: config.name, handleOrId: config.handle ?? config.youtubeChannelId, handleClause: config.handle ? ` (${config.handle})` : "" },
+    })),
+    held: (record, instance) => Boolean(readYouTubeCredentials(env)[channelOf(instance).refreshTokenEnv]),
+    prepare(record, instance) {
       const { url, state, verifier, redirectUri } = consentRequest({ clientId: readYouTubeCredentials(env).YOUTUBE_OAUTH_CLIENT_ID, port: PORT });
-      return {
-        memo: { state, verifier, redirectUri },
-        link: { href: url, label: `Open Google to connect ${config.name}` },
-        steps: [
-          `Press "Open Google to connect ${config.name}". Google opens in a new tab.`,
-          `Sign in to Google if it asks. When it asks you to choose an account, pick ${config.name}${config.handle ? ` (${config.handle})` : ""}, not your own name. If it's missing, choose "Use another account" or switch to it on youtube.com first.`,
-          `If Google says it hasn't verified this app, press "Advanced", then "Go to …". The app is the house's own.`,
-          `Tick every permission box, then press "Continue".`,
-          `The tab lands on a page that won't load, with an address starting ${redirectUri}. That is expected. Click the address bar and copy the whole address.`,
-          `Come back to this tab, paste the address below, and press "Connect".`,
-        ],
-        input: { label: "the address Google sent you to", placeholder: `${redirectUri}/?state=…&code=…`, description: "Paste the whole address from the tab that wouldn't load." },
-      };
+      return { memo: { state, verifier, redirectUri }, link: { href: url }, vars: { redirectUri } };
     },
-    async finish(id, memo, value) {
-      const config = channelOf(id);
+    async capture(record, instance, memo, value) {
+      const config = channelOf(instance);
       const held = readYouTubeCredentials(env);
       const code = returnedConsent(value, memo);
       let token;
@@ -78,7 +60,7 @@ export function educationObligations({ accountHolder, repositoryRoot, env = proc
         throw error;
       }
       retainYouTubeCredential(config.refreshTokenEnv, token, env);
-      return { title: `${config.name} is connected`, content: `The house can now upload, schedule and share ${config.name}'s videos.` };
+      return { custody: `the YouTube credential ${config.refreshTokenEnv}` };
     },
   };
 }
