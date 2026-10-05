@@ -475,6 +475,19 @@
         "quantum-field-theory",
         "information-geometry"
       ]
+    },
+    {
+      "id": "modular-flow-kinematic-space",
+      "title": "Modular flow and its representation in kinematic space",
+      "question": "How can the modular flow associated with a causal diamond be encoded as a vector field on kinematic space, and what geometric features does it reveal about entanglement structure?",
+      "whyItMayMatter": "Linking modular flow to a concrete geometric object in kinematic space could clarify how local quantum information propagates under causal constraints, offering a new bridge between algebraic quantum field theory and the emergent geometry of spacetime.",
+      "tags": [
+        "modular-flow",
+        "causal-diamond",
+        "kinematic-space",
+        "vector-fields",
+        "entanglement-structure"
+      ]
     }
   ]
 }

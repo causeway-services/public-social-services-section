@@ -173,6 +173,22 @@
         "social systems",
         "data ethics"
       ]
+    },
+    {
+      "id": "ev-charging-infrastructure-costs",
+      "title": "Electric Vehicle Charging: Who Pays for the Grid and Who Controls Access?",
+      "question": "How do the technical requirements, financing models, and policy decisions for electric‑vehicle charging stations distribute costs, benefits, and control among utilities, drivers, municipalities, and marginalized communities?",
+      "whyItMayMatter": "The rollout of EV charging reshapes electricity demand, urban planning, and mobility equity. Understanding who funds grid upgrades, who owns the charging hardware, and who sets pricing reveals hidden trade‑offs between climate goals, private profit, and social inclusion, helping citizens evaluate whether the transition to electric transport advances or deepens existing inequalities.",
+      "tags": [
+        "ev charging",
+        "grid upgrades",
+        "infrastructure financing",
+        "energy equity",
+        "public policy",
+        "technical systems",
+        "economic systems",
+        "social systems"
+      ]
     }
   ],
   "audience": "Curious adults seeking source-grounded explanations",
