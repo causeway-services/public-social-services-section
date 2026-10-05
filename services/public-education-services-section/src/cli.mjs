@@ -28,6 +28,7 @@ import { openGeminiNotebook } from "@red-cup-engineering/gemini-notebook-service
 import { channelIds, loadChannel, loadEnvironment, PACKAGE_ROOT, readJson } from "./channel.mjs";
 import { adoptArtifact, adoptOperatorThumbnail, advanceLesson, beginOperatorThumbnail, episodeState, isRequested, recordStep, releaseOperatorThumbnail, retryVideo } from "./lesson.mjs";
 import { advanceCompanions, companionReady, companionsWanted } from "./companions.mjs";
+import { advanceShort, shortReady } from "./shorts.mjs";
 import { createYouTube } from "@emsenn/youtube-engineering-services-section/api";
 import { existsSync, readdirSync } from "node:fs";
 import { extendCurriculum } from "./curriculum.mjs";
@@ -163,7 +164,8 @@ if (command === "status") {
     }
   }
   // companions: lessons already in flight first, then the newest made lessons, until the window is spent.
-  const { kinds = [], lessonsPerTurn = 3, maxFailures = 2 } = production.companions ?? {};
+  // No count of lessons per turn: the window is the limit, and a kind waiting on capacity ends the turn.
+  const { kinds = [], maxFailures = 2 } = production.companions ?? {};
   if (kinds.length && !only) {
     const candidates = inventories.filter(({ config }) => channel === "all" || channel === config.id).flatMap(({ config, episodes: states }) => states
       .filter((state) => companionReady(state))
@@ -172,7 +174,7 @@ if (command === "status") {
       .sort((a, b) => Number(Boolean(b.checkpoint)) - Number(Boolean(a.checkpoint)) || String(b.state.createdAt).localeCompare(String(a.state.createdAt)));
     let client;
     const notebook = createNotebookAdapter();
-    for (const { config, state } of candidates.slice(0, lessonsPerTurn)) {
+    for (const { config, state } of candidates) {
       try {
         client ??= await openGeminiNotebook();
         const result = await advanceCompanions(config, state.lessonId, { client, notebook, kinds, maxFailures, recordStep });
@@ -180,6 +182,19 @@ if (command === "status") {
         if (FAULT.test(result.status)) failures += 1;
         if (result.status === "companions-awaiting-capacity") break;
       } catch (error) { failures += 1; out({ channel: config.id, lesson: state.lessonId, status: "companions-error", error: error.message }); break; }
+    }
+  }
+  // shorts: every lesson on YouTube gets its vertical Flow clip, queued with Flow's queue (which spends
+  // credits at its own pace) and published as a Short beside the lesson. A channel YouTube refuses an
+  // upload for waits until its next run; the rest go on.
+  if (!only) {
+    for (const { config, episodes: states } of inventories.filter(({ config }) => channel === "all" || channel === config.id)) {
+      for (const state of states.filter((episode) => shortReady(config, episode))) {
+        try {
+          const result = await advanceShort(config, state);
+          if (!result.already) out(result);
+        } catch (error) { failures += 1; out({ channel: config.id, lesson: state.lessonId, status: "short-error", error: error.message }); break; }
+      }
     }
   }
 } else if (command === "artifacts") {
