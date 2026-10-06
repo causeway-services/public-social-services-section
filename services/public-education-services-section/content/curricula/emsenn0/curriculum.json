@@ -189,6 +189,21 @@
         "economic systems",
         "social systems"
       ]
+    },
+    {
+      "id": "satellite-constellations-debris",
+      "title": "Satellite Mega‑Constellations: Who Controls the Sky and Who Pays for Space Debris?",
+      "question": "How do the technical design choices, financing structures, and regulatory regimes of large satellite constellations determine who owns orbital slots, who bears the cost of debris mitigation, and how economic benefits are distributed among operators, national governments, and communities affected by sky‑visibility and space‑environment risks?",
+      "whyItMayMatter": "The rapid launch of thousands of low‑Earth‑orbit satellites turns the night sky from a shared public good into a contested commercial asset. Understanding how engineering standards, market financing, and international law allocate responsibility for collision risk, de‑orbiting costs, and revenue from services (e.g., broadband, Earth observation) reveals hidden trade‑offs between global connectivity, environmental stewardship of space, and equity for nations and citizens who may experience increased light pollution, radio interference, or loss of future orbital capacity.",
+      "tags": [
+        "satellite constellations",
+        "space debris",
+        "orbital regulation",
+        "economic equity",
+        "technical systems",
+        "social impact",
+        "environmental governance"
+      ]
     }
   ],
   "audience": "Curious adults seeking source-grounded explanations",

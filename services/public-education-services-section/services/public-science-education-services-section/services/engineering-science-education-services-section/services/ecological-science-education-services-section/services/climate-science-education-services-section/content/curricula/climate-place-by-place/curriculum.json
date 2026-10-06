@@ -77,6 +77,21 @@
       "id": "anchorage",
       "title": "Anchorage: Climate History and Outlook",
       "placeId": "wikidata:Q39450"
+    },
+    {
+      "id": "portland",
+      "title": "Portland, Oregon: Climate History and Outlook",
+      "question": "How have historical temperature trends, precipitation patterns, and extreme weather events shaped Portland’s current climate outlook, and what are the projected changes for the next 50 years?",
+      "whyItMayMatter": "Understanding Portland’s climate trajectory helps residents, planners, and policymakers anticipate water supply challenges, wildfire risk, and flood hazards, enabling more resilient urban design and community preparedness for a changing climate.",
+      "tags": [
+        "portland",
+        "oregon",
+        "climate-history",
+        "future-projections",
+        "urban-climate",
+        "precipitation",
+        "temperature-trends"
+      ]
     }
   ],
   "audience": "Curious adults seeking source-grounded explanations"
