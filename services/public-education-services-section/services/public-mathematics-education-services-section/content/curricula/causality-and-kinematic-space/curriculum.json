@@ -488,6 +488,19 @@
         "vector-fields",
         "entanglement-structure"
       ]
+    },
+    {
+      "id": "causal-witnesses-in-kinematic-space",
+      "title": "Causal witnesses and their geometric representation",
+      "question": "Can operational causal witnesses be defined inside kinematic space to detect nontrivial causal influence between spacetime regions, and does the shape or curvature of their associated geometric loci encode information about the underlying Lorentzian geometry?",
+      "whyItMayMatter": "Identifying causal witnesses in kinematic space would give a concrete tool for probing how information propagates in a relativistic setting, linking abstract causal order to measurable geometric signatures and potentially informing reconstruction algorithms for spacetime from limited causal data.",
+      "tags": [
+        "causal-witness",
+        "kinematic-space",
+        "geometry",
+        "spacetime-curvature",
+        "information-theory"
+      ]
     }
   ]
 }
