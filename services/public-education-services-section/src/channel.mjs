@@ -102,7 +102,7 @@ export function loadChannel(id, root = EDUCATION_ROOT) {
   const { lessons, ...course } = readJson(curriculumPath);
   if (!Array.isArray(lessons) || lessons.some((l) => !/^[a-z0-9-]+$/u.test(l.id) || !l.title) || new Set(lessons.map((l) => l.id)).size !== lessons.length) throw new Error(`Invalid curriculum: ${curriculumPath}`);
   nextSlot(config.schedule);
-  return { ...config, directory, curriculumPath, curriculumDirectory: dirname(curriculumPath), course, curriculum: lessons, editorial: { ...course, ...config.editorial } };
+  return { ...config, learning:config.learning??readJson(join(PACKAGE_ROOT,'production.json'),{}).learning?.[id], directory, curriculumPath, curriculumDirectory: dirname(curriculumPath), course, curriculum: lessons, editorial: { ...course, ...config.editorial } };
 }
 
 export function episodeDirectory(config, lessonId) {

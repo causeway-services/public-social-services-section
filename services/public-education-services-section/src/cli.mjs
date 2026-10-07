@@ -32,6 +32,7 @@ import {authorizeYouTube} from '@emsenn/youtube-engineering-services-section/aut
 import {retainYouTubeCredential} from '@emsenn/youtube-engineering-services-section/credentials';
 import {refreshAudience,rankLessons} from './audience.mjs';
 import {orderProductionWork} from './production-order.mjs';
+import {syncLearning} from './learning.mjs';
 
 loadEnvironment();
 process.env.EXPECTED_RESOLUTION_PRICING_ROOT ||= join(
@@ -242,6 +243,17 @@ if (command === "status") {
         if (result.status === "companions-awaiting-capacity") break;
       } catch (error) { failures += 1; out({ channel: config.id, lesson: state.lessonId, status: "companions-error", error: error.message }); break; }
     }
+  }
+  if(!only)for(const inventory of selected) {
+    try {out(await syncLearning(inventory.config,{youtube:inventory.youtube,uploads:await inventory.youtube.listUploads()}));}
+    catch(error){out({channel:inventory.config.id,status:'learning-deferred',error:error.message});}
+  }
+} else if (command === 'learning') {
+  for(const config of channelsOf(positional[0],{includeDisabled:true})) {
+    try {
+      const youtube=createYouTube({channelId:config.youtubeChannelId,refreshTokenEnv:config.refreshTokenEnv,env:process.env,fetchImpl:globalThis.fetch,authorize:async()=>{}});
+      out(await syncLearning(config,{youtube,uploads:await youtube.listUploads()}));
+    }catch(error){failures++;out({channel:config.id,status:'learning-failed',error:error.message});}
   }
 } else if (command === "shorts" || command === "repair-shorts") {
   const inventories=[];
