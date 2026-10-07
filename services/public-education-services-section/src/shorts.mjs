@@ -53,16 +53,18 @@ export async function repairExistingShorts(config,{youtube,uploads,only}) {
   let state=readJson(path,{origin:suffix==='notebook-vertical'?'gemini-notebook':'google-flow',youtubeVideoId:video.id,parentVideoId:parent.youtubeVideoId});
   const save=updates=>{state={...state,...updates,updatedAt:new Date().toISOString()};writeAtomic(path,state);};
   if((state.youtubeVideoId&&state.youtubeVideoId!==video.id)||(state.parentVideoId&&state.parentVideoId!==parent.youtubeVideoId)) {results.push({channel:config.id,lesson:lessonId,videoId:video.id,status:'short-parent-mismatch'});continue;}
-  save({youtubeVideoId:video.id,parentVideoId:parent.youtubeVideoId});
   try {
    const metadata=shortMetadata(config,lessonId,parent.youtubeVideoId,metadataPath);
+   const related=state.relatedVideo;
+   if(state.stage==='published'&&video.status?.privacyStatus==='public'&&video.snippet.title===metadata.title&&related?.videoId===video.id&&related?.relatedVideoId===parent.youtubeVideoId&&related?.carrier==='youtube-studio-related-video'&&Date.now()-Date.parse(related.verifiedAt)<24*3600000&&(!state.supersededVideoId||state.supersededVideoUnlisted))continue;
+   save({youtubeVideoId:video.id,parentVideoId:parent.youtubeVideoId});
    if(video.snippet.title!==metadata.title) {await youtube.setTitle({videoId:video.id,title:metadata.title});save({title:metadata.title,titleError:null});video.snippet.title=metadata.title;results.push({channel:config.id,lesson:lessonId,videoId:video.id,status:'short-title-repaired',title:metadata.title});}
    prepared.push({config,lessonId,parent,youtube,existing:[video],state,save,metadataPath,marker:marker[0].slice(12,-1),work:join(config.directory,'.work',lessonId),output:join(config.directory,'.work',lessonId,'existing-short.mp4'),record:entry=>recordStep(config,lessonId,{step:'short',provider:state.origin,...entry})});
-  }catch(error){results.push({channel:config.id,lesson:lessonId,videoId:video.id,status:'short-metadata-review-required',message:error.message});}
+  }catch(error){if(error.reason==='quotaExceeded')throw error;results.push({channel:config.id,lesson:lessonId,videoId:video.id,status:'short-metadata-review-required',message:error.message});}
  }
  for(const item of prepared) {
   try {results.push(await publishPreparedShort(item));}
-  catch(error){results.push({channel:config.id,lesson:item.lessonId,videoId:item.state.youtubeVideoId,status:'short-repair-error',message:error.message});}
+  catch(error){if(error.reason==='quotaExceeded')throw error;results.push({channel:config.id,lesson:item.lessonId,videoId:item.state.youtubeVideoId,status:'short-repair-error',message:error.message});}
  }
  return results;
 }
@@ -215,6 +217,10 @@ export async function publishPreparedShort({config,lessonId,parent,youtube,exist
  try {if(existing.find(video=>video.id===state.youtubeVideoId)?.snippet.title!==metadata.title)await youtube.setTitle({videoId:state.youtubeVideoId,title:metadata.title});save({title:metadata.title,titleError:null});}
  catch(error) {if(error.reason!=='insufficientPermissions') throw error;titleError=error;save({titleError:{code:'YOUTUBE_VIDEO_MANAGEMENT_CONSENT_REQUIRED',message:'Reconnect the channel with YouTube video-management permission to update its title'}});}
  if(config.enabled===false) return result('staged-private','Channel launch is disabled');
+ const retained=state.relatedVideo;
+ if(!(retained?.videoId===state.youtubeVideoId&&retained?.relatedVideoId===parent.youtubeVideoId&&retained?.carrier==='youtube-studio-related-video'&&Date.now()-Date.parse(retained.verifiedAt)<24*3_600_000)) {
+  const gate=relatedGate(config);if(gate)return {...result('related-video-pending',gate.message),code:gate.code,retryAt:gate.retryAt};
+ }
  const parentVideo=await youtube.getVideo(parent.youtubeVideoId);
  if(!['public','unlisted'].includes(parentVideo?.status.privacyStatus)) return result('awaiting-longform-publication','YouTube requires the Related Video target to be public or unlisted');
  const short=await youtube.getVideo(state.youtubeVideoId);

@@ -1,4 +1,5 @@
 import {join} from 'node:path';
+import {createHash} from 'node:crypto';
 import {episodeDirectory,readJson,writeAtomic} from './channel.mjs';
 import {shareTeachingMedia} from '@red-cup-engineering/google-drive-services-section/media';
 import {offerToZelo} from '@red-cup-engineering/turntide-islands-discord-platform/placement-offer';
@@ -42,11 +43,15 @@ export async function syncLearning(config,{youtube,uploads,courseStudio,limit=4,
  const save=change=>{checkpoint={...checkpoint,...change};writeAtomic(path,checkpoint);};
  if(config.learning?.course) {
   const competencies=(config.course.competencies??[]).map(item=>item.statement??item.description).filter(Boolean);
-  playlist=await youtube.ensureLearningPlaylist({marker:config.id+'/'+config.course.courseId,title:config.learning.title??config.course.title,
+  const desired={marker:config.id+'/'+config.course.courseId,title:config.learning.title??config.course.title,
    description:[config.course.promise??config.course.purpose??'',`For: ${config.course.audience??'curious learners'}.`,competencies.length?'By the end, you will be able to:\n'+competencies.map(item=>'- '+item).join('\n'):'Trace the mechanism, identify who bears costs and makes decisions, and assess the evidence and its limits.',
     'Follow the lessons in order. Each video is a worked explanation; use its teaching resources and retrieval questions to check understanding. New lessons are added as they become public.'].join('\n\n'),
-   videoIds:lessons.map(item=>item.video.id),privacyStatus:lessons.length?'public':'private',checkpoint:checkpoint.transport??{},onCheckpoint:transport=>save({transport})});
-  save({playlist});
+   videoIds:lessons.map(item=>item.video.id),privacyStatus:lessons.length?'public':'private'};
+  const fingerprint=createHash('sha256').update(JSON.stringify(desired)).digest('hex');
+  if(!playlist||checkpoint.playlistDesired!==fingerprint||Date.now()-Date.parse(playlist.verifiedAt)>=86400000||!Number.isFinite(Date.parse(playlist.verifiedAt))||checkpoint.transport?.creating||checkpoint.transport?.adding) {
+   playlist=await youtube.ensureLearningPlaylist({...desired,checkpoint:checkpoint.transport??{},onCheckpoint:transport=>save({transport})});
+   save({playlist,playlistDesired:fingerprint});
+  }
  }
  let advanced=0,offered=false;const resources=[];
  for(let index=0;index<lessons.length;index++) {

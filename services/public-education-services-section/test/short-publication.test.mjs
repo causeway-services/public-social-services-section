@@ -15,6 +15,14 @@ function fixture(t) {
 }
 const video=lesson=>({id:'short'+lesson,snippet:{title:'A prose title #Shorts',description:`[production:example/${lesson}/short]`,publishedAt:'2026-09-01T00:00:00Z'},status:{privacyStatus:'public',uploadStatus:'processed'}});
 
+test('a correct published Short with a fresh native Related Video receipt makes no maintenance requests',async t=>{
+ const config=fixture(t),short={...video('first'),snippet:{...video('first').snippet,title:'#FloodMaps #ClimateRisk'}};
+ const path=join(config.directory,'production/episodes/first/existing-short-shortfirst.json');
+ put(path,{stage:'published',youtubeVideoId:'shortfirst',parentVideoId:'parentfirst',relatedVideo:{videoId:'shortfirst',relatedVideoId:'parentfirst',carrier:'youtube-studio-related-video',verifiedAt:new Date().toISOString()}});
+ const unexpected=new Proxy({},{get:()=>()=>assert.fail('Already-correct published work must not contact YouTube')});
+ assert.deepEqual(await repairExistingShorts(config,{youtube:unexpected,uploads:[short]}),[]);
+});
+
 test('a channel verification gate cannot starve title repairs, including published checkpoints',async t=>{
  const config=fixture(t),uploads=['first','second'].map(video),titles=[],related=[];
  put(join(config.directory,'production/episodes/second/existing-short-shortsecond.json'),{youtubeVideoId:'shortsecond',parentVideoId:'parentsecond',stage:'published'});
