@@ -33,13 +33,13 @@ const PRINCIPAL = 'urn:ame:public-education-services-section';
 export const COMPANIONS = Object.freeze({
   infographic: {
     file: "infographic.png", mimeType: "image/png", capability: "source-grounded-infographic",
-    options: { orientation: "landscape", detail: "standard" },
-    instructions: (lesson) => `An infographic of the lesson "${lesson.title}": its central idea, how it works and the evidence for it, readable at a glance. Keep the report's qualifications; do not add claims it does not make.`,
+    options: { orientation: "portrait", detail: "standard" },
+    instructions: (lesson) => `A portrait infographic of the lesson "${lesson.title}": its central idea, how it works and the evidence for it. Use a clear reading order, generous contrast and text readable on a phone. Keep the report's qualifications; do not add claims it does not make.`,
   },
   "slide-deck": {
     file: "slides.pdf", mimeType: "application/pdf", capability: "source-grounded-slide-deck",
     options: { format: "detailed", length: "default" },
-    instructions: (lesson) => `Slides for teaching the lesson "${lesson.title}" from this report: definitions, mechanism, evidence, examples and limitations, in the order a learner needs them. Keep the report's qualifications; do not add claims it does not make.`,
+    instructions: (lesson) => `Slides for teaching the lesson "${lesson.title}" from this report: definitions, mechanism, evidence, examples and limitations, in the order a learner needs them. Use one teaching point per slide, readable text and a worked example followed by a retrieval question. Keep the report's qualifications; do not add claims it does not make.`,
   },
 });
 
@@ -122,7 +122,10 @@ export async function advanceCompanions(config, lessonId, { client, notebook, ki
       const companion = COMPANIONS[kind];
       const outputPath = join(dir, companion.file);
       const localized=(config.video.language??'en')!=='en';
-      const request = { kind, sourceIds: [source.sourceId], instructions: (localized?teachingInstructions(config,lesson)+'\n':'')+companion.instructions(lesson), options: companion.options, ...(localized?{language:config.video.language}:{}) };
+      const request = checkpoint.kinds[kind]?.request ?? { kind, sourceIds: [source.sourceId], instructions: teachingInstructions(config,lesson)+'\n'+companion.instructions(lesson)+(state.youtubeVideoId?`\nInclude the channel name "${config.name}" and a final reference to the full lesson: https://www.youtube.com/watch?v=${state.youtubeVideoId}.` : ''), options: companion.options, ...(localized?{language:config.video.language}:{}) };
+      // Audience evidence and editorial improvements may change between turns.
+      // An admitted request must retain the exact instructions that were submitted.
+      if(!checkpoint.kinds[kind]?.request)saveKind(kind,{request});
       const work = createMediaArtifactWorkLot({
         workLot: `${config.id}/${lessonId}/${kind}`, principal: PRINCIPAL, capability: companion.capability,
         prompt: JSON.stringify({ title: lesson.title, kind, instructions: request.instructions, options: request.options, ...(localized?{language:request.language}:{}) }),

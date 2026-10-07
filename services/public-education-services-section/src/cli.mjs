@@ -5,6 +5,7 @@
 //   research <channel> <lesson>            research a lesson without producing a video
 //   produce [channel|all] [lesson]          fill publication slots or advance a named lesson
 //   repair-shorts [channel|all] [--retry-related]  audit titles and native links without generation
+//   learning [channel|all]                 maintain learning sequences, Courses and companion links
 //   artifacts <channel>                     list the channel notebook's NotebookLM videos
 //   adopt <channel> <lesson> <artifact-id>  adopt the artifact of an uncertain video submission
 //   begin-thumbnail <channel> <lesson>      claim the held account capacity before using its UI
