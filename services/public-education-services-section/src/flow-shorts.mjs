@@ -13,10 +13,27 @@ const PLAN_SCHEMA={type:'object',properties:{claim:{type:'string',maxLength:140}
 /** Select a complete source statement when no free drafting provider is available. */
 export function sourceFlowPlan({lesson,report,metadata,angle}) {
  const words=lesson.title.toLowerCase().match(/[a-z]{4,}/gu)??[];
- const candidates=report.split(/(?<=[.!?])\s+/u).map(s=>s.trim()).filter(s=>s.length>=25&&s.length<=140&&s.split(/\s+/u).length<=22&&/^[A-Z]/u.test(s)&&/[.!?]$/u.test(s)&&!/[\n\[\]#*`]|https?:/u.test(s)&&!/^(?:This|These|That|Those|It|They|However|For example|In contrast)\b/u.test(s));
+ // Markdown wrapping and list markers are presentation, not sentence boundaries.
+ // Keep the source wording while making complete statements usable as captions.
+ const paragraphs=report.split(/\n\s*\n/u).flatMap(p=>p.split(/\n(?=\s*[-*+]\s)/u));
+ const segmenter=new Intl.Segmenter('en',{granularity:'sentence'}),secondaryStatements=new Set();let secondary=false;
+ const candidates=paragraphs.flatMap(p=>{
+  if(/^\s*#/u.test(p)){secondary=/^\s*#+\s*(?:Method|Limitations|Scope|Negative control|Cinematic|Primary sources|Sources|Rights)\b/iu.test(p);return [];}
+  if(/^\s*Correction identity:/u.test(p))return [];
+  const prose=p.replace(/^\s*[-*+]\s+/gmu,'').replace(/\s+/gu,' ').trim();
+  return [...segmenter.segment(prose)].flatMap(({segment})=>{
+   const sentence=segment.trim(),definition=sentence.match(/^(.{25,140}):\s+/u)?.[1];
+   // A complete main clause before a colon can teach a definition without its
+   // lengthy examples. Never detach a conditional or an uncertainty label.
+   const standalone=definition&&!/^(?:If|When|Unless|Although|Because|While|Despite|Uncertainty|Warrants|Invalid inference)\b/u.test(definition)&&/\b(?:is|are|means|transmits|defines|requires)\b/u.test(definition);
+   const statements=[sentence,...(standalone?[definition]:[])];
+   if(secondary)for(const statement of statements)secondaryStatements.add(statement);
+   return statements;
+  });
+ }).filter(s=>s.length>=25&&s.length<=140&&s.split(/\s+/u).length<=22&&/^[A-Z]/u.test(s)&&!/[?]$/u.test(s)&&!/[\[\]#*`]|https?:/u.test(s)&&!/^(?:This|These|That|Those|It|They|However|For example|In contrast)\b|^(?:Warrants:|Uncertainty:|Invalid inference:|Show |Fill |Take |Sweep |Pixelate )/u.test(s));
  const angleWords={misconception:/\bnot|cannot|rather than\b/iu,tradeoff:/\bcost|benefit|risk|tradeoff|depends\b/iu,mechanism:/\bbecause|when|through|input|output\b/iu,'worked-example':/\bexample|such as|case\b/iu};
  const score=s=>words.filter(w=>s.toLowerCase().includes(w)).length+Number(angleWords[angle.id]?.test(s));
- candidates.sort((a,b)=>score(b)-score(a)||b.length-a.length);
+ candidates.sort((a,b)=>Number(secondaryStatements.has(a))-Number(secondaryStatements.has(b))||score(b)-score(a)||b.length-a.length);
  const claim=candidates.find(s=>score(s)>0),hashtags=topicHashtags(metadata.tags);
  if(!claim||hashtags.length<2) throw new EducationCandidateRefusal('No standalone short report statement or specific topic hashtags could be selected');
  const scenes={
@@ -59,8 +76,8 @@ export async function advanceFlowShort(config,lessonId,{youtube,uploads,env=proc
   // Offset the angle so this lesson's Flow and Notebook Shorts teach it differently.
   const angle=notebookAngle(lessonId+'flow');
   const sourceDraft=sourceFlowPlan({lesson,report,metadata:readJson(join(dir,'metadata.json'),{}),angle});
-  const statementAt=report.indexOf(sourceDraft.claim);
-  try { await produceEducationArtifact({env,objective:'Design a distinct eight-second educational Flow Short grounded in the supplied lesson report. Return claim, scene and hashtags. Copy the supplied caption statement exactly as claim; it is already selected verbatim from the report. Preserve its wording and qualifications. The scene must show an action or mechanism that helps explain that statement, not a generic cinematic thumbnail. Use the requested teaching angle and retain qualifications. Give two to four specific topic hashtags, each starting with #; no generic viral, FYP or Shorts hashtags.',context:`Lesson: ${lesson.title}\nAngle: ${angle.instruction}\nEXACT CAPTION: ${sourceDraft.claim}\nSuggested topic hashtags: ${sourceDraft.hashtags.join(" ")}\nREPORT CONTEXT:\n${report.slice(Math.max(0,statementAt-500),statementAt+1000)}`,schema:PLAN_SCHEMA,taskClass:'education-flow-short-prompt',maximumOutputTokens:700,artifactPath:planPath,
+  const reportContext=report.replace(/\s+/gu,' '),statementAt=reportContext.indexOf(sourceDraft.claim);
+  try { await produceEducationArtifact({env,objective:'Design a distinct eight-second educational Flow Short grounded in the supplied lesson report. Return claim, scene and hashtags. Copy the supplied caption statement exactly as claim; it is already selected verbatim from the report. Preserve its wording and qualifications. The scene must show an action or mechanism that helps explain that statement, not a generic cinematic thumbnail. Use the requested teaching angle and retain qualifications. Give two to four specific topic hashtags, each starting with #; no generic viral, FYP or Shorts hashtags.',context:`Lesson: ${lesson.title}\nAngle: ${angle.instruction}\nEXACT CAPTION: ${sourceDraft.claim}\nSuggested topic hashtags: ${sourceDraft.hashtags.join(" ")}\nREPORT CONTEXT:\n${reportContext.slice(Math.max(0,statementAt-500),statementAt+1000)}`,schema:PLAN_SCHEMA,taskClass:'education-flow-short-prompt',maximumOutputTokens:700,artifactPath:planPath,
    assay:c=>{
     if(typeof c.claim!=='string'||c.claim.length<25||c.claim.length>140||c.claim.split(/\s+/u).length>22||c.claim!==sourceDraft.claim||typeof c.scene!=='string'||!c.scene.trim()||c.scene.length>1400||!Array.isArray(c.hashtags)||c.hashtags.length<2||c.hashtags.length>4||c.hashtags.some(t=>!/^#[\p{L}\p{N}_]{2,40}$/u.test(t)||/^#(?:viral|fyp|trending|shorts)$/iu.test(t))||c.hashtags.join(' ').length>100) throw new EducationCandidateRefusal('The Flow scene needs a short verbatim report statement and specific topic hashtags');
     return {...c,angle:angle.id,reportSha256,parentVideoId:parent.youtubeVideoId,consumer:`education-short--${config.id}--${lessonId}--${angle.id}`,prompt:flowShortPrompt({title:lesson.title,claim:c.claim,scene:c.scene,angle:angle.id})};
