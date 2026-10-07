@@ -3,7 +3,7 @@
 //
 //   status [channel|all]                    commissioned lessons and where each stands
 //   research <channel> <lesson>            research a lesson without producing a video
-//   produce [channel|all] [lesson]          fill publication slots or advance a named lesson
+//   produce [channel|all] [lesson] [--publish-now]  advance work or publish one named lesson now
 //   repair-shorts [channel|all] [--retry-related]  audit titles and native links without generation
 //   learning [channel|all]                 maintain learning sequences, Courses and companion links
 //   artifacts <channel>                     list the channel notebook's NotebookLM videos
@@ -131,11 +131,13 @@ if (command === "status") {
   out(await advanceLesson(loadChannel(channel), lesson, { researchOnly: true }));
 } else if (command === "produce") {
   const [channel = "all", only] = positional;
+  const publishNow=rest.includes("--publish-now");
+  if(publishNow&&(channel==="all"||!only))throw new Error("--publish-now requires one exact channel and curriculum lesson");
   const production = readJson(join(PACKAGE_ROOT, "production.json"), {});
   // Every enabled channel is inventoried, since all of them share the account's windows.
   const inventories = [];
   // Disabling a launch must not strand media already accepted by the provider.
-  for (const config of channelsOf("all",{includeDisabled:true}).filter(config=>config.enabled!==false||episodes(config).some(state=>state.generationStarted||state.artifactId))) {
+  for (const config of channelsOf("all",{includeDisabled:true}).filter(config=>config.enabled!==false||(publishNow&&config.id===channel)||episodes(config).some(state=>state.generationStarted||state.artifactId||state.publicationMode==="public-now"))) {
     try {
       const byLesson = new Map(episodes(config).map((state) => [state.lessonId, state]));
       const history = historyOf(config);
@@ -176,6 +178,11 @@ if (command === "status") {
       if (!named) throw new Error(`${config.id} has no curriculum lesson ${only}`);
       lessons = historical.has(only) || (represented.has(only) && !byLesson.get(only)?.youtubeVideoId) ? [] : [named];
       if (!lessons.length) out({ channel: config.id, lesson: only, status: "already-covered" });
+      if(publishNow&&lessons.length) {
+        const previous=byLesson.get(only)??{version:1,channel:config.id,lessonId:only,stage:"new",createdAt:new Date().toISOString()};
+        const requested={...previous,publicationMode:"public-now",publicationRequestedAt:previous.publicationRequestedAt??new Date().toISOString()};
+        writeAtomic(join(config.directory,"production","episodes",only,"state.json"),requested);byLesson.set(only,requested);
+      }
     } else {
       const pendingIds = new Set(pending.map(({ id }) => id));
       lessons = [...pending];
@@ -198,9 +205,9 @@ if (command === "status") {
     for (const lesson of lessons) {
       const state=byLesson.get(lesson.id);
       const accepted=Boolean(state?.generationStarted||state?.artifactId||state?.youtubeVideoId);
-      if(config.enabled===false&&!accepted) continue;
+      if(config.enabled===false&&!accepted&&state?.publicationMode!=="public-now") continue;
       const uploaded=inventory.uploads.find(video=>video.id===state?.youtubeVideoId);
-      const deadline=uploaded?.status?.publishAt??(uploaded?.status?.privacyStatus==='public'?uploaded.snippet.publishedAt:null)??(state?.plannedPublishAt&&Date.parse(state.plannedPublishAt)>Date.now()?state.plannedPublishAt:nextSlot(config.schedule,new Date(),occupied));
+      const deadline=state?.publicationMode==="public-now"?new Date().toISOString():uploaded?.status?.publishAt??(uploaded?.status?.privacyStatus==='public'?uploaded.snippet.publishedAt:null)??(state?.plannedPublishAt&&Date.parse(state.plannedPublishAt)>Date.now()?state.plannedPublishAt:nextSlot(config.schedule,new Date(),occupied));
       occupied.push(deadline);
       work.push({channel:config.id,lesson:lesson.id,origin:'longform',deadline,createdAt:state?.createdAt,lastNotebookSubmission:inventory.lastNotebookSubmission,
         accepted,

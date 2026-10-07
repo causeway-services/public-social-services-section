@@ -83,7 +83,7 @@ export async function syncLearning(config,{youtube,uploads,courseStudio,limit=4,
  const convert=courseStudio??youtube.ensureLearningCourse;
  if(config.learning?.course&&lessons.length>=3&&convert&&due) {
   try {const course=await convert({channelId:config.youtubeChannelId,channelName:lessons[0].video.snippet.channelTitle,playlistId:playlist.playlistId,title:config.learning.title??config.course.title,videoIds:lessons.map(item=>item.video.id)});save({course});}
-  catch(error){const wait=/FEATURE|VERIFICATION|SIGN_IN/u.test(error.code??'')?6*3600000:20*60000;save({course:{status:'blocked',code:error.code??'COURSE_STUDIO_UNAVAILABLE',message:error.message,checkedAt:new Date().toISOString(),retryAt:new Date(Date.now()+wait).toISOString()}});}
+  catch(error){const wait=error.code==='YOUTUBE_STUDIO_HUMAN_VERIFICATION_IN_PROGRESS'?5*60000:/FEATURE|VERIFICATION|SIGN_IN/u.test(error.code??'')?6*3600000:20*60000;save({course:{status:'blocked',code:error.code??'COURSE_STUDIO_UNAVAILABLE',message:error.message,checkedAt:new Date().toISOString(),retryAt:new Date(Date.now()+wait).toISOString()}});}
  }
  if(config.learning?.course&&lessons.length<3)save({course:{status:'awaiting-public-lessons',required:3,available:lessons.length,checkedAt:new Date().toISOString()}});
  return {channel:config.id,status:'learning-synchronized',playlist,course:checkpoint.course,publicLessons:lessons.length,resources};

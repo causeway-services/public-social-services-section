@@ -56,7 +56,7 @@ export function recordStep(config, lessonId, entry) {
 
 /** Whether the curriculum asks for this lesson's video (or its production was already under way). */
 export function isRequested(lesson, state) {
-  return lesson?.produceVideo === true || Boolean(state?.commissionedAt || state?.generationStarted || state?.artifactId || state?.youtubeVideoId);
+  return lesson?.produceVideo === true || state?.publicationMode==="public-now" || Boolean(state?.commissionedAt || state?.generationStarted || state?.artifactId || state?.youtubeVideoId);
 }
 
 const REPORT_MINIMUM_WORDS = 2000;
@@ -364,7 +364,7 @@ export async function advanceLesson(config, lessonId, { env = process.env, now =
       if (!existsSync(join(work, "upload.json")) && (!state.plannedPublishAt || new Date(state.plannedPublishAt) <= now)) save({ plannedPublishAt: nextSlot(config.schedule, now, occupied) });
       // The resumable session URL can write to the upload, so its checkpoint stays in the ignored work directory.
       const uploadCheckpoint = join(work, "upload.json");
-      const video = await yt().upload({ filePath: paths.video, metadata, language: config.video.language, publishAt: config.enabled===false?undefined:state.plannedPublishAt, marker: `${config.id}/${lessonId}`, checkpoint: readJson(uploadCheckpoint, undefined), onCheckpoint: async (upload) => { writeAtomic(uploadCheckpoint, upload); if (state.stage !== "uploading") save({ stage: "uploading" }); } });
+      const video = await yt().upload({ filePath: paths.video, metadata, language: config.video.language, publishAt: config.enabled===false||state.publicationMode==="public-now"?undefined:state.plannedPublishAt, marker: `${config.id}/${lessonId}`, checkpoint: readJson(uploadCheckpoint, undefined), onCheckpoint: async (upload) => { writeAtomic(uploadCheckpoint, upload); if (state.stage !== "uploading") save({ stage: "uploading" }); } });
       save({ youtubeVideoId: video.id, stage: "uploaded" });
       record({ step: "upload", provider: "youtube", outcome: "uploaded", videoId: video.id, publishAt: state.plannedPublishAt });
       if (state.videoDrive) await releaseMediaCache(state.videoDrive, paths.video);
@@ -382,6 +382,12 @@ export async function advanceLesson(config, lessonId, { env = process.env, now =
     if (uploaded?.processingDetails?.processingStatus !== "succeeded" && uploaded?.status?.uploadStatus !== "processed") throw new LessonBlocked("youtube-processing", "YouTube is still processing the video");
     const stage = uploaded.status.privacyStatus === "public" ? "published" : uploaded.status.publishAt ? "scheduled" : "uploaded";
     if (stage === "uploaded") {
+      if(state.publicationMode==="public-now") {
+        const publicVideo=await yt().publish({videoId:state.youtubeVideoId});
+        save({stage:"published",lastError:null,publishAt:publicVideo.snippet?.publishedAt});
+        record({step:"publish",provider:"youtube",outcome:"published",videoId:state.youtubeVideoId,mode:"public-now"});
+        return {channel:config.id,lesson:lessonId,status:"published",stage:"published",videoId:state.youtubeVideoId,publishAt:state.publishAt};
+      }
       if(config.enabled===false) {
         save({stage:'uploaded',lastError:null});
         return {channel:config.id,lesson:lessonId,status:'staged-private',stage:'uploaded',videoId:state.youtubeVideoId};
