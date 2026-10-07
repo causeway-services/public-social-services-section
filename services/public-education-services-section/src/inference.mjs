@@ -23,7 +23,10 @@ export async function produceEducationArtifact({ env, objective, context, schema
     customerActor: EDUCATION_ACTOR, pricingRoot,
     directDescriptors: loadDirectEndpointProviderDescriptors(env, { configPath: env.DIRECT_ENDPOINT_PROVIDER_CONFIG, pricingRoot }),
   });
-  if (result.outcome !== "candidate-pending-customer-acceptance") throw new EducationInferenceUnavailable(`No inference provider delivered ${taskClass}: ${result.outcome}`);
+  if (result.outcome !== "candidate-pending-customer-acceptance") {
+    const reasons = (result.directLaneRefusals ?? []).map((row) => row.reason ?? row.cause?.reason).filter(Boolean).slice(0, 3);
+    throw new EducationInferenceUnavailable(`No inference provider delivered ${taskClass}: ${result.outcome}${reasons.length ? ` (${reasons.join('; ')})` : ''}`);
+  }
   const outcome = async (decision, evidence) => recordInferenceOutcome({
     workLot: result.workLot, provider: result.provider, taskClass: result.taskClass,
     selectedOffer: result.selectedOffer, receipt: result.receipt.id, receiver: EDUCATION_ACTOR,

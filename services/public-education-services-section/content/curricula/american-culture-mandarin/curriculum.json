@@ -1,0 +1,97 @@
+{
+  "version": 1,
+  "courseId": "american-culture-mandarin",
+  "title": "美国制度观察",
+  "audience": "希望通过控制论和政治理论理解美国文化与制度的普通话观众；不预设美国生活经验或学术训练。",
+  "promise": "用自然普通话和简体中文，从具体日常经验解释美国文化、制度反馈与 emsenn 的控制论后自由主义分析。",
+  "lessons": [
+    {
+      "id": "feedback-and-american-institutions",
+      "title": "美国制度怎样通过反馈运作？",
+      "question": "从住房、学校和平台的一个具体例子出发，解释反馈、控制与制度再生产。区分控制论分析、自由主义的自我描述与作者的批判框架。",
+      "whyItMayMatter": "从住房、学校和平台的一个具体例子出发，解释反馈、控制与制度再生产。区分控制论分析、自由主义的自我描述与作者的批判框架。",
+      "tags": [
+        "美国制度",
+        "控制论",
+        "政治理论"
+      ],
+      "brief": "lessons/feedback-and-american-institutions/brief.md",
+      "prerequisites": []
+    },
+    {
+      "id": "american-dream-and-personal-responsibility",
+      "title": "美国梦如何把结构问题变成个人责任？",
+      "question": "美国梦、努力与个人责任怎样组织美国文化？以可查证的就业或住房实例解释制度条件与个人选择的关系。",
+      "whyItMayMatter": "美国梦、努力与个人责任怎样组织美国文化？以可查证的就业或住房实例解释制度条件与个人选择的关系。",
+      "tags": [
+        "美国文化",
+        "美国梦",
+        "个人责任"
+      ],
+      "brief": "lessons/american-dream-and-personal-responsibility/brief.md",
+      "prerequisites": [
+        "feedback-and-american-institutions"
+      ]
+    },
+    {
+      "id": "californication-and-self-optimization",
+      "title": "从好莱坞到硅谷：为什么危机变成自我优化？",
+      "question": "解释 emsenn 的 californication 概念，区分它与地名；用好莱坞、硅谷或健康产业的一个有来源的例子分析结构矛盾如何被格式化为个人转型。",
+      "whyItMayMatter": "解释 emsenn 的 californication 概念，区分它与地名；用好莱坞、硅谷或健康产业的一个有来源的例子分析结构矛盾如何被格式化为个人转型。",
+      "tags": [
+        "加州文化",
+        "硅谷",
+        "自我优化"
+      ],
+      "brief": "lessons/californication-and-self-optimization/brief.md",
+      "prerequisites": [
+        "feedback-and-american-institutions"
+      ]
+    },
+    {
+      "id": "platforms-and-social-formation",
+      "title": "平台只是传播观点，还是塑造社会关系？",
+      "question": "用一个可验证的平台机制解释推荐、指标和激励怎样参与社会关系的形成。区分机制证据与 socially ontogenic media 的理论解释。",
+      "whyItMayMatter": "用一个可验证的平台机制解释推荐、指标和激励怎样参与社会关系的形成。区分机制证据与 socially ontogenic media 的理论解释。",
+      "tags": [
+        "平台治理",
+        "推荐算法",
+        "社会关系"
+      ],
+      "brief": "lessons/platforms-and-social-formation/brief.md",
+      "prerequisites": [
+        "feedback-and-american-institutions"
+      ]
+    },
+    {
+      "id": "care-and-harm-governance",
+      "title": "关怀为什么会变成风险管理？",
+      "question": "介绍 emsenn 的 harm governance 概念，用美国公共服务或互助中的一个实例分析关怀、风险管理与行政合法性的区别。",
+      "whyItMayMatter": "介绍 emsenn 的 harm governance 概念，用美国公共服务或互助中的一个实例分析关怀、风险管理与行政合法性的区别。",
+      "tags": [
+        "关怀",
+        "风险治理",
+        "互助"
+      ],
+      "brief": "lessons/care-and-harm-governance/brief.md",
+      "prerequisites": [
+        "feedback-and-american-institutions"
+      ]
+    },
+    {
+      "id": "debt-and-american-everyday-life",
+      "title": "债务如何安排美国人的日常生活？",
+      "question": "从学生贷款或医疗债务的真实制度出发，解释债务、时间、行为规范与政治主体形成的联系。",
+      "whyItMayMatter": "从学生贷款或医疗债务的真实制度出发，解释债务、时间、行为规范与政治主体形成的联系。",
+      "tags": [
+        "美国债务",
+        "学生贷款",
+        "日常生活"
+      ],
+      "brief": "lessons/debt-and-american-everyday-life/brief.md",
+      "prerequisites": [
+        "feedback-and-american-institutions"
+      ]
+    }
+  ]
+}
