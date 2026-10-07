@@ -18,7 +18,7 @@
 // compute readings govern submissions; saved artifacts govern resumption.
 import { join } from "node:path";
 import { homedir } from "node:os";
-import { createNotebookAdapter } from "@red-cup-engineering/gemini-notebook-services-section/gemini-notebook-cli";
+import { createNotebookAdapter, refreshNotebookAuthentication } from "@red-cup-engineering/gemini-notebook-services-section/gemini-notebook-cli";
 import { openGeminiNotebook } from "@red-cup-engineering/gemini-notebook-services-section/gemini-notebook-client";
 import { channelIds, loadChannel, loadEnvironment, PACKAGE_ROOT, readJson, writeAtomic, nextSlot } from "./channel.mjs";
 import { adoptArtifact, adoptOperatorThumbnail, advanceLesson, beginOperatorThumbnail, episodeState, isRequested, recordStep, releaseOperatorThumbnail, retryVideo } from "./lesson.mjs";
@@ -77,11 +77,11 @@ const lastNotebookSubmission = (config, states) => states.flatMap(state=>{
   return [state.generationAttempt?.startedAt,...['notebook-short.json','notebook-brief.json','short.json'].map(file=>readJson(join(dir,file),{}).notebook?.generationAttempt?.startedAt)];
 }).filter(value=>Number.isFinite(Date.parse(value))).sort().at(-1);
 
-function shortWork(inventories, channel = 'all', only) {
+function shortWork(inventories, channel = 'all', only, notebookAvailable = true) {
   const work=[];
   for (const inventory of inventories.filter(i=>channel==='all'||channel===i.config.id)) {
     const {config,episodes:states,uploads,youtube}=inventory;
-    for (const [origin,advance] of [['gemini-notebook',advanceShort],['google-flow',advanceFlowShort]].filter(([origin])=>(config.shorts?.providers??['gemini-notebook','google-flow']).includes(origin))) {
+    for (const [origin,advance] of [['gemini-notebook',advanceShort],['google-flow',advanceFlowShort]].filter(([origin])=>(notebookAvailable||origin!=='gemini-notebook')&&(config.shorts?.providers??['gemini-notebook','google-flow']).includes(origin))) {
       const candidates=states.filter(state=>state.youtubeVideoId&&state.notebookId&&(!only||state.lessonId===only)).map(state=>{
         const dir=join(config.directory,'production/episodes',state.lessonId);
         const short=readJson(join(dir,'notebook-short.json'),readJson(join(dir,'short.json'),{})),flow=readJson(join(dir,'flow-short-plan.json'),{});
@@ -133,6 +133,9 @@ if (command === "status") {
   const [channel = "all", only] = positional;
   const publishNow=rest.includes("--publish-now");
   if(publishNow&&(channel==="all"||!only))throw new Error("--publish-now requires one exact channel and curriculum lesson");
+  const authentication=await refreshNotebookAuthentication();
+  const notebookAvailable=authentication.status==='refreshed';
+  if(!notebookAvailable)out(authentication);
   const production = readJson(join(PACKAGE_ROOT, "production.json"), {});
   // Every enabled channel is inventoried, since all of them share the account's windows.
   const inventories = [];
@@ -147,7 +150,7 @@ if (command === "status") {
       try { uploads = await youtube.listUploads(); }
       catch (error) {
         inventoryAvailable = false;
-        if (channel === "all" || channel === config.id) { failures += 1; out({ channel: config.id, status: "youtube-inventory-unavailable", error: error.message }); }
+        if (channel === "all" || channel === config.id) { if(error.reason!=='quotaExceeded')failures += 1; out({ channel: config.id, status: "youtube-inventory-unavailable", error: error.message }); }
       }
       const represented = new Set(uploads.map((upload) => productionLesson(config, upload)).filter(Boolean));
       const pending = config.curriculum.filter((lesson) => {
@@ -186,7 +189,7 @@ if (command === "status") {
     } else {
       const pendingIds = new Set(pending.map(({ id }) => id));
       lessons = [...pending];
-      const needed = inventoryAvailable && config.enabled!==false ? Math.max(0, BUFFER_SLOTS - future.length - pendingReservations) : 0;
+      const needed = notebookAvailable && inventoryAvailable && config.enabled!==false ? Math.max(0, BUFFER_SLOTS - future.length - pendingReservations) : 0;
       const available = () => config.curriculum.filter((lesson) => !historical.has(lesson.id) && !represented.has(lesson.id) && !byLesson.get(lesson.id)?.youtubeVideoId && byLesson.get(lesson.id)?.stage !== ABANDONED && !pendingIds.has(lesson.id));
       let candidates = available();
       if (candidates.length < needed) {
@@ -211,7 +214,7 @@ if (command === "status") {
       occupied.push(deadline);
       work.push({channel:config.id,lesson:lesson.id,origin:'longform',deadline,createdAt:state?.createdAt,lastNotebookSubmission:inventory.lastNotebookSubmission,
         accepted,
-        run:()=>advanceLesson(config,lesson.id,{commissioned:true})});
+        run:()=>notebookAvailable||state?.youtubeVideoId?advanceLesson(config,lesson.id,{commissioned:true}):Promise.resolve({channel:config.id,lesson:lesson.id,status:'notebook-authentication-pending',stage:state?.stage??'new'})});
     }
     } catch (error) {
       failures += 1;
@@ -221,16 +224,16 @@ if (command === "status") {
   if (!only) {
     const enabled=selected.filter(({config})=>config.enabled!==false);
     await repairShorts(enabled);
-    work.push(...shortWork(selected,channel));
+    work.push(...shortWork(selected,channel,undefined,notebookAvailable));
   }
   await runWork(work);
   // A just-uploaded longform can acquire its Shorts on this turn as well.
   // Refresh checkpoints, and only add parents absent from the initial inventory.
   if (!only) await runWork(shortWork(selected.filter(({config})=>config.enabled!==false).map(inventory=>({...inventory,
-    episodes:episodes(inventory.config).filter(state=>!inventory.episodes.some(previous=>previous.lessonId===state.lessonId&&previous.youtubeVideoId))})),channel));
+    episodes:episodes(inventory.config).filter(state=>!inventory.episodes.some(previous=>previous.lessonId===state.lessonId&&previous.youtubeVideoId))})),channel,undefined,notebookAvailable));
   // companions: lessons already in flight first, then the newest made lessons, until the window is spent.
   const { kinds = [], lessonsPerTurn = 3, maxFailures = 2 } = production.companions ?? {};
-  if (kinds.length && !only) {
+  if (notebookAvailable && kinds.length && !only) {
     const candidates = inventories.filter(({ config }) => config.enabled!==false&&(channel === "all" || channel === config.id)).flatMap(({ config, episodes: states }) => states
       .filter((state) => companionReady(state))
       .map((state) => ({ config, state, checkpoint: readJson(join(config.directory, "production", "episodes", state.lessonId, "companions.json"), null) }))
