@@ -107,14 +107,14 @@ function shortWork(inventories, channel = 'all', only, notebookAvailable = true)
 async function repairShorts(inventories) {
   for(const {config,youtube,uploads} of inventories) {
     try {for(const result of await repairExistingShorts(config,{youtube,uploads})) out(result);}
-    catch(error) {failures++;out({channel:config.id,status:'existing-short-error',error:error.message});}
+    catch(error) {if(error.reason!=='quotaExceeded')failures++;out({channel:config.id,status:error.reason==='quotaExceeded'?'youtube-quota-pending':'existing-short-error',error:error.message});}
   }
 }
 async function runWork(work) {
   for(const item of orderProductionWork(work)) {
     out({channel:item.channel,lesson:item.lesson,origin:item.origin,status:'production-turn',accepted:item.accepted,deadline:item.deadline});
     try {const result=await item.run();out(result);if(FAULT.test(result.status)) failures++;}
-    catch(error) {failures++;out({channel:item.channel,lesson:item.lesson,origin:item.origin,status:'production-error',error:error.message});}
+    catch(error) {if(error.reason!=='quotaExceeded')failures++;out({channel:item.channel,lesson:item.lesson,origin:item.origin,status:error.reason==='quotaExceeded'?'youtube-quota-pending':'production-error',error:error.message});}
   }
 }
 
