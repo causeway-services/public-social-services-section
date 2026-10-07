@@ -4,6 +4,7 @@
 //   status [channel|all]                    commissioned lessons and where each stands
 //   research <channel> <lesson>            research a lesson without producing a video
 //   produce [channel|all] [lesson]          fill publication slots or advance a named lesson
+//   repair-shorts [channel|all] [--retry-related]  audit titles and native links without generation
 //   artifacts <channel>                     list the channel notebook's NotebookLM videos
 //   adopt <channel> <lesson> <artifact-id>  adopt the artifact of an uncertain video submission
 //   begin-thumbnail <channel> <lesson>      claim the held account capacity before using its UI
@@ -25,7 +26,7 @@ import { createYouTube } from "@emsenn/youtube-engineering-services-section/api"
 import { existsSync, readdirSync } from "node:fs";
 import { extendCurriculum } from "./curriculum.mjs";
 import { EducationCandidateRefusal, EducationInferenceUnavailable } from "./inference.mjs";
-import { advanceShort, repairExistingShorts } from './shorts.mjs';
+import { advanceShort, repairExistingShorts, retryRelatedVideos } from './shorts.mjs';
 import { advanceFlowShort } from './flow-shorts.mjs';
 import {authorizeYouTube} from '@emsenn/youtube-engineering-services-section/authorize';
 import {retainYouTubeCredential} from '@emsenn/youtube-engineering-services-section/credentials';
@@ -242,15 +243,16 @@ if (command === "status") {
       } catch (error) { failures += 1; out({ channel: config.id, lesson: state.lessonId, status: "companions-error", error: error.message }); break; }
     }
   }
-} else if (command === "shorts") {
+} else if (command === "shorts" || command === "repair-shorts") {
   const inventories=[];
   for(const config of channelsOf(positional[0])) {
     const youtube=createYouTube({channelId:config.youtubeChannelId,refreshTokenEnv:config.refreshTokenEnv,env:process.env,fetchImpl:globalThis.fetch,authorize:async()=>{}});
+    if(process.argv.includes('--retry-related')) retryRelatedVideos(config);
     const states=episodes(config);
     inventories.push({config,episodes:states,uploads:await youtube.listUploads(),youtube,lastNotebookSubmission:lastNotebookSubmission(config,states)});
   }
   await repairShorts(inventories);
-  await runWork(shortWork(inventories,positional[0]??'all',positional[1]));
+  if(command==='shorts') await runWork(shortWork(inventories,positional[0]??'all',positional[1]));
 } else if (command === "artifacts") {
   const config = loadChannel(positional[0]);
   const notebookId = config.notebookId ?? readJson(join(config.directory, "production", "notebook.json"), {}).notebookId;

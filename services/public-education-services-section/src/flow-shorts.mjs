@@ -74,18 +74,18 @@ export async function advanceFlowShort(config,lessonId,{youtube,uploads,env=proc
  if(plan&&plan.reportSha256!==reportSha256) return out('report-changed','The retained Flow prompt belongs to different source bytes');
  if(!plan) {
   // Offset the angle so this lesson's Flow and Notebook Shorts teach it differently.
-  const angle=notebookAngle(lessonId+'flow');
+  const angle=notebookAngle(lessonId+'flow',{config,provider:'google-flow'});
   const sourceDraft=sourceFlowPlan({lesson,report,metadata:readJson(join(dir,'metadata.json'),{}),angle});
   const reportContext=report.replace(/\s+/gu,' '),statementAt=reportContext.indexOf(sourceDraft.claim);
   try { await produceEducationArtifact({env,objective:'Design a distinct eight-second educational Flow Short grounded in the supplied lesson report. Return claim, scene and hashtags. Copy the supplied caption statement exactly as claim; it is already selected verbatim from the report. Preserve its wording and qualifications. The scene must show an action or mechanism that helps explain that statement, not a generic cinematic thumbnail. Use the requested teaching angle and retain qualifications. Give two to four specific topic hashtags, each starting with #; no generic viral, FYP or Shorts hashtags.',context:`Lesson: ${lesson.title}\nAngle: ${angle.instruction}\nEXACT CAPTION: ${sourceDraft.claim}\nSuggested topic hashtags: ${sourceDraft.hashtags.join(" ")}\nREPORT CONTEXT:\n${reportContext.slice(Math.max(0,statementAt-500),statementAt+1000)}`,schema:PLAN_SCHEMA,taskClass:'education-flow-short-prompt',maximumOutputTokens:700,artifactPath:planPath,
    assay:c=>{
     if(typeof c.claim!=='string'||c.claim.length<25||c.claim.length>140||c.claim.split(/\s+/u).length>22||c.claim!==sourceDraft.claim||typeof c.scene!=='string'||!c.scene.trim()||c.scene.length>1400||!Array.isArray(c.hashtags)||c.hashtags.length<2||c.hashtags.length>4||c.hashtags.some(t=>!/^#[\p{L}\p{N}_]{2,40}$/u.test(t)||/^#(?:viral|fyp|trending|shorts)$/iu.test(t))||c.hashtags.join(' ').length>100) throw new EducationCandidateRefusal('The Flow scene needs a short verbatim report statement and specific topic hashtags');
-    return {...c,angle:angle.id,reportSha256,parentVideoId:parent.youtubeVideoId,consumer:`education-short--${config.id}--${lessonId}--${angle.id}`,prompt:flowShortPrompt({title:lesson.title,claim:c.claim,scene:c.scene,angle:angle.id})};
+    return {...c,angle:angle.id,angleSelection:angle.selection,reportSha256,parentVideoId:parent.youtubeVideoId,consumer:`education-short--${config.id}--${lessonId}--${angle.id}`,prompt:flowShortPrompt({title:lesson.title,claim:c.claim,scene:c.scene,angle:angle.id})};
    },persist:v=>{writeAtomic(planPath,v);return v;}});
   } catch(error) {
    if(!(error instanceof EducationInferenceUnavailable)) throw error;
   const draft=sourceDraft;
-   const fallback={...draft,angle:angle.id,reportSha256,parentVideoId:parent.youtubeVideoId,consumer:`education-short--${config.id}--${lessonId}--${angle.id}`,prompt:flowShortPrompt({title:lesson.title,...draft,angle:angle.id})};
+   const fallback={...draft,angle:angle.id,angleSelection:angle.selection,reportSha256,parentVideoId:parent.youtubeVideoId,consumer:`education-short--${config.id}--${lessonId}--${angle.id}`,prompt:flowShortPrompt({title:lesson.title,...draft,angle:angle.id})};
    writeAtomic(planPath,fallback);recordStep(config,lessonId,{step:'short',provider:'google-flow',outcome:'prompt-grounded-in-report',angle:angle.id,drafting:draft.drafting});
   }
   plan=readJson(planPath);
@@ -105,7 +105,7 @@ export async function advanceFlowShort(config,lessonId,{youtube,uploads,env=proc
  const marker=`${config.id}/${lessonId}/short/flow/${hash.slice(0,16)}`,existing=uploads.filter(v=>v.snippet.description.includes(`[production:${marker}]`));
  if(existing.length>1) return out('needs-reconcile','Multiple uploads carry this Flow Short marker');
  if(!state.youtubeVideoId&&existing.length) save({youtubeVideoId:existing[0].id});
- if(state.stage==='published') {
+ if(state.stage==='published'&&Date.now()-Date.parse(state.relatedVideo?.verifiedAt)<24*3_600_000) {
   if(artifact.consumer===plan.consumer&&plan.publishedConsumer!==plan.consumer) writeAtomic(planPath,{...plan,publishedConsumer:artifact.consumer,publishedVideoId:state.youtubeVideoId});
   return {...out('published'),videoId:state.youtubeVideoId};
  }
@@ -125,7 +125,7 @@ export async function advanceFlowShort(config,lessonId,{youtube,uploads,env=proc
    if(encoded.status!==0) throw new Error(`Flow Short framing failed: ${encoded.stderr.slice(-500)}`);
    renameSync(output+'.part.mp4',output);const framed=probeShort(output);if(framed.width>framed.height||framed.duration>180) throw new Error('Flow carrier is not a vertical Short within three minutes');
    const drive=await keepMediaInDrive(output,{folder:`education/${config.id}/${lessonId}/shorts`});if(!drive) return out('drive-required');
-   save({drive,carrier:framed,claim:plan.claim,angle:plan.angle,actualFlowPrompt:artifact.promptText??artifact.prompt});record({outcome:'flow-short-received',artifactId:state.artifactId,drive:drive.url,...framed});
+   save({drive,carrier:framed,claim:plan.claim,angle:artifact.consumer===plan.consumer?plan.angle:undefined,actualFlowPrompt:artifact.promptText??artifact.prompt});record({outcome:'flow-short-received',artifactId:state.artifactId,drive:drive.url,...framed});
   }
   const metadataPath=join(dir,`flow-short-${hash.slice(0,16)}-metadata.json`);
   if(!existsSync(metadataPath)) writeAtomic(metadataPath,{title:plan.hashtags.join(' '),tags:plan.hashtags.map(t=>t.slice(1)),description:`The full lesson: https://youtu.be/${parent.youtubeVideoId}\n\n${plan.claim}`});
