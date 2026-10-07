@@ -149,7 +149,10 @@ export async function advanceShort(config,lessonId,{youtube,uploads,env=process.
    const angle=notebookAngle(lessonId,{config,provider:'gemini-notebook'});
    const retained=current.generationAttempt?.prompt;
    const prompt=retained?.endsWith('\n'+lesson.title)?retained.slice(0,-lesson.title.length-1):teachingInstructions(config,lesson,{short:true})+'\n'+angle.instruction;
-   if(state.prompt!==prompt) save({prompt,angle:angle.id,angleSelection:angle.selection});
+   if(state.prompt!==prompt) {
+    const actual=retained?ANGLES.find(row=>prompt.includes(row.instruction)):angle;
+    save({prompt,angle:actual?.id,angleSelection:retained?{mode:'retained-submission'}:angle.selection});
+   }
    // Uploading a source does not submit a video. Before any generation attempt,
    // a new teaching angle can reuse that source without manufacturing another one.
    if(current.videoRequestSha256&&!current.generationAttempt&&!current.generationStarted&&!current.artifactId) saveNotebook({videoRequestSha256:undefined});

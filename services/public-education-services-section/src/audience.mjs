@@ -86,7 +86,7 @@ export function observeShortAngles(config,uploads,audience,{now=Date.now()}={}) 
   for(const file of readdirSync(dir).filter(file=>file==='notebook-short.json'||/^flow-short-[0-9a-f]{16}\.json$/u.test(file))) {
    const state=readJson(join(dir,file),{}),video=published.get(state.youtubeVideoId),row=analytics.get(state.youtubeVideoId);
    const views=Number(row?.views),retention=Number(row?.averageViewPercentage);
-   if(!video||seen.has(video.id)||!state.angle||!row||!Number.isFinite(views)||views<50||!Number.isFinite(retention)||retention<0||now-Date.parse(video.snippet.publishedAt)<2*86_400_000)continue;
+   if(!video||seen.has(video.id)||!state.angle||!row||!Number.isFinite(views)||views<50||!Number.isFinite(retention)||retention<0||!Number.isFinite(Date.parse(video.snippet.publishedAt))||now-Date.parse(video.snippet.publishedAt)<2*86_400_000)continue;
    const provider=file==='notebook-short.json'?'gemini-notebook':'google-flow';
    // Old fallback clips were generated before the angle plan. Do not credit that plan.
    if(provider==='google-flow') {
@@ -109,7 +109,7 @@ export function selectTeachingAngle(angles,lessonId,{config,provider='gemini-not
  const ranked=angles.map(angle=>{
   const rows=samples.filter(sample=>sample.angle===angle.id),weight=rows.reduce((sum,row)=>sum+row.weight,0);
   return {angle,samples:rows.length,score:(0.5+rows.reduce((sum,row)=>sum+row.score*row.weight,0))/(1+weight)};
- }).sort((a,b)=>b.score-a.score||a.angle.id.localeCompare(b.angle.id));
+ }).filter(row=>row.samples>0).sort((a,b)=>b.score-a.score||a.angle.id.localeCompare(b.angle.id));
  const explore=Math.floor(seed/angles.length)%4===0;
  const selected=explore?fallback:ranked[0].angle;
  return {...selected,selection:{mode:explore?'explore':'measured-retention',observedAt:audience.shortAngles.observedAt,samples:samples.length,scores:ranked.map(({angle,...row})=>({angle:angle.id,...row}))}};
