@@ -22,10 +22,14 @@ export function publicLearningVideos(config,uploads) {
  return learningOrder(config.curriculum).flatMap(lesson=>{
   const state=readJson(join(episodeDirectory(config,lesson.id),'state.json'),{});
   const prior=[...(history.publications??[]),...(history.ready??[])].filter(item=>item.lessonId===lesson.id).map(item=>item.videoId??item.youtubeVideoId);
-  const found=uploads.filter(video=>video.status?.privacyStatus==='public'&&video.status?.uploadStatus==='processed'&&!video.contentDetails?.contentRating?.ytRating&&
+  const eligible=uploads.filter(video=>video.status?.privacyStatus==='public'&&video.status?.uploadStatus==='processed'&&!video.contentDetails?.contentRating?.ytRating&&
    (video.snippet?.description??'').match(/\[production:([^\]]+)\]/u)?.[1]!==`${config.id}/${lesson.id}/short`&&
-   ! /\[production:[^\]]+\/short(?:\/[^\]]*)?\]/u.test(video.snippet?.description??'')&&
-   (video.id===state.youtubeVideoId||prior.includes(video.id)||(video.snippet?.description??'').includes(`[production:${config.id}/${lesson.id}]`)||normalized(video.snippet?.title)===normalized(lesson.title)));
+   ! /\[production:[^\]]+\/short(?:\/[^\]]*)?\]/u.test(video.snippet?.description??''));
+  const current=eligible.filter(video=>video.id===state.youtubeVideoId);
+  const marked=eligible.filter(video=>(video.snippet?.description??'').includes(`[production:${config.id}/${lesson.id}]`));
+  const historical=eligible.filter(video=>prior.includes(video.id));
+  const titled=eligible.filter(video=>normalized(video.snippet?.title)===normalized(lesson.title));
+  const found=current.length?current:marked.length?marked:historical.length?historical:titled;
   if(found.length>1)throw new Error('Multiple public longforms represent lesson '+lesson.id);
   return found.length?[{lesson,video:found[0]}]:[];
  });
