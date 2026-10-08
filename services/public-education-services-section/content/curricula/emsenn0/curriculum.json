@@ -173,6 +173,54 @@
         "social systems",
         "data ethics"
       ]
+    },
+    {
+      "id": "ev-charging-infrastructure-costs",
+      "title": "Electric Vehicle Charging: Who Pays for the Grid and Who Controls Access?",
+      "question": "How do the technical requirements, financing models, and policy decisions for electric‑vehicle charging stations distribute costs, benefits, and control among utilities, drivers, municipalities, and marginalized communities?",
+      "whyItMayMatter": "The rollout of EV charging reshapes electricity demand, urban planning, and mobility equity. Understanding who funds grid upgrades, who owns the charging hardware, and who sets pricing reveals hidden trade‑offs between climate goals, private profit, and social inclusion, helping citizens evaluate whether the transition to electric transport advances or deepens existing inequalities.",
+      "tags": [
+        "ev charging",
+        "grid upgrades",
+        "infrastructure financing",
+        "energy equity",
+        "public policy",
+        "technical systems",
+        "economic systems",
+        "social systems"
+      ]
+    },
+    {
+      "id": "satellite-constellations-debris",
+      "title": "Satellite Mega‑Constellations: Who Controls the Sky and Who Pays for Space Debris?",
+      "question": "How do the technical design choices, financing structures, and regulatory regimes of large satellite constellations determine who owns orbital slots, who bears the cost of debris mitigation, and how economic benefits are distributed among operators, national governments, and communities affected by sky‑visibility and space‑environment risks?",
+      "whyItMayMatter": "The rapid launch of thousands of low‑Earth‑orbit satellites turns the night sky from a shared public good into a contested commercial asset. Understanding how engineering standards, market financing, and international law allocate responsibility for collision risk, de‑orbiting costs, and revenue from services (e.g., broadband, Earth observation) reveals hidden trade‑offs between global connectivity, environmental stewardship of space, and equity for nations and citizens who may experience increased light pollution, radio interference, or loss of future orbital capacity.",
+      "tags": [
+        "satellite constellations",
+        "space debris",
+        "orbital regulation",
+        "economic equity",
+        "technical systems",
+        "social impact",
+        "environmental governance"
+      ]
+    },
+    {
+      "id": "urban-air-quality-monitoring",
+      "title": "Urban Air Quality Monitoring: Who Pays for Sensors and Who Uses the Data?",
+      "question": "How do the deployment, financing, and governance of urban air quality sensor networks distribute costs, benefits, and decision-making power among municipalities, technology vendors, communities, and public health agencies?",
+      "whyItMayMatter": "Air quality data turns invisible pollution into measurable risk, shaping regulations, public health interventions, and environmental justice outcomes. Understanding who funds sensor networks, who controls the data, and how insights are used reveals the interplay of technical sensing, economic investment, and social equity in urban environmental governance.",
+      "tags": [
+        "air quality",
+        "sensor networks",
+        "environmental monitoring",
+        "public health",
+        "urban planning",
+        "economic systems",
+        "social systems",
+        "technical systems",
+        "data governance"
+      ]
     }
   ],
   "audience": "Curious adults seeking source-grounded explanations",

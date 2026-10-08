@@ -77,6 +77,36 @@
       "id": "anchorage",
       "title": "Anchorage: Climate History and Outlook",
       "placeId": "wikidata:Q39450"
+    },
+    {
+      "id": "portland",
+      "title": "Portland, Oregon: Climate History and Outlook",
+      "question": "How have historical temperature trends, precipitation patterns, and extreme weather events shaped Portland’s current climate outlook, and what are the projected changes for the next 50 years?",
+      "whyItMayMatter": "Understanding Portland’s climate trajectory helps residents, planners, and policymakers anticipate water supply challenges, wildfire risk, and flood hazards, enabling more resilient urban design and community preparedness for a changing climate.",
+      "tags": [
+        "portland",
+        "oregon",
+        "climate-history",
+        "future-projections",
+        "urban-climate",
+        "precipitation",
+        "temperature-trends"
+      ]
+    },
+    {
+      "id": "san-antonio",
+      "title": "San Antonio: Climate History and Outlook",
+      "question": "How have past temperature extremes, precipitation variability, and drought episodes shaped San Antonio’s current climate profile, and what are the projected trends for heat, water availability, and extreme events over the next five decades?",
+      "whyItMayMatter": "San Antonio’s rapid growth and reliance on the Edwards Aquifer make understanding its climate trajectory essential for water‑resource planning, public‑health preparedness against heat waves, and resilient urban development in a region prone to drought and flash flooding.",
+      "tags": [
+        "san-antonio",
+        "texas",
+        "climate-history",
+        "future-projections",
+        "heat-waves",
+        "water-supply",
+        "urban-climate"
+      ]
     }
   ],
   "audience": "Curious adults seeking source-grounded explanations"

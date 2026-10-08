@@ -327,6 +327,20 @@
         "infrastructure",
         "governance"
       ]
+    },
+    {
+      "id": "causal-machine-learning",
+      "title": "Causal Machine Learning and Structural Modeling",
+      "question": "How do causal assumptions embedded in structural equation models and potential outcomes frameworks improve generalization, robustness, and interpretability of machine learning systems compared to purely associative learning, and what empirical methods exist to test and refine these assumptions?",
+      "whyItMayMatter": "Associative models often fail when distributions shift or when interventions are required, limiting their reliability in high-stakes domains. By integrating causal reasoning, learners can diagnose why models mispredict under distribution shifts, design interventions that yield predictable outcomes, and evaluate safety and fairness claims grounded in causal structure. This lesson connects historical programs in econometrics and psychometrics to modern ML, showing how causal tools address evaluation failures, inform architectural choices, and map frontier research on robustness, accountability, and governance.",
+      "tags": [
+        "causal-inference",
+        "structural-equation-models",
+        "generalization",
+        "robustness",
+        "interpretability",
+        "frontier-research"
+      ]
     }
   ]
 }

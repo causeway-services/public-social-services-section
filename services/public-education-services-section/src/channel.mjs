@@ -28,6 +28,16 @@ export function writeAtomic(path, value) {
 
 /** The first free publication slot after `now` on the channel's schedule, skipping occupied UTC days. */
 export function nextSlot(schedule, now = new Date(), occupied = []) {
+  if (schedule?.everyDays) {
+    if (!Number.isInteger(schedule.everyDays) || schedule.everyDays < 1 || !Number.isFinite(Date.parse(schedule.anchor))) throw new Error("Invalid interval schedule");
+    const step=schedule.everyDays*86_400_000, anchor=Date.parse(schedule.anchor);
+    const used=new Set(occupied.filter(Boolean).map(value=>new Date(value).toISOString().slice(0,10)));
+    for(let index=Math.max(0,Math.floor((now.getTime()+3_600_000-anchor)/step)+1);index<10000;index++) {
+      const date=new Date(anchor+index*step);
+      if(!used.has(date.toISOString().slice(0,10))) return date.toISOString();
+    }
+    throw new Error("No free interval publication slot");
+  }
   if (!schedule?.days?.length || schedule.days.some((d) => !Number.isInteger(d) || d < 0 || d > 6) || !Number.isInteger(schedule.hourUtc) || schedule.hourUtc < 0 || schedule.hourUtc > 23) throw new Error("Invalid channel schedule");
   const date = new Date(now);
   date.setUTCHours(schedule.hourUtc, 0, 0, 0);
@@ -86,12 +96,13 @@ export function loadChannel(id, root = EDUCATION_ROOT) {
   const directory = channelDirectories(root).find((dir) => readJson(join(dir, "config.json")).id === id);
   if (!directory) throw new Error(`Unknown education channel: ${id}`);
   const config = readJson(join(directory, "config.json"));
-  if (!config.youtubeChannelId || !config.refreshTokenEnv || !["explainer", "cinematic"].includes(config.video?.format) || typeof config.curriculum !== "string") throw new Error(`Invalid channel configuration: ${id}`);
+  if ((!config.youtubeChannelId && config.enabled!==false) || !config.refreshTokenEnv || !["explainer", "cinematic"].includes(config.video?.format) || typeof config.curriculum !== "string") throw new Error(`Invalid channel configuration: ${id}`);
+  if(config.shorts?.providers&&(!Array.isArray(config.shorts.providers)||!config.shorts.providers.length||config.shorts.providers.some(provider=>!['gemini-notebook','google-flow'].includes(provider))))throw new Error(`Invalid Shorts providers: ${id}`);
   const curriculumPath = containedPath(root, relative(root, resolve(directory, config.curriculum)));
   const { lessons, ...course } = readJson(curriculumPath);
   if (!Array.isArray(lessons) || lessons.some((l) => !/^[a-z0-9-]+$/u.test(l.id) || !l.title) || new Set(lessons.map((l) => l.id)).size !== lessons.length) throw new Error(`Invalid curriculum: ${curriculumPath}`);
   nextSlot(config.schedule);
-  return { ...config, directory, curriculumPath, curriculumDirectory: dirname(curriculumPath), course, curriculum: lessons, editorial: { ...course, ...config.editorial } };
+  return { ...config, learning:config.learning??readJson(join(PACKAGE_ROOT,'production.json'),{}).learning?.[id], directory, curriculumPath, curriculumDirectory: dirname(curriculumPath), course, curriculum: lessons, editorial: { ...course, ...config.editorial } };
 }
 
 export function episodeDirectory(config, lessonId) {

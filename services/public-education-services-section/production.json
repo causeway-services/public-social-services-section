@@ -1,5 +1,12 @@
 {
   "researchModel": "gpt-5.6-sol",
+  "learning": {
+    "emsenn0": {"course": true, "title": "Reading Systems: Costs, Decisions, and Evidence"},
+    "mathematics-in-relation": {"course": true, "title": "Causality and Kinematic Space"},
+    "machine-learning-history-frontier": {"course": true, "title": "History and Frontiers of Machine Learning"},
+    "pace-yourself": {"course": true, "title": "PACE Yourself: Pause, Attune, Care, Engage"},
+    "american-culture-mandarin": {"course": true, "title": "美国制度观察：文化、反馈与制度"}
+  },
   "videoRetry": {
     "preferredFormatAttempts": 2,
     "fallbackFormats": [
@@ -7,17 +14,11 @@
       "brief"
     ]
   },
-  "capacity": {
-    "lookaheadWindows": 2,
-    "horizonDays": 21,
-    "fairnessDays": 7
-  },
   "companions": {
     "kinds": [
       "infographic",
       "slide-deck"
     ],
-    "lessonsPerTurn": 3,
     "maxFailures": 2
   }
 }

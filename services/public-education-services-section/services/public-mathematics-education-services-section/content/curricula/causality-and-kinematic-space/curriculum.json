@@ -475,6 +475,46 @@
         "quantum-field-theory",
         "information-geometry"
       ]
+    },
+    {
+      "id": "modular-flow-kinematic-space",
+      "title": "Modular flow and its representation in kinematic space",
+      "question": "How can the modular flow associated with a causal diamond be encoded as a vector field on kinematic space, and what geometric features does it reveal about entanglement structure?",
+      "whyItMayMatter": "Linking modular flow to a concrete geometric object in kinematic space could clarify how local quantum information propagates under causal constraints, offering a new bridge between algebraic quantum field theory and the emergent geometry of spacetime.",
+      "tags": [
+        "modular-flow",
+        "causal-diamond",
+        "kinematic-space",
+        "vector-fields",
+        "entanglement-structure"
+      ]
+    },
+    {
+      "id": "causal-witnesses-in-kinematic-space",
+      "title": "Causal witnesses and their geometric representation",
+      "question": "Can operational causal witnesses be defined inside kinematic space to detect nontrivial causal influence between spacetime regions, and does the shape or curvature of their associated geometric loci encode information about the underlying Lorentzian geometry?",
+      "whyItMayMatter": "Identifying causal witnesses in kinematic space would give a concrete tool for probing how information propagates in a relativistic setting, linking abstract causal order to measurable geometric signatures and potentially informing reconstruction algorithms for spacetime from limited causal data.",
+      "tags": [
+        "causal-witness",
+        "kinematic-space",
+        "geometry",
+        "spacetime-curvature",
+        "information-theory"
+      ]
+    },
+    {
+      "id": "causal-interval-volume-dimension",
+      "title": "Causal interval volume and dimension estimation",
+      "question": "How can the volume of a causal interval in kinematic space be used to estimate the effective dimensionality of the underlying spacetime?",
+      "whyItMayMatter": "Estimating spacetime dimension from causal interval volume provides a concrete, observable link between abstract causal order and geometric properties, reinforcing the distinction between causal order and metric distance while offering a practical tool for reconstructing spacetime geometry from causal data alone.",
+      "tags": [
+        "causal-order",
+        "region-geometry",
+        "information-observables",
+        "dimension-estimation",
+        "kinematic-space",
+        "causal-interval"
+      ]
     }
   ]
 }

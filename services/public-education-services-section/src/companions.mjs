@@ -1,3 +1,4 @@
+import {teachingInstructions} from './editorial.mjs';
 // A lesson's Studio companions: what else the account's Gemini Notebook pool
 // makes from the lesson's report once its video is made, kept in the lesson's
 // episode directory. Made media belongs to the channel repository that publishes
@@ -11,7 +12,7 @@
 //              follow the report: a revised report is made into them again;
 //   companion  each kind production.json `companions` names (an infographic, a
 //              slide deck) is one Studio work (gemini-notebook studio-work.mjs):
-//              held in the allowance ledger, submitted, reconciled, observed
+//              admitted against native provider usage, submitted, reconciled, observed
 //              and downloaded, then received as a media work receipt;
 //   failure    a kind Studio fails `maxFailures` times is given up for that
 //              lesson; one waiting on capacity stops every lesson's companions
@@ -22,23 +23,23 @@
 import { existsSync, readFileSync } from "node:fs";
 import { join } from "node:path";
 import { completeMediaArtifactWork, createMediaArtifactWorkLot } from "@red-cup-engineering/computer-inference-engine/media/artifact-work";
-import { allowanceLedgerPath } from "@red-cup-engineering/computer-inference-engine/media/allowance-ledger";
 import { advanceStudioWork, StudioWorkBlocked } from "@red-cup-engineering/gemini-notebook-services-section/studio-work";
 import { sha256Hex } from "@red-cup-engineering/cryptographic-computer-data-engineering-services-section/integrity";
+import { keepMediaInDrive, releaseMediaCache } from "@red-cup-engineering/google-drive-services-section/media";
 import { episodeDirectory, lessonReportPath, readJson, recordedPath, writeAtomic } from "./channel.mjs";
-import { PRINCIPAL } from "./video-capacity.mjs";
+const PRINCIPAL = 'urn:ame:public-education-services-section';
 
 /** The companions a lesson can have: the file each is kept as and how Studio is asked for it. */
 export const COMPANIONS = Object.freeze({
   infographic: {
     file: "infographic.png", mimeType: "image/png", capability: "source-grounded-infographic",
-    options: { orientation: "landscape", detail: "standard" },
-    instructions: (lesson) => `An infographic of the lesson "${lesson.title}": its central idea, how it works and the evidence for it, readable at a glance. Keep the report's qualifications; do not add claims it does not make.`,
+    options: { orientation: "portrait", detail: "standard" },
+    instructions: (lesson) => `A portrait infographic of the lesson "${lesson.title}": its central idea, how it works and the evidence for it. Use a clear reading order, generous contrast and text readable on a phone. Keep the report's qualifications; do not add claims it does not make.`,
   },
   "slide-deck": {
     file: "slides.pdf", mimeType: "application/pdf", capability: "source-grounded-slide-deck",
     options: { format: "detailed", length: "default" },
-    instructions: (lesson) => `Slides for teaching the lesson "${lesson.title}" from this report: definitions, mechanism, evidence, examples and limitations, in the order a learner needs them. Keep the report's qualifications; do not add claims it does not make.`,
+    instructions: (lesson) => `Slides for teaching the lesson "${lesson.title}" from this report: definitions, mechanism, evidence, examples and limitations, in the order a learner needs them. Use one teaching point per slide, readable text and a worked example followed by a retrieval question. Keep the report's qualifications; do not add claims it does not make.`,
   },
 });
 
@@ -98,7 +99,8 @@ export async function advanceCompanions(config, lessonId, { client, notebook, ki
       record({ step: kind, outcome: "given-up", failures: failed });
     }
   }
-  const wanted = companionsWanted(checkpoint, kinds, { maxFailures });
+  const acceptedKind=kind=>Boolean(checkpoint.kinds[kind]?.work?.attempt||checkpoint.kinds[kind]?.work?.artifactId);
+  const wanted = companionsWanted(checkpoint, kinds, { maxFailures }).sort((a,b)=>Number(acceptedKind(b))-Number(acceptedKind(a)));
 
   if (wanted.length) {
     // source: the report as a source of the companions' own.
@@ -119,10 +121,14 @@ export async function advanceCompanions(config, lessonId, { client, notebook, ki
     for (const kind of wanted) {
       const companion = COMPANIONS[kind];
       const outputPath = join(dir, companion.file);
-      const request = { kind, sourceIds: [source.sourceId], instructions: companion.instructions(lesson), options: companion.options };
+      const localized=(config.video.language??'en')!=='en';
+      const request = checkpoint.kinds[kind]?.request ?? { kind, sourceIds: [source.sourceId], instructions: teachingInstructions(config,lesson)+'\n'+companion.instructions(lesson)+(state.youtubeVideoId?`\nInclude the channel name "${config.name}" and a final reference to the full lesson: https://www.youtube.com/watch?v=${state.youtubeVideoId}.` : ''), options: companion.options, ...(localized?{language:config.video.language}:{}) };
+      // Audience evidence and editorial improvements may change between turns.
+      // An admitted request must retain the exact instructions that were submitted.
+      if(!checkpoint.kinds[kind]?.request)saveKind(kind,{request});
       const work = createMediaArtifactWorkLot({
         workLot: `${config.id}/${lessonId}/${kind}`, principal: PRINCIPAL, capability: companion.capability,
-        prompt: JSON.stringify({ title: lesson.title, kind, instructions: request.instructions, options: request.options }),
+        prompt: JSON.stringify({ title: lesson.title, kind, instructions: request.instructions, options: request.options, ...(localized?{language:request.language}:{}) }),
         sources: [{ path: recordedPath(reportPath), identity: sha256ni(reportPath) }], outputMimeType: companion.mimeType,
       });
       if (checkpoint.kinds[kind]?.workLot !== work.id) {
@@ -132,7 +138,7 @@ export async function advanceCompanions(config, lessonId, { client, notebook, ki
       const made = await advanceStudioWork({
         client, notebookId, request, outputPath, principal: PRINCIPAL, reference: work.id,
         checkpoint: checkpoint.kinds[kind]?.work ?? {}, onCheckpoint: (studio) => saveKind(kind, { work: studio }),
-        onRecord: record, storePath: allowanceLedgerPath(env), now,
+        onRecord: record, now,
       });
       if (made instanceof StudioWorkBlocked) {
         waiting.push(result(made.status, { kind, message: made.message }));
@@ -146,8 +152,10 @@ export async function advanceCompanions(config, lessonId, { client, notebook, ki
         resource: made.capacity ?? { status: "not-observed" },
       });
       writeAtomic(join(dir, `${kind}-work-receipt.json`), receipt);
-      saveKind(kind, { receipt: receipt.id, file: recordedPath(outputPath), sha256: made.output.sha256, title: made.title });
+      const drive = await keepMediaInDrive(outputPath, { folder: `education/${config.id}/${lessonId}`, expectedSha256: made.output.sha256 });
+      saveKind(kind, { receipt: receipt.id, file: recordedPath(outputPath), sha256: made.output.sha256, title: made.title, ...(drive ? { drive } : {}) });
       record({ step: kind, outcome: "artifact-received", workLot: work.id, receipt: receipt.id, artifactId: made.artifactId, output: receipt.output.identity });
+      if (drive) await releaseMediaCache(drive, outputPath);
     }
     if (waiting.length) return waiting.find(({ status }) => status === "companions-awaiting-capacity") ?? waiting[0];
   }
