@@ -341,6 +341,21 @@
         "interpretability",
         "frontier-research"
       ]
+    },
+    {
+      "id": "energy-sustainability-ml",
+      "title": "Energy Consumption, Sustainability, and Environmental Impact of Machine Learning",
+      "question": "How do the computational and hardware choices underlying modern large‑scale model training contribute to carbon emissions and resource depletion, and what measurable mitigation strategies—algorithmic efficiency, hardware design, renewable sourcing, and policy incentives—can realistically reduce the environmental footprint of future AI systems?",
+      "whyItMayMatter": "Understanding the energy and material costs of training foundation models reveals a hidden dimension of evaluation failure and deployment risk. By linking historical scaling trends to present‑day carbon accounting, learners can assess trade‑offs, justify greener architectural choices, and identify frontier research on efficient algorithms, sustainable hardware, and governance mechanisms that address the ecological constraints of AI progress.",
+      "tags": [
+        "energy",
+        "sustainability",
+        "carbon-footprint",
+        "hardware",
+        "algorithmic-efficiency",
+        "policy",
+        "AI-infrastructure"
+      ]
     }
   ]
 }

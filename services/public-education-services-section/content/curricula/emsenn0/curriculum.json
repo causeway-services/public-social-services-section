@@ -221,6 +221,23 @@
         "technical systems",
         "data governance"
       ]
+    },
+    {
+      "id": "community-solar-gardens",
+      "title": "Community Solar Gardens: Who Benefits, Who Pays, Who Decides?",
+      "question": "How do community solar garden projects allocate financial benefits, costs, and decision‑making power among subscribers, developers, utilities, and local governments?",
+      "whyItMayMatter": "Community solar expands access to renewable energy for renters, low‑income households, and shaded properties, yet its financial structures—subscription models, tax credits, utility interconnection rules, and municipal permitting—determine who captures savings, who bears upfront costs, and who governs siting and grid integration, revealing tensions between equitable climate action, market incentives, and local control.",
+      "tags": [
+        "community solar",
+        "renewable energy",
+        "energy equity",
+        "utility interconnection",
+        "municipal policy",
+        "financial models",
+        "social systems",
+        "technical systems",
+        "economic systems"
+      ]
     }
   ],
   "audience": "Curious adults seeking source-grounded explanations",
