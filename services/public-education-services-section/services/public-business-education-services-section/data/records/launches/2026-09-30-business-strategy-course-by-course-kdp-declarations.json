@@ -1,0 +1,26 @@
+{
+  "type": "KdpDeclarationsReceipt",
+  "version": 1,
+  "book": "business-strategy-course-by-course",
+  "declaredAt": "2026-09-30T01:34:12.252Z",
+  "acknowledged": true,
+  "answers": {
+    "text": "AI-generated: the text was drafted by AI agents working for the 561 Group, then proofread by a separate AI agent.",
+    "images": "None AI-generated: the cover is typeset by code from the book's title and design tokens.",
+    "translations": "None."
+  },
+  "attestedBy": "founder",
+  "attestation": "The founder attested the AI-content answers for business-strategy-course-by-course in the 2026-09-30 publishing session (\"Attest.\").",
+  "kdpForm": {
+    "text": "AI-generated: yes, the entire work",
+    "images": "none",
+    "translations": "none",
+    "note": "The most disclosing accurate option is chosen: the whole text is AI-generated and no person edited it (another AI agent proofread it); the cover is typeset by code, with no drawing or image model.",
+    "options": {
+      "text": "ENTIRE_AND_MINIMAL",
+      "images": "NONE",
+      "translations": "NONE"
+    }
+  },
+  "listing": "561-group-services-section/data/records/listings/book-retail-listings.json"
+}

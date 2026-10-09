@@ -1,0 +1,75 @@
+{
+  "at": "2026-09-30T15:20:50.637Z",
+  "grounding": {
+    "completed": true,
+    "completedSearches": 7,
+    "sources": [
+      {
+        "uri": "https://climateresilience.ca.gov/regions/los-angeles.html"
+      },
+      {
+        "uri": "https://www.energy.ca.gov/sites/default/files/2019-11/Reg%20Report-%20SUM-CCCA4-2018-007%20LosAngeles_ADA.pdf"
+      },
+      {
+        "uri": "https://oehha.ca.gov/epic/changes-climate/overview-changes-climate"
+      },
+      {
+        "uri": "https://oehha.ca.gov/sites/default/files/media/epic/downloads/annualairtemptech2018.pdf"
+      },
+      {
+        "uri": "https://www.weather.gov/boi/cliplot_records?wfo=lox"
+      },
+      {
+        "uri": "https://oehha.ca.gov/sites/default/files/media/epic/downloads/03sealevelrise.pdf"
+      },
+      {
+        "uri": "https://tidesandcurrents.noaa.gov/trends-and-extremes/index.html"
+      },
+      {
+        "uri": "https://nca2018.globalchange.gov/chapter/2"
+      },
+      {
+        "uri": "https://lao.ca.gov/Publications/Report/4575"
+      },
+      {
+        "uri": "https://www.climate.gov/news-features/event-tracker/weather-and-climate-influences-january-2025-fires-around-los-angeles"
+      },
+      {
+        "uri": "https://www.worldweatherattribution.org/wp-content/uploads/WWA-scientific-report-LA-wildfires.pdf"
+      },
+      {
+        "uri": "https://www.lao.ca.gov/Publications/Report/4580"
+      },
+      {
+        "uri": "https://lci.ca.gov/climate/icarp/climate-assessment/"
+      }
+    ]
+  },
+  "inference": {
+    "model": "gpt-5.6-sol",
+    "provider": "codex",
+    "exchanges": [
+      {
+        "outcome": "completion",
+        "recordedAt": "2026-09-30T15:20:50.630Z",
+        "completedSearches": 7,
+        "model": "gpt-5.6-sol",
+        "citedUrls": [
+          "https://climateresilience.ca.gov/regions/los-angeles.html",
+          "https://www.energy.ca.gov/sites/default/files/2019-11/Reg%20Report-%20SUM-CCCA4-2018-007%20LosAngeles_ADA.pdf",
+          "https://oehha.ca.gov/epic/changes-climate/overview-changes-climate",
+          "https://oehha.ca.gov/sites/default/files/media/epic/downloads/annualairtemptech2018.pdf",
+          "https://www.weather.gov/boi/cliplot_records?wfo=lox",
+          "https://oehha.ca.gov/sites/default/files/media/epic/downloads/03sealevelrise.pdf",
+          "https://tidesandcurrents.noaa.gov/trends-and-extremes/index.html",
+          "https://nca2018.globalchange.gov/chapter/2",
+          "https://lao.ca.gov/Publications/Report/4575",
+          "https://www.climate.gov/news-features/event-tracker/weather-and-climate-influences-january-2025-fires-around-los-angeles",
+          "https://www.worldweatherattribution.org/wp-content/uploads/WWA-scientific-report-LA-wildfires.pdf",
+          "https://www.lao.ca.gov/Publications/Report/4580",
+          "https://lci.ca.gov/climate/icarp/climate-assessment/"
+        ]
+      }
+    ]
+  }
+}

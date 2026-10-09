@@ -1,0 +1,213 @@
+{
+  "type": "EbookEditionProof",
+  "version": 1,
+  "editionInputDigest": "ni:///sha-256;sAbkEbmMVgIQkPokE1tMVSxr3phaaJ4pI6118HY3grE",
+  "artifacts": {
+    "epub": "ni:///sha-256;N5ZazbuYGzqcHjRMUOFg2HPi613G3gNakBbYJe90C6o",
+    "screenPdf": "ni:///sha-256;DEgeeVh1HpEdZqTGCP3sBPD6S__iqVAGwpSWDMGJbNA"
+  },
+  "proofer": "independent proofreading agent (claude-opus-5-5 subagent)",
+  "writer": "claude-opus-5-5 (bare-cedar-fog-claude session d6271b1b)",
+  "provedAt": "2026-09-28T01:50:00Z",
+  "carried": {
+    "from": "ni:///sha-256;5qgk6U-ECqEJZpnnYQmZ-z92WvI7crTnVkPOjQYfcq0",
+    "proof": "ni:///sha-256;g4VzLysOY4abeNxCJYh4cUAd11D6swu3JZCypG_qooA",
+    "at": "2026-09-28T04:16:35.187Z",
+    "text": {
+      "epub": "ni:///sha-256;QE4m_sK4YU-H1ppgUp5FZSeIxXFBRq8Dq6Jey-rhbi0",
+      "pdf": "ni:///sha-256;bHA5DSDhLg56bIcQdS7Q4qB8hG9SNojpQbW_yf_6bMc"
+    }
+  },
+  "method": "Carried from the proof of edition ni:///sha-256;5qgk6U-ECqEJZpnnYQmZ-z92WvI7crTnVkPOjQYfcq0 (proof ni:///sha-256;g4VzLysOY4abeNxCJYh4cUAd11D6swu3JZCypG_qooA): this edition's extracted text equals that edition's (EPUB ni:///sha-256;QE4m_sK4YU-H1ppgUp5FZSeIxXFBRq8Dq6Jey-rhbi0, PDF ni:///sha-256;bHA5DSDhLg56bIcQdS7Q4qB8hG9SNojpQbW_yf_6bMc, the colophon's build digest set aside and whitespace collapsed), so the findings read on it hold here. The original pass: Carried from the proof of edition ni:///sha-256;ix10u45Sp4yA8lO07EPB6LXt99HEKcpDVvaBXEFNKOs (proof ni:///sha-256;ATAIwSAB7zz6KL6Ou8nRvfMjRKalXhtyTg17xLmdScI): this edition's extracted text equals that edition's (EPUB ni:///sha-256;QE4m_sK4YU-H1ppgUp5FZSeIxXFBRq8Dq6Jey-rhbi0, PDF ni:///sha-256;8lMR0N62-Bz8bsYuyVPhL2lybtQgDf5Q8FoqMRN3foY, the colophon's build digest set aside), so the findings read on it hold here. The original pass: Carried from the proof of edition ni:///sha-256;Td3DAK-PiviZhYNpGIUM7huDjdxrftV7kc5xvEICvgU (proof ni:///sha-256;7SZYGVTZge5CkDFVcX77lTnzu0j2Lo4X5mPNmG1_e1o): this edition's extracted text equals that edition's (EPUB ni:///sha-256;QE4m_sK4YU-H1ppgUp5FZSeIxXFBRq8Dq6Jey-rhbi0, PDF ni:///sha-256;8lMR0N62-Bz8bsYuyVPhL2lybtQgDf5Q8FoqMRN3foY, the colophon's build digest set aside), so the findings read on it hold here. The original pass: Diffed this edition's full text byte-for-byte against the prior verified edition to confirm the only substantive changes were to the Agile Manifesto citation (build record hash aside; one reference-list entry's page position shifted purely from the added lines pushing pagination, not from reordering). Read 00-about-this-book.md's agile-manifesto-2001 frontmatter entry directly, checked all 17 listed names and spellings against agilemanifesto.org's and other sources' signatory lists, and checked the rendered in-text citation and bibliography entry against the Chicago author-date rule for many-author works (in-text: first author + et al.; bibliography: for more than ten authors, the first seven followed by et al.) via WebSearch. For this pass, diffed the new text against the prior edition's text as a stream of alphabetic word tokens (stripping digits, page numbers and the build-record hash) and confirmed the token streams matched except for running headers, running footers and repeated table-header rows moving position — no prose wording changed. Rendered pages 35-38 of the built PDF at /home/emsenn/info/lib/emsenn/services/561-group/services/561-group-services-section/data/state/editions/project-management-course-by-course/project-management-course-by-course.pdf with pdftoppm and visually confirmed three previously-stranded labels ('Budget.', 'Risk register.', 'Communication plan.') now sit on the same page as their full tables. For this pass, read the complete line-by-line diff (114 lines) against the prior edition and confirmed every hunk was either the build hash, a '0.1'-'0.6' or '9.12'-'9.16' number disappearing from a table-of-contents line or heading, a page-number column realigning by whitespace only, or a running header falling back to 'Contents' or '9.11. Answers' where it previously named an unnumbered section — never a change in prose. Rendered the table of contents, an About-section page, a chapter-1 page and the study-plan opening page from the rebuilt PDF with pdftoppm and visually confirmed: the table of contents and the About/study-plan headings and subheadings carry no numbers, while chapters 1-9 and their subsections (1.1, 2.1, ...) still do. For this pass, diffed the new text against the prior edition's and found exactly three changed lines (plus the build hash), each a running head swapping a stale numbered-section reference for the unnumbered chapter's own title; word-token comparison confirmed no other content moved or changed. Rendered the actual odd (recto) pages carrying the ruled section-style running head — page 9 (About this book), page 75 (A study plan) and page 79 (Glossary) — from the rebuilt PDF with pdftoppm and read each header directly off the page image; also checked References (pages 81-82), which is short enough in this edition that it never reaches a third, odd continuation page where the bug (or its fix) would be visible, so there was nothing to confirm there beyond the general mechanism. This pass supersedes the prior one only for the new finding f21; findings f1-f20 were re-confirmed unaffected since no wording changed.",
+  "findings": [
+    {
+      "id": "f1",
+      "file": "02-initiation.md",
+      "severity": "error",
+      "claim": "Then analyze them. A common tool, which Aubrey Mendelow described for strategic planning in 1981, places each stakeholder on two axes...",
+      "source": "Mendelow's actual 1981 paper used power/dynamism axes; the power/interest grid is Johnson and Scholes' 1993 adaptation.",
+      "fix": "Verified fixed. 02-initiation.md now reads: 'A common tool is the power-interest grid, which Gerry Johnson and Kevan Scholes adapted from a matrix Aubrey Mendelow described for strategic scanning (Mendelow 1981; Johnson and Scholes 1993).' 09-the-capstone.md's citation now reads '(Johnson and Scholes 1993)'. A johnson-scholes1993 entry (Exploring Corporate Strategy, Prentice Hall, 1993) was added to 00-about-this-book.md's frontmatter and appears correctly in the rendered References list; the mendelow1981 entry is correctly retained since Mendelow is still credited as the model Johnson and Scholes adapted.",
+      "resolution": "fixed"
+    },
+    {
+      "id": "f2",
+      "file": "05-execution-tracking-and-quality.md",
+      "severity": "error",
+      "claim": "EAC = 11,500 / 0.91 ≈ $12,650, beyond even the $12,000 total budget.",
+      "source": "11,500 / 0.91 = 12,637.36, not 12,650; the displayed rounded divisor didn't reproduce the displayed result.",
+      "fix": "Verified fixed. The line now reads 'EAC = 11,500 / (5,000 / 5,500) = 11,500 × 1.1 = $12,650', which is exact (11,500 × 1.1 = 12,650 precisely) and no longer relies on the rounded 0.91.",
+      "resolution": "fixed"
+    },
+    {
+      "id": "f3",
+      "file": "05-execution-tracking-and-quality.md",
+      "severity": "correction",
+      "claim": "ask \"How likely are you to recommend us to a friend?\" — presented as a verbatim quote but actually a paraphrase.",
+      "source": "Reichheld's real question is 'How likely is it that you would recommend [company/product/service] to a friend or colleague?'",
+      "fix": "Verified fixed. The line now reads 'ask how likely the respondent is to recommend the organization to a friend or colleague, on a scale of 0 to 10' — no quotation marks, and 'or colleague' restored. The evidence packet's new source-table row for Net Promoter Score also carries the accurate quoted question, matching what was verified against Reichheld 2003.",
+      "resolution": "fixed"
+    },
+    {
+      "id": "f4",
+      "file": "02-initiation.md",
+      "severity": "correction",
+      "claim": "Chapter 2's cost-benefit/worth-starting objective was untested in Check yourself.",
+      "source": "House pedagogy note's constructive-alignment rule.",
+      "fix": "Verified fixed. New question 8 and answer 8 added: 'A second pantry site would cost $8,000 and 300 volunteer hours and would let 40 more families get food each week. How should the sponsor decide whether it's worth doing?' The answer correctly applies the chapter's own teaching (comparing cost against a non-monetary benefit, no ROI to compute, sponsor judgment) with no new arithmetic to verify.",
+      "resolution": "fixed"
+    },
+    {
+      "id": "f5",
+      "file": "05-execution-tracking-and-quality.md",
+      "severity": "correction",
+      "claim": "Chapter 5's dependency-types/escalation objective was untested in Check yourself.",
+      "source": "House pedagogy note's constructive-alignment rule.",
+      "fix": "Verified fixed. New question 8 and answer 8 added: 'Shelving delivery can't start until the order is placed. What kind of dependency is that? ... What should the project manager do?' Answer: 'Finish-to-start. Escalate early...' Correctly identifies the dependency type (order must finish before delivery starts = finish-to-start) and correctly applies the chapter's escalation guidance from section 5.4.",
+      "resolution": "fixed"
+    },
+    {
+      "id": "f6",
+      "file": "06-execution-people-and-closing.md",
+      "severity": "correction",
+      "claim": "Chapter 6's inclusion/ethics objective was untested in Check yourself.",
+      "source": "House pedagogy note's constructive-alignment rule.",
+      "fix": "Verified fixed. New question 8 and answer 8 added, testing both halves of the objective at once: crediting a quiet volunteer's idea to someone else raises fairness, honesty and respect under the PMI code, and the fix (correct the record, make room for quieter people) matches section 6.4's own guidance.",
+      "resolution": "fixed"
+    },
+    {
+      "id": "f7",
+      "file": "07-agile-and-scrum.md",
+      "severity": "correction",
+      "claim": "Chapter 7's Agile-vs-Waterfall/hybrid objective was untested in Check yourself.",
+      "source": "House pedagogy note's constructive-alignment rule.",
+      "fix": "Verified fixed. New question 8 and answer 8 added (clinic renovation vs. check-in app); the answer correctly assigns predictive to the fixed-plan renovation, adaptive to the reviewable app, and names the combination a hybrid, matching section 7.3.",
+      "resolution": "fixed"
+    },
+    {
+      "id": "f8",
+      "file": "04-planning-budget-risk-communication.md",
+      "severity": "correction",
+      "claim": "\"...asks vendors to propose how they'd meet a need.\" — banned ambiguous contraction.",
+      "source": "House style guide bans 'there'd, it'll, they'd'.",
+      "fix": "Verified fixed. Now reads 'asks vendors to propose how they would meet a need.' A full-text scan of the new edition found zero instances of there'd/it'll/they'd/who'd anywhere.",
+      "resolution": "fixed"
+    },
+    {
+      "id": "f9",
+      "file": "01-foundations.md",
+      "severity": "correction",
+      "claim": "\"communicating clearly\" — banned weak adverb.",
+      "source": "House style guide's adverbs-to-avoid list.",
+      "fix": "Verified fixed. Now reads 'communicating well'. A full-text scan of the new edition against the entire banned-adverb list (clearly, completely, exceedingly, extremely, fairly, huge, interestingly, largely, literally, mostly, quite, relatively, remarkably, several, significantly, substantially, surprisingly, tiny, various, vast, very) returned zero hits.",
+      "resolution": "fixed"
+    },
+    {
+      "id": "f10",
+      "file": "08-agile-in-practice.md",
+      "severity": "correction",
+      "claim": "\"Over several sprints\" — banned weak adverb/quantifier.",
+      "source": "House style guide's adverbs-to-avoid list includes 'several'.",
+      "fix": "Verified fixed. Now reads 'Over its last few sprints', which still fits the chapter's own three-sprint velocity example (4, 3, 5 points).",
+      "resolution": "fixed"
+    },
+    {
+      "id": "f11",
+      "file": "07-agile-and-scrum.md",
+      "severity": "note",
+      "claim": "\"seventeen people who'd developed those methods\" — same would/had ambiguity class as the explicitly banned contractions.",
+      "source": "House style guide's ambiguous-contraction examples.",
+      "fix": "Verified fixed. Now reads 'seventeen people who had developed those methods'.",
+      "resolution": "fixed"
+    },
+    {
+      "id": "f12",
+      "file": "00-about-this-book.md",
+      "severity": "note",
+      "claim": "roediger2006 reference entry was missing its issue number.",
+      "source": "Roediger and Karpicke 2006 is Psychological Science 17(3), not just volume 17.",
+      "fix": "Verified fixed. The frontmatter's roediger2006 entry now carries \"issue: \\\"3\\\"\", and the rendered References list shows 'Psychological Science 17 (3): 249–55.'",
+      "resolution": "fixed"
+    },
+    {
+      "id": "f13",
+      "file": "00-about-this-book.md",
+      "severity": "note",
+      "claim": "\"Over 100 hours\" vs. the certificate's 142 total hours was never bridged for the reader.",
+      "source": "The evidence packet's own reading: the job-search course and other material need not count toward PMI's hours.",
+      "fix": "Verified fixed. Section 0.2 now adds: 'Not every course hour counts (the job-search course, for one, isn't project management education), but the certificate clears PMI's requirement with room to spare.'",
+      "resolution": "fixed"
+    },
+    {
+      "id": "f14",
+      "file": "00-about-this-book.md",
+      "severity": "note",
+      "claim": "The evidence packet didn't source Mendelow, Edmondson, Deming, Reichheld, Tufte, Clegg and Barker, or Ries, though the book cites all of them.",
+      "source": "The evidence packet's own 'independent sources' table and reference list.",
+      "fix": "Verified fixed. The evidence packet's source table now has rows for the power-interest grid (correctly crediting Johnson and Scholes 1993 adapting Mendelow's power-dynamism matrix, and noting the common misattribution), psychological safety (Edmondson 1999), PDCA/PDSA (Deming 1986), Net Promoter Score (Reichheld 2003, with the accurate quoted question matching what this proof verified against the real source), presenting data (Tufte 2001), MVP/MoSCoW (Ries 2011; Clegg and Barker 1994), emotional intelligence components (Goleman 1995, with a separate correctly-dated 1998 HBR citation for a five-component list the book itself does not use), and risk responses (PMI's five threat and five opportunity responses, matching real PMBOK guidance). No contradictions found between the packet's new rows and the book's actual text.",
+      "resolution": "fixed"
+    },
+    {
+      "id": "f15",
+      "file": "03-planning-the-schedule.md",
+      "severity": "note",
+      "claim": "Chapter 3's \"four ways\" of estimating objective was tested only by the three-point method.",
+      "source": "House pedagogy note's constructive-alignment rule.",
+      "fix": "Verified fixed. New question 8 and answer 8 added: 'One volunteer sorts 40 boxes an hour, and 600 boxes arrive... 600 / 40 = 15 volunteer-hours', correctly exercising parametric estimating (recomputed: 600/40=15, correct).",
+      "resolution": "fixed"
+    },
+    {
+      "id": "f16",
+      "file": "09-the-capstone.md",
+      "severity": "note",
+      "claim": "Chapter 9's portfolio-for-job-search objective was untested in Check yourself.",
+      "source": "House pedagogy note's constructive-alignment rule.",
+      "fix": "Verified fixed. New question 8 and answer 8 added: 'What goes in a portfolio's one-page index?' Answer matches section 9.7's own guidance exactly.",
+      "resolution": "fixed"
+    },
+    {
+      "id": "f17",
+      "file": "11-glossary.md",
+      "severity": "note",
+      "claim": "Escalation. Asking someone with more authority to resolve a blocker. [5]",
+      "source": "11-glossary.md was not updated when 04-planning-budget-risk-communication.md added PMI's fifth risk response, 'escalate' (an unfixed side effect of the f5/f14 fixes). The glossary's only 'Escalation' entry still cited just chapter 5 (the dependency-blocker sense from section 5.4) and defined it only in blocker terms, not in the risk-response sense chapter 4 teaches (passing a risk outside the project's authority to whoever owns it).",
+      "fix": "Verified fixed. Byte-for-byte diff against the prior edition shows exactly two changes: the build record hash and this entry, now reading (both in the rendered text and in 11-glossary.md line 56-57): 'Escalation. Asking someone with more authority to resolve a blocker [5]; as a risk response, passing a risk outside the project's authority to whoever owns it [4].' This correctly distinguishes and tags both senses. No other content changed in this edition.",
+      "resolution": "fixed"
+    },
+    {
+      "id": "f18",
+      "file": "00-about-this-book.md",
+      "severity": "correction",
+      "claim": "The agile-manifesto-2001 reference used a literal 'et al.' as a stand-in author, so the edition printed '(Beck and et al. 2001)' in chapter 7 and 'Beck, Kent, and et al. 2001' in the bibliography, discarding the other sixteen signatories' names.",
+      "source": "agilemanifesto.org and independent corroborating sources list all 17 real signatories: Kent Beck, Mike Beedle, Arie van Bennekum, Alistair Cockburn, Ward Cunningham, Martin Fowler, James Grenning, Jim Highsmith, Andrew Hunt, Ron Jeffries, Jon Kern, Brian Marick, Robert C. Martin, Steve Mellor, Ken Schwaber, Jeff Sutherland, and Dave Thomas.",
+      "fix": "Verified fixed. 00-about-this-book.md's agile-manifesto-2001 frontmatter now lists all 17 signatories by name, and every name and spelling matches the real signatory list exactly (order, given names, and the lowercase 'van' in 'van Bennekum' all correct). The rendered edition now reads '(Beck et al. 2001)' in chapter 7 — the ordinary Chicago author-date in-text form for a many-author work — and the bibliography reads 'Beck, Kent, Mike Beedle, Arie van Bennekum, Alistair Cockburn, Ward Cunningham, Martin Fowler, James Grenning, et al. 2001.' This is not a truncation bug: Chicago author-date style lists only the first seven authors followed by 'et al.' in the bibliography once a work has more than ten authors (confirmed against citation-style guidance), and the Agile Manifesto's 17 real, correctly-spelled authors now sit behind that ellipsis instead of a bare placeholder. A full-text diff against the prior edition confirmed no other content changed (only the build record hash and this citation; one reference-list entry's apparent position shift was pagination reflow from the added lines, not reordering).",
+      "resolution": "fixed"
+    },
+    {
+      "id": "f19",
+      "file": "layout: templates/keep-with-table.lua (PDF build; no manuscript file)",
+      "severity": "note",
+      "claim": "A bold label introducing a table (e.g. 'Risk register.', 'Communication plan.', 'Budget.') could be stranded alone at the bottom of a page, with its table starting on the next page.",
+      "source": "Directly observed in the prior edition's PDF text extraction: 'Risk register.' sat alone at the foot of the page ending '...decision.' before the page-36 break, and 'Communication plan.' sat alone at the foot of the page ending '...pickups' before the page-37 break, in both cases with the table itself starting only after the page turn.",
+      "fix": "Verified fixed. A word-token diff (stripping digits, page numbers and the build hash) of the new edition's text against the prior edition's showed identical wording throughout; every difference was a running header, running footer or repeated table-header row moving position because of the new page breaks, never a change to prose. Rendered pages 35-38 of /home/emsenn/info/lib/emsenn/services/561-group/services/561-group-services-section/data/state/editions/project-management-course-by-course/project-management-course-by-course.pdf with pdftoppm at 100 dpi and visually confirmed 'Budget.' (page 36), 'Risk register.' (page 37) and 'Communication plan.' (page 38) each now open a fresh page together with their full table, none stranded at a page foot.",
+      "resolution": "fixed"
+    },
+    {
+      "id": "f20",
+      "file": "layout: templates/book-layout.lua (PDF build; no manuscript file)",
+      "severity": "correction",
+      "claim": "Sections under an unnumbered chapter (the front-matter 'About this book' and the back-matter 'A study plan') were numbered as if continuing the previous chapter's sequence: the table of contents and body headings printed '0.1 An independent companion' through '0.6 Who wrote it', and '9.12 The rule' through '9.16 If you're going on to the CAPM'.",
+      "source": "Directly observed in the prior edition's table of contents and section headings (both the PDF text extraction and, before this pass, uncorrected).",
+      "fix": "Verified fixed. Read the complete 114-line diff against the prior edition line by line: every hunk is the build hash, a '0.x' or '9.1x' number disappearing from a contents entry or heading (text otherwise identical), a page-number column realigning by whitespace only because the unnumbered lines got shorter, or a running header falling back to 'Contents' or '9.11. Answers' on pages that no longer have a numbered section to name — never a change in wording. Rendered the table of contents, an About-section page (p.7), a chapter 1 page (p.11) and the study-plan opening page (p.73) from the rebuilt PDF with pdftoppm and visually confirmed: 'About this book' and its six subheadings, and 'A study plan' and its subheadings, now carry no numbers anywhere (heading text or contents), while 'Chapter 1' and its subsections ('1.1 What you will be able to do', '1.2 Projects and operations', ...) and chapter 2's ('2.1', '2.2', ...) are still numbered exactly as before. Noted in passing, not a defect in this fix: on the study-plan's unnumbered pages the running header now reads '9.11. Answers' (the last numbered subsection before it) rather than naming the study plan, and one early About-section page's running header reads 'Contents' rather than a section name — both are the expected 'page flow' side effect of a LaTeX running head keyed to the last numbered sectioning command, not a wording or numbering error, and the coordinator's own framing of this fix anticipated page-flow changes.",
+      "resolution": "fixed"
+    },
+    {
+      "id": "f21",
+      "file": "layout: templates/book-layout.lua (PDF build; no manuscript file)",
+      "severity": "correction",
+      "claim": "Pages of unnumbered chapters (About, study plan, glossary, references) carried the last numbered section's stale running head instead of their own title, e.g. 'Contents' on an early About-section page and '9.11. Answers' on study-plan and glossary pages — the exact side effect flagged, and accepted as expected page flow at the time, in f20's verification.",
+      "source": "Directly observed in the prior edition (f20's verified text): 'Contents' as the running head on an About-section page, and '9.11. Answers' as the running head on both a study-plan page and a glossary page, none naming the section the reader was actually on.",
+      "fix": "Verified fixed. The diff against the prior edition changed exactly three lines of running-head text (plus the build hash): 'Contents' to 'About this book'; '9.11. Answers' to 'A study plan'; and '9.11. Answers' to 'Glossary'. A word-token comparison confirmed nothing else in the book's wording moved or changed. Rendered the actual odd (recto) pages that carry the ruled, section-style running head from the rebuilt PDF with pdftoppm and read each header directly: page 9 reads 'About this book', page 75 reads 'A study plan', and page 79 reads 'Glossary', each right-aligned above a horizontal rule exactly where '9.11. Answers' or 'Contents' appeared before. References (pages 81-82) is only two pages in this edition — a title page (no header, by the same convention chapters use) and one even page — so it never reaches a third, odd page where this bug or its fix would show; there was nothing further to confirm there, and nothing suggests it is not covered by the same mechanism. Separately noted, not something this finding turns on: the colophon's own embedded 'Build record hash' line (distinct from the editionInputDigest/artifact digests tracked in this proof) did not change between this edition and the prior one, unlike in the two previous layout-only rounds where it did change for similarly scoped template/filter edits — worth the coordinator's attention, though it does not affect the wording or running-head verification above.",
+      "resolution": "fixed"
+    }
+  ]
+}

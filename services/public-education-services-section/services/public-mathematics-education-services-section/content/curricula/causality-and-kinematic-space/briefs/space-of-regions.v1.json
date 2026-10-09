@@ -1,0 +1,23 @@
+{
+  "type": "MathematicsLessonBriefDraft",
+  "courseId": "causality-and-kinematic-space",
+  "courseRevision": 1,
+  "lessonId": "space-of-regions",
+  "learningObjectives": [
+    "Distinguish interval inclusion, intersection, metric, and measure as separate kinematic structures.",
+    "Explain why a bulk point corresponds to a family of geodesics and hence a curve in kinematic space.",
+    "Describe the Crofton reconstruction of curve length under its hypotheses.",
+    "State the limited sense in which MERA can discretize kinematic space."
+  ],
+  "definitions": [
+    "Incidence: the relation that a represented geodesic intersects a bulk point or curve.",
+    "Crofton form: a measure on a space of geometric probes used in integral-geometric reconstruction.",
+    "Point curve: the family of geodesics passing through one bulk point, represented as a curve in kinematic space.",
+    "Inclusion order: the partial order induced by containment of represented intervals.",
+    "Kinematic region: a set of kinematic points satisfying a shared incidence or interval property.",
+    "Discretization: a finite or combinatorial representation of selected continuum structure, not automatic identity with it."
+  ],
+  "notebookPrompt": "Create a high-level mathematical cinematic titled ‘Geometry on a space of regions.’ Begin with boundary intervals lifted into a Lorentzian kinematic surface. Visually separate inclusion, overlap, adjacency, metric, and measure rather than merging them. Turn one bulk point into the full curve of boundary-anchored geodesics passing through it. Then deform a convex bulk curve and illuminate the region of kinematic points whose geodesics intersect it; show a Crofton integral over that region becoming the curve length under the cited AdS3 assumptions. Pixelate the kinematic surface into a MERA-like tensor network while explicitly labeling the claim as a model-dependent discretization of kinematic space, not simply the bulk itself. Include the negative control that nearby kinematic points represent nearby intervals or geodesics, not necessarily neighboring bulk points.",
+  "humanFrame": "The viewer should leave with several structures, not one vague idea of geometry. Use persistent color coding for inclusion, incidence, metric, and measure, and state the reconstruction hypotheses on screen.",
+  "assessment": "Given a family of boundary intervals, identify inclusion and overlap relations, describe the kinematic curve associated with a bulk point, and explain what set is integrated in the Crofton length formula."
+}

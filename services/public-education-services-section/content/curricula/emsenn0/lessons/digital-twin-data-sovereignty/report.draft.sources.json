@@ -1,0 +1,30 @@
+{
+  "draftSha256": "3829f3e6611d997d7ec5694253933138198ce809de14b0e010b9f6873801760e",
+  "searches": 5,
+  "exchanges": [
+    {
+      "outcome": "completion",
+      "recordedAt": "2026-09-27T15:10:22.821Z",
+      "completedSearches": 5,
+      "model": "gpt-5.6-sol",
+      "citedUrls": [
+        "https://www.nist.gov/publications/digital-twin-core-conceptual-models-and-services",
+        "https://tsapps.nist.gov/publication/get_pdf.cfm?pub_id=933613",
+        "https://csrc.nist.gov/pubs/ir/8356/final",
+        "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A32023R2854",
+        "https://eur-lex.europa.eu/legal-content/EN/TXT/PDF/?uri=OJ%3AL_202302854",
+        "https://eur-lex.europa.eu/eli/reg/2023/2854/oj/eng",
+        "https://www.gida-global.org/careprinciples",
+        "https://www.gida-global.org/gidacommuniques",
+        "https://digital-strategy.ec.europa.eu/en/policies/destination-earth",
+        "https://www.toronto.ca/legdocs/mmis/2018/ex/bgrd/backgroundfile-110745.pdf",
+        "https://www.waterfrontoronto.ca/sites/default/files/connect/waterfront/521b1d08-3499-4a49-9d2c-b5fc34990ce5/dsap-report---appendices.pdf",
+        "https://secure.toronto.ca/council/agenda-item.do?item=2020.EX19.4",
+        "https://www.iea.org/reports/energy-and-ai/energy-demand-from-ai",
+        "https://datacenters.lbl.gov/publications/2024-lbnl-data-center-energy-usage-report",
+        "https://tsapps.nist.gov/publication/get_pdf.cfm?pub_id=957183"
+      ]
+    }
+  ],
+  "evidence": []
+}

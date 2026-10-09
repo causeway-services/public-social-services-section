@@ -1,0 +1,20 @@
+{
+  "draftSha256": "06a3ce21a1c0a9b8c10ecebe59bb8c02a02b1869879647fdc3f5e9a4c2fa6338",
+  "searches": 6,
+  "exchanges": [
+    {
+      "outcome": "completion",
+      "recordedAt": "2026-10-02T15:29:40.748Z",
+      "completedSearches": 6,
+      "model": "gpt-5.6-sol",
+      "citedUrls": [
+        "https://doi.org/10.1103/PhysRevLett.59.521",
+        "https://arxiv.org/abs/2009.07623",
+        "https://doi.org/10.1063/1.523436",
+        "https://link.springer.com/article/10.1007/s41114-019-0023-1",
+        "https://arxiv.org/abs/1606.03307"
+      ]
+    }
+  ],
+  "evidence": []
+}

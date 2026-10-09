@@ -1,0 +1,24 @@
+{
+  "slug": "the-whirling-crystal",
+  "title": "The Whirling Crystal",
+  "subtitle": "From Fregean Predication to Belnap’s FOUR, Chu Spaces, the Gyrobifastigial Cell, and the Spatiotemporal Manifold of Knowledge",
+  "author": "561 Group",
+  "date": "2026-09-03",
+  "bookDir": ".",
+  "distDir": "../../../data/state/editions/the-whirling-crystal",
+  "description": "A working account of a live mathematics program, tracing a path from Fregean predicate application through Belnap’s FOUR, Chu spaces and Hoare programs to the gyrobifastigial cell, the dervish defect, witnessed time, thermodynamic cost and an executable inference kernel.",
+  "keywords": [
+    "predication",
+    "Belnap FOUR",
+    "Chu spaces",
+    "formal methods",
+    "knowledge representation"
+  ],
+  "subjects": [
+    "MAT000000",
+    "PHI000000",
+    "COM000000"
+  ],
+  "marks": [],
+  "cover": "typographic"
+}

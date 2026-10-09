@@ -1,0 +1,576 @@
+{
+  "title": "The Second Day — Issue 003",
+  "dek": "The strongest single mechanistic thread in long COVID is that the virus itself never fully leaves. Here's what three years of increasingly rigorous studies actually found — including the ones that complicated the story, and the trial that tested it directly.",
+  "sections": [
+    {
+      "heading": "The Virus That Won't Fully Leave (And What Finding It Actually Proves)",
+      "body-markdown": "Ask someone with long COVID what they think is happening in their body, and \"the virus is still in there\" is one of the first things you'll hear. It's the mechanism with the most published evidence behind it, tested in blood, autopsy tissue, and gut biopsies over three years — and the mechanism whose own evidence, read in order, tells a more complicated story than \"find the virus, clear it, cure the patient.\" This issue walks that evidence honestly, corrections included, then follows the field to where newer evidence is accumulating now: not the virus, but the immune system it left behind.\n\n### Finding it in blood: a story that corrected itself\n\nIn 2023, Swank and colleagues used an ultra-sensitive blood test and reported something striking: spike protein detectable in 60% of people with long COVID, and 0% of people who'd fully recovered. It was real, and a genuine first — but it came from 63 people at a single site, with no pre-pandemic samples to rule out cross-reactivity, and a design built to find exactly this contrast.\n\nThe next study widened the lens: Peluso and colleagues, in 2024, tested 171 people who'd had COVID against 250 pre-pandemic samples, finding excess antigen at every follow-up window out to 14 months; about a quarter carried it at some point. That's real and demonstrated — leftover viral antigen circulating for over a year in a meaningful minority of people. But the study wasn't sorted by long-COVID status; it couldn't say whether antigen-carriers were more likely to be sick.\n\nThe study built to answer that directly complicates the story the most. Mateu and colleagues, in 2026, ran the largest, most rigorous version yet: 425 people split three ways into long COVID, fully recovered, and never infected, blood tested blind to who was who, followed to two years. At six to twelve months, antigen turned up in 31% of the long-COVID group and 20% of the fully-recovered group — real, but not a clean separation, and by eighteen to twenty-four months it had nearly vanished everywhere. What matters most: carrying detectable antigen had no relationship to symptom count or severity. The authors concluded plainly that current evidence doesn't support using this test to guide anyone's care.\n\nThree studies, each larger and better controlled than the last, and the headline moves from \"spike antigen marks who has long COVID\" to \"spike antigen circulates widely after COVID, without telling you who's still sick.\" That isn't the field failing — it's the field working as intended.\n\n### Finding it in tissue: real, but not in the population you'd think\n\nOutside blood, the evidence gets more dramatic and more constrained. Stein, Chertow, and colleagues autopsied 44 people who died with COVID and found viral RNA across 84 tissue sites — heart, gut, adrenal gland, multiple brain regions — including live, culturable virus from the brain. Demonstrated and extraordinary. It's also, by design, a study of people who died of severe acute COVID, not living long-COVID patients, and the authors say directly their cohort \"was not designed to address\" whether persistence drives symptoms in people who survive.\n\nThe closer parallel in living patients: a Peluso-led PET-imaging study, using a T-cell-activation tracer in 24 patients, found activation elevated across gut and lymphoid tissue for up to 2.5 years against pre-pandemic scans — real, controlled evidence something still holds the immune system's attention. A five-patient biopsy arm found viral RNA in all five gut linings, striking but too small to generalize from.\n\n### The test that mattered most\n\nIf persisting virus drives symptoms, the cleanest way to find out is to clear it. PAX LC, published in 2025, gave 100 long-COVID patients either the antiviral nirmatrelvir-ritonavir or a placebo, double-blind, and measured physical function at 28 days. The antiviral didn't significantly outperform placebo — a real, demonstrated negative result for one drug and one measure. It doesn't rule out persistence for some patients, other drugs, or endpoints, but \"clear the reservoir, cure the person\" didn't hold up the one time it's been tested this rigorously.\n\n### Where the evidence is moving\n\nPut together, viral and antigen persistence is real and demonstrated across three tissue compartments — that part holds. What hasn't held up, through three rounds of better-controlled testing, is the leap from \"detectable\" to \"diagnostic\" or \"causal.\" That's part of why newer work now targets the immune system rather than the virus itself. T-cell exhaustion signatures have replicated across two cohorts from the same group — demonstrated, though awaiting independent confirmation. Complement-pathway signals and autoantibody associations tell a similar story: real, demonstrated, but associations, not causes.\n\nThe most direct causal test of any of it comes from the same line. A 2026 study purified pooled antibodies from long-COVID patients — sorted into three subgroups by distinct blood-protein signatures, each with its own molecular fingerprint — and injected them into mice, which then developed real, measurable pain sensitivity to touch. Antibodies drawn from the same patients two years later, while they were still symptomatic, reproduced the same effect. That's genuine cause and effect, the strongest evidence this field has produced for any mechanism so far — inside a mouse. Whether it transfers to humans isn't known.\n\nOne line of immune evidence remains a live, unresolved fight, not a question waiting on more data: whether \"microclots\" — an unusual, treatment-resistant clotted blood protein — are central to long COVID, as their discoverers argue, or a nonspecific byproduct of inflammation seen elsewhere too, as their critics argue in the same journal. Neither side has settled it with a controlled trial; we name both positions rather than pick one, because that's where the dispute genuinely stands.\n\nNone of this adds to one clean mechanism. It adds to a virus the body doesn't fully clear, an immune system that stays measurably activated, and a widening gap between detectable and proven — itself useful, because it names what would settle this: a trial treating only antigen-positive patients; independent replication of the mouse antibody-transfer result in humans; a microclot count both disputing groups agree on. Until those exist, \"the virus is still there\" and \"it's your immune system now\" are both partly true, and neither is proven alone.",
+      "sources": [
+        "swank2023",
+        "peluso2024lancetid",
+        "mateu2026",
+        "steinchertow2022",
+        "peluso2024stm",
+        "sawano2025",
+        "aid2025",
+        "baillie2024",
+        "notarte2024",
+        "chen2026",
+        "kellpretorius2022",
+        "hunt2024",
+        "kellkhanpretorius2024"
+      ]
+    },
+    {
+      "heading": "The Evidence State",
+      "body-markdown": "### \"If antigen shows up in your blood, that proves the virus is still causing your symptoms.\"\n\n**Demonstrated, but not specific to long COVID.** The largest, most rigorous, blinded study to date (Mateu and colleagues, 2026, n=425, with never-infected controls) found viral antigen in both long-COVID and fully-recovered patients, unrelated to symptom burden, type, or severity. Antigen persistence is real; it doesn't explain who's sick. (Issue 001 called this same underlying finding \"contested\" — that was the claim as commonly stated, conflating persistence with causation; splitting the two, as we do here, is the more precise reading of the same evidence, not a change in it.)\n\n### \"Live virus has actually been found in people's bodies months after infection.\"\n\n**Demonstrated — in a population worth naming carefully.** Stein, Chertow, and colleagues cultured replication-competent virus from multiple organs, including brain tissue, in autopsies of 44 people who died of severe acute COVID. Real and remarkable — but not, by the authors' own statement, evidence about what happens in the much larger group who survive and go on to develop long COVID.\n\n### \"T-cell activation stays elevated for years after infection.\"\n\n**Demonstrated.** A 2024 PET-imaging study found measurably elevated T-cell activation in long-COVID patients' gut and lymphoid tissue out to two and a half years post-infection, compared against pre-pandemic scans — a controlled finding. A companion gut-biopsy result (n=5) is real but too small to generalize from yet.\n\n### \"Clearing the virus with an antiviral should cure long COVID.\"\n\n**Demonstrated null, for one drug and one measure.** A 2025 randomized, placebo-controlled trial of 100 long-COVID patients found nirmatrelvir-ritonavir did not significantly improve physical function at 28 days versus placebo. This doesn't close the door on antiviral treatment broadly — other drugs, outcomes, and antigen-positive-only subgroups remain untested — but it's a real negative result for the simplest version of the persistence hypothesis.\n\n### \"It's not the virus anymore — it's your immune system attacking itself.\"\n\n**Mixed, and it depends which mechanism you mean.** T-cell exhaustion has demonstrated, replicated support, though only within one research group so far. Complement-pathway markers reliably distinguish long-COVID patients from matched recovered controls in a well-controlled study. Autoantibodies are statistically associated with fatigue and breathlessness in a pooled review of 647 survivors — though the review's own authors call that clinical significance modest — and, in a single 2026 mouse study, purified patient antibodies caused measurable pain hypersensitivity when transferred; that is genuine causal evidence, but so far only in mice, and human causation remains an extrapolation from it. Whether \"microclots\" are central to the illness or a nonspecific inflammatory finding, meanwhile, is an actively contested, unresolved dispute between named research groups, not a settled part of the immune-dysregulation story.",
+      "sources": [
+        "mateu2026",
+        "steinchertow2022",
+        "peluso2024stm",
+        "sawano2025",
+        "aid2025",
+        "baillie2024",
+        "notarte2024",
+        "chen2026",
+        "kellpretorius2022",
+        "hunt2024",
+        "kellkhanpretorius2024"
+      ]
+    },
+    {
+      "heading": "From the Desk",
+      "body-markdown": "**Two new research notes.** This issue draws on two accountings finished this week: one tracing viral and antigen persistence across blood, autopsy tissue, and gut compartment by compartment, one tracing five immune-dysregulation mechanisms — T-cell exhaustion, autoantibodies, complement, the microclot dispute, and Epstein-Barr reactivation — each marked demonstrated, single-cohort, or actively contested. Both feed the synthesis paper mentioned since issue one; this issue is that paper's viral-persistence and immune-dysregulation sections, in the voice we write for readers, not researchers.\n\n**What we didn't have room for.** The immune-dysregulation note also covers Epstein-Barr virus reactivation, associated with specific symptom clusters in one cohort, though whether it drives those symptoms or is merely permitted by long-COVID immune changes remains open. We're holding it for a future issue.\n\n**Where this sits in the bigger map.** Viral persistence and immune dysregulation are two of several candidate mechanisms for long COVID and the wider infection-associated chronic illness family this newsletter covers — dysautonomia and the ME/CFS overlap are others — and we're not treating any one as the answer. Long COVID is very likely mechanistically heterogeneous across patients; that's a structural feature of the evidence, not a hedge.",
+      "sources": [
+        "choutka2022"
+      ]
+    },
+    {
+      "heading": "The Promise",
+      "body-markdown": "Every claim in this newsletter carries one of three labels — demonstrated, hypothesis, or contested — checked against the primary source before we publish, not copied forward from an earlier draft or our own memory of the finding. Demonstrated means a finding holds up even when individual studies disagree on the exact number; contested means credible groups' central findings actually point in different directions. When a result comes from a single cohort awaiting replication — as several in this issue do — we'll say exactly that, and we won't let \"single cohort\" quietly become \"proven\" by the time we mention it again.\n\nThat's the whole promise. Thanks for reading issue 003 — we'll see you next time.\n\n— The Second Day"
+    }
+  ],
+  "references": {
+    "swank2023": {
+      "id": "swank2023",
+      "type": "article-journal",
+      "title": "Persistent Circulating Severe Acute Respiratory Syndrome Coronavirus 2 Spike Is Associated With Post-acute Coronavirus Disease 2019 Sequelae",
+      "author": [
+        {
+          "given": "Zoe",
+          "family": "Swank"
+        },
+        {
+          "given": "Yasmeen",
+          "family": "Senussi"
+        },
+        {
+          "given": "Zachary",
+          "family": "Manickas-Hill"
+        },
+        {
+          "given": "Xu G",
+          "family": "Yu"
+        },
+        {
+          "given": "Jonathan Z",
+          "family": "Li"
+        },
+        {
+          "given": "Galit",
+          "family": "Alter"
+        },
+        {
+          "given": "David R",
+          "family": "Walt"
+        }
+      ],
+      "container-title": "Clinical Infectious Diseases",
+      "volume": "76",
+      "issue": "3",
+      "page": "e487-e490",
+      "issued": {
+        "date-parts": [
+          [
+            2022,
+            9,
+            2
+          ]
+        ]
+      },
+      "DOI": "10.1093/cid/ciac722",
+      "PMID": "36052466"
+    },
+    "peluso2024lancetid": {
+      "id": "peluso2024lancetid",
+      "type": "article-journal",
+      "title": "Plasma-based antigen persistence in the post-acute phase of COVID-19",
+      "author": [
+        {
+          "given": "Michael J",
+          "family": "Peluso"
+        },
+        {
+          "given": "Zoe N",
+          "family": "Swank"
+        },
+        {
+          "given": "Sarah A",
+          "family": "Goldberg"
+        },
+        {
+          "literal": "et al."
+        }
+      ],
+      "container-title": "The Lancet Infectious Diseases",
+      "volume": "24",
+      "issue": "6",
+      "page": "e345-e347",
+      "issued": {
+        "date-parts": [
+          [
+            2024,
+            6
+          ]
+        ]
+      },
+      "DOI": "10.1016/s1473-3099(24)00211-1",
+      "PMID": "38604216"
+    },
+    "mateu2026": {
+      "id": "mateu2026",
+      "type": "article-journal",
+      "title": "Blinded two-year longitudinal evaluation of SARS-CoV-2 antigenemia in long COVID",
+      "author": [
+        {
+          "given": "Lourdes",
+          "family": "Mateu"
+        },
+        {
+          "given": "Louise L.",
+          "family": "Hansen"
+        },
+        {
+          "given": "Joao Pedro",
+          "family": "Carmezim"
+        },
+        {
+          "literal": "et al."
+        }
+      ],
+      "container-title": "Clinical Microbiology and Infection",
+      "volume": "32",
+      "issue": "9",
+      "page": "1487-1494",
+      "issued": {
+        "date-parts": [
+          [
+            2026,
+            9
+          ]
+        ]
+      },
+      "DOI": "10.1016/j.cmi.2026.06.014"
+    },
+    "steinchertow2022": {
+      "id": "steinchertow2022",
+      "type": "article-journal",
+      "title": "SARS-CoV-2 infection and persistence in the human body and brain at autopsy",
+      "author": [
+        {
+          "given": "Sydney R.",
+          "family": "Stein"
+        },
+        {
+          "given": "Sabrina C.",
+          "family": "Ramelli"
+        },
+        {
+          "given": "Alison",
+          "family": "Grazioli"
+        },
+        {
+          "literal": "et al."
+        }
+      ],
+      "container-title": "Nature",
+      "volume": "612",
+      "issue": "7941",
+      "page": "758-763",
+      "issued": {
+        "date-parts": [
+          [
+            2022,
+            12,
+            14
+          ]
+        ]
+      },
+      "DOI": "10.1038/s41586-022-05542-y",
+      "PMID": "36517603"
+    },
+    "peluso2024stm": {
+      "id": "peluso2024stm",
+      "type": "article-journal",
+      "title": "Tissue-based T cell activation and viral RNA persist for up to 2 years after SARS-CoV-2 infection",
+      "author": [
+        {
+          "given": "Michael J.",
+          "family": "Peluso"
+        },
+        {
+          "given": "Dylan",
+          "family": "Ryder"
+        },
+        {
+          "given": "Robert R.",
+          "family": "Flavell"
+        },
+        {
+          "literal": "et al."
+        }
+      ],
+      "container-title": "Science Translational Medicine",
+      "volume": "16",
+      "issue": "754",
+      "issued": {
+        "date-parts": [
+          [
+            2024,
+            7,
+            3
+          ]
+        ]
+      },
+      "DOI": "10.1126/scitranslmed.adk3295",
+      "PMID": "38959327"
+    },
+    "sawano2025": {
+      "id": "sawano2025",
+      "type": "article-journal",
+      "title": "Nirmatrelvir-ritonavir versus placebo-ritonavir in individuals with long COVID in the USA (PAX LC): a double-blind, randomised, placebo-controlled, phase 2, decentralised trial",
+      "author": [
+        {
+          "given": "Mitsuaki",
+          "family": "Sawano"
+        },
+        {
+          "given": "Bornali",
+          "family": "Bhattacharjee"
+        },
+        {
+          "given": "Cesar",
+          "family": "Caraballo"
+        },
+        {
+          "literal": "et al."
+        }
+      ],
+      "container-title": "The Lancet Infectious Diseases",
+      "volume": "25",
+      "issue": "8",
+      "page": "936-946",
+      "issued": {
+        "date-parts": [
+          [
+            2025,
+            8
+          ]
+        ]
+      },
+      "DOI": "10.1016/s1473-3099(25)00073-8"
+    },
+    "aid2025": {
+      "id": "aid2025",
+      "type": "article-journal",
+      "title": "Long COVID involves activation of proinflammatory and immune exhaustion pathways",
+      "author": [
+        {
+          "given": "Malika",
+          "family": "Aid"
+        },
+        {
+          "given": "Valentin",
+          "family": "Boero-Teyssier"
+        },
+        {
+          "given": "Katherine",
+          "family": "McMahan"
+        },
+        {
+          "literal": "et al."
+        }
+      ],
+      "container-title": "Nature Immunology",
+      "volume": "27",
+      "issue": "1",
+      "page": "61-71",
+      "issued": {
+        "date-parts": [
+          [
+            2025,
+            12,
+            12
+          ]
+        ]
+      },
+      "DOI": "10.1038/s41590-025-02353-x"
+    },
+    "chen2026": {
+      "id": "chen2026",
+      "type": "article-journal",
+      "title": "Transfer of IgG from long COVID patients induces symptomology in mice",
+      "author": [
+        {
+          "given": "Hung-Jen",
+          "family": "Chen"
+        },
+        {
+          "given": "Brent",
+          "family": "Appelman"
+        },
+        {
+          "given": "Hanneke L.D.M.",
+          "family": "Willemen"
+        },
+        {
+          "literal": "et al."
+        }
+      ],
+      "container-title": "Cell Reports Medicine",
+      "volume": "7",
+      "issue": "4",
+      "page": "102693",
+      "issued": {
+        "date-parts": [
+          [
+            2026,
+            4
+          ]
+        ]
+      },
+      "DOI": "10.1016/j.xcrm.2026.102693"
+    },
+    "notarte2024": {
+      "id": "notarte2024",
+      "type": "article-journal",
+      "title": "Autoantibodies in COVID-19 survivors with post-COVID symptoms: a systematic review",
+      "author": [
+        {
+          "given": "Kin Israel",
+          "family": "Notarte"
+        },
+        {
+          "given": "Timothy Hudson David Culasino",
+          "family": "Carandang"
+        },
+        {
+          "given": "Jacqueline Veronica",
+          "family": "Velasco"
+        },
+        {
+          "literal": "et al."
+        }
+      ],
+      "container-title": "Frontiers in Immunology",
+      "volume": "15",
+      "issued": {
+        "date-parts": [
+          [
+            2024,
+            7,
+            5
+          ]
+        ]
+      },
+      "DOI": "10.3389/fimmu.2024.1428645"
+    },
+    "baillie2024": {
+      "id": "baillie2024",
+      "type": "article-journal",
+      "title": "Complement dysregulation is a prevalent and therapeutically amenable feature of long COVID",
+      "author": [
+        {
+          "given": "Kirsten",
+          "family": "Baillie"
+        },
+        {
+          "given": "Helen E.",
+          "family": "Davies"
+        },
+        {
+          "given": "Samuel B.K.",
+          "family": "Keat"
+        },
+        {
+          "literal": "et al."
+        }
+      ],
+      "container-title": "Med",
+      "volume": "5",
+      "issue": "3",
+      "page": "239-253.e5",
+      "issued": {
+        "date-parts": [
+          [
+            2024,
+            3
+          ]
+        ]
+      },
+      "DOI": "10.1016/j.medj.2024.01.011"
+    },
+    "kellpretorius2022": {
+      "id": "kellpretorius2022",
+      "type": "article-journal",
+      "title": "A central role for amyloid fibrin microclots in long COVID/PASC: origins and therapeutic implications",
+      "author": [
+        {
+          "given": "Douglas B.",
+          "family": "Kell"
+        },
+        {
+          "given": "Gert Jacobus",
+          "family": "Laubscher"
+        },
+        {
+          "given": "Etheresia",
+          "family": "Pretorius"
+        }
+      ],
+      "container-title": "Biochemical Journal",
+      "volume": "479",
+      "issue": "4",
+      "page": "537-559",
+      "issued": {
+        "date-parts": [
+          [
+            2022,
+            2,
+            23
+          ]
+        ]
+      },
+      "DOI": "10.1042/BCJ20220016"
+    },
+    "hunt2024": {
+      "id": "hunt2024",
+      "type": "article-journal",
+      "title": "Challenging the current hypothesis that thrombosis is responsible for the post-COVID-19 condition",
+      "author": [
+        {
+          "given": "Beverley J.",
+          "family": "Hunt"
+        },
+        {
+          "given": "Ruth",
+          "family": "Kuehn"
+        },
+        {
+          "given": "Tom",
+          "family": "Fox"
+        },
+        {
+          "given": "Alan",
+          "family": "Carson"
+        },
+        {
+          "given": "Katie",
+          "family": "Scandrett"
+        },
+        {
+          "given": "George Davey",
+          "family": "Smith"
+        },
+        {
+          "given": "Paul",
+          "family": "Garner"
+        }
+      ],
+      "container-title": "Research and Practice in Thrombosis and Haemostasis",
+      "volume": "8",
+      "issue": "4",
+      "page": "102442",
+      "issued": {
+        "date-parts": [
+          [
+            2024,
+            5
+          ]
+        ]
+      },
+      "DOI": "10.1016/j.rpth.2024.102442",
+      "PMID": "38903154"
+    },
+    "kellkhanpretorius2024": {
+      "id": "kellkhanpretorius2024",
+      "type": "article-journal",
+      "title": "Fibrinaloid microclots in long COVID: assessing the actual evidence properly",
+      "author": [
+        {
+          "given": "Douglas B.",
+          "family": "Kell"
+        },
+        {
+          "given": "M. Asad",
+          "family": "Khan"
+        },
+        {
+          "given": "Etheresia",
+          "family": "Pretorius"
+        }
+      ],
+      "container-title": "Research and Practice in Thrombosis and Haemostasis",
+      "volume": "8",
+      "issue": "7",
+      "page": "102566",
+      "issued": {
+        "date-parts": [
+          [
+            2024,
+            10
+          ]
+        ]
+      },
+      "DOI": "10.1016/j.rpth.2024.102566",
+      "PMID": "39434957"
+    },
+    "choutka2022": {
+      "id": "choutka2022",
+      "type": "article-journal",
+      "title": "Unexplained post-acute infection syndromes",
+      "author": [
+        {
+          "given": "Jan",
+          "family": "Choutka"
+        },
+        {
+          "given": "Viraj",
+          "family": "Jansari"
+        },
+        {
+          "given": "Mady",
+          "family": "Hornig"
+        },
+        {
+          "given": "Akiko",
+          "family": "Iwasaki"
+        }
+      ],
+      "container-title": "Nature Medicine",
+      "volume": "28",
+      "issue": "5",
+      "page": "911-923",
+      "issued": {
+        "date-parts": [
+          [
+            2022,
+            5
+          ]
+        ]
+      },
+      "DOI": "10.1038/s41591-022-01810-6",
+      "PMID": "35585196"
+    }
+  }
+}

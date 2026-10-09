@@ -1,0 +1,22 @@
+{
+  "draftSha256": "dfb42eb162e30932e030d21edc6ff6f21220de72020d2ea64619ac857c67850c",
+  "searches": 5,
+  "exchanges": [
+    {
+      "outcome": "completion",
+      "recordedAt": "2026-10-03T02:25:24.294Z",
+      "completedSearches": 5,
+      "model": "gpt-5.6-sol",
+      "citedUrls": [
+        "https://dash.harvard.edu/entities/publication/13a7b031-0fdd-45ec-a7e0-2b80e2bc679f",
+        "https://www.annualreviews.org/content/journals/10.1146/annurev.so.14.080188.001535",
+        "https://pubsonline.informs.org/doi/abs/10.1287/orsc.2.1.71",
+        "https://pubsonline.informs.org/doi/10.1287/mnsc.2021.02755",
+        "https://www.gov.uk/government/publications/the-green-book-appraisal-and-evaluation-in-central-government/the-green-book-2026",
+        "https://www.nist.gov/baldrige/baldrige-criteria-commentary",
+        "https://www.microsoft.com/en-us/research/publication/online-experimentation-at-microsoft/"
+      ]
+    }
+  ],
+  "evidence": []
+}

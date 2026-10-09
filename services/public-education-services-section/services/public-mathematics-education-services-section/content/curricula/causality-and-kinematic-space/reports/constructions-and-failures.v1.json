@@ -1,0 +1,88 @@
+{
+  "carrierFile": "constructions-and-failures.md",
+  "courseId": "causality-and-kinematic-space",
+  "lessonId": "constructions-and-failures",
+  "citations": [
+    {
+      "id": "czech-et-al-2015-tensor-networks",
+      "title": "Tensor Networks from Kinematic Space",
+      "authors": [
+        "Bart\u0142omiej Czech",
+        "Lampros Lamprou",
+        "Samuel McCandlish",
+        "James Sully"
+      ],
+      "publisher": "JHEP / arXiv",
+      "url": "https://arxiv.org/abs/1512.01548",
+      "kind": "primary-research-paper"
+    },
+    {
+      "id": "czech-et-al-2016-stereoscopic",
+      "title": "A Stereoscopic Look into the Bulk",
+      "authors": [
+        "Bart\u0142omiej Czech",
+        "Lampros Lamprou",
+        "Samuel McCandlish",
+        "Benjamin Mosk",
+        "James Sully"
+      ],
+      "publisher": "JHEP / arXiv",
+      "url": "https://arxiv.org/abs/1604.03110",
+      "kind": "primary-research-paper"
+    },
+    {
+      "id": "asplund-callebaut-zukowski-2016-equivalence",
+      "title": "Equivalence of Emergent de Sitter Spaces from Conformal Field Theory",
+      "authors": [
+        "Curtis T. Asplund",
+        "Nele Callebaut",
+        "Claire Zukowski"
+      ],
+      "publisher": "JHEP / arXiv",
+      "url": "https://arxiv.org/abs/1604.02687",
+      "kind": "primary-research-paper"
+    }
+  ],
+  "claims": [
+    {
+      "statement": "Tensor-network, integral-geometric, and OPE-block constructions provide distinct tests and interpretations of kinematic organization rather than one interchangeable result.",
+      "warrants": [
+        "czech-et-al-2015-tensor-networks",
+        "czech-et-al-2016-stereoscopic"
+      ],
+      "scope": "the holographic models and approximation regimes treated by the sources"
+    },
+    {
+      "statement": "Thermal states, quotients, and phase behavior can change accessible branches and the global kinematic description.",
+      "warrants": [
+        "asplund-callebaut-zukowski-2016-equivalence"
+      ],
+      "scope": "the selected three-dimensional gravity and CFT cases analyzed by the source"
+    },
+    {
+      "statement": "MERA adjacency is evidence about a discretized space of intervals or geodesics and must not automatically be read as adjacency of bulk points.",
+      "warrants": [
+        "czech-et-al-2015-tensor-networks"
+      ],
+      "scope": "the proposed structural correspondence rather than all tensor networks"
+    }
+  ],
+  "limitations": [
+    "The assay does not prove a no-go theorem for systems outside the cited constructions.",
+    "Open questions are framed as missing maps or tests and are not reported as established results.",
+    "Vacuum smoothness, minimal branches, and leading semiclassical limits may hide reconstruction failures."
+  ],
+  "reuseGrant": [
+    "gemini-notebook-transformation",
+    "mathematics-curriculum",
+    "public-youtube-release"
+  ],
+  "correctionIdentity": "urn:emsenn:corrections:mathematics-research:constructions-and-failures:v1",
+  "internalTransfer": {
+    "legalBodyRelation": "same-legal-body",
+    "accountingUnit": "USD-micros",
+    "allocatedCostMicros": 250000,
+    "cashSettlementRequired": false,
+    "status": "internal-cost-allocation-admitted"
+  }
+}

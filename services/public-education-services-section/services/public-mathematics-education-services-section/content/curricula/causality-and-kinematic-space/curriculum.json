@@ -1,0 +1,520 @@
+{
+  "courseId": "causality-and-kinematic-space",
+  "revision": 1,
+  "title": "Causality and Kinematic Space",
+  "purpose": "Build kinematic space from causal order and Lorentzian geometry, then connect its regional geometry to information-theoretic observables.",
+  "audience": "Curious adults prepared to learn definitions and follow constructions; no presumed specialist credential.",
+  "competencies": [
+    {
+      "id": "causal-order",
+      "statement": "Represent causal comparability as a partial order without smuggling in metric distance."
+    },
+    {
+      "id": "lorentzian-causality",
+      "statement": "Use light cones, timelike separation, and causal diamonds correctly."
+    },
+    {
+      "id": "interval-construction",
+      "statement": "Construct points or regions of kinematic space from intervals or geodesics."
+    },
+    {
+      "id": "region-geometry",
+      "statement": "Interpret geometry on a space whose points represent regions or intervals."
+    },
+    {
+      "id": "information-observables",
+      "statement": "Relate geometric quantities to information or entropy without overstating the correspondence."
+    },
+    {
+      "id": "construction-critique",
+      "statement": "Work examples, locate failure cases, and distinguish established results from open questions."
+    }
+  ],
+  "assessmentLaw": {
+    "completion": "Every competency must be demonstrated in a resolvable exercise; watching or playlist membership is not completion.",
+    "negativeControl": "At least one exercise must expose an invalid inference from causal order to metric distance."
+  },
+  "successorRule": "Material changes create a new revision that names this revision; admitted lesson products remain immutable evidence.",
+  "lessons": [
+    {
+      "id": "order-before-distance",
+      "sequence": 1,
+      "title": "Order before distance",
+      "promise": "See how events, partial orders, and causal comparability can carry structure before a metric is chosen.",
+      "prerequisites": [],
+      "competencies": [
+        "causal-order"
+      ],
+      "brief": "briefs/order-before-distance.v1.json",
+      "report": "reports/order-before-distance.md",
+      "manifest": "reports/order-before-distance.v1.json",
+      "sources": [
+        {
+          "id": "surya-2019-causal-set-review",
+          "title": "The causal set approach to quantum gravity",
+          "authors": [
+            "Sumati Surya"
+          ],
+          "publisher": "Living Reviews in Relativity / arXiv",
+          "url": "https://arxiv.org/abs/1903.11544",
+          "kind": "primary-research-review"
+        },
+        {
+          "id": "sorkin-2003-causal-sets",
+          "title": "Causal Sets: Discrete Gravity",
+          "authors": [
+            "Rafael D. Sorkin"
+          ],
+          "publisher": "arXiv",
+          "url": "https://arxiv.org/abs/gr-qc/0309009",
+          "kind": "primary-research-review"
+        },
+        {
+          "id": "czech-et-al-2015-integral-geometry",
+          "title": "Integral Geometry and Holography",
+          "authors": [
+            "Bartłomiej Czech",
+            "Lampros Lamprou",
+            "Samuel McCandlish",
+            "James Sully"
+          ],
+          "publisher": "JHEP / arXiv",
+          "url": "https://arxiv.org/abs/1505.05515",
+          "kind": "primary-research-paper"
+        }
+      ]
+    },
+    {
+      "id": "lorentzian-geometry",
+      "sequence": 2,
+      "title": "Lorentzian geometry",
+      "promise": "Read light cones, timelike separation, and causal diamonds as the geometry of possible influence.",
+      "prerequisites": [
+        "order-before-distance"
+      ],
+      "competencies": [
+        "lorentzian-causality"
+      ],
+      "brief": "briefs/lorentzian-geometry.v1.json",
+      "report": "reports/lorentzian-geometry.md",
+      "manifest": "reports/lorentzian-geometry.v1.json",
+      "sources": [
+        {
+          "id": "minguzzi-sanchez-2006-causal-hierarchy",
+          "title": "The causal hierarchy of spacetimes",
+          "authors": [
+            "Ettore Minguzzi",
+            "Miguel Sánchez"
+          ],
+          "publisher": "arXiv",
+          "url": "https://arxiv.org/abs/gr-qc/0609119",
+          "kind": "primary-research-review"
+        },
+        {
+          "id": "ryu-takayanagi-2006-entanglement",
+          "title": "Holographic Derivation of Entanglement Entropy from AdS/CFT",
+          "authors": [
+            "Shinsei Ryu",
+            "Tadashi Takayanagi"
+          ],
+          "publisher": "Physical Review Letters / arXiv",
+          "url": "https://arxiv.org/abs/hep-th/0603001",
+          "kind": "primary-research-paper"
+        },
+        {
+          "id": "hubeny-rangamani-takayanagi-2007-covariant",
+          "title": "A Covariant holographic entanglement entropy proposal",
+          "authors": [
+            "Veronika E. Hubeny",
+            "Mukund Rangamani",
+            "Tadashi Takayanagi"
+          ],
+          "publisher": "JHEP / arXiv",
+          "url": "https://arxiv.org/abs/0705.0016",
+          "kind": "primary-research-paper"
+        }
+      ]
+    },
+    {
+      "id": "intervals-to-points",
+      "sequence": 3,
+      "title": "From intervals to points",
+      "promise": "Construct kinematic space by treating intervals or geodesics as its points.",
+      "prerequisites": [
+        "lorentzian-geometry"
+      ],
+      "competencies": [
+        "interval-construction"
+      ],
+      "brief": "briefs/intervals-to-points.v1.json",
+      "report": "reports/intervals-to-points.md",
+      "manifest": "reports/intervals-to-points.v1.json",
+      "sources": [
+        {
+          "id": "czech-et-al-2015-integral-geometry",
+          "title": "Integral Geometry and Holography",
+          "authors": [
+            "Bartłomiej Czech",
+            "Lampros Lamprou",
+            "Samuel McCandlish",
+            "James Sully"
+          ],
+          "publisher": "JHEP / arXiv",
+          "url": "https://arxiv.org/abs/1505.05515",
+          "kind": "primary-research-paper"
+        },
+        {
+          "id": "czech-et-al-2016-stereoscopic",
+          "title": "A Stereoscopic Look into the Bulk",
+          "authors": [
+            "Bartłomiej Czech",
+            "Lampros Lamprou",
+            "Samuel McCandlish",
+            "Benjamin Mosk",
+            "James Sully"
+          ],
+          "publisher": "JHEP / arXiv",
+          "url": "https://arxiv.org/abs/1604.03110",
+          "kind": "primary-research-paper"
+        },
+        {
+          "id": "asplund-callebaut-zukowski-2016-equivalence",
+          "title": "Equivalence of Emergent de Sitter Spaces from Conformal Field Theory",
+          "authors": [
+            "Curtis T. Asplund",
+            "Nele Callebaut",
+            "Claire Zukowski"
+          ],
+          "publisher": "JHEP / arXiv",
+          "url": "https://arxiv.org/abs/1604.02687",
+          "kind": "primary-research-paper"
+        }
+      ]
+    },
+    {
+      "id": "space-of-regions",
+      "sequence": 4,
+      "title": "Geometry on a space of regions",
+      "promise": "Explore what distance, adjacency, and curvature can mean when every point represents an extended region.",
+      "prerequisites": [
+        "intervals-to-points"
+      ],
+      "competencies": [
+        "region-geometry"
+      ],
+      "brief": "briefs/space-of-regions.v1.json",
+      "report": "lessons/space-of-regions/report.md",
+      "manifest": "reports/space-of-regions.v1.json",
+      "sources": [
+        {
+          "id": "czech-et-al-2015-integral-geometry",
+          "title": "Integral Geometry and Holography",
+          "authors": [
+            "Bartłomiej Czech",
+            "Lampros Lamprou",
+            "Samuel McCandlish",
+            "James Sully"
+          ],
+          "publisher": "JHEP / arXiv",
+          "url": "https://arxiv.org/abs/1505.05515",
+          "kind": "primary-research-paper"
+        },
+        {
+          "id": "czech-et-al-2015-tensor-networks",
+          "title": "Tensor Networks from Kinematic Space",
+          "authors": [
+            "Bartłomiej Czech",
+            "Glen Evenbly",
+            "Lampros Lamprou",
+            "Samuel McCandlish",
+            "Xiao-liang Qi",
+            "James Sully",
+            "Guifré Vidal"
+          ],
+          "publisher": "JHEP / arXiv",
+          "url": "https://arxiv.org/abs/1512.01548",
+          "kind": "primary-research-paper"
+        },
+        {
+          "id": "asplund-callebaut-zukowski-2016-equivalence",
+          "title": "Equivalence of Emergent de Sitter Spaces from Conformal Field Theory",
+          "authors": [
+            "Curtis T. Asplund",
+            "Nele Callebaut",
+            "Claire Zukowski"
+          ],
+          "publisher": "JHEP / arXiv",
+          "url": "https://arxiv.org/abs/1604.02687",
+          "kind": "primary-research-paper"
+        }
+      ]
+    },
+    {
+      "id": "information-and-entropy",
+      "sequence": 5,
+      "title": "Information, entropy, and kinematic geometry",
+      "promise": "Understand what information-theoretic quantities kinematic geometry can measure and where the analogy stops.",
+      "prerequisites": [
+        "space-of-regions"
+      ],
+      "competencies": [
+        "information-observables"
+      ],
+      "brief": "briefs/information-and-entropy.v1.json",
+      "report": "lessons/information-and-entropy/report.md",
+      "manifest": "reports/information-and-entropy.v1.json",
+      "sources": [
+        {
+          "id": "ryu-takayanagi-2006-entanglement",
+          "title": "Holographic Derivation of Entanglement Entropy from AdS/CFT",
+          "authors": [
+            "Shinsei Ryu",
+            "Tadashi Takayanagi"
+          ],
+          "publisher": "Physical Review Letters / arXiv",
+          "url": "https://arxiv.org/abs/hep-th/0603001",
+          "kind": "primary-research-paper"
+        },
+        {
+          "id": "hubeny-rangamani-takayanagi-2007-covariant",
+          "title": "A Covariant holographic entanglement entropy proposal",
+          "authors": [
+            "Veronika E. Hubeny",
+            "Mukund Rangamani",
+            "Tadashi Takayanagi"
+          ],
+          "publisher": "JHEP / arXiv",
+          "url": "https://arxiv.org/abs/0705.0016",
+          "kind": "primary-research-paper"
+        },
+        {
+          "id": "czech-et-al-2015-integral-geometry",
+          "title": "Integral Geometry and Holography",
+          "authors": [
+            "Bartłomiej Czech",
+            "Lampros Lamprou",
+            "Samuel McCandlish",
+            "James Sully"
+          ],
+          "publisher": "JHEP / arXiv",
+          "url": "https://arxiv.org/abs/1505.05515",
+          "kind": "primary-research-paper"
+        }
+      ],
+      "produceVideo": true
+    },
+    {
+      "id": "constructions-and-failures",
+      "sequence": 6,
+      "title": "Worked constructions, failure cases, and open questions",
+      "promise": "Test the framework on examples, diagnose failure cases, and separate current knowledge from research opportunities.",
+      "prerequisites": [
+        "information-and-entropy"
+      ],
+      "competencies": [
+        "construction-critique"
+      ],
+      "brief": "briefs/constructions-and-failures.v1.json",
+      "report": "reports/constructions-and-failures.md",
+      "manifest": "reports/constructions-and-failures.v1.json",
+      "sources": [
+        {
+          "id": "czech-et-al-2015-tensor-networks",
+          "title": "Tensor Networks from Kinematic Space",
+          "authors": [
+            "Bartłomiej Czech",
+            "Lampros Lamprou",
+            "Samuel McCandlish",
+            "James Sully"
+          ],
+          "publisher": "JHEP / arXiv",
+          "url": "https://arxiv.org/abs/1512.01548",
+          "kind": "primary-research-paper"
+        },
+        {
+          "id": "czech-et-al-2016-stereoscopic",
+          "title": "A Stereoscopic Look into the Bulk",
+          "authors": [
+            "Bartłomiej Czech",
+            "Lampros Lamprou",
+            "Samuel McCandlish",
+            "Benjamin Mosk",
+            "James Sully"
+          ],
+          "publisher": "JHEP / arXiv",
+          "url": "https://arxiv.org/abs/1604.03110",
+          "kind": "primary-research-paper"
+        },
+        {
+          "id": "asplund-callebaut-zukowski-2016-equivalence",
+          "title": "Equivalence of Emergent de Sitter Spaces from Conformal Field Theory",
+          "authors": [
+            "Curtis T. Asplund",
+            "Nele Callebaut",
+            "Claire Zukowski"
+          ],
+          "publisher": "JHEP / arXiv",
+          "url": "https://arxiv.org/abs/1604.02687",
+          "kind": "primary-research-paper"
+        }
+      ]
+    },
+    {
+      "id": "crofton-length-from-geodesic-counts",
+      "sequence": 7,
+      "title": "Measuring a curve by counting the geodesics that cross it",
+      "promise": "Work through the Euclidean Crofton formula with a circle and a line segment, explain the measure on unoriented lines and its normalization, then distinguish the hyperbolic and holographic extensions and their assumptions.",
+      "prerequisites": [
+        "constructions-and-failures"
+      ],
+      "competencies": [
+        "interval-construction",
+        "region-geometry",
+        "construction-critique"
+      ],
+      "report": "lessons/crofton-length-from-geodesic-counts/report.md",
+      "sources": [
+        {
+          "title": "Integral Geometry and Holography",
+          "url": "https://arxiv.org/abs/1505.05515",
+          "kind": "primary-research-paper"
+        }
+      ]
+    },
+    {
+      "id": "causal-homotopy",
+      "question": "Can causal diamonds be used to define homotopy classes of loops in kinematic space?",
+      "tags": [
+        "causal-order",
+        "lorentzian-causality",
+        "topology",
+        "kinematic-space"
+      ],
+      "title": "Causal diamonds and homotopy in kinematic space",
+      "whyItMayMatter": "Understanding the topological properties of kinematic space can provide insights into the behavior of physical systems and the structure of spacetime."
+    },
+    {
+      "id": "causal-convex-hull",
+      "question": "Can causal order be used to define a convex hull in kinematic space?",
+      "tags": [
+        "causal-order",
+        "convex-geometry",
+        "kinematic-space"
+      ],
+      "title": "Causal convex hull in kinematic space",
+      "whyItMayMatter": "Understanding the convex hull of causal order in kinematic space can provide insights into the structure of spacetime and the behavior of physical systems."
+    },
+    {
+      "id": "symplectic-geometry-in-kinematic-space",
+      "question": "Can kinematic space be equipped with a symplectic form that encodes the Poisson bracket of observables?",
+      "tags": [
+        "symplectic-geometry",
+        "poisson-bracket",
+        "kinematic-space",
+        "observables"
+      ],
+      "title": "Symplectic geometry in kinematic space",
+      "whyItMayMatter": "A symplectic form on kinematic space could provide a powerful tool for analyzing the behavior of physical systems and the structure of spacetime."
+    },
+    {
+      "id": "fractal-dimension-in-kinematic-space",
+      "question": "Can the fractal dimension of a subset in kinematic space be used to characterize its geometric complexity?",
+      "tags": [
+        "fractal-geometry",
+        "kinematic-space",
+        "geometric-complexity"
+      ],
+      "title": "Fractal dimension in kinematic space",
+      "whyItMayMatter": "Understanding the fractal dimension of subsets in kinematic space can provide insights into the structure of spacetime and the behavior of physical systems at different scales."
+    },
+    {
+      "id": "causal-entropy-density",
+      "title": "Causal entropy density in kinematic space",
+      "question": "How does the local density of causal entropy in kinematic space relate to the curvature of the underlying spacetime?",
+      "whyItMayMatter": "This connects the geometric structure of kinematic space to physical observables, providing a potential bridge between abstract causal order and measurable spacetime properties.",
+      "tags": [
+        "causal-entropy",
+        "kinematic-space",
+        "spacetime-curvature",
+        "information-geometry"
+      ]
+    },
+    {
+      "id": "causal-structure-entropy",
+      "title": "Causal structure entropy and spacetime reconstruction",
+      "question": "How does the entropy of the causal order (defined via the number of distinct causal relations) constrain the reconstruction of the underlying Lorentzian metric?",
+      "whyItMayMatter": "This connects the abstract partial order of causality to the geometric metric, addressing the core competency of distinguishing causal order from metric distance and exploring the limits of reconstructing spacetime geometry from causal data alone.",
+      "tags": [
+        "causal-order",
+        "lorentzian-geometry",
+        "entropy",
+        "spacetime-reconstruction",
+        "kinematic-space"
+      ]
+    },
+    {
+      "id": "causal-sets-and-kinematic-embedding",
+      "title": "Causal sets and kinematic space embedding",
+      "question": "How does the embedding of a causal set into a continuous Lorentzian manifold constrain the geometry of the resulting kinematic space?",
+      "whyItMayMatter": "This connects discrete causal order to continuous kinematic geometry, addressing the competency of distinguishing causal order from metric distance and exploring the limits of reconstructing spacetime geometry from causal data alone.",
+      "tags": [
+        "causal-sets",
+        "kinematic-space",
+        "lorentzian-geometry",
+        "discrete-spacetime"
+      ]
+    },
+    {
+      "id": "kinematic-space-and-entanglement",
+      "title": "Kinematic space and entanglement entropy",
+      "question": "How does the geometry of kinematic space relate to the entanglement entropy of regions in a quantum field theory?",
+      "whyItMayMatter": "This connects the geometric structure of kinematic space to information-theoretic observables, providing a potential bridge between abstract causal order and measurable quantum properties.",
+      "tags": [
+        "kinematic-space",
+        "entanglement-entropy",
+        "quantum-field-theory",
+        "information-geometry"
+      ]
+    },
+    {
+      "id": "modular-flow-kinematic-space",
+      "title": "Modular flow and its representation in kinematic space",
+      "question": "How can the modular flow associated with a causal diamond be encoded as a vector field on kinematic space, and what geometric features does it reveal about entanglement structure?",
+      "whyItMayMatter": "Linking modular flow to a concrete geometric object in kinematic space could clarify how local quantum information propagates under causal constraints, offering a new bridge between algebraic quantum field theory and the emergent geometry of spacetime.",
+      "tags": [
+        "modular-flow",
+        "causal-diamond",
+        "kinematic-space",
+        "vector-fields",
+        "entanglement-structure"
+      ]
+    },
+    {
+      "id": "causal-witnesses-in-kinematic-space",
+      "title": "Causal witnesses and their geometric representation",
+      "question": "Can operational causal witnesses be defined inside kinematic space to detect nontrivial causal influence between spacetime regions, and does the shape or curvature of their associated geometric loci encode information about the underlying Lorentzian geometry?",
+      "whyItMayMatter": "Identifying causal witnesses in kinematic space would give a concrete tool for probing how information propagates in a relativistic setting, linking abstract causal order to measurable geometric signatures and potentially informing reconstruction algorithms for spacetime from limited causal data.",
+      "tags": [
+        "causal-witness",
+        "kinematic-space",
+        "geometry",
+        "spacetime-curvature",
+        "information-theory"
+      ]
+    },
+    {
+      "id": "causal-interval-volume-dimension",
+      "title": "Causal interval volume and dimension estimation",
+      "question": "How can the volume of a causal interval in kinematic space be used to estimate the effective dimensionality of the underlying spacetime?",
+      "whyItMayMatter": "Estimating spacetime dimension from causal interval volume provides a concrete, observable link between abstract causal order and geometric properties, reinforcing the distinction between causal order and metric distance while offering a practical tool for reconstructing spacetime geometry from causal data alone.",
+      "tags": [
+        "causal-order",
+        "region-geometry",
+        "information-observables",
+        "dimension-estimation",
+        "kinematic-space",
+        "causal-interval"
+      ]
+    }
+  ]
+}

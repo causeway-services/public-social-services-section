@@ -1,0 +1,19 @@
+{
+  "draftSha256": "d42960949d94885663154670e401dcd963cb3af9d039addc2301fc43bef1c632",
+  "searches": 6,
+  "exchanges": [
+    {
+      "outcome": "completion",
+      "recordedAt": "2026-10-03T01:45:41.744Z",
+      "completedSearches": 6,
+      "model": "gpt-5.6-sol",
+      "citedUrls": [
+        "https://arxiv.org/abs/1505.05515",
+        "https://arxiv.org/abs/hep-th/0603001",
+        "https://arxiv.org/abs/0705.0016",
+        "https://arxiv.org/abs/1307.2892"
+      ]
+    }
+  ],
+  "evidence": []
+}

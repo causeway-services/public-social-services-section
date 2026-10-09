@@ -1,0 +1,177 @@
+{
+  "type": "EbookEditionProof",
+  "version": 1,
+  "editionInputDigest": "ni:///sha-256;N3A4OMWkXmS5XRaIObjpoVYPXDeuxZUxAyyJ4OAaZTI",
+  "artifacts": {
+    "epub": "ni:///sha-256;AC4eFsZssOIs46GOtzwaSaGAIq6zARo_Z3EKBc61-VQ",
+    "screenPdf": "ni:///sha-256;-9fw008YTB4N05qZKJnP9XeR6UTPo6V6gUU2bGQB16g"
+  },
+  "proofer": "independent proofreading agent (claude-opus-5-5 subagent)",
+  "writer": "claude-opus-5-5 (bare-cedar-fog-claude session d6271b1b)",
+  "provedAt": "2026-09-27T22:31:54Z",
+  "carried": {
+    "from": "ni:///sha-256;sAA5iQbC6cr3S43KiJyTdi--8z8cvSB22Fncj2448xU",
+    "proof": "ni:///sha-256;GS_EmzMGSwIoOb5DA0GBxlJR90_qc6c7_lq0LiAzcYI",
+    "at": "2026-09-28T05:51:18.259Z",
+    "text": {
+      "epub": "ni:///sha-256;4Yi9fcThsPdgWHeHNaI8KVKqqk2bM12XPfisQl803hQ",
+      "pdf": "ni:///sha-256;DDiza2XnUnrbSSw2jQtuOOmPLzg9Lk28GEhzjxhi2vg"
+    }
+  },
+  "method": "Carried from the proof of edition ni:///sha-256;sAA5iQbC6cr3S43KiJyTdi--8z8cvSB22Fncj2448xU (proof ni:///sha-256;GS_EmzMGSwIoOb5DA0GBxlJR90_qc6c7_lq0LiAzcYI): this edition's extracted text equals that edition's (EPUB ni:///sha-256;4Yi9fcThsPdgWHeHNaI8KVKqqk2bM12XPfisQl803hQ, PDF ni:///sha-256;DDiza2XnUnrbSSw2jQtuOOmPLzg9Lk28GEhzjxhi2vg, the colophon's build digest set aside and whitespace collapsed), so the findings read on it hold here. The original pass: Carried from the proof of edition ni:///sha-256;w-x3fH1b2kGzDJc0LrgYoxQnVEGSQzM5hQcQz7f0-rQ (proof ni:///sha-256;QtQslpMmliB8YJlz6zZMY-bBbhhjqMBlQ3dhEduuHv4): this edition's extracted text equals that edition's (EPUB ni:///sha-256;4Yi9fcThsPdgWHeHNaI8KVKqqk2bM12XPfisQl803hQ, PDF ni:///sha-256;DDiza2XnUnrbSSw2jQtuOOmPLzg9Lk28GEhzjxhi2vg, the colophon's build digest set aside and whitespace collapsed), so the findings read on it hold here. The original pass: Carried from the proof of edition ni:///sha-256;0-AvWPNn5vZ2cf698DfChfW5TmDP4gifeGL6kRsHHD0 (proof ni:///sha-256;a9G-z1rnxwC8QiMTWIEX4uEytIcIKq0SBuGRpRmN--8): this edition's extracted text equals that edition's (EPUB ni:///sha-256;4Yi9fcThsPdgWHeHNaI8KVKqqk2bM12XPfisQl803hQ, PDF ni:///sha-256;VAQTzI1QhiKEeUtNfQEWUNGhL-GFvVXAGnZH6xy8Az8, the colophon's build digest set aside), so the findings read on it hold here. The original pass: Carried from the proof of edition ni:///sha-256;RU3OCi7r3tktb_zDjY_1FG0tlfxS_W5htr6vjD5kxv4 (proof ni:///sha-256;veGHtlHvaLlgCDFasKAyZAdlWkCwGULDARVbNtWUVJQ): this edition's extracted text equals that edition's (EPUB ni:///sha-256;4Yi9fcThsPdgWHeHNaI8KVKqqk2bM12XPfisQl803hQ, PDF ni:///sha-256;VAQTzI1QhiKEeUtNfQEWUNGhL-GFvVXAGnZH6xy8Az8, the colophon's build digest set aside), so the findings read on it hold here. The original pass: Re-read the new edition text in full against the ten prior findings' fixes, re-read every manuscript file the fixes touched (00-about-this-book.md, 01-, 02-, 03-, 05-, 06-, 08-, 09-, 10-glossary.md) and the evidence packet's Figma/Adobe XD passage, re-verified the three-project list and the course-6 Figma/Adobe XD claim against coursera.org (WebFetch/WebSearch), re-checked the Gray et al. and Nielsen-heuristic wording against the manuscript's own bibliography and Nielsen (1994), and re-ran the style-guide adverb/contraction scan across the whole new text to confirm no fix introduced a new violation; also traced the two new value-proposition/user-story answers (Ch1 Q9, Ch2 Q9) against the rest of the running example for invented facts. For the f16 re-fix and the f17 running-head fix, ran full-text diffs between successive edition texts to confirm each changed only what was claimed, then spot-checked odd- and even-page running heads across the whole document (a whole-document grep for stray \"CONTENTS\"/\"ANSWERS\" strings) to confirm no stale running head remained anywhere, including in the back-matter chapters (About this book, A study plan, Glossary, References) that had no visible diff.",
+  "findings": [
+    {
+      "id": "f1",
+      "file": "00-about-this-book.md; 04-wireframes-and-low-fidelity-prototypes.md",
+      "severity": "error",
+      "claim": "In-text: \"(Gray and et al. 2018)\". References: \"Gray, Colin M., and et al. 2018.…\"",
+      "source": "00-about-this-book.md's own gray2018 bibliography entry lists all five authors.",
+      "fix": "Verified fixed: the new edition renders \"(Gray et al. 2018)\" in Chapter 4 and \"Gray, Colin M., Yubo Kou, Bryan Battles, Joseph Hoggatt, and Austin L. Toombs. 2018. ‘The Dark (Patterns) Side of UX Design.’ In Proceedings of the 2018 CHI Conference on Human Factors in Computing Systems.\" in References — matching the manuscript's bibliography exactly.",
+      "resolution": "fixed"
+    },
+    {
+      "id": "f2",
+      "file": "09-study-plan.md",
+      "severity": "error",
+      "claim": "\"A study plan\" listed unnumbered in the table of contents, but its subsections rendered as \"8.10– 8.13,\" continuing Chapter 8's numbering.",
+      "source": "09-study-plan.md's own heading is `# A study plan {.unnumbered}`.",
+      "fix": "Verified fixed, and the fix generalized beyond the one finding: in the new edition, \"The rule,\" \"A schedule at about ten hours a week,\" \"The final review\" and \"Before interviews\" all print unnumbered, and 00-about-this-book.md's own sections (\"An independent companion,\" \"The certificate at a glance,\" etc.), which had the identical bug rendered as \"0.1–0.6\" in the prior edition but weren't flagged in the first pass, are now unnumbered too. Confirmed against templates/book-layout.lua's stated behavior (marks every section under an unnumbered chapter unnumbered) and against the rendered table of contents and body.",
+      "resolution": "fixed"
+    },
+    {
+      "id": "f3",
+      "file": "01-foundations.md",
+      "severity": "correction",
+      "claim": "Objectives on UX team roles and retrospective purpose were untested.",
+      "source": "Constructive-alignment requirement (pedagogy note).",
+      "fix": "Verified fixed: Check yourself gained Q8 (\"Name three UX roles besides UX designer and what each does\") and Q9 (\"What does a retrospective ask, and when does a team hold one?\"), with Answers 8–9 that match section 1.3's role list and 1.8's retrospective description. Answer 9's added clause \"or at regular points during one\" goes slightly beyond 1.8's text (which only says \"after any sprint or project\") but isn't contradicted by it.",
+      "resolution": "fixed"
+    },
+    {
+      "id": "f4",
+      "file": "02-empathize-and-define.md",
+      "severity": "correction",
+      "claim": "Objectives on categorizing pain points, writing a value proposition, and writing a user story were untested.",
+      "source": "Constructive-alignment requirement (pedagogy note).",
+      "fix": "Verified fixed: Check yourself gained Q8 (pain-point classification) and Q9 (user story + value proposition), each answered. Answer 8 is a reasonably hedged classification (process, arguably support) consistent with 2.5's four categories. Answer 9's value proposition introduces a new, separate problem — see new finding f16.",
+      "resolution": "fixed"
+    },
+    {
+      "id": "f5",
+      "file": "05-research-and-testing.md",
+      "severity": "correction",
+      "claim": "Objectives on consent/privacy, bias/inclusive recruitment, and presenting/iterating insights were untested.",
+      "source": "Constructive-alignment requirement (pedagogy note).",
+      "fix": "Verified fixed: Check yourself gained Q8 (consent), Q9 (social-desirability bias and inclusive recruitment) and Q10 (ordering insights for leaders). All three answers match sections 5.3, 5.5 and 5.7 respectively.",
+      "resolution": "fixed"
+    },
+    {
+      "id": "f6",
+      "file": "06-high-fidelity.md",
+      "severity": "correction",
+      "claim": "The objective to apply visual-design elements/principles to a mockup was untested.",
+      "source": "Constructive-alignment requirement (pedagogy note).",
+      "fix": "Verified fixed: Check yourself gained Q8 (\"A screen uses five typefaces and four button styles…\") with Answer 8 correctly naming consistency (and, defensibly, hierarchy) and prescribing a type scale and one button component with variants, per sections 6.3–6.4.",
+      "resolution": "fixed"
+    },
+    {
+      "id": "f7",
+      "file": "08-social-good-and-portfolio.md",
+      "severity": "correction",
+      "claim": "The objective to present three portfolio projects for entry-level roles was untested.",
+      "source": "Constructive-alignment requirement (pedagogy note).",
+      "fix": "Verified fixed: Check yourself gained Q8 (\"You have four finished projects…\") with an answer matching 8.4's \"put your strongest first\" and the three projects' range of platforms.",
+      "resolution": "fixed"
+    },
+    {
+      "id": "f8",
+      "file": "03-ideate.md",
+      "severity": "correction",
+      "claim": "\"flexibility and efficiency\" / \"match between the system and the real world\" (3.2) didn't match \"flexibility and efficiency of use\" / \"match between system and the real world\" (3.9).",
+      "source": "Nielsen (1994) exact heuristic names.",
+      "fix": "Verified fixed: 3.2 now reads \"match between system and the real world… flexibility and efficiency of use,\" identical to 3.9's Answer 2 and to Nielsen's exact names.",
+      "resolution": "fixed"
+    },
+    {
+      "id": "f9",
+      "file": "03-ideate.md",
+      "severity": "correction",
+      "claim": "\"engineering students shown an example design… more than students shown nothing\" omitted that Jansson & Smith's participants included practicing mechanical engineers.",
+      "source": "Jansson, D. G., & Smith, S. M. (1991), \"Design Fixation,\" Design Studies 12(1), 3–11.",
+      "fix": "Verified fixed: 3.3 now reads \"in experiments by David Jansson and Steven Smith, senior engineering students and practicing mechanical engineers shown an example design… more than those shown nothing.\"",
+      "resolution": "fixed"
+    },
+    {
+      "id": "f10",
+      "file": "10-glossary.md",
+      "severity": "correction",
+      "claim": "Glossary omitted gulf of execution/evaluation, conceptual model, mapping, feedback, platform, T-shaped, social model of disability, universal/inclusive design, UX, UI, hypothesis statement and value proposition.",
+      "source": "Each chapter's own \"Key terms\" list (01-foundations.md, 02-empathize-and-define.md).",
+      "fix": "Verified fixed: 10-glossary.md now carries Conceptual model, Gulf of execution/gulf of evaluation, Hypothesis statement, Inclusive design, Mapping/feedback, Platform, Social model of disability, T-shaped, Universal design, User experience (UX)/user interface (UI), and Value proposition (11 new entries covering all 13 previously-missing terms, re-sorted alphabetically and correctly ordered). Checked each new definition's wording against its source chapter (all 1 or 2 as tagged) — all accurate paraphrases.",
+      "resolution": "fixed"
+    },
+    {
+      "id": "f11",
+      "file": "00-about-this-book.md",
+      "severity": "correction",
+      "claim": "\"the course does that, and Figma changes often\" overgeneralized Figma as the certificate's tool when Course 6 still centers on Adobe XD.",
+      "source": "coursera.org/learn/responsive-web-design-adobe-xd.",
+      "fix": "Verified fixed: now reads \"the courses do that (in Figma, though older course materials refer to Adobe XD), and the tools change often.\" Re-fetched the course-6 page: its tools list still names Figma as the primary tool while its FAQ still states \"This course focuses on creating designs in Adobe XD\" and the URL slug is still responsive-web-design-adobe-xd — the same mixed signal found in the first pass. \"Older course materials\" is a defensible reading of that mix (the legacy URL and FAQ text predate a Figma-focused rewrite), and the evidence packet (2026-09-27-note-on-the-google-ux-design-certificate.md, lines 348–350) was updated to match: \"Figma is the main design tool… and its materials may still reference Adobe XD.\"",
+      "resolution": "fixed"
+    },
+    {
+      "id": "f12",
+      "file": "08-social-good-and-portfolio.md",
+      "severity": "correction",
+      "claim": "\"Job preparation is mostly outside this book's scope\" used a banned weak adverb.",
+      "source": "style-guide.md, \"Adverbs to avoid.\"",
+      "fix": "Verified fixed: now reads \"Job preparation is outside this book's scope, except for three habits that follow from the design process itself:…\" A full-text scan of the new edition found no remaining instances of any banned adverb.",
+      "resolution": "fixed"
+    },
+    {
+      "id": "f13",
+      "file": "07-responsive-web.md",
+      "severity": "correction",
+      "claim": "\"reflows from one column to several\" used a banned vague quantifier and conflicted with the chapter's own two-/three-column worked example.",
+      "source": "style-guide.md, \"Adverbs to avoid\"; 07-responsive-web.md's own worked example (7.6).",
+      "fix": "Verified fixed: now reads \"reflows from one column to two or three,\" matching 7.6's \"two-column grid… three-column grid.\"",
+      "resolution": "fixed"
+    },
+    {
+      "id": "f14",
+      "file": "08-social-good-and-portfolio.md",
+      "severity": "correction",
+      "claim": "8.4 never stated what each of the certificate's three portfolio projects specifically produces, or which chapters prepare for which.",
+      "source": "Pedagogy note, \"The companion design this implies,\" item 4.",
+      "fix": "Verified fixed: 8.4 now lists the three projects — a mobile app (Chapters 1–6), a responsive website (Chapter 7), and a cross-device social-good design, a dedicated app and a responsive website for the same service (Chapter 8) — attributed to the certificate page. Checked against coursera.org/professional-certificates/google-ux-design and third-party summaries of the certificate's three projects (mobile app; responsive website; a non-profit/social-good project): matches. The chapter mapping is internally consistent with the book's own course-to-chapter table (Courses 1–5 = Chapters 1–6; Course 6 = Chapter 7; Course 7 = Chapter 8).",
+      "resolution": "fixed"
+    },
+    {
+      "id": "f15",
+      "file": "00-about-this-book.md",
+      "severity": "note",
+      "claim": "\"The certificate at a glance\" omitted the ACE college-credit recommendation.",
+      "source": "Evidence packet; confirmed on coursera.org.",
+      "fix": "Verified fixed: now reads \"The American Council on Education recommends the certificate for up to 10 college credits; check with your institution,\" matching the confirmed \"up to 10 ACE college credits\" figure.",
+      "resolution": "fixed"
+    },
+    {
+      "id": "f16",
+      "file": "02-empathize-and-define.md",
+      "severity": "correction",
+      "claim": "New Answer 2.11.9 (added to fix f4): \"For example: ‘As a busy member, I want a text the day before a tool is due so that I return it on time.’ Value proposition: ‘Reminders mean no late returns and no fines, without having to remember due dates.’\"",
+      "source": "00-about-this-book.md's \"The running example\" and every other worked example in the book: the Northside Tool Library is described only as charging \"a small yearly fee\" (membership); no late-return fine or fee is stated anywhere in the manuscript. A full-text search of the new edition for \"fine\"/\"fee\" finds only that one membership-fee mention and this new sentence.",
+      "fix": "Verified fixed: a full-text diff between this edition and the prior one shows Answer 2.11.9's value proposition now reads \"Reminders mean no late returns, without having to remember due dates,\" with \"and no fines\" removed and nothing else in the sentence or the rest of the book changed. The diff's only other difference is the colophon's build record hash, which is expected to change with content.",
+      "resolution": "fixed"
+    },
+    {
+      "id": "f17",
+      "file": "layout (templates/book-layout.lua); About this book, A study plan, Glossary, References",
+      "severity": "correction",
+      "claim": "Pages of unnumbered chapters (About this book, A study plan, Glossary, References) carried the running head of whatever numbered section preceded them instead of their own chapter title — e.g. the second content page of \"About this book\" printed \"CONTENTS\" (the table of contents' own running head) and the second content page of \"Glossary\" printed \"8.9. ANSWERS\" (Chapter 8's last section).",
+      "source": "Found by another book's proof using the same book-layout.lua filter; confirmed here by diff against the prior edition and by inspecting the page-break structure of all four back-matter chapters.",
+      "fix": "Verified fixed: a full-text diff between the prior edition and this one shows exactly two changed lines — page 8 now reads \"About this book\" (was \"CONTENTS\") and page 62 now reads \"Glossary\" (was \"8.9. ANSWERS\") — and nothing else in the book's text. (The colophon's build record hash, which hashes manuscript content rather than template/layout, is unchanged between this edition and the prior one, corroborating that no manuscript text changed.) Spot-checked the back matter's other pages: odd pages throughout About this book, A study plan, Glossary and References all correctly show the book title \"UX Design, Course by Course\"; A study plan (pages 58–59) and References (pages 64–66) each have only one even page, which is their own chapter-start page and so never showed a stale head to begin with — there was nothing left to fix there. A whole-document search for stray \"CONTENTS\" or \"… ANSWERS\" strings finds only legitimate instances inside the table of contents and each numbered chapter's own Answers section.",
+      "resolution": "fixed"
+    }
+  ]
+}

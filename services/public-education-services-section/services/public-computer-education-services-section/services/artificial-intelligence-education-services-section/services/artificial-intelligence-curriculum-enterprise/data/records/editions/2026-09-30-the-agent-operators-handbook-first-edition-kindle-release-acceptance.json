@@ -1,0 +1,27 @@
+{
+  "kind": "sign.cell",
+  "id": "ni:///sha-256;nYmCJN3YalcO0-0Ld_pfMyx1OUT1t-i-nj5i3DEajuo",
+  "type": "org.561-group.ebook.kindle-release-acceptance.v1",
+  "content": {
+    "type": "KindleReleaseAcceptance",
+    "version": 1,
+    "status": "release-ready",
+    "book": "the-agent-operators-handbook",
+    "editionInputDigest": "ni:///sha-256;d7xgAJVknJhrMOSoQmdKG3xQjmyEsdZ7T7fB1PuBku8",
+    "rendition": {
+      "kind": "EPUB",
+      "artifactSha256": "bf04217cc5ab2906f2eb00a6938bddc6285f3695cfc2794f607fa20911069283"
+    },
+    "closedObligationIds": [
+      "editorial-proof",
+      "epub-conformance",
+      "accessibility-assessment"
+    ],
+    "evidence": {
+      "editorialProof": "ni:///sha-256;Ep_E7sJJVWpRGgkjnqnDjmZy1AeuRxV29hSU6jjAHLg",
+      "validation": "ni:///sha-256;U1JYXlibu8Un3z2cCLIRdHTPqBNq7y4ohU5emPLY9iQ",
+      "conformanceReport": "53ba3b5e3d8c4faf717b3aa0e95ba1ec8cba8956591c8c380ba6dd2dec16a4cf",
+      "accessibilityConformanceClaim": null
+    }
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "draftSha256": "e32d509d0ebd0c1d80ff38dd9082803d22abbb9d4103c875387a10b7771eb13a",
+  "searches": 5,
+  "exchanges": [
+    {
+      "outcome": "completion",
+      "recordedAt": "2026-09-29T15:15:22.653Z",
+      "completedSearches": 5,
+      "model": "gpt-5.6-sol",
+      "citedUrls": [
+        "https://www.weather.gov/hgx/houclimate",
+        "https://www.weather.gov/hgx/climate_iah_normals_summary",
+        "https://statesummaries.ncics.org/chapter/tx/",
+        "https://www.houstontx.gov/mayor/Climate-Impact-Assessment-2020-August.pdf",
+        "https://www.nhc.noaa.gov/data/tcr/AL092017_Harvey.pdf",
+        "https://escholarship.org/uc/item/0k28z28b",
+        "https://ora.ox.ac.uk/objects/uuid%3Aa087d425-e958-4fb2-b73d-c83986a06297",
+        "https://nca2023.globalchange.gov/chapter/26/",
+        "https://pubs.usgs.gov/sim/3097/",
+        "https://pubs.usgs.gov/publication/ofr82571",
+        "https://prod.tidesandcurrents.noaa.gov/sltrends/data/USStationsLinearSeaLevelTrends.pdf"
+      ]
+    }
+  ],
+  "evidence": []
+}

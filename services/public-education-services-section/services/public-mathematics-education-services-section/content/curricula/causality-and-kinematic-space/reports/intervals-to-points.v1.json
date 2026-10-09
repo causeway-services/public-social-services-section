@@ -1,0 +1,87 @@
+{
+  "carrierFile": "intervals-to-points.md",
+  "courseId": "causality-and-kinematic-space",
+  "lessonId": "intervals-to-points",
+  "citations": [
+    {
+      "id": "czech-et-al-2015-integral-geometry",
+      "title": "Integral Geometry and Holography",
+      "authors": [
+        "Bartłomiej Czech",
+        "Lampros Lamprou",
+        "Samuel McCandlish",
+        "James Sully"
+      ],
+      "publisher": "JHEP / arXiv",
+      "url": "https://arxiv.org/abs/1505.05515",
+      "kind": "primary-research-paper"
+    },
+    {
+      "id": "czech-et-al-2016-stereoscopic",
+      "title": "A Stereoscopic Look into the Bulk",
+      "authors": [
+        "Bartłomiej Czech",
+        "Lampros Lamprou",
+        "Samuel McCandlish",
+        "Benjamin Mosk",
+        "James Sully"
+      ],
+      "publisher": "JHEP / arXiv",
+      "url": "https://arxiv.org/abs/1604.03110",
+      "kind": "primary-research-paper"
+    },
+    {
+      "id": "asplund-callebaut-zukowski-2016-equivalence",
+      "title": "Equivalence of Emergent de Sitter Spaces from Conformal Field Theory",
+      "authors": [
+        "Curtis T. Asplund",
+        "Nele Callebaut",
+        "Claire Zukowski"
+      ],
+      "publisher": "JHEP / arXiv",
+      "url": "https://arxiv.org/abs/1604.02687",
+      "kind": "primary-research-paper"
+    }
+  ],
+  "claims": [
+    {
+      "statement": "In the cited AdS3/CFT2 construction, an oriented boundary interval or boundary-anchored geodesic can label one point of kinematic space.",
+      "warrants": [
+        "czech-et-al-2015-integral-geometry"
+      ],
+      "scope": "the specified holographic construction and its endpoint parameterization"
+    },
+    {
+      "statement": "OPE blocks can be organized as fields on kinematic space and related at leading semiclassical order to bulk geodesic or minimal-surface integrals.",
+      "warrants": [
+        "czech-et-al-2016-stereoscopic"
+      ],
+      "scope": "the source's CFT and semiclassical holographic hypotheses"
+    },
+    {
+      "statement": "Emergent de Sitter kinematic descriptions have been compared across vacuum, thermal, and nontrivial three-dimensional gravity states with state-dependent qualifications.",
+      "warrants": [
+        "asplund-callebaut-zukowski-2016-equivalence"
+      ],
+      "scope": "the cases analyzed by the source rather than every quantum state"
+    }
+  ],
+  "limitations": [
+    "The packet does not claim that arbitrary intervals in arbitrary systems form a smooth kinematic manifold.",
+    "Geodesic multiplicity, quotient identifications, and phase transitions can require branch data beyond endpoint labels.",
+    "Calling an interval a point in kinematic space does not remove its extension in the original space."
+  ],
+  "reuseGrant": [
+    "gemini-notebook-transformation",
+    "mathematics-curriculum",
+    "public-youtube-release"
+  ],
+  "correctionIdentity": "urn:emsenn:corrections:mathematics-research:intervals-to-points:v1",
+  "internalTransfer": {
+    "legalBodyRelation": "same-legal-body",
+    "accountingUnit": "USD-micros",
+    "allocatedCostMicros": 250000,
+    "cashSettlementRequired": false,
+    "status": "internal-cost-allocation-admitted"
+  }
+}

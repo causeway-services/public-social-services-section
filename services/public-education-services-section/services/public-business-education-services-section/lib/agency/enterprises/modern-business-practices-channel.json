@@ -1,0 +1,26 @@
+{
+  "id": "modern-business-practices-channel",
+  "name": "Modern Business Practices (YouTube)",
+  "kind": "market",
+  "entity": "561-group-llc",
+  "faces": "Operators, founders, managers, analysts and advanced students following The Modern Firm as an Operational System.",
+  "offices": [
+    "modern-business-practices-channel-lead"
+  ],
+  "host": "bare-cedar-fog",
+  "takes": {
+    "words": [
+      "modern business practices",
+      "modernbusinesspractices"
+    ]
+  },
+  "assesses": {
+    "work": "assessing-modern-business-practices-channel-demand",
+    "skill": "assess-taken-demand"
+  },
+  "x-provenance": {
+    "recorded-by": "claude-opus-5-5",
+    "recorded-on": "2026-09-30",
+    "source": "561-group-services-section/content/text/documents/articles/notes/2026/09/30/2026-09-30-note-on-micro-enterprises-holding-their-own-work.md"
+  }
+}

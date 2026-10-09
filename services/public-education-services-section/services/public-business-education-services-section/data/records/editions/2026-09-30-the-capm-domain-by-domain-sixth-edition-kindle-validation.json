@@ -1,0 +1,294 @@
+{
+  "type": "SignedSignCell",
+  "version": 1,
+  "cell": {
+    "kind": "sign.cell",
+    "id": "ni:///sha-256;QIIFwe0sWgvp5Y5Mo18NQQvmww5RkDWKd2WyjuORrss",
+    "type": "org.561-group.ebook.kindle-validation-receipt.v2",
+    "content": {
+      "type": "KindleValidationReceipt",
+      "version": 2,
+      "book": "the-capm-domain-by-domain",
+      "validatedAt": "2026-09-30T01:25:02.976Z",
+      "validatorProfile": {
+        "id": "epub-3.3-epubcheck-5.3.0",
+        "standard": "EPUB 3.3",
+        "tool": "epubcheck",
+        "toolVersion": "5.3.0",
+        "warningPolicy": "record",
+        "blocking": true
+      },
+      "artifacts": {
+        "epub": {
+          "name": "the-capm-domain-by-domain.epub",
+          "bytes": 190538,
+          "sha256": "31bba37acad286c5c5dffc272b364da4597c3383d3f0993c6a1e80580d71983f"
+        },
+        "cover": {
+          "name": "the-capm-domain-by-domain-cover.jpg",
+          "bytes": 306202,
+          "sha256": "a2f5a1daf96354d353b495f87e083b4acb3e84ca6b15e21e72f9eca6e6a0fa80"
+        }
+      },
+      "checks": {
+        "conformance": {
+          "release": {
+            "outcome": "pass",
+            "passed": true,
+            "profile": {
+              "id": "epub-3.3-epubcheck-5.3.0",
+              "standard": "EPUB 3.3",
+              "tool": "epubcheck",
+              "toolVersion": "5.3.0",
+              "warningPolicy": "record",
+              "blocking": true
+            },
+            "tool": {
+              "available": true,
+              "command": "java",
+              "prefix": [
+                "-jar",
+                "/home/emsenn/.local/share/epubcheck/epubcheck-5.3.0/epubcheck.jar"
+              ],
+              "source": "EPUBCHECK_5_3_0_JAR",
+              "observedVersion": "5.3.0"
+            },
+            "errors": 0,
+            "warnings": 0,
+            "report": {
+              "name": "epub-3.3-epubcheck-5.3.0-4bb9a65145cb29983b9f83082d27e4fc42e58e43c9973ae308914c41b81449f4.json",
+              "bytes": 26168,
+              "sha256": "4bb9a65145cb29983b9f83082d27e4fc42e58e43c9973ae308914c41b81449f4"
+            },
+            "exitStatus": 0,
+            "signal": null
+          },
+          "observation": {
+            "outcome": "pass",
+            "passed": true,
+            "profile": {
+              "id": "epub-3.4-epubcheck-5.4.0",
+              "standard": "EPUB 3.4",
+              "tool": "epubcheck",
+              "toolVersion": "5.4.0",
+              "warningPolicy": "record",
+              "blocking": false
+            },
+            "tool": {
+              "available": true,
+              "command": "java",
+              "prefix": [
+                "-jar",
+                "/home/emsenn/.local/share/epubcheck/epubcheck-5.4.0/epubcheck.jar"
+              ],
+              "source": "EPUBCHECK_5_4_0_JAR",
+              "observedVersion": "5.4.0"
+            },
+            "errors": 0,
+            "warnings": 0,
+            "report": {
+              "name": "epub-3.4-epubcheck-5.4.0-0fecc73e317ec4ec76e84e233fe272c5d921478da9e45969e74f658a6c35f94d.json",
+              "bytes": 26168,
+              "sha256": "0fecc73e317ec4ec76e84e233fe272c5d921478da9e45969e74f658a6c35f94d"
+            },
+            "exitStatus": 0,
+            "signal": null
+          }
+        },
+        "accessibility": {
+          "type": "EpubAccessibilityEvidence",
+          "version": 1,
+          "target": "EPUB Accessibility 1.1",
+          "automated": {
+            "outcome": "untested",
+            "obstruction": "ace-unavailable"
+          },
+          "manual": {
+            "outcome": "untested",
+            "assessmentDigest": null,
+            "reason": "No manual accessibility assessment was supplied; no conformance claim is made."
+          },
+          "conformsTo": null
+        },
+        "features": {
+          "type": "EpubFeatureManifest",
+          "version": 1,
+          "mathml": false,
+          "scriptedContent": false,
+          "remoteResources": false,
+          "mediaOverlays": false,
+          "embeddedFonts": false,
+          "svg": true,
+          "fixedLayout": false,
+          "navigation": [
+            "toc",
+            "landmarks"
+          ]
+        },
+        "navigation": {
+          "type": "EpubNavigationAssay",
+          "version": 1,
+          "passed": true,
+          "checks": {
+            "exactlyOneToc": true,
+            "tocTargetsResolve": true,
+            "tocOrderAgreesWithReadingOrder": true,
+            "landmarksPresent": true,
+            "landmarksIdentifyTocAndBody": true,
+            "pageListHasPaginationSource": true,
+            "headingHierarchyConsistent": true
+          },
+          "findings": {
+            "unresolvedTargets": [],
+            "headingHierarchy": []
+          }
+        },
+        "portability": {
+          "kindle-reflowable-2026-09": {
+            "profile": "kindle-reflowable-2026-09",
+            "features": {
+              "scriptedContent": "supported",
+              "remoteResources": "supported",
+              "mediaOverlays": "supported",
+              "mathml": "supported",
+              "embeddedFonts": "supported",
+              "svg": "supported",
+              "fixedLayout": "supported",
+              "toc": "supported",
+              "landmarks": "supported",
+              "pageList": "supported"
+            },
+            "blocking": [],
+            "passed": true
+          },
+          "apple-books-2026-09": {
+            "profile": "apple-books-2026-09",
+            "features": {
+              "scriptedContent": "supported",
+              "remoteResources": "supported",
+              "mediaOverlays": "supported",
+              "mathml": "supported",
+              "embeddedFonts": "supported",
+              "svg": "supported",
+              "fixedLayout": "supported",
+              "toc": "supported",
+              "landmarks": "supported",
+              "pageList": "supported"
+            },
+            "blocking": [],
+            "passed": true
+          },
+          "google-play-books-2026-09": {
+            "profile": "google-play-books-2026-09",
+            "features": {
+              "scriptedContent": "supported",
+              "remoteResources": "supported",
+              "mediaOverlays": "supported",
+              "mathml": "supported",
+              "embeddedFonts": "supported",
+              "svg": "supported",
+              "fixedLayout": "supported",
+              "toc": "supported",
+              "landmarks": "supported",
+              "pageList": "supported"
+            },
+            "blocking": [],
+            "passed": true
+          },
+          "kobo-writing-life-2026-09": {
+            "profile": "kobo-writing-life-2026-09",
+            "features": {
+              "scriptedContent": "supported",
+              "remoteResources": "supported",
+              "mediaOverlays": "supported",
+              "mathml": "supported",
+              "embeddedFonts": "supported",
+              "svg": "supported",
+              "fixedLayout": "supported",
+              "toc": "supported",
+              "landmarks": "supported",
+              "pageList": "supported"
+            },
+            "blocking": [],
+            "passed": true
+          }
+        },
+        "readingSystems": [
+          {
+            "type": "ReadingSystemObservation",
+            "version": 1,
+            "artifactSha256": "31bba37acad286c5c5dffc272b364da4597c3383d3f0993c6a1e80580d71983f",
+            "system": "Kindle Previewer",
+            "systemVersion": null,
+            "profile": null,
+            "observedAt": "2026-09-30T01:25:02.976Z",
+            "outcome": "untested",
+            "findings": []
+          },
+          {
+            "type": "ReadingSystemObservation",
+            "version": 1,
+            "artifactSha256": "31bba37acad286c5c5dffc272b364da4597c3383d3f0993c6a1e80580d71983f",
+            "system": "Apple Books",
+            "systemVersion": null,
+            "profile": null,
+            "observedAt": "2026-09-30T01:25:02.976Z",
+            "outcome": "untested",
+            "findings": []
+          },
+          {
+            "type": "ReadingSystemObservation",
+            "version": 1,
+            "artifactSha256": "31bba37acad286c5c5dffc272b364da4597c3383d3f0993c6a1e80580d71983f",
+            "system": "Thorium Reader",
+            "systemVersion": null,
+            "profile": null,
+            "observedAt": "2026-09-30T01:25:02.976Z",
+            "outcome": "untested",
+            "findings": []
+          },
+          {
+            "type": "ReadingSystemObservation",
+            "version": 1,
+            "artifactSha256": "31bba37acad286c5c5dffc272b364da4597c3383d3f0993c6a1e80580d71983f",
+            "system": "KDP processed copy",
+            "systemVersion": null,
+            "profile": null,
+            "observedAt": "2026-09-30T01:25:02.976Z",
+            "outcome": "untested",
+            "findings": []
+          }
+        ],
+        "cover": {
+          "passed": true,
+          "width": 1600,
+          "height": 2560,
+          "ratio": 1.6,
+          "colourSpace": "srgb",
+          "format": "jpeg",
+          "bytes": 306202,
+          "ideal": {
+            "width": 1600,
+            "height": 2560,
+            "ratio": 1.6
+          },
+          "checks": {
+            "dimensionsKnown": true,
+            "shortestSideAtLeast1600": true,
+            "portrait": true,
+            "ratio1Point6": true,
+            "rgb": true,
+            "jpegOrTiff": true,
+            "under50MiB": true
+          }
+        }
+      },
+      "passed": true
+    }
+  },
+  "signature": {
+    "algorithm": "Ed25519",
+    "keyId": "kindle-validation-2026-09-29",
+    "value": "I-vGKO26qw-fiKx48PoWRjYcqyAPksY4yn8X9AfVLvPVz89eGBC-he1kKDzslRWIrqW_wHIzDlFLlNAG7vKoBw"
+  }
+}
