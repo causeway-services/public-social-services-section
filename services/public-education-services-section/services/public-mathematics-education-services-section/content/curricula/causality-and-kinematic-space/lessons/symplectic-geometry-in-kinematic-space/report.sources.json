@@ -1,0 +1,39 @@
+{
+  "at": "2026-09-28T15:36:28.674Z",
+  "grounding": {
+    "completed": true,
+    "completedSearches": 6,
+    "sources": [
+      {
+        "uri": "https://arxiv.org/abs/1505.05515"
+      },
+      {
+        "uri": "https://arxiv.org/abs/1812.02176"
+      },
+      {
+        "uri": "https://arxiv.org/pdf/1505.05515"
+      },
+      {
+        "uri": "https://arxiv.org/pdf/1812.02176"
+      }
+    ]
+  },
+  "inference": {
+    "model": "gpt-5.6-sol",
+    "provider": "codex",
+    "exchanges": [
+      {
+        "outcome": "completion",
+        "recordedAt": "2026-09-28T15:36:28.669Z",
+        "completedSearches": 6,
+        "model": "gpt-5.6-sol",
+        "citedUrls": [
+          "https://arxiv.org/abs/1505.05515",
+          "https://arxiv.org/abs/1812.02176",
+          "https://arxiv.org/pdf/1505.05515",
+          "https://arxiv.org/pdf/1812.02176"
+        ]
+      }
+    ]
+  }
+}

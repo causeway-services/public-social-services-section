@@ -1,0 +1,25 @@
+{
+  "draftSha256": "4020562955c04852ad2b3e84769dfaaebf61f96525b4c929d728f3efa51f2293",
+  "searches": 4,
+  "exchanges": [
+    {
+      "outcome": "completion",
+      "recordedAt": "2026-09-30T15:27:09.808Z",
+      "completedSearches": 4,
+      "model": "gpt-5.6-sol",
+      "citedUrls": [
+        "https://arxiv.org/abs/1606.06565",
+        "https://nvlpubs.nist.gov/nistpubs/ai/NIST.AI.600-1.pdf",
+        "https://nvlpubs.nist.gov/nistpubs/ai/NIST.AI.100-2e2025.pdf",
+        "https://www.anthropic.com/research/tracing-thoughts-language-model",
+        "https://www.anthropic.com/research/open-source-circuit-tracing",
+        "https://arxiv.org/abs/2212.08073",
+        "https://www.aisi.gov.uk/frontier-ai-trends-report",
+        "https://cdn.openai.com/pdf/18a02b5d-6b67-4cec-ab64-68cdfbddebcd/preparedness-framework-v2.pdf",
+        "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A32024R1689",
+        "https://digital-strategy.ec.europa.eu/en/policies/contents-code-gpai"
+      ]
+    }
+  ],
+  "evidence": []
+}

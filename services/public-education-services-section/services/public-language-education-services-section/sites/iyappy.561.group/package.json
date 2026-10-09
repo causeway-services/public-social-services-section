@@ -1,0 +1,21 @@
+{
+  "name": "@causeway-services/iyappy-service",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "Finite, source-bounded Lakota practice with portable learner progress and readable practice without JavaScript.",
+  "scripts": {
+    "build": "static-site-publisher build content public --config=victor.config.mjs",
+    "deploy": "npm run build && wrangler deploy"
+  },
+  "dependencies": {
+    "@red-cup-engineering/education-platform-service": "0.2.5",
+    "@red-cup-engineering/static-site-publisher": "0.1.15"
+  },
+  "devDependencies": {
+    "wrangler": "4.123.0"
+  },
+  "engines": {
+    "node": ">=24"
+  }
+}

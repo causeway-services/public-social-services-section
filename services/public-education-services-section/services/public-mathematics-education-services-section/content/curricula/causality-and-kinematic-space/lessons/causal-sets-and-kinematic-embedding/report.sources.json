@@ -1,0 +1,39 @@
+{
+  "at": "2026-10-03T01:40:57.209Z",
+  "grounding": {
+    "completed": true,
+    "completedSearches": 4,
+    "sources": [
+      {
+        "uri": "https://www.mathnet.ru/eng/dan8158"
+      },
+      {
+        "uri": "https://arxiv.org/abs/gr-qc/0601069"
+      },
+      {
+        "uri": "https://arxiv.org/abs/1505.05515"
+      },
+      {
+        "uri": "https://arxiv.org/abs/1001.2725"
+      }
+    ]
+  },
+  "inference": {
+    "model": "gpt-5.6-sol",
+    "provider": "codex",
+    "exchanges": [
+      {
+        "outcome": "completion",
+        "recordedAt": "2026-10-03T01:40:55.842Z",
+        "completedSearches": 4,
+        "model": "gpt-5.6-sol",
+        "citedUrls": [
+          "https://www.mathnet.ru/eng/dan8158",
+          "https://arxiv.org/abs/gr-qc/0601069",
+          "https://arxiv.org/abs/1505.05515",
+          "https://arxiv.org/abs/1001.2725"
+        ]
+      }
+    ]
+  }
+}

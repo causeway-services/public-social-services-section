@@ -1,0 +1,9 @@
+{
+  "name": "@561-group/health-education-curriculum-enterprise",
+  "private": true,
+  "version": "0.1.0",
+  "files": [
+    "content/"
+  ],
+  "license": "UNLICENSED"
+}

@@ -1,0 +1,27 @@
+{
+  "kind": "sign.cell",
+  "id": "ni:///sha-256;vTbdho3QDfesqLYr3cPvRw_VLZPM16arB9oMo2M5pRU",
+  "type": "org.561-group.ebook.kindle-release-acceptance.v1",
+  "content": {
+    "type": "KindleReleaseAcceptance",
+    "version": 1,
+    "status": "release-ready",
+    "book": "project-management-course-by-course",
+    "editionInputDigest": "ni:///sha-256;Yrt5q6LR8iyK2uQkqhn0aNtc_hXkTY54Jxokubl7kLw",
+    "rendition": {
+      "kind": "EPUB",
+      "artifactSha256": "65f69909eefc9d3fb0778a56f105f8f02cfa8ecedf0ba2ee7f0a83ff445115c8"
+    },
+    "closedObligationIds": [
+      "editorial-proof",
+      "epub-conformance",
+      "accessibility-assessment"
+    ],
+    "evidence": {
+      "editorialProof": "ni:///sha-256;O6KJIJsNBzwd0QMOUd7tm5lKl7yWqsc0hGfLFEuoykg",
+      "validation": "ni:///sha-256;iEJM_TzTGPDzm_xS9Bs8PFR8w1XFZtJjSrmG2x-ahe8",
+      "conformanceReport": "5329621f4a123cc1ad3ed1c0f20dc7eb51ac036f8d5ea57d7652784a485a5dbc",
+      "accessibilityConformanceClaim": null
+    }
+  }
+}

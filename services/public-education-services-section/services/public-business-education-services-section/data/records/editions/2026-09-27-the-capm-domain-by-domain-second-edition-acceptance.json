@@ -1,0 +1,35 @@
+{
+  "type": "EbookEditionAcceptance",
+  "version": 1,
+  "status": "accepted",
+  "editionInputDigest": "ni:///sha-256;Q4xDvlmzk9yu_yNYAYzvl6M_yBvkqcOivCM5pOuZNSQ",
+  "artifacts": {
+    "epub": {
+      "path": "/home/emsenn/info/lib/emsenn/services/561-group/services/public-services-section/services/public-social-services-section/services/public-education-services-section/services/public-business-education-services-section/data/state/editions/the-capm-domain-by-domain/the-capm-domain-by-domain.epub",
+      "bytes": 155944,
+      "sha256": "ni:///sha-256;VIbUC0lzPl3rV4XG8KjG4j4gaYvCyL1L33bl9c7aJNU"
+    },
+    "screenPdf": {
+      "path": "/home/emsenn/info/lib/emsenn/services/561-group/services/public-services-section/services/public-social-services-section/services/public-education-services-section/services/public-business-education-services-section/data/state/editions/the-capm-domain-by-domain/the-capm-domain-by-domain.pdf",
+      "bytes": 240698,
+      "sha256": "ni:///sha-256;aBhdo1muoU_Hy39y7gw6FFUcjA4Sk0a4XtwVwcssZYM"
+    },
+    "buildRecordDigest": "ni:///sha-256;ZyQJjD7qruLotxseufqjh4FIxZ_V4d7Wc8CxKKk21S8"
+  },
+  "closedObligationIds": [
+    "editorial-proof"
+  ],
+  "pendingAcceptanceObligationIds": [],
+  "proof": {
+    "digest": "ni:///sha-256;3OchYG5-dz9WYsJWQtn4NnKZdMvyalYrb8jJwQZxk_c",
+    "proofer": "independent proofreading agent (claude-opus-5-5 subagent)",
+    "provedAt": "2026-09-28T07:00:00Z",
+    "method": "Carried from the proof of edition ni:///sha-256;cD0-_YfYusVZdWy_gjWj484h90dMQYjcg6QIjQK2gyo (proof ni:///sha-256;ggig5_s2k2Qu649mmZVPYAkvGtUxEXMgBSw8Tb_xA_M): this edition's extracted text equals that edition's (EPUB ni:///sha-256;03Lv3iWiy7otH8n99BYGesiVWeOhfLSQJOjKYI1DPWo, PDF ni:///sha-256;XS6WggCaTyDxD08xXTE7AM9TkcuOOSKfPPFs7l1vjic, the colophon's build digest set aside), so the findings read on it hold here. The original pass: Diffed the-capm-domain-by-domain-edition-layout.txt against edition-next.txt after stripping page numbers and running heads, then confirmed via a sorted bag-of-words comparison that the only differences are three de-duplicated table-header rows (each previously printed twice because its table split across a page break, now printed once) and a net increase in running-head/page-number furniture consistent with more total pages — net word-count delta zero, no vocabulary added or removed, and spot-checked the load-bearing content (72 seconds, 13 to 21, escalate/avoid, the Beck/Jacobson author lists, the Kanban six-practice list, the Domain 4 Task 4 answer key line) all present unchanged. Rendered the actual PDF at the given house path with pdftoppm (150dpi) for the page containing §6.6's \"Roadmap.\" label (page 60) and its preceding page (59), and two further label-plus-table spots (§2.9's \"A stakeholder register entry.\", page 26; §5.7's \"Requirements, classified.\", page 53) to visually confirm each label now renders on the same page as its table. Diffed edition-num.txt against edition-layout.txt, then re-ran the diff after additionally stripping each line's leading section-number prefix (e.g. \"0.1 \", \"7.6 \"): the word-bag comparison came back empty, confirming zero content differences beyond section numbers, page flow and the build hash. Confirmed by direct grep that all eight About-this-book headings, \"Formulas\", \"Lists\" and the four study-plan headings now print with no leading number anywhere in the text, while chapters 1–7's own numbered sections (spot-checked 1.1–1.12, 2.1–2.12, 7.1–7.5) are unaffected and still numbered. Diffed edition-final.txt against edition-num.txt directly (no normalization needed): only two lines changed, both stale running heads. Rendered the refreshed house PDF with pdftoppm at the odd pages carrying each affected running head (9 and 79) and confirmed the correct chapter titles now show, while confirming the other three named back-matter chapters (formulas and lists, study plan, references) are each too short to have a second odd page where the same bug could have appeared, so the two-line diff is the complete fix.",
+    "findings": {
+      "errors": 5,
+      "corrections": 14,
+      "notes": 2
+    }
+  },
+  "acceptedAt": "2026-09-28T01:40:35.152Z"
+}

@@ -1,0 +1,10 @@
+{
+  "name": "@561-group/health-education-newsletter-enterprise",
+  "private": true,
+  "version": "0.1.0",
+  "description": "Publication lane for the health-education named-subscriber newsletter: verifies and re-composes one issue directory's renderings, creates a Buttondown draft, and records a publication receipt.",
+  "files": [
+    "content/"
+  ],
+  "license": "UNLICENSED"
+}

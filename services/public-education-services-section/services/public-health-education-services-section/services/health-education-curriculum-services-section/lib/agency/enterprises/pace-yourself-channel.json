@@ -1,0 +1,26 @@
+{
+  "id": "pace-yourself-channel",
+  "name": "PACE Yourself (YouTube)",
+  "kind": "market",
+  "entity": "561-group-llc",
+  "faces": "People living with infection-associated chronic illness (long COVID, ME/CFS) and their caregivers, who want plain-language, evidence-labelled science.",
+  "offices": [
+    "pace-yourself-channel-lead"
+  ],
+  "host": "bare-cedar-fog",
+  "takes": {
+    "words": [
+      "pace yourself",
+      "pace-yourself"
+    ]
+  },
+  "assesses": {
+    "work": "assessing-pace-yourself-channel-demand",
+    "skill": "assess-taken-demand"
+  },
+  "x-provenance": {
+    "recorded-by": "claude-opus-5-5",
+    "recorded-on": "2026-09-30",
+    "source": "561-group-services-section/content/text/documents/articles/notes/2026/09/30/2026-09-30-note-on-micro-enterprises-holding-their-own-work.md"
+  }
+}

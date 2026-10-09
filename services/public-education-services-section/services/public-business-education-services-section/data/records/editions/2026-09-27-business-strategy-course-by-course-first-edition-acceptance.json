@@ -1,0 +1,35 @@
+{
+  "type": "EbookEditionAcceptance",
+  "version": 1,
+  "status": "accepted",
+  "editionInputDigest": "ni:///sha-256;aREkNtXcwKbrmm1tOoi3nyu6AmY1OZBv0zeMWvI_JyU",
+  "artifacts": {
+    "epub": {
+      "path": "/home/emsenn/info/lib/emsenn/services/561-group/services/561-group-services-section/data/state/editions/business-strategy-course-by-course/business-strategy-course-by-course.epub",
+      "bytes": 144244,
+      "sha256": "ni:///sha-256;Mekk_co9RVp5y4oLBYuqbRsEzjA9aPbADxEMwbfKLNI"
+    },
+    "screenPdf": {
+      "path": "/home/emsenn/info/lib/emsenn/services/561-group/services/561-group-services-section/data/state/editions/business-strategy-course-by-course/business-strategy-course-by-course.pdf",
+      "bytes": 176382,
+      "sha256": "ni:///sha-256;l6R_BwmGIIH7yVjLpA5ZLyXOqfn1J-uHZI4AwEVUu90"
+    },
+    "buildRecordDigest": "ni:///sha-256;-0CfZNjL7Z-RqHv3RdVlXgZbPJgw9cj-FYNxQn7OMus"
+  },
+  "closedObligationIds": [
+    "editorial-proof"
+  ],
+  "pendingAcceptanceObligationIds": [],
+  "proof": {
+    "digest": "ni:///sha-256;OjZUpxSt7Qcnb073B1eSSn0KHp2o54rC4Wi6FVBDOig",
+    "proofer": "independent proofreading agent (claude-opus-5-5 subagent)",
+    "provedAt": "2026-09-27T22:44:00Z",
+    "method": "Re-read the full new extracted PDF text (business-strategy-course-by-course-edition-final3.txt) against the manuscript to verify f16-f18's claimed fixes: checked the reworded Disintermediation definition against 6.6's body text, confirmed \"winner-take-all\" is now used and glossed non-circularly with a matching body introduction in 6.4, checked the four new chapter-6 glossary entries (platform governance, price structure, seeding, subsidy side) against their basis in the 6.3/6.5/6.7 body text, re-verified glossary alphabetical order still holds with the new insertions, and rendered pages 42 and 53-56 of the new PDF (pdftoppm, 120dpi) to confirm no layout regression from the added text.",
+    "findings": {
+      "errors": 0,
+      "corrections": 17,
+      "notes": 1
+    }
+  },
+  "acceptedAt": "2026-09-27T22:45:53.437Z"
+}

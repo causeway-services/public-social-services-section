@@ -1,0 +1,59 @@
+{
+  "at": "2026-10-03T07:25:55.378Z",
+  "grounding": {
+    "completed": true,
+    "completedSearches": 2,
+    "sources": [
+      {
+        "uri": "https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/ec2-on-demand-instances.html"
+      },
+      {
+        "uri": "https://docs.stripe.com/billing/subscriptions/metered-billing/thresholds"
+      },
+      {
+        "uri": "https://www.aeaweb.org/articles?id=10.1257/aer.104.2.537"
+      },
+      {
+        "uri": "https://docs.aws.amazon.com/savingsplans/latest/userguide/sp-ris.html"
+      },
+      {
+        "uri": "https://docs.aws.amazon.com/whitepapers/latest/cost-optimization-reservation-models/reserved-instances-billing.html"
+      },
+      {
+        "uri": "https://www.nber.org/papers/w35003"
+      },
+      {
+        "uri": "https://www.nber.org/papers/w22627"
+      },
+      {
+        "uri": "https://www.nber.org/papers/w31330"
+      },
+      {
+        "uri": "https://www.nber.org/papers/w19106"
+      }
+    ]
+  },
+  "inference": {
+    "model": "gpt-5.6-sol",
+    "provider": "codex",
+    "exchanges": [
+      {
+        "outcome": "completion",
+        "recordedAt": "2026-10-03T07:25:55.369Z",
+        "completedSearches": 2,
+        "model": "gpt-5.6-sol",
+        "citedUrls": [
+          "https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/ec2-on-demand-instances.html",
+          "https://docs.stripe.com/billing/subscriptions/metered-billing/thresholds",
+          "https://www.aeaweb.org/articles?id=10.1257/aer.104.2.537",
+          "https://docs.aws.amazon.com/savingsplans/latest/userguide/sp-ris.html",
+          "https://docs.aws.amazon.com/whitepapers/latest/cost-optimization-reservation-models/reserved-instances-billing.html",
+          "https://www.nber.org/papers/w35003",
+          "https://www.nber.org/papers/w22627",
+          "https://www.nber.org/papers/w31330",
+          "https://www.nber.org/papers/w19106"
+        ]
+      }
+    ]
+  }
+}

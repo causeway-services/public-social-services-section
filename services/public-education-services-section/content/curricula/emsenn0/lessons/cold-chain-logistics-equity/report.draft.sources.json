@@ -1,0 +1,25 @@
+{
+  "draftSha256": "f31b43a183a18cd392f17419b04b2f5525343ca05e87f27625f4d727d958d744",
+  "searches": 5,
+  "exchanges": [
+    {
+      "outcome": "completion",
+      "recordedAt": "2026-10-01T14:58:42.377Z",
+      "completedSearches": 5,
+      "model": "gpt-5.6-sol",
+      "citedUrls": [
+        "https://www.ams.usda.gov/sites/default/files/media/Tropical%20Products%20Transport%20Handbook.pdf",
+        "https://www.fao.org/platform-food-loss-waste/food-loss/food-loss-measurement/en/",
+        "https://www.govinfo.gov/content/pkg/GOVPUB-A-PURL-gpo18376/pdf/GOVPUB-A-PURL-gpo18376.pdf",
+        "https://www.fda.gov/food/food-safety-modernization-act-fsma/fsma-final-rule-sanitary-transportation-human-and-animal-food",
+        "https://www.fda.gov/media/97317/download",
+        "https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/danger-zone-40f-140f",
+        "https://www.frontiersin.org/journals/horticulture/articles/10.3389/fhort.2024.1474056/full",
+        "https://www.unep.org/resources/report/sustainable-food-cold-chains-opportunities-challenges-and-way-forward",
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC9170466/",
+        "https://wedocs.unep.org/items/c53a122d-d424-48a3-8cd6-9fddc3cf0dc2"
+      ]
+    }
+  ],
+  "evidence": []
+}

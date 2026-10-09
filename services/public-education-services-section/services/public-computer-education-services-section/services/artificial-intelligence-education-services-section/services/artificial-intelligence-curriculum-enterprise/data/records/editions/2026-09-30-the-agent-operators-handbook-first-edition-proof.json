@@ -1,0 +1,165 @@
+{
+  "type": "EbookEditionProof",
+  "version": 1,
+  "editionInputDigest": "ni:///sha-256;d7xgAJVknJhrMOSoQmdKG3xQjmyEsdZ7T7fB1PuBku8",
+  "artifacts": {
+    "epub": "ni:///sha-256;vwQhfMWrKQby6wCmk4vdxihfNpXPwnlPYH-iCREGkoM",
+    "screenPdf": "ni:///sha-256;Zfz_2zD2y9PUUc43WYph3MolC2mtu9C1vv_vqH-OpSU"
+  },
+  "proofer": "independent proofreading agent (claude-opus-5-5 subagent)",
+  "writer": "claude-opus-5-5 writing session 7ebe0b88",
+  "provedAt": "2026-09-30T01:49:03+00:00",
+  "method": "Recomputed sha256 of EPUB and PDF as ni URIs and matched stage.json; read all of text/current-epub.txt; spot-checked PDF text (copyright, title page, hyphenation) against it; counted chapters, situations, templates and cross-references; grepped both texts for personal/internal tokens, U+FFFD and Markdown leftovers; unzipped the EPUB and read content.opf; viewed the cover PNG and PDF pages 1 and 3 (pdftoppm 60 dpi); checked pdffonts and pdfinfo; located each fix in the manuscript with grep. Second pass on the restaged edition: recomputed both ni digests and matched the new stage.json; diffed new EPUB text against the r1 text (only the intended changes plus the regenerated edition digest differ); confirmed each fix in both the EPUB and PDF text layers; rescanned for U+FFFD, internal tokens and Markdown leftovers; re-read content.opf; page count still 62.",
+  "findings": [
+    {
+      "id": "f1",
+      "file": "09-field-diagnoses.md (Chapter 9, 'Using this chapter'), line 190",
+      "severity": "correction",
+      "claim": "\"None of these ten entries is a substitute for the reasoning...\" but the chapter, nav, and front matter all have twelve entries.",
+      "source": "Counted 12 quoted situation headings in nav.xhtml and ch011; front matter and Ch.8 say twelve.",
+      "fix": "Replace \"None of these ten entries\" with \"None of these twelve entries\".",
+      "resolution": "fixed",
+      "verified": "Confirmed in new EPUB and PDF text."
+    },
+    {
+      "id": "f2",
+      "file": "08-building-your-operating-discipline.md, line 107 (Chapter 8, Week 1)",
+      "severity": "correction",
+      "claim": "EPUB/PDF show \"the highest- leverage habit in the book\": a hard-wrapped hyphen became a stray space (PDF text line 1528).",
+      "source": "Read epub text and pdf text; manuscript line ends with 'highest-' and next line begins 'leverage'.",
+      "fix": "Replace \"highest-\\nleverage habit\" with \"highest-leverage habit\" on one line.",
+      "resolution": "fixed",
+      "verified": "Confirmed in new EPUB and PDF text."
+    },
+    {
+      "id": "f3",
+      "file": "01-the-complete-brief.md, line 32 (Chapter 1)",
+      "severity": "correction",
+      "claim": "\"proceed as if that guess were given fact\" is ungrammatical.",
+      "source": "Reading.",
+      "fix": "Replace \"as if that guess were given fact\" with \"as if that guess were a given fact\".",
+      "resolution": "fixed",
+      "verified": "Confirmed in new EPUB and PDF text."
+    },
+    {
+      "id": "f4",
+      "file": "00-front-matter.md, line 41 (About this book)",
+      "severity": "correction",
+      "claim": "\"Every chapter includes at least one worked example grounded in an ordinary software project\" is false: Chapters 8 (checklist), 9 (field diagnoses) and 10 (team) have none, and the front matter itself calls Ch.7 a case study.",
+      "source": "Read all chapters; worked-example headings exist only in Ch.1-6 (Ch.7 is a case study).",
+      "fix": "Replace \"Every chapter includes at least one worked example\" with \"Chapters 1 through 6 each include at least one worked example\"; keep the rest of the sentence.",
+      "resolution": "fixed",
+      "verified": "Confirmed in new EPUB and PDF text."
+    },
+    {
+      "id": "f5",
+      "file": "10-scaling-to-a-team.md, line 30 (Chapter 10)",
+      "severity": "correction",
+      "claim": "\"in the same four-field shape\" but the appendix brief template has six fields (Outcome, Scope, Permitted operation, Done means, Required in the report, Relevant context); Ch.1 has four required elements.",
+      "source": "Compared ch10 with Ch.1 and Appendix template 1.",
+      "fix": "Replace \"in the same four-field shape\" with \"in the same shape as the appendix brief template\".",
+      "resolution": "fixed",
+      "verified": "Confirmed in new EPUB and PDF text."
+    },
+    {
+      "id": "f6",
+      "file": "ebook.json (manifest rights/authorship/contact; feeds copyright page and title page); tokens",
+      "severity": "correction",
+      "claim": "Copyright page (EPUB ch001, PDF p.2) says \"written by AI agents working for the 561 Group\", \"A 561 Group book.\", \"shop.561.group\"; title page (PDF p.1) says \"A 561 Group book\"; cover shows a \"561 GROUP\" mark. Byline/publisher are Causeway Services, so imprint is inconsistent, and \"561 Group\" is internal company vocabulary that contradicts the front-matter promise that nothing requires a particular company's internal vocabulary. The shop is also noted as not yet purchasable.",
+      "source": "Read copyright section in epub/pdf text, PDF page 1 render, cover PNG; opf shows publisher Causeway Services.",
+      "fix": "authorship: \"This book was written by AI agents and proofread by a separate AI agent.\" Remove the \"A 561 Group book.\" line and the shop.561.group line (or replace with the Causeway Services contact), remove the 'A 561 Group book' line from the title page, and drop the 561 GROUP mark from the cover (or replace with Causeway Services). Rebuild so the edition digest changes.",
+      "resolution": "declined",
+      "reason": "A 561 Group book is the house imprint on every Causeway Services edition, and Causeway Services is the 561 Group's services company, so the authorship line is an honest attribution. The front-matter promise concerns the teaching content, which never requires internal vocabulary, not the imprint. Proofer accepts."
+    },
+    {
+      "id": "f7",
+      "file": "Cover / title page / title metadata",
+      "severity": "note",
+      "claim": "No third-party marks in title, subtitle, cover, title page, dc:title, dc:creator. Cover PNG (1600x2400) and PDF pages 1-3 are legible with no clipping/overlap; TOC renders with dot leaders. Cover uses straight apostrophe, text uses curly; cosmetic.",
+      "source": "Viewed cover PNG and pdftoppm pages 1 and 3 at 60 dpi.",
+      "fix": "None required.",
+      "resolution": "declined",
+      "reason": "No change needed."
+    },
+    {
+      "id": "f8",
+      "file": "content.opf",
+      "severity": "note",
+      "claim": "dc:title The Agent Operator's Handbook; dc:creator and dc:publisher Causeway Services; dc:date 2026-09-30; language en-US; cover meta present; accessibility metadata present. dc:identifier is the ni digest, not an ISBN (fine for KDP, which assigns its own).",
+      "source": "Unzipped EPUB and read EPUB/content.opf.",
+      "fix": "None required.",
+      "resolution": "declined",
+      "reason": "No change needed."
+    },
+    {
+      "id": "f9",
+      "file": "Chapter 7 / privacy scan",
+      "severity": "note",
+      "claim": "No personal names, emails, usernames, /home paths, hostnames, private repo names, MetroPlat, FeltOS, codex-task or session ids appear in EPUB or PDF text; no U+FFFD, leftover Markdown or template tokens. Chapter 7 is generalized (\"card-game service\", roughly sixteen services, five down). Only internal vocabulary leak is 561 Group (f6).",
+      "source": "grep of both text files for those tokens plus visual read.",
+      "fix": "None required.",
+      "resolution": "declined",
+      "reason": "No change needed."
+    },
+    {
+      "id": "f10",
+      "file": "Ch.3 and Ch.9 nudge counts",
+      "severity": "note",
+      "claim": "Ch.3 says \"a fifth identical nudge\"; Ch.9 says \"Don't send a sixth ... than the first five got\". Not contradictory, but the counts drift and the rule is 'one nudge'.",
+      "source": "Reading.",
+      "fix": "Optional: Ch.9 \"Don't send another 'are you still there?' hoping for a different result than the first got.\"",
+      "resolution": "fixed",
+      "verified": "Confirmed in new EPUB and PDF text."
+    },
+    {
+      "id": "f11",
+      "file": "Ch.3 (steering, children) and Glossary",
+      "severity": "note",
+      "claim": "Stated as universal fact: steering messages queue until the next tool call, and stopping a parent agent does not stop its child agents. Behavior varies by tool and version; the front matter says the book is tool-agnostic. Not false as a general caution, but unverified for named products.",
+      "source": "Not verifiable from the text; product behavior differs.",
+      "fix": "Optional: prefix with \"In most current tools,\" (Ch.3 'A message queues; it does not interrupt' and 'Stopping an agent, and its children').",
+      "resolution": "fixed",
+      "verified": "Confirmed in new EPUB and PDF text."
+    },
+    {
+      "id": "f12",
+      "file": "Ch.2 and Ch.7 real-incident claims",
+      "severity": "note",
+      "claim": "Ch.2 ('a real, documented version of this failure ... eight parallel agents') and Ch.7 present unverifiable real incidents as fact; they are anonymized and harmless, but cannot be checked by a reader.",
+      "source": "Reading; no identifying data.",
+      "fix": "None required.",
+      "resolution": "declined",
+      "reason": "No change needed."
+    },
+    {
+      "id": "f13",
+      "file": "Ch.5 worked example",
+      "severity": "note",
+      "claim": "Agent A says the spike began eleven minutes before the deploy completed; the text concludes this points away from the deploy, though a deploy could have started earlier. A reader may quibble.",
+      "source": "Reading.",
+      "fix": "Optional: change \"before the deploy completed\" to \"before the deploy started\".",
+      "resolution": "fixed",
+      "verified": "Confirmed in new EPUB and PDF text."
+    },
+    {
+      "id": "f14",
+      "file": "Copyright page",
+      "severity": "note",
+      "claim": "\"All rights reserved in whatever of this book copyright protects\" and the raw \"Edition ni:///sha-256;...\" digest line are odd for a paying reader. The AI-authorship line is honest; remember KDP's AI-generated-content disclosure must be answered in the KDP form.",
+      "source": "Reading.",
+      "fix": "None required.",
+      "resolution": "declined",
+      "reason": "No change needed."
+    },
+    {
+      "id": "f15",
+      "file": "Ch.2 wording",
+      "severity": "note",
+      "claim": "Term \"lots\" and \"completest\" are unusual; \"lots\" is never defined.",
+      "source": "Reading.",
+      "fix": "Optional: define lot at first use in Ch.2 (\"lots, meaning the pieces you divide the task into\").",
+      "resolution": "fixed",
+      "verified": "Confirmed in new EPUB and PDF text."
+    }
+  ]
+}

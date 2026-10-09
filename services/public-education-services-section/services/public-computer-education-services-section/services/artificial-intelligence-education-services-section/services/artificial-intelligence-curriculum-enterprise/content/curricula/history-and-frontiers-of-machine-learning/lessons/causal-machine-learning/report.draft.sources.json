@@ -1,0 +1,25 @@
+{
+  "draftSha256": "ea4c3729b5fb7fc4543be89b2cce4062f187493ae69f692c4e86108e284fa304",
+  "searches": 5,
+  "exchanges": [
+    {
+      "outcome": "completion",
+      "recordedAt": "2026-10-08T07:08:40.934Z",
+      "completedSearches": 5,
+      "model": "gpt-5.6-sol",
+      "citedUrls": [
+        "https://proceedings.mlr.press/r0/pearl95a.html",
+        "https://miguelhernan.org/s/hernanrobins_WhatIf_2jan25.pdf",
+        "https://lies.mat.uc.cl/wp-content/uploads/2020/12/Haavelmo1944.pdf",
+        "https://csss.uw.edu/research/working-papers/key-advances-history-structural-equation-modeling",
+        "https://arxiv.org/abs/1907.02893",
+        "https://arxiv.org/abs/1501.01332",
+        "https://arxiv.org/abs/2007.01434",
+        "https://arxiv.org/abs/1301.0608",
+        "https://doi.org/10.1093/biomet/70.1.41",
+        "https://pubmed.ncbi.nlm.nih.gov/20335814/"
+      ]
+    }
+  ],
+  "evidence": []
+}
