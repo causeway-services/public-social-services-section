@@ -107,6 +107,21 @@
         "water-supply",
         "urban-climate"
       ]
+    },
+    {
+      "id": "san-francisco",
+      "title": "San Francisco: Climate History and Outlook",
+      "question": "How have historical temperature fluctuations, precipitation trends, fog patterns, and sea-level rise impacted San Francisco’s climate profile, and what are the projected changes in coastal flooding risk, heat extremes, and water availability for the next 50 years?",
+      "whyItMayMatter": "San Francisco’s dense urban core, iconic coastline, and reliance on imported water make understanding its climate trajectory essential for flood mitigation planning, heat‑related public‑health strategies, and sustainable water‑resource management in a region facing rising sea levels and shifting fog regimes.",
+      "tags": [
+        "san-francisco",
+        "california",
+        "climate-history",
+        "future-projections",
+        "coastal-flooding",
+        "fog-patterns",
+        "water-supply"
+      ]
     }
   ],
   "audience": "Curious adults seeking source-grounded explanations"

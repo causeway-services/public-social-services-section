@@ -1,0 +1,26 @@
+{
+  "draftSha256": "920fcaab67228fc7e97d1f75e154b38ed4d1d7d6f6d5a56766b69c5e044546ba",
+  "searches": 6,
+  "exchanges": [
+    {
+      "outcome": "completion",
+      "recordedAt": "2026-10-09T13:23:49.980Z",
+      "completedSearches": 6,
+      "model": "gpt-5.6-sol",
+      "citedUrls": [
+        "https://www.ncei.noaa.gov/pub/access/cebrequests/2023lcdannual/01202313SFOC.pdf",
+        "https://www.ncei.noaa.gov/access/services/data/v1?dataset=normals-monthly-1991-2020&endDate=9996-12-31&format=pdf&startDate=0001-01-01&stations=USW00023234",
+        "https://media.api.sf.gov/documents/HAQR-2305221_0.pdf",
+        "https://repository.library.noaa.gov/view/noaa/7276",
+        "https://www.mdpi.com/2225-1154/6/2/31",
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC2822705/",
+        "https://www.energy.ca.gov/sites/default/files/2019-11/Reg_Report-SUM-CCCA4-2018-005_SanFranciscoBayArea_ADA.pdf",
+        "https://tidesandcurrents.noaa.gov/publications/tech_rpt_57.pdf",
+        "https://default.sfplanning.org/plans-and-programs/planning-for-the-city/sea-level-rise/SLRVCA_Report_02.pdf",
+        "https://www.sfpuc.gov/about-us/reports/long-term-vulnerability-assessment",
+        "https://files.ceqanet.lci.ca.gov/288889-2/attachment/y4yRq7T82kF2LEf0NwaPPgkyIqUFsfYwHOnUbu-1fa2IxVYVyLpi5c9rjvRi7d7bJK2uNZYcxBmVYY_L0"
+      ]
+    }
+  ],
+  "evidence": []
+}
