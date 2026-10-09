@@ -1,0 +1,35 @@
+{
+  "type": "EbookEditionAcceptance",
+  "version": 1,
+  "status": "accepted",
+  "editionInputDigest": "ni:///sha-256;Yrt5q6LR8iyK2uQkqhn0aNtc_hXkTY54Jxokubl7kLw",
+  "artifacts": {
+    "epub": {
+      "path": "/home/emsenn/info/lib/emsenn/services/561-group/services/public-services-section/services/public-social-services-section/services/public-education-services-section/services/public-business-education-services-section/data/state/editions/project-management-course-by-course/project-management-course-by-course.epub",
+      "bytes": 171410,
+      "sha256": "ni:///sha-256;ZfaZCe78nT-wd4pW8QX48Cz6js7fC6LufwqD_0RRFcg"
+    },
+    "screenPdf": {
+      "path": "/home/emsenn/info/lib/emsenn/services/561-group/services/public-services-section/services/public-social-services-section/services/public-education-services-section/services/public-business-education-services-section/data/state/editions/project-management-course-by-course/project-management-course-by-course.pdf",
+      "bytes": 256149,
+      "sha256": "ni:///sha-256;9yblmBmK68SkWyoo50i2JHREMqNd8VDbiMq4KAXiJ28"
+    },
+    "buildRecordDigest": "ni:///sha-256;WNHL2Pfiecujf-Z99Bkqzi4g3CfO4OWHN8jRNv9xkYw"
+  },
+  "closedObligationIds": [
+    "editorial-proof"
+  ],
+  "pendingAcceptanceObligationIds": [],
+  "proof": {
+    "digest": "ni:///sha-256;O6KJIJsNBzwd0QMOUd7tm5lKl7yWqsc0hGfLFEuoykg",
+    "proofer": "independent proofreading agent (claude-opus-5-5 subagent)",
+    "provedAt": "2026-09-30T01:18:44Z",
+    "method": "Recomputed sha256 of the new EPUB and screen PDF, encoded as unpadded base64url; both match stage.json. Read epub.diff (10 changed lines) and pdf.diff (57 changed lines) in full. Every changed line is explained by the intended changes: title-page and colophon author/publisher/date, the added 'Start of Content' landmark, the 'Who wrote it' sentence, the new subtitle, the changed build-record hash, and reflow effects (re-wrapped paragraph, blank verso pages that no longer carry a running head, bullet indentation or a slightly moved line/page break, all with identical words). Unzipped the EPUB and read content.opf: dc:title, dc:creator and dc:publisher are as expected, dc:date 2026-09-29, language en-US. Series metadata: belongs-to-collection \"Causeway Study Companions\" (series, group-position matches the book number). Read title_page.xhtml (shows title, subtitle, Causeway Services as author and again as publisher, date). Looked at the cover PNG and rendered PDF pages 1, 2, 3 and 9 at 60 dpi: cover and title page show the new title, subtitle and Causeway Services byline legibly with nothing clipped or overlapping; the colophon shows Drafted 2026 . 09 . 29; page 9 is ordinary body text with the running head. Trademark check of title, subtitle, cover, title page, running heads, OPF and nav found no named third-party marks in those places (see notes for remaining slug/TOC items). Grepped current texts for '561 Group Study Companions', U+FFFD, template tokens, Markdown markers and straight quotes in added lines: none introduced (hits for '#' are code comments or table headers already in the prior text). The body text is otherwise unchanged from the prior accepted edition (proof digest ni:///sha-256;xXNZSctMaj1dCxmL6WZ1spzUF3NqGysO5S6qWDGO4oI), whose full proof stands for it.",
+    "findings": {
+      "errors": 0,
+      "corrections": 0,
+      "notes": 3
+    }
+  },
+  "acceptedAt": "2026-09-30T01:19:16.597Z"
+}

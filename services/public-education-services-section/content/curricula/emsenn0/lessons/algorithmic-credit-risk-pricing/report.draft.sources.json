@@ -1,0 +1,27 @@
+{
+  "draftSha256": "06838afaa985c08c61c3e97d73a5a7d6aebde7c1f71f540fda296c4403fd6bcf",
+  "searches": 6,
+  "exchanges": [
+    {
+      "outcome": "completion",
+      "recordedAt": "2026-10-04T15:20:23.041Z",
+      "completedSearches": 6,
+      "model": "gpt-5.6-sol",
+      "citedUrls": [
+        "https://www.consumerfinance.gov/ask-cfpb/what-is-a-credit-score-en-315/",
+        "https://www.ftc.gov/business-guidance/resources/using-consumer-reports-credit-decisions-what-know-about-adverse-action-and-risk-based-pricing-notices",
+        "https://www.federalreserve.gov/boarddocs/rptcongress/creditscore/performance.htm",
+        "https://www.federalreserve.gov/boarddocs/rptcongress/creditscore/overview.htm",
+        "https://files.consumerfinance.gov/f/documents/cfpb_update-credit-invisibles-estimate_2025-06.pdf",
+        "https://www.consumerfinance.gov/data-research/research-reports/technical-correction-and-update-to-the-cfpbs-credit-invisibles-estimate/",
+        "https://www.federalreserve.gov/boarddocs/rptcongress/creditscore/executivesummary.htm",
+        "https://www.ftc.gov/system/files/documents/reports/big-data-tool-inclusion-or-exclusion-understanding-issues/160106big-data-rpt.pdf",
+        "https://www.consumerfinance.gov/archive/blog/credit-scores-only-tells-part-of-the-story-cashflow-data/",
+        "https://www.nber.org/papers/w25943",
+        "https://www.justice.gov/crt/equal-credit-opportunity-act-3",
+        "https://www.consumerfinance.gov/compliance/circulars/circular-2022-03-adverse-action-notification-requirements-in-connection-with-credit-decisions-based-on-complex-algorithms/"
+      ]
+    }
+  ],
+  "evidence": []
+}

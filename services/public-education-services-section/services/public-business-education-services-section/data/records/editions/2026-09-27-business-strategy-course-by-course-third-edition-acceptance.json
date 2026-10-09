@@ -1,0 +1,35 @@
+{
+  "type": "EbookEditionAcceptance",
+  "version": 1,
+  "status": "accepted",
+  "editionInputDigest": "ni:///sha-256;-UIG5LD-R675pbqb4b-jfEndf0Gws-Bc_f57t6QefDU",
+  "artifacts": {
+    "epub": {
+      "path": "/home/emsenn/info/lib/emsenn/services/561-group/services/public-services-section/services/public-social-services-section/services/public-education-services-section/services/public-business-education-services-section/data/state/editions/business-strategy-course-by-course/business-strategy-course-by-course.epub",
+      "bytes": 144243,
+      "sha256": "ni:///sha-256;elWUpkKVNQ734fCChY7Os72PcFc2EWDg2cYE7VB4gBQ"
+    },
+    "screenPdf": {
+      "path": "/home/emsenn/info/lib/emsenn/services/561-group/services/public-services-section/services/public-social-services-section/services/public-education-services-section/services/public-business-education-services-section/data/state/editions/business-strategy-course-by-course/business-strategy-course-by-course.pdf",
+      "bytes": 177212,
+      "sha256": "ni:///sha-256;AF0jdlYOyxKmEFTY_0UIy4IWzkluSZxRm0YPpNCfnaU"
+    },
+    "buildRecordDigest": "ni:///sha-256;jqwFXO4TG0WOKvY_0F9E-mMhCjoimaqWco8xMv89n64"
+  },
+  "closedObligationIds": [
+    "editorial-proof"
+  ],
+  "pendingAcceptanceObligationIds": [],
+  "proof": {
+    "digest": "ni:///sha-256;rPr7T4DhagSpduBWVif7VdDDd7npaOw0I8Mj1GRuM_c",
+    "proofer": "independent proofreading agent (claude-opus-5-5 subagent)",
+    "provedAt": "2026-09-27T22:44:00Z",
+    "method": "Carried from the proof of edition ni:///sha-256;aKVAg6hPI5IlFJ3X2VGG8I0nVT2VOxlsCTpvyXkdNjg (proof ni:///sha-256;feI2_VacRB5G1KbihxrEhuFcfy2k7oHbjc13G_veVAc): this edition's extracted text equals that edition's (EPUB ni:///sha-256;wLyRpzM7FYzXKxuNILHR2i_3lIBtjUl0z3L2wAIXbU8, PDF ni:///sha-256;vT9fALzA1cATkCuhTKpKymbACe3SW3TlNbsT0NhgXwk, the colophon's build digest set aside), so the findings read on it hold here. The original pass: Carried from the proof of edition ni:///sha-256;aREkNtXcwKbrmm1tOoi3nyu6AmY1OZBv0zeMWvI_JyU (proof ni:///sha-256;OjZUpxSt7Qcnb073B1eSSn0KHp2o54rC4Wi6FVBDOig): this edition's extracted text equals that edition's (EPUB ni:///sha-256;wLyRpzM7FYzXKxuNILHR2i_3lIBtjUl0z3L2wAIXbU8, PDF ni:///sha-256;vT9fALzA1cATkCuhTKpKymbACe3SW3TlNbsT0NhgXwk, the colophon's build digest set aside), so the findings read on it hold here. The original pass: Re-read the full new extracted PDF text (business-strategy-course-by-course-edition-final3.txt) against the manuscript to verify f16-f18's claimed fixes: checked the reworded Disintermediation definition against 6.6's body text, confirmed \"winner-take-all\" is now used and glossed non-circularly with a matching body introduction in 6.4, checked the four new chapter-6 glossary entries (platform governance, price structure, seeding, subsidy side) against their basis in the 6.3/6.5/6.7 body text, re-verified glossary alphabetical order still holds with the new insertions, and rendered pages 42 and 53-56 of the new PDF (pdftoppm, 120dpi) to confirm no layout regression from the added text.",
+    "findings": {
+      "errors": 0,
+      "corrections": 17,
+      "notes": 1
+    }
+  },
+  "acceptedAt": "2026-09-28T03:30:28.426Z"
+}

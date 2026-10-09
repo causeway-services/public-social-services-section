@@ -1,0 +1,85 @@
+{
+  "carrierFile": "../lessons/information-and-entropy/report.md",
+  "courseId": "causality-and-kinematic-space",
+  "lessonId": "information-and-entropy",
+  "citations": [
+    {
+      "id": "ryu-takayanagi-2006-entanglement",
+      "title": "Holographic Derivation of Entanglement Entropy from AdS/CFT",
+      "authors": [
+        "Shinsei Ryu",
+        "Tadashi Takayanagi"
+      ],
+      "publisher": "Physical Review Letters / arXiv",
+      "url": "https://arxiv.org/abs/hep-th/0603001",
+      "kind": "primary-research-paper"
+    },
+    {
+      "id": "hubeny-rangamani-takayanagi-2007-covariant",
+      "title": "A Covariant holographic entanglement entropy proposal",
+      "authors": [
+        "Veronika E. Hubeny",
+        "Mukund Rangamani",
+        "Tadashi Takayanagi"
+      ],
+      "publisher": "JHEP / arXiv",
+      "url": "https://arxiv.org/abs/0705.0016",
+      "kind": "primary-research-paper"
+    },
+    {
+      "id": "czech-et-al-2015-integral-geometry",
+      "title": "Integral Geometry and Holography",
+      "authors": [
+        "Bartłomiej Czech",
+        "Lampros Lamprou",
+        "Samuel McCandlish",
+        "James Sully"
+      ],
+      "publisher": "JHEP / arXiv",
+      "url": "https://arxiv.org/abs/1505.05515",
+      "kind": "primary-research-paper"
+    }
+  ],
+  "claims": [
+    {
+      "statement": "Static and covariant holographic entanglement prescriptions relate boundary-region entropy to bulk minimal or extremal surfaces under specific assumptions.",
+      "warrants": [
+        "ryu-takayanagi-2006-entanglement",
+        "hubeny-rangamani-takayanagi-2007-covariant"
+      ],
+      "scope": "leading holographic prescriptions in the cited AdS/CFT settings"
+    },
+    {
+      "statement": "Mixed endpoint derivatives of interval entropy define a kinematic density with an infinitesimal conditional-mutual-information interpretation.",
+      "warrants": [
+        "czech-et-al-2015-integral-geometry"
+      ],
+      "scope": "the source's two-dimensional holographic interval construction"
+    },
+    {
+      "statement": "Integrating the associated Crofton form over intersecting geodesics reconstructs bulk curve length in the relevant geometry.",
+      "warrants": [
+        "czech-et-al-2015-integral-geometry"
+      ],
+      "scope": "the cited integral-geometric normalization and reconstruction class"
+    }
+  ],
+  "limitations": [
+    "Entropy, entropy derivatives, conditional mutual information, Crofton measure, and length are linked but nonidentical quantities.",
+    "Regulators, state dependence, and quantum or higher-curvature corrections are outside this packet's leading treatment.",
+    "No general claim is made that increasing entropy increases ordinary physical distance."
+  ],
+  "reuseGrant": [
+    "gemini-notebook-transformation",
+    "mathematics-curriculum",
+    "public-youtube-release"
+  ],
+  "correctionIdentity": "urn:emsenn:corrections:mathematics-research:information-and-entropy:v1",
+  "internalTransfer": {
+    "legalBodyRelation": "same-legal-body",
+    "accountingUnit": "USD-micros",
+    "allocatedCostMicros": 250000,
+    "cashSettlementRequired": false,
+    "status": "internal-cost-allocation-admitted"
+  }
+}

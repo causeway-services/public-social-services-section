@@ -1,0 +1,75 @@
+{
+  "at": "2026-09-26T15:02:03.436Z",
+  "grounding": {
+    "completed": true,
+    "completedSearches": 6,
+    "sources": [
+      {
+        "uri": "https://arxiv.org/html/1505.05515#S1.SS1"
+      },
+      {
+        "uri": "https://arxiv.org/html/1505.05515#S1.SS2"
+      },
+      {
+        "uri": "https://arxiv.org/html/1302.5790"
+      },
+      {
+        "uri": "https://arxiv.org/html/1505.05515#S2.SS4"
+      },
+      {
+        "uri": "https://arxiv.org/abs/hep-th/0603001"
+      },
+      {
+        "uri": "https://arxiv.org/html/1505.05515#S2.SS1"
+      },
+      {
+        "uri": "https://arxiv.org/html/1505.05515#S2.SS3"
+      },
+      {
+        "uri": "https://arxiv.org/html/1905.07413#S4.SS1"
+      },
+      {
+        "uri": "https://arxiv.org/html/1905.07413#S5"
+      },
+      {
+        "uri": "https://arxiv.org/html/1302.5790#S5"
+      },
+      {
+        "uri": "https://arxiv.org/abs/1505.05515"
+      },
+      {
+        "uri": "https://arxiv.org/abs/1302.5790"
+      },
+      {
+        "uri": "https://arxiv.org/abs/1905.07413"
+      }
+    ]
+  },
+  "inference": {
+    "model": "gpt-5.6-sol",
+    "provider": "codex",
+    "exchanges": [
+      {
+        "outcome": "completion",
+        "recordedAt": "2026-09-26T15:02:03.367Z",
+        "completedSearches": 6,
+        "model": "gpt-5.6-sol",
+        "citedUrls": [
+          "https://arxiv.org/html/1505.05515#S1.SS1",
+          "https://arxiv.org/html/1505.05515#S1.SS2",
+          "https://arxiv.org/html/1302.5790",
+          "https://arxiv.org/html/1505.05515#S2.SS4",
+          "https://arxiv.org/abs/hep-th/0603001",
+          "https://arxiv.org/html/1505.05515#S2.SS1",
+          "https://arxiv.org/html/1505.05515#S2.SS3",
+          "https://arxiv.org/html/1905.07413#S4.SS1",
+          "https://arxiv.org/html/1905.07413#S5",
+          "https://arxiv.org/html/1302.5790#S5",
+          "https://arxiv.org/abs/1505.05515",
+          "https://arxiv.org/abs/1302.5790",
+          "https://arxiv.org/abs/1905.07413"
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "slug": "the-agent-operators-handbook",
+  "title": "The Agent Operator's Handbook",
+  "subtitle": "A Field Guide to Dispatching, Steering, and Recovering Multiple AI Coding Agents at Once",
+  "author": "Causeway Services",
+  "publisher": "Causeway Services",
+  "date": "2026-09-30",
+  "bookDir": ".",
+  "distDir": "../../../data/state/editions/the-agent-operators-handbook",
+  "tokens": "../../../../../../../../../../../../../../561-group-services-section/services/561-group-content-design-services-section/data/records/design-tokens/561-group.tokens.json",
+  "cover": "typographic",
+  "description": "A field guide to operating several AI coding agents at once: writing the complete brief, when to split work and when not to, steering a running agent, recovering an interrupted one, and reading its report.",
+  "keywords": [
+    "AI coding agents",
+    "agentic coding",
+    "AI pair programming",
+    "multi-agent workflow",
+    "prompt engineering",
+    "software engineering workflow",
+    "developer productivity"
+  ],
+  "subjects": [
+    "COM004000",
+    "COM051230",
+    "COM100000"
+  ],
+  "marks": [
+    "Claude Code",
+    "Codex",
+    "Claude",
+    "OpenAI",
+    "Anthropic"
+  ],
+  "rights": {
+    "holder": "Causeway Services",
+    "year": 2026,
+    "reservation": "All rights reserved in whatever of this book copyright protects.",
+    "authorship": "This book was written by AI agents working for the 561 Group and proofread by a separate AI agent.",
+    "contact": "shop.561.group"
+  }
+}

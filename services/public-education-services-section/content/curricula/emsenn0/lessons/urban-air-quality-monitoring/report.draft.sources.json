@@ -1,0 +1,24 @@
+{
+  "draftSha256": "22a19cdb5784f7ad70ef2d4a71cb7ab7cdc5c0dd1c978e6da07b931975486772",
+  "searches": 3,
+  "exchanges": [
+    {
+      "outcome": "completion",
+      "recordedAt": "2026-10-08T07:15:50.344Z",
+      "completedSearches": 3,
+      "model": "gpt-5.6-sol",
+      "citedUrls": [
+        "https://www.london.gov.uk/programmes-and-strategies/environment-and-climate-change/pollution-and-air-quality/monitoring-and-predicting-air-pollution",
+        "https://www.epa.gov/air-sensor-toolbox/air-sensor-use-and-study-design",
+        "https://www.epa.gov/air-sensor-toolbox/frequent-questions-about-air-sensors",
+        "https://www.epa.gov/air-sensor-toolbox/air-sensor-collocation-instruction-guide",
+        "https://nepis.epa.gov/Exe/ZyPURL.cgi?Dockey=P1017AWL.TXT",
+        "https://www.london.gov.uk/who-we-are/governance-and-spending/promoting-good-governance/decision-making/decisions/md3217-breathe-london-network-continuation",
+        "https://ww2.arb.ca.gov/sites/default/files/2025-09/Community_Air_Protection_Program_by_the_Numbers_2025.pdf",
+        "https://ww2.arb.ca.gov/our-work/programs/community-air-protection-program/community-air-monitoring/community-air",
+        "https://ww2.arb.ca.gov/sites/default/files/2023-09/Community%20Air%20Protection%20Program_Final%20Guidance_Stipends.pdf"
+      ]
+    }
+  ],
+  "evidence": []
+}

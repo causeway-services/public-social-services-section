@@ -1,0 +1,33 @@
+{
+  "type": "EbookEditionProof",
+  "version": 1,
+  "editionInputDigest": "ni:///sha-256;QqXkBzuCLPCC2vy1uaAkwaZ5805sz8MQOYJFNU7pKQA",
+  "artifacts": {
+    "epub": "ni:///sha-256;U4BTbKN4a0uD_iTG25Dt9F-x_r9xhKuBalNShgsHnUc",
+    "screenPdf": "ni:///sha-256;QIg4sA4g9QOBilCvbU2H89KAjR6Q4o_HVnHPUsRL834"
+  },
+  "proofer": "independent proofreading agent (claude-opus-5-5 subagent)",
+  "writer": "claude-opus-5-5 writing session 7ebe0b88",
+  "provedAt": "2026-09-30T01:18:44Z",
+  "method": "Recomputed sha256 of the new EPUB and screen PDF, encoded as unpadded base64url; both match stage.json. Read epub.diff (10 changed lines) and pdf.diff (41 changed lines) in full. Every changed line is explained by the intended changes: title-page and colophon author/publisher/date, the added 'Start of Content' landmark, the 'Who wrote it' sentence, the new subtitle, the changed build-record hash, and reflow effects (re-wrapped paragraph, blank verso pages that no longer carry a running head, bullet indentation or a slightly moved line/page break, all with identical words). Unzipped the EPUB and read content.opf: dc:title, dc:creator and dc:publisher are as expected, dc:date 2026-09-29, language en-US. Series metadata: belongs-to-collection \"Causeway Study Companions\" (series, group-position matches the book number). Read title_page.xhtml (shows title, subtitle, Causeway Services as author and again as publisher, date). Looked at the cover PNG and rendered PDF pages 1, 2, 3 and 9 at 60 dpi: cover and title page show the new title, subtitle and Causeway Services byline legibly with nothing clipped or overlapping; the colophon shows Drafted 2026 . 09 . 29; page 9 is ordinary body text with the running head. Trademark check of title, subtitle, cover, title page, running heads, OPF and nav found no named third-party marks in those places (see notes for remaining slug/TOC items). Grepped current texts for '561 Group Study Companions', U+FFFD, template tokens, Markdown markers and straight quotes in added lines: none introduced (hits for '#' are code comments or table headers already in the prior text). The body text is otherwise unchanged from the prior accepted edition (proof digest ni:///sha-256;SYKYfuMH_326LKW7MXCtHWyEOAN1A9BVMIyrs3rD0E0), whose full proof stands for it.",
+  "findings": [
+    {
+      "id": "f1",
+      "file": "title_page.xhtml",
+      "severity": "note",
+      "claim": "Title page now lists Causeway Services twice, once as author and once as publisher (prior showed the author only). Accurate to the metadata but visually repetitive.",
+      "source": "proofreading of title page, cover and PDF page 1/2",
+      "fix": "None required; optionally suppress the publisher line on the title page.",
+      "resolution": "open"
+    },
+    {
+      "id": "f2",
+      "file": "cover image / PDF title page and colophon",
+      "severity": "note",
+      "claim": "Cover shows the '561 GROUP' logo mark and the PDF title page and colophon say 'A 561 Group book' beneath the Causeway Services byline. Consistent with the parent-company wording of the About text; no change requested.",
+      "source": "proofreading of title page, cover and PDF page 1/2",
+      "fix": "None required.",
+      "resolution": "open"
+    }
+  ]
+}

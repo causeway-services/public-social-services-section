@@ -1,0 +1,55 @@
+{
+  "at": "2026-10-01T15:27:59.292Z",
+  "grounding": {
+    "completed": true,
+    "completedSearches": 3,
+    "sources": [
+      {
+        "uri": "https://www.hhs.gov/guidance/sites/default/files/hhs-guidance-documents/FDA/Design-Control-Guidance-For-Medical-Device-Manufacturers.pdf"
+      },
+      {
+        "uri": "https://www.microsoft.com/en-us/research/publication/online-experimentation-at-microsoft/"
+      },
+      {
+        "uri": "https://www.designcouncil.org.uk/resources/the-double-diamond/"
+      },
+      {
+        "uri": "https://agilemanifesto.org/principles"
+      },
+      {
+        "uri": "https://doi.org/10.1287/mnsc.47.2.308.9838"
+      },
+      {
+        "uri": "https://www.nist.gov/programs-projects/nistsematech-engineering-statistics-handbook"
+      },
+      {
+        "uri": "https://www.microsoft.com/en-us/research/publication/diagnosing-sample-ratio-mismatch-in-online-controlled-experiments-a-taxonomy-and-rules-of-thumb-for-practitioners/"
+      },
+      {
+        "uri": "https://www.gov.uk/service-manual/service-standard/point-4-make-the-service-simple-to-use"
+      }
+    ]
+  },
+  "inference": {
+    "model": "gpt-5.6-sol",
+    "provider": "codex",
+    "exchanges": [
+      {
+        "outcome": "completion",
+        "recordedAt": "2026-10-01T15:27:59.285Z",
+        "completedSearches": 3,
+        "model": "gpt-5.6-sol",
+        "citedUrls": [
+          "https://www.hhs.gov/guidance/sites/default/files/hhs-guidance-documents/FDA/Design-Control-Guidance-For-Medical-Device-Manufacturers.pdf",
+          "https://www.microsoft.com/en-us/research/publication/online-experimentation-at-microsoft/",
+          "https://www.designcouncil.org.uk/resources/the-double-diamond/",
+          "https://agilemanifesto.org/principles",
+          "https://doi.org/10.1287/mnsc.47.2.308.9838",
+          "https://www.nist.gov/programs-projects/nistsematech-engineering-statistics-handbook",
+          "https://www.microsoft.com/en-us/research/publication/diagnosing-sample-ratio-mismatch-in-online-controlled-experiments-a-taxonomy-and-rules-of-thumb-for-practitioners/",
+          "https://www.gov.uk/service-manual/service-standard/point-4-make-the-service-simple-to-use"
+        ]
+      }
+    ]
+  }
+}

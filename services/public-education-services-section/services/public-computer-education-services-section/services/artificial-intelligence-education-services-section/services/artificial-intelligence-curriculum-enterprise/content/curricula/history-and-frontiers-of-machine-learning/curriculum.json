@@ -1,0 +1,346 @@
+{
+  "courseId": "history-and-frontiers-of-machine-learning",
+  "revision": 1,
+  "title": "History and Frontiers of Machine Learning",
+  "promise": "Enable an already technically literate learner to connect the field's historical programs to current architectures, evaluation failures, scientific disputes, infrastructure constraints, and credible research frontiers.",
+  "audience": "advanced students, researchers, and practitioners",
+  "competencies": [
+    {
+      "id": "historical-programs",
+      "description": "Distinguish major programs of machine intelligence and their institutional contexts."
+    },
+    {
+      "id": "learning-theory",
+      "description": "Relate empirical learning systems to statistical assumptions and generalization claims."
+    },
+    {
+      "id": "architecture",
+      "description": "Explain how representations, objectives, data, compute, and architecture interact."
+    },
+    {
+      "id": "evaluation",
+      "description": "Assay benchmark, robustness, safety, and deployment evidence without collapsing warrant."
+    },
+    {
+      "id": "frontier-mapping",
+      "description": "Map frontier claims to unresolved technical, economic, and governance constraints."
+    }
+  ],
+  "correctionPolicy": "append a new course revision; never edit admitted lesson truth in place",
+  "lessons": [
+    {
+      "id": "cybernetics-computation-symbolic-ai",
+      "sequence": 1,
+      "title": "Cybernetics, Computation, and Symbolic AI",
+      "prerequisites": [],
+      "competencies": [
+        "historical-programs"
+      ],
+      "researchProductClasses": [
+        "primary-history",
+        "technical-retrospective"
+      ],
+      "freshnessDays": 3650,
+      "brief": "briefs/cybernetics-computation-symbolic-ai.v1.json",
+      "report": "reports/cybernetics-computation-symbolic-ai.md",
+      "manifest": "reports/cybernetics-computation-symbolic-ai.v1.json",
+      "sources": [
+        {
+          "id": "wiener-1948-cybernetics",
+          "title": "Cybernetics: Or Control and Communication in the Animal and the Machine",
+          "authors": [
+            "Norbert Wiener"
+          ],
+          "published": 1948,
+          "url": "https://mitpress.mit.edu/9780262730099/cybernetics/",
+          "kind": "primary-book"
+        },
+        {
+          "id": "mcculloch-pitts-1943-logical-calculus",
+          "title": "A Logical Calculus of the Ideas Immanent in Nervous Activity",
+          "authors": [
+            "Warren S. McCulloch",
+            "Walter Pitts"
+          ],
+          "published": 1943,
+          "url": "https://doi.org/10.1007/BF02478259",
+          "kind": "primary-paper"
+        },
+        {
+          "id": "turing-1950-computing-machinery",
+          "title": "Computing Machinery and Intelligence",
+          "authors": [
+            "A. M. Turing"
+          ],
+          "published": 1950,
+          "url": "https://doi.org/10.1093/mind/LIX.236.433",
+          "kind": "primary-paper"
+        },
+        {
+          "id": "newell-shaw-simon-1957-logic-theory",
+          "title": "Empirical Explorations with the Logic Theory Machine: A Case Study in Heuristics",
+          "authors": [
+            "Allen Newell",
+            "J. C. Shaw",
+            "Herbert A. Simon"
+          ],
+          "published": 1957,
+          "url": "https://doi.org/10.1145/1455567.1455605",
+          "kind": "primary-paper"
+        }
+      ]
+    },
+    {
+      "id": "statistics-and-statistical-learning",
+      "sequence": 2,
+      "title": "Probability, Statistics, and Statistical Learning",
+      "prerequisites": [
+        "cybernetics-computation-symbolic-ai"
+      ],
+      "competencies": [
+        "learning-theory"
+      ],
+      "researchProductClasses": [
+        "textbook-synthesis",
+        "learning-theory-survey"
+      ],
+      "freshnessDays": 1825,
+      "brief": "briefs/statistics-and-statistical-learning.v1.json",
+      "report": "reports/statistics-and-statistical-learning.md",
+      "manifest": "reports/statistics-and-statistical-learning.v1.json",
+      "sources": [
+        {
+          "id": "fisher-1922-theoretical-statistics",
+          "title": "On the Mathematical Foundations of Theoretical Statistics",
+          "authors": [
+            "R. A. Fisher"
+          ],
+          "published": 1922,
+          "url": "https://doi.org/10.1098/rsta.1922.0009",
+          "kind": "primary-paper"
+        },
+        {
+          "id": "neyman-pearson-1933-testing",
+          "title": "On the Problem of the Most Efficient Tests of Statistical Hypotheses",
+          "authors": [
+            "Jerzy Neyman",
+            "Egon S. Pearson"
+          ],
+          "published": 1933,
+          "url": "https://doi.org/10.1098/rsta.1933.0009",
+          "kind": "primary-paper"
+        },
+        {
+          "id": "vapnik-chervonenkis-1971-uniform-convergence",
+          "title": "On the Uniform Convergence of Relative Frequencies of Events to Their Probabilities",
+          "authors": [
+            "Vladimir N. Vapnik",
+            "Alexey Y. Chervonenkis"
+          ],
+          "published": 1971,
+          "url": "https://doi.org/10.1137/1116025",
+          "kind": "primary-paper"
+        },
+        {
+          "id": "breiman-2001-two-cultures",
+          "title": "Statistical Modeling: The Two Cultures",
+          "authors": [
+            "Leo Breiman"
+          ],
+          "published": 2001,
+          "url": "https://doi.org/10.1214/ss/1009213726",
+          "kind": "primary-paper"
+        }
+      ]
+    },
+    {
+      "id": "neural-networks-and-representation-learning",
+      "sequence": 3,
+      "title": "Neural Networks, Backpropagation, and Representation Learning",
+      "prerequisites": [
+        "statistics-and-statistical-learning"
+      ],
+      "competencies": [
+        "historical-programs",
+        "architecture"
+      ],
+      "researchProductClasses": [
+        "primary-paper-lineage",
+        "architecture-survey"
+      ],
+      "freshnessDays": 1095,
+      "brief": "briefs/neural-networks-and-representation-learning.v1.json",
+      "report": "lessons/neural-networks-and-representation-learning/report.md",
+      "manifest": "reports/neural-networks-and-representation-learning.v1.json",
+      "sources": [
+        {
+          "id": "rosenblatt-1958-perceptron",
+          "title": "The Perceptron: A Probabilistic Model for Information Storage and Organization in the Brain",
+          "authors": [
+            "Frank Rosenblatt"
+          ],
+          "published": 1958,
+          "url": "https://doi.org/10.1037/h0042519",
+          "kind": "primary-paper"
+        },
+        {
+          "id": "rumelhart-hinton-williams-1986-backpropagation",
+          "title": "Learning Representations by Back-Propagating Errors",
+          "authors": [
+            "David E. Rumelhart",
+            "Geoffrey E. Hinton",
+            "Ronald J. Williams"
+          ],
+          "published": 1986,
+          "url": "https://doi.org/10.1038/323533a0",
+          "kind": "primary-paper"
+        },
+        {
+          "id": "lecun-bottou-bengio-haffner-1998-document-recognition",
+          "title": "Gradient-Based Learning Applied to Document Recognition",
+          "authors": [
+            "Yann LeCun",
+            "Léon Bottou",
+            "Yoshua Bengio",
+            "Patrick Haffner"
+          ],
+          "published": 1998,
+          "url": "https://doi.org/10.1109/5.726791",
+          "kind": "primary-paper"
+        },
+        {
+          "id": "bengio-courville-vincent-2013-representation-learning",
+          "title": "Representation Learning: A Review and New Perspectives",
+          "authors": [
+            "Yoshua Bengio",
+            "Aaron Courville",
+            "Pascal Vincent"
+          ],
+          "published": 2013,
+          "url": "https://doi.org/10.1109/TPAMI.2013.50",
+          "kind": "primary-survey"
+        }
+      ]
+    },
+    {
+      "id": "transformers-scaling-foundation-models",
+      "sequence": 4,
+      "title": "Attention, Transformers, Scaling, and Foundation Models",
+      "prerequisites": [
+        "neural-networks-and-representation-learning"
+      ],
+      "competencies": [
+        "architecture",
+        "evaluation"
+      ],
+      "researchProductClasses": [
+        "primary-paper-lineage",
+        "current-scaling-evidence",
+        "infrastructure-economics"
+      ],
+      "freshnessDays": 90,
+      "report": "lessons/transformers-scaling-foundation-models/report.md"
+    },
+    {
+      "id": "reinforcement-learning-planning-decision",
+      "sequence": 5,
+      "title": "Reinforcement Learning, Planning, and Decision Systems",
+      "prerequisites": [
+        "statistics-and-statistical-learning",
+        "neural-networks-and-representation-learning"
+      ],
+      "competencies": [
+        "learning-theory",
+        "architecture"
+      ],
+      "researchProductClasses": [
+        "technical-survey",
+        "current-agent-evaluation"
+      ],
+      "freshnessDays": 180
+    },
+    {
+      "id": "evaluation-generalization-robustness",
+      "sequence": 6,
+      "title": "Evaluation, Generalization, Robustness, and Distribution Shift",
+      "prerequisites": [
+        "transformers-scaling-foundation-models",
+        "reinforcement-learning-planning-decision"
+      ],
+      "competencies": [
+        "evaluation"
+      ],
+      "researchProductClasses": [
+        "benchmark-audit",
+        "robustness-survey",
+        "deployment-incident-set"
+      ],
+      "freshnessDays": 60
+    },
+    {
+      "id": "interpretability-alignment-safety-security",
+      "sequence": 7,
+      "title": "Interpretability, Alignment, Safety, and Security",
+      "prerequisites": [
+        "evaluation-generalization-robustness"
+      ],
+      "competencies": [
+        "evaluation",
+        "frontier-mapping"
+      ],
+      "researchProductClasses": [
+        "current-research-survey",
+        "threat-model",
+        "governance-comparison"
+      ],
+      "freshnessDays": 30
+    },
+    {
+      "id": "multimodality-agents-world-models",
+      "sequence": 8,
+      "title": "Frontiers: Multimodality, Agents, World Models, Compute, and Data",
+      "prerequisites": [
+        "interpretability-alignment-safety-security"
+      ],
+      "competencies": [
+        "architecture",
+        "evaluation",
+        "frontier-mapping"
+      ],
+      "researchProductClasses": [
+        "frontier-paper-map",
+        "capability-evaluation",
+        "compute-data-market-observation"
+      ],
+      "freshnessDays": 14
+    },
+    {
+      "id": "data-provenance-curation-bias",
+      "title": "Data Provenance, Curation, and Systemic Bias",
+      "question": "How do historical data collection practices and curation pipelines encode societal biases that persist in modern foundation models, and what technical or governance interventions can mitigate these inherited distortions?",
+      "whyItMayMatter": "Understanding the lineage of training data is critical for diagnosing why models fail on underrepresented groups or domains. This lesson connects the historical context of data acquisition to current evaluation failures, enabling practitioners to move beyond surface-level fairness metrics to address root causes in data infrastructure and curation strategies.",
+      "tags": [
+        "data-bias",
+        "provenance",
+        "curation",
+        "fairness",
+        "infrastructure",
+        "governance"
+      ]
+    },
+    {
+      "id": "causal-machine-learning",
+      "title": "Causal Machine Learning and Structural Modeling",
+      "question": "How do causal assumptions embedded in structural equation models and potential outcomes frameworks improve generalization, robustness, and interpretability of machine learning systems compared to purely associative learning, and what empirical methods exist to test and refine these assumptions?",
+      "whyItMayMatter": "Associative models often fail when distributions shift or when interventions are required, limiting their reliability in high-stakes domains. By integrating causal reasoning, learners can diagnose why models mispredict under distribution shifts, design interventions that yield predictable outcomes, and evaluate safety and fairness claims grounded in causal structure. This lesson connects historical programs in econometrics and psychometrics to modern ML, showing how causal tools address evaluation failures, inform architectural choices, and map frontier research on robustness, accountability, and governance.",
+      "tags": [
+        "causal-inference",
+        "structural-equation-models",
+        "generalization",
+        "robustness",
+        "interpretability",
+        "frontier-research"
+      ]
+    }
+  ]
+}

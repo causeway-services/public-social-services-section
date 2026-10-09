@@ -1,0 +1,30 @@
+{
+  "type": "KdpDeclarationsReceipt",
+  "version": 1,
+  "book": "the-agent-operators-handbook",
+  "declaredAt": "2026-09-30T02:17:55.746Z",
+  "acknowledged": true,
+  "attestedBy": "founder",
+  "attestation": "The founder attested the AI-content answers for the-agent-operators-handbook in the 2026-09-30 publishing session (\"Attest.\").",
+  "answers": {
+    "text": "AI-generated: the text was drafted by AI agents working for the 561 Group, then proofread by a separate AI agent.",
+    "images": "None AI-generated: the cover is typeset by code from the book's title and design tokens.",
+    "translations": "None."
+  },
+  "kdpForm": {
+    "text": "AI-generated: yes, the entire work",
+    "images": "none",
+    "translations": "none",
+    "note": "The most disclosing accurate option is chosen: the whole text is AI-generated and no person edited it (another AI agent proofread it); the cover is typeset by code, with no drawing or image model.",
+    "options": {
+      "text": "ENTIRE_AND_MINIMAL",
+      "images": "NONE",
+      "translations": "NONE"
+    },
+    "tools": {
+      "text": "Claude (Anthropic)"
+    },
+    "toolsProvenance": "The manuscript was drafted by Claude Sonnet 5 subagents in Claude Code (commit 5ebd4033c0f) and revised and proofread by Claude Opus 5.5; no other model wrote its text."
+  },
+  "listing": "561-group-services-section/data/records/listings/book-retail-listings.json"
+}

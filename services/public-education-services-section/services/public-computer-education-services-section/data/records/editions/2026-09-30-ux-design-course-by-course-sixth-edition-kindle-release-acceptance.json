@@ -1,0 +1,27 @@
+{
+  "kind": "sign.cell",
+  "id": "ni:///sha-256;zoO3ZnQpScV9g3xyLCJekyF2rhCiOVHdeRy15w2QAAM",
+  "type": "org.561-group.ebook.kindle-release-acceptance.v1",
+  "content": {
+    "type": "KindleReleaseAcceptance",
+    "version": 1,
+    "status": "release-ready",
+    "book": "ux-design-course-by-course",
+    "editionInputDigest": "ni:///sha-256;Tz4Lq8ElAOA_7Xe3SA7mJgXz_nrskT32PbL7-CwJY38",
+    "rendition": {
+      "kind": "EPUB",
+      "artifactSha256": "d854af788ed428b5f9e5d9f382a82724aa1f296cec30bdd164e6283cbd081722"
+    },
+    "closedObligationIds": [
+      "editorial-proof",
+      "epub-conformance",
+      "accessibility-assessment"
+    ],
+    "evidence": {
+      "editorialProof": "ni:///sha-256;mgZQMYofW6op5rhAzmjeA_zWpFySh8i5v60IaNWFVY8",
+      "validation": "ni:///sha-256;UOr-7_tXPBkqR7wDdv9ygQmqzU2HF7KNItWZQB8gfFE",
+      "conformanceReport": "967b8e11571ea2d661df1195013097d64aee79d4a0aca07eb19d2128e5e20a06",
+      "accessibilityConformanceClaim": null
+    }
+  }
+}

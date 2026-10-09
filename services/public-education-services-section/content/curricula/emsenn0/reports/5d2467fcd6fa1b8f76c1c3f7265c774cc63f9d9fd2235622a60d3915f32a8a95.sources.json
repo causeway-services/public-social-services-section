@@ -1,0 +1,34 @@
+{
+  "sources": [
+    {
+      "id": "youtube-analytics-metrics",
+      "url": "https://developers.google.com/youtube/analytics/metrics",
+      "title": "Metrics — YouTube Analytics and Reporting APIs",
+      "publisher": "Google for Developers",
+      "rights": "CC-BY-4.0",
+      "rightsEvidenceUrl": "https://developers.google.com/terms/site-policies",
+      "rightsEvidenceNeedle": "Creative Commons Attribution 4.0",
+      "retrievedAt": "2026-07-22T12:30:00.000Z"
+    },
+    {
+      "id": "youtube-analytics-dimensions",
+      "url": "https://developers.google.com/youtube/analytics/dimensions",
+      "title": "Dimensions — YouTube Analytics and Reporting APIs",
+      "publisher": "Google for Developers",
+      "rights": "CC-BY-4.0",
+      "rightsEvidenceUrl": "https://developers.google.com/terms/site-policies",
+      "rightsEvidenceNeedle": "Creative Commons Attribution 4.0",
+      "retrievedAt": "2026-07-22T12:30:00.000Z"
+    },
+    {
+      "id": "youtube-analytics-query",
+      "url": "https://developers.google.com/youtube/analytics/reference/reports/query",
+      "title": "Reports: Query — YouTube Analytics and Reporting APIs",
+      "publisher": "Google for Developers",
+      "rights": "CC-BY-4.0",
+      "rightsEvidenceUrl": "https://developers.google.com/terms/site-policies",
+      "rightsEvidenceNeedle": "Creative Commons Attribution 4.0",
+      "retrievedAt": "2026-07-22T12:30:00.000Z"
+    }
+  ]
+}

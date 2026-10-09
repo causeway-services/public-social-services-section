@@ -1,0 +1,51 @@
+{
+  "at": "2026-09-20T17:20:01.066Z",
+  "grounding": {
+    "completed": true,
+    "completedSearches": 4,
+    "sources": [
+      {
+        "uri": "https://arxiv.org/abs/1706.03762"
+      },
+      {
+        "uri": "https://arxiv.org/abs/2205.14135"
+      },
+      {
+        "uri": "https://arxiv.org/abs/1810.04805"
+      },
+      {
+        "uri": "https://arxiv.org/abs/2005.14165"
+      },
+      {
+        "uri": "https://arxiv.org/abs/2001.08361"
+      },
+      {
+        "uri": "https://arxiv.org/abs/2203.15556"
+      },
+      {
+        "uri": "https://arxiv.org/abs/2101.03961"
+      },
+      {
+        "uri": "https://arxiv.org/abs/2108.07258"
+      },
+      {
+        "uri": "https://arxiv.org/abs/2211.09110"
+      },
+      {
+        "uri": "https://arxiv.org/abs/2304.15004"
+      },
+      {
+        "uri": "https://hai.stanford.edu/ai-index/2026-ai-index-report/technical-performance"
+      },
+      {
+        "uri": "https://arxiv.org/abs/2202.05924"
+      },
+      {
+        "uri": "https://hai.stanford.edu/ai-index/2026-ai-index-report/research-and-development"
+      },
+      {
+        "uri": "https://www.iea.org/reports/key-questions-on-energy-and-ai/executive-summary"
+      }
+    ]
+  }
+}

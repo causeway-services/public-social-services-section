@@ -1,0 +1,51 @@
+{
+  "at": "2026-10-04T15:18:02.465Z",
+  "grounding": {
+    "completed": true,
+    "completedSearches": 5,
+    "sources": [
+      {
+        "uri": "https://www.ncei.noaa.gov/access/services/data/v1?dataset=normals-monthly-1991-2020&endDate=9996-12-31&format=pdf&startDate=0001-01-01&stations=USW00003947"
+      },
+      {
+        "uri": "https://www.weather.gov/eax/kcrecnorm"
+      },
+      {
+        "uri": "https://www.ncei.noaa.gov/products/land-based-station/us-climate-normals"
+      },
+      {
+        "uri": "https://statesummaries.ncics.org/chapter/mo/"
+      },
+      {
+        "uri": "https://www.marc.org/sites/default/files/2022-05/Climate-Risk-and-Vulnerability-Assessment.pdf"
+      },
+      {
+        "uri": "https://statesummaries.ncics.org/chapter/ks/"
+      },
+      {
+        "uri": "https://nca2023.globalchange.gov/chapter/24/"
+      }
+    ]
+  },
+  "inference": {
+    "model": "gpt-5.6-sol",
+    "provider": "codex",
+    "exchanges": [
+      {
+        "outcome": "completion",
+        "recordedAt": "2026-10-04T15:18:02.439Z",
+        "completedSearches": 5,
+        "model": "gpt-5.6-sol",
+        "citedUrls": [
+          "https://www.ncei.noaa.gov/access/services/data/v1?dataset=normals-monthly-1991-2020&endDate=9996-12-31&format=pdf&startDate=0001-01-01&stations=USW00003947",
+          "https://www.weather.gov/eax/kcrecnorm",
+          "https://www.ncei.noaa.gov/products/land-based-station/us-climate-normals",
+          "https://statesummaries.ncics.org/chapter/mo/",
+          "https://www.marc.org/sites/default/files/2022-05/Climate-Risk-and-Vulnerability-Assessment.pdf",
+          "https://statesummaries.ncics.org/chapter/ks/",
+          "https://nca2023.globalchange.gov/chapter/24/"
+        ]
+      }
+    ]
+  }
+}

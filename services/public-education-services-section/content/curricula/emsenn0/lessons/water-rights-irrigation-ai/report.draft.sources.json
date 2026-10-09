@@ -1,0 +1,26 @@
+{
+  "draftSha256": "696a043a5079e802b4e7ee42825ea37c125fe26440d9946d2d21b3f1aba90be0",
+  "searches": 7,
+  "exchanges": [
+    {
+      "outcome": "completion",
+      "recordedAt": "2026-10-01T16:24:57.055Z",
+      "completedSearches": 7,
+      "model": "gpt-5.6-sol",
+      "citedUrls": [
+        "https://openknowledge.fao.org/3/cb3844en/cb3844en.pdf",
+        "https://www.usbr.gov/library/glossary/",
+        "https://usbr.gov/lc/region/programs/contracts/Legislation.pdf",
+        "https://www.doi.gov/sites/doi.gov/files/uploads/doi_transition_briefing_book.pdf",
+        "https://www.doi.gov/ocl/s-1987",
+        "https://www.supremecourt.gov/opinions/22pdf/21-1484_aplc.pdf?cid=eml_dl",
+        "https://pubs.usgs.gov/publication/cir1441",
+        "https://www.frontiersin.org/journals/sustainable-food-systems/articles/10.3389/fsufs.2026.1847041/full",
+        "https://www.ers.usda.gov/publications/105893",
+        "https://www.sciencedirect.com/science/article/pii/S0378377421000585",
+        "https://eta-publications.lbl.gov/sites/default/files/2024-12/lbnl-2024-united-states-data-center-energy-usage-report.pdf?stream=top"
+      ]
+    }
+  ],
+  "evidence": []
+}
