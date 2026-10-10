@@ -1,0 +1,139 @@
+{
+  "id": "public-education-youtube-channels-from-first-principles",
+  "name": "The public-education YouTube channels, aligned from first principles",
+  "kind": "requirement",
+  "raised-by": "emsenn",
+  "asks": "we want to make sure those channels are working, researching topics for videos, routinely generating videos, automatically uploading them, etc.",
+  "met-when": [
+    {
+      "cell": "public-education-youtube-channels-from-first-principles:held",
+      "target": "held",
+      "command": "test -f lib/emsenn/services/561-group/services/public-services-section/services/public-social-services-section/services/public-education-services-section/content/requirements/public-education-youtube-channels-from-first-principles.json",
+      "expected-exit": 0
+    }
+  ],
+  "tier": "strategic",
+  "x-provenance": {
+    "recorded-by": "office agent of the 561 Group (Lenticule Science Senior and Red Cup Engineer Senior), development pass sigrid-publishing-1 of debt-2026-10-09-leader-words-held-in-corpus",
+    "recorded-on": "2026-10-10",
+    "customer": "urn:leader:emsenn",
+    "basis": "The Leader's utterances cited in `sources`, read in full. `asks` and `sources[].words` are the Leader's own words; the requirements are an EARS rendering of what those words state and carry no scope the words do not.",
+    "board-opening": {
+      "speech-act": "request",
+      "need": "we want to make sure those channels are working, researching topics for videos, routinely generating videos, automatically uploading them, etc.",
+      "scope": [
+        "section:services/public-services-section/services/public-social-services-section/services/public-education-services-section"
+      ],
+      "requirements": [
+        {
+          "id": "R1",
+          "says": "The public-education channels' pipeline shall state, for each channel, why the channel exists, what it uploads and how its production works.",
+          "class": "functional",
+          "moscow": "must",
+          "rationale": "[wGKZF1Xf86ic]: 'Okay what is the fucking PREMISE here like from first principles WHY do these channels exist WHAT should they upload HOW should that work'."
+        },
+        {
+          "id": "R2",
+          "says": "The pipeline shall research topics for videos.",
+          "class": "functional",
+          "moscow": "must",
+          "rationale": "[8KitRd-l-Ms8]."
+        },
+        {
+          "id": "R3",
+          "says": "The pipeline shall generate videos routinely.",
+          "class": "functional",
+          "moscow": "must",
+          "rationale": "[8KitRd-l-Ms8]."
+        },
+        {
+          "id": "R4",
+          "says": "The pipeline shall upload videos automatically.",
+          "class": "functional",
+          "moscow": "must",
+          "rationale": "[8KitRd-l-Ms8]."
+        },
+        {
+          "id": "R5",
+          "says": "The pipeline shall record the schedule and enablement state of each channel separately.",
+          "class": "functional",
+          "moscow": "should",
+          "rationale": "[wGKZF1Xf86ic]: 'I don't understand why this is one github workflow when it's like 3-5 channels. I also don't know why the workflow is disabled'."
+        },
+        {
+          "id": "R6",
+          "says": "The pipeline shall consume Gemini Notebook usage credits within a stated budget per run.",
+          "class": "functional",
+          "moscow": "must",
+          "rationale": "[wGKZF1Xf86ic]: the last time the code was worked on, the 19th, 'you quickly burnt all of our Gemini Notebook usage credits'."
+        },
+        {
+          "id": "R7",
+          "says": "The pipeline shall run on cloud resources that are less finite than Gemini Notebook usage credits.",
+          "class": "functional",
+          "moscow": "should",
+          "rationale": "[wGKZF1Xf86ic]: 'No, you may not; not when we have other cloud resources that are less finite and tight to work with.'"
+        },
+        {
+          "id": "R8",
+          "says": "The pipeline's code shall be derived from the premise and the theory of why the channels exist and not from patches to its apparent faults.",
+          "class": "functional",
+          "moscow": "must",
+          "rationale": "[wGKZF1Xf86ic]: 'align the code with that, not just fixing the apparent issues, which only emerge from the weak architecture'."
+        }
+      ],
+      "conditions": [
+        {
+          "id": "C1",
+          "says": "Each channel's record states its premise, its upload rule and its production steps, citing the theory behind it.",
+          "method": "inspection",
+          "verifies": [
+            "R1",
+            "R8"
+          ]
+        },
+        {
+          "id": "C2",
+          "says": "In a week the channels research, generate and upload videos with no human step.",
+          "method": "test",
+          "verifies": [
+            "R2",
+            "R3",
+            "R4"
+          ]
+        },
+        {
+          "id": "C3",
+          "says": "A run's credit use is within its stated budget.",
+          "method": "test",
+          "verifies": [
+            "R6"
+          ]
+        }
+      ],
+      "context": "The upstream of the channels is the Gemini Notebook stack ([8KitRd-l-Ms8]: 'upstream of our public education youtube channels'). `turntide.561.group` is the URL the Founder gave on 2026-09-24 ([wGKZF1Xf86ic] #2); the Group's Turntide deployment (`turntide-islands`, the `turntide-youtube-chatter` job in the machine-deployment records) is the existing carrier. The Founder's three numbered points answer agent questions not preserved in the utterance record; the Founder's #3 is the same point as #1 (the agent was not reading the theory of why these things exist).",
+      "sources": [
+        {
+          "address": "ni:///sha-256;swzzOe3kIqPzGIPozlbutMKinKlyC328KitRd-l-Ms8",
+          "at-utc": "2026-09-24T04:54:06.206Z",
+          "words": "segue toward working on the youtube and gemini notebook stuff that is upstream of our public education youtube channels. we want to make sure those channels are working, researching topics for videos, routinely generating videos, automatically uploading them, etc."
+        },
+        {
+          "address": "ni:///sha-256;UzptWQe-gHp6TwgrgHTsXFRZs9MQYTdwGKZF1Xf86ic",
+          "at-utc": "2026-09-24T16:13:33.036Z",
+          "words": "I also know that the last time you worked on this code, the 19th, you quickly burnt all of our Gemini Notebook usage credits, and so am suspicious of this entire stack of software"
+        },
+        {
+          "address": "ni:///sha-256;UzptWQe-gHp6TwgrgHTsXFRZs9MQYTdwGKZF1Xf86ic",
+          "at-utc": "2026-09-24T16:13:33.036Z",
+          "words": "the URL is turntide.561.group"
+        }
+      ],
+      "serves": [
+        "debt-2026-10-09-leader-words-held-in-corpus"
+      ],
+      "after": [],
+      "traces": []
+    }
+  }
+}
