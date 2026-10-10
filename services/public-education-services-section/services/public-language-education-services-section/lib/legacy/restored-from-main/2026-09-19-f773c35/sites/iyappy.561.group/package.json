@@ -1,0 +1,23 @@
+{
+  "name": "@causeway-services/iyappy",
+  "version": "0.1.0",
+  "type": "module",
+  "description": "Cloudflare deployment carrier for iYappy, a welcoming first public presence for Lakȟótiyapi study.",
+  "scripts": {
+    "build": "node scripts/build-site.mjs",
+    "check": "node --check src/index.mjs && node --check scripts/build-site.mjs && node --check victor.config.mjs",
+    "pretest": "npm run build",
+    "test": "node --test test/*.test.mjs",
+    "deploy": "npm run build && wrangler deploy"
+  },
+  "dependencies": {
+    "@red-cup-engineering/education-platform-service": "0.2.4",
+    "@red-cup-engineering/victor": "0.1.8"
+  },
+  "devDependencies": {
+    "wrangler": "4.123.0"
+  },
+  "engines": {
+    "node": ">=22"
+  }
+}

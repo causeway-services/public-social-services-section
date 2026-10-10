@@ -1,0 +1,22 @@
+{
+  "name": "@emsenn/health-education-video-enterprise",
+  "version": "0.1.0",
+  "type": "module",
+  "description": "The infection-associated chronic illness (IACI) public-education knowledge-product line's video lane: narrated explainer videos rendered from content/videos/<slug>/script.json through the offline video-rendering engine, one video per book chapter, sibling to health-education-curriculum-services-section and health-education-newsletter-services-section.",
+  "files": [
+    "content/",
+    "scripts/"
+  ],
+  "scripts": {
+    "check": "node --check scripts/render-video.mjs && node --check test/script.test.mjs",
+    "render-video": "node scripts/render-video.mjs",
+    "test": "node --test test/script.test.mjs"
+  },
+  "engines": {
+    "node": ">=22.18"
+  },
+  "dependencies": {
+    "@red-cup-engineering/video-rendering-services-section": "0.2.0"
+  },
+  "license": "UNLICENSED"
+}

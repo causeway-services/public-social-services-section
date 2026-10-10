@@ -1,0 +1,43 @@
+{
+  "name": "@emsenn/artificial-intelligence-youtube-channel-enterprise",
+  "version": "0.2.8",
+  "type": "module",
+  "exports": {
+    "./channel": "./src/channel.mjs",
+    "./supplier-clients": "./src/supplier-clients.mjs",
+    "./record-journal": "./src/record-journal.mjs"
+  },
+  "files": [
+    "src/",
+    "content/"
+  ],
+  "scripts": {
+    "check": "for file in src/*.mjs test/*.test.mjs; do node --check \"$file\" || exit; done",
+    "oauth-setup": "node src/oauth-setup.mjs",
+    "serve-portfolio-status": "node src/serve-status-a2a.mjs",
+    "serve-release-distribution": "node src/serve-release-distribution-a2a.mjs",
+    "replenish-one-lesson": "node src/replenish-one-lesson.mjs",
+    "run-alternating": "node src/alternating-runner.mjs",
+    "private-draft-pilot": "node src/private-draft-pilot.mjs",
+    "schedule-pending": "node src/schedule-pending.mjs",
+    "observe-pending-publication": "node src/observe-pending-publication.mjs",
+    "collect-analytics": "node src/analytics.mjs",
+    "course-playlist": "node src/course-playlist-projection.mjs",
+    "test": "node --test test/*.test.mjs",
+    "verify": "npm run check && npm test"
+  },
+  "dependencies": {
+    "@emsenn/artificial-intelligence-curriculum-enterprise": "0.1.7",
+    "@emsenn/artificial-intelligence-research-enterprise": "0.1.5",
+    "@coesite-operations/release-distribution-commission-a2a-service": "0.1.5",
+    "@coesite-operations/release-distribution-processing-a2a-service": "0.1.5",
+    "@red-cup-engineering/a2a-agent-card-discovery-service": "1.0.14",
+    "@red-cup-engineering/a2a-channel-portfolio-status-service": "1.0.8",
+    "@red-cup-engineering/a2a-contracted-agent-service": "2.1.4",
+    "@red-cup-engineering/a2a-rmn-part-service": "1.0.6",
+    "@red-cup-engineering/a2a-rmn-task-client-service": "1.1.12",
+    "@red-cup-engineering/semantic-content-identify-service": "0.2.7",
+    "@red-cup-engineering/semantic-record-journal-service": "0.1.8",
+    "@red-cup-engineering/youtube-services-section": "0.1.3"
+  }
+}
