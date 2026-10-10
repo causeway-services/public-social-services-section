@@ -58,6 +58,11 @@
           "rationale": "2026-09-28: \"did you tell me you just turned off our production shit and did not do the work necessary to get it back on?\""
         }
       ]
+    },
+    "sign-cell": {
+      "type": "emsenn/schema/requirement",
+      "mark": "ni:///sha-256;mtPQFn3LTQv7hZ_wBJ5QPo5MTkLc9QFL69vNLtEGoqs",
+      "cell": "ni:///sha-256;2ld3x_L_Eg4J1ut8UCJ-He0p5OXn8B4prUEAerwibuU"
     }
   }
 }
