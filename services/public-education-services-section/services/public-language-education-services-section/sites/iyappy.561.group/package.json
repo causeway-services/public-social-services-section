@@ -9,8 +9,8 @@
     "deploy": "npm run build && wrangler deploy"
   },
   "dependencies": {
-    "@red-cup-engineering/education-platform-service": "0.2.5",
-    "@red-cup-engineering/static-site-publisher": "0.1.15"
+    "@red-cup-engineering/education-platform-service": "workspace:*",
+    "@red-cup-engineering/static-site-publisher": "workspace:*"
   },
   "devDependencies": {
     "wrangler": "4.123.0"
