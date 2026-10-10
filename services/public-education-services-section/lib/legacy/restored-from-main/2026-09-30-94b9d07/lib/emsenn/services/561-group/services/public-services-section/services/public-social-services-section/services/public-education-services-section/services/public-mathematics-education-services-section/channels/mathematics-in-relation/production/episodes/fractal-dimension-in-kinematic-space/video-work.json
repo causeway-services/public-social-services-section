@@ -1,0 +1,15 @@
+{
+  "id": "ni:///sha-256;uZYy9uMxRH5bTv3V60AN7MdmgxJHc-lCwe9yU6K0d4I",
+  "type": "MediaArtifactWorkLot",
+  "workLot": "mathematics-in-relation/fractal-dimension-in-kinematic-space/video",
+  "principal": "urn:ame:public-education-services-section",
+  "capability": "source-grounded-video-overview",
+  "prompt": "{\"title\":\"Fractal dimension in kinematic space\",\"video\":{\"format\":\"cinematic\",\"style\":\"auto\",\"language\":\"en\",\"prompt\":\"Explain Fractal dimension in kinematic space using the selected source reports. Preserve the distinctions, evidence, uncertainty, and learning objectives in the lesson brief. Do not introduce claims unsupported by the sources.\"}}",
+  "sources": [
+    {
+      "path": "/home/emsenn/info/lib/emsenn/services/561-group/services/public-services-section/services/public-social-services-section/services/public-education-services-section/services/public-mathematics-education-services-section/content/curricula/causality-and-kinematic-space/lessons/fractal-dimension-in-kinematic-space/report.md",
+      "identity": "ni:///sha-256;E1hXEi6F5GUqAq3_XBRwCHgYpJDgRg3OKty7zmjf-IA"
+    }
+  ],
+  "outputMimeType": "video/mp4"
+}

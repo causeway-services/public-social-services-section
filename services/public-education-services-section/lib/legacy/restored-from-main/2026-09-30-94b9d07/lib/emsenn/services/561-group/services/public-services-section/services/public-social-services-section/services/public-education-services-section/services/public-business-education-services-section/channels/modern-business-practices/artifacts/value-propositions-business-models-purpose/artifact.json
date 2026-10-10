@@ -1,0 +1,20 @@
+{
+  "type": "ModernBusinessGeminiNotebookVideoMaterialization",
+  "notebookId": "763fbe07-e786-4e23-9b33-b53f05230573",
+  "notebookArtifactId": "c065ad06-f523-467f-a725-2fa33f0d1894",
+  "notebookArtifactTitle": "Purpose & Business Models",
+  "lesson": "value-proposition-business-model-purpose",
+  "path": "video.mp4",
+  "mediaType": "video/mp4",
+  "sha256": "sha256:98f20e11fc4bc9ff9b9e3006a2c604f11da2991b8971e380300e299d237b5ccc",
+  "byteLength": 29595268,
+  "durationSeconds": 634.28,
+  "video": { "codec": "h264-high", "width": 1280, "height": 720, "framesPerSecond": 24 },
+  "audio": { "codec": "aac-lc", "sampleRate": 44100, "channels": 1 },
+  "reviewContactSheet": "review/contact-sheet.jpg",
+  "metadata": "../../../content/production/value-propositions-business-models-purpose.metadata.json",
+  "status": "materialized-awaiting-Studio-review-and-schedule",
+  "intendedReleaseAt": "2026-07-23T15:00:00.000Z",
+  "publicReleaseClaimed": false,
+  "observedAt": "2026-07-22T03:39:00.000Z"
+}

@@ -1,0 +1,16 @@
+{
+  "title": "Los Angeles Climate History and Outlook",
+  "description": "This video explains the complex reality of Los Angeles's climate future, focusing on historical records and climate models. It covers the city's unique inherited climate, the mechanics of climate change, the heat and coastal outlook, the drought and flood paradox, compound risks, and adapting to the future. The video emphasizes the importance of understanding the difference between weather and climate, and how climate change can alter the background conditions that make extreme events more likely and intense. It also discusses the role of human decisions in shaping the future magnitude of climate change and the importance of adapting to the changing hazards. The video cites sources from the California Climate Adaptation Strategy, the Fourth California Climate Change Assessment, and other reports.\n\nReport sources:\nhttps://climateresilience.ca.gov/regions/los-angeles.html\nhttps://www.energy.ca.gov/sites/default/files/2019-11/Reg%20Report-%20SUM-CCCA4-2018-007%20LosAngeles_ADA.pdf\nhttps://oehha.ca.gov/epic/changes-climate/overview-changes-climate",
+  "tags": [
+    "Los Angeles climate",
+    "climate change",
+    "weather vs climate",
+    "heat and coastal outlook",
+    "drought and flood paradox",
+    "compound risks",
+    "adapting to the future",
+    "California Climate Adaptation Strategy",
+    "Fourth California Climate Change Assessment"
+  ],
+  "thumbnailPrompt": "A 16:9 illustration of a map of Los Angeles with a temperature gradient from cool to hot, representing the city's unique climate and the impact of climate change on its future."
+}

@@ -1,0 +1,67 @@
+{
+  "id": "pace-yourself",
+  "name": "PACE Yourself",
+  "handle": "@PACE-Yourself",
+  "youtubeChannelId": "UC3M3DheHyXSdrK12c3cpojQ",
+  "refreshTokenEnv": "PACE_YOURSELF_YOUTUBE_OAUTH_REFRESH_TOKEN",
+  "notebookId": null,
+  "video": {
+    "format": "explainer",
+    "style": "auto",
+    "language": "en",
+    "prompt": "Explain {{title}} using the selected source reports. Preserve the distinctions, evidence, uncertainty, and learning objectives in the lesson brief. Do not introduce claims unsupported by the sources."
+  },
+  "schedule": {
+    "days": [
+      1,
+      3,
+      5
+    ],
+    "hourUtc": 15
+  },
+  "branding": {
+    "handle": "@PACE-Yourself",
+    "tagline": "What a body can afford today, and why.",
+    "description": "PACE Yourself explains the science of infection-associated chronic illness (IACI) in plain words, with every claim labeled by how well-established it is. IACI covers long COVID, ME/CFS, post-treatment Lyme disease syndrome, and related post-infection conditions.\n\nPause, Attune, Care, Engage: the four moves of pacing, the one intervention with real evidence behind it, explained the way it actually works in a body, not the way a wellness ad wants it to sound.\n\nEducational material, not medical advice.\n\nShop: https://shop.561.group\nPacing app: https://pacing.561.group",
+    "keywords": [
+      "infection-associated chronic illness",
+      "IACI",
+      "long COVID",
+      "ME/CFS",
+      "myalgic encephalomyelitis",
+      "chronic fatigue syndrome",
+      "post-treatment Lyme disease syndrome",
+      "post-exertional malaise",
+      "pacing",
+      "pacing app",
+      "chronic illness education",
+      "PACE Yourself"
+    ],
+    "bannerTextLines": [
+      "PACE Yourself",
+      "Pause, Attune, Care, Engage",
+      "The science of infection-associated chronic illness, plainly"
+    ],
+    "defaultTags": [
+      "PACE Yourself",
+      "IACI",
+      "long COVID",
+      "ME/CFS",
+      "pacing",
+      "post-exertional malaise",
+      "chronic illness"
+    ],
+    "descriptionFooter": "Part of PACE Yourself — Pause, Attune, Care, Engage — public-health-services-section's practice line for infection-associated chronic illness.\n\n#PACEYourself #MECFS #LongCOVID #IACI #Pacing\n\npublic-health-services-section · a division of Causeway Services · research by Achromat (Lenticule Science) · systems by Ampoule (Red Cup Engineering) · care by Splint (Coesite Operations)",
+    "uploadDefaults": {
+      "privacy": "private-then-scheduled",
+      "category": "Education",
+      "language": "en",
+      "madeForKids": false
+    }
+  },
+  "enabled": false,
+  "editorial": {
+    "evidencePolicy": "Label established findings, preliminary research, and uncertainty. Educational material, not medical advice."
+  },
+  "curriculum": "../../content/curricula/pace-yourself/curriculum.json"
+}

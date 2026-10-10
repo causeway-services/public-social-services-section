@@ -1,0 +1,62 @@
+{
+  "version": 1,
+  "channel": "machine-learning-history-frontier",
+  "lessonId": "reinforcement-learning-planning-decision",
+  "stage": "published",
+  "createdAt": "2026-09-26T15:14:24.161Z",
+  "commissionedAt": "2026-09-26T15:14:24.161Z",
+  "updatedAt": "2026-09-30T15:21:49.845Z",
+  "researchSearches": 4,
+  "reportSha256": "f5333c8e5dbedeff875c3f92e971520e37a897d3dc383edfddd5ad4cc864dcf9",
+  "notebookId": "9c3eed44-7fa3-4203-8b79-e0a20b91017f",
+  "sourceSubmission": {
+    "notebookId": "9c3eed44-7fa3-4203-8b79-e0a20b91017f",
+    "title": "machine-learning-history-frontier/reinforcement-learning-planning-decision/f5333c8e5dbedeff",
+    "originalFilename": "report.md",
+    "baselineSourceIds": [
+      "29d34bd6-aae7-4733-8582-6e0842b1f49b",
+      "b28846aa-3e35-436a-9d50-475361ea197b",
+      "3a083bf6-8abd-4821-b017-5e4ba465768d",
+      "573a2b7a-8f73-4f1c-9d81-ec594d8aee11",
+      "ae2eb5b2-a1c4-4780-829c-5100cd03345b",
+      "403fc845-d8e3-45ae-8292-9dabbf992b4e",
+      "9e2187c3-f6a7-4f19-adb9-c62eecf122bc",
+      "94633e2c-362e-4d7e-a14d-e0d684cc9f40",
+      "75b5b07c-4f71-4452-a1f4-622b842c604b",
+      "0335021e-5fe9-413c-a6df-5444fc834430",
+      "da2db535-ecb5-4fed-8fde-4119fcd6a55a",
+      "f2d00381-9082-4453-9c1f-3fb9db3ec05b",
+      "c3a646cf-103b-4c2f-8ef5-d46ed625bdf8",
+      "c3768d26-b600-48e6-a1d4-f2b154006add",
+      "db56ae78-3f52-4aa7-9d70-d125ecaea4d0"
+    ],
+    "started": true,
+    "sourceId": "31d0de71-9681-438c-a0d4-263876c44e53",
+    "created": true
+  },
+  "sourceTitle": "machine-learning-history-frontier/reinforcement-learning-planning-decision/f5333c8e5dbedeff",
+  "videoRequestSha256": "5b8b44da0ed68ca27fc70c579d36dd12668f72042127bce293fce2d554a740be",
+  "sourceId": "31d0de71-9681-438c-a0d4-263876c44e53",
+  "sourceOwned": true,
+  "videoAttempts": 1,
+  "generationStarted": true,
+  "generationAttempt": {
+    "number": 1,
+    "startedAt": "2026-09-26T15:16:46.043Z",
+    "format": "explainer"
+  },
+  "artifactId": "0fa9fd9d-429d-48ad-b74e-4d72253f8247",
+  "lastError": null,
+  "downloadedArtifactId": "0fa9fd9d-429d-48ad-b74e-4d72253f8247",
+  "downloadedBytes": 53071297,
+  "downloadSha256": "sha256:89e3ebcbe894402312e9b32c98754e8c167297d0c885a910373ec47ec1c2f52e",
+  "reportSourceRemoved": true,
+  "plannedPublishAt": "2026-09-30T15:00:00.000Z",
+  "youtubeVideoId": "nZRaEHJqohM",
+  "thumbnailError": {
+    "at": "2026-09-26T15:38:09.918Z",
+    "code": "CUSTOM_THUMBNAIL_PERMISSION",
+    "message": "YouTube custom-thumbnail permission is unavailable for this channel. Check YouTube Studio > Settings > Channel > Feature eligibility; the uploaded video and its publication schedule remain intact."
+  },
+  "publishAt": "2026-09-30T15:00:17Z"
+}

@@ -1,0 +1,16 @@
+{
+  "title": "Measuring Geometric Complexity in Kinematic Space",
+  "description": "This video explains how to measure the geometric complexity of kinematic space using a strict three-step process. The process involves mapping boundary intervals to points, establishing a valid measuring metric, and applying the box-counting method. The video covers the core mechanics of kinematic space, including the representation of intervals as points, the distinction between causal order and metric distance, and the use of the box-counting formula to measure covering behavior and scaling rates. The video also discusses the limitations of fractal dimension and its relationship to information and bulk geometry. The source report provides a detailed explanation of the mathematical framework and its applications in holographic settings. The video is suitable for curious adults prepared to learn definitions and follow constructions, and it covers the competencies of representing causal comparability as a partial order, using light cones, timelike separation, and causal diamonds correctly, and relating geometric quantities to information or entropy without overstating the correspondence. [1] [2] [3] [4] [5] [6] [7] [8] [9] [10]\n\nReport sources:\nhttps://www.ma.imperial.ac.uk/~jswlamb/M345PA46/F85%20chap%201.pdf\nhttps://onlinelibrary.wiley.com/doi/10.1002/0470013850.ch3\nhttps://arxiv.org/abs/1512.01548",
+  "tags": [
+    "kinematic space",
+    "fractal dimension",
+    "geometric complexity",
+    "causal order",
+    "metric distance",
+    "box-counting method",
+    "holographic settings",
+    "information geometry",
+    "bulk geometry"
+  ],
+  "thumbnailPrompt": "A 16:9 illustration of a two-dimensional graph with theta and alpha coordinates, representing the core rule of kinematic space, where a single point on the graph is a mathematical representation of an entire boundary interval or bulk geodesic."
+}

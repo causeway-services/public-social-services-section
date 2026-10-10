@@ -1,0 +1,33 @@
+{
+  "id": "ni:///sha-256;n7uObXuSwZtlLGMSDDNwL8ht2xssl0JDUDOH5Jo2zoE",
+  "type": "MediaArtifactWorkCompletion",
+  "workLot": "emsenn0/carbon-removal-costs/thumbnail",
+  "request": "ni:///sha-256;pjafSgFNXXhCvwblJ-3iqQprEdTo5TZtJt0mNLcUU2M",
+  "principal": "urn:ame:public-education-services-section",
+  "capability": "image-generation",
+  "providerIdentity": "cloudflare-workers-ai",
+  "product": "@cf/black-forest-labs/flux-1-schnell",
+  "executionMode": "direct-api-endpoint",
+  "prompt": "ni:///sha-256;KDiyW_VxFpd6NVh3nr1RRHLKFv6ESSTw7jffBB3Pty0",
+  "promptText": "Create an original editorial illustration for a YouTube thumbnail. Panoramic 16:9 composition, all essential subjects within the middle horizontal 16:9 band, clear focal point and readable forms at small sizes. No text, letters, numbers, labels, logos, signatures, or watermarks.\n\nA diagram illustrating the various methods of carbon removal, including reforestation, soil-carbon management, biochar, BECCS, DACCS, and enhanced rock weathering, with arrows showing the flow of carbon dioxide from the atmosphere to storage in different ecosystems.",
+  "sources": [
+    {
+      "path": "/home/emsenn/info/lib/emsenn/services/561-group/services/public-services-section/services/public-social-services-section/services/public-education-services-section/content/curricula/emsenn0/lessons/carbon-removal-costs/report.md",
+      "identity": "ni:///sha-256;y939GM-ZypV2NBa5GcjWvSO9OgVb4NRVUS59-AOZQQk"
+    },
+    {
+      "path": "/home/emsenn/info/lib/emsenn/services/561-group/services/public-services-section/services/public-social-services-section/services/public-education-services-section/channels/emsenn0/production/episodes/carbon-removal-costs/transcript.md",
+      "identity": "ni:///sha-256;Ylf4cTG7_3zf2s0BIScg998YquXJlazSiHi7kvffylI"
+    }
+  ],
+  "output": {
+    "identity": "ni:///sha-256;MjWUGnW9l67traYOn8CKJcZohwuO_5QbcXCtnsm6iL4",
+    "bytes": 69085,
+    "mimeType": "image/jpeg"
+  },
+  "resource": {
+    "status": "not-observed"
+  },
+  "recordedAt": "2026-09-30T22:30:49.195Z",
+  "publishedImage": "ni:///sha-256;MjWUGnW9l67traYOn8CKJcZohwuO_5QbcXCtnsm6iL4"
+}

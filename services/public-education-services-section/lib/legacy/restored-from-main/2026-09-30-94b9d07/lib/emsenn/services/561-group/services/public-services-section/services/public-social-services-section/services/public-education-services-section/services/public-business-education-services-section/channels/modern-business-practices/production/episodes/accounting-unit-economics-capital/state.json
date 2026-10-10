@@ -1,0 +1,62 @@
+{
+  "version": 1,
+  "channel": "modern-business-practices",
+  "lessonId": "accounting-unit-economics-capital",
+  "stage": "scheduled",
+  "createdAt": "2026-09-26T15:25:34.842Z",
+  "commissionedAt": "2026-09-26T15:25:34.842Z",
+  "updatedAt": "2026-09-26T15:42:12.025Z",
+  "researchSearches": 3,
+  "reportSha256": "97be7b1fcb5c43576f67329812c101fe2110c941191537e24714c87d12da1778",
+  "notebookId": "763fbe07-e786-4e23-9b33-b53f05230573",
+  "sourceSubmission": {
+    "notebookId": "763fbe07-e786-4e23-9b33-b53f05230573",
+    "title": "modern-business-practices/accounting-unit-economics-capital/97be7b1fcb5c4357",
+    "originalFilename": "report.md",
+    "baselineSourceIds": [
+      "13fd0c2d-cd25-4092-bd25-fed79f31c407",
+      "d171ad43-65f1-49fa-91d8-a8662d793fbb",
+      "9193cd05-2840-4703-94f5-7db4163eead2",
+      "8a23ca9d-69f4-4553-b4a2-0cffa36604a4",
+      "3622feaf-8e5e-4a83-9a55-9b4b76bf24e1",
+      "c1050c15-e609-4f3b-92dc-81808f577aae",
+      "04e1db12-cd79-41f2-8523-dbdcf59d5ed1",
+      "ad6f0d08-8f80-428a-a7e3-6c2d9bc8fd8a"
+    ],
+    "started": true,
+    "sourceId": "27483b52-c8e5-4be7-bbaf-057386a0a7a5",
+    "created": true
+  },
+  "sourceTitle": "modern-business-practices/accounting-unit-economics-capital/97be7b1fcb5c4357",
+  "videoRequestSha256": "c760cc2ce66f54987f35d1aae396bda3e53687c790a02684cdb3a8f66f7bb7d0",
+  "sourceId": "27483b52-c8e5-4be7-bbaf-057386a0a7a5",
+  "sourceOwned": true,
+  "videoAttempts": 1,
+  "generationStarted": true,
+  "generationAttempt": {
+    "number": 1,
+    "startedAt": "2026-09-26T15:27:51.829Z",
+    "sourceIds": [
+      "27483b52-c8e5-4be7-bbaf-057386a0a7a5"
+    ],
+    "prompt": "Explain Accounting, Unit Economics, Cash, and Capital Allocation using the selected source reports. Preserve the distinctions, evidence, uncertainty, and learning objectives in the lesson brief. Do not introduce claims unsupported by the sources.\nAccounting, Unit Economics, Cash, and Capital Allocation",
+    "title": "Accounting, Unit Economics, Cash, and Capital Allocation",
+    "format": "explainer",
+    "style": "auto",
+    "language": "en"
+  },
+  "artifactId": "bfe9191c-77be-4a8f-8539-2ae694ca7a1a",
+  "downloadedArtifactId": "bfe9191c-77be-4a8f-8539-2ae694ca7a1a",
+  "downloadedBytes": 50543086,
+  "downloadSha256": "sha256:8aaf1edb3bd4dfd140b1bde61644039927702ad203cd5008bc2b49e8198f85c2",
+  "reportSourceRemoved": true,
+  "plannedPublishAt": "2026-10-01T15:00:00.000Z",
+  "youtubeVideoId": "jmuzElWJrTM",
+  "thumbnailError": {
+    "at": "2026-09-26T15:40:10.509Z",
+    "code": "CUSTOM_THUMBNAIL_PERMISSION",
+    "message": "YouTube custom-thumbnail permission is unavailable for this channel. Check YouTube Studio > Settings > Channel > Feature eligibility; the uploaded video and its publication schedule remain intact."
+  },
+  "lastError": null,
+  "publishAt": "2026-10-01T15:00:00Z"
+}

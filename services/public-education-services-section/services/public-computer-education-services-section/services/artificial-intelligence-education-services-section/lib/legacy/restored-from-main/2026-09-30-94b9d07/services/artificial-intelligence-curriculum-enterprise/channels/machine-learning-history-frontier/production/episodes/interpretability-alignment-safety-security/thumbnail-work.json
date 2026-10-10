@@ -1,0 +1,19 @@
+{
+  "id": "ni:///sha-256;FFa_x6y6H0PEkAPprZSJDqZ7Xaf2WlH1xgP7edkhueU",
+  "type": "MediaArtifactWorkLot",
+  "workLot": "machine-learning-history-frontier/interpretability-alignment-safety-security/thumbnail",
+  "principal": "urn:ame:public-education-services-section",
+  "capability": "image-generation",
+  "prompt": "Create an original editorial illustration for a YouTube thumbnail. Panoramic 16:9 composition, all essential subjects within the middle horizontal 16:9 band, clear focal point and readable forms at small sizes. No text, letters, numbers, labels, logos, signatures, or watermarks.\n\nA vivid illustration of a machine learning model with four pillars: interpretability, alignment, safety, and security, surrounded by a complex network of data, tools, and users.",
+  "sources": [
+    {
+      "path": "/home/emsenn/info/lib/emsenn/services/561-group/services/public-services-section/services/public-social-services-section/services/public-education-services-section/services/public-computer-education-services-section/services/artificial-intelligence-education-services-section/services/artificial-intelligence-curriculum-enterprise/content/curricula/history-and-frontiers-of-machine-learning/lessons/interpretability-alignment-safety-security/report.md",
+      "identity": "ni:///sha-256;QCBWKVXASFKtKz6Edp36rr9h-WUltMkp1yjz76UfIpM"
+    },
+    {
+      "path": "/home/emsenn/info/lib/emsenn/services/561-group/services/public-services-section/services/public-social-services-section/services/public-education-services-section/services/public-computer-education-services-section/services/artificial-intelligence-education-services-section/services/artificial-intelligence-curriculum-enterprise/channels/machine-learning-history-frontier/production/episodes/interpretability-alignment-safety-security/transcript.md",
+      "identity": "ni:///sha-256;osRXMlsKbOXpRhl4aAJAAQnYj8ECjja0gDYTKyX2Ceg"
+    }
+  ],
+  "outputMimeType": "image/*"
+}

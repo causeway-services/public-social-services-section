@@ -1,0 +1,19 @@
+{
+  "id": "ni:///sha-256;6Bf6B598nZAFzwLa0B2waYIDAO5Yvb4x_ktrmgjztD0",
+  "type": "MediaArtifactWorkLot",
+  "workLot": "mathematics-in-relation/fractal-dimension-in-kinematic-space/thumbnail",
+  "principal": "urn:ame:public-education-services-section",
+  "capability": "image-generation",
+  "prompt": "Create an original editorial illustration for a YouTube thumbnail. Panoramic 16:9 composition, all essential subjects within the middle horizontal 16:9 band, clear focal point and readable forms at small sizes. No text, letters, numbers, labels, logos, signatures, or watermarks.\n\nA 16:9 illustration of a two-dimensional graph with theta and alpha coordinates, representing the core rule of kinematic space, where a single point on the graph is a mathematical representation of an entire boundary interval or bulk geodesic.",
+  "sources": [
+    {
+      "path": "/home/emsenn/info/lib/emsenn/services/561-group/services/public-services-section/services/public-social-services-section/services/public-education-services-section/services/public-mathematics-education-services-section/content/curricula/causality-and-kinematic-space/lessons/fractal-dimension-in-kinematic-space/report.md",
+      "identity": "ni:///sha-256;E1hXEi6F5GUqAq3_XBRwCHgYpJDgRg3OKty7zmjf-IA"
+    },
+    {
+      "path": "/home/emsenn/info/lib/emsenn/services/561-group/services/public-services-section/services/public-social-services-section/services/public-education-services-section/services/public-mathematics-education-services-section/channels/mathematics-in-relation/production/episodes/fractal-dimension-in-kinematic-space/transcript.md",
+      "identity": "ni:///sha-256;QLud6hAY1tk08ct0qemS1pkY07tAIQ6Z9nXi-WeJkbQ"
+    }
+  ],
+  "outputMimeType": "image/*"
+}

@@ -1,0 +1,33 @@
+{
+  "id": "emsenn0",
+  "name": "emsenn",
+  "handle": "@emsenn0",
+  "youtubeChannelId": "UC04l4oe3ZgkgM8H63Pvp9Kg",
+  "refreshTokenEnv": "YOUTUBE_OAUTH_REFRESH_TOKEN",
+  "notebookId": "67510ce7-79b3-4caa-b25c-28e0d3911b5a",
+  "video": {
+    "format": "explainer",
+    "style": "auto",
+    "language": "en",
+    "prompt": "Explain {{title}} using the selected source reports. Preserve the distinctions, evidence, uncertainty, and learning objectives in the lesson brief. Do not introduce claims unsupported by the sources."
+  },
+  "schedule": {
+    "days": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6
+    ],
+    "hourUtc": 15
+  },
+  "editorial": {
+    "mathematicsReferral": {
+      "url": "https://www.youtube.com/@MathematicsInRelation",
+      "label": "For deeper mathematical study: MathematicsInRelation"
+    }
+  },
+  "curriculum": "../../content/curricula/emsenn0/curriculum.json"
+}

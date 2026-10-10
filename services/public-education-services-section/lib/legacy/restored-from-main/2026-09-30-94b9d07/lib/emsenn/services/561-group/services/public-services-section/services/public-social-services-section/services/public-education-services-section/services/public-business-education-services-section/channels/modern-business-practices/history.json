@@ -1,0 +1,18 @@
+{
+  "version": 1,
+  "publications": [
+    {
+      "youtubeVideoId": "fRnoCLDnn2g",
+      "title": "Value Propositions, Business Models, and Institutional Purpose",
+      "publishedAt": "2026-07-23T15:00:27Z",
+      "privacyStatus": "public",
+      "renderer": "gemini-notebook",
+      "source": "YouTube Data API inventory 2026-09-20",
+      "artifactId": "c065ad06-f523-467f-a725-2fa33f0d1894",
+      "lessonId": "value-proposition-business-model-purpose"
+    }
+  ],
+  "ready": [],
+  "inventoryObservedAt": "2026-09-20",
+  "inventorySource": "history/youtube-inventory-2026-09-20.json"
+}

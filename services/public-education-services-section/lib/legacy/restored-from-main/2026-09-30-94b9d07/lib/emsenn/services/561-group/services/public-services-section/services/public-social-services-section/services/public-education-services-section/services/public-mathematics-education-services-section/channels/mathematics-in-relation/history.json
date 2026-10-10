@@ -1,0 +1,77 @@
+{
+  "version": 1,
+  "publications": [
+    {
+      "youtubeVideoId": "e7TpH6TyePo",
+      "title": "Information, entropy, and kinematic geometry | Mathematics in Relation",
+      "publishedAt": "2026-09-06T15:00:33Z",
+      "privacyStatus": "public",
+      "renderer": "substituted-non-notebook",
+      "source": "YouTube Data API inventory 2026-09-20",
+      "lessonId": "information-and-entropy",
+      "note": "September replacement renderer; retained as published history, not evidence of original Gemini Notebook capability."
+    },
+    {
+      "youtubeVideoId": "vwrT20E4QGo",
+      "title": "Worked constructions, failure cases, and open questions | Mathematics in Relation",
+      "publishedAt": "2026-09-06T15:00:21Z",
+      "privacyStatus": "public",
+      "renderer": "substituted-non-notebook",
+      "source": "YouTube Data API inventory 2026-09-20",
+      "lessonId": "constructions-and-failures",
+      "note": "September replacement renderer; retained as published history, not evidence of original Gemini Notebook capability."
+    },
+    {
+      "youtubeVideoId": "fza6DDwExag",
+      "title": "Geometry on a space of regions | Mathematics in Relation",
+      "publishedAt": "2026-09-05T16:43:15Z",
+      "privacyStatus": "private",
+      "renderer": "substituted-non-notebook",
+      "source": "YouTube Data API inventory 2026-09-20",
+      "lessonId": "space-of-regions",
+      "note": "September replacement renderer; retained as published history, not evidence of original Gemini Notebook capability."
+    },
+    {
+      "youtubeVideoId": "mqJcRksvgDQ",
+      "title": "From intervals to points | Mathematics in Relation",
+      "publishedAt": "2026-07-24T15:00:15Z",
+      "privacyStatus": "public",
+      "renderer": "gemini-notebook",
+      "source": "YouTube Data API inventory 2026-09-20",
+      "artifactId": "e44f238e-4717-455c-8076-ea1bf17d5c68",
+      "lessonId": "intervals-to-points"
+    },
+    {
+      "youtubeVideoId": "rKA9oV2r8_A",
+      "title": "Lorentzian geometry | Mathematics in Relation",
+      "publishedAt": "2026-07-23T15:00:19Z",
+      "privacyStatus": "public",
+      "renderer": "gemini-notebook",
+      "source": "YouTube Data API inventory 2026-09-20",
+      "artifactId": "c7a74903-e100-497d-a446-92258056e959",
+      "lessonId": "lorentzian-geometry"
+    },
+    {
+      "youtubeVideoId": "80BOJp0Ys2Y",
+      "title": "Order before distance | Mathematics in Relation",
+      "publishedAt": "2026-07-22T15:00:36Z",
+      "privacyStatus": "public",
+      "renderer": "gemini-notebook",
+      "source": "YouTube Data API inventory 2026-09-20",
+      "artifactId": "17354732-6672-4f5d-9a49-9d6b4c0de12d",
+      "lessonId": "order-before-distance"
+    },
+    {
+      "youtubeVideoId": "glLQW_cogQA",
+      "title": "Order Before Distance | Causality and Kinematic Space",
+      "publishedAt": "2026-07-22T05:38:56Z",
+      "privacyStatus": "private",
+      "renderer": "unknown-historical",
+      "source": "YouTube Data API inventory 2026-09-20",
+      "lessonId": "order-before-distance"
+    }
+  ],
+  "ready": [],
+  "inventoryObservedAt": "2026-09-20",
+  "inventorySource": "history/youtube-inventory-2026-09-20.json"
+}

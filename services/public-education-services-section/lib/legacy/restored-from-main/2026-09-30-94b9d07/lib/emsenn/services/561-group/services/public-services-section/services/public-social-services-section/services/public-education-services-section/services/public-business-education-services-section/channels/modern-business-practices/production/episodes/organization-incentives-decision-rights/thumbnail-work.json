@@ -1,0 +1,19 @@
+{
+  "id": "ni:///sha-256;l7ZRF5pwNJ5qUiwvukZtpPdDAxD_fCq2WRXEA2zam6M",
+  "type": "MediaArtifactWorkLot",
+  "workLot": "modern-business-practices/organization-incentives-decision-rights/thumbnail",
+  "principal": "urn:ame:public-education-services-section",
+  "capability": "image-generation",
+  "prompt": "Create an original editorial illustration for a YouTube thumbnail. Panoramic 16:9 composition, all essential subjects within the middle horizontal 16:9 band, clear focal point and readable forms at small sizes. No text, letters, numbers, labels, logos, signatures, or watermarks.\n\nA diagram showing the different components of an organization, including decision-making, incentives, and coordination, with arrows indicating the flow of information and power.",
+  "sources": [
+    {
+      "path": "/home/emsenn/info/lib/emsenn/services/561-group/services/public-services-section/services/public-social-services-section/services/public-education-services-section/services/public-business-education-services-section/content/curricula/modern-firm-as-operational-system/lessons/organization-incentives-decision-rights/report.md",
+      "identity": "ni:///sha-256;7LRQ62l6sqb4rvo6IPc5NOTXBMj0fAXzk3MDk_afNHc"
+    },
+    {
+      "path": "/home/emsenn/info/lib/emsenn/services/561-group/services/public-services-section/services/public-social-services-section/services/public-education-services-section/services/public-business-education-services-section/channels/modern-business-practices/production/episodes/organization-incentives-decision-rights/transcript.md",
+      "identity": "ni:///sha-256;WRcOk1Gp2AUiHNc0uhFRhHSrC8wYrbLEtKIA5GflqKs"
+    }
+  ],
+  "outputMimeType": "image/*"
+}

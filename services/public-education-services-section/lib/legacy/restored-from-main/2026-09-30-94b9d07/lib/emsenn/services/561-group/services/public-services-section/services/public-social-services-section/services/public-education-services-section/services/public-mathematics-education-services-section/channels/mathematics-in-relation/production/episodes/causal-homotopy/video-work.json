@@ -1,0 +1,15 @@
+{
+  "id": "ni:///sha-256;l3CC75KuJKUWQT5r_3OcDG6mr9IQcUlJgJ4F4eTKAQA",
+  "type": "MediaArtifactWorkLot",
+  "workLot": "mathematics-in-relation/causal-homotopy/video",
+  "principal": "urn:ame:public-education-services-section",
+  "capability": "source-grounded-video-overview",
+  "prompt": "{\"title\":\"Causal diamonds and homotopy in kinematic space\",\"video\":{\"format\":\"cinematic\",\"style\":\"auto\",\"language\":\"en\",\"prompt\":\"Explain Causal diamonds and homotopy in kinematic space using the selected source reports. Preserve the distinctions, evidence, uncertainty, and learning objectives in the lesson brief. Do not introduce claims unsupported by the sources.\"}}",
+  "sources": [
+    {
+      "path": "/home/emsenn/info/lib/emsenn/services/561-group/services/public-services-section/services/public-social-services-section/services/public-education-services-section/services/public-mathematics-education-services-section/content/curricula/causality-and-kinematic-space/lessons/causal-homotopy/report.md",
+      "identity": "ni:///sha-256;IgxH5L4K47U1UTjC99vD923v6nMNSv_3jV3JCbJdwzA"
+    }
+  ],
+  "outputMimeType": "video/mp4"
+}

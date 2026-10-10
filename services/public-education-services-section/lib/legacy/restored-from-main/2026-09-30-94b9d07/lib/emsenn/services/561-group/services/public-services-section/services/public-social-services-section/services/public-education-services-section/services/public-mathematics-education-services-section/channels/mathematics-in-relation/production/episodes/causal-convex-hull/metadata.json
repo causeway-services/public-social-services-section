@@ -1,0 +1,14 @@
+{
+  "description": "This video constructs a causal convex hull in kinematic space, mapping out a rigid causal diamond, testing where the geometry breaks down, and calculating its true volume using quantum entanglement entropy. The video explains the differences between boundary spatial slices, bulk spatial geometry, and kinematic space, and how causal order is determined by interval containment. It also discusses the limitations of causal order in determining metric distance and the need for additional structure to assign sizes or information-theoretic weights to the hull.\n\nReport sources:\nhttps://arxiv.org/abs/hep-th/0603001\nhttps://arxiv.org/abs/1505.05515\nhttps://pubs.aip.org/aip/jmp/article-abstract/18/7/1399/460709/The-class-of-continuous-timelike-curves-determines",
+  "tags": [
+    "causal convex hull",
+    "kinematic space",
+    "causal order",
+    "interval containment",
+    "quantum entanglement entropy",
+    "holography",
+    "conformal field theory"
+  ],
+  "thumbnailPrompt": "A vivid text-free 16:9 illustration of a causal diamond in kinematic space, with null coordinates and a shaded region representing the order-convex hull.",
+  "title": "Causal Convex Hulls in Kinematic Space"
+}

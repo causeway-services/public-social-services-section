@@ -1,0 +1,53 @@
+{
+  "version": 1,
+  "channel": "modern-business-practices",
+  "lessonId": "process-constraints-quality-operations",
+  "stage": "published",
+  "createdAt": "2026-09-26T14:58:08.361Z",
+  "commissionedAt": "2026-09-26T14:58:08.361Z",
+  "updatedAt": "2026-09-29T15:23:06.894Z",
+  "researchSearches": 5,
+  "reportSha256": "06d8d6d913160e1dbed6a8095b8779243ce2c1346b504ac2cf1ea2d349d779bf",
+  "notebookId": "763fbe07-e786-4e23-9b33-b53f05230573",
+  "sourceSubmission": {
+    "notebookId": "763fbe07-e786-4e23-9b33-b53f05230573",
+    "title": "modern-business-practices/process-constraints-quality-operations/06d8d6d913160e1d",
+    "originalFilename": "process-constraints-quality-operations.md",
+    "baselineSourceIds": [
+      "13fd0c2d-cd25-4092-bd25-fed79f31c407",
+      "d171ad43-65f1-49fa-91d8-a8662d793fbb",
+      "9193cd05-2840-4703-94f5-7db4163eead2",
+      "8a23ca9d-69f4-4553-b4a2-0cffa36604a4",
+      "3622feaf-8e5e-4a83-9a55-9b4b76bf24e1",
+      "c1050c15-e609-4f3b-92dc-81808f577aae",
+      "04e1db12-cd79-41f2-8523-dbdcf59d5ed1",
+      "ad6f0d08-8f80-428a-a7e3-6c2d9bc8fd8a"
+    ],
+    "started": true,
+    "sourceId": "899fb803-6c09-4bcf-9e02-96a3e4dad9f0",
+    "created": true
+  },
+  "sourceTitle": "modern-business-practices/process-constraints-quality-operations/06d8d6d913160e1d",
+  "videoRequestSha256": "069dd04500fe6ac2874a49df4e7c388a90c4863ba8db86efed722936036792a5",
+  "sourceId": "899fb803-6c09-4bcf-9e02-96a3e4dad9f0",
+  "sourceOwned": true,
+  "generationStarted": true,
+  "generationAttempt": {
+    "startedAt": "2026-09-26T15:00:53.431Z",
+    "format": "explainer"
+  },
+  "artifactId": "de4e16aa-7183-4e79-8418-5b1772b33a24",
+  "lastError": null,
+  "downloadedArtifactId": "de4e16aa-7183-4e79-8418-5b1772b33a24",
+  "downloadedBytes": 42443836,
+  "downloadSha256": "sha256:24a0f9e511b04bfcc6ee3f6559a91704d48a3c3f3570fe628d6b8279857c41f8",
+  "reportSourceRemoved": true,
+  "plannedPublishAt": "2026-09-29T15:00:00.000Z",
+  "youtubeVideoId": "Fa68w0dmbGc",
+  "thumbnailError": {
+    "at": "2026-09-26T15:13:53.726Z",
+    "code": "CUSTOM_THUMBNAIL_PERMISSION",
+    "message": "YouTube custom-thumbnail permission is unavailable for this channel. Check YouTube Studio > Settings > Channel > Feature eligibility; the uploaded video and its publication schedule remain intact."
+  },
+  "publishAt": "2026-09-29T15:00:13Z"
+}
