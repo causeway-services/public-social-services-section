@@ -134,6 +134,11 @@
       ],
       "after": [],
       "traces": []
+    },
+    "sign-cell": {
+      "type": "emsenn/schema/requirement",
+      "mark": "ni:///sha-256;t58HE8KVmPmHaZpi8ZO8Ajo-L7CJts4pZjpgRK6kn8U",
+      "cell": "ni:///sha-256;iXiClIRliuxGImHaJprJbudhV1fjs2RBIQ2T3p1KBLY"
     }
   }
 }
