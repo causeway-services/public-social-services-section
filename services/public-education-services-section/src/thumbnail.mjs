@@ -6,7 +6,7 @@ import { generateImage } from "@red-cup-engineering/computer-inference-engine/im
 import { imageProviders } from "@red-cup-engineering/google-flow-services-section/flow-generate";
 import { completeAccountArtifactWork, loadAccountArtifactObservations, requestAccountArtifactWork } from "@red-cup-engineering/computer-inference-engine/media/account-artifact-work";
 import { accountArtifactCapacityStorePath, transitionAccountArtifactCapacity } from "@red-cup-engineering/computer-inference-engine/media/account-artifact-capacity";
-import { fitJpeg } from "@red-cup-engineering/computer-media-content-services-section/raster";
+import { fitJpeg } from "@red-cup-engineering/computer-media-engineering-services-section/raster";
 import { createHash } from "node:crypto";
 import { readFileSync } from "node:fs";
 import { recordedPath } from "./channel.mjs";

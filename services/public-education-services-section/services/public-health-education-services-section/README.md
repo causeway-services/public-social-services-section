@@ -30,7 +30,7 @@ Five-custody thread (org-layering.md, 2026-09-01):
   counterpoint wing names this program as its ninth enterprise.
 - **public**: [Health Education Curriculum Services Section](services/health-education-curriculum-services-section/README.md)
   — seated 2026-09-01, owning the ebook line
-  (`@561-group/health-education-curriculum-enterprise`, *Understanding
+  (`@561-group/health-education-curriculum-services-section`, *Understanding
   Infection-Associated Chronic Illness*); the article line remains
   unseated, and the channel is now PACE Yourself (see "Dimensions and
   uncertainties" below). The ebook line now holds two books —
