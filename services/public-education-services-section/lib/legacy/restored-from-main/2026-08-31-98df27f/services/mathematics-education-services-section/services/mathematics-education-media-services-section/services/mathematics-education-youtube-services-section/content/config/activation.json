@@ -1,0 +1,26 @@
+{
+  "status": "daily-cinematic-production-and-scheduled-public-insert-active",
+  "dailyCinematicProduction": "granted",
+  "inventoryAdmission": "granted",
+  "releasePlanning": "granted",
+  "youtubeWrites": "granted",
+  "coursePlaylistWrites": "withheld-until-three-public-lessons-and-expanded-oauth",
+  "leaderInputsStillRequired": [
+    "grant playlist-write OAuth scope after three public lessons exist",
+    "designate the course playlist once in YouTube Studio after the playlist exists"
+  ],
+  "evidence": {
+    "youtubeOAuthState": "live refresh and channels.list(mine=true) verified MathematicsInRelation as exact channel UCVk_gd1Tv320tj6ofCTiLMw on 2026-07-22; refresh token held only in ignored root .env",
+    "youtubeDataApiState": "live authenticated channel identity read succeeded on 2026-07-22",
+    "firstCinematicInventory": "urn:sha256:76481a51ff70af1a86a30e4297d617bfc653357be27a38370d6f2e5b86ebc25a",
+    "firstReleaseClaim": "urn:sha256:c763d79e302cba8482db921884fc12e01716c16c141eca607a702a2361fab95a",
+    "firstPrivatePublicationReceipt": "urn:sha256:a384159d30c3b6c2e12847a871a7fe34c9e9b0a5fd4e089622214ad30883eab2",
+    "firstPrivateYoutubeVideo": "glLQW_cogQA; independently observed on exact channel UCVk_gd1Tv320tj6ofCTiLMw with title Order Before Distance | Causality and Kinematic Space and privacyStatus private on 2026-07-22",
+    "scopeMinimizedScheduling": "Leader repeatedly requested unattended publication; the same verified OAuth client and youtube.upload capability may set a future publishAt during videos.insert while public release remains unclaimed until venue observation"
+  },
+  "scheduledPublication": { "status": "first-schedule-public-and-processed-observed", "youtubeVideoId": "80BOJp0Ys2Y", "receipt": "urn:sha256:d13fe8dacee5ca72cd2f489ba993b5bfa3df60a3c213dc1c31e91cb2da0ff682", "publishAt": "2026-07-22T15:00:00.000Z", "publicPublicationReceipt": "urn:sha256:c7a6fa7135853eeb61208bdb3d17e5910166fb224c85b291ca35640c6185f4da", "releaseNotice": "urn:sha256:9e94c770726a3ea8930db02802a58e5c64927f1f225475c9769c332f8b4d70f7", "distributionPlan": "urn:sha256:c00d606adf22bde0535264e827cf6fe412384dd2aa6ca7458543317321c2ef94", "distributionProcessingReceipt": "urn:sha256:8297aa3fd1d94734a67aa297ceb93dba9c1527cc2390d36e390ac1804881b3af" },
+  "publicationObservationRoutine": { "status": "enabled-active-first-public-release-observed", "timerUnit": "emsweb-mathematics-observe-public.timer", "interval": "15 minutes", "firstObservation": "urn:sha256:b976b21259789a7f4410a2142a674cc629e5a10c249aae51ebc7e850b3646f55", "firstPublicAndProcessedObservation": "urn:sha256:c7a6fa7135853eeb61208bdb3d17e5910166fb224c85b291ca35640c6185f4da" },
+  "venueConstraint": "The YouTube Data API may manage playlist membership; this settlement does not claim it can designate a playlist as a Course.",
+  "coursePlaylistProjection": { "status": "installed-waiting-for-three-public-lessons-and-expanded-oauth", "timerUnit": "emsweb-mathematics-course-playlist-projection.timer", "minimumPublicLessons": 3, "courseDesignationAuthority": "withheld-to-leader-desktop-studio-action" },
+  "neverEvidence": "A local inventory admission or release claim is not evidence of an upload, scheduled publishAt, public release, playlist, Course designation, view, subscriber, or revenue."
+}

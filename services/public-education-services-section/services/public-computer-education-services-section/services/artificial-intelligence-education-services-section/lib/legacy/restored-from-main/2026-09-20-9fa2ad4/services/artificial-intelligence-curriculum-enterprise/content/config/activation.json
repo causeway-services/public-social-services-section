@@ -1,0 +1,12 @@
+{
+  "status": "active-admitted-products-and-signed-delivery",
+  "lessonOffers": "active-prerequisite-ordered-course-v1",
+  "lessonAdmission": "active-only-for-authenticated-settled-research-products",
+  "signedDelivery": {
+    "status": "enabled-active-under-user-systemd",
+    "serviceUnit": "emsweb-artificial-intelligence-curriculum-delivery-a2a.service",
+    "customer": "urn:ame:artificial-intelligence-youtube-channel-enterprise",
+    "agentCardIdentity": "ni:///sha-256;n3XTfyQ9W7X4V8hzi58my-SV8w1BebZtajf18jaiXR8"
+  },
+  "authorityWithheld": ["research mutation", "notebook or generation authority", "youtube credentials", "upload", "scheduling", "publication"]
+}

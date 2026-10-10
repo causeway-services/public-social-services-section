@@ -1,0 +1,14 @@
+{
+  "actor": "urn:ame:mathematics-youtube-channel-enterprise",
+  "publicIdentityStatus": "leader-created-and-live-oauth-verified",
+  "youtubeChannelId": "UCVk_gd1Tv320tj6ofCTiLMw",
+  "youtubeHandle": "@MathematicsInRelation",
+  "youtubeTitle": "MathematicsInRelation",
+  "publicPromise": "One carefully framed cinematic mathematics lesson each day, organized into coherent courses that build difficult ideas relationally.",
+  "timezone": "America/Chicago",
+  "dailyCinematicTarget": 1,
+  "cinematicAllocation": "mathematics-standing",
+  "curriculumProvider": "urn:ame:mathematics-curriculum-enterprise",
+  "notebookProvider": "urn:ame:persistent-notebook-enterprise",
+  "referralSource": "urn:ame:youtube-channel-enterprise"
+}

@@ -1,0 +1,17 @@
+{
+  "type": "PersistentNotebookChannelVideoProviderBinding",
+  "status": "active",
+  "customer": "urn:ame:mathematics-youtube-channel-enterprise",
+  "provider": "urn:ame:persistent-notebook-enterprise",
+  "notebook": "urn:emsenn:notebooklm-notebook:67510ce7-79b3-4caa-b25c-28e0d3911b5a",
+  "agentUrl": "http://127.0.0.1:18445/.well-known/agent-card.json",
+  "agentCardIdentity": "ni:///sha-256;QfbNMmKVfegw8gsyJr5dj0LT4wTTsAunJKX10xmQaZk",
+  "agentCardSignatureIdentity": "ni:///sha-256;5-vIlO8MpnNa0-AV22ldewjNgYsKrTxj1sX1CBj1kZM",
+  "contract": "ni:///sha-256;0TDXfC4K9K8Jyr9bCNpQuHzK30Qmo0FAnPxpFoIbjSg",
+  "format": "cinematic",
+  "videoOverviewCapacityAllocation": "mathematics-daily",
+  "cinematicCapacityAllocation": "mathematics-standing",
+  "artifactExchange": "http://127.0.0.1:18438",
+  "authorityWithheld": ["notebook-credentials", "source-deletion", "youtube-credentials", "youtube-publication"],
+  "boundAt": "2026-07-22T04:08:20.000Z"
+}

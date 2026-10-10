@@ -1,0 +1,6 @@
+import assert from "node:assert/strict";
+import test from "node:test";
+import { selectPendingBridge, selectPendingPublication } from "../src/observe-pending-publication.mjs";
+test("business publication observer chooses the earliest schedule lacking a public receipt", () => { const schedules = [{ id: "later", status: "scheduled-not-observed", publishAt: "2096-07-25T15:00:00.000Z" }, { id: "first", status: "scheduled-not-observed", publishAt: "2096-07-23T15:00:00.000Z" }], publications = [{ scheduledPublicationReceipt: "later" }]; assert.equal(selectPendingPublication(schedules, publications).id, "first"); });
+test("business publication observer has no work after the public receipt", () => { assert.equal(selectPendingPublication([{ id: "done", status: "scheduled-not-observed", publishAt: "2096-07-23T15:00:00.000Z" }], [{ scheduledPublicationReceipt: "done" }]), null); });
+test("business publication observer retains the bootstrap bridge until its own public receipt", () => { const bridge = { id: "bridge", status: "scheduled-not-observed", publishAt: "2096-07-23T15:00:00.000Z" }; assert.equal(selectPendingBridge([bridge], []).id, "bridge"); assert.equal(selectPendingBridge([bridge], [{ scheduledUploadReceipt: "bridge" }]), null); });
