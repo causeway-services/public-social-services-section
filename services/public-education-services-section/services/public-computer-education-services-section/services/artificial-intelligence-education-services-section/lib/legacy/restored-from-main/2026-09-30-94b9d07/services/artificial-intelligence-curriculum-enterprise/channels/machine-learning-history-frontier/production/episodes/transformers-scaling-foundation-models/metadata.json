@@ -1,0 +1,15 @@
+{
+  "description": "This video explains the mechanics behind modern AI, covering transformers, scaling, foundation models, evaluation problems, and infrastructure and energy. It discusses how transformers function, the power of scaling, building foundation models, and the challenges of evaluating AI systems. The video also touches on the physical reality of AI, including its energy footprint and the concentration of power in the industry.\n\nReport sources:\nhttps://arxiv.org/abs/1706.03762\nhttps://arxiv.org/abs/2205.14135\nhttps://arxiv.org/abs/1810.04805",
+  "tags": [
+    "machine learning",
+    "artificial intelligence",
+    "transformers",
+    "scaling",
+    "foundation models",
+    "evaluation",
+    "infrastructure",
+    "energy"
+  ],
+  "thumbnailPrompt": "A vivid illustration of a transformer model processing a sequence of tokens, with a background representing the vast amounts of data and compute required for modern AI systems.",
+  "title": "The Mechanics of Modern AI: Transformers, Scaling, and Foundation Models"
+}

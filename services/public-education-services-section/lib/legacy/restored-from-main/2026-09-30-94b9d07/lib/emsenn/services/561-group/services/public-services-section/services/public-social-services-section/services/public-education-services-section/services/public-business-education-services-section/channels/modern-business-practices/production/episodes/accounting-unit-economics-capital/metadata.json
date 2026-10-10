@@ -1,0 +1,15 @@
+{
+  "description": "This video explains how to understand a business through four lenses: accounting, unit economics, cash, and capital allocation. It emphasizes that no single financial metric can capture a firm's performance and that these complementary views are necessary to build a traceable chain from customer demand to investment decisions.\n\nReport sources:\nhttps://www.ifrs.org/issued-standards/list-of-standards/conceptual-framework/\nhttps://www.ifrs.org/content/dam/ifrs/publications/pdf-standards/english/2026/issued/part-a/conceptual-framework-for-financial-reporting.pdf?bypass=on\nhttps://www.ifrs.org/issued-standards/list-of-standards/ias-7-statement-of-cash-flows/",
+  "tags": [
+    "financial analysis",
+    "business model",
+    "accounting",
+    "unit economics",
+    "cash flow",
+    "capital allocation",
+    "governance",
+    "evidence loop"
+  ],
+  "thumbnailPrompt": "A vivid, text-free 16:9 illustration showing four interconnected lenses (accounting, unit economics, cash, and capital allocation) with a business operation system in the background, representing a holistic view of a firm's financial and operational performance.",
+  "title": "Understanding Business Performance: 4 Lenses"
+}

@@ -1,0 +1,70 @@
+{
+  "version": 1,
+  "channel": "machine-learning-history-frontier",
+  "lessonId": "interpretability-alignment-safety-security",
+  "stage": "scheduled",
+  "createdAt": "2026-09-30T15:21:50.126Z",
+  "commissionedAt": "2026-09-30T15:21:50.126Z",
+  "updatedAt": "2026-09-30T22:56:23.579Z",
+  "researchSearches": 4,
+  "reportSha256": "4020562955c04852ad2b3e84769dfaaebf61f96525b4c929d728f3efa51f2293",
+  "videoWorkLot": "ni:///sha-256;RGYONyqfAxn2Ec_78FMhlhw4J5rHs8jXiux_TqKLRhE",
+  "notebookId": "9c3eed44-7fa3-4203-8b79-e0a20b91017f",
+  "sourceSubmission": {
+    "notebookId": "9c3eed44-7fa3-4203-8b79-e0a20b91017f",
+    "title": "machine-learning-history-frontier/interpretability-alignment-safety-security/4020562955c04852",
+    "originalFilename": "report.md",
+    "baselineSourceIds": [
+      "29d34bd6-aae7-4733-8582-6e0842b1f49b",
+      "b28846aa-3e35-436a-9d50-475361ea197b",
+      "3a083bf6-8abd-4821-b017-5e4ba465768d",
+      "573a2b7a-8f73-4f1c-9d81-ec594d8aee11",
+      "ae2eb5b2-a1c4-4780-829c-5100cd03345b",
+      "403fc845-d8e3-45ae-8292-9dabbf992b4e",
+      "9e2187c3-f6a7-4f19-adb9-c62eecf122bc",
+      "94633e2c-362e-4d7e-a14d-e0d684cc9f40",
+      "75b5b07c-4f71-4452-a1f4-622b842c604b",
+      "0335021e-5fe9-413c-a6df-5444fc834430",
+      "da2db535-ecb5-4fed-8fde-4119fcd6a55a",
+      "f2d00381-9082-4453-9c1f-3fb9db3ec05b",
+      "c3a646cf-103b-4c2f-8ef5-d46ed625bdf8",
+      "c3768d26-b600-48e6-a1d4-f2b154006add"
+    ],
+    "started": true,
+    "sourceId": "1f35853f-945f-4f37-8c96-5b04c4f5592c",
+    "created": true
+  },
+  "sourceTitle": "machine-learning-history-frontier/interpretability-alignment-safety-security/4020562955c04852",
+  "videoRequestSha256": "05cc468d4eae669a6b53d4cdb812b817b60bc9b2582542bff0fa22c970d31fbe",
+  "sourceId": "1f35853f-945f-4f37-8c96-5b04c4f5592c",
+  "sourceOwned": true,
+  "videoAttempts": 1,
+  "generationStarted": true,
+  "generationAttempt": {
+    "number": 1,
+    "startedAt": "2026-09-30T15:49:31.907Z",
+    "sourceIds": [
+      "1f35853f-945f-4f37-8c96-5b04c4f5592c"
+    ],
+    "prompt": "Explain Interpretability, Alignment, Safety, and Security using the selected source reports. Preserve the distinctions, evidence, uncertainty, and learning objectives in the lesson brief. Do not introduce claims unsupported by the sources.\nInterpretability, Alignment, Safety, and Security",
+    "title": "Interpretability, Alignment, Safety, and Security",
+    "format": "explainer",
+    "style": "auto",
+    "language": "en"
+  },
+  "artifactId": "6109a82f-86cb-4d61-88b9-46b6a56a0355",
+  "downloadedArtifactId": "6109a82f-86cb-4d61-88b9-46b6a56a0355",
+  "downloadedBytes": 50206575,
+  "downloadSha256": "sha256:e7255d2f4ea2bf7bf4423108b088e4c6b557335896e39586c7885f1bf2eb9ff6",
+  "reportSourceRemoved": true,
+  "videoWorkReceipt": "ni:///sha-256;vGfbhW8_fjhqqXfdzqwDYOKBctD9Iu34tbX7zlrBQCo",
+  "lastError": null,
+  "plannedPublishAt": "2026-10-05T15:00:00.000Z",
+  "youtubeVideoId": "al2baEOsxHU",
+  "thumbnailError": {
+    "at": "2026-09-30T22:32:58.479Z",
+    "code": "CUSTOM_THUMBNAIL_PERMISSION",
+    "message": "YouTube custom-thumbnail permission is unavailable for this channel. Check YouTube Studio > Settings > Channel > Feature eligibility; the uploaded video and its publication schedule remain intact."
+  },
+  "publishAt": "2026-10-05T15:00:00Z"
+}

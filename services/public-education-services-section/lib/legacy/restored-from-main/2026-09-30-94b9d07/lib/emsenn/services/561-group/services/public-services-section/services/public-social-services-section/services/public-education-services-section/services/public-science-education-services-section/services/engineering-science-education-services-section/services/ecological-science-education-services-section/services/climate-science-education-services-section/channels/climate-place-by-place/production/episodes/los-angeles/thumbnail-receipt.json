@@ -1,0 +1,33 @@
+{
+  "id": "ni:///sha-256;Orgv-WrfegSHy1d2A8iUltlafmzFiN85mBff7AyhMjE",
+  "type": "MediaArtifactWorkCompletion",
+  "workLot": "climate-place-by-place/los-angeles/thumbnail",
+  "request": "ni:///sha-256;H5apRVymM32veXPIK_zi3eEgruV8Tkb74Mfty-CyWoA",
+  "principal": "urn:ame:public-education-services-section",
+  "capability": "image-generation",
+  "providerIdentity": "cloudflare-workers-ai",
+  "product": "@cf/black-forest-labs/flux-1-schnell",
+  "executionMode": "direct-api-endpoint",
+  "prompt": "ni:///sha-256;hte8AaMB5dz8PiWGmnV3TNsch6PCrRa6s1DKJl_QhDs",
+  "promptText": "Create an original editorial illustration for a YouTube thumbnail. Panoramic 16:9 composition, all essential subjects within the middle horizontal 16:9 band, clear focal point and readable forms at small sizes. No text, letters, numbers, labels, logos, signatures, or watermarks.\n\nA 16:9 illustration of a map of Los Angeles with a temperature gradient from cool to hot, representing the city's unique climate and the impact of climate change on its future.",
+  "sources": [
+    {
+      "path": "/home/emsenn/info/lib/emsenn/services/561-group/services/public-services-section/services/public-social-services-section/services/public-education-services-section/services/public-science-education-services-section/services/engineering-science-education-services-section/services/ecological-science-education-services-section/services/climate-science-education-services-section/content/curricula/climate-place-by-place/lessons/los-angeles/report.md",
+      "identity": "ni:///sha-256;tHaMioU4KcpE4Ee9VuV2vAop7n9YVTrZ-V0g7Lw7UCM"
+    },
+    {
+      "path": "/home/emsenn/info/lib/emsenn/services/561-group/services/public-services-section/services/public-social-services-section/services/public-education-services-section/services/public-science-education-services-section/services/engineering-science-education-services-section/services/ecological-science-education-services-section/services/climate-science-education-services-section/channels/climate-place-by-place/production/episodes/los-angeles/transcript.md",
+      "identity": "ni:///sha-256;Z5WMVhoKEW-tKNi0tZVcGbIzc0K267FWj0-1oSUFJEQ"
+    }
+  ],
+  "output": {
+    "identity": "ni:///sha-256;h9644XuAgOTxCMfWezfrsDEL2KLQVm5v8BGFK-MLFe4",
+    "bytes": 148068,
+    "mimeType": "image/jpeg"
+  },
+  "resource": {
+    "status": "not-observed"
+  },
+  "recordedAt": "2026-09-30T22:54:54.478Z",
+  "publishedImage": "ni:///sha-256;h9644XuAgOTxCMfWezfrsDEL2KLQVm5v8BGFK-MLFe4"
+}

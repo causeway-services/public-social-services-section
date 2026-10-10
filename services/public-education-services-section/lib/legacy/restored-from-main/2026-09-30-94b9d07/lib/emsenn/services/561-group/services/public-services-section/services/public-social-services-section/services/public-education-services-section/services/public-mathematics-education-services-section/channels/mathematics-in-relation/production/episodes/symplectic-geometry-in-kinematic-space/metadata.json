@@ -1,0 +1,13 @@
+{
+  "description": "This video constructs a symplectic form from boundary entanglement entropy to compute a Poisson bracket for the static ADS3 vacuum. It follows a five-step pipeline: defining points in kinematic space as oriented boundary intervals, calculating entanglement entropy, deriving the Hessian matrix and symplectic form, and inverting the form to find the Poisson bracket.\n\nReport sources:\nhttps://arxiv.org/abs/1505.05515\nhttps://arxiv.org/abs/1812.02176\nhttps://arxiv.org/pdf/1505.05515",
+  "tags": [
+    "kinematic space",
+    "symplectic form",
+    "entanglement entropy",
+    "Poisson bracket",
+    "ADS3 vacuum",
+    "conformal field theory"
+  ],
+  "thumbnailPrompt": "A vivid 16:9 illustration of an oriented boundary interval in kinematic space, with a clear representation of the interval's endpoints and the spacelike, timelike, and null relationships between intervals.",
+  "title": "Deriving Poisson Bracket from Entanglement Entropy in Kinematic Space"
+}

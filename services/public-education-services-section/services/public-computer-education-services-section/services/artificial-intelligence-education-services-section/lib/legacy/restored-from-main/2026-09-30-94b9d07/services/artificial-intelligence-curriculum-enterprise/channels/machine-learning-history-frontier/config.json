@@ -1,0 +1,24 @@
+{
+  "id": "machine-learning-history-frontier",
+  "name": "Machine Learning: History & Frontiers",
+  "handle": "@MachineLearningHistoryFrontier",
+  "youtubeChannelId": "UCZY23kFU8ddtPn8mnY9xGaw",
+  "refreshTokenEnv": "ARTIFICIAL_INTELLIGENCE_YOUTUBE_OAUTH_REFRESH_TOKEN",
+  "notebookId": "9c3eed44-7fa3-4203-8b79-e0a20b91017f",
+  "video": {
+    "format": "explainer",
+    "style": "auto",
+    "language": "en",
+    "prompt": "Explain {{title}} using the selected source reports. Preserve the distinctions, evidence, uncertainty, and learning objectives in the lesson brief. Do not introduce claims unsupported by the sources."
+  },
+  "schedule": {
+    "days": [
+      1,
+      3,
+      5
+    ],
+    "hourUtc": 15
+  },
+  "editorial": {},
+  "curriculum": "../../content/curricula/history-and-frontiers-of-machine-learning/curriculum.json"
+}

@@ -1,0 +1,33 @@
+{
+  "id": "ni:///sha-256;E8EamheC8RIh8uhuVOAB3j8p93FhPUx8P6BLHxMKEDU",
+  "type": "MediaArtifactWorkCompletion",
+  "workLot": "machine-learning-history-frontier/interpretability-alignment-safety-security/thumbnail",
+  "request": "ni:///sha-256;FFa_x6y6H0PEkAPprZSJDqZ7Xaf2WlH1xgP7edkhueU",
+  "principal": "urn:ame:public-education-services-section",
+  "capability": "image-generation",
+  "providerIdentity": "cloudflare-workers-ai",
+  "product": "@cf/black-forest-labs/flux-1-schnell",
+  "executionMode": "direct-api-endpoint",
+  "prompt": "ni:///sha-256;OcrCbcV8FMCezszuN0HW2PmmurnG5PMlZFDKBhiD3Gs",
+  "promptText": "Create an original editorial illustration for a YouTube thumbnail. Panoramic 16:9 composition, all essential subjects within the middle horizontal 16:9 band, clear focal point and readable forms at small sizes. No text, letters, numbers, labels, logos, signatures, or watermarks.\n\nA vivid illustration of a machine learning model with four pillars: interpretability, alignment, safety, and security, surrounded by a complex network of data, tools, and users.",
+  "sources": [
+    {
+      "path": "/home/emsenn/info/lib/emsenn/services/561-group/services/public-services-section/services/public-social-services-section/services/public-education-services-section/services/public-computer-education-services-section/services/artificial-intelligence-education-services-section/services/artificial-intelligence-curriculum-enterprise/content/curricula/history-and-frontiers-of-machine-learning/lessons/interpretability-alignment-safety-security/report.md",
+      "identity": "ni:///sha-256;QCBWKVXASFKtKz6Edp36rr9h-WUltMkp1yjz76UfIpM"
+    },
+    {
+      "path": "/home/emsenn/info/lib/emsenn/services/561-group/services/public-services-section/services/public-social-services-section/services/public-education-services-section/services/public-computer-education-services-section/services/artificial-intelligence-education-services-section/services/artificial-intelligence-curriculum-enterprise/channels/machine-learning-history-frontier/production/episodes/interpretability-alignment-safety-security/transcript.md",
+      "identity": "ni:///sha-256;osRXMlsKbOXpRhl4aAJAAQnYj8ECjja0gDYTKyX2Ceg"
+    }
+  ],
+  "output": {
+    "identity": "ni:///sha-256;Sb9hQYH2wvQNLIvM0_Pqbx4DG4jVwtkp4RSsYsrO0no",
+    "bytes": 219676,
+    "mimeType": "image/jpeg"
+  },
+  "resource": {
+    "status": "not-observed"
+  },
+  "recordedAt": "2026-09-30T22:32:35.671Z",
+  "publishedImage": "ni:///sha-256;Sb9hQYH2wvQNLIvM0_Pqbx4DG4jVwtkp4RSsYsrO0no"
+}

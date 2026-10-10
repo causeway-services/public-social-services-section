@@ -1,0 +1,8 @@
+{
+  "version": 1,
+  "publications": [],
+  "ready": [],
+  "inventoryObservedAt": "2026-09-20",
+  "inventorySource": "history/youtube-inventory-2026-09-20.json",
+  "inventoryError": "missing PACE_YOURSELF_YOUTUBE_OAUTH_REFRESH_TOKEN"
+}
