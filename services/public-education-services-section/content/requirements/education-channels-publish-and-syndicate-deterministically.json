@@ -66,6 +66,11 @@
           "rationale": "2026-10-03: \"we also wanna fix\"; the script today throws when no channel declares subjects, which stops every channel."
         }
       ]
+    },
+    "sign-cell": {
+      "type": "emsenn/schema/requirement",
+      "mark": "ni:///sha-256;HzsZbojXLbKvJZPYnGKKMFcwIqEllGcz241I3IwHEpQ",
+      "cell": "ni:///sha-256;6nd8LVTaiLazy3UHAb9_AAWfn1EUxgkKSK689RpWs1U"
     }
   }
 }
