@@ -1,5 +1,0 @@
-{
-  "type": "ArtificialIntelligenceCurriculumDeliveryAgentActivation", "status": "active", "host": "127.0.0.1", "port": 18447, "baseUrl": "http://127.0.0.1:18447", "timeoutMs": 30000,
-  "agentCard": "content/agent-cards/next-lesson-delivery.json", "signingKeyDataPath": "data/credentials/next-lesson-delivery-agent-card.pkcs8.pem", "publicJwks": "content/agent-cards/next-lesson-delivery-jwks.json", "signingKid": "artificial-intelligence-curriculum-next-lesson-ed25519", "algorithm": "EdDSA",
-  "customer": "urn:ame:artificial-intelligence-youtube-channel-enterprise", "authorityWithheld": ["research mutation", "notebook invocation", "youtube credentials", "upload", "scheduling", "publication"]
-}
